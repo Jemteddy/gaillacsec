@@ -1,0 +1,6 @@
+Orientations of Proteins in Membranes (OPM) database provides spatial positions of membrane protein structures with respect to the lipid bilayer. Positions of the proteins are calculated using an implicit solvation model of the lipid bilayer. The results of calculations were verified against experimental studies of spatial arrangement of transmembrane and peripheral proteins in membranes.
+Proteins structures are taken from the Protein Data Bank. OPM also provides structural classification of membrane-associated proteins into families and superfamilies, membrane topology, quaternary structure of proteins in membrane-bound state, and the type of a destination membrane for each protein. The coordinate files with calculated membrane boundaries are downloadable. The site allows visualization of protein structures with membrane boundary planes through Jmol, MDL Chime and WebMol.
+The database was widely used in experimental and theoretical studies of membrane-associated proteins. However, structures of many membrane-associated proteins are not included in the database if they can not be computationally predicted. This is the case when all membrane-anchoring parts of the proteins (amphiphilic alpha helices, exposed nonpolar residues, or lipidated amino acid residues) are missing in the experimental structures.
+
+
+== References ==

@@ -1,0 +1,20 @@
+A hit is a request to a web server for a file, like a web page, image, JavaScript, or Cascading Style Sheet.
+When a web page is downloaded from a server the number of "hits" or "page hits" is equal to the number of files requested. Therefore, one page load does not always equal one hit because often pages are made up of other images and other files which stack up the number of hits counted. Because one page load does not equal one hit, it is an inaccurate measure of a website's popularity or web traffic. A more accurate measure of web traffic is how many page views a web site has.
+Hits are useful when evaluating the requirements of your server, depending on the number and size of files which need to be transferred for one request. Servers should be tested to make sure they meet throughput targets (i.e., they should be capable of processing a certain number of "hits" per second).
+Unique hits count the number of different individuals who have generated at least one hit.
+
+
+== See alsoEdit ==
+Page view
+Unique user
+Web analytics
+Web traffic
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Domsmith.co.uk, (24 September 2005). Hit counter. Retrieved: 26 May 2007.
+Microsoft.com, (April 1999). Site server - capacity model for Internet transactions. Retrieved: 26 May 2007.
+Smartcomputing.com, (June 1997). Is your web site a hit? Retrieved: 26 May 2007.

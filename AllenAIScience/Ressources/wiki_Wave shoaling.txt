@@ -1,0 +1,32 @@
+In fluid dynamics, wave shoaling is the effect by which surface waves entering shallower water change in wave height. It is caused by the fact that the group velocity, which is also the wave-energy transport velocity, changes with water depth. Under stationary conditions, a decrease in transport speed must be compensated by an increase in energy density in order to maintain a constant energy flux. Shoaling waves will also exhibit a reduction in wavelength while the frequency remains constant.
+In shallow water and parallel depth contours, non-breaking waves will increase in wave height as the wave packet enters shallower water. This is particularly evident for tsunamis as they wax in height when approaching a coastline, with devastating results.
+
+
+== Mathematics ==
+
+For non-breaking waves, the energy flux associated with the wave motion, which is the product of the wave energy density with the group velocity, between two wave rays is a conserved quantity (i.e. a constant when following the energy of a wave packet from one location to another). Under stationary conditions the total energy transport must be constant along the wave ray,
+
+where s is the co-ordinate along the wave ray and  is the energy flux per unit crest length. A decrease in group speed  must be compensated by an increase in energy density E. This can be formulated as a shoaling coefficient relative to the wave height in deep water.
+Following Phillips (1977) and Mei (1989), denote the phase of a wave ray as
+.
+The local wave number vector is the gradient of the phase function,
+,
+and the angular frequency is proportional to its local rate of change,
+.
+Simplifying to one dimension and cross-differentiating it is now easily seen that the above definitions indicate simply that the rate of change of wavenumber is balanced by the convergence of the frequency along a ray;
+.
+Assuming stationary conditions (), this implies that wave crests are conserved and the frequency must remain constant along a wave ray as . As waves enter shallower waters, the decrease in group velocity caused by the reduction in water depth leads to a reduction in wave length  because the nondispersive shallow water limit of the dispersion relation for the wave phase speed,
+
+dictates that
+,
+i.e., a steady increase in k (decrease in ) as the phase speed decreases under constant .
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== External links ==
+Wave transformation at Coastal Wiki

@@ -1,0 +1,104 @@
+A cone is a three-dimensional geometric shape that tapers smoothly from a flat base (frequently, though not necessarily, circular) to a point called the apex or vertex.
+More precisely, it is the solid figure bounded by a base in a plane and by a surface (called the lateral surface) formed by the locus of all straight line segments joining the apex to the perimeter of the base. The term "cone" sometimes refers just to the surface of this solid figure, or just to the lateral surface.
+The axis of a cone is the straight line (if any), passing through the apex, about which the base (and the whole cone) has a rotational symmetry.
+In common usage in elementary geometry, cones are assumed to be right circular, where circular means that the base is a circle and right means that the axis passes through the centre of the base at right angles to its plane. Contrasted with right cones are oblique cones, in which the axis does not pass perpendicularly through the centre of the base. In general, however, the base may be any shape and the apex may lie anywhere (though it is usually assumed that the base is bounded and therefore has finite area, and that the apex lies outside the plane of the base).
+A cone with a polygonal base is called a pyramid.
+
+
+== Other mathematical meaningsEdit ==
+
+In mathematical usage, the word "cone" is used also for an "infinite cone", the union of a set of half-lines that start at a common apex point and go through a base. An infinite cone is not bounded by its base but extends to infinity. A "doubly infinite cone", or "double cone", is the union of a set of straight lines that pass through a common apex point and go through a base, therefore double infinite cones extend symmetrically on both sides of the apex.
+The boundary of an infinite or doubly infinite cone is a conical surface, and the intersection of a plane with this surface is a conic section. For infinite cones, the word axis again usually refers to the axis of rotational symmetry (if any). Either half of a double cone on one side of the apex is called a "nappe".
+Depending on the context, "cone" may also mean specifically a convex cone or a projective cone.
+
+
+== Further terminologyEdit ==
+The perimeter of the base of a cone is called the "directrix", and each of the line segments between the directrix and apex is a "generatrix" of the lateral surface. (For the connection between this sense of the term "directrix" and the directrix of a conic section, see Dandelin spheres.)
+The volume and the surface area for a straight cone are described in the geometry section below.
+The "base radius" of a circular cone is the radius of its base; often this is simply called the radius of the cone. The aperture of a right circular cone is the maximum angle between two generatrix lines; if the generatrix makes an angle θ to the axis, the aperture is 2θ.
+A cone with its apex cut off by a plane is called a "truncated cone"; if the truncation plane is parallel to the cone's base, it is called a frustum. An "elliptical cone" is a cone with an elliptical base. A "generalized cone" is the surface created by the set of lines passing through a vertex and every point on a boundary (also see visual hull).
+
+
+== Cartesian coordinatesEdit ==
+In the Cartesian coordinate system, an elliptic cone is the locus of an equation of the form
+
+
+== GeometryEdit ==
+
+
+=== Surface areaEdit ===
+The lateral surface area of a right circular cone is  where  is the radius of the circle at the bottom of the cone and  is the lateral height of the cone (given by the Pythagorean theorem  where  is the height of the cone). The surface area of the bottom circle of a cone is the same as for any circle, . Thus the total surface area of a right circular cone is:
+ or
+
+Aslo there is another formula for finding lateral surface area by using only circumference and slant height
+ where c is circumference.
+
+
+=== VolumeEdit ===
+The volume  of any conic solid is one third of the product of the area of the base  and the height 
+
+In modern mathematics, this formula can easily be computed using calculus – it is, up to scaling, the integral  Without using calculus, the formula can be proven by comparing the cone to a pyramid and applying Cavalieri's principle – specifically, comparing the cone to a (vertically scaled) right square pyramid, which forms one third of a cube. This formula cannot be proven without using such infinitesimal arguments – unlike the 2-dimensional formulae for polyhedral area, though similar to the area of the circle – and hence admitted less rigorous proofs before the advent of calculus, with the ancient Greeks using the method of exhaustion. This is essentially the content of Hilbert's third problem – more precisely, not all polyhedral pyramids are scissors congruent (can be cut apart into finite pieces and rearranged into the other), and thus volume cannot be computed purely by using a decomposition argument.
+The volume of the cone is also related to the summation of square numbers.
+
+
+=== Center of massEdit ===
+The center of mass of a conic solid of uniform density lies one-quarter of the way from the center of the base to the vertex, on the straight line joining the two.
+
+
+=== Right circular coneEdit ===
+For a circular cone with radius R and height H, the formula for volume becomes
+
+where r is the radius of the cone at height h measured from the apex:
+
+Thus:
+
+Thus:
+
+For a right circular cone, the surface area  is
+   where      is the slant height.
+The first term in the area formula, , is the area of the base, while the second term, , is the area of the lateral surface.
+A right circular cone with height  and aperture , whose axis is the  coordinate axis and whose apex is the origin, is described parametrically as
+
+where  range over , , and , respectively.
+In implicit form, the same solid is defined by the inequalities
+
+where
+
+More generally, a right circular cone with vertex at the origin, axis parallel to the vector , and aperture , is given by the implicit vector equation  where
+   or   
+where , and  denotes the dot product.
+
+
+== Projective geometryEdit ==
+
+In projective geometry, a cylinder is simply a cone whose apex is at infinity. Intuitively, if one keeps the base fixed and takes the limit as the apex goes to infinity, one obtains a cylinder, the angle of the side increasing as arctan, in the limit forming a right angle.
+This is useful in the definition of degenerate conics, which require considering the cylindrical conics.
+
+
+== See alsoEdit ==
+Bicone
+Cone (linear algebra)
+Cone (topology)
+Cylinder (geometry)
+Democritus
+Hyperboloid
+Pyrometric cone
+Quadric
+Rotation of axes
+Ruled surface
+Translation of axes
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+Protter, Murray H.; Morrey, Jr., Charles B. (1970), College Calculus with Analytic Geometry (2nd ed.), Reading: Addison-Wesley, LCCN 76087042 
+
+
+== External linksEdit ==
+Weisstein, Eric W., "Generalized Cone", MathWorld.
+Spinning Cone from Math Is Fun
+Paper model cone
+Lateral surface area of an oblique cone
+Cut a Cone An interactive demonstration of the intersection of a cone with a plane

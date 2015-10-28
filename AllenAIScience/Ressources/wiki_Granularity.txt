@@ -1,0 +1,62 @@
+Granularity is the extent to which a material or system is composed of distinguishable pieces or grains. It can either refer to the extent to which a larger entity is subdivided, or the extent to which groups of smaller indistinguishable entities have joined together to become larger distinguishable entities. For example, a kilometer broken into centimeters has finer granularity than a kilometer broken into meters. In contrast, molecules of photographic emulsion may clump together to form distinct noticeable granules, reflecting coarser granularity.
+Coarse-grained materials or systems have fewer, larger discrete components than fine-grained materials or systems. A coarse-grained description of a system regards large subcomponents while a fine-grained description regards smaller components of which the larger ones are composed.
+The terms granularity, coarse, and fine are relative, used when comparing systems or descriptions of systems. An example of increasingly fine granularity: a list of nations in the United Nations, a list of all states/provinces in those nations, a list of all cities in those states, etc.
+The terms fine and coarse are used consistently across fields, but the term granularity itself is not. For example, in investing, more granularity refers to more positions of smaller size, while photographic film that is more granular has fewer and larger chemical "grains." Similarly, sugar that is more granular has fewer and larger grains.
+
+
+== PhysicsEdit ==
+A fine-grained description of a system is a detailed, exhaustive, low-level model of it. A coarse-grained description is a model where some of this fine detail has been smoothed over or averaged out. The replacement of a fine-grained description with a lower-resolution coarse-grained model is called coarse graining. (See for example the second law of thermodynamics)
+
+
+== Molecular dynamicsEdit ==
+In molecular dynamics, coarse graining consists of replacing an atomistic description of a biological molecule with a lower-resolution coarse-grained model that averages or smooths away fine details. Coarse-grained models have been developed for investigating the longer time- and length-scale dynamics that are critical to many biological processes, such as lipid membranes and proteins. These concepts not only apply to biological molecules but also inorganic molecules. Coarse graining may simply remove certain degrees of freedom (e.g. vibrational modes between two atoms) or it may in fact simplify the two atoms completely via a single particle representation. The ends to which systems may be coarse grained is simply bound by the accuracy in the dynamics and structural properties one wishes to replicate. This modern area of research is in its infancy, and although it is commonly used in biological modeling, the analytic theory behind it is poorly understood.
+
+
+== ComputingEdit ==
+In parallel computing, granularity means the amount of computation in relation to communication, i.e., the ratio of computation to the amount of communication.
+Fine-grained parallelism means individual tasks are relatively small in terms of code size and execution time. The data is transferred among processors frequently in amounts of one or a few memory words. Coarse-grained is the opposite: data is communicated infrequently, after larger amounts of computation.
+The finer the granularity, the greater the potential for parallelism and hence speed-up, but the greater the overheads of synchronization and communication.
+In order to attain the best parallel performance, the best balance between load and communication overhead needs to be found. If the granularity is too fine, the performance can suffer from the increased communication overhead. On the other side, if the granularity is too coarse, the performance can suffer from load imbalance.
+
+
+=== Reconfigurable computing and supercomputingEdit ===
+
+In reconfigurable computing and in supercomputing these terms refer to the data path width. The use of about one bit wide processing elements like the configurable logic blocks (CLBs) in an FPGA is called fine-grained computing or fine-grained reconfigurability, whereas using wide data paths, such as, for instance 32 bits wide resources, like microprocessor CPUs or data-stream-driven data path units (DPUs) like in a reconfigurable datapath array (rDPA) is called coarse-grained computing or coarse-grained reconfigurability.
+
+
+=== Data granularityEdit ===
+The granularity of data refers to the size in which data fields are sub-divided. For example, a postal address can be recorded, with coarse granularity, as a single field:
+address = 200 2nd Ave. South #358, St. Petersburg, FL 33701-4313 USA
+or with fine granularity, as multiple fields:
+street address = 200 2nd Ave. South #358
+city = St. Petersburg
+postal code = FL 33701-4313
+country = USA
+or even finer granularity:
+street = 2nd Ave. South
+address number = 200
+suite/apartment number = #358
+city = St. Petersburg
+state = FL
+postal-code = 33701
+postal-code-add-on = 4313
+country = USA
+Finer granularity has overheads for data input and storage. This manifests itself in a higher number of objects and methods in the object-oriented programming paradigm or more subroutine calls for procedural programming and parallel computing environments. It does however offer benefits in flexibility of data processing in treating each data field in isolation if required. A performance problem caused by excessive granularity may not reveal itself until scalability becomes an issue.
+
+
+== Photographic filmEdit ==
+In photography, granularity is a measure of film grain. It is measured using a particular standard procedure but in general a larger number means the grains of silver are larger and there are fewer grains in a given area.
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+de Pablo, J. J. (2011). "Coarse-grained simulations of macromolecules: From DNA to nanocomposites". Annu. Rev. Phys. Chem. 62: 555–74. doi:10.1146/annurev-physchem-032210-103458. PMID 21219152. 
+Spacey, S.; Luk, W.; Kelly, P.H.J.; Kuhn, D. (2012). "Improving Communication Latency with the Write-Only Architecture" (PDF). Journal of Parallel and Distributed Computing 72 (12): 1617–1627. doi:10.1016/j.jpdc.2012.08.007.  
+
+
+== See alsoEdit ==
+Granular computing
+Multiple granularity locking
+Particle size (geology)

@@ -1,0 +1,341 @@
+The derivative of a function of a real variable measures the sensitivity to change of a quantity (a function value or dependent variable) which is determined by another quantity (the independent variable). Derivatives are a fundamental tool of calculus. For example, the derivative of the position of a moving object with respect to time is the object's velocity: this measures how quickly the position of the object changes when time is advanced.
+The derivative of a function of a single variable at a chosen input value is the slope of the tangent line to the graph of the function at that point. This means that it describes the best linear approximation of the function near that input value. For this reason, the derivative is often described as the "instantaneous rate of change", the ratio of the instantaneous change in the dependent variable to that of the independent variable.
+Derivatives may be generalized to functions of several real variables. In this generalization, the derivative is reinterpreted as a linear transformation whose graph is (after an appropriate translation) the best linear approximation to the graph of the original function. The Jacobian matrix is the matrix that represents this linear transformation with respect to the basis given by the choice of independent and dependent variables. It can be calculated in terms of the partial derivatives with respect to the independent variables. For a real-valued function of several variables, the Jacobian matrix reduces to the gradient vector.
+The process of finding a derivative is called differentiation. The reverse process is called antidifferentiation. The fundamental theorem of calculus states that antidifferentiation is the same as integration. Differentiation and integration constitute the two fundamental operations in single-variable calculus.
+
+
+== Differentiation and derivative ==
+Differentiation is the action of computing a derivative. The derivative of a function f(x) of a variable x is a measure of the rate at which the value of the function changes with respect to the change of the variable. It is called the derivative of f with respect to x. If x and y are real numbers, and if the graph of f is plotted against x, the derivative is the slope of this graph at each point.
+The simplest case, apart from the trivial case of a constant function, is when y is a linear function of x, meaning that the graph of y divided by x is a line. In this case, y = f(x) = m x + b, for real numbers m and b, and the slope m is given by
+
+where the symbol Δ (Delta) is an abbreviation for "change in." This formula is true because
+
+Thus, since
+
+it follows that
+
+This gives an exact value for the slope of a line. If the function f is not linear (i.e. its graph is not a straight line), however, then the change in y divided by the change in x varies: differentiation is a method to find an exact value for this rate of change at any given value of x.
+
+The idea, illustrated by Figures 1 to 3, is to compute the rate of change as the limit value of the ratio of the differences Δy / Δx as Δx becomes infinitely small.
+
+
+=== Notation ===
+Two distinct notations are commonly used for the derivative, one deriving from Leibniz and the other from Joseph Louis Lagrange.
+In Leibniz's notation, an infinitesimal change in x is denoted by dx, and the derivative of y with respect to x is written
+
+suggesting the ratio of two infinitesimal quantities. (The above expression is read as "the derivative of y with respect to x", "d y by d x", or "d y over d x". The oral form "d y d x" is often used conversationally, although it may lead to confusion.)
+In Lagrange's notation, the derivative with respect to x of a function f(x) is denoted f‍ '​(x) (read as "f prime of x") or fx‍ '​(x) (read as "f prime x of x"), in case of ambiguity of the variable implied by the derivation. Lagrange's notation is sometimes incorrectly attributed to Newton.
+
+
+=== Rigorous definition ===
+The most common approach to turn this intuitive idea into a precise definition is to define the derivative as a limit of difference quotients of real numbers. This is the approach described below.
+Let f be a real valued function defined in an open neighborhood of a real number a. In classical geometry, the tangent line to the graph of the function f at a was the unique line through the point (a, f(a)) that did not meet the graph of f transversally, meaning that the line did not pass straight through the graph. The derivative of y with respect to x at a is, geometrically, the slope of the tangent line to the graph of f at (a, f(a)). The slope of the tangent line is very close to the slope of the line through (a, f(a)) and a nearby point on the graph, for example (a + h, f(a + h)). These lines are called secant lines. A value of h close to zero gives a good approximation to the slope of the tangent line, and smaller values (in absolute value) of h will, in general, give better approximations. The slope m of the secant line is the difference between the y values of these points divided by the difference between the x values, that is,
+
+This expression is Newton's difference quotient. Passing from an approximation to an exact answer is done using a limit. Geometrically, the limit of the secant lines is the tangent line. Therefore, the limit of the difference quotient as h approaches zero, if it exists, should represent the slope of the tangent line to (a, f(a)). This limit is defined to be the derivative of the function f at a:
+
+When the limit exists, f is said to be differentiable at a. Here f′ (a) is one of several common notations for the derivative (see below).
+Equivalently, the derivative satisfies the property that
+
+which has the intuitive interpretation (see Figure 1) that the tangent line to f at a gives the best linear approximation
+
+to f near a (i.e., for small h). This interpretation is the easiest to generalize to other settings (see below).
+Substituting 0 for h in the difference quotient causes division by zero, so the slope of the tangent line cannot be found directly using this method. Instead, define Q(h) to be the difference quotient as a function of h:
+
+Q(h) is the slope of the secant line between (a, f(a)) and (a + h, f(a + h)). If f is a continuous function, meaning that its graph is an unbroken curve with no gaps, then Q is a continuous function away from h = 0. If the limit limh→0Q(h) exists, meaning that there is a way of choosing a value for Q(0) that makes Q a continuous function, then the function f is differentiable at a, and its derivative at a equals Q(0).
+In practice, the existence of a continuous extension of the difference quotient Q(h) to h = 0 is shown by modifying the numerator to cancel h in the denominator. Such manipulations can make the limit value of Q for small h clear even though Q is still not defined at h = 0. This process can be long and tedious for complicated functions, and many shortcuts are commonly used to simplify the process.
+
+
+=== Definition over the hyperreals ===
+Relative to a hyperreal extension R ⊂ R* of the real numbers, the derivative of a real function y = f(x) at a real point x can be defined as the shadow of the quotient ∆y/∆x for infinitesimal ∆x, where ∆y = f(x+ ∆x) - f(x). Here the natural extension of f to the hyperreals is still denoted f. Here the derivative is said to exist if the shadow is independent of the infinitesimal chosen.
+
+
+=== Example ===
+The squaring function f(x) = x2 is differentiable at x = 3, and its derivative there is 6. This result is established by calculating the limit as h approaches zero of the difference quotient of f(3):
+
+The last expression shows that the difference quotient equals 6 + h when h ≠ 0 and is undefined when h = 0, because of the definition of the difference quotient. However, the definition of the limit says the difference quotient does not need to be defined when h = 0. The limit is the result of letting h go to zero, meaning it is the value that 6 + h tends to as h becomes very small:
+
+Hence the slope of the graph of the squaring function at the point (3, 9) is 6, and so its derivative at x = 3 is f′(3) = 6.
+More generally, a similar computation shows that the derivative of the squaring function at x = a is f′(a) = 2a.
+
+
+=== Continuity and differentiability ===
+
+If y = f(x) is differentiable at a, then f must also be continuous at a. As an example, choose a point a and let f be the step function that returns a value, say 1, for all x less than a, and returns a different value, say 10, for all x greater than or equal to a. f cannot have a derivative at a. If h is negative, then a + h is on the low part of the step, so the secant line from a to a + h is very steep, and as h tends to zero the slope tends to infinity. If h is positive, then a + h is on the high part of the step, so the secant line from a to a + h has slope zero. Consequently, the secant lines do not approach any single slope, so the limit of the difference quotient does not exist.
+
+However, even if a function is continuous at a point, it may not be differentiable there. For example, the absolute value function y = | x | is continuous at x = 0, but it is not differentiable there. If h is positive, then the slope of the secant line from 0 to h is one, whereas if h is negative, then the slope of the secant line from 0 to h is negative one. This can be seen graphically as a "kink" or a "cusp" in the graph at x = 0. Even a function with a smooth graph is not differentiable at a point where its tangent is vertical: For instance, the function y = x1/3 is not differentiable at x = 0.
+In summary: for a function f to have a derivative it is necessary for the function f to be continuous, but continuity alone is not sufficient.
+Most functions that occur in practice have derivatives at all points or at almost every point. Early in the history of calculus, many mathematicians assumed that a continuous function was differentiable at most points. Under mild conditions, for example if the function is a monotone function or a Lipschitz function, this is true. However, in 1872 Weierstrass found the first example of a function that is continuous everywhere but differentiable nowhere. This example is now known as the Weierstrass function. In 1931, Stefan Banach proved that the set of functions that have a derivative at some point is a meager set in the space of all continuous functions. Informally, this means that hardly any continuous functions have a derivative at even one point.
+
+
+=== The derivative as a function ===
+Let f be a function that has a derivative at every point a in the domain of f. Because every point a has a derivative, there is a function that sends the point a to the derivative of f at a. This function is written f ′(x) and is called the derivative function or the derivative of f. The derivative of f collects all the derivatives of f at all the points in the domain of f.
+Sometimes f has a derivative at most, but not all, points of its domain. The function whose value at a equals f ′(a) whenever f ′(a) is defined and elsewhere is undefined is also called the derivative of f. It is still a function, but its domain is strictly smaller than the domain of f.
+Using this idea, differentiation becomes a function of functions: The derivative is an operator whose domain is the set of all functions that have derivatives at every point of their domain and whose range is a set of functions. If we denote this operator by D, then D(f) is the function f ′(x). Since D(f) is a function, it can be evaluated at a point a. By the definition of the derivative function, D(f)(a) = f ′(a).
+For comparison, consider the doubling function f(x) = 2x; f is a real-valued function of a real number, meaning that it takes numbers as inputs and has numbers as outputs:
+
+The operator D, however, is not defined on individual numbers. It is only defined on functions:
+
+Because the output of D is a function, the output of D can be evaluated at a point. For instance, when D is applied to the squaring function, x ↦ x2, D outputs the doubling function x ↦ 2x, which we named f(x). This output function can then be evaluated to get f(1) = 2, f(2) = 4, and so on.
+
+
+=== Higher derivatives ===
+Let f be a differentiable function, and let f ′(x) be its derivative. The derivative of f ′(x) (if it has one) is written f ′′(x) and is called the second derivative of f. Similarly, the derivative of a second derivative, if it exists, is written f ′′′(x) and is called the third derivative of f. Continuing this process, one can define, if it exists, the nth derivative as the derivative of the (n-1)th derivative. These repeated derivatives are called higher-order derivatives. The nth derivative is also called the derivative of order n.
+If x(t) represents the position of an object at time t, then the higher-order derivatives of x have physical interpretations. The second derivative of x is the derivative of x′(t), the velocity, and by definition this is the object's acceleration. The third derivative of x is defined to be the jerk, and the fourth derivative is defined to be the jounce.
+A function f need not have a derivative, for example, if it is not continuous. Similarly, even if f does have a derivative, it may not have a second derivative. For example, let
+
+Calculation shows that f is a differentiable function whose derivative is
+
+f ′(x) is twice the absolute value function, and it does not have a derivative at zero. Similar examples show that a function can have k derivatives for any non-negative integer k but no (k + 1)th-order derivative. A function that has k successive derivatives is called k times differentiable. If in addition the kth derivative is continuous, then the function is said to be of differentiability class Ck. (This is a stronger condition than having k derivatives. For an example, see differentiability class.) A function that has infinitely many derivatives is called infinitely differentiable or smooth.
+On the real line, every polynomial function is infinitely differentiable. By standard differentiation rules, if a polynomial of degree n is differentiated n times, then it becomes a constant function. All of its subsequent derivatives are identically zero. In particular, they exist, so polynomials are smooth functions.
+The derivatives of a function f at a point x provide polynomial approximations to that function near x. For example, if f is twice differentiable, then
+
+in the sense that
+
+If f is infinitely differentiable, then this is the beginning of the Taylor series for f evaluated at x + h around x.
+
+
+=== Inflection point ===
+
+A point where the second derivative of a function changes sign is called an inflection point. At an inflection point, the second derivative may be zero, as in the case of the inflection point x = 0 of the function y = x3, or it may fail to exist, as in the case of the inflection point x = 0 of the function y = x1/3. At an inflection point, a function switches from being a convex function to being a concave function or vice versa.
+
+
+== Notation (details) ==
+
+
+=== Leibniz's notation ===
+
+The notation for derivatives introduced by Gottfried Leibniz is one of the earliest. It is still commonly used when the equation y = f(x) is viewed as a functional relationship between dependent and independent variables. Then the first derivative is denoted by
+
+and was once thought of as an infinitesimal quotient. Higher derivatives are expressed using the notation
+
+for the nth derivative of y = f(x) (with respect to x). These are abbreviations for multiple applications of the derivative operator. For example,
+
+With Leibniz's notation, we can write the derivative of y at the point x = a in two different ways:
+
+Leibniz's notation allows one to specify the variable for differentiation (in the denominator). This is especially relevant for partial differentiation. It also makes the chain rule easy to remember:
+
+
+=== Lagrange's notation ===
+Sometimes referred to as prime notation, one of the most common modern notation for differentiation is due to Joseph-Louis Lagrange and uses the prime mark, so that the derivative of a function f(x) is denoted f′(x) or simply f′. Similarly, the second and third derivatives are denoted
+   and   
+To denote the number of derivatives beyond this point, some authors use Roman numerals in superscript, whereas others place the number in parentheses:
+   or   
+The latter notation generalizes to yield the notation f (n) for the nth derivative of f – this notation is most useful when we wish to talk about the derivative as being a function itself, as in this case the Leibniz notation can become cumbersome.
+
+
+=== Newton's notation ===
+Newton's notation for differentiation, also called the dot notation, places a dot over the function name to represent a time derivative. If y = f(t), then
+   and   
+denote, respectively, the first and second derivatives of y with respect to t. This notation is used exclusively for time derivatives, meaning that the independent variable of the function represents time. It is very common in physics and in mathematical disciplines connected with physics such as differential equations. While the notation becomes unmanageable for high-order derivatives, in practice only very few derivatives are needed.
+
+
+==== Fluent and fluxions ====
+Newton tried to explain calculus using fluent and fluxions. He said that the rate of generation is the fluxion of the fluent, which is denoted by the variable with a dot over it. Then the rate of the fluxion is the second fluxion, which has two dots over it. These fluxions were thought of, as very close to zero but not quite zero. But when you multiply two fluxions together you get something that is so close to zero that it is treated as zero. Newton took derivatives by replacing all the x values with  and all the y values with  and then used derivative rules to take the derivative and solve for  Here is an example:
+
+Using the fact that  we can see  and  so .
+Newton described mathematical quantities to be like continuous motion. This motion, he said, could be thought of in the same way that a point traces a curve. He defined this quantity and called it a “fluent”. He went on to name the rate at which these quantities change. Newton called this the “fluxion of the fluent” and he represented it by .
+So, if the fluent was represented by x, Newton denoted its fluxion by , the second fluxion by , and so on. This can be related to the modern language we use to describe derivatives. In modern language, the fluxion of the variable x relative to an independent time-variable t would be its velocity dx/dt. In other words, the derivative of f(x) with respect to time, t, is dx/dt.
+
+
+==== Moment of the fluent ====
+Newton called o the moment of the fluent. The moment of the fluent represents the infinitely small part by which a fluent was increased in a small time interval. Once he allowed himself to divide through by o (although o can not be treated as zero because that would make the division illegitimate). Newton decided it was justifiable to drop all terms containing o.
+
+
+=== Euler's notation ===
+Euler's notation uses a differential operator D, which is applied to a function f to give the first derivative Df. The second derivative is denoted D2f, and the nth derivative is denoted Dnf.
+If y = f(x) is a dependent variable, then often the subscript x is attached to the D to clarify the independent variable x. Euler's notation is then written
+   or   ,
+although this subscript is often omitted when the variable x is understood, for instance when this is the only variable present in the expression.
+Euler's notation is useful for stating and solving linear differential equations.
+
+
+== Rules of computation ==
+
+The derivative of a function can, in principle, be computed from the definition by considering the difference quotient, and computing its limit. In practice, once the derivatives of a few simple functions are known, the derivatives of other functions are more easily computed using rules for obtaining derivatives of more complicated functions from simpler ones.
+
+
+=== Rules for basic functions ===
+Most derivative computations eventually require taking the derivative of some common functions. The following incomplete list gives some of the most frequently used functions of a single real variable and their derivatives.
+Derivatives of powers: if
+
+where r is any real number, then
+
+wherever this function is defined. For example, if , then
+
+and the derivative function is defined only for positive x, not for x = 0. When r = 0, this rule implies that f′(x) is zero for x ≠ 0, which is almost the constant rule (stated below).
+Exponential and logarithmic functions:
+
+Trigonometric functions:
+
+Inverse trigonometric functions:
+
+
+=== Rules for combined functions ===
+In many cases, complicated limit calculations by direct application of Newton's difference quotient can be avoided using differentiation rules. Some of the most basic rules are the following.
+Constant rule: if f(x) is constant, then
+
+Sum rule:
+ for all functions f and g and all real numbers  and .
+Product rule:
+ for all functions f and g. As a special case, this rule includes the fact  whenever  is a constant, because  by the constant rule.
+Quotient rule:
+ for all functions f and g at all inputs where g ≠ 0.
+Chain rule: If , then
+
+
+=== Computation example ===
+The derivative of
+
+is
+
+Here the second term was computed using the chain rule and third using the product rule. The known derivatives of the elementary functions x2, x4, sin(x), ln(x) and exp(x) = ex, as well as the constant 7, were also used.
+
+
+== Derivatives in higher dimensions ==
+
+
+=== Derivatives of vector valued functions ===
+A vector-valued function y(t) of a real variable sends real numbers to vectors in some vector space Rn. A vector-valued function can be split up into its coordinate functions y1(t), y2(t), …, yn(t), meaning that y(t) = (y1(t), ..., yn(t)). This includes, for example, parametric curves in R2 or R3. The coordinate functions are real valued functions, so the above definition of derivative applies to them. The derivative of y(t) is defined to be the vector, called the tangent vector, whose coordinates are the derivatives of the coordinate functions. That is,
+
+Equivalently,
+
+if the limit exists. The subtraction in the numerator is subtraction of vectors, not scalars. If the derivative of y exists for every value of t, then y′ is another vector valued function.
+If e1, …, en is the standard basis for Rn, then y(t) can also be written as y1(t)e1 + … + yn(t)en. If we assume that the derivative of a vector-valued function retains the linearity property, then the derivative of y(t) must be
+
+because each of the basis vectors is a constant.
+This generalization is useful, for example, if y(t) is the position vector of a particle at time t; then the derivative y′(t) is the velocity vector of the particle at time t.
+
+
+=== Partial derivatives ===
+
+Suppose that f is a function that depends on more than one variable—for instance,
+
+f can be reinterpreted as a family of functions of one variable indexed by the other variables:
+
+In other words, every value of x chooses a function, denoted fx, which is a function of one real number. That is,
+
+Once a value of x is chosen, say a, then f(x, y) determines a function fa that sends y to a2 + ay + y2:
+
+In this expression, a is a constant, not a variable, so fa is a function of only one real variable. Consequently, the definition of the derivative for a function of one variable applies:
+
+The above procedure can be performed for any choice of a. Assembling the derivatives together into a function gives a function that describes the variation of f in the y direction:
+
+This is the partial derivative of f with respect to y. Here ∂ is a rounded d called the partial derivative symbol. To distinguish it from the letter d, ∂ is sometimes pronounced "der", "del", or "partial" instead of "dee".
+In general, the partial derivative of a function f(x1, …, xn) in the direction xi at the point (a1 …, an) is defined to be:
+
+In the above difference quotient, all the variables except xi are held fixed. That choice of fixed values determines a function of one variable
+
+and, by definition,
+
+In other words, the different choices of a index a family of one-variable functions just as in the example above. This expression also shows that the computation of partial derivatives reduces to the computation of one-variable derivatives.
+An important example of a function of several variables is the case of a scalar-valued function f(x1, ..., xn) on a domain in Euclidean space Rn (e.g., on R2 or R3). In this case f has a partial derivative ∂f/∂xj with respect to each variable xj. At the point a, these partial derivatives define the vector
+
+This vector is called the gradient of f at a. If f is differentiable at every point in some domain, then the gradient is a vector-valued function ∇f that takes the point a to the vector ∇f(a). Consequently, the gradient determines a vector field.
+
+
+=== Directional derivatives ===
+
+If f is a real-valued function on Rn, then the partial derivatives of f measure its variation in the direction of the coordinate axes. For example, if f is a function of x and y, then its partial derivatives measure the variation in f in the x direction and the y direction. They do not, however, directly measure the variation of f in any other direction, such as along the diagonal line y = x. These are measured using directional derivatives. Choose a vector
+
+The directional derivative of f in the direction of v at the point x is the limit
+
+In some cases it may be easier to compute or estimate the directional derivative after changing the length of the vector. Often this is done to turn the problem into the computation of a directional derivative in the direction of a unit vector. To see how this works, suppose that v = λu. Substitute h = k/λ into the difference quotient. The difference quotient becomes:
+
+This is λ times the difference quotient for the directional derivative of f with respect to u. Furthermore, taking the limit as h tends to zero is the same as taking the limit as k tends to zero because h and k are multiples of each other. Therefore, Dv(f) = λDu(f). Because of this rescaling property, directional derivatives are frequently considered only for unit vectors.
+If all the partial derivatives of f exist and are continuous at x, then they determine the directional derivative of f in the direction v by the formula:
+
+This is a consequence of the definition of the total derivative. It follows that the directional derivative is linear in v, meaning that Dv + w(f) = Dv(f) + Dw(f).
+The same definition also works when f is a function with values in Rm. The above definition is applied to each component of the vectors. In this case, the directional derivative is a vector in Rm.
+
+
+=== Total derivative, total differential and Jacobian matrix ===
+
+When f is a function from an open subset of Rn to Rm, then the directional derivative of f in a chosen direction is the best linear approximation to f at that point and in that direction. But when n > 1, no single directional derivative can give a complete picture of the behavior of f. The total derivative gives a complete picture by considering all directions at once. That is, for any vector v starting at a, the linear approximation formula holds:
+
+Just like the single-variable derivative, f ′(a) is chosen so that the error in this approximation is as small as possible.
+If n and m are both one, then the derivative f ′(a) is a number and the expression f ′(a)v is the product of two numbers. But in higher dimensions, it is impossible for f ′(a) to be a number. If it were a number, then f ′(a)v would be a vector in Rn while the other terms would be vectors in Rm, and therefore the formula would not make sense. For the linear approximation formula to make sense, f ′(a) must be a function that sends vectors in Rn to vectors in Rm, and f ′(a)v must denote this function evaluated at v.
+To determine what kind of function it is, notice that the linear approximation formula can be rewritten as
+
+Notice that if we choose another vector w, then this approximate equation determines another approximate equation by substituting w for v. It determines a third approximate equation by substituting both w for v and a + v for a. By subtracting these two new equations, we get
+
+If we assume that v is small and that the derivative varies continuously in a, then f ′(a + v) is approximately equal to f ′(a), and therefore the right-hand side is approximately zero. The left-hand side can be rewritten in a different way using the linear approximation formula with v + w substituted for v. The linear approximation formula implies:
+
+This suggests that f ′(a) is a linear transformation from the vector space Rn to the vector space Rm. In fact, it is possible to make this a precise derivation by measuring the error in the approximations. Assume that the error in these linear approximation formula is bounded by a constant times ||v||, where the constant is independent of v but depends continuously on a. Then, after adding an appropriate error term, all of the above approximate equalities can be rephrased as inequalities. In particular, f ′(a) is a linear transformation up to a small error term. In the limit as v and w tend to zero, it must therefore be a linear transformation. Since we define the total derivative by taking a limit as v goes to zero, f ′(a) must be a linear transformation.
+In one variable, the fact that the derivative is the best linear approximation is expressed by the fact that it is the limit of difference quotients. However, the usual difference quotient does not make sense in higher dimensions because it is not usually possible to divide vectors. In particular, the numerator and denominator of the difference quotient are not even in the same vector space: The numerator lies in the codomain Rm while the denominator lies in the domain Rn. Furthermore, the derivative is a linear transformation, a different type of object from both the numerator and denominator. To make precise the idea that f ′(a) is the best linear approximation, it is necessary to adapt a different formula for the one-variable derivative in which these problems disappear. If f : R → R, then the usual definition of the derivative may be manipulated to show that the derivative of f at a is the unique number f ′(a) such that
+
+This is equivalent to
+
+because the limit of a function tends to zero if and only if the limit of the absolute value of the function tends to zero. This last formula can be adapted to the many-variable situation by replacing the absolute values with norms.
+The definition of the total derivative of f at a, therefore, is that it is the unique linear transformation f ′(a) : Rn → Rm such that
+
+Here h is a vector in Rn, so the norm in the denominator is the standard length on Rn. However, f′(a)h is a vector in Rm, and the norm in the numerator is the standard length on Rm. If v is a vector starting at a, then f ′(a)v is called the pushforward of v by f and is sometimes written f∗v.
+If the total derivative exists at a, then all the partial derivatives and directional derivatives of f exist at a, and for all v, f ′(a)v is the directional derivative of f in the direction v. If we write f using coordinate functions, so that f = (f1, f2, ..., fm), then the total derivative can be expressed using the partial derivatives as a matrix. This matrix is called the Jacobian matrix of f at a:
+
+The existence of the total derivative f′(a) is strictly stronger than the existence of all the partial derivatives, but if the partial derivatives exist and are continuous, then the total derivative exists, is given by the Jacobian, and depends continuously on a.
+The definition of the total derivative subsumes the definition of the derivative in one variable. That is, if f is a real-valued function of a real variable, then the total derivative exists if and only if the usual derivative exists. The Jacobian matrix reduces to a 1×1 matrix whose only entry is the derivative f′(x). This 1×1 matrix satisfies the property that f(a + h) − f(a) − f ′(a)h is approximately zero, in other words that
+
+Up to changing variables, this is the statement that the function  is the best linear approximation to f at a.
+The total derivative of a function does not give another function in the same way as the one-variable case. This is because the total derivative of a multivariable function has to record much more information than the derivative of a single-variable function. Instead, the total derivative gives a function from the tangent bundle of the source to the tangent bundle of the target.
+The natural analog of second, third, and higher-order total derivatives is not a linear transformation, is not a function on the tangent bundle, and is not built by repeatedly taking the total derivative. The analog of a higher-order derivative, called a jet, cannot be a linear transformation because higher-order derivatives reflect subtle geometric information, such as concavity, which cannot be described in terms of linear data such as vectors. It cannot be a function on the tangent bundle because the tangent bundle only has room for the base space and the directional derivatives. Because jets capture higher-order information, they take as arguments additional coordinates representing higher-order changes in direction. The space determined by these additional coordinates is called the jet bundle. The relation between the total derivative and the partial derivatives of a function is paralleled in the relation between the kth order jet of a function and its partial derivatives of order less than or equal to k.
+By repeatedly taking the total derivative, one obtains higher versions of the Fréchet derivative, specialized to Rp. The kth order total derivative may be interpreted as a map
+
+which takes a point x in Rn and assigns to it an element of the space of k-linear maps from Rn to Rm – the "best" (in a certain precise sense) k-linear approximation to f at that point. By precomposing it with the diagonal map Δ, x → (x, x), a generalized Taylor series may be begun as
+
+where f(a) is identified with a constant function, (x − a)i are the components of the vector x − a, and (D f)i and (D2 f)j k are the components of D f and D2 f as linear transformations.
+
+
+== Generalizations ==
+
+The concept of a derivative can be extended to many other settings. The common thread is that the derivative of a function at a point serves as a linear approximation of the function at that point.
+An important generalization of the derivative concerns complex functions of complex variables, such as functions from (a domain in) the complex numbers C to C. The notion of the derivative of such a function is obtained by replacing real variables with complex variables in the definition. If C is identified with R2 by writing a complex number z as x + i y, then a differentiable function from C to C is certainly differentiable as a function from R2 to R2 (in the sense that its partial derivatives all exist), but the converse is not true in general: the complex derivative only exists if the real derivative is complex linear and this imposes relations between the partial derivatives called the Cauchy–Riemann equations – see holomorphic functions.
+Another generalization concerns functions between differentiable or smooth manifolds. Intuitively speaking such a manifold M is a space that can be approximated near each point x by a vector space called its tangent space: the prototypical example is a smooth surface in R3. The derivative (or differential) of a (differentiable) map f: M → N between manifolds, at a point x in M, is then a linear map from the tangent space of M at x to the tangent space of N at f(x). The derivative function becomes a map between the tangent bundles of M and N. This definition is fundamental in differential geometry and has many uses – see pushforward (differential) and pullback (differential geometry).
+Differentiation can also be defined for maps between infinite dimensional vector spaces such as Banach spaces and Fréchet spaces. There is a generalization both of the directional derivative, called the Gâteaux derivative, and of the differential, called the Fréchet derivative.
+One deficiency of the classical derivative is that not very many functions are differentiable. Nevertheless, there is a way of extending the notion of the derivative so that all continuous functions and many other functions can be differentiated using a concept known as the weak derivative. The idea is to embed the continuous functions in a larger space called the space of distributions and only require that a function is differentiable "on average".
+The properties of the derivative have inspired the introduction and study of many similar objects in algebra and topology — see, for example, differential algebra.
+The discrete equivalent of differentiation is finite differences. The study of differential calculus is unified with the calculus of finite differences in time scale calculus.
+Also see arithmetic derivative.
+
+
+== History ==
+
+
+== See also ==
+
+Applications of derivatives
+Automatic differentiation
+Differentiability class
+Differentiation rules
+Differintegral
+Fractal derivative
+Generalizations of the derivative
+Hasse derivative
+History of calculus
+Integral
+Infinitesimal
+Linearization
+Mathematical analysis
+Multiplicative inverse
+Numerical differentiation
+Radon–Nikodym theorem
+Symmetric derivative
+Schwarzian derivative
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Print ===
+
+
+=== Online books ===
+
+
+=== Web pages ===
+Hazewinkel, Michiel, ed. (2001), "Derivative", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Khan Academy: "Newton, Leibniz, and Usain Bolt"
+Weisstein, Eric W., "Derivative", MathWorld.
+Online Derivative Calculator from Wolfram Alpha.
+Derivatives of Trigonometric functions, UBC

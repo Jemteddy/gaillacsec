@@ -1,0 +1,161 @@
+Torque, moment, or moment of force (see the terminology below) is the tendency of a force to rotate an object about an axis, fulcrum, or pivot. Just as a force is a push or a pull, a torque can be thought of as a twist to an object. Mathematically, torque is defined as the cross product of the lever-arm distance vector and the force vector, which tends to produce rotation.
+Loosely speaking, torque is a measure of the turning force on an object such as a bolt or a flywheel. For example, pushing or pulling the handle of a wrench connected to a nut or bolt produces a torque (turning force) that loosens or tightens the nut or bolt.
+The symbol for torque is typically , the lowercase Greek letter tau. When it is called moment of force, it is commonly denoted M.
+The magnitude of torque depends on three quantities: the force applied, the length of the lever arm connecting the axis to the point of force application, and the angle between the force vector and the lever arm. In symbols:
+
+where
+ is the torque vector and  is the magnitude of the torque,
+r is the displacement vector (a vector from the point from which torque is measured (typically the axis of rotation) to the point where force is applied),
+F is the force vector,
+× denotes the cross product,
+θ is the angle between the force vector and the lever arm vector.
+The length of the lever arm is particularly important; choosing this length appropriately lies behind the operation of levers, pulleys, gears, and most other simple machines involving a mechanical advantage.
+The SI unit for torque is the newton metre (N⋅m). For more on the units of torque, see Units.
+
+
+== TerminologyEdit ==
+
+This article follows US physics terminology in its use of the word torque. In the UK and in US mechanical engineering, this is called moment of force, usually shortened to moment. In US physics and UK physics terminology these terms are interchangeable, unlike in US mechanical engineering, where the term torque is used for the closely related "resultant moment of a couple".
+Torque is defined mathematically as the rate of change of angular momentum of an object. The definition of torque states that one or both of the angular velocity or the moment of inertia of an object are changing. Moment is the general term used for the tendency of one or more applied forces to rotate an object about an axis, but not necessarily to change the angular momentum of the object (the concept which is called torque in physics). For example, a rotational force applied to a shaft causing acceleration, such as a drill bit accelerating from rest, results in a moment called a torque. By contrast, a lateral force on a beam produces a moment (called a bending moment), but since the angular momentum of the beam is not changing, this bending moment is not called a torque. Similarly with any force couple on an object that has no change to its angular momentum, such moment is also not called a torque.
+This article follows the US physics terminology by calling all moments by the term torque, whether or not they cause the angular momentum of an object to change.
+
+
+== HistoryEdit ==
+The concept of torque, also called moment or couple, originated with the studies of Archimedes on levers. The term torque was apparently introduced into English scientific literature by James Thomson, the brother of Lord Kelvin, in 1884.
+
+
+== Definition and relation to angular momentumEdit ==
+
+A force applied at a right angle to a lever multiplied by its distance from the lever's fulcrum (the length of the lever arm) is its torque. A force of three newtons applied two metres from the fulcrum, for example, exerts the same torque as a force of one newton applied six metres from the fulcrum. The direction of the torque can be determined by using the right hand grip rule: if the fingers of the right hand are curled from the direction of the lever arm to the direction of the force, then the thumb points in the direction of the torque.
+More generally, the torque on a particle (which has the position r in some reference frame) can be defined as the cross product:
+
+where r is the particle's position vector relative to the fulcrum, and F is the force acting on the particle. The magnitude τ of the torque is given by
+
+where r is the distance from the axis of rotation to the particle, F is the magnitude of the force applied, and θ is the angle between the position and force vectors. Alternatively,
+
+where F⊥ is the amount of force directed perpendicularly to the position of the particle. Any force directed parallel to the particle's position vector does not produce a torque.
+It follows from the properties of the cross product that the torque vector is perpendicular to both the position and force vectors. The torque vector points along the axis of the rotation that the force vector (starting from rest) would initiate. The resulting torque vector direction is determined by the right-hand rule.
+The unbalanced torque on a body along axis of rotation determines the rate of change of the body's angular momentum,
+
+where L is the angular momentum vector and t is time. If multiple torques are acting on the body, it is instead the net torque which determines the rate of change of the angular momentum:
+
+For rotation about a fixed axis,
+
+where I is the moment of inertia and ω is the angular velocity. It follows that
+
+where α is the angular acceleration of the body, measured in rad/s2. This equation has the limitation that the torque equation describes the instantaneous axis of rotation or center of mass for any type of motion – whether pure translation, pure rotation, or mixed motion. I = Moment of inertia about the point which the torque is written (either instantaneous axis of rotation or center of mass only). If body is in translatory equilibrium then the torque equation is the same about all points in the plane of motion.
+A torque is not necessarily limited to rotation around a fixed axis, however. It may change the magnitude and/or direction of the angular momentum vector, depending on the angle between the velocity vector and the non-radial component of the force vector, as viewed in the pivot's frame of reference. A net torque on a spinning body therefore may result in a precession without necessarily causing a change in spin rate.
+
+
+=== Proof of the equivalence of definitionsEdit ===
+The definition of angular momentum for a single particle is:
+
+where "×" indicates the vector cross product, p is the particle's linear momentum, and r is the displacement vector from the origin (the origin is assumed to be a fixed location anywhere in space). The time-derivative of this is:
+
+This result can easily be proven by splitting the vectors into components and applying the product rule. Now using the definition of force  (whether or not mass is constant) and the definition of velocity 
+
+The cross product of momentum  with its associated velocity  is zero because velocity and momentum are parallel, so the second term vanishes.
+By definition, torque τ = r × F. Therefore, torque on a particle is equal to the first derivative of its angular momentum with respect to time.
+If multiple forces are applied, Newton's second law instead reads Fnet = ma, and it follows that
+
+This is a general proof.
+
+
+== UnitsEdit ==
+Torque has dimension force times distance, symbolically L2MT−2. Official SI literature suggests using the unit newton metre (N⋅m) or the unit joule per radian. The unit newton metre is properly denoted N⋅m or N m. This avoids ambiguity with mN, millinewtons.
+The SI unit for energy or work is the joule. It is dimensionally equivalent to a force of one newton acting over a distance of one metre, but it is not used for torque. Energy and torque are entirely different concepts, so the practice of using different unit names (i.e., reserving newton metres for torque and using only joules for energy) helps avoid mistakes and misunderstandings. The dimensional equivalence of these units, of course, is not simply a coincidence: A torque of 1 N⋅m applied through a full revolution will require an energy of exactly 2π joules. Mathematically,
+
+where E is the energy, τ is magnitude of the torque, and θ is the angle moved (in radians). This equation motivates the alternate unit name joules per radian.
+In Imperial units, "pound-force-feet" (lb⋅ft), "foot-pounds-force", "inch-pounds-force", "ounce-force-inches" (oz⋅in) are used, and other non-SI units of torque includes "metre-kilograms-force". For all these units, the word "force" is often left out. For example, abbreviating "pound-force-foot" to simply "pound-foot" (in this case, it would be implicit that the "pound" is pound-force and not pound-mass). This is an example of the confusion caused by the use of English units that may be avoided with SI units because of the careful distinction in SI between force (in newtons) and mass (in kilograms).
+Torque is sometimes listed with units that do not make dimensional sense, such as the gram-centimeter. In this case, "gram" should be understood as the force given by the weight of 1 gram at the surface of the earth, i.e., 6997980665000000000♠0.00980665 N. The surface of the earth is understood to have a standard acceleration of gravity (7000980665000000000♠9.80665 m/s2).
+
+
+== Special cases and other factsEdit ==
+
+
+=== Moment arm formulaEdit ===
+
+A very useful special case, often given as the definition of torque in fields other than physics, is as follows:
+
+The construction of the "moment arm" is shown in the figure to the right, along with the vectors r and F mentioned above. The problem with this definition is that it does not give the direction of the torque but only the magnitude, and hence it is difficult to use in three-dimensional cases. If the force is perpendicular to the displacement vector r, the moment arm will be equal to the distance to the centre, and torque will be a maximum for the given force. The equation for the magnitude of a torque, arising from a perpendicular force:
+
+For example, if a person places a force of 10 N at the terminal end of a wrench that is 0.5 m long (or a force of 10 N exactly 0.5 m from the twist point of a wrench of any length), the torque will be 5 N.m – assuming that the person moves the wrench by applying force in the plane of movement of and perpendicular to the wrench.
+
+
+=== Static equilibriumEdit ===
+For an object to be in static equilibrium, not only must the sum of the forces be zero, but also the sum of the torques (moments) about any point. For a two-dimensional situation with horizontal and vertical forces, the sum of the forces requirement is two equations: ΣH = 0 and ΣV = 0, and the torque a third equation: Στ = 0. That is, to solve statically determinate equilibrium problems in two-dimensions, three equations are used.
+
+
+=== Net force versus torqueEdit ===
+When the net force on the system is zero, the torque measured from any point in space is the same. For example, the torque on a current-carrying loop in a uniform magnetic field is the same regardless of your point of reference. If the net force  is not zero, and  is the torque measured from , then the torque measured from  is … 
+
+
+== Machine torqueEdit ==
+
+Torque is part of the basic specification of an engine: the power output of an engine is expressed as its torque multiplied by its rotational speed of the axis. Internal-combustion engines produce useful torque only over a limited range of rotational speeds (typically from around 1,000–6,000 rpm for a small car). The varying torque output over that range can be measured with a dynamometer, and shown as a torque curve.
+Steam engines and electric motors tend to produce maximum torque close to zero rpm, with the torque diminishing as rotational speed rises (due to increasing friction and other constraints). Reciprocating steam engines can start heavy loads from zero RPM without a clutch.
+
+
+== Relationship between torque, power, and energyEdit ==
+If a force is allowed to act through a distance, it is doing mechanical work. Similarly, if torque is allowed to act through a rotational distance, it is doing work. Mathematically, for rotation about a fixed axis through the center of mass,
+
+where W is work, τ is torque, and θ1 and θ2 represent (respectively) the initial and final angular positions of the body. It follows from the work-energy theorem that W also represents the change in the rotational kinetic energy Er of the body, given by
+
+where I is the moment of inertia of the body and ω is its angular speed.
+Power is the work per unit time, given by
+
+where P is power, τ is torque, ω is the angular velocity, and ⋅ represents the scalar product.
+Algebraically, the equation may be rearranged to compute torque for a given angular speed and power output. Note that the power injected by the torque depends only on the instantaneous angular speed – not on whether the angular speed increases, decreases, or remains constant while the torque is being applied (this is equivalent to the linear case where the power injected by a force depends only on the instantaneous speed – not on the resulting acceleration, if any).
+In practice, this relationship can be observed in bicycles: Bicycles are typically composed of two road wheels, front and rear gears (referred to as sprockets) meshing with a circular chain, and a derailleur mechanism if the bicycle's transmission system allows multiple gear ratios to be used (i.e. multi-speed bicycle), all of which attached to the frame. A cyclist, the person who rides the bicycle, provides the input power by turning pedals, thereby cranking the front sprocket (commonly referred to as chainring). The input power provided by the cyclist is equal to the product of cadence (i.e. the number of pedal revolutions per minute) and the torque on spindle of the bicycle's crankset. The bicycle's drivetrain transmits the input power to the road wheel, which in turn conveys the received power to the road as the output power of the bicycle. Depending on the gear ratio of the bicycle, a (torque, rpm)input pair is converted to a (torque, rpm)output pair. By using a larger rear gear, or by switching to a lower gear in multi-speed bicycles, angular speed of the road wheels is decreased while the torque is increased, product of which (i.e. power) does not change.
+Consistent units must be used. For metric SI units power is watts, torque is newton metres and angular speed is radians per second (not rpm and not revolutions per second).
+Also, the unit newton metre is dimensionally equivalent to the joule, which is the unit of energy. However, in the case of torque, the unit is assigned to a vector, whereas for energy, it is assigned to a scalar.
+
+
+=== Conversion to other unitsEdit ===
+A conversion factor may be necessary when using different units of power, torque, or For example, if rotational speed (revolutions per time) is used in place of angular speed (radians per time), we multiply by a factor of 2π radians per revolution. In the following formulas, P is power, τ is torque and ω is rotational speed.
+
+Showing units:
+
+Dividing by 60 seconds per minute gives us the following.
+
+where rotational speed is in revolutions per minute (rpm).
+Some people (e.g. American automotive engineers) use horsepower (imperial mechanical) for power, foot-pounds (lbf⋅ft) for torque and rpm for rotational speed. This results in the formula changing to:
+
+The constant below (in foot pounds per minute) changes with the definition of the horsepower; for example, using metric horsepower, it becomes approximately 32,550.
+Use of other units (e.g. BTU per hour for power) would require a different custom conversion factor.
+
+
+=== DerivationEdit ===
+For a rotating object, the linear distance covered at the circumference of rotation is the product of the radius with the angle covered. That is: linear distance = radius × angular distance. And by definition, linear distance = linear speed × time = radius × angular speed × time.
+By the definition of torque: torque = radius × force. We can rearrange this to determine force = torque ÷ radius. These two values can be substituted into the definition of power:
+
+The radius r and time t have dropped out of the equation. However, angular speed must be in radians, by the assumed direct relationship between linear speed and angular speed at the beginning of the derivation. If the rotational speed is measured in revolutions per unit of time, the linear speed and distance are increased proportionately by 2π in the above derivation to give:
+
+If torque is in newton metres and rotational speed in revolutions per second, the above equation gives power in newton metres per second or watts. If Imperial units are used, and if torque is in pounds-force feet and rotational speed in revolutions per minute, the above equation gives power in foot pounds-force per minute. The horsepower form of the equation is then derived by applying the conversion factor 33,000 ft⋅lbf/min per horsepower:
+
+because 
+
+
+== Principle of momentsEdit ==
+The Principle of Moments, also known as Varignon's theorem (not to be confused with the geometrical theorem of the same name) states that the sum of torques due to several forces applied to a single point is equal to the torque due to the sum (resultant) of the forces. Mathematically, this follows from:
+
+
+== Torque multiplierEdit ==
+
+A torque multiplier is a gear box with reduction ratios greater than 1. The given torque at the input gets multiplied as per the reduction ratio and transmitted to the output, thereby achieving greater torque, but with reduced rotational speed.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+"Horsepower and Torque" An article showing how power, torque, and gearing affect a vehicle's performance.
+"Torque vs. Horsepower: Yet Another Argument" An automotive perspective
+a discussion of torque and angular momentum in an online textbook
+Torque and Angular Momentum in Circular Motion on Project PHYSNET.
+An interactive simulation of torque
+Torque Unit Converter
+A feel for torque An order-of-magnitude interactive.

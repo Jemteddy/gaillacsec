@@ -1,0 +1,34 @@
+In mathematics, a phenomenon is sometimes said to occur locally if, roughly speaking, it occurs on sufficiently small or arbitrarily small neighborhoods of points.
+
+
+== Properties of a single space ==
+A topological space is sometimes said to exhibit a property locally if the property is exhibited "near" each point in one of the following different senses:
+Each point has a neighborhood exhibiting the property;
+Each point has a neighborhood base of sets exhibiting the property.
+Sense (2) is in general stronger than sense (1), and caution must be taken to distinguish between the two senses. For example, some variation in the definition of locally compact arises from different senses of the term locally.
+
+
+=== Examples ===
+Locally compact topological spaces
+Locally connected and Locally path-connected topological spaces
+Locally Hausdorff, Locally regular, Locally normal etc...
+Locally metrizable
+
+
+== Properties of a pair of spaces ==
+Given some notion of equivalence (e.g., homeomorphism, diffeomorphism, isometry) between topological spaces, two spaces are locally equivalent if every point of the first space has a neighborhood which is equivalent to a neighborhood of the second space.
+For instance, the circle and the line are very different objects. One cannot stretch the circle to look like the line, nor compress the line to fit on the circle without gaps or overlaps. However, a small piece of the circle can be stretched and flattened out to look like a small piece of the line. For this reason, one may say that the circle and the line are locally equivalent.
+Similarly, the sphere and the plane are locally equivalent. A small enough observer standing on the surface of a sphere (e.g., a person and the Earth) would find it indistinguishable from a plane.
+
+
+== Properties of infinite groups ==
+For an infinite group, a "small neighborhood" is taken to be a finitely generated subgroup. An infinite group is said to be locally P if every finitely generated subgroup is P. For instance, a group is locally finite if every finitely generated subgroup is finite. A group is locally soluble if every finitely generated subgroup is soluble.
+
+
+== Properties of finite groups ==
+For finite groups, a "small neighborhood" is taken to be a subgroup defined in terms of a prime number p, usually the local subgroups, the normalizers of the nontrivial p-subgroups. A property is said to be local if it can be detected from the local subgroups. Global and local properties formed a significant portion of the early work on the classification of finite simple groups done during the 1960s.
+
+
+== Properties of commutative rings ==
+
+For commutative rings, ideas of algebraic geometry make it natural to take a "small neighborhood" of a ring to be the localization at a prime ideal. A property is said to be local if it can be detected from the local rings. For instance, being a flat module over a commutative ring is a local property, but being a free module is not. See also Localization of a module.

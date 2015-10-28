@@ -1,0 +1,57 @@
+The less-than sign is a sign of inequality. The less-than symbol is used in various operations that usually pertain to work being worse mathematically or with a programming language. The symbol looks similar to a sideways "V" and is generally used to show inequality between two numbers or expressions. In mathematics, if there are two expressions being compared as an inequality, the less-than symbol usually goes between the two and symbolizes that the first number is less than the second number, for example 2<4 or x<102. The symbol can also be used to the left of a single number to denote the concept of any lesser number, for example "less than 4" would be written as <4. There are other combinations of the less-than symbol and the 'equals' symbol and multiple less-than symbols which are also used mathematically and computationally.
+
+
+== Computing ==
+The less-than sign (<) is an original ASCII character (hex 3C, decimal 60).
+<
+The less-than sign is used for an approximation of the opening angle bracket (⟨). ASCII does not have angle brackets.
+
+
+=== Programming language ===
+In BASIC, Lisp-family languages, and C-family languages (including Java and C++), operator < means "less than".
+In Coldfusion, operator .lt. means "less than".
+In Fortran, operator .LT. means "less than"; later versions allow <.
+In Bourne shell, operator -lt means "less than".
+
+
+=== Double less-than sign ===
+The double less-than sign (<<) is used for an approximation of the much-less-than sign (≪) or of the opening guillemet («). ASCII does not have much-less-than sign or guillemets.
+In Bash, Perl, and Ruby, operator <<EOF (where "EOF" is an arbitrary string, but commonly "EOF" denoting "end of file") is used to denote the beginning of a here document.
+In C and C++, operator << represents a binary left shift.
+In the C++ Standard Library, operator <<, when applied on an output stream, acts as insertion operator and performs an output operation on the stream.
+
+
+=== Triple less-than sign ===
+In PHP, operator <<<OUTPUT is used to denote the beginning of a heredoc statement (where OUTPUT is an arbitrary named variable.)
+In Bash, <<<word is used as a "here string", where word is expanded and supplied to the command on its standard input, similar to a heredoc.
+
+
+=== Less-than sign plus equals sign ===
+The less-than sign plus the equals sign (<=) is used for an approximation of the less-than-or-equal-to sign (≤). ASCII does not have less-than-or-equal-to sign.
+In BASIC, Lisp-family languages, and C-family languages (including Java and C++), operator <= means "less than or equal to".
+In Fortran, operator .LE. means "less than or equal to".
+In Bourne shell and Windows PowerShell, operator -le means "less than or equal to".
+
+
+=== Shell scripts ===
+In Bourne shell (and many other shells), less-than sign is used to redirect input from a file. Less-than plus ampersand (<&) is used to redirect from a file descriptor.
+
+
+=== Spaceship operator ===
+Less-than sign is used in the spaceship operator.
+
+
+=== HTML ===
+In HTML (and SGML and XML), the less-than sign is used at the beginning of tags. The less-than sign may be included with &lt;. The less-than-or-equal-to sign may be included with &le;.
+
+
+== Mathematics ==
+In an inequality, the less-than sign always "points" to the smaller number. Put another way, the "jaws" always go for the larger number.
+
+
+== See also ==
+Inequality (mathematics)
+Greater-than sign
+Relational operator
+Much-less-than sign
+Guillemet

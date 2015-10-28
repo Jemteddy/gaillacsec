@@ -1,0 +1,78 @@
+A rotation is a circular movement of an object around a center (or point) of rotation . A three-dimensional object always rotates around an imaginary line called a rotation axis. If the axis passes through the body's center of mass, the body is said to rotate upon itself, or spin. A rotation about an external point, e.g. the Earth about the Sun, is called a revolution or orbital revolution, typically when it is produced by gravity.
+
+
+== MathematicsEdit ==
+
+Mathematically, a rotation is a rigid body movement which, unlike a translation, keeps a point fixed. This definition applies to rotations within both two and three dimensions (in a plane and in space, respectively.)
+All rigid body movements are rotations, translations, or combinations of the two.
+A rotation is simply a progressive radial orientation to a common point. That common point lies within the axis of that motion. The axis is 90 degrees perpendicular to the plane of the motion. If the axis of the rotation lies external of the body in question then the body is said to orbit. There is no fundamental difference between a “rotation” and an “orbit” and or "spin". The key distinction is simply where the axis of the rotation lies, either within or outside of a body in question. This distinction can be demonstrated for both “rigid” and “non rigid” bodies.
+If a rotation around a point or axis is followed by a second rotation around the same point/axis, a third rotation results. The reverse (inverse) of a rotation is also a rotation. Thus, the rotations around a point/axis form a group. However, a rotation around a point or axis and a rotation around a different point/axis may result in something other than a rotation, e.g. a translation.
+Rotations around the x, y and z axes are called principal rotations. Rotation around any axis can be performed by taking a rotation around the x axis, followed by a rotation around the y axis, and followed by a rotation around the z axis. That is to say, any spatial rotation can be decomposed into a combination of principal rotations.
+In flight dynamics, the principal rotations are known as yaw, pitch, and roll (known as Tait-Bryan angles). This terminology is also used in computer graphics.
+
+
+== AstronomyEdit ==
+
+In astronomy, rotation is a commonly observed phenomenon. Stars, planets and similar bodies all spin around on their axes. The rotation rate of planets in the solar system was first measured by tracking visual features. Stellar rotation is measured through Doppler shift or by tracking active surface features.
+This rotation induces a centrifugal acceleration in the reference frame of the Earth which slightly counteracts the effect of gravity the closer one is to the equator. One effect is that an object weighs slightly less at the equator. Another is that the Earth is slightly deformed into an oblate spheroid.
+Another consequence of the rotation of a planet is the phenomenon of precession. Like a gyroscope, the overall effect is a slight "wobble" in the movement of the axis of a planet. Currently the tilt of the Earth's axis to its orbital plane (obliquity of the ecliptic) is 23.44 degrees, but this angle changes slowly (over thousands of years). (See also Precession of the equinoxes and Pole star.)
+
+
+=== Rotation and revolutionEdit ===
+
+While revolution is often used as a synonym for rotation, in many fields, particularly astronomy and related fields, revolution, often referred to as orbital revolution for clarity, is used when one body moves around another while rotation is used to mean the movement around an axis. Moons revolve around their planet, planets revolve about their star (such as the Earth around the Sun); and stars slowly revolve about their galaxial center. The motion of the components of galaxies is complex, but it usually includes a rotation component.
+
+
+=== Retrograde rotationEdit ===
+
+Most planets in our solar system, including Earth, spin in the same direction as they orbit the Sun. The exceptions are Venus and Uranus. Uranus rotates nearly on its side relative to its orbit. Current speculation is that Uranus started off with a typical prograde orientation and was knocked on its side by a large impact early in its history. Venus may be thought of as rotating slowly backwards (or being "upside down"). The dwarf planet Pluto (formerly considered a planet) is anomalous in this and other ways.
+
+
+== PhysicsEdit ==
+
+The speed of rotation is given by the angular frequency (rad/s) or frequency (turn/s, turns per minute), or period (seconds, days, etc.). The time-rate of change of angular frequency is angular acceleration (rad/s²), This change is caused by torque. The ratio of the two (how heavy is it to start, stop, or otherwise change rotation) is given by the moment of inertia.
+The angular velocity vector (an axial vector) also describes the direction of the axis of rotation. Similarly the torque is an axial vector.
+The physics of the rotation around a fixed axis is mathematically described with the axis–angle representation of rotations. According to the right-hand rule, the direction away from the observer is associated with clockwise rotation and the direction towards the observer with counterclockwise rotation, like a screw.
+
+
+=== Cosmological principleEdit ===
+The laws of physics are currently believed to be invariant under any fixed rotation. (Although they do appear to change when viewed from a rotating viewpoint: see rotating frame of reference.)
+In modern physical cosmology, the cosmological principle is the notion that the distribution of matter in the universe is homogeneous and isotropic when viewed on a large enough scale, since the forces are expected to act uniformly throughout the universe and have no preferred direction, and should, therefore, produce no observable irregularities in the large scale structuring over the course of evolution of the matter field that was initially laid down by the Big Bang.
+In particular, for a system which behaves the same regardless of how it is oriented in space, its Lagrangian is rotationally invariant. According to Noether's theorem, if the action (the integral over time of its Lagrangian) of a physical system is invariant under rotation, then angular momentum is conserved.
+
+
+=== Euler rotationsEdit ===
+
+Euler rotations provide an alternative description of a rotation. It is a composition of three rotations defined as the movement obtained by changing one of the Euler angles while leaving the other two constant. Euler rotations are never expressed in terms of the external frame, or in terms of the co-moving rotated body frame, but in a mixture. They constitute a mixed axes of rotation system, where the first angle moves the line of nodes around the external axis z, the second rotates around the line of nodes and the third one is an intrinsic rotation around an axis fixed in the body that moves.
+These rotations are called precession, nutation, and intrinsic rotation.
+
+
+== Flight dynamicsEdit ==
+
+In flight dynamics, the principal rotations described with Euler angles above are known as pitch, roll and yaw. The term rotation is also used in aviation to refer to the upward pitch (nose moves up) of an aircraft, particularly when starting the climb after takeoff.
+Principal rotations have the advantage of modelling a number of physical systems such as gimbals, and joysticks, so are easily visualised, and are a very compact way of storing a rotation. But they are difficult to use in calculations as even simple operations like combining rotations are expensive to do, and suffer from a form of gimbal lock where the angles cannot be uniquely calculated for certain rotations.
+
+
+== Amusement ridesEdit ==
+Many amusement rides provide rotation. A Ferris wheel has a horizontal central axis, and parallel axes for each gondola, where the rotation is opposite, by gravity or mechanically. As a result, at any time the orientation of the gondola is upright (not rotated), just translated. The tip of the translation vector describes a circle. A carousel provides rotation about a vertical axis. Many rides provide a combination of rotations about several axes. In Chair-O-Planes the rotation about the vertical axis is provided mechanically, while the rotation about the horizontal axis is due to the centripetal force. In roller coaster inversions the rotation about the horizontal axis is one or more full cycles, where inertia keeps people in their seats.
+
+
+== SportsEdit ==
+
+Rotation of a ball or other object, usually called spin, plays a role in many sports, including topspin and backspin in tennis, English, follow and draw in billiards and pool, curve balls in baseball, spin bowling in cricket, flying disc sports, etc. Table tennis paddles are manufactured with different surface characteristics to allow the player to impart a greater or lesser amount of spin to the ball.
+Rotation of a player one or more times around a vertical axis may be called spin in figure skating, twirling (of the baton or the performer) in baton twirling, or 360, 540, 720, etc. in snowboarding, etc. Rotation of a player or performer one or more times around a horizontal axis may be called a flip, roll, somersault, heli, etc. in gymnastics, waterskiing, or many other sports, or a one-and-a-half, two-and-a-half, gainer (starting facing away from the water), etc. in diving, etc. A combination of vertical and horizontal rotation (back flip with 360°) is called a möbius in waterskiing freestyle jumping.
+Rotation of a player around a horizontal axis, generally between 180 and 360 degrees, may be called a spin move and is used as a deceptive or avoidance maneuver, or in an attempt to play, pass, or receive a ball or puck, etc., or to afford a player a view of the goal or other players. It is often seen in hockey, basketball, football of various codes, tennis, etc.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Hazewinkel, Michiel, ed. (2001), "Rotation", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Product of Rotations at cut-the-knot. cut-the-knot.org
+When a Triangle is Equilateral at cut-the-knot. cut-the-knot.org
+Rotate Points Using Polar Coordinates, howtoproperly.com
+Rotation in Two Dimensions by Sergio Hannibal Mejia after work by Roger Germundsson and Understanding 3D Rotation by Roger Germundsson, Wolfram Demonstrations Project. demonstrations.wolfram.com

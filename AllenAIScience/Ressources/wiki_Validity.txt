@@ -1,0 +1,81 @@
+In logic, an argument is valid if and only if it takes a form that makes it impossible for the premises to be true and the conclusion nevertheless to be false. It is not required that a valid argument have premises that are actually true, but to have premises that, if they were true, would guarantee the truth of the argument's conclusion. A formula is valid if and only if it is true under every interpretation, and an argument form (or schema) is valid if and only if every argument of that logical form is valid.
+
+
+== Validity of arguments ==
+An argument is valid if and only if the truth of its premises entails the truth of its conclusion and each step, sub-argument, or logical operation in the argument is valid. Under such conditions it would be self-contradictory to affirm the premises and deny the conclusion. The corresponding conditional of a valid argument is a logical truth and the negation of its corresponding conditional is a contradiction. The conclusion is a logical consequence of its premises.
+An argument that is not valid is said to be "invalid".
+An example of a valid argument is given by the following well-known syllogism:
+All men are mortal.
+Socrates is a man.
+Therefore, Socrates is mortal.
+What makes this a valid argument is not that it has true premises and a true conclusion, but the logical necessity of the conclusion, given the two premises. The argument would be just as valid were the premises and conclusion false. The following argument is of the same logical form but with false premises and a false conclusion, and it is equally valid:
+All cups are green.
+Socrates is a cup.
+Therefore, Socrates is green.
+No matter how the universe might be constructed, it could never be the case that these arguments should turn out to have simultaneously true premises but a false conclusion. The above arguments may be contrasted with the following invalid one:
+All men are immortal.
+Socrates is a man.
+Therefore, Socrates is mortal.
+In this case, the conclusion contradicts the deductive logic of the preceding premises, rather than deriving from it. Therefore, the argument is logically 'invalid', even though the conclusion could be considered 'true' in general terms. The premise 'All men are immortal' would likewise be deemed false outside of the framework of classical logic. However, within that system 'true' and 'false' essentially function more like mathematical states such as binary 1s and 0s than the philosophical concepts normally associated with those terms.
+A standard view is that whether an argument is valid is a matter of the argument's logical form. Many techniques are employed by logicians to represent an argument's logical form. A simple example, applied to two of the above illustrations, is the following: Let the letters 'P', 'Q', and 'S' stand, respectively, for the set of men, the set of mortals, and Socrates. Using these symbols, the first argument may be abbreviated as:
+All P are Q.
+S is a P.
+Therefore, S is a Q.
+Similarly, the third argument becomes:
+All P are not Q.
+S is a P.
+Therefore, S is a Q.
+An argument is termed formally valid if it has structural self-consistency, i.e. if when the operands between premises are all true the derived conclusion is always also true. In the third example, the initial premises cannot logically result in the conclusion and is therefore categorized as an invalid argument.
+
+
+== Valid formula ==
+
+A formula of a formal language is a valid formula if and only if it is true under every possible interpretation of the language. In propositional logic, they are tautologies.
+
+
+== Validity of statements ==
+A statement can be called valid, i.e. logical truth, if it is true in all interpretations.
+
+
+== Validity and soundness ==
+Validity of deduction is not affected by the truth of the premise or the truth of the conclusion. The following deduction is perfectly valid:
+All animals live on Mars.
+All humans are animals.
+Therefore, all humans live on Mars.
+The problem with the argument is that it is not sound. In order for a deductive argument to be sound, the deduction must be valid and all the premises true.
+
+
+== Satisfiability and validity ==
+
+Model theory analyzes formulae with respect to particular classes of interpretation in suitable mathematical structures. On this reading, formula is valid if all such interpretations make it true. An inference is valid if all interpretations that validate the premises validate the conclusion. This is known as semantic validity.
+
+
+== Preservation ==
+In truth-preserving validity, the interpretation under which all variables are assigned a truth value of 'true' produces a truth value of 'true'.
+In a false-preserving validity, the interpretation under which all variables are assigned a truth value of 'false' produces a truth value of 'false'.
+
+
+== n-Validity ==
+A formula A of a first order language  is n-valid iff it is true for every interpretation of  that has a domain of exactly n members.
+
+
+=== ω-Validity ===
+A formula of a first order language is ω-valid if and only if it is true for every interpretation of the language and it has a domain with an infinite number of members.
+
+
+== See also ==
+
+Entailment
+Grounds of validity of scientific reasoning
+Reductio ad absurdum
+Mathematical fallacies
+Soundness
+
+
+== References ==
+
+Barwise, Jon; Etchemendy, John. Language, Proof and Logic (1999): 42.
+Beer, Francis A. "Validities: A Political Science Perspective", Social Epistemology 7, 1 (1993): 85-105.
+
+
+== External links ==

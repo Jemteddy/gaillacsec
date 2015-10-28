@@ -1,0 +1,34 @@
+In computing, an address space defines a range of discrete addresses, each of which may correspond to a network host, peripheral device, disk sector, a memory cell or other logical or physical entity.
+
+
+== Overview ==
+For software programs to save and retrieve data, each unit of data must have an address where it can be individually located. The number of address spaces available will depend on the underlying address structure and these will usually be limited.
+Address spaces are created by combining enough uniquely identified qualifiers to make an address unambiguous (within a particular address space). For a person's physical address, the address space would be a combination of locations, such as a neighborhood, town, city, or country. Some elements of an address space may be the same– but if any element in the address is different than addresses in said space will reference different entities. An example could be that there are multiple buildings at the same address of "32 Main Street" but in different towns, demonstrating that different towns have different, although similarly arranged, street address spaces.
+An address space usually provides (or allows) a partitioning to several regions according to the mathematical structure it has. In the case of total order, as for memory addresses, these are simply chunks. Some nested domains hierarchy appears in the case of directed ordered tree as for the Domain Name System or a directory structure; this is similar to the hierarchical design of postal addresses. In the Internet, for example, the Internet Assigned Numbers Authority (IANA) allocates ranges of IP addresses to various registries in order to enable them to each manage their parts of the global Internet address space.
+
+
+== Examples ==
+Uses of addresses include, but are not limited to the following:
+Memory addresses for main memory, memory-mapped I/O, as well as for virtual memory;
+Device addresses on an expansion bus;
+Sector addressing for disk drives;
+File names on a particular volume;
+Various kinds of network host addresses in computer networks;
+Uniform resource locators in the Internet.
+
+
+== Address mapping and translation ==
+
+Another common feature of address spaces are mappings and translations, often forming numerous layers. This usually means that some higher-level address must be translated to lower-level ones in some way. For example, file system on a logical disk operates linear sector numbers, which have to be translated to absolute LBA sector addresses, in simple cases, via addition of the partition's first sector address. Then, for a disk drive connected via Parallel ATA, each of them must be converted to logical (means fake) cylinder-head-sector address due to the interface historical shortcomings. It is converted back to LBA by the disk controller and then, finally, to physical cylinder, head and sector numbers.
+The Domain Name System maps its names to (and from) network-specific addresses (usually IP addresses), which in turn may be mapped to link layer network addresses via Address Resolution Protocol. Also, network address translation may occur on the edge of different IP spaces, such as a local area network and the Internet.
+
+An iconic example of virtual-to-physical address translation is virtual memory, where different pages of virtual address space map either to page file or to main memory physical address space. It is possible that several numerically different virtual addresses all refer to one physical address and hence to the same physical byte of RAM. It is also possible that a single virtual address maps to zero, one, or more than one physical address.
+
+
+== See also ==
+Linear address space
+Name space
+Virtualization
+
+
+== References ==

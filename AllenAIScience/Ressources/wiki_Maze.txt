@@ -1,0 +1,191 @@
+A maze is a path or collection of paths, typically from an entrance to a goal. The word is used to refer both to branching tour puzzles through which the solver must find a route, and to simpler non-branching ("unicursal") patterns that lead unambiguously through a convoluted layout to a goal. (The term "Labyrinth" is generally synonymous, but also can connote specifically a unicursal pattern.) The pathways and walls in a maze are typically fixed, but puzzles in which the walls and paths can change during the game are also categorised as mazes or tour puzzles.
+
+
+== Maze construction ==
+
+Mazes have been built with walls and rooms, with hedges, turf, corn stalks, hay bales, books, paving stones of contrasting colors or designs, and brick, or in fields of crops such as corn or, indeed, maize. Maize mazes can be very large; they are usually only kept for one growing season, so they can be different every year, and are promoted as seasonal tourist attractions. Indoors, Mirror Mazes are another form of maze, in which many of the apparent pathways are imaginary routes seen through multiple reflections in mirrors. Another type of maze consists of a set of rooms linked by doors (so a passageway is just another room in this definition). Players enter at one spot, and exit at another, or the idea may be to reach a certain spot in the maze. Mazes can also be printed or drawn on paper to be followed by a pencil or fingertip.
+
+
+== Generating mazes ==
+
+Maze generation is the act of designing the layout of passages and walls within a maze. There are many different approaches to generating mazes, with various maze generation algorithms for building them, either by hand or automatically by computer.
+There are two main mechanisms used to generate mazes. In "carving passages", one marks out the network of available routes. In building a maze by "adding walls", one lays out a set of obstructions within an open area. Most mazes drawn on paper are done by drawing the walls, with the spaces in between the markings composing the passages.
+
+
+== Solving mazes ==
+
+Maze solving is the act of finding a route through the maze from the start to finish. Some maze solving methods are designed to be used inside the maze by a traveler with no prior knowledge of the maze, whereas others are designed to be used by a person or computer program that can see the whole maze at once.
+The mathematician Leonhard Euler was one of the first to analyze plane mazes mathematically, and in doing so made the first significant contributions to the branch of mathematics known as topology.
+Mazes containing no loops are known as "standard", or "perfect" mazes, and are equivalent to a tree in graph theory. Thus many maze solving algorithms are closely related to graph theory. Intuitively, if one pulled and stretched out the paths in the maze in the proper way, the result could be made to resemble a tree.
+
+
+== Mazes in psychology experiments ==
+Mazes are often used in psychology experiments to study spatial navigation and learning. Such experiments typically use rats or mice. Examples are:
+Barnes maze
+Morris water maze
+Oasis maze
+
+Radial arm maze
+Elevated plus maze
+T-maze
+
+
+== Other types of mazes ==
+
+Ball-in-a-maze puzzles
+Dexterity puzzles which involve navigating a ball through a maze or labyrinth.
+Block maze
+A maze in which the player must complete or clear the maze pathway by positioning blocks. Blocks may slide into place or be added.
+Labyrinth maze (Labyrimaze)
+A mix between a labyrinth and a maze. Incorporating a labyrinths single unicursal path, but also having maze like branches or decision points. Trace through every possible path as a single movement until returning to the same starting point, but never backtrack or lift from the path.
+Linear or railroad maze
+A maze in which the paths are laid out like a railroad with switches and crossovers. Solvers are constrained to moving only forward. Often, a railroad maze will have a single track for entrance and exit.
+Logic mazes
+These are like standard mazes except they use rules other than "don't cross the lines" to restrict motion.
+Loops and traps maze
+A maze that features one-way doors. The doors can lead to the correct path or create traps that divert you from the correct path and lead you to the starting point. The player may not return through a door through which he has entered, so dead ends may be created. The path is a series of loops interrupted by doors. Through the use of reciprocal doors, the correct path can intersect the incorrect path on a single plane. A graphical variant of this maze type is an arrow maze.
+Mazes in higher dimensions
+It is possible for a maze to have three or more dimensions. A maze with bridges is three-dimensional, and some natural cave systems are three-dimensional mazes. The computer game Descent uses fully three-dimensional mazes. Any maze can be mapped into a higher dimension without changing its topology.
+Number maze
+A maze in which numbers are used to determine jumps that form a pathway, allowing the maze to criss-cross itself many times.
+Picture maze
+A standard maze that forms a picture when solved.
+Turf mazes and mizmazes
+A pattern like a long rope folded up, without any junctions or crossings.
+
+
+=== Gallery ===
+
+
+== Publications about mazes ==
+Numerous mazes of different kinds have been drawn, painted, published in books and periodicals, used in advertising, in software, and sold as art. In the 1970s there occurred a publishing "maze craze" in which numerous books, and some magazines, were commercially available in nationwide outlets and devoted exclusively to mazes of a complexity that was able to challenge adults as well as children (for whom simple maze puzzles have long been provided both before, during, and since the 1970s "craze").
+Some of the best-selling books in the 1970s and early 1980s included those produced by Vladimir Koziakin, Rick and Glory Brightfield, Dave Phillips, Larry Evans, and Greg Bright. Koziakin's works were predominantly of the standard two-dimensional "trace a line between the walls" variety. The works of the Brightfields had a similar two-dimensional form but used a variety of graphics-oriented "path obscuring" techniques. Although the routing was comparable to or simpler than Koziakin's mazes, the Brightfields' mazes did not allow the various pathway options to be discerned easily by the roving eye as it glanced about.
+Greg Bright's works went beyond the standard published forms of the time by including "weave" mazes in which illustrated pathways can cross over and under each other. Bright's works also offered examples of extremely complex patterns of routing and optical illusions for the solver to work through. What Bright termed "mutually accessible centers" (The Great Maze Book, 1973) also called "braid" mazes, allowed a proliferation of paths flowing in spiral patterns from a central nexus and, rather than relying on "dead ends" to hinder progress, instead relied on an overabundance of pathway choices. Rather than have a single solution to the maze, Bright's routing often offered multiple equally valid routes from start to finish, with no loss of complexity or diminishment of solver difficulties because the result was that it became difficult for a solver to definitively "rule out" a particular pathway as unproductive. Some of Bright's innovative mazes had no "dead ends", although some clearly had looping sections (or "islands") that would cause careless explorers to keep looping back again and again to pathways they had already travelled.
+The books of Larry Evans focused on 3-D structures, often with realistic perspective and architectural themes, and Bernard Myers (Supermazes No. 1) produced similar illustrations. Both Greg Bright (The Hole Maze Book) and Dave Phillips (The World's Most Difficult Maze) published maze books in which the sides of pages could be crossed over and in which holes could allow the pathways to cross from one page to another, and one side of a page to the other, thus enhancing the 3-D routing capacity of 2-D printed illustrations.
+Adrian Fisher is both the most prolific contemporary author on mazes, and also one of the leading maze designers. His book The Amazing Book of Mazes (2006) contains examples and photographs of numerous methods of maze construction, several of which have been pioneered by Fisher; The Art of the Maze (Weidenfeld and Nicholson, 1990) contains a substantial history of the subject, whilst Mazes and Labyrinths (Shire Publications, 2004) is a useful introduction to the subject.
+A recent book by Galen Wadzinski (The Ultimate Maze Book) offers formalized rules for more recent innovations that involve single-directional pathways, 3-D simulating illustrations, "key" and "ordered stop" mazes in which items must be collected or visited in particular orders to add to the difficulties of routing (such restrictions on pathway traveling and re-use are important in a printed book in which the limited amount of space on a printed page would otherwise place clear limits on the number of choices and pathways that can be contained within a single maze). Although these innovations are not all entirely new with Wadzinski, the book marks a significant advancement in published maze puzzles, offering expansions on the traditional puzzles that seem to have been fully informed by various video game innovations and designs, and adds new levels of challenge and complexity in both the design and the goals offered to the puzzle-solver in a printed format.
+
+
+== Mazes open to the public ==
+
+
+=== Asia ===
+
+
+==== Dubai ====
+Gardens Shopping Mall, Dubai (world's largest indoor maze)
+
+
+==== Japan ====
+Hikimi no Meiro, Kiso, Nagano, Japan
+Kyodai Meiro Palladium, Nikkō, Tochigi, Japan
+Sendai Hi-Land, Sendai, Miyagi, Japan
+Shirahama Energy Land, Shirahama, Wakayama, Japan
+
+
+=== Pacific ===
+
+
+==== Hawaii ====
+Dole Pineapple Plantation, Oahu.
+
+
+==== New Zealand ====
+Amazing Maze n' Maize
+
+
+=== Europe ===
+
+
+==== Austria ====
+Schönbrunn Palace, Vienna, has a large hedge maze in its gardens.
+
+
+==== Denmark ====
+Labyrinthia, Silkeborg
+Samsø Labyrinten (The world's largest permanent maze, 60.000 m2)
+
+
+==== Germany ====
+Hortus Vitalis – Der Irrgarten, Bad Salzuflen (hedge maze)
+
+
+==== Italy ====
+Castello di Masino, Caravino 10010, Torino, Italia
+Porsenna's Maze, Chiusi, Tuscany (see Pliny's Italian labyrinth)
+Villa Pisani, Stra, near Venice (45.409587°N 12.013131°E﻿ / 45.409587; 12.013131)
+The labyrinth of Franco Maria Ricci at Fontanellato (44.853989°N 10.146446°E﻿ / 44.853989; 10.146446)
+
+
+==== Netherlands ====
+Waterlabyrinth, Nijmegen, designed by Klaus van de Locht, 1981 (51.85016°N 5.860471°E﻿ / 51.85016; 5.860471﻿ (Labyrinth))
+Doolhof Ruurlo, Ruurlo, designed by Daniel Marot, based on the design for Hampton Court Maze (52.078266°N 6.433654°E﻿ / 52.078266; 6.433654﻿ (Doolhof Ruurlo))
+
+
+==== Portugal ====
+Parque do Arnado, Ponte de Lima, District of Viana do Castelo
+Parque de São Roque, District of Porto
+Forest Reserve of Pinhal da Paz, São Miguel Island, Azores
+
+
+==== Spain ====
+Laberinto del Camino de Santiago
+Parc del laberint d'Horta, Barcelona, (41.440235°N 2.145769°E﻿ / 41.440235; 2.145769﻿ (Parc del laberint))
+Parc de la Torreblanca, Esplugues de Llobregat (41.37856°N 2.054628°E﻿ / 41.37856; 2.054628﻿ (Labyrinth))
+
+
+==== UK ====
+Blake House Craft Centre, Braintree, Essex, England (Open July–September)
+Carnfunnock Country Park, Northern Ireland. A hedge maze in the shape of Northern Ireland and winner of 1985 Design a Maze competition.
+Castlewellan, Northern Ireland, world's largest permanent hedge maze
+Cliveden House Originally laid out in 1894 and re-opened to the public in 2011, consisting of 1100 Yew trees
+Glendurgan Garden, Cornwall. A cherry laurel hedge maze created in 1833.
+Hampton Court Maze. A famous historic maze in the Palace gardens.
+Hever Castle Maze, Hever, Kent. Yew tree maze and a splashing water maze
+Hoo Hill Maze, Shefford, Bedfordshire, England
+Norwich Cathedral, Norfolk, England. A labyrinth in the Cloister Garth. Laid to commemorate the Golden Jubilee of HM Queen Elizabeth II in 2002.
+Richings Park Amazing Maize Maze, Richings Park, near Heathrow, England (Open July–September)
+Saltwell Park, Gateshead, Tyne and Wear, England. A yew-tree maze restored to its original condition in 2005 and open to the public during park opening hours.
+Somerleyton Hall, Suffolk, England. A yew hedge maze designed and planted in 1846 by William Nesfield.
+York Maze. Located near RAF Elvington and constructed using maize (Dalek corn) plants, the maze was created to celebrate the 50th anniversary of Doctor Who.
+
+
+=== North America ===
+
+
+==== Canada ====
+In 2012, the Kraay Family Farm in Alberta, Canada created the world's largest QR code in the form of a massive corn maze, popularly known as The Edmonton Corn Maze.
+
+
+==== USA ====
+The Stanley Hotel in Estes Park, Colorado, which inspired Stephen King's novel The Shining (1977) but did not sport a hedge maze (despite one's being famously depicted in the 1980 film adaption), in November 2014 publicized an international design competition requesting entrants to propose designs to plant a 10,100-square-foot hedge maze, using 1,600 to 2,000 Alpine Currant hedge bushes, on the hotel's front lawn. On 31 January, the judges selected Jesse Alfaro’s Evans, Colorado construction company.
+Tanglewood Music Center Hedge Maze, Lenox and Stockbridge, Massachusetts
+
+
+=== South America ===
+
+
+==== Brazil ====
+Labirinto Verde, Nova Petrópolis, (Circular hedge maze built in 1989; Latitude 29°22'32.71"S Longitude 51°06'43.68"W)
+
+
+== Mazes in popular culture ==
+
+
+=== Fictional mazes ===
+The film adaptation of Stephen King's 1977 novel, The Shining (1980), includes a "harrowing" scene featuring Jack Torrance and Danny Torrance in an "ominous" hedge maze.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+"Britain's best mazes". Times Online. 21 August 2006. 
+Labyrinth Society official web page
+Neild, Barry (29 September 2006). "Shortcuts: Escaping a maze". CNN Briefing Room.

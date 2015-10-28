@@ -1,0 +1,53 @@
+In physics, angular frequency ω (also referred to by the terms angular speed, radial frequency, circular frequency, orbital frequency, radian frequency, and pulsatance) is a scalar measure of rotation rate. It refers to the angular displacement per unit time (e.g., in rotation) or the rate of change of the phase of a sinusoidal waveform (e.g., in oscillations and waves), or as the rate of change of the argument of the sine function.
+Angular frequency (or angular speed) is the magnitude of the vector quantity angular velocity. The term angular frequency vector  is sometimes used as a synonym for the vector quantity angular velocity.
+One revolution is equal to 2π radians, hence
+
+where:
+ω is the angular frequency or angular speed (measured in radians per second),
+T is the period (measured in seconds),
+f is the ordinary frequency (measured in hertz) (sometimes symbolised with ν).
+
+
+== UnitsEdit ==
+In SI units, angular frequency is normally presented in radians per second, even when it does not express a rotational value. From the perspective of dimensional analysis, the unit hertz (Hz) is also correct, but in practice it is only used for ordinary frequency f, and almost never for ω. This convention helps avoid confusion.
+In digital signal processing, the angular frequency may be normalized by the sampling rate, yielding the normalized frequency.
+
+
+== ExamplesEdit ==
+
+
+=== Circular motionEdit ===
+
+In a rotating or orbiting object, there is a relation between distance from the axis, tangential speed, and the angular frequency of the rotation:
+
+
+=== Oscillations of a springEdit ===
+An object attached to a spring will oscillate. Assuming that the spring is ideal and massless with no damping then the motion will be simple and harmonic with an angular frequency given by:
+
+where
+k is the spring constant
+m is the mass of the object.
+ω is referred to as the natural frequency (which can sometimes be denoted as ω0).
+As the object oscillates, its acceleration can be calculated by
+
+where x is displacement from an equilibrium position.
+Using 'ordinary' revolutions-per-second frequency, this equation would be
+
+
+=== LC circuitsEdit ===
+The resonant angular frequency in an LC circuit equals the square root of the inverse of capacitance (C measured in farads), times the inductance of the circuit (L in henrys).
+
+
+== See alsoEdit ==
+Orders of magnitude (angular velocity)
+Simple harmonic motion
+mean motion
+
+
+== References and notesEdit ==
+
+Related Reading:
+Olenick ,, Richard P.; Apostol, Tom M.; Goodstein, David L. (2007). The Mechanical Universe. New York City: Cambridge University Press. pp. 383–385, 391–395. ISBN 978-0-521-71592-8. 
+
+
+== External linksEdit ==

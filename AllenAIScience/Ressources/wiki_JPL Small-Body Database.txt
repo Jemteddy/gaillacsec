@@ -1,0 +1,23 @@
+The JPL Small-Body Database (SBDB) is an astronomy database about small Solar System bodies. It is maintained by Jet Propulsion Laboratory (JPL) and NASA and provides data for all known asteroids and several comets, including orbital parameters and diagrams, physical diagrams, and lists of publications related to the small body. The database is updated on a daily basis.
+
+
+== Close-approach data ==
+As of August 2013 (planetary ephemeris DE431) close-approach data is available for the major planets and the 16 most massive asteroids. Close approach data is available by adding ";cad=1" to the end of the URL.
+
+
+== Orbit diagram ==
+A Java applet is available and provided as a 3D orbit visualization tool. The applet was implemented using unreliable 2-body methods, and hence should not be used for determining accurate long-term trajectories (over several years or decades) or planetary encounter circumstances. For accurate ephemerides use the JPL Horizons On-Line Ephemeris System that handles the n-body problem using numerical integration. The Java applet is available by adding ";orb=1" to the end of the url.
+
+
+== See also ==
+JPL Horizons On-Line Ephemeris System
+Jet Propulsion Laboratory Development Ephemeris
+Sentry (monitoring system)
+NEODyS
+
+
+== References ==
+
+
+== External links ==
+JPL Small-Body Database browser

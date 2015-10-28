@@ -1,0 +1,61 @@
+Seaside is a free and open-source web application framework for developing web applications in Smalltalk.
+Seaside provides a component architecture in which web pages are built as trees of individual, stateful components, each encapsulating a small portion of a page. Seaside uses continuations to model multiple independent flows between different components. Seaside is a continuation-based web application framework based on the ability to manipulate the execution stack of some implementations of Smalltalk.
+
+
+== Key features ==
+Seaside's implementation of continuations was an initial point of interest in its first several years of existence following its 2002 release. Continuations provide a mechanism for rollback and resumption; a useful provision for the web browser environment in which "refresh" and "back" buttons may interrupt the flow of processing. Continuation servers give the developer the ability to maintain state on the server in a scalable manner. The subsequent improvement of web browser implementations of JavaScript since 2002 has made the continuations aspect of Seaside less significant, by allowing the client browser to better keep track of state.
+A distinctive feature of Seaside is its integrated development environment, providing access to development tools and debugging support within an application. In development-mode, unhandled errors are reported to the web page; developers can access and alter the program code and state directly from the web page, allowing bug identification and fixing process to occur within an integrated development environment.
+A Seaside application is a collection of interacting components. Each component stores state across page views and can "render" itself to the HTML stream. Thus, it is straightforward to write a component once and then reuse it elsewhere in an application. Seaside also supports the notion of tasks, which allow the programmer to describe the high-level logic of component interaction.
+Seaside is not template-oriented, and does not offer the generation or use of HTML templates; HTML markup is generated programmatically. (The Seaside-based Pier content-management framework does offer wiki-markup syntax for templating.) Seaside uses callbacks on closures to specify actions to be taken when clicking on a link or submitting a form. The developers and users of Seaside argue that this helps enforce separation of structure (markup) from content and presentation (CSS). Seaside's combination of components, callbacks, and closures can significantly reduce the semantic gap between a complex workflow and its representation in code.
+Seaside supports Ajax through integration with script.aculo.us and jQuery. Seaside also supports Comet-style server-push technology.
+
+
+== Philosophy ==
+Over the last few years, some best practices have come to be widely accepted in the web development field:
+Share as little state as possible.
+Use clean, carefully chosen, and meaningful URLs.
+Use templates to separate the model from the presentation.
+Seaside deliberately breaks all of these rules; Avi Bryant describes it as a 'heretical' framework. He argues that this careful and reasoned rejection of the conventional wisdoms of web development has led to a very effective model for the development of web applications.
+
+
+== Ports ==
+Although the main development of Seaside is implemented in Pharo, there exist ports for other Smalltalk dialects. Michel Bany implemented ports to VisualWorks through Seaside version 2.7; Cincom supports Seaside as part of VisualWorks as of early 2008. Instantiations announced Seaside support in its VA Smalltalk version 8.0. As of February 2009 VA Smalltalk 8.0 is in beta. Esteban Maringolo maintained the 2.8 port, plus some other add-ons (such as script.aculo.us) for Dolphin Smalltalk X6. Gemstone Systems implemented a port to Gemstone/S. A port of 2.8 was completed for GemStone, and a preliminary version of 3.0 runs on GNU Smalltalk 3.0a and later.
+
+
+== Criticisms ==
+Compared to other web development frameworks, Seaside is memory intensive. A single session could accumulate several hundred kilobytes of RAM. A later release of Seaside (2.8) significantly reduces this footprint (e.g. a formerly typical 200 KB footprint becomes 50 KB). Interesting discussion in http://forum.world.st/Seaside-memory-consumption-td97508.html.
+Seaside does not follow Representational State Transfer (REST) by default. Instead Uniform Resource Locators (URLs) hold session key information, and meaningful URLs must be generated explicitly.
+
+
+== Open-source projects using it ==
+Magritte - a meta-description framework with a tight integration into Seaside
+Pier - a content management system and high level application framework for Seaside
+ADK Project
+
+
+== Proprietary projects using it ==
+Dabble DB - web-based database application
+Cmsbox - a Seaside-powered CMS which has been made available by netstyle.ch for the Swiss marketplace.
+
+
+== See also ==
+
+GLASS (software bundle)
+Nagare (web framework)
+List of web application frameworks
+Content management framework
+Comparison of web application frameworks
+
+
+== References ==
+
+
+== External links ==
+Seaside homepage.
+Dynamic Web Development with Seaside is an open book on the Seaside Web Framework.
+The Seaside Tutorial describes step by step the development of a Seaside application.
+Terse Guide to Seaside.
+Video of Lukas Renggli's talk The Heretic Web Framework from the Studencki Festiwal Informatyczny in Cracow, March 2007, with PDF slides
+Seaside for Cincom VisualWorks Smalltalk.
+Comparison of Seaside and Rails.
+Borges - Ruby port of Seaside 2.0.

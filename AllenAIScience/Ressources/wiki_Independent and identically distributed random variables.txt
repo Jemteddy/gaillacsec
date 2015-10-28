@@ -1,0 +1,47 @@
+In probability theory and statistics, a sequence or other collection of random variables is independent and identically distributed (i.i.d.) if each random variable has the same probability distribution as the others and all are mutually independent.
+The abbreviation i.i.d. is particularly common in statistics (often as iid, sometimes written IID), where observations in a sample are often assumed to be effectively i.i.d. for the purposes of statistical inference. The assumption (or requirement) that observations be i.i.d. tends to simplify the underlying mathematics of many statistical methods (see mathematical statistics and statistical theory). However, in practical applications of statistical modeling the assumption may or may not be realistic. To test how realistic the assumption is on a given data set, the autocorrelation can be computed, lag plots drawn or turning point test performed. The generalization of exchangeable random variables is often sufficient and more easily met.
+The assumption is important in the classical form of the central limit theorem, which states that the probability distribution of the sum (or average) of i.i.d. variables with finite variance approaches a normal distribution.
+Note that IID refers to sequences of random variables. "Independent and identically distributed" implies an element in the sequence is independent of the random variables that came before it. In this way, an IID sequence is different from a Markov sequence, where the probability distribution for the nth random variable is a function of the previous random variable in the sequence (for a first order Markov sequence). An IID sequence does not imply the probabilities for all elements of the sample space or event space must be the same. For example, repeated throws of loaded dice will produce a sequence that is IID, despite the outcomes being biased.
+
+
+== Examples ==
+
+
+=== Uses in modeling ===
+The following are examples or applications of independent and identically distributed (i.i.d.) random variables:
+A sequence of outcomes of spins of a fair or unfair roulette wheel is i.i.d. One implication of this is that if the roulette ball lands on "red", for example, 20 times in a row, the next spin is no more or less likely to be "black" than on any other spin (see the Gambler's fallacy).
+A sequence of fair or loaded dice rolls is i.i.d.
+A sequence of fair or unfair coin flips is i.i.d.
+In signal processing and image processing the notion of transformation to IID implies two specifications, the "ID" (ID = identically distributed) part and the "I" (I = independent) part:
+(ID) the signal level must be balanced on the time axis;
+(I) the signal spectrum must be flattened, i.e. transformed by filtering (such as deconvolution) to a white signal (one where all frequencies are equally present).
+
+
+=== Uses in inference ===
+One of the simplest statistical tests, the z-test, is used to test hypotheses about means of random variables. When using the z-test, one assumes (requires) that all observations are i.i.d. in order to satisfy the conditions of the central limit theorem.
+
+
+== Generalizations ==
+Many results that were first proven under the assumption that the random variables are i.i.d. have been shown to be true even under a weaker distributional assumption.
+
+
+=== Exchangeable random variables ===
+
+The most general notion which shares the main properties of i.i.d. variables are exchangeable random variables, introduced by Bruno de Finetti. Exchangeability means that while variables may not be independent or identically distributed, future ones behave like past ones – formally, any value of a finite sequence is as likely as any permutation of those values – the joint probability distribution is invariant under the symmetric group.
+This provides a useful generalization – for example, sampling without replacement is not independent, but is exchangeable – and is widely used in Bayesian statistics.
+
+
+=== Lévy process ===
+
+In stochastic calculus, i.i.d. variables are thought of as a discrete time Lévy process: each variable gives how much one changes from one time to another. For example, a sequence of Bernoulli trials is interpreted as the Bernoulli process. One may generalize this to include continuous time Lévy processes, and many Lévy processes can be seen as limits of i.i.d. variables—for instance, the Wiener process is the limit of the Bernoulli process.
+
+
+== White noise ==
+White noise is a simple example of IID.
+
+
+== See also ==
+De Finetti's theorem
+
+
+== References ==

@@ -1,0 +1,93 @@
+A hygrometer /haɪˈɡrɒmɨtər/ is an instrument used for measuring the moisture content in the atmosphere. Humidity measurement instruments usually rely on measurements of some other quantity such as temperature, pressure, mass or a mechanical or electrical change in a substance as moisture is absorbed. By calibration and calculation, these measured quantities can lead to a measurement of humidity. Modern electronic devices use temperature of condensation (the dew point), or changes in electrical capacitance or resistance to measure humidity differences. The first practical hygrometer was invented by polymath Johann Heinrich Lambert in 1755.
+
+
+== Classical hygrometersEdit ==
+
+
+=== Metal-paper coil typeEdit ===
+The metal-paper coil hygrometer is very useful for giving a dial indication of humidity changes. It appears most often in very inexpensive devices, and its accuracy is limited, with variations of 10% or more. In these devices, water vapour is absorbed by a salt-impregnated paper strip attached to a metal coil, causing the coil to change shape. These changes (analogous to those in a bimetallic thermometer) cause an indication on a dial.
+
+
+=== Hair tension hygrometersEdit ===
+These devices use a human or animal hair under tension. The hair is hygroscopic (tending toward retaining moisture); its length changes with humidity, and the length change may be magnified by a mechanism and indicated on a dial or scale. In the late 1700s, such devices were called by some scientists hygroscopes; that word is no longer in current use, but hygroscopic and hygroscopy, which derive from it, still are. The traditional folk art device known as a weather house works on this principle. Whale bone and other materials may be used in place of hair.
+In 1783, Swiss physicist and geologist Horace Bénédict de Saussure built the first hair-tension hygrometer using human hair.
+
+It consists of a human hair eight to ten inches long, b c, Fig. 37, fastened at one extremity to a screw, a, and at the other passing over a pulley, c, being strained tight by a silk thread and weight, d.
+
+The pulley is connected to an index which moves over a graduated scale (e). The instrument can be made more sensitive by removing oils from the hair, such as by first soaking the hair in diethyl ether.
+
+
+=== Psychrometers (Wet and Dry Bulb Thermometers)Edit ===
+
+A psychrometer, or wet-and-dry-bulb thermometer, consists of two thermometers, one that is dry and one that is kept moist with distilled water on a sock or wick. The two thermometers are thus called the dry-bulb and the wet-bulb. At temperatures above the freezing point of water, evaporation of water from the wick lowers the temperature, so that the wet-bulb thermometer usually shows a lower temperature than that of the dry-bulb thermometer. When the air temperature is below freezing, however, the wet-bulb is covered with a thin coating of ice and may be warmer than the dry bulb.
+Relative humidity is computed from the ambient temperature as shown by the dry-bulb thermometer and the difference in temperatures as shown by the wet-bulb and dry-bulb thermometers. Relative humidity can also be determined by locating the intersection of the wet and dry-bulb temperatures on a psychrometric chart. The two thermometers coincide when the air is fully saturated, and the greater the difference the drier the air. Psychrometers are commonly used in meteorology, and in the HVAC industry for proper refrigerant charging of residential and commercial air conditioning systems.
+
+
+==== Sling psychrometerEdit ====
+
+The sling psychrometer, where the thermometers are attached to a handle or length of rope and spun around in the air for a few minutes, is sometimes used for field measurements, but is being replaced by more convenient electronic sensors. Alternatively a whirling psychrometer uses the same principle, however the two thermometers are fitted into a device that resembles a ratchet or football rattle.
+
+
+=== Chilled mirror dew point HygrometersEdit ===
+Dewpoint is the temperature at which a sample of moist air (or any other water vapor) at constant pressure reaches water vapor saturation. At this saturation temperature, further cooling results in condensation of water. Chilled mirror dewpoint hygrometers are some of the most precise instruments commonly available. These use a chilled mirror and optoelectronic mechanism to detect condensation on the mirror surface. The temperature of the mirror is controlled by electronic feedback to maintain a dynamic equilibrium between evaporation and condensation on the mirror, thus closely measuring the dew point temperature. An accuracy of 0.2 °C is attainable with these devices, which correlates at typical office environments to a relative humidity accuracy of about ±1.2%. These devices need frequent cleaning, a skilled operator and periodic calibration to attain these levels of accuracy. Even so, they are prone to heavy drifting in environments where smoke or otherwise impure air may be present.
+
+
+== Modern hygrometersEdit ==
+
+
+=== CapacitiveEdit ===
+For applications where cost, space, or fragility are relevant, other types of electronic sensors are used, at the price of a lower accuracy. In capacitive hygrometers, the effect of humidity on the dielectric constant of a polymer or metal oxide material is measured. With calibration, these sensors have an accuracy of ±2% RH in the range 5–95% RH. Without calibration, the accuracy is 2 to 3 times worse. Capacitive sensors are robust against effects such as condensation and temporary high temperatures. Capacitive sensors are subject to contamination, drift and aging effects, but are suitable for many applications.
+
+
+=== ResistiveEdit ===
+In resistive hygrometers, the change in electrical resistance of a material due to humidity is measured. Typical materials are salts and conductive polymers. Resistive sensors are less sensitive than capacitive sensors – the change in material properties is less, so they require more complex circuitry. The material properties also tend to depend both on humidity and temperature, which means in practice that the sensor must be combined with a temperature sensor. The accuracy and robustness against condensation vary depending on the chosen resistive material. Robust, condensation-resistant sensors exist with an accuracy of up to ±3% RH.
+
+
+=== ThermalEdit ===
+In thermal hygrometers, the change in thermal conductivity of air due to humidity is measured. These sensors measure absolute humidity rather than relative humidity.
+
+
+=== GravimetricEdit ===
+A gravimetric hygrometer measures the mass of an air sample compared to an equal volume of dry air. This is considered the most accurate primary method to determine the moisture content of the air. National standards based on this type of measurement have been developed in US, UK, EU and Japan. The inconvenience of using this device means it is usually only used to calibrate less accurate instruments, called transfer standards.
+
+
+== ApplicationsEdit ==
+Besides greenhouses and industrial spaces, hygrometers are also used in some incubators (egg), saunas, humidors and museums. They are also used in the care of wooden musical instruments such as guitars, violins, and harps which can be damaged by improper humidity conditions. In residential settings, hygrometers are used to aid humidity control (too low humidity damages human skin and body, while too high humidity favours growth of mildew and dust mite). Hygrometers are also used in the coating industry because the application of paint and other coatings may be very sensitive to humidity and dew point. With a growing demand on the amount of measurements taken the psychrometer is now replaced by a dewpoint gauge known as a dewcheck. These devices make measurements a lot faster but are often not allowed in explosive environments.
+
+
+== Difficulty of accurate humidity measurementEdit ==
+Humidity measurement is among the more difficult problems in basic metrology. According to the WMO Guide, "The achievable accuracies [for humidity determination] listed in the table refer to good quality instruments that are well operated and maintained. In practice, these are not easy to achieve." Two thermometers can be compared by immersing them both in an insulated vessel of water (or alcohol, for temperatures below the freezing point of water) and stirring vigorously to minimize temperature variations. A high-quality liquid-in-glass thermometer if handled with care should remain stable for some years. Hygrometers must be calibrated in air, which is a much less effective heat transfer medium than is water, and many types are subject to drift so need regular recalibration. A further difficulty is that most hygrometers sense relative humidity rather than the absolute amount of water present, but relative humidity is a function of both temperature and absolute moisture content, so small temperature variations within the air in a test chamber will translate into relative humidity variations.
+In a cold and humid environment, sublimation of ice may occur on the sensor head, whether this a hair, dew cell, mirror, capacitance sensing element, or dry-bulb thermometer of an aspiration psychrometer. The ice on the probe fixes the reading to the saturation humidity with respect to ice at that temperature, i.e. the frost point. Consequently, conventional hygrometers are unable to measure correctly above the frost point, and the only way to go around this fundamental problem is to use a heated humidity probe.
+
+
+== Calibration standardsEdit ==
+
+
+=== Psychrometer calibrationEdit ===
+Accurate calibration of the thermometers used is fundamental to precise humidity determination by the wet-dry method. The thermometers must be protected from radiant heat and must have a sufficiently high flow of air over the wet bulb for the most accurate results. One of the most precise types of wet-dry bulb psychrometer was invented in the late 19th century by Adolph Richard Aßmann (1845–1918); in English-language references the device is usually spelled "Assmann psychrometer." In this device, each thermometer is suspended within a vertical tube of polished metal, and that tube is in turn suspended within a second metal tube of slightly larger diameter; these double tubes serve to isolate the thermometers from radiant heating. Air is drawn through the tubes with a fan that is driven by a clockwork mechanism to ensure a consistent speed (some modern versions use an electric fan with electronic speed control). According to Middleton, 1966, "an essential point is that air is drawn between the concentric tubes, as well as through the inner one."
+It is very challenging, particularly at low relative humidity, to obtain the maximal theoretical depression of the wet-bulb temperature; an Australian study in the late 1990s found that liquid-in-glass wet-bulb thermometers were warmer than theory predicted even when considerable precautions were taken; these could lead to RH value readings that are 2 to 5 percent points too high.
+One solution sometimes used for accurate humidity measurement when the air temperature is below freezing is to use a thermostatically-controlled electric heater to raise the temperature of outside air to above freezing. In this arrangement, a fan draws outside air past (1) a thermometer to measure the ambient dry-bulb temperature, (2) the heating element, (3) a second thermometer to measure the dry-bulb temperature of the heated air, then finally (4) a wet-bulb thermometer. According to the World Meteorological Organization Guide, "The principle of the heated psychrometer is that the water vapour content of an air mass does not change if it is heated. This property may be exploited to the advantage of the psychrometer by avoiding the need to maintain an ice bulb under freezing conditions.".
+Since the humidity of the ambient air is calculated indirectly from three temperature measurements, in such a device accurate thermometer calibration is even more important than for a two-bulb configuration.
+
+
+=== Saturated salt calibrationEdit ===
+Various researchers have investigated the use of saturated salt solutions for calibrating hygrometers. Slushy mixtures of certain pure salts and distilled water have the property that they maintain an approximately constant humidity in a closed container. A saturated table salt (Sodium Chloride) bath will eventually give a reading of approximately 75%. Other salts have other equilibrium humidity levels: Lithium Chloride ~11%; Magnesium Chloride ~33%; Potassium Carbonate ~43%; Potassium Sulfate ~97%. Salt solutions will vary somewhat in humidity with temperature and they can take relatively long times to come to equilibrium, but their ease of use compensates somewhat for these disadvantages in low precision applications, such as checking mechanical and electronic hygrometers.
+
+
+== See alsoEdit ==
+Automated airport weather station
+Dewcell
+Humidistat
+Moisture analysis
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+IMA moisture measurement training site
+USATODAY.com: How a Sling Psychrometer Works
+NIST page on humidity calibration
+Article on difficulty of humidity calibration
+Article on RH sensors
+NOAA homepage for cryogenic chilled-mirror frostpoint hygrometers

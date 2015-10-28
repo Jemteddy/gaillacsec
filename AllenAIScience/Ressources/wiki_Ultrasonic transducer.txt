@@ -1,0 +1,35 @@
+Ultrasonic transducers are transducers that convert ultrasound waves to electrical signals or vice versa. Those that both transmit and receive may also be called ultrasound transceivers; many ultrasound sensors besides being sensors are indeed transceivers because they can both sense and transmit. These devices work on a principle similar to that of transducers used in radar and sonar systems, which evaluate attributes of a target by interpreting the echoes from radio or sound waves, respectively. Active ultrasonic sensors generate high-frequency sound waves and evaluate the echo which is received back by the sensor, measuring the time interval between sending the signal and receiving the echo to determine the distance to an object. Passive ultrasonic sensors are basically microphones that detect ultrasonic noise that is present under certain conditions, convert it to an electrical signal, and report it to a computer.
+
+
+== Capabilities and limitationsEdit ==
+This technology can be used for measuring wind speed and direction (anemometer), tank or channel fluid level, and speed through air or water. For measuring speed or direction, a device uses multiple detectors and calculates the speed from the relative distances to particulates in the air or water. To measure tank or channel level, the sensor measures the distance to the surface of the fluid. Further applications include: humidifiers, sonar, medical ultrasonography, burglar alarms, non-destructive testing and wireless charging.
+Systems typically use a transducer which generates sound waves in the ultrasonic range, above 18 kHz, by turning electrical energy into sound, then upon receiving the echo turn the sound waves into electrical energy which can be measured and displayed.
+The technology is limited by the shapes of surfaces and the density or consistency of the material. Foam, in particular, can distort surface level readings.
+This technology, as well, can detect approaching objects and track their positions.
+
+
+== TransducersEdit ==
+
+An ultrasonic transducer is a device that converts AC into ultrasound, as well as the reverse, sound into AC. In ultrasonics, the term typically refers to piezoelectric transducers or capacitive transducers. Piezoelectric crystals change size and shape when a voltage is applied; AC voltage makes them oscillate at the same frequency and produce ultrasonic sound. Capacitive transducers use electrostatic fields between a conductive diaphragm and a backing plate.
+The beam pattern of a transducer can be determined by the active transducer area and shape, the ultrasound wavelength, and the sound velocity of the propagation medium. The diagrams show the sound fields of an unfocused and a focusing ultrasonic transducer in water, plainly at differing energy levels.
+Since piezoelectric materials generate a voltage when force is applied to them, they can also work as ultrasonic detectors. Some systems use separate transmitters and receivers, while others combine both functions into a single piezoelectric transceiver.
+Ultrasound transmitters can also use non-piezoelectric principles. such as magnetostriction. Materials with this property change size slightly when exposed to a magnetic field, and make practical transducers.
+A capacitor ("condenser") microphone has a thin diaphragm that responds to ultrasound waves. Changes in the electric field between the diaphragm and a closely spaced backing plate convert sound signals to electric currents, which can be amplified.
+
+
+== Use in medicineEdit ==
+
+Medical ultrasonic transducers (probes) come in a variety of different shapes and sizes for use in making cross-sectional images of various parts of the body. The transducer may be passed over the surface and in contact with the body, or inserted into a body opening such as the rectum or vagina. Clinicians who perform ultrasound-guided procedures often use a probe positioning system to hold the ultrasonic transducer.
+Air detection sensors are used in various roles. Non-invasive air detection is for the most critical situations where the safety of a patient is mandatory. Many of the variables, which can affect performance of amplitude or continuous-wave-based sensing systems, are eliminated or greatly reduced, thus yielding accurate and repeatable detection.
+One key principle in this technology is that the transmit signal consists of short bursts of ultrasonic energy. After each burst, the electronics looks for a return signal within a small window of time corresponding to the time it takes for the energy to pass through the vessel. Only signals received during this period will qualify for additional signal processing. This principle is similar to radar range gating.
+
+
+== Use in industryEdit ==
+Ultrasonic sensors can detect movement of targets and measure the distance to them in many automated factories and process plants. Sensors can have an on or off digital output for detecting the movement of objects, or an analog output proportional to distance. They can sense the edge of material as part of a web guiding system.
+Ultrasonic sensors are widely used in cars as parking sensors to aid the driver in reversing into parking spaces. They are being tested for a number of other automotive uses including ultrasonic people detection and assisting in autonomous UAV navigation.
+Because ultrasonic sensors use sound rather than light for detection, they work in applications where photoelectric sensors may not. Ultrasonics are a great solution for clear object detection, clear label detection and for liquid level measurement, applications that photoelectrics struggle with because of target translucence. As well, target color and/or reflectivity do not affect ultrasonic sensors, which can operate reliably in high-glare environments.
+Passive ultrasonic sensors may be used to detect high-pressure gas or liquid leaks, or other hazardous conditions that generate ultrasonic sound. In these devices, audio from the transducer (microphone) is converted down to human hearing range.
+High-power ultrasonic emitters are used in commercially available ultrasonic cleaning devices. An ultrasonic transducer is affixed to a stainless steel pan which is filled with a solvent (frequently water or isopropanol). An electrical square wave feeds the tronsducer, creating sound in the solvent strong enough to cause cavitation.
+
+
+== ReferencesEdit ==

@@ -1,0 +1,114 @@
+A design rationale is an explicit documentation of the reasons behind decisions made when designing a system or artifact. As initially developed by W.R. Kunz and Horst Rittel, design rationale seeks to provide argumentation-based structure to the political, collaborative process of addressing wicked problems.
+
+
+== Overview ==
+A design rationale is the explicit listing of decisions made during a design process, and the reasons why those decisions were made. Its primary goal is to support designers by providing a means to record and communicate the argumentation and reasoning behind the design process. It should therefore include:
+the reasons behind a design decision,
+the justification for it,
+the other alternatives considered,
+the trade offs evaluated, and
+the argumentation that led to the decision.
+Several science areas are involved in the study of design rationales, such as Computer Science Cognitive Science, Artificial Intelligence, and Knowledge Management For supporting design rationale, various frameworks have been proposed, such as QOC, DRCS, IBIS, and DRL.
+
+
+== History ==
+While argumentation formats can be traced back to Stephen Toulmin's work in the 1950s datums, claims, warrants, backings and rebuttals, the origin of design rationale can be traced back to W.R. Kunz and Horst Rittel's development of the Issue-Based Information System (IBIS) notation in 1970. Several variants on IBIS have since been proposed.
+The first was Procedural Hierarchy of Issues (PHI), first described in Ray McCall’s PhD Dissertation although not named at the time.
+IBIS was also modified, in this case to support Software Engineering, by Potts & Bruns. The Potts & Bruns approach was then extended by the Decision Representation Language (DRL). which itself was extended by RATSpeak.
+Questions Options and Criteria (QOC), also known as Design Space Analysis is an alternative representation for argumentation-based rationale, as are Win-Win and the Decision Recommendation and Intent Model (DRIM).
+The first Rationale Management System (RMS) was PROTOCOL, which supported PHI, which was followed by other PHI-based systems MIKROPOLIS and PHIDIAS. The first system providing IBIS support was Hans Dehlinger’s STIEC. Rittel developed a small system in 1983 (also not published) and the better known gIBIS (graphical IBIS) was developed in 1987.
+Not all successful DR approaches involve structured argumentation. For example, Carroll and Rosson's Scenario-Claims Analysis approach captures rationale in scenarios that describe how the system is used and how well the system features support the user goals. Carroll and Rosson's approach to design rationale is intended to help designers of computer software and hardware identify underlying design tradeoffs and make inferences about the impact of potential design interventions.
+
+
+== Key concepts in design rationale ==
+There are a number of ways to characterize DR approaches. Some key distinguishing features are how it is captured, how it is represented, and how it can be used.
+
+
+=== Rationale capture ===
+Rationale capture is the process of acquiring rationale information to a rationale management
+Capture methods
+A method called “Reconstruction” captures rationales in a raw form such as video, and then reconstruct them into a more structured form. The advantage of Reconstruction method is that rationales can be carefully captured and capturing process won’t disrupt the designer. But this method might result in high cost and biases of the person producing the rationales
+The “Record-and-replay” method simply captures rationales as they unfold. Rationales are synchronously captured in a video conference or asynchronously captured via bulletin board or email-based discussion. If the system has informal and semi-formal representation, the method will be helpful.
+The “Methodological byproduct” method captures rationales during the process of design following a schema. But it’s hard to design such a schema. The advantage of this method is its low cost.
+With a rich knowledge base(KB) created in advance, the “Apprentice” method captures rationales by asking questions when confusing or disagreeing with the designer’s action. This method benefits not only the user but the system.
+In “Automatic Generation” method, design rationales are automatically generated from an execution history at low cost. It has the ability in maintaining consistent and up-to-date rationales. But the cost of compiling the execution history is high due to the complexity and difficulty of some machine-learning problems.
+The “Historian” method let a person or computer program watches all designer's actions but does not make suggestions. Rationales are captured during the design process.
+
+
+=== Rationale representation ===
+The choice of design rationale representation is very important to make sure that the rationales we capture is what we desire and we can use efficiently. According to the degree of formality, the approaches that are used to represent design rationale can be divided into three main categories: informal, semiformal, or formal. In the informal representation, rationales can be recorded and captured by just using our traditionally accepted methods and media, such as word processors, audio and video records or even hand writings. However, these descriptions make it hard for automatic interpretation or other computer-based supports. In the formal representation, the rationale must be collected under a strict format so that the rationale can be interpreted and understood by computers. However, due to the strict format of rationale defined by formal representations, the contents can hardly be understood by human being and the process of capturing design rationale will require more efforts to finish, and therefore becomese.
+Semiformal representations try to combine the advantages of informal and formal representations. On one hand, the information captured should be able to be processed by computers so that more computer based support can be provided. On the other hand, the procedure and method used to capture information of design rationale should not be very intrusive. In the system with a semiformal representation, the information expected is suggested and the users can capture rationale by following the instructions to either fill out the attributes according to some templates or just type into natural language descriptions.
+
+
+=== Argumentation-based models ===
+The Toulmin model 
+One commonly accepted way for semiformal design rationale representation is structuring design rationale as argumentation. The earliest argumentation-based model used by many design rationale systems is the Toulmin model. The Toulmin model defines the rules of design rationale argumentation with six steps:Claim is made;
+Supporting data are provided;
+Warrant provides evidence to the existing relations;
+Warrant can be supported by a backing;
+Model qualifiers (some, many, most, etc.) are provided;
+Possible rebuttals are also considered.
+
+One advantage of Toulmin model is that it uses words and concepts which can be easily understood by most people.
+Issue-Based Information System (IBIS) 
+Another important approach to argumentation of design rationale is Rittel and Kunz’s IBIS (Issue-Based Information System), which is actually not a software system but an argumentative notation. It has been implemented in software form by gIBIS (graphical IBIS), itIBIS (test-based IBIS), Compendium, and other software. IBIS uses some rationale elements (denoted as nodes) such as issues, positions, arguments, resolutions and several relationships such as more general than, logical successor to, temporal successor to, replaces and similar to, to link the issue discussions.
+Procedural Hierarchy of Issues (PHI) 
+PHI (Procedural Hierarchy of Issues) extended IBIS to noncontroversial issues and redefined the relationships. PHI adds the subissue relationship which means one issue’s resolution depends on the resolution of another issue.
+Questions, Options, and Criteria (QOC) 
+QOC (Questions, Options, and Criteria) is used for design space analysis. Similar to IBIS, QOC identifies the key design problems as questions and possible answers to questions as options. In addition, QOC uses criteria to explicitly describe the methods to evaluate the options, such as the requirements to be satisfied or the properties desired. The options are linked with criteria positively or negatively and these links are defined as assessments.
+Decision Representation Language (DRL) 
+DRL (Decision Representation Language) extends the Potts and Bruns model of DR and defines the primary elements as decision problems, alternatives, goals, claims and groups. Lee (1991) has argued that DRL is more expressive than other languages. DRL focuses more on the representation of decision making and its rationale instead of on design rationale.
+RATSpeak 
+Based on DRL, RATSpeak is developed and used as the representation language in SEURAT (Software Engineering Using RATionale). RATSpeak takes into account requirements (functional and non-functional) as part of the arguments for alternatives to the decision problems. SEURAT also includes an Argument Ontology which is a hierarchy of argument types and includes the types of claims used in the system.
+WinWin Spiral Model 
+The WinWin Spiral Model, which is used in the WinWin approach, adds the WinWin negotiation activities, including identifying key stakeholders of the systems, and identifying the win conditions of each stakeholder and negotiation, into the front of each cycle of the spiral software development model in order to achieve a mutually satisfactory (winwin) agreement for all stakeholders of the project.
+In the WinWin Spiral Model, the goals of each stakeholder are defined as Win conditions. Once there is a conflict between win conditions, it is captured as an Issue. Then the stakeholders invent Options and explore trade-offs to resolve the issue. When the issue is solved, an Agreement which satisfies the win conditions of stakeholders and captures the agreed option is achieved. Design rationale behind the decisions is captured during the process of the WinWin model and will be used by stakeholders and the designers to improve their later decision making. The WinWin Spiral model reduces the overheads of the capture of design rationale by providing stakeholders a well-defined process to negotiate. In an ontology of decision rationale is defined and their model utilizes the ontology to address the problem of supporting decision maintenance in the WinWin collaboration framework.
+Design Recommendation and Intent Model (DRIM) 
+DRIM (Design Recommendation and Intent Model) is used in SHARED-DRIM. The main structure of DRIM is a proposal which consists of the intents of each designer, the recommendations that satisfy the intents and the justifications of the recommendations. Negotiations are also needed when conflicts exist between the intents of different designers. The recommendation accepted becomes a design decision, and the rationale of the unaccepted but proposed recommendations are also recorded during this process, which can be useful during the iterative design and/or system maintenance.
+
+
+== Applications ==
+Design rationale has the potential to be used in many different ways. One set of uses, defined by Burge and Brown (1998), are:
+Design verification — The design rationale can be used to verify if the design decisions and the product itself are the reflection of what the designers and the users actually wanted.
+Design evaluation — The design rationale is used to evaluate the various design alternatives discussed during the design process.
+Design maintenance — The design rationale helps to determine the changes that are necessary to modify the design.
+Design reuse — The design rationale is used to determine how the existing design could be reused for a new requirement with or without any changes in it. If there is a need to modify the design, then the DR also suggests what needs to be modified in the design.
+Design teaching — The design rationale could be used as a resource to teach people who are unfamiliar with the design and the system.
+Design communication — The design rationale facilitates better communication among people who are involved in the design process and thus helps to come up with a better design.
+Design assistance — The design rationale could be used to verify the design decisions made during the design process.
+Design documentation — The design rationale is used to document the entire design process which involves the meeting room deliberations, alternatives discussed, reasons behind the design decisions and the product overview.
+DR is used by research communities in software engineering, mechanical design, artificial intelligence, civil engineering, and human-computer interaction research. In software engineering, it could be used to support the designers ideas during requirement analysis, capturing and documenting design meetings and predicting possible issues due to new design approach. In civil engineering, it helps to coordinate the variety of work that the designers do at the same time in different areas of a construction project. It also help the designers to understand and respect each other’s ideas and resolve any possible issues.
+The DR can also be used by the project managers to maintain their project plan and the project status up to date. Also, the project team members who missed a design meeting can refer back the DR to learn what was discussed on a particular topic. The unresolved issues captured in DR could be used to organize further meetings on those topics.
+Design rationale helps the designers to avoid the same mistakes made in the previous design. This can also be helpful to avoid duplication of work. In some cases DR could save time and money when a software system is upgraded from its previous versions.
+There are several books and articles that provide excellent surveys of rationale approaches applied to HCI, Engineering Design and Software Engineering.
+
+
+== See also ==
+IDEF6
+Theory of justification
+
+
+== References ==
+
+
+== Further reading ==
+Books
+Burge, JE; Carroll, JM; McCall R; Mistrík I (2008). Rationale-Based Software Engineering. Heidelberg: Springer-Verlag. 
+Dutoit, AH; McCall R; Mistrík I; Paech B (2006). Rationale Management in Software Engineering. Heidelberg: Springer-Verlag. 
+Conklin, J (2005). Dialogue Mapping. Weinheim: Wiley-VCH Verlag. 
+Kirschner, PA; Buckingham-Shum SJ; Carr CS (2003). Visualizing Argumentation: Software Tools for Collaborative and Educational Sense-Making. London: Springer-Verlag. 
+Moran, T; Carroll J (1996). Design Rationale Concepts, Techniques, and Use. NJ: Lawrence Erlbaum Associates,. 
+Special Issues
+Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Special Issue: Fall 2008, Vol.22 No.4 Design Rationale http://web.cs.wpi.edu/~aiedam/SpecialIssues/Burge-Bracewell.html
+Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Special Issue on Representing and Using Design Rationale, 1997, Vol.11 No.2, Cambridge University Press
+Workshops
+Second Workshop on SHAring and Reusing architectural Knowledge - Architecture, rationale, and Design Intent (SHARK/ADI 2007), (RC.rug.nl) as part of the 29th Int. Conf. on Software Engineering (ICSE 2007) (CS.ucl.ac.uk)
+Workshop on Design Rationale: Problems and Progress (Muohio.edu)
+Workshop Chairs: Janet Burge and Rob Bracewell, Held 9 July 2006 in conjunction with Design, Computing, and Cognition '06. Eindhoven, (wwwfaculty.arch.usyd.edu.au) Netherlands
+
+
+== External links ==
+Bcisive.austhink.com: A commercial software package designed for design rationale and decision rationale more broadly. Graphical interface, sharing capabilities.
+Compendium: A hypermedia tool that provides visual knowledge management capabilities based around IBIS. Free Java application, binary and source, with an active user community who meet annually.
+designVUE: A tool for visual knowledge capture based on IBIS and other methods. Free Java application.
+SEURAT: An Eclipse plug-in that integrates rationale capture and use with a software development environment. SEURAT is available as an open source project in github ([1]).

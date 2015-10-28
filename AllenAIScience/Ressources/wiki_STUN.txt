@@ -1,0 +1,35 @@
+STUN (Session Traversal Utilities for NAT) is a standardized set of methods and a network protocol to allow an end host to discover its public IP address if it is located behind a NAT. It is used to permit NAT traversal for applications of real-time voice, video, messaging, and other interactive IP communications. It is documented in RFC 5389. The STUN URI scheme is documented in RFC 7064. STUN is intended to be a tool to be used by other protocols, such as ICE.
+The STUN protocol allows applications operating behind a network address translator (NAT) to discover the presence of the network address translator and to obtain the mapped (public) IP address (NAT address) and port number that the NAT has allocated for the application's User Datagram Protocol (UDP) connections to remote hosts. The protocol requires assistance from a third-party network server (STUN server) located on the opposing (public) side of the NAT, usually the public Internet.
+
+
+== Design ==
+STUN is a lightweight client–server network protocol. Its purpose is to allow an application running on a host to determine whether or not it is located behind a network device that is performing address translation. The basic protocol operates essentially as follows: the client sends a message (known as a binding request) to a STUN server on the public Internet. The STUN server responds with a success response that contains in its payload the IP address and port of the client, as observed from the server's perspective. The result is obfuscated through XOR mapping to work around NATs that indiscriminately translate payload IP addresses present in STUN responses.
+STUN messages are usually sent in User Datagram Protocol (UDP) packets. Since UDP does not provide reliable transport guarantees, reliability is achieved by application-controlled retransmissions of the STUN requests. STUN servers do not implement any reliability mechanism for their responses. When reliability is mandatory, the Transmission Control Protocol (TCP) may be used, but induces extra networking overhead. In security-sensitive applications, STUN may be transported and encrypted by Transport Layer Security (TLS).
+An application may automatically determine a suitable STUN server for communications with a particular peer by querying the Domain Name System (DNS) for the stun (for UDP) or stuns (for TCP/TLS) server record (SRV) resource record, e.g., _stun._udp.example.com. The standard listening port number for a STUN server is 3478 for UDP and TCP, and 5349 for TLS. Alternatively, TLS may also be run on the TCP port if the server implementation can de-multiplex TLS and STUN packets. In case no STUN server is found using DNS lookups, the standard recommends that the destination domain name should be queried for address records (A or AAAA), which would be used with the default port numbers.
+In addition to using protocol encryption via TLS, STUN also has built-in authentication and message-integrity mechanisms via specialized STUN packet types.
+When a client has discovered its external address, it can use this as a candidate for communicating with peers by sharing the external NAT address rather than the private address (which is, by definition, not reachable from peers on the public network).
+If both peers are located in different private networks behind a NAT, the peers must coordinate to determine the best communication path between them. Some NAT behavior may restrict peer connectivity even when the public binding is known. The Interactive Connectivity Establishment (ICE) protocol provides a structured mechanism to determine the optimal communication path between two peers. Session Initiation Protocol (SIP) extensions are defined to enable the use of ICE when setting up a call between two hosts.
+
+
+=== Obsolete STUN NAT characterization algorithm ===
+RFC 5389 obsoletes the previous specification, documented in RFC 3489 that specified an algorithm to allow endpoints to characterize NAT behavior, according to the address and port mapping behavior. The algorithm was dropped from RFC 5389, as it is not reliably successful and only applicable to a subset of deployed NAT devices.
+
+
+== Limitations ==
+Network address translation is implemented via a number of different address and port mapping schemes, none of which is standardized.
+STUN is not a self-contained NAT traversal solution applicable in all NAT deployment scenarios and does not work correctly with all of them. It is a tool among other methods and it is a tool for other protocols in dealing with NAT traversal, most notably Traversal Using Relay NAT (TURN) and Interactive Connectivity Establishment (ICE).
+STUN does work with three types of NAT: full cone NAT, restricted cone NAT, and port restricted cone NAT. In the cases of restricted cone or port restricted cone NATs, the client must send out a packet to the endpoint before the NAT will allow packets from the endpoint through to the client. STUN does not work with symmetric NAT (also known as bi-directional NAT) which is often found in the networks of large companies. Since the IP address of the STUN server is different from that of the endpoint, in the symmetric NAT case, the NAT mapping will be different for the STUN server than for an endpoint. TURN offers better results with symmetric NAT.
+
+
+== See also ==
+Port Control Protocol
+UDP hole punching
+Internet Gateway Device Protocol
+
+
+== External links ==
+STUNTMAN - Open source STUN server code for RFC 5389 and RFC 3489
+STUNT - "STUN and TCP too", which extends STUN to include TCP functionality
+voip-info.org - definitions, RFC links, extensions, software, public STUN server list
+Yahoo! - Director of Engineering explaining STUN and TURN (Video)
+List of 267 public STUN servers from EmerCoin project. Tested 2014-08-23

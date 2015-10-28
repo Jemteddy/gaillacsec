@@ -1,0 +1,16 @@
+In computer networking, out-of-order delivery is the delivery of data packets in a different order from which they were sent. Out-of-order delivery can be caused by packets following multiple paths through a network, or via parallel processing paths within network equipment that are not designed to ensure that packet ordering is preserved. One of the functions of TCP is to prevent the out-of-order delivery of data, either by reassembling packets into order or forcing retries of out-of-order packets.
+
+
+== See also ==
+Packet loss
+Selective ACK
+IP fragmentation
+Head-of-line blocking
+
+
+== External links ==
+RFC 4737, Packet Reordering Metrics, A. Morton, L. Ciavattone, G. Ramachandran, S. Shalunov, J. Perser, November 2006
+RFC 5236, Improved Packet Reordering Metrics, A. Jayasumana, N. Piratla, T. Banka, A. Bare, R. Whitner, June 2008
+http://kb.pert.geant.net/PERTKB/PacketReordering
+http://www-iepm.slac.stanford.edu/monitoring/reorder/
+https://www.usenix.org/conference/nsdi12/minion-unordered-delivery-wire-compatible-tcp-and-tls

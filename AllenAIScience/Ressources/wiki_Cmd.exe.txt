@@ -1,0 +1,36 @@
+Command Prompt, also known as cmd.exe or cmd (after its executable file name), is the command-line interpreter on Windows NT, Windows CE, OS/2 and eComStation operating systems. It is the counterpart of COMMAND.COM in DOS and Windows 9x systems (where it is also called "MS-DOS Prompt"), and analogous to the Unix shells used on Unix-like systems. The initial version of Command Prompt for Windows NT was developed by Therese Stowell.
+
+
+== Operation ==
+Command Prompt interacts with the user through a command-line interface. In Windows, this interface is implemented through Win32 console. Command Prompt may take advantage of features available to native programs of its own platform. For example, in OS/2, it can use real pipes in command pipelines, allowing both sides of the pipeline to run concurrently. As a result, it is possible to redirect the standard error stream. (COMMAND.COM uses temporary files, and runs the two sides serially, one after the other.)
+
+
+== New features ==
+In Windows, Command Prompt is compatible with COMMAND.COM but provides the following extensions over it:
+Provides more detailed error messages than the blanket "Bad command or file name" (in the case of malformed commands) of COMMAND.COM. In the OS/2, errors are reported in the chosen language of the system, their text being taken from the system message files. The HELP command can then be issued with the error message number to obtain further information.
+Supports using of arrow keys to scroll through command history. This function was only available to COMMAND.COM via an external component called DOSKEY.
+Adds command-line completion for file and folder paths
+Treats the Caret character (^) as the escape character; in other words, the character following it is to be taken literally. There special characters in Command Prompt and COMMAND.COM (e.g. "<", ">", "*", "?" and "|") that are part of the syntax and, if specified without caret, can alter the behavior of their command.
+Supports delayed variable expansion‹The template Elucidate is being considered for deletion.›  (Windows 2000 and later), fixing DOS idioms that made using control structures hard and complex. The extensions can be disabled, providing a stricter compatibility mode.
+Internal commands have also been improved:
+The DelTree command was merged into the RD command, as part of its /S switch.
+SetLocal and EndLocal commands limit the scope of changes to the environment. Changes made to the command line environment after SetLocal commands are local to the batch file. EndLocal command restores the previous settings.
+The Call command allows subroutines within batch file. The Call command in COMMAND.COM only supports calling external batch files.
+File name parser extensions to the Set command are comparable with C shell.‹The template Elucidate is being considered for deletion.› 
+The Set command can perform expression evaluation.
+An expansion of the For command supports parsing files and arbitrary sets in addition to file names.
+The new PushD and PopD commands provide access past navigated paths similar to "forward" and "back" buttons in a web browser or File Explorer.
+The conditional IF command can perform case-insensitive comparisons and numeric equality and inequality comparisons in addition to case-sensitive string comparisons. This was available in DR-DOS (by Novell) but not in PC DOS (by IBM) or MS-DOS (by Microsoft).
+
+
+== See also ==
+4OS2, an enhanced, but backwards-compatible replacement for CMD in OS/2
+Take Command Console (TCC), an enhanced, but backwards-compatible replacement for Command Prompt in Windows NT
+Comparison of command shells
+List of DOS commands
+
+
+== References ==
+
+
+== Further reading ==

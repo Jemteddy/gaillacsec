@@ -1,0 +1,74 @@
+Turbidity is the cloudiness or haziness of a fluid caused by large numbers of individual particles that are generally invisible to the naked eye, similar to smoke in air. The measurement of turbidity is a key test of water quality.
+Fluids can contain suspended solid matter consisting of particles of many different sizes. While some suspended material will be large enough and heavy enough to settle rapidly to the bottom of the container if a liquid sample is left to stand (the settable solids), very small particles will settle only very slowly or not at all if the sample is regularly agitated or the particles are colloidal. These small solid particles cause the liquid to appear turbid.
+Turbidity (or haze) is also applied to transparent solids such as glass or plastic. In plastic production haze is defined as the percentage of light that is deflected more than 2.5° from the incoming light direction.
+
+
+== CausesEdit ==
+Turbidity in open water may be caused by growth of phytoplankton. Human activities that disturb land, such as construction, mining and agriculture, can lead to high sediment levels entering water bodies during rain storms due to storm water runoff. Areas prone to high bank erosion rates as well as urbanized areas also contribute large amounts of turbidity to nearby waters, through stormwater pollution from paved surfaces such as roads, bridges and parking lots. Certain industries such as quarrying, mining and coal recovery can generate very high levels of turbidity from colloidal rock particles.
+In drinking water, the higher the turbidity level, the higher the risk that people may develop gastrointestinal diseases. This is especially problematic for immunocompromised people, because contaminants like viruses or bacteria can become attached to the suspended solids. The suspended solids interfere with water disinfection with chlorine because the particles act as shields for the virus and bacteria. Similarly, suspended solids can protect bacteria from ultraviolet (UV) sterilization of water.
+In water bodies such as lakes, rivers and reservoirs, high turbidity levels can reduce the amount of light reaching lower depths, which can inhibit growth of submerged aquatic plants and consequently affect species which are dependent on them, such as fish and shellfish. High turbidity levels can also affect the ability of fish gills to absorb dissolved oxygen. This phenomenon has been regularly observed throughout the Chesapeake Bay in the eastern United States.
+For many mangrove areas, high turbidity is needed to support certain species, such as to protect juvenile fish from predators. For most mangroves along the eastern coast of Australia, in particular Moreton Bay, turbidity levels as high as 600 Nephelometric Turbidity Units (NTU) are needed for proper ecosystem health.
+
+
+== MeasurementEdit ==
+
+The most widely used measurement unit for turbidity is the Formazin Turbidity Unit (FTU). ISO refers to its units as FNU (Formazin Nephelometric Units). ISO 7027 provides the method in water quality for the determination of turbidity. It is used to determine the concentration of suspended particles in a sample of water by measuring the incident light scattered at right angles from the sample. The scattered light is captured by a photodiode, which produces an electronic signal that is converted to a turbidity. Open source hardware has been developed following the ISO 7027 method to measure turbidity reliably using an Arduino microcontroller and inexpensive LEDs.
+There are several practical ways of checking water quality, the most direct being some measure of attenuation (that is, reduction in strength) of light as it passes through a sample column of water. The alternatively used Jackson Candle method (units: Jackson Turbidity Unit or JTU) is essentially the inverse measure of the length of a column of water needed to completely obscure a candle flame viewed through it. The more water needed (the longer the water column), the clearer the water. Of course water alone produces some attenuation, and any substances dissolved in the water that produce color can attenuate some wavelengths. Modern instruments do not use candles, but this approach of attenuation of a light beam through a column of water should be calibrated and reported in JTUs.
+The propensity of particles to scatter a light beam focused on them is now considered a more meaningful measure of turbidity in water. Turbidity measured this way uses an instrument called a nephelometer with the detector set up to the side of the light beam. More light reaches the detector if there are lots of small particles scattering the source beam than if there are few. The units of turbidity from a calibrated nephelometer are called Nephelometric Turbidity Units (NTU). To some extent, how much light reflects for a given amount of particulates is dependent upon properties of the particles like their shape, color, and reflectivity. For this reason (and the reason that heavier particles settle quickly and do not contribute to a turbidity reading), a correlation between turbidity and total suspended solids (TSS) is somewhat unique for each location or situation.
+Turbidity in lakes, reservoirs, channels, and the ocean can be measured using a Secchi disk. This black and white disk is lowered into the water until it can no longer be seen; the depth (Secchi depth) is then recorded as a measure of the transparency of the water (inversely related to turbidity). The Secchi disk has the advantages of integrating turbidity over depth (where variable turbidity layers are present), being quick and easy to use, and inexpensive. It can provide a rough indication of the depth of the euphotic zone with a 3-fold division of the Secchi depth, however this cannot be used in shallow waters where the disk can still be seen on the bottom.
+An additional device, which may help measuring turbidity in shallow waters is the turbidity tube. The turbidity tube condenses water in a graded tube which allows determination of turbidity based on a contrast disk in its bottom, being analogous to the Secchi disk.
+Turbidity in air, which causes solar attenuation, is used as a measure of pollution. To model the attenuation of beam irradiance, several turbidity parameters have been introduced, including the Linke turbidity factor (TL).
+
+
+== Standards and test methodsEdit ==
+
+
+=== Drinking water standardsEdit ===
+Governments have set standards on the allowable turbidity in drinking water. In the United States, systems that use conventional or direct filtration methods turbidity cannot be higher than 1.0 nephelometric turbidity units (NTU) at the plant outlet and all samples for turbidity must be less than or equal to 0.3 NTU for at least 95 percent of the samples in any month. Systems that use filtration other than the conventional or direct filtration must follow state limits, which must include turbidity at no time exceeding 5 NTU. Many drinking water utilities strive to achieve levels as low as 0.1 NTU. The European standards do not appear to address turbidity, however, the World Health Organization, establishes that the turbidity of drinking water should not be more than 5 NTU, and should ideally be below 1 NTU.
+
+
+=== Ambient water standardsEdit ===
+The U.S. Environmental Protection Agency (EPA) has published water quality criteria for turbidity. These criteria are scientific assessments of the effects of turbidity, which are used by states to develop water quality standards for water bodies. (States may also publish their own criteria.) Some states have promulgated water quality standards for turbidity, including:
+Louisiana. 25, 50 or 150 NTU, or background plus 10 percent, depending on the water body.
+Vermont. 10 NTU or 25 NTU, depending on water body classification.
+Washington. 5 NTU over background (when background is 50 NTU or less), or 10 percent increase when background is over 50 NTU.
+
+
+=== Analytical methodsEdit ===
+Published analytical test methods for turbidity include:
+ISO 7027 "Water Quality: Determination of Turbidity" 
+US EPA Method No. 180.1, "Turbidity"
+"Standard Methods," No. 2130B.
+
+
+== TreatmentEdit ==
+Turbidity is commonly treated using either a settling or filtration process. Depending on the application, chemical reagents, will be dosed into the wastewater stream to increase the effectiveness of the settling or filtration process. Potable water treatment and municipal wastewater plants often remove turbidity with a combination of sand filtration, settling tanks and clarifiers.
+In-situ water treatment or direct dosing for the treatment of turbidity is common when the affected water bodies are dispersed (i.e. there are numerous water bodies spread out over a geographical area, such as small drinking water reservoirs), when the problem is not consistent (i.e. when there is turbidity in a water body only during and after the wet season) or when a low cost solution is required. In-situ treatment of turbidity involves the addition of a reagent, generally a flocculant, evenly dispensed over the surface of the body of water. The flocs then settle at the bottom of the water body where they remain or are removed when the water body is drained. This method is commonly used at coal mines and coal loading facilities where stormwater collection ponds have seasonal issues with turbidity. A number of companies offer portable treatment systems for in-situ water treatment or direct dosing of reagents.
+
+
+=== ReagentsEdit ===
+There are a number of chemical reagents that are available for treating turbidity. Reagents available for treating turbidity include aluminium sulfate or alum (Al2(SO4)3.xH2O), ferric chloride (FeCl3), gypsum (CaSO4.2H2O), poly-aluminium chloride, long chain acrylamide-based polymers and numerous proprietary reagents. The water chemistry must be carefully considered when chemical dosing as some reagents, such as alum, will alter the pH of the water.
+The dosing process must also be considered when using reagents as the flocs may be broken apart by excessive mixing.
+
+
+== See alsoEdit ==
+
+Transparency and translucency
+Bottom trawling
+McFarland standard
+Stormwater
+Total suspended solids
+Water purification
+In-situ water treatment
+Nephelometer
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Water on the Web: "Turbidity" (University of Minnesota, Duluth and Lake Superior College)
+"Understanding Turbidity." United States Geological Survey (USGS)
+USGS field manual on measuring turbidity
+Water Quality - Stormwater, Washington State
+Water Quality - Stormwater, Construction, Washington State

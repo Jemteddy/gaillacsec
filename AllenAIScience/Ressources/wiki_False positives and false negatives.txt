@@ -1,0 +1,47 @@
+In medical testing, and more generally in binary classification, a false positive is an error in data reporting in which a test result improperly indicates presence of a condition, such as a disease (the result is positive), when in reality it is not, while a false negative is an error in which a test result improperly indicates no presence of a condition (the result is negative), when in reality it is present. These are the two kinds of errors in a binary test (and are contrasted with a correct result, either a true positive or a true negative.) They are also known in medicine as a false positive (respectively negative) diagnosis, and in statistical classification as a false positive (respectively negative) error.
+In statistical hypothesis testing the analogous concepts are known as type I and type II errors, where a positive result corresponds to rejecting the null hypothesis, and a negative result corresponds to not rejecting the null hypothesis. The terms are often used interchangeably, but there are differences in detail and interpretation due to the differences between medical testing and statistical hypothesis testing.
+
+
+== False positive error ==
+A false positive error, or in short false positive, commonly called a "false alarm", is a result that indicates a given condition has been fulfilled, when it actually has not been fulfilled. I.e. erroneously a positive effect has been assumed. In the case of "crying wolf" – the condition tested for was "is there a wolf near the herd?", the actual result was that there had not been a wolf near the herd. The shepherd wrongly indicated there was one, by calling "Wolf, wolf!".
+A false positive error is a type I error where the test is checking a single condition, and results in an affirmative or negative decision usually designated as "true or false".
+
+
+== False negative error ==
+A false negative error, or in short false negative, is where a test result indicates that a condition failed, while it actually was successful. I.e. erroneously no effect has been assumed. A common example is a guilty prisoner freed from jail. The condition: "Is the prisoner guilty?" is true (yes, the prisoner is guilty). But the test (a court of law) failed to realize this, and wrongly decided the prisoner was not guilty.
+A false negative error is a type II error occurring in test steps where a single condition is checked for and the result can either be positive or negative.
+
+
+== Related terms ==
+
+
+=== False positive and false negative rates ===
+
+The false positive rate is the proportion of absent events that yield positive test outcomes, i.e., the conditional probability of a positive test result given an absent event.
+The false positive rate is equal to the significance level. The specificity of the test is equal to 1 minus the false positive rate.
+In statistical hypothesis testing, this fraction is given the Greek letter α, and 1−α is defined as the specificity of the test. Increasing the specificity of the test lowers the probability of type I errors, but raises the probability of type II errors (false negatives that reject the alternative hypothesis when it is true).
+Complementarily, the false negative rate is the proportion of events that are being tested for which yield negative test outcomes with the test, i.e., the conditional probability of a negative test result given that the event being looked for has taken place.
+In statistical hypothesis testing, this fraction is given the letter β. The "power" (or the "sensitivity") of the test is equal to 1−β.
+
+
+=== Receiver operating characteristic ===
+The article "Receiver operating characteristic" discusses parameters in statistical signal processing based on ratios of errors of various types.
+
+
+== Consequences ==
+Both types of errors are problems for individuals, corporations, and data analysis. In testing for a medical condition, a false positive in medicine (a condition being detected when none exists) causes unnecessary worry or treatment, while a false negative (a condition going undetected when it is present) gives the patient the dangerous illusion of good health and the patient might not get an available treatment. In testing for defective products, a false positive in manufacturing quality control (classifying a product as defective when it is well made) discards a product that is actually well made, while a false negative stamps a broken product as operational. A false positive in scientific research suggests an effect that is not actually there, while a false negative fails to detect an effect that is there.
+Based on the real-life consequences of an error, one type may be more serious than the other. In many applications there is a trade-off between these errors, particularly when classifying based on a threshold: a lower threshold for positive results yields more false positives but fewer false negatives.
+For example, in high-cost or life-and-death situations, like space exploration or military equipment, the cost of defects is very high (a mission fails or someone dies), and thus one has very strict tolerances. Thus NASA engineers would prefer to waste some money and throw out an electronic circuit that is really fine (false positive) than to throw out less but use one on a spacecraft that is actually broken (false negative). In this situation false positives use more money but increase mission safety, but a false negative would save some money but would risk the entire mission.
+On the other hand, in many legal traditions there is a presumption of innocence, as stated in Blackstone's formulation that:
+"It is better that ten guilty persons escape than that one innocent suffer",
+that is, that false negatives (a guilty person is acquitted and escapes) are far preferable to false positive (an innocent person is convicted and suffers). This is not universal, however, and some systems prefer to jail many innocent, rather than let a single guilty escape – the tradeoff varies between legal traditions.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Daily chart – Unlikely results - Why most published scientific research is probably false – Illustration of False positives and false negatives in The Economist appearing in the article Problems with scientific research How science goes wrong Scientific research has changed the world. Now it needs to change itself (19 October 2013)
