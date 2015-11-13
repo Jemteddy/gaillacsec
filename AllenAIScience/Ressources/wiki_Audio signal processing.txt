@@ -1,0 +1,63 @@
+Audio signal processing, sometimes referred to as audio processing, is the intentional alteration of auditory signals, or sound, often through an audio effect or effects unit. As audio signals may be electronically represented in either digital or analog format, signal processing may occur in either domain. Analog processors operate directly on the electrical signal, while digital processors operate mathematically on the digital representation of that signal.
+
+
+== History ==
+Audio signals are sound waves—longitudinal waves which travel through air, consisting of compressions and rarefactions. These audio signals are measured in bels or in decibels. Audio processing was necessary for early radio broadcasting, as there were many problems with studio to transmitter links.
+
+
+== Analog signals ==
+
+"Analog" indicates something that is mathematically represented by a set of continuous values; for example, the analog clock uses constantly moving hands on a physical clock face, where moving the hands directly alters the information that clock is providing. Thus, an analog signal is one represented by a continuous stream of data, in this case along an electrical circuit in the form of voltage, current or charge changes (compare with digital signals below). Analog signal processing (ASP) then involves physically altering the continuous signal by changing the voltage or current or charge via various electrical means.
+Historically, before the advent of widespread digital technology, ASP was the only method by which to manipulate a signal. Since that time, as computers and software became more advanced, digital signal processing has become the method of choice.
+
+
+== Digital signals ==
+
+A digital representation expresses the pressure wave-form as a sequence of symbols, usually binary numbers. This permits signal processing using digital circuits such as microprocessors and computers. Although such a conversion can be prone to loss, most modern audio systems use this approach as the techniques of digital signal processing are much more powerful and efficient than analog domain signal processing.
+
+
+== Application areas ==
+Processing methods and application areas include storage, level compression, data compression, transmission, enhancement (e.g., equalization, filtering, noise cancellation, echo or reverb removal or addition, etc.)
+
+
+=== Audio broadcasting ===
+Traditionally the most important audio processing (in audio broadcasting) takes place just before the transmitter. Studio audio processing is limited in the modern era due to digital audio systems ( mixers, routers) being pervasive in the studio.
+In audio broadcasting, the audio processor must
+prevent overmodulation, and minimize it when it occurs
+compensate for non-linear transmitters, more common with medium wave and shortwave broadcasting
+adjust overall loudness to desired level
+correct errors in audio levels
+
+
+== Techniques ==
+Audio unprocessed by reverb and delay is metaphorically referred to as "dry", while processed audio is referred to as "wet".
+echo - to simulate the effect of reverberation in a large hall or cavern, one or several delayed signals are added to the original signal. To be perceived as echo, the delay has to be of order 35 milliseconds or above. Short of actually playing a sound in the desired environment, the effect of echo can be implemented using either digital or analog methods. Analog echo effects are implemented using tape delays and/or spring reverbs. When large numbers of delayed signals are mixed over several seconds, the resulting sound has the effect of being presented in a large room, and it is more commonly called reverberation or reverb for short.
+flanger - to create an unusual sound, a delayed signal is added to the original signal with a continuously variable delay (usually smaller than 10 ms). This effect is now done electronically using DSP, but originally the effect was created by playing the same recording on two synchronized tape players, and then mixing the signals together. As long as the machines were synchronized, the mix would sound more-or-less normal, but if the operator placed his finger on the flange of one of the players (hence "flanger"), that machine would slow down and its signal would fall out-of-phase with its partner, producing a phasing effect. Once the operator took his finger off, the player would speed up until its tachometer was back in phase with the master, and as this happened, the phasing effect would appear to slide up the frequency spectrum. This phasing up-and-down the register can be performed rhythmically.
+phaser - another way of creating an unusual sound; the signal is split, a portion is filtered with an all-pass filter to produce a phase-shift, and then the unfiltered and filtered signals are mixed. The phaser effect was originally a simpler implementation of the flanger effect since delays were difficult to implement with analog equipment. Phasers are often used to give a "synthesized" or electronic effect to natural sounds, such as human speech. The voice of C-3PO from Star Wars was created by taking the actor's voice and treating it with a phaser.
+chorus - a delayed signal is added to the original signal with a constant delay. The delay has to be short in order not to be perceived as echo, but above 5 ms to be audible. If the delay is too short, it will destructively interfere with the un-delayed signal and create a flanging effect. Often, the delayed signals will be slightly pitch shifted to more realistically convey the effect of multiple voices.
+equalization - different frequency bands are attenuated or boosted to produce desired spectral characteristics. Moderate use of equalization (often abbreviated as "EQ") can be used to "fine-tune" the tone quality of a recording; extreme use of equalization, such as heavily cutting a certain frequency can create more unusual effects.
+filtering - Equalization is a form of filtering. In the general sense, frequency ranges can be emphasized or attenuated using low-pass, high-pass, band-pass or band-stop filters. Band-pass filtering of voice can simulate the effect of a telephone because telephones use band-pass filters.
+overdrive effects such as the use of a fuzz box can be used to produce distorted sounds, such as for imitating robotic voices or to simulate distorted radiotelephone traffic (e.g., the radio chatter between starfighter pilots in the science fiction film Star Wars). The most basic overdrive effect involves clipping the signal when its absolute value exceeds a certain threshold.
+pitch shift - this effect shifts a signal up or down in pitch. For example, a signal may be shifted an octave up or down. This is usually applied to the entire signal, and not to each note separately. Blending the original signal with shifted duplicate(s) can create harmonies from one voice. Another application of pitch shifting is pitch correction. Here a musical signal is tuned to the correct pitch using digital signal processing techniques. This effect is ubiquitous in karaoke machines and is often used to assist pop singers who sing out of tune. It is also used intentionally for aesthetic effect in such pop songs as Cher's Believe and Madonna's Die Another Day.
+time stretching - the complement of pitch shift, that is, the process of changing the speed of an audio signal without affecting its pitch.
+resonators - emphasize harmonic frequency content on specified frequencies. These may be created from parametric EQs or from delay-based comb-filters.
+robotic voice effects are used to make an actor's voice sound like a synthesized human voice.
+synthesizer - generate artificially almost any sound by either imitating natural sounds or creating completely new sounds.
+modulation - to change the frequency or amplitude of a carrier signal in relation to a predefined signal. Ring modulation, also known as amplitude modulation, is an effect made famous by Doctor Who's Daleks and commonly used throughout sci-fi.
+compression - the reduction of the dynamic range of a sound to avoid unintentional fluctuation in the dynamics. Level compression is not to be confused with audio data compression, where the amount of data is reduced without affecting the amplitude of the sound it represents.
+3D audio effects - place sounds outside the stereo basis
+reverse echo - a swelling effect created by reversing an audio signal and recording echo and/or delay while the signal runs in reverse. When played back forward the last echos are heard before the effected sound creating a rush like swell preceding and during playback. Jimmy Page of Led Zeppelin used this effect in the bridge of "Whole Lotta Love".
+active noise control- a method for reducing unwanted sound
+wave field synthesis - a spatial audio rendering technique for the creation of virtual acoustic environments
+
+
+== See also ==
+Sound card
+Sound effect
+
+
+== References ==
+
+
+== Further reading ==
+Rocchesso, Davide (March 20, 2003). Introduction to Sound Processing (PDF).

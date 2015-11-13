@@ -1,0 +1,83 @@
+The Phong reflection model (also called Phong illumination or Phong lighting) is an empirical model of the local illumination of points on a surface. In 3D computer graphics, it is sometimes ambiguously referred to as "Phong shading", in particular if the model is used in combination with the interpolation method of the same name and in the context of pixel shaders or other places where a lighting calculation can be referred to as “shading”.
+
+
+== HistoryEdit ==
+The Phong reflection model was developed by Bui Tuong Phong at the University of Utah, who published it in his 1973 Ph.D. dissertation. It was published in conjunction with a method for interpolating the calculation for each individual pixel that is rasterized from a polygonal surface model; the interpolation technique is known as Phong shading, even when it is used with a reflection model other than Phong's. Phong's methods were considered radical at the time of their introduction, but have since become the de facto baseline shading method for many rendering applications. Phong's methods have proven popular due to their generally efficient use of computation time per rendered pixel.
+
+
+== DescriptionEdit ==
+Phong reflection is an empirical model of local illumination. It describes the way a surface reflects light as a combination of the diffuse reflection of rough surfaces with the specular reflection of shiny surfaces. It is based on Bui Tuong Phong's informal observation that shiny surfaces have small intense specular highlights, while dull surfaces have large highlights that fall off more gradually. The model also includes an ambient term to account for the small amount of light that is scattered about the entire scene.
+
+For each light source in the scene, components  and  are defined as the intensities (often as RGB values) of the specular and diffuse components of the light sources, respectively. A single term  controls the ambient lighting; it is sometimes computed as a sum of contributions from all light sources.
+For each material in the scene, the following parameters are defined:
+, which is a specular reflection constant, the ratio of reflection of the specular term of incoming light,
+, which is a diffuse reflection constant, the ratio of reflection of the diffuse term of incoming light (Lambertian reflectance),
+, which is an ambient reflection constant, the ratio of reflection of the ambient term present in all points in the scene rendered, and
+, which is a shininess constant for this material, which is larger for surfaces that are smoother and more mirror-like. When this constant is large the specular highlight is small.
+
+Furthermore, we have
+lights, which is the set of all light sources,
+, which is the direction vector from the point on the surface toward each light source ( specifies the light source),
+, which is the normal at this point on the surface,
+, which is the direction that a perfectly reflected ray of light would take from this point on the surface, and
+, which is the direction pointing towards the viewer (such as a virtual camera).
+Then the Phong reflection model provides an equation for computing the illumination of each surface point :
+
+where the direction vector  is calculated as the reflection of  on the surface characterized by the surface normal  using
+
+and the hats indicate that the vectors are normalized. The diffuse term is not affected by the viewer direction (). The specular term is large only when the viewer direction () is aligned with the reflection direction . Their alignment is measured by the  power of the cosine of the angle between them. The cosine of the angle between the normalized vectors  and  is equal to their dot product. When  is large, in the case of a nearly mirror-like reflection, the specular highlight will be small, because any viewpoint not aligned with the reflection will have a cosine less than one which rapidly approaches zero when raised to a high power.
+Although the above formulation is the common way of presenting the Phong reflection model, each term should only be included if the term's dot product is positive. (Additionally, the specular term should only be included if the dot product of the diffuse term is positive.)
+When the color is represented as RGB values, as often is the case in computer graphics, this equation is typically modeled separately for R, G and B intensities, allowing different reflections constants   and  for the different color channels.
+
+
+=== Computationally more efficient alterationsEdit ===
+When implementing the Phong reflection model, there are a number of methods for approximating the model, rather than implementing the exact formulas, which can speed up the calculation; for example, the Blinn–Phong reflection model is a modification of the Phong reflection model, which is more efficient if the viewer and the light source are treated to be at infinity.
+Another approximation that addresses the calculation of the exponentiation in the specular term is the following: Considering that the specular term should be taken into account only if its dot product is positive, it can be approximated as
+
+where , and  is a real number which doesn't have to be an integer. If  is chosen to be a power of 2, i.e.  where  is an integer, then the expression  can be more efficiently calculated by squaring  times, i.e.
+
+This approximation of the specular term holds for a sufficiently large, integer  (typically, 4 or 8 will be enough).
+Furthermore, the value  can be approximated as , or as  The latter is much less sensitive to normalization errors in  and  than what Phong's dot-product-based  is, and practically doesn't require  and  to be normalized unless for very low-resolved triangle meshes.
+This method substitutes a few multiplications for a variable exponentiation, and removes the need for an accurate reciprocal-square-root-based vector normalization.
+
+
+== Inverse Phong reflection modelEdit ==
+The Phong reflection model in combination with Phong shading is an approximation of shading of objects in real life. This means that the Phong equation can relate the shading seen in a photograph with the surface normals of the visible object. Inverse refers to the wish to estimate the surface normals given a rendered image, natural or computer-made.
+The Phong reflection model contains many parameters, such as the surface diffuse reflection parameter (albedo) which may vary within the object. Thus the normals of an object in a photograph can only be determined, by introducing additional information such as the number of lights, light directions and reflection parameters.
+For example we have a cylindrical object, for instance a finger, and wish to compute the normal  on a line on the object. We assume only one light, no specular reflection, and uniform known (approximated) reflection parameters. We can then simplify the Phong equation to:
+
+With  a constant equal to the ambient light and  a constant equal to the diffusion reflection. We can re-write the equation to:
+
+Which can be rewritten for a line through the cylindrical object as:
+
+For instance if the light direction is 45 degrees above the object  we get two equations with two unknowns.
+
+Because of the powers of two in the equation there are two possible solutions for the normal direction. Thus some prior information of the geometry is needed to define the correct normal direction. The normals are directly related to angles of inclination of the line on the object surface. Thus the normals allow the calculation of the relative surface heights of the line on the object using a line integral, if we assume a continuous surface.
+If the object is not cylindrical, we have three unknown normal values . Then the two equations still allow the normal to rotate around the view vector, thus additional constraints are needed from prior geometric information. For instance in face recognition those geometric constraints can be obtained using principal component analysis (PCA) on a database of depth-maps of faces, allowing only surface normals solutions which are found in a normal population.
+
+
+== ApplicationsEdit ==
+As already implied, the Phong reflection model is often used together with Phong shading to shade surfaces in 3D computer graphics software. Apart from this, it may also be used for other purposes. For example, it has been used to model the reflection of thermal radiation from the Pioneer probes in an attempt to explain the Pioneer anomaly.
+
+
+== See alsoEdit ==
+
+List of common shading algorithms
+Blinn–Phong shading model – alteration of the Phong reflection model to trade precision with computing efficiency
+Phong shading – shading technique that interpolates normal vectors rather than intensities
+Gamma correction
+Bidirectional reflectance distribution function – another reflection model
+Specular highlight – other specular lighting equations
+
+
+== External linksEdit ==
+Phong reflection model in Matlab
+Phong reflection model in GLSL
+
+
+== ReferencesEdit ==
+^ Bui Tuong Phong, Illumination for computer generated pictures, Communications of ACM 18 (1975), no. 6, 311–317.
+^ University of Utah School of Computing, http://www.cs.utah.edu/school/history/#phong-ref
+^ Lyon, Richard F. (August 2, 1993). "Phong Shading Reformulation for Hardware Renderer Simplification" (PDF). Retrieved 7 March 2011. 
+^ Boom, B.J. and Spreeuwers, L.J. and Veldhuis, R.N.J. (September 2009). Jiang, Xiaoyi; Petkov, Nicolai, eds. "Model-Based Illumination Correction for Face Images in Uncontrolled Scenarios". Lecture Notes in Computer Science. Lecture Notes in Computer Science 5702 (2009): 33–40. doi:10.1007/978-3-642-03767-2. ISBN 978-3-642-03766-5. 
+^ F. Francisco, O. Bertolami, P. J. S. Gil, J. Páramos (2012). "Modelling the reflective thermal contribution to the acceleration of the Pioneer spacecraft". Advances in Space Research 49 (3): 579. arXiv:1103.5222. doi:10.1016/j.asr.2011.10.016.

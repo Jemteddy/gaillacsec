@@ -1,0 +1,41 @@
+The Darboux derivative of a map between a manifold and a Lie group is a variant of the standard derivative. In a certain sense, it is arguably a more natural generalization of the single-variable derivative. It allows a generalization of the single-variable fundamental theorem of calculus to higher dimensions, in a different vein than the generalization that is Stokes' theorem.
+
+
+== Formal definition ==
+Let  be a Lie group, and let  be its Lie algebra. The Maurer-Cartan form, , is the smooth -valued -form on  (cf. Lie algebra valued form) defined by
+
+for all  and . Here  denotes left multiplication by the element  and  is its derivative at .
+Let  be a smooth function between a smooth manifold  and . Then the Darboux derivative of  is the smooth -valued -form
+
+the pullback of  by . The map  is called an integral or primitive of .
+
+
+== More natural? ==
+The reason that one might call the Darboux derivative a more natural generalization of the derivative of single-variable calculus is this. In single-variable calculus, the derivative  of a function  assigns to each point in the domain a single number. According to the more general manifold ideas of derivatives, the derivative assigns to each point in the domain a linear map from the tangent space at the domain point to the tangent space at the image point. This derivative encapsulates two pieces of data: the image of the domain point and the linear map. In single-variable calculus, we drop some information. We retain only the linear map, in the form of a scalar multiplying agent (i.e. a number).
+One way to justify this convention of retaining only the linear map aspect of the derivative is to appeal to the (very simple) Lie group structure of  under addition. The tangent bundle of any Lie group can be trivialized via left (or right) multiplication. This means that every tangent space in  may be identified with the tangent space at the identity, , which is the Lie algebra of . In this case, left and right multiplication are simply translation. By post-composing the manifold-type derivative with the tangent space trivialization, for each point in the domain we obtain a linear map from the tangent space at the domain point to the Lie algebra of . In symbols, for each  we look at the map
+
+Since the tangent spaces involved are one-dimensional, this linear map is just multiplication by some scalar. (This scalar can change depending on what basis we use for the vector spaces, but the canonical unit vector field  on  gives a canonical choice of basis, and hence a canonical choice of scalar.) This scalar is what we usually denote by .
+
+
+== Uniqueness of primitives ==
+If the manifold  is connected, and  are both primitives of , i.e. , then there exists some constant  such that
+ for all .
+This constant  is of course the analogue of the constant that appears when taking an indefinite integral.
+
+
+== The fundamental theorem of calculus ==
+Recall the structural equation for the Maurer-Cartan form:
+
+This means that for all vector fields  and  on  and all , we have
+
+For any Lie algebra-valued -form on any smooth manifold, all the terms in this equation make sense, so for any such form we can ask whether or not it satisfies this structural equation.
+The usual fundamental theorem of calculus for single-variable calculus has the following local generalization.
+If a -valued -form  on  satisfies the structural equation, then every point  has an open neighborhood  and a smooth map  such that
+
+i.e.  has a primitive defined in a neighborhood of every point of .
+For a global generalization of the fundamental theorem, one needs to study certain monodromy questions in  and .
+
+
+== References ==
+R. W. Sharpe (1996). Differential Geometry: Cartan's Generalization of Klein's Erlangen Program. Springer-Verlag, Berlin. ISBN 0-387-94732-9. 
+Shlomo Sternberg (1964). "Chapter V, Lie Groups. Section 2, Invariant forms and the Lie algebra.". Lectures in differential geometry. Prentice-Hall. LCCN 64-7993.

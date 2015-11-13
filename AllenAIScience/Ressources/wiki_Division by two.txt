@@ -1,0 +1,36 @@
+In mathematics, division by two or halving has also been called mediation or dimidiation. The treatment of this as a different operation from multiplication and division by other numbers goes back to the ancient Egyptians, whose multiplication algorithm used division by two as one of its fundamental steps. Some mathematicians as late as the sixteenth century continued to view halving as a separate operation, and it often continues to be treated separately in modern computer programming. Performing this operation is simple in decimal arithmetic, in the binary numeral system used in computer programming, and in other even-numbered bases.
+
+
+== Binary ==
+In binary arithmetic, division by two can be performed by a bit shift operation that shifts the number one place to the right. This is a form of strength reduction optimization. For example, 1101001 in binary (the decimal number 105), shifted one place to the right, is 110100 (the decimal number 52): the lowest order bit, a 1, is removed. Similarly, division by any power of two 2k may be performed by right-shifting k positions. Because bit shifts are often much faster operations than division, replacing a division by a shift in this way can be a helpful step in program optimization. However, for the sake of software portability and readability, it is often best to write programs using the division operation and trust in the compiler to perform this replacement. An example from Common Lisp:
+
+The above statements, however, are not always true when dealing with dividing signed binary numbers. Shifting right by 1 bit will divide by two, always rounding down. However, in some languages, division of signed binary numbers round towards 0 (which, if the result is negative, means it rounds up). For example, Java is one such language: in Java, -3 / 2 evaluates to -1, whereas -3 >> 1 evaluates to -2. So in this case, the compiler cannot optimize division by two by replacing it by a bit shift, when the dividend could possibly be negative.
+
+
+== Binary floating point ==
+In binary floating-point arithmetic, division by two can be performed by decreasing the exponent by one (as long as the result is not a subnormal number). Many programming languages provide functions that can be used to divide a floating point number by a power of two. For example, the Java programming language provides the method java.lang.Math.scalb for scaling by a power of two, and the C programming language provides the function ldexp for the same purpose.
+
+
+== Decimal ==
+The following algorithm is for decimal. However, it can be used as a model to construct an algorithm for taking half of any number N in any even base.
+Write out N, putting a zero to its left.
+Go through the digits of N in overlapping pairs, writing down digits of the result from the following table.
+Example: 1738/2=?
+Write 01738. We will now work on finding the result.
+01: even digit followed by 1, write 0.
+17: odd digit followed by 7, write 8.
+73: odd digit followed by 3, write 6.
+38: odd digit followed by 8, write 9.
+Result: 0869.
+From the example one can see that 0 is even.
+If the last digit of N is odd digit one should add 0.5 to the result.
+
+
+== See also ==
+One half
+Median, a value that splits a set of data values into two equal subsets
+Bisection, the partition of a geometric object into two equal halves
+Dimidiation, a heraldic method of joining two coats of arms by splitting their designs into halves
+
+
+== References ==

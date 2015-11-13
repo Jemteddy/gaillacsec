@@ -1,0 +1,30 @@
+Mathematicians (and those in related sciences) very frequently speak of whether a mathematical object—a function, a set, a space of one sort or another—is "well-behaved". The term has no fixed formal definition, and is dependent on context, mathematical interests, fashion, and taste. To ensure that an object is "well-behaved" mathematicians introduce further axioms to narrow down the domain of study. This has the benefit of making analysis easier, but cuts down on the generality of any conclusions reached. Concepts like non-Euclidean geometry were once considered ill-behaved, but are now common objects of study.
+In both pure and applied mathematics (optimization, numerical integration, or mathematical physics, for example), well-behaved also means not violating any assumptions needed to successfully apply whatever analysis is being discussed.
+The opposite case is usually labeled pathological. It is not unusual to have situations in which most cases (in terms of cardinality or measure) are pathological, but the pathological cases will not arise in practice unless constructed deliberately.
+The term "well-behaved" is generally applied in an absolute sense—either something is well-behaved or it is not. For example:
+In algorithmic inference, a well-behaved statistic is monotonic, well-defined, and sufficient.
+In Bézout's theorem, two polynomials are well-behaved, and thus the formula given by the theorem for the number of their intersections is valid, if their polynomial greatest common divisor is a constant.
+A meromorphic function is a ratio of two well-behaved functions, in the sense of those two functions being holomorphic.
+The Karush–Kuhn–Tucker conditions are first-order necessary conditions for a solution in a well-behaved nonlinear programming problem to be optimal; a problem is referred to as well-behaved if some regularity conditions are satisfied.
+In probability, events contained in the probability space's corresponding sigma-algebra are well-behaved, as are measurable functions.
+Unusually, the term could also be applied in a comparative sense:
+In calculus:
+Analytic functions are better-behaved than general smooth functions.
+Smooth functions are better-behaved than general differentiable functions.
+Continuous differentiable functions are better-behaved than general continuous functions. The larger the number of times the function can be differentiated, the more well-behaved it is.
+Continuous functions are better-behaved than Riemann-integrable functions on compact sets.
+Riemann-integrable functions are better-behaved than Lebesgue-integrable functions.
+Lebesgue-integrable functions are better-behaved than general functions.
+
+In topology, continuous functions are better-behaved than discontinuous ones.
+Euclidean space is better-behaved than non-Euclidean geometry.
+Attractive fixed points are better-behaved than repulsive fixed points.
+Hausdorff topologies are better-behaved than those in arbitrary general topology.
+Borel sets are better-behaved than arbitrary sets of real numbers.
+Spaces with integer dimension are better-behaved than spaces with fractal dimension.
+Finite-dimensional vector spaces are better-behaved than infinite-dimensional ones.
+
+In abstract algebra:
+Fields are better-behaved than skew fields or general rings.
+Separable field extensions are better-behaved than non-separable ones.
+Normed division algebras are better-behaved than general composition algebras.

@@ -1,0 +1,47 @@
+In computer programming, program slicing is the computation of the set of programs statements, the program slice, that may affect the values at some point of interest, referred to as a slicing criterion. Program slicing can be used in debugging to locate source of errors more easily. Other applications of slicing include software maintenance, optimization, program analysis, and information flow control.
+Slicing techniques have been seeing a rapid development since the original definition by Mark Weiser. At first, slicing was only static, i.e., applied on the source code with no other information than the source code. Bogdan Korel and Janusz Laski introduced dynamic slicing, which works on a specific execution of the program (for a given execution trace). Other forms of slicing exist, for instance path slicing.
+
+
+== Static slicing ==
+Based on the original definition of Weiser, informally, a static program slice S consists of all statements in program P that may affect the value of variable v at some point p. The slice is defined for a slicing criterion C=(x,V), where x is a statement in program P and V is a subset of variables in P. A static slice includes all the statements that affect variable v for a set of all possible inputs at the point of interest (i.e., at the statement x). Static slices are computed by finding consecutive sets of indirectly relevant statements, according to data and control dependencies.
+
+
+=== Example ===
+
+This new program is a valid slicing of the above program with respect to the criterion (write(sum),{sum}):
+
+In fact, most static slicing techniques, including Weiser's own technique, will also remove the write(sum) statement. Since, at the statement write(sum), the value of sum is not dependent on the statement itself.
+
+
+== Dynamic slicing ==
+Makes use of information about a particular execution of a program. A dynamic slice contains all statements that actually affect the value of a variable at a program point for a particular execution of the program rather than all statements that may have affected the value of a variable at a program point for any arbitrary execution of the program.
+An example to clarify the difference between static and dynamic slicing. Consider a small piece of a program unit, in which there is an iteration block containing an if-else block. There are a few statements in both the if and else blocks that have an effect on a variable. In the case of static slicing, since the whole program unit is looked at irrespective of a particular execution of the program, the affected statements in both blocks would be included in the slice. But, in the case of dynamic slicing we consider a particular execution of the program, wherein the if block gets executed and the affected statements in the else block do not get executed. So, that is why in this particular execution case, the dynamic slice would contain only the statements in the if block.
+
+
+== See also ==
+Software maintenance
+Dependence analysis
+Reaching definition
+Data dependency
+Frama-C a tool which implements slicing algorithms on C programs.
+
+
+== References ==
+Mark Weiser. "Program slicing". Proceedings of the 5th International Conference on Software Engineering, pages 439–449, IEEE Computer Society Press, March 1981.
+Mark Weiser. "Program slicing". IEEE Transactions on Software Engineering, Volume 10, Issue 4, pages 352–357, IEEE Computer Society Press, July 1984.
+Susan Horwitz, Thomas Reps, and David Binkley, Interprocedural slicing using dependence graphs, ACM Transactions on Programming Languages and Systems, Volume 12, Issue 1, pages 26-60, January 1990.
+Frank Tip. "A survey of program slicing techniques". Journal of Programming Languages, Volume 3, Issue 3, pages 121–189, September 1995.
+David Binkley and Keith Brian Gallagher. "Program slicing". Advances in Computers, Volume 43, pages 1–50, Academic Press, 1996.
+Andrea de Lucia. "Program slicing: Methods and applications", International Workshop on Source Code Analysis and Manipulation, pages 142-149, 2001, IEEE Computer Society Press.
+Mark Harman and Robert Hierons. "An overview of program slicing", Software Focus, Volume 2, Issue 3, pages 85–92, January 2001.
+David Binkley and Mark Harman. "A survey of empirical results on program slicing", Advances in Computers, Volume 62, pages 105-178, Academic Press, 2004.
+Jens Krinke. "Program Slicing", In Handbook of Software Engineering and Knowledge Engineering, Volume 3: Recent Advances. World Scientific Publishing, 2005
+Silva, Josep. "A vocabulary of program slicing-based techniques", ACM Computing Surveys, Volume 44, Issue 3, Association for Computing Machinery, June 2012
+
+
+== External links ==
+VALSOFT/Joana Project
+Indus Project (part of Bandera checker)
+Wisconsin Program-Slicing Project
+SoftwareMining Extracting Business Rules/Program Slices from COBOL programs. (Web: www.softwaremining.com)
+StaticSlicer, a simple tool which demonstrates static slicing based on the original definition of Weiser,

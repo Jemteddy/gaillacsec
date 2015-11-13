@@ -1,0 +1,40 @@
+SLIME, the Superior Lisp Interaction Mode for Emacs, is an Emacs mode for developing Common Lisp applications. SLIME originates in an Emacs mode called SLIM written by Eric Marsden and developed as an open-source project by Luke Gorrie and Helmut Eller. Over 100 Lisp developers have contributed code to SLIME since the project was started in 2003. SLIME uses a backend called Swank that is loaded into Common Lisp.
+SLIME works with the following Common Lisp implementations:
+CMU Common Lisp (CMUCL)
+Scieneer Common Lisp
+Steel Bank Common Lisp (SBCL)
+Clozure CL (former OpenMCL)
+LispWorks
+Allegro Common Lisp
+CLISP
+Embeddable Common Lisp (ECL)
+Armed Bear Common Lisp (ABCL)
+Some implementations of other programming languages are using SLIME:
+Clojure
+GOO
+JavaScript
+Kawa, a Scheme implementation
+GNU R
+Ruby
+MIT Scheme
+Scheme48
+There are also clones of SLIME:
+SOLID for OCaml
+
+
+== References ==
+
+
+== External links ==
+SLIME project page
+The birth of SLIME on the cmucl-imp mailing list (August 2003)
+SLIME presentation by Tobias Rittweiler (2008)
+Review of SLIME by Andy Wingo
+Bill Clementson's "Slime Tips and Techniques" - Part 1 (See also Part 2, Part 3, Part 4, Part 5, Part 6, and Part 7)
+Bill Clementson's "SLIME Refactoring" describes how to set up SLIME
+Bill Clementson's "Emacs Keymaps and the SLIME scratch buffer
+Bill Clementson's "CL, Music and SLIME Tutorials" contains a good SLIME tutorial
+Marco Baringer's (SLIME guru) SLIME setup
+Marco Baringer's "Editing Lisp Code with Emacs"
+The slime-devel Archives
+Up-to-date Swank for MIT/GNU Scheme for use with SLIME CVS

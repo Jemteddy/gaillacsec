@@ -1,0 +1,91 @@
+A top-level domain (TLD) is one of the domains at the highest level in the hierarchical Domain Name System of the Internet. The top-level domain names are installed in the root zone of the name space. For all domains in lower levels, it is the last part of the domain name, that is, the last label of a fully qualified domain name. For example, in the domain name www.example.com, the top-level domain is com. Responsibility for management of most top-level domains is delegated to specific organizations by the Internet Corporation for Assigned Names and Numbers (ICANN), which operates the Internet Assigned Numbers Authority (IANA), and is in charge of maintaining the DNS root zone.
+
+
+== HistoryEdit ==
+Originally, the top-level domain space was organized into three main groups: Countries, Categories, and Multiorganizations. An additional temporary group consisted of only the initial DNS domain, arpa, and was intended for transitional purposes toward the stabilization of the domain name system.
+
+
+== TypesEdit ==
+As of 2015, IANA distinguishes the following groups of top-level domains:
+infrastructure top-level domain (ARPA): This group consists of one domain, the Address and Routing Parameter Area. It is managed by IANA on behalf of the Internet Engineering Task Force for various purposes specified in the Request for Comments publications.
+generic top-level domains (gTLD): Top-level domains with three or more characters
+restricted generic top-level domains (grTLD): These domains are managed under official ICANN accredited registrars.
+sponsored top-level domains (sTLD): These domains are proposed and sponsored by private agencies or organizations that establish and enforce rules restricting the eligibility to use the TLD. Use is based on community theme concepts; these domains are managed under official ICANN accredited registrars.
+country-code top-level domains (ccTLD): Two-letter domains established for countries or territories. With some historical exceptions, the code for any territory is the same as its two-letter ISO 3166 code.
+internationalized country code top-level domains (IDN ccTLD): ccTLDs in non-Latin character sets (e.g., Arabic, Cyrillic, Hebrew, or Chinese).
+
+test top-level domains (tTLD): These domains were installed under .test for testing purposes in the IDN development process; these domains are not present in the root zone, yet.
+Countries are designated in the Domain Name System by their two-letter ISO country code; there are exceptions, however (e.g., .uk). This group of domains is therefore commonly known as country-code top-level domains (ccTLD). Since 2009, countries with non–Latin-based scripts may apply for internationalized country code top-level domain names, which are displayed in end-user applications in their language-native script or alphabet, but use a Punycode-translated ASCII domain name in the Domain Name System.
+Generic top-level domains (formerly Categories) initially consisted of gov, edu, com, mil, org, and net. More generic TLDs have been added, such as info.
+The authoritative list of currently existing TLDs in the root zone is published at the IANA website at https://www.iana.org/domains/root/db/.
+
+
+== Internationalized country code TLDsEdit ==
+An internationalized country code top-level domain (IDN ccTLD) is a top-level domain with a specially encoded domain name that is displayed in an end user application, such as a web browser, in its language-native script or alphabet, such as the Arabic alphabet, or a non-alphabetic writing system, such as Chinese characters. IDN ccTLDs are an application of the internationalized domain name (IDN) system to top-level Internet domains assigned to countries, or independent geographic regions.
+ICANN started to accept applications for IDN ccTLDs in November 2009, and installed the first set into the Domain Names System in May 2010. The first set was a group of Arabic names for the countries of Egypt, Saudi Arabia, and the United Arab Emirates. By May 2010, 21 countries had submitted applications to ICANN, representing 11 scripts.
+
+
+=== IDN test domainsEdit ===
+In the process of testing internationalized top-level domains, ICANN implemented a set of IDN top-level domains that are translations of the name example.test into various languages in their respective scripts.
+These testing domains were terminated on 31 October 2013.
+
+
+== Infrastructure domainEdit ==
+The domain arpa was the first Internet top-level domain. It was intended to be used only temporarily, aiding in the transition of traditional ARPANET host names to the domain name system. However, after it had been used for reverse DNS lookup, it was found impractical to retire it, and is used today exclusively for Internet infrastructure purposes such as in-addr.arpa for IPv4 and ip6.arpa for IPv6 reverse DNS resolution, uri.arpa and urn.arpa for the Dynamic Delegation Discovery System, and e164.arpa for telephone number mapping based on NAPTR DNS records. For historical reasons, arpa is sometimes considered to be a generic top-level domain.
+
+
+== Reserved domainsEdit ==
+RFC 6761 reserves the following four top-level domain names to avoid confusion and conflict. Any such reserved usage of those TLDs should not occur in production networks that utilize the global domain name system:
+example: reserved for use in examples
+invalid: reserved for use in obviously invalid domain names
+localhost: reserved to avoid conflict with the traditional use of localhost as a hostname
+test: reserved for use in tests
+onion: reserved for the use of the Tor anonymity network, for access to Tor hidden services
+In addition, RFC 6762 reserves the use of .local for link-local host names that can be resolved via the Multicast DNS name resolution protocol.
+
+
+== Historical domainsEdit ==
+In the late 1980s InterNIC created the nato domain for use by NATO. NATO considered none of the then existing TLDs as adequately reflecting their status as an international organization. Soon after this addition, however, InterNIC also created the int TLD for the use by international organizations in general, and persuaded NATO to use the second level domain nato.int instead. The nato TLD, no longer used, was finally removed in July 1996.
+Other historical TLDs are cs for Czechoslovakia (now using cz for Czech Republic and sk for Slovak Republic), dd for East Germany (using de after reunification of Germany), yu for SFR Yugoslavia (now using ba for Bosnia and Herzegovina, hr for Croatia, me for Montenegro, mk for Macedonia, rs for Serbia and si for Slovenia), and zr for Zaire (now cd for Democratic Republic of the Congo). In contrast to these, the TLD su has remained active despite the demise of the Soviet Union that it represents.
+
+
+== Proposed domainsEdit ==
+
+Around late 2000 when ICANN discussed and finally introduced aero, biz, coop, info, museum, name, and pro TLDs, site owners argued that a similar TLD should be made available for adult and pornographic websites to settle the dispute of obscene content on the Internet and the responsibility of US service providers under the US Communications Decency Act of 1996. Several options were proposed including xxx, sex and adult. The .xxx domain went live in 2011.
+An older proposal consisted of seven new gTLDs: arts, firm, info, nom, rec, shop, and web. Later biz, info, museum, and name covered most of these old proposals.
+During the 32nd International Public ICANN Meeting in Paris in 2008, ICANN started a new process of TLD naming policy to take a "significant step forward on the introduction of new generic top-level domains." This program envisions the availability of many new or already proposed domains, as well as a new application and implementation process. Observers believed that the new rules could result in hundreds of new gTLDs being registered. Proposed TLDs included free, music, shop, berlin, wien and nyc.
+On 13 June 2012 ICANN has revealed nearly 2,000 applications for new top-level domains, which began to go live throughout 2013 after thorough examination. Donuts Inc. has invested $57 million in more than 300 applications while Famous Four Media applied for 61 new strings. The first seven – .bike, .clothing, .guru, .holdings, .plumbing, .singles, and .ventures – are already live, and all belong to Donuts. More have been released throughout 2014 and will continue coming online steadily into 2015.
+
+
+== Alternative DNS rootsEdit ==
+
+ICANN's slow progress in creating new generic top-level domains, and the high application costs associated with TLDs, contributed to the creation of alternate DNS roots with different sets of top-level domains. Such domains may be accessed by configuration of a computer with alternate or additional (forwarder) DNS servers or plugin modules for web browsers. Browser plugins detect alternate root domain requests and access an alternate domain name server for such requests.
+
+
+== Pseudo-domainsEdit ==
+
+Several networks, such as BITNET, CSNET, UUCP, existed that were in widespread use among computer professionals and academic users, but were not interoperable directly with the Internet and exchanged mail with the Internet via special email gateways. For relaying purposes on the gateways, messages associated with these networks were labeled with suffixes such as bitnet, oz, csnet, or uucp, but these domains did not exist as top-level domains in the public Domain Name System of the Internet.
+Most of these networks have long since ceased to exist, and although UUCP still gets significant use in parts of the world where Internet infrastructure has not yet become well established, it subsequently transitioned to using Internet domain names, and pseudo-domains now largely survive as historical relics. One notable exception is the 2007 emergence of SWIFTNet Mail, which uses the swift pseudo-domain.
+The anonymity network Tor formerly used the top-level pseudo-domain onion for Tor hidden services, which can only be reached with a Tor client because it uses the Tor onion routing protocol to reach the hidden service to protect the anonymity of users. However, the pseudo-domain became officially reserved in October 2015. i2p provides a similar hidden pseudo-domain, .i2p.
+BT hubs use the top-level pseudo-domain home for local DNS resolution of routers, modems and gateways.
+
+
+== See alsoEdit ==
+Domain hack
+List of Internet top-level domains
+Public Suffix List
+
+
+== Further readingEdit ==
+Addressing the World: National Identity and Internet Country Code Domains, edited by Erica Schlesinger Wass (Rowman & Littlefield, 2003, ISBN 0-7425-2810-3) examines connections between cultures and their ccTLDs.
+Ruling the Root by Milton Mueller (MIT Press, 2001, ISBN 0-262-13412-8) discusses TLDs and domain name policy more generally.
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+IANA TLD List
+Articles on CircleID about TLDs
+"Top-Level Domain Names by Host Count". ISC. January 2008. Retrieved 7 August 2008. 
+TLDs accepted in 2012

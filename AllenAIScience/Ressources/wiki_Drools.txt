@@ -1,0 +1,68 @@
+Drools is a business rule management system (BRMS) with a forward and backward chaining inference based rules engine, more correctly known as a production rule system, using an enhanced implementation of the Rete algorithm.
+KIE (Knowledge Is Everything) is the new umbrella name to drools, optaPlanner, jBPM, Guvnor, uberFire and related technologies.
+Drools supports the JSR-94 standard for its business rule engine and enterprise framework for the construction, maintenance, and enforcement of business policies in an organization, application, or service.
+
+
+== JBoss Enterprise BRMS ==
+JBoss Enterprise BRMS is a business rule management system and reasoning engine for business policy and rules development, access, and change management. JBoss Enterprise BRMS is a productized version of Drools with enterprise-level support available. JBoss Rules is also a productized version of Drools, but JBoss Enterprise BRMS is the flagship product.
+Components of the enterprise version:
+JBoss Enterprise Web Platform – the software infrastructure, supported to run the BRMS components only
+JBoss Enterprise Application Platform or JBoss Enterprise SOA Platform – the software infrastructure, supported to run the BRMS components only
+Business Rules Engine – Drools Expert using the Rete algorithm and the Drools Rule Language (DRL)
+Business Rules Manager – Drools Guvnor - Guvnor is a centralised repository for Drools Knowledge Bases, with rich web based GUIs, editors, and tools to aid in the management of large numbers of rules.
+Business Rules Repository – Drools Guvnor
+Drools and Guvnor are JBoss Community open source projects. As they are mature, they are brought into the enterprise-ready product JBoss Enterprise BRMS.
+Components of the JBoss Community version:
+Drools Guvnor (Business Rules Manager) – a centralized repository for Drools Knowledge Bases
+Drools Expert (rule engine) – uses the rules to perform reasoning
+Drools Flow (process/workflow), or jBPM 5 – provides for workflow and business processes
+Drools Fusion (event processing/temporal reasoning) – provides for complex event processing
+Drools Planner/OptaPlanner (automated planning) – optimizes automated planning, including NP-hard planning problems
+
+
+== Example ==
+This example illustrates a simple rule to print out information about a holiday in July. It checks a condition on an instance of the Holiday class, and executes Java code if that condition is true.
+
+The purpose of dialect "mvel" is to point the Getter and Setters of the variables of your Plain Old Java Object (POJO) classes. Consider the above example, in which a Holiday class is used and inside the circular brackets (parentheses) "month" is used. So with the help dialect "mvel" the getter and setters of the variable "month" can be accessed.
+Dialect "java" is used to help us write our Java code in our rules. There is one restriction or characteristic on this. We cannot use Java code inside "when" part of the rule but we can use Java code in "then" part.
+We can also declare a Reference variable $h1 without the $ symbol. There is no restriction on this. The main purpose of putting the $ symbol before the variable is to mark the difference between variables of POJO classes and Rules.
+
+
+== Related systems ==
+CLIPS: public domain software tool for building expert systems.
+Corticon: a rule engine for Java and .NET.
+JESS: a rule engine for the Java platform - it is a superset of CLIPS programming language.
+Prolog: a general purpose logic programming language.
+OpenL Tablets: business centric rules and BRMS.
+DTRules: a Decision Table-based, open-sourced rule engine for Java.
+Oracle Policy Automation: a suite of software products for modeling and deploying business rules within enterprise applications
+IBM Operational Decision Management: IBM's BRMS and event processing product
+
+
+== See also ==
+
+List of JBoss software
+Semantic reasoner
+
+
+== References ==
+
+
+== External links ==
+Drools
+Drools 2.0 Codehaus site
+Drools Sourceforge site
+Drools Blog
+JBoss Rules
+Drools.Net
+Bob McWhirter
+Mark Proctor
+JBoss Drools vs JBoss Rules
+Give your business logic a framework with Drools
+Drools wiki
+Article on Seam security with JBoss Rules
+Other open source projects based on Drools 5
+Realtime intelligence using Drools Fusion
+Drools State of the Union presentation at JBossWorld 2009
+Drools Rule editor in Flex
+Drools with Spring Tutorial using the JSR-standard

@@ -1,0 +1,10 @@
+The multi-trials technique by Schneider et al. is employed for distributed algorithms and allows to break symmetry efficiently. Symmetry breaking is necessary, for instance, in resource allocation problems, where many entities want to access the same resource concurrently. Many message passing algorithms typically employ one attempt to break symmetry per message exchange. The multi-trials technique transcends this approach through employing more attempts with every message exchange.
+For example, in a simple algorithm for computing an O(Δ) vertex coloring, where Δ denotes the maximum degree in the graph, every uncolored node randomly picks an available color and keeps it if no neighbor (concurrently) chooses the same color. For the multi-trials technique, a node gradually increases the number of chosen colors in every communication round. The technique can yield more than an exponential reduction in the required communication rounds. However, if the maximum degree Δ is small more efficient techniques exist, e.g. the (extended) coin-tossing technique by Richard Cole and Uzi Vishkin.
+
+
+== Notes ==
+
+
+== References ==
+Schneider, J. (2010), "A new technique for distributed symmetry breaking" (PDF), Proceedings of the Symposium on Principles of Distributed Computing 
+Schneider, J. (2008), "A log-star distributed maximal independent set algorithm for growth-bounded graphs" (PDF), Proceedings of the Symposium on Principles of Distributed Computing

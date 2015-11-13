@@ -1,0 +1,43 @@
+In quantum mechanics, a triplet is a quantum state of a system with a spin of 1, such that there are three allowed values of the spin component, −1, 0 and +1.
+In physics, spin is the angular momentum intrinsic to a body, as opposed to orbital angular momentum, which is the motion of its center of mass about an external point. In quantum mechanics, spin is particularly important for systems at atomic length scales, such as individual atoms, protons, or electrons. Such particles and the spins of quantum mechanical systems ("particle spin") possess several unusual or non-classical features, and for such systems, spin angular momentum is not associated with rotation in the geometric sense, but instead refers to an abstract kind of "internal" angular momentum.
+Almost all molecules encountered in daily life exist in a singlet state, but molecular oxygen is an exception. At room temperature, O2 exists in a triplet state, which would require the forbidden transition into a singlet state before a chemical reaction could commence, which makes it kinetically nonreactive despite being thermodynamically a strong oxidant. Photochemical or thermal activation can bring it into singlet state, which is strongly oxidizing also kinetically.
+
+
+== Two spin-1/2 particlesEdit ==
+In a system with two spin-1/2 particles - for example the proton and electron in the ground state of hydrogen, measured on a given axis, each particle can be either spin up or spin down so the system has four basis states in all
+
+using the single particle spins to label the basis states, where the first and second arrow in each combination indicate the spin direction of the first and second particle respectively.
+More rigorously
+
+where  and  are the spins of the two particles, and  and  are their projections onto the z-axis. Since for spin-1/2 particles, the  basis states span a 2-dimensional space, the  basis states span a 4-dimensional space.
+Now the total spin and its projection onto the previously defined axis can be computed using the rules for adding angular momentum in quantum mechanics using the Clebsch–Gordan coefficients. In general
+
+substituting in the four basis states
+
+returns the possible values for total spin given along with their representation in the  basis. There are three states with total spin angular momentum 1
+
+and a fourth with total spin angular momentum 0
+
+The result is that a combination of two spin-1/2 particles can carry a total spin of 1 or 0, depending on whether they occupy a triplet or singlet state.
+
+
+== A mathematical viewpointEdit ==
+In terms of representation theory, what has happened is that the two conjugate 2-dimensional spin representations of the spin group SU(2)=Spin(3) (as it sits inside the 3-dimensional Clifford algebra) have tensored to produce a 4 dimensional representation. The 4 dimensional representation descends to the usual orthogonal group SO(3) and so its objects are tensors, corresponding to the integrality of their spin. The 4 dimensional representation decomposes into the sum of a one-dimensional trivial representation (singlet, a scalar, spin zero) and a three-dimensional representation (triplet, spin 1) that is nothing more than the standard representation of SO(3) on . Thus the "three" in triplet can be identified with the three rotation axis of physical space.
+
+
+== See alsoEdit ==
+Singlet state
+Doublet state
+Diradical
+Angular momentum
+Pauli matrices
+Spin multiplicity
+Spin quantum number
+Spin-1/2
+Spin tensor
+Spinor
+
+
+== ReferencesEdit ==
+Griffiths, David J. (2004). Introduction to Quantum Mechanics (2nd ed.). Prentice Hall. ISBN 0-13-111892-7. 
+Shankar, R. (1994). "chapter 14-Spin". Principles of Quantum Mechanics (2nd ed.). Springer. ISBN 0-306-44790-8.

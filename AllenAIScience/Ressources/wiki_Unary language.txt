@@ -1,0 +1,26 @@
+In computational complexity theory, a unary language or tally language is a formal language (a set of strings) where all strings have the form 1k, where "1" can be any fixed symbol. For example, the language {1, 111, 1111} is unary, as is the language {1k | k is prime}. The complexity class of all such languages is sometimes called TALLY.
+The name "unary" comes from the fact that a unary language is the encoding of a set of natural numbers in the unary numeral system. Since the universe of strings over any finite alphabet is a countable set, every language can be mapped to a unique set A of natural numbers; thus, every language has a unary version {1k | k in A}. Conversely, every unary language has a more compact binary version, the set of binary encodings of natural numbers k such that 1k is in the language.
+Since complexity is usually measured in terms of the length of the input string, the unary version of a language can be "easier" than the original language. For example, if a language can be recognized in O(2n) time, its unary version can be recognized in O(n) time, because replacing every symbol with a "1" has made the language size logarithmically smaller. More generally, if a language can be recognized in O(f(n)) time and O(g(n)) space, its unary version can be recognized in O(n + f(log n)) time and O(g(log n)) space (we require O(n) time just to read the input string). However, if membership in a language is undecidable, then membership in its unary version is also undecidable.
+
+
+== Relationships to other complexity classes ==
+TALLY is contained in P/poly - the class of languages that can be recognized in polynomial time given an advice function that depends only on the input length. In this case, the required advice function is very simple - it returns a single bit for each input length k specifying whether 1k is in the language or not.
+A unary language is necessarily a sparse language, since for each n it contains at most one value of length n and at most n values of length at most n, but not all sparse languages are unary; thus TALLY is contained in SPARSE.
+If there exists a unary language that is NP-complete, then P = NP.
+This result can be extended to sparse languages.
+If L is a unary language, then L* (the Kleene star of L) is a regular language.
+
+
+== Tally classes ==
+The complexity class P1 is the class of the unary languages that can be recognized by a polynomial time Turing machine (given its input written in unary); it is the analogue of the class P. The analogue of NP in the unary setting is NP1. A counting class #P1, the analogue of #P, is also known.
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== General references ===
+Lance Fortnow. Favorite Theorems: Small Sets. April 18, 2006. http://weblog.fortnow.com/2006/04/favorite-theorems-small-sets.html
+Complexity Zoo: TALLY

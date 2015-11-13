@@ -1,0 +1,81 @@
+A transfer RNA (abbreviated tRNA and archaically referred to as sRNA, for soluble RNA) is an adaptor molecule composed of RNA, typically 76 to 90 nucleotides in length, that serves as the physical link between the mRNA and the amino acid sequence of proteins. It does this by carrying an amino acid to the protein synthetic machinery of a cell (ribosome) as directed by a three-nucleotide sequence (codon) in a messenger RNA (mRNA). As such, tRNAs are a necessary component of translation, the biological synthesis of new proteins according to the genetic code.
+The specific nucleotide sequence of an mRNA specifies which amino acids are incorporated into the protein product of the gene from which the mRNA is transcribed, and the role of tRNA is to specify which sequence from the genetic code corresponds to which amino acid. One end of the tRNA matches the genetic code in a three-nucleotide sequence called the anticodon. The anticodon forms three base pairs with a codon in mRNA during protein biosynthesis. The mRNA encodes a protein as a series of contiguous codons, each of which is recognized by a particular tRNA. On the other end of the tRNA is a covalent attachment to the amino acid that corresponds to the anticodon sequence. Each type of tRNA molecule can be attached to only one type of amino acid, so each organism has many types of tRNA (in fact, because the genetic code contains multiple codons that specify the same amino acid, there are several tRNA molecules bearing different anticodons which also carry the same amino acid).
+The covalent attachment to the tRNA 3’ end is catalyzed by enzymes called aminoacyl tRNA synthetases. During protein synthesis, tRNAs with attached amino acids are delivered to the ribosome by proteins called elongation factors (EF-Tu in bacteria, eEF-1 in eukaryotes), which aid in decoding the mRNA codon sequence. If the tRNA's anticodon matches the mRNA, another tRNA already bound to the ribosome transfers the growing polypeptide chain from its 3’ end to the amino acid attached to the 3’ end of the newly delivered tRNA, a reaction catalyzed by the ribosome.
+A large number of the individual nucleotides in a tRNA molecule may be chemically modified, often by methylation or deamidation. These unusual bases sometimes affect the tRNA's interaction with ribosomes and sometimes occur in the anticodon to alter base-pairing properties.
+
+
+== StructureEdit ==
+
+The structure of tRNA can be decomposed into its primary structure, its secondary structure (usually visualized as the cloverleaf structure), and its tertiary structure (all tRNAs have a similar L-shaped 3D structure that allows them to fit into the P and A sites of the ribosome). The cloverleaf structure becomes the 3D L-shaped structure through coaxial stacking of the helices, which is a common RNA tertiary structure motif.
+The lengths of each arm, as well as the loop 'diameter', in a tRNA molecule vary from species to species.
+The tRNA structure consists of the following:
+A 5'-terminal phosphate group.
+The acceptor stem is a 7- to 9-base pair (bp) stem made by the base pairing of the 5'-terminal nucleotide with the 3'-terminal nucleotide (which contains the CCA 3'-terminal group used to attach the amino acid). The acceptor stem may contain non-Watson-Crick base pairs.
+The CCA tail is a cytosine-cytosine-adenine sequence at the 3' end of the tRNA molecule. The amino acid loaded onto the tRNA by aminoacyl tRNA synthetases, to form aminoacyl-tRNA, is covalently bonded to the 3'-hydroxyl group on the CCA tail. This sequence is important for the recognition of tRNA by enzymes and critical in translation. In prokaryotes, the CCA sequence is transcribed in some tRNA sequences. In most prokaryotic tRNAs and eukaryotic tRNAs, the CCA sequence is added during processing and therefore does not appear in the tRNA gene.
+The D arm is a 4- to 6-bp stem ending in a loop that often contains dihydrouridine.
+The anticodon arm is a 6-bp stem whose loop contains the anticodon. The tRNA 5'-to-3' primary structure contains the anticodon but in reverse order, since 3'-to-5' directionality is required to read the mRNA from 5'-to-3'.
+The T arm is a 4- to 5- bp stem containing the sequence TΨC where Ψ is pseudouridine, a modified uridine.
+Bases that have been modified, especially by methylation (e.g. tRNA (guanine-N7-)-methyltransferase), occur in several positions throughout the tRNA. The first anticodon base, or wobble-position, is sometimes modified to inosine (derived from adenine), pseudouridine or lysidine (derived from cytosine).
+
+
+== AnticodonEdit ==
+An anticodon is a unit made up of three nucleotides that correspond to the three bases of the codon on the mRNA. Each tRNA contains a specific anticodon triplet sequence that can base-pair to one or more codons for an amino acid. Some anticodons can pair with more than one codon due to a phenomenon known as wobble base pairing. Frequently, the first nucleotide of the anticodon is one not found on mRNA: inosine, which can hydrogen bond to more than one base in the corresponding codon position. In the genetic code, it is common for a single amino acid to be specified by all four third-position possibilities, or at least by both pyrimidines and purines; for example, the amino acid glycine is coded for by the codon sequences GGU, GGC, GGA, and GGG. Other modified nucleotides may also appear at the first anticodon position - sometimes known as the "wobble position" - resulting in subtle changes to the genetic code, as for example in mitochondria.
+To provide a one-to-one correspondence between tRNA molecules and codons that specify amino acids, 61 types of tRNA molecules would be required per cell. However, many cells contain fewer than 61 types of tRNAs because the wobble base is capable of binding to several, though not necessarily all, of the codons that specify a particular amino acid. A minimum of 31 tRNA are required to translate, unambiguously, all 61 sense codons of the standard genetic code.
+
+
+== AminoacylationEdit ==
+Aminoacylation is the process of adding an aminoacyl group to a compound. It produces a tRNA molecule with its CCA 3' end covalently linked to an amino acid.
+Each tRNA is aminoacylated (or charged) with a specific amino acid by an aminoacyl tRNA synthetase. There is normally a single aminoacyl tRNA synthetase for each amino acid, despite the fact that there can be more than one tRNA, and more than one anticodon, for an amino acid. Recognition of the appropriate tRNA by the synthetases is not mediated solely by the anticodon, and the acceptor stem often plays a prominent role.
+Reaction:
+amino acid + ATP → aminoacyl-AMP + PPi
+aminoacyl-AMP + tRNA → aminoacyl-tRNA + AMP
+Certain organisms can have one or more aminoacyl tRNA synthetases missing. This leads to charging of the tRNA by a chemically related amino acid. An enzyme or enzymes modify the charged amino acid to the final one. For example, Helicobacter pylori has glutaminyl tRNA synthetase missing. Thus, glutamate tRNA synthetase charges tRNA-glutamine(tRNA-Gln) with glutamate. An amidotransferase then converts the acid side chain of the glutamate to the amide, forming the correctly charged gln-tRNA-Gln.
+
+
+== Binding to ribosomeEdit ==
+
+The ribosome has three binding sites for tRNA molecules that span the space between the two ribosomal subunits: the A (aminoacyl), P (peptidyl), and E (exit) sites. In addition, the ribosome has two other sites for tRNA binding that are used during mRNA decoding or during the initiation of protein synthesis. These are the T site (named elongation factor Tu) and I site (initiation). By convention, the tRNA binding sites are denoted with the site on the small ribosomal subunit listed first and the site on the large ribosomal subunit listed second. For example, the A site is often written A/A, the P site, P/P, and the E site, E/E. The binding proteins like L27, L2, L14, L15, L16 at the A- and P- sites have been determined by affinity labeling by A.P. Czernilofsky et al. (Proc. Natl. Acad. Sci, USA, pp 230–234, 1974).
+Once translation initiation is complete, the first aminoacyl tRNA is located in the P/P site, ready for the elongation cycle described below. During translation elongation, tRNA first binds to the ribosome as part of a complex with elongation factor Tu (EF-Tu) or its eukaryotic (eEF-1) or archaeal counterpart. This initial tRNA binding site is called the A/T site. In the A/T site, the A-site half resides in the small ribosomal subunit where the mRNA decoding site is located. The mRNA decoding site is where the mRNA codon is read out during translation. The T-site half resides mainly on the large ribosomal subunit where EF-Tu or eEF-1 interacts with the ribosome. Once mRNA decoding is complete, the aminoacyl-tRNA is bound in the A/A site and is ready for the next peptide bond to be formed to its attached amino acid. The peptidyl-tRNA, which transfers the growing polypeptide to the aminoacyl-tRNA bound in the A/A site, is bound in the P/P site. Once the peptide bond is formed, the tRNA in the P/P site is deacylated, or has a free 3’ end, and the tRNA in the A/A site carries the growing polypeptide chain. To allow for the next elongation cycle, the tRNAs then move through hybrid A/P and P/E binding sites, before completing the cycle and residing in the P/P and E/E sites. Once the A/A and P/P tRNAs have moved to the P/P and E/E sites, the mRNA has also moved over by one codon and the A/T site is vacant, ready for the next round of mRNA decoding. The tRNA bound in the E/E site then leaves the ribosome.
+The P/I site is actually the first to bind to aminoacyl tRNA, which is delivered by an initiation factor called IF2 in bacteria. However, the existence of the P/I site in eukaryotic or archaeal ribosomes has not yet been confirmed. The P-site protein L27 has been determined by affinity labeling by E. Collatz and A.P. Czernilofsky (FEBS Lett., Vol. 63, pp 283–286, 1976).
+
+
+== tRNA genesEdit ==
+Organisms vary in the number of tRNA genes in their genome. The nematode worm C. elegans, a commonly used model organism in genetics studies, has 29,647  genes in its nuclear genome, of which 620 code for tRNA. The budding yeast Saccharomyces cerevisiae has 275 tRNA genes in its genome.
+In the human genome, which, according to January 2013 estimates, has about 20,848 protein coding genes  in total, there are 497 nuclear genes encoding cytoplasmic tRNA molecules, and 324 tRNA-derived pseudogenes—tRNA genes thought to be no longer functional (although pseudo tRNAs have been shown to be involved in antibiotic resistance in bacteria ). Regions in nuclear chromosomes, very similar in sequence to mitochondrial tRNA genes, have also been identified (tRNA-lookalikes). These tRNA-lookalikes are also been considered as part of the nuclear mitochondrial DNA (genes transferred from the mitochondria to the nucleus).
+As with all eukaryotes, there are 22 mitochondrial tRNA genes in humans. Mutations in some of these genes have been associated with severe diseases like the MELAS syndrome.
+Cytoplasmic tRNA genes can be grouped into 49 families according to their anticodon features. These genes are found on all chromosomes, except 22 and Y chromosome. High clustering on 6p is observed (140 tRNA genes), as well on 1 chromosome.
+The HGNC, in collaboration with the Genomic tRNA Database (GtRNAdb) and experts in the field, has approved unique names for human genes that encode tRNAs.
+
+
+=== EvolutionEdit ===
+Genomic tRNA content is a differentiating feature of genomes among biological domains of life: Archaea present the simplest situation in terms of genomic tRNA content with a uniform number of gene copies, Bacteria have an intermediate situation and Eukarya present the most complex situation. Eukarya present not only more tRNA gene content than the other two kingdoms but also a high variation in gene copy number among different isoacceptors, and this complexity seem to be due to duplications of tRNA genes and changes in anticodon specificity.
+Evolution of the tRNA gene copy number across different species has been linked to the appearance of specific tRNA modification enzymes (uridine methyltransferases in Bacteria, and adenosine deaminases in Eukarya), which increase the decoding capacity of a given tRNA. As an example, tRNAAla encodes four different tRNA isoacceptors (AGC, UGC, GGC and CGC). In Eukarya, AGC isoacceptors are extremely enriched in gene copy number in comparison to the rest of isoacceptors, and this has been correlated with its A-to-I modification of its wobble base. This same trend has been shown for most amino acids of eukaryal species. Indeed, the effect of these two tRNA modifications is also seen in codon usage bias. Highly expressed genes seem to be enriched in codons that are exclusively using codons that will be decoded by these modified tRNAs, which suggests a possible role of these codons—and consequently of these tRNA modifications—in translation efficiency. 
+
+
+== tRNA biogenesisEdit ==
+In eukaryotic cells, tRNAs are transcribed by RNA polymerase III as pre-tRNAs in the nucleus. RNA polymerase III recognizes two highly conserved downstream promoter sequences: the 5' intragenic control region (5'-ICR, D-control region, or A box), and the 3'-ICR (T-control region or B box) inside tRNA genes. The first promoter begins at +8 of mature tRNAs and the second promoter is located 30-60 nucleotides downstream of the first promoter. The transcription terminates after a stretch of four or more thymidines.
+Pre-tRNAs undergo extensive modifications inside the nucleus. Some pre-tRNAs contain introns that are spliced, or cut, to form the functional tRNA molecule; in bacteria these self-splice, whereas in eukaryotes and archaea they are removed by tRNA-splicing endonucleases. The 5' sequence is removed by RNase P, whereas the 3' end is removed by the tRNase Z enzyme. A notable exception is in the archaeon Nanoarchaeum equitans, which does not possess an RNase P enzyme and has a promoter placed such that transcription starts at the 5' end of the mature tRNA. The non-templated 3' CCA tail is added by a nucleotidyl transferase. Before tRNAs are exported into the cytoplasm by Los1/Xpo-t, tRNAs are aminoacylated. The order of the processing events is not conserved. For example, in yeast, the splicing is not carried out in the nucleus but at the cytoplasmic side of mitochondrial membranes.
+
+
+== HistoryEdit ==
+The existence of tRNA was first hypothesized by Francis Crick, based on the assumption that there must exist an adapter molecule capable of mediating the translation of the RNA alphabet into the protein alphabet. Significant research on structure was conducted in the early 1960s by Alex Rich and Don Caspar, two researchers in Boston, the Jacques Fresco group in Princeton University and a United Kingdom group at King's College London. In 1965, Robert W. Holley of Cornell University reported the primary structure and suggested three secondary structures. tRNA was first crystallized in Madison, Wisconsin, by Robert M. Bock. The cloverleaf structure was ascertained by several other studies in the following years and was finally confirmed using X-ray crystallography studies in 1974. Two independent groups, Kim Sung-Hou working under Alexander Rich and a British group headed by Aaron Klug, published the same crystallography findings within a year.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+tRNAdb (updated and completely restructured version of Spritzls tRNA compilation)
+original Sprinzl tRNA compilation
+tRNA link to heart disease and stroke
+GtRNAdb: Collection of tRNAs identified from complete genomes
+HGNC: Gene nomenclature of human tRNAs
+Molecule of the Month © RCSB Protein Data Bank:
+Transfer RNA
+Aminoacyl-tRNA Synthetases
+Elongation Factors
+
+Rfam entry for tRNA

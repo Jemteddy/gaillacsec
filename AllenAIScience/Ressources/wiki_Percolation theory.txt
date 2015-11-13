@@ -1,0 +1,87 @@
+In statistical physics and mathematics, percolation theory describes the behavior of connected clusters in a random graph. The applications of percolation theory to materials science and other domains are discussed in the article percolation.
+
+
+== Introduction ==
+A representative question (and the source of the name) is as follows. Assume that some liquid is poured on top of some porous material. Will the liquid be able to make its way from hole to hole and reach the bottom? This physical question is modelled mathematically as a three-dimensional network of n × n × n vertices, usually called "sites", in which the edge or "bonds" between each two neighbors may be open (allowing the liquid through) with probability p, or closed with probability 1 – p, and they are assumed to be independent. Therefore, for a given p, what is the probability that an open path exists from the top to the bottom? The behavior for large n is of primary interest. This problem, called now bond percolation, was introduced in the mathematics literature by Broadbent & Hammersley (1957), and has been studied intensively by mathematicians and physicists since then.
+In a slightly different mathematical model for obtaining a random graph, a site is "occupied" with probability p or "empty" (in which case its edges are removed) with probability 1-p; the corresponding problem is called site percolation. The question is the same: for a given p, what is the probability that a path exists between top and bottom?
+Of course the same questions can be asked for any lattice dimension. As is quite typical, it is actually easier to examine infinite networks than just large ones. In this case the corresponding question is: does an infinite open cluster exist? That is, is there a path of connected points of infinite length "through" the network? By Kolmogorov's zero-one law, for any given p, the probability that an infinite cluster exists is either zero or one. Since this probability is an increasing function of p (proof via coupling argument), there must be a critical p (denoted by pc) below which the probability is always 0 and above which the probability is always 1. In practice, this criticality is very easy to observe. Even for n as small as 100, the probability of an open path from the top to the bottom increases sharply from very close to zero to very close to one in a short span of values of p.
+
+In some cases pc may be calculated explicitly. For example, for the square lattice Z2 in two dimensions, pc = 1/2 for bond percolation, a fact which was an open question for more than 20 years and was finally resolved by Harry Kesten in the early 1980s, see Kesten (1982). A limit case for lattices in many dimensions is given by the Bethe lattice, whose threshold is at pc = 1/(z − 1) for a coordination number z. For most infinite lattice graphs, pc cannot be calculated exactly.
+
+
+== Universality ==
+The universality principle states that the value of pc is connected to the local structure of the graph, while the behavior of clusters below, at, and above pc are invariant with respect to the local structure, and therefore, in some sense are more natural quantities to consider. This universality also means that for the same dimension independent of the type of the lattice or type of percolation (e.g., bond or site) the fractal dimension of the clusters at pc is the same.
+
+
+== Phases ==
+
+
+=== Subcritical and supercritical ===
+The main fact in the subcritical phase is "exponential decay". That is, when p < pc, the probability that a specific point (for example, the origin) is contained in an open cluster of size r decays to zero exponentially in r. This was proved for percolation in three and more dimensions by Menshikov (1986) and independently by Aizenman & Barsky (1987). In two dimensions, it formed part of Kesten's proof that pc = 1/2.
+The dual graph of the square lattice Z2 is also the square lattice. It follows that, in two dimensions, the supercritical phase is dual to a subcritical percolation process. This provides essentially full information about the supercritical model with d = 2. The main result for the supercritical phase in three and more dimensions is that, for sufficiently large N, there is an infinite open cluster in the two-dimensional slab Z2 × [0, N]d−2. This was proved by Grimmett & Marstrand (1990).
+In two dimensions with p < 1/2, there is with probability one a unique infinite closed cluster. Thus the subcritical phase may be described as finite open islands in an infinite closed ocean. When p > 1/2 just the opposite occurs, with finite closed islands in an infinite open ocean. The picture is more complicated when d ≥ 3 since pc < 1/2, and there is coexistence of infinite open and closed clusters for p between pc and 1 − pc.
+
+
+=== Critical ===
+The model has a singularity at the critical point p = pc believed to be of power-law type. Scaling theory predicts the existence of critical exponents, depending on the number d of dimensions, that determine the class of the singularity. When d = 2 these predictions are backed up by arguments from conformal field theory and Schramm–Loewner evolution, and include predicted numerical values for the exponents. Most of these predictions are conjectural except when the number d of dimensions satisfies either d = 2 or d ≥ 19. They include:
+There are no infinite clusters (open or closed)
+The probability that there is an open path from some fixed point (say the origin) to a distance of r decreases polynomially, i.e. is on the order of r α for some α
+α does not depend on the particular lattice chosen, or on other local parameters. It depends only on value of the dimension d (this is an instance of the universality principle).
+αd decreases from d = 2 until d = 6 and then stays fixed.
+α6 = −1
+α2 = −5/48.
+
+The shape of a large cluster in two dimensions is conformally invariant.
+See Grimmett (1999). In dimension ≥ 19, these facts are largely proved using a technique known as the lace expansion. It is believed that a version of the lace expansion should be valid for 7 or more dimensions, perhaps with implications also for the threshold case of 6 dimensions. The connection of percolation to the lace expansion is found in Hara & Slade (1990).
+In dimension 2, the first fact ("no percolation in the critical phase") is proved for many lattices, using duality. Substantial progress has been made on two-dimensional percolation through the conjecture of Oded Schramm that the scaling limit of a large cluster may be described in terms of a Schramm–Loewner evolution. This conjecture was proved by Smirnov (2001) in the special case of site percolation on the triangular lattice.
+
+
+== Different models ==
+The first model studied was Bernoulli percolation. In this model all bonds are independent. This model is called bond percolation by physicists.
+A generalization next was introduced as the Fortuin–Kasteleyn random cluster model, which has many connections with the Ising model and other Potts models.
+Bernoulli (bond) percolation on complete graphs is an example of a random graph. The critical probability is p = 1/N.
+Directed percolation, which has connections with the contact process.
+First passage percolation.
+Invasion percolation.
+Percolation with dependency links was introduced by Parshani et.al.
+Opinion Model
+
+
+== See also ==
+Continuum percolation theory
+Critical exponents
+Directed percolation
+Erdős–Rényi model
+Fractal
+Giant component
+Graph Theory
+Network theory
+Percolation threshold
+Percolation critical exponents
+Scale-free network
+Shortest path
+
+
+== References ==
+
+Aizenman, Michael; Barsky, David (1987), "Sharpness of the phase transition in percolation models", Communications in Mathematical Physics 108 (3): 489–526, Bibcode:1987CMaPh.108..489A, doi:10.1007/BF01212322 
+Bollobás, Béla; Riordan, Oliver (2006), Percolation, Cambridge University Press, ISBN 0521872324 
+Broadbent, Simon; Hammersley, John (1957), "Percolation processes I. Crystals and mazes", Proceedings of the Cambridge Philosophical Society 53: 629–641, Bibcode:1957PCPS...53..629B, doi:10.1017/S0305004100032680 
+Bunde A. and Havlin S. (1996), Fractals and Disordered Systems, Springer 
+Cohen R. and Havlin S. (2010), Complex Networks: Structure, Robustness and Function, Cambridge University Press 
+Grimmett, Geoffrey (1999), Percolation, Springer 
+Grimmett, Geoffrey; Marstrand, John (1990), "The supercritical phase of percolation is well behaved", Proceedings of the Royal Society A 430 (1879): 439–457, Bibcode:1990RSPSA.430..439G, doi:10.1098/rspa.1990.0100 
+Hara, Takashi; Slade, Gordon (1990), "Mean-field critical behaviour for percolation in high dimensions", Communications in Mathematical Physics 128 (2): 333–391, Bibcode:1990CMaPh.128..333H, doi:10.1007/BF02108785 
+Kesten, Harry (1982), Percolation theory for mathematicians, Birkhauser 
+Menshikov, Mikhail (1986), "Coincidence of critical points in percolation problems", Soviet Mathematics Doklady 33: 856–859 
+Smirnov, Stanislav (2001), "Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits", Comptes Rendus de l'Academie des Sciences 333 (3): 239–244, Bibcode:2001CRASM.333..239S, doi:10.1016/S0764-4442(01)01991-7 
+Stauffer, Dietrich; Aharony, Anthony (1994), Introduction to Percolation Theory (2nd ed.), CRC Press, ISBN 978-0-7484-0253-3 
+
+
+== External links ==
+PercoVIS: a Mac OS X program to visualize percolation on networks in real time
+Interactive Percolation
+Kesten, Harry (May 2006), "What Is ... Percolation?" (PDF), Notices of the American Mathematical Society (Providence, RI: American Mathematical Society) 53 (5): 572–573, ISSN 1088-9477 
+Austin, David (July 2008), Percolation: Slipping through the Cracks, American Mathematical Society 
+Online course on Percolation Theory
+Introduction to Percolation Theory: short course by Shlomo Havlin

@@ -1,0 +1,225 @@
+In mathematics, the repeating decimal 0.999... (sometimes written with more or fewer 9s before the final ellipsis, for example as 0.9..., or in a variety of other variants such as 0.9, 0.(9), or ) denotes a real number that can be shown to be the number one. In other words, the symbols "0.999..." and "1" represent the same number. Proofs of this equality have been formulated with varying degrees of mathematical rigor, taking into account preferred development of the real numbers, background assumptions, historical context, and target audience.
+Every nonzero, terminating decimal (with infinitely many trailing 0s) has an equal twin representation with infinitely many trailing 9s (for example, 8.32 and 8.31999...). The terminating decimal representation is usually preferred, contributing to the misconception that it is the only representation. The same phenomenon occurs in all other bases (with a given base's largest digit) or in any similar representation of the real numbers.
+The equality of 0.999... and 1 is closely related to the absence of nonzero infinitesimals in the real number system, the most commonly used system in mathematical analysis. Some alternative number systems, such as the hyperreals, do contain nonzero infinitesimals. In most such number systems, the standard interpretation of the expression 0.999... makes it equal to 1, but in some of these number systems, the symbol "0.999..." admits other interpretations that contain infinitely many 9s while falling infinitesimally short of 1.
+The equality 0.999... = 1 has long been accepted by mathematicians and is part of general mathematical education. Nonetheless, some students find it sufficiently counterintuitive that they question or reject it. Such skepticism is common enough that the difficulty of convincing them of the validity of this identity has been the subject of several studies in mathematics education.
+
+
+== Algebraic proofsEdit ==
+Algebraic proofs showing that 0.999... represents the number 1 use concepts such as fractions, long division, and digit manipulation to build transformations preserving equality from 0.999... to 1. However, these proofs are not rigorous as they do not include a careful analytic definition of 0.999...
+
+
+=== Fractions and long divisionEdit ===
+One reason that infinite decimals are a necessary extension of finite decimals is to represent fractions. Using long division, a simple division of integers like 1⁄9 becomes a recurring decimal, 0.111..., in which the digits repeat without end. This decimal yields a quick proof for 0.999... = 1. Multiplication of 9 times 1 produces 9 in each digit, so 9 × 0.111... equals 0.999... and 9 × 1⁄9 equals 1, so 0.999... = 1:
+
+This result is consistent with other ninth fractions, all of which have repeating decimals, such as 3/9 and 8/9. If 0.999... is to be consistent, it must equal 9/9 = 1.
+
+
+=== Digit manipulationEdit ===
+When a number in decimal notation is multiplied by 10, the digits do not change but each digit moves one place to the left. Thus 10 × 0.999... equals 9.999..., which is 9 greater than the original number. To see this, consider that in subtracting 0.999... from 9.999..., each of the digits after the decimal separator cancels, i.e. the result is 9 − 9 = 0 for each such digit:
+
+
+=== DiscussionEdit ===
+Although these proofs demonstrate that 0.999... = 1, the extent to which they explain the equation depends on the audience. In introductory arithmetic, such proofs help explain why 0.999... = 1 but 0.333... < 0.34. In introductory algebra, the proofs help explain why the general method of converting between fractions and repeating decimals works. But the proofs shed little light on the fundamental relationship between decimals and the numbers they represent, which underlies the question of how two different decimals can be said to be equal at all.
+Once a representation scheme is defined, it can be used to justify the rules of decimal arithmetic used in the above proofs. Moreover, one can directly demonstrate that the decimals 0.999... and 1.000... both represent the same real number; it is built into the definition. This is done below.
+
+
+== Analytic proofsEdit ==
+Since the question of 0.999... does not affect the formal development of mathematics, it can be postponed until one proves the standard theorems of real analysis. One requirement is to characterize real numbers that can be written in decimal notation, consisting of an optional sign, a finite sequence of one or more digits forming an integer part, a decimal separator, and a sequence of digits forming a fractional part. For the purpose of discussing 0.999..., the integer part can be summarized as b0 and one can neglect negatives, so a decimal expansion has the form
+
+It should be noted that the fraction part, unlike the integer part, is not limited to a finite number of digits. This is a positional notation, so for example the digit 5 in 500 contributes ten times as much as the 5 in 50, and the 5 in 0.05 contributes one tenth as much as the 5 in 0.5.
+
+
+=== Infinite series and sequencesEdit ===
+
+Perhaps the most common development of decimal expansions is to define them as sums of infinite series. In general:
+
+For 0.999... one can apply the convergence theorem concerning geometric series:
+If  then 
+Since 0.999... is such a sum with a common ratio r = 1⁄10, the theorem makes short work of the question:
+
+This proof (actually, that 10 equals 9.999...) appears as early as 1770 in Leonhard Euler's Elements of Algebra.
+
+The sum of a geometric series is itself a result even older than Euler. A typical 18th-century derivation used a term-by-term manipulation similar to the algebraic proof given above, and as late as 1811, Bonnycastle's textbook An Introduction to Algebra uses such an argument for geometric series to justify the same maneuver on 0.999... A 19th-century reaction against such liberal summation methods resulted in the definition that still dominates today: the sum of a series is defined to be the limit of the sequence of its partial sums. A corresponding proof of the theorem explicitly computes that sequence; it can be found in any proof-based introduction to calculus or analysis.
+A sequence (x0, x1, x2, ...) has a limit x if the distance |x − xn| becomes arbitrarily small as n increases. The statement that 0.999... = 1 can itself be interpreted and proven as a limit:
+
+The last step, that 1⁄10n → 0 as n → ∞, is often justified by the Archimedean property of the real numbers. This limit-based attitude towards 0.999... is often put in more evocative but less precise terms. For example, the 1846 textbook The University Arithmetic explains, ".999 +, continued to infinity = 1, because every annexation of a 9 brings the value closer to 1"; the 1895 Arithmetic for Schools says, "...when a large number of 9s is taken, the difference between 1 and .99999... becomes inconceivably small". Such heuristics are often interpreted by students as implying that 0.999... itself is less than 1.
+
+
+=== Nested intervals and least upper boundsEdit ===
+
+The series definition above is a simple way to define the real number named by a decimal expansion. A complementary approach is tailored to the opposite process: for a given real number, define the decimal expansion(s) to name it.
+If a real number x is known to lie in the closed interval [0, 10] (i.e., it is greater than or equal to 0 and less than or equal to 10), one can imagine dividing that interval into ten pieces that overlap only at their endpoints: [0, 1], [1, 2], [2, 3], and so on up to [9, 10]. The number x must belong to one of these; if it belongs to [2, 3] then one records the digit "2" and subdivides that interval into [2, 2.1], [2.1, 2.2], ..., [2.8, 2.9], [2.9, 3]. Continuing this process yields an infinite sequence of nested intervals, labeled by an infinite sequence of digits b0, b1, b2, b3, ..., and one writes
+
+In this formalism, the identities 1 = 0.999... and 1 = 1.000... reflect, respectively, the fact that 1 lies in both [0, 1] and [1, 2], so one can choose either subinterval when finding its digits. To ensure that this notation does not abuse the "=" sign, one needs a way to reconstruct a unique real number for each decimal. This can be done with limits, but other constructions continue with the ordering theme.
+One straightforward choice is the nested intervals theorem, which guarantees that given a sequence of nested, closed intervals whose lengths become arbitrarily small, the intervals contain exactly one real number in their intersection. So b0.b1b2b3... is defined to be the unique number contained within all the intervals [b0, b0 + 1], [b0.b1, b0.b1 + 0.1], and so on. 0.999... is then the unique real number that lies in all of the intervals [0, 1], [0.9, 1], [0.99, 1], and [0.99...9, 1] for every finite string of 9s. Since 1 is an element of each of these intervals, 0.999... = 1.
+The Nested Intervals Theorem is usually founded upon a more fundamental characteristic of the real numbers: the existence of least upper bounds or suprema. To directly exploit these objects, one may define b0.b1b2b3... to be the least upper bound of the set of approximants {b0, b0.b1, b0.b1b2, ...}. One can then show that this definition (or the nested intervals definition) is consistent with the subdivision procedure, implying 0.999... = 1 again. Tom Apostol concludes,
+
+The fact that a real number might have two different decimal representations is merely a reflection of the fact that two different sets of real numbers can have the same supremum.
+
+
+== Proofs from the construction of the real numbersEdit ==
+
+Some approaches explicitly define real numbers to be certain structures built upon the rational numbers, using axiomatic set theory. The natural numbers – 0, 1, 2, 3, and so on – begin with 0 and continue upwards, so that every number has a successor. One can extend the natural numbers with their negatives to give all the integers, and to further extend to ratios, giving the rational numbers. These number systems are accompanied by the arithmetic of addition, subtraction, multiplication, and division. More subtly, they include ordering, so that one number can be compared to another and found to be less than, greater than, or equal to another number.
+The step from rationals to reals is a major extension. There are at least two popular ways to achieve this step, both published in 1872: Dedekind cuts and Cauchy sequences. Proofs that 0.999... = 1 which directly use these constructions are not found in textbooks on real analysis, where the modern trend for the last few decades has been to use an axiomatic analysis. Even when a construction is offered, it is usually applied towards proving the axioms of the real numbers, which then support the above proofs. However, several authors express the idea that starting with a construction is more logically appropriate, and the resulting proofs are more self-contained.
+
+
+=== Dedekind cutsEdit ===
+
+In the Dedekind cut approach, each real number x is defined as the infinite set of all rational numbers less than x. In particular, the real number 1 is the set of all rational numbers that are less than 1. Every positive decimal expansion easily determines a Dedekind cut: the set of rational numbers which are less than some stage of the expansion. So the real number 0.999... is the set of rational numbers r such that r < 0, or r < 0.9, or r < 0.99, or r is less than some other number of the form
+
+Every element of 0.999... is less than 1, so it is an element of the real number 1. Conversely, an element of 1 is a rational number
+
+which implies
+
+Since 0.999... and 1 contain the same rational numbers, they are the same set: 0.999... = 1.
+The definition of real numbers as Dedekind cuts was first published by Richard Dedekind in 1872. The above approach to assigning a real number to each decimal expansion is due to an expository paper titled "Is 0.999 ... = 1?" by Fred Richman in Mathematics Magazine, which is targeted at teachers of collegiate mathematics, especially at the junior/senior level, and their students. Richman notes that taking Dedekind cuts in any dense subset of the rational numbers yields the same results; in particular, he uses decimal fractions, for which the proof is more immediate. He also notes that typically the definitions allow { x : x < 1 } to be a cut but not { x : x ≤ 1 } (or vice versa) "Why do that? Precisely to rule out the existence of distinct numbers 0.9* and 1. [...] So we see that in the traditional definition of the real numbers, the equation 0.9* = 1 is built in at the beginning." A further modification of the procedure leads to a different structure where the two are not equal. Although it is consistent, many of the common rules of decimal arithmetic no longer hold, for example the fraction 1/3 has no representation; see "Alternative number systems" below.
+
+
+=== Cauchy sequencesEdit ===
+
+Another approach is to define a real number as the limit of a Cauchy sequence of rational numbers. This construction of the real numbers uses the ordering of rationals less directly. First, the distance between x and y is defined as the absolute value |x − y|, where the absolute value |z| is defined as the maximum of z and −z, thus never negative. Then the reals are defined to be the sequences of rationals that have the Cauchy sequence property using this distance. That is, in the sequence (x0, x1, x2, ...), a mapping from natural numbers to rationals, for any positive rational δ there is an N such that |xm − xn| ≤ δ for all m, n > N. (The distance between terms becomes smaller than any positive rational.)
+If (xn) and (yn) are two Cauchy sequences, then they are defined to be equal as real numbers if the sequence (xn − yn) has the limit 0. Truncations of the decimal number b0.b1b2b3... generate a sequence of rationals which is Cauchy; this is taken to define the real value of the number. Thus in this formalism the task is to show that the sequence of rational numbers
+
+has the limit 0. Considering the nth term of the sequence, for , it must therefore be shown that
+
+This limit is plain if one understands the definition of limit. So again 0.999... = 1.
+The definition of real numbers as Cauchy sequences was first published separately by Eduard Heine and Georg Cantor, also in 1872. The above approach to decimal expansions, including the proof that 0.999... = 1, closely follows Griffiths & Hilton's 1970 work A comprehensive textbook of classical mathematics: A contemporary interpretation. The book is written specifically to offer a second look at familiar concepts in a contemporary light.
+
+
+=== Infinite decimal representationEdit ===
+
+Commonly in secondary schools' mathematics education, the real numbers are constructed by defining a number using an integer followed by a radix point and an infinite sequence written out as a string to represent the fractional part of any given real number. In this construction, the set of any combination of integers and digits after the decimal point (or radix point in non-base 10 systems) is the set of real numbers. This construction can too be rigorously shown to satisfy all of the real axioms after defining an equivalence relation over the set that defines 1 =eq 0.999... as well as for any other nonzero decimals with only finitely many nonzero terms in the decimal string with its trailing 9s version. With this construction of the reals, all proofs of the statement 1 = .999... can be viewed as implicitly assuming the equality when any operations are performed on the real numbers.
+
+
+== GeneralizationsEdit ==
+The result that 0.999... = 1 generalizes readily in two ways. First, every nonzero number with a finite decimal notation (equivalently, endless trailing 0s) has a counterpart with trailing 9s. For example, 0.24999... equals 0.25, exactly as in the special case considered. These numbers are exactly the decimal fractions, and they are dense.
+Second, a comparable theorem applies in each radix or base. For example, in base 2 (the binary numeral system) 0.111... equals 1, and in base 3 (the ternary numeral system) 0.222... equals 1. In general, any terminating base b expression has a counterpart with repeated trailing digits equal to b − 1. Textbooks of real analysis are likely to skip the example of 0.999... and present one or both of these generalizations from the start.
+Alternative representations of 1 also occur in non-integer bases. For example, in the golden ratio base, the two standard representations are 1.000... and 0.101010..., and there are infinitely many more representations that include adjacent 1s. Generally, for almost all q between 1 and 2, there are uncountably many base-q expansions of 1. On the other hand, there are still uncountably many q (including all natural numbers greater than 1) for which there is only one base-q expansion of 1, other than the trivial 1.000.... This result was first obtained by Paul Erdős, Miklos Horváth, and István Joó around 1990. In 1998 Vilmos Komornik and Paola Loreti determined the smallest such base, the Komornik–Loreti constant q = 1.787231650.... In this base, 1 = 0.11010011001011010010110011010011...; the digits are given by the Thue–Morse sequence, which does not repeat.
+A more far-reaching generalization addresses the most general positional numeral systems. They too have multiple representations, and in some sense the difficulties are even worse. For example:
+In the balanced ternary system, 1/2 = 0.111... = 1.111....
+In the reverse factorial number system (using bases 2!,3!,4!,... for positions after the decimal point), 1 = 1.000... = 0.1234....
+
+
+=== Impossibility of unique representationEdit ===
+That all these different number systems suffer from multiple representations for some real numbers can be attributed to a fundamental difference between the real numbers as an ordered set and collections of infinite strings of symbols, ordered lexicographically. Indeed, the following two properties account for the difficulty:
+If an interval of the real numbers is partitioned into two non-empty parts L, R, such that every element of L is (strictly) less than every element of R, then either L contains a largest element or R contains a smallest element, but not both.
+The collection of infinite strings of symbols taken from any finite "alphabet", lexicographically ordered, can be partitioned into two non-empty parts L, R, such that every element of L is less than every element of R, while L contains a largest element and R contains a smallest element. Indeed, it suffices to take two finite prefixes (initial substrings) p1, p2 of elements from the collection such that they differ only in their final symbol, for which symbol they have successive values, and take for L the set of all strings in the collection whose corresponding prefix is at most p1, and for R the remainder, the strings in the collection whose corresponding prefix is at least p2. Then L has a largest element, starting with p1 and choosing the largest available symbol in all following positions, while R has a smallest element obtained by following p2 by the smallest symbol in all positions.
+The first point follows from basic properties of the real numbers: L has a supremum and R has an infimum, which are easily seen to be equal; being a real number it either lies in R or in L, but not both since L and R are supposed to be disjoint. The second point generalizes the 0.999.../1.000... pair obtained for p1 = "0", p2 = "1". In fact one need not use the same alphabet for all positions (so that for instance mixed radix systems can be included) or consider the full collection of possible strings; the only important points are that at each position a finite set of symbols (which may even depend on the previous symbols) can be chosen from (this is needed to ensure maximal and minimal choices), and that making a valid choice for any position should result in a valid infinite string (so one should not allow "9" in each position while forbidding an infinite succession of "9"s). Under these assumptions, the above argument shows that an order preserving map from the collection of strings to an interval of the real numbers cannot be a bijection: either some numbers do not correspond to any string, or some of them correspond to more than one string.
+Marko Petkovšek has proven that for any positional system that names all the real numbers, the set of reals with multiple representations is always dense. He calls the proof "an instructive exercise in elementary point-set topology"; it involves viewing sets of positional values as Stone spaces and noticing that their real representations are given by continuous functions.
+
+
+== ApplicationsEdit ==
+One application of 0.999... as a representation of 1 occurs in elementary number theory. In 1802, H. Goodwin published an observation on the appearance of 9s in the repeating-decimal representations of fractions whose denominators are certain prime numbers. Examples include:
+1/7 = 0.142857142857... and 142 + 857 = 999.
+1/73 = 0.0136986301369863... and 0136 + 9863 = 9999.
+1/77 = 0.012987012987... and 0129 + 870 = 999.
+E. Midy proved a general result about such fractions, now called Midy's theorem, in 1836. The publication was obscure, and it is unclear if his proof directly involved 0.999..., but at least one modern proof by W. G. Leavitt does. If it can be proved that a decimal of the form 0.b1b2b3... is a positive integer, then it must be 0.999..., which is then the source of the 9s in the theorem. Investigations in this direction can motivate such concepts as greatest common divisors, modular arithmetic, Fermat primes, order of group elements, and quadratic reciprocity.
+
+Returning to real analysis, the base-3 analogue 0.222... = 1 plays a key role in a characterization of one of the simplest fractals, the middle-thirds Cantor set:
+A point in the unit interval lies in the Cantor set if and only if it can be represented in ternary using only the digits 0 and 2.
+The nth digit of the representation reflects the position of the point in the nth stage of the construction. For example, the point 2⁄3 is given the usual representation of 0.2 or 0.2000..., since it lies to the right of the first deletion and to the left of every deletion thereafter. The point 1⁄3 is represented not as 0.1 but as 0.0222..., since it lies to the left of the first deletion and to the right of every deletion thereafter.
+Repeating nines also turn up in yet another of Georg Cantor's works. They must be taken into account to construct a valid proof, applying his 1891 diagonal argument to decimal expansions, of the uncountability of the unit interval. Such a proof needs to be able to declare certain pairs of real numbers to be different based on their decimal expansions, so one needs to avoid pairs like 0.2 and 0.1999... A simple method represents all numbers with nonterminating expansions; the opposite method rules out repeating nines. A variant that may be closer to Cantor's original argument actually uses base 2, and by turning base-3 expansions into base-2 expansions, one can prove the uncountability of the Cantor set as well.
+
+
+== Skepticism in educationEdit ==
+Students of mathematics often reject the equality of 0.999... and 1, for reasons ranging from their disparate appearance to deep misgivings over the limit concept and disagreements over the nature of infinitesimals. There are many common contributing factors to the confusion:
+Students are often "mentally committed to the notion that a number can be represented in one and only one way by a decimal." Seeing two manifestly different decimals representing the same number appears to be a paradox, which is amplified by the appearance of the seemingly well-understood number 1.
+Some students interpret "0.999..." (or similar notation) as a large but finite string of 9s, possibly with a variable, unspecified length. If they accept an infinite string of nines, they may still expect a last 9 "at infinity".
+Intuition and ambiguous teaching lead students to think of the limit of a sequence as a kind of infinite process rather than a fixed value, since a sequence need not reach its limit. Where students accept the difference between a sequence of numbers and its limit, they might read "0.999..." as meaning the sequence rather than its limit.
+These ideas are mistaken in the context of the standard real numbers, although some may be valid in other number systems, either invented for their general mathematical utility or as instructive counterexamples to better understand 0.999...
+Many of these explanations were found by David Tall, who has studied characteristics of teaching and cognition that lead to some of the misunderstandings he has encountered in his college students. Interviewing his students to determine why the vast majority initially rejected the equality, he found that "students continued to conceive of 0.999... as a sequence of numbers getting closer and closer to 1 and not a fixed value, because 'you haven't specified how many places there are' or 'it is the nearest possible decimal below 1'".
+Of the elementary proofs, multiplying 0.333... = 1⁄3 by 3 is apparently a successful strategy for convincing reluctant students that 0.999... = 1. Still, when confronted with the conflict between their belief of the first equation and their disbelief of the second, some students either begin to disbelieve the first equation or simply become frustrated. Nor are more sophisticated methods foolproof: students who are fully capable of applying rigorous definitions may still fall back on intuitive images when they are surprised by a result in advanced mathematics, including 0.999.... For example, one real analysis student was able to prove that 0.333... = 1⁄3 using a supremum definition, but then insisted that 0.999... < 1 based on her earlier understanding of long division. Others still are able to prove that 1⁄3 = 0.333..., but, upon being confronted by the fractional proof, insist that "logic" supersedes the mathematical calculations.
+Joseph Mazur tells the tale of an otherwise brilliant calculus student of his who "challenged almost everything I said in class but never questioned his calculator," and who had come to believe that nine digits are all one needs to do mathematics, including calculating the square root of 23. The student remained uncomfortable with a limiting argument that 9.99... = 10, calling it a "wildly imagined infinite growing process."
+As part of Ed Dubinsky's APOS theory of mathematical learning, he and his collaborators (2005) propose that students who conceive of 0.999... as a finite, indeterminate string with an infinitely small distance from 1 have "not yet constructed a complete process conception of the infinite decimal". Other students who have a complete process conception of 0.999... may not yet be able to "encapsulate" that process into an "object conception", like the object conception they have of 1, and so they view the process 0.999... and the object 1 as incompatible. Dubinsky et al. also link this mental ability of encapsulation to viewing 1⁄3 as a number in its own right and to dealing with the set of natural numbers as a whole.
+
+
+== In popular cultureEdit ==
+With the rise of the Internet, debates about 0.999... have escaped the classroom and are commonplace on newsgroups and message boards, including many that nominally have little to do with mathematics. In the newsgroup sci.math, arguing over 0.999... is described as a "popular sport", and it is one of the questions answered in its FAQ. The FAQ briefly covers 1⁄3, multiplication by 10, and limits, and it alludes to Cauchy sequences as well.
+A 2003 edition of the general-interest newspaper column The Straight Dope discusses 0.999... via 1⁄3 and limits, saying of misconceptions,
+
+The lower primate in us still resists, saying: .999~ doesn't really represent a number, then, but a process. To find a number we have to halt the process, at which point the .999~ = 1 thing falls apart.
+Nonsense.
+
+The Straight Dope cites a discussion on its own message board that grew out of an unidentified "other message board ... mostly about video games". In the same vein, the question of 0.999... proved such a popular topic in the first seven years of Blizzard Entertainment's Battle.net forums that the company issued a "press release" on April Fools' Day 2004 that it is 1:
+
+We are very excited to close the book on this subject once and for all. We've witnessed the heartache and concern over whether .999~ does or does not equal 1, and we're proud that the following proof finally and conclusively addresses the issue for our customers.
+
+Two proofs are then offered, based on limits and multiplication by 10.
+0.999... features also in mathematical folklore, specifically in the following joke:
+
+Q: How many mathematicians does it take to screw in a lightbulb?
+A: 0.999999....
+
+
+== In alternative number systemsEdit ==
+Although the real numbers form an extremely useful number system, the decision to interpret the notation "0.999..." as naming a real number is ultimately a convention, and Timothy Gowers argues in Mathematics: A Very Short Introduction that the resulting identity 0.999... = 1 is a convention as well:
+
+However, it is by no means an arbitrary convention, because not adopting it forces one either to invent strange new objects or to abandon some of the familiar rules of arithmetic.
+
+One can define other number systems using different rules or new objects; in some such number systems, the above proofs would need to be reinterpreted and one might find that, in a given number system, 0.999... and 1 might not be identical. However, many number systems are extensions of —rather than independent alternatives to— the real number system, so 0.999... = 1 continues to hold. Even in such number systems, though, it is worthwhile to examine alternative number systems, not only for how 0.999... behaves (if, indeed, a number expressed as "0.999..." is both meaningful and unambiguous), but also for the behavior of related phenomena. If such phenomena differ from those in the real number system, then at least one of the assumptions built into the system must break down.
+
+
+=== InfinitesimalsEdit ===
+
+Some proofs that 0.999... = 1 rely on the Archimedean property of the real numbers: that there are no nonzero infinitesimals. Specifically, the difference 1 − 0.999... must be smaller than any positive rational number, so it must be an infinitesimal; but since the reals do not contain nonzero infinitesimals, the difference is therefore zero, and therefore the two values are the same.
+However, there are mathematically coherent ordered algebraic structures, including various alternatives to the real numbers, which are non-Archimedean. Non-standard analysis provides a number system with a full array of infinitesimals (and their inverses). A. H. Lightstone developed a decimal expansion for hyperreal numbers in (0, 1)∗. Lightstone shows how to associate to each number a sequence of digits,
+
+indexed by the hypernatural numbers. While he does not directly discuss 0.999..., he shows the real number 1/3 is represented by 0.333...;...333... which is a consequence of the transfer principle. As a consequence the number 0.999...;...999... = 1. With this type of decimal representation, not every expansion represents a number. In particular "0.333...;...000..." and "0.999...;...000..." do not correspond to any number.
+The standard definition of the number 0.999... is the limit of the sequence 0.9, 0.99, 0.999, ... A different definition involves what Terry Tao refers to as ultralimit, i.e., the equivalence class [(0.9, 0.99, 0.999, ...)] of this sequence in the ultrapower construction, which is a number that falls short of 1 by an infinitesimal amount. More generally, the hyperreal number uH=0.999...;...999000..., with last digit 9 at infinite hypernatural rank H, satisfies a strict inequality uH < 1. Accordingly, an alternative interpretation for "zero followed by infinitely many 9s" could be
+
+All such interpretations of "0.999..." are infinitely close to 1. Ian Stewart characterizes this interpretation as an "entirely reasonable" way to rigorously justify the intuition that "there's a little bit missing" from 1 in 0.999.... Along with Katz & Katz, Robert Ely also questions the assumption that students' ideas about 0.999... < 1 are erroneous intuitions about the real numbers, interpreting them rather as nonstandard intuitions that could be valuable in the learning of calculus. Jose Benardete in his book Infinity: An essay in metaphysics argues that some natural pre-mathematical intuitions cannot be expressed if one is limited to an overly restrictive number system:
+The intelligibility of the continuum has been found—many times over—to require that the domain of real numbers be enlarged to include infinitesimals. This enlarged domain may be styled the domain of continuum numbers. It will now be evident that .9999... does not equal 1 but falls infinitesimally short of it. I think that .9999... should indeed be admitted as a number ... though not as a real number.
+
+
+=== HackenbushEdit ===
+Combinatorial game theory provides alternative reals as well, with infinite Blue-Red Hackenbush as one particularly relevant example. In 1974, Elwyn Berlekamp described a correspondence between Hackenbush strings and binary expansions of real numbers, motivated by the idea of data compression. For example, the value of the Hackenbush string LRRLRLRL... is 0.0101012... = 1/3. However, the value of LRLLL... (corresponding to 0.111...2) is infinitesimally less than 1. The difference between the two is the surreal number 1/ω, where ω is the first infinite ordinal; the relevant game is LRRRR... or 0.000...2.
+This is in fact true of the binary expansions of many rational numbers, where the values of the numbers are equal but the corresponding binary tree paths are different. For example, 0.10111...2 = 0.11000...2, which are both equal to 3⁄4, but the first representation corresponds to the binary tree path LRLRLLL... while the second corresponds to the different path LRLLRRR....
+
+
+=== Revisiting subtractionEdit ===
+Another manner in which the proofs might be undermined is if 1 − 0.999... simply does not exist, because subtraction is not always possible. Mathematical structures with an addition operation but not a subtraction operation include commutative semigroups, commutative monoids and semirings. Richman considers two such systems, designed so that 0.999... < 1.
+First, Richman defines a nonnegative decimal number to be a literal decimal expansion. He defines the lexicographical order and an addition operation, noting that 0.999... < 1 simply because 0 < 1 in the ones place, but for any nonterminating x, one has 0.999... + x = 1 + x. So one peculiarity of the decimal numbers is that addition cannot always be cancelled; another is that no decimal number corresponds to 1⁄3. After defining multiplication, the decimal numbers form a positive, totally ordered, commutative semiring.
+In the process of defining multiplication, Richman also defines another system he calls "cut D", which is the set of Dedekind cuts of decimal fractions. Ordinarily this definition leads to the real numbers, but for a decimal fraction d he allows both the cut (−∞, d ) and the "principal cut" (−∞, d ). The result is that the real numbers are "living uneasily together with" the decimal fractions. Again 0.999... < 1. There are no positive infinitesimals in cut D, but there is "a sort of negative infinitesimal," 0−, which has no decimal expansion. He concludes that 0.999... = 1 + 0−, while the equation "0.999... + x = 1" has no solution.
+
+
+=== p-adic numbersEdit ===
+
+When asked about 0.999..., novices often believe there should be a "final 9," believing 1 − 0.999... to be a positive number which they write as "0.000...1". Whether or not that makes sense, the intuitive goal is clear: adding a 1 to the final 9 in 0.999... would carry all the 9s into 0s and leave a 1 in the ones place. Among other reasons, this idea fails because there is no "final 9" in 0.999.... However, there is a system that contains an infinite string of 9s including a last 9.
+
+The p-adic numbers are an alternative number system of interest in number theory. Like the real numbers, the p-adic numbers can be built from the rational numbers via Cauchy sequences; the construction uses a different metric in which 0 is closer to p, and much closer to pn, than it is to 1. The p-adic numbers form a field for prime p and a ring for other p, including 10. So arithmetic can be performed in the p-adics, and there are no infinitesimals.
+In the 10-adic numbers, the analogues of decimal expansions run to the left. The 10-adic expansion ...999 does have a last 9, and it does not have a first 9. One can add 1 to the ones place, and it leaves behind only 0s after carrying through: 1 + ...999 = ...000 = 0, and so ...999 = −1. Another derivation uses a geometric series. The infinite series implied by "...999" does not converge in the real numbers, but it converges in the 10-adics, and so one can re-use the familiar formula:
+
+(Compare with the series above.) A third derivation was invented by a seventh-grader who was doubtful over her teacher's limiting argument that 0.999... = 1 but was inspired to take the multiply-by-10 proof above in the opposite direction: if x = ...999 then 10x =  ...990, so 10x = x − 9, hence x = −1 again.
+As a final extension, since 0.999... = 1 (in the reals) and ...999 = −1 (in the 10-adics), then by "blind faith and unabashed juggling of symbols" one may add the two equations and arrive at ...999.999... = 0. This equation does not make sense either as a 10-adic expansion or an ordinary decimal expansion, but it turns out to be meaningful and true if one develops a theory of "double-decimals" with eventually repeating left ends to represent a familiar system: the real numbers.
+
+
+== Related questionsEdit ==
+Zeno's paradoxes, particularly the paradox of the runner, are reminiscent of the apparent paradox that 0.999... and 1 are equal. The runner paradox can be mathematically modelled and then, like 0.999..., resolved using a geometric series. However, it is not clear if this mathematical treatment addresses the underlying metaphysical issues Zeno was exploring.
+Division by zero occurs in some popular discussions of 0.999..., and it also stirs up contention. While most authors choose to define 0.999..., almost all modern treatments leave division by zero undefined, as it can be given no meaning in the standard real numbers. However, division by zero is defined in some other systems, such as complex analysis, where the extended complex plane, i.e. the Riemann sphere, has a "point at infinity". Here, it makes sense to define 1/0 to be infinity; and, in fact, the results are profound and applicable to many problems in engineering and physics. Some prominent mathematicians argued for such a definition long before either number system was developed.
+Negative zero is another redundant feature of many ways of writing numbers. In number systems, such as the real numbers, where "0" denotes the additive identity and is neither positive nor negative, the usual interpretation of "−0" is that it should denote the additive inverse of 0, which forces −0 = 0. Nonetheless, some scientific applications use separate positive and negative zeroes, as do some computing binary number systems (for example integers stored in the sign and magnitude or ones' complement formats, or floating point numbers as specified by the IEEE floating-point standard).
+
+
+== See alsoEdit ==
+Limit (mathematics)
+Series (mathematics)
+Naive mathematics
+Finitism
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+
+
+== External linksEdit ==
+
+.999999... = 1? from cut-the-knot
+Why does 0.9999... = 1 ?
+Proof of the equality based on arithmetic
+David Tall's research on mathematics cognition
+What is so wrong with thinking of real numbers as infinite decimals?
+Theorem 0.999... on Metamath

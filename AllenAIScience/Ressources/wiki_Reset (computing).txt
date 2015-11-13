@@ -1,0 +1,21 @@
+In a computer or data transmission system, a reset clears any pending errors or events and brings a system to normal condition or an initial state, usually in a controlled manner. It is usually done in response to an error condition when it is impossible or undesirable for a processing activity to proceed and all error recovery mechanisms fail. A computer storage program would normally perform a "reset" if a command times out and error recovery schemes like retry or abort also fail.
+Most computers have a reset line that brings the device into the startup state and is active for a short time after powering on. For example, in the x86 architecture, asserting the RESET line halts the CPU; this is done after the system is switched on and before the power supply has asserted "power good" to indicate that it is ready to supply stable voltages at sufficient power levels. Reset places less stress on the hardware than power cycling, as the power is not removed. Many computers, especially older models, have user accessible "reset" buttons that assert the reset line to facilitate a system reboot in a way that cannot be trapped (i.e. prevented) by the operating system. Out-of-band management also frequently provides the possibility to reset the remote system in this way.
+Many memory-capable digital circuits (flip-flops, registers, counters and so on) accept the reset signal that sets them to the pre-determined state. This signal is often applied after powering on but may also be applied under other circumstances.
+The ability for an electronic device to be able to reset itself in case of error or abnormal power loss is an important aspect of embedded system design and programming. This ability can be observed with everyday electronics such as a television, audio equipment or the electronics of a car, which are able to function as intended again even after having lost power suddenly. A sudden and strange error with a device might sometimes be fixed by removing and restoring power, making the device reset. Some devices, such as portable media players, very often have a dedicated reset button as they are prone to freezing or locking up. The lack of a proper reset ability could otherwise possibly render the device useless after a power loss or malfunction.
+A soft reset is performed by restarting system software without resetting the hardware.
+reset is also an Windows Terminal Server command. The syntax is RESET { SESSION }.
+In addition, reset is a BSD/Linux/UNIX command to restore a console to a normal state. This command is an alias of the tset terminal initialization command. Similar commands include:
+
+ stty sane
+ setterm -reset
+
+
+== See also ==
+Reboot (computing)
+Abort (computing)
+Abnormal end
+Hang (computing)
+Reset button
+
+
+== References ==

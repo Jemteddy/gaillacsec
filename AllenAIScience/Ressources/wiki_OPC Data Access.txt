@@ -1,0 +1,25 @@
+The OPC Data Access Specification is the first of a group of specifications known as the Classic OPC Specifications.
+OPC Data Access is a group of client-server standards that provides specifications for communicating real-time data from data acquisition devices such as PLCs to display and interface devices like Human-Machine Interfaces (HMI), SCADA systems and also ERP/MES systems. The specifications focus on the continuous communication of data.
+The OPC Data Access specification is also known as OPC DA. OPC DA deals only with real-time data and not historical data (for historical data you need to use OPC Historical Data Access, or OPC HDA) or events (for Alarms and Events you need to use OPC Alarms and Events, or OPC AE). There are three attributes associated with OPC DA data. These are
+a value,
+the quality of the value, and
+a timestamp.
+The OPC DA specification states that these three attributes have to be returned to an OPC client making a request. Therefore, if the data source is not capable of providing a timestamp, for example, the OPC DA server must create a timestamp.
+The classic OPC specifications are based on the Microsoft COM technology and define a C/C++ interface. A standard Automation wrapper interface is also defined for access from Visual Basic, Delphi and other automation-enabled languages. Several vendors offer .NET toolkits to make the OPC interface accessible in .NET applications.
+The newer OPC .NET (OPC Xi) specification is based on WCF (Windows Communication Foundation) and defines a .NET interface with the functionality of the Classic OPC specifications OPC DA, OPC HDA and OPC AE (Alarms&Events).
+The more recent OPC Unified Architecture allows the same functionality but offers platform independence and optionally complex information modelling capabilities.
+
+
+== References ==
+
+
+== See also ==
+OPC Foundation
+Distributed Component Object Model
+OPC Unified Architecture
+OPC Xi
+
+
+== External links ==
+OPC Foundation Home Page
+OPC Programmers' Connection

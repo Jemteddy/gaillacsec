@@ -1,0 +1,64 @@
+A microwave cavity or radio frequency (RF) cavity is a special type of resonator, consisting of a closed (or largely closed) metal structure that confines electromagnetic fields in the microwave region of the spectrum. The structure is either hollow or filled with dielectric material. The microwaves bounce back and forth between the walls of the cavity. At the cavity's resonant frequencies they reinforce to form standing waves in the cavity. Therefore, the cavity functions similarly to an organ pipe or sound box in a musical instrument, oscillating preferentially at a series of frequencies, its resonant frequencies. Thus it can act as a bandpass filter, allowing microwaves of a particular frequency to pass while blocking microwaves at nearby frequencies.
+A microwave cavity acts similarly to a resonant circuit with extremely low loss at its frequency of operation, resulting in quality factors (Q factors) up to the order of 106, compared to 102 for circuits made with separate inductors and capacitors at the same frequency. They are used in place of resonant circuits at microwave frequencies, since at these frequencies discrete resonant circuits cannot be built because the values of inductance and capacitance needed are too low. They are used in oscillators and transmitters to create microwave signals, and as filters to separate a signal at a given frequency from other signals, in equipment such as radar equipment, microwave relay stations, satellite communications, and microwave ovens.
+RF cavities can also manipulate charged particles passing through them by application of acceleration voltage and are thus used in particle accelerators and microwave vacuum tubes such as klystrons and magnetrons.
+
+
+== Theory of operation ==
+
+Most resonant cavities are made from closed (or short-circuited) sections of waveguide or high-permittivity dielectric material (see dielectric resonator). Electric and magnetic energy is stored in the cavity and the only losses are due to finite conductivity of cavity walls and dielectric losses of material filling the cavity. Every cavity has numerous resonant frequencies that correspond to electromagnetic field modes satisfying necessary boundary conditions on the walls of the cavity. Because of these boundary conditions that must be satisfied at resonance (tangential electric fields must be zero at cavity walls), it follows that cavity length must be an integer multiple of half-wavelength at resonance. Hence, a resonant cavity can be thought of as a waveguide equivalent of short circuited half-wavelength transmission line resonator. Q factor of a resonant cavity can be calculated using cavity perturbation theory and expressions for stored electric and magnetic energy.
+The electromagnetic fields in the cavity are excited via external coupling. An external power source is usually coupled to the cavity by a small aperture, a small wire probe or a loop. External coupling structure has an effect on cavity performance and needs to be considered in the overall analysis.
+
+
+=== Quality factor ===
+The quality factor  of a cavity can be decomposed into three parts, representing different power loss mechanisms.
+, resulting from the power loss in the walls which have finite conductivity
+
+, resulting from the power loss in the lossy dielectric material filling the cavity.
+
+, resulting from power loss through unclosed surfaces (holes) of the cavity geometry.
+Total Q factor of the cavity can be found as
+
+where k is the wavenumber,  is the intrinsic impedance of the dielectric,  is the surface resistivity of the cavity walls,  and  are relative permeability and permittivity respectively and  is the loss tangent of the dielectric.
+
+
+=== Cavity geometry ===
+
+
+==== Rectangular cavity ====
+
+Resonance frequencies of a rectangular microwave cavity for any  or  resonant mode can be found by imposing boundary conditions on electromagnetic field expressions. This frequency is given by
+
+where  is the wavenumber, with , ,  being the mode numbers and , ,  being the corresponding dimensions; c is the speed of light in vacuum; and  and  are relative permeability and permittivity of the cavity filling respectively.
+
+
+==== Cylindrical cavity ====
+
+The field solutions of a cylindrical cavity of length  and radius  follow from the solutions of a cylindrical waveguide with additional electric boundary conditions at the position of the enclosing plates. The resonance frequencies are different for TE and TM modes.
+TM modes
+ 
+TE modes
+ 
+Here,  denotes the -th zero of the -th Bessel function, and  denotes the -th zero of the derivative of the -th Bessel function.
+
+
+== Comparison to LC circuits ==
+
+Microwave resonant cavities can be represented and thought of as simple LC circuits. For a microwave cavity, the stored electric energy is equal to the stored magnetic energy at resonance as is the case for a resonant LC circuit. In terms of inductance and capacitance, the resonant frequency for a given  mode can be written as
+
+where V is the cavity volume,  is the mode wavenumber and  and  are permittivity and permeability respectively.
+To better understand the utility of resonant cavities at microwave frequencies, it is useful to note that the losses of conventional inductors and capacitors start to increase with frequency in the VHF range. Similarly, for frequencies above one gigahertz, Q factor values for transmission-line resonators start to decrease with frequency. Because of their low losses and high Q factors, cavity resonators are preferred over conventional LC and transmission-line resonators at high frequencies.
+
+
+=== Losses in LC resonant circuits ===
+
+Conventional inductors are usually wound from wire in the shape of a helix with no core. Skin effect causes the high frequency resistance of inductors to be many times their direct current resistance. In addition, capacitance between turns causes dielectric losses in the insulation which coats the wires. These effects make the high frequency resistance greater and decrease the Q factor.
+Conventional capacitors use air, mica, ceramic or perhaps teflon for a dielectric. Even with a low loss dielectric, capacitors are also subject to skin effect losses in their leads and plates. Both effects increase their equivalent series resistance and reduce their Q.
+Even if the Q factor of VHF inductors and capacitors is high enough to be useful, their parasitic properties can significantly affect their performance in this frequency range. The shunt capacitance of an inductor may be more significant than its desirable series inductance. The series inductance of a capacitor may be more significant than its desirable shunt capacitance. As a result, in the VHF or microwave regions, a capacitor may appear to be an inductor and an inductor may appear to be a capacitor. These phenomena are better known as parasitic inductance and parasitic capacitance.
+
+
+=== Losses in cavity resonators ===
+Dielectric loss of air is extremely low for high frequency electric or magnetic fields. Air-filled microwave cavities confine electric and magnetic fields to the air spaces between their walls. Electric losses in such cavities are almost exclusively due to currents flowing in cavity walls. While losses from wall currents are small, cavities are frequently plated with silver to increase their electrical conductivity and reduce these losses even further. Copper cavities frequently oxidize, which increases their loss. Silver or gold plating prevents oxidation and reduces electrical losses in cavity walls. Even though gold is not quite as good a conductor as copper, it still prevents oxidation and the resulting deterioration of Q factor over time. However, because of its high cost, it is used only in the most demanding applications.
+Some satellite resonators are silver plated and covered with a gold flash layer. The current then mostly flows in the high-conductivity silver layer, while the gold flash layer protects the silver layer from oxidizing.
+
+
+== References ==

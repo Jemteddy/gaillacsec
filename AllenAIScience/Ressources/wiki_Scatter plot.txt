@@ -1,0 +1,32 @@
+A scatter plot, scatterplot, or scattergraph is a type of mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. If the points are color-coded you can increase the number of displayed variables to three.
+The data is displayed as a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis. This kind of plot is also called a scatter chart, scattergram, scatter diagram, or scatter graph.
+
+
+== Overview ==
+A scatter plot can be used either when one continuous variable that is under the control of the experimenter and the other depends on it or when both continuous variables are independent. If a parameter exists that is systematically incremented and/or decremented by the other, it is called the control parameter or independent variable and is customarily plotted along the horizontal axis. The measured or dependent variable is customarily plotted along the vertical axis. If no dependent variable exists, either type of variable can be plotted on either axis and a scatter plot will illustrate only the degree of correlation (not causation) between two variables.
+A scatter plot can suggest various kinds of correlations between variables with a certain confidence interval. For example, weight and height, weight would be on y axis and height would be on the x axis. Correlations may be positive (rising), negative (falling), or null (uncorrelated). If the pattern of dots slopes from lower left to upper right, it indicates a positive correlation between the variables being studied. If the pattern of dots slopes from upper left to lower right, it indicates a negative correlation. A line of best fit (alternatively called 'trendline') can be drawn in order to study the relationship between the variables. An equation for the correlation between the variables can be determined by established best-fit procedures. For a linear correlation, the best-fit procedure is known as linear regression and is guaranteed to generate a correct solution in a finite time. No universal best-fit procedure is guaranteed to generate a correct solution for arbitrary relationships. A scatter plot is also very useful when we wish to see how two comparable data sets agree with each other. In this case, an identity line, i.e., a y=x line, or an 1:1 line, is often drawn as a reference. The more the two data sets agree, the more the scatters tend to concentrate in the vicinity of the identity line; if the two data sets are numerically identical, the scatters fall on the identity line exactly.
+One of the most powerful aspects of a scatter plot, however, is its ability to show nonlinear relationships between variables. The ability to do this can be enhanced by adding a smooth line such as loess.  Furthermore, if the data are represented by a mixture model of simple relationships, these relationships will be visually evident as superimposed patterns.
+The scatter diagram is one of the seven basic tools of quality control.
+
+
+== Example ==
+For example, to display a link between a person's lung capacity, and how long that person could hold his/her breath, a researcher would choose a group of people to study, then measure each one's lung capacity (first variable) and how long that person could hold his/her breath (second variable). The researcher would then plot the data in a scatter plot, assigning "lung capacity" to the horizontal axis, and "time holding breath" to the vertical axis.
+A person with a lung capacity of 400 cl who held his/her breath for 21.7 seconds would be represented by a single dot on the scatter plot at the point (400, 21.7) in the Cartesian coordinates. The scatter plot of all the people in the study would enable the researcher to obtain a visual comparison of the two variables in the data set, and will help to determine what kind of relationship there might be between the two variables.
+
+
+== Scatterplot matrices ==
+For a set of data variables (dimensions) X1, X2, ... , Xk, the scatter plot matrix shows all the pairwise scatter plots of the variables on a single view with multiple scatterplots in a matrix format. For k variables, the scatterplot matrix will contain k rows and k columns. A plot located on the intersection of i-th row and j-th column is a plot of variables Xi versus Xj.  This means that each row and column is one dimension, and each cell plots a scatterplot of two dimensions.
+
+
+== See also ==
+Plot (graphics)
+
+
+== References ==
+
+
+== External links ==
+What is a scatterplot?
+Correlation scatter-plot matrix - for ordered-categorical data - Explanation and R code
+Tool for visualizing scatter plots
+Density scatterplot for large datasets (hundreds of millions of points)

@@ -1,0 +1,123 @@
+Verification and validation are independent procedures that are used together for checking that a product, service, or system meets requirements and specifications and that it fulfills its intended purpose. These are critical components of a quality management system such as ISO 9000. The words "verification" and "validation" are sometimes preceded with "independent", indicating that the verification and validation is to be performed by a disinterested third party. "Independent verification and validation" can be abbreviated as "IV&V".
+In practice, the usage of these terms varies. Sometimes they are even used interchangeably.
+The PMBOK guide, a standard adopted by IEEE, defines them as follows in its 4th edition:
+"Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."
+"Verification. The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. Contrast with validation."
+
+
+== OverviewEdit ==
+Verification is intended to check that a product, service, or system (or portion thereof, or set thereof) meets a set of design specifications. In the development phase, verification procedures involve performing special tests to model or simulate a portion, or the entirety, of a product, service or system, then performing a review or analysis of the modeling results. In the post-development phase, verification procedures involve regularly repeating tests devised specifically to ensure that the product, service, or system continues to meet the initial design requirements, specifications, and regulations as time progresses. It is a process that is used to evaluate whether a product, service, or system complies with regulations, specifications, or conditions imposed at the start of a development phase. Verification can be in development, scale-up, or production. This is often an internal process.
+Validation is intended to ensure a product, service, or system (or portion thereof, or set thereof) result in a product, service, or system (or portion thereof, or set thereof) that meets the operational needs of the user. For a new development flow or verification flow, validation procedures may involve modeling either flow and using simulations to predict faults or gaps that might lead to invalid or incomplete verification or development of a product, service, or system (or portion thereof, or set thereof). A set of validation requirements (as defined by the user), specifications, and regulations may then be used as a basis for qualifying a development flow or verification flow for a product, service, or system (or portion thereof, or set thereof). Additional validation procedures also include those that are designed specifically to ensure that modifications made to an existing qualified development flow or verification flow will have the effect of producing a product, service, or system (or portion thereof, or set thereof) that meets the initial design requirements, specifications, and regulations; these validations help to keep the flow qualified. It is a process of establishing evidence that provides a high degree of assurance that a product, service, or system accomplishes its intended requirements. This often involves acceptance of fitness for purpose with end users and other product stakeholders. This is often an external process.
+It is sometimes said that validation can be expressed by the query "Are you building the right thing?" and verification by "Are you building it right?". "Building the right thing" refers back to the user's needs, while "building it right" checks that the specifications are correctly implemented by the system. In some contexts, it is required to have written requirements for both as well as formal procedures or protocols for determining compliance.
+It is entirely possible that a product passes when verified but fails when validated. This can happen when, say, a product is built as per the specifications but the specifications themselves fail to address the user’s needs.
+
+
+== ActivitiesEdit ==
+Verification of machinery and equipment usually consists of design qualification (DQ), installation qualification (IQ), operational qualification (OQ), and performance qualification (PQ). DQ may be performed by a vendor or by the user, by confirming through review and testing that the equipment meets the written acquisition specification. If the relevant document or manuals of machinery/equipment are provided by vendors, the later 3Q needs to be thoroughly performed by the users who work in an industrial regulatory environment. Otherwise, the process of IQ, OQ and PQ is the task of validation. The typical example of such a case could be the loss or absence of vendor's documentation for legacy equipment or do-it-yourself (DIY) assemblies (e.g., cars, computers etc.) and, therefore, users should endeavour to acquire DQ document beforehand. Each template of DQ, IQ, OQ and PQ usually can be found on the internet respectively, whereas the DIY qualifications of machinery/equipment can be assisted either by the vendor's training course materials and tutorials, or by the published guidance books, such as step-by-step series if the acquisition of machinery/equipment is not bundled with on- site qualification services. This kind of the DIY approach is also applicable to the qualifications of software, computer operating systems and a manufacturing process. The most important and critical task as the last step of the activity is to generating and archiving machinery/equipment qualification reports for auditing purposes, if regulatory compliances are mandatory.
+Qualification of machinery/equipment is venue dependent, in particular items that are shock sensitive and require balancing or calibration, and re-qualification needs to be conducted once the objects are relocated. The full scales of some equipment qualifications are even time dependent as consumables are used up (i.e. filters) or springs stretch out, requiring recalibration, and hence re-certification is necessary when a specified due time lapse. Re-qualification of machinery/equipment should also be conducted when replacement of parts, or coupling with another device, or installing a new application software and restructuring of the computer which affects especially the pre-settings, such as on BIOS, registry, disk drive partition table, dynamically-linked (shared) libraries, or an ini file etc., have been necessary. In such a situation, the specifications of the parts/devices/software and restructuring proposals should be appended to the qualification document whether the parts/devices/software are genuine or not. Torres and Hyman have discussed the suitability of non genuine parts for clinical use and provided guidelines for equipment users to select appropriate substitutes which are capable to avoid adverse effects. In the case when genuine parts/devices/software are demanded by some of regulatory requirements, then re-qualification does not need to be conducted on the non genuine assemblies. Instead, the asset has to be recycled for non regulatory purposes.
+When machinery/equipment qualification is conducted by a standard endorsed third party such as by an ISO standard accredited company for a particular division, the process is called certification. Currently, the coverage of ISO/IEC 15408 certification by an ISO/IEC 27001 accredited organization is limited, the scheme requires a fair amount of efforts to get popularized.
+
+
+== Categories of validationEdit ==
+Validation work can generally be categorized by the following functions:
+Prospective validation – the missions conducted before new items are released to make sure the characteristics of the interests which are functioning properly and which meet safety standards. Some examples could be legislative rules, guidelines or proposals, methods, theories/hypothesis/models products and services
+Retrospective validation – a process for items that are already in use and distribution or production. The validation is performed against the written specifications or predetermined expectations, based upon their historical data/evidences that are documented/recorded. If any critical data is missing, then the work can not be processed or can only be completed partially. The tasks are considered necessary if:
+prospective validation is missing, inadequate or flawed.
+the change of legislative regulations or standards affects the compliance of the items being released to the public or market.
+reviving of out-of-use items.
+
+Some of the examples could be validation of:
+ancient scriptures that remain controversial
+clinical decision rules
+data systems
+
+Full-scale validation
+Partial validation – often used for research and pilot studies if time is constrained. The most important and significant effects are tested. From an analytical chemistry perspective, those effects are selectivity, accuracy, repeatability, linearity and its range.
+Cross-validation
+Re-validation/Locational or Periodical validation – carried out, for the item of interest that is dismissed, repaired, integrated/coupled, relocated, or after a specified time lapse. Examples of this category could be relicencing/renewing driver's license, recertifying an analytical balance that has been expired or relocated, and even revalidating professionals. Re-validation may also be conducted when/where a change occurs during the courses of activities, such as scientific researches or phases of clinical trial transitions. Examples of these changes could be
+sample matrices
+production scales
+population profiles and sizes
+out-of-specification] (OOS) investigations, due to the contamination of testing reagents, glasswares, the aging of equipment/devices, or the depreciation of associated assets etc.
+
+In GLP accredited laboratories, verification/revalidation will even be conducted very often against the monographs of the Ph.Eur., IP to cater for multinational needs or USP and BP etc to cater for national needs. These laboratories must have method validation as well.
+Concurrent validation – conducted during a routine processing of services, manufacturing or engineering etc. Examples of these could be
+duplicated sample analysis for a chemical assay
+triplicated sample analysis for trace impurities at the marginalized levels of detection limit, or/and quantification limit
+single sample analysis for a chemical assay by a skilled operator with multiplicated online system suitability testings
+
+
+== Aspects of validationEdit ==
+The most tested attributes in validation tasks may include, but are not limited to
+Selectivity/specificity
+Accuracy and precision
+Repeatability
+Reproducibility
+Limit of detection – especially for trace elements
+Limit of quantification
+Curve fitting and its range
+System suitability – In a broad way, it usually includes a test of ruggedness among inter-collaborators, or a test of robustness within an organization  However, the U.S. Food and Drug Administration (FDA) has specifically defined it for its administration, as "System suitability testing is an integral part of many analytical procedures. The tests are based on the concept that the equipment, electronics, analytical operations and samples to be analyzed constitute an integral system that can be evaluated as such. System suitability test parameters to be established for a particular procedure depend on the type of procedure being validated". In some cases of analytical chemistry, a system suitability test could be rather a method specific than universal. Such examples are chromatographic analysis, which is usually media (column, paper or mobile solvent) sensitive  However to the date of this writing, this kind of approaches are limited to some of pharmaceutical compendial methods, by which the detecting of impurities, or the quality of the intest analyzed are critical (i.e., life and death). This is probably largely due to
+
+their intensive labouring demands and time consumption 
+their confinements by the definition of the term defined by different standards.
+
+To solve this kind of difficulties, some regulatory bodies or compendial methods usually provide the advices on what the circumstances or conditions that the performing of a specified system suitability test should be applied and compulsory.
+
+
+== Industry referencesEdit ==
+These terms generally apply broadly across industries and institutions. In addition, they may have very specific meanings and requirements for specific products, regulations, and industries. Some examples:
+Software and computer systems
+
+Food and Drug
+Pharmaceuticals The design, production, and distribution of drugs are highly regulated. This includes software systems. For example in the USA, the Food and Drug Administration have regulations in Part 21 of the Code of Federal Regulations. Nash et al. have published a book which provides a comprehensive coverage on the various validation topics of pharmaceutical manufacturing processes. Some companies are taking a risk-based approach to validating their GAMP system if one understands the regulatory requirements very well while the most of others follows the conventional process  It is a part of GxP management. The aspects of validation and verification are even more intense and emphasized if an OOS occurs. Very often under this circumstance, a multiplicated sample analysis is required for conducting the OOS investigation in a testing laboratory.
+Medical devices The FDA (21 CFR) has validation and verification requirements for medical devices. See guidance: and ISO 13485
+Manufacturing process and cleaning validation are compulsory and regulated by the U.S. Food and Drug Administration 
+Food hygiene: example 
+Clinical laboratory medicine: ISO 15198:2004 Clinical laboratory medicine—In vitro diagnostic medical devices—Validation of user quality control procedures by the manufacturer
+
+Health care: example 
+Greenhouse gas: ISO 14064 ANSI/ISO: Greenhouse gases — Requirements for greenhouse gas validation and verification bodies for use in accreditation or other forms of recognition
+Traffic and transport
+Road safety audit
+Periodic motor vehicle inspection
+Aircraft noise: example 
+Aircraft:[2]
+
+Model:[3]
+(Ni-Cd) cells: example 
+ICT Industry: example 
+Civil engineering
+Buildings –
+Roads –
+Bridges –
+
+Economics
+Accounting
+Agriculture – applications vary from verifying agricultural methodology and production processes to validating agricultural modeling 
+Real estate appraisal – audit reporting and authentication 
+
+
+== See alsoEdit ==
+Accreditation
+Change control
+Certification of voting machines
+Comparability
+Formal verification
+ISO 17025
+System testing
+Systematic political science
+Usability testing
+Functional verification
+Verification and Validation of Computer Simulation Models
+
+
+== Further readingEdit ==
+Majcen, N.; Taylor, P. (2010). "Practical examples on traceability, measurement uncertainty and validation in chemistry" 1 (ISBN 978–92–79–12021–3). European Union. p. 217. 
+
+
+== External linksEdit ==
+Maturity of verification and validation in ICT companies
+Organisational maturity and functional performance
+
+
+== Notes and referencesEdit ==

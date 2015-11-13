@@ -1,0 +1,82 @@
+In computing, a locale is a set of parameters that defines the user's language, region and any special variant preferences that the user wants to see in their user interface. Usually a locale identifier consists of at least a language identifier and a region identifier.
+On POSIX platforms such as Unix, Linux and others, locale identifiers are defined similar to the BCP 47 definition of language tags, but the locale variant modifier is defined differently, and the character set is included as a part of the identifier. It is defined in this format: [language[_territory][.codeset][@modifier]]. (For example, Australian English using the UTF-8 encoding is en_AU.UTF-8.)
+
+
+== General locale settings ==
+These settings usually include the following display (output) format settings:
+Number format setting
+Character classification, case conversion settings
+Date-time format setting
+String collation setting
+Currency format setting
+Paper size setting
+other minor settings ...
+The locale settings are about formatting output given a locale. So, the timezone information and daylight saving time are not usually part of the locale settings. Less usual is the input format setting, which is mostly defined on a per application basis.
+Furthermore, the general settings usually include the keyboard layout setting.
+
+
+== Programming and markup language support ==
+In these environments,
+
+and other (nowadays) Unicode-based environments, they are defined in a format similar to BCP 47. They are usually defined with just ISO 639 (language) and ISO 3166-1 alpha-2 (2-letter country) codes.
+
+
+== POSIX platforms ==
+On POSIX platforms, locale identifiers are defined similarly to the BCP 47 definition of language tags, but the locale variant modifier is defined differently, and the character set is included as a part of the identifier.
+In the next example there is an output of command locale for Czech language (cs), Czech Republic (CZ) with explicit UTF-8 encoding:
+
+$ locale
+LANG=cs_CZ.UTF-8
+LC_CTYPE="cs_CZ.UTF-8"
+LC_NUMERIC="cs_CZ.UTF-8"
+LC_TIME="cs_CZ.UTF-8"
+LC_COLLATE="cs_CZ.UTF-8"
+LC_MONETARY="cs_CZ.UTF-8"
+LC_MESSAGES="cs_CZ.UTF-8"
+LC_PAPER="cs_CZ.UTF-8"
+LC_NAME="cs_CZ.UTF-8"
+LC_ADDRESS="cs_CZ.UTF-8"
+LC_TELEPHONE="cs_CZ.UTF-8"
+LC_MEASUREMENT="cs_CZ.UTF-8"
+LC_IDENTIFICATION="cs_CZ.UTF-8"
+LC_ALL=
+
+
+== Specifics for Microsoft platforms ==
+Windows uses specific language and territory strings. The locale identifier (LCID) for unmanaged code on Microsoft Windows is a number such as 1033 for English (United States) or 1041 for Japanese (Japan). These numbers consist of a language code (lower 10 bits) and culture code (upper bits) and are therefore often written in hexadecimal notation, such as 0x0409 or 0x0411. The list of those codesets are described in character encoding. Microsoft is starting to introduce managed code application programming interfaces (APIs) for .NET that use this format. One of the first to be generally released is a function to mitigate issues with internationalized domain names, but more are in Windows Vista Beta 1.
+Starting with Windows Vista, new functions that use BCP 47 locale names have been introduced to replace nearly all LCID-based APIs.
+
+
+== See also ==
+Internationalization and localization
+ISO 639 language codes
+ISO 3166-1 alpha-2 country codes
+IETF language tag
+Common Locale Data Repository
+Date and time representation by country
+AppLocale
+
+
+== References ==
+
+
+== External links ==
+BCP 47
+Language Subtag Registry
+Common Locale Data Repository
+java.util.Locale Javadoc API documentation
+Locale and Language information from Microsoft
+MS-LCID: Windows Language Code Identifier (LCID) Reference from Microsoft
+Microsoft LCID list
+Microsoft LCID chart with decimal equivalents
+POSIX Environment Variables
+Low Level Technical details on defining a POSIX locale
+ICU Locale Explorer
+Debian Wiki on Locales
+Article "The Standard C++ Locale" by Nathan C. Myers
+locale(7): Description of multi-language support - Linux man page
+Apache C++ Standard Library Locale User's Guide
+Sort order charts for various operating system locales and database collations
+NATSPEC Library
+Description of locale-related UNIX environment variables in Debian Linux Reference Manual
+Guides to locales and locale creation on various platforms

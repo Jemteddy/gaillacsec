@@ -1,0 +1,1 @@
+Cache invalidation is a process whereby entries in a cache are deleted. It can be done explicitly, as part of a cache coherence protocol in a parallel computer. In such a case, a compute node changes a variable and then invalidates the cached values of that variable across the rest of the computer system.
