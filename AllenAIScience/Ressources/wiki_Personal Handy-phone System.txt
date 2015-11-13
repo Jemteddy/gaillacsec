@@ -1,0 +1,64 @@
+The Personal Handy-phone System (PHS), also marketed as the Personal Access System (PAS) and commercially branded as Xiaolingtong (Chinese: 小灵通) in Mainland China, is a mobile network system operating in the 1880–1930 MHz frequency band, used mainly in Japan, China, Taiwan, and some other Asian countries and regions.
+
+
+== OutlineEdit ==
+
+
+=== TechnologyEdit ===
+
+PHS is essentially a cordless telephone like DECT, with the capability to handover from one cell to another. PHS cells are small, with transmission power of base station a maximum of 500 mW and range typically measures in tens or at most hundreds of metres (some can range up to about 2 kilometres in line-of-sight), contrary to the multi-kilometre ranges of CDMA and GSM. This makes PHS suitable for dense urban areas, but impractical for rural areas, and the small cell size also makes it difficult if not impossible to make calls from rapidly moving vehicles.
+PHS uses TDMA/TDD for its radio channel access method, and 32 kbit/s ADPCM for its voice codec. Modern PHS phone can also support many value-added services such as high speed wireless data/Internet connection (64 kbit/s and higher), WWW access, e-mailing, text messaging and even color image transfer.
+PHS technology is also a popular option for providing a wireless local loop, where it is used for bridging the "last mile" gap between the POTS network and the subscriber's home. It was developed under the concept of providing a wireless front-end of an ISDN network. Thus a base station of PHS is compatible with ISDN and is often connected directly to ISDN telephone exchange equipment e.g. a digital switch.
+In spite of its low-cost base station, micro-cellular system and "Dynamic Cell Assignment" system, PHS offers higher number-of-digits frequency use efficiency with lower cost (throughput per area basis), compared with typical 3G cellular telephone systems. It enables the flat-rate wireless service like AIR-EDGE throughout Japan.
+The speed of AIR-EDGE data connection is accelerated by combining lines, each of which basically is 32 kbit/s. AIR-EDGE 1× or first version introduced in 2001 provide only 32 kbit/s service. In 2002, 128 kbit/s service (AIR-EDGE 4×) started. In 2005, 256 kbit/s (AIR-EDGE 8×) service started.
+In 2006, the speed of each line was also up-graded to 1.6 times with the introduction of "W-OAM" technology. The speed of AIR-EDGE 8× is up to 402 kbit/s with the latest "W-OAM" capable instrument.
+In April 2007, "W-OAM typeG" was introduced allowing data speeds of 512 kbit/s for AIR-EDGE 8x users. Furthermore, the "W-OAM typeG" AIR-EDGE 8× service is planned to be upgraded to a maximum throughput of 800 kbit/s, when the upgrading for access points (mainly switching lines from ISDN to fibre optic) in its system are completed. And it may exceed the speeds of popular W-CDMA 3G service like NTT DoCoMo's FOMA in Japan.
+
+
+=== ImplementationEdit ===
+
+Originally developed by NTT Laboratory in Japan in 1989 and far simpler to implement and deploy than competing systems like PDC or GSM, the commercial services has been started by three PHS operators (NTT-Personal, DDI-Pocket, and ASTEL) in Japan in 1995 forming the PIAF (PHS Internet Access Forum). However, the service has been pejoratively dubbed as the "poor man's cellular", due to its limited range and roaming abilities. Market share in Japan has been declining and NTT DoCoMo, which has absorbed NTT Personal, and ASTEL is going to terminate the PHS service. Some of other countries have already terminated offering PHS services and migrated to GSM.
+Wireless local loop (WLL) systems based on PHS technology are in use in some of the above-mentioned countries. In recent years, WILLCOM, formerly DDI-Pocket, is introducing flat-rate wireless network and flat-rate calling in Japan, which has reversed the local fate of PHS up to an extent. In China, there was seen an explosive expansion of subscribers until around 2005, but it has been calming down in 2006. In Chile, Telefónica del Sur on March 2006 launched a PHS-based telephony service in some cities of the southern part of the country. In Brazil, Suporte Tecnologia has a PHS-based telephony service in Betim, state of Minas Gerais, and Transit Telecom has announced a rollout of a PHS network in 2007.
+China Telecom operates a PAS system in China, even though technically it was not regarded as allowed to provide mobile services, because of some particularities of the Chinese governance. China Netcom, the other fixed-line operator in China, also provides Xiaolingtong service. The system was a runaway hit, with over 90 million subscribers signed up as of 2007. The largest vendors of the system are UTStarcom and ZTE. However, low priced mobile phones are rapidly replacing PHS. The Ministry of Industry and Information Technology of the People's Republic of China issued notices on 13 February 2009 that both registration of new users and expansion of the network were to be discontinued with the service to be ended by the end of 2011.
+A PHS global roaming service is available between Japan (WILLCOM), Taiwan, and Thailand.
+
+
+== International developmentEdit ==
+PHS's major operators, frequencies and subscribers:
+ Brazil by Transit Telecom in use for WLL services, in southern region in Brazil
+ Chile by Telefonica del Sur in selected cities of southern (Concepcion, Temuco, Valdivia, Osorno and Puerto Montt) and northern (Santiago) Chile
+ Venezuela
+ China by China Unicom / Frequency: 1880-1920 MHz / Network to shut down in September 2013. / Vendor: UTStarcom under the commercial name Little Smart / Subscribers: 75.200.000 (September, 2008)
+ Hong Kong / Frequency: 1895-1906,1 MHz / Switch-off proposed.
+ Japan by Willcom / Frequency: 1884,5-1915,7 MHz / Subscribers: 3.806.900 (April, 2011) Under the Japanese telephone numbering plan, use the 070 prefix.
+ Taiwan by FITEL / Frequency: 1885-1915 MHz & 1975-1985 MHz / Subscribers: 699.568 (September 2014) / Switch-off proposed.
+ Thailand by PCT / Frequency: 1905-1915 MHz / Only operated in inner Bangkok.
+ Vietnam / Frequency: 1895-1900 MHz
+
+
+== List of PHS enabled CompactFlash cardsEdit ==
+PHS-enabled PCMCIA/CompactFlash cards include:
+TDK DF56CF
+NTT DoCoMo P-in Comp@ct
+NTT DoCoMo P-in m@ster
+NTT DoCoMo P-in memory
+DDI AirH”Card petit [RH2000]
+DDI AirH”Card petit [CFE-02]
+DDI C@rdH”64 petit [CFE-01]
+DDI C@rdH”64 petit [CFE-01/TD]
+
+(a different wireless technology in SD card-form factor)
+
+
+== See alsoEdit ==
+OpenBTS
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+PHS MoU Group (PHS MoU was dissolved and absorbed into a new organization "XGP Forum" in 2009.
+Article on Xiaolingtong
+PHS in Taiwan
+Telefonica del Sur in Chile

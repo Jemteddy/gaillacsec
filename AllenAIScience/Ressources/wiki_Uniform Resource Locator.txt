@@ -1,0 +1,54 @@
+A Uniform Resource Locator (URL) (commonly informally referred to as a web address, although the term is not defined identically) is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably. A URL implies the means to access an indicated resource, which is not true of every URI. URLs occur most commonly to reference web pages (http), but are also used for file transfer (ftp), email (mailto), database access (JDBC), and many other applications.
+Most web browsers display the URL of a web page above the page in an address bar. A typical URL could have the form http://www.example.com/index.html, which indicates a protocol (http), a hostname (www.example.com), and a file name (index.html).
+
+
+== History ==
+Uniform Resource Locators were defined in Request for Comments (RFC) 1738 in 1994 by Tim Berners-Lee, the inventor of the World Wide Web, and the URI working group of the Internet Engineering Task Force (IETF), as an outcome of collaboration started at the IETF Living Documents "Birds of a Feather" session in 1992.
+The format combines the pre-existing system of domain names (created in 1985) with file path syntax, where slashes are used to separate directory and file names. Conventions already existed where server names could be prepended to complete file paths, preceded by a double slash (//).
+Berners-Lee later expressed regret at the use of dots to separate the parts of the domain name within URIs, wishing he had used slashes throughout, and also said that, given the colon following the first component of a URI, the two slashes before the domain name were unnecessary.
+
+
+== Syntax ==
+
+Every HTTP URL conforms to the syntax of a generic URI. A generic URI is of the form:
+
+ scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
+
+It is composed of the following components:
+The scheme consists of a sequence of characters beginning with a letter and followed by any combination of letters, digits, plus (+), period (.), or hyphen (-). Although schemes are case-insensitive, the canonical form is lowercase and documents that specify schemes must do so with lowercase letters. It is followed by a colon (:). Examples of popular schemes include http, ftp, mailto, file, and data. URI schemes should be registered with the Internet Assigned Numbers Authority (IANA), although non-registered schemes are used in practice.
+Two slashes (//): This is required by some schemes and not required by some others. When the authority component (explained below) is absent, the path component cannot begin with two slashes.
+An authority part, comprising:
+An optional authentication section of a user name and password, separated by a colon, followed by an at symbol (@)
+A "host", consisting of either a registered name (including but not limited to a hostname), or an IP address. IPv4 addresses must be in dot-decimal notation, and IPv6 addresses must be enclosed in brackets ([ ]). For URIs relating to resources on the World Wide Web, some web browsers allow ".0" portions of dot-decimal notation to be dropped and even raw integer IP addresses to be used.
+An optional port number, separated from the hostname by a colon
+
+A path, which contains data, usually organized in hierarchical form, that appears as a sequence of segments separated by slashes. Such a sequence may resemble or map exactly to a file system path, but does not always imply a relation to one. The path must begin with a single slash (/) if an authority part was present, and may also if one was not, but must not begin with a double slash.
+An optional query, separated from the preceding part by a question mark (?), containing a query string of non-hierarchical data. Its syntax is not well defined, but by convention is most often a sequence of attribute–value pairs separated by a delimiter.
+An optional fragment, separated from the preceding part by a hash (#). The fragment contains a fragment identifier providing direction to a secondary resource, such as a section heading in an article identified by the remainder of the URI. When the primary resource is an HTML document, the fragment is often an id attribute of a specific element, and web browsers will scroll this element into view.
+A web browser will usually dereference a URL by performing an HTTP request to the specified host, by default on port number 80. URLs using the https scheme require that requests and responses will be made over a secure connection to the website.
+
+
+== Internationalized URL ==
+Internet users are distributed throughout the world using a wide variety of languages and alphabets and expect to be able to create URLs in their own local alphabets. An Internationalized Resource Identifier (IRI) is a form of URL that includes Unicode characters. All modern browsers support IRIs. The parts of the URL requiring special treatment for different alphabets are the domain name and path.
+The domain name in the IRI is known as an Internationalized Domain Name (IDN). Web and Internet software automatically convert the domain name into punycode usable by the Domain Name System; for example, the Chinese URL http://例子.卷筒纸 becomes http://xn--fsqu00a.xn--3lr804guic/. The xn-- indicates that the character was not originally ASCII.
+The URL path name can also be specified by the user in the local alphabet. If not already encoded, it is converted to Unicode, and any characters not part of the basic URL character set are converted to English letters using percent-encoding; for example, the Japanese URL http://example.com/引き割り.html becomes http://example.com/%E5%BC%95%E3%81%8D%E5%89%B2%E3%82%8A.html. The target computer decodes the address and displays the page.
+
+
+== Protocol-relative URLs ==
+Protocol-relative links (PRL), also known as protocol-relative URLs, are URLs that have no protocol specified. For example //example.com will result in either http or https depending on the abilities of the end-user browser and/or website.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== Citations ==
+
+
+== References ==
+
+
+== External links ==
+URL specification at WHATWG

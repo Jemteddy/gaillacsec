@@ -3,26 +3,6 @@ import pandas as pd
 import wikipedia as wk
 
 
-## first source of wikiTopics
-# wikiTopics=['zoology','proteins','neuroscience','biochemistry','evolution','chemical interactions','immunology','taxonomy (biology)','bacteriology','botany','genetics']
-# n_dict=len(model.index2word)
-# for topic in wikiTopics:
-#    if len(wikiTopics)>=50:
-#        break
-#    try:
-#        l=model.most_similar([w for w in nt.word_tokenize(str(wk.page(topic).summary).lower()) if w in model],topn=n_dict)
-#    except:
-#        print topic+' not found'
-#        continue
-#    for word,r in l:
-#        if not word.lower() in wikiTopics:
-#            wikiTopics.append(word.lower())
-#            break
-#    for word,r in reversed(l):
-#        if not word.lower() in wikiTopics:
-#            wikiTopics.append(word.lower())
-#            break
-
 
 ## get questions' type
 def processData(path='../Data/training_set.tsv'):
@@ -49,4 +29,5 @@ def getWikiTopics(topics=[], path='../Ressources/'):
                 break
             except:
                 print topic
+
 

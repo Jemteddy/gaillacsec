@@ -1,0 +1,56 @@
+In geometry, the 222 honeycomb is a uniform tessellation of the six-dimensional Euclidean space. It can be represented by the Schläfli symbol {3,3,32,2}. It is constructed from 221 facets and has a 122 vertex figure, with 54 221 polytopes around every vertex.
+Its vertex arrangement is the E6 lattice, and the root system of the E6 Lie group so it can also be called the E6 honeycomb.
+
+
+== ConstructionEdit ==
+It is created by a Wythoff construction upon a set of 7 hyperplane mirrors in 6-dimensional space.
+The facet information can be extracted from its Coxeter–Dynkin diagram, .
+Removing a node on the end of one of the 2-node branches leaves the 221, its only facet type, 
+The vertex figure is determined by removing the ringed node and ringing the neighboring node. This makes 122, .
+The edge figure is the vertex figure of the vertex figure, here being a birectified 5-simplex, t2{34}, .
+The face figure is the vertex figure of the edge figure, here being a triangular duoprism, {3}×{3}, .
+
+
+== Kissing numberEdit ==
+Each vertex of this tessellation is the center of a 5-sphere in the densest known packing in 6 dimensions, with kissing number 72, represented by the vertices of its vertex figure 122.
+
+
+== E6 latticeEdit ==
+The 222 honeycomb's vertex arrangement is called the E6 lattice.
+The E62 lattice, with [[3,3,32,2]] symmetry, can be constructed by the union of two E6 lattices:
+ ∪ 
+The E6* lattice (or E63) with [3[32,2,2]] symmetry. The Voronoi cell of the E6* lattice is the rectified 122 polytope, and the Voronoi tessellation is a bitruncated 222 honeycomb. It is constructed by 3 copies of the E6 lattice vertices, one from each of the three branches of the Coxeter diagram.
+ ∪  ∪  = dual to .
+
+
+== Related honeycombsEdit ==
+The 222 honeycomb is one of 127 uniform honeycombs (39 unique) with  symmetry. 24 of them have doubled symmetry [[3,3,32,2]] with 2 equally ringed branches and, and 7 have sextupled (3!) symmetry [3[32,2,2]] with identical rings on all 3 branches. There are no regular honeycombs in the family since its Coxeter diagram a nonlinear graph, but the 222 and birectified 222 are isotopic, with only one type of facet: 221, and rectified 122 polytopes respectively.
+
+
+=== Birectified 2 22 honeycombEdit ===
+The Birectified 2 22 honeycomb , has within its symmetry construction 3 copies of  facets. Its facets are centered on the vertex arrangement of E6* lattice, as:
+ +  + 
+
+
+== Geometric foldingEdit ==
+The  group is related to the  by a geometric folding, so this honeycomb can be projected into the 4-dimensional 16-cell honeycomb.
+
+
+== k22 polytopesEdit ==
+The 222 honeycomb, is fourth in a dimensional series of uniform polytopes, expressed by Coxeter as k22 series. The final is a paracompact hyperbolic honeycomb, 322. Each progressive uniform polytope is constructed from the previous as its vertex figure.
+The 222 honeycomb is third in another dimensional series 22k.
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+Coxeter The Beauty of Geometry: Twelve Essays, Dover Publications, 1999, ISBN 978-0-486-40919-1 (Chapter 3: Wythoff's Construction for Uniform Polytopes)
+Coxeter Regular Polytopes (1963), Macmillan Company
+Regular Polytopes, Third edition, (1973), Dover edition, ISBN 0-486-61480-8 (Chapter 5: The Kaleidoscope)
+
+Kaleidoscopes: Selected Writings of H.S.M. Coxeter, edited by F. Arthur Sherk, Peter McMullen, Anthony C. Thompson, Asia Ivic Weiss, Wiley-Interscience Publication, 1995, ISBN 978-0-471-01003-6 [1] GoogleBook
+(Paper 24) H.S.M. Coxeter, Regular and Semi-Regular Polytopes III, [Math. Zeit. 200 (1988) 3–45]
+
+R. T. Worley, The Voronoi Region of E6*. J. Austral. Math. Soc. (A), 43 (1987), 268-278.
+Conway, John H.; Sloane, Neil J. A. (1998). Sphere Packings, Lattices and Groups ((3rd ed.) ed.). New York: Springer-Verlag. ISBN 0-387-98585-9.  p125-126, 8.3 The 6-dimensional lattices: E6 and E6*

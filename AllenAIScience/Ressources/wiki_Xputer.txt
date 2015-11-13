@@ -1,0 +1,23 @@
+The Xputer is a design for a reconfigurable computer, proposed by computer scientist Reiner Hartenstein in more than 300 peer-reviewed publications. Hartenstein uses various terms to describe the various innovations in the design, including config-ware, flow-ware, morph-ware, and "anti-machine".
+The Xputer represents a move away from the traditional Von Neumann computer architecture, to a coarse-grained "soft ALU" architecture. Parallelism is achieved by configurable elements known as reconfigurable datapath arrays (rDPA), organized in a two-dimensional array of ALU's similar to the KressArray.
+
+
+== ArchitectureEdit ==
+The Xputer architecture is data-stream-based, and is the counterpart of the instruction-based von Neumann computer architecture.
+The Xputer architecture was one of the first coarse-grained reconfigurable architectures, and consists of a reconfigurable datapath array (rDPA) organized as a two-dimensional array of ALUs (rDPU). The bus-width between ALU's were 32-bit in the first version of the Xputer.
+The ALUs (also known as rDPUs) are used for computing a single mathematical operation, such as addition, subtraction or multiplication, and can also be used purely for routing.
+ALUs are mesh-connected via three types of connections, and data-flow along these connections are managed by an address generation unit.
+Nearest neighbour (connections between neighbouring ALUs)
+Row/column back-buses
+Global bus (a single global bus for interconnection between further ALUs)
+Programs for the Xputer are written in the C language, and compiled for usage on the Xputer using the CoDeX compiler written by the author. The CoDeX compiler maps suitable portions of the C program onto the Xputer's rDPA fabric. The remainder of the program is executed on the host system, such as a personal computer.
+
+
+== rDPAEdit ==
+A reconfigurable datapath array (rDPA) is a semiconductor device containing reconfigurable data path units and programmable interconnects, first proposed by Rainer Kress in 1993, at the University of Kaiserslautern.
+Instead of FPGAs (field-programmable gate arrays) having single bit configurable logic blocks (CLBs), rDPAs have multiple bits wide (for instance, 32 bit path width) reconfigurable datapath units (rDPUs).
+Each rDPU can be configured to perform an individual function. These rDPUs and interconnects can be programmed after the manufacturing process by the customer/designer (hence the term "reconfigurable") so that the rDPA can perform whatever complex computation is needed. Because rDPUs are multiple bits wide (for instance, 32 bits), we talk about coarse-grained reconfigurability - in contrast to FPGAs with single-bit wide configurable logic blocks, called fine-gained reconfigurable.
+rDPAs are structurally programmed from "config-ware" source code, compiled into pipe-networks to be mapped onto the rDPA. rDPAs are not instruction-stream-driven and have no instruction fetch at run time. rDPUs do not have a program counter.
+
+
+== ReferencesEdit ==

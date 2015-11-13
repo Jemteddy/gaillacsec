@@ -1,0 +1,14 @@
+PowerPC Reference Platform (PReP) was a standard system architecture for PowerPC based computer systems (as well as a reference implementation) developed at the same time as the PowerPC processor architecture. Published by IBM in 1994, it allowed hardware vendors to build a machine that could run various operating systems, including Windows NT, OS/2, Solaris, Taligent and AIX.
+One of the stated goals of the PReP specification was to leverage standard PC hardware, and thus PReP was essentially a PC clone with a PowerPC CPU. Apple, wishing to seamlessly transition its Macintosh computers to PowerPC, found this to be particularly problematic. As it appeared, no one was particularly happy with PReP, a new standard, the Common Hardware Reference Platform (CHRP), was developed and published in late 1995, incorporating the elements of both PReP and the Power Macintosh architecture. Key to CHRP was the requirement for Open Firmware (also required in PReP-compliant systems delivered after June 1, 1995), which gave vendors greatly improved support during the boot process, allowing the hardware to be far more varied.
+PReP systems were never popular. Finding current, readily available operating systems for old PReP hardware can be difficult. Debian and NetBSD still maintain their respective ports to this architecture, although developer and user activity is extremely low. The RTEMS real-time operating system provides a board support package for PReP which can be run utilizing the QEMU PReP emulator. This provides a convienent development environment for PowerPC based real-time, embeded systems.
+Power.org has a new Power Architecture Platform Reference (PAPR) that provides the foundation for development of Power Architecture computers based on the Linux operating system. The PAPR spec was released in the fourth quarter of 2006.
+
+
+== See also ==
+PowerOpen Environment
+
+
+== References ==
+PReP Specification Version 1.1 and related documents
+The PowerPC (TM) Hardware Reference Platform, an overview of CHRP
+QEMU PReP emulation for RTEMS operating system

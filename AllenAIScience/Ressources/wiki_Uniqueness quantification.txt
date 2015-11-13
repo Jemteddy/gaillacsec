@@ -1,0 +1,39 @@
+In mathematics and logic, the phrase "there is one and only one" is used to indicate that exactly one object with a certain property exists. In mathematical logic, this sort of quantification is known as uniqueness quantification or unique existential quantification.
+Uniqueness quantification is often denoted with the symbols "∃!" or ∃=1". For example, the formal statement
+
+may be read aloud as "there is exactly one natural number n such that n - 2 = 4".
+
+
+== Proving uniqueness ==
+The most common technique to proving uniqueness is to first prove existence of entity with the desired condition; then, to assume there exist two entities (say, a and b) that should both satisfy the condition, and logically deduce their equality, i.e. a = b.
+As a simple high school example, to show x + 2 = 5 has only one solution, we assume there are two solutions first, namely, a and b, satisfying x + 2 = 5. Thus
+
+By transitivity of equality,
+
+By cancellation,
+
+This simple example shows how a proof of uniqueness is done, the end result being the equality of the two quantities that satisfy the condition. However, that existence/expressibility must be proven before uniqueness, or else we cannot even assume the existence of those two quantities to begin with our current knowledge to date.
+
+
+== Reduction to ordinary existential and universal quantification ==
+Uniqueness quantification can be expressed in terms of the existential and universal quantifiers of predicate logic by defining the formula ∃!x P(x) to mean literally,
+
+which is the same as
+
+An equivalent definition that has the virtue of separating the notions of existence and uniqueness into two clauses, at the expense of brevity, is
+
+Another equivalent definition with the advantage of brevity is
+
+
+== Generalizations ==
+One generalization of uniqueness quantification is counting quantification. This includes both quantification of the form "exactly k objects exist such that …" as well as "infinitely many objects exist such that …" and "only finitely many objects exist such that…". The first of these forms is expressible using ordinary quantifiers, but the latter two cannot be expressed in ordinary first-order logic.
+Uniqueness depends on a notion of equality. Loosening this to some coarser equivalence relation yields quantification of uniqueness up to that equivalence (under this framework, regular uniqueness is "uniqueness up to equality"). Likewise, many concepts in category theory are defined to be unique up to isomorphism.
+
+
+== See also ==
+One-hot
+
+
+== References ==
+Kleene, Stephen (1952). Introduction to Metamathematics. Ishi Press International. p. 199. 
+Andrews, Peter B. (2002). An introduction to mathematical logic and type theory to truth through proof (2. ed.). Dordrecht: Kluwer Acad. Publ. p. 233. ISBN 1-4020-0763-9.

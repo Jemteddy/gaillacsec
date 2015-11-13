@@ -1,0 +1,49 @@
+Explicitly parallel instruction computing (EPIC) is a term coined in 1997 by the HP–Intel alliance to describe a computing paradigm that researchers had been investigating since the early 1980s. This paradigm is also called Independence architectures. It was the basis for Intel and HP development of the Intel Itanium architecture, and HP later asserted that "EPIC" was merely an old term for the Itanium architecture. EPIC permits microprocessors to execute software instructions in parallel by using the compiler, rather than complex on-die circuitry, to control parallel instruction execution. This was intended to allow simple performance scaling without resorting to higher clock frequencies.
+
+
+== Roots in VLIW ==
+By 1989, researchers at HP recognized that Reduced Instruction Set Computer (RISC) architectures were reaching a limit at one instruction per cycle . They began an investigation into a new architecture, later named EPIC. The basis for the research was VLIW, in which multiple operations are encoded in every instruction, and then processed by multiple execution units.
+One goal of EPIC was to move the complexity of instruction scheduling from the CPU hardware to the software compiler, which can do the instruction scheduling statically (with help of trace feedback information). This eliminates the need for complex scheduling circuitry in the CPU, which frees up space and power for other functions, including additional execution resources. An equally important goal was to further exploit instruction level parallelism (ILP), by using the compiler to find and exploit additional opportunities for parallel execution.
+VLIW (at least the original forms) has several short-comings that precluded it from becoming mainstream:
+VLIW instruction sets are not backward compatible between implementations. When wider implementations (more execution units) are built, the instruction set for the wider machines is not backward compatible with older, narrower implementations.
+Load responses from a memory hierarchy which includes CPU caches and DRAM do not have a deterministic delay. This makes static scheduling of load instructions by the compiler very difficult.
+EPIC architecture has evolved from VLIW architecture, while retaining many concepts of the superscalar architecture.
+
+
+== Moving beyond VLIW ==
+EPIC architectures add several features to get around the deficiencies of VLIW:
+Each group of multiple software instructions is called a bundle. Each of the bundles has a stop bit indicating if this set of operations is depended upon by the subsequent bundle. With this capability, future implementations can be built to issue multiple bundles in parallel. The dependency information is calculated by the compiler, so the hardware does not have to perform operand dependency checking.
+A software prefetch instruction is used as a type of data prefetch. This prefetch increases the chances for a cache hit for loads, and can indicate the degree of temporal locality needed in various levels of the cache.
+A speculative load instruction is used to speculatively load data before it is known whether it will be used (bypassing control dependencies), or whether it will be modified before it is used (bypassing data dependencies).
+A check load instruction aids speculative loads by checking whether a speculative load was dependent on a later store, and thus must be reloaded.
+The EPIC architecture also includes a grab-bag of architectural concepts to increase ILP:
+Predicated execution is used to decrease the occurrence of branches and to increase the speculative execution of instructions. In this feature, branch conditions are converted to predicate registers which are used to kill results of executed instructions from the side of the branch which is not taken.
+Delayed exceptions, using a not a thing bit within the general purpose registers, allow speculative execution past possible exceptions.
+Very large architectural register files avoid the need for register renaming.
+Multi-way branch instructions improve branch prediction by combining many alternative branches into one bundle.
+The Itanium architecture also added rotating register files, a tool useful for software pipelining since it avoids having to manually unroll and rename registers.
+
+
+== Other research and development ==
+There have been other investigations into EPIC architectures that are not directly tied to the development of the Itanium architecture.
+The IMPACT project at University of Illinois at Urbana-Champaign, led by Wen-mei Hwu, was the source of much influential research on this topic.
+The PlayDoh architecture from HP-labs was another major research project.
+Gelato is an open source development community in which academic and commercial researchers are working to develop more effective compilers for Linux applications running on Itanium servers.
+
+
+== See also ==
+Complex instruction set computer (CISC)
+Reduced instruction set computer (RISC)
+Very long instruction word (VLIW)
+Russian processors "Elbrus"
+Computer architecture
+Superscalar
+Wide-issue
+
+
+== References ==
+
+
+== External links ==
+Historical background for EPIC
+Mark Smotherman (2002) "Understanding EPIC Architectures and Implementations"

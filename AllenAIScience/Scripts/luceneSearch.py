@@ -20,6 +20,10 @@ class SearchEngine(object):
     def __init__(self,index_path="../Ressources/index",files_path="../Ressources/"):
         self.index_path = index_path
         self.files_path = files_path
+        self.searcher = None
+        self.analyzer = None
+        lucene.initVM()
+
 
     def index(self):
         try:
@@ -27,14 +31,13 @@ class SearchEngine(object):
         except:
             print 'no index found'
         #### indexer
-        lucene.initVM()
         indexDir = SimpleFSDirectory(File(self.index_path))
         writerConfig = IndexWriterConfig(Version.LUCENE_4_10_1, StandardAnalyzer())
         writerConfig.setWriteLockTimeout(long(10000))
         writer = IndexWriter(indexDir, writerConfig)
 
         print "%d docs in index" % writer.numDocs()
-        print "Reading lines from sys.stdin..."
+        print "Reading lines from "+self.files_path+" ..."
         n=0
         for fname in os.listdir(self.files_path):
            if (os.path.isfile(os.path.join(self.files_path, fname)) and fname!='.DS_Store'):
@@ -49,16 +52,15 @@ class SearchEngine(object):
 
 
     #### retriever
-    def search(self,text,MAX):
-        lucene.initVM()
-        analyzer = StandardAnalyzer(Version.LUCENE_4_10_1)
-        reader = IndexReader.open(SimpleFSDirectory(File(self.index_path)))
-        searcher = IndexSearcher(reader)
-         
-        query = QueryParser(Version.LUCENE_4_10_1, "text", analyzer).parse(text)
-        hits = searcher.search(query, MAX)
-        
-        return hits         
+    def search(self,text,m):
+        if self.analyzer is None: 
+            self.analyzer = StandardAnalyzer(Version.LUCENE_4_10_1)
+        if self.searcher is None: 
+            reader = IndexReader.open(SimpleFSDirectory(File(self.index_path)))
+            self.searcher = IndexSearcher(reader)
+        query = QueryParser(Version.LUCENE_4_10_1, "text", self.analyzer).parse(QueryParser.escape(text))
+        hits = self.searcher.search(query, m)
+        return hits
         
         
     def predict_answer(self,maxs=[1], source='training',result_file='answers.csv'):
@@ -68,13 +70,13 @@ class SearchEngine(object):
         replies = ['A', 'B', 'C', 'D']
         goodAnswersCount = 0
         res_ind=0
-    
+#        lucene.initVM()
         if (source=='validation'):
             answer = open('../Results/'+result_file, 'w')
             answer.write('id,correctAnswer\n')
             
         for m in maxs:   
-            res_ind+=1
+            res_ind += 1
             for index, row in data_set.iterrows():
                 r = -1
                 good = replies[0]
@@ -91,10 +93,11 @@ class SearchEngine(object):
                         ind = row['question'].find('   ')
                         text=row['question'][0:ind]+' ' + ans+ ' '+ row['question'][ind:]            
                     try:
-                        hits = self.search(text,m)
-                        r_current = np.sum([hits.scoreDocs[i].score for i in range(len(hits.scoreDocs))])
+                        hits = self.search(text, m)
+                        r_current = np.mean([hits.scoreDocs[i].score for i in range(len(hits.scoreDocs))])
                     except:
-                           r_current=0 
+                        print text
+                        r_current=0
         
                     if r_current > r:
                         r = r_current
@@ -105,6 +108,5 @@ class SearchEngine(object):
                     if (good==row['correctAnswer']):
                            goodAnswersCount+=1
                            res[res_ind,row['type']]+=1
-    
         return [goodAnswersCount,res]
          

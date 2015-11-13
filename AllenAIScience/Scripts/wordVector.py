@@ -4,6 +4,7 @@ import gensim as gs
 
 import nltk.tokenize as nt
 import auxFunctions as aux
+import wikipedia as wk
 
 ## iterator for files in ressources
 class MySentences(object):
@@ -36,6 +37,28 @@ class WordVectorModel(object):
 
     def save(self):
         self.model.save(self.save_path+'model_w2v_'+self.name)
+
+    def find_wiki_topics(self,nb_max=100,wikiTopics=['zoology','proteins','neuroscience','biochemistry','evolution','chemical interactions','immunology','taxonomy (biology)','bacteriology','botany','genetics']):
+        n_dict=len(self.model.index2word)
+        for topic in wikiTopics:
+           if len(wikiTopics) >=nb_max :
+               break
+           try:
+               l=self.model.most_similar([w for w in nt.word_tokenize(str(wk.page(topic).summary).lower()) if w in self.model],topn=n_dict)
+           except:
+               print topic+' not found'
+               continue
+           for word,r in l:
+               if not word.lower() in wikiTopics:
+                   wikiTopics.append(word.lower())
+                   break
+           for word,r in reversed(l):
+               if not word.lower() in wikiTopics:
+                   wikiTopics.append(word.lower())
+                   break
+
+        return wikiTopics
+
 
 
     def predict_answer(self, source='training',result_file='answers.csv'):
