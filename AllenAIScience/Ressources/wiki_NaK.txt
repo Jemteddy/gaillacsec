@@ -1,0 +1,12 @@
+In telecommunications, a negative-acknowledge character (NAK or NACK) is a transmission control character sent by a station as a negative response to the station with which the connection has been set up.
+In Binary Synchronous Communications protocol, the NAK is used to indicate that a transmission error was detected in the previously received block and that the receiver is ready to accept retransmission of that block.
+In multipoint systems, the NAK is used as the not-ready reply to a poll.
+In the ASCII code, the NAK character is 21 (decimal), or ^U (CTRL-U). EBCDIC uses 0x3D. Unicode also defines a visible representation at U+2415(␕).
+
+
+== See also ==
+Acknowledge character
+
+
+== References ==
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).

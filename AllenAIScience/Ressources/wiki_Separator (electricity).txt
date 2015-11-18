@@ -1,0 +1,81 @@
+A separator is a permeable membrane placed between a battery's anode and cathode. The main function of a separator is to keep the two electrodes apart to prevent electrical short circuits while also allowing the transport of ionic charge carriers that are needed to close the circuit during the passage of current in an electrochemical cell.
+Separators are critical components in liquid electrolyte batteries. A separator generally consists of a polymeric membrane forming a microporous layer. It must be chemically and electrochemically stable with regard to the electrolyte and electrode materials and mechanically strong enough to withstand the high tension during battery construction. They are important to batteries because their structure and properties considerably affect the battery performance, including the batteries energy and power densities, cycle life, and safety.
+
+
+== History ==
+Unlike many forms of technology, polymer separators were not developed specifically for batteries. They were instead spin-offs of existing technologies, which is why most are not optimized for the systems they are used in. Even though this may seem unfavorable, most polymer separators can be mass-produced at a low cost, because they are based on existing forms of technologies. Yoshino et al. of the Asahi Kasei Corporation first developed them for a prototype of secondary lithium-ion batteries (LIBs) in 1983.
+
+Initially, lithium cobalt oxide was used as the cathode and polyacetylene as the anode. Later in 1985, it was found that using lithium cobalt oxide as the cathode and graphite as the anode produced an excellent secondary battery with enhanced stability, employ the frontier electron theory of Kenichi Fukui This enabled the development of portable devices, such as cell phones and laptops. However, before lithium ion batteries could be mass-produced, safety concerns needed to be addressed such as overheating and over potential. One key to ensuring safety was the separator between the cathode and anode. Yoshino developed a microporous polyethylene membrane separator with a “fuse” function. In the case of abnormal heat generation within the battery cell, the separator provides a shutdown mechanism. The micropores close by melting and the ionic flow terminates. In 2004, a novel electroactive polymer separator with the function of overcharge protection was first proposed by Denton, et al. This kind of separator reversibly switches between insulating and conducting states. Changes in charge potential drive the switch. More recently, separators primarily provide charge transport and electrode separation.
+
+
+== Materials ==
+Materials include nonwoven fibers (cotton, nylon, polyesters, glass), polymer films (polyethylene, polypropylene, poly (tetrafluoroethylene), polyvinyl chloride, and naturally occurring substances (rubber, asbestos, wood). Some separators employ polymeric materials with pores of less than 20 Å, generally too small for batteries. Both dry and wet processes are used for fabrication.
+Nonwovens consist of a manufactured sheet, web or matt of directionally or randomly oriented fibers.
+Supported liquid membranes consist of a solid and liquid phase contained within a microporous separator.
+Some polymer electrolytes form complexes with alkali metal salts, which produce ionic conductors that serve as solid electrolytes.
+Solid ion conductors, can serve as both separator and the electrolyte.
+Separators can use a single or multiple layers/sheets of material.
+
+
+== Production ==
+Polymer separators generally are made from microporous polymer membranes. Such membranes are typically fabricated from a variety of inorganic, organic and naturally occurring materials. Pore sizes are typically larger than 50-100 Å. Materials include nonwoven fibers (cotton, nylon, polyesters, glass), polymer films (polyethylene, polypropylene, poly (tetrafluoroethylene), poly (vinyl chloride), and naturally occurring substances (rubber, asbestos, wood). Some separators employ polymeric materials with pores of less than 20 Å, generally too small for batteries. Both dry and wet processes are used for fabrication.
+Membranes synthesized by dry processes are more suitable for higher power density, given their open and uniform pore structure, while those made by wet processes are offer more charge/discharge cycles because of their tortuous and interconnected pore structure. This helps to suppress the conversion of charge carriers into crystals on anodes during fast or low temperature charging.
+
+
+=== Dry process ===
+The dry process involves extruding, annealing and stretching steps. The final porosity depends on the morphology of the precursor film and the specifics of each step. The extruding step is generally carried out at a temperature higher than the melting point of the polymer resin. This is because the resins are melted to shape them into a uniaxially-oriented tubular film, called a precursor film. The structure and orientation of the precursor film depends on the processing conditions and the resin's characteristics. In the annealing process, the precursor is annealed at a temperature slightly lower than the polymer's melting point. The purpose of this step is to improve the crystalline structure. During stretching, the annealed film is deformed along the machine direction by a cold stretch followed by a hot stretch followed by relaxation. The cold stretch creates the pore structure by stretching the film at a lower temperature with a faster strain rate. The hot stretch increases pore sizes using a higher temperature and a slower strain rate. The relaxation step reduces internal stress within the film.
+The dry process is only suitable for polymers with high crystallinity. These include but are not limited to: semi-crystalline polyolefins, polyoxymethylene, and isotactic poly (4-methyl-1-pentene). One can also use blends of immiscible polymers, in which at least one polymer has a crystalline structure, such as polyethylene-polypropylene, polystyrene-polypropylene, and poly (ethylene terephthalate) - polypropylene blends.
+
+
+=== Wet process ===
+The wet process consists of mixing, heating, extruding and additive removal steps. The polymer resins are first mixed with, paraffin oil, antioxidant and other additives. The mixture is heated to produce a homogenous solution. The heated solution is pushed through a sheet die to make a gel-like film. The additives are then removed with a volatile solvent to form the microporous result.
+The wet process is suitable for both crystalline and amorphous polymers. Wet process separators often use ultrahigh-molecular-weight polyethylene. The use of these polymers enables the batteries with favorable mechanical properties, while shutting it down when it becomes too hot.
+
+
+=== Choice of polymer ===
+
+Specific types of polymers are ideal for the different types of synthesis. Most polymers currently used in battery separators are polyolefin based materials with semi-crystalline structure. Among them, polyethylene, polypropylene, and their blends such as polyethylene-polypropylene are widely used. Recently, graft polymers have been studied in an attempt to improve battery performance, including micro-porous poly(methyl methacrylate)-grafted and siloxane grafted polyethylene separators, which show favorable surface morphology and electrochemical properties compared to conventional polyethylene separators. In addition, polyvinylidene fluoride (PVDF) nanofiber webs can be synthesized as a separator to improve both ion conductivity and dimensional stability Another type of polymer separator, polytriphenylamine (PTPAn)-modified separator, is an electroactive separator with reversible overcharge protection.
+
+
+== Placement ==
+
+Always the separator is placed between the anode and the cathode. The pores of the separator are filled with the electrolyte and packaged for use.
+
+
+== Essential properties ==
+Chemical stability
+The separator material must be chemically stable against the electrolyte and electrode materials under the strongly reactive environments when the battery is fully charged. The separator should not degrade. Stability is assessed by use testing.
+Thickness
+A battery separator must be thin to facilitate the battery's energy and power densities. A separator that is too thin can compromise mechanical strength and safety. Thickness should be uniform to support many charging cycles. 25.4μm-(1.0 mil) is generally the standard width. The thickness of a polymer separator can be measured using the T411 om-83 method developed under the auspices of the Technical Association of the Pulp and Paper Industry.
+Porosity
+The separator must have sufficient pore density to hold liquid electrolyte that enables ions to move between the electrodes. Excessive porosity hinders the ability of the pores to close, which is vital to allow the separator to shut down an overheated battery. Porosity can be measured using liquid or gas absorption methods according to the American Society for Testing and Materials (ASTM) D-2873. Typically, a Li-ion battery separator provides porosity of 40%.
+Pore size
+Pore size must be smaller than the particle size of the electrode components, including the active materials and conducting additives. Ideally the pores should be uniformly distributed while also having a tortuous structure. This ensures a uniform current distribution throughout the separator while suppressing the growth of Li on the anode. The distribution and structure of pores can be analyzed using a Capillary Flow Porometer or a Scanning Electron Microscope.
+Permeability
+The separator must not limit performance. Polymer separators typically increase the resistance of the electrolyte by a factor of four to five. The ratio of the resistance of the electrolyte-filled separator to the resistance of the electrolyte alone is called the MacMullin number. Air permeability can be used indirectly to estimate the MacMullin number. Air permeability is expressed in terms of the Gurley value, the time required for a specified amount of air to pass through a specified area of the separator under a specified pressure. The Gurley value reflects the tortuosity of the pores, when the porosity and thickness of the separator is fixed. A separator with uniform porosity is vital to battery life cycle. Deviations from uniform permeability produce uneven current density distribution, which causes the formation of crystals on the anode.
+Mechanical strength
+The separator must be strong enough to withstand the tension of the winding operation during battery assembly. Mechanical strength is typically defined in terms of the tensile strength in both the machine (winding) direction and the transverse direction, in terms of tear resistance and puncture strength. These parameters are defined in terms of Young’s modulus.
+Wettability
+The electrolyte must fill the entire battery assembly, requiring the separator to "wet" easily with the electrolyte. Furthermore, the electrolyte should be able to permanently wet the separator, preserving the cycle life. There is no generally accepted method used to test wettability, other than observation.
+Thermal stability
+The separator must remain stable over a wide temperature range without curling or puckering, laying completely flat.
+Thermal shutdown
+Separators in lithium-ion batteries must offer the ability to shut down at a temperature slightly lower than that at which thermal runaway occurs, while retaining its mechanical properties.
+
+
+== Defects ==
+Many Structural defects can form in polymer separators due to temperature changes. These structural defects can result in a thicker separators. Furthermore, there can be intrinsic defects in the polymers themselves, such as polyethylene often begins to deteriorate during the stages of polymerization, transportation, and storage. Additionally, defects such as tears or holes can form during the synthesis of polymer separators. There are also other sources of defects can come from doping the polymer separator. Recently groups have been trying to improve the wetability of the polyer separators by co-dopping the normal polyethylene separator with acrylonitrile. The researchers found that acrylonitrile was more susceptible to be compatible with the electrolyte due to the wettability property.
+
+
+== Use in Li-ion Batteries ==
+Polymer separators, similar to battery separators in general, act as a separator of the anode and cathode in the Li-ion battery while also enabling the movement of ions through the cell. Additionally, many of the polymer separators, typically multilayer polymer separators, can act as “shutdown separators”, which are able to shut down the battery if it becomes too hot during the cycling process. These multilayered polymer separators are generally composed of one or more polyethylene layers which serve to shut down the battery and at least one polypropylene layers which acts as a form of mechanical support for the separator.
+
+
+== Other types of battery separators ==
+In addition to polymer separators, there are several other types of separators. There are nonwovens, which consist of a manufactured sheet, web, or mat of directionally or randomly oriented fibers. Supported liquid membranes, which consist of a solid and liquid phase contained within a microporous separator. Additionally there are also polymer electrolytes which can form complexes with different types of alkali metal salts, which results in the production of ionic conductors which serve as solid electrolytes. Another type of separator, a solid ion conductor, can serve as both a separator and the electrolyte in a battery.
+Plasma technology was used to modify a polyethylene membrane for enhanced adhesion, wettability and printability. These are usually performed by modifying the membrane on only its outermost several molecular levels. This allows the surface to behave differently without modifying the properties of the remainder. The surface was modified with acrylonitrile via a plasma coating technique. The resulting acrylonitrile-coated membrane was named PiAn-PE. The surface characterization demonstrated that PiAN-PE's enhanced adhesion resulted from the increased polar component of surface energy..
+The sealed rechargeable nickel-metal hydride battery offers significant performance and environmental friendliness above alkaline rechargeable batteries. Ni/MH, like the lithium-ion battery, provides high energy and power density with long cycle lives. This technology's greatest problem is its inherent high corrosion rate in aqueous solutions. The most commonly used separators are porous insulator films of polyolefin, nylon or cellophane. Acrylic compounds can be radiation-grafted onto these separators to make their properties more wettable and permeable. Zhijiang Cai and co-workers developed a solid polymer membrane gel separator. This was a polymerization product of one or more monomers selected from the group of water-soluble ethylenically unsaturated amides and acid. The polymer-based gel also includes a water swellable polymer, which acts as a reinforcing element. Ionic species are added to the solution and remain embedded in the gel after polymerization. Ni/MH batteries of bipolar design are being developed because they offer some advantages for applications as storage systems for electric vehicles. This solid polymer membrane gel separator could be useful for such applications in bipolar design. In other words, this design can help to avoid short-circuits occurring in liquid-electrolyte systems.
+Inorganic polymer separators have also been of interest as use in lithium-ion batteries. Inorganic particulate film/poly(methyl methacrylate) (PMMA)/inorganic particulate film trilayer separators are prepared by dip-coating inorganic particle layers on both sides of PMMA thin films. This inorganic trilayer membrane is believed to be an inexpensive, novel separator for application in lithium-ion batteries from increased dimensional and thermal stability.
+
+
+== References ==

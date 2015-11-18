@@ -1,0 +1,25 @@
+The Expression Atlas is a database that provides information on gene expression patterns. The Expression Atlas allows searches by gene, splice variant and protein attribute. Individual genes or gene sets can be searched for.There are two components to the Expression Atlas, the Baseline Atlas and the Differential Atlas:
+
+
+== Baseline Atlas ==
+The Baseline Atlas provides information about which gene products are present (and at what abundance) under "normal" conditions. This component of the Expression Atlas consists of highly-curated and quality-checked RNA-seq experiments from ArrayExpress. It aims to answer questions such as:
+Which genes are specifically expressed in kidney?
+What is the expression pattern for gene SAA4 in normal tissues?
+
+
+== Differential Atlas ==
+The Differential Atlas allows users to identify genes that are up- or down-regulated in different experimental conditions.
+
+
+== See Also ==
+European Bioinformatics Institute
+
+
+== References ==
+
+Petryszak, R. et al. (2013) Expression Atlas update - a database of gene and transcript expression from microarray and sequencing-based functional genomics experiments. Nucleic Acids Research 10.1093/nar/gkt1270.
+Kapushesky, M. et al. (2012) Gene Expression Atlas update - a value-added database of microarray and sequencing-based functional genomics experiments. Nucleic Acids Research 40:D1077-D1081. This paper describes the Gene Expression Atlas, from which the Expression Atlas has been developed.
+
+
+== External Links ==
+http://www.ebi.ac.uk/gxa/about.html

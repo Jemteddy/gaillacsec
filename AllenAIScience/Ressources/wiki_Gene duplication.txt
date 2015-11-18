@@ -1,0 +1,86 @@
+Gene duplication (or chromosomal duplication or gene amplification) is a major mechanism through which new genetic material is generated during molecular evolution. It can be defined as any duplication of a region of DNA that contains a gene. Gene duplications can arise as products of several types of errors in DNA replication and repair machinery as well as through fortuitous capture by selfish genetic elements. Common sources of gene duplications include ectopic homologous recombination, retrotransposition event, aneuploidy, polyploidy, and replication slippage.
+
+
+== Mechanisms of the duplicationEdit ==
+
+
+=== Ectopic RecombinationEdit ===
+Duplications arise from an event termed unequal crossing-over that occurs during meiosis between misaligned homologous chromosomes.The chance of this happening is a function of the degree of sharing of repetitive elements between two chromosomes. The product of this recombination are a duplication at the site of the exchange and a reciprocal deletion. Ectopic recombination is typically mediated by sequence similarity at the duplicate breakpoints, which form direct repeats. Repetitive genetic elements such as transposable elements offer one source of repetitive DNA that can facilitate recombination, and they are often found at duplication breakpoints in plants and mammals.
+
+
+=== Replication SlippageEdit ===
+Replication slippage is an error in DNA replication that can produce duplications of short genetic sequences. During replication DNA polymerase begins to copy the DNA. At some point during the replication process, the polymerase dissociates from the DNA and replication stalls. When the polymerase reattaches to the DNA strand, it aligns the replicating strand to an incorrect position and incidentally copies the same section more than once. Replication slippage is also often facilitated by repetitive sequence, but requires only a few bases of similarity.
+
+
+=== RetrotranspositionEdit ===
+During cellular invasion by a replicating retroelement or retrovirus, viral proteins copy their genome by reverse transcribing RNA to DNA. If viral proteins aberrantly attach to cellular mRNA, they can reverse transcribe copies of genes to create retrogenes. Retrogenes usually lack intronic sequence, and often contain poly A sequences that are also integrated into the genome. Many retrogenes display changes in gene regulation in comparison to their parental gene sequences, which sometimes results in novel functions.
+
+
+=== AneuploidyEdit ===
+Aneuploidy occurs when nondisjunction at a single chromosome results in an abnormal number of chromosomes. Aneuploidy is often harmful and in mammals regularly leads to spontaneous abortions (miscarriages). Some aneuploid individuals are viable, for example trisomy 21 in humans which leads to Down syndrome. Aneuploidy often alters gene dosage in ways that are detrimental to the organism, and therefore is unlikely to spread through populations.
+
+
+=== Whole Genome DuplicationEdit ===
+Whole genome duplication, or polyploidy is a product of nondisjunction during meiosis which results in additional copies of the entire genome. Polyploidy is common in plants, but historically has also occurred in animals, with two rounds of whole genome duplication in the vertebrate lineage leading to humans. After whole genome duplications many sets of additional genes are eventually lost, returning to singleton state. However, retention of many genes, most notably Hox genes, has led to adaptive innovation.
+Polyploid is also a well known source of speciation, as offspring, which have different numbers of chromosomes compared to parent species, are often unable to interbreed with non-polyploid organisms. Whole genome duplications are thought to be less detrimental than aneuploidy as the relative dosage of individual genes should be the same.
+
+
+== Gene duplication as an evolutionary eventEdit ==
+
+
+=== NeofunctionalizationEdit ===
+Gene duplications are an essential source of genetic novelty that can lead to evolutionary innovation. Duplication creates genetic redundancy, where the second copy of the gene is often free from selective pressure — that is, mutations of it have no deleterious effects to its host organism. If one copy of a gene experiences a mutation that affects its original function, the second copy can serve as a 'spare part' and continue to function correctly. Thus duplicate genes accumulate mutations faster than a functional single-copy gene, over generations of organisms, and it is possible for one of the two copies to develop a new and different function. Some examples of such neofunctionalization is the apparent mutation of a duplicated digestive gene in a family of ice fish into an antifreeze gene and duplication leading to a novel snake venom gene  and the synthesis of 1 beta-hydroxytestosterone.
+Gene duplication is believed to play a major role in evolution; this stance has been held by members of the scientific community for over 100 years. Susumu Ohno was one of the most famous developers of this theory in his classic book Evolution by gene duplication (1970). Ohno argued that gene duplication is the most important evolutionary force since the emergence of the universal common ancestor. Major genome duplication events can be quite common. It is believed that the entire yeast genome underwent duplication about 100 million years ago. Plants are the most prolific genome duplicators. For example, wheat is hexaploid (a kind of polyploid), meaning that it has six copies of its genome.
+
+
+=== SubfunctionalizationEdit ===
+Another possible fate for duplicate genes is that both copies are equally free to accumulate degenerative mutations, so long as any defects are complemented by the other copy. This leads to a neutral "subfunctionalization" or DDC (duplication-degeneration-complementation) model, in which the functionality of the original gene is distributed among the two copies. Neither gene can be lost, as both now perform important non-redundant functions, but ultimately neither is able to achieve novel functionality.
+Subfunctionalization can occur through neutral processes in which mutations accumulate with no detrimental or beneficial effects. However, in some cases subfunctionalization can occur with clear adaptive benefits. If an ancestral gene is pleiotropic and performs two functions, oftentimes neither one of these two functions can be changed without affecting the other function. In this way, partitioning the ancestral functions into two separate genes can allow for adaptive specialization of subfunctions, thereby providing an adaptive benefit.
+
+
+=== LossEdit ===
+Oftentimes, the resulting genomic variation leads to gene dosage dependent neurological disorders such as Rett-like syndrome and Pelizaeus-Merzbacher disease. Such detrimental mutations are likely to be lost from the population and will not be preserved or develop novel functions. However, many duplications are in fact not detrimental or beneficial, and these neutral sequences may be lost or may spread through the population through random fluctuations via genetic drift.
+
+
+== Identifying duplications in sequenced genomesEdit ==
+
+
+=== Criteria and Single Genome ScansEdit ===
+The two genes that exist after a gene duplication event are called paralogs and usually code for proteins with a similar function and/or structure. By contrast, orthologous genes present in different species which are each originally derived from the same ancestral sequence. (See Homology of sequences in genetics).
+It is important (but often difficult) to differentiate between paralogs and orthologs in biological research. Experiments on human gene function can often be carried out on other species if a homolog to a human gene can be found in the genome of that species, but only if the homolog is orthologous. If they are paralogs and resulted from a gene duplication event, their functions are likely to be too different. One or more copies of duplicated genes that constitutes a gene family may be affected by an insertion of transposable elements that causes significant variation between them in their sequence and finally may become responsible for divergent evolution. This may also render the chances and the rate of gene conversion between the homologs of gene duplicates due to less or no similarity in their sequences.
+Paralogs can be identified in single genomes through a sequence comparison of all annotated gene models to one another. Such a comparison can be performed on translated amino acid sequences (e.g. BLASTp, tBLASTx) to identify ancient duplications or on DNA nucleotide sequences (e.g. BLASTn, megablast) to identify more recent duplications. Most studies to identify gene duplications require reciprocal-best-hits or fuzzy reciprocal-best-hits, where each paralog must be the others single best match in a sequence comparison.
+Most gene duplications exist as low copy repeats (LCRs) rather highly repetitive sequences like transposable elements. They are mostly found in pericentronomic, subtelomeric and interstitial regions of a chromosome. Many LCRs, due to their size (>1Kb), similarity, and orientation, are highly susceptible to duplications and deletions.
+
+
+=== Genomic microarrays detect duplicationsEdit ===
+Technologies such as genomic microarrays, also called array comparative genomic hybridization (array CGH), are used to detect chromosomal abnormalities, such as microduplications, in a high throughput fashion from genomic DNA samples. In particular, DNA microarray technology can simultaneously monitor the expression levels of thousands of genes across many treatments or experimental conditions, greatly facilitating the evolutionary studies of gene regulation after gene duplication or speciation.
+
+
+=== Next generation sequencingEdit ===
+Gene duplications can also be identified through the use of next-generation sequencing platforms. The simplest means to identify duplications in genomic resequencing data is through the use of paired-end sequencing reads. Tandem duplications are indicated by sequencing read pairs which map in abnormal orientations. Through a combination of increased sequence coverage and abnormal mapping orientation, it is possible to identify duplications in genomic sequencing data.
+
+
+== Gene duplication as amplificationEdit ==
+Gene duplication does not necessarily constitute a lasting change in a species' genome. In fact, such changes often don't last past the initial host organism. From the perspective of molecular genetics, amplification is one of many ways in which a gene can be overexpressed. Genetic amplification can occur artificially, as with the use of the polymerase chain reaction technique to amplify short strands of DNA in vitro using enzymes, or it can occur naturally, as described above. If it's a natural duplication, it can still take place in a somatic cell, rather than a germline cell (which would be necessary for a lasting evolutionary change).
+
+
+=== Role in cancerEdit ===
+Duplications of oncogenes are a common cause of many types of cancer. In such cases the genetic duplication occurs in a somatic cell and affects only the genome of the cancer cells themselves, not the entire organism, much less any subsequent offspring.
+
+
+== See alsoEdit ==
+Pseudogenes
+Molecular evolution
+Unequal crossing over
+Human genome
+Comparative genomics
+Inparanoid
+Tandem exon duplication
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+A bibliography on gene and genome duplication
+A brief overview of mutation, gene duplication and translocation

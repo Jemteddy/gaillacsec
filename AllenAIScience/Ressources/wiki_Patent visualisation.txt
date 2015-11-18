@@ -1,0 +1,70 @@
+Patent visualisation is an application of information visualisation. The number of patents has been increasing steadily, thus forcing companies to consider intellectual property as a part of their strategy. Patent visualisation, like patent mapping, is used to quickly view a portfolio of patents.
+Software dedicated to patent visualisation began to appear in 2000, for example Aureka from Aurigin now owned by Thomson Reuters. Many patent and portfolio analytics platforms, such as Relecura, Innography and Patent iNSIGHT Pro, offer options to visualise specific data within patent documents by creating Topic Maps, Priority Maps, IP Landscape reports etc. Taking advantage of the innate visual language, software has been developed to convert patents into infographics or maps, to allow the analyst to "get insight into the data" and draw conclusions. Also called patinformatics, it is the "science of analysing patent information to discover relationships and trends that would be difficult to see when working with patent documents on a one-and-one basis".
+Patents contain two types of information: structured data like publication numbers which are processed by data-mining, and unstructured text like title, abstract and claims which are processed with text mining.
+
+
+== Data mining ==
+The main step in processing structured information is data-mining. Data mining emerged in the late 1980s. Using computer science and generic algorithms, data mining is the union of statistics, artificial intelligence and machine learning. Patent data mining extracts information from the structured data of the patent document. These structured data are bibliographic fields like location, date or status.
+
+
+=== Structured fields ===
+
+
+=== Advantages ===
+Data mining offers a statistical analysis tool to study filing patterns of competitors, locate the main patent filers within a specific area of technology. This type of approach can be very helpful to monitor competitors environment, moves and innovation trends and gives a macro-view of a technology status in order to evaluates its maturity and complexity.
+
+
+== Text-Mining ==
+
+
+=== Principle ===
+Text mining is used to search through unstructured full-text patents. This technique is very well known as a result of the Internet development, its success in bioinformatics and now in the intellectual property environment.
+Text mining is based on a statistical approach of words recurrence or occurrence in the patents corpus. An algorithm decomposes the corpus into a text sea, extracts words and expressions from title, summary and claims and gather them by declension. The conjunctions such as "and" or "if" are labeled as non-information bearing words and are stored in the stopword list. These stoplists can be personalized, in order to create an accurate analysis. Next, the algorithm will rank the words by weight, according to their frequency in the patent's corpus and the documents frequency containing this word. It literally fishes the whole Text Sea for words or expressions and counts their occurrence. The score for each word is calculated using this formula:
+
+According to this, a frequently used word in several documents will have less weight or score than a frequently used word in a few patents. Words under a minimum weight are eliminated, only to have left a list of n pertinent words or descriptors. Then each patent is associated to the descriptors found in the selected document. Further, in the process of clusterization, these descriptors are used as subsets, in which the patent are regrouped or they can be used as tags to place the patents in predetermined categories for example keywords from International Patent Classifications.
+There are four different full-text parts that can be processed with text-mining :
+Title
+Abstract
+Claim
+Patent Full-Text
+Software offer different combinations but using title, abstract and claim is generally the most used, having a good balance between interferences and relevancy.
+
+
+=== Advantages ===
+The text-mining can be used to narrow down a search or quickly evaluate a patent corpus. For instance, if a query has taken irrelevant documents, a multi level clustering hierarchy will identify them in order to delete them and refine the search. Text-mining can also be used to create internal taxonomies specific to a corpus, for possible mapping.
+
+
+== Visualisations ==
+
+This art of allying patent analysis and informatic tools offers an overview of the environment through value-added visualisations. As patent contain two types of information, structured and unstructured one, visualisations can be distinguished in two categories. Structured data can be rendered with data mining in macrothematic maps and statistical analysis. Whereas unstructured information extracted by text-mining are represented in a more intuitive way like clouds, cluster maps, 2D keyword map.
+
+
+=== Data mining visualisation ===
+
+
+=== Text mining visualisation ===
+
+
+=== Visualisation for both data-mining and text-mining ===
+Mapping visualisations can be used for both text-mining and data-mining results.
+
+
+== Uses ==
+What can patent visualisation highlights:
+Competitors
+Partners
+New innovations
+Technologic environment description
+Networks
+Field application:
+R&D strategy management
+Competitive intelligence
+Licensing
+Strategy
+
+
+== See also ==
+Wiki Patent Information User Group : Review of Patent Analysis Tools
+
+
+== References ==

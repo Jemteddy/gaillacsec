@@ -1,0 +1,10 @@
+Cascade merge sort is similar to the polyphase merge sort but uses a simpler distribution. The merge is slower than a polyphase merge when there are fewer than six files, but faster when there are more than six.
+
+
+== References ==
+
+Bradley, James (1982), File and Data Base Techniques, Holt, Rinehart and Winston, ISBN 0-03-058673-9 
+
+
+== External links ==
+http://www.minkhollow.ca/Courses/461/Notes/Cosequential/Cascade.html

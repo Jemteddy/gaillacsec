@@ -1,0 +1,24 @@
+The thermal conductivity detector (TCD), also known as a Katharometer, is a bulk property detector and a chemical specific detector commonly used in gas chromatography. This detector senses changes in the thermal conductivity of the column effluent and compares it to a reference flow of carrier gas. Since most compounds have a thermal conductivity much less than that of the common carrier gases of helium or hydrogen, when an analyte elutes from the column the effluent thermal conductivity is reduced, and a detectable signal is produced.
+
+
+== Operation ==
+The TCD consists of an electrically heated filament in a temperature-controlled cell. Under normal conditions there is a stable heat flow from the filament to the detector body. When an analyte elutes and the thermal conductivity of the column effluent is reduced, the filament heats up and changes resistance. This resistance change is often sensed by a Wheatstone bridge circuit which produces a measurable voltage change. The column effluent flows over one of the resistors while the reference flow is over a second resistor in the four-resistor circuit.
+
+A schematic of a classic thermal conductivity detector design utilizing a wheatstone bridge circuit is shown. The reference flow across resistor 4 of the circuit compensates for drift due to flow or temperature fluctuations. Changes in the thermal conductivity of the column effluent flow across resistor 3 will result in a temperature change of the resistor and therefore a resistance change which can be measured as a signal.
+
+Since all compounds, organic and inorganic, have a thermal conductivity different from helium, all compounds can be detected by this detector. The TCD is often called a universal detector because it responds to all compounds. Also, since the thermal conductivity of organic compounds are similar and very different from helium, a TCD will respond similarly to similar concentrations of analyte. Therefore the TCD can be used without calibration and the concentration of a sample component can be estimated by the ratio of the analyte peak area to all components (peaks) in the sample.
+The TCD is a good general purpose detector for initial investigations with an unknown sample. Since the TCD is less sensitive than the flame ionization detector and has a larger dead volume it will not provide as good resolution as the FID. However, in combination with thick film columns and correspondingly larger sample volumes, the overall detection limit can be similar to that of an FID. The TCD is not as sensitive as other detectors but it is non-specific and non-destructive.
+The TCD is also used in the analysis of permanent gases (argon, oxygen, nitrogen, carbon dioxide) because it responds to all these pure substances unlike the FID which cannot detect compounds which do not contain carbon-hydrogen bonds.
+
+
+== Process description ==
+It functions by having two parallel tubes both containing gas and heating coils. The gases are examined by comparing the rate of loss of heat from the heating coils into the gas. The coils are arranged in a bridge circuit so that resistance changes due to unequal cooling can be measured. One channel normally holds a reference gas and the mixture to be tested is passed through the other channel.
+
+
+== Applications ==
+In the oil industry katharometers have been used for a long time for hydrocarbon detection but have a history of unstable calibrations in non-stationary oil-related applications. In normal drilling practice, 5 hydrocarbon gases, plus a couple of non-hydrocarbon gases, are expected in normal samples resulting in cross-talk between the methane absorption line and the ethane. Hence the current use of flame ionization detectors.
+Katharometers are used medically in lung function testing equipment and in gas chromatography. The results are slower to obtain compared to a mass spectrometer, but the device is inexpensive, and has good accuracy when the gases in question are known, and it is only the proportion that must be determined.
+Monitoring of hydrogen purity in hydrogen-cooled turbogenerators.
+
+
+== References ==

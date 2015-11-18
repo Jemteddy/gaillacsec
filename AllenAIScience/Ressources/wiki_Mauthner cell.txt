@@ -1,0 +1,77 @@
+The Mauthner cells are a pair of big and easily identifiable neurons (one for each half of the body) located in the rhombomere 4 of the hindbrain in fish and amphibians that are responsible for a very fast escape reflex (in the majority of animals - a so-called C-start response). The cells are also notable for their unusual use of both chemical and electrical synapses.
+
+
+== Evolutionary history ==
+Mauthner cells first appear in lampreys (being absent in hagfish and lancelets), and are present in virtually all teleost fish, as well as in amphibians (including postmetamorphic frogs and toads). Some fish, such as lumpsuckers, seem to have lost the Mauthner cells however.
+
+
+== Role in behavior ==
+
+
+=== The C-start ===
+A C-start is a type of a very quick startle or escape reflex that is employed by fish and amphibians (including larval frogs and toads). There are two sequential stages in the C-start: first, the head rotates about the center of mass towards the direction of future escape, and the body of the animal exhibits a curvature that resembles a letter C; then, at the second stage, the animal is propelled forward. The duration of these stages varies from species to species from about 10 to 20 ms for the first stage, and from 20 to 30 ms for the second. In fish this forward propulsion does not require contraction of the antagonistic muscle, but results from the body stiffness and the hydrodynamic resistance of the tail. When an antagonistic muscular contraction does occur during stage 2, the fish rotates in the opposite direction, producing a counter-turn, and a directional change.
+
+
+=== The role of the Mauthner cell in the C-start behavior ===
+In cases when an abrupt acoustic, tactile or visual stimulus elicits a single action potential in one M-cell, it always correlates with a contralateral C-start escape. An extremely quick mutual feedback inhibitory circuit then assures that only one M-cell reaches spiking threshold—as the C-start has to be unilateral by definition—and that only one action potential is fired.
+The Mauthner cell-mediated C-start reflex is very quick, with about 5-10 ms latency between the acoustic/tactile stimulus and the Mauthner cell discharge, and only about 2 ms between the discharge and the unilateral muscle contraction. Mauthner cells are thus the quickest motor neuron to respond to the stimulus. It makes the C-start response behaviorally important as a way to initiate the escape reflex in an all or nothing fashion, while the direction and speed of the escape can be corrected later through the activity of smaller motor neurons.
+In larval zebrafish about ~60% of the total population of reticulospinal neurons are also activated by a stimulus that elicits the M-spike and C-start escape. A well-studied group of these reticulospinal neurons are the bilaterally paired M-cell homologues denoted MiD2cm and MiD3cm. These neurons exhibit morphological similarities to the M-cell including a lateral and ventral dendrite. They are located in rhombomeres 5 and 6 of hindbrain respectively, and also receive auditory input in parallel with the M-cell from the pVIIIth nerve. In fish, water jet stimuli that activate these neurons elicit non-mauthner initiated C-starts of a longer latency, compared with M-cell associated ones.
+Although the M-cell is often considered the prototype of a command neuron in vertebrates, this designation may not be fully warranted. Although electrical stimulation of the M-cell is sufficient for eliciting a C-start, this C-start is normally weaker than the one evoked by a sensory stimulus. Moreover, the C-start can be evoked even with the M-cell ablated, although in this case the latency of the response increases. The most widely accepted model of the M-cell system, or brainstem escape network, is that the M-cell initiates a fixed action pattern to the left or right by activating a spinal motor circuit initially described by J. Diamond and colleagues, but the precise trajectory of the escape is encoded by population activity in the other classes of reticulospinal neurons functioning in parallel to the M-cell. This notion is supported by studies using in vivo calcium imaging in larval zebrafish which show that MiD2cm and MiD3cm are activated along with the M-cell when an offending stimulus is directed towards the head but not the tail, and are correlated with C-starts of a larger initial turn angle.
+Another component of the escape response is mediated by cranial relay neurons that are activated by the Mauthner cell spike. These neurons are electrically coupled with motoneurons which innervate extraocular, jaw and opercular muscles and mediate pectoral fin adduction in hatchetfish. This component of the neural circuit was first described by Michael V.L. Bennett and colleagues.
+
+
+=== Mauthner cells in other types of behavior ===
+Mauthner cells may be involved into behavioral patterns other than the C-start, if these types of behavior also require extremely quick bending movement of the body. Thus in goldfish Mauthner cells are activated during prey capture near the surface of the water, as this type of hunting is dangerous for the fish, and it would benefit from leaving the surface as soon as possible after the prey is captured.
+In adult postmetamorphic anurans (frogs and toads) that do not have a tail, M-cells are nevertheless preserved and their discharges are associated with rapid movement of legs during an escape.
+
+
+== Morphology and connections ==
+
+
+=== Inputs to the M-cell: excitation and feed forward inhibition ===
+The M-cell has two primary aspiny (lacking dendritic spines) dendrites which receive segregated inputs from various parts of the neural system. One dendrite projects laterally and the other projects either in the ventral or medial direction, depending on the species.
+The ventral dendrite receives information from the optic tectum and spinal cord while the lateral dendrite receives inputs from the octovolateralis systems (the lateral line, acoustic inputs from the inner ear, and inertial information from the statoliths brought by the cranial nerve VIII).
+The fibers from the ipsilateral cranial nerve VIII terminate in excitatory mixed electrical and glutamatergic synapses on the M-cell. They also electrically activate glycinergic inhibitory interneurons that terminate on the M-cells. Despite the inhibitory input having one more synapse in its pathway, there is no delay between the excitation and inhibition because the intervening synapse is electrical. It was shown that for weak stimuli the inhibition wins over the excitation, preventing the M-cell from a discharge, while for stronger stimuli excitation becomes dominant. The Inner ear afferents also terminate with electrical synapses on a population PHP inhibitory interneurons (see below) to provide an additional level of feed forward inhibition. The Mauthner cell also has GABA-, dopamine-, serotonin- and somatostatinergic inputs, each restricted to certain dendritic region.
+Inputs from the optic tectum and the lateral line help control which way the C-startle bends by biasing the mauthner cells when there are obstacles in the vicinity. In cases where movement away from the stimulus is blocked, the fish may bend towards the disturbance.
+
+
+=== Axon cap ===
+The Mauthner cell axon hillock is surrounded by a dense formation of neuropil, called the axon cap. The high resistance of this axon cap contributes to the typical shape of the Mauthner cell field potential (see below). In its most advanced form the axon cap consists of a core, immediately adjacent to the Mauthner cell axon, and containing a network of very thin unmyelinated fibers, and a peripheral part. This peripheral part contains the large unmyelinated fibers of the PHP neurons (see below) that mediate the inhibitory feedback to the Mauthner cell; the Mauthner cell itself also sends small dendrites from its axon hill to the peripheral part of the axon cap. Finally, the surface of the axon cap is covered with a cap wall composed of several layers of astrocyte-like glial cells. Both glial cells and the unmyelinated fibers are coupled with each other by means of gap junctions.
+Evolutionarily, the axon cap is a more recent development than the Mauthner cell itself, so some animals, such as lampreys and eels, while having functional Mauthner cells, don't have axon cap at all, while some other animals, such as amphibia and lungfish, do have a very simplified version of it.
+
+
+=== Feedback network ===
+The main part of the Mauthner cell-associated network is the negative feedback network, which assures that only one of the two Mauthner cells fires in response to the stimulus and that, whichever Mauthner cell fires, it does so only once. Both these requirements are quite natural considering that the consequences of a single Mauthner cell discharge are so strong; a failure to comply with these two rules would not only prevent the animal from escaping, but could even physically damage it. The fastest part of this negative feedback network, which is also the one closest to the Mauthner cell, is that of the so-called passive hyperpolarizing field potential or PHP neurons. The fibers of these neurons are located in the axon cap, and they receive inputs from both ipsilateral and contralateral Mauthner cells. The field potentials of PHP neurons are strongly positive, and form a part of the 'Signature field potential' of the Mauthner cell (see below), with the early (ipsilaterally initiated) component being called the Extracellular Hyperpolarizing Potential (EHP), and the later (contralaterally initiated) component being sometimes addressed in the literature as the Late Collateral Inhibition (LCI). The action of PHP neurons onto the Mauthner cells is mediated by electrical, and not chemical effects: the outward currents generated by the action potentials in axon cap fibers flow inward across the Mauthner cell axon hillock and hyperpolarize it.
+
+
+=== Outputs ===
+The only axon of the Mauthner cell reaches from the cell to the midline of the hindbrain, promptly crosses it to the contralateral side, and then descends caudally along the spinal cord. A single discharge of the M-cell achieves a whole set of parallel effects onto the spinal motor networks: 1) it monosynaptically excites large primary motoneurons at one side of the body; 2) disinaptically excites smaller motoneurons at the same side of the body; 3) initiates action potentials in inhibitory interneurons electrically coupled to the M-cell axon, and by their means inhibits a) inhibitory interneurons still at the same side of the body (to prevent them from interfering with the C-start), as well as b) motoneurons at the other side of the body. As a result of this pattern of activation the quick muscles at one side of the body contract simultaneously, while the muscles at the other side of the body relax.
+
+
+== Electrophysiology ==
+
+
+=== Ephaptic properties ===
+
+The inhibition of the M-cell by the PHP cells occurs by ephaptic interactions. The inhibition is brought about without a chemical synapses or electrical synaptic coupling having low resistance gap junctions joining the cells. When the region of the PHP cell axon outside the axon cap depolarizes, the influx of positive charge into the cell through voltage gated sodium channels is accompanied by a passive outflow of current from the PHP cell axon into the region bound by the axon cap. Due to the high resistance of the surrounding glial cells, the charge does not dissipate and the potential across the M-cell membrane is increased, hyperpolarizing it.
+
+
+=== Signature field potential ===
+Because of its size, presence of a quick feedback network, and abundance of electrical and quasi-electrical (ephaptic) synapses, the Mauthner cell has a strong field potential of a very characteristic shape. This field potential starts with a high-amplitude potential sink up to tens of mV in amplitude that originates from the Mauthner cell discharge, and which is closely followed by a positive potential, called Extrinsic Hyperpolarizing Potential or EHP, which is associated with the activity of the recurrent feedback network.
+Due to its high amplitude, in some animals the negative part of Mauthner cell field potential can be detected up to several hundred micrometres away from the cell itself. The positive components of the field potential are strongest in the axon cap, reaching amplitudes of 45 mV in adult goldfish. With a knowledge of these properties of the field potential, it is possible to use field potential monitoring as a way to find the Mauthner cell body in vivo, or in vitro in a whole brain preparation, moving the recording electrode in the hindbrain, while at the same time stimulating the spinal cord, thus evoking antidromic action potentials in the Mauthner cell axon.
+
+
+== Plasticity ==
+Application of serotonin was shown to increase inhibitory inputs to the M-cell, while application of dopamine - to increase the amplitude of both chemical and electrical components of the VIIIth nerve responses via a G protein-mediated activation of postsynaptic D2 receptor. An activity-dependent LTP can be evoked in M-cells by a high-frequency stimulation of the VIIIth nerve. Surprisingly, this LTP is electrical synapse-mediated, and is presumed to involve modification of the gap junction channels. A possibility of LTP induction by sensory stimuli in vivo, and the evidence for the LTP of inhibitory inputs to M-cells were also demonstrated.
+Spontaneous preference in turn direction in young goldfish is correlated with one of the Mauthner cells being bigger than the other one. It is possible to change the preference of fish by raising them in conditions facilitating turns in a specific direction; this shift is accompanied by a correspondent change in M-cell sizes.
+
+
+== History of research ==
+The Mauthner cell was first identified by the Viennese ophthalmologist Ludwig Mauthner in the teleost fish for its associated neural circuit which mediates an escape response called the C-start or C-startle to direct the fish away from a predator.
+The M-cell is a model system in the field of Neuroethology. The M-cell system has served for detailed neurophysiological and histological investigations of synaptic transmission and synaptic plasticity. Studies by Donald Faber and Henri Korn helped to establish the one vesicle hypothesis of synaptic transmission in the CNS. Other important research topics that have been investigated in the M-cell system include studies by Yoichi Oda and colleagues on inhibitory long-term potentiation and auditory conditioning of the startle response, and studies by Alberto Pereda and colleagues on plasticity of electrical synapses. Other research topics investigated in the M-cell system include studies of spinal neural networks and neural regeneration by Joe Fetcho and colleagues, as well as underwater sound localization, and the biophysics of computation in single neurons.
+
+
+== References ==
+
+
+== Further reading ==

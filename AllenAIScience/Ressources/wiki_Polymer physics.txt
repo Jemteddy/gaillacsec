@@ -1,0 +1,105 @@
+Polymer physics is the field of physics that studies polymers, their fluctuations, mechanical properties, as well as the kinetics of reactions involving degradation and polymerisation of polymers and monomers respectively.
+While it focuses on the perspective of condensed matter physics, polymer physics is originally a branch of statistical physics. Polymer physics and polymer chemistry are also related with the field of polymer science, where this is considered the applicative part of polymers.
+Polymers are large molecules and thus are very complicated for solving using a deterministic method. Yet, statistical approaches can yield results and are often pertinent, since large polymers (i.e., polymers with a large number of monomers) are describable efficiently in the thermodynamic limit of infinitely many monomers (although the actual size is clearly finite).
+Thermal fluctuations continuously affect the shape of polymers in liquid solutions, and modeling their effect requires using principles from statistical mechanics and dynamics. As a corollary, temperature strongly affects the physical behavior of polymers in solution, causing phase transitions, melts, and so on.
+The statistical approach for polymer physics is based on an analogy between a polymer and either a Brownian motion, or other type of a random walk, the self-avoiding walk. The simplest possible polymer model is presented by the ideal chain, corresponding to a simple random walk. Experimental approaches for characterizing polymers are also common, using Polymer characterization methods, such as size exclusion chromatography, Viscometry, Dynamic light scattering, and Automatic Continuous Online Monitoring of Polymerization Reactions (ACOMP) for determining the chemical, physical, and material properties of polymers. These experimental methods also helped the mathematical modeling of polymers and even for a better understanding of the properties of polymers.
+Flory is considered the first scientist establishing the field of polymer physics.
+French scientists contributed a lot since the 70s (e.g. de Gennes, J. des Cloizeaux).
+Doi and Edwards wrote a very famous book in polymer physics.
+Russian and Soviet schools of physics (I. M. Lifshitz, A. Yu. Grosberg, A.R. Khokhlov ) have been very active in the development of polymer physics.
+
+
+== ModelsEdit ==
+Models of polymer chains are split into two types: "ideal" models, and "real" models. Ideal chain models assume that there are no interactions between chain monomers. This assumption is valid for certain polymeric systems, where the positive and negative interactions between the monomer effectively cancel out. Ideal chain models provide a good starting point for investigation of more complex systems and are better suited for equations with more parameters.
+
+
+=== Ideal ChainsEdit ===
+
+The freely-jointed chain is the simplest model of a polymer. In this model, fixed length polymer segments are linearly connected, and all bond and torsion angles are equiprobable. The polymer can therefore be described by a simple random walk and ideal chain.
+The freely-rotating chain improves the freely-jointed chain model by taking into account that polymer segments make a fixed bond angle to neighbouring units because of specific chemical bonding. Under this fixed angle, the segments are still free to rotate and all torsion angles are equally likely.
+The hindered rotation model assumes that the torsion angle is hindered by a potential energy. This makes the probability of each torsion angle proportional to a Boltzmann factor:
+, where  is the potential determining the probability of each value of .
+In the rotational isomeric state model, the allowed torsion angles are determined by the positions of the minima in the rotational potential energy. Bond lengths and bond angles are constant.
+The Worm-like chain is a more complex model. It takes the persistence length into account. Polymers are not completely flexible; bending them requires energy. At the length scale below persistence length, the polymer behaves more or less like a rigid rod.
+
+
+=== Real ChainsEdit ===
+Interactions between chain monomers can be modelled as excluded volume. This causes a reduction in the conformational possibilities of the chain, and leads to a self-avoiding random walk. Self-avoiding random walks have different statistics to simple random walks.
+
+
+== Solvent and temperature effectEdit ==
+The statistics of a single polymer chain depends on the solvent. For a good solvent the chain is more expanded while for a bad solvent the chain segments stay close to each other. In the limit of a very bad solvent the polymer chain merely collapses to form a hard sphere, while in good solvent the chain swells in order to maximize the number of polymer-fluid contacts. For this case the radius of gyration is approximated using Flory's mean field approach which yields a scaling for the radius of gyration of:
+
+,
+
+where  is the radius of gyration of the polymer,  is the number of bond segments (equal to the degree of polymerization) of the chain and  is the Flory exponent.
+For good solvent, ; for bad solvent, . Therefore polymer in good solvent has larger size and behaves like a fractal object. In bad solvent it behaves like a solid sphere.
+In the so-called  solvent, , which is the result of simple random walk. The chain behaves as if it were an ideal chain.
+The quality of solvent depends also on temperature. For a flexible polymer, low temperature may correspond to poor quality and high temperature makes the same solvent good. At a particular temperature called theta (θ) temperature, the solvent behaves as if an ideal chain.
+
+
+== Excluded volume interactionEdit ==
+The ideal chain model assumes that polymer segments can overlap with each other as if the chain were a phantom chain. In reality, two segments cannot occupy the same space at the same time. This interaction between segments is called the excluded volume interaction.
+The simplest formulation of excluded volume is the self-avoiding random walk, a random walk that cannot repeat its previous path. A path of this walk of N steps in three dimensions represents a conformation of a polymer with excluded volume interaction. Because of the self-avoiding nature of this model, the number of possible conformations is significantly reduced. The radius of gyration is generally larger than that of the ideal chain.
+
+
+== FlexibilityEdit ==
+Whether a polymer is flexible or not depends on the scale of interest. For example, the persistence length of double-stranded DNA is about 50 nm. Looking at length scale smaller than 50 nm (Known as the McGuinness limit), it behaves more or less like a rigid rod. At length scale much larger than 50 nm, it behaves like a flexible chain.
+
+
+== Example model (simple random-walk, freely jointed)Edit ==
+The study of long chain polymers has been a source of problems within the realms of statistical mechanics since about the 1950s. One of the reasons however that scientists were interested in their study is that the equations governing the behavior of a polymer chain were independent of the chain chemistry. What is more, the governing equation turns out to be a random walk, or diffusive walk, in space. Indeed, the Schrödinger equation is itself a diffusion equation in imaginary time, t' = it.
+
+
+=== Random walks in timeEdit ===
+The first example of a random walk is one in space, whereby a particle undergoes a random motion due to external forces in its surrounding medium. A typical example would be a pollen grain in a beaker of water. If one could somehow "dye" the path the pollen grain has taken, the path observed is defined as a random walk.
+Consider a toy problem, of a train moving along a 1D track in the x-direction. Suppose that the train moves either a distance of +b or −b (b is the same for each step), depending on whether a coin lands heads or tails when flipped. Lets start by considering the statistics of the steps the toy train takes (where Si is the ith step taken):
+ ; due to a priori equal probabilities
+
+The second quantity is known as the correlation function. The delta is the kronecker delta which tells us that if the indices i and j are different, then the result is 0, but if i = j then the kronecker delta is 1, so the correlation function returns a value of b2. This makes sense, because if i = j then we are considering the same step. Rather trivially then it can be shown that the average displacement of the train on the x-axis is 0;
+
+As stated , so the sum is still 0. It can also be shown, using the same method demonstrated above, to calculate the root mean square value of problem. The result of this calculation is given below
+
+From the diffusion equation it can be shown that the distance a diffusing particle moves in a medium is proportional to the root of the time the system has been diffusing for, where the proportionality constant is the root of the diffusion constant. The above relation, although cosmetically different reveals similar physics, where N is simply the number of steps moved (is loosely connected with time) and b is the characteristic step length. As a consequence we can consider diffusion as a random walk process.
+
+
+=== Random walks in spaceEdit ===
+
+Random walks in space can be thought of as snapshots of the path taken by a random walker in time. One such example is the spatial configuration of long chain polymers.
+There are two types of random walk in space: self-avoiding random walks, where the links of the polymer chain interact and do not overlap in space, and pure random walks, where the links of the polymer chain are non-interacting and links are free to lie on top of one another. The former type is most applicable to physical systems, but their solutions are harder to get at from first principles.
+By considering a freely jointed, non-interacting polymer chain, the end-to-end vector is
+
+where ri is the vector position of the i-th link in the chain. As a result of the central limit theorem, if N ≫ 1 then we expect a Gaussian distribution for the end-to-end vector. We can also make statements of the statistics of the links themselves;
+ ; by the isotropy of space
+ ; all the links in the chain are uncorrelated with one another
+Using the statistics of the individual links, it is easily shown that
+
+.
+Notice this last result is the same as that found for random walks in time.
+Assuming, as stated, that that distribution of end-to-end vectors for a very large number of identical polymer chains is gaussian, the probability distribution has the following form
+
+What use is this to us? Recall that according to the principle of equally likely a priori probabilities, the number of microstates, Ω, at some physical value is directly proportional to the probability distribution at that physical value, viz;
+
+where c is an arbitrary proportionality constant. Given our distribution function, there is a maxima corresponding to R = 0. Physically this amounts to there being more microstates which have an end-to-end vector of 0 than any other microstate. Now by considering
+
+where F is the Helmholtz free energy, and it can be shown that
+
+which has the same form as the potential energy of a spring, obeying Hooke's law.
+This result is known as the entropic spring result and amounts to saying that upon stretching a polymer chain you are doing work on the system to drag it away from its (preferred) equilibrium state. An example of this is a common elastic band, composed of long chain (rubber) polymers. By stretching the elastic band you are doing work on the system and the band behaves like a conventional spring, except that unlike the case with a metal spring, all of the work done appears immediately as thermal energy, much as in the thermodynamically similar case of compressing an ideal gas in a piston.
+It might at first be astonishing that the work done in stretching the polymer chain can be related entirely to the change in entropy of the system as a result of the stretching. However, this is typical of systems that do not store any energy as potential energy, such as ideal gases. That such systems are entirely driven by entropy changes at a given temperature, can be seen whenever it is the case that are allowed to do work on the surroundings (such as when an elastic band does work on the environment by contracting, or an ideal gas does work on the environment by expanding). Because the free energy change in such cases derives entirely from entropy change rather than internal (potential) energy conversion, in both cases the work done can be drawn entirely from thermal energy in the polymer, with 100% efficiency of conversion of thermal energy to work. In both the ideal gas and the polymer, this is made possible by a material entropy increase from contraction that makes up for the loss of entropy from absorption of the thermal energy, and cooling of the material.
+
+
+== See alsoEdit ==
+File dynamics
+Important publications in polymer physics.
+Polymer characterization
+Protein dynamics
+Reptation
+Soft matter
+
+
+== External linksEdit ==
+Plastic & polymer formulations
+
+
+== ReferencesEdit ==

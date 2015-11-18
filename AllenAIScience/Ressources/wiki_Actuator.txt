@@ -1,0 +1,94 @@
+An actuator is a type of motor that is responsible for moving or controlling a mechanism or system.
+It is operated by a source of energy, typically electric current, hydraulic fluid pressure, or pneumatic pressure, and converts that energy into motion. An actuator is the mechanism by which a control system acts upon an environment. The control system can be simple (a fixed mechanical or electronic system), software-based (e.g. a printer driver, robot control system), a human, or any other input.
+
+
+== HistoryEdit ==
+The history of the pneumatic actuation system and the hydraulic actuation system dates to around the time of World War II (1938). It was first created by Xhiter Anckeleman (pronounced 'Ziter') who used his knowledge of engines and brake systems to come up with a new solution to ensure that the brakes on a car exert the maximum force, with the least possible wear and tear.
+
+
+=== HydraulicEdit ===
+A hydraulic actuator consists of cylinder or fluid motor that uses hydraulic power to facilitate mechanical operation. The mechanical motion gives an output in terms of linear, rotary or oscillatory motion. Because liquids are nearly impossible to compress, a hydraulic actuator can exert considerable force. The drawback of this approach is its limited acceleration.
+The hydraulic cylinder consists of a hollow cylindrical tube along which a piston can slide. The term single acting is used when the fluid pressure is applied to just one side of the piston. The piston can move in only one direction, a spring being frequently used to give the piston a return stroke. The term double acting is used when pressure is applied on each side of the piston; any difference in pressure between the two side of the piston moves the piston to one side or the other.
+
+
+=== PneumaticEdit ===
+
+A pneumatic actuator converts energy formed by vacuum or compressed air at high pressure into either linear or rotary motion. Pneumatic energy is desirable for main engine controls because it can quickly respond in starting and stopping as the power source does not need to be stored in reserve for operation.
+Pneumatic actuators enable large forces to be produced from relatively small pressure changes. These forces are often used with valves to move diaphragms to affect the flow of liquid through the valve
+
+
+=== ElectricEdit ===
+An electric actuator is powered by a motor that converts electrical energy into mechanical torque. The electrical energy is used to actuate equipment such as multi-turn valves. It is one of the cleanest and most readily available forms of actuator because it does not involve oil.
+
+
+=== Thermal or magnetic (shape memory alloys)Edit ===
+Actuators which can be actuated by applying thermal or magnetic energy have been used in commercial applications. They tend to be compact, lightweight, economical and with high power density. These actuators use shape memory materials (SMMs), such as shape memory alloys (SMAs) or magnetic shape-memory alloys (MSMAs). Some popular manufacturers of these devices are Finnish Modti Inc. and American Dynalloy.
+
+
+=== MechanicalEdit ===
+A mechanical actuator functions by converting rotary motion into linear motion to execute movement. It involves gears, rails, pulleys, chains and other devices to operate. An example is a rack and pinion..
+
+
+== Examples and applicationsEdit ==
+In engineering, actuators are frequently used as mechanisms to introduce motion, or to clamp an object so as to prevent motion. In electronic engineering, actuators are a subdivision of transducers. They are devices which transform an input signal (mainly an electrical signal) into motion.
+
+
+=== Examples of actuatorsEdit ===
+Comb drive
+Digital micromirror device
+Electric motor
+Electroactive polymer
+Hydraulic cylinder
+Piezoelectric actuator
+Pneumatic actuator
+Servomechanism
+Thermal bimorph
+Screw jack
+
+
+=== Circular to linear conversionEdit ===
+Motors are mostly used when circular motions are needed, but can also be used for linear applications by transforming circular to linear motion with a lead screw or similar mechanism. On the other hand, some actuators are intrinsically linear, such as piezoelectric actuators. Conversion between circular and linear motion is commonly made via a few simple types of mechanism including:
+Screw: Screw jack, ball screw and roller screw actuators all operate on the principle of the simple machine known as the screw. By rotating the actuator's nut, the screw shaft moves in a line. By moving the screw shaft, the nut rotates.
+Wheel and axle: Hoist, winch, rack and pinion, chain drive, belt drive, rigid chain and rigid belt actuators operate on the principle of the wheel and axle. By rotating a wheel/axle (e.g. drum, gear, pulley or shaft) a linear member (e.g. cable, rack, chain or belt) moves. By moving the linear member, the wheel/axle rotates.
+
+
+=== Virtual instrumentationEdit ===
+In virtual instrumentation, actuators and sensors are the hardware complements of virtual instruments.
+
+
+== Performance metricsEdit ==
+Performance metrics for actuators include speed, acceleration, and force (alternatively, angular speed, angular acceleration, and torque), as well as energy efficiency and considerations such as mass, volume, operating conditions, and durability, among others.
+
+
+=== ForceEdit ===
+When considering force in actuators for applications, two main metrics should be considered. These two are static and dynamic loads. Static load is the force capability of the actuator while not in motion. Conversely, the dynamic load of the actuator is the force capability while in motion. The two aspects rarely have the same weight capability and must be considered separately.
+
+
+=== SpeedEdit ===
+Speed should be considered primarily at a no-load pace, since the speed will invariably decrease as the load amount increases. The rate the speed will decrease will directly correlate with the amount of force and the initial speed.
+
+
+=== Operating conditionsEdit ===
+Actuators are commonly rated using the standard IP Code rating system. Those that are rated for dangerous environments will have a higher IP rating than those for personal or common industrial use.
+
+
+=== DurabilityEdit ===
+This will be determined by each individual manufacturer, depending on usage and quality.
+
+
+== See alsoEdit ==
+End effector
+Hard disk drive actuator
+Linear actuator
+Load cell
+Microactuator
+Nanotube nanomotor
+Robot actuators
+Torque motor
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Automotive Actuators

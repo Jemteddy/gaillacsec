@@ -1,0 +1,21 @@
+Cassette mutagenesis is a type of site-directed mutagenesis that uses a short, double-stranded oligonucleotide sequence (gene cassette) to replace a fragment of target DNA. It uses complimentary restriction enzyme digest ends on the target DNA and gene cassette to achieve specificity. It is different from methods that use single oligonucleotide in that a single gene cassette can contain multiple mutations. Unlike many site directed mutagenesis methods, cassette mutagenesis also does not involve primer extension by DNA polymerase.
+
+
+== Mechanism ==
+First, restriction enzymes are used to cleave near the target sequence on DNA contained in a suitable vector. This step removes the target sequence and everything between the restriction sites. Then, the synthetic double stranded DNA containing the desired mutation and ends that are complimentary to the restriction digest ends are ligated in place of the sequence removed. Finally, the resultant construct is sequenced to check that the target sequence contains the intended mutation.
+
+
+== Usage ==
+The use of synthetic gene cassette allows total control over the type of mutation that can be generated. When studying protein functions, cassette mutagenesis can allow a scientist to change individual amino acids by introducing different codons or omitting codons.
+By including the SD sequence and the first few codons of a gene, a scientist can easily and dramatically affect the expression level of a protein by altering these regulatory sequences.
+
+
+== Limitations ==
+To use this method, the sequence of the target sequence and nearby restriction sites must be known. Since restriction enzymes are used, for this method to be useful, the restriction sites flanking the target DNA has to be unique in the gene/vector system so that the gene cassette can be inserted with specificity. The length of the sequence flanked by the restriction sites is also a limiting factor due to the use of synthetic gene cassettes.
+
+
+== Advantages ==
+Since one gene cassette can contain multiple mutations, less total oligonucleotide synthesis and purification is needed. Compared to mutagenesis methods that requires the synthesis of double stranded DNA using a single stranded template (1-30% in vitro in M13), the efficiency of the ligation of oligodeoxynucleotide cassette is close to 100%. The high efficiency of the mutagenesis means mutants can be screened directly by sequencing. Once the vector is set up with flanking restriction sites, all manipulations (i.e., mutagenesis, sequencing, expression) can be performed in the same plasmid.
+
+
+== References ==

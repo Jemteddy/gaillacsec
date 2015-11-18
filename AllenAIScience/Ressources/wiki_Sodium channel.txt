@@ -1,0 +1,95 @@
+Sodium channels are integral membrane proteins that form ion channels, conducting sodium ions (Na+) through a cell's plasma membrane. They are classified according to the trigger that opens the channel for such ions, i.e. either a voltage-change ("Voltage-gated", "voltage-sensitive", or "voltage-dependent" sodium channel also called "VGSCs" or "Nav channel") or a binding of a substance (a ligand) to the channel (ligand-gated sodium channels).
+In excitable cells such as neurons, myocytes, and certain types of glia, sodium channels are responsible for the rising phase of action potentials.
+
+
+== Voltage-gated ==
+
+
+=== Structure ===
+
+Sodium channels consist of a large α subunit that associates with other proteins, such as β subunits. An α subunit forms the core of the channel and is functional on its own. When the α subunit protein is expressed by a cell, it is able to form channels that conduct Na+ in a voltage-gated way, even if β subunits or other known modulating proteins are not expressed. When accessory proteins assemble with α subunits, the resulting complex can display altered voltage dependence and cellular localization.
+The α-subunit has four repeat domains, labeled I through IV, each containing six membrane-spanning segments, labeled S1 through S6. The highly conserved S4 segment acts as the channel's voltage sensor. The voltage sensitivity of this channel is due to positive amino acids located at every third position <Nicholls, Martin, Fuchs, Brown, Diamond, Weisblat. (2012) "From Neuron to Brain," 5th ed. pg. 86>. When stimulated by a change in transmembrane voltage, this segment moves toward the extracellular side of the cell membrane, allowing the channel to become permeable to ions. The ions are conducted through a pore, which can be broken into two regions. The more external (i.e., more extracellular) portion of the pore is formed by the "P-loops" (the region between S5 and S6) of the four domains. This region is the most narrow part of the pore and is responsible for its ion selectivity. The inner portion (i.e., more cytoplasmic) of the pore is formed by the combined S5 and S6 segments of the four domains. The region linking domains III and IV is also important for channel function. This region plugs the channel after prolonged activation, inactivating it.
+
+
+=== Gating ===
+Voltage-gated Na+ channels have three main conformational states: closed, open and inactivated. Forward/back transitions between these states are correspondingly referred to as activation/deactivation (between closed and open), inactivation/reactivation (between open and inactivated), and recovery from inactivation/closed-state inactivation (between inactivated and closed). Closed and inactivated states are ion impermeable.
+Before an action potential occurs, the axonal membrane is at its normal resting potential, and Na+ channels are in their deactivated state, blocked on the extracellular side by their activation gates. In response to an electric current (in this case, an action potential), the activation gates open, allowing positively charged Na+ ions to flow into the neuron through the channels, and causing the voltage across the neuronal membrane to increase. Because the voltage across the membrane is initially negative, as its voltage increases to and past zero, it is said to depolarize. This increase in voltage constitutes the rising phase of an action potential.
+At the peak of the action potential, when enough Na+ has entered the neuron and the membrane's potential has become high enough, the Na+ channels inactivate themselves by closing their inactivation gates. The inactivation gate can be thought of as a "plug" tethered to domains III and IV of the channel's intracellular alpha subunit. Closure of the inactivation gate causes Na+ flow through the channel to stop, which in turn causes the membrane potential to stop rising. With its inactivation gate closed, the channel is said to be inactivated. With the Na+ channel no longer contributing to the membrane potential, the potential decreases back to its resting potential as the neuron repolarizes and subsequently hyperpolarizes itself. This decrease in voltage constitutes the falling phase of the action potential.
+When the membrane's voltage becomes low enough, the inactivation gate reopens and the activation gate closes in a process called deinactivation, or removal of inactivation. With the activation gate closed and the inactivation gate open, the Na+ channel is once again in its deactivated state, and is ready to participate in another action potential.
+When any kind of ion channel does not inactivate itself, it is said to be persistently (or tonically) active. Some kinds of ion channels are naturally persistently active. However, genetic mutations that cause persistent activity in other channels can cause disease by creating excessive activity of certain kinds of neurons. Mutations that interfere with Na+ channel inactivation can contribute to cardiovascular diseases or epileptic seizures by window currents, which can cause muscle and/or nerve cells to become over-excited.
+
+
+==== Modeling the behavior of gates ====
+The temporal behavior of Na+ channels can be modeled by a Markovian scheme or by the Hodgkin–Huxley-type formalism. In the former scheme, each channel occupies a distinct state with differential equations describing transitions between states; in the latter, the channels are treated as a population that are affected by three independent gating variables. Each of these variables can attain a value between 1 (fully permeant to ions) and 0 (fully non-permeant), the product of these variables yielding the percentage of conducting channels. The Hodgkin–Huxley model can be shown to be equivalent to a Markovian model.
+
+
+=== Impermeability to other ions ===
+The pore of sodium channels contains a selectivity filter made of negatively charged amino acid residues, which attract the positive Na+ ion and keep out negatively charged ions such as chloride. The cations flow into a more constricted part of the pore that is 0.3 by 0.5 nm wide, which is just large enough to allow a single Na+ ion with a water molecule associated to pass through. The larger K+ ion cannot fit through this area. Ions of different sizes also cannot interact as well with the negatively charged glutamic acid residues that line the pore.
+
+
+=== Diversity ===
+Voltage-gated sodium channels normally consist of an alpha subunit that forms the ion conduction pore and one to two beta subunits that have several functions including modulation of channel gating. Expression of the alpha subunit alone is sufficient to produce a functional channel.
+
+
+==== Alpha subunits ====
+
+The family of sodium channels has nine known members, with amino acid identity >50% in the trans-membrane segments and extracellular loop regions. A standardized nomenclature for sodium channels is currently used and is maintained by the IUPHAR.
+The proteins of these channels are named Nav1.1 through Nav1.9. The gene names are referred to as SCN1A through SCN11A (the SCN6/7A gene is part of the Nax sub-family and has uncertain function). The likely evolutionary relationship between these channels, based on the similarity of their amino acid sequences, is shown in figure 1. The individual sodium channels are distinguished not only by differences in their sequence but also by their kinetics and expression profiles. Some of this data is summarized in table 1, below.
+
+
+==== Beta subunits ====
+Sodium channel beta subunits are type 1 transmembrane glycoproteins with an extracellular N-terminus and a cytoplasmic C-terminus. As members of the Ig superfamily, beta subunits contain a prototypic V-set Ig loop in their extracellular domain. It is interesting to note that beta subunits share no homology with their counterparts of calcium and potassium channels. Instead, they are homologous to neural cell adhesion molecules (CAMs) and the large family of L1 CAMs. There are four distinct betas named in order of discovery: SCN1B, SCN2B, SCN3B, SCN4B (table 2). Beta 1 and beta 3 interact with the alpha subunit non-covalently, whereas beta 2 and beta 4 associate with alpha via disulfide bond.
+
+
+==== Role of beta subunits as cell adhesion molecules ====
+In addition to regulating channel gating, sodium channel beta subunits also modulate channel expression and form links to the intracelluar cytoskeleton via ankyrin and spectrin. Voltage-gated sodium channels also assemble with a variety of other proteins, such as FHF proteins (Fibroblast growth factor Homologous Factor), calmodulin, cytoskeleton or regulatory kinases, which form a complex with sodium channels, influencing its expression and/or function. Several beta subunits interact with one or more extracellular matrix (ECM) molecules. Contactin, also known as F3 or F11, associates with beta 1 as shown via co-immunoprecipitation. Fibronectin-like (FN-like) repeats of Tenascin-C and Tenascin-R bind with beta 2 in contrast to the Epidermal growth factor-like (EGF-like) repeats that repel beta2. A disintegrin and metalloproteinase (ADAM) 10 sheds beta 2's ectodomain possibly inducing neurite outgrowth. Beta 3 and beta 1 bind to neurofascin at Nodes of Ranvier in developing neurons.
+
+
+== Ligand-gated ==
+Ligand-gated sodium channels are activated by binding of a ligand instead of a change in membrane potential.
+They are found, e.g. in the neuromuscular junction as nicotinic receptors, where the ligands are acetylcholine molecules. Most channels of this type are permeable to potassium to some degree as well as to sodium.
+
+
+== Role in action potential ==
+See main article: Action potential
+Voltage-gated sodium channels play an important role in action potentials. If enough channels open when there is a change in the cell's membrane potential, a small but significant number of Na+ ions will move into the cell down their electrochemical gradient, further depolarizing the cell. Thus, the more Na+ channels localized in a region of a cell's membrane the faster the action potential will propagate and the more excitable that area of the cell will be. This is an example of a positive feedback loop. The ability of these channels to assume a closed-inactivated state causes the refractory period and is critical for the propagation of action potentials down an axon.
+Na+ channels both open and close more quickly than K+ channels, producing an influx of positive charge (Na+) toward the beginning of the action potential and an efflux (K+) toward the end.
+Ligand-gated sodium channels, on the other hand, create the change in the membrane potential in the first place, in response to the binding of a ligand to it.
+
+
+== Pharmacologic modulation ==
+
+
+=== Blockers ===
+See sodium channel blockers.
+
+
+=== Activators ===
+The following naturally produced substances persistently activate (open) sodium channels:
+Alkaloid-based toxins
+aconitine
+batrachotoxin
+brevetoxin
+ciguatoxin
+delphinine
+some grayanotoxins, e.g., grayanotoxin I (other granotoxins inactive, or close, sodium channels)
+veratridine
+
+
+=== Gating modifiers ===
+The following toxins modify the gating of sodium channels:
+Peptide-based toxins
+μ-conotoxin
+δ-atracotoxin
+Scorpion venom toxins,
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Sodium Channels at the US National Library of Medicine Medical Subject Headings (MeSH)
+"Voltage-Gated Sodium Channels". IUPHAR Database of Receptors and Ion Channels. International Union of Basic and Clinical Pharmacology.

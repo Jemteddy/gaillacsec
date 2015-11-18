@@ -1,0 +1,47 @@
+Compound annual growth rate (CAGR) is a business and investing specific term for the geometric progression ratio that provides a constant rate of return over the time period.   CAGR is not an accounting term, but it is often used to describe some element of the business, for example revenue, units delivered, registered users, etc. CAGR dampens the effect of volatility of periodic returns that can render arithmetic means irrelevant. It is particularly useful to compare growth rates from different data sets such as revenue growth of companies in the same industry. 
+
+
+== FormulaEdit ==
+
+ : start value,  : finish value,  : number of years.
+Actual or normalized values may be used for calculation as long as they retain the same mathematical proportion.
+
+
+== ExampleEdit ==
+In this example, we will compute the CAGR over three periods. Presume that the year-end revenues of a business for four years, V(t) in above formula, have been:
+
+ = 2007 - 2004 = 3
+
+Therefore, to calculate the CAGR of the revenues over the three-year period spanning the "end" of 2004 to the "end" of 2007 is:
+ - it's a smoothed growth rate per year. This rate of growth would take you to the ending value, from the starting value, in the number of years given, if growth had been at the same rate every year. (In reality, growth is seldom constant.)
+Verification:
+Multiply the initial value (2004 year-end revenue) by (1 + CAGR) three times (because we calculated for 3 years). The product will equal the year-end revenue for 2007. This shows the compound growth rate:
+
+For n = 3:
+
+For comparison:
+the Arithmetic Mean Return (AMR) would be the sum of annual revenue changes (compared with the previous year) divided by number of years, or:
+
+In contrast to CAGR, you cannot obtain  by multiplying the initial value, , three times by (1 + AMR) (unless all annual growth rates are the same).
+
+the Arithmetic Return (AR) or simple return would be the ending value minus beginning value divided by the beginning value:
+
+
+== ApplicationsEdit ==
+These are some of the common CAGR applications:
+Calculating and communicating the average returns of investment funds
+Demonstrating and comparing the performance of investment advisors
+Comparing the historical returns of stocks with bonds or with a savings account
+Forecasting future values based on the CAGR of a data series (you find future values by multiplying the last datum of the series by (1 + CAGR) as many times as years required). As every forecasting method, this method has a calculation error associated.
+Analyzing and communicating the behavior, over a series of years, of different business measures such as sales, market share, costs, customer satisfaction, and performance.
+
+
+== ReferencesEdit ==
+
+
+== See alsoEdit ==
+Annual growth %
+Continuous compounding
+Geometric mean
+Arithmetic mean
+Average annual return

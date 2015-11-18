@@ -1,0 +1,45 @@
+Regulatory Feedback Networks describe a class of neural networks related to Virtual Lateral Inhibition (named to distinguish it from lateral inhibition) that perform inference using [[negative feedback]]. The feedback is implemented during recognition and during recognition connectivity parameters are not changed. Thus this is completely separate from learning/training (e.g. [[supervised learning]] or unsupervised learning). This is also different from models of spatial attention. Instead, these networks determine the relevance of inputs through a "conservation of information principle".
+
+
+== How the network functions ==
+The computational basis of conservation of information is that an input should not pass more information than is justified to the next layer. Thus inputs are regulated by the outputs they activate. Subsequently, each input’s contribution (i.e. salience) is adjusted through feedback regulation by its associated outputs. The amplitudes of the adjusted inputs are propagated to the output layer. A new salience is re-evaluated based on the new output activity (through feedback). This can be iterated until the networks reach steady state. At every step, the role of salience is
+
+to maintain the relation where: the total activity of outputs connected
+to an input will be equivalent to the input’s amplitude.
+
+
+== How the network is used ==
+These networks are best suited for nodes with binary connections. Instead of weights determining the relevance of connections, input salience is adjusted at the time of recognition. For example, a node representing car may connect to features wheels, door, and bumper. A node representing bicycle may connect to features wheels, pedals, and chain. Given wheels, the network will determine how relevant the wheels are to either the bicycle or car nodes during recognition.
+
+
+== Benefits/costs ==
+This model displays unparalleled performance given simultaneous patterns, addressing combinatorial explosions associated with simultaneous patterns.
+The model can also generate solutions composed of multiple output nodes with minimal overlap. This property groups patterns together in a manner that suggests a way out of a fundamental recognition conundrum called the binding problem ('unity of perception' version).
+In contrast to conventional neural networks or machine learning methods these networks cannot be guaranteed to be able to capture any arbitrary pattern. However for the patterns they can capture, they show these properties.
+
+
+== Implementation ==
+Suppose there are fuzzy-type input features  and output nodes . Each output node  is defined by set of feedforward binary connections  from 's. It also has a set of symmetrical feedback connections  that implement [[negative feedback]]. Due to the symmetry each member of  (a connection from input to output) has a corresponding member in  (a connection from the same output to same input) that returns and inhibits the input. Lets label  the set of connections that return to an .  is the number of connections to . Lets label  the salience of input . Then the activity of
+
+the output node is determined by:
+
+.
+The salience value  of a given  is determined by:.
+These equations can be iterated until the network reaches steady state.
+
+
+== See also ==
+Visual perception
+Visual Object Recognition in Cognitive Neuroscience
+Bag of words model in computer vision
+Computational neuroscience
+
+
+== References ==
+^ J. Reggia, “Virtual lateral inhibition in parallel activation models of associative memory,” in Proc. 9th International Joint Conference on Artificial Intelligence., Aug. 1985, pp. 244-248.
+^ a b Mcfadden, F. E. (1995). "Convergence of Competitive Activation Models Based on Virtual Lateral Inhibition." Neural Networks 8(6): 865-875.
+^ a b c Achler, T. (2002). Input Shunt Networks. Neurocomputing, 44, 249-255.
+^ a b c Achler T., Amir E., “Input Feedback Networks: Classification and Inference Based on Network Structure” Artificial General Intelligence 2008 pdf
+^ a b Achler T., Omar C., Amir E., “Shedding Weights: More With Less”, IEEE Proc. International Joint Conference on Neural Networks, 2008 pdf
+^ Achler T., Vural C., Amir, E., "Counting with Biologically Inspired Regulatory Feedback Networks”, IEEE Proc. International Joint Conference on Neural Networks, 2009 pdf
+^ Achler T., “Using Non-Oscillatory Dynamics to Disambiguate Simultaneous Patterns”, IEEE Proc. International Joint Conference on Neural Networks, 2009 pdf

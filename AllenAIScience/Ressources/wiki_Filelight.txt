@@ -1,0 +1,14 @@
+Filelight is a KDE graphical disk usage analyzer, part of the KDE Utils package, which uses the sunburst chart technique to display disk usage. Instead of showing a tree view of the files within a partition or directory, or even a columns-represent-directories view like xdiskusage, it shows a series of concentric pie charts representing the various directories within the requested partition or directory and the amount of space they use (this method being known as a sunburst chart, ring chart, or multilevel pie chart). A user may also click on the pie chart segment representing a particular directory, and repeat the analysis for that directory, right click that segment to open a file manager or terminal emulator in that location, or copy to clipboard or delete the directory, and they may right click the segment representing a file to open it, copy it to the clipboard, or delete it.
+
+
+== See also ==
+
+Disk Usage Analyzer
+
+
+== References ==
+
+
+== External links ==
+KDE Utils Project page
+Official Git Repository

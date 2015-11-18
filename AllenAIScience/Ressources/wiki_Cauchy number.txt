@@ -1,0 +1,22 @@
+The Cauchy number (Ca) is a dimensionless number in continuum mechanics used in the study of compressible flows. It is named after the French mathematician Augustin Louis Cauchy. When the compressibility is important the elastic forces must be considered along with inertial forces for dynamic similarity. Thus, the Cauchy Number is defined as the ratio between inertial and the compressibility force (elastic force) in a flow and can be expressed as
+,
+where
+ = density of fluid, (SI units: kg/m3)
+u = local flow velocity, (SI units: m/s)
+K = bulk modulus of elasticity, (SI units: Pa)
+
+
+== Relation between Cauchy number and Mach number ==
+For isentropic processes, the Cauchy number may be expressed in terms of Mach number. The isentropic bulk modulus , where  is the specific heat capacity ratio and p is the fluid pressure. If the fluid obeys the ideal gas law, we have
+,
+where
+ = speed of sound, (SI units: m/s)
+R = characteristic gas constant, (SI units: J/(kg K) )
+T = temperature, (SI units: K)
+Substituting K (Ks) in the equation for Ca yields
+.
+Thus, the Cauchy number is square of the Mach number for isentropic flow of a perfect gas.
+
+
+== References ==
+Massey, B. S.; Ward-Smith, J. (1998). Mechanics of Fluids (7th ed.). Cheltenham: Nelson Thornes. ISBN 0-7487-4043-0.

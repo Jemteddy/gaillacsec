@@ -1,0 +1,77 @@
+A runoff model is a mathematical model describing the rainfall–runoff relations of a rainfall catchment area, drainage basin or watershed. More precisely, it produces the surface runoff hydrograph as a response to a rainfall hydrograph as input. In other words, the model calculates the conversion of rainfall into runoff.
+A well known runoff model is the linear reservoir, but in practice it has limited applicability.
+The runoff model with a non-linear reservoir is more universally applicable, but still it holds only for catchments whose surface area is limited by the condition that the rainfall can be considered more or less uniformly distributed over the area. The maximum size of the watershed then depends on the rainfall characteristics of the region. When the study area is too large, it can be divided into sub-catchments and the various runoff hydrographs may be combined using flood routing techniques.
+
+Rainfall-runoff models need to be calibrated before they can be used.
+
+
+== Linear reservoir ==
+
+The hydrology of a linear reservoir (figure 1) is governed by two equations.
+flow equation:   Q = A.S, with units [L/T], where L is length (e.g. mm) and T is time (e.g. h, day)
+continuity or water balance equation:   R = Q + dS/dT, with units [L/T]
+where:
+Q is the runoff or discharge
+R is the effective rainfall or rainfall excess or recharge
+A is the constant reaction factor or response factor with unit [1/T]
+S is the water storage with unit [L]
+dS is a differential or small increment of S
+dT is a differential or small increment of T
+Runoff equation
+A combination of the two previous equations results in a differential equation, whose solution is:
+Q2 = Q1 exp { −A (T2 − T1) } + R [ 1 − exp { −A (T2 − T1) } ]
+This is the runoff equation or discharge equation, where Q1 and Q2 are the values of Q at time T1 and T2 respectively while T2−T1 is a small time step during which the recharge can be assumed constant.
+Computing the total hydrograph
+Provided the value of A is known, the total hydrograph can be obtained using a successive number of time steps and computing, with the runoff equation, the runoff at the end of each time step from the runoff at the end of the previous time step.
+Unit hydrograph
+The discharge may also be expressed as: Q = − dS/dT . Substituting herein the expression of Q in equation (1) gives the differential equation dS/dT = A.S, of which the solution is: S = exp(− A.t) . Replacing herein S by Q/A according to equation (1), it is obtained that: Q = A exp(− A.t) . This is called the instantaneous unit hydrograph (IUH) because the Q herein equals Q2 of the foregoing runoff equation using R = 0, and taking S as unity which makes Q1 equal to A according to equation (1).
+The availability of the foregoing runoff equation eliminates the necessity of calculating the total hydrograph by the summation of partial hydrographs using the IUH as is done with the more complicated convolution method.
+Determining the response factor A
+When the response factor A can be determined from the characteristics of the watershed (catchment area), the reservoir can be used as a deterministic model or analytical model, see hydrological modelling.
+Otherwise, the factor A can be determined from a data record of rainfall and runoff using the method explained below under non-linear reservoir. With this method the reservoir can be used as a black box model.
+Conversions
+1 mm/day corresponds to 10 m3/day per ha of the watershed
+1 l/s per ha corresponds to 8.64 mm/day or 86.4 m3/day per ha
+
+
+== Non-linear reservoir ==
+
+Contrary to the linear reservoir, the non linear reservoir has a reaction factor A that is not a constant, but it is a function of S or Q (figure 2, 3).
+Normally A increases with Q and S because the higher the water level is the higher the discharge capacity becomes. The factor is therefore called Aq instead of A.
+The non-linear reservoir has no usable unit hydrograph.
+During periods without rainfall or recharge, i.e. when R = 0, the runoff equation reduces to
+Q2 = Q1 exp { − Aq (T2 − T1) }, or:
+or, using a unit time step (T2 − T1 = 1) and solving for Aq:
+Aq = − ln (Q2/Q1)
+Hence, the reaction or response factor Aq can be determined from runoff or discharge measurements using unit time steps during dry spells, employing a numerical method.
+Figure 3 shows the relation between Aq (Alpha) and Q for a small valley (Rogbom) in Sierra Leone.
+Figure 4 shows observed and simulated or reconstructed discharge hydrograph of the watercourse at the downstream end of the same valley.
+
+
+== Recharge ==
+
+The recharge, also called effective rainfall or rainfall excess, can be modeled by a pre-reservoir (figure 6) giving the recharge as overflow. The pre-reservoir knows the following elements:
+a maximum storage (Sm) with unit length [L]
+an actual storage (Sa) with unit [L]
+a relative storage: Sr = Sa/Sm
+a maxmimum escape rate (Em) with units length/time [L/T]. It corresponds to the maximum rate of evaporation plus percolation and groundwater recharge, which will not take part in the runoff process (figure 5, 6)
+an actual escape rate: Ea = Sr.Em
+a storage deficiency: Sd = Sm + Ea − Sa
+The recharge during a unit time step (T2−T1=1) can be found from R = Rain − Sd
+The actual storage at the end of a unit time step is found as Sa2 = Sa1 + Rain − R − Ea, where Sa1 is the actual storage at the start of the time step.
+The Curve Number method (CN method) gives another way to calculate the recharge. The initial abstraction herein compares with Sm − Si, where Si is the initial value of Sa.
+
+
+== Software ==
+Figures 3 and 4 were made with the RainOff program, designed to analyse rainfall and runoff using the non-linear reservoir model with a pre-reservoir. The program also contains an example of the hydrograph of an agricultural subsurface drainage system for which the value of A can be obtained from the system's characteristics.
+Vflo is another software program for modeling runoff. Vflo uses radar rainfall and GIS data to generate physics-based, distributed runoff simulation.
+The WEAP (Water Evaluation And Planning) software platform models runoff and percolation from climate and land use data, using a choice of linear and non-linear reservoir models.
+The RS MINERVE software platform simulates the formation of free surface run-off flow and its propagation in rivers or channels. The software is based on object-oriented programming and allows hydrologic and hydraulic modeling according to a semi-distributed conceptual scheme with different rainfall-runoff model such as HBV, GR4J, SAC-SMA or SOCONT.
+
+
+== References ==
+^ J.W. de Zeeuw, 1973. Hydrograph analysis for areas with mainly groundwater runoff. In: Drainage Principle and Applications, Vol. II, Chapter 16, Theories of field drainage and watershed runoff. p 321-358. Publication 16, International Institute for Land Reclamation and Improvement (ILRI), Wageningen, The Netherlands.
+^ D.A. Kraijenhoff van de Leur, 1973. Rainfall-runoff relations and computational models. In: Drainage Principle and Applications, Vol. II, Chapter 16, Theories of field drainage and watershed runoff. p 245-320. Publication 16, International Institute for Land Reclamation and Improvement (ILRI), Wageningen, The Netherlands.
+^ Land drainage and soil salinity: some Mexican experiences. In: ILRI Annual Report 1995, p. 44-53. International Institute for Land Reclamation and Improvement, Wageningen (ILRI), The Netherlands. On line: [1]
+^ A.Huizing, 1988. Rainfall-Runoff relations in a small cultivated valley in Sierra Leone. Wetland Utilization Research Project. International Institute for Land Reclamation and Improvement, Wageningen, The Netherlands
+^ RainOff, a computer model for rainfall-runoff relations using the concept of a non-linear reservoir. Download from : [2] , or from : [3]

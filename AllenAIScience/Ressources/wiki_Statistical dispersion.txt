@@ -1,0 +1,46 @@
+In statistics, dispersion (also called variability, scatter, or spread) denotes how stretched or squeezed a distribution (theoretical or that underlying a statistical sample) is. Common examples of measures of statistical dispersion are the variance, standard deviation and interquartile range.
+Dispersion is contrasted with location or central tendency, and together they are the most used properties of distributions.
+
+
+== Measures of statistical dispersion ==
+A measure of statistical dispersion is a nonnegative real number that is zero if all the data are the same and increases as the data become more diverse.
+Most measures of dispersion have the same units as the quantity being measured. In other words, if the measurements are in metres or seconds, so is the measure of dispersion. Such measures of dispersion include:
+Sample standard deviation
+Interquartile range (IQR) or interdecile range
+Range
+Mean absolute difference (also known as Gini mean absolute difference)
+Median absolute deviation (MAD)
+Average absolute deviation (or simply called average deviation)
+Distance standard deviation
+These are frequently used (together with scale factors) as estimators of scale parameters, in which capacity they are called estimates of scale. Robust measures of scale are those unaffected by a small number of outliers, and include the IQR and MAD.
+All the above measures of statistical dispersion have the useful property that they are location-invariant, as well as linear in scale. So if a random variable X has a dispersion of SX then a linear transformation Y = aX + b for real a and b should have dispersion SY = |a|SX.
+Other measures of dispersion are dimensionless. In other words, they have no units even if the variable itself has units. These include:
+Coefficient of variation
+Quartile coefficient of dispersion
+Relative mean difference, equal to twice the Gini coefficient
+There are other measures of dispersion:
+Variance (the square of the standard deviation) – location-invariant but not linear in scale.
+Variance-to-mean ratio – mostly used for count data when the term coefficient of dispersion is used and when this ratio is dimensionless, as count data are themselves dimensionless, not otherwise.
+Some measures of dispersion have specialized purposes, among them the Allan variance and the Hadamard variance.
+For categorical variables, it is less common to measure dispersion by a single number; see qualitative variation. One measure that does so is the discrete entropy.
+
+
+== Sources of statistical dispersion ==
+In the physical sciences, such variability may result from random measurement errors: instrument measurements are often not perfectly precise, i.e., reproducible, and there is additional inter-rater variability in interpreting and reporting the measured results. One may assume that the quantity being measured is stable, and that the variation between measurements is due to observational error. A system of a large number of particles is characterized by the mean values of a relatively few number of macroscopic quantities such as temperature, energy, and density. The standard deviation is an important measure in Fluctuation theory, which explains many physical phenomena, including why the sky is blue.
+In the biological sciences, the quantity being measured is seldom unchanging and stable, and the variation observed might additionally be intrinsic to the phenomenon: It may be due to inter-individual variability, that is, distinct members of a population differing from each other. Also, it may be due to intra-individual variability, that is, one and the same subject differing in tests taken at different times or in other differing conditions. Such types of variability are also seen in the arena of manufactured products; even there, the meticulous scientist finds variation.
+In economics, finance, and other disciplines, regression analysis attempts to explain the dispersion of a dependent variable, generally measured by its variance, using one or more independent variables each of which itself has positive dispersion. The fraction of variance explained is called the coefficient of determination.
+
+
+== A partial ordering of dispersion ==
+A mean-preserving spread (MPS) is a change from one probability distribution A to another probability distribution B, where B is formed by spreading out one or more portions of A's probability density function while leaving the mean (the expected value) unchanged. The concept of a mean-preserving spread provides a partial ordering of probability distributions according to their dispersions: of two probability distributions, one may be ranked as having more dispersion than the other, or alternatively neither may be ranked as having more dispersion.
+
+
+== See also ==
+Average
+Summary statistics
+Qualitative variation
+Robust measures of scale
+Measurement uncertainty
+
+
+== References ==

@@ -1,0 +1,103 @@
+A P element is a transposon that is present specifically in the fruit fly Drosophila melanogaster and is used widely for mutagenesis and the creation of genetically modified flies used for genetic research. The P element gives rise to a phenotype known as hybrid dysgenesis.
+P elements were discovered in the 1970s when laboratory strains used since 1905 were compared to wild type flies (i.e. found in nature). It seemed that these P elements had swept through all wild type populations of D. melanogaster subsequent to the isolation of the laboratory strains, which did not contain P elements.
+The P element encodes for the protein P transposase and is flanked by terminal inverted repeats which are important for its mobility. Unlike laboratory strain females, wild type females are thought to express an inhibitor to P transposase function. This inhibitor reduces the disruption to the genome caused by the P elements, allowing fertile progeny. Evidence for this comes from crosses of laboratory females (which lack P transposase inhibitor) with wild type males (which have P elements). In the absence of the inhibitor, the P elements can proliferate throughout the genome, disrupting many genes and killing progeny.
+
+
+== Characteristics ==
+The P element is a class II transposon, and moves by a DNA-based "cut and paste" mechanism. The sequence comprises 4 exons with 3 introns. Complete splicing of the introns produces the transposase enzyme, while alternative partial splicing of intron 1 and 2 leaving in only intron 3 encodes the P element repressor. The complete, autonomous P element encodes a transposase enzyme, which recognizes the 31 bp terminal inverted repeats of the P element and catalyzes P element excision and re-insertion. The complete element is 2907 bp; non-autonomous P elements contain an internal deletion of varying length which abolishes transposase production, but such elements can still be mobilized if transposase is encoded elsewhere in the genome. P element insertion and subsequent excision results in the production of 8 bp direct repeats, and the presence of such repeats is indicative of previous P element activity.
+
+
+== Hybrid dysgenesis ==
+Hybrid dysgenesis refers to the high rate of mutation in germ line cells of Drosophila strains resulting from a cross of males with autonomous P elements (P Strain/P cytotype) and females that lack P elements (M Strain/M cytotype). The hybrid dysgenesis syndrome is marked by temperature-dependent sterility, elevated mutation rates, and increased chromosome rearrangement and recombination.
+The hybrid dysgenesis phenotype is affected by the transposition of P elements within the germ-line cells of offspring of P strain males with M strain females. Transposition only occurs in germ-line cells, because a splicing event needed to make transposase mRNA does not occur in somatic cells.
+Hybrid dysgenesis manifests when crossing P strain males with M strain females and not when crossing P strain females (females with autonomous P elements) with M strain males. The eggs of P strain females contain high amounts of a repressor protein that prevents transcription of the transposase gene. The eggs of M strain mothers, which do not contain the repressor protein, allow for transposition of P elements from the sperm of fathers. In P strain females, the repressors are found in the cytoplasm. Hence, when P strain males fertilize M strain females (whose cytoplasm contain no repressor), the male contributes its genome with the P element but not the male cytoplasm leading to P strain progeny.
+This effect contributes to piRNAs being inherited only in the maternal line, which provides a defence mechanism against P elements. 
+
+
+== Use in molecular biology ==
+The P element has found wide use in Drosophila research as a mutagen. The mutagenesis system typically uses an autonomous but immobile element, and a mobile nonautonomous element. Flies from subsequent generations can then be screened by phenotype or PCR.
+Naturally-occurring P elements contain:
+Coding sequence for the enzyme transposase
+Recognition sequences for transposase action
+Transposase is an enzyme that regulates and catalyzes the excision of a P element from the host DNA, cutting at two recognition sites, and then reinserts randomly. It is the random insertion that may interfere with existing genes, or carry an additional gene, that can be used for genetic research.
+To use this as a useful and controllable genetic tool, the two parts of the P element must be separated to prevent uncontrolled transposition. The normal genetic tools are therefore:
+DNA coding for transposase with no transposase recognition sequences so it cannot insert.
+A "P Plasmid"
+P Plasmids always contain:
+A Drosophila reporter gene, often a red-eye marker (the product of the white gene).
+Transposase recognition sequences.
+And may contain:
+A gene of interest
+An E. coli selectable marker gene, often some kind of antibiotic resistance.
+Origin of replication and other associated plasmid 'housekeeping' sequences.
+
+
+=== Methods of usage ===
+There are two main ways to utilise these tools:
+
+
+==== Fly transformation ====
+Clone the P element into a plasmid and transform and grow this in bacteria.
+Eliminate the P transposase and replace it with your gene of interest.
+Microinject the posterior end of an early-stage (pre-cellularization) embryo with DNA coding for transposase and a plasmid with the reporter gene, gene of interest and transposase recognition sequences.
+Random transposition occurs, inserting the gene of interest and reporter gene.
+Once the gene of interest has been inserted it is no longer mobile because it cannot produce its own P transposase.
+Grow flies and cross to remove genetic variation between the cells of the organism. (Only some of the cells of the organism will have been transformed. Hopefully, some of these transformed cells end up in the germ line. A transformed gamete will give rise to an organism with no variation between its cells).
+Look for flies expressing the reporter gene. These carry the inserted gene of interest, so can be investigated to determine the phenotype due to the gene of interest.
+The inserted gene may have damaged the function of one of the host's genes. Several lines of flies are required so comparison can take place and ensure that no additional genes have been knocked out.
+
+
+==== Insertional mutagenesis ====
+Microinject the embryo with DNA coding for transposase and a plasmid with the reporter gene and transposase recognition sequences (and often the E. coli reporter gene and origin of replication, etc.).
+Random transposition occurs, inserting the reporter gene randomly. The insertion tends to occur near actively transcribed genes, as this is where the chromatin structure is loosest, so the DNA is most accessible.
+Grow flies and cross to remove genetic variation between the cells of the organism (see above).
+Look for flies expressing the reporter gene. These have experienced a successful transposition, so can be investigated to determine the phenotype due to mutation of existing genes.
+Possible mutations:
+Insertion in a translated region => hybrid protein/truncated protein. Usually causes loss of protein function, although more complex effects are seen.
+Insertion in an intron => altered splicing pattern/splicing failure. Usually results in protein truncation or the production of inactive mis-spliced products, although more complex effects are common.
+Insertion in 5' (the sequence that will become the mRNA 5' UTR) untranslated region => truncation of transcript. Usually results in failure of the mRNA to contain a 5' cap, leading to less efficient translation.
+Insertion in promoter => reduction/complete loss of expression. Always results in greatly reduced protein production levels. The most useful type of insertion for analysis due to the simplicity of the situation.
+Insertion between promoter and upstream enhancers => loss of enhancer function/hijack of enhancer function for reporter gene.† Generally reduces the level of protein specificity to cell type, although complex effects are often seen.
+
+
+===== Enhancer trapping =====
+
+The hijack of an enhancer from another gene allows the analysis of the function of that enhancer. This, especially if the reporter gene is for a fluorescent protein, can be used to help map expression of the mutated gene through the organism, and is a very powerful tool. It is a useful tool for looking at gene expression patterns (temporally and spatially).
+
+
+=== Other usage of P elements ===
+These methods are referred to as reverse genetics. Reverse genetics is an approach to discover the function of a gene by analyzing the phenotypic effects of specific gene sequences obtained by DNA sequencing
+
+
+=== Analysis of mutagenesis products ===
+Once the function of the mutated protein has been determined it is possible to sequence/purify/clone the regions flanking the insertion by the following methods:
+
+
+==== Inverse PCR ====
+
+Main article: Inverse PCR
+Isolate the fly genome.
+Undergo a light digest (using an enzyme [enzyme 1] known NOT to cut in the reporter gene), giving fragments of a few kilobases, a few with the insertion and its flanking DNA.
+Self ligate the digest (low DNA concentration to ensure self ligation) giving a selection of circular DNA fragments, a few with the insertion and its flanking DNA.
+Cut the plasmids at some point in the reporter gene (with an enzyme [enzyme 2] known to cut very rarely in genomic DNA, but is known to in the reporter gene).
+Using primers for the reporter gene sections, the DNA can be amplified for sequencing.
+The process of cutting, self ligation and re cutting allows the amplification of the flanking regions of DNA without knowing the sequence. The point at which the ligation occurred can be seen by identifying the cut site of [enzyme 1].
+
+
+==== Plasmid rescue ====
+
+Isolate the fly genome.
+Undergo a light digest (using an enzyme [enzyme 1] known to cut in the boundary between the reporter gene and the E. coli reporter gene and plasmid sequences), giving fragments of a few kilobases, a few with the E. coli reporter, the plasmid sequences and its flanking DNA.
+Self ligate the digest (low DNA concentration to ensure self ligation) giving a selection of circular DNA fragments, a few with the E. coli reporter, the plasmid sequences and its flanking DNA.
+Insert the plasmids into E. coli cells (e.g. by electroporation).
+Select plasmids for the E. coli selectable marker gene. Only successful inserts of plasmids with the plasmid 'housekeeping' sequences will express this gene.
+The gene can be cloned for further analysis.
+
+
+== References ==
+Leland Hartwell et al.. 2004. Genetics - From Genes to Genomes 2nd Edition. McGraw-Hill
+Engels, W. R. P Elements in Drosophila
+
+
+== External links ==
+FlyBase

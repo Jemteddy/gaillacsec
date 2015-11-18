@@ -1,0 +1,111 @@
+In thermodynamics, an isentropic process is an idealized thermodynamic process that is adiabatic and in which the work transfers of the system are frictionless; there is no transfer of heat or of matter and the process is reversible. Such an idealized process is useful in engineering as a model of and basis of comparison for real processes.
+The word 'isentropic' is occasionally, though not customarily, interpreted in another way, reading it as if its meaning were deducible from its etymology. This is contrary to its original and customarily used definition. In this occasional reading, it means a process in which the entropy of the system remains unchanged, for example because work done on the system includes friction internal to the system, and heat is withdrawn from the system, in just the right amount to compensate for the internal friction, so as to leave the entropy unchanged.
+
+
+== Background ==
+The second law of thermodynamics states that,
+
+where  is the amount of energy the system gains by heating,  is the temperature of the system, and  is the change in entropy. The equal sign refers to a reversible process, which is an imagined idealized theoretical limit, never actually occurring in physical reality. For an isentropic process, which by definition is reversible, there is no transfer of energy as heat because the process is adiabatic. In an irreversible process of transfer of energy as work, entropy is produced within the system; consequently, in order to maintain constant entropy within the system, energy must be removed from the system as heat during the process.
+For reversible processes, an isentropic transformation is carried out by thermally "insulating" the system from its surroundings. Temperature is the thermodynamic conjugate variable to entropy, thus the conjugate process would be an isothermal process in which the system is thermally "connected" to a constant-temperature heat bath.
+
+
+== Isentropic processes in thermodynamic systems ==
+
+The entropy of a given mass does not change during a process that is internally reversible and adiabatic. A process during which the entropy remains constant is called an isentropic process, written  or .  Some isentropic thermodynamic devices include: pumps, gas compressors, turbines, nozzles, and diffusers.
+
+
+=== Isentropic efficiencies of steady-flow devices in thermodynamic systems ===
+Most steady-flow devices operate under adiabatic conditions, and the ideal process for these devices is the isentropic process.The parameter that describes how efficiently a device approximates a corresponding isentropic device is called isentropic or adiabatic efficiency.
+Isentropic efficiency of Turbines:
+
+Isentropic efficiency of Compressors
+
+Isentropic efficiency of Nozzles
+
+For all the above equations:
+ is the enthalpy at the entrance state
+ is the enthalpy at the exit state for the actual process
+ is the enthalpy at the exit state for the isentropic process
+
+
+=== Isentropic devices in thermodynamic cycles ===
+Ideal Rankine Cycle 1->2 Isentropic compression in a pump
+Ideal Rankine Cycle 3->4 Isentropic expansion in a turbine
+Ideal Carnot Cycle 2->3 Isentropic expansion
+Ideal Carnot Cycle 4->1 Isentropic compression
+Ideal Otto Cycle 1->2 Isentropic compression
+Ideal Otto Cycle 3->4 Isentropic expansion
+Ideal Diesel Cycle 1->2 Isentropic compression
+Ideal Diesel Cycle 3->4 Isentropic expansion
+Ideal Brayton Cycle 1->2 Isentropic compression in a compressor
+Ideal Brayton Cycle 3->4 Isentropic expansion in a turbine
+Ideal Vapor-compression refrigeration Cycle 1->2 Isentropic compression in a compressor
+NOTE: The isentropic assumptions are only applicable with ideal cycles. Real world cycles have inherent losses due to inefficient compressors and turbines. The real world system are not truly isentropic but are rather idealized as isentropic for calculation purposes.
+
+
+== Isentropic flow ==
+In fluid dynamics, an isentropic flow is a fluid flow that is both adiabatic and reversible. That is, no heat is added to the flow, and no energy transformations occur due to friction or dissipative effects. For an isentropic flow of a perfect gas, several relations can be derived to define the pressure, density and temperature along a streamline.
+Note that energy can be exchanged with the flow in an isentropic transformation, as long as it doesn't happen as heat exchange. An example of such an exchange would be an isentropic expansion or compression that entails work done on or by the flow.
+
+
+=== Derivation of the isentropic relations ===
+For a closed system, the total change in energy of a system is the sum of the work done and the heat added,
+
+The reversible work done on a system by changing the volume is,
+
+where  is the pressure and  is the volume. The change in enthalpy () is given by,
+
+Then for a process that is both reversible and adiabatic (i.e. no heat transfer occurs), , and so . All reversible adiabatic processes are isentropic. This leads to two important observations,
+ , and
+
+Next, a great deal can be computed for isentropic processes of an ideal gas. For any transformation of an ideal gas, it is always true that
+, and .
+Using the general results derived above for  and , then
+, and
+.
+So for an ideal gas, the heat capacity ratio can be written as,
+
+For an ideal gas  is constant. Hence on integrating the above equation, assuming a perfect gas, we get
+ i.e.
+
+Using the equation of state for an ideal gas, ,
+
+also, for constant  (per mole),
+ and 
+
+Thus for isentropic processes with an ideal gas,
+ or 
+
+
+=== Table of isentropic relations for an ideal gas ===
+
+Derived from:
+
+Where:
+
+ = Pressure
+ = Volume
+ = Ratio of specific heats = 
+ = Temperature
+ = Mass
+ = Gas constant for the specific gas = 
+ = Universal gas constant
+ = Molecular weight of the specific gas
+ = Density
+ = Specific heat at constant pressure
+ = Specific heat at constant volume
+
+
+== See also ==
+Gas laws
+Adiabatic process
+Isenthalpic process
+Isentropic analysis
+Polytropic process
+
+
+== Notes ==
+
+
+== References ==
+Van Wylen, G.J. and Sonntag, R.E. (1965), Fundamentals of Classical Thermodynamics, John Wiley & Sons, Inc., New York. Library of Congress Catalog Card Number: 65-19470

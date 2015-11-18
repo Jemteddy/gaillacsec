@@ -1,0 +1,144 @@
+In writing and typography, a ligature occurs where two or more graphemes or letters are joined as a single glyph. An example is the character æ as used in English, in which the letters a and e are joined. The common ampersand (&) developed from a ligature in which the handwritten Latin letters e and t (spelling et, meaning "and") were combined.
+
+
+== History ==
+
+At the origin of typographical ligatures is the simple running together of letters in manuscripts. Already the earliest known script, Sumerian cuneiform, includes many cases of character combinations that over the script's history gradually evolve from a ligature into an independent character in its own right. Ligatures figure prominently in many historical scripts, notably the Brahmic abugidas, or the bind rune of the Migration Period Germanic runic inscriptions.
+
+Medieval scribes, writing in Latin, increased writing speed by combining characters and by introduction of scribal abbreviation. For example, in blackletter, letters with right-facing bowls (b, o, and p) and those with left-facing bowls (c, e, o, d, g and q) were written with the facing edges of the bowls superimposed. In many script forms characters such as h, m, and n had their vertical strokes superimposed. Scribes also used scribal abbreviations to avoid having to write a whole character at a stroke. Manuscripts in the fourteenth century employed hundreds of such abbreviations.
+
+In hand writing, a ligature is made by joining two or more characters in a way they wouldn't usually be, either by merging their parts, writing one above another or one inside another; while in printing, a ligature is a group of characters that is typeset as a unit, and the characters don't have to be joined—for example, in some cases fi ligature prints letters f and i more separated than when they are typeset as separate letters. When printing with movable type was invented around 1450, typefaces included many ligatures and additional letters, as they were based on handwriting. Ligatures made printing with movable type easier, because one block would replace frequent combinations of letters, and also allowed more complex and interesting character designs, which would otherwise collide with one another.
+Ligatures began to fall out of use due to their complexity in the 20th century. Sans serif fonts, increasingly used for body text, generally avoid ligatures, though notable exceptions include Gill Sans and Futura. Inexpensive phototypesetting machines in the 1970s, which did not require journeyman knowledge or training to operate, also generally avoid them.
+The trend was further strengthened by the desktop publishing revolution around 1985. Early computer software in particular had no way to allow for ligature substitution (the automatic use of ligatures where appropriate), and in any case most new digital fonts did not include any ligatures. As most of the early PC development was designed for and in the English language, which already saw ligatures as optional at best, a need for ligatures was not seen. Ligature use fell as the number of employed, traditionally trained hand compositors and hot metal typesetting machine operators dropped. A designer active in the period commented that "some of the world’s greatest typefaces were quickly becoming some of the world’s worst fonts."
+Ligatures have grown in popularity over the last twenty years, however, due to an increasing interest in creating computer typesetting systems that evoke classic designs and older books. One of the first computer typesetting programs to take advantage of computer-driven typesetting (and later laser printers) was the TeX program of Donald Knuth. Now the standard method of mathematical typesetting, its default styles are explicitly based on nineteenth-century models. Many new fonts feature extensive ligature sets: these include FF Scala, Seria and others by Martin Majoor and Hoefler Text by Jonathan Hoefler. Mrs Eaves by Zuzana Licko contains a particularly large set to allow designers to create ostentatious, dramatic display text with a period feel. A parallel use of ligatures has been in the creation of script fonts that adjust letterforms to join up and simulate handwriting effectively. This increase has been caused by the increased support for other languages and alphabets in modern computing, many of which use ligatures extensively. This has caused the development of new digital typesetting techniques such as OpenType, and the incorporation of ligature support into the text display systems of OS X, Windows and applications such as Microsoft Office. An increasing modern trend is to use a 'Th' ligature to reduce spacing between these letters, a trait with little precedent in metal type.
+In font programming, ligatures are separated into three groups, which can be activated separately: standard, contextual and historical. Standard ligatures are needed to allow the font to display without errors such as collision of characters. Contextual and historic ligatures may be desired (or not) by a designer to create effects or evoke old-fashioned printing.
+
+
+== Latin alphabet ==
+
+
+=== Stylistic ligatures ===
+
+Many ligatures combine f with an adjacent letter. The most prominent example is ﬁ (or f‌i, rendered with two normal letters). The tittle of the i in many typefaces collides with the hood of the f when placed beside each other in a word, and are combined into a single glyph with the tittle absorbed into the f. Other ligatures with the letter f include fj, f‌l (ﬂ), f‌f (ﬀ), f‌f‌i (ﬃ), and f‌f‌l (ﬄ). Ligatures for fa, fe, fo, fr, fs, ft, fb, fh, fu, fy, and for f followed by a full stop, comma, or hyphen, as well as the equivalent set for the doubled ff and fft are also used, though are less common.
+These arose because with the usual type sort for lowercase f, the end of its hood is on a kern, which would be damaged by collision with raised parts of the next letter.
+Ligatures crossing the morpheme boundary of a composite word are sometimes considered incorrect, especially in official German orthography as outlined in the Duden. An English example of this would be ff in shelf‌ful; a German example would be Schifffahrt ("boat trip"). Some computer programs (such as TeX) provide a setting to disable ligatures for German, while some users have also written macros to identify which ligatures to disable.
+
+Turkish distinguishes dotted and dotless "I". In a ligature with f (in words such as fırın ("oven") and fikir ("idea")), this contrast would be obscured. The fi ligature is therefore not used in Turkish typography, and neither are other ligatures like that for fl, which would be rare anyway.
+
+Remnants of the ligatures ſʒ/ſz ("sharp s"/"esszett") and tʒ/tz ("sharp t"/"tezett") from Fraktur, a family of German blackletter typefaces, originally mandatory in Fraktur but now employed only stylistically, can be seen to this day on street signs for city squares whose name contains Platz or ends in -platz. Instead, the "sz" ligature has merged into a single character, the German ß – see below.
+Sometimes ligatures for st (ﬆ), ſt (ﬅ), ch, ct, Qu and Th are used (e.g. in the typeface Linux Libertine).
+
+
+=== German ß ===
+
+The German Eszett (also called the scharfes S, meaning sharp s) ß is an official letter of the alphabet in Germany and Austria. There is no general consensus about its history. Its name Es-zett (meaning S-Z) suggests a connection of "long s and z" (ſʒ) and the Latin script also knows a ligature of "long s over round s" (ſs). The latter is used as the design principle for the character in most of today’s typefaces. Since German was mostly set in blackletter typefaces until the 1940s, and those typefaces were never set in uppercase, a capital version of the Eszett never came into common use, even though its creation was discussed since the end of the 19th century. Therefore the common replacement in uppercase typesetting was originally SZ (Maße → MASZE) and later SS (Maße → MASSE). The SS replacement is currently the only valid spelling according to the official orthography in Germany and Austria. For German writing in Switzerland the ß is omitted altogether in favour of ss. Since 2008 the capital version (ẞ) of the Eszett character is part of Unicode and appears in more and more typefaces. The new character has not yet entered mainstream writing. A new standardized German keyboard layout (DIN 2137-T2) includes the capital ß since 2012. Since the end of 2010, the Ständiger Ausschuss für geographische Namen (StAGN) suggests the new upper case character for 'ß' rather than replacing it with 'SS' or 'SZ' for geographical names.
+
+
+=== Letters and diacritics originating as ligatures ===
+
+As the letter W is an addition to the Latin alphabet which originated in the seventh century, the phoneme it represents was formerly written in various ways. In Old English the Runic letter wynn (Ƿ) was used, but Norman influence forced wynn out of use. By the 14th century, the "new" letter W, originated as two Vs or Us joined together, developed into a legitimate letter with its own position in the alphabet. Because of its relative youth compared to other letters of the alphabet, only a few European languages (English, Dutch, German, Polish, Welsh, Maltese, and Walloon) use the letter in native words.
+The character Æ – lower case æ (in ancient times named æsc) when used in the Danish, Norwegian, or Icelandic languages, or Old English, is not a typographic ligature. It is a distinct letter—a vowel—and when alphabetised, is given a different place in the alphabetic order. In modern English orthography Æ is not considered an independent letter but a spelling variant, for example: "encyclopædia" versus "encyclopaedia" or "encyclopedia".
+Æ comes from Mediæval Latin, where it was an optional ligature in some words, for example, "Æneas". It is still found as a variant in English and French, but the trend has recently been towards printing the A and E separately. Similarly, Œ and œ, while normally printed as ligatures in French, are wrongly replaced by component letters if technical restrictions require it.
+In German orthography, the umlauted vowels ä, ö, and ü historically arose from ae, oe, ue ligatures (strictly, from superscript e, viz. aͤ, oͤ, uͤ). It is common practice to replace them with ae, oe, ue digraphs when the diacritics are unavailable, for example in electronic conversation. While in alphabetic order, they are equivalent not to ae, oe, ue, but to simple a, o, u except in phone books where they are treated as equivalent to ae, oe and ue (so that a name Müller will appear at the same place as if it were spelled Mueller - German surnames have a strongly fixed orthography, either a name is spelled with ü or with ue). The convention in Scandinavian languages is different: there the umlaut vowels are treated as independent letters with positions at the end of the alphabet.
+The ring diacritic used in vowels such as å likewise originated as an o-ligature. Before the replacement of the older 'aa' with 'å' became a de facto practice, an 'a' with another 'a' on top (aͣ) could sometimes be used, for example in Johannes Bureus's, Runa: ABC-Boken (1611). The uo ligature ů in particular saw use in Early Modern High German, but it merged in later Germanic languages with u (e.g. MHG fuosz, ENHG fuͦß, Modern German Fuß "foot"). It survives in Czech, where it is called kroužek.
+The tilde diacritic, used in Spanish as part of the letter ñ, representing the palatal nasal consonant, and in Portuguese for nasalization of a vowel, originated in ligatures where n followed the base letter: Espanna → España. Similarly, the circumflex in French spelling stems from the ligature of a silent s. The French, Portuguese, Catalan and old Spanish letter ç represents a c over a z; the diacritic's name cedilla means 'little zed'.
+The letter hwair (ƕ), used only in transliteration of the Gothic language, resembles a hw ligature. It was introduced by philologists around 1900 to replace the digraph hv formerly used to express the phoneme in question, e.g. by Migne in the 1860s (Patrologia Latina vol. 18).
+The Byzantines had a unique o-u ligature (Ȣ) that, while originally based on the Greek alphabet's ο-υ, carried over into Latin alphabets as well. This ligature is still seen today on icon artwork in Greek Orthodox churches, and sometimes in graffiti or other forms of informal or decorative writing.
+Gha (ƣ), a rarely used letter based on Q and G, was misconstrued by the ISO to be an O-I ligature due to its appearance, and is thus known (to the ISO and, in turn, Unicode) as "Oi."
+The International Phonetic Alphabet formerly used ligatures to represent affricate consonants, of which six are encoded in Unicode: ʣ, ʤ, ʥ, ʦ, ʧ and ʨ. One fricative consonant is still represented with a ligature: ɮ, and the extensions to the IPA contain three more: ʩ, ʪ and ʫ.
+Rarer ligatures also exist, such as ꜳ ; Ꜵꜵ; Ꜷꜷ; Ꜹꜹ; Ꜻꜻ (barred AV); Ꜽꜽ; Ꝏꝏ, which is used in medieval Nordic languages for /oː/ (a long close-mid back rounded vowel), as well as in some orthographies of the Massachusett language to represent /uː/ (a long close back rounded vowel); ᵫ; ᵺ; Ỻỻ, which was used in Medieval Welsh to represent /ɬ/ (the voiceless lateral fricative); Ꜩꜩ; ᴂ; ᴔ; ꭣ; and ꭡ.
+
+
+=== Symbols originating as ligatures ===
+
+The most common ligature is the ampersand &. This was originally a ligature of E and t, forming the Latin word "et", meaning "and". It has exactly the same use in French and in English. The ampersand comes in many different forms. Because of its ubiquity, it is generally no longer considered a ligature, but a logogram.
+Like many other ligatures, it has at times been considered a letter (e.g., in early Modern English); in English it is pronounced "and", not "et", except in the case of &c, pronounced "et cetera". In most fonts, it does not immediately resemble the two letters used to form it, although certain typefaces (such as Trebuchet MS) use the design & in the form of a ligature.
+Similarly, the dollar sign $ possibly originated as a ligature (for "pesos", although there are other theories as well) but is now a logogram.
+The Spanish peseta was sometimes symbolized by a ligature ₧ (from Pts), and the French franc was often symbolized by an F-r ligature (₣).
+Alchemy used a set of mostly standardized symbols, many of which were ligatures: 🜇 (AR, for aqua regia), 🜈 (S inside a V, for aqua vitae), 🝫 (MB, for a marian bath or double boiler), 🝬 (VB, for a vapor bath), and 🝛 (aaa, for amalgam). In astronomy, the dwarf planet Pluto is symbolized by a PL ligature, ♇.
+
+
+=== Digraphs ===
+
+Digraphs, such as ll in Spanish or Welsh, are not ligatures in the general case as the two letters are displayed as separate glyphs: although written together, when they are joined in handwriting or italic fonts the base form of the letters is not changed and the individual glyphs remain separate. Like some ligatures discussed above, these digraphs may or may not be considered individual letters in their respective languages. Until the 1994 spelling reform, the digraphs ch and ll were considered separate letters in Spanish for collation purposes.
+The difference can be illustrated with the French digraph œu, which is composed of the ligature œ and the simplex letter u.
+Dutch ĳ, however, is somewhat more ambiguous. Depending on the standard used, it can be considered a digraph, a ligature or a letter in itself, and its upper case and lower case forms are often available as a single glyph with a distinctive ligature in several professional fonts (e.g. Zapfino). Sans serif uppercase Ĳ glyphs, popular in the Netherlands, typically use a ligature resembling a U with a broken left-hand stroke. Adding to the confusion, Dutch handwriting can render y (which is not found in native Dutch words, but occurs in words borrowed from other languages) as a ĳ-glyph without the dots in its lowercase form and the IJ in its uppercase form looking virtually identical (only slightly bigger). When written/typed as two separate letters, both should be capitalized —or not— to form a correctly spelled word, like IJs or ijs (ice).
+
+
+=== Latin alphabets that use special ligatures ===
+Danish and Norwegian
+Faroese
+French
+German
+Icelandic
+Swedish
+
+
+== Non-Latin alphabets ==
+
+Ligatures are not limited to Latin script:
+The Brahmic abugidas make frequent use of ligatures in consonant clusters. The number of ligatures employed is language-dependent; thus many more ligatures are conventionally used in Devanagari when writing Sanskrit than when writing Hindi. Having 37 consonants in total, the total number of ligatures that can be formed in Devanagari using only two letters is 1369, though few fonts are able to render all of them. In particular, Mangal.ttf, which is included with Microsoft Windows' Indic support, does not correctly handle ligatures with consonants attached to the right of the characters द, ट, ठ, ड, and ढ, leaving the virama attached to them and displaying the following consonant in its standard form.
+Georgian script also includes ligature: უ (uni), is combination of ო (oni) and nowadays removed letter ჳ (vie)
+A number of ligatures have been employed in the Greek alphabet, in particular a combination of omicron (Ο) and upsilon (Υ) which later gave rise to a letter of the Cyrillic script — see Ou (letter). Among the ancient Greek acrophonic numerals, ligatures were common (in fact, the ligature of a short-legged capital pi was a key feature of the acrophonic numeral system).
+Cyrillic ligatures: Љ, Њ, Ы, Ѿ. Iotified Cyrillic letters are ligatures of the early Cyrillic decimal I and another vowel: Ꙗ (ancestor of Я), Ѥ, Ѩ, Ѭ, Ю (descended from another ligature, Оу, an early version of У). Two letters of the Macedonian and Serbian Cyrillic alphabets, lje and nje (љ, њ), were developed in the nineteenth century as ligatures of Cyrillic El and En (л, н) with the soft sign (ь). A ligature of ya (Я) and e also exists: Ԙԙ, as do some more ligatures: Ꚅꚅ and Ꚉꚉ.
+Some forms of the Glagolitic script, used from Middle Ages to the 19th century to write some Slavic languages, have a box-like shape that lends itself to more frequent use of ligatures.
+In the Hebrew alphabet, the letters aleph א and lamed ל can form a ligature (ﭏ). The ligature appears in some pre-modern texts (mainly religious), or in Judeo-Arabic texts, where that combination is very frequent, since [ʔ] [a]l- (written aleph plus lamed, in the Hebrew script) is the definite article in Arabic.
+In the Arabic alphabet, historically a cursive derived from the Nabataean alphabet, most letters' shapes depend on whether they are followed (word-initial), preceded (word-final) or both (medial) by other letters. For example, Arabic mīm, isolated م, tripled (mmm, rendering as initial, medial and final): ممم . Notable are the shapes taken by lām + ʼalif isolated: ﻻ, and lām + ʾalif medial or final: ﻼ. Unicode has a special Allah ligature at U+FDF2: ﷲ.
+Urdu (one of the main languages of South Asia), which uses a calligraphic version of the Arabic-based Nasta`liq script, requires a great number of ligatures in digital typography. InPage, a widely used desktop publishing tool for Urdu, uses Nasta`liq fonts with over 20,000 ligatures.
+In ASL, a ligature of the American manual alphabet is used to sign 'I love you', from the English initialism ILY. It consists of the little finger of the letter I plus the thumb and forefinger of the letter L. The letter Y (little finger and thumb) overlaps with the other two letters.
+The Japanese language uses two ligatures, one for hiragana, ゟ, which is a vertical writing ligature of the characters よ and り, and one for katakana, ヿ, which is a vertical writing ligature of the characters コ and ト. Both ligatures have fallen out of use in modern Japanese.
+Lao uses three ligatures, all comprising the letter ຫ (h). As a tonal language, most consonant sounds in Lao are represented by two consonants, which will govern the tone of the syllable. Five consonant sounds are only represented by a single consonant letter (ງ (ŋ), ນ (m), ມ (n), ລ (l), ວ (w)), meaning that one cannot render all the tones for words beginning with these sounds. A silent ຫ indicates that the syllable should be read with the tone rules for ຫ, rather than those of the following consonant. Three consonants can form ligatures with the letter ຫ. ຫ+ນ=ໜ (n), ຫ+ມ=ໝ (m) and ຫ+ລ=ຫຼ (l). ງ (ŋ) and ວ (w) just form clusters: ຫງ (ŋ) and ຫວ (w). ລ (l) can also be used written in a cluster rather than as a ligature: ຫລ (l).
+In many runic texts ligatures are common. Such ligatures are known as bind-runes and were optional.
+
+
+=== Chinese ligatures ===
+
+Written Chinese has a long history of creating new characters by merging parts or wholes of other Chinese characters. However, a few of these combinations do not represent morphemes but retain the original multi-character (multiple morpheme) reading and are therefore not considered true characters themselves. In Chinese, these ligatures are called héwén (合文) or héshū (合書); see polysyllabic Chinese characters for more.
+One popular ligature used on chūntiē decorations used for Chinese Lunar New Year is a combination of the four characters for zhāocái jìnbǎo (招財進寶), meaning "ushering in wealth and fortune" and used as a popular New Year's greeting.
+
+In 1924, Du Dingyou (杜定友; 1898–1967) created the ligature "圕" from two of the three characters 圖書館 (túshūguǎn), meaning "library". Although it does have an assigned pronunciation of tuān and appears in many dictionaries, it is not a morpheme and cannot be used as such in Chinese. Instead, it is usually considered a graphic representation of túshūguǎn.
+In recent years, a Chinese internet meme, the Grass Mud Horse, has had such a ligature associated with it combining the three relevant Chinese characters 草, 泥, and 马 (Cǎonímǎ).
+Similar to the ligatures were several "two-syllable Chinese characters" (雙音節漢字) created in the 19th century as Chinese characters for SI units. In Chinese these units are disyllabic and standardly written with two characters, as 厘米 límǐ 'centimeter' (厘 centi-, 米 meter) or 千瓦 qiānwǎ 'kilowatt'. However, in the 19th century these were often written via compound characters, pronounced disyllabically, such as 瓩 for 千瓦 or 糎 for 厘米 – some of these characters were also used in Japan, where they were pronounced with borrowed European readings instead. These have now fallen out of general use, but are occasionally seen.
+
+
+== Computer typesetting ==
+TeX is an example of a computer typesetting system that makes use of ligatures automatically. The Computer Modern Roman typeface provided with TeX includes the five common ligatures ff, fi, fl, ffi, and ffl. When TeX finds these combinations in a text it substitutes the appropriate ligature, unless overridden by the typesetter. Opinion is divided over whether it is the job of writers or typesetters to decide where to use ligatures.
+
+The OpenType font format includes features for associating multiple glyphs to a single character, used for ligature substitution. Typesetting software may or may not implement this feature, even if it is explicitly present in the font's metadata. XeTeX is a TeX typesetting engine designed to make the most of such advanced features. This type of substitution used to be needed mainly for typesetting Arabic texts, but ligature lookups and substitutions are being put into all kinds of Western Latin OpenType fonts. In OpenType, There are standard liga, historical hlig, contextual clig and discretionary dlig ligatures. These can be enabled in CSS3 using font-feature-settings.
+CSS also support font-variant-ligatures. common-ligatures, discretionary-ligatures, historical-ligatures and contextual are supported.
+This table below shows discrete letter pairs on the left, the corresponding Unicode ligature in the middle column, and the Unicode code point on the right. Provided you are using an operating system and browser that can handle Unicode, and have the correct Unicode fonts installed, some or all of these will display correctly. See also the provided graphic.
+Unicode maintains that ligaturing is a presentation issue rather than a character definition issue, and that, for example, "if a modern font is asked to display 'h' followed by 'r', and the font has an 'hr' ligature in it, it can display the ligature." Accordingly, the use of the special Unicode ligature characters is "discouraged", and "no more will be encoded in any circumstances". Note however that ligatures such as æ and œ are never used to replace arbitrary 'ae' or 'oe' sequences – 'does' can never be written 'dœs'.
+
+Notably, Microsoft Word does not enable ligatures by default, partly for backward compatibility reasons due to its long history. This can be changed from the Advanced tab of the Font dialog box.
+
+
+=== Ligatures in Unicode (Latin alphabets) ===
+
+Also, there are separate code points for the digraph DZ and for the Bosnian, Croatian, Serbian digraphs DŽ, LJ, and NJ. They are not ligatures but digraphs. See Digraphs in Unicode.
+Ligatures used only in phonetic transcription
+
+U+0238 and U+0239 are called digraphs, but are actually ligatures.
+
+
+== Modern art ==
+Typographic ligatures can be used as a form of modern art, as can be illustrated by Chinese artist Xu Bing's work in which he combines Latin letters to form characters that resembles Chinese.
+
+
+== See also ==
+Complex text layout
+List of words that may be spelled with a ligature
+Monogram
+Sigla
+Kerning
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Typedesk.com, Type Desk on ligatures
+Ilovetypography.com, Decline and Fall of the Ligature
+http://blogs.msdn.com/b/fontblog/archive/2006/08/10/missed-opportunity-for-ligatures.aspx

@@ -1,0 +1,42 @@
+Annual average daily traffic, abbreviated AADT, is a measure used primarily in transportation planning and transportation engineering. Traditionally, it is the total volume of vehicle traffic of a highway or road for a year divided by 365 days. AADT is a useful and simple measurement of how busy the road is. Newer advances from traffic data providers are now providing AADT by side of the road, by day of week and by time of day.
+
+
+== Uses ==
+
+One of the most important uses of AADT is for determining funding for the maintenance and improvement of Highways.
+In the United States the amount of federal funding a state will receive is related to the total traffic measured across its Highway network. Each year on June 15, every state in the United States submits a Highway Performance Monitoring System HPMS report. The HPMS report contains various information regarding the road segments in the state based on a sample (not all of the road segments) of the road segments. In the report, the AADT is converted to Vehicle Miles Traveled (VMT). VMT is the AADT multiplied by the length of the road segment. To determine the amount of traffic a state has, the AADT cannot be summed for all road segments since an AADT is a rate. The VMT is summed and is used as an indicator of the amount of traffic a state has. For federal-funding, formulas are applied to include the VMT and other highway statistics.
+In the United Kingdom AADT is one of a number of measures of traffic used by Local Highway Authorities, the Highways Agency and the Department for Transport to forecast maintenance needs and expenditure.
+
+
+== Data collection ==
+
+To measure AADT on individual road segments, traffic data is collected either by an automated traffic counter or hiring an observer to record traffic. There are two different techniques of measuring the AADTs for road segments. One technique is called continuous count data collection method. This is where sensors are permanently embedded into a road and traffic data is measured all 365 days. The AADT would be the sum of the total traffic for the entire year divided by 365 days. There is a problem with calculating the AADT with this method. The continuous count equipment is not operating for the full 365 days due to being shut down for maintenance or repair. Because of this, seasonal or day-of-week biases might skew the calculated AADT. In 1992, AASHTO released the AASHTO Guidelines for Traffic Data Programs, which identified a way to produce an AADT without seasonal or day-of-week biases by creating an "average of averages." For every month and day-of-week, a Monthly Average Day of Week (MADW) is calculated (84 per year). Each day-of-week's MADW is then calculated across months to calculate an Annual Average Day of Week (AADW) (7 per year). Finally, the AADWs are averaged to calculate an AADT. The United States Federal Highway Administration (FHWA) has adopted this method as the preferred method in the [FHWA Traffic Monitoring Guide][1].
+While providing the most accurate AADT, installing and maintaining continuous count stations method is costly. Most agencies are only able to monitor a very small percentage of the roadway using this method. Most AADTs are generated using short-term data collection methods sometimes known as the coverage count data collection method. Traffic is collected with portable sensors that are attached to the road and record traffic data typically for 2 – 14 days. These are typically pneumatic road tubes although other more expensive technology such as radar, laser, or sonar exist. After recording the traffic data, the traffic counts on the same road segment are taken again in another three years. FHWA Traffic Monitoring Guide [2] recommends performing a short count on a road segment at a minimum of every three years. There are many methods used to calculate an AADT from a short-term count, but most methods attempt to remove seasonal and day-of-week biases during the collection period by applying factors created from associated continuous counters. Short counts are taken either by state agencies, local government, or contractors.
+For the years when a traffic count is not recorded, the AADT is often estimated by applying a factor called the Growth Factor. Growth Factors are statistically determined from historical data of the road segment. If there is no historical data, Growth Factors from similar road segments are used.
+
+
+== Annual Average Weekday Traffic (AAWT) ==
+Annual average weekday traffic (AAWT) is similar to AADT but only includes Monday to Friday data. Public holidays are often excluded from the AAWT calculation.
+
+
+== Average summer daily traffic ==
+Average summer daily traffic (abbreviated to ASDT) is a similar measure to the annual average daily traffic. Data collecting methods of the two are exactly the same, however the ASDT data is collected during summer only. The measure is useful in areas where there are significant seasonal traffic volumes carried by a given road.
+
+
+== Average Daily Traffic ==
+Average daily traffic or ADT, and sometimes also mean daily traffic, is the average number of vehicles two-way passing a specific point in a 24-hour period, normally measured throughout a year. ADT is not as highly referred to as the engineering standard of AADT which is the standard measurement for vehicle traffic load on a section of road, and the basis for most decisions regarding transport planning, or to the environmental hazards of pollution related to road transport.
+
+
+== References ==
+
+The 1992 Edition of the AASHTO Guidelines is out of date. The current edition is from 2009. The Gary Davis article was published in Transportation Research Record 1593, 1997. the date currently shown in the article is the date of an on-line posting.
+
+
+== External links ==
+Florida
+New York State - Traffic Data Viewer - interactive map program graphically displays traffic data
+Oklahoma
+Virginia
+FHWA Traffic Monitoring Guide
+New Zealand State Highway AADTs
+Louisiana AADTs

@@ -1,0 +1,45 @@
+In computer architecture, 32-bit integers, memory addresses, or other data units are those that are at most 32 bits (4 octets) wide. Also, 32-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. 32-bit is also a term given to a generation of microcomputers in which 32-bit microprocessors are the norm.
+A 32-bit register can store 232 different values. The signed range of integer values that can be stored in 32 bits is -2,147,483,648 (-1 × 231) through 2,147,483,647 (231 - 1); the unsigned range is 0 through 4,294,967,295 (232 - 1). Since 232 is 4,294,967,296, a processor with 32-bit memory addresses can directly access 4 GiB of byte-addressable memory.
+
+
+== Some historical and technical perspective ==
+Memory as well as other digital electronic circuits and wiring was expensive during the first decades of 32-bit architectures (the 1960s to the 1980s). Older 32-bit processor families (or simpler and cheaper variants thereof) could therefore have many compromises and limitations in order to cut costs. This could be 16-bit ALU, for instance, or external (or internal) buses narrower than 32 bits, limiting memory size or demanding more cycles for instruction fetch, execution and/or write back.
+Despite this, such processors could be labeled "32-bit" based on the fact that they still had 32-bit registers and instructions able to manipulate 32-bit quantities. As an example from the late 1970s, the original Motorola 68000 was a 16-bit based design with 32-bit registers and a 32-bit based instruction set. Such designs were sometimes referred to as "16/32-bit".
+However, the opposite is often true for newer 32-bit designs. For example, the Pentium Pro processor is a 32-bit machine, but the external address bus is 36 bits wide, giving a larger address space than 4 GB, and the external data bus is 64 bits wide, primarily in order to permit a more efficient prefetch of instructions and data.
+
+
+== Architectures ==
+Prominent 32-bit instruction set architectures used in general-purpose computing include the IBM System/360 and its 32-bit successors, the DEC VAX, the NS320xx, the Motorola 68000 family, the Intel IA-32 32-bit version of the x86 architecture, and the 32-bit versions of the ARM, SPARC, MIPS, PowerPC and PA-RISC architectures. 32-bit instruction set architectures used for embedded computing include the 68000 family and ColdFire, x86, ARM, MIPS, PowerPC, and Infineon TriCore architectures.
+
+
+== 32-bit application ==
+On the x86 architecture, a 32-bit application normally means software that typically (not necessarily) uses the 32-bit linear address space (or flat memory model) possible with the 80386 and later chips. In this context, the term came about because DOS, Microsoft Windows and OS/2 were originally written for the 8088/8086 and/or 80286, 16-bit microprocessors with a segmented address space where programs had to switch between segments to reach more than 64 kilobytes of code and/or data. As this is quite time-consuming in comparison to other machine operations, the performance may suffer. Furthermore, programming with segments tend to become complicated; special far and near keywords and/or memory models had to be used (with care), not only in assembly language but also in high level languages such as Pascal, compiled BASIC, Fortran, C, etc.
+The 80386 and its successors fully support the 16-bit segments of the 80286 but also segments for 32-bit address offsets (using the new 32-bit width of the main registers). If the base address of all 32-bit segments is set to 0, and segment registers are not used explicitly, the segmentation can be forgotten and the processor appears as having a simple linear 32-bit address space. Operating systems like Windows or OS/2 provide the possibility to run 16-bit (segmented) programs as well as 32-bit programs. The former possibility exists for backward compatibility and the latter is usually meant to be used for new software development.
+
+
+== Images ==
+In digital images/pictures, 32-bit usually refers to RGBA color space -- 24-bit truecolor images with an 8-bit alpha channel—i.e., 8 bits each for red, green, blue, and transparency; a total of 32 bits per pixel. A few other much more rarely used images formats also require 32 bits per pixel, such as RGBE image format.
+In digital images, 32-bit sometimes refers to high-dynamic-range imaging formats that use 32 bits per channel—a total of 96 bits per pixel. 32-bit per channel images are used to represent values brighter than white; these values can then be used to more accurately retain bright highlights when either lowering the exposure of the image or when it is seen through a dark filter or dull reflection.
+An example of this is the reflection seen in an oil slick; even though the reflection is only a fraction of that seen in a mirror surface, the reflection of highlights can still be seen as bright white areas, not dull grey shapes.
+
+
+== 32-bit file format ==
+A 32-bit file format is a binary file format for which each elementary information is defined on 32 bits (or 4 Bytes). An example of such a format is the Enhanced Metafile Format.
+
+
+== See also ==
+16-bit
+64-bit
+History of video games (32-bit era)
+Word (data type)
+Physical Address Extension (PAE)
+
+
+== References ==
+
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+
+
+== External links ==
+HOW Stuff Works "How Bits and Bytes work"
+Ken Colburn on LockerGnome.com: 32-Bit Vs. 64-Bit Windows

@@ -23,16 +23,21 @@ class MySentences(object):
 
 class WordVectorModel(object):
 
-    def __init__(self,files_path="../Ressources/",name='word2Vec',save_path='../Models/'):
+    def __init__(self,files_path="../Ressources/",name='word2Vec',save_path='../Models/',existing_model=False):
         self.name = name
         self.files_path = files_path
         self.save_path = save_path
-        self.model=[]
+        if existing_model:
+            self.model = gs.models.Word2Vec.load(save_path+'model_w2v_'+name)
+        else:
+            self.model = []
 
 
-    def train(self,path='../Ressources/',modelName='word2Vec',min_count=5,workers=5):
+    def train(self,path='../Ressources/',modelName='word2Vec',min_count=5,workers=5,end_train=True):
         sentences = MySentences(path)
         self.model = gs.models.Word2Vec(sentences,min_count=min_count,workers=workers)
+        if end_train:
+            self.model.init_sims(replace=True)
         print 'model trained'
 
     def save(self):
@@ -60,11 +65,10 @@ class WordVectorModel(object):
         return wikiTopics
 
 
-
     def predict_answer(self, source='training',result_file='answers.csv'):
         # source must be 'training' or 'validation'
         res = np.zeros([2, 3]).astype('int')
-        data_set = aux.processData('../Data/'+source+'_set.tsv')
+        data_set = aux.preprocessData('../Data/'+source+'_set.tsv')
         replies = ['A', 'B', 'C', 'D']
         goodAnswersCount = 0
         unknowWordsCount = 0
@@ -135,3 +139,64 @@ class WordVectorModel(object):
                        res[1,row['type']]+=1
 
         return [goodAnswersCount,unknowWordsCount,unknowWords,res]
+
+
+    def predict_prob(self, source='training',result_file='answers.csv'):
+        # source must be 'training' or 'validation'
+        data_set = aux.preprocessData('../Data/'+source+'_set.tsv')
+        replies = ['A', 'B', 'C', 'D']
+        probs=[]
+        for index, row in data_set.iterrows():
+            prob=[]
+            r = -1
+            row['question'] = row['question'].replace('. ', ' . ').replace('-', ' - ').replace('.', ' .').replace('_', ' ').lower()
+            if (row['question'][-1]=='.'):
+                row['question']=row['question'][:-1]+' . '
+            for word in nt.word_tokenize(row['question']):
+                try:
+                    self.model[word]
+                except:
+                    row['question'] = row['question'].replace(word, '')
+
+            for reply in replies:
+                r_current = -1
+                ans = row['answer' + reply].replace('-', ' - ').replace('. ', ' . ').lower()
+                if (ans[-1]=='.'):
+                    ans=ans[:-1]+' . '
+                for word in nt.word_tokenize(ans):
+                    try:
+                        self.model[word]
+                    except:
+                        ans = ans.replace(word, '')
+                try:
+                    ans = nt.word_tokenize(ans)
+                    if ans==[]:
+                        continue
+                    if row['type'] != 1:
+                        quest = nt.word_tokenize(row['question'])
+                        r_current = np.exp(self.model.n_similarity(quest, ans))
+                    else:
+                        ind = row['question'].find('   ')
+
+                        if row['question'][ind + 1:].split() == []:
+                            r_current = np.exp(self.model.n_similarity(nt.word_tokenize(row['question']), ans))
+
+                        elif row['question'][0:ind].split() == []:
+                            r_current = np.exp(self.model.n_similarity(nt.word_tokenize(row['question'][ind:]), ans))
+
+                        else:
+                            r_current = np.exp(self.model.n_similarity(nt.word_tokenize(row['question'][0:ind]),
+                                                           ans)) * np.exp(self.model.n_similarity(nt.word_tokenize(row['question'][ind:]),
+                                                                                     ans))
+                except:
+                    ()
+                prob.append(r_current)
+                if r_current > r:
+                    r = r_current
+                # c
+            ptot = sum(prob)
+            prob= [ p/ptot for p in prob]
+            probs.append(prob)
+
+
+        return probs

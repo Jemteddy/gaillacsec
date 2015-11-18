@@ -1,0 +1,17 @@
+A pseudocount is an amount (not generally an integer, despite its name) added to the number of observed cases in order to change the expected probability in a model of those data, when not known to be zero. Depending on the prior knowledge, which is sometimes a subjective value, a pseudocount may have any non-negative finite value. It may only be zero (or the possibility ignored) if impossible by definition, such as the possibility of a decimal digit of pi being a letter, or a physical possibility that would be rejected and so not counted, such as a computer printing a letter when a valid program for pi is run, or excluded and not counted because of no interest, such as if only interested in the zeros and ones. Generally, there is also a possibility that no value may be computable or observable in a finite time (see Turing's halting problem). But at least one possibility must have a non-zero pseudocount, otherwise no prediction could be computed before the first observation. The relative values of pseudocounts represent the relative prior expected probabilities of their possibilities. The sum of the pseudocounts, which may be very large, represents the estimated weight of the prior knowledge compared with all the actual observations (one for each) when determining the expected probability.
+In any observed data set or sample there is the possibility, especially with low-probability events and with small data sets, of a possible event not occurring. Its observed frequency is therefore zero, apparently implying a probability of zero. This is an oversimplification, which is inaccurate and often unhelpful, particularly in probability-based machine learning techniques such as artificial neural networks and hidden Markov models. By artificially adjusting the probability of rare (but not impossible) events so those probabilities are not exactly zero, zero-frequency problems are avoided. Also see Cromwell's Rule.
+The simplest approach is to add one to each observed number of events including the zero-count possibilities. This is sometimes called Laplace's Rule of Succession. It is a type of additive smoothing.
+More generally and accurately, the pseudocounts should be set in proportion to the prior estimate of their probabilities; equal only if there is no prior reason to prefer one over another; each being one only when there is no prior knowledge at all — see the principle of indifference. However, given appropriate prior knowledge, the sum should be adjusted in proportion to the expectation that the prior probabilities should be considered correct, despite evidence to the contrary — see further analysis. Higher values are appropriate inasmuch as there is prior knowledge of the true values (for a mint condition coin, say); lower values inasmuch as there is prior knowledge that there is probable bias, but of unknown degree (for a bent coin, say).
+A more complex approach is to estimate the probability of the events from other factors and adjust accordingly.
+
+
+== See also ==
+Prior probability
+n-gram
+Offset
+Substitution matrix
+
+
+== External links ==
+Pseudocounts
+Bayesian interpretation of pseudocount regularizers

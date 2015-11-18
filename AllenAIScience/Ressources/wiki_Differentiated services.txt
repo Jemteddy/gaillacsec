@@ -1,0 +1,107 @@
+Differentiated services or DiffServ is a computer networking architecture that specifies a simple, scalable and coarse-grained mechanism for classifying and managing network traffic and providing quality of service (QoS) on modern IP networks. DiffServ can, for example, be used to provide low-latency to critical network traffic such as voice or streaming media while providing simple best-effort service to non-critical services such as web traffic or file transfers.
+DiffServ uses a 6-bit differentiated services code point (DSCP) in the 8-bit differentiated services field (DS field) in the IP header for packet classification purposes. The DS field and ECN field replace the outdated IPv4 TOS field.
+
+
+== BackgroundEdit ==
+Since modern data networks carry many different types of services, including voice, video, streaming music, web pages and email, many of the proposed QoS mechanisms that allowed these services to co-exist were both complex and failed to scale to meet the demands of the public Internet. In December 1998, the IETF published RFC 2474 - Definition of the Differentiated services field (DS field) in the IPv4 and IPv6 headers, which replaced the IPv4 TOS field with the DS field. In the DS field, a range of eight values (Class Selectors) is used for backward compatibility with the IP precedence specification in the former TOS field. Today, DiffServ has largely supplanted TOS and other layer-3 QoS mechanisms, such as integrated services (IntServ), as the primary architecture routers use to provide different levels of service.
+
+
+== Traffic management mechanismsEdit ==
+DiffServ is a coarse-grained, class-based mechanism for traffic management. In contrast, IntServ is a fine-grained, flow-based mechanism. DiffServ relies on a mechanism to classify and mark packets as belonging to a specific class. DiffServ-aware routers implement per-hop behaviors (PHBs), which define the packet-forwarding properties associated with a class of traffic. Different PHBs may be defined to offer, for example, low-loss or low-latency.
+DiffServ operates on the principle of traffic classification, where each data packet is placed into a limited number of traffic classes, rather than differentiating network traffic based on the requirements of an individual flow. Each router on the network is configured to differentiate traffic based on its class. Each traffic class can be managed differently, ensuring preferential treatment for higher-priority traffic on the network. The premise of Diffserv is that complicated functions such as packet classification and policing can be carried out at the edge of the network by edge routers who then mark the packet to receive a particular type of per-hop behavior. Core router functionality can then be kept simple. No classification and policing is required. Such routers simply apply PHB treatment to packets based on the marking. PHB treatment is achieved by core routers using a combination of scheduling policy and queue management policy.
+While DiffServ does recommend a standardized set of traffic classes, the DiffServ architecture does not incorporate predetermined judgements of what types of traffic should be given priority treatment. DiffServ simply provides a framework to allow classification and differentiated treatment. The standard traffic classes (discussed below) serve to simplify interoperability between different networks and different vendors' equipment.
+
+
+== DiffServ domainEdit ==
+A group of routers that implement common, administratively defined DiffServ policies are referred to as a DiffServ domain.
+
+
+== Classification and markingEdit ==
+Network traffic entering a DiffServ domain is subjected to classification and conditioning. Traffic may be classified by many different parameters, such as source address, destination address or traffic type and assigned to a specific traffic class. Traffic classifiers may honor any DiffServ markings in received packets or may elect to ignore or override those markings. Because network operators want tight control over volumes and type of traffic in a given class, it is very rare that the network honors markings at the ingress to the DiffServ domain. Traffic in each class may be further conditioned by subjecting the traffic to rate limiters, traffic policers or shapers.
+The Per-Hop Behavior is determined by the DS field of the IP header. The DS field contains a 6-bit Differentiated Services Code Point (DSCP) value. Explicit Congestion Notification (ECN) occupies the least-significant 2 bits of the IPv4 Type of Service field (TOS) and IPv6 Traffic Class field (TC).
+In theory, a network could have up to 64 (i.e. 26) different traffic classes using different DSCPs. The DiffServ RFCs recommend, but do not require, certain encodings. This gives a network operator great flexibility in defining traffic classes. In practice, however, most networks use the following commonly defined Per-Hop Behaviors:
+Default PHB—which is typically best-effort traffic
+Expedited Forwarding (EF) PHB—dedicated to low-loss, low-latency traffic
+Assured Forwarding (AF) PHB—gives assurance of delivery under prescribed conditions
+Class Selector PHBs—which maintain backward compatibility with the IP Precedence field.
+
+
+=== Default PHBEdit ===
+A Default PHB (a.k.a. Default Forwarding (DF) PHB) is the only required behavior. Essentially, any traffic that does not meet the requirements of any of the other defined classes is placed in the default PHB. Typically, the default PHB has best-effort forwarding characteristics. The recommended DSCP for the default PHB is 000000B (0).
+
+
+=== Expedited Forwarding (EF) PHBEdit ===
+The IETF defines Expedited Forwarding behavior in RFC 3246. The EF PHB has the characteristics of low delay, low loss and low jitter. These characteristics are suitable for voice, video and other realtime services. EF traffic is often given strict priority queuing above all other traffic classes. Because an overload of EF traffic will cause queuing delays and affect the jitter and delay tolerances within the class, EF traffic is often strictly controlled through admission control, policing and other mechanisms. Typical networks will limit EF traffic to no more than 30%—and often much less—of the capacity of a link. The recommended DSCP for expedited forwarding is 101110B (46 or 2EH).
+
+
+=== Voice Admit (VA) PHBEdit ===
+The IETF defines Voice Admit behavior in RFC 5865. The Voice Admit PHB has identical characteristics to the Expedited Forwarding PHB. However Voice Admit traffic is also admitted by the network using a Call Admission Control (CAC) procedure. The recommended DSCP for voice admit is 101100B (44 or 2CH).
+
+
+=== Assured Forwarding (AF) PHB groupEdit ===
+The IETF defines the Assured Forwarding behavior in RFC 2597 and RFC 3260. Assured forwarding allows the operator to provide assurance of delivery as long as the traffic does not exceed some subscribed rate. Traffic that exceeds the subscription rate faces a higher probability of being dropped if congestion occurs.
+The AF behavior group defines four separate AF classes where all have the same priority. Within each class, packets are given a drop precedence (high, medium or low, where higher precedence means more dropping). The combination of classes and drop precedence yields twelve separate DSCP encodings from AF11 through AF43 (see table).
+Some measure of priority and proportional fairness is defined between traffic in different classes. Should congestion occur between classes, the traffic in the higher class is given priority. Rather than using strict priority queuing, more balanced queue servicing algorithms such as fair queuing or weighted fair queuing (WFQ) are likely to be used. If congestion occurs within a class, the packets with the higher drop precedence are discarded first. To prevent issues associated with tail drop, more sophisticated drop selection algorithms such as random early detection (RED) are often used.
+
+
+=== Class Selector (CS) PHBEdit ===
+Prior to DiffServ, IPv4 networks could use the Precedence field in the TOS byte of the IPv4 header to mark priority traffic. The TOS octet and IP precedence were not widely used. The IETF agreed to reuse the TOS octet as the DS field for DiffServ networks. In order to maintain backward compatibility with network devices that still use the Precedence field, DiffServ defines the Class Selector PHB.
+The Class Selector code points are of the form 'xxx000'. The first three bits are the IP precedence bits. Each IP precedence value can be mapped into a DiffServ class. CS0 equals to IP precedence 0, CS1 to IP precedence 1, and so on. If a packet is received from a non-DiffServ aware router that used IP precedence markings, the DiffServ router can still understand the encoding as a Class Selector code point.
+
+
+=== Commonly Used DSCP ValuesEdit ===
+List of the commonly used DSCP values described in RFC 2475.
+
+
+== Design considerationsEdit ==
+Under DiffServ, all the policing and classifying is done at the boundaries between DiffServ domains. This means that in the core of the Internet, routers are unhindered by the complexities of collecting payment or enforcing agreements. That is, in contrast to IntServ, DiffServ requires no advance setup, no reservation, and no time-consuming end-to-end negotiation for each flow.
+The details of how individual routers deal with the DS field is configuration specific, therefore it is difficult to predict end-to-end behaviour. This is complicated further if a packet crosses two or more DiffServ domains before reaching its destination. From a commercial viewpoint this means that it is impossible to sell different classes of end-to-end connectivity to end users, as one provider's Gold packet may be another's Bronze. DiffServ or any other IP based QoS marking does not ensure quality of the service or a specified service-level agreement (SLA). By marking the packets, the sender indicates that it wants the packets to be treated as a specific service, but it can only hope that this happens. It is up to all the service providers and their routers in the path to ensure that their policies will take care of the packets in an appropriate fashion.
+The problem addressed by DiffServ does not exist in a system that has enough capacity to carry all traffic.
+
+
+== Bandwidth brokerEdit ==
+RFC 2638 from IETF defines the entity of the Bandwidth Broker in the framework of DiffServ. A Bandwidth Broker is an agent that has some knowledge of an organization's priorities and policies and allocates bandwidth with respect to those policies. In order to achieve an end-to-end allocation of resources across separate domains, the Bandwidth Broker managing a domain will have to communicate with its adjacent peers, which allows end-to-end services to be constructed out of purely bilateral agreements.
+
+
+== DiffServ RFCsEdit ==
+RFC 2474—Definition of the differentiated services field (DS field) in the IPv4 and IPv6 headers
+RFC 2475—An architecture for differentiated services
+RFC 2597—Assured forwarding PHB group
+RFC 2983—Differentiated services and tunnels
+RFC 3086—Definition of differentiated services per domain behaviors and rules for their specification
+RFC 3140—Per hop behavior identification codes (Obsoletes RFC 2836)
+RFC 3246—An expedited forwarding PHB (Obsoletes RFC 2598)
+RFC 3247—Supplemental information for the new definition of the EF PHB (expedited forwarding per-hop behavior)
+RFC 3260—New Terminology and Clarifications for Diffserv (Updates RFC 2474, RFC 2475 and RFC 2597)
+RFC 4594—Configuration Guidelines for DiffServ Service Classes
+RFC 5865—A differentiated services code point (DSCP) for capacity-admitted traffic (updates RFC 4542 and RFC 4594)
+
+
+=== DiffServ Management RFCsEdit ===
+RFC 3289—Management information base for the differentiated services architecture
+RFC 3290—An informal management model for differentiated services routers
+RFC 3317—Differentiated services quality of service policy information base
+
+
+== See alsoEdit ==
+Class of service
+Teletraffic engineering
+Traffic shaping
+Type of service
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+John Evans; Clarence Filsfils (2007). Deploying IP and MPLS QoS for Multiservice Networks: Theory and Practice. Morgan Kaufmann. ISBN 0-12-370549-5. 
+Kalevi Kilkki (1999). Differentiated services for the Internet. Macmillan Technical Publishing. ISBN 1-57870-132-5. 
+
+
+== External linksEdit ==
+IETF DiffServ Working Group page
+Cisco Whitepaper—DiffServ-The Scalable End-to-End Quality of Service Model
+ACM SIGCOMM'09 paper-Modeling and Understanding End-to-End Class of Service Policies in Operational Networks: proposes a practical model for extracting DiffServ policies
+Cisco: Implementing Quality of Service Policies with DSCP
+Cisco: DiffServ QoS recommendations, based on the guideline from RFC 4594
+Blocking ASPROX_SQL injection attacks by configuring Cisco Routers, CiscoNews, blogs.

@@ -1,0 +1,33 @@
+The Dobson unit (DU) is a unit of measurement of the columnar density of a trace gas in the Earth's atmosphere. It originated, and continues to be widely used, as a measure of total-column ozone, which is dominated by ozone in the stratospheric ozone layer. One Dobson unit refers to a layer of gas that would be 10 µm thick under standard temperature and pressure, sometimes referred to as a 'milli-atmo-centimeter.' For example, 300 DU of ozone brought down to the surface of the Earth at 0 °C would occupy a layer only 3 mm thick. One DU is 2.69×1016 ozone molecules per square centimetre, or 2.69×1020 per square metre. This is 0.4462 millimoles of ozone per square metre.
+
+
+== HistoryEdit ==
+The Dobson unit is named after Gordon Dobson, who was a researcher at the University of Oxford. In the 1920s, he built the first instrument to measure total ozone from the ground, now called the Dobson ozone spectrophotometer.
+
+
+== OzoneEdit ==
+A baseline value of 220 DU is chosen as the starting point for an ozone hole since total ozone values of less than 220 Dobson units were not found in the historic observations over Antarctica prior to 1979. Also, from direct measurements over Antarctica, a column ozone level of less than 220 Dobson units is a result of the ozone loss from chlorine and bromine compounds.
+
+
+== Sulfur dioxideEdit ==
+In addition, Dobson units are often used to describe total column densities of sulfur dioxide, which occurs in the atmosphere in small amounts due to the combustion of fossil fuels, from biological processes releasing dimethyl sulfide, or by natural combustion such as forest fires. Large amounts of sulfur dioxide may be released into the atmosphere as well by volcanic eruptions. The Dobson unit is used to describe total column amounts of sulfur dioxide because it appeared in the early days of ozone remote sensing on ultraviolet satellite instruments (such as TOMS).
+
+
+== DerivationEdit ==
+The Dobson Unit arises from the ideal gas law. From the real gas law:
+
+where P and V are pressure and volume, respectively, and n, R and T are the number of moles of gas, the gas constant (8.314 J/mol K), and T is temperature in Kelvin (K).
+The number density of air is the number of molecules or atoms per unit volume:
+
+and when plugged into the real gas law, the number density of air is found by using pressure, temperature and the real gas constant.
+
+The number density (molecules/volume) of air at standard temperature and pressure (T = 273K and P = 101325 Pa) is, by using this equation:
+
+With some unit conversions of Joules to Pascals, the equation for molecules/volume is
+
+A Dobson Unit is the total amount of a trace gas per unit area. In atmospheric sciences, this is referred to as a column density. How, though, do we go from units of molecules per cubic meter, a volume, to molecules per square centimeter, an area? This must be done by integration. To get a column density, we must integrate the total column over a height. Per the definition of Dobson Units, we see that 1 DU = 0.01 mm of trace gas when compressed down to sea level at standard temperature and pressure. So if we integrate our number density of air from 0 to 0.01 mm, we find the number density which is equal to 1 DU:
+
+And thus we come up with the value of 1 DU, which is 2.69×1020 molecules per meter squared.
+
+
+== ReferencesEdit ==

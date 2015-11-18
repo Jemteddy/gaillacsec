@@ -1,0 +1,46 @@
+A motor capacitor, such as a start capacitor or run capacitor (including a dual run capacitor) is an electrical capacitor that alters the current to one or more windings of a single phase AC induction motor to create a rotating magnetic field. There are two common types of motor capacitors, run capacitors and start capacitors. The units of capacitance are labeled in microfarads (µF or uF). Older capacitors may be labeled with the obsolete terms "mfd" or "MFD", which means microfarad.
+Motor capacitors are used with air conditioners, hot tub/jacuzzi spa pumps, or forced air heat furnaces for example. A "dual run capacitor" is used in some air conditioner compressor units, to boost both the fan and compressor motors.
+
+
+== Run capacitors ==
+Some single-phase AC electric motors require a "run capacitor" to energize the second-phase winding (auxiliary coil) to create a rotating magnetic field while the motor is running.
+Run capacitors are designed for continuous duty while the motor is powered, which is why electrolytic capacitors are avoided, and low-loss polymer capacitors are used instead. Run capacitors are mostly polypropylene film capacitors and are designed for continuous duty; they are energized the entire time the motor is running. Run capacitors are rated in a range of 1.5 to 100 microfarads, with voltage classifications of 370 V or 440 V.
+If a wrong capacitance value is installed, it will cause an uneven magnetic field around the rotor. This causes the rotor to hesitate at the uneven spots, resulting in irregular rotation, especially under load. This hesitation can cause the motor to become noisy, increase energy consumption, cause performance to drop and the motor to overheat.
+
+
+== Start capacitors ==
+
+Start capacitors briefly increase motor starting torque and allow a motor to be cycled on and off rapidly. A start capacitor stays in the circuit long enough to rapidly bring the motor up to a predetermined speed, which is usually about 75% of the full speed, and is then taken out of the circuit, often by a centrifugal switch that releases at that speed. Afterward the motor works more efficiently with a run capacitor.
+Start capacitors have ratings above 70 microfarads (µF), with four major voltage classifications: 125 V, 165 V, 250 V, and 330 V. Examples of motor capacitors are: a 35 µF, at 370 V, run capacitor, or an 88–108 µF at 250 V start capacitor.
+Start capacitors above 20 microfarad (µF) are always non-polarized aluminium electrolytic capacitors  with non solid electrolyte and therefore they are only applicable for the short motor starting time.
+The motor won't work properly if the centrifugal switch is broken. If the switch is always "open", the start capacitor is not part of the circuit thus preventing startup of the motor. If the switch is always "closed", the start capacitor is always enabled, thus likely destroying the capacitor. If a motor doesn't start, the capacitor is far more likely the problem than the switch.
+
+
+== Dual run capacitors ==
+A dual "run capacitor" supports two electric motors, such as in large air conditioner or heat pump units, with both a fan motor and a compressor motor. It saves space by combining two physical capacitors into one case. The dual capacitor has 3 terminals labeled "C", "FAN", and "HERM", which stand for the Common, Fan, and HERMetically sealed compressor.
+Dual capacitors come in a variety of sizes, depending on the capacitance (µF), such as 40 plus 5 µF, and also the voltage. A 440 volt capacitor can be used in place of a 370 volt, but not a 370 in place of a 440 volt. The capacitance must stay the same within 5% of its original value. Round cylinder-shaped dual run capacitors are commonly used for air conditioning, to help in the starting of the compressor and the condenser fan motor. An oval dual run capacitor could be used instead of a round capacitor, but the mounting strap should be changed to better fit the oval shape.
+
+
+== Failure modes ==
+A faulty run capacitor often becomes swollen, with the sides or ends bowed or bulged out further than usual: it can be clear to see that the capacitor has failed because it is swollen or even blown apart with capacitor oil leaking. Some capacitors are built with a "Pressure Sensitive Interrupter" design that causes them to fail before internal pressures can cause serious injury. One design causes the top of the capacitor to expand and break internal wiring.
+"Weak Capacitor" - Over many years of use the capacitance of the capacitor (measured in microfarads) reduces. As a result the motor may fail to start or run at full power.
+If a motor is running during a lightning strike on the power grid, the run capacitor might be damaged or weaken by a voltage spike, thus requiring replacement.
+IEC/EN 60252-1 2001 specifies levels of protection  for motor run capacitors
+P0 - no protection;
+P1 - fail open circuit or short circuit
+P2 - fail open circuit only
+
+
+== Safety issues ==
+The motor capacitor, which is a component of a hot tub circulating pump, can overheat if defective. This poses a fire hazard, and the U.S. Consumer Product Safety Commission (CPSC) has received more than 100 reports of incidents of overheating of the motor capacitor, with some fires started.
+
+
+== See also ==
+Capacitor, overview of practical capacitors
+
+
+== References ==
+
+
+== External links ==
+"CPSC, Firms Announce Recall of Infinity and Lifestyle Spas", U.S. CPSC, Washington, DC, 2003-12-09.

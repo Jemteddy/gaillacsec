@@ -1,0 +1,15 @@
+In cryptography, DFC (Decorrelated Fast Cipher) is a symmetric block cipher which was created in 1998 by a group of researchers from École Normale Supérieure, CNRS, and France Télécom (including Jacques Stern and Serge Vaudenay) and submitted to the AES competition.
+Like other AES candidates, DFC operates on blocks of 128 bits, using a key of 128, 192, or 256 bits. It uses an 8-round Feistel network. The round function uses a single 6×32-bit S-box, as well as an affine transformation mod 264+13. DFC can actually use a key of any size up to 256 bits; the key schedule uses another 4-round Feistel network to generate a 1024-bit "expanded key". The arbitrary constants, including all entries of the S-box, are derived using the binary expansion of e as a source of "nothing up my sleeve numbers".
+Soon after DFC's publication, Ian Harvey raised the concern that reduction modulo a 65-bit number was beyond the native capabilities of most platforms, and that careful implementation would be required to protect against side-channel attacks, especially timing attacks. Although DFC was designed using Vaudenay's decorrelation theory to be provably secure against ordinary differential and linear cryptanalysis, in 1999 Lars Knudsen and Vincent Rijmen presented a differential chosen-ciphertext attack that breaks 6 rounds faster than exhaustive search.
+In 2000, Vaudenay, et al. presented an updated version of the algorithm, called DFCv2. This variant allows for more choice in the cipher's parameters, and uses a modified key schedule to eliminate certain weak keys discovered by Don Coppersmith.
+
+
+== References ==
+H. Gilbert, M. Girault, P. Hoogvorst, F. Noilhan, T. Pornin, G. Poupard, J. Stern, S. Vaudenay (19 May 1998). "Decorrelated Fast Cipher: an AES candidate" (PDF/PostScript). Retrieved 8 February 2007. 
+Harvey, Ian (March 1999). The DFC Cipher: An Attack on Careless Implementations (PDF). Second AES Candidate Conference. Retrieved 21 January 2009. 
+Lars Knudsen, Vincent Rijmen (March 1999). On the Decorrelated Fast Cipher (DFC) and Its Theory (PostScript). 6th International Workshop on Fast Software Encryption (FSE '99). Rome: Springer-Verlag. pp. 81–94. Retrieved 14 February 2007. 
+Louis Granboulan, Phong Q. Nguyen, Fabrice Noilhan, Serge Vaudenay (2000). DFCv2 (PDF/PostScript). Selected Areas in Cryptography (SAC 2000). Waterloo, Ontario: Springer-Verlag. pp. 57–71. Retrieved 15 February 2007. 
+
+
+== External links ==
+SCAN's entry for DFC

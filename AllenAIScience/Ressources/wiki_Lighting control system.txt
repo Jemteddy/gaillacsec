@@ -1,0 +1,91 @@
+A lighting control system is an intelligent network based lighting control solution that incorporates communication between various system inputs and outputs related to lighting control with the use of one or more central computing devices. Lighting control systems are widely used on both indoor and outdoor lighting of commercial, industrial, and residential spaces. Lighting control systems serve to provide the right amount of light where and when it is needed.
+Lighting control systems are employed to maximize the energy savings from the lighting system, satisfy building codes, or comply with green building and energy conservation programs. Lighting control systems are often referred to under the term Smart Lighting.
+
+
+== Lighting controls vs. Lighting control systemsEdit ==
+The term lighting controls is typically used to indicate stand-alone control of the lighting within a space. This may include occupancy sensors, timeclocks, and photocells that are hard-wired to control fixed groups of lights independently. Adjustment occurs manually at each devices location. The efficiency of and market for residential lighting controls has been characterized by the Consortium for Energy Efficiency.
+The term lighting control system refers to an intelligent networked system of devices related to lighting control. These devices may include relays, occupancy sensors, photocells, light control switches or touchscreens, and signals from other building systems (such as fire alarm or HVAC). Adjustment of the system occurs both at device locations and at central computer locations via software programs or other interface devices.
+
+
+=== AdvantagesEdit ===
+The major advantage of a lighting control system over stand-alone lighting controls or conventional manual switching is the ability to control individual lights or groups of lights from a single user interface device. This ability to control multiple light sources from a user device allows complex lighting scenes to be created. A room may have multiple scenes pre-set, each one created for different activities in the room. A major benefit of lighting control systems is reduced energy consumption. Longer lamp life is also gained when dimming and switching off lights when not in use. Wireless lighting control systems provide additional benefits including reduced installation costs and increased flexibility over where switches and sensors may be placed.
+
+
+== Automated ControlEdit ==
+Lighting control systems typically provide the ability to automatically adjust a lighting device's output based on:
+Chronological time (time of day)
+Astronomical time (sunrise/sunset)
+Occupancy using occupancy sensors
+Daylight availability using photocells
+Alarm conditions
+Program logic (combination of events)
+
+
+=== Chronological timeEdit ===
+Chronological time schedules incorporate specific times of the day, week, month, or year.
+
+
+=== Astronomical timeEdit ===
+Astronomical time schedules incorporate sunrise and sunset times, often used to switch outdoor lighting. Astronomical time scheduling requires that the location of the building be set. This is accomplished using the building's geographic location via either latitude and longitude or by picking the nearest city in a given database giving the approximate location and corresponding astronomical times.
+
+
+=== OccupancyEdit ===
+Space occupancy is primarily determined with occupancy sensors.
+
+
+=== Daylight availabilityEdit ===
+Electric lighting energy use can be adjusted by automatically dimming and/or switching electric lights in response to the level of available daylight. Reducing the amount of electric lighting used when daylight is available is known as daylight harvesting.
+
+
+=== Alarm conditionsEdit ===
+Alarm conditions typically include inputs from other building systems such as the fire alarm or HVAC system, which may trigger an emergency 'all lights on' command for example.
+
+
+=== Program logicEdit ===
+Program logic can tie all of the above elements together using constructs such as if-then-else statements and logical operators.
+
+
+== Lighting control system typesEdit ==
+In the 1980s there was a strong requirement to make commercial lighting more controllable so that it could become more energy efficient. Initially this was done with analogue control, allowing fluorescent ballasts and dimmers to be controlled from a central source. This was a step in the right direction, but cabling was complicated and therefore not cost effective. Tridonic was the first company to go digital with their broadcast protocols, DSI, in 1991. DSI was a basic protocol as it transmitted one control value to change the brightness of all the fixtures attached to the line. What made this protocol more attractive, and able to compete with the established analogue option, was the simple wiring. That said, there are two types of lighting control systems which are:
+Analogue lighting control
+Digital lighting control
+Examples for analogue lighting control systems are:
+0-10V based system.
+D54 based systems (European standard).
+AMX192 based systems (often referred to simply as AMX) (USA standard).
+In production lighting 0-10V system was replaced by analog multiplexed systems such as D54 and AMX192, which themselves have been almost completely replaced by DMX512. For dimmable fluorescent lamps (where it operates instead at 1-10 V, where 1 V is minimum and 0 V is off) the system is being replaced by DSI, which itself is in the process of being replaced by DALI.
+Examples for digital lighting control systems are:
+DSI based system
+DALI based systems
+KNX based systems
+DMX based systems (DMX is often referred to as DMX 512).
+Those are all wired lighting control system. There is also a wireless lighting control system that is based on some standard protocols like ZigBee , Bluetooth, and others.
+
+
+== Theatrical lighting controlEdit ==
+
+Architectural lighting control systems can integrate with a theater's on-off and dimmer controls, and are often used for house lights and stage lighting, and can include worklights, rehearsal lighting, and lobby lighting. Control stations can be placed in several locations in the building and range in complexity from single buttons that bring up preset options-looks, to in-wall or desktop LCD touchscreen consoles. Much of the technology is related to residential and commercial lighting control systems.
+The benefit of architectural lighting control systems in the theater is the ability for theater staff to turn worklights and house lights on and off without having to use a lighting control console. Alternately, the light designer can control these same lights with light cues from the lighting control console so that, for instance, the transition from houselights being up before a show starts and the first light cue of the show is controlled by one system.
+
+
+== See alsoEdit ==
+C-Bus (protocol)
+Digital Addressable Lighting Interface (DALI)
+Lutron
+DMX512
+Dynalite
+INSTEON
+KNX (standard)
+Lonworks
+Modbus
+MIDI
+Vantage Controls
+VSCP
+X10 (industry standard)
+Z-Wave
+
+
+== NotesEdit ==
+^ DiLouie, Craig (2008). Lighting controls handbook. Lilburn, Ga. [u.a.]: Fairmont Press [u.a.] p. 239. ISBN 1-4200-6921-7. 
+^ "CEE Residential Lighting Controls Market Characterization". Consortium for Energy Efficiency. Retrieved 2014-08-11. 
+^ "Lighting control saves money and makes sense" (PDF). Daintree Networks. Retrieved 2009-06-19.

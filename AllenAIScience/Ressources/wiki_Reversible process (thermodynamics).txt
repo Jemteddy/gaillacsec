@@ -1,0 +1,31 @@
+In thermodynamics, a reversible process -- or reversible cycle if the process is cyclic -- is a process that can be "reversed" by means of infinitesimal changes in some property of the system. A reversible process does not increase entropy (of the system and surroundings).  During a reversible process, the system is in thermodynamic equilibrium with its surroundings throughout the entire process. Since it would take an infinite amount of time for the reversible process to finish, perfectly reversible processes are impossible. However, if the system undergoing the changes responds much faster than the applied change, the deviation from reversibility may be negligible. In a reversible cycle, the system and its surroundings will be returned to their original states if the forward cycle is followed by the reverse cycle.
+In thermodynamics, processes can be carried out in one of two ways: reversibly or irreversibly. Reversibility in thermodynamics refers to performing a reaction continuously at equilibrium. In an ideal thermodynamically reversible process, the energy from work performed by or on the system would be maximized, and that from heat would be minimized; heat cannot fully be converted to work and will always be lost to some degree (to the surroundings). The phenomenon of maximized work and minimized heat can be visualized on a pressure-volume curve, as the area beneath the equilibrium curve, representing work done. In order to maximize work, one must follow the equilibrium curve closely.
+Irreversible processes, on the other hand, are a result of straying away from the curve, therefore decreasing the amount of overall work done; an irreversible process can be described as a thermodynamic process that leaves equilibrium. When described in terms of pressure and volume, it occurs when the pressure or the volume of a system changes so dramatically and instantaneously that the other (pressure or volume in this case) does not have time to catch up. A classic example of irreversibility is allowing a certain volume of gas to be released into a vacuum. By releasing pressure on a sample and thus allowing it to occupy a large space, the system and surroundings are not in equilibrium during the expansion process and there is little work done. However, significant work will be required, with a corresponding amount of energy dissipated as heat flow to the environment, in order to reverse the process (compressing the gas back to its original volume and temperature). 
+An alternative definition of a reversible process is a process that, after it has taken place, can be reversed and, when reversed, causes no change in either the system or its surroundings. In thermodynamic terms, a process "taking place" would refer to its transition from its initial state to its final state.
+
+
+== IrreversibilityEdit ==
+In an irreversible process, finite changes are made; therefore the system is not at equilibrium throughout the process. At the same point in an irreversible cycle, the system will be in the same state, but the surroundings are permanently changed after each cycle.
+
+
+== Boundaries and statesEdit ==
+A reversible process changes the state of a system in such a way that the net change in the combined entropy of the system and its surroundings is zero. Reversible processes define the boundaries of how efficient heat engines can be in thermodynamics and engineering: a reversible process is one where no heat is lost from the system as "waste", and the machine is thus as efficient as it can possibly be (see Carnot cycle).
+In some cases, it is important to distinguish between reversible and quasistatic processes. Reversible processes are always quasistatic, but the converse is not always true. For example, an infinitesimal compression of a gas in a cylinder where there exists friction between the piston and the cylinder is a quasistatic, but not reversible process. Although the system has been driven from its equilibrium state by only an infinitesimal amount, heat has been irreversibly lost due to friction, and cannot be recovered by simply moving the piston infinitesimally in the opposite direction.
+
+
+== Engineering archaismsEdit ==
+Historically, the term Tesla principle was used to describe (amongst other things) certain reversible processes invented by Nikola Tesla. However, this phrase is no longer in conventional use. The principle stated that some systems could be reversed and operated in a complementary manner. It was developed during Tesla's research in alternating currents where the current's magnitude and direction varied cyclically. During a demonstration of the Tesla turbine, the disks revolved and machinery fastened to the shaft was operated by the engine. If the turbine's operation was reversed, the disks acted as a pump.
+
+
+== See alsoEdit ==
+Carnot cycle
+Entropy production
+Toffoli gate
+Time evolution
+Quantum circuit
+Reversible computing
+Maxwell's demon
+Stirling engine
+
+
+== ReferencesEdit ==

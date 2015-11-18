@@ -1,0 +1,49 @@
+The start codon is the first codon of a messenger RNA (mRNA) transcript translated by a ribosome. The start codon always codes for methionine in eukaryotes and a modified Met (fMet) in prokaryotes. The most common start codon is AUG.
+The start codon is often preceded by a 5' untranslated region (5' UTR). In prokaryotes this includes the ribosome binding site.
+
+
+== Alternative start codonsEdit ==
+Alternative start codons are different from the standard AUG codon and are found in both prokaryotes (bacteria) and eukaryotes. Alternate start codons are still translated as Met when they are at the start of a protein (even if the codon encodes a different amino acid otherwise). This is because a separate transfer RNA (tRNA) is used for initiation.
+Bioinformatics programs usually allow for alternate start codons when searching for protein coding genes.
+
+
+=== EukaryotesEdit ===
+Alternate start codons (non AUG) are very rare in eukaryotic genomes. However, naturally occurring non-AUG start codons have been reported for some cellular mRNAs. Seven out of the nine possible single-nucleotide substitutions at the AUG start codon of dihydrofolate reductase were functional as translation start sites in mammalian cells. In addition to the canonical Met-tRNA Met and AUG codon pathway, mammalian cells can initiate translation with leucine using a specific leucyl-tRNA that decodes the codon CUG.
+Mitochondrial genomes (and prokaryotes) use alternate start codons more significantly (AUA and AUU in humans and mainly GUG and UUG in prokaryotes).
+
+
+=== ProkaryotesEdit ===
+E. coli uses 83% AUG (3542/4284), 14% (612) GUG, 3% (103) UUG  and one or two others (e.g., an AUU and possibly a CUG).
+Well-known coding regions that do not have AUG initiation codons are those of lacI (GUG) and lacA (UUG) in the E. coli lac operon.
+
+
+== Standard genetic codeEdit ==
+A The codon AUG both codes for methionine and serves as an initiation site: the first AUG in an mRNA's coding region is where translation into protein begins.
+
+
+== See alsoEdit ==
+Central dogma of molecular biology
+Codon
+Messenger RNA
+Stop codon
+Transfer RNA
+Translation
+
+
+== External linksEdit ==
+The Genetic Codes. Compiled by Andrzej (Anjay) Elzanowski and Jim Ostell, National Center for Biotechnology Information (NCBI), Bethesda, Maryland, U.S.A.[1]
+
+
+== ReferencesEdit ==
+^ Lobanov, A. V.; Turanov, A. A.; Hatfield, D. L.; Gladyshev, V. N. (2010). "Dual functions of codons in the genetic code". Critical Reviews in Biochemistry and Molecular Biology 45 (4): 257–65. doi:10.3109/10409231003786094. PMC 3311535. PMID 20446809. 
+^ Ivanov IP, Firth AE, Michel AM, Atkins JF, Baranov PV (2011). "Identification of evolutionarily conserved non-AUG-initiated N-terminal extensions in human coding sequences". Nucleic Acids Research 39 (10): 4220–4234. doi:10.1093/nar/gkr007. PMC 3105428. PMID 21266472. 
+^ Peabody, D. S. (1989). "Translation initiation at non-AUG triplets in mammalian cells". The Journal of Biological Chemistry 264 (9): 5031–5. PMID 2538469. 
+^ Starck, S. R.; Jiang, V; Pavon-Eternod, M; Prasad, S; McCarthy, B; Pan, T; Shastri, N (2012). "Leucine-tRNA initiates at CUG start codons for protein synthesis and presentation by MHC class I". Science 336 (6089): 1719–23. doi:10.1126/science.1220270. PMID 22745432. 
+^ Dever, T. E. (2012). "Molecular biology. A new start for protein synthesis". Science 336 (6089): 1645–6. doi:10.1126/science.1224439. PMID 22745408. 
+^ Blattner, F. R.; Plunkett g, G.; Bloch, C. A.; Perna, N. T.; Burland, V.; Riley, M.; Collado-Vides, J.; Glasner, J. D.; Rode, C. K.; Mayhew, G. F.; Gregor, J.; Davis, N. W.; Kirkpatrick, H. A.; Goeden, M. A.; Rose, D. J.; Mau, B.; Shao, Y. (1997). "The Complete Genome Sequence of Escherichia coli K-12". Science 277 (5331): 1453–1462. doi:10.1126/science.277.5331.1453. PMID 9278503. 
+^ Sacerdot, C.; Fayat, G.; Dessen, P.; Springer, M.; Plumbridge, J. A.; Grunberg-Manago, M.; Blanquet, S. (1982). "Sequence of a 1.26-kb DNA fragment containing the structural gene for E.coli initiation factor IF3: Presence of an AUU initiator codon". The EMBO journal 1 (3): 311–315. PMC 553041. PMID 6325158. 
+^ Missiakas, D.; Georgopoulos, C.; Raina, S. (1993). "The Escherichia coli heat shock gene htpY: Mutational analysis, cloning, sequencing, and transcriptional regulation". Journal of bacteriology 175 (9): 2613–2624. PMC 204563. PMID 8478327. 
+^ E.coli lactose operon with lacI, lacZ, lacY and lacA genes GenBank: J01636.1
+^ Farabaugh, P. J. (1978). "Sequence of the lacI gene". Nature 274 (5673): 765–769. doi:10.1038/274765a0. PMID 355891. 
+^ NCBI Sequence Viewer v2.0
+^ Nakamoto T (March 2009). "Evolution and the universality of the mechanism of initiation of protein synthesis". Gene 432 (1–2): 1–6. doi:10.1016/j.gene.2008.11.001. PMID 19056476.

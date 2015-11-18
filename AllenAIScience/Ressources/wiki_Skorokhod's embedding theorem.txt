@@ -1,0 +1,19 @@
+In mathematics and probability theory, Skorokhod's embedding theorem is either or both of two theorems that allow one to regard any suitable collection of random variables as a Wiener process (Brownian motion) evaluated at a collection of stopping times. Both results are named for the Ukrainian mathematician A.V. Skorokhod.
+
+
+== Skorokhod's first embedding theoremEdit ==
+Let X be a real-valued random variable with expected value 0 and finite variance; let W denote a canonical real-valued Wiener process. Then there is a stopping time (with respect to the natural filtration of W), τ, such that Wτ has the same distribution as X,
+
+and
+
+
+== Skorokhod's second embedding theoremEdit ==
+Let X1, X2, ... be a sequence of independent and identically distributed random variables, each with expected value 0 and finite variance, and let
+
+Then there is a sequence of stopping times τ1 ≤ τ2 ≤ ... such that the  have the same joint distributions as the partial sums Sn and τ1, τ2 − τ1, τ3 − τ2, ... are independent and identically distributed random variables satisfying
+
+and
+
+
+== ReferencesEdit ==
+Billingsley, Patrick (1995). Probability and Measure. New York: John Wiley & Sons, Inc. ISBN 0-471-00710-2.  (Theorems 37.6, 37.7)

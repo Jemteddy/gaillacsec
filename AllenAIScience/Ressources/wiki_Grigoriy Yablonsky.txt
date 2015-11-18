@@ -1,0 +1,96 @@
+Grigoriy Yablonsky (or Yablonskii) (Russian: Григорий Семенович Яблонский) is an expert in the area of chemical kinetics and chemical engineering, particularly in catalytic technology of complete and selective oxidation, which is one of the main driving forces of sustainable development.
+His theory of complex steady-state and non-steady state catalytic reactions, is widely used by research teams in many countries of the world (USA, UK, Belgium, Germany, France, Norway and Thailand).
+Now, Grigoriy Yablonsky serves as an Associate Research Professor of Chemistry at Saint Louis University’s Parks College of Engineering, Aviation and Technology and SLU’s College of Arts and Sciences.
+Since 2006, Yablonsky is an editor of the Russian-American almanac "Middle West".
+
+
+== Some recent scientific achievements ==
+Yablonsky – together with Lazman, developed the general form of steady-state kinetic description (‘kinetic polynomial’) which is a non-linear generalization of many theoretical expressions proposed previously (Langmuir – Hinshelwood and Hougen–Watson equations). Yablonsky also created a theory of precise catalyst characterization for the advanced worldwide experimental technique (temporal analysis of products) developed by John T. Gleaves, Washington University in St. Louis.
+In 2008–2011, Yablonsky – together with Constales and Marin (University of Gent, Belgium) and Alexander Gorban (University of Leicester, UK) – obtained new results on coincidences and intersections in kinetic dependences, and found a new type of symmetry relations between the observable and initial kinetic data.
+Recently together with Alexander Gorban he developed the theory of chemical thermodynamics and detailed balance in the limit of irreversible reactions.
+
+
+== Catalytic trigger and catalytic oscillator ==
+A simple scheme of the nonlinear kinetic oscillations in heterogeneous catalytic reactions has been proposed by Bykov, Yablonskii, and Kim in 1978. Authors have started from the catalytic trigger (1976), a simplest catalytic reaction without autocatalysis that allows multiplicity of steady states.
+
+Then they have supplemented this classical adsorption mechanism of catalytic oxidation by a "buffer" step
+4. 
+Here,  and AB are gases (for example, , CO and ), Z iz the "adsorption place" on the surface of the solid catalyst (for example, Pt), AZ and BZ are the intermediates on the surface (adatoms, adsorbed molecules or radicals) and (BZ) is an intermediate that does not participate in the main reaction
+Let the concentration of the gaseous components be constant. Then the law of mass action gives for this reaction mechanism a system of three ordinary differential equations that describes kinetics on the surface
+
+where z = 1 − (x + y + s) is the concentration of the free places of adsorption on the surface ("per one adsorption centre"), x and y are the concentrations of AZ and BZ, correspondingly (also normalized "per one adsorption centre") and s is the concentration of the buffer component (BZ).
+This three-dimensional systems includes seven parameters. The detailed analysis shows that there are 23 different phase portraits for this system, including oscillations, multiplicity of steady states and various types of bifurcations.
+
+
+== Reactions without interaction of different components ==
+Let the reaction mechanism consist of reactions
+
+where  are symbols of components, r is the number of the elementary reaction and  are the stoichiometric coefficients (usually they are integer numbers). (We do not include the components that are present in excess and the components with almost constant concentrations)
+The Eley–Rideal mechanism of CO oxidation on Pt provides a simple example of such a reaction mechanism without interaction of different components on the surface:
+
+Let the reaction mechanism have the conservation law
+
+and let the reaction rate satisfy the mass action law:
+
+where  is the concentration of . Then the dynamic of the kinetic system is very simple: the steady states are stable and all solutions  with the same value of the conservation law  monotonically converge in the weighted  norm: the distance between such solutions ,
+
+monotonically decreases in time.
+This quasithermodynamic property of the systems without interaction of different components is important for the analysis of dynamics of catalytic reactions: nonlinear steps with two (or more) different intermediate reagents are responsible for nontrivial dynamical effects like multiplicity of steady states, oscillations or bifurcations. Without interaction of different components the kinetic curves converge in a simple norm even for open systems.
+
+
+== The extended principle of detailed balance ==
+Detailed mechanism of many real physico-chemical complex systems includes both reversible and irreversible reactions. Such mechanisms are typical in homogeneous combustion, heterogeneous catalytic oxidation and complex enzyme reactions. The classical thermodynamics of perfect systems is defined for reversible kinetics and has no limit for irreversible reactions. In contrary, the mass action law gives the possibility to write the chemical kinetic equations for any combination of reversible and irreversible reactions. Without additional restrictions this class of equations is extremely wide and can approximate any dynamical system with preservation of positivity of concentrations and the linear conservation laws. (This general approximation theorem has been proved in 1986.) The model of real systems should satisfy some restrictions. Under the standard microscopic reversibility requirement, these restrictions should be formulated as follows: A system with some irreversible reactions should be a limit of the systems with all reversible reactions and the detailed balance conditions. Such systems have been completely described in 2011. The extended principle of detailed balance is the characteristic property of all systems which obey the generalized mass action law and are the limits of the systems with detailed balance when some of the reaction rate constants tend to zero (the Gorban-Yablonsky theorem).
+The extended principle of detailed balance consists of two parts:
+The algebraic condition: The principle of detailed balance is valid for the reversible part. (This means that for the set of all reversible reactions there exists a positive equilibrium where all the elementary reactions are equilibrated by their reverse reactions.)
+The structural condition: The convex hull of the stoichiometric vectors of the irreversible reactions has empty intersection with the linear span of the stoichiometric vectors of the reversible reactions. (Physically, this means that the irreversible reactions cannot be included in oriented cyclic pathways.)
+The stoichiometric vector of the reaction  is the gain minus loss vector with coordinates .
+(It may be useful to recall the formal convention: the linear span of empty set is {0}, the convex hull of empty set is empty.)
+The extended principle of detailed balance gives an ultimate and complete answer to the following problem: How to throw away some reverse reactions without violation of thermodynamics and microscopic reversibility? The answer is: the convex hull of the stoichiometric vectors of the irreversible reactions should not intersect with the linear span of the stoichiometric vectors of the reversible reactions and the reaction rate constants of the remained reversible reactions should satisfy the Wegscheider identities.
+
+
+== Career ==
+
+From 1997 to 2007, Yablonsky was in the Department of Energy, Environmental and Chemical Engineering at Washington University in St. Louis as a Research Associate Professor. Since 2007, Yablonsky became an Associate Professor at Saint Louis University’s Parks College of Engineering, Aviation and Technology, as well as the Department of Chemistry.
+During his career, G. Yablonsky has organised many conferences and workshops at national and international levels. He is always in the centre of interdisciplinary dialogue between mathematicians, chemists, physicists and chemical engineers.
+Yablonsky was selected in 2013 for the James B. Eads Award, which recognizes a distinguished individual for outstanding achievement in engineering or technology.
+
+
+== Honors and awards ==
+Lifetime Achievement Award, in recognition of outstanding contributions to the research field of chemical kinetics, Mathematics in Chemical Kinetics and Engineering, MaCKiE, 2013
+James B. Eads Award, Academy of Science of St. Louis Outstanding Scientist Award (2013)
+Honorary Doctor Degree from the University of Ghent, Belgium (2010)
+Chevron Chair Professorship at the Indian Institute of Technology (IIT), Madras (2011)
+Honorary Fellow of the Australian Institute of High Energetic Materials, Gladstone, Australia (2011)
+
+
+== Professional memberships and associations ==
+Yablonsky has numerous international designations as Honorary Professor, Fellow, Doctor and Member of prestigious science academies and universities in Belgium, India, China, Russia and Ukraine.
+1996 – present: American Institute of Chemical Engineers
+2011 – present: American Chemical Society
+2011 – present: Member of the Scientific Council on Catalysis at the Russian Academy of Sciences
+2013 – present: Fellow, Academy of Science of St. Louis
+
+
+== Notable publications ==
+Yablonsky is the author of seven books, most recently of "Kinetics of Chemical Reactions: Decoding Complexity" Wiley-VCH (2011) (together with Guy B. Marin), and more than 200 papers.
+Yablonsky, G.S.; V.I. Bykov; A.N. Gorban'; V.I. Elokhin (1991). Kinetic Models of Catalytic Reactions. Amsterdam–Oxford–New York–Tokyo: Elsevier. 
+Marin, G.B.; G.S. Yablonsky (2011). Kinetics of Complex Reactions. Decoding Complexity. Wiley-VCH. p. 428. ISBN 978-3-527-31763-9. 
+Estathiou, A.M.; G.S. Yablonsky; Gleaves, J. T. (2012). "Transient Techniques: Temporal Analysis of Products (TAP) and Steady-State Isotopic Transient Kinetic Analysis (SSITKA)". 1 & 2. doi:10.1002/9783527645329.ch22. 
+Gleaves, J.T.; G.S. Yablonsky; P. Phanawadee; Y. Schuurman (14 October 1997). "TAP-2. Interrogative Kinetics Approach". Applied Catalysis A: General 160 (1): 55–88. doi:10.1016/S0926-860X(97)00124-5. 
+Grigoriy, Yablonsky; M. Olea; G. Marin (May–June 2003). "Temporal Analysis of Products: Basic Principles, Applications, and Theory". Journal of Catalysis 216 (1-2): 120–134. doi:10.1016/S0021-9517(02)00109-4. 
+Yablonsky, Grigoriy; I.M.Y. Mareels; M. Lazman (November 2003). "The principle of critical simplification in chemical kinetics". Chemical Engineering Science 58 (21): 4833–4842. doi:10.1016/j.ces.2003.08.004. 
+Feres, R.; G.S. Yablonsky (2004). "Knudsen Diffusion and Random Billiards". Chemical Engineering Science 59: 1541–1556. doi:10.1016/j.ces.2004.01.016. 
+
+
+== See also ==
+Temporal analysis of products
+Chemical Reaction Network Theory
+Detailed Balance
+
+
+== References ==
+
+
+== External links ==
+Yablonsky's faculty profile at Parks College of Engineering, Aviation and Technology
+Yablonsky's account on Google Scholar

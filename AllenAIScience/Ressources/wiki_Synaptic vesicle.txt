@@ -1,0 +1,72 @@
+In a neuron, synaptic vesicles (or neurotransmitter vesicles) store various neurotransmitters that are released at the synapse. The release is regulated by a voltage-dependent calcium channel. Vesicles are essential for propagating nerve impulses between neurons and are constantly recreated by the cell. The area in the axon that holds groups of vesicles is an axon terminal or "bouton". Up to 130 vesicles can be released per bouton over a ten-minute period of stimulation at 0.2 Hz. In the human brain region V1 synaptic vesicles have an average diameter of 39.5 nanometers with a standard deviation of 5.1 nanometers.
+
+
+== History ==
+With the advent of modern electron microscopic techniques in the early 1950s, nerve endings were found to contain a large number of electron-lucent vesicles. The term synaptic vesicle was first introduced by De Robertis and Bennett in 1954. This was shortly after transmitter release at the frog neuromuscular junction was found to induce postsynaptic miniature end-plate potentials that were ascribed to the release of discrete packages of neurotransmitter (quanta) from the presynaptic nerve terminal. It was thus reasonable to hypothesize that the transmitter substance (acetylcholine) was contained in such vesicles, which by a secretory mechanism would release their contents into the synaptic cleft (vesicle hypothesis).
+The missing link was the demonstration that the neurotransmitter acetylcholine is actually contained in synaptic vesicles. About ten years later the application of subcellular fractionation techniques to brain tissue permitted the isolation first of nerve endings (synaptosomes), and subsequently of synaptic vesicles from mammalian brain. Two competing laboratories were involved in this work, that of Victor P. Whittaker at the Institute of Animal Physiology, Agricultural Research Council, Babraham, Cambridge, UK and that of Eduardo de Robertis at the Instituto de Anatomía General y Embriología, Facultad de Medicina, Universidad de Buenos Aires, Argentina. Whittaker's work demonstrating acetylcholine in vesicle fractions from guinea-pig brain was first published in abstract from in 1960 and then in more detail in 1963 and 1964, and the paper of the de Robertis group demonstrating an enrichment of bound acetylcholine in synaptic vesicle fractions from rat brain appeared in 1963. Both groups released synaptic vesicles from isolated synaptosomes by osmotic shock. The content of acetylcholine in a vesicle was originally estimated to be 1000–2000 molecules. Subsequent work identified the vesicular localization of other neurotransmitters, such as amino acids, catecholamines, serotonin, and ATP. Later, synaptic vesicles could also be isolated from other tissues such as the superior cervical ganglion, or the octopus brain. The isolation of highly purified fractions of cholinergic synaptic vesicles from the ray Torpedo electric organ was an important step forward in the study of vesicle biochemistry and function.
+
+
+== Composition ==
+
+Synaptic vesicles are relatively simple because only a limited number of proteins fit into a sphere of 40 nm diameter. Purified vesicles have a protein:phospholipid ratio of 1:3 with a lipid composition of 40% phosphatidylcholine, 32% phosphatidylethanolamine, 12% phosphatidylserine, 5% phosphatidylinositol, and 10% cholesterol.
+Synaptic vesicles contain two classes of obligatory components: transport proteins involved in neurotransmitter uptake, and trafficking proteins that participate in synaptic vesicle exocytosis, endocytosis, and recycling.
+Transport proteins are composed of proton pumps that generate electrochemical gradients, which allow for neurotransmitter uptake, and neurotransmitter transporters that regulate the actual uptake of neurotransmitters. The necessary proton gradient is created by V-ATPase, which breaks down ATP for energy. Vesicular transporters move neurotransmitters from the cells' cytoplasm into the synaptic vesicles. Vesicular glutamate transporters, for example, sequester glutamate into vesicles by this process.
+Trafficking proteins are more complex. They include intrinsic membrane proteins, peripherally bound proteins, and proteins such as SNAREs. These proteins do not share a characteristic that would make them identifiable as synaptic vesicle proteins, and little is known about how these proteins are specifically deposited into synaptic vesicles. Many but not all of the known synaptic vesicle proteins interact with non-vesicular proteins and are linked to specific functions.
+The stoichiometry for the movement of different neurotransmitters into a vesicle is given in the following table.
+
+
+=== Effects of neurotoxins ===
+Some neurotoxins, such as batrachotoxin, are known to destroy synaptic vesicles. The tetanus toxin damages vesicle-associated membrane proteins (VAMP), a type of v-SNARE, while botulinum toxins damage t-SNARES and v-SNARES and thus inhibit synaptic transmission. A spider toxin called alpha-Latrotoxin binds to neurexins, damaging vesicles and causing massive release of neurotransmitters.
+
+
+== Vesicle pools ==
+Vesicles in the nerve terminal are grouped into three pools: the readily releasable pool, the recycling pool, and the reserve pool. These pools are distinguished by their function and position in the nerve terminal. The readily releasable pool are docked to the cell membrane, making these the first group of vesicles to be released on stimulation. The readily releasable pool is small and is quickly exhausted. The recycling pool is proximate to the cell membrane, and tend to be cycled at moderate stimulation, so that the rate of vesicle release is the same as, or lower than, the rate of vesicle formation. This pool is larger than the readily releasable pool, but it takes longer to become mobilised. The reserve pool constitutes the vast majority of vesicles in the nerve terminal, but it is not clear that vesicles in this pool are released under normal conditions. Under experimental conditions, this pool is mobilised by intense stimulation, and might occur only once the other two pools are exhausted.
+
+
+== The synaptic vesicle cycle ==
+The events of the synaptic vesicle cycle can be divided into a few key steps:
+1. Trafficking to the synapse
+Synaptic vesicle components are initially trafficked to the synapse using members of the kinesin motor family. In C. elegans the major motor for synaptic vesicles is UNC-104. There is also evidence that other proteins such as UNC-16/Sunday Driver regulate the use of motors for transport of synaptic vesicles.
+2. Transmitter loading
+Once at the synapse, synaptic vesicles are loaded with a neurotransmitter. Loading of transmitter is an active process requiring a neurotransmitter transporter and a proton pump ATPase that provides an electrochemical gradient. These transporters are selective for different classes of transmitters. Characterization of unc-17 and unc-47, which encode the vesicular acetylcholine transporter and vesicular GABA transporter have been described to date.
+3. Docking
+The loaded synaptic vesicles must dock near release sites, however docking is a step of the cycle that we know little about. Many proteins on synaptic vesicles and at release sites have been identified, however none of the identified protein interactions between the vesicle proteins and release site proteins can account for the docking phase of the cycle. Mutants in rab-3 and unc-18 alter vesicle docking or vesicle organization at release sites, but they do not completely disrupt docking. SNARE proteins, do not appear to be involved in the docking step of the cycle.
+4. Priming
+After the synaptic vesicles initially dock, they must be primed before they can begin fusion. Priming prepares the synaptic vesicle so that they are able to fuse rapidly in response to a calcium influx. This priming step is thought to involve the formation of partially assembled SNARE complexes. The proteins Munc13, RIM, and RIM-BP participate in this event. Munc13 is thought to stimulate the change of the t-SNARE syntaxin from a closed conformation to an open conformation, which stimulates the assembly of v-SNARE /t-SNARE complexes. RIM also appears to regulate priming, but is not essential for the step.
+5. Fusion
+Primed vesicles fuse very quickly in response to calcium elevations in the cytoplasm. This fusion event is thought to be mediated directly by the SNAREs and driven by the energy provided from SNARE assembly. The calcium-sensing trigger for this event is the calcium-binding synaptic vesicle protein synaptotagmin. The ability of SNAREs to mediate fusion in a calcium-dependent manner recently has been reconstituted in vitro. Consistent with SNAREs being essential for the fusion process, v-SNARE and t-SNARE mutants of C. elegans are lethal. Similarly, mutants in Drosophila and knockouts in mice indicate that these SNARES play a critical role in synaptic exocytosis.
+6. Endocytosis
+This accounts for the re-uptake of synaptic vesicles in the full contact fusion model. However, other studies have been compiling evidence suggesting that this type of fusion and endocytosis is not always the case.
+
+
+== Vesicle recycling ==
+Two leading mechanisms of action are thought to be responsible for synaptic vesicle recycling: full collapse fusion and the "kiss-and-run" method. Both mechanisms begin with the formation of the synaptic pore that releases transmitter to the extracellular space. After release of the neurotransmitter, the pore can either dilate fully so that the vesicle collapses completely into the synaptic membrane, or it can close rapidly and pinch off the membrane to generate kiss-and-run fusion.
+
+
+=== Full collapse fusion ===
+It has been shown that periods of intense stimulation at neural synapses deplete vesicle count as well as increase cellular capacitance and surface area. This indicates that after synaptic vesicles release their neurotransmitter payload, they merge with and become part of, the cellular membrane. After tagging synaptic vesicles with HRP (horseradish peroxidase), Heuser and Reese found that portions of the cellular membrane at the frog neuromuscular junction were taken up by the cell and converted back into synaptic vesicles. Studies suggest that the entire cycle of exocytosis, retrieval, and reformation of the synaptic vesicles requires less than 1 minute.
+In full collapse fusion, the synaptic vesicle merges and becomes incorporated into the cell membrane. The formation of the new membrane is a protein mediated process and can only occur under certain conditions. After an action potential, Ca2+ floods to the presynaptic membrane. Ca2+ binds to specific proteins in the cytoplasm, one of which is synaptotagmin, which in turn trigger the complete fusion of the synaptic vesicle with the cellular membrane. This complete fusion of the pore is assisted by SNARE proteins. This large family of proteins mediate docking of synaptic vesicles in an ATP-dependent manner. With the help of synaptobrevin on the synaptic vesicle, the t-SNARE complex on the membrane, made up of syntaxin and SNAP-25, can dock, prime, and fuse the synaptic vesicle into the membrane.
+The mechanism behind full collapse fusion has been shown to be the target of the botulinum and tetanus toxins. The botulinum toxin has protease activity which degrades the SNAP-25 protein. The SNAP-25 protein is required for vesicle fusion that releases neurotransmitters, in particular acetylcholine. Botulinum toxin essentially cleaves these SNARE proteins, and in doing so, prevents synaptic vesicles from fusing with the cellular synaptic membrane and releasing their neurotransmitters. Tetanus toxin follows a similar pathway, but instead attacks the protein synaptobrevin on the synaptic vesicle. In turn, these neurotoxins prevent synaptic vesicles from completing full collapse fusion. Without this mechanism in effect, muscle spasms, paralysis, and death can occur.
+
+
+=== "Kiss-and-run" ===
+The second mechanism by which synaptic vesicles are recycled is known as kiss-and-run fusion. In this case, the synaptic vesicle "kisses" the cellular membrane, opening a small pore for its neurotransmitter payload to be released through, then closes the pore and is recycled back into the cell. The kiss-and-run mechanism has been a hotly debated topic. Its effects have been observed and recorded; however the reason behind its use as opposed to full collapse fusion is still being explored. It has been speculated that kiss-and-run is often employed to conserve scarce vesicular resources as well as being utilized to respond to high-frequency inputs. Experiments have shown that kiss-and-run events do occur. First observed by Katz and del Castillo, it was later observed that the kiss-and-run mechanism was different from full collapse fusion in that cellular capacitance did not increase in kiss-and-run events. This reinforces the idea of a kiss-and-run fashion, the synaptic vesicle releases its payload and then separates from the membrane.
+
+
+=== Modulation ===
+Cells thus appear to have at least two mechanisms to follow for membrane recycling. Under certain conditions, cells can switch from one mechanism to the other. Slow, conventional, full collapse fusion predominates the synaptic membrane when Ca2+ levels are low, and the fast kiss-and-run mechanism is followed when Ca2+ levels are high.
+Ales et al. showed that raised concentrations of extracellular calcium ions shift the preferred mode of recycling and synaptic vesicle release to the kiss-and-run mechanism in a calcium-concentration-dependent manner. It has been proposed that during secretion of neurotransmitters at synapses, the mode of exocytosis is modulated by calcium to attain optimal conditions for coupled exocytosis and endocytosis according to synaptic activity.
+Kiss-and-run also seems to be the dominate mechanism at the beginning of stimulus trains, reflecting that this mechanism has a high release probability. Its incidence is also increased by rapid firing and stimulation, suggesting that this response is quicker in kinetics.
+
+
+== See also ==
+Vesicular monoamine transporter
+Synapsins
+Vesicle fusion
+
+
+== References ==
+
+
+== External links ==
+Synaptic Vesicles – Cell Centered Database

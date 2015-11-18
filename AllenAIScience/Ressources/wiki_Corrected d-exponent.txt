@@ -1,0 +1,24 @@
+
+== Description ==
+The Corrected d-exponent, also known as cd-exponent or more correctly dc-exponent (dc-exponent) as used in mud logging and formation pore pressure analysis in the oil industry, is an extrapolation of certain drilling parameters to estimate a pressure gradient for pore pressure evaluation while drilling. Normally this is done in over-pressured zones, but most mud logging contracts require it to be done at all times. It is regarded as one of the best tools for pore pressure evaluation. See mud log for an example of the corrected d-exponent plotted on a mud log. The parameter is an extension ("correction", hence the "c" notation) to the d-exponent method previously used for estimating formation pore pressures. The extension consists of a correction for the mud weight in use, compared to "standard" mud for the region.
+The parameters used to calculate dc-exponent values are: drilling rate (ROP), rotary speed, weight on bit, bit diameter and mud weight; it is plotted against drilled depth.
+
+
+== Theory ==
+As a drill bit bores into rock, it will gradually encounter denser formations and therefore slower rates of penetration. (Though there are exceptions such as sands that normally drill faster, or faulted and uplifted formations). The general trend is normally a gradually slowing rate of penetration.
+Sands may have above them an impermeable layer of formation, normally shale, that may be hundreds of metres thick. When gas or fluids migrate up through the sand and reach this impermeable layer, pressure may build up in the sand and push up against the impermeable layer of shale. Over time the pressure can becomes so great that it begins to fracture the shale, making it weaker and easier to penetrate by a drill bit. When a hole is drilled down towards this sand, it will gradually begin to experience faster rates of penetration as it drills through this shale gets closer to the high-pressure sand. It is this trend that the dc-exponent exposes. An examination of the fractured shale that is being drilled will reveal increasingly larger concave pieces. This is where the term pressure shale comes from.
+
+
+== Calculation ==
+The basic drillability exponent was published in 1966 by Jorden & Shirley relating the action of tricone bit teeth to an inherent characteristic of the rock, the drillability, or 'd' :
+d = log10(R/60N)/log10(12W/106D)
+where : R=ROP (ft/hr) N=RPM (rev/min) W=WOB (lbs) D=bit size (ins)
+In 1971, Rehm and McClendon (1971) defined the corrected d exponent to account for changes in mud weight where dc-exponent is defined as
+dc-exponent = MW1/MW2 * d
+and where :
+dc = modified d exponent  ; MW1 = normal pressure gradient  ; MW2 = mud weight (preferably ECD) ECD, Equivalent circulating density is the hydrodynamic pressure experienced at the cutting face of the bit due to the combination of mud density, fluid viscosity, borehole wall friction and cuttings load act to increase the pressure. This can be estimated by calculations, but it has become common in recent years to use a direct-measuring annulus probe in the MWD tools string (if there is one).
+
+
+== Caveats ==
+As with all matters relating to pore pressure analysis, the method cannot be applied blindly. In particular, models and constants need to be adjusted to the particular basin being drilled. The method was developed for the delta of the Mississippi/ Missouri river system in the United States, and works reasonably well there. However, basins with different sediment sources cannot be assumed to have the same compaction profiles (because they may have different depositional clay mineralogy). Basins with different pore fluid chemistry will have differing hydrostatic pressure profiles, leading to different dc-exponent profiles. The presence of post-depositional carbonate cements in mudrocks will make formations appear abnormally hard to drill. In particular, the use of PDC-type bits with a shearing cutting action (instead of the chipping action that Jorden & Shirley (1966) assumed in their chip-holddown model) will lead to dc-exponent plots that differ from tricone or bi-cone bits in the same formations. While doing wildcat exploration work in a region, the method can be applied "by the book", but after drilling the first well, one would need to carefully re-evaluate the data collected to try to improve the model for the particular basin in question. While it can be used successfully, one must always validate the information presented by dc-exponent plots by examining multiple other pore pressure indicators.
+Reference: Jorden, J.R. and Shirley, O.J.: "Application of Drilling Performance Data to Overpressure Detection", Journal of Petroleum Technology, p1387-1394, Vol.18, No.11, Nov 1966.

@@ -1,0 +1,89 @@
+The Richter magnitude scale (also Richter scale) assigns a magnitude number to quantify the energy released by an earthquake. The Richter scale, developed in the 1930s, is a base-10 logarithmic scale, which defines magnitude as the logarithm of the ratio of the amplitude of the seismic waves to an arbitrary, minor amplitude.
+As measured with a seismometer, an earthquake that registers 5.0 on the Richter scale has a shaking amplitude 10 times that of an earthquake that registered 4.0, and thus corresponds to a release of energy 31.6 times that released by the lesser earthquake.
+The Richter scale was succeeded in the 1970s by the Moment Magnitude Scale (MMS). This is now the scale used by the United States Geological Survey to estimate magnitudes for all modern large earthquakes. But, earthquake magnitudes are still sometimes incorrectly reported by the press as "an earthquake of XX on the Richter scale", when the correct terminology using the MMS is "a magnitude XX earthquake".
+
+
+== DevelopmentEdit ==
+
+In 1935, the seismologists Charles Francis Richter and Beno Gutenberg, of the California Institute of Technology, developed the (future) Richter magnitude scale, specifically for measuring earthquakes in a given area of study in California, as recorded and measured with the Wood-Anderson torsion seismograph. Originally, Richter reported mathematical values to the nearest quarter of a unit, but the values later were reported with one decimal place; the local magnitude scale compared the magnitudes of different earthquakes. Richter derived his earthquake-magnitude scale from the apparent magnitude scale used to measure the brightness of stars.
+Richter established a magnitude 0 event to be an earthquake that would show a maximum, combined horizontal displacement of 1.0 µm (0.00004 in.) on a seismogram recorded with a Wood-Anderson torsion seismograph 100 km (62 mi.) from the earthquake epicenter. That fixed measure was chosen to avoid negative values for magnitude, given that the slightest earthquakes that could be recorded and located at the time were around magnitude 3.0. The Richter magnitude scale itself has no lower limit, and contemporary seismometers can register, record, and measure earthquakes with negative magnitudes.
+ (local magnitude) was not designed to be applied to data with distances to the hypocenter of the earthquake that were greater than 600 km (373 mi.). For national and local seismological observatories, the standard magnitude scale in the 21st century is still . This scale saturates at around  = 7, because the high frequency waves recorded locally have wavelengths shorter than the rupture lengths of large earthquakes.
+Later, to express the size of earthquakes around the planet, Gutenberg and Richter developed a surface wave magnitude scale () and a body wave magnitude scale (). These are types of waves that are recorded at teleseismic distances. The two scales were adjusted such that they were consistent with the  scale. That adjustment succeeded better with the  scale than with the  scale. Each scale saturates when the earthquake is greater than magnitude 8.0.
+Because of this, researchers in the 1970s developed the moment magnitude scale (). The older magnitude-scales were superseded by methods for calculating the seismic moment, from which was derived the moment magnitude scale.
+About the origins of the Richter magnitude scale, C.F. Richter said:
+
+I found a [1928] paper by Professor K. Wadati of Japan in which he compared large earthquakes by plotting the maximum ground motion against [the] distance to the epicenter. I tried a similar procedure for our stations, but the range between the largest and smallest magnitudes seemed unmanageably large. Dr. Beno Gutenberg then made the natural suggestion to plot the amplitudes logarithmically. I was lucky, because logarithmic plots are a device of the devil.
+
+
+== DetailsEdit ==
+The Richter scale was defined in 1935 for particular circumstances and instruments; the particular circumstances refer to it being defined for Southern California and "implicitly incorporates the attenuative properties of Southern California crust and mantle." The particular instrument used would became saturated by strong earthquakes and unable to record high values. The scale was replaced in the 1970s by the moment magnitude scale (MMS); for earthquakes adequately measured by the Richter scale, numerical values are approximately the same. Although values measured for earthquakes now are  (MMS), they are frequently reported by the press as Richter values, even for earthquakes of magnitude over 8, when the Richter scale becomes meaningless. Anything above 5 is classified as a risk by the USGS.
+The Richter and MMS scales measure the energy released by an earthquake; another scale, the Mercalli intensity scale, classifies earthquakes by their effects, from detectable by instruments but not noticeable, to catastrophic. The energy and effects are not necessarily strongly correlated; a shallow earthquake in a populated area with soil of certain types can be far more intense in effects than a much more energetic deep earthquake in an isolated area.
+Several scales have historically been described as the "Richter scale", especially the local magnitude  and the surface wave  scale. In addition, the body wave magnitude, , and the moment magnitude, , abbreviated MMS, have been widely used for decades. A couple of new techniques to measure magnitude are in the development stage by seismologists.
+All magnitude scales have been designed to give numerically similar results. This goal has been achieved well for , , and . The  scale gives somewhat different values than the other scales. The reason for so many different ways to measure the same thing is that at different distances, for different hypocentral depths, and for different earthquake sizes, the amplitudes of different types of elastic waves must be measured.
+ is the scale used for the majority of earthquakes reported (tens of thousands) by local and regional seismological observatories. For large earthquakes worldwide, the moment magnitude scale (MMS) is most common, although  is also reported frequently.
+The seismic moment, , is proportional to the area of the rupture times the average slip that took place in the earthquake, thus it measures the physical size of the event.  is derived from it empirically as a quantity without units, just a number designed to conform to the  scale. A spectral analysis is required to obtain , whereas the other magnitudes are derived from a simple measurement of the amplitude of a specifically defined wave.
+All scales, except , saturate for large earthquakes, meaning they are based on the amplitudes of waves which have a wavelength shorter than the rupture length of the earthquakes. These short waves (high frequency waves) are too short a yardstick to measure the extent of the event. The resulting effective upper limit of measurement for  is about 7 and about 8.5 for .
+New techniques to avoid the saturation problem and to measure magnitudes rapidly for very large earthquakes are being developed. One of these is based on the long period P-wave; the other is based on a recently discovered channel wave.
+The energy release of an earthquake, which closely correlates to its destructive power, scales with the 3⁄2 power of the shaking amplitude. Thus, a difference in magnitude of 1.0 is equivalent to a factor of 31.6 () in the energy released; a difference in magnitude of 2.0 is equivalent to a factor of 1000 ( ) in the energy released. The elastic energy radiated is best derived from an integration of the radiated spectrum, but an estimate can be based on  because most energy is carried by the high frequency waves.
+
+
+== Richter magnitudesEdit ==
+The Richter magnitude of an earthquake is determined from the logarithm of the amplitude of waves recorded by seismographs (adjustments are included to compensate for the variation in the distance between the various seismographs and the epicenter of the earthquake). The original formula is:
+
+where A is the maximum excursion of the Wood-Anderson seismograph, the empirical function A0 depends only on the epicentral distance of the station, . In practice, readings from all observing stations are averaged after adjustment with station-specific corrections to obtain the  value.
+Because of the logarithmic basis of the scale, each whole number increase in magnitude represents a tenfold increase in measured amplitude; in terms of energy, each whole number increase corresponds to an increase of about 31.6 times the amount of energy released, and each increase of 0.2 corresponds to a doubling of the energy released.
+Events with magnitudes greater than 4.5 are strong enough to be recorded by a seismograph anywhere in the world, so long as its sensors are not located in the earthquake's shadow.
+The following describes the typical effects of earthquakes of various magnitudes near the epicenter. The values are typical only. They should be taken with extreme caution, since intensity and thus ground effects depend not only on the magnitude, but also on the distance to the epicenter, the depth of the earthquake's focus beneath the epicenter, the location of the epicenter and geological conditions (certain terrains can amplify seismic signals).
+(Based on U.S. Geological Survey documents.)
+The intensity and death toll depend on several factors (earthquake depth, epicenter location, population density, to name a few) and can vary widely.
+Minor earthquakes occur every day and hour. On the other hand, great earthquakes occur once a year, on average. The largest recorded earthquake was the Great Chilean earthquake of May 22, 1960, which had a magnitude of 9.5 on the moment magnitude scale. The larger the magnitude, the less frequent the earthquake happens.
+Beyond 9.5, while extremely strong earthquakes are theoretically possible, the energies involved rapidly make such earthquakes on Earth effectively impossible without an extremely destructive source of external energy. For example, the asteroid impact that created the Chicxulub crater and caused the mass extinction that may have killed the dinosaurs has been estimated as causing a magnitude 13 earthquake (see below), while a magnitude 15 earthquake could destroy the Earth completely. Seismologist Susan Hough has suggested that 10 may represent a very approximate upper limit, as the effect if the largest known continuous belt of faults ruptured together (along the Pacific coast of the Americas).
+
+
+=== Energy release equivalentsEdit ===
+The following table lists the approximate energy equivalents in terms of TNT explosive force – though note that the earthquake energy is released underground rather than overground. Most energy from an earthquake is not transmitted to and through the surface; instead, it dissipates into the crust and other subsurface structures. In contrast, a small atomic bomb blast (see nuclear weapon yield) will not, it will simply cause light shaking of indoor items, since its energy is released above ground.
+
+
+== Magnitude empirical formulaeEdit ==
+These formulae are an alternative method to calculate Richter magnitude instead of using Richter correlation tables based on Richter standard seismic event (=0, A=0.001mm, D=100 km).
+The Lillie empirical formula:
+
+Where:
+A is the amplitude (maximum ground displacement) of the P-wave, in micrometers, measured at 0.8 Hz.
+ is the epicentral distance, in km.
+For distance less than 200 km:
+
+For distance between 200 km and 600 km:
+
+where A is seismograph signal amplitude in mm, D distance in km.
+The Bisztricsany (1958) empirical formula for epicentral distances between 4˚ to 160˚:
+
+Where:
+ is magnitude (mainly in the range of 5 to 8)
+ is the duration of the surface wave in seconds
+ is the epicentral distance in degrees.
+The Tsumura empirical formula:
+
+Where:
+ is the magnitude (mainly in the range of 3 to 5).
+ is the total duration of oscillation in seconds.
+ is the epicentral distance in kilometers.
+The Tsuboi, University of Tokyo, empirical formula:
+
+Where:
+ is the magnitude.
+ is the amplitude in um.
+ is the epicentral distance in kilometers.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Seismic Monitor – IRIS Consortium
+USGS Earthquake Magnitude Policy (implemented on January 18, 2002) – USGS
+Earthquake Energy Calculator
+Perspective: a graphical comparison of earthquake energy release – Pacific Tsunami Warning Center

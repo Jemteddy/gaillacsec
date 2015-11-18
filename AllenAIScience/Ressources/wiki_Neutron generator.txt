@@ -1,0 +1,94 @@
+Neutron generators are neutron source devices which contain compact linear accelerators and that produce neutrons by fusing isotopes of hydrogen together. The fusion reactions take place in these devices by accelerating either deuterium, tritium, or a mixture of these two isotopes into a metal hydride target which also contains deuterium, tritium or a mixture of these isotopes. Fusion of deuterium atoms (D + D) results in the formation of a He-3 ion and a neutron with a kinetic energy of approximately 2.5 MeV. Fusion of a deuterium and a tritium atom (D + T) results in the formation of a He-4 ion and a neutron with a kinetic energy of approximately 14.1 MeV. Neutron generators have applications in medicine, security, and materials analysis.
+Thousands of such small, relatively inexpensive systems have been built over the past five decades.
+
+
+== Neutron generator theory and operation ==
+Small neutron generators using the deuterium (D, hydrogen-2, 2H) tritium (T, hydrogen-3, 3H) fusion reactions are the most common accelerator based (as opposed to isotopic) neutron sources. In these systems, neutrons are produced by creating ions of deuterium, tritium, or deuterium and tritium and accelerating these into a hydride target loaded with deuterium, tritium, or deuterium and tritium. The DT reaction is used more than the DD reaction because the yield of the DT reaction is 50–100 times higher than that of the DD reaction.
+D + T → n + 4He   En = 14.1 MeV
+D + D → n + 3He   En = 2.5 MeV
+Neutrons produced from the DT reaction are emitted isotropically (uniformly in all directions) from the target while neutrons from the DD reaction are slightly peaked in the forward (along the axis of the ion beam) direction. In both cases, the associated He nuclei are emitted in the opposite direction of the neutron.
+The gas pressure in the ion source region of the neutron tubes generally ranges between 0.1–0.01 mm Hg. The mean free path of electrons must be shorter than the discharge space to achieve ionization (lower limit for pressure) while the pressure must be kept low enough to avoid formation of discharges at the high extraction voltages applied between the electrodes. The pressure in the accelerating region has however to be much lower, as the mean free path of electrons must be longer to prevent formation of a discharge between the high voltage electrodes.
+The ion accelerator usually consists of several electrodes with cylindrical symmetry, acting as electric lenses. The ion beam can be focused to a small spot of the target that way. The accelerators usually have several stages, with voltage between the stages not exceeding 200 kV to prevent field emission.
+In comparison with radionuclide neutron sources, neutron tubes can produce much higher neutron fluxes and monochromatic neutron energy spectrums can be obtained. The neutron production rate can also be controlled.
+
+
+== Sealed neutron tubes ==
+The central part of a neutron generator is the particle accelerator itself, sometimes called a neutron tube. Neutron tubes have several components including an ion source, ion optic elements, and a beam target; all of these are enclosed within a vacuum tight enclosure. High voltage insulation between the ion optical elements of the tube is provided by glass and/or ceramic insulators. The neutron tube is, in turn, enclosed in a metal housing, the accelerator head, which is filled with a dielectric medium to insulate the high voltage elements of the tube from the operating area. The accelerator and ion source high voltages are provided by external power supplies. The control console allows the operator to adjust the operating parameters of the neutron tube. The power supplies and control equipment are normally located within 10–30 feet of the accelerator head in laboratory instruments, but may be several kilometers away in well logging instruments.
+In comparison with their predecessors, sealed neutron tubes do not require vacuum pumps and gas sources for operation. They are therefore more mobile and compact, while also durable and reliable. For example, sealed neutron tubes have replaced radioactive neutron initiators, in supplying a pulse of neutrons to the imploding core of modern nuclear weapons.
+Examples of neutron tube ideas date as far back as the 1930s, pre-nuclear weapons era, by German scientists filing a 1938 German patent (March 1938, patent # 261,156) and obtaining a United States Patent (July 1941, USP#2,251,190); examples of present state of the art are given by developments such as the Neutristor, a mostly solid state device, resembling a computer chip, invented at Sandia National Laboratories in Albuquerque NM. Typical sealed designs are used in a pulsed mode and can be operated at different output levels, depending on the life from the ion source and loaded targets.
+
+
+== Ion sources ==
+
+A good ion source should provide a strong ion beam without consuming much of the gas. For hydrogen isotopes, production of atomic ions is favored over molecular ions, as atomic ions have higher neutron yield on collision. The ions generated in the ion source are then extracted by an electric field into the accelerator region, and accelerated towards the target. The gas consumption is chiefly caused by the pressure difference between the ion generating and ion accelerating spaces that has to be maintained. Ion currents of 10 mA at gas consumptions of 40 cm3/hour are achievable.
+For a sealed neutron tube, the ideal ion source should use low gas pressure, give high ion current with large proportion of atomic ions, have low gas clean-up, use low power, have high reliability and high lifetime, its construction has to be simple and robust and its maintenance requirements have to be low.
+Gas can be efficiently stored in a replenisher, an electrically heated coil of zirconium wire. Its temperature determines the rate of absorption/desorption of hydrogen by the metal, which regulates the pressure in the enclosure.
+
+
+=== Cold cathode (Penning) ===
+The Penning source is a low gas pressure, cold cathode ion source which utilizes crossed electric and magnetic fields. The ion source anode is at a positive potential, either dc or pulsed, with respect to the source cathode. The ion source voltage is normally between 2 and 7 kilovolts. A magnetic field, oriented parallel to the source axis, is produced by a permanent magnet. A plasma is formed along the axis of the anode which traps electrons which, in turn, ionize gas in the source. The ions are extracted through the exit cathode. Under normal operation, the ion species produced by the Penning source are over 90% molecular ions. This disadvantage is however compensated for by the other advantages of the system.
+One of the cathodes is a cup made of soft iron, enclosing most of the discharge space. The bottom of the cup has a hole through which most of the generated ions are ejected by the magnetic field into the acceleration space. The soft iron shields the acceleration space from the magnetic field, to prevent a breakdown.
+Ions emerging from the exit cathode are accelerated through the potential difference between the exit cathode and the accelerator electrode. The schematic indicates that the exit cathode is at ground potential and the target is at high (negative) potential. This is the case in many sealed tube neutron generators. However, in cases when it is desired to deliver the maximum flux to a sample, it is desirable to operate the neutron tube with the target grounded and the source floating at high (positive) potential. The accelerator voltage is normally between 80 and 180 kilovolts.
+The accelerating electrode has the shape of a long hollow cylinder. The ion beam has a slightly diverging angle (about 0.1 radian). The electrode shape and distance from target can be chosen so the entire target surface is bombarded with ions. Acceleration voltages of up to 200 kV are achievable.
+The ions pass through the accelerating electrode and strike the target. When ions strike the target, 2–3 electrons per ion are produced by secondary emission. In order to prevent these secondary electrons from being accelerated back into the ion source, the accelerator electrode is biased negative with respect to the target. This voltage, called the suppressor voltage, must be at least 500 volts and may be as high as a few kilovolts. Loss of suppressor voltage will result in damage, possibly catastrophic, to the neutron tube.
+Some neutron tubes incorporate an intermediate electrode, called the focus or extractor electrode, to control the size of the beam spot on the target. The gas pressure in the source is regulated by heating or cooling the gas reservoir element.
+
+
+=== Radio frequency (RF) ===
+Ions can be created by electrons formed in high-frequency electromagnetic field. The discharge is formed in a tube located between electrodes, or inside a coil. Over 90% proportion of atomic ions is achievable.
+
+
+== Targets ==
+The targets used in neutron generators are thin films of metal such as titanium, scandium, or zirconium which are deposited onto a silver, copper or molybdenum substrate. Titanium, scandium, and zirconium form stable chemical compounds called metal hydrides when combined with hydrogen or its isotopes. These metal hydrides are made up of two hydrogen (deuterium or tritium) atoms per metal atom and allow the target to have extremely high densities of hydrogen. This is important to maximize the neutron yield of the neutron tube. The gas reservoir element also uses metal hydrides, e.g. uranium hydride, as the active material.
+Titanium is preferred to zirconium as it can withstand higher temperatures (200 °C), and gives higher neutron yield as it captures deuterons better than zirconium. The maximum temperature allowed for the target, above which hydrogen isotopes undergo desorption and escape the material, limits the ion current per surface unit of the target; slightly divergent beams are therefore used. A 1 microampere ion beam accelerated at 200 kV to a titanium-tritium target can generate up to 108 neutrons per second. The neutron yield is mostly determined by the accelerating voltage and the ion current level.
+An example of a tritium target in use is a 0.2 mm thick silver disc with a 1 micrometer layer of titanium deposited on its surface; the titanium is then saturated with tritium.
+Metals with sufficiently low hydrogen diffusion can be turned into deuterium targets by bombardment of deuterons until the metal is saturated. Gold targets under such condition show four times higher efficiency than titanium. Even better results can be achieved with targets made of a thin film of a high-absorption high-diffusivity metal (e.g. titanium) on a substrate with low hydrogen diffusivity (e.g. silver), as the hydrogen is then concentrated on the top layer and can not diffuse away into the bulk of the material. Using a deuterium-tritium gas mixture, self-replenishing D-T targets can be made. The neutron yield of such targets is lower than of tritium-saturated targets in deuteron beams, but their advantage is much longer lifetime and constant level of neutron production. Self-replenishing targets are also tolerant to high-temperature bake-out of the tubes, as their saturation with hydrogen isotopes is performed after the bakeout and tube sealing.
+
+
+== High voltage power supplies ==
+One particularly interesting approach for generating the high voltage fields needed to accelerate ions in a neutron tube is to use a pyroelectric crystal. In April 2005 researchers at UCLA demonstrated the use of a thermally cycled pyroelectric crystal to generate high electric fields in a neutron generator application. In February 2006 researchers at Rensselaer Polytechnic Institute demonstrated the use of two oppositely poled crystals for this application. Using these low-tech power supplies it is possible to generate a sufficiently high electric field gradient across an accelerating gap to accelerate deuterium ions into a deuterated target to produce the D + D fusion reaction. These devices are similar in their operating principle to conventional sealed-tube neutron generators which typically use Cockcroft–Walton type high voltage power supplies. The novelty of this approach is in the simplicity of the high voltage source. Unfortunately, the relatively low accelerating current that pyroelectric crystals can generate, together with the modest pulsing frequencies that can be achieved (a few cycles per minute) limits their near-term application in comparison with today's commercial products (see below). Also see pyroelectric fusion. [1]
+
+
+== Other technologies ==
+In addition to the conventional neutron generator design described above several other approaches exist to use electrical systems for producing neutrons.
+
+
+=== Inertial electrostatic confinement/fusor ===
+
+Another type of innovative neutron generator is the inertial electrostatic confinement fusion device. This neutron generator differs from the conventional ion beam onto solid target types because it avoids using a solid target which will be sputter eroded causing metalization of insulating surfaces. Depletion of the reactant gas within the solid target is also avoided. Far greater operational lifetime is achieved. Originally called a fusor, it was invented by Philo Farnsworth, the inventor of electronic television. This type of neutron generator is manufactured by NSD-Gradel-Fusion..
+
+
+== Manufacturers ==
+Adelphi Technology, Adelphi Technology (USA)
+Baker Hughes , Baker Hughes (USA)
+Sodern, Sodern (France)
+Halliburton, Halliburton (USA)
+Hotwell, Hotwell GmbH (Austria) [Using neutron tubes from VNIIA]
+Lawrence Berkeley National Laboratory, Lawrence Berkeley National Laboratory (USA)
+NSD-Gradel-Fusion, NSD-Gradel-Fusion (Luxembourg)
+Phoenix Nuclear Labs, Phoenix Nuclear Labs (USA)
+Sandia National Laboratories , Sandia National Laboratories (USA)
+Schlumberger, Schlumberger (USA)
+Starfire Industries, Starfire Industries (USA)
+Thermo Fisher Scientific, Thermo Fisher Scientific (USA)
+VNIIA, VNIIA All Russia Research Institute of Automatics (Russia)
+
+
+== See also ==
+Fast neutron
+Nuclear fission
+Nuclear fusion
+Neutron source
+Neutron moderator
+Radioactive decay
+Radioactivity
+Slow neutron
+
+
+== References ==
+
+
+== External links ==
+Chichester, D. L.; Simpson, J. D. (2003). "Compact Accelerator Neutron Generators" (pdf). The Industrial Physicist 9 (6): 22–25. 
+Elizondo-Decanini, J. M.; Schmale, D.; Cich, M.; Martinez, M.; Youngman, K.; Senkow, M.; Kiff, S.; Steele, J.; Goeke, R.; Wroblewski, B.; Desko, J.; Dragt, A. J. (2012). "Novel Surface-Mounted Neutron Generator". IEEE Transactions on Plasma Sciences 40 (9): 2145–2150. Bibcode:2012ITPS...40.2145E. doi:10.1109/TPS.2012.2204278. 
+"Sandia National Laboratories".

@@ -1,0 +1,34 @@
+The contrast ratio is a property of a display system, defined as the ratio of the luminance of the brightest color (white) to that of the darkest color (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display. It has similarities with dynamic range.
+There is no official, standardized way to measure contrast ratio for a system or its parts, nor is there a standard for defining "Contrast Ratio" that is accepted by any standards organization so ratings provided by different manufacturers of display devices are not necessarily comparable to each other due to differences in method of measurement, operation, and unstated variables. Manufacturers have traditionally favored measurement methods that isolate the device from the system, whereas other designers have more often taken the effect of the room into account. An ideal room would absorb all the light reflecting from a projection screen or emitted by a CRT, and the only light seen in the room would come from the display device. With such a room, the contrast ratio of the image would be the same as the contrast ratio of the device. Real rooms reflect some of the light back to the displayed image, lowering the contrast ratio seen in the image.
+Static contrast ratio is the luminosity ratio comparing the brightest and darkest color the system is capable of producing simultaneously at any instant of time, while dynamic contrast ratio is the luminosity ratio comparing the brightest and darkest color the system is capable of producing over time (while the picture is moving). Moving from a system that displays a static motionless image to a system that displays a dynamic, changing picture slightly complicates the definition of the contrast ratio, due to the need to take into account the extra temporal dimension to the measuring process.
+
+
+== Methods of measurement ==
+Many display devices favor the use of the full on/full off method of measurement, as it cancels out the effect of the room and results in an ideal ratio. Equal proportions of light reflect from the display to the room and back in both "black" and "white" measurements, as long as the room stays the same. This will inflate the light levels of both measurements proportionally, leaving the black to white luminance ratio unaffected.
+Some manufacturers have gone as far as using different device parameters for the three tests, even further inflating the calculated contrast ratio. With DLP projectors, one method to do this is to enable the clear sector of the color filter wheel for the "on" part and disable it for the "off" part This practice is rather dubious, as it will be impossible to reproduce such contrast ratios with any useful image content.
+Another measure is the ANSI contrast, in which the measurement is done with a checker board patterned test image where the black and white luminosity values are measured simultaneously. This is a more realistic measure of system capability, but includes the potential of including the effects of the room into the measurement, if the test is not performed in a room that is close to ideal.
+It is useful to note that the full on/full off method effectively measures the dynamic contrast ratio of a display, while the ANSI contrast measures the static contrast ratio.
+
+
+== Dynamic contrast (DC) ==
+A notable recent development in LCD technology is "dynamic contrast" (DC), also called "advanced contrast ratio" (ACR) and various other designations. When there is a need to display a dark image, a display that supports dynamic contrast underpowers the backlight lamp (or decreases the aperture of the projector's lens using an iris), but proportionately amplifies the transmission through the LCD panel; this gives the benefit of realizing the potential static contrast ratio of the LCD panel in dark scenes when the image is watched in a dark room. The drawback is that if a dark scene contains small areas of superbright light, the resulting image may be over exposed.
+The trick for the display is to determine how much of the highlights may be unnoticeably blown out in a given image under the given ambient lighting conditions.
+Brightness, as it is most often used in marketing literature, refers to the emitted luminous intensity on screen, measured in candela per square metre (cd/m2). The higher the number, the brighter the screen.
+It is also common to market only the dynamic contrast ratio capability of a display (when it is better than its static contrast ratio only on paper), which should not be directly compared to the static contrast ratio. A plasma display with a 4,000,000:1 static contrast ratio will show superior contrast to an LCD (with LED or CCFL backlight) with 30,000,000:1 dynamic and 20,000:1 static contrast ratio when the input signal contains a full range of brightnesses from 0 to 100% simultaneously. They will, however, be on par when input signal ranges only from 0 to 20% brightness.
+
+
+== Contrast ratio in a real room ==
+In marketing literature, contrast ratios for emissive (as opposed to reflective) displays are always measured under the optimum condition of a room in total darkness. In typical viewing situations, the contrast ratio is significantly lower due to the reflection of light from the surface of the display, making it harder to distinguish between different devices with very high contrast ratios. How much the room light reduces the contrast ratio depends on the luminance of the display, as well as the amount of light reflecting off the display.
+A clean print at a typical movie theater may have a contrast ratio of 500:1, while a modern computer LCD monitor is typically at 1000:1, and TVs might be over 4000:1. Dynamic contrast ratio is usually measured at factory with two panels (one versus another) of the same model as each panel will have an inherent dark and light (hot) spot. Static is usually measured with the same screen showing half screen full bright vs half screen full dark. This usually results in a lower ratio as brightness will creep into the dark area of the screen thus giving a higher luminance.
+
+
+== See also ==
+Dynamic range
+Display contrast
+Glossary of video terms
+
+
+== References ==
+
+
+== References ==

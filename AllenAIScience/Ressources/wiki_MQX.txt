@@ -1,0 +1,26 @@
+MQX RTOS is a real-time operating system developed by Precise Software Technologies Inc., and currently sold by Synopsys, Embedded Access Inc, and Freescale. MQX is an abbreviation standing for Message Queue eXecutive.
+Like most real-time operating systems, MQX RTOS includes a multitasking kernel with pre-emptive scheduling and fast interrupt response, extensive inter-process communication and synchronization facilities, and a file system.
+Its configurable size conserves memory space taking as little as 6 KB of ROM, including its kernel, interrupts, semaphores, queues and a memory manager.
+MQX RTOS includes a TCP/IP stack (RTCS), embedded MS-DOS file system (MFS), USB Host/Device Stack, as well as Design, Task-Aware debugging (TAD), Remote debugging and performance analysis tools.
+MQX RTOS is generally used in embedded systems. MQX development is done on a "host" machine running Unix or Windows, cross-compiling target software to run on various "target" CPU architectures.
+MQX RTOS has been ported to a number of platforms and now runs on practically any modern CPU that is used in the embedded market. This includes Kinetis, ColdFire, PowerPC, ARC, ARM, StrongARM, xScale CPUs.
+All new Kinetis (ARM - CortexM4) and ColdFire devices are to be enabled with complimentary Freescale MQX RTOS. Freescale plans to expand the availability of this complimentary integrated enablement software to include many embedded processors in its broad portfolio.
+
+
+== History ==
+MQX had its origins at Dy4 Systems Inc., a company based in Ottawa, Canada. A small team of software engineers at Dy4 consisting of Jeremy James, Mati Sauks and Craig Honegger started researching novel applications for embedded multiprocessors in 1984. This work led to the use of a real-time operating system in writing firmware for Dy4 single board computers. In 1989, Jeremy James and Mati Sauks commercialized the Harmony Real-time Operating System under the name of MPX, which was developed for portable multiprocessor real-time systems by the National Research Council Canada and created a company called Precise Software Technologies Inc.
+This effort led to the development of the Precise Real-Time Executive technology that was the basis of a product called MQX and MQX+m, which were real-time executives for single processor and multiprocessor applications. The unique asynchronous message passing paradigm delivered by MQX when it was introduced in 1991 and the royalty-free licensing model were accepted immediately in the embedded real-time market. Since the introduction of MQX, Precise continually added functionality to the MQX RTOS through it various iterations and versions.
+Precise Software Technologies Inc. was acquired by ARC International in March, 2000  and continued to develop, license and sell MQX on many new processor architectures including Freescale ColdFire, IBM/Freescale PowerPC and ARM. In 2004, Embedded Access assumed distribution and support of the MQX RTOS on non-ARC processor architectures. In 2009, Freescale began shipping the MQX RTOS complimentary with selected ColdFire MCUs.
+The MQX RTOS has been used in thousands of embedded projects by over 1000 companies, who have shipped millions of products running MQX. Today companies such as ABB, Agilent, ATI Technologies, Bausch and Lomb, General Dynamics, Daewoo, Exabyte, General Electric, B.F. Goodrich, Liebert, Matrox, Mitel Networks, Philips, Porsche, QLogic, SICK, Sony, Tyco and Xerox use MQX in applications such as Industrial Control, Networking, Storage and Consumer Electronics.
+
+
+== Competitive operating systems ==
+Similar real-time operating systems are available from other vendors:
+
+
+== References ==
+
+
+== External links ==
+Freescale MQX RTOS
+Embedded Access

@@ -1,0 +1,166 @@
+In fluid dynamics, dispersion of water waves generally refers to frequency dispersion, which means that waves of different wavelengths travel at different phase speeds. Water waves, in this context, are waves propagating on the water surface, and forced by gravity and surface tension. As a result, water with a free surface is generally considered to be a dispersive medium.
+Surface gravity waves, moving under the forcing by gravity, propagate faster for increasing wavelength. For a given wavelength, gravity waves in deeper water have a larger phase speed than in shallower water. In contrast with this, capillary waves only forced by surface tension, propagate faster for shorter wavelengths.
+Besides frequency dispersion, water waves also exhibit amplitude dispersion. This is a nonlinear effect, by which waves of larger amplitude have a different phase speed from small-amplitude waves.
+
+
+== Frequency dispersion for surface gravity waves ==
+This section is about frequency dispersion for waves on a fluid layer forced by gravity, and according to linear theory. For surface tension effects on frequency dispersion, see surface tension effects in Airy wave theory and capillary wave.
+
+
+=== Wave propagation and dispersion ===
+
+The simplest propagating wave of unchanging form is a sine wave. A sine wave with water surface elevation η( x, t ) is given by:
+
+where a is the amplitude (in metres) and θ = θ( x, t ) is the phase function (in radians), depending on the horizontal position ( x , in metres) and time ( t , in seconds):
+   with      and   
+where:
+λ is the wavelength (in metres),
+T is the period (in seconds),
+k is the wavenumber (in radians per metre) and
+ω is the angular frequency (in radians per second).
+Characteristic phases of a water wave are:
+the upward zero-crossing at θ = 0,
+the wave crest at θ = ½ π,
+the downward zero-crossing at θ = π and
+the wave trough at θ = 1½ π.
+A certain phase repeats itself after an integer m multiple of 2π: sin(θ) = sin(θ+m•2π).
+Essential for water waves, and other wave phenomena in physics, is that free propagating waves of non-zero amplitude only exist when the angular frequency ω and wavenumber k (or equivalently the wavelength λ and period T ) satisfy a functional relationship: the frequency dispersion relation
+
+The dispersion relation has two solutions: ω = +Ω(k) and ω = −Ω(k), corresponding to waves travelling in the positive or negative x–direction. The dispersion relation will in general depend on several other parameters in addition to the wavenumber k. For gravity waves, according to linear theory, these are the acceleration by gravity g and the water depth h. The dispersion relation for these waves is:
+
+an implicit equation with tanh denoting the hyperbolic tangent function.
+An initial wave phase θ = θ0 propagates as a function of space and time. Its subsequent position is given by:
+
+This shows that the phase moves with the velocity:
+
+which is called the phase velocity.
+
+
+=== Phase velocity ===
+
+A sinusoidal wave, of small surface-elevation amplitude and with a constant wavelength, propagates with the phase velocity, also called celerity or phase speed. While the phase velocity is a vector and has an associated direction, celerity or phase speed refer only to the magnitude of the phase velocity. According to linear theory for waves forced by gravity, the phase speed depends on the wavelength and the water depth. For a fixed water depth, long waves (with large wavelength) propagate faster than shorter waves.
+In the left figure, it can be seen that shallow water waves, with wavelengths λ much larger than the water depth h, travel with the phase velocity
+
+with g the acceleration by gravity and cp the phase speed. Since this shallow-water phase speed is independent of the wavelength, shallow water waves do not have frequency dispersion.
+Using another normalization for the same frequency dispersion relation, the figure on the right shows that in deep water, with water depth h larger than half the wavelength λ (so for h/λ > 0.5), the phase velocity cp is independent of the water depth:
+
+with T the wave period (the reciprocal of the frequency f, T=1/f ). So in deep water the phase speed increases with the wavelength, and with the period.
+Since the phase speed satisfies cp = λ/T = λf, wavelength and period (or frequency) are related. For instance in deep water:
+
+The dispersion characteristics for intermediate depth are given below.
+
+
+=== Group velocity ===
+
+Interference of two sinusoidal waves with slightly different wavelengths, but the same amplitude and propagation direction, results in a beat pattern, called a wave group. As can be seen in the animation, the group moves with a group velocity cg different from the phase velocity cp, due to frequency dispersion.
+The group velocity is depicted by the red lines (marked B) in the two figures above. In shallow water, the group velocity is equal to the shallow-water phase velocity. This is because shallow water waves are not dispersive. In deep water, the group velocity is equal to half the phase velocity: cg = ½ cp.
+The group velocity also turns out to be the energy transport velocity. This is the velocity with which the mean wave energy is transported horizontally in a narrow-band wave field.
+In the case of a group velocity different from the phase velocity, a consequence is that the number of waves counted in a wave group is different when counted from a snapshot in space at a certain moment, from when counted in time from the measured surface elevation at a fixed position. Consider a wave group of length Λg and group duration of τg. The group velocity is:
+
+The number of waves in a wave group, measured in space at a certain moment is: Λg / λ. While measured at a fixed location in time, the number of waves in a group is: τg / T. So the ratio of the number of waves measured in space to those measured in time is:
+
+So in deep water, with cg = ½ cp, a wave group has twice as many waves in time as it has in space.
+The water surface elevation η(x,t), as a function of horizontal position x and time t, for a bichromatic wave group of full modulation can be mathematically formulated as:
+
+with:
+a the wave amplitude of each frequency component in metres,
+k1 and k2 the wave number of each wave component, in radians per metre, and
+ω1 and ω2 the angular frequency of each wave component, in radians per second.
+Both ω1 and k1, as well as ω2 and k2, have to satisfy the dispersion relation:
+   and   
+Using trigonometric identities, the surface elevation is written as:
+
+The part between square brackets is the slowly varying amplitude of the group, with group wave number ½ ( k1 − k2 ) and group angular frequency ½ ( ω1 − ω2 ). As a result, the group velocity is, for the limit k1 → k2 :
+
+Wave groups can only be discerned in case of a narrow-banded signal, with the wave-number difference k1 − k2 small compared to the mean wave number ½ (k1 + k2).
+
+
+=== Multi-component wave patterns ===
+
+The effect of frequency dispersion is that the waves travel as a function of wavelength, so that spatial and temporal phase properties of the propagating wave are constantly changing. For example, under the action of gravity, water waves with a longer wavelength travel faster than those with a shorter wavelength.
+While two superimposed sinusoidal waves, called a bichromatic wave, have an envelope which travels unchanged, three or more sinusoidal wave components result in a changing pattern of the waves and their envelope. A sea state – that is: real waves on the sea or ocean – can be described as a superposition of many sinusoidal waves with different wavelengths, amplitudes, initial phases and propagation directions. Each of these components travels with its own phase velocity, in accordance with the dispersion relation. The statistics of such a surface can be described by its power spectrum.
+
+
+=== Dispersion relation ===
+In the table below, the dispersion relation ω2 = [Ω(k)]2 between angular frequency ω = 2π / T and wave number k = 2π / λ is given, as well as the phase and group speeds.
+Deep water corresponds with water depths larger than half the wavelength, which is the common situation in the ocean. In deep water, longer period waves propagate faster and transport their energy faster. The deep-water group velocity is half the phase velocity. In shallow water, for wavelengths larger than twenty times the water depth, as found quite often near the coast, the group velocity is equal to the phase velocity.
+
+
+== History ==
+The full linear dispersion relation was first found by Pierre-Simon Laplace, although there were some errors in his solution for the linear wave problem. The complete theory for linear water waves, including dispersion, was derived by George Biddell Airy and published in about 1840. A similar equation was also found by Philip Kelland at around the same time (but making some mistakes in his derivation of the wave theory).
+The shallow water (with small h / λ) limit, ω2 = gh k2, was derived by Joseph Louis Lagrange.
+
+
+== Surface tension effects ==
+
+In case of gravity–capillary waves, where surface tension affects the waves, the dispersion relation becomes:
+
+with σ the surface tension (in N/m).
+For a water–air interface (with σ = 0.074 N/m and ρ = 1000 kg/m³) the waves can be approximated as pure capillary waves – dominated by surface-tension effects – for wavelengths less than 0.4 cm (0.2 in). For wavelengths above 7 cm (3 in) the waves are to good approximation pure surface gravity waves with very little surface-tension effects.
+
+
+== Interfacial waves ==
+
+For two homogeneous layers of fluids, of mean thickness h below the interface and h′ above – under the action of gravity and bounded above and below by horizontal rigid walls – the dispersion relationship ω2 = Ω2(k) for gravity waves is provided by:
+
+where again ρ and ρ′ are the densities below and above the interface, while coth is the hyperbolic cotangent function. For the case ρ′ is zero this reduces to the dispersion relation of surface gravity waves on water of finite depth h.
+When the depth of the two fluid layers becomes very large (h→∞, h′→∞), the hyperbolic cotangents in the above formula approaches the value of one. Then:
+
+
+== Nonlinear effects ==
+
+
+=== Shallow water ===
+Amplitude dispersion effects appear for instance in the solitary wave: a single hump of water traveling with constant velocity in shallow water with a horizontal bed. Note that solitary waves are near-solitons, but not exactly – after the interaction of two (colliding or overtaking) solitary waves, they have changed a bit in amplitude and an oscillatory residual is left behind. The single soliton solution of the Korteweg–de Vries equation, of wave height H in water depth h far away from the wave crest, travels with the velocity:
+
+So for this nonlinear gravity wave it is the total water depth under the wave crest that determines the speed, with higher waves traveling faster than lower waves. Note that solitary wave solutions only exist for positive values of H, solitary gravity waves of depression do not exist.
+
+
+=== Deep water ===
+The linear dispersion relation – unaffected by wave amplitude – is for nonlinear waves also correct at the second order of the perturbation theory expansion, with the orders in terms of the wave steepness k A (where A is wave amplitude). To the third order, and for deep water, the dispersion relation is
+
+This implies that large waves travel faster than small ones of the same frequency. This is only noticeable when the wave steepness k A is large.
+
+
+== Waves on a mean current: Doppler shift ==
+Water waves on a mean flow (so a wave in a moving medium) experience a Doppler shift. Suppose the dispersion relation for a non-moving medium is:
+
+with k the wavenumber. Then for a medium with mean velocity vector V, the dispersion relationship with Doppler shift becomes:
+
+where k is the wavenumber vector, related to k as: k = |k|. The inner product k•V is equal to: k•V = kV cos α, with V the length of the mean velocity vector V: V = |V|. And α the angle between the wave propagation direction and the mean flow direction. For waves and current in the same direction, k•V=kV.
+
+
+== See also ==
+
+
+=== Other articles on dispersion ===
+Dispersive partial differential equation
+Capillary wave
+
+
+=== Dispersive water-wave models ===
+Airy wave theory
+Benjamin–Bona–Mahony equation
+Boussinesq approximation (water waves)
+Cnoidal wave
+Camassa–Holm equation
+Davey–Stewartson equation
+Kadomtsev–Petviashvili equation (also known as KP equation)
+Korteweg–de Vries equation (also known as KdV equation)
+Luke's variational principle
+Nonlinear Schrödinger equation
+Shallow water equations
+Stokes' wave theory
+Trochoidal wave
+Wave turbulence
+Whitham equation
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Mathematical aspects of dispersive waves are discussed on the Dispersive Wiki.

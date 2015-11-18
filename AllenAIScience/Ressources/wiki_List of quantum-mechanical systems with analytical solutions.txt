@@ -1,0 +1,43 @@
+Much insight in quantum mechanics can be gained from understanding the solutions to the time-dependent non-relativistic Schrödinger equation in an appropriate configuration space. In vector Cartesian coordinates , the equation takes the form
+
+in which  is the wavefunction of the system, H is the Hamiltonian operator, and T and V are the operators for the kinetic energy and potential energy, respectively. (Common forms of these operators appear in the square brackets.) The quantity t is the time. Stationary states of this equation are found by solving the eigenvalue-eigenfunction (time-independent) form of the Schrödinger equation,
+
+or any equivalent formulation of this equation in a different coordinate system other than Cartesian coordinates. For example, systems with spherical symmetry are simplified when expressed with spherical coordinates. Very often, only numerical solutions to the Schrödinger equation can be found for a given physical system and its associated potential energy. Fortunately, there exists a subset of physical systems for which the form of the eigenfunctions and their associated energies can be found. These quantum-mechanical systems with analytical solutions are listed below, and are quite useful for teaching and gaining intuition about quantum mechanics.
+
+
+== Solvable systems ==
+The free particle
+The delta potential
+The Double well Dirac delta potential
+The particle in a box / infinite potential well
+The finite potential well
+The One-dimensional triangular potential
+The particle in a ring or ring wave guide
+The particle in a spherically symmetric potential
+The quantum harmonic oscillator
+The hydrogen atom or hydrogen-like atom e.g. positronium
+The hydrogen atom in a spherical cavity with Dirichlet boundary conditions
+The Hydrogen Molecular ion (Solutions in terms of generalized Lambert W function)
+The particle in a one-dimensional lattice (periodic potential)
+The Morse potential
+The step potential
+The linear rigid rotor
+The symmetric top
+The Hooke's atom
+The Spherium atom
+Zero range interaction in a harmonic trap
+The Quantum pendulum
+The Rectangular potential barrier
+The Inverse square root potential
+
+
+== References ==
+
+
+== See also ==
+List of quantum-mechanical potentials – a list of physically relevant potentials without regard to analytic solubility
+List of integrable models
+
+
+== Reading materials ==
+Mattis, Daniel C. (1993). The Many-Body Problem: An Encyclopedia of Exactly Solved Models in One Dimension. World Scientific. ISBN 981-02-0975-4.

@@ -1,0 +1,89 @@
+Ethernet in the first mile (EFM) refers to using one of the Ethernet family of computer network protocols between a telecommunications company and a customer's premises. From the customer's point of view it is their "first" mile, although from the access network's point of view it is known as the "last mile". A working group of the Institute of Electrical and Electronics Engineers (IEEE) produced the standards known as IEEE 802.3ah-2004, which were later included in the overall standard IEEE 802.3-2008. Although it is often used for businesses, it can also be known as Ethernet to the Home (ETTH). One family of standards known as EPON uses a passive optical network.
+
+
+== History ==
+With wide, metro, and local area networks using various forms of Ethernet, the goal was to eliminate non-native transport such as Ethernet over Asynchronous Transfer Mode (ATM) from access networks.
+One early effort was the EtherLoop technology invented at Nortel Networks in 1996, and then spun off into the company Elastic Networks in 1998. Its principal inventor was Jack Terry. The hope was to combine the packet-based nature of Ethernet with the ability of Digital Subscriber Line (DSL) technology to work over existing telephone access wires. The name comes from local loop, which traditionally describes the wires from a telephone company office to a subscriber. The protocol was half-duplex with control from the provider side of the loop. It adapted to line conditions with a peak of 10 Mbit/s advertised, but 4-6 Mbit/s more typical, at a distance of about 12,000 feet (3,700 m). Symbol rates were 1 megabaud or 1.67 megabaud, with 2, 4, or 6 bits per symbol. The EtherLoop product name was registered as a trademark in the US and Canada. The EtherLoop technology was eventually purchased by Paradyne Networks in 2002, which was in turn purchased by Zhone Technologies in 2005.
+Another effort was the concept promoted by Michael Silverton of using Ethernet variants that used fiber optic communication to residential as well as business customers. This was an example of what has become known as fiber to the home (FTTH). The Fiberhood Networks company provided this service from 1999 to 2001.
+Some early products around 2000 were marketed as 10BaseS by Infineon Technologies, although they did not technically use baseband signalling, but rather passband as in very-high-bit-rate digital subscriber line (VDSL) technology. A patent was filed in 1997 by Peleg Shimon, Porat Boaz, Noam Alroy, Rubinstain Avinoam and Sfadya Yackow. Long Reach Ethernet was the product name used by Cisco Systems starting in 2001. It supported modes of 5 Mbit/s, 10 Mbit/s, and 15 Mbit/s depending on distance.
+In October 2000 Howard Frazier issued a call for interest on "Ethernet in the Last Mile". At the November 2000 meeting, IEEE 802.3 created the "Ethernet in the First Mile" study group, and on July 16, 2001 the 802.3ah working group. In parallel participating vendors formed the Ethernet in the First Mile Alliance (EFMA) in December 2001 to promote Ethernet subscriber access technology and support the IEEE standard efforts. At an early meeting, the EtherLoop technology was called 100BASE-CU and another technology called EoVDSL for Ethernet over VDSL.
+The working group's EFM standard was approved on June 24, 2004 and published on September 7, 2004 as IEEE 802.3ah-2004. In 2005 it was included into the base IEEE 802.3 standard. In 2005, the EFMA was absorbed by the Metro Ethernet Forum.
+In early 2006, work began on an even higher-speed 10 gigabit/second Ethernet passive optical network (10G-EPON) standard, ratified in 2009 as IEEE 802.3av. The work on the EPON was continued by the IEEE P802.3bk Extended EPON Task Force, formed in March 2012. The major goals for this Task Force included adding support for PX30, PX40, PRX40, and PR40 power budget classes to both 1G-EPON and 10G-EPON. The 802.3bk amendment was approved by the IEEE-SA SB in August 2013 and published soon thereafter as the standard IEEE Std 802.3bk-2013.
+In November 2011, IEEE 802.3 began work on EPON Protocol over Coax (EPoC).
+
+
+== Description ==
+EFM defines how Ethernet can be transmitted over new media types using new Ethernet physical layer (PHY) interfaces:
+Voice-grade copper. These new EFM copper (EFMCu), or Ethernet over copper, interfaces allow optional multi-pair aggregation
+Long wavelength single optical fiber (as well as long wavelength dual-strand fiber)
+Point-to-multipoint (P2MP) fiber. These new interfaces are known under the collective name of Ethernet over passive optical networks (EPON).
+EFM also addresses other issues, required for mass deployment of Ethernet services, such as operations, administration, and management (OA&M) and compatibility with existing technologies (such as plain old telephone service spectral compatibility for copper twisted pair).
+
+
+=== Copper wires ===
+2BASE-TL -- defined in clauses 61 and 63. Full-duplex long-reach point-to-point link over voice-grade copper wiring. 2BASE-TL PHY can deliver a minimum of 2 Mbit/s and a maximum of 5.69 Mbit/s over distances of up to 2700 m (9,000 ft), using ITU-T G.991.2 (G.SHDSL.bis) technology over a single copper pair.
+10PASS-TS -- defined in clauses 61 and 62. Full-duplex short-reach point-to-point link over voice-grade copper wiring. 10PASS-TS PHY can deliver a minimum of 10 Mbit/s over distances of up to 750 m (2460 ft), using ITU G.993.1 (VDSL) technology over a single copper pair.
+
+
+=== Active fiber optics ===
+100BASE-LX10 defined in clause 58, providing point-to-point 100 Mbit/s Ethernet links over a pair of single-mode fibers up to at least 10 km.
+100BASE-BX10 defined in clause 58, providing point-to-point 100 Mbit/s Ethernet links over an individual single-mode fiber up to at least 10 km.
+1000BASE-LX10 defined in clause 59, providing point-to-point 1000 Mbit/s Ethernet links over a pair of single-mode fibers up to at least 10 km.
+1000BASE-BX10 defined in clause 59, providing point-to-point 1000 Mbit/s Ethernet links over an individual single-mode fiber up to at least 10 km.
+
+
+=== Passive optical network ===
+The use of a passive optical network is a common example of fiber to the home.
+1000BASE-PX10 defined in Clause 60 (added by IEEE Std 802.3ah-2004), providing P2MP 1000 Mbit/s Ethernet links over PONs, at the distance of at least 10 km, at the split of at least 1:16.
+1000BASE-PX20 defined in Clause 60 (added by IEEE Std 802.3ah-2004), providing P2MP 1000 Mbit/s Ethernet links over PONs, at the distance of at least 20 km, at the split of at least 1:16.
+1000BASE-PX30 defined in Clause 60 (added by IEEE Std 802.3bk-2013), providing P2MP 1000 Mbit/s Ethernet links over PONs, at the distance of at least 20 km, at the split of at least 1:32.
+1000BASE-PX40 defined in Clause 60 (added by IEEE Std 802.3bk-2013), providing P2MP 1000 Mbit/s Ethernet links over PONs, at the distance of at least 20 km, at the split of at least 1:64.
+Additionally clause 57 defines link-level OA&M, including discovery, link monitoring, remote fault indication, loopbacks, and variable access.
+
+
+== 2BASE-TL ==
+2BASE-TL is an IEEE 802.3-2008 Physical Layer (PHY) specification for a full-duplex long-reach point-to-point Ethernet link over voice-grade copper wiring.
+
+
+=== Rates and distances ===
+Unlike 10BASE-T, 100BASE-T and 1000BASE-T PHYs, providing a single rate of 10, 100, or 1000 Mbit/s respectively, 2BASE-TL link rate can vary, depending on the copper media characteristics (such as length, wire diameter or gauge, number of pairs if the link is aggregated, amount of crosstalk between the pairs, etc.), desired link parameters (such as desired SNR margin, Power Back-Off, etc.), and regional spectral limitations.
+2BASE-TL PHYs deliver a minimum of 2 Mbit/s over distances of up to 2.7 kilometres (8,900 ft), using ITU-T G.991.2 (G.SHDSL.bis) technology over a single copper pair. These PHYs may also support an optional aggregation or bonding of multiple copper pairs, called PME Aggregation Function (PAF).
+For a single pair, the minimum possible link bitrate is 192 kbit/s (3 x 64 kbit/s) and the maximum bitrate is 5.7 Mbit/s (89 x 64 kbit/s). On a 0.5 mm wire with 3 dB noise margin and no spectral limitations, the max bitrate can be achieved over distances of up to 1 kilometre (3,300 ft). At 6 kilometres (20,000 ft) the max achievable bitrate is about 850 kbit/s.
+The throughput of a 2BASE-TL link is lower than the link's bitrate by an average 5%, due to 64/65-octet encoding and PAF overhead, both factors depend on packet size.
+
+
+== 10PASS-TS ==
+10PASS-TS is an IEEE 802.3-2008 Physical Layer (PHY) specification for a full-duplex short reach point-to-point Ethernet link over voice-grade copper wiring.
+10PASS-TS PHYs deliver a minimum of 10 Mbit/s over distances of up to 750 metres (2,460 ft), using ITU-T G.993.1 (VDSL) technology over a single copper pair. These PHYs may also support an optional aggregation or bonding of multiple copper pairs, called PME Aggregation Function (PAF).
+
+
+=== Details ===
+Unlike other Ethernet physical layers that provide a single rate such as 10, 100, or 1000 Mbit/s, 10PASS-TS link rate can vary, similar to 2BASE-TL, depending on the copper channel characteristics, such as length, wire diameter (gauge), wiring quality, the number of pairs if the link is aggregated and other factors.
+VDSL is a short range technology designed to provide broadband over distances less than 1 km of voice-grade copper twisted pair line, but connection data rates deteriorate quickly as the line distance increases. This has led to VDSL being referred to as a "fiber to the curb" technology, because it requires fiber backhaul to connect with a carrier network over greater distances.
+VDSL Ethernet in the first mile services using may be a useful way to standardise functionality on Metro Ethernet networks, or potentially to distribute internet access services over voice-grade wiring in multi-dwelling unit buildings. However, VDSL2 has already proven to be a versatile and faster standard with greater reach than VDSL.
+
+
+== See also ==
+PME Aggregation Function
+G.SHDSL
+10BROAD36 - Ethernet over Cable-modem
+ITU G.993.2 VDSL2
+Passive optical network
+
+
+== References ==
+
+
+== Further reading ==
+Beck, Michael (2005). Ethernet in the First Mile: The IEEE802.3ah EFM Standard. McGraw-Hill Professional. ISBN 978-0-07-145506-0. 
+Wael Diab, Howard M. Frazier (2006). Ethernet in the First Mile: Access for Everyone. IEEE Standards Information Network. ISBN 9780738148380. 
+
+
+== External links ==
+Get IEEE 802.3 - "IEEE Standard for Information technology - Telecommunications and information exchange between systems - Local and metropolitan area networks - Specific requirements - Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD) Access Method and Physical Layer Specifications", IEEE Std 802.3-2008, November 2008.
+IEEE 802.3ah - Ethernet in the First Mile Task Force archive
+Download IEEE 802.3 - EFM is contained in section 5
+"IEEE P802.3ah Ethernet in the First Mile Task Force". official web site. IEEE 802 LAN/MAN standards committee. Retrieved August 4, 2011. 
+Ethernet in the First Mile FAQ
+"Ethernet First Mile". commercial web site. Southern Communications. 2010. Retrieved August 4, 2011. 
+EFM Knowledge Base at the UNH-IOL

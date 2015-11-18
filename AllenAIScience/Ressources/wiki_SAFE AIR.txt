@@ -1,0 +1,66 @@
+SAFE AIR (Simulation of Air pollution From Emissions Above Inhomogeneous Regions) is an advanced atmospheric pollution dispersion model for calculating concentrations of atmospheric pollutants emitted both continuously or intermittently from point, line, volume and area sources. It adopts an integrated Gaussian puff modeling system. SAFE AIR consists of three main parts: the meteorological pre-processor WINDS (Wind-field Interpolation by Non Divergent Schemes) to calculate wind fields, the meteorological pre-processor ABLE (Acquisition of Boundary Layer parameters) to calculate atmospheric parameters and a lagrangian multisource model named P6 (Program Plotting Paths of Pollutant Puffs and Plumes) to calculate pollutant dispersion. SAFE AIR is included in the online Model Documentation System (MDS) of the European Environment Agency (EEA) and of the .Italian Agency for the Protection of the Environment (APAT).
+
+
+== History ==
+SAFE AIR is developed, maintained, and distributed by the Department of Physics (DIFI) of the University of Genoa, Italy. The first version of SAFE AIR was released in 1996. The current version II was released in 2003 and runs both in the Microsoft Windows and Unix environment. It has a Fortran codebase.
+
+
+== Input data ==
+
+
+=== Topographic data ===
+Orography
+Roughness
+Displacement level
+Land sea mask
+
+
+=== Meteorological data ===
+Ambient temperature
+Wind direction
+Wind speed
+Atmospheric stability classes (A through G)
+Atmospheric pressure
+Cloud cover
+Albedo
+
+
+=== Source data ===
+Position
+Dimension
+Release height of the emission source
+Emission discharge rate of primary and secondary pollutants
+Volume flow rate of total gas emission
+Exit gas temperature
+Exit gas speed
+
+
+== Features and capabilities of SAFE AIR ==
+The model includes algorithms which take into account: downwash effects of nearby buildings within the path of the dispersing pollution plume; effects of complex terrain; effects of coastline locations; wet deposition, gravitational settling and dry deposition; first order chemical reactions; pollution plume rise as a function of distance; averaging time ranging from very short to annual. The system also includes a meteorological data input preprocessor, named ABLE. The model is capable of simulating passive or buoyant continuous plumes as well as short duration puff releases. It characterizes the atmospheric turbulence either by the boundary layer depth and the Monin-Obukhov length or by the Pasquill class.
+
+
+== See also ==
+Atmospheric dispersion modeling
+Bibliography of atmospheric dispersion modeling
+Atmospheric Studies Group
+List of atmospheric dispersion models
+
+
+== References ==
+
+E. Canepa, F. Modesti, and C.F. Ratto (2000) Evaluation of the SAFE_AIR code against air pollution field and laboratory experiments. Atmos. Environ., 34, 4805-4818.
+E. Canepa, L. Dallorto, and C.F. Ratto (2000) About the plume rise description in the dispersion code SAFE_AIR. Int. J. Environ. Pollut., 14, 235-245.
+E. Canepa and P.J.H. Builtjes (2001) Methodology of model testing and application to dispersion simulation above complex terrain. Int. J. Environ. Pollut., 16, 101-115.
+E. Canepa and C.F. Ratto (2003) SAFE_AIR algorithms to simulate the transport of pollutant elements: a model validation exercise and sensitivity analysis. Environ. Model. Software, 18, 365-372.
+E. Canepa, F. D’Alberti, F. D’Amati, and G. Triacchini (2007) The GIS-based SafeAirView software for the concentration assessment of radioactive pollutants after an accidental releases. Science Total Environ., 373, 32-42. [1]
+M. Cavallaro, E. Canepa, and E. Georgieva (2007) The SAFE_AIR II dispersion model: description and statistical evaluation of its dispersion module against wind tunnel data from area sources. Ecolog. Model., 202, 547-558. [2]
+
+
+== Further reading ==
+For those who are unfamiliar with air pollution dispersion modelling and would like to learn more about the subject, it is suggested that either one of the following books be read:
+Turner, D.B. (1994). Workbook of atmospheric dispersion estimates: an introduction to dispersion modeling (2nd ed.). CRC Press. ISBN 1-56670-023-X.  www.crcpress.com
+Beychok, M.R. (2005). Fundamentals Of Stack Gas Dispersion (4th ed.). self-published. ISBN 0-9644588-0-2.  www.air-dispersion.com
+
+
+== External links ==
+SAFE_AIR Version II Release 1.1 User’s Guide

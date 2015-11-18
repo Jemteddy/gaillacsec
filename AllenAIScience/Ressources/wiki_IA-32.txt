@@ -1,0 +1,29 @@
+IA-32 (short for "Intel Architecture, 32-bit", sometimes also called i386 through metonymy) is the 32-bit version of the x86 instruction set architecture (ISA), first implemented in the Intel 80386 microprocessors in 1985. IA-32 is the first incarnation of x86 that supports 32-bit computing; as a result, the "IA-32" term may be used as a metonym to refer to all x86 versions that support 32-bit computing.
+The IA-32 instruction set was introduced in the Intel 80386 microprocessor in 1985 and, as of 2015, remains supported by contemporary PC microprocessors. Even though the instruction set has remained intact, the successive generations of microprocessors that run it have become much faster. Within various programming language directives, IA-32 is still sometimes referred to as the "i386" architecture.
+Intel is the inventor and the biggest supplier of IA-32 processors, and the second biggest supplier is AMD. For a while, VIA, Transmeta and others also produced IA-32 processors. All manufacturers moved to the 64-bit variant of x86, x86-64, in the 2000s.
+
+
+== Architectural featuresEdit ==
+The primary defining characteristic of IA-32 is the availability of 32-bit general-purpose processor registers (for example, EAX and EBX), 32-bit integer arithmetic and logical operations, 32-bit offsets within a segment in protected mode, and the translation of segmented addresses to 32-bit linear addresses. The designers took the opportunity to make other improvements as well. Some of the most significant changes are described below.
+32-bit integer capability
+All general-purpose registers (GPRs) are expanded from 16 bits to 32 bits, and all arithmetic and logical operations, memory-to-register and register-to-memory operations, etc., can operate directly on 32-bit integers. Pushes and pops on the stack default to 4-byte strides, and non-segmented pointers are 4 bytes wide.
+More general addressing modes
+Any GPR can be used as a base register, and any GPR other than ESP can be used as an index register, in a memory reference. The index register value can be multiplied by 1, 2, 4, or 8 before being added to the base register value and displacement.
+Additional segment registers
+Two additional segment registers, FS and GS, are provided.
+Larger virtual address space
+The IA-32 architecture defines a 48-bit segmented address format, with a 16-bit segment number and a 32-bit offset within the segment. Segmented addresses are mapped to 32-bit linear addresses.
+Demand paging
+32-bit linear addresses are virtual addresses rather than physical addresses; they are translated to physical addresses through a page table. In the 80386, 80486, and the original Pentium processors, the physical address was 32 bits; in the Pentium Pro and later processors, the Physical Address Extension allowed 36-bit physical addresses, although the linear address size was still 32 bits.
+
+
+== Operating modesEdit ==
+
+
+== See alsoEdit ==
+
+IA-64
+List of former IA-32 compatible processor manufacturers
+
+
+== ReferencesEdit ==

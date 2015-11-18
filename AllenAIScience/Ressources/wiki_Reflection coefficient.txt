@@ -1,0 +1,48 @@
+In physics and electrical engineering the reflection coefficient is a parameter that describes how much of an electromagnetic wave is reflected by an impedance discontinuity in the transmission medium. It is equal to the ratio of the amplitude of the reflected wave to the incident wave, with each expressed as phasors. For example, it is used in optics to calculate the amount of light that is reflected from a surface with a different index of refraction, such as a glass surface, or in an electrical transmission line to calculate how much of the electromagnetic wave is reflected by an impedance. The reflection coefficient is closely related to the transmission coefficient. The reflectance of a system is also sometimes called a "reflection coefficient".
+
+Different specialties have different applications for the term.
+
+
+== TelecommunicationsEdit ==
+
+In telecommunications, the reflection coefficient is the ratio of the complex amplitude of the reflected wave to that of the incident wave. In particular, at a discontinuity in a transmission line, it is the complex ratio of the electric field strength of the reflected wave () to that of the incident wave (). This is typically represented with a  (capital gamma) and can be written as:
+
+The reflection coefficient may also be established using other field or circuit quantities.
+The reflection coefficient of a load is determined by its impedance  and the impedance toward the source 
+
+Notice that a negative reflection coefficient means that the reflected wave receives a 180°, or , phase shift.
+The magnitude (designated by vertical bars) of the reflection coefficient can be calculated from the standing wave ratio, :
+
+The reflection coefficient is displayed graphically using a Smith chart.
+
+
+== SeismologyEdit ==
+
+Reflection coefficient is used in feeder testing for reliability of medium.
+
+
+== Optics and microwavesEdit ==
+
+In optics and electromagnetics in general, "reflection coefficient" can refer to either the amplitude reflection coefficient described here, or the reflectance, depending on context. Typically, the reflectance is represented by a capital R, while the amplitude reflection coefficient is represented by a lower-case r.
+
+
+== Semipermeable membranesEdit ==
+The reflection coefficient in semipermeable membranes relates to how such a membrane can reflect solute particles from passing through. A value of zero results in all particles passing through. A value of one is such that no particle can pass. It is used in the Starling equation.
+
+
+== See alsoEdit ==
+Microwave
+Mismatch loss
+Transmission coefficient
+Target strength
+Hagen-Rubens relation
+
+
+== ReferencesEdit ==
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).
+Bogatin, Eric (2004). Signal Integrity - Simplified. Upper Saddle River, New Jersey: Pearson Education, Inc. ISBN 0-13-066946-6.  Figure 8-2 and Eqn. 8-1 Pg. 279
+
+
+== External linksEdit ==
+Flash tutorial for understanding reflection A flash program that shows how a reflected wave is generated, the reflection coefficient and VSWR
+Application for drawing standing wave diagrams including the reflection coefficient, input impedance, SWR, etc.

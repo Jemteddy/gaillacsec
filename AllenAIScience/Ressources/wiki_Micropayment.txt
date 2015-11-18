@@ -1,0 +1,68 @@
+A micropayment is a financial transaction involving a very small sum of money and usually one that occurs online. A number of micropayment systems were proposed and developed in the mid-to-late 1990s, which were ultimately unsuccessful. A second generation of micropayment systems emerged in the 2010s.
+While micropayments were originally envisioned to involve very small sums of money, practical systems to allow transactions of less than 1 USD have seen little success. One problem that has prevented the emergence of micropayment systems is a need to keep costs for individual transactions low, which is impractical when transacting such small sums even if the transaction fee is just a few cents.
+
+
+== DefinitionEdit ==
+There are a number of different definitions of what constitutes a micropayment. PayPal defines a micropayment as a transaction of less than £5 while Visa defines it as a transaction under 20 Australian dollars.
+
+
+== HistoryEdit ==
+Micropayments were initially devised as a way of allowing the sale of online content and as a way to pay for very low cost network services. They were envisioned to involve small fractions of a cent, as little as US$0.0001 to a few cents. Micropayments would enable people to sell content on the Internet and would be an alternative to advertising revenue.
+During the late 1990s, there was a movement to create microtransaction standards, and the World Wide Web Consortium (W3C) worked on incorporating micropayments into HTML even going as far as to suggest the embedding of payment-request information in HTTP error codes. The W3C has since stopped its efforts in this area, and micropayments have not become a widely used method of selling content over the Internet.
+
+
+=== Early research and systemsEdit ===
+In the late 1990s, established companies like IBM and Compaq had microtransaction divisions, and research on micropayments and micropayment standards was performed at Carnegie Mellon and by the World Wide Web Consortium.
+
+
+==== IBM Micro PaymentsEdit ====
+IBM's Micro Payments was established c. 1999, and were it to have become operational would have "allowed vendors and merchants to sell content, information, and services over the Internet for amounts as low as one cent".
+
+
+==== iPINEdit ====
+An early attempt at making micropayments work, iPIN was a 1998 venture-capital-funded startup that provided services that allowed purchasers to add incremental micropayment charges to their existing bill for Internet services. Debuting in 1999, its service was never widely adopted.
+
+
+==== MillicentEdit ====
+Millicent, originally a project of Digital Equipment Corporation, was a micropayment system that was to support transactions from as small as 1/10 of a cent up to $5.00. It grew out of The Millicent Protocol for Inexpensive Electronic Commerce, which was presented at the 1995 World Wide Web Conference in Boston, but the project became associated with Compaq after that company purchased Digital Equipment Corporation. The payment system employed symmetric cryptography.
+
+
+==== NetBillEdit ====
+The NetBill electronic commerce project at Carnegie Mellon university researched distributed transaction processing systems and developed protocols and software to support payment for goods and services over the Internet. It featured pre-paid accounts from which micropayment charges could be drawn. Initiated in 1997, NetBill seems to have died completely sometime after 2005.
+
+
+== Online gamingEdit ==
+
+The term micropayment or microtransaction is sometimes used to the sale of virtual goods in online games, most commonly involving an in game currency or service bought with real world money and only available within the online game.
+
+
+== Recent micropayment systemsEdit ==
+Current systems either allow many micropayments but charge the user's phone bill one lump sum or use funded wallets.
+
+
+=== FlattrEdit ===
+Flattr is a micropayment system (more specifically, a microdonation system) which launched in August, 2010. Actual bank transactions and overhead costs are involved only on funds withdrawn from the recipient's accounts.
+
+
+=== ChangeTipEdit ===
+ChangeTip is a micropayments platform, which launched in 2013. The company believes that 'likes' and 'shares' do not suffice in showing true appreciation online, and thus call themselves the 'love' button for the Internet. The company builds micropayments on top of social networks, and operates over Twitter, Reddit, Facebook, Slack and more. Transactions are bitcoin-based and cost the user nothing to process.
+
+
+=== M-CoinEdit ===
+A service provided by TIMWE, M-Coin allows users to make micropayments on the Internet. The user's phone bill is then charged by the mobile network operator.
+
+
+=== PayPalEdit ===
+PayPal MicroPayments is a micropayment system that charges payments to user's PayPal account and allows transactions of less than US$12 to take place. As of 2013, the service is offered in select currencies only.
+
+
+=== ZongEdit ===
+Zong mobile payments was a micropayment system that charged payments to users' mobile phone bills. The company was acquired by eBay and integrated with PayPal in 2011.
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+W3C Micropayment Working Group
+Parhonyi, Robert. "Second generation micropayment systems: lessons learned" (PDF).

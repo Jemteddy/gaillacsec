@@ -1,0 +1,37 @@
+In oceanic biogeochemistry, the f-ratio is the fraction of total primary production fuelled by nitrate (as opposed to that fuelled by other nitrogen compounds such as ammonium). This fraction is significant because it is assumed to be directly related to the sinking (export) flux of organic marine snow from the surface ocean by the biological pump. The ratio was originally defined by Richard Eppley and Bruce Peterson in one of the first papers estimating global oceanic production.
+
+
+== Overview ==
+Gravitational sinking of organisms (or the remains of organisms) transfers carbon from the surface waters of the ocean to its deep interior. This process is known as the biological pump, and quantifying it is of interest to scientists because it is an important aspect of the Earth's carbon cycle. Essentially, this is because carbon transported to the deep ocean is isolated from the atmosphere, allowing the ocean to act as a reservoir of carbon. This biological mechanism is accompanied by a physico-chemical mechanism known as the solubility pump which also acts to transfer carbon to the ocean's deep interior.
+Measuring the flux of sinking material (so-called marine snow) is usually done by deploying sediment traps which intercept and store material as it sinks down the water column. However, this is a relatively difficult process, since traps can be awkward to deploy or recover, and they must be left in situ over a long period to integrate the sinking flux. Furthermore, they are known to experience biases and to integrate horizontal as well as vertical fluxes because of water currents. For this reason, scientists are interested in ocean properties that can be more easily measured, and that act as a proxy for the sinking flux. The f-ratio is one such proxy.
+
+
+== "New" and "regenerated" production ==
+
+Bio-available nitrogen occurs in the ocean in several forms, including simple ionic forms such as nitrate (NO3−), nitrite (NO2−) and ammonium (NH4+), and more complex organic forms such as urea ((NH2)2CO). These forms are utilised by autotrophic phytoplankton to synthesise organic molecules such as amino acids (the building blocks of proteins). Grazing of phytoplankton by zooplankton and larger organisms transfers this organic nitrogen up the food chain and throughout the marine food-web.
+When nitrogenous organic molecules are ultimately metabolised by organisms, they are returned to the water column as ammonium (or more complex molecules that are then metabolised to ammonium). This is known as regeneration, since the ammonium can be used by phytoplankton, and again enter the food-web. Primary production fuelled by ammonium in this way is thus referred to as regenerated production.
+However, ammonium can also be oxidised to nitrate (via nitrite), by the process of nitrification. This is performed by different bacteria in two stages :
+
+NH3 + O2 → NO2− + 3H+ + 2e−
+NO2− + H2O → NO3− + 2H+ + 2e−
+
+Crucially, this process is believed to only occur in the absence of light (or as some other function of depth). In the ocean, this leads to a vertical separation of nitrification from primary production, and confines it to the aphotic zone. This leads to the situation whereby any nitrate in the water column must be from the aphotic zone, and must have originated from organic material transported there by sinking. Primary production fuelled by nitrate is, therefore, making use of a "fresh" nutrient source rather than a regenerated one. Production by nitrate is thus referred to as new production.
+The figure at the head of this section illustrates this. Nitrate and ammonium are taken up by primary producers, processed through the food-web, and then regenerated as ammonium. Some of this return flux is released into the surface ocean (where it is available again for uptake), while some is returned at depth. The ammonium returned at depth is nitrified to nitrate, and ultimately mixed or upwelled into the surface ocean to repeat the cycle.
+Consequently, the significance of new production lies in its connection to sinking material. At equilibrium, the export flux of organic material sinking into the aphotic zone is balanced by the upward flux of nitrate. By measuring how much nitrate is consumed by primary production, relative to that of regenerated ammonium, one should be able to estimate the export flux indirectly.
+As an aside, the f-ratio can also reveal important aspects of local ecosystem function. High f-ratio values are typically associated with productive ecosystems dominated by large, eukaryotic phytoplankton (such as diatoms) that are grazed by large zooplankton (and, in turn, by larger organisms such as fish). By contrast, low f-ratio values are generally associated with low biomass, oligotrophic food webs consisting of small, prokaryotic phytoplankton (such as Prochlorococcus) which are kept in check by microzooplankton.
+
+
+== Assumptions ==
+
+A fundamental assumption in this interpretation of the f-ratio is the spatial separation of primary production and nitrification. Indeed, in their original paper, Eppley & Peterson noted that: "To relate new production to export requires that nitrification in the euphotic zone be negligible". However, subsequent observational work on the distribution of nitrification has found that nitrification can occur at shallower depths, and even within the photic zone.
+As the diagram to the right shows, if ammonium is indeed nitrified to nitrate in the ocean's surface waters it essentially "short circuits" the deep pathway of nitrate. In practice, this would lead to an overestimation of new production and a higher f-ratio, since some of the ostensibly new production would actually be fuelled by recently nitrified nitrate that had never left the surface ocean. After including nitrification measurements in its parameterisation, an ecosystem model of the oligotrophic subtropical gyre region (specifically the BATS site) found that, on an annual basis, around 40% of surface nitrate was recently nitrified (rising to almost 90% during summer). A further study synthesising geographically diverse nitrification measurements found high variability but no relationship with depth, and applied this in a global-scale model to estimate that up to a half of surface nitrate is supplied by surface nitrification rather than upwelling.
+Although measurements of the rate of nitrification are still relatively rare, they do suggest that the f-ratio is not as straightforward a proxy for the biological pump as was once thought. For this reason, some workers have proposed distinguishing between the f-ratio and the ratio of particulate export to primary production, which they term the pe-ratio. While quantitatively different than the f-ratio, the pe-ratio shows similar qualitative variation between high productivity/high biomass/high export regimes and low productivity/low biomass/low export regimes.
+
+
+== See also ==
+Biological pump
+Nitrification
+Primary production
+
+
+== References ==

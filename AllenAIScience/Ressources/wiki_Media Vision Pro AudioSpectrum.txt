@@ -1,0 +1,47 @@
+The Media Vision Pro AudioSpectrum (commonly referred to as "PAS") family of personal computer sound cards included the original 8-bit Pro AudioSpectrum (1991), the 8-bit Pro AudioSpectrum Plus, 16-bit Pro AudioSpectrum 16, Pro AudioSpectrum 16 Basic and 16-bit Pro Audio Studio. All PAS cards with the exception of Pro AudioSpectrum 16 Basic could connect to CD-ROM drives—variants having SCSI or various proprietary interfaces—and many were sold in multimedia kits with compatible CD-ROM drives.
+Though the 8-bit Pro AudioSpectrum cards were only modestly successful, the 16 bit-series cards aimed toward semi-professional users and hobby musicians were quite popular. These gave serious competition to the SoundBlaster 16. Most games in the mid-1990s had genuine support for the PAS cards, thus the lack of Sound Blaster Pro and Sound Blaster 16 compatibility was not much of a problem.
+Media Vision was the original equipment manufacturer (OEM) of the Logitech SoundMan (also marketed as Pro AudioSpectrum 16 Basic) card, which was compatible with the PAS and could thus use the same drivers.
+The relevance of the PAS faded quickly as Media Vision was rocked by financial scandal and faded from existence.
+
+
+== Hardware description ==
+
+
+=== Digital and FM audio ===
+The 16-bit PAS cards employed a relabeled CODEC chip made by Crystal Semiconductors of Austin, Texas (now part of Cirrus Logic) for digital audio playback and recording and an AdLib-compatible Yamaha OPL3 FM music synthesizer. The 8-bit versions used different DAC and ADC parts for playback and recording and used dual AdLib-compatible Yamaha OPL2 FM music synthesizers to create stereo sound.
+
+
+=== Sound Blaster compatibility ===
+To provide true compatibility with the Sound Blaster's 8-bit playback on its 8-bit Pro AudioSpectrum Plus and 16-bit Pro AudioSpectrum 16, Media Vision included the same sound processor chip it used on its Thunder Board card. Thus, there were actually two digital audio playback devices on these cards that could also be used at the same time. The analog output of each of the two digital audio channels was combined in the on-board analog mixer.
+
+
+=== CD-ROM interface ===
+All Pro AudioSpectrum cards included a CD-ROM interface.
+Most PAS cards were equipped with a NCR-designed 5380 SCSI controller made by Zilog that boasted a data transfer rate of 690kB/s using PIO (DMA was not supported); though intended for use with CD-ROM drives, these could interface with other SCSI devices with drivers written by Trantor Systems; Windows 95 includes drivers for the PAS SCSI interface and autodetects it as a PAS 16 Trantor SCSI host adaptor.
+Other PAS cards included proprietary interfaces to CD-ROM drives they were packaged with. These included drives made by Sony and Matsushita (Panasonic). There was also variant with LMSI controller for LMSI Philips CM205, CM206 CD-ROM drives.
+
+
+=== MIDI and game port ===
+Each Pro AudioSpectrum sound card included a MPU401-compatible MIDI and Gameport interface similar to those on Sound Blaster cards.
+
+
+== Other features ==
+
+Other outstanding features of the PAS cards were the Win 3.x software (audio recorder, CD player and mixer) that fit on a 640x480 screen and worked well together, the quality of the user manual (even in the translated versions), jumperless configuration via software, the use of a 4 layer printed circuit board, and the PC speaker support that was done by listening on the ISA bus rather than using an external cable like the Sound Blaster cards. With the PAS cards, Media Vision also began to include a popular player for Amiga sound module (.MOD) files.
+
+
+== Software drivers ==
+Driver support was available under DOS, Microsoft Windows 3.x, Windows NT 3.5 and 4.0, Windows 9x, OS/2 and Linux (within Open Sound System). It was also claimed to work under Windows ME or 2000/XP by using Windows 9x or Windows NT 4 / 2000 RC1 drivers. Under DOS, a terminate and stay resident driver called mvsound.sys had to be used in order to initialize the card although most programs did not use this driver but rather programmed the PAS chip directly.
+
+
+== References ==
+^ Miles Sound System Development History
+^ Linux Hardware Compatibility HOWTO, Sound cards
+^ MediaVision Pro Audio Spectrum 16 / Studio driver
+^ Usenet post to alt.os.windows2000
+
+
+== See also ==
+Media Vision
+Adlib
+Sound Blaster

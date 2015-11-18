@@ -1,0 +1,68 @@
+Ethernet Powerlink is a deterministic real-time protocol for standard Ethernet. It is an open protocol managed by the Ethernet POWERLINK Standardization Group (EPSG). It was introduced by Austrian automation company B&R in 2001.
+This protocol has nothing to do with power distribution via Ethernet cabling or power over Ethernet (PoE), power line communication or Bang & Olufsens PowerLink cable.
+
+
+== Overview ==
+Ethernet Powerlink expands Ethernet with a mixed polling and timeslicing mechanism. This provides:
+Guaranteed transfer of time-critical data in very short isochronic cycles with configurable response time
+Time-synchronisation of all nodes in the network with very high precision of sub-microseconds
+Transmission of less timecritical data in a reserved asynchronous channel
+Modern implementations reach cycle-times of under 200 µs and a time-precision (jitter) of less than 1 µs.
+
+
+== Standardization ==
+Powerlink was standardized by the Ethernet Powerlink Standardization Group (EPSG) and founded in June 2003 as an independent association. Working groups focus on tasks like safety, technology, marketing, certification and end users. The EPSG cooperates with the standardization bodies and associations, like the CAN in Automation (CiA) Group and the IEC.
+
+
+== Physical layer ==
+The original physical layer specified was 100BASE-TX Fast Ethernet. Since the end of 2006, Ethernet Powerlink with Gigabit Ethernet supported a transmission rate ten times higher (1,000 Mbit/s).
+Repeating hubs instead of switches within the Real-time domain is recommended to minimise delay and jitter. Ethernet Powerlink uses IAONA's Industrial Ethernet Planning and Installation Guide for clean cabling of industrial networks and both industrial Ethernet connectors 8P8C (commonly known as RJ45) and M12 are accepted.
+
+
+== Data Link Layer ==
+The standard Ethernet Data Link Layer is extended by an additional bus scheduling mechanism which secures that at a time only one node is accessing the network. The schedule is divided into an isochronous phase and an asynchronous phase. During the isochronous phase, time-critical data is transferred, while the asynchronous phase provides bandwidth for the transmission of non time-critical data. The Managing Node (MN) grants access to the physical medium via dedicated poll request messages. As a result, only one single node (CN) has access to the network at a time, which avoids collisions, present on older Ethernet hubs before switches. The CSMA/CD mechanism of non-switched Ethernet, which caused non-deterministic Ethernet behaviour, is avoided by the Ethernet Powerlink scheduling mechanism.
+
+
+== Basic Cycle ==
+After system start-up is finished, the Real-Time domain is operating under Real-Time conditions. The scheduling of the basic cycle is controlled by the Managing Node (MN). The overall cycle time depends on the amount of isochronous data, asynchronous data and the number of nodes to be polled during each cycle.
+The basic cycle consists of the following phases:
+Start Phase: The Managing Node is sending out a synchronization message to all nodes. The frame is called SoC - Start of Cycle.
+Isochronous Phase: The Managing Node calls each node to transfer time-critical data for process or motion control by sending the Preq - Poll Request - frame. The addressed node answers with the Pres - Poll Response - frame. Since all other nodes are listening to all data during this phase, the communication system provides a producer-consumer relationship.
+The time frame which includes Preq-n and Pres-n is called time slot for the addressed node.
+Asynchronous Phase: The Managing Node grants the right to one particular node for sending ad-hoc data by sending out the SoA - Start of Asynchronous - frame. The addressed node will answer with ASnd. Standard IP-based protocols and addressing can be used during this phase.
+The quality of the Real-Time behavior depends on the precision of the overall basic cycle time. The length of individual phases can vary as long as the total of all phases remain within the basic cycle time boundaries. Adherence to the basic cycle time is monitored by the Managing Node. The duration of the isochronous and the asynchronous phase can be configured.
+
+Picture 1: Frames above the time line are sent by the MN, below the time line by different CNs.
+
+Picture 2: Time slots for nodes and the asynchronous time slot
+Multiplex for Bandwidth Optimization
+In addition to transferring isochronous data during each basic cycle, some nodes are also able to share transfer slots for better bandwidth utilization. For that reason, the isochronous phase can distinguish between transfer slots dedicated to particular nodes, which have to send their data in every basic cycle, and slots shared by nodes to transfer their data one after the other in different cycles. Therefore less important yet still time-critical data can be transferred in longer cycles than the basic cycle. Assigning the slots during each cycle is at the discretion of the Managing Node.
+
+Picture 3: Time slots in EPL multiplexed mode.
+Poll response chaining
+Mode used mainly for robotics applications and large superstructures. Key is lower number of frames and better data distributions.
+
+
+== OpenSAFETY ==
+Today, machines, plants and safety systems are stuck in a rigid scheme made up of hardware-based safety functions. The consequences of this are cost-intensive cabling and limited diagnostic options. The solution is the integration of safety relevant application data into the standard serial control protocol. OpenSAFETY allows both publish/subscriber and client/server communication. Safety relevant data is transmitted via an embedded data frame inside of standard communication messages. Measures to avoid any undetected failures due to systematic or stochastic errors are an integral part of the security protocol. OpenSAFETY is in conformance with IEC 61508. The protocol fulfills the requirements of SIL 3. Error detection techniques have no impact on existing transport layers.
+
+
+== Notes ==
+
+
+== References ==
+Automation World (PDF), 2012 http://leadwise.mediadroit.com/files/19528SICKTacticalBrief_v3.pdf   
+Humphrey, David (2012), "openSAFETY Initiative Aims to Unify Industrial Safety Protocols", USA: ARC Advisory Group http://www.arcweb.com/strategy-reports/2012-04-12/opensafety-initiative-aims-to-unify-industrial-safety-protocols.aspx  
+Control Engineering Asia, 2012 http://www.ceasiamag.com/article/powerlink-awarded-national-standard-in-china/8532   
+Automation.com, 2012 http://www.automation.com/content/consortium-including-airbus-and-the-french-national-railway-corporation-defines-opensafety-as-standard   
+Zezulka, F.; Hyncica, o. (2008), Automa (PDF) 5: 62–66 http://www.odbornecasopisy.cz/res/pdf/37288.pdf   
+"Which Ethernet system is the right one?", Control Engineering Europe, 2009 http://www.controlengeurope.com/article.aspx?ArticleID=22745  
+
+
+== External links ==
+ethernet-powerlink.org - Ethernet POWERLINK Standardization Group website
+sourceforge.net/projects/openpowerlink - Open Source Stack
+- Open Source Releases
+Ethernet Powerlink and OpenSafety Forums on LinkedIn
+Ethernet Powerlink Group
+OpenSafety Group

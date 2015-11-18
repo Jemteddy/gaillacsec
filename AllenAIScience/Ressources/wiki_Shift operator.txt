@@ -1,0 +1,66 @@
+In mathematics, and in particular functional analysis, the shift operator or translation operator is an operator that takes a function f(x) to its translation f(x+a). In time series analysis, the shift operator is called the lag operator.
+Shift operators are examples of linear operators, important for their simplicity and natural occurrence. The shift operator action on functions of a real variable plays an important role in harmonic analysis, for example, it appears in the definitions of almost periodic functions, positive definite functions, and convolution. Shifts of sequences (functions of an integer variable) appear in diverse areas such as Hardy spaces, the theory of abelian varieties, and the theory of symbolic dynamics, for which the baker's map is an explicit representation.
+
+
+== Definition ==
+
+
+=== Functions of a real variable ===
+The shift operator Tt (t ∈ R) takes a function f on R to its translation ft,
+
+A practical representation of the linear operator Tt in terms of the plain derivative d⁄dx was introduced by Lagrange,
+
+which may be interpreted operationally through its formal Taylor expansion in t; and whose action on the monomial xn is evident by the binomial theorem, and thus on all series in x.
+
+
+=== Sequences ===
+The left shift operator acts on one-sided infinite sequence of numbers by
+
+and on two-sided infinite sequences by
+
+The right shift operator acts on one-sided infinite sequence of numbers by
+
+and on two-sided infinite sequences by
+
+The right and left shift operators acting on two-sided infinite sequences are called bilateral shifts.
+
+
+=== Abelian groups ===
+In general, if f is a function on an abelian group G, and g is an element of G, the shift operator Tg maps f to
+
+
+== Properties of the shift operator ==
+The shift operator acting on real- or complex-valued functions or sequences is a linear operator which preserves most of the standard norms which appear in functional analysis. Therefore it is usually a continuous operator with norm one.
+
+
+=== Action on Hilbert spaces ===
+The shift operator acting on two-sided sequences is a unitary operator on l2(Z). The shift operator acting on functions of a real variable is a unitary operator on L2(R).
+In both cases, the (left) shift operator satisfies the following commutation relation with the Fourier transform:
+
+where Mt is the multiplication operator by exp(i t x). Therefore the spectrum of Tt is the unit circle.
+The one-sided shift S acting on l2(N) is a proper isometry with range equal to all vectors which vanish in the first coordinate. The operator S is a compression of T−1, in the sense that
+
+where y is the vector in l2(Z) with yi = xi for i ≥ 0 and yi = 0 for i < 0. This observation is at the heart of the construction of many unitary dilations of isometries.
+The spectrum of S is the unit disk. The shift S is one example of a Fredholm operator; it has Fredholm index −1.
+
+
+== Generalisation ==
+Jean Delsarte introduced the notion of generalised shift operator (also called generalised displacement operator); it was further developed by Boris Levitan.
+A family of operators {Lx}x ∈ X acting on a space Φ of functions from a set X to C is called a family of generalised shift operators if the following properties hold:
+Associativity: let (Ryf)(x) = (Lxf)(y). Then LxRy = RyLx.
+There exists e ∈ X such that Le is the identity operator.
+In this case, the set X is called a hypergroup.
+
+
+== See also ==
+Arithmetic shift
+Logical shift
+Finite difference
+
+
+== Notes ==
+
+
+== Bibliography ==
+Jonathan R. Partington, Linear Operators and Linear Systems, An Analytical Approach to Control Theory, (2004) London Mathematical Society Student Texts 60, Cambridge University Press.
+Marvin Rosenblum and James Rovnyak, Hardy Classes and Operator Theory, (1985) Oxford University Press.[[Category:Isometric operato

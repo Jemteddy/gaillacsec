@@ -1,0 +1,48 @@
+Google Cardboard is a virtual reality (VR) platform developed by Google for use with a fold-out cardboard mount for a mobile phone. It is intended as a low-cost system to encourage interest and development in VR and VR applications. It was created by David Coz and Damien Henry, Google engineers at the Google Cultural Institute in Paris, in their 20% "Innovation Time Off", and was introduced at the Google I/O 2014 developers conference for Android devices.
+
+
+== Assembly and operationEdit ==
+
+Google Cardboard headsets are built out of simple, low-cost components. The headset specifications were designed by Google, but there is no official manufacturer or vendor for the device. Instead, Google made the list of parts, schematics, and assembly instructions freely available on their website, allowing people to assemble Cardboard themselves from readily available parts. These parts are a piece of cardboard cut into a precise shape, 45 mm focal length lenses, magnets or capacitive tape, a hook and loop fastener (such as Velcro), a rubber band, and an optional near field communication (NFC) tag. Google provides extra recommendations for large scale manufacturing, and pre-assembled kits based on these plans are available for less than $5 from multiple vendors, who have also created a number of Cardboard variations.
+Once the kit is assembled, a smartphone is inserted in the back of the device and held in place by the selected fastening device. A Google Cardboard–compatible app splits the smartphone display image into two, one for each eye, while also applying barrel distortion to each image to counter pincushion distortion from the lenses. The result is a stereoscopic ("3D") image with a wide field of view.
+The first version of Cardboard could fit phones with screens up to 5.7 inches (140 mm) and used magnets as input buttons, which required a compass sensor in the phone. An updated design released at Google I/O 2015 works with phones up to 6 inches (150 mm) and replaces the magnet switch with a conductive lever that triggers a touch event on the phone's screen for better compatibility across devices. A port of the Google Cardboard demonstration app to Apple's iOS mobile operating system was released at the same conference.
+
+
+== SoftwareEdit ==
+Google provides two software development kits for developing Cardboard applications, both using OpenGL: one for Android using Java, and one for the game engine Unity using C#. After initially only supporting Android, Google announced iOS support for the Unity plugin in May 2015 at the Google I/O 2015 conference. Third-party apps with Cardboard support are available on the Google Play store and App Store for iOS. In addition to native Cardboard apps, there are Google Chrome VR Experiments implemented using WebGL; phones, including Apple's, that support WebGL can run Google's web experiments.
+
+
+== Related initiativesEdit ==
+
+
+=== JumpEdit ===
+Jump is an ecosystem for virtual reality filmmaking developed by Google. It was announced at Google I/O on May 28, 2015. Much as Google did with the Cardboard viewer, for Jump the company developed specifications for a circular camera array made from 16 cameras that it will release to the public. GoPro partnered with Google to build an array using their own cameras, although the Jump rig will theoretically support any camera. Once footage has been shot, the VR video is compiled from the individual cameras through "the assembler", Jump's back-end software. The assembler uses computational photography and "computer vision" to recreate the scene while generating thousands of in-between viewpoints. Finalized video shot through Jump can then be viewed through a stereoscopic VR mode of YouTube with a Cardboard viewer.
+
+
+=== ExpeditionsEdit ===
+Expeditions is a program for providing VR experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips. It was announced at Google I/O 2015, with plans to launch in fall 2015. Each classroom kit would include 30 synchronized Cardboard viewers and smartphones, along with a tablet for the teacher to act as tour guide. Teachers interested in bringing the program to their school can register online.
+CNET called Cardboard "the first VR platform targeted at children."
+
+
+== Third-party offeringsEdit ==
+In November 2014, Volvo released Volvo-branded Cardboard goggles and an Android app, Volvo Reality, to let the user explore the XC90. In February 2015, toy manufacturer Mattel, in cooperation with Google, announced a VR version of the stereoscopic viewer View-Master. Android support was available at the viewer's release in fall 2015, with support for iOS and Windows smartphones available later.
+Google also collaborated with LG Electronics to release a Cardboard-based headset for the LG G3 known as VR for G3. Released in February 2015, it was distributed as a free accessory with new G3 models sold in certain countries, and was perceived to be a competitor to the Samsung Gear VR accessory.
+On November 8, 2015, The New York Times included a Google Cardboard viewer with all home newspaper deliveries. Readers can download the NYT VR app, which displays journalism-focused immersive VR environments.
+
+
+== See alsoEdit ==
+Stereoscope
+Google Glass, another Google product for displaying data next to the face
+Oculus Rift, virtual reality (VR) project
+Gear VR, Samsung product in partnership with Oculus VR
+PlayStation VR, Sony's VR project
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Official website
+Official Cardboard app for Android on Google Play
+Official Cardboard app for iOS on Apple App Store
+Cardboard Design Lab app by Google, demonstrating VR design principles on Google Play

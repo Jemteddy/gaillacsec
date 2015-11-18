@@ -1,0 +1,8 @@
+The value of the Henderson limit is defined as 2 × 107 Gy (J/kg).
+Although generalizable, the limit is defined in the context of biomolecular X-ray crystallography, where a typical experiment consists of exposing a single frozen crystal of a macromolecule (generally protein, DNA or RNA) to an intense X-ray beam. The beams that are diffracted are then analyzed towards obtaining an atomically resolved model of the crystal.
+The limit is defined as the X-ray dose (energy per unit mass) a cryo-cooled crystal can absorb before the diffraction pattern decays to half of its original intensity. Such decay presents itself as a problem for crystallographers who require that the diffraction intensities decay as little as possible, to maximize the signal to noise ratio in order to determine accurate atomic models that describe the crystal.
+Although the process is still not fully understood, diffraction patterns of crystals typically decay with X-ray exposure due to a number of processes which non uniformly and irreversibly modify molecules that compose the crystal. These modifications induce disorder and thus decrease the intensity of Bragg diffraction. The processes behind these modifications include primary damage via the photo electric effect, covalent modification by free radicals, oxidation (methionine residues), reduction (disulfide bonds) and decarboxylation (glutamate, aspartate residues).
+
+
+== References ==
+Henderson, R. (1990). Proc. R. Soc. London, B241, 6-8.

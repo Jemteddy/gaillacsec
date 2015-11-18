@@ -1,0 +1,58 @@
+The apparent magnitude (m) of a celestial object is a measure of its brightness as seen by an observer on Earth, adjusted to the value it would have in the absence of the atmosphere. The brighter an object appears, the lower its magnitude value (i.e. inverse relation). In addition, the magnitude scale is logarithmic: a difference of one in magnitude corresponds to a change in brightness by a factor of about 2.5.
+Generally, the visible spectrum (vmag) is used as a basis for the apparent magnitude. However, other spectra are also used (e.g. the near-infrared J-band). In the visible spectrum, Sirius is the brightest star after the Sun. In the near-infrared J-band, Betelgeuse is the brightest. The apparent magnitude of stars is measured with a bolometer.
+
+
+== HistoryEdit ==
+The scale used to indicate magnitude originates in the Hellenistic practice of dividing stars visible to the naked eye into six magnitudes. The brightest stars in the night sky were said to be of first magnitude (m = 1), whereas the faintest were of sixth magnitude (m = 6), the limit of human visual perception (without the aid of a telescope). Each grade of magnitude was considered twice the brightness of the following grade (a logarithmic scale), although that ratio was subjective as no photodetectors existed. This rather crude scale for the brightness of stars was popularized by Ptolemy in his Almagest, and is generally believed to have originated with Hipparchus.
+In 1856, Norman Robert Pogson formalized the system by defining a first magnitude star as a star that is 100 times as bright as a sixth-magnitude star, thereby establishing the logarithmic scale still in use today. This implies that a star of magnitude m is 2.512 times as bright as a star of magnitude m+1. This figure, the fifth root of 100 became known as Pogson's Ratio. The zero point of Pogson's scale was originally defined by assigning Polaris a magnitude of exactly 2. Astronomers later discovered that Polaris is slightly variable, so they switched to Vega as the standard reference star, assigning the brightness of Vega as the definition of zero magnitude at any specified wavelength.
+Apart from small corrections, the brightness of Vega still serves as the definition of zero magnitude for visible and near infrared wavelengths, where its spectral energy distribution (SED) closely approximates that of a black body for a temperature of 11,000 K. However, with the advent of infrared astronomy it was revealed that Vega's radiation includes an Infrared excess presumably due to a circumstellar disk consisting of dust at warm temperatures (but much cooler than the star's surface). At shorter (e.g. visible) wavelengths, there is negligible emission from dust at these temperatures. However, in order to properly extend the magnitude scale further into the infrared, this peculiarity of Vega should not affect the definition of the magnitude scale. Therefore, the magnitude scale was extrapolated to all wavelengths on the basis of the black body radiation curve for an ideal stellar surface at 11,000 K uncontaminated by circumstellar radiation. On this basis the spectral irradiance (usually expressed in janskys) for the zero magnitude point, as a function of wavelength can be computed (see [1]). Small deviations are specified between systems using measurement appartuses developed independently so that data obtained by different astronomers can be properly compared; of greater practical importance is the definition of magnitude not at a single wavelength but applying to the response of standard spectral filters used in photometry over various wavelength bands.
+With the modern magnitude systems, brightness over a very wide range is specified according to the logarithmic definition detailed below, using this zero reference. In practice such apparent magnitudes do not exceed 30 (for detectable measurements). The brightness of Vega is exceeded by four stars in the night sky at visible wavelengths (and more at infrared wavelengths) as well as bright planets such as Venus, Mars, and Jupiter, and these must be described by negative magnitudes. For example, Sirius, the brightest star of the celestial sphere, has an apparent magnitude of −1.4 in the visible; negative magnitudes for other very bright astronomical objects can be found in the table below.
+
+
+== CalculationsEdit ==
+
+As the amount of light received actually depends on the thickness of the Earth's atmosphere in the line of sight to the object, the apparent magnitudes are adjusted to the value they would have in the absence of the atmosphere. The dimmer an object appears, the higher the numerical value given to its apparent magnitude. Note that brightness varies with distance; an extremely bright object may appear quite dim, if it is far away. More exactly, brightness varies inversely with the square of the distance. The absolute magnitude, M, of a celestial body (outside the Solar System) is the apparent magnitude it would have if it were at 10 parsecs (~32.6 light years) and that of a planet (or other Solar System body) is the apparent magnitude it would have if it were 1 astronomical unit from both the Sun and Earth. The absolute magnitude of the Sun is 4.83 in the V band (yellow) and 5.48 in the B band (blue).
+The apparent magnitude, m, in the band, x, can be defined as,
+,
+where  is the observed flux in the band x, and  and  are a reference magnitude, and reference flux in the same band x, such as that of Vega. An increase of 1 in the magnitude scale corresponds to a decrease in brightness by a factor of . Based on the properties of logarithms, a difference in magnitudes, , can be converted to a variation in brightness as .
+
+
+=== Example: Sun and MoonEdit ===
+What is the ratio in brightness between the Sun and the full moon?
+The apparent magnitude of the Sun is −26.74 (brighter), and the mean apparent magnitude of the full moon is −12.74 (dimmer).
+Difference in magnitude :
+
+Variation in Brightness :
+
+The Sun appears about 400,000 times brighter than the full moon.
+
+
+=== Magnitude additionEdit ===
+Sometimes, it might be useful to add magnitudes. For example, to determine the combined magnitude of a double star when the magnitudes of the individual components are known. This can be done by setting an equation using the brightness (in linear units) of each magnitude.
+
+Solving for  yields
+
+where  is the resulting magnitude after adding  and . Note that the negative of each magnitude is used because greater intensities equate to lower magnitudes.
+
+
+== Standard reference valuesEdit ==
+It is important to note that the scale is logarithmic: the relative brightness of two objects is determined by the difference of their magnitudes. For example, a difference of 3.2 means that one object is about 19 times as bright as the other, because Pogson's Ratio raised to the power 3.2 is approximately 19.05. A common misconception is that the logarithmic nature of the scale is because the human eye itself has a logarithmic response. In Pogson's time this was thought to be true (see Weber-Fechner law), but it is now believed that the response is a power law (see Stevens' power law).
+Magnitude is complicated by the fact that light is not monochromatic. The sensitivity of a light detector varies according to the wavelength of the light, and the way it varies depends on the type of light detector. For this reason, it is necessary to specify how the magnitude is measured for the value to be meaningful. For this purpose the UBV system is widely used, in which the magnitude is measured in three different wavelength bands: U (centred at about 350 nm, in the near ultraviolet), B (about 435 nm, in the blue region) and V (about 555 nm, in the middle of the human visual range in daylight). The V band was chosen for spectral purposes and gives magnitudes closely corresponding to those seen by the light-adapted human eye, and when an apparent magnitude is given without any further qualification, it is usually the V magnitude that is meant, more or less the same as visual magnitude.
+Because cooler stars, such as red giants and red dwarfs, emit little energy in the blue and UV regions of the spectrum their power is often under-represented by the UBV scale. Indeed, some L and T class stars have an estimated magnitude of well over 100, because they emit extremely little visible light, but are strongest in infrared.
+Measures of magnitude need cautious treatment and it is extremely important to measure like with like. On early 20th century and older orthochromatic (blue-sensitive) photographic film, the relative brightnesses of the blue supergiant Rigel and the red supergiant Betelgeuse irregular variable star (at maximum) are reversed compared to what human eyes perceive, because this archaic film is more sensitive to blue light than it is to red light. Magnitudes obtained from this method are known as photographic magnitudes, and are now considered obsolete.
+For objects within the Milky Way with a given absolute magnitude, 5 is added to the apparent magnitude for every tenfold increase in the distance to the object. This relationship does not apply for objects at very great distances (far beyond the Milky Way), because a correction for general relativity must then be taken into account due to the non-Euclidean nature of space.
+For planets and other Solar System bodies the apparent magnitude is derived from its phase curve and the distances to the Sun and observer.
+
+
+== Table of notable celestial objectsEdit ==
+Some of the above magnitudes are only approximate. Telescope sensitivity also depends on observing time, optical bandpass, and interfering light from scattering and airglow.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+The astronomical magnitude scale (International Comet Quarterly)

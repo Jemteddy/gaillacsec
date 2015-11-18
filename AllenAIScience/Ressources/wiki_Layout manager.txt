@@ -1,0 +1,30 @@
+Layout managers are software components used in widget toolkits which have the ability to lay out graphical control elements by their relative positions without using distance units. It is often more natural to define component layouts in this manner than to define their position in pixels or common distance units, so a number of popular widget toolkits include this ability by default. Widget toolkits that provide this function can generally be classified into two groups:
+Those where the layout behavior is coded in special graphic containers. This is the case in XUL and the .NET Framework widget toolkit (both in Windows Forms and in XAML).
+Those where the layout behavior is coded in layout managers, that can be applied to any graphic container. This is the case in the Swing widget toolkit that is part of the Java API.
+
+
+== Examples ==
+
+
+=== XUL ===
+In XUL, like the vbox container to stack components on top of each other.
+
+This piece of code shows 3 buttons stacked on top of each other in a vertical box:
+
+
+=== XAML ===
+The DockPanel container lays out children components according to their Dock properties.
+
+This code shows 4 text blocks on top of each other.
+
+
+=== Java ===
+The FlowLayout layout manager arranges components in a directional flow, much like lines of text in a paragraph. It arranges components horizontally until no more components fit on the same line, then it places them on another line.
+
+This code shows 5 buttons alongside each other on the same line:
+
+
+== External links ==
+Layout tutorial on Oracle website
+XUL tutorial on XULplanet (see paragraphs 3 and 4)
+Layout Manager Showdown on java.net

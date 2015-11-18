@@ -1,0 +1,24 @@
+In probability and statistics, an elliptical distribution is any member of a broad family of probability distributions that generalize the multivariate normal distribution. Intuitively, in the simplified two and three dimensional case, the joint distribution forms an ellipse and an ellipsoid, respectively, in iso-density plots.
+
+
+== DefinitionEdit ==
+Elliptical distributions can be defined using characteristic functions. A multivariate distribution is said to be elliptical if its characteristic function is of the form
+
+for a specified vector , positive-definite matrix , and characteristic function . The function  is known as the characteristic generator of the elliptical distribution.
+Elliptical distributions can also be defined in terms of their density functions. When they exist, the density functions f have the structure:
+
+where  is the scale factor,  is an -dimensional random vector with median vector  (which is also the mean vector if the latter exists),  is a positive definite matrix which is proportional to the covariance matrix if the latter exists, and  is a function mapping from the non-negative reals to the non-negative reals giving a finite area under the curve.
+
+
+== PropertiesEdit ==
+In the 2-dimensional case, if the density exists, each iso-density locus (the set of x1,x2 pairs all giving a particular value of ) is an ellipse or a union of ellipses (hence the name elliptical distribution). More generally, for arbitrary n, the iso-density loci are unions of ellipsoids. All these ellipsoids or ellipses have the common center μ and are scaled copies (homothets) of each other.
+The multivariate normal distribution is the special case in which . While the multivariate normal is unbounded (each element of  can take on arbitrarily large positive or negative values with non-zero probability, because  for all non-negative ), in general elliptical distributions can be bounded or unbounded—such a distribution is bounded if  for all  greater than some value.
+Note that there exist elliptical distributions that have infinite mean and variance, such as the multivariate [Student's t-distribution] or the multivariate Cauchy distribution .
+Because the variable x enters the density function quadratically, all elliptical distributions are symmetric about 
+
+
+== ApplicationsEdit ==
+Elliptical distributions are important in portfolio theory because, if the returns on all assets available for portfolio formation are jointly elliptically distributed, then all portfolios can be characterized completely by their location and scale – that is, any two portfolios with identical location and scale of portfolio return have identical distributions of portfolio return (Chamberlain 1983; Owen and Rabinovitch 1983). For multi-normal distributions, location and scale correspond to mean and standard deviation.
+
+
+== ReferencesEdit ==

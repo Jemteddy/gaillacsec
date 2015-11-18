@@ -1,0 +1,51 @@
+Rod cells, or rods, are photoreceptor cells in the retina of the eye that can function in less intense light than the other type of visual photoreceptor, cone cells. Rods are concentrated at the outer edges of the retina and are used in peripheral vision. On average, there are approximately 90 million rod cells in the human retina. More sensitive than cone cells, rod cells are almost entirely responsible for night vision. However, because they have only one type of light-sensitive pigment, rather than the three types that human cone cells have, rods have little, if any, role in color vision (which is why colors are much less apparent at night).
+
+
+== StructureEdit ==
+Rods are a little longer and leaner than cones but have the same structural basis. The opsin or pigment is on the outer side, lying on the Retinal pigment epithelium, completing the cell's homeostasis. This epithelium end contains many stacked disks. Rods have a high area for visual pigment and thus substantial efficiency of light absorption.
+Like cones, rod cells have a synaptic terminal, an inner segment, and an outer segment. The synaptic terminal forms a synapse with another neuron, for example a bipolar cell. The inner and outer segments are connected by a cilium, which lines the distal segment. The inner segment contains organelles and the cell's nucleus, while the rod outer segment (abbreviated to ROS), which is pointed toward the back of the eye, contains the light-absorbing materials.
+A human rod cell is about 2 microns in diameter and 100 microns long.
+
+
+== FunctionEdit ==
+
+
+=== PhotoreceptionEdit ===
+
+In vertibra, activation of a photoreceptor cell is actually a hyperpolarization (inhibition) of the cell. When they are not being stimulated, such as in the dark, rod cells and cone cells depolarize and release a neurotransmitter spontaneously. This neurotransmitter hyperpolarizes the bipolar cell. Bipolar cells exist between photoreceptors and ganglion cells and act to transmit signals from the photoreceptors to the ganglion cells. As a result of the bipolar cell being hyperpolarized, it does not release its transmitter at the bipolar-ganglion synapse and the synapse is not excited.
+Activation of photopigments by light sends a signal by hyperpolarizing the rod cell, leading to the rod cell not sending its neurotransmitter, which leads to the bipolar cell then releasing its transmitter at the bipolar-ganglion synapse and exciting the synapse.
+Depolarization of rod cells (causing release of their neurotransmitter) occurs because in the dark, cells have a relatively high concentration of cyclic guanosine 3'-5' monophosphate (cGMP), which opens ion channels (largely sodium channels, though calcium can enter through these channels as well). The positive charges of the ions that enter the cell down its electrochemical gradient change the cell's membrane potential, cause depolarization, and lead to the release of the neurotransmitter glutamate. Glutamate can depolarize some neurons and hyperpolarize others, allowing photoreceptors to interact in an antagonistic manner.
+When light hits photoreceptive pigments within the photoreceptor cell, the pigment changes shape. The pigment, called rhodopsin (photopsin is found in cone cells) comprises a large protein called opsin (situated in the plasma membrane), attached to which is a covalently bound prosthetic group: an organic molecule called retinal (a derivative of vitamin A). The retinal exists in the 11-cis-retinal form when in the dark, and stimulation by light causes its structure to change to all-trans-retinal. This structural change causes an increased affinity for the regulatory protein called transducin (a type of G protein). Upon binding to rhodopsin, the alpha subunit of the G protein replaces a molecule of GDP with a molecule of GTP and becomes activated. This replacement causes the alpha subunit of the G protein to dissociate from the beta and gamma subunits of the G protein. As a result, the alpha subunit is now free to bind to the cGMP phosphodiesterase (an effector protein). The alpha subunit interacts with the inhibitory PDE gamma subunits and prevents them from blocking catalytic sites on the alpha and beta subunits of PDE, leading to the activation of cGMP phosphodiesterase, which hydrolyzes cGMP (the second messenger), breaking it down into 5'-GMP. Reduction in cGMP allows the ion channels to close, preventing the influx of positive ions, hyperpolarizing the cell, and stopping the release of the neurotransmitter glutamate (Kandel et al., 2000). Though cone cells primarily use the neurotransmitter substance acetylcholine, rod cells use a variety. The entire process by which light initiates a sensory response is called visual phototransduction.
+Activation of a single unit of rhodopsin, the photosensitive pigment in rods, can lead to a large reaction in the cell because the signal is amplified. Once activated, rhodopsin can activate hundreds of transducin molecules, each of which in turn activates a phosphodiesterase molecule, which can break down over a thousand cGMP molecules per second (Kandel et al. 2000). Thus, rods can have a large response to a small amount of light.
+As the retinal component of rhodopsin is derived from vitamin A, a deficiency of vitamin A causes a deficit in the pigment needed by rod cells. Consequently, fewer rod cells are able to sufficiently respond in darker conditions, and as the cone cells are poorly adapted for sight in the dark, blindness can result. This is night-blindness.
+
+
+=== Revert to the resting stateEdit ===
+Rods make use of three inhibitory mechanisms (negative feedback mechanisms) to allow a rapid revert to the resting state after a flash of light.
+Firstly, there exists a rhodopsin kinase (RK) which would phosphorylate the cytosolic tail of the activated rhodopsin on the multiple serines, partially inhibiting the activation of transducin. Also, an inhibitory protein - arrestin then binds to the phosphorylated rhodopsins to further inhibit the rhodopsin's activity.
+While arrestin shuts off rhodopsin, an RGS protein (functioning as a GTPase-activating proteins(GAPs)) drives the transducin (G-protein) into an "off" state by increasing the rate of hydrolysis of the bounded GTP to GDP.
+Also as the cGMP sensitive channels allow not only the influx of sodium ions, but also calcium ions, with the decrease in concentration of cGMP, cGMP sensitive channels are then closed and reducing the normal influx of calcium ions. The decrease in the concentration of calcium ions stimulates the calcium ion-sensitive proteins, which would then activate the guanylyl cyclase to replenish the cGMP, rapidly restoring its original concentration. The restoration opens the cGMP sensitive channels and causes a depolarization of the plasma membrane.
+
+
+=== DesensitizationEdit ===
+When the rods are exposed to a high concentration of photons for a prolonged period, they become desensitized (adapted) to the environment.
+As rhodopsin is phosphorylated by rhodopsin kinase (a member of the GPCR kinases(GRKs)), it binds with high affinity to the arrestin. The bound arrestin can contribute to the desensitization process in at least two ways. First, it prevents the interaction between the G protein and the activated receptor. Second, it serves as an adaptor protein to aid the receptor to the clathrin-dependent endocytosis machinery (to induce receptor-mediated endocytosis).
+
+
+=== SensitivityEdit ===
+A rod cell is sensitive enough to respond to a single photon of light and is about 100 times more sensitive to a single photon than cones. Since rods require less light to function than cones, they are the primary source of visual information at night (scotopic vision). Cone cells, on the other hand, require tens to hundreds of photons to become activated. Additionally, multiple rod cells converge on a single interneuron, collecting and amplifying the signals. However, this convergence comes at a cost to visual acuity (or image resolution) because the pooled information from multiple cells is less distinct than it would be if the visual system received information from each rod cell individually.
+
+Rod cells also respond slower to light than cones and the stimuli they receive are added over roughly 100 milliseconds. While this makes rods more sensitive to smaller amounts of light, it also means that their ability to sense temporal changes, such as quickly changing images, is less accurate than that of cones.
+Experiments by George Wald and others showed that rods are most sensitive to wavelengths of light around 498 nm (green-blue), and insensitive to wavelengths longer than about 640 nm (red). This fact is responsible for the Purkinje effect: as intensity dims at twilight, the rods take over, and before color disappears completely, peak sensitivity of vision shifts towards the rods' peak sensitivity (blue-green).
+
+
+== See alsoEdit ==
+Sensory receptor
+Disc shedding
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+NIF Search - Rod Cell via the Neuroscience Information Framework

@@ -1,0 +1,56 @@
+The SQuirreL SQL Client is a database administration tool. It uses JDBC to allow users to explore and interact with databases via a JDBC driver. It provides an editor that offers code completion and syntax highlighting for standard SQL. It also provides a plugin architecture that allows plugin writers to modify much of the application's behavior to provide database-specific functionality or features that are database-independent. As this desktop application is written entirely in Java with Swing UI components, it should run on any platform that has a JVM.
+SQuirreL SQL Client is free as open source software that is distributed under the GNU Lesser General Public License.
+
+
+== Feature summary ==
+Object Tree allows for browsing database objects such as catalogs, schemas, tables, triggers, views, sequences, procedures, UDTs, etc.
+The SQL Editor, based on RSyntaxTextArea by fifesoft.com, provides syntax highlighting. It can open, create, save and execute files containing SQL statements.
+SQuirreL supports simultaneous sessions with multiple databases. This allows comparing data and sharing SQL statements between databases.
+SQuirreL runs on any platform that has a JVM.
+A plugin architecture facilitates database vendor-specific extensions (information or actions not available using standard JDBC - see SQuirreL SQL Client Plugin API for more details)
+Translations for the user interface exist in: (Bulgarian, Brazilian Portuguese, Chinese, Czech, French, German, Italian, Japanese, Polish, Spanish, Russian).
+Graph capabilities can generate charts showing table relationships.
+Bookmarks - user-defined code templates. SQuirreL comes with predefined example bookmarks for the most common SQL and DDL statements.
+
+
+== History ==
+The SQuirreL SQL project was developed by a team of Java developers around the world and led by Colin Bell. It has been hosted as a SourceForge project since 2001, and is still being developed today.
+
+
+== Supported databases ==
+Axion Java RDBMS.
+Apache Derby
+Fujitsu Siemens SESAM/SQL-Server with the SESAM/SQL JDBC driver
+Firebird with the JayBird JCA/JDBC Driver
+Hypersonic SQL
+H2 (DBMS)
+IBM DB2 for Linux, OS/400 and Windows
+Informix
+Ingres (and OpenIngres)
+InstantDB
+InterBase
+Mckoi SQL Database
+Microsoft Access with the JDBC/ODBC bridge.
+Microsoft SQL Server
+Mimer SQL
+MySQL
+Netezza
+Oracle Database 8i, 9i, 10g, 11g
+Pointbase
+PostgreSQL 7.1.3 and higher
+SAPDB
+Sybase
+Sunopsis XML Driver (JDBC Edition)
+Teradata Warehouse
+Vertica Analytic Database
+
+
+== See also ==
+SQL
+Comparison of database tools
+
+
+== References ==
+^ Wagner, Gerd; Griffin, Glenn. "SQuirreL, a Universal SQL Client" (PDF). Retrieved 2009-04-15. 
+^ Martinig, Franco. "SQuirreL SQL Client". Retrieved 1 March 2011. 
+^ a b "SQuirreL SQL Client Home Page". SourceForge.net. Retrieved 2009-04-15.

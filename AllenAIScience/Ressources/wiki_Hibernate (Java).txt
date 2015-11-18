@@ -1,0 +1,107 @@
+Hibernate ORM (Hibernate in short) is an object-relational mapping framework for the Java language, providing a framework for mapping an object-oriented domain model to a traditional relational database. Hibernate solves object-relational impedance mismatch problems by replacing direct persistence-related database accesses with high-level object handling functions.
+Hibernate is free software that is distributed under the GNU Lesser General Public License 2.1.
+Hibernate's primary feature is mapping from Java classes to database tables (and from Java data types to SQL data types). Hibernate also provides data query and retrieval facilities. It generates SQL calls and relieves the developer from manual result set handling and object conversion. Applications using Hibernate are portable to supported SQL databases with little performance overhead.
+
+
+== MappingEdit ==
+Mapping Java classes to database tables is accomplished through the configuration of an XML file or by using Java Annotations. When using an XML file, Hibernate can generate skeleton source code for the persistence classes. This is unnecessary when annotations are used. Hibernate can use the XML file or the annotations to maintain the database schema.
+Facilities to arrange one-to-many and many-to-many relationships between classes are provided. In addition to managing associations between objects, Hibernate can also manage reflexive associations where an object has a one-to-many relationship with other instances of its own type.
+Hibernate supports the mapping of custom value types. This makes the following scenarios possible:
+Overriding the default SQL type that Hibernate chooses when mapping a column to a property.
+Mapping Java Enum to columns as if they were regular properties.
+Mapping a single property to multiple columns.
+Definition: Objects in a front-end application follow OOP principles, while objects in the back-end follow database normalization principles, resulting in different representation requirements. This problem is called "object-relational impedance mismatch". Mapping is a way of resolving the impedance mismatch problem.
+Mapping tells the ORM tool which java class object to store in which database table.
+
+
+== Hibernate Query Language (HQL)Edit ==
+Hibernate provides an SQL inspired language called Hibernate Query Language (HQL) which allows SQL-like queries to be written against Hibernate's data objects. Criteria Queries are provided as an object-oriented alternative to HQL. Criteria Query is used to modify the objects and provide the restriction for the objects.
+
+
+== PersistenceEdit ==
+Hibernate provides transparent persistence for Plain Old Java Objects (POJOs). The only strict requirement for a persistent class is a no-argument constructor, not necessarily public. Proper behavior in some applications also requires special attention to the equals() and hashCode() methods.
+Collections of data objects are typically stored in Java collection objects such as Set and List. Java generics, introduced in Java 5, are supported. Hibernate can be configured to lazy load associated collections. Lazy loading is the default as of Hibernate 3.
+Related objects can be configured to cascade operations from one to the other. For example, a parent Album object can be configured to cascade its save and/or delete operation to its child Track objects. This can reduce development time and ensure referential integrity. A dirty checking feature avoids unnecessary database write actions by performing SQL updates only on the modified fields of persistent objects.
+
+
+== IntegrationEdit ==
+Hibernate can be used both in standalone Java applications and in Java EE applications using servlets, EJB session beans, and JBI service components. It can also be included as a feature in other programming languages. For example, Adobe integrated Hibernate into version 9 of ColdFusion (which runs on J2EE app servers) with an abstraction layer of new functions and syntax added into CFML.
+
+
+== Entities and componentsEdit ==
+In Hibernate jargon, an entity is a stand-alone object in Hibernate's persistent mechanism which can be manipulated independently of other objects. In contrast, a component is subordinate to an entity and can be manipulated only with respect to that entity. For example, an Album object may represent an entity but the Tracks object associated with the Album objects would represent a component of the Album entity if it is assumed that Tracks can only be saved or retrieved from the database through the Album object. Unlike J2EE, it can switch databases.
+
+
+== HistoryEdit ==
+Hibernate was started in 2001 by Gavin King with colleagues from Cirrus Technologies as an alternative to using EJB2-style entity beans. Its original goal was to offer better persistence capabilities than offered by EJB2 by simplifying the complexities and supplementing missing features.
+In early 2003, the Hibernate development team began Hibernate2 releases, which offered many significant improvements over the first release.
+JBoss, Inc. (now part of Red Hat) later hired the lead Hibernate developers in order to further its development.
+In 2005, Hibernate version 3.0 was released. Key features included a new Interceptor/Callback architecture, user defined filters, and JDK 5.0 Annotations (Java's metadata feature). As of 2010, Hibernate 3 (version 3.5.0 and up) was a certified implementation of the Java Persistence API 2.0 specification via a wrapper for the Core module which provides conformity with the JSR 317 standard.
+In Dec 2011, Hibernate Core 4.0.0 Final was released. This includes new features such as multi-tenancy support, introduction of ServiceRegistry (a major change in how Hibernate builds and manages "services"), better Session opening from SessionFactory, improved integration via org.hibernate.integrator.spi.Integrator and auto discovery, internationalization support and message codes in logging, and a clearer split between API, SPI and implementation classes.
+In Dec 2012, Hibernate ORM 4.1.9 Final was released.
+In Mar 2013, Hibernate ORM 4.2 Final was released.
+In Dec 2013, Hibernate ORM 4.3.0 Final was released. It features Java Persistence API 2.1.
+In Sep 2015, Hibernate ORM 5.0.2 Final was released. It has improved bootstrapping, hibernate-java8, hibernate-spatial, Karaf support.
+
+
+== Application programming interfaceEdit ==
+The Hibernate API is provided in the Java package org.hibernate.
+
+
+=== org.hibernate.SessionFactory interfaceEdit ===
+
+
+=== org.hibernate.Session interfaceEdit ===
+Represents a Hibernate session, i.e., the main point of the manipulation performed on the database entities. The latter activities include (among the other things) managing the persistence state (transient, persisted, detached) of the objects, fetching the persisted ones from the database and the management of the transaction demarcation.
+A session is intended to last as long as the logical transaction on the database. Due to the latter feature, Session implementations are not expected to be thread safe nor to be used by multiple clients.
+
+
+== Software componentsEdit ==
+The Hibernate software includes the following components:
+Hibernate ORM (known as Hibernate Core before release 4.1) – the base software for an object-relational mapping solution for Java environments
+Hibernate Annotations (merged into Hibernate Core/ORM since version 3.6) – metadata that governs the transformation of data between the object-oriented model and the relational database model according to the JSR 317 Java Persistence API (JPA 2)
+Hibernate EntityManager – together with Hibernate Annotations, a wrapper that implements a JSR 317 Java Persistence API (JPA 2) persistence solution on top of Hibernate Core
+Hibernate Envers – auditing and versioning of persistent classes
+Hibernate OGM (Object/Grid Mapper) – an extension to store data in a NoSQL store
+Hibernate Shards – horizontal partitioning for multiple relational databasesWhile Hibernate Shards is not compatible with 4.x releases of Hibernate Core, some of the Shards capability was integrated into Core in the 4.0 release
+
+Hibernate Search – integrates the full text library functionality from Apache Lucene in the Hibernate and JPA model
+Hibernate Tools – a set of tools implemented as a suite of Eclipse plugins and Ant tasks included in JBoss Developer Studio
+Hibernate Validator – the reference implementation of JSR 303 Bean Validation
+Hibernate Metamodel Generator – an annotation processor that creates JSR 317 Java Persistence API (JPA 2) static metamodel classes using the JSR 269 Pluggable Annotation Processing API
+NHibernate – an object-relational mapping solution for the .NET Framework
+
+
+== See alsoEdit ==
+
+List of JBoss software
+List of object-relational mapping software
+NHibernate
+Serialization
+Service Data Object
+
+
+== ReferencesEdit ==
+
+
+== BibliographyEdit ==
+
+
+== External linksEdit ==
+Official website
+Interview with Gavin King, founder of Hibernate
+Hibernate Reference Documentation
+scale4j is highly scalable domain oriented data-distributed platform for java built on top of hibernate
+TorpedoQuery - Type safe Hibernate query builder
+Best Recommended books for Hibernate framework
+How Hibernate interpret Order of JOIN on a Table?
+When Hibernate uses INNER JOIN?
+How To Call Stored Procedure In Hibernate
+How to create Hibernate query log?
+
+
+=== Further readingEdit ===
+Hibernate Tutorial
+Hibernate Annotations Tutorial
+Java Persistence (JPA 2.0) Tutorial With Hibernate
+Hibernate Tutorial by Java Code Geeks

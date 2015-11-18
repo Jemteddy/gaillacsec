@@ -1,0 +1,92 @@
+Electromagnetic radiation can be classified into two types: ionizing radiation and non-ionizing radiation, based on its capability of ionizing atoms and breaking chemical bonds. Ultraviolet and higher frequencies, such as X-rays or gamma rays are ionizing, and these pose their own special hazards: see radiation and radiation poisoning. The electricity that comes out of every power socket has associated low-frequency electromagnetic fields. Various kinds of higher-frequency radiowaves are used to transmit information – whether via TV antennas, radio stations or mobile phone base stations.
+By far the most common health hazard of radiation is sunburn, which causes over one million new skin cancers annually.
+
+
+== Types of hazards ==
+
+
+=== Electrical hazards ===
+Very strong radiation can induce current capable of delivering an electric shock to persons or animals. It can also overload and destroy electrical equipment. The induction of currents by oscillating magnetic fields is also the way in which solar storms disrupt the operation of electrical and electronic systems, causing damage to and even the explosion of power distribution transformers, blackouts (as occurred in 1989), and interference with electromagnetic signals (e.g. radio, TV, and telephone signals).
+
+
+=== Fire hazards ===
+Extremely high power electromagnetic radiation can cause electric currents strong enough to create sparks (electrical arcs) when an induced voltage exceeds the breakdown voltage of the surrounding medium (e.g. air at 3.0 MV/m). These sparks can then ignite flammable materials or gases, possibly leading to an explosion.
+This can be a particular hazard in the vicinity of explosives or pyrotechnics, since an electrical overload might ignite them. This risk is commonly referred to as Hazards of Electromagnetic Radiation to Ordnance (HERO) by the United States Navy (USN). United States Military Standard 464A (MIL-STD-464A) mandates assessment of HERO in a system, but USN document OD 30393 provides design principles and practices for controlling electromagnetic hazards to ordnance.
+On the other hand, the risk related to fueling is known as Hazards of Electromagnetic Radiation to Fuel (HERF). NAVSEA OP 3565 Vol. 1 could be used to evaluate HERF, which states a maximum power density of 0.09 W/m² for frequencies under 225 MHz (i.e. 4.2 meters for a 40 W emitter).
+
+
+=== Biological hazards ===
+The best understood biological effect of electromagnetic fields is to cause dielectric heating. For example, touching or standing around an antenna while a high-power transmitter is in operation can cause severe burns. These are exactly the kind of burns that would be caused inside a microwave oven.
+This heating effect varies with the power and the frequency of the electromagnetic energy. A measure of the heating effect is the specific absorption rate or SAR, which has units of watts per kilogram (W/kg). The IEEE and many national governments have established safety limits for exposure to various frequencies of electromagnetic energy based on SAR, mainly based on ICNIRP Guidelines, which guard against thermal damage.
+There are publications which support the existence of complex biological effects of weaker non-thermal electromagnetic fields (see Bioelectromagnetics), including weak ELF magnetic fields and modulated RF and microwave fields. Fundamental mechanisms of the interaction between biological material and electromagnetic fields at non-thermal levels are not fully understood.
+A 2009 study at the University of Basel in Switzerland found that intermittent (but not continuous) exposure of human cells to a 50 Hz electromagnetic field at a flux density of 1 mT (or 10 G) induced a slight but significant increase of DNA fragmentation in the Comet assay. However that level of exposure is already above current established safety exposure limits.
+
+
+== Lighting ==
+
+
+=== Compact fluorescent light bulbs ===
+Compact energy efficient fluorescent light bulbs may emit dangerous levels of Ultraviolet radiation when the protective coating around the phosphor, which creates light inside the bulb, is cracked by mishandling or faulty manufacturing. This cracking of bulb's shielding allows UV rays to escape at levels that could cause burns or even skin cancer. The light generated inside the bulb of a fluorescent light is invisible UV which is converted into visible light by the phosphor coating.
+
+
+=== LED lights ===
+
+Blue light, emitting at wavelengths of 400–500 nanometers, suppresses the production of melatonin produced by the pineal gland. The effect is disruption of a human being's biological clock resulting in poor sleeping and rest periods.
+
+
+== EMR effects on the human body by frequency ==
+
+While the most acute exposures to harmful levels of electromagnetic radiation are immediately realized as burns, the health effects due to chronic or occupational exposure may not manifest effects for months or years.
+
+
+=== Extremely-low-frequency RF ===
+High-power extremely-low-frequency RF with electric field levels in the low kV/m range are known to induce perceivable currents within the human body that create an annoying tingling sensation. These currents will typically flow to ground through a body contact surface such as the feet, or arc to ground where the body is well insulated.
+
+
+=== Shortwave frequency RF ===
+Shortwave diathermy heating of human tissue only heats tissues that are good electrical conductors, such as blood vessels and muscle. Adipose tissue (fat) receives little heating by induction fields because an electrical current is not actually going through the tissues.
+
+
+=== Radio frequency fields ===
+
+It is suspected that electromagnetic fields emitted by mobile phones may be responsible for an increased risk of glioma and acoustic neuroma, and mobile phone signals have been designated category 'Group 2B' ("possibly carcinogenic") by the World Health Organization.
+
+
+=== Microwaves ===
+Microwave exposure at low-power levels below the specific absorption rate set by government regulatory bodies is considered harmless non-ionizing radiation and has no effect on the human body. Levels above the specific absorption rate set by the US Federal Communications Commission (FCC) are those they considered to be potentially harmful. ANSI standards for safe exposure levels to RF and microwave radiation are set to a SAR level of 4 W/kg, the threshold before hazardous thermical effects occur due to energy absorption in the body. A safety factor of ten was then incorporated to arrive at the final recommended protection guidelines of a SAR exposure threshold of 0.4 W/kg for RF and microwave radiation. There is disagreement over exactly what levels of RF radiation are safe, particularly with regard to low levels of exposure. Russia and eastern European countries set SAR thresholds for microwaves and RF much lower than western countries.
+Two areas of the body, the eyes and the testes, can be particularly susceptible to heating by RF energy because of the relative lack of available blood flow to dissipate the excessive heat load. Laboratory experiments have shown that short-term exposure to high levels of RF radiation (100–200 mW/cm²) can cause cataracts in rabbits. Temporary sterility, caused by such effects as changes in sperm count and in sperm motility, is possible after exposure of the testes to high-level RF radiation.
+Long-term exposure to high-levels of microwaves, is recognized, from experimental animal studies and epidemiological studies in humans, to cause cataracts. The mechanism is unclear but may include changes in heat sensitive enzymes that normally protect cell proteins in the lens. Another mechanism that has been advanced is direct damage to the lens from pressure waves induced in the aqueous humor.
+Exposure to sufficiently high-power microwave RF is known to create effects ranging from a burning sensation on the skin and microwave auditory effect, to extreme pain at the mid-range, to physical microwave burns and blistering of skin and internals at high power levels.
+
+
+=== Millimeter waves ===
+Recent technology advances in the developments of millimeter wave scanners for airport security and WiGig for Personal area networks have opened the 60 GHz and above microwave band to SAR exposure regulations. Previously, microwave applications in these bands were for point-to-point satellite communication with minimal human exposure. Radiation levels in the millimeter wavelength represent the high microwave band or close to Infrared wavelengths.
+
+
+=== Infrared ===
+Infrared wavelengths longer than 750 nm can produce changes in the lens of the eye. Glassblower's cataract is an example of a heat injury that damages the anterior lens capsule among unprotected glass and iron workers. Cataract-like changes can occur in workers who observe glowing masses of glass or iron without protective eyewear for many hours a day.
+Another important factor is the distance between the worker and the source of radiation. In the case of arc welding, infrared radiation decreases rapidly as a function of distance, so that farther than three feet away from where welding takes place, it does not pose an ocular hazard anymore but, ultraviolet radiation still does. This is why welders wear tinted glasses and surrounding workers only have to wear clear ones that filter UV.
+
+
+=== Visible light ===
+Moderate and high-power lasers are potentially hazardous because they can burn the retina of the eye, or even the skin. To control the risk of injury, various specifications – for example ANSI Z136 in the US, and IEC 60825 internationally – define "classes" of lasers depending on their power and wavelength. These regulations also prescribe required safety measures, such as labeling lasers with specific warnings, and wearing laser safety goggles during operation (see laser safety).
+As with its infrared and ultraviolet radiation dangers, welding creates an intense brightness in the visible light spectrum, which may cause temporary flash blindness. Some sources state that there is no minimum safe distance for exposure to these radiation emissions without adequate eye protection.
+
+
+=== Ultraviolet ===
+Short-term exposure to strong ultraviolet sunlight causes sunburn within hours of exposure.
+Ultraviolet light, specifically UV-B, has been shown to cause cataracts and there is some evidence that sunglasses worn at an early age can slow its development in later life. Most UV light from the sun is filtered out by the atmosphere and consequently airline pilots often have high rates of cataracts because of the increased levels of UV radiation in the upper atmosphere. It is hypothesised that depletion of the ozone layer and a consequent increase in levels of UV light on the ground may increase future rates of cataracts. Note that the lens filters UV light, so once that is removed via surgery, one may be able to see UV light.
+Prolonged exposure to ultraviolet radiation from the sun can lead to melanoma and other skin malignancies. Clear evidence establishes ultraviolet radiation, especially the non-ionizing medium wave UVB, as the cause of most non-melanoma skin cancers, which are the most common forms of cancer in the world. UV rays can also cause wrinkles, liver spots, moles, and freckles. In addition to sunlight, other sources include tanning beds, and bright desk lights. Damage is cumulative over one's lifetime, so that permanent effects may not be evident for some time after exposure.
+Ultraviolet radiation of wavelengths shorter than 300 nm (actinic rays) can damage the corneal epithelium. This is most commonly the result of exposure to the sun at high altitude, and in areas where shorter wavelengths are readily reflected from bright surfaces, such as snow, water, and sand. UV generated by a welding arc can similarly cause damage to the cornea, known as "arc eye" or welding flash burn, a form of photokeratitis.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Information page on electromagnetic fields at the World Health Organization web site
+Biological Effects of Power Frequency Electric and Magnetic Fields (May 1989) (over 100 pages)
+CDC - Electric and Magnetic Fields - NIOSH Workplace Safety and Health Topic

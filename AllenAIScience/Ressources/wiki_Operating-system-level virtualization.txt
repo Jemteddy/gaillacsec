@@ -1,0 +1,47 @@
+Operating-system-level virtualization is a server-virtualization method where the kernel of an operating system allows for multiple isolated user-space instances, instead of just one. Such instances (sometimes called containers, software containers, virtualization engines (VE), virtual private servers (VPS), or jails) may look and feel like a real server from the point of view of its owners and users.
+On Unix-like operating systems, one can see this technology as an advanced implementation of the standard chroot mechanism. In addition to isolation mechanisms, the kernel often provides resource-management features to limit the impact of one container's activities on other containers.
+
+
+== UsesEdit ==
+Operating-system-level virtualization is commonly used in virtual hosting environments, where it is useful for securely allocating finite hardware resources amongst a large number of mutually-distrusting users. System administrators may also use it, to a lesser extent, for consolidating server hardware by moving services on separate hosts into containers on the one server.
+Other typical scenarios include separating several applications to separate containers for improved security, hardware independence, and added resource management features. The improved security provided by the use of a chroot mechanism, however, is nowhere near ironclad. Operating-system-level virtualization implementations capable of live migration can also be used for dynamic load balancing of containers between nodes in a cluster.
+
+
+=== OverheadEdit ===
+Operating-system-level virtualization usually imposes little to no overhead, because programs in virtual partitions use the operating system's normal system call interface and do not need to be subjected to emulation or be run in an intermediate virtual machine, as is the case with whole-system virtualizers (such as VMware ESXi, QEMU or Hyper-V) and paravirtualizers (such as Xen or UML). This form of virtualization also does not require support in hardware to perform efficiently.
+
+
+=== FlexibilityEdit ===
+Operating-system-level virtualization is not as flexible as other virtualization approaches since it cannot host a guest operating system different from the host one, or a different guest kernel. For example, with Linux, different distributions are fine, but other operating systems such as Windows cannot be hosted.
+Solaris partially overcomes the above described limitation with its branded zones feature, which provides the ability to run an environment within a container that emulates an older Solaris 8 or 9 version in a Solaris 10 host. Linux branded zones (referred to as "lx" branded zones) are also available on x86-based Solaris systems, providing a complete Linux userspace and support for the execution of Linux applications; additionally, Solaris provides utilities needed to install Red Hat Enterprise Linux 3.x or CentOS 3.x Linux distributions inside "lx" zones. However, in 2010 Linux branded zones were removed from Solaris; in 2014 they were reintroduced in Illumos, which is the open source Solaris fork, supporting 32-bit Linux kernels.
+
+
+=== StorageEdit ===
+Some operating-system-level virtualization implementations provide file-level copy-on-write (CoW) mechanisms. (Most commonly, a standard file system is shared between partitions, and those partitions that change the files automatically create their own copies.) This is easier to back up, more space-efficient and simpler to cache than the block-level copy-on-write schemes common on whole-system virtualizers. Whole-system virtualizers, however, can work with non-native file systems and create and roll back snapshots of the entire system state.
+
+
+== ImplementationsEdit ==
+
+
+== See alsoEdit ==
+
+Application virtualization
+CoreOS
+Hypervisor
+Portable application creators
+Platform virtualization
+Separation kernel
+Storage Hypervisor
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+An introduction to Virtualization
+A short intro to three different virtualization techniques
+Virtualization and Containerization of Application Infrastructure: A Comparison, June 22, 2015, by Mathijs Jeroen Scheepers
+Containers and persistent data, LWN.net, May 28, 2015, by Josh Berkus

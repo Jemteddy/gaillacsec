@@ -1,0 +1,35 @@
+Sendra is a software application currently owned by Weatherford Petroleum Consultants, intended to analyze individual Special Core Analysis experiments (SCAL experiments) as well as multiple/several experiments simultaneously. It reveals relative permeability and capillary pressure from two-phase flow performed in the SCAL laboratory. Sendra consists of a variety of modules in order to interpret and analyze experimental data from core flow experiments. The main applications in Sendra are:
+- Quality control of SCAL data
+- Simulation of Experiments
+- Determination of Relative permeability (kr) and Capillary pressure (Pc)
+
+
+== Timeline ==
+1985-87: Ph-D thesis for simulating Centrifuge Drainage (Cendra), NTNU and IRIS
+1987-92: Further development to cover all scenarios within SCAL: with IRIS and the oil industry
+1992: Cendra + Launched commercially by IRIS (former RF-Rogaland Research)
+1992-96: Further developments, cooperation with UiB and TAMU
+1996: Sold and marketed by Petec Software and Services (a subsidiary of IRIS). Renamed to Sendra
+2002: Sold and marketed by Core2Field (a subsidiary of IRIS).
+2007: Acquired by Reslab Integration (Weatherford Petroleum Consultants)
+2008: Sendra developed on a modern Windows platform with improved GUI. Is now a part of Weatherford.
+
+
+== History ==
+Sendra, originally named Cendra, an abbreviation for Centrifuge Drainage, is a two-phase oil and gas core flow simulator based on Darcy’s law and the continuity equation. Sendra software is developed in Norway, initially with IRIS (former RF-Rogaland Research). Developments were performed in close cooperation with Texas A&M University (USA)[1], the University of Bergen (Norway)[2] and the oil industry. Sendra was first sold and markeded by Petec Software and Services then by Core2Field. In 2007 Sendra was acquired by Weatherford Petroleum Consultants which has now the complete responsibility for developments of Sendra 2009 – the windows version of Sendra. Sendra is a black-oil model that uses the finite difference method for forward simulation, but Sendra also includes an automated optimization routine – Levenberg Marquardt algorithm – for history matching purpose. By varying relative permeabilities and capillary pressure Sendra history matches time dependent experimental data, like production and differential pressure until the experimental data is verified.
+
+
+== Versions ==
+Sendra v1.1-v1.10
+Released in 1996 and discontinued in 2007.This version was only available on Unix (SGI and Sun) and Linux platforms.
+Sendra 2009 - For Windows
+The development of the windows version was initiated late 2007 and the first commercial release was May 2009. Sendra 2009 is based upon the existing version of Sendra, but analyzes the SCAL results rather than solely individual experiments. It consists of the well tested core flow simulator and the optimization routine. Additional applications:
+- Step by step wizard for experimental input and
+- Advanced plotting options for displaying the results. Sendra 2009 uses a project explorer to administrate technically the project.
+- Extended for comparison and recommendations of flow properties for field applications
+This is the first version of Sendra to run on Microsoft’s Windows OS: XP, Vista og Windows 7
+
+
+== External links ==
+http://www.sendra.no/
+http://www.wftpc.com/

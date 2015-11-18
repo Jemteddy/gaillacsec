@@ -1,0 +1,51 @@
+Hibernation (or suspend to disk) in computing is powering down a computer while retaining its state. Upon hibernation, the computer saves the contents of its random access memory (RAM) to a hard disk or other non-volatile storage. Upon resumption, the computer is exactly as it was before entering hibernation. Like a powered down system, the power source from a system in hibernation can be removed without any state loss risk.
+
+
+== Uses ==
+Hibernation saves electrical power. After hibernating, the hardware is powered down like a regular shutdown. Hibernation is a means of avoiding the burden of saving unsaved data before shutting down and restoring all running programs after powering back on. Hibernation is used in laptops, which have limited battery power available. It can be set to happen automatically on a low battery alarm. Most desktops also support hibernation, mainly as a general energy saving measure.
+
+
+== Comparison to sleep mode ==
+Many systems also support a low-power sleep mode in which the processing functions of the machine are powered down, using a little power to preserve the contents of RAM and support waking up. Instantaneous resumption is one of the advantages of sleep mode over hibernation. A hibernated system must start up and read data back to RAM, which typically takes time. A system in sleep mode only needs to power up the CPU and display, which is almost instantaneous. On the other hand, a system in sleep mode still consumes power to keep the data in the RAM. Detaching power from a system in sleep mode results in data loss, while cutting the power of a system in hibernation has no risk; the hibernated system can resume when and if the power is restored. Both shut down and hibernated systems may consume standby power unless they are unplugged.
+
+
+== Hybrid sleep ==
+Sleep mode and hibernation can be combined: The contents of RAM are copied to the non-volatile storage and the computer enters sleep mode. This approach combines the benefits of sleep mode and hibernation: The machine can resume instantaneously, and its state, including open and unsaved files, survives a power outage. Hybrid sleep consumes as much power as sleep mode while hibernation powers down the computer.
+
+
+== Operating system support ==
+Early implementations of hibernation used the BIOS, but modern operating systems usually handle hibernation. Hibernation is defined as sleeping mode S4 in the ACPI specification.
+
+
+=== Microsoft Windows ===
+On Windows computers, hibernation is available only if all hardware and device drivers are ACPI and plug-and-play–compliant. Hibernation can be invoked from the Start menu or the command line.
+Windows 95 supports hibernation through hardware manufacturer-supplied drivers and only if compatible hardware and BIOS are present. Since Windows 95 supports only Advanced Power Management (APM), hibernation is called Suspend-to-Disk. Windows 98 and later support ACPI. However, hibernation often caused problems since most hardware was not fully ACPI 1.0 compliant or did not have WDM drivers. There were also issues with the FAT32 file system.
+Windows 2000 is the first Windows to support hibernation at the operating system level (OS-controlled ACPI S4 sleep state) without special drivers from the hardware manufacturer. A hidden system file named "hiberfil.sys" in the root of the boot partition is used to store the contents of RAM when the computer hibernates. In Windows 2000, this file is as big as the total RAM installed.
+Windows Me, the last release in the Windows 9x family, also supports OS controlled hibernation and requires disk space equal to that of the computer's RAM.
+Windows XP further improved support for hibernation. Hibernation and resumption are much faster as memory pages are compressed using an improved algorithm; compression is overlapped with disk writes, unused memory pages are freed and DMA transfers are used during I/O. hiberfil.sys contains further information including processor state. This file was documented by a security researcher Matthieu Suiche during Black Hat Briefings 2008 who also provided a computer forensics framework to manage and convert this file into a readable memory dump. The compression algorithm was later documented by Microsoft as well.
+Although Windows XP added support for more than 4 gigabytes of memory (through Windows XP 64-bit Edition and Windows XP Professional x64 Edition), this operating system, as well as Windows Server 2003, Windows Vista and Windows Server 2008 do not support hibernation when this amount of memory is installed because of performance issues associated with saving such a large pool of data to disk.
+Windows Vista introduced a hybrid sleep feature, which saves the contents of memory to hard disk but instead of powering down, enters sleep mode. If the power is lost, the computer can resume as if hibernated.
+Windows 7 introduced compression to the hibernation file and set the default size to 75% of the total physical memory. Microsoft also recommends to increase the size using the powercfg.exe tool in some rare workloads where the memory footprint exceeds that amount. It can be set from anywhere between 50% to 100%, although decreasing it is not recommended.
+Windows 8's resume-from-hibernation algorithm is multi-core optimized. Windows 8 also introduces a Hybrid Boot feature. When users select the Shut Down option, it hibernates the computer, but closes all programs and logs out the user session before hibernating. According to Microsoft, a regular hibernation includes more data in memory pages which takes longer to be written to disk. In comparison, when the user session is closed, the hibernation data is much smaller and therefore takes less time to write to disk and resume. Windows 8 also saves the kernel image. Users have the option of performing a traditional shutdown by holding down the Shift key while clicking Shut Down.
+Hibernation is often under-used in business environments as it is difficult to enable it on a large network of computers without resorting to third-party PC power management software. This omission by Microsoft has been criticized as having led to a huge waste in energy.
+Third-party power management programs offer features beyond those present in Windows. Most products offer Active Directory integration and per-user or per-machine settings with more advanced power plans, scheduled power plans, anti-insomnia features and enterprise power usage reporting. Notable vendors include 1E NightWatchman, Data Synergy PowerMAN (Software), Faronics Power Save and Verdiem SURVEYOR.
+It is possible to disable hibernation and delete hiberfil.sys.
+
+
+=== Mac OS X ===
+
+On Macs, a feature known as Safe Sleep saves the contents of volatile memory to the system hard disk each time the Mac enters Sleep mode. The Mac can instantaneously wake from sleep mode if power to the RAM has not been lost. However, if the power supply was interrupted, such as when removing batteries without an AC power connection, the Mac would wake from Safe Sleep instead, restoring memory contents from the hard drive. Because Safe Sleep's hibernation process occurs during regular Sleep, the Apple menu does not have a "hibernate" option.
+Safe Sleep capability was added in Mac models starting with the October 2005 PowerBook G4 (Double-Layer SD). Safe Sleep requires Mac OS X v10.4 or higher.
+Shortly after Apple started supporting Safe Sleep, Mac enthusiasts released a hack to enable this feature for much older Mac computers running Mac OS X v10.4. Classical Mac OS once also supported hibernation, but this feature was dropped by Apple.
+
+
+=== Linux ===
+In the Linux kernel, hibernation is implemented by swsusp which is built into the 2.6 series. An alternative implementation is TuxOnIce which is available as patches for the kernel version 3.4. TuxOnIce provides advantages such as support for symmetric multiprocessing and preemption. Another alternative implementation is uswsusp. All three refer to it as "suspend-to-disk".
+
+
+== See also ==
+Green computing
+PC power management
+
+
+== References ==

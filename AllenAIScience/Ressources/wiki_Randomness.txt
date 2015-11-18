@@ -1,0 +1,150 @@
+Randomness is the lack of pattern or predictability in events. A random sequence of events, symbols or steps has no order and does not follow an intelligible pattern or combination. Individual random events are by definition unpredictable, but in many cases the frequency of different outcomes over a large number of events (or "trials") is predictable. For example, when throwing two dice, the outcome of any particular roll is unpredictable, but a sum of 7 will occur twice as often as 4. In this view, randomness is a measure of uncertainty of an outcome, rather than haphazardness, and applies to concepts of chance, probability, and information entropy.
+The fields of mathematics, probability, and statistics use formal definitions of randomness. In statistics, a random variable is an assignment of a numerical value to each possible outcome of an event space. This association facilitates the identification and the calculation of probabilities of the events. Random variables can appear in random sequences. A random process is a sequence of random variables whose outcomes do not follow a deterministic pattern, but follow an evolution described by probability distributions. These and other constructs are extremely useful in probability theory and the various applications of randomness.
+Randomness is most often used in statistics to signify well-defined statistical properties. Monte Carlo methods, which rely on random input (such as from random number generators or pseudorandom number generators), are important techniques in science, as, for instance, in computational science. By analogy, quasi-Monte Carlo methods use quasirandom number generators.
+Random selection is a method of selecting items (often called units) from a population where the probability of choosing a specific item is the proportion of those items in the population. For example, with a bowl containing just 10 red marbles and 90 blue marbles, a random selection mechanism would choose a red marble with probability 1/10. Note that a random selection mechanism that selected 10 marbles from this bowl would not necessarily result in 1 red and 9 blue. In situations where a population consists of items that are distinguishable, a random selection mechanism requires equal probabilities for any item to be chosen. That is, if the selection process is such that each member of a population, of say research subjects, has the same probability of being chosen then we can say the selection process is random.
+
+
+== History ==
+
+In ancient history, the concepts of chance and randomness were intertwined with that of fate. Many ancient peoples threw dice to determine fate, and this later evolved into games of chance. Most ancient cultures used various methods of divination to attempt to circumvent randomness and fate.
+The Chinese were perhaps the earliest people to formalize odds and chance 3,000 years ago. The Greek philosophers discussed randomness at length, but only in non-quantitative forms. It was only in the 16th century that Italian mathematicians began to formalize the odds associated with various games of chance. The invention of the calculus had a positive impact on the formal study of randomness. In the 1888 edition of his book The Logic of Chance John Venn wrote a chapter on The conception of randomness that included his view of the randomness of the digits of the number Pi by using them to construct a random walk in two dimensions.
+The early part of the 20th century saw a rapid growth in the formal analysis of randomness, as various approaches to the mathematical foundations of probability were introduced. In the mid- to late-20th century, ideas of algorithmic information theory introduced new dimensions to the field via the concept of algorithmic randomness.
+Although randomness had often been viewed as an obstacle and a nuisance for many centuries, in the 20th century computer scientists began to realize that the deliberate introduction of randomness into computations can be an effective tool for designing better algorithms. In some cases such randomized algorithms outperform the best deterministic methods.
+
+
+== In science ==
+Many scientific fields are concerned with randomness:
+
+
+=== In the physical sciences ===
+In the 19th century, scientists used the idea of random motions of molecules in the development of statistical mechanics to explain phenomena in thermodynamics and the properties of gases.
+According to several standard interpretations of quantum mechanics, microscopic phenomena are objectively random. That is, in an experiment that controls all causally relevant parameters, some aspects of the outcome still vary randomly. For example, if you place a single unstable atom in a controlled environment, you cannot predict how long it will take for the atom to decay—only the probability of decay in a given time. Thus, quantum mechanics does not specify the outcome of individual experiments but only the probabilities. Hidden variable theories reject the view that nature contains irreducible randomness: such theories posit that in the processes that appear random, properties with a certain statistical distribution are at work behind the scenes, determining the outcome in each case.
+
+
+=== In biology ===
+The modern evolutionary synthesis ascribes the observed diversity of life to natural selection, in which some random genetic mutations are retained in the gene pool due to the systematically improved chance for survival and reproduction that those mutated genes confer on individuals who possess them.
+The characteristics of an organism arise to some extent deterministically (e.g., under the influence of genes and the environment) and to some extent randomly. For example, the density of freckles that appear on a person's skin is controlled by genes and exposure to light; whereas the exact location of individual freckles seems random.
+Randomness is important if an animal is to behave in a way that is unpredictable to others. For instance, insects in flight tend to move about with random changes in direction, making it difficult for pursuing predators to predict their trajectories.
+
+
+=== In mathematics ===
+The mathematical theory of probability arose from attempts to formulate mathematical descriptions of chance events, originally in the context of gambling, but later in connection with physics. Statistics is used to infer the underlying probability distribution of a collection of empirical observations. For the purposes of simulation, it is necessary to have a large supply of random numbers or means to generate them on demand.
+Algorithmic information theory studies, among other topics, what constitutes a random sequence. The central idea is that a string of bits is random if and only if it is shorter than any computer program that can produce that string (Kolmogorov randomness)—this means that random strings are those that cannot be compressed. Pioneers of this field include Andrey Kolmogorov and his student Per Martin-Löf, Ray Solomonoff, and Gregory Chaitin.
+Randomness occurs in numbers such as log (2) and pi. The decimal digits of pi constitute an infinite sequence and "never repeat in a cyclical fashion." Numbers like pi are also considered likely to be normal, which means their digits are random in a certain statistical sense.
+
+Pi certainly seems to behave this way. In the first six billion decimal places of pi, each of the digits from 0 through 9 shows up about six hundred million times. Yet such results, conceivably accidental, do not prove normality even in base 10, much less normality in other number bases.
+
+
+=== In statistics ===
+In statistics, randomness is commonly used to create simple random samples. This lets surveys of completely random groups of people provide realistic data. Common methods of doing this include drawing names out of a hat or using a random digit chart. A random digit chart is simply a large table of random digits.
+
+
+=== In information science ===
+In information science, irrelevant or meaningless data is considered noise. Noise consists of a large number of transient disturbances with a statistically randomized time distribution.
+In communication theory, randomness in a signal is called "noise" and is opposed to that component of its variation that is causally attributable to the source, the signal.
+In terms of the development of random networks, for communication randomness rests on the two simple assumptions of Paul Erdős and Alfréd Rényi who said that there were a fixed number of nodes and this number remained fixed for the life of the network, and that all nodes were equal and linked randomly to each other.
+
+
+=== In finance ===
+The random walk hypothesis considers that asset prices in an organized market evolve at random, in the sense that the expected value of their change is zero but the actual value may turn out to be positive or negative. More generally, asset prices are influenced by a variety of unpredictable events in the general economic environment.
+
+
+=== Randomness versus unpredictability ===
+Randomness is an objective property, unlike unpredictability. That is, what appears unpredictable to one observer may not appear unpredictable to another. For example, a message that is encrypted appears as an unpredictable sequence of bits to any observer who does not have the cryptographic key needed to decrypt the sequence and produce the message. For that observer the sequence is unpredictable, while for someone who has the key it is predictable.
+Some mathematically defined sequences, such as the decimals of pi, exhibit some characteristics of random sequences, but because they are generated by a describable mechanism, they are called pseudorandom. To an observer who does not know the mechanism, a pseudorandom sequence is unpredictable.
+One intriguing aspect of random processes is that it is hard to know whether a process is truly random. An observer may suspect that there is some "key" that unlocks the message. This is a foundation of superstition, as well as a motivation for discovery in science and mathematics.
+The cosmological hypothesis of determinism is that there is no randomness in the universe, only unpredictability, and there is only one possible outcome to all events in the universe. A follower of the narrow frequency interpretation of probability could assert that no event can be said to have probability, since there is only one universal outcome. The rival Bayesian interpretation of probability uses probabilities to represent a lack of complete knowledge of outcomes.
+Chaotic systems are unpredictable in practice due to their extreme sensitivity to initial conditions. In some disciplines of computability theory, the notion of randomness is identified with computational unpredictability. Whether or not chaotic systems are computable is a subject of research.
+Individual events that are random may still be precisely described en masse, usually in terms of probability or expected value. For instance, quantum mechanics allows a very precise calculation of the half-lives of atoms even though the process of atomic decay is random. More simply, although a single toss of a fair coin cannot be predicted, its general behavior can be described by saying that if a large number of tosses are made, roughly half of them will show up heads. Ohm's law and the kinetic theory of gases are non-random macroscopic phenomena that are assumed random at the microscopic level.
+
+
+== In politics ==
+Random selection can be an official method to resolve tied elections in some jurisdictions. Its use in politics is very old, as office holders in Ancient Athens were chosen by lot, there being no voting.
+
+
+== Randomness and religion ==
+Randomness can be seen as conflicting with the deterministic ideas of some religions, such as those where the universe is created by an omniscient deity who is aware of all past and future events. If the universe is regarded to have a purpose, then randomness can be seen as impossible. This is one of the rationales for religious opposition to evolution, which states that non-random selection is applied to the results of random genetic variation.
+Hindu and Buddhist philosophies state that any event is the result of previous events, as reflected in the concept of karma, and as such there is no such thing as a random event or a first event.
+In some religious contexts, procedures that are commonly perceived as randomizers are used for divination. Cleromancy uses the casting of bones or dice to reveal what is seen as the will of the gods.
+Followers of Discordianism, who venerate Eris the Greco-Roman goddess of chaos, have a strong belief in randomness and unpredictability.
+
+
+== Applications ==
+
+In most of its mathematical, political, social and religious uses, randomness is used for its innate "fairness" and lack of bias.
+Politics: Athenian democracy was based on the concept of isonomia (equality of political rights) and used complex allotment machines to ensure that the positions on the ruling committees that ran Athens were fairly allocated. Allotment is now restricted to selecting jurors in Anglo-Saxon legal systems and in situations where "fairness" is approximated by randomization, such as selecting jurors and military draft lotteries.
+Games: Random numbers were first investigated in the context of gambling, and many randomizing devices, such as dice, shuffling playing cards, and roulette wheels, were first developed for use in gambling. The ability to produce random numbers fairly is vital to electronic gambling, and, as such, the methods used to create them are usually regulated by government Gaming Control Boards. Random drawings are also used to determine lottery winners. Throughout history, randomness has been used for games of chance and to select out individuals for an unwanted task in a fair way (see drawing straws).
+Sports: Some sports, including American Football, use coin tosses to randomly select starting conditions for games or seed tied teams for postseason play. The National Basketball Association uses a weighted lottery to order teams in its draft.
+Mathematics: Random numbers are also used where their use is mathematically important, such as sampling for opinion polls and for statistical sampling in quality control systems. Computational solutions for some types of problems use random numbers extensively, such as in the Monte Carlo method and in genetic algorithms.
+Medicine: Random allocation of a clinical intervention is used to reduce bias in controlled trials (e.g., randomized controlled trials).
+Religion: Although not intended to be random, various forms of divination such as cleromancy see what appears to be a random event as a means for a divine being to communicate their will. (See also Free will and Determinism).
+
+
+== Generation ==
+
+It is generally accepted that there exist three mechanisms responsible for (apparently) random behavior in systems:
+Randomness coming from the environment (for example, Brownian motion, but also hardware random number generators)
+Randomness coming from the initial conditions. This aspect is studied by chaos theory and is observed in systems whose behavior is very sensitive to small variations in initial conditions (such as pachinko machines and dice).
+Randomness intrinsically generated by the system. This is also called pseudorandomness and is the kind used in pseudo-random number generators. There are many algorithms (based on arithmetics or cellular automaton) to generate pseudorandom numbers. The behavior of the system can be determined by knowing the seed state and the algorithm used. These methods are often quicker than getting "true" randomness from the environment.
+The many applications of randomness have led to many different methods for generating random data. These methods may vary as to how unpredictable or statistically random they are, and how quickly they can generate random numbers.
+Before the advent of computational random number generators, generating large amounts of sufficiently random numbers (important in statistics) required a lot of work. Results would sometimes be collected and distributed as random number tables.
+
+
+== Measures and tests ==
+There are many practical measures of randomness for a binary sequence. These include measures based on frequency, discrete transforms, and complexity, or a mixture of these. These include tests by Kak, Phillips, Yuen, Hopkins, Beth and Dai, Mund, and Marsaglia and Zaman.
+
+
+== Misconceptions and logical fallacies ==
+
+Popular perceptions of randomness are frequently mistaken, based on fallacious reasoning or intuitions.
+
+
+=== A number is "due" ===
+
+This argument is, "In a random selection of numbers, since all numbers eventually appear, those that have not come up yet are 'due', and thus more likely to come up soon." This logic is only correct if applied to a system where numbers that come up are removed from the system, such as when playing cards are drawn and not returned to the deck. In this case, once a jack is removed from the deck, the next draw is less likely to be a jack and more likely to be some other card. However, if the jack is returned to the deck, and the deck is thoroughly reshuffled, a jack is as likely to be drawn as any other card. The same applies in any other process where objects are selected independently, and none are removed after each event, such as the roll of a die, a coin toss, or most lottery number selection schemes. Truly random processes such as these do not have memory, making it impossible for past outcomes to affect future outcomes.
+
+
+=== A number is "cursed" or "blessed" ===
+
+In a random sequence of numbers, a number may be said to be cursed because it has come up less often in the past, and so it is thought that it will occur less often in the future. A number may be assumed to be blessed because it has occurred more often than others in the past, and so it is thought likely to come up more often in the future. This logic is valid only if the randomisation is biased, for example with a loaded die. If the die is fair, then previous rolls give no indication of future events.
+In nature, events rarely occur with perfectly equal frequency, so observing outcomes to determine which events are more probable makes sense. It is fallacious to apply this logic to systems designed to make all outcomes equally likely, such as shuffled cards, dice, and roulette wheels.
+
+
+=== Odds are never dynamic ===
+In the beginning of a scenario, one might calculate the probability of a certain event. The fact is, as soon as one gains more information about that situation, they may need to re-calculate the probability.
+
+Say we are told that a woman has two children. If we ask whether either of them is a girl, and are told yes, what is the probability that the other child is also a girl? Considering this new child independently, one might expect the probability that the other child is female is 1/2 (50%). But by building a probability space (illustrating all possible outcomes), we see that the probability is actually only 1/3 (33%). This is because the possibility space illustrates 4 ways of having these two children: boy-boy, girl-boy, boy-girl, and girl-girl. But we were given more information. Once we are told that one of the children is a female, we use this new information to eliminate the boy-boy scenario. Thus the probability space reveals that there are still 3 ways to have two children where one is a female: boy-girl, girl-boy, girl-girl. Only 1/3 of these scenarios would have the other child also be a girl. Using a probability space, we are less likely to miss one of the possible scenarios, or to neglect the importance of new information. For further information, see Boy or girl paradox.
+This technique provides insights in other situations such as the Monty Hall problem, a game show scenario in which a car is hidden behind one of three doors, and two goats are hidden as booby prizes behind the others. Once the contestant has chosen a door, the host opens one of the remaining doors to reveal a goat, eliminating that door as an option. With only two doors left (one with the car, the other with another goat), the player must decide to either keep their decision, or switch and select the other door. Intuitively, one might think the player is choosing between two doors with equal probability, and that the opportunity to choose another door makes no difference. But probability spaces reveal that the contestant has received new information, and can increase their chances of winning by changing to the other door.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Randomness by Deborah J. Bennett. Harvard University Press, 1998. ISBN 0-674-10745-4.
+Random Measures, 4th ed. by Olav Kallenberg. Academic Press, New York, London; Akademie-Verlag, Berlin, 1986. MR0854102.
+The Art of Computer Programming. Vol. 2: Seminumerical Algorithms, 3rd ed. by Donald E. Knuth. Reading, MA: Addison-Wesley, 1997. ISBN 0-201-89684-2.
+Fooled by Randomness, 2nd ed. by Nassim Nicholas Taleb. Thomson Texere, 2004. ISBN 1-58799-190-X.
+Exploring Randomness by Gregory Chaitin. Springer-Verlag London, 2001. ISBN 1-85233-417-7.
+Random by Kenneth Chan includes a "Random Scale" for grading the level of randomness.
+The Drunkard’s Walk: How Randomness Rules our Lives by Leonard Mlodinow. Pantheon Books, New York, 2008. ISBN 978-0-375-42404-5.
+
+
+== External links ==
+An 8-foot-tall (2.4 m) Probability Machine (named Sir Francis) comparing stock market returns to the randomness of the beans dropping through the quincunx pattern. on YouTube from Index Funds Advisors IFA.com
+QuantumLab Quantum random number generator with single photons as interactive experiment.
+Random.org generates random numbers using atmospheric noises (see also Random.org).
+HotBits generates random numbers from radioactive decay.
+QRBG Quantum Random Bit Generator
+QRNG Fast Quantum Random Bit Generator
+Chaitin: Randomness and Mathematical Proof
+A Pseudorandom Number Sequence Test Program (Public Domain)
+Dictionary of the History of Ideas: Chance
+Philosophy: Free Will vs. Determinism
+RAHM Nation Institute
+History of randomness definitions, in Stephen Wolfram's A New Kind of Science
+Computing a Glimpse of Randomness
+Chance versus Randomness, from the Stanford Encyclopedia of Philosophy

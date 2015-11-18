@@ -1,0 +1,99 @@
+In physics, an inverse-square law is any physical law stating that a specified physical quantity or intensity is inversely proportional to the square of the distance from the source of that physical quantity. The fundamental cause for this can be understood as geometric dilution corresponding to point-source radiation into three-dimensional space (see diagram). Mathematically formulated:
+
+It can also be mathematically expressed as:
+
+The divergence of a vector field which is the resultant of radial inverse-square law fields with respect to one or more sources is everywhere proportional to the strength of the local sources, and hence zero outside sources. Newton's law of universal gravitation follows an inverse-square law, as do the effects of electric, magnetic, light, sound, and radiation phenomena.
+Radar energy expands during both the signal transmission and also on the reflected return, so the inverse square for both paths means that the radar will receive energy according to 1/r4 power.
+In order to prevent dilution of energy while propagating a signal, certain methods can be used such as a waveguide, which acts like a canal does for water, or like how a gun barrel restricts hot gas expansion to one dimension in order to prevent loss of energy transfer to a bullet.
+
+
+== JustificationEdit ==
+The inverse-square law generally applies when some force, energy, or other conserved quantity is evenly radiated outward from a point source in three-dimensional space. Since the surface area of a sphere (which is 4πr2 ) is proportional to the square of the radius, as the emitted radiation gets farther from the source, it is spread out over an area that is increasing in proportion to the square of the distance from the source. Hence, the intensity of radiation passing through any unit area (directly facing the point source) is inversely proportional to the square of the distance from the point source. Gauss's law applies to, and can be used with any physical quantity that acts in accord to the inverse-square relationship.
+
+
+== OccurrencesEdit ==
+
+
+=== GravitationEdit ===
+Gravitation is the attraction of two objects with mass. Newton's law states:
+The gravitational attraction force between two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation distance. The force is always attractive and acts along the line joining them.
+If the distribution of matter in each body is spherically symmetric, then the objects can be treated as point masses without approximation, as shown in the shell theorem. Otherwise, if we want to calculate the attraction between massive bodies, we need to add all the point-point attraction forces vectorially and the net attraction might not be exact inverse square. However, if the separation between the massive bodies is much larger compared to their sizes, then to a good approximation, it is reasonable to treat the masses as point mass while calculating the gravitational force.
+As the law of gravitation, this law was suggested in 1645 by Ismael Bullialdus. But Bullialdus did not accept Kepler’s second and third laws, nor did he appreciate Christiaan Huygens’s solution for circular motion (motion in a straight line pulled aside by the central force). Indeed, Bullialdus maintained the sun's force was attractive at aphelion and repulsive at perihelion. Robert Hooke and Giovanni Alfonso Borelli both expounded gravitation in 1666 as an attractive force (Hooke’s lecture "On gravity" at the Royal Society, London, on 21 March; Borelli's "Theory of the Planets", published later in 1666). Hooke's 1670 Gresham lecture explained that gravitation applied to "all celestiall bodys" and added the principles that the gravitating power decreases with distance and that in the absence of any such power bodies move in straight lines. By 1679, Hooke thought gravitation had inverse square dependence and communicated this in a letter to Isaac Newton. Hooke remained bitter about Newton claiming the invention of this principle, even though Newton's Principia acknowledged that Hooke, along with Wren and Halley, had separately appreciated the inverse square law in the solar system, as well as giving some credit to Bullialdus.
+
+
+=== ElectrostaticsEdit ===
+The force of attraction or repulsion between two electrically charged particles, in addition to being directly proportional to the product of the electric charges, is inversely proportional to the square of the distance between them; this is known as Coulomb's law. The deviation of the exponent from 2 is less than one part in 1015.
+
+
+=== Light and other electromagnetic radiationEdit ===
+The intensity (or illuminance or irradiance) of light or other linear waves radiating from a point source (energy per unit of area perpendicular to the source) is inversely proportional to the square of the distance from the source; so an object (of the same size) twice as far away, receives only one-quarter the energy (in the same time period).
+More generally, the irradiance, i.e., the intensity (or power per unit area in the direction of propagation), of a spherical wavefront varies inversely with the square of the distance from the source (assuming there are no losses caused by absorption or scattering).
+For example, the intensity of radiation from the Sun is 9126 watts per square meter at the distance of Mercury (0.387 AU); but only 1367 watts per square meter at the distance of Earth (1 AU)—an approximate threefold increase in distance results in an approximate ninefold decrease in intensity of radiation.
+For non-isotropic radiators such as parabolic antennas, headlights, and lasers, the effective origin is located far behind the beam aperture. If you are close to the origin, you don't have to go far to double the radius, so the signal drops quickly. When you are far from the origin and still have a strong signal, like with a laser, you have to travel very far to double the radius and reduce the signal. This means you have a stronger signal or have antenna gain in the direction of the narrow beam relative to a wide beam in all directions of an isotropic antenna.
+In photography and stage lighting, the inverse-square law is used to determine the "fall off" or the difference in illumination on a subject as it moves closer to or further from the light source. For quick approximations, it is enough to remember that doubling the distance reduces illumination to one quarter; or similarly, to halve the illumination increase the distance by a factor of 1.4 (the square root of 2), and to double illumination, reduce the distance to 0.7 (square root of 1/2). When the illuminant is not a point source, the inverse square rule is often still a useful approximation; when the size of the light source is less than one-fifth of the distance to the subject, the calculation error is less than 1%.
+The fractional reduction in electromagnetic fluence (Φ) for indirectly ionizing radiation with increasing distance from a point source can be calculated using the inverse-square law. Since emissions from a point source have radial directions, they intercept at a perpendicular incidence. The area of such a shell is 4πr 2 where r is the radial distance from the center. The law is particularly important in diagnostic radiography and radiotherapy treatment planning, though this proportionality does not hold in practical situations unless source dimensions are much smaller than the distance. As stated in fourier theory of heat "as the point source is magnification by distances , its radiation is dilute proportional to the sin of the angle, of the increasing circumference arc from the point of origin"
+
+
+==== ExampleEdit ====
+Let the total power radiated from a point source, for example, an omnidirectional isotropic radiator, be P. At large distances from the source (compared to the size of the source), this power is distributed over larger and larger spherical surfaces as the distance from the source increases. Since the surface area of a sphere of radius r is A = 4πr 2, then intensity I (power per unit area) of radiation at distance r is
+
+The energy or intensity decreases (divided by 4) as the distance r is doubled; measured in dB it would decrease by 6.02 dB per doubling of distance.
+
+
+=== AcousticsEdit ===
+In acoustics one usually measures the sound pressure at a given distance r from the source using the 1/r law. Since intensity is proportional to the square of pressure amplitude, this is just a variation on the inverse-square law.
+
+
+==== ExampleEdit ====
+In acoustics, the sound pressure of a spherical wavefront radiating from a point source decreases by 50% as the distance r is doubled; measured in dB, the decrease is still 6.02 dB, since dB represents an intensity ratio. The behaviour is not inverse-square, but is inverse-proportional (inverse distance law):
+
+The same is true for the component of particle velocity  that is in-phase with the instantaneous sound pressure :
+
+In the near field is a quadrature component of the particle velocity that is 90° out of phase with the sound pressure and does not contribute to the time-averaged energy or the intensity of the sound. The sound intensity is the product of the RMS sound pressure and the in-phase component of the RMS particle velocity, both of which are inverse-proportional. Accordingly, the intensity follows an inverse-square behaviour:
+
+
+== Field theory interpretationEdit ==
+For an irrotational vector field in three-dimensional space the inverse-square law corresponds to the property that the divergence is zero outside the source. This can be generalized to higher dimensions. Generally, for an irrotational vector field in n-dimensional Euclidean space, the intensity "I" of the vector field falls off with the distance "r" following the inverse (n − 1)th power law
+,
+given that the space outside the source is divergence free.
+
+
+== HistoryEdit ==
+John Dumbleton of the 14th-century Oxford Calculators, was one of the first to express functional relationships in graphical form. He gave a proof of the mean speed theorem stating that "the latitude of a uniformly difform movement corresponds to the degree of the midpoint" and used this method to study the quantitative decrease in intensity of illumination in his Summa logicæ et philosophiæ naturalis (ca. 1349), stating that it was not linearly proportional to the distance, but was unable to expose the Inverse-square law.
+In proposition 9 of Book 1 in his book Ad Vitellionem paralipomena, quibus astronomiae pars optica traditur (1604), the astronomer Johannes Kepler argued that the spreading of light from a point source obeys an inverse square law:
+
+Original: Sicut se habent spharicae superificies, quibus origo lucis pro centro est, amplior ad angustiorem: ita se habet fortitudo seu densitas lucis radiorum in angustiori, ad illamin in laxiori sphaerica, hoc est, conversim. Nam per 6. 7. tantundem lucis est in angustiori sphaerica superficie, quantum in fusiore, tanto ergo illie stipatior & densior quam hic.
+
+Translation: Just as [the ratio of] spherical surfaces, for which the source of light is the center, [is] from the wider to the narrower, so the density or fortitude of the rays of light in the narrower [space], towards the more spacious spherical surfaces, that is, inversely. For according to [propositions] 6 & 7, there is as much light in the narrower spherical surface, as in the wider, thus it is as much more compressed and dense here than there.
+
+In 1645 in his book Astronomia Philolaica …, the French astronomer Ismaël Bullialdus (1605 – 1694) refuted Johannes Kepler's suggestion that "gravity" weakens as the inverse of the distance; instead, Bullialdus argued, "gravity" weakens as the inverse square of the distance:
+
+Original: Virtus autem illa, qua Sol prehendit seu harpagat planetas, corporalis quae ipsi pro manibus est, lineis rectis in omnem mundi amplitudinem emissa quasi species solis cum illius corpore rotatur: cum ergo sit corporalis imminuitur, & extenuatur in maiori spatio & intervallo, ratio autem huius imminutionis eadem est, ac luminus, in ratione nempe dupla intervallorum, sed eversa.
+
+Translation: As for the power by which the Sun seizes or holds the planets, and which, being corporeal, functions in the manner of hands, it is emitted in straight lines throughout the whole extent of the world, and like the species of the Sun, it turns with the body of the Sun; now, seeing that it is corporeal, it becomes weaker and attenuated at a greater distance or interval, and the ratio of its decrease in strength is the same as in the case of light, namely, the duplicate proportion, but inversely, of the distances [that is, 1/d²].
+
+In England, the Anglican bishop Seth Ward (1617 – 1689) publicized the ideas of Bullialdus in his critique In Ismaelis Bullialdi astronomiae philolaicae fundamenta inquisitio brevis (1653) and publicized the planetary astronomy of Kepler in his book Astronomia geometrica (1656).
+In 1663-1664, the English scientist Robert Hooke was writing his book Micrographia (1666) in which he discussed, among other things, the relation between the height of the atmosphere and the barometric pressure at the surface. Since the atmosphere surrounds the earth, which itself is a sphere, the volume of atmosphere bearing on any unit area of the earth's surface is a truncated cone (which extends from the earth's center to the vacuum of space ; obviously only the section of the cone from the earth's surface to space bears on the earth's surface). Although the volume of a cone is proportional to the cube of its height, Hooke argued that the air's pressure at the earth's surface is instead proportional to the height of the atmosphere because gravity diminishes with altitude. Although Hooke did not explicitly state so, the relation that he proposed would be true only if gravity decreases as the inverse square of the distance from the earth's center.
+
+
+== See alsoEdit ==
+Flux
+Gauss's law
+Kepler's first law
+Telecommunications, particularly:
+William Thomson, 1st Baron Kelvin
+Power-aware routing protocols
+
+Inverse proportionality
+Multiplicative inverse
+distance decay
+
+
+== ReferencesEdit ==
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C".
+
+
+== External linksEdit ==
+Damping of sound level with distance
+Sound pressure p and the inverse distance law 1/r
+Inverse Square Law & Radiation Protection by Ionactive (Animation)

@@ -1,0 +1,89 @@
+Photochemistry is the branch of chemistry concerned with the chemical effects of light. Generally, this term is used to describe a chemical reaction caused by absorption of ultraviolet (wavelength from 100 to 400 nm), visible light (400 - 750 nm) or infrared radiation (750 - 2500 nm).
+Photochemical reactions are valuable in organic and inorganic chemistry because they proceed differently than thermal reactions. Many thermal reactions have their photochemical counterpart. Photochemical paths offer the advantage over thermal methods of forming thermodynamically disfavored products, overcoming large activation barriers in a short period of time, and allowing reactivity otherwise inaccessible by thermal processes.
+Everyday examples include photosynthesis, degradation of plastics or formation of vitamin D with sunlight.
+
+
+== Basics of photochemistry ==
+
+
+=== Grotthuss–Draper law or first law of photochemistry ===
+Photoexcitation is the first step in a photochemical process where the reactant is elevated to a state of higher energy, an excited state. The first law of photochemistry, known as the Grotthuss–Draper law (for chemists Theodor Grotthuss and John W. Draper), states that light must be absorbed by a chemical substance in order for a photochemical reaction to take place. For each photon of light absorbed by a chemical system, no more than one molecule is activated for a photochemical reaction, as defined by the quantum yield.
+When a molecule in ground state (S0) absorbs light, one electron is excited to a higher orbital level. This electron maintains its spin according to spin selection rule; as other transitions violate the law of conservation of angular momentum. This excitation to a higher singlet state can be from HOMO to LUMO or to a higher orbital, thus being possible different singlet excitation states S1, S2, S3… depending on its energy.
+Kasha's rule stipulates that higher singlet states would quickly relax by radiationless decay or internal conversion, IC, to S1. Thus, S1 is usually, but not always, the only relevant singlet excited state. This excited state S1 can further relax to S0 by IC, but also by an allowed radiative transition from S1 to S0 that emits a photon; this process is called fluorescence.
+
+Alternatively, it is possible for the excited state S1 to undergo spin inversion and to generate a different excited state with the two unpaired electrons with the same spin, thus having a triplet multiplicity, T1. This violation of the spin selection rule is possible by intersystem crossing, ISC, of vibration and electronic levels of S1 and T1. According to Hund's rule of maximum multiplicity, this T1 state would be somewhat more stable than S1.
+This triplet state can relax to ground state S0 by radiationless IC or by a radiation pathway that is called phosphorescence. This process implies a change of electronic spin, which is forbidden by spin selection rules, making phosphorescence (from T1 to S0) much slower than fluorescence (from S1 to S0). Thus, triplet states generally have longer lifetimes than singlet states. These transitions are usually summarized in a state energy diagram or Jablonski diagram, the paradigm of molecular photochemistry.
+These excited species, either in S1 or T1, have a half empty low energy orbital, consequently are more oxidizing. But at the same time, they have an electron in a high energy orbital, thus they are more reducing. In general, excited species are prone to participate in electron transfer processes.
+
+
+=== Experimental set-up ===
+
+Photochemical reactions require a light source that emits wavelengths corresponding to an electronic transition in the reactant. In the early experiments (and in everyday life), sunlight was the light source, although it is polychromatic. Mercury-vapor lamps are more common in the laboratory. Low pressure mercury vapor lamps mainly emit at 254 nm. For polychromatic sources, wavelength ranges can be selected using filters. Alternatively, LEDs and Rayonet lamps emit monochromatically.
+
+The emitted light must of course reach the targeted functional group without being blocked by the reactor, medium, or other functional groups present. For many applications, quartz is used for the reactors as well as to contain the lamp. Pyrex absorbs at wavelengths shorter than 275 nm. The solvent is an important experimental parameter. Solvents are potential reactants and for this reason, chlorinated solvents are avoided because the C-Cl bond can lead to chlorination of the substrate. Strongly absorbing solvents prevent photons from reaching the substrate. Hydrocarbon solvents absorb only at short wavelengths and are thus preferred for photochemical experiments requiring high energy photons. Solvents containing unsaturation absorb at longer wavelengths and can usefully filter out short wavelengths. For example, cyclohexane and acetone "cut off" (absorb strongly) at wavelengths shorter than 215 and 330 nm, respectively.
+
+
+=== Principles ===
+In the case of photochemical reactions, light provides the activation energy. Simplistically, light is one mechanism for providing the activation energy required for many reactions. If laser light is employed, it is possible to selectively excite a molecule so as to produce a desired electronic and vibrational state. Equally, the emission from a particular state may be selectively monitored, providing a measure of the population of that state. If the chemical system is at low pressure, this enables scientists to observe the energy distribution of the products of a chemical reaction before the differences in energy have been smeared out and averaged by repeated collisions.
+The absorption of a photon of light by a reactant molecule may also permit a reaction to occur not just by bringing the molecule to the necessary activation energy, but also by changing the symmetry of the molecule's electronic configuration, enabling an otherwise inaccessible reaction path, as described by the Woodward–Hoffmann selection rules. A 2+2 cycloaddition reaction is one example of a pericyclic reaction that can be analyzed using these rules or by the related frontier molecular orbital theory.
+Some photochemical reactions are several orders of magnitude faster than thermal reactions; reactions as fast as 10−9 seconds and associated processes as fast as 10−15 seconds are often observed.
+The photon can be absorbed directly by the reactant or by a photosensitizer, which absorbs the photon and transfers the energy to the reactant. The opposite process is called quenching when a photoexited state is deactivated by a chemical reagent.
+Most photochemical transformations occur through a series of simple steps known as primary photochemical processes. One common example of these processes is the excited state proton transfer.
+
+
+== Photochemical reactions ==
+
+
+=== Examples of photochemical reactions ===
+Photosynthesis: plants use solar energy to convert carbon dioxide and water into glucose and oxygen.
+Human formation of vitamin D by exposure to sunlight.
+Bioluminescence: e.g. In fireflies, an enzyme in the abdomen catalyzes a reaction that produced light.
+Polymerizations started by photoinitiators, which decompose upon absorbing light to produce the free radicals for radical polymerization.
+Photodegradation of many substances, e.g. polyvinyl chloride and Fp. Medicine bottles are often made with darkened glass to prevent the drugs from photodegradation.
+Photodynamic therapy: light is used to destroy tumors by the action of singlet oxygen generated by photosensitized reactions of triplet oxygen. Typical photosensitizers include tetraphenylporphyrin and methylene blue. The resulting singlet oxygen is an aggressive oxidant, capable of converting C-H bonds into C-OH groups.
+Photoresist technology, used in the production of microelectronic components.
+Vision is initiated by a photochemical reaction of rhodopsin.
+Toray photochemical production of ε-caprolactame.
+Photochemical production of artemisinin, anti-malaria drug.
+
+
+=== Organic photochemistry ===
+
+Examples of photochemical organic reactions are electrocyclic reactions, radical reactions, photoisomerization and Norrish reactions.
+
+Alkenes undergo many important reactions that proceed via a photon-induced π to π* transition. The first electronic excited state of an alkene lack the π-bond, so that rotation about the C-C bond is rapid and the molecule engages in reactions not observed thermally. These reactions include cis-trans isomerization, cycloaddition to other (ground state) alkene to give cyclobutane derivatives. The cis-trans isomerization of a (poly)alkene is involved in retinal, a component of the machinery of vision. The dimerization of alkenes is relevant to the photodamage of DNA, where thymine dimers are observed upon illuminating DNA to UV radiation. Such dimers interfere with transcription. The beneficial effects of sunlight are associated with the photochemically induced retro-cyclization (decyclization) reaction of ergosterol to give vitamin D. In the DeMayo reaction, an alkene reacts with a 1,3-diketone reacts via its enol to yield a 1,5-diketone. Still another common photochemical reaction is Zimmerman's Di-pi-methane rearrangement.
+In an industrial application, about 100,000 tonnes of benzyl chloride are prepared annually by the gas-phase photochemical reaction of toluene with chlorine. The light is absorbed by chlorine molecule, the low energy of this transition being indicated by the yellowish color of the gas. The photon induces homolysis of the Cl-Cl bond, and the resulting chlorine radical converts toluene to the benzyl radical:
+Cl2 + hν → 2 Cl·
+C6H5CH3 + Cl· → C6H5CH2· + HCl
+C6H5CH2· + Cl· → C6H5CH2Cl
+Mercaptans can be produced by photochemical addition of hydrogen sulfide (H2S) to alpha olefins.
+
+
+=== Inorganic and organometallic photochemistry ===
+Coordination complexes and organometallic compounds are also photoreactive. These reactions can entail cis-trans isomerization. More commonly photoreactions result in dissociation of ligands, since the photon excites an electron on the metal to an orbital that is antibonding with respect to the ligands. Thus, metal carbonyls that resist thermal substitution undergo decarbonylation upon irradiation with UV light. UV-irradiation of a THF solution of molybdenum hexacarbonyl gives the THF complex, which is synthetically useful:
+Mo(CO)6 + THF → Mo(CO)5(THF) + CO
+In a related reaction, photolysis of iron pentacarbonyl affords diiron nonacarbonyl (see figure):
+2 Fe(CO)5 → Fe2(CO)9 + CO
+
+
+=== Historical ===
+Although bleaching has long been practiced, the first photochemical reaction was described by Trommsdorf in 1834. He observed that crystals of the compound α-santonin when exposed to sunlight turned yellow and burst. In a 2007 study the reaction was described as a succession of three steps taking place within a single crystal.
+
+The first step is a rearrangement reaction to a cyclopentadienone intermediate 2, the second one a dimerization in a Diels-Alder reaction (3) and the third one an intramolecular [2+2]cycloaddition (4). The bursting effect is attributed to a large change in crystal volume on dimerization.
+
+
+== See also ==
+Photoelectrochemical cell
+Photochemical logic gate
+Photosynthesis
+List of photochemists
+Single photon sources
+Photogeochemistry
+
+
+=== Further reading ===
+Bowen, E. J., Chemical Aspects of Light. Oxford: The Clarendon Press, 1942. 2nd edition, 1946.
+Photochemistry - https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/photchem.htm
+
+
+== References ==

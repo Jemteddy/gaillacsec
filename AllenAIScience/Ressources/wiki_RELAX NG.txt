@@ -1,0 +1,57 @@
+In computing, RELAX NG (REgular LAnguage for XML Next Generation) is a schema language for XML - a RELAX NG schema specifies a pattern for the structure and content of an XML document. A RELAX NG schema is itself an XML document but RELAX NG also offers a popular compact, non-XML syntax. Compared to other XML schema languages RELAX NG is considered relatively simple.
+It was defined by a committee specification of the OASIS RELAX NG technical committee in 2001 and 2002, based on Murata Makoto's RELAX and James Clark's TREX, and also by part two of the international standard ISO/IEC 19757: Document Schema Definition Languages (DSDL). ISO/IEC 19757-2 was developed by ISO/IEC JTC1/SC34 and published in its first version in 2003.
+
+
+== Schema examples ==
+Suppose we want to define an extremely simple XML markup scheme for a book: a book is defined as a sequence of one or more pages; each page contains text only. A sample XML document instance might be:
+
+
+=== XML syntax ===
+A RELAX NG schema can be written in a nested structure by defining a root element that contains further element definitions, which may themselves contain embedded definitions. A schema for our book in this style, using the full XML syntax, would be written:
+
+Nested structure becomes unwieldy with many sublevels and cannot define recursive elements, so most complex RELAX NG schemas use references to named pattern definitions located separately in the schema. Here, a "flattened schema" defines precisely the same book markup as the previous example:
+
+
+=== Compact syntax ===
+RELAX NG compact syntax is a non-XML format inspired by extended Backus-Naur form and regular expressions, designed so that it can be unambiguously translated to its XML counterpart, and back again, with one-to-one correspondence in structure and meaning, in much the same way that Simple Outline XML (SOX) relates to XML. It shares many features with the syntax of DTDs. Here is the compact form of the above schema:
+
+With named patterns, this can be flattened to:
+
+A compact RELAX NG parser will treat these two as the same pattern.
+
+
+== Comparison with W3C XML Schema ==
+
+Although the RELAX NG specification was developed at roughly the same time as the W3C XML Schema specification, the latter was arguably better known and more widely implemented in both open-source and proprietary XML parsers and editors when it became a W3C Recommendation in 2001. Since then, however, RELAX NG support has increasingly found its way into XML software, and its acceptance has been aided by its adoption as a primary schema for popular document-centric markup languages such as DocBook, the TEI Guidelines, OpenDocument, and EPUB.
+RELAX NG shares with W3C XML Schema many features that set both apart from traditional DTDs: data typing, regular expression support, namespace support, ability to reference complex definitions.
+
+
+== Filename extensions ==
+By informal convention, RELAX NG schemas in the regular syntax are typically named with the filename extension ".rng". For schemas in the compact syntax, the extension ".rnc" is used.
+
+
+== See also ==
+XML schemas
+DTD (Document Type Definition)
+Document Structure Description
+XML Schema (W3C)
+Schematron
+ODD (One Document Does it all)
+SXML
+
+
+== References ==
+
+
+== External links ==
+RELAX NG home page
+"The Design of RELAX NG" by James Clark
+RELAX NG tutorial for the XML syntax
+RELAX NG tutorial for the compact syntax
+Design patterns for structuring XML documents
+RELAX NG Book by Eric van der Vlist, released under the GNU Free Documentation License
+Relax NG Reference by ZVON
+RELAX NG Java community projects at java.net
+Sun Multi-Schema Validator (MSV) open-source Java XML toolkit
+Relax NG Compact Syntax validator open-source C program
+XSD to Relax NG Converter Web-based converter

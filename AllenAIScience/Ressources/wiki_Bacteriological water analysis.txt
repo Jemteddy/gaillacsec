@@ -1,0 +1,50 @@
+Bacteriological water analysis is a method of analysing water to estimate the numbers of bacteria present and, if needed, to find out what sort of bacteria they are. It represents one aspect of water quality. It is a microbiological analytical procedure which uses samples of water and from these samples determines the concentration of bacteria. It is then possible to draw inferences about the suitability of the water for use from these concentrations. This process is used, for example, to routinely confirm that water is safe for human consumption or that bathing and recreational waters are safe to use.
+The interpretation and the action trigger levels for different waters vary depending on the use made of the water. Very stringent levels applying to drinking water whilst more relaxed levels apply to marine bathing waters, where much lower volumes of water are expected to be ingested by users.
+
+
+== ApproachEdit ==
+The common feature of all these routine screening procedures is that the primary analysis is for indicator organisms rather than the pathogens that might cause concern. Indicator organisms are bacteria such as non-specific coliforms, Escherichia coli and Pseudomonas aeruginosa that are very commonly found in the human or animal gut and which, if detected, may suggest the presence of sewage. Indicator organisms are used because even when a person is infected with a more pathogenic bacteria, they will still be excreting many millions times more indicator organisms than pathogens. It is therefore reasonable to surmise that if indicator organism levels are low, then pathogen levels will be very much lower or absent. Judgements as to suitability of water for use are based on very extensive precedents and relate to the probability of any sample population of bacteria being able to be infective at a reasonable statistical level of confidence.
+Analysis is usually performed using culture, biochemical and sometimes optical methods. When indicator organisms levels exceed pre-set triggers, specific analysis for pathogens may then be undertaken and these can be quickly detected (where suspected) using specific culture methods or molecular biology.
+
+
+== MethodologiesEdit ==
+Because the analysis is always based on a very small sample taken from a very large volume of water, all methods rely on statistical principles.
+
+
+=== Multiple tube methodEdit ===
+One of the oldest methods is called the multiple tube method. In this method a measured sub-sample (perhaps 10 ml) is diluted with 100 ml of sterile growth medium and an aliquot of 10 ml is then decanted into each of ten tubes. The remaining 10 ml is then diluted again and the process repeated. At the end of 5 dilutions this produces 50 tubes covering the dilution range of 1:10 through to 1:10000.
+The tubes are then incubated at a pre-set temperature for a specified time and at the end of the process the number of tubes with growth in is counted for each dilution. Statistical tables are then used to derive the concentration of organisms in the original sample. This method can be enhanced by using indicator medium which changes colour when acid forming species are present and by including a tiny inverted tube called a Durham tube in each sample tube. The Durham inverted tube catches any gas produced. The production of gas at 37 degrees Celsius is a strong indication of the presence of Escherichia coli.
+
+
+=== ATP TestingEdit ===
+An ATP test is the process of rapidly measuring active microorganisms in water through detection adenosine triphosphate (ATP). ATP is a molecule found only in and around living cells, and as such it gives a direct measure of biological concentration and health. ATP is quantified by measuring the light produced through its reaction with the naturally-occurring enzyme firefly luciferase using a luminometer. The amount of light produced is directly proportional to the amount of biological energy present in the sample.
+Second generation ATP tests are specifically designed for water, wastewater and industrial applications where, for the most part, samples contain a variety of components that can interfere with the ATP assay.
+
+
+=== Plate countEdit ===
+The plate count method relies on bacteria growing a colony on a nutrient medium so that the colony becomes visible to the naked eye and the number of colonies on a plate can be counted. To be effective, the dilution of the original sample must be arranged so that on average between 30 and 300 colonies of the target bacterium are grown. Fewer than 30 colonies makes the interpretation statistically unsound whilst greater than 300 colonies often results in overlapping colonies and imprecision in the count. To ensure that an appropriate number of colonies will be generated several dilutions are normally cultured. This approach is widely utilised for the evaluation of the effectiveness of water treatment by the inactivation of representative microbial contaminants such as "E. coli" following ASTM D5465.  
+
+The laboratory procedure involves making serial dilutions of the sample (1:10, 1:100, 1:1000, etc.) in sterile water and cultivating these on nutrient agar in a dish that is sealed and incubated. Typical media include plate count agar for a general count or MacConkey agar to count Gram-negative bacteria such as E. coli. Typically one set of plates is incubated at 22°C and for 24 hours and a second set at 37°C for 24 hours. The composition of the nutrient usually includes reagents that resist the growth of non-target organisms and make the target organism easily identified, often by a colour change in the medium. Some recent methods include a fluorescent agent so that counting of the colonies can be automated. At the end of the incubation period the colonies are counted by eye, a procedure that takes a few moments and does not require a microscope as the colonies are typically a few millimetres across.
+
+
+=== Membrane filtrationEdit ===
+Most modern laboratories use a refinement of total plate count in which serial dilutions of the sample are vacuum filtered through purpose made membrane filters and these filters are themselves laid on nutrient medium within sealed plates. The methodology is otherwise similar to conventional total plate counts. Membranes have a printed millimetre grid printed on and can be reliably used to count the number of colonies under a binocular microscope.
+
+
+=== Pour plate methodEdit ===
+When the analysis is looking for bacterial species that grow poorly in air, the initial analysis is done by mixing serial dilutions of the sample in liquid nutrient agar which is then poured into bottles which are then sealed and laid on their sides to produce a sloping agar surface. Colonies that develop in the body of the medium can be counted by eye after incubation.
+The total number of colonies is referred to as the Total Viable Count (TVC). The unit of measurement is cfu/ml (or colony forming units per millilitre) and relates to the original sample. Calculation of this is a multiple of the counted number of colonies multiplied by the dilution used.
+
+
+== Pathogen analysisEdit ==
+When samples show elevated levels of indicator bacteria, further analysis is often undertaken to look for specific pathogenic bacteria. Species commonly investigated in the temperate zone include Salmonella typhi and Salmonella Typhimurium. Depending on the likely source of contamination investigation may also extend to organisms such as Cryptosporidium spp. In tropical areas analysis of Vibrio cholerae is also routinely undertaken.
+
+
+== Types of nutrient media used in analysisEdit ==
+MacConkey agar is culture medium designed to grow Gram-negative bacteria and stain them for lactose fermentation. It contains bile salts (to inhibit most Gram-positive bacteria), crystal violet dye (which also inhibits certain Gram-positive bacteria), neutral red dye (which stains microbes fermenting lactose), lactose and peptone. Alfred Theodore MacConkey developed it while working as a bacteriologist for the Royal Commission on Sewage Disposal in the United Kingdom.
+Endo agar contains peptone, lactose, dipotassium phosphate, agar, sodium sulfite, basic fuchsin and was originally developed for the isolation of Salmonella typhi, but is now commonly used in water analysis. As in MacConkey agar, coliform organisms ferment the lactose, and the colonies become red. Non-lactose-fermenting organisms produce clear, colourless colonies against the faint pink background of the medium.
+mFC medium is used in membrane filtration and contains selective and differential agents. These include Rosolic acid to inhibit bacterial growth in general, except for faecal coliforms, Bile salts inhibit non-enteric bacteria and Aniline blue indicates the ability of faecal coliforms to ferment lactose to acid that causes a pH change in the medium.
+TYEA medium contains tryptone, yeast extract, common salt and L-arabinose per liter of glass distilled water and is a non selective medium usually cultivated at two temperatures (22 and 36°C) to determine a general level of contamination (a.k.a. colony count).
+
+
+== ReferencesEdit ==

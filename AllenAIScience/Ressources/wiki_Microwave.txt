@@ -1,0 +1,110 @@
+Microwaves are a form of electromagnetic radiation with wavelengths ranging from one meter to one millimeter; with frequencies between 300 MHz (100 cm) and 300 GHz (0.1 cm). This broad definition includes both UHF and EHF (millimeter waves), and various sources use different boundaries. In all cases, microwave includes the entire SHF band (3 to 30 GHz, or 10 to 1 cm) at minimum, with RF engineering often restricting the range between 1 and 100 GHz (300 and 3 mm).
+The prefix micro- in microwave is not meant to suggest a wavelength in the micrometer range. It indicates that microwaves are "small", compared to waves used in typical radio broadcasting, in that they have shorter wavelengths. The boundaries between far infrared, terahertz radiation, microwaves, and ultra-high-frequency radio waves are fairly arbitrary and are used variously between different fields of study.
+Beginning at about 40 GHz, the atmosphere becomes less transparent to microwaves, at lower frequencies to absorption from water vapor and at higher frequencies from oxygen. A spectral band structure causes absorption peaks at specific frequencies (see graph at right). Above 100 GHz, the absorption of electromagnetic radiation by Earth's atmosphere is so great that it is in effect opaque, until the atmosphere becomes transparent again in the so-called infrared and optical window frequency ranges.
+The term microwave also has a more technical meaning in electromagnetics and circuit theory. Apparatus and techniques may be described qualitatively as "microwave" when the frequencies used are high enough that wavelengths of signals are roughly the same as the dimensions of the equipment, so that lumped-element circuit theory is inaccurate. As a consequence, practical microwave technique tends to move away from the discrete resistors, capacitors, and inductors used with lower-frequency radio waves. Instead, distributed circuit elements and transmission-line theory are more useful methods for design and analysis. Open-wire and coaxial transmission lines used at lower frequencies are replaced by waveguides and stripline, and lumped-element tuned circuits are replaced by cavity resonators or resonant lines. In turn, at even higher frequencies, where the wavelength of the electromagnetic waves becomes small in comparison to the size of the structures used to process them, microwave techniques become inadequate, and the methods of optics are used.
+
+
+== The electromagnetic spectrumEdit ==
+
+
+== Microwave sourcesEdit ==
+
+High-power microwave sources use specialized vacuum tubes to generate microwaves. These devices operate on different principles from low-frequency vacuum tubes, using the ballistic motion of electrons in a vacuum under the influence of controlling electric or magnetic fields, and include the magnetron (used in microwave ovens), klystron, traveling-wave tube (TWT), and gyrotron. These devices work in the density modulated mode, rather than the current modulated mode. This means that they work on the basis of clumps of electrons flying ballistically through them, rather than using a continuous stream of electrons.
+Low-power microwave sources use solid-state devices such as the field-effect transistor (at least at lower frequencies), tunnel diodes, Gunn diodes, and IMPATT diodes. Low-power sources are available as benchtop instruments, rackmount instruments, embeddable modules and in card-level formats. A maser is a solid state device which amplifies microwaves using similar principles to the laser, which amplifies higher frequency light waves.
+All warm objects emit low level microwave black-body radiation, depending on their temperature, so in meteorology and remote sensing microwave radiometers are used to measure the temperature of objects or terrain . The sun and other astronomical radio sources such as Cassiopeia A emit low level microwave radiation which carries information about their makeup, which is studied by radio astronomers using receivers called radio telescopes. The cosmic microwave background radiation (CMBR), for example, is a weak microwave noise filling empty space which is a major source of information on cosmology's Big Bang theory of the origin of the Universe.
+
+
+== Microwave usesEdit ==
+Microwave technology is extensively used for point-to-point telecommunications (i.e. non-broadcast uses). Microwaves are especially suitable for this use since they are more easily focused into narrower beams than radio waves, allowing frequency reuse; their comparatively higher frequencies allow broad bandwidth and high data transmission rates, and antenna sizes are smaller than at lower frequencies because antenna size is inversely proportional to transmitted frequency. Microwaves are used in spacecraft communication, and much of the world's data, TV, and telephone communications are transmitted long distances by microwaves between ground stations and communications satellites. Microwaves are also employed in microwave ovens and in radar technology.
+
+
+=== CommunicationEdit ===
+
+Before the advent of fiber-optic transmission, most long-distance telephone calls were carried via networks of microwave radio relay links run by carriers such as AT&T Long Lines. Starting in the early 1950s, frequency division multiplex was used to send up to 5,400 telephone channels on each microwave radio channel, with as many as ten radio channels combined into one antenna for the hop to the next site, up to 70 km away.
+Wireless LAN protocols, such as Bluetooth and the IEEE 802.11 specifications used for Wi-Fi, also use microwaves in the 2.4 GHz ISM band, although 802.11a uses ISM band and U-NII frequencies in the 5 GHz range. Licensed long-range (up to about 25 km) Wireless Internet Access services have been used for almost a decade in many countries in the 3.5–4.0 GHz range. The FCC recently carved out spectrum for carriers that wish to offer services in this range in the U.S. — with emphasis on 3.65 GHz. Dozens of service providers across the country are securing or have already received licenses from the FCC to operate in this band. The WIMAX service offerings that can be carried on the 3.65 GHz band will give business customers another option for connectivity.
+Metropolitan area network (MAN) protocols, such as WiMAX (Worldwide Interoperability for Microwave Access) are based on standards such as IEEE 802.16, designed to operate between 2 to 11 GHz. Commercial implementations are in the 2.3 GHz, 2.5 GHz, 3.5 GHz and 5.8 GHz ranges.
+Mobile Broadband Wireless Access (MBWA) protocols based on standards specifications such as IEEE 802.20 or ATIS/ANSI HC-SDMA (such as iBurst) operate between 1.6 and 2.3 GHz to give mobility and in-building penetration characteristics similar to mobile phones but with vastly greater spectral efficiency.
+Some mobile phone networks, like GSM, use the low-microwave/high-UHF frequencies around 1.8 and 1.9 GHz in the Americas and elsewhere, respectively. DVB-SH and S-DMB use 1.452 to 1.492 GHz, while proprietary/incompatible satellite radio in the U.S. uses around 2.3 GHz for DARS.
+Microwave radio is used in broadcasting and telecommunication transmissions because, due to their short wavelength, highly directional antennas are smaller and therefore more practical than they would be at longer wavelengths (lower frequencies). There is also more bandwidth in the microwave spectrum than in the rest of the radio spectrum; the usable bandwidth below 300 MHz is less than 300 MHz while many GHz can be used above 300 MHz. Typically, microwaves are used in television news to transmit a signal from a remote location to a television station from a specially equipped van. See broadcast auxiliary service (BAS), remote pickup unit (RPU), and studio/transmitter link (STL).
+Most satellite communications systems operate in the C, X, Ka, or Ku bands of the microwave spectrum. These frequencies allow large bandwidth while avoiding the crowded UHF frequencies and staying below the atmospheric absorption of EHF frequencies. Satellite TV either operates in the C band for the traditional large dish fixed satellite service or Ku band for direct-broadcast satellite. Military communications run primarily over X or Ku-band links, with Ka band being used for Milstar.
+
+
+=== NavigationEdit ===
+
+Global Navigation Satellite Systems (GNSS) including the Chinese Beidou, the American Global Positioning System (GPS) and the Russian GLONASS broadcast navigational signals in various bands between about 1.2 GHz and 1.6 GHz.
+
+
+=== RadarEdit ===
+
+Radar uses microwave radiation to detect the range, speed, and other characteristics of remote objects. Development of radar was accelerated during World War II due to its great military utility. Now radar is widely used for applications such as air traffic control, weather forecasting, navigation of ships, and speed limit enforcement.
+Microwaves cannot be carried with usable efficiency in ordinary transmission lines but require waveguide,such as a metal pipe.
+A Gunn diode oscillator and waveguide are used as a motion detector for automatic door openers.
+
+
+=== Radio astronomyEdit ===
+
+Most radio astronomy uses microwaves. Usually the naturally-occurring microwave radiation is observed, but active radar experiments have also been done with objects in the solar system, such as determining the distance to the Moon or mapping the invisible surface of Venus through cloud cover.
+The Atacama Large Millimeter Array, located at more than 5,000 meters (16,597 ft) altitude in Chile, observes the universe in the millimetre and submillimetre wavelength ranges. The world's largest ground-based astronomy project to date consists of more than 66 dishes and was built in an international collaboration by Europe, North America, East Asia and Chile.
+The cosmic microwave background radiation (CMBR) has been mapped by a number of instrument at an ever increasing resolution. The CMBR is understood to be a "relic radiation" from the Big Bang. Due to the expansion and thus cooling of the Universe, the originally high-energy radiation has been shifted into the microwave region of the radio spectrum. Sufficiently sensitive radio telescopes can detected the CMBR as a faint background glow, almost exactly the same in all directions, that is not associated with any star, galaxy, or other object.
+
+
+=== Heating and power applicationEdit ===
+A microwave oven passes (non-ionizing) microwave radiation at a frequency near 2.45 GHz (12 cm) through food, causing dielectric heating primarily by absorption of the energy in water. Microwave ovens became common kitchen appliances in Western countries in the late 1970s, following the development of less expensive cavity magnetrons. Water in the liquid state possesses many molecular interactions that broaden the absorption peak. In the vapor phase, isolated water molecules absorb at around 22 GHz, almost ten times the frequency of the microwave oven.
+Microwave heating is used in industrial processes for drying and curing products.
+Many semiconductor processing techniques use microwaves to generate plasma for such purposes as reactive ion etching and plasma-enhanced chemical vapor deposition (PECVD).
+Microwave frequencies typically ranging from 110 – 140 GHz are used in stellarators and more notably in tokamak experimental fusion reactors to help heat the fuel into a plasma state. The upcoming ITER thermonuclear reactor is expected to range from 110–170 GHz and will employ electron cyclotron resonance heating (ECRH).
+Microwaves can be used to transmit power over long distances, and post-World War II research was done to examine possibilities. NASA worked in the 1970s and early 1980s to research the possibilities of using solar power satellite (SPS) systems with large solar arrays that would beam power down to the Earth's surface via microwaves.
+Less-than-lethal weaponry exists that uses millimeter waves to heat a thin layer of human skin to an intolerable temperature so as to make the targeted person move away. A two-second burst of the 95 GHz focused beam heats the skin to a temperature of 54 °C (129 °F) at a depth of 0.4 millimetres (1⁄64 in). The United States Air Force and Marines are currently using this type of active denial system in fixed installations.
+
+
+=== SpectroscopyEdit ===
+Microwave radiation is used in electron paramagnetic resonance (EPR or ESR) spectroscopy, typically in the X-band region (~9 GHz) in conjunction typically with magnetic fields of 0.3 T. This technique provides information on unpaired electrons in chemical systems, such as free radicals or transition metal ions such as Cu(II). Microwave radiation is also used to perform rotational spectroscopy and can be combined with electrochemistry as in microwave enhanced electrochemistry.
+
+
+== Microwave frequency bandsEdit ==
+
+The microwave spectrum is usually defined as electromagnetic energy ranging from approximately 1 GHz to 100 GHz in frequency, but older use includes lower frequencies. Most common applications are within the 1 to 40 GHz range. One set of microwave frequency bands designations by the Radio Society of Great Britain (RSGB), is tabulated below:
+P band is sometimes used for Ku Band. "P" for "previous" was a radar band used in the UK ranging from 250 to 500 MHz and now obsolete per IEEE Std 521.
+When radars were first developed at K band during World War II, it was not known that there was a nearby absorption band (due to water vapor and oxygen in the atmosphere). To avoid this problem, the original K band was split into a lower band, Ku, and upper band, Ka.
+
+
+== Microwave frequency measurementEdit ==
+
+Microwave frequency can be measured by either electronic or mechanical techniques.
+Frequency counters or high frequency heterodyne systems can be used. Here the unknown frequency is compared with harmonics of a known lower frequency by use of a low frequency generator, a harmonic generator and a mixer. Accuracy of the measurement is limited by the accuracy and stability of the reference source.
+Mechanical methods require a tunable resonator such as an absorption wavemeter, which has a known relation between a physical dimension and frequency.
+In a laboratory setting, Lecher lines can be used to directly measure the wavelength on a transmission line made of parallel wires, the frequency can then be calculated. A similar technique is to use a slotted waveguide or slotted coaxial line to directly measure the wavelength. These devices consist of a probe introduced into the line through a longitudinal slot, so that the probe is free to travel up and down the line. Slotted lines are primarily intended for measurement of the voltage standing wave ratio on the line. However, provided a standing wave is present, they may also be used to measure the distance between the nodes, which is equal to half the wavelength. Precision of this method is limited by the determination of the nodal locations.
+
+
+== Effects on health Edit ==
+
+Microwaves do not contain sufficient energy to chemically change substances by ionization, and so are an example of non-ionizing radiation. The word "radiation" refers to energy radiating from a source and not to radioactivity. It has not been shown conclusively that microwaves (or other non-ionizing electromagnetic radiation) have significant adverse biological effects at low levels. Some, but not all, studies suggest that long-term exposure may have a carcinogenic effect. This is separate from the risks associated with very high-intensity exposure, which can cause heating and burns like any heat source, and not a unique property of microwaves specifically.
+During World War II, it was observed that individuals in the radiation path of radar installations experienced clicks and buzzing sounds in response to microwave radiation. This microwave auditory effect was thought to be caused by the microwaves inducing an electric current in the hearing centers of the brain. Research by NASA in the 1970s has shown this to be caused by thermal expansion in parts of the inner ear. In 1955 Dr. James Lovelock was able to reanimate rats frozen at 0 °C using microwave diathermy.
+When injury from exposure to microwaves occurs, it usually results from dielectric heating induced in the body. Exposure to microwave radiation can produce cataracts by this mechanism, because the microwave heating denatures proteins in the crystalline lens of the eye (in the same way that heat turns egg whites white and opaque). The lens and cornea of the eye are especially vulnerable because they contain no blood vessels that can carry away heat. Exposure to heavy doses of microwave radiation (as from an oven that has been tampered with to allow operation even with the door open) can produce heat damage in other tissues as well, up to and including serious burns that may not be immediately evident because of the tendency for microwaves to heat deeper tissues with higher moisture content.
+Eleanor R. Adair conducted microwave health research by exposing herself, animals and humans to microwave levels that made them feel warm or even start to sweat and feel quite uncomfortable. She found no adverse health effects other than heat.
+
+
+== History and researchEdit ==
+
+The existence of radio waves was predicted by James Clerk Maxwell in 1864 from his equations. In 1888, Heinrich Hertz was the first to demonstrate the existence of radio waves by building a spark gap radio transmitter that produced 450 MHz microwaves, in the UHF region. The equipment he used was primitive, including a horse trough, a wrought iron point spark, and Leyden jars. He also built the first parabolic antenna, using a zinc gutter sheet. In 1894, Indian radio pioneer Jagdish Chandra Bose publicly demonstrated radio control of a bell using millimeter wavelengths, and conducted research into the propagation of microwaves.
+Perhaps the first, documented, formal use of the term microwave occurred in 1931:
+"When trials with wavelengths as low as 18 cm were made known, there was undisguised surprise that the problem of the micro-wave had been solved so soon." Telegraph & Telephone Journal XVII. 179/1
+In 1943, the Hungarian engineer Zoltán Bay sent ultra-short radio waves to the moon, which, reflected from there, worked as a radar, and could be used to measure distance, as well as to study the moon.
+Perhaps the first use of the word microwave in an astronomical context occurred in 1946 in an article "Microwave Radiation from the Sun and Moon" by Robert Dicke and Robert Beringer. This same article also made a showing in the New York Times issued in 1951.
+In the history of electromagnetic theory, significant work specifically in the area of microwaves and their applications was carried out by researchers including:
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== BibliographyEdit ==
+Giannini, Franco, and Giorgio Leuzzi: "Non-linear Microwave Circuit Design". John Wiley & Sons, Ltd, 2004, ISBN 978-0-470-84701-5
+
+
+== External linksEdit ==
+Interactive Tutorial on Microwaves National High Magnetic Field Laboratory
+EM Talk, Microwave Engineering Tutorials and Tools
+Millimeter Wave and Microwave Waveguide dimension chart.

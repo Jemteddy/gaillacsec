@@ -1,0 +1,62 @@
+Texture mapping is a method for adding detail, surface texture (a bitmap or raster image), or color to a computer-generated graphic or 3D model. Its application to 3D graphics was pioneered by Edwin Catmull in 1974.
+Originally a method that simply wrapped and mapped pixels from a texture to a 3D surface - now more technically called diffuse mapping to distinguish it from more complex mappings - in recent decades the advent of multi-pass rendering and complex mapping such as height mapping, bump mapping, normal mapping, displacement mapping, reflection mapping, mipmaps, occlusion mapping, and many other complex variations on the technique have made it possible to simulate near-photorealism in real time, by vastly reducing the number of polygons and lighting calculations needed to construct a realistic and functional 3D scene.
+
+A texture map is applied (mapped) to the surface of a shape or polygon. This process is akin to applying patterned paper to a plain white box. Every vertex in a polygon is assigned a texture coordinate (which in the 2d case is also known as a UV coordinate) either via explicit assignment or by procedural definition. Image sampling locations are then interpolated across the face of a polygon to produce a visual result that seems to have more richness than could otherwise be achieved with a limited number of polygons. Multitexturing is the use of more than one texture at a time on a polygon. For instance, a light map texture may be used to light a surface as an alternative to recalculating that lighting every time the surface is rendered. Another multitexture technique is bump mapping, which allows a texture to directly control the facing direction of a surface for the purposes of its lighting calculations; it can give a very good appearance of a complex surface, such as tree bark or rough concrete, that takes on lighting detail in addition to the usual detailed coloring. Bump mapping has become popular in recent video games, as graphics hardware has become powerful enough to accommodate it in real-time.
+The way the resulting pixels on the screen are calculated from the texels (texture pixels) is governed by texture filtering. The fastest method is to use the nearest-neighbour interpolation, but bilinear interpolation or trilinear interpolation between mipmaps are two commonly used alternatives which reduce aliasing or jaggies. In the event of a texture coordinate being outside the texture, it is either clamped or wrapped.
+
+
+== Perspective correctnessEdit ==
+
+Texture coordinates are specified at each vertex of a given triangle, and these coordinates are interpolated using an extended Bresenham's line algorithm. If these texture coordinates are linearly interpolated across the screen, the result is affine texture mapping. This is a fast calculation, but there can be a noticeable discontinuity between adjacent triangles when these triangles are at an angle to the plane of the screen (see figure at right – textures (the checker boxes) appear bent).
+Perspective correct texturing accounts for the vertices' positions in 3D space, rather than simply interpolating a 2D triangle. This achieves the correct visual effect, but it is slower to calculate. Instead of interpolating the texture coordinates directly, the coordinates are divided by their depth (relative to the viewer), and the reciprocal of the depth value is also interpolated and used to recover the perspective-correct coordinate. This correction makes it so that in parts of the polygon that are closer to the viewer the difference from pixel to pixel between texture coordinates is smaller (stretching the texture wider), and in parts that are farther away this difference is larger (compressing the texture).
+Affine texture mapping directly interpolates a texture coordinate  between two endpoints  and :
+ where 
+
+Perspective correct mapping interpolates after dividing by depth , then uses its interpolated reciprocal to recover the correct coordinate:
+
+All modern 3D graphics hardware implements perspective correct texturing.
+
+
+== DevelopmentEdit ==
+Classic texture mappers generally did only simple mapping with at most one lighting effect, and the perspective correctness was about 16 times more expensive. To achieve two goals - faster arithmetic results, and keeping the arithmetic mill busy at all times - every triangle is further subdivided into groups of about 16 pixels. For perspective texture mapping without hardware support, a triangle is broken down into smaller triangles for rendering, which improves details in non-architectural applications. Software renderers generally preferred screen subdivision because it has less overhead. Additionally, they try to do linear interpolation along a line of pixels to simplify the set-up (compared to 2d affine interpolation) and thus again the overhead (also affine texture-mapping does not fit into the low number of registers of the x86 CPU; the 68000 or any RISC is much more suited). For instance, Doom restricted the world to vertical walls and horizontal floors/ceilings. This meant the walls would be a constant distance along a vertical line and the floors/ceilings would be a constant distance along a horizontal line. A fast affine mapping could be used along those lines because it would be correct. A different approach was taken for Quake, which would calculate perspective correct coordinates only once every 16 pixels of a scanline and linearly interpolate between them, effectively running at the speed of linear interpolation because the perspective correct calculation runs in parallel on the co-processor. The polygons are rendered independently, hence it may be possible to switch between spans and columns or diagonal directions depending on the orientation of the polygon normal to achieve a more constant z, but the effort seems not to be worth it.
+
+Another technique was subdividing the polygons into smaller polygons, like triangles in 3d-space or squares in screen space, and using an affine mapping on them. The distortion of affine mapping becomes much less noticeable on smaller polygons. Yet another technique was approximating the perspective with a faster calculation, such as a polynomial. Still, another technique uses 1/z value of the last two drawn pixels to linearly extrapolate the next value. The division is then done starting from those values so that only a small remainder has to be divided, but the amount of bookkeeping makes this method too slow on most systems. Finally, some programmers extended the constant distance trick used for Doom by finding the line of constant distance for arbitrary polygons and rendering along it.
+
+
+== See alsoEdit ==
+
+2.5D
+3D computer graphics
+Cube mapping
+Mipmap
+Displacement mapping
+Environment mapping
+Image analogy
+List of Sega arcade system boards
+Materials system
+Mode 7
+Namco System 22
+Normal mapping
+Parametrization
+Parallax mapping
+Relief mapping (computer graphics)
+Sprite (computer graphics)
+Texture synthesis
+Texture atlas
+Texture artist
+Texture splatting – a technique for combining textures
+UV Mapping
+UVW Mapping
+Virtual globe
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Introduction into texture mapping using C and SDL
+Programming a textured terrain using XNA/DirectX, from www.riemers.net
+Perspective correct texturing
+Time Texturing Texture mapping with bezier lines
+Polynomial Texture Mapping Interactive Relighting for Photos
+3 Métodos de interpolación a partir de puntos (in spanish) Methods that can be used to interpolate a texture knowing the texture coords at the vertices of a polygon

@@ -1,0 +1,41 @@
+In mathematics, the Cauchy condensation test, named after Augustin-Louis Cauchy, is a standard convergence test for infinite series. For a non-negative, non-increasing sequence  of real numbers, the series  converges if and only if the "condensed" series  converges. Moreover, if they converge, the sum of the condensed series is no more than twice as large as the sum of the original.
+
+
+== Estimate ==
+The Cauchy condensation test follows from the stronger estimate
+
+which should be understood as an inequality of extended real numbers. The essential thrust of a proof follows, following the line of Oresme's proof of the divergence of the harmonic series.
+To see the first inequality, the terms of the original series are rebracketed into runs whose lengths are powers of two, and then each run is bounded above by replacing each term by the largest term in that run: the first one, since the terms are non-increasing.
+
+To see the second, the two series are again rebracketed into runs of power of two length, but "offset" as shown below, so that the run of  which begins with  lines up with the end of the run of  which ends with , so that the former stays always "ahead" of the latter.
+
+
+== Integral comparison ==
+The "condensation" transformation  recalls the integral variable substitution  yielding .
+Pursuing this idea, the integral test for convergence gives us that  converges if and only if  converges. The substitution  yields the integral  and another integral test brings us to the condensed series .
+
+
+== Examples ==
+The test can be useful for series where n appears as in a denominator in f. For the most basic example of this sort, the harmonic series  is transformed into the series , which clearly diverges.
+As a more complex example, take
+.
+Here the series definitely converges for a > 1, and diverges for a < 1. When a = 1, the condensation transformation gives the series
+.
+The logarithms 'shift to the left'. So when a = 1, we have convergence for b > 1, divergence for b < 1. When b = 1 the value of c enters.
+
+
+== Generalization ==
+The following generalization is due to Schlömilch. Let u(n) be a strictly increasing sequence of positive integers such that
+
+is bounded, where  is the forward difference of u. Then the series  converges if and only if the series
+
+converges. Taking  so that , the Cauchy condensation test emerges as a special case.
+
+
+== References ==
+
+Bonar, Khoury (2006). Real Infinite Series. Mathematical Association of America. ISBN 0-88385-745-6.
+
+
+== External links ==
+Cauchy condensation test proof

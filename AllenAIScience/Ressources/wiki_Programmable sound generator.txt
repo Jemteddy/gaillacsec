@@ -1,0 +1,10 @@
+A programmable sound generator, or PSG, is a sound chip that generates sound waves by synthesizing multiple basic waveforms, and often some kind of noise generator, (all controlled by writing data to dedicated registers in the sound chip, hence the name) and combining and mixing these waveforms into a complex waveform, then shaping the amplitude (its "envelope") of the resulting waveform using "attack" "decay" "sustain" and "release" time periods, so that the resulting waveform then mimics a certain kind of sound.
+They were, and are, often used in arcade games, game consoles, and home computers.
+
+
+== Examples ==
+The most used (canonical example) was the AY-3-8910 from General Instrument (or its derivatives AY-3-8912/AY-3-8913), the SN76489 from Texas Instruments and the Yamaha YM2149, a AY-3-8910 made under license. Yamaha also brought out the YM2203 and YM2608 chips on the market, these were also capable of FM synthesis. A chip made by Toshiba called the PSG also found broad use, especially in several generations of MSX-computers.
+
+
+== See also ==
+Yamaha Sound chips

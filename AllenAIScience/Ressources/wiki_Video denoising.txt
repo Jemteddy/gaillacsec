@@ -1,0 +1,40 @@
+Video denoising is the process of removing noise from a video signal. Video denoising methods can be divided into:
+Spatial video denoising methods, where image noise reduction is applied to each frame individually.
+Temporal video denoising methods, where noise between frames is reduced. Motion compensation may be used to avoid ghosting artifacts when blending together pixels from several frames.
+Spatial-Temporal video denoising methods use a combination of spatial and temporal denoising. This is often referred to as 3D denoising.
+Video denoising methods are designed and tuned for specific types of noise. Typical video noise types are following:
+Analog noise
+Radio channel artifacts
+High frequency interference (dots, short horizontal color lines, etc.)
+Brightness and color channel interference (problems with antenna)
+Video reduplication – false contouring appearance
+
+VHS artifacts
+Color-specific degradation
+Brightness and color channel interference (specific type for VHS)
+Chaotic line shift at the end of frame (lines resync signal misalignment)
+Wide horizontal noise strips (old VHS or obstruction of magnetic heads)
+
+Film artifacts (see also Film preservation)
+Dust, dirt, spray
+Scratches
+Curling (emulsion exfoliation)
+Fingerprints
+
+Digital noise
+Blocking – low bitrate artifacts
+Ringing – low and medium bitrates artifact especially on animated cartoons
+Blocks (slices) damage in case of losses in digital transmission channel or disk injury (scratches on DVD)
+
+Different suppression methods are used to remove all these artifacts from video.
+
+
+== References ==
+
+
+== External links ==
+VideoCleaner, Free open source video enhancement software with interactive video denoising
+
+
+== See also ==
+Image denoising

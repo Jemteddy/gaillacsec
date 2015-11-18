@@ -1,0 +1,45 @@
+The blink element is a non-standard presentational HTML element that indicates to a user agent (generally a web browser) that the page author intends the content of the element to blink (that is, alternate between being visible and invisible). The element was introduced in Netscape Navigator but is no longer supported by any modern Web browser; some, such as Internet Explorer, never supported the element at all.
+Despite its initial popularity among home users in the 1990s, it has since fallen out of favor due to its overuse and the difficulty it presents in reading. The tag achieved notoriety for being user-unfriendly in the opinion of many designers. Lou Montulli, often credited as the inventor of the blink element, has said that he considers "the blink tag to be the worst thing I've ever done for the Internet", although he claims he only suggested the idea, without writing any actual code.
+
+... At some point in the evening I mentioned that it was sad that Lynx was not going to be able to display many of the HTML extensions that we were proposing, I also pointed out that the only text style that Lynx could exploit given its environment was blinking text. We had a pretty good laugh at the thought of blinking text, and talked about blinking this and that and how absurd the whole thing would be. [...] Saturday morning rolled around and I headed into the office only to find what else but, blinking text. It was on the screen blinking in all its glory, and in the browser. How could this be, you might ask? It turns out that one of the engineers liked my idea so much that he left the bar sometime past midnight, returned to the office and implemented the blink tag overnight. He was still there in the morning and quite proud of it.
+
+
+== Usage ==
+The blink element is non-standard, and as such there is no authoritative specification of its syntax or semantics. While Bert Bos of the World Wide Web Consortium has produced a Document Type Definition that includes syntax for the blink element (defining it as a phrase element on a par with elements for emphasis and citations), the comments in the DTD explain that it is intended as a joke.
+Syntax of the blink element type is identical to such standard HTML inline elements as span. For example: <blink>This text could blink</blink>. The rate of blinking is browser-specific. In versions of Mozilla Firefox that support the tag, the text alternates between being visible for three quarters of a second and being invisible for one quarter of a second.
+The blink element type was first invented for Netscape Navigator and was supported in its descendants, such as Mozilla Firefox (except for the Netscape 6 and early Mozilla suite browsers); it was removed in version 23. Microsoft's Internet Explorer and WebKit (the browser engine behind Apple's Safari and Google Chrome) never supported it, even in its CSS incarnation. It was also supported by the Opera Internet Browser, but support ended in version 15 when that browser switched to a WebKit-based engine.
+
+
+== Implementation ==
+The blink value of the CSS text-decoration property allows authors to suggest that text should blink without using proprietary tags, but the CSS 2.1 Specification states that "conforming user agents may simply not blink the text" in order to comply with the User Agent Accessibility Guidelines.
+
+<span style="text-decoration: blink;">Text to blink here</span>
+
+The blink element may also effectively be re-implemented using CSS animations.
+
+Similar effects can also be achieved through the use of JavaScript.
+
+Or alternatively, the blink functionality can be implemented with the help of jQuery.
+
+
+== Usability and accessibility ==
+A 1982 Apple Computer manual for developers warned that "Flashing [text] should only be used to indicate imminent destruction of data or the program". The blink element has been consistently criticised by usability and accessibility experts. In 1996 Jakob Nielsen described the element as "simply evil" in his Alertbox column Top Ten Mistakes in Web Design. The World Wide Web Consortium's Web Content Accessibility Guidelines (WCAG) 1.0 state that content authors should avoid causing the screen to flicker or blink, noting that such effects can cause problems for people with cognitive disabilities or photosensitive epilepsy.
+The United States Federal Government's Section 508 states that pages should avoid causing the screen to flicker with a frequency between 2 Hz and 55 Hz, a range that covers rapidly blinking text.
+The German Federal Government's Barrierefreie Informationstechnik-Verordnung (Barrier-free Information Technology Ordinance) also states that flickering or blinking content should be avoided.
+To comply with the User Agent Accessibility Guidelines a user agent must either "allow configuration to render animated or blinking text content as motionless, unblinking text" or never blink text. Mozilla Firefox satisfied this requirement by providing a hidden configuration option to disable blinking, browser.blink_allowed, which could be accessed through about:config. The blinking feature has been disabled altogether since version 23.
+
+
+== Example ==
+
+
+== See also ==
+Comparison of layout engines (Non-standard HTML)
+Marquee element
+Bling-bling
+
+
+== References ==
+
+
+== External links ==
+Cross Browser Blink Tag

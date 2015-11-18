@@ -1,0 +1,175 @@
+A communications satellite is an artificial satellite that relays and amplifies through the use of a transponder, radio telecommunications signals, between a source and a receiver. Communications satellites are used for television, telephone, radio, internet, and military applications. There are over 2,000 communications satellites in Earth’s orbit, used by both private and government organizations.
+Wireless communication uses electromagnetic waves to carry signals. These waves require line-of-sight, and are thus obstructed by the curvature of the Earth. In order to communicate over great distances, satellites are used to redirect the signal.
+There are two major classes of communications satellites, Passive and Active. Passive satellites only redirect (usually via reflection) the signal coming from the source, toward the direction of the receiver. With passive satellites, the reflected signal is not amplified before it returns to Earth, so it has the tendency to be very weak. This is because, as the electromagnetic wave moves through the atmosphere, particles within the atmosphere, air, water droplets and dust tend to attenuate the signal, thereby reducing its received level. This is known as Free-space path loss. Active satellites, on the other hand, amplify the received signal before re-transmitting it to the receiver on the ground
+Communications satellites orbit the Earth in one of three major ways. One of these orbits is called geosynchronous orbit (GEO), which is 19,300 nautical miles from Earth’s surface. This orbit has the special characteristic in which satellites placed in this orbit can “stand still” with respect to a certain location on earth. That is, if a viewer on Earth were to look up into the sky and spot a satellite in GEO, it would seem as if it isn’t moving. Closer to the Earth is the medium Earth orbit (MEO). It ranges from 500-1200 nautical miles above Earth. Below MEO is low Earth orbit (LEO) and is about 200 nautical miles above Earth.
+As MEO and LEO are not able to keep satellites “stationary” like GEO, more satellites would be needed to obtain complete coverage over a certain area. However, due to their relatively small distance to the earth their signals are stronger.
+The electromagnetic signals that communication satellites work with, have a large spectrum of wavelengths and frequencies. To keep these waves from interfering with one another, international organizations have certain rules and regulations describing which wavelength a certain company or group can use. By separating out wavelengths, communication satellites will have minimal interference and be able to communicate effectively.
+
+
+== HistoryEdit ==
+Today's satellite communications can trace their origins all the way back to February 1945 and Arthur C.Clarke's letter to the editor of Wireless World magazine, Clarke further fleshed-out this theory in a paper titled Extra-Terrestrial Relays – Can Rocket Stations Give Worldwide Radio Coverage?, published in Wireless World in October 1945. Decades later a project named Communication Moon Relay was a telecommunication project carried out by the United States Navy. Its objective was to develop a secure and reliable method of wireless communication by using the Moon as a natural communications satellite.
+The first artificial Earth satellite was Sputnik 1. Put into orbit by the Soviet Union on October 4, 1957, it was equipped with an on-board radio-transmitter that worked on two frequencies: 20.005 and 40.002 MHz. Sputnik 1 was launched as a step in the exploration of space and rocket development. While incredibly important it was not placed in orbit for the purpose of sending data from one point on earth to another. And it was the first artificial satellite in the steps leading to today's satellite communications.
+The first artificial satellite used solely to further advances in global communications was a balloon named Echo 1. Echo 1 was the world's first artificial communications satellite capable of relaying signals to other points on Earth. It soared 1,000 miles (1,609 km) above the planet after its Aug. 12, 1960 launch, yet relied on humanity's oldest flight technology — ballooning. Launched by NASA, Echo 1 was a giant metallic balloon 100 feet (30 meters) across. The world's first inflatable satellite — or "satelloon", as they were informally known — helped lay the foundation of today's satellite communications. The idea behind a communications satellite is simple: Send data up into space and beam it back down to another spot on the globe. Echo 1 accomplished this by essentially serving as an enormous mirror, 10 stories tall, that could be used to reflect communications signals.
+The first American satellite to relay communications was Project SCORE in 1958, which used a tape recorder to store and forward voice messages. It was used to send a Christmas greeting to the world from U.S. President Dwight D. Eisenhower. NASA launched the Echo satellite in 1960; the 100-foot (30 m) aluminised PET film balloon served as a passive reflector for radio communications. Courier 1B, built by Philco, also launched in 1960, was the world's first active repeater satellite.
+Telstar was the second active, direct relay communications satellite. Belonging to AT&T as part of a multi-national agreement between AT&T, Bell Telephone Laboratories, NASA, the British General Post Office, and the French National PTT (Post Office) to develop satellite communications, it was launched by NASA from Cape Canaveral on July 10, 1962, the first privately sponsored space launch. Relay 1 was launched on December 13, 1962, and became the first satellite to broadcast across the Pacific on November 22, 1963.
+An immediate antecedent of the geostationary satellites was Hughes' Syncom 2, launched on July 26, 1963. Syncom 2 revolved around the earth once per day at constant speed, but because it still had north-south motion, special equipment was needed to track it.
+
+
+== Satellite OrbitsEdit ==
+
+
+=== Low Earth Orbiting (LEO) satellitesEdit ===
+
+A low Earth orbit (LEO) typically is a circular orbit about 200 kilometres (120 mi) above the earth's surface and, correspondingly, a period (time to revolve around the earth) of about 90 minutes.
+Because of their low altitude, these satellites are only visible from within a radius of roughly 1,000 kilometers from the sub-satellite point. In addition, satellites in low earth orbit change their position relative to the ground position quickly. So even for local applications, a large number of satellites are needed if the mission requires uninterrupted connectivity.
+Low-Earth-orbiting satellites are less expensive to launch into orbit than geostationary satellites and, due to proximity to the ground, do not require as high signal strength (Recall that signal strength falls off as the square of the distance from the source, so the effect is dramatic). Thus there is a trade off between the number of satellites and their cost.
+In addition, there are important differences in the onboard and ground equipment needed to support the two types of missions.
+
+
+=== Satellite constellationEdit ===
+
+A group of satellites working in concert is known as a satellite constellation. Two such constellations, intended to provide satellite phone services, primarily to remote areas, are the Iridium and Globalstar systems. The Iridium system has 66 satellites.
+It is also possible to offer discontinuous coverage using a low-Earth-orbit satellite capable of storing data received while passing over one part of Earth and transmitting it later while passing over another part. This will be the case with the CASCADE system of Canada's CASSIOPE communications satellite. Another system using this store and forward method is Orbcomm.
+
+
+=== Medium Earth Orbit (MEO)Edit ===
+A MEO satellite is in orbit somewhere between 8,000 km and 18,000 km above the earth’s surface. Any satellite that orbits the earth between about 1,000–22,000 miles (1,609.34–35,405.57 km) above earth is an MEO.
+MEO satellites are similar to LEO satellites in functionality. MEO satellites are visible for much longer periods of time than LEO satellites, usually between 2 to 8 hours. MEO satellites have a larger coverage area than LEO satellites. A MEO satellite’s longer duration of visibility and wider footprint means fewer satellites are needed in a MEO network than a LEO network. One disadvantage is that a MEO satellite’s distance gives it a longer time delay and weaker signal than a LEO satellite, although these limitations are not as severe as those of a GEO satellite.
+A medium earth orbit satellite (MEO) is a satellite that orbits the earth in between Low Earth Orbit Satellites (LEO), which orbit the earth at a distance from the earth of about 200–930 miles (321.87–1,496.69 km) and those satellites which orbit the earth at geostationary orbit, about 22,300 miles (35,888.71 km) above earth.
+Each type of satellite can provide a different type of coverage for communications and wireless devices.
+Like LEOs, these satellites don’t maintain a stationary distance from the earth.This is in contrast to the geostationary orbit, where satellites are always approximately 22,300 miles from the earth.
+Typically the orbit of a medium earth orbit satellite is about 10,000 miles (16,093.44 km) above earth. In various patterns, these satellites make the trip around earth in anywhere from 2–12 hours, which provides better coverage to wider areas than that provided by LEOs.
+EXAMPLE
+In 1962, the first communications satellite, Telstar, was launched. It was a medium earth orbit satellite designed to help facilitate high-speed telephone signals, but scientists soon learned what some of the problematic aspects were of a single MEO in space. It only provided transatlantic telephone signals for 20 minutes of each approximately 2.5 hours orbit. It was apparent that multiple MEOs needed to be used in order to provide continuous coverage.
+
+
+=== Geostationary orbits (GEO)Edit ===
+
+To an observer on the earth, a satellite in a geostationary orbit appears motionless, in a fixed position in the sky. This is because it revolves around the earth at the earth's own angular velocity (360 degrees every 24 hours, in an equatorial orbit).
+USABILITY
+A geostationary orbit is useful for communications because ground antennas can be aimed at the satellite without their having to track the satellite's motion. This is relatively inexpensive.
+In applications that require a large number of ground antennas, such as DirecTV distribution, the savings in ground equipment can more than outweigh the cost and complexity of placing a satellite into orbit.
+MISC
+The concept of the geostationary communications satellite was first proposed by Arthur C. Clarke, building on work by Konstantin Tsiolkovsky and on the 1929 work by Herman Potočnik (writing as Herman Noordung) Das Problem der Befahrung des Weltraums — der Raketen-motor. In October 1945 Clarke published an article titled "Extraterrestrial Relays" in the British magazine Wireless World. The article described the fundamentals behind the deployment of artificial satellites in geostationary orbits for the purpose of relaying radio signals. Thus, Arthur C. Clarke is often quoted as being the inventor of the communications satellite and the term 'Clarke Belt' employed as a description of the orbit.
+EXAMPLE
+The first geostationary satellite was Syncom 3, launched on August 19, 1964, and used for communication across the Pacific starting with television coverage of the 1964 Summer Olympics. Shortly after Syncom 3, Intelsat I, aka Early Bird, was launched on April 6, 1965 and placed in orbit at 28° west longitude. It was the first geostationary satellite for telecommunications over the Atlantic Ocean.
+On November 9, 1972, Canada's first geostationary satellite serving the continent, Anik A1, was launched by Telesat Canada, with the United States following suit with the launch of Westar 1 by Western Union on April 13, 1974.
+On May 30, 1974, the first geostationary communications satellite in the world to be three-axis stabilized was launched: the experimental satellite ATS-6 built for NASA.
+After the launches of the Telstar through Westar 1 satellites, RCA Americom (later GE Americom, now SES) launched Satcom 1 in 1975. It was Satcom 1 that was instrumental in helping early cable TV channels such as WTBS (now TBS Superstation), HBO, CBN (now ABC Family) and The Weather Channel become successful, because these channels distributed their programming to all of the local cable TV headends using the satellite. Additionally, it was the first satellite used by broadcast television networks in the United States, like ABC, NBC, and CBS, to distribute programming to their local affiliate stations. Satcom 1 was widely used because it had twice the communications capacity of the competing Westar 1 in America (24 transponders as opposed to the 12 of Westar 1), resulting in lower transponder-usage costs. Satellites in later decades tended to have even higher transponder numbers.
+By 2000, Hughes Space and Communications (now Boeing Satellite Development Center) had built nearly 40 percent of the more than one hundred satellites in service worldwide. Other major satellite manufacturers include Space Systems/Loral, Orbital Sciences Corporation with the STAR Bus series, Indian Space Research Organization, Lockheed Martin (owns the former RCA Astro Electronics/GE Astro Space business), Northrop Grumman, Alcatel Space, now Thales Alenia Space, with the Spacebus series, and Astrium.
+
+
+=== Molniya satellitesEdit ===
+
+Geostationary satellites must operate above the equator and therefore appear lower on the horizon as the receiver gets the farther from the equator. This will cause problems for extreme northerly latitudes, affecting connectivity and causing multipath (interference caused by signals reflecting off the ground and into the ground antenna).
+Thus, for areas close to the North (and South) Pole, a geostationary satellite may appear below the horizon. Therefore, Molniya orbit satellites have been launched, mainly in Russia, to alleviate this problem.
+Molniya orbits can be an appealing alternative in such cases. The Molniya orbit is highly inclined, guaranteeing good elevation over selected positions during the northern portion of the orbit. (Elevation is the extent of the satellite's position above the horizon. Thus, a satellite at the horizon has zero elevation and a satellite directly overhead has elevation of 90 degrees.)
+The Molniya orbit is designed so that the satellite spends the great majority of its time over the far northern latitudes, during which its ground footprint moves only slightly. Its period is one half day, so that the satellite is available for operation over the targeted region for six to nine hours every second revolution. In this way a constellation of three Molniya satellites (plus in-orbit spares) can provide uninterrupted coverage.
+The first satellite of the Molniya series was launched on April 23, 1965 and was used for experimental transmission of TV signals from a Moscow uplink station to downlink stations located in Siberia and the Russian Far East, in Norilsk, Khabarovsk, Magadan and Vladivostok. In November 1967 Soviet engineers created a unique system of national TV network of satellite television, called Orbita, that was based on Molniya satellites.
+
+
+=== Polar OrbitEdit ===
+In the United States, the National Polar-orbiting Operational Environmental Satellite System (NPOESS) was established in 1994 to consolidate the polar satellite operations of NASA (National Aeronautics and Space Administration) NOAA (National Oceanic and Atmospheric Administration) NPOESS manages a number of Location Company METSAT stands for meteorological satellite EUMETSAT stands for the European organization for the exploration of the METSAT program. METOP stands for meteorological operations.
+These orbits are sun synchronous, meaning that they cross the equator at the same local time each day. For example, the satellites in the NPOESS (civilian) orbit will cross the equator, going from south to north, at times 1:30 P.M., 5:30 P.M., and 9:30 P.M.
+
+
+== StructureEdit ==
+Communications Satellites are usually composed of the following subsystems:
+Communication Payload, normally composed of transponders, antennas, and switching systems
+Engines used to bring the satellite to its desired orbit
+Station Keeping Tracking and stabilization subsystem used to keep the satellite in the right orbit, with its antennas pointed in the right direction, and its power system pointed towards the sun
+Power subsystem, used to power the Satellite systems, normally composed of solar cells, and batteries that maintain power during solar eclipse
+Command and Control subsystem, which maintains communications with ground control stations. The ground control earth stations monitor the satellite performance and control its functionality during various phases of its life-cycle.
+The bandwidth available from a satellite depends upon the number of transponders provided by the satellite. Each service (TV, Voice, Internet, radio) requires a different amount of bandwidth for transmission. This is typically known as link budgeting and a network simulator can be used to arrive at the exact value.
+
+
+== Frequency Allocation for satellite systemsEdit ==
+Allocating frequencies to satellite services is a complicated process which requires international coordination and planning. This is carried out under the auspices of the International Telecommunication Union (ITU). To facilitate frequency planning, the world is divided into three regions: Region 1: Europe, Africa, what was formerly the Soviet Union, and Mongolia Region 2: North and South America and Greenland Region 3: Asia (excluding region 1 areas), Australia, and the southwest Pacific
+Within these regions, frequency bands are allocated to various satellite services, although a given service may be allocated different frequency bands in different regions. Some of the services provided by satellites are:
+Fixed satellite service (FSS)
+Broadcasting satellite service (BSS)
+Mobile satellite service
+Radionavigation-satellite service
+Meteorological-satellite service
+Amateur-satellite service
+
+
+== ApplicationsEdit ==
+
+
+=== TelephoneEdit ===
+
+The first and historically most important application for communication satellites was in intercontinental satellites who are in space long distance telephony. The fixed Public Switched Telephone Network relays telephone calls from land line telephones to an earth station, where they are then transmitted to a geostationary satellite. The downlink follows an analogous path. Improvements in submarine communications cables through the use of fiber-optics, caused some decline in the use of satellites for fixed telephony in the late 20th century.
+Satellite communications are still used in many applications today. Remote islands such as Ascension Island, Saint Helena, Diego Garcia, and Easter Island, where no submarine cables are in service, need satellite telephones. There are also regions of some continents and countries where landline telecommunications are rare to nonexistent, for example large regions of South America, Africa, Canada, China, Russia, and Australia. Satellite communications also provide connection to the edges of Antarctica and Greenland. Other land use for satellite phones are rigs at sea, a back up for hospitals, military, and recreation. Ships at sea often use satellite phones, and planes.
+Satellite phones can be accomplished in many different ways. On larger scale often there will be local telephone system in the isolated area with a link to a telephone system in a main land area. There are services that will patch a radio signal to a telephone system in this example most any type of satellite can be used. Satellite phones connect directly to a constellation of either geostationary or low-earth-orbit satellites. Calls are then forwarded to a satellite teleport connected to the Public Switched Telephone Network .
+
+
+=== TelevisionEdit ===
+
+As television became the main market, its demand for simultaneous delivery of relatively few signals of large bandwidth to many receivers being a more precise match for the capabilities of geosynchronous comsats. Two satellite types are used for North American television and radio: Direct broadcast satellite (DBS), and Fixed Service Satellite (FSS).
+The definitions of FSS and DBS satellites outside of North America, especially in Europe, are a bit more ambiguous. Most satellites used for direct-to-home television in Europe have the same high power output as DBS-class satellites in North America, but use the same linear polarization as FSS-class satellites. Examples of these are the Astra, Eutelsat, and Hotbird spacecraft in orbit over the European continent. Because of this, the terms FSS and DBS are more so used throughout the North American continent, and are uncommon in Europe.
+Fixed Service Satellites use the C band, and the lower portions of the Ku band. They are normally used for broadcast feeds to and from television networks and local affiliate stations (such as program feeds for network and syndicated programming, live shots, and backhauls), as well as being used for distance learning by schools and universities, business television (BTV), Videoconferencing, and general commercial telecommunications. FSS satellites are also used to distribute national cable channels to cable television headends.
+Free-to-air satellite TV channels are also usually distributed on FSS satellites in the Ku band. The Intelsat Americas 5, Galaxy 10R and AMC 3 satellites over North America provide a quite large amount of FTA channels on their Ku band transponders.
+The American Dish Network DBS service has also recently utilized FSS technology as well for their programming packages requiring their SuperDish antenna, due to Dish Network needing more capacity to carry local television stations per the FCC's "must-carry" regulations, and for more bandwidth to carry HDTV channels.
+A direct broadcast satellite is a communications satellite that transmits to small DBS satellite dishes (usually 18 to 24 inches or 45 to 60 cm in diameter). Direct broadcast satellites generally operate in the upper portion of the microwave Ku band. DBS technology is used for DTH-oriented (Direct-To-Home) satellite TV services, such as DirecTV and DISH Network in the United States, Bell TV and Shaw Direct in Canada, Freesat and Sky in the UK, Ireland, and New Zealand and DSTV in South Africa.
+Operating at lower frequency and lower power than DBS, FSS satellites require a much larger dish for reception (3 to 8 feet (1 to 2.5 m) in diameter for Ku band, and 12 feet (3.6 m) or larger for C band). They use linear polarization for each of the transponders' RF input and output (as opposed to circular polarization used by DBS satellites), but this is a minor technical difference that users do not notice. FSS satellite technology was also originally used for DTH satellite TV from the late 1970s to the early 1990s in the United States in the form of TVRO (TeleVision Receive Only) receivers and dishes. It was also used in its Ku band form for the now-defunct Primestar satellite TV service.
+Some satellites have been launched that have transponders in the Ka band, such as DirecTV's SPACEWAY-1 satellite, and Anik F2. NASA and ISRO have also launched experimental satellites carrying Ka band beacons recently.
+Some manufacturers have also introduced special antennas for mobile reception of DBS television. Using Global Positioning System (GPS) technology as a reference, these antennas automatically re-aim to the satellite no matter where or how the vehicle (on which the antenna is mounted) is situated. These mobile satellite antennas are popular with some recreational vehicle owners. Such mobile DBS antennas are also used by JetBlue Airways for DirecTV (supplied by LiveTV, a subsidiary of JetBlue), which passengers can view on-board on LCD screens mounted in the seats.
+
+
+=== Digital cinemaEdit ===
+
+Realization and demonstration, on October 29, 2001, of the first digital cinema transmission by satellite in Europe of a feature film by Bernard Pauchon and Philippe Binant.
+
+
+=== Radio broadcastingEdit ===
+
+Satellite radio offers audio broadcast services in some countries, notably the United States. Mobile services allow listeners to roam a continent, listening to the same audio programming anywhere.
+A satellite radio or subscription radio (SR) is a digital radio signal that is broadcast by a communications satellite, which covers a much wider geographical range than terrestrial radio signals.
+Satellite radio offers a meaningful alternative to ground-based radio services in some countries, notably the United States. Mobile services, such as SiriusXM, and Worldspace, allow listeners to roam across an entire continent, listening to the same audio programming anywhere they go. Other services, such as Music Choice or Muzak's satellite-delivered content, require a fixed-location receiver and a dish antenna. In all cases, the antenna must have a clear view to the satellites. In areas where tall buildings, bridges, or even parking garages obscure the signal, repeaters can be placed to make the signal available to listeners.
+Initially available for broadcast to stationary TV receivers, by 2004 popular mobile direct broadcast applications made their appearance with the arrival of two satellite radio systems in the United States: Sirius and XM Satellite Radio Holdings. Later they merged to become the conglomerate SiriusXM.
+Radio services are usually provided by commercial ventures and are subscription-based. The various services are proprietary signals, requiring specialized hardware for decoding and playback. Providers usually carry a variety of news, weather, sports, and music channels, with the music channels generally being commercial-free.
+In areas with a relatively high population density, it is easier and less expensive to reach the bulk of the population with terrestrial broadcasts. Thus in the UK and some other countries, the contemporary evolution of radio services is focused on Digital Audio Broadcasting (DAB) services or HD Radio, rather than satellite radio.
+
+
+=== Amateur radioEdit ===
+
+Amateur radio operators have access to amateur satellites, which have been designed specifically to carry amateur radio traffic. Most such satellites operate as spaceborne repeaters, and are generally accessed by amateurs equipped with UHF or VHF radio equipment and highly directional antennas such as Yagis or dish antennas. Due to launch costs, most current amateur satellites are launched into fairly low Earth orbits, and are designed to deal with only a limited number of brief contacts at any given time. Some satellites also provide data-forwarding services using the X.25 or similar protocols.
+
+
+=== Internet accessEdit ===
+
+After the 1990s, satellite communication technology has been used as a means to connect to the Internet via broadband data connections. This can be very useful for users who are located in remote areas, and cannot access a broadband connection, or require high availability of services.
+
+
+=== MilitaryEdit ===
+Communications satellites are used for military communications applications, such as Global Command and Control Systems. Examples of military systems that use communication satellites are the MILSTAR, the DSCS, and the FLTSATCOM of the United States, NATO satellites, United Kingdom satellites (for instance Skynet), and satellites of the former Soviet Union. India has launched its first Military Communication satellite GSAT-7, its transponders operate in UHF, F, C and Ku band bands. Typically military satellites operate in the UHF, SHF (also known as X-band) or EHF (also known as Ka band) frequency bands.
+
+
+== See alsoEdit ==
+Commercialization of space
+List of communication satellite companies
+List of communications satellite firsts
+Reconnaissance satellite
+Satellite space segment
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Satellite Glossary
+Satellite Industry Association
+European Satellite Operators Association
+SatMagazine
+SatNews
+Satellite Press Releases.
+The future of communication satellite business
+Communications satellites short history by David J. Whalen
+Beyond The Ionosphere: Fifty Years of Satellite Communication (NASA SP-4217, 1997)
+html Lloyd's Satellite Constellations
+Satcom Online
+An Overview of Satellite Operating Frequencies and their Applications
+Global Satellite Communications
+Satellite Technologies
+Telecommunications Satellite

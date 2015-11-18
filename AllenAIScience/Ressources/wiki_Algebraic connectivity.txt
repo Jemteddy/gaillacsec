@@ -1,0 +1,23 @@
+The algebraic connectivity of a graph G is the second-smallest eigenvalue of the Laplacian matrix of G. This eigenvalue is greater than 0 if and only if G is a connected graph. This is a corollary to the fact that the number of times 0 appears as an eigenvalue in the Laplacian is the number of connected components in the graph. The magnitude of this value reflects how well connected the overall graph is, and has been used in analysing the robustness and synchronizability of networks.
+
+
+== Properties ==
+
+The algebraic connectivity of a graph G is greater than 0 if and only if G is a connected graph. Furthermore, the value of the algebraic connectivity is bounded above by the traditional (vertex) connectivity of the graph. If the number of vertices of a connected graph is n and the diameter is D, the algebraic connectivity is known to be bounded below by , and in fact (in a result due to Brendan McKay) by . For the example shown above, 4/18 = 0.222 ≤ 0.722 ≤ 1.
+Unlike the traditional connectivity, the algebraic connectivity is dependent on the number of vertices, as well as the way in which vertices are connected. In random graphs, the algebraic connectivity decreases with the number of vertices, and increases with the average degree.
+The exact definition of the algebraic connectivity depends on the type of Laplacian used. Fan Chung has developed an extensive theory using a rescaled version of the Laplacian, eliminating the dependence on the number of vertices, so that the bounds are somewhat different.
+In models of synchronization on networks, such as the Kuramoto model, the Laplacian matrix arises naturally, and so the algebraic connectivity gives an indication of how easily the network will synchronize. However, other measures, such as the average distance (characteristic path length) can also be used, and in fact the algebraic connectivity is closely related to the (reciprocal of the) average distance.
+The algebraic connectivity also relates to other connectivity attributes, such as the isoperimetric number, which is bounded below by half the algebraic connectivity.
+
+
+== The Fiedler vector ==
+The original theory related to algebraic connectivity was produced by Miroslav Fiedler. In his honor the eigenvector associated with the algebraic connectivity has been named the Fiedler vector. The Fiedler vector can be used to partition a graph.
+For the example graph in the introductory section, the Fiedler vector is <0.415, 0.309, 0.069, −0.221, 0.221, −0.794>. The negative values are associated with the poorly connected vertex 6, and the neighbouring articulation point, vertex 4; while the positive values are associated with the other vertices. The signs of the values in the Fiedler vector can therefore be used to partition this graph into two components: {1, 2, 3, 5} and {4, 6}. Alternatively, the value of 0.069 (which is close to zero) can be placed in a class of its own, partitioning the graph into three components: {1, 2, 5}, {3}, and {4, 6}.
+
+
+== See also ==
+Connectivity (graph theory)
+Graph property
+
+
+== References ==

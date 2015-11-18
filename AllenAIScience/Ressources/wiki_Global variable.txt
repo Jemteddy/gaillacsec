@@ -1,0 +1,63 @@
+In computer programming, a global variable is a variable with global scope, meaning that it is visible (hence accessible) throughout the program, unless shadowed. The set of all global variables is known as the global environment or global state. In compiled languages, global variables are generally static variables, whose extent (lifetime) is the entire runtime of the program, though in interpreted languages (including command-line interpreters), global variables are generally dynamically allocated when declared, since they are not known ahead of time.
+In some languages, all variables are global, or global by default, while in most modern languages variables have limited scope, generally lexical scope, though global variables are often available by declaring a variable at the top level of the program. In other languages, however, global variables do not exist; these are generally modular programming languages that enforce a module structure, or class-based object-oriented programming languages that enforce a class structure.
+
+
+== Use ==
+Interaction mechanisms with global variables are called global environment (see also global state) mechanisms. The global environment paradigm is contrasted with the local environment paradigm, where all variables are local with no shared memory (and therefore all interactions can be reconducted to message passing).
+They are usually considered bad practice precisely because of their non-locality: a global variable can potentially be modified from anywhere (unless they reside in protected memory or are otherwise rendered read-only), and any part of the program may depend on it. A global variable therefore has an unlimited potential for creating mutual dependencies, and adding mutual dependencies increases complexity. See action at a distance. Global variables also make it difficult to integrate modules because software written by others may use the same global names unless names are reserved by agreement, or by naming convention. However, in a few cases, global variables can be suitable for use. For example, they can be used to avoid having to pass frequently-used variables continuously throughout several functions. In practice, large programs may well require a large number of global variables because there are so many parameters that are shared between different functions, and care must be taken to make sure different functions share the global data without mishap.
+Global variables are used extensively to pass information between sections of code that do not share a caller/callee relation like concurrent threads and signal handlers. Languages (including C) where each file defines an implicit namespace eliminate most of the problems seen with languages with a global namespace though some problems may persist without proper encapsulation. Without proper locking (such as with a mutex), code using global variables will not be thread-safe except for read only values in protected memory.
+
+
+== Environment variables ==
+Environment variables are a facility provided by some operating systems. Within the OS's shell (ksh in Unix, bash in Linux, COMMAND.COM in DOS and CMD.EXE in Windows) they are a kind of variable: for instance, in unix and related systems an ordinary variable becomes an environment variable when the export keyword is used. Program code other than shells has to access them by API calls, such as getenv() and setenv().
+They are local to the process in which they were set. That means if we open two terminal windows (Two different processes running shell) and change value of environment variable in one window, that change will not be seen by other window.
+When a child process is created, it inherits all the environment variables and their values from the parent process. Usually, when a program calls another program, it first creates a child process by forking, then the child adjusts the environment as needed and lastly the child replaces itself with the program to be called. Child processes therefore cannot use environment variables to communicate with their peers, avoiding the action at a distance problem.
+
+
+== Global-only and global-by-default ==
+A number of non-structured languages, such as (early versions of) BASIC, COBOL and Fortran I (1956) only provide global variables. Fortran II (1958) introduced subroutines with local variables, and the COMMON keyword for accessing global variables. Usage of COMMON in FORTAN continued in FORTAN 77, and influenced later languages such as PL/SQL. Named COMMON groups for globals behave somewhat like structured namespaces. Variables are also global by default in FORTH, Lua, Perl, and most shells.
+
+
+== By language ==
+
+
+=== C and C++ ===
+The C language does not have a global keyword. However, variables declared outside a function have "file scope," meaning they are visible within the file. Variables declared with file scope are visible between their declaration and the end of the compilation unit (.c file) (unless shadowed by a like-named object in a nearer scope, such as a local variable); and they implicitly have external linkage and are thus visible to not only the .c file or compilation unit containing their declarations but also to every other compilation unit that is linked to form the complete program. Note that not specifying static is the same as specifying extern: the default is external linkage. External linkage, however, is not sufficient for such a variable's use in other files: for a compilation unit to correctly access such a global variable, it will need to know its type. This is accomplished by declaring the variable in each file using the extern keyword. (It will be declared in each file but may be defined in only one.) Such extern declarations are often placed in a shared header file, since it is common practice for all .c files in a project to include at least one .h file: the standard header file errno.h is an example, making the errno variable accessible to all modules in a project. Where this global access mechanism is judged problematic, it can be disabled using the static keyword which restricts a variable to file scope, and will cause attempts to import it with extern to raise a compilation (or linking) error.
+An example of a "global" variable in C:
+
+As the variable is an external one, there is no need to pass it as a parameter to use it in a function besides main. It belongs to every function in the module.
+The output will be:
+
+3
+5
+5
+5
+
+The use of global variables makes software harder to read and understand. Since any code anywhere in the program can change the value of the variable at any time, understanding the use of the variable may entail understanding a large portion of the program. Global variables make separating code into reusable libraries more difficult. They can lead to problems of naming because a global variable defined in one file may conflict with the same name used for a global variable in another file (thus causing linking to fail). A local variable of the same name can shield the global variable from access, again leading to harder-to-understand code. The setting of a global variable can create side effects that are hard to locate and predict. The use of global variables makes it more difficult to isolate units of code for purposes of unit testing; thus they can directly contribute to lowering the quality of the code.
+
+
+=== Java ===
+Some languages, like Java, don't have global variables. In Java, all variables that are not local variables are fields of a class. Hence all variables are in the scope of either a class or a method. In Java, static fields (also known as class variables) exist independently of any instances of the class and one copy is shared among all instances; hence public static fields are used for many of the same purposes as global variables in other languages because of their similar "sharing" behavior.
+
+
+=== PHP ===
+PHP has a global keyword and a number of unusual ways of using global variables. Variables declared outside functions have file scope (which is for most purposes the widest scope). However, they are not accessible inside functions unless imported with the global keyword (i.e., the keyword accesses global variables, it does not declare them).
+However, some predefined variables, known as superglobals are always accessible. They are all arrays. A general purpose one is the $GLOBALS superglobal, which contains all the variables defined out of function scope. Changes to its elements change the original variables, and additions create new variables. The superglobals $_POST and $_GET are widely used in web programming.
+
+
+=== Other languages ===
+In Python and MATLAB a global variable can be declared anywhere with the global keyword.
+Ruby's global variables are distinguished by a '$' sigil. A number of predefined globals exist, for instance $$ is the current process ID.
+
+
+== See also ==
+Variables
+Static variable
+External variable
+
+Singleton pattern
+Local variable
+Non-local variable
+
+
+== References ==

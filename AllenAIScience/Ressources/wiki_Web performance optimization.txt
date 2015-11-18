@@ -1,0 +1,11 @@
+Web performance optimization, WPO, or website optimization is the field of knowledge about increasing the speed in which web pages are downloaded and displayed on the user's web browser. With the average internet speed increasing globally, it is fitting for website administrators and webmasters to consider the time it takes for websites to render for the visitor.
+Faster website download speeds have been shown to increase visitor retention and loyalty and user satisfaction, especially for users with slow internet connections and those on mobile devices. Web performance also leads to less data travelling across the web, which in turn lowers a website's power consumption and environmental impact. Some aspects which can affect the speed of page load include browser/server cache, image optimization, and encryption (for example SSL), which can affect the time it takes for pages to render. The performance of the web page can be improved through techniques such as multi-layered cache, light weight design of presentation layer components and asynchronous communication with server side components.
+
+
+== History ==
+In the first decade or so of the web's existence, web performance improvement was focused mainly on optimizing website code and pushing hardware limitations. According to the 2002 book Web Performance Tuning by Patrick Killelea, some of the early techniques used were to use simple servlets or CGI, increase server memory, and look for packet loss and retransmission. Although these principles now comprise much of the optimized foundation of internet applications, they differ from current optimization theory in that there was much less of an attempt to improve the browser display speed.
+Steve Souders coined the term "web performance optimization" in 2004. At that time Souders made several predictions regarding the impact that WPO as an "emerging industry" would bring to the web, such as websites being fast by default, consolidation, web standards for performance, environmental impacts of optimization, and speed as a differentiator.
+One major point that Souders made is that at least 80% of the time that it takes to download and view a website is controlled by the front-end structure. This lag time can be decreased through awareness of typical browser behavior, as well as of how HTTP works.
+
+
+== References ==

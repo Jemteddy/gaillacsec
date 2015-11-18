@@ -1,0 +1,46 @@
+In Euclidean geometry, a translation is a function that moves every point a constant distance in a specified direction. (Also in Euclidean geometry a transformation is a one to one correspondence between two sets of points or a mapping from one plane to another.) A translation can be described as a rigid motion: other rigid motions include rotations and reflections. A translation can also be interpreted as the addition of a constant vector to every point, or as shifting the origin of the coordinate system. A translation operator is an operator  such that 
+If v is a fixed vector, then the translation Tv will work as Tv(p) = p + v.
+If T is a translation, then the image of a subset A under the function T is the translate of A by T. The translate of A by Tv is often written A + v.
+In a Euclidean space, any translation is an isometry. The set of all translations forms the translation group T, which is isomorphic to the space itself, and a normal subgroup of Euclidean group E(n ). The quotient group of E(n ) by T is isomorphic to the orthogonal group O(n ):
+E(n ) / T ≅ O(n ).
+
+
+== Matrix representation ==
+A translation is an affine transformation with no fixed points. Matrix multiplications always have the origin as a fixed point. Nevertheless, there is a common workaround using homogeneous coordinates to represent a translation of a vector space with matrix multiplication: Write the 3-dimensional vector w = (wx, wy, wz) using 4 homogeneous coordinates as w = (wx, wy, wz, 1).
+To translate an object by a vector v, each homogeneous vector p (written in homogeneous coordinates) can be multiplied by this translation matrix:
+
+As shown below, the multiplication will give the expected result:
+
+The inverse of a translation matrix can be obtained by reversing the direction of the vector:
+
+Similarly, the product of translation matrices is given by adding the vectors:
+
+Because addition of vectors is commutative, multiplication of translation matrices is therefore also commutative (unlike multiplication of arbitrary matrices).
+
+
+== Translations in physics ==
+In physics, translation (Translational motion) is movement that changes the position of an object, as opposed to rotation. For example, according to Whittaker:
+
+A translation is the operation changing the positions of all points (x, y, z) of an object according to the formula
+
+where  is the same vector for each point of the object. The translation vector  common to all points of the object describes a particular type of displacement of the object, usually called a linear displacement to distinguish it from displacements involving rotation, called angular displacements.
+When considering spacetime, a change of time coordinate is considered to be a translation. For example, the Galilean group and the Poincaré group include translations with respect to time.
+
+
+== See also ==
+Advection
+Rotation matrix
+Scaling (geometry)
+Transformation matrix
+Translation of axes
+Translational symmetry
+Vertical translation
+
+
+== External links ==
+Translation Transform at cut-the-knot
+Geometric Translation (Interactive Animation) at Math Is Fun
+Understanding 2D Translation and Understanding 3D Translation by Roger Germundsson, The Wolfram Demonstrations Project.
+
+
+== References ==

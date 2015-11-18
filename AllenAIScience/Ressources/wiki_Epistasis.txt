@@ -1,0 +1,117 @@
+Epistasis is a phenomenon that consists of the effect of one gene being dependent on the presence of one or more 'modifier genes' (genetic background). Similarly, epistatic mutations have different effects in combination than individually. It was originally a concept from genetics but is now used in biochemistry, population genetics, computational biology and evolutionary biology. It arises due to interactions, either between genes, or within them leading to non-additive effects. Epistasis has a large influence on the shape of evolutionary landscapes which leads to profound consequences for evolution and evolvability of traits.
+
+
+== HistoryEdit ==
+Understanding of epistasis has changed considerably through the history of genetics and so too has the use of the term. In early models of natural selection devised in the early 20th century, each gene was considered to make its own characteristic contribution to fitness, against an average background of other genes. Some introductory courses still teach population genetics this way. Because of the way that the science of population genetics was developed, evolutionary geneticists have tended to think of epistasis as the exception. However, in general, the expression of any one allele depends in a complicated way on many other alleles.
+In classical genetics, if genes A and B are mutated, and each mutation by itself produces a unique phenotype but the two mutations together show the same phenotype as the gene A mutation, then gene A is epistatic and gene B is hypostatic. For example, the gene for male pattern baldness is epistatic to the gene for red hair. In this sense, epistasis can be contrasted with genetic dominance, which is an interaction between alleles at the same gene locus. As the study of genetics developed, and with the advent of molecular biology, epistasis started to be studied in relation to Quantitative Trait Loci (QTL) and polygenic inheritance.
+The effects of genes are now commonly quantifiable by assaying the magnitude of a phenotype (e.g. height, pigmentation or growth rate) or by biochemically assaying protein activity (e.g. binding or catalysis). Increasingly sophisticated computational and evolutionary biology models aim to describe the effects of epistasis on a genome-wide scale and the consequences of this for evolution.
+Since identification of epistatic pairs is challenging in terms of computationally and also statistical, there are also some studies which tries to prioritize epistatic pairs.
+
+
+== ClassificationEdit ==
+
+Terminology about epistasis can vary between scientific fields. Geneticists often refer to wild type and mutant alleles where the mutation is implicitly deleterious and may talk in terms of genetic enhancement, synthetic lethality and genetic suppressors. Conversely, a biochemist may more frequently focus on beneficial mutations and so explicitly state the effect of a mutation and use terms such as reciprocal sign epistasis and compensatory mutation. Additionally, there are differences when looking at epistasis within a single gene (biochemistry) and epistasis within a haploid or diploid genome (genetics). In general, epistasis is used to denote the departure from 'independence' of the effects of different genetic loci. Confusion often arises due to the varied interpretation of 'independence' among different branches of biology. The classifications below attempt to cover the various terms and how they relate to one another.
+
+
+=== AdditivityEdit ===
+Two mutations are considered to be purely additive if the effect of the double mutation is the sum of the effects of the single mutations. This occurs when genes do not interact with each other, for example by acting through different metabolic pathways. Simple, additive traits were studied early on in the history of genetics, however they are relatively rare, with most genes exhibiting at least some level of epistatic interaction.
+
+
+=== Magnitude epistasisEdit ===
+When the double mutation has a fitter phenotype than expected from the effects of the two single mutations, it is referred to as positive epistasis. Positive epistasis between beneficial mutations generates greater improvements in function than expected. Positive epistasis between deleterious mutations protects against the negative effects to cause a less severe fitness drop.
+Conversely, when two mutations together lead to a less fit phenotype than expected from their effects when alone, it is called negative epistasis. Negative epistasis between beneficial mutations causes smaller than expected fitness improvements, whereas negative epistasis between deleterious mutations causes greater-than-additive fitness drops.
+Independently, when the effect on fitness of two mutations is more radical than expected from their effects when alone, it is referred to as synergistic epistasis. The opposite situation, when the fitness difference of the double mutant from the wild type is smaller than expected from the effects of the two single mutations, it is called antagonistic epistasis. Therefore, for deleterious mutations, negative epistasis is also synergistic, while positive epistasis is antagonistic; conversely, for advantageous mutations, positive epistasis is synergistic, while negative epistasis is antagonistic.
+The term genetic enhancement is sometimes used when a double (deleterious) mutant has a more severe phenotype than the additive effects of the single mutants. Strong positive epistasis is sometimes referred to by creationists as irreducible complexity (although most examples are misidentified).
+
+
+=== Sign epistasisEdit ===
+Sign epistasis occurs when one mutation has the opposite effect when in the presence of another mutation. This occurs when a mutation that is deleterious on its own can enhance the effect of a particular beneficial mutation. For example, a large and complex brain is a waste of energy without a range of sense organs, however sense organs can be more useful if the organism's brain is better able to process the information.
+At its most extreme, reciprocal sign epistasis occurs when two deleterious genes are beneficial when together. For example, producing a toxin alone can kill a bacterium, and producing a toxin exporter alone can waste energy, but producing both can improve fitness by killing competing organisms.
+Reciprocal sign epistasis also leads to genetic suppression whereby two deleterious mutations are less harmful together than either one on its own, i.e. one compensates for the other. This term can also apply sign epistasis where the double mutant has a phenotype intermediate between those of the single mutants, in which case the more severe single mutant phenotype is suppressed by the other mutation or genetic condition. For example, in a diploid organism, a hypomorphic (or partial loss-of-function) mutant phenotype can be suppressed by knocking out one copy of a gene that acts oppositely in the same pathway. In this case, the second gene is described as a "dominant suppressor" of the hypomorphic mutant; "dominant" because the effect is seen when one wild-type copy of the suppressor gene is present (i.e. even in a heterozygote). For most genes, the phenotype of the heterozygous suppressor mutation by itself would be wild type (because most genes are not haplo-insufficient), so that the double mutant (suppressed) phenotype is intermediate between those of the single mutants.
+When two mutations are viable alone but lethal in combination, it is called Synthetic lethality or unlinked non-complementation.
+
+
+=== Haploid organismsEdit ===
+In a haploid organism with genotypes (at two loci) ab, Ab, aB or AB, we can think different forms of epistasis as affecting the magnitude of a phenotype upon mutation individually (Ab and aB) or in combination (AB).
+
+
+=== Diploid organismsEdit ===
+Epistasis in diploid organisms is further complicated by the presence of two copies of each gene. Epistasis can occur between loci, but additionally, interactions can occur between the two copies of each locus in heterozygotes. For a two locus, two allele system, there are eight independent types of gene interaction.
+
+
+== Genetic and molecular causesEdit ==
+
+
+=== AdditivityEdit ===
+This can be the case when multiple genes act in parallel to achieve the same effect. For example, when an organism is in need of phosphorus, multiple enzymes that break down different phosphorylated components from the environment may act additively to increase the amount of phosphorus available to the organism. However, there inevitably comes a point where phosphorus is no longer the limiting factor for growth and reproduction and so further improvements in phosphorus metabolism have smaller or no effect (negative epistasis). Some sets of mutations within genes have also been specifically found to be additive. It is now considered that strict additivity is the exception, rather than the rule, since most genes interact with hundreds or thousands of other genes.
+
+
+=== Epistasis between genesEdit ===
+Epistasis within the genomes of organisms occurs due to interactions between the genes within the genome. This interaction may be direct if the genes encode proteins that, for example, are separate components of a multi-component protein (such as the ribosome), inhibit each other's activity, or if the protein encoded by one gene modifies the other (such as by phosphorylation). Alternatively the interaction may be indirect, where the genes encode components of a metabolic pathway or network, developmental pathway, signalling pathway or transcription factor network. For example, the gene encoding the enzyme that synthesizes penicillin is of no use to a fungus without the enzymes that synthesize the necessary precursors in the metabolic pathway.
+
+
+=== Epistasis within genesEdit ===
+Just as mutations in two separate genes can be non-additive if those genes interact, mutations in two codons within a gene can be non-additive. In genetics this is sometimes called intragenic complementation when one deleterious mutation can be compensated for by a second mutation within that gene. This occurs when the amino acids within a protein interact. Due to the complexity of protein folding and activity, additive mutations are rare.
+Proteins are held in their tertiary structure by a distributed, internal network of cooperative interactions (hydrophobic, polar and covalent). Epistatic interactions occur whenever one mutation alters the local environment of another residue (either by directly contacting it, or by inducing changes in the protein structure). For example in a disulphide bridge, a single cysteine has no effect on protein stability until a second is present at the correct location at which point the two cysteines form a chemical bond which enhances the stability of the protein. This would be observed as positive epistasis where the double-cysteine variant had a much higher stability than either of the single-cysteine variants. Conversely, when deleterious mutations are introduced, proteins often exhibit mutational robustness whereby as stabilising interactions are destroyed the protein still functions until it reaches some stability threshold at which point further destabilising mutations have large, detrimental effects as the protein can no longer fold. This leads to negative epistasis whereby mutations that have little effect alone, have a large, deleterious effect together.
+In enzymes, the protein structure orients a few, key amino acids into precise geometries to form an active site to perform chemistry. Since these active site networks frequently require the cooperation of multiple components, mutating any one of these components massively compromises activity, and so mutating a second component has a relatively minor effect on the already inactivated enzyme. For example, removing any member of the catalytic triad of many enzymes will reduce activity to levels low enough that the organism is no longer viable.
+
+
+==== Heterozygotic epistasisEdit ====
+Diploid organisms contain two copies of each gene. If these are different (heterozygous / heteroallelic), the two different copies of the allele may interact with each other to cause epistasis. This is sometimes called allelic complementation, or interallelic complementation. It may be caused by several mechanisms, for example transvection, where an enhancer from one allele acts in trans to activate transcription from the promoter of the second allele. Alternately, trans-splicing of two non-functional RNA molecules may produce a single, functional RNA. Similarly, at the protein level, proteins that function as dimers may form a heterodimer composed of one protein from each alternate gene and may display different properties to the homodimer of one or both variants.
+
+
+== Evolutionary consequencesEdit ==
+
+
+=== Fitness landscapes and evolvabilityEdit ===
+
+In evolutionary genetics, the sign of epistasis is usually more significant than the magnitude of epistasis. This is because magnitude epistasis (positive and negative) simply affects how beneficial mutations are together, however sign epistasis affects whether mutation combinations are beneficial or deleterious.
+A fitness landscape is a representation of the fitness where all genotypes are arranged in 2D space and the fitness of each genotype is represented by height on a surface. It is frequently used as a visual metaphor for understanding evolution as the process of moving uphill from one genotype to the next, nearby, fitter genotype.
+If all mutations are additive, they can be acquired in any order and still give a continuous uphill trajectory. The landscape is perfectly smooth, with only be one peak (global maximum) and all sequences can evolve uphill to it by the accumulation of beneficial mutations in any order. Conversely, if mutations interact with one another by epistasis, the fitness landscape becomes rugged as the effect of a mutation depends on the genetic background of other mutations. At its most extreme, interactions are so complex that the fitness is ‘uncorrelated’ with gene sequence and the topology of the landscape is random. This is referred to as a rugged fitness landscape and has profound implications for the evolutionary optimisation of organisms. If mutations are deleterious in one combination but beneficial in another, the fittest genotypes can only be accessed by accumulating mutations in one specific order. This makes it more likely that organisms will get stuck at local maxima in the fitness landscape having acquired mutations in the 'wrong' order. For example, a variant of TEM1 β-lactamase with 5 mutations is able to cleave cefotaxime (a third generation antibiotic). However, of the 120 possible pathways to this 5-mutant variant, only 7% are accessible to evolution as the remainder passed through fitness valleys where the combination of mutations reduces activity.
+Consequently, high epistasis is usually considered a constraining factor on evolution, and improvements in a highly epistatic trait are considered to have lower evolvability. This is because, in any given genetic background, very few mutations will be beneficial, even though many mutations may need to occur to eventually improve the trait. The lack of a smooth landscape makes it harder for evolution to access fitness peaks. In highly rugged landscapes, fitness valleys block access to some genes, and even if ridges exist that allow access, these may be rare or prohibitively long.
+Rugged, epistatic fitness landscapes also affect the 'predictability' of evolution. When a mutation has a large number of epistatic effects, each accumulated mutations drastically changes the set of available beneficial mutations. Therefore the evolutionary trajectory followed depends highly on which early mutations were accepted. Therefore repeats of evolution from the same starting point tend to diverge to different local maxima rather than converge on a single global maximum as they would in a smooth, additive landscape.
+
+
+=== Evolution of sexEdit ===
+
+Negative epistasis and sex are thought to be intimately correlated. Experimentally, this idea has been tested in using digital simulations of asexual and sexual populations. Over time, sexual populations move towards more negative epistasis, or the lowering of fitness by two interacting alleles. It is thought that negative epistasis allows individuals carrying the interacting deleterious mutations to be removed from the populations efficiently. This removes those alleles from the population, resulting in an overall more fit population. This hypothesis was proposed by Alexey Kondrashov, and is sometimes known as the deterministic mutation hypothesis and has also been tested using artificial gene networks.
+However, the evidence for this hypothesis has not always been straightforward and the model proposed by Kondrashov has been criticized for assuming mutation parameters far from real world observations. In addition, in those tests which used artificial gene networks, negative epistasis is only found in more densely connected networks, whereas empirical evidence indicates that natural gene networks are sparsely connected, and theory shows that selection for robustness will favor more sparsely connected and minimally complex networks.
+
+
+== Methods and model systemsEdit ==
+
+
+=== Regression analysisEdit ===
+Quantitative genetics focuses on genetic variance due to genetic interactions. Any two locus interactions at a particular gene frequency can be decomposed into eight independent genetic effects using a weighted regression. In this regression, the observed two locus genetic effects are treated as dependent variables and the "pure" genetic effects are used as the independent variables. Because the regression is weighted, the partitioning among the variance components will change as a function of gene frequency. By analogy it is possible to expand this system to three or more loci, or to cytonuclear interactions
+
+
+=== Double mutant cyclesEdit ===
+When assaying epistasis within a gene, site-directed mutagenesis can be used to generate the different genes and the expressed proteins can be assayed (e.g. for stability or catalytic activity). This is sometimes called a double mutant cycle and involves producing and assaying the wild type protein, the two single mutants and the double mutant. Epistasis is measured as the difference between the effects of the mutations together versus the sum of their individual effects. This can be expressed as a free energy of interaction. The same methodology can be used to investigate the interactions between larger sets of mutations but all combinations have to be produced and assayed. For example, there are 120 different combinations of 5 mutations, some or all of which may show epistasis.
+
+
+=== Statistical coupling analysisEdit ===
+
+
+=== Computational predictionEdit ===
+
+
+== See alsoEdit ==
+Co-adaptation
+Epistasis and functional genomics
+Mutation
+Quantitative trait locus
+Interactome (Genetic interaction network)
+Fitness landscape
+Evolvability
+Pleiotropy
+Evolution of sexual reproduction
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+INTERSNP - a software for genome-wide interaction analysis (GWIA) of case-control and case-only SNP data, including analysis of quantitative traits.
+Science Aid: Epistasis High school (GCSE, Alevel) resource.
+GeneticInteractions.org
+Epistasis.org

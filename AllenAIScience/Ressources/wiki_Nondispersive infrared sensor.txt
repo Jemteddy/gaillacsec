@@ -1,0 +1,22 @@
+A nondispersive infrared sensor (or NDIR sensor) is a simple spectroscopic sensor often used as a gas detector. It is nondispersive in the sense of optical dispersion since the infrared energy is allowed to pass through the atmospheric sampling chamber without deformation.
+
+
+== Principle ==
+The main components of an NDIR sensor are an infrared source (lamp), a sample chamber or light tube, a light filter and an infrared detector. The IR light is directed through the sample chamber towards the detector. In parallel there is another chamber with an enclosed reference gas, typically nitrogen. The gas in the sample chamber causes absorption of specific wavelengths according to the Beer–Lambert law, and the attenuation of these wavelengths is measured by the detector to determine the gas concentration. The detector has an optical filter in front of it that eliminates all light except the wavelength that the selected gas molecules can absorb.
+Ideally other gas molecules do not absorb light at this wavelength, and do not affect the amount of light reaching the detector however some cross-sensitivity is inevitable. For instance, many measurements in the IR area are cross sensitive to H2O so gases like CO2, SO2 and NO2 often initiate cross sensitivity in low concentrations. Part 1065.350(b) states that H2O can interfere with an NDIR analyzer's response to CO2. (http://www.ecfr.gov/cgi-bin/text-idx?sid=b09e0b356089f50988feae6565ed426a&c=ecfr&tpl=/ecfrbrowse/Title40/40tab_02.tpl)
+The IR signal from the source is usually chopped or modulated so that thermal background signals can be offset from the desired signal.
+
+
+== Applications ==
+Infrared gas analyzer
+Infrared point sensor
+
+
+== References ==
+
+
+== External links ==
+NDIR Gas Sensors Explained, The Gas Detector Encyclopedia, Edaphic Scientific Knowledge Base
+NDIR Gas Sensor Lamp Selection Application Notes
+NDIR Technology for gasoline exhaust
+NDIR detectors for CO&CO2 in internal combustion engine exhaust

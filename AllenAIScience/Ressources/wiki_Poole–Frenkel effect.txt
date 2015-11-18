@@ -1,0 +1,20 @@
+In solid-state physics, the Poole–Frenkel effect (also known as Frenkel-Poole emission) is a means by which an electrical insulator can conduct electricity. It is named after Yakov Frenkel, who published on it in 1938, and also after H. H. Poole (Horace Hewitt Poole, 1886-1962), Ireland.
+Electrons can move (slowly) through an insulator by the following method. The electrons are generally trapped in localized states (loosely speaking, they are "stuck" to a single atom, and not free to move around the crystal). Occasionally, random thermal fluctuations will give that electron enough energy to get out of its localized state, and move to the conduction band. Once there, the electron can move through the crystal, for a brief amount of time, before relaxing into another localized state (in other words, "sticking" to a different atom). The Poole–Frenkel effect describes how, in a large electric field, the electron doesn't need as much thermal energy to get into the conduction band (because part of this energy comes from being pulled by the electric field), so it does not need as large a thermal fluctuation and will be able to move more frequently.
+Taking everything into account (both the frequency with which electrons get excited into the conduction band, and their motion once they're there), the standard quantitative expression for the Poole–Frenkel effect is:
+
+where:
+J is the current density
+E is the applied electric field
+q is the elementary charge
+ is the voltage barrier (in zero applied electric field) that an electron must cross to move from one atom to another in the crystal
+ is the dynamic permittivity
+ is Boltzmann's constant
+T is the temperature.
+
+
+== References ==
+
+
+== External links ==
+Slides on leakage mechanisms in insulators, including the Poole–Frenkel effect
+Diagram of an electron undergoing Poole-Frenkel emission <- dead link

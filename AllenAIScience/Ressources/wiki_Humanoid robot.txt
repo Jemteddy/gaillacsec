@@ -1,0 +1,68 @@
+A humanoid robot is a robot with its body shape built to resemble that of the human body. A humanoid design might be for functional purposes, such as interacting with human tools and environments, for experimental purposes, such as the study of bipedal locomotion, or for other purposes. In general, humanoid robots have a torso, a head, two arms, and two legs, though some forms of humanoid robots may model only part of the body, for example, from the waist up. Some humanoid robots may also have heads designed to replicate human facial features such as eyes and mouths. Androids are humanoid robots built to aesthetically resemble humans.
+
+
+== Purpose ==
+
+Humanoid robots are used as a research tool in several scientific areas.
+Researchers need to understand the human body structure and behavior (biomechanics) to build and study humanoid robots. On the other side, the attempt to the simulation of the human body leads to a better understanding of it.
+Human cognition is a field of study which is focused on how humans learn from sensory information in order to acquire perceptual and motor skills. This knowledge is used to develop computational models of human behavior and it has been improving over time.
+It has been suggested that very advanced robotics will facilitate the enhancement of ordinary humans. See transhumanism.
+Although the initial aim of humanoid research was to build better orthosis and prosthesis for human beings, knowledge has been transferred between both disciplines. A few examples are: powered leg prosthesis for neuromuscularly impaired, ankle-foot orthosis, biological realistic leg prosthesis and forearm prosthesis.
+Besides the research, humanoid robots are being developed to perform human tasks like personal assistance, where they should be able to assist the sick and elderly, and dirty or dangerous jobs. Regular jobs like being a receptionist or a worker of an automotive manufacturing line are also suitable for humanoids. In essence, since they can use tools and operate equipment and vehicles designed for the human form, humanoids could theoretically perform any task a human being can, so long as they have the proper software. However, the complexity of doing so is deceptively great.
+They are becoming increasingly popular for providing entertainment too. For example, Ursula, a female robot, sings, play music, dances, and speaks to her audiences at Universal Studios. Several Disney attractions employ the use of animatrons, robots that look, move, and speak much like human beings, in some of their theme park shows. These animatrons look so realistic that it can be hard to decipher from a distance whether or not they are actually human. Although they have a realistic look, they have no cognition or physical autonomy. Various humanoid robots and their possible applications in daily life are featured in an independent documentary film called Plug & Pray, which was released in 2010.
+Humanoid robots, especially with artificial intelligence algorithms, could be useful for future dangerous and/or distant space exploration missions, without having the need to turn back around again and return to Earth once the mission is completed.
+
+
+== Sensors ==
+A sensor is a device that measures some attribute of the world. Being one of the three primitives of robotics (besides planning and control), sensing plays an important role in robotic paradigms.
+Sensors can be classified according to the physical process with which they work or according to the type of measurement information that they give as output. In this case, the second approach was used.
+
+
+=== Proprioceptive sensors ===
+Proprioceptive sensors sense the position, the orientation and the speed of the humanoid's body and joints.
+In human beings the otoliths and semi-circular canals (in the inner ear) are used to maintain balance and orientation. In addition humans use their own proprioceptive sensors (e.g. touch, muscle extension, limb position) to help with their orientation._ Humanoid robots use accelerometers to measure the acceleration, from which velocity can be calculated by integration; tilt sensors to measure inclination; force sensors placed in robot's hands and feet to measure contact force with environment; position sensors, that indicate the actual position of the robot (from which the velocity can be calculated by derivation) or even speed sensors.
+
+
+=== Exteroceptive sensors ===
+
+Arrays of tactels can be used to provide data on what has been touched. The Shadow Hand uses an array of 34 tactels arranged beneath its polyurethane skin on each finger tip. Tactile sensors also provide information about forces and torques transferred between the robot and other objects.
+Vision refers to processing data from any modality which uses the electromagnetic spectrum to produce an image. In humanoid robots it is used to recognize objects and determine their properties. Vision sensors work most similarly to the eyes of human beings. Most humanoid robots use CCD cameras as vision sensors.
+Sound sensors allow humanoid robots to hear speech and environmental sounds, and perform as the ears of the human being. Microphones are usually used for this task.
+
+
+== Actuators ==
+Actuators are the motors responsible for motion in the robot.
+Humanoid robots are constructed in such a way that they mimic the human body, so they use actuators that perform like muscles and joints, though with a different structure. To achieve the same effect as human motion, humanoid robots use mainly rotary actuators. They can be either electric, pneumatic, hydraulic, piezoelectric or ultrasonic.
+Hydraulic and electric actuators have a very rigid behavior and can only be made to act in a compliant manner through the use of relatively complex feedback control strategies. While electric coreless motor actuators are better suited for high speed and low load applications, hydraulic ones operate well at low speed and high load applications.
+Piezoelectric actuators generate a small movement with a high force capability when voltage is applied. They can be used for ultra-precise positioning and for generating and handling high forces or pressures in static or dynamic situations.
+Ultrasonic actuators are designed to produce movements in a micrometer order at ultrasonic frequencies (over 20 kHz). They are useful for controlling vibration, positioning applications and quick switching.
+Pneumatic actuators operate on the basis of gas compressibility. As they are inflated, they expand along the axis, and as they deflate, they contract. If one end is fixed, the other will move in a linear trajectory. These actuators are intended for low speed and low/medium load applications. Between pneumatic actuators there are: cylinders, bellows, pneumatic engines, pneumatic stepper motors and pneumatic artificial muscles.
+
+
+== Planning and control ==
+In planning and control, the essential difference between humanoids and other kinds of robots (like industrial ones) is that the movement of the robot has to be human-like, using legged locomotion, especially biped gait. The ideal planning for humanoid movements during normal walking should result in minimum energy consumption, like it does in the human body. For this reason, studies on dynamics and control of these kinds of structures become more and more important.
+The question of walking biped robots stabilization on the surface is of great importance. Maintenance of the robot’s gravity center over the center of bearing area for providing a stable position can be chosen as a goal of control.
+To maintain dynamic balance during the walk, a robot needs information about contact force and its current and desired motion. The solution to this problem relies on a major concept, the Zero Moment Point (ZMP).
+Another characteristic of humanoid robots is that they move, gather information (using sensors) on the "real world" and interact with it. They don’t stay still like factory manipulators and other robots that work in highly structured environments. To allow humanoids to move in complex environments, planning and control must focus on self-collision detection, path planning and obstacle avoidance.
+Humanoids don't yet have some features of the human body. They include structures with variable flexibility, which provide safety (to the robot itself and to the people), and redundancy of movements, i.e. more degrees of freedom and therefore wide task availability. Although these characteristics are desirable to humanoid robots, they will bring more complexity and new problems to planning and control.
+
+
+== Timeline of developments ==
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Carpenter, J., Davis, J., Erwin‐Stewart, N., Lee. T., Bransford, J. & Vye, N. (2009). Gender representation in humanoid robots for domestic use. International Journal of Social Robotics (special issue). 1 (3), 261‐265.The Netherlands: Springer.
+Carpenter, J., Davis, J., Erwin‐Stewart, N., Lee. T., Bransford, J. & Vye, N. (2008). Invisible machinery in function, not form: User expectations of a domestic humanoid robot. Proceedings of 6th conference on Design and Emotion. Hong Kong, China.
+Williams, Karl P. (2004). Build Your Own Human Robots: 6 Amazing and Affordable Projects. McGraw-Hill/TAB Electronics. ISBN 0-07-142274-9. ISBN 978-0-07-142274-1.
+
+
+== External links ==

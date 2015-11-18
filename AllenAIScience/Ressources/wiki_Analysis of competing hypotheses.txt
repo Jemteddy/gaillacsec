@@ -1,0 +1,63 @@
+The analysis of competing hypotheses (ACH) provides an unbiased methodology for evaluating multiple competing hypotheses for observed data. It was developed by Richards (Dick) J. Heuer, Jr., a 45-year veteran of the Central Intelligence Agency, in the 1970s for use by the Agency. ACH is used by analysts in various fields who make judgments that entail a high risk of error in reasoning. It helps an analyst overcome, or at least minimize, some of the cognitive limitations that make prescient intelligence analysis so difficult to achieve.
+ACH was indeed a step forward in intelligence analysis methodology, but it was first described in relatively informal terms. Producing the best available information from uncertain data remains the goal of researchers, tool-builders, and analysts in industry, academia and government. Their domains include data mining, cognitive psychology and visualization, probability and statistics, etc. Abductive reasoning is an earlier concept with similarities to ACH.
+
+
+== Process ==
+Heuer outlines the ACH process in considerable depth in his book, Psychology of Intelligence Analysis. It consists of the following steps:
+Hypothesis – The first step of the process is to identify all potential hypotheses, preferably using a group of analysts with different perspectives to brainstorm the possibilities. The process discourages the analyst from choosing one "likely" hypothesis and using evidence to prove its accuracy. Cognitive bias is minimized when all possible hypotheses are considered.
+Evidence – The analyst then lists evidence and arguments (including assumptions and logical deductions) for and against each hypothesis.
+Diagnostics – Using a matrix, the analyst applies evidence against each hypothesis in an attempt to disprove as many theories as possible. Some evidence will have greater "diagnosticity" than other evidence — that is, some will be more helpful in judging the relative likelihood of alternative hypotheses. This step is the most important, according to Heuer. Instead of looking at one hypothesis and all the evidence ("working down" the matrix), the analyst is encouraged to consider one piece of evidence at a time, and examine it against all possible hypotheses ("working across" the matrix).
+Refinement – The analyst reviews the findings, identifies any gaps, and collects any additional evidence needed to refute as many of the remaining hypotheses as possible.
+Inconsistency – The analyst then seeks to draw tentative conclusions about the relative likelihood of each hypothesis. Less consistency implies a lower likelihood. The least consistent hypotheses are eliminated. While the matrix generates a definitive mathematical total for each hypothesis, the analyst must use their judgment to make the final conclusion. The result of the ACH analysis itself must not overrule analysts' own judgments.
+Sensitivity – The analyst tests the conclusions using sensitivity analysis, which weighs how the conclusion would be affected if key evidence or arguments were wrong, misleading, or subject to different interpretations. The validity of key evidence and the consistency of important arguments are double-checked to assure the soundness of the conclusion's linchpins and drivers.
+Conclusions and evaluation – Finally, the analyst provides the decisionmaker with his or her conclusions, as well as a summary of alternatives that were considered and why they were rejected. The analyst also identifies milestones in the process that can serve as indicators in future analyses.
+
+
+== Strengths ==
+There are many benefits of doing an ACH matrix. It is auditable. It is widely believed to help overcome cognitive biases, though there is a lack of strong empirical evidence to support this belief. Since the ACH requires the analyst to construct a matrix, the evidence and hypotheses can be backtracked. This allows the decisionmaker or other analysts to see the sequence of rules and data that led to the conclusion.
+
+
+== Weaknesses ==
+The process to create an ACH is time consuming. The ACH matrix can be problematic when analyzing a complex project. It can be cumbersome for an analyst to manage a large database with multiple pieces of evidence.
+Especially in intelligence, both governmental and business, analysts must always be aware that the opponent(s) is intelligent and may be generating information intended to deceive. Since deception often is the result of a cognitive trap, Elsaesser and Stech use state-based hierarchical plan recognition (see abductive reasoning) to generate causal explanations of observations. The resulting hypotheses are converted to a dynamic Bayesian network and value of information analysis is employed to isolate assumptions implicit in the evaluation of paths in, or conclusions of, particular hypotheses. As evidence in the form of observations of states or assumptions is observed, they can become the subject of separate validation. Should an assumption or necessary state be negated, hypotheses depending on it are rejected. This is a form of root cause analysis.
+Evidence also presents a problem if it is unreliable. The evidence used in the matrix is static and therefore it can be a snapshot in time.
+According to social constructivist critics, ACH also fails to stress sufficiently (or to address as a method) the problematic nature of the initial formation of the hypotheses used to create its grid. There is considerable evidence, for example, that in addition to any bureaucratic, psychological, or political biases that may affect hypothesis generation, there are also factors of culture and identity at work. These socially constructed factors may restrict or pre-screen which hypotheses end up being considered, and then reinforce confirmation bias in those selected.
+van Gelder has made the following criticisms:
+ACH demands that the analyst makes too many discrete judgments, a great many of which contribute little if anything to discerning the best hypothesis
+ACH misconceives the nature of the relationship between items of evidence and hypotheses by supposing that items of evidence are, on their own, consistent or inconsistent with hypotheses.
+ACH treats the hypothesis set as "flat", i.e. a mere list, and so is unable to relate evidence to hypotheses at the appropriate levels of abstraction
+ACH cannot represent subordinate argumentation, i.e. the argumentation bearing up on a piece of evidence.
+ACH activities at realistic scales leave analysts disoriented or discombobulated.
+
+
+=== Structured analysis of competing hypotheses ===
+The structured analysis of competing hypotheses offers analysts an improvement over the limitations of the original ACH. The SACH maximizes the possible hypotheses by allowing the analyst to split one hypothesis into two complex ones.
+For example, two tested hypotheses could be that Iraq has WMD or Iraq does not have WMD. If the evidence showed that it is more likely there are WMDs in Iraq then two new hypotheses could be formulated: WMD are in Baghdad or WMD are in Mosul. Or perhaps, the analyst may need to know what type of WMD Iraq has; the new hypotheses could be that Iraq has biological WMD, Iraq has chemical WMD and Iraq has nuclear WMD. By giving the ACH structure, the analyst is able to give a nuanced estimate.
+
+
+=== Other approaches to formalism ===
+One method, by Valtorta and colleagues uses probabilistic methods, adds Bayesian analysis to ACH. A generalization of this concept to a distributed community of analysts lead to the development of CACHE (the Collaborative ACH Environment), which introduced the concept of a Bayes (or Bayesian) community. The work by Akram and Wang applies paradigms from graph theory.
+Other work focuses less on probabilistic methods and more on cognitive and visualization extensions to ACH, as discussed by Madsen and Hicks. DECIDE, discussed under automation is visualization-oriented.
+Work by Pope and Jøsang uses subjective logic, a formal mathematical methodology that explicitly deals with uncertainty. This methodology forms the basis of the Sheba technology that is used in Veriluma's intelligence assessment software.
+
+
+== Automation ==
+A few online and downloadable tools help automate the ACH process. These programs leave a visual trail of evidence and allow the analyst to weigh evidence.
+PARC ACH 2.0 was developed by Palo Alto Research Center (PARC) in collaboration with Richards J. Heuer, Jr. It is a standard ACH program that allows analysts to enter evidence and rate its credibility and relevance. Another useful program is the Decision Command software created by Dr. Willard Zangwill.
+SSS Research, Inc. is an analytic research firm that created DECIDE. DECIDE not only allows analysts to manipulate ACH, but it provides multiple visualization products.
+Competing Hypotheses is an open source ACH implementation. Intelligence Dynamics is an online subscription-based ACH solution.
+
+
+== See also ==
+Intelligence analysis
+Intelligence (information gathering)
+Cognitive bias
+Words of estimative probability
+Bayesian community
+
+
+== Notes ==
+
+
+== External links ==
+http://competinghypotheses.org/

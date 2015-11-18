@@ -1,0 +1,119 @@
+In nuclear physics and nuclear chemistry, a nuclear reaction is semantically considered to be the process in which two nuclei, or else a nucleus of an atom and a subatomic particle (such as a proton, neutron, or high energy electron) from outside the atom, collide to produce one or more nuclides that are different from the nuclide(s) that began the process. Thus, a nuclear reaction must cause a transformation of at least one nuclide to another. If a nucleus interacts with another nucleus or particle and they then separate without changing the nature of any nuclide, the process is simply referred to as a type of nuclear scattering, rather than a nuclear reaction.
+In principle, a reaction can involve more than two particles colliding, but because the probability of three or more nuclei to meet at the same time at the same place is much less than for two nuclei, such an event is exceptionally rare (see triple alpha process for an example very close to a three-body nuclear reaction). "Nuclear reaction" is a term implying an induced change in a nuclide, and thus it does not apply to any type of radioactive decay (which by definition is a spontaneous process).
+Natural nuclear reactions occur in the interaction between cosmic rays and matter, and nuclear reactions can be employed artificially to obtain nuclear energy, at an adjustable rate, on demand. Perhaps the most notable nuclear reactions are the nuclear chain reactions in fissionable materials that produces induced nuclear fission, and the various nuclear fusion reactions of light elements that power the energy production of the Sun and stars. Both of these types of reactions are employed in nuclear weapons.
+
+
+== NotationEdit ==
+Nuclear reactions may be shown in a form similar to chemical equations, for which invariant mass must balance for each side of the equation, and in which transformations of particles must follow certain conservation laws, such as conservation of charge and baryon number (total atomic mass number). An example of this notation follows:
+
+To balance the equation above for mass, charge and mass number, the second nucleus to the right must have atomic number 2 and mass number 4; it is therefore also helium-4. The complete equation therefore reads:
+
+or more simply:
+
+Instead of using the full equations in the style above, in many situations a compact notation is used to describe nuclear reactions. This style of the form A(b,c)D is equivalent to A + b producing c + D. Common light particles are often abbreviated in this shorthand, typically p for proton, n for neutron, d for deuteron, α representing an alpha particle or helium-4, β for beta particle or electron, γ for gamma photon, etc. The reaction above would be written as Li-6(d,α)α.
+
+
+== HistoryEdit ==
+In 1917, Ernest Rutherford was able to accomplish transmutation of nitrogen into oxygen at the University of Manchester, using alpha particles directed at nitrogen 14N + α → 17O + p.  This was the first observation of an induced nuclear reaction, that is, a reaction in which particles from one decay are used to transform another atomic nucleus. Eventually, in 1932 at Cambridge University, a fully artificial nuclear reaction and nuclear transmutation was achieved by Rutherford's colleagues John Cockcroft and Ernest Walton, who used artificially accelerated protons against lithium-7, to split the nucleus into two alpha particles. The feat was popularly known as "splitting the atom", although it was not the modern nuclear fission reaction later discovered in heavy elements, in 1938 by the German scientists Otto Hahn and Fritz Straßmann.
+
+
+== Energy conservationEdit ==
+Kinetic energy may be released during the course of a reaction (exothermic reaction) or kinetic energy may have to be supplied for the reaction to take place (endothermic reaction). This can be calculated by reference to a table of very accurate particle rest masses, as follows: according to the reference tables, the 6
+3Li nucleus has a relative atomic mass of 6.015 atomic mass units (abbreviated u), the deuterium has 2.014 u, and the helium-4 nucleus has 4.0026 u Thus:
+Total rest mass on left side = 6.015 + 2.014 = 8.029 u
+Total rest mass on right side = 2 × 4.0026 = 8.0052 u
+Missing rest mass = 8.029 – 8.0052 = 0.0238 atomic mass units.
+In a nuclear reaction, the total (relativistic) energy is conserved. The "missing" rest mass must therefore reappear as kinetic energy released in the reaction; its source is the nuclear binding energy. Using Einstein's mass-energy equivalence formula E = mc², the amount of energy released can be determined. We first need the energy equivalent of one atomic mass unit:
+1 u c² = (1.66054 × 10−27 kg) × (2.99792 × 108 m/s)² 
+= 1.49242 × 10−10 kg (m/s)² = 1.49242 × 10−10 J (Joule)
+× (1 MeV / 1.60218 × 10−13 J)
+= 931.49 MeV,
+so 1 u c² = 931.49 MeV.
+Hence, the energy released is 0.0238 × 931 MeV = 22.2 MeV.
+Expressed differently: the mass is reduced by 0.3%, corresponding to 0.3% of 90 PJ/kg is 270 TJ/kg.
+This is a large amount of energy for a nuclear reaction; the amount is so high because the binding energy per nucleon of the helium-4 nucleus is unusually high, because the He-4 nucleus is "doubly magic". (The He-4 nucleus is unusually stable and tightly bound for the same reason that the helium atom is inert: each pair of protons and neutrons in He-4 occupies a filled 1s nuclear orbital in the same way that the pair of electrons in the helium atom occupy a filled 1s electron orbital). Consequently, alpha particles appear frequently on the right hand side of nuclear reactions.
+The energy released in a nuclear reaction can appear mainly in one of three ways:
+kinetic energy of the product particles
+emission of very high energy photons, called gamma rays
+some energy may remain in the nucleus, as a metastable energy level.
+When the product nucleus is metastable, this is indicated by placing an asterisk ("*") next to its atomic number. This energy is eventually released through nuclear decay.
+A small amount of energy may also emerge in the form of X-rays. Generally, the product nucleus has a different atomic number, and thus the configuration of its electron shells is wrong. As the electrons rearrange themselves and drop to lower energy levels, internal transition X-rays (X-rays with precisely defined emission lines) may be emitted.
+
+
+== Q-value and energy balanceEdit ==
+In writing down the reaction equation, in a way analogous to a chemical equation, one may in addition give the reaction energy on the right side:
+
+Target nucleus + projectile → Final nucleus + ejectile + Q.
+
+For the particular case discussed above, the reaction energy has already been calculated as Q = 22.2 MeV. Hence:
+
+The reaction energy (the "Q-value") is positive for exothermal reactions and negative for endothermal reactions. On the one hand, it is the difference between the sums of kinetic energies on the final side and on the initial side. But on the other hand, it is also the difference between the nuclear rest masses on the initial side and on the final side (in this way, we have calculated the Q-value above).
+
+
+== Reaction ratesEdit ==
+If the reaction equation is balanced, that does not mean that the reaction really occurs. The rate at which reactions occur depends on the particle energy, the particle flux and the reaction cross section. An example of a large repository of reaction rates is the REACLIB database, as maintained by the Joint Institute for Nuclear Astrophysics.
+
+
+== Neutrons vs. ionsEdit ==
+In the initial collision which begins the reaction, the particles must approach closely enough so that the short range strong force can affect them. As most common nuclear particles are positively charged, this means they must overcome considerable electrostatic repulsion before the reaction can begin. Even if the target nucleus is part of a neutral atom, the other particle must penetrate well beyond the electron cloud and closely approach the nucleus, which is positively charged. Thus, such particles must be first accelerated to high energy, for example by:
+particle accelerators
+nuclear decay (alpha particles are the main type of interest here, since beta and gamma rays are rarely involved in nuclear reactions)
+very high temperatures, on the order of millions of degrees, producing thermonuclear reactions
+cosmic rays
+Also, since the force of repulsion is proportional to the product of the two charges, reactions between heavy nuclei are rarer, and require higher initiating energy, than those between a heavy and light nucleus; while reactions between two light nuclei are the most common ones.
+Neutrons, on the other hand, have no electric charge to cause repulsion, and are able to initiate a nuclear reaction at very low energies. In fact, at extremely low particle energies (corresponding, say, to thermal equilibrium at room temperature), the neutron's de Broglie wavelength is greatly increased, possibly greatly increasing its capture cross section, at energies close to resonances of the nuclei involved. Thus low energy neutrons may be even more reactive than high energy neutrons.
+
+
+== Notable typesEdit ==
+While the number of possible nuclear reactions is immense, there are several types which are more common, or otherwise notable. Some examples include:
+Fusion reactions — two light nuclei join to form a heavier one, with additional particles (usually protons or neutrons) thrown off to conserve momentum.
+Spallation — a nucleus is hit by a particle with sufficient energy and momentum to knock out several small fragments or smash it into many fragments.
+Induced gamma emission belongs to a class in which only photons were involved in creating and destroying states of nuclear excitation.
+Alpha decay - Though driven by the same underlying forces as spontaneous fission, α decay is usually considered to be separate from the latter. The often-quoted idea that "nuclear reactions" are confined to induced processes is incorrect. "Radioactive decays" are a subgroup of "nuclear reactions" that are spontaneous rather than induced. For example, so-called "hot alpha particles" with unusually high energies may actually be produced in induced ternary fission, which is an induced nuclear reaction (contrasting with spontaneous fission). Such alphas occur from spontaneous ternary fission as well.
+Neutron-induced nuclear fission reactions – a very heavy nucleus, spontaneously or after absorbing additional light particles (usually neutrons), splits into two or sometimes three pieces. This is an induced nuclear reaction. Spontaneous fission, which occurs without assistance of the neutron, is usually not considered a nuclear reaction. At most, it is not an induced nuclear reaction.
+
+
+=== Direct reactionsEdit ===
+An intermediate energy projectile transfers energy or picks up or loses nucleons to the nucleus in a single quick (10−21 second) event. Energy and momentum transfer are relatively small. These are particularly useful in experimental nuclear physics, because the reaction mechanisms are often simple enough to calculate with sufficient accuracy to probe the structure of the target nucleus.
+
+
+==== Inelastic scatteringEdit ====
+
+Only energy and momentum are transferred.
+(p,p') tests differences between nuclear states
+(α,α') measures nuclear surface shapes and sizes. Since α particles that hit the nucleus react more violently, elastic and shallow inelastic α scattering are sensitive to the shapes and sizes of the targets, like light scattered from a small black object.
+(e,e') is useful for probing the interior structure. Since electrons interact less strongly than do protons and neutrons, they reach to the centers of the targets and their wave functions are less distorted by passing through the nucleus.
+
+
+==== Transfer reactionsEdit ====
+Usually at moderately low energy, one or more nucleons are transferred between the projectile and target. These are useful in studying outer shell structure of nuclei.
+(α,n) and (α,p) reactions. Some of the earliest nuclear reactions studied involved an alpha particle produced by alpha decay, knocking a nucleon from a target nucleus.
+(d,n) and (d,p) reactions. A deuteron beam impinges on a target; the target nuclei absorb either the neutron or proton from the deuteron. The deuteron is so loosely bound that this is almost the same as proton or neutron capture. A compound nucleus may be formed, leading to additional neutrons being emitted more slowly. (d,n) reactions are used to generate energetic neutrons.
+The strangeness exchange reaction (K, π) has been used to study hypernuclei.
+The reaction 14N(α,p)17O performed by Rutherford in 1917 (reported 1919), is generally regarded as the first nuclear transmutation experiment.
+
+
+==== Reactions with neutronsEdit ====
+Reactions with neutrons are important in nuclear reactors and nuclear weapons. While the best known neutron reactions are neutron scattering, neutron capture, and nuclear fission, for some light nuclei (especially odd-odd nuclei) the most probable reaction with a thermal neutron is a transfer reaction:
+Some reactions are only possible with fast neutrons:
+(n,2n) reactions produce small amounts of protactinium-231 and uranium-232 in the thorium cycle which is otherwise relatively free of highly radioactive actinide products.
+9Be + n → 2α + 2n can contribute some additional neutrons in the beryllium neutron reflector of a nuclear weapon.
+7Li + n → T + α + n unexpectedly contributed additional yield in Castle Bravo, Castle Romeo, and Castle Yankee, the three highest-yield nuclear tests conducted by the U.S.
+
+
+=== Compound nuclear reactionsEdit ===
+Either a low energy projectile is absorbed or a higher energy particle transfers energy to the nucleus, leaving it with too much energy to be fully bound together. On a time scale of about 10−19 seconds, particles, usually neutrons, are "boiled" off. That is, it remains together until enough energy happens to be concentrated in one neutron to escape the mutual attraction. Charged particles rarely boil off because of the coulomb barrier. The excited quasi-bound nucleus is called a compound nucleus.
+Low energy (e, e' xn), (γ, xn) (the xn indicating one or more neutrons), where the gamma or virtual gamma energy is near the giant dipole resonance. These increase the need for radiation shielding around electron accelerators.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+Direct Reactions
+Compound Nucleus Reactions
+
+
+== SourcesEdit ==
+M.G. Bowler, Nuclear Physics, Pergamon Press 1973. ISBN 0-08-016983-X

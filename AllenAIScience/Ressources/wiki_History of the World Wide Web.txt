@@ -1,0 +1,96 @@
+The World Wide Web ("WWW" or simply the "Web") is a global information medium which users can read and write via computers connected to the Internet. The term is often mistakenly used as a synonym for the Internet itself, but the Web is a service that operates over the Internet, just as e-mail also does. The history of the Internet dates back significantly further than that of the World Wide Web.
+
+
+== PrecursorsEdit ==
+The hypertext portion of the Web in particular has an intricate intellectual history; notable influences and precursors include Vannevar Bush's Memex, IBM's Generalized Markup Language, and Ted Nelson's Project Xanadu.
+Paul Otlet's Mundaneum project has also been named as an early 20th century precursor of the Web.
+The concept of a global information system connecting homes is prefigured in "A Logic Named Joe", a 1946 short story by Murray Leinster, in which computer terminals, called "logics," are present in every home. Although the computer system in the story is centralized, the story anticipates a ubiquitous information environment similar to the Web.
+
+
+== 1980–1991: Invention and Implementation of the WebEdit ==
+
+In 1980, Tim Berners-Lee, an independent contractor at the European Organization for Nuclear Research (CERN), Switzerland, built ENQUIRE, as a personal database of people and software models, but also as a way to play with hypertext; each new page of information in ENQUIRE had to be linked to an existing page.
+Berners-Lee's contract in 1980 was from June to December, but In 1984 he returned to CERN in a permanent role, and considered its problems of information management: physicists from around the world needed to share data, yet they lacked common machines and any shared presentation software.
+Shortly after Berners-Lee's return to CERN, TCP/IP protocols were installed on some key non-Unix machines at the institution, turning it into the largest Internet site in Europe within a few years. As a result, CERN's infrastructure was ready for Berners-Lee to create the Web.
+Berners-Lee wrote a proposal in March 1989 for "a large hypertext database with typed links". Although the proposal attracted little interest, Berners-Lee was encouraged by his boss, Mike Sendall, to begin implementing his system on a newly acquired NeXT workstation. He considered several names, including Information Mesh, The Information Mine or Mine of Information, but settled on World Wide Web.
+
+Berners-Lee found an enthusiastic supporter in Robert Cailliau. Berners-Lee and Cailliau pitched Berners-Lee's ideas to the European Conference on Hypertext Technology in September 1990, but found no vendors who could appreciate his vision of marrying hypertext with the Internet.
+By Christmas 1990, Berners-Lee had built all the tools necessary for a working Web: the HyperText Transfer Protocol (HTTP) 0.9, the HyperText Markup Language (HTML), the first Web browser (named WorldWideWeb, which was also a Web editor), the first HTTP server software (later known as CERN httpd), the first web server (http://info.cern.ch), and the first Web pages that described the project itself. The browser could access Usenet newsgroups and FTP files as well. However, it could run only on the NeXT; Nicola Pellow therefore created a simple text browser that could run on almost any computer called the Line Mode Browser. To encourage use within CERN, Bernd Pollermann put the CERN telephone directory on the web — previously users had to log onto the mainframe in order to look up phone numbers.
+While inventing and working on setting up the Web, Berners-Lee spent most of his working hours in Building 31 at CERN (46.2325°N 6.0450°E﻿ / 46.2325; 6.0450﻿ (CERN Building 31, Birthplace of the World Wide Web)), but also at his two homes, one in France, one in Switzerland. In January 1991 the first Web servers outside CERN itself were switched on.
+The first web page may be lost, but Paul Jones of UNC-Chapel Hill in North Carolina revealed in May 2013 that he has a copy of a page sent to him in 1991 by Berners-Lee which is the oldest known web page. Jones stored the plain-text page, with hyperlinks, on a floppy disk and on his NeXT computer. CERN put the oldest known web page back online in 2014, complete with hyperlinks that helped users get started and helped them navigate what was then a very small web.
+On August 6, 1991, Berners-Lee posted a short summary of the World Wide Web project on the alt.hypertext newsgroup, inviting collaborators. This date also marked the debut of the Web as a publicly available service on the Internet, although new users could only access it after August 23.
+Paul Kunz from the Stanford Linear Accelerator Center visited CERN in September 1991, and was captivated by the Web. He brought the NeXT software back to SLAC, where librarian Louise Addis adapted it for the VM/CMS operating system on the IBM mainframe as a way to display SLAC’s catalog of online documents; this was the first web server outside of Europe and the first in North America. The www-talk mailing list was started in the same month.
+An early CERN-related contribution to the Web was the parody band Les Horribles Cernettes, whose promotional image is believed to be among the Web's first five pictures.
+
+
+== 1992–1995: Growth of the WebEdit ==
+In keeping with its birth at CERN, early adopters of the World Wide Web were primarily university-based scientific departments or physics laboratories such as Fermilab and SLAC. By January 1993 there were fifty Web servers across the world; by October 1993 there were over five hundred.
+Early websites intermingled links for both the HTTP web protocol and the then-popular Gopher protocol, which provided access to content through hypertext menus presented as a file system rather than through HTML files. Early Web users would navigate either by bookmarking popular directory pages, such as Berners-Lee's first site at http://info.cern.ch/, or by consulting updated lists such as the NCSA "What's New" page. Some sites were also indexed by WAIS, enabling users to submit full-text searches similar to the capability later provided by search engines.
+By the end of 1994, the total number of websites was still minute compared to present figures, but quite a number of notable websites were already active, many of which are the precursors or inspiring examples of today's most popular services.
+
+
+=== Early browsersEdit ===
+Initially, a web browser was available only for the NeXT operating system. This shortcoming was discussed in January 1992, and alleviated in April 1992 by the release of Erwise, an application developed at the Helsinki University of Technology, and in May by ViolaWWW, created by Pei-Yuan Wei, which included advanced features such as embedded graphics, scripting, and animation. ViolaWWW was originally an application for HyperCard. Both programs ran on the X Window System for Unix.
+Students at the University of Kansas adapted an existing text-only hypertext browser, Lynx, to access the web. Lynx was available on Unix and DOS, and some web designers, unimpressed with glossy graphical websites, held that a website not accessible through Lynx wasn’t worth visiting.
+The first Microsoft Windows browser was Cello, written by Thomas R. Bruce for the Legal Information Institute at Cornell Law School to provide legal information, since access to Windows was more widespread amongst lawyers than access to Unix. Cello was released in June 1993.
+The Web was first popularized by Mosaic, a graphical browser launched in 1993 by Marc Andreessen's team at the National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign (UIUC). The origins of Mosaic date to 1992. In November 1992, the NCSA at the University of Illinois (UIUC) established a website. In December 1992, Andreessen and Eric Bina, students attending UIUC and working at the NCSA, began work on Mosaic with funding from the High-Performance Computing and Communications Initiative, a US-federal research and development program. Andreessen and Bina released a Unix version of the browser in February 1993; Mac and Windows versions followed in August 1993. The browser gained popularity due to its strong support of integrated multimedia, and the authors’ rapid response to user bug reports and recommendations for new features.
+After graduation from UIUC, Andreessen and James H. Clark, former CEO of Silicon Graphics, met and formed Mosaic Communications Corporation to develop the Mosaic browser commercially. The company changed its name to Netscape in April 1994, and the browser was developed further as Netscape Navigator.
+
+
+=== Web governanceEdit ===
+In May 1994, the first International WWW Conference, organized by Robert Cailliau, was held at CERN; the conference has been held every year since. In April 1993, CERN had agreed that anyone could use the Web protocol and code royalty-free; this was in part a reaction to the perturbation caused by the University of Minnesota's announcement that it would begin charging license fees for its implementation of the Gopher protocol.
+In September 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology with support from the Defense Advanced Research Projects Agency (DARPA) and the European Commission. It comprised various companies that were willing to create standards and recommendations to improve the quality of the Web. Berners-Lee made the Web available freely, with no patent and no royalties due. The W3C decided that its standards must be based on royalty-free technology, so they can be easily adopted by anyone.
+
+
+== 1996–1998: Commercialization of the WebEdit ==
+
+By 1996 it became obvious to most publicly traded companies that a public Web presence was no longer optional. Though at first people saw mainly the possibilities of free publishing and instant worldwide information, increasing familiarity with two-way communication over the "Web" led to the possibility of direct Web-based commerce (e-commerce) and instantaneous group communications worldwide. More dotcoms, displaying products on hypertext webpages, were added into the Web.
+
+
+== 1999–2001: "Dot-com" boom and bustEdit ==
+Low interest rates in 1998–99 facilitated an increase in start-up companies. Although a number of these new entrepreneurs had realistic plans and administrative ability, most of them lacked these characteristics but were able to sell their ideas to investors because of the novelty of the dot-com concept.
+Historically, the dot-com boom can be seen as similar to a number of other technology-inspired booms of the past including railroads in the 1840s, automobiles in the early 20th century, radio in the 1920s, television in the 1940s, transistor electronics in the 1950s, computer time-sharing in the 1960s, and home computers and biotechnology in the early 1980s.
+In 2001 the bubble burst, and many dot-com startups went out of business after burning through their venture capital and failing to become profitable. Many others, however, did survive and thrive in the early 21st century. Many companies which began as online retailers blossomed and became highly profitable. More conventional retailers found online merchandising to be a profitable additional source of revenue. While some online entertainment and news outlets failed when their seed capital ran out, others persisted and eventually became economically self-sufficient. Traditional media outlets (newspaper publishers, broadcasters and cablecasters in particular) also found the Web to be a useful and profitable additional channel for content distribution, and an additional means to generate advertising revenue. The sites that survived and eventually prospered after the bubble burst had two things in common; a sound business plan, and a niche in the marketplace that was, if not unique, particularly well-defined and well-served.
+
+
+== 2002–present: The Web becomes ubiquitousEdit ==
+In the aftermath of the dot-com bubble, telecommunications companies had a great deal of overcapacity as many Internet business clients went bust. That, plus ongoing investment in local cell infrastructure kept connectivity charges low, and helping to make high-speed Internet connectivity more affordable. During this time, a handful of companies found success developing business models that helped make the World Wide Web a more compelling experience. These include airline booking sites, Google's search engine and its profitable approach to keyword-based advertising, as well as eBay's auction site and Amazon.com's online department store.
+This new era also begot social networking websites, such as MySpace and Facebook, which gained acceptance rapidly and became a central part of youth culture.
+
+
+=== Web 2.0Edit ===
+Beginning in 2002, new ideas for sharing and exchanging content ad hoc, such as Weblogs and RSS, rapidly gained acceptance on the Web. This new model for information exchange, primarily featuring user-generated and user-edited websites, was dubbed Web 2.0. The Web 2.0 boom was seen many new service-oriented startups catering to a newly democratized Web.
+As the Web became easier to query, it attained a greater ease of use overall and gained a sense of organization which ushered in a period of rapid popularization. New sites such as Wikipedia and its sister projects are based on the concept of user edited content. In 2005, three former PayPal employees created a video viewing website called YouTube, which became popular quickly and introduced a new concept of user-submitted content in major events.
+The popularity of YouTube, Facebook, etc., combined with the increasing availability and affordability of high-speed connections has made video content far more common on all kinds of websites. Many video-content hosting and creation sites provide an easy means for their videos to be embedded on third party websites without payment or permission.
+This combination of more user-created or edited content, and easy means of sharing content, such as via RSS widgets and video embedding, has led to many sites with a typical "Web 2.0" feel. They have articles with embedded video, user-submitted comments below the article, and RSS boxes to the side, listing some of the latest articles from other sites.
+Continued extension of the Web has focused on connecting devices to the Internet, coined Intelligent Device Management. As Internet connectivity becomes ubiquitous, manufacturers have started to leverage the expanded computing power of their devices to enhance their usability and capability. Through Internet connectivity, manufacturers are now able to interact with the devices they have sold and shipped to their customers, and customers are able to interact with the manufacturer (and other providers) to access new content.
+"Web 2.0" has found a place in the English lexicon.
+
+
+=== The semantic webEdit ===
+Popularized by Berners-Lee's book Weaving the Web and a Scientific American article by Berners-Lee, James Hendler, and Ora Lassila, the term Semantic Web describes an evolution of the existing Web in which the network of hyperlinked human-readable web pages is extended by machine-readable metadata about documents and how they are related to each other, enabling automated agents to access the Web more intelligently and perform tasks on behalf of users. This has yet to happen. In 2006, Berners-Lee and colleagues stated that the idea "remains largely unrealized".
+
+
+== See alsoEdit ==
+Hypermedia
+Linked Data
+Computer Lib / Dream Machines
+History of hypertext
+History of the web browser
+History of web syndication technology
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+First World Web site
+Bemer, Bob, "A History of Source Concepts for the Internet/Web"
+The World Wide Web History Project
+Important Events in the History of the World Wide Web
+"Principal Figures in the Development of the Internet and the World Wide Web". University of North Carolina. Retrieved July 3, 2006. 
+"How It All Started" (slides), Tim Berners-Lee, W3C, December 2004
+"A Little History of the World Wide Web: from 1945 to 1995", Dan Connolly, W3C, 2000
+"The World Wide Web: Past, Present and Future", Tim Berners-Lee, August 1996
+Internet History, Computer History Museum
+25 Years of the Internet

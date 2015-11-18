@@ -1,0 +1,83 @@
+The Lunar Lander is a robotic mission to send a lander vehicle to the Moon, led by ESA's Human Spaceflight and Operations directorate. The primary objective of the Lunar Lander mission is to demonstrate Europe’s ability to deliver payload safely and accurately to the Moon’s surface. More specifically the mission shall demonstrate the technologies required to achieve a soft and precise landing while autonomously avoiding surface hazards that can endanger landing and surface mission safety. These technologies will be an asset for future human and robotic exploration missions. However the project was put on hold at the 2012 ESA Ministerial Council.
+
+
+== Mission scenario ==
+
+
+=== Launch and transfer ===
+Launching from Centre Spatial Guyanais, Kourou in late 2018 on a Soyuz launcher, the Lander is injected into a Highly Elliptical Orbit (HEO) by a Fregat-MT upper stage, through a series of intermediate orbits. Following Fregat separation, the lander uses its own propulsion to enter the final Lunar Transfer Orbit and, after an overall transfer time of several weeks, injects itself into a polar orbit around the Moon. After a series of Apolune and Perilune lowering manoeuvres, the Lander reaches its final Low Lunar Orbit (LLO) at 100 km altitude.
+
+
+=== Low lunar orbit ===
+Once in low lunar orbit the Lunar Lander prepares for the final phase of the mission waiting for the correct constellation of orbit, Earth and Sun geometry and performing the checkout and calibration operations of the systems critical for landing. The time spent by the Lander in LLO before the start of the landing operations is expected to last from a number of weeks up to a maximum of 3 months.
+
+
+=== Descent and landing ===
+The descent and landing phase of the mission starts when the Lander performs a de-orbit burn close to the lunar north pole. This burn decreases the orbit's perigee to about 15 km, some 500 km ahead of the lunar south pole, half an orbit later. During the coasting period, automatic visual recognition of landmarks on the lunar surface is used to determine the lander's precise location and to ensure correct positioning at the beginning of the final descent. Heading towards the south pole, the lander enters the final powered descent phase. Using its cluster of thrusters, the lander decelerates and descends. During this phase, a varying thrust needs to be applied as the lander approaches its landing site. Finer thrust levels are achieved using the ATV engines in pulse modulation, as shown in this video of the hot-firing tests on YouTube. At an altitude of few kilometres, the Hazard Detection and Avoidance system (HDA) is able to see the primary landing site and to evaluate it. If the primary site is deemed unsafe, due to the presence of surface hazards (like steep slopes, craters, boulders, shadows, etc.), the HDA has the opportunity to command re-targetings to a secondary landing site. When a safe landing site is found, the lander performs a soft touch down using its legs.
+
+
+=== Surface operations ===
+Once landed on the surface, the lander carries out critical operations such as deployment of its antenna and camera mast, and relays the complete package of data relating to the descend and landing sequence back to Earth. The lander relies on direct line of sight communication with Earth as no relay satellite is planned for the mission. This configuration implies periods where no communication with Earth is possible because of Earth moving outside the lander's field of view. Similarly to the Sun, Earth will be below the horizon following a monthly cycle due to Moon's tilted axis of rotation with respect its orbital plane.
+Nominal surface operations are then initiated which includes the deployment of specific payloads onto the lunar surface via a robotic arm, the activation of other static monitoring payloads on board the lander, and ultimately the acquisition of surface samples using the robotic arm for analysis by instruments on the lander.
+
+
+== Landing site ==
+The south polar region of the Moon has been identified as an important destination for future exploration missions due to the unique surface conditions found at certain sites in terms of solar illumination, the proximity of scientifically interesting locations such as permanently shadowed craters and the potential existence of resources which might be utilized. These factors combine to make this region a strong candidate for future human exploration and potentially even a long-term presence in the form of a lunar base. Recent orbital missions have provided strong evidence suggesting the south polar region’s potential as an important exploration destination.
+The extended periods of continuous Sun illumination are unique to Moon's polar regions and allow the lander to be operated by solar power. However, favourably illuminated locations are expected to be limited in size (few hundreds of metres across) and may present patches of hazardous terrain with steep slopes, boulders, craters or extended shadow. These surface conditions require the employment of dedicated autonomous, safe and precision landing technology.
+
+
+== System ==
+
+
+=== Configuration ===
+
+The main body of the Lander is cylindrical, with four landing legs extending from the sides. The circumference of the main body is covered with solar cells. The bottom side is dominated by the nozzles of the main thrusters while the top offers space for sensors and payload.
+The lander will employ a robotic arm to retrieve soil samples for on-board analysis.
+
+
+=== Precision landing and hazard detection and avoidance ===
+Polar landing sites offering long periods of continuous illumination have been found to be limited in extent, by analyses of the data from the Lunar Reconnaissance Orbiter and Kaguya. Therefore a landing precision of few hundreds of metres is required to the Lunar Lander. Compared to previous robotic lander missions (for example Surveyor), the technologies required to the Lunar Lander mission have the potential to increase the achievable landing precision by one or two orders of magnitude, reaching the performances only achieved by manned vehicles (Apollo 12 LM landed only ~150 m from the Surveyor 3 probe.)
+Potential landing sites in the polar regions are also likely to be partly covered by shadow, and may present areas of steep slopes or large rocks. In order to avoid landing on unsafe terrain, an autonomous Hazard Detection and Avoidance (HDA) system is employed. The system is composed of a LIDAR and a camera, which generate 2D and 3D images of the surface, and by the on-board computer, which uses these images to characterise the landscape underneath the lander during the final descend. If the area is deemed unsafe, the system orders a retargeting to a safe landing area, compatibly with the propellant left.
+
+
+=== Power ===
+Planetary exploration missions have often turned to Radio-Isotope devices, whether RHUs or RTGs, to support thermal control and power generation in what are often extreme temperature and energy poor environments. However for Europe, where these technologies are currently unavailable, employing such devices have important technical and programmatic impacts. While activities investigating the development of RHUs and ultimately RTGs are proceeding within Europe, it is not expected that European devices would be available in the 2018 timeframe of the Lunar Lander mission.
+Instead, the Lunar Lander is powered by solar arrays which are wrapped around the body tube. Once landed, the vehicles axis of symmetry will be almost perpendicular to the direction of the Sun ensuring continuously good illumination of the solar cells as the lander rotates with respect to the Sun (due to the rotation of the Moon).
+Batteries are used to bridge short periods without solar power. Solar power is unavailable in LLO when the lander goes into lunar eclipse and on the ground, when mountain peaks at the horizon cover the Sun. Landing operations will also be conducted relying solely on battery power.
+
+
+=== Propulsion ===
+The spacecraft employs three types of engines:
+Six 220N ATV thrusters operated in pulsed mode to deliver a variable impulse along the descent, as the engine itself has a fixed thrust level, unlike the Descent Propulsion System used on Apollo for example.
+Five 500N European Apogee Motors.
+Sixteen small attitude control thrusters
+All of the 500 and 220 N engines will be needed to deliver sufficient thrust to decelerate the lander from low lunar orbital velocity for controlled final descend.
+
+
+=== Navigation ===
+The vehicle uses traditional means of navigation during its transfer trajectory to the Moon. This includes employment of an IMU (combined unit of accelerometer and gyroscope), star trackers and sun sensors. Furthermore, range and Doppler measurements from Earth will help to determine the spacecraft's position and velocity, respectively.
+In LLO and during descend, other means of navigation need to be considered. Early study phases identified the need to use high altitude vision-based absolute navigation, along with relative visual navigation. These advanced techniques allow an improvement of the navigation performances, as compared to traditional techniques, such as inertial navigation and Earth-ground-based orbit determination. Furthermore, in order to guarantee soft landing and to reach the start of the approach phase within a tight corridor, an on-board long-range altitude estimate is required, which will be available through a combination of visual navigation and altimeter measurements.
+
+
+== Science ==
+Lunar Lander science objectives have been established in a framework of human exploration preparation. These include detailed investigation of surface parameters of strong significance for future operations on the surface, be they human and/or robotic.
+A model payload has been identified addressing the following specific topics:
+microscopic properties of dust, including shape & size distribution, and its composition
+plasma and electric field environment on the lunar surface, and the behaviour of dust within that environment
+feasibility of making radio astronomy measurements from the lunar surface
+potential volatile content of regolith (e.g. OH)
+camera package for visual data from the south pole environment
+All payloads are either statically accommodated on the lander body, held at distance from the lander by dedicated booms, or are deployed in close proximity to the lander (1–2m) by robotic arm. Payloads which analyze samples of regolith close-up will receive small amounts of material gathered from the vicinity of the lander by an acquisition device on the end of the robotic arm.
+
+
+== Current project status ==
+In August 2010, Astrium was selected as prime contractor for the Lunar Lander Phase B1, which includes breadboard activities in the area of propulsion and navigation. Phase B1 follows three feasibility studies conducted in parallel by EADS Astrium, OHB and Thales Alenia Space, which concluded in 2010.
+At ESA's Ministerial Council in November 2012, no further funding was allotted for the Lunar Lander project. Germany, being the main contributor, was unable to find sufficient financial support for the program by other member states. The German delegation at the council was led by Peter Hintze, who stated that Germany was willing to contribute 45% of the mission's total cost but was unable to secure financial backing for the remaining 55% by other member states.
+
+
+== References ==
+
+
+== External links ==
+Lunar Lander official webpage with full mission animation
+Lunar lander firing up for touchdown

@@ -1,0 +1,84 @@
+The NASA QuikSCAT (Quick Scatterometer) is an Earth observation satellite carrying the SeaWinds scatterometer. Its primary mission is to measure the surface wind speed and direction over the ice-free global oceans. Observations from QuikSCAT have a wide array of applications, and have contributed to climatological studies, weather forecasting, meteorology, oceanographic research, marine safety, commercial fishing, tracking large icebergs, and studies of land and sea ice, among others. This SeaWinds scatterometer is referred to as the QuikSCAT scatterometer to distinguish it from the nearly identical SeaWinds scatterometer flown on the ADEOS-2 satellite.
+
+
+== Mission description ==
+QuikSCAT was launched on 19 June 1999 with an initial 3-year mission requirement. QuikSCAT was a "quick recovery" mission replacing the NASA Scatterometer (NSCAT), which failed prematurely in June 1997 after just 9.5 months in operation. QuikSCAT, however, far exceeded these design expectations and continued to operate for over a decade before a bearing failure on its antenna motor ended QuikSCAT's capabilities to determine useful surface wind information on 23 November 2009. The QuikSCAT geophysical data record spans from 19 July 1999 to 21 November 2009.
+Throughout its operational lifetime, QuikSCAT measured winds in measurement swaths 1,800 km wide centered on the satellite ground track with no nadir gap, such as occurs with fan-beam scatterometers such as NSCAT. Because of its wide swath and lack of in-swath gaps, QuikSCAT was able to collect at least one vector wind measurement over 93% of the World's Oceans each day. This improved significantly over the 77% coverage provided by NSCAT. Each day, QuikSCAT recorded over 400,000 measurements of wind speed and direction. This is hundreds of times more surface wind measurements than are collected routinely from ships and buoys.
+QuikSCAT provided measurements of the wind speed and direction referenced to 10 meters above the sea surface at a spatial resolution of 25 km. Wind information cannot be retrieved within 15–30 km of coastlines or in the presence of sea ice. Precipitation generally degrades the wind measurement accuracy, although useful wind and rain information can still be obtained in mid-latitude and tropical cyclones for monitoring purposes. In addition to measuring surface winds over the ocean, scatterometers such as QuikSCAT can also provide information on the fractional coverage of sea ice, track large icebergs (>5 km in length), differentiate types of ice and snow, and detect the freeze–thaw line in polar regions.
+While the rotating dish antenna can no longer spin as designed, the rest of the instrument remains functional and data transmission capabilities remain intact, although it cannot determine the surface vector wind. It can, however, still measure radar backscatter at a fixed azimuth angle. QuikSCAT is being used in this reduced mode to cross-calibrate other scatterometers in hopes of providing long-term and consistent surface wind datasets over multiple on-orbit scatterometer platforms, including the operational European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT) Advanced Scatterometer (ASCAT) on MetOp-A and MetOp-B, India's Oceansat-2 scatterometer operated by the Indian Space Research Organization (ISRO), and the China's HaiYang-2A (HY-2A) scatterometer operated by China's National Satellite Ocean Application Service, as well as future NASA scatterometer missions in development. A NASA Senior Review panel in 2011 endorsed the continuation of the QuikSCAT mission with these modified objectives through 2013.
+
+
+== Instrument description ==
+SeaWinds uses a rotating dish antenna with two spot beams that sweep in a circular pattern. The antenna consists of a 1-meter diameter rotating dish that produces two spot beams, sweeping in a circular pattern. It radiates 110 W microwave pulses at a pulse repetition frequency (PRF) of 189 Hz. QuikSCAT operates at a frequency of 13.4 GHz, which is in the Ku-band of microwave frequencies. At this frequency, the atmosphere is mostly transparent to non-precipitating clouds and aerosols, although rain produces significant alteration of the signal.
+The spacecraft is in a sun-synchronous orbit, with equatorial crossing times of ascending swaths at about 06:00 LST ±30 minutes. Along the equator, consecutive swaths are separated by 2,800 km. QuikSCAT orbits Earth at an altitude of 802 km and at a speed of about 7 km per second.
+
+
+== Measurement description ==
+
+
+=== Wind measurement accuracy ===
+
+
+=== Measurement principles ===
+Scatterometers such as QuikSCAT emit pulses of low-power microwave radiation and measure the power reflected back to its receiving antenna from the wind-roughened sea surface. Gravity and capillary waves on the sea surface caused by the wind reflect or backscatter power emitted from the scatterometer radar primarily by means of a Bragg resonance condition. The wavelengths of these waves are roughly 1 cm and are usually in equilibrium with the local surface wind. Over water surfaces, the microwave backscatter is highly correlated with the surface wind speed and direction. The particular wavelength of the surface waves is determined by the wavelength of the microwave radiation emitted from the scatterometer's radar.
+QuikSCAT consists of an active microwave radar that infers surface winds from the roughness of the sea surface based on measurements of radar backscatter cross section, denoted as σ0. σ0 varies with surface wind speed and direction relative to the antenna azimuth, incidence angle, polarization, and radar frequency. QuikSCAT uses a dual-beam, conically scanning antenna that samples the full range of azimuth angles during each antenna revolution. Backscatter measurements are obtained at fixed incidence angles of 46° and 54°, providing up to four views of each region of the surface at different incidence angles.
+Standard processing of the QuikSCAT measurements yields a spatial resolution of about 25 km. A higher spatial resolution of 12.5 km is also achieved through special processing, but has significantly more measurement noise. An even higher spatial resolution of 5 km is also produced, but only for limited regions and special cases.
+The σ0 observations are calibrated to the wind speed and direction of the wind at a reference height of 10 meters above the sea surface.
+
+
+== Construction and launch ==
+
+In 1996, the NASA Scatterometer (NSCAT) was launched aboard the Japanese Advanced Earth Observing Satellite (ADEOS-1). This satellite was designed to record surface winds over water across the world for several years. However, an unexpected failure in 1997 led to an early termination of the NSCAT project. Following this briefly successful mission, NASA began constructing a new satellite to replace the failed one. They planned to build it and have it prepared for launch as soon as possible to limit the gap in data between the two satellites. In just 12 months, the Quick Scatterometer (QuikSCAT) satellite was constructed and ready to be launched, faster than any other NASA mission since the 1950s.
+The QuikSCAT project was originally budgeted at $93 million, including the physical satellite, the launch rocket, and ongoing support for its science mission. A series of rocket failures in November 1998 grounded the Titan (rocket family) launcher fleet, delayed the launch of QuikSCAT, and added $5 million to this initial cost.
+A new instrument, the SeaWinds scatterometer, was carried on the satellite. The SeaWinds instrument, a specialized microwave radar system, measured both the speed and direction of winds near the ocean surface. It used two radars and a spinning antenna to record data across nine-tenths of the oceans of the world in a single day. It recorded roughly four hundred thousand wind measurements daily, each covering an area 1,800 kilometers (1,100 mi) in width. Jet Propulsion Laboratory and the NSCAT team jointly managed the project of construction of the satellite at the Goddard Space Flight Center. Ball Aerospace & Technologies Corp. supplied the materials to construct the satellite.
+In light of the record-setting construction time, engineers who worked on the project were given the American Electronics Achievement Award. This was only achieved due to the new type of contract made specifically for this satellite. Instead of the usual year given to select a contract and initiate development, it was constrained to one month.
+The newly constructed satellite was set to launch on a Titan II rocket from Vandenberg Air Force Base in California. The rocket lifted off at 7:15 pm PDT on 19 June 1999. Roughly two minutes and thirty seconds after launch, the first engine was shut down and the second was engaged as it moved over the Baja California Peninsula. A minute later, the nose cone, at the top of the rocket, separated into two parts. Sixteen seconds later, the rocket was re-oriented to protect the satellite from the sun. For the next 48 minutes, the two crafts flew over Antarctica and later over Madagascar, where the rocket reached its desired altitude of 500 mi (800 km).
+At 59 minutes after launch, the satellite separated from the rocket and was pushed into its circular orbit around Earth. Shortly after, the solar arrays were deployed and connection was established with the satellite at 8:32 pm PDT with a tracking station in Norway. For the next two weeks, the shuttle used bursts from its engine to fine-tune its location and correct its course to the desired motion. On July 7, eighteen days after take-off, the scatterometer was turned on and a team of 12 personnel made detailed reviews of function of QuikSCAT. A month after entering orbit, the team completed the checks, and QuikSCAT began collecting and transmitting backscatter measurements.
+
+
+== Applications ==
+
+
+=== Weather Forecasting ===
+Many operational numerical weather prediction centers began assimilating QuikSCAT data in early 2002, with preliminary assessments indicating a positive impact. The U.S. National Centers for Environmental Prediction (NCEP) and the European Centre for Medium-Range Weather Forecasts (ECMWF) led the way by initiating assimilation of QuikSCAT winds beginning, respectively, on 13 January 2002 and 22 January 2002. QuikSCAT surface winds were an important tool for analysis and forecasting at the U.S. National Hurricane Center since becoming available in near–real time in 2000.
+QuikSCAT wind fields were also used as a tool in the analysis and forecasting of extratropical cyclones and maritime weather outside the tropics at the U.S. Ocean Prediction Center and the U.S. National Weather Service.
+Data was also provided in real-time over most of the ice-free global oceans, including traditionally data-sparse regions of the ocean where few observations exist, such as in the Southern Ocean and the eastern tropical Pacific Ocean.
+QuikSCAT observations are provided to these operational users in near-real-time (NRT) in binary universal form for the representation of meteorological data (BUFR) format by the National Oceanic and Atmospheric Administration/National Environmental Satellite, Data, and Information Service (NOAA/NESDIS). The data latency goal is 3 hours, and almost all data are available within 3.5 hours of measurement. To meet these requirements, the QuikSCAT NRT data processing algorithms combine the finest-grained backscatter measurements into fewer composites than the science data algorithms. Otherwise the QuikSCAT NRT processing algorithms are identical to the science data algorithms.
+
+
+=== Oceanography ===
+
+
+=== Land and Sea Ice ===
+
+
+=== Climate Variability ===
+
+
+=== Tropical Cyclones ===
+
+Applications of QuikSCAT in operational tropical cyclone analysis and forecasting at the National Hurricane Center include identifying and locating the center of tropical cyclones, estimating its intensity, and wind radii analysis. The scatterometer's ability to record wind speeds at the surface allows meteorologists to determine whether a low pressure area is forming and enhance the ability to predict sudden changes in structure and strength.
+The first tropical cyclone captured by the SeaWinds instrument was Typhoon Olga in the western Pacific basin. The system was monitored by the satellite from its generation on July 28 to its demise in early August.
+In 2007, Bill Proenza, the head of the National Hurricane Center at the time, stated in a public message that the loss of the QuikSCAT satellite would harm the quality of hurricane forecasts. This followed a battery anomaly in which the spacecraft was temporarily unable to perform nominal science observations due to limited power. He claimed that three-day forecasts would be roughly 16% less accurate following the loss of QuikSCAT. This position was controversial as it relied on unpublished data. Although the satellite aids in forecasting hurricane position and intensity, it does not do so exclusively.
+
+
+=== Wind Energy ===
+Other uses of the data include resource assessment for the emerging offshore wind energy industry. WindScan has taken advantage of satellite data specifically for this purpose.
+
+
+== 2009 sensor loss ==
+
+During mid-2009, the QuikSCAT project began noticing a gradual deterioration in the bearings that allow the antenna that provides real-time data. The bearings produced more friction than in the past nine years the satellite was in orbit. This friction slowed the rate the antenna spun, leading to gaps in data recorded by QuikSCAT across the world. This culminated in the antenna's failure on November 23, 2009. Upon failing, it was announced that the satellite was likely at the end of its mission and would no longer be used. The sensor on the satellite was confirmed to have failed around 0700 UTC. The loss only affected the real-time scanning equipment; the long-term data collection remained intact and operational. According to NASA, the failure resulted from the age of the satellite. The mechanism that seized was designed to last only five years; however, it remained operational for roughly ten years, twice its expected use. On November 24, NASA managers began to assess how extensively affected the satellite was and if it was possible to restart the spinning antenna. Contigency plans for what to do in the event of QuikSCAT's failure were also reviewed.
+
+
+== See also ==
+Earth Observing System
+European Remote-Sensing Satellite
+
+
+== External links ==
+Jet Propulsion Laboratory homepage for QuikSCAT
+QuikSCAT on NOSA
+
+
+== References ==

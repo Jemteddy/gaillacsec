@@ -1,0 +1,100 @@
+In physics, power is the rate of doing work. It is equivalent to an amount of energy consumed per unit time. In the SI system, the unit of power is the joule per second (J/s), known as the watt in honour of James Watt, the eighteenth-century developer of the steam engine.
+The integral of power over time defines the work performed. Because this integral depends on the trajectory of the point of application of the force and torque, this calculation of work is said to be path dependent.
+As a physical concept, power requires both a change in the physical universe and a specified time in which the change occurs. This is distinct from the concept of work, which is only measured in terms of a net change in the state of the physical universe. The same amount of work is done when carrying a load up a flight of stairs whether the person carrying it walks or runs, but more power is needed for running because the work is done in a shorter amount of time.
+The output power of an electric motor is the product of the torque that the motor generates and the angular velocity of its output shaft. The power involved in moving a vehicle is the product of the traction force of the wheels and the velocity of the vehicle. The rate at which a light bulb converts electrical energy into light and heat is measured in watts—the higher the wattage, the more power, or equivalently the more electrical energy is used per unit time.
+
+
+== UnitsEdit ==
+
+The dimension of power is energy divided by time. The SI unit of power is the watt (W), which is equal to one joule per second. Other units of power include ergs per second (erg/s), horsepower (hp), metric horsepower (Pferdestärke (PS) or cheval vapeur (CV)), and foot-pounds per minute. One horsepower is equivalent to 33,000 foot-pounds per minute, or the power required to lift 550 pounds by one foot in one second, and is equivalent to about 746 watts. Other units include dBm, a relative logarithmic measure with 1 milliwatt as reference; food calories per hour (often referred to as kilocalories per hour); Btu per hour (Btu/h); and tons of refrigeration (12,000 Btu/h).
+
+
+== Average powerEdit ==
+As a simple example, burning a kilogram of coal releases much more energy than does detonating a kilogram of TNT, but because the TNT reaction releases energy much more quickly, it delivers far more power than the coal. If ΔW is the amount of work performed during a period of time of duration Δt, the average power Pavg over that period is given by the formula
+
+It is the average amount of work done or energy converted per unit of time. The average power is often simply called "power" when the context makes it clear.
+The instantaneous power is then the limiting value of the average power as the time interval Δt approaches zero.
+
+In the case of constant power P, the amount of work performed during a period of duration T is given by:
+
+In the context of energy conversion, it is more customary to use the symbol E rather than W.
+
+
+== Mechanical powerEdit ==
+Power in mechanical systems is the combination of forces and movement. In particular, power is the product of a force on an object and the object's velocity, or the product of a torque on a shaft and the shaft's angular velocity.
+Mechanical power is also described as the time derivative of work. In mechanics, the work done by a force F on an object that travels along a curve C is given by the line integral:
+
+where x defines the path C and v is the velocity along this path.
+If the force F is derivable from a potential (conservative), then applying the gradient theorem (and remembering that force is the negative of the gradient of the potential energy) yields:
+
+where A and B are the beginning and end of the path along which the work was done.
+The power at any point along the curve C is the time derivative
+
+In one dimension, this can be simplified to:
+
+In rotational systems, power is the product of the torque τ and angular velocity ω,
+
+where ω measured in radians per second. The  represents scalar product.
+In fluid power systems such as hydraulic actuators, power is given by
+
+where p is pressure in pascals, or N/m2 and Q is volumetric flow rate in m3/s in SI units.
+
+
+=== Mechanical advantageEdit ===
+If a mechanical system has no losses, then the input power must equal the output power. This provides a simple formula for the mechanical advantage of the system.
+Let the input power to a device be a force FA acting on a point that moves with velocity vA and the output power be a force FB acts on a point that moves with velocity vB. If there are no losses in the system, then
+
+and the mechanical advantage of the system (output force per input force) is given by
+
+The similar relationship is obtained for rotating systems, where TA and ωA are the torque and angular velocity of the input and TB and ωB are the torque and angular velocity of the output. If there are no losses in the system, then
+
+which yields the mechanical advantage
+
+These relations are important because they define the maximum performance of a device in terms of velocity ratios determined by its physical dimensions. See for example gear ratios.
+
+
+== Electrical powerEdit ==
+
+The instantaneous electrical power P delivered to a component is given by
+
+where
+P(t) is the instantaneous power, measured in watts (joules per second)
+V(t) is the potential difference (or voltage drop) across the component, measured in volts
+I(t) is the current through it, measured in amperes
+If the component is a resistor with time-invariant voltage to current ratio, then:
+
+where
+
+is the resistance, measured in ohms.
+
+
+== Peak power and duty cycleEdit ==
+
+In the case of a periodic signal  of period , like a train of identical pulses, the instantaneous power  is also a periodic function of period . The peak power is simply defined by:
+.
+The peak power is not always readily measurable, however, and the measurement of the average power  is more commonly performed by an instrument. If one defines the energy per pulse as:
+
+then the average power is:
+.
+One may define the pulse length  such that  so that the ratios
+
+are equal. These ratios are called the duty cycle of the pulse train.
+
+
+== See alsoEdit ==
+Simple machines
+Mechanical advantage
+Motive power
+Orders of magnitude (power)
+Pulsed power
+Intensity — in the radiative sense, power per area
+Power gain — for linear, two-port networks.
+Power density
+Signal strength
+Sound power
+
+
+== ReferencesEdit ==
+^ Halliday and Resnick (1974). "6. Power". Fundamentals of Physics. 
+^ Chapter 13, § 3, pp 13-2,3 The Feynman Lectures on Physics Volume I, 1963
+^ Burning coal produces around 15-30 megajoules per kilogram, while detonating TNT produces about 4.7 megajoules per kilogram. For the coal value, see Fisher, Juliya (2003). "Energy Density of Coal". The Physics Factbook. Retrieved 30 May 2011.  For the TNT value, see the article TNT equivalent. The coal value does not include the weight of oxygen used during combustion, while the TNT number if TNT only.

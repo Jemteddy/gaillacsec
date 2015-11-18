@@ -1,0 +1,132 @@
+The magnetic force microscope (MFM) is a variety of atomic force microscope, where a sharp magnetized tip scans a magnetic sample; the tip-sample magnetic interactions are detected and used to reconstruct the magnetic structure of the sample surface. Many kinds of magnetic interactions are measured by MFM, including magnetic dipole–dipole interaction. MFM scanning often uses non-contact AFM (NC-AFM) mode.
+
+
+== Overview ==
+In MFM measurements, the magnetic force between the sample and the tip can be expressed as 
+
+where  is the magnetic moment of the tip (approximated as a point dipole),  is the magnetic stray field from the sample surface, and µ0 is the magnetic permeability of free space.
+Because the stray magnetic field from the sample can affect the magnetic state of the tip, and vice versa, interpretation of the MFM measurement is not straightforward. For instance, the geometry of the tip magnetization must be known for quantitative analysis.
+Typical resolution of 30 nm can be achieved, although resolutions as low as 10 to 20 nm are attainable.
+
+
+== Important dates ==
+A boost in the interest to MFM resulted from the following inventions:
+1982 - Scanning Tunneling Microscopy (STM)
+
+Tunneling current between the tip and sample is used as the signal.
+Both the tip and sample must be electrically conductive.
+
+1986 - Atomic force microscopy (AFM)
+
+Forces (atomic/electrostatic) between the tip and sample are sensed from the deflections of a flexible lever (cantilever).
+The cantilever tip flies above the sample with a typical distance of tens of nanometers.
+
+1987 - Magnetic Force Microscopy (MFM)
+
+Derives from AFM. The magnetic forces between the tip and sample are sensed.
+
+Image of the magnetic stray field is obtained by scanning the magnetized tip over the sample surface in a raster scan.
+
+
+== MFM components ==
+The main components of an MFM system are: Piezoelectric scanning
+Moves the sample in an x, y and z directions.
+Voltage is applied to separate electrodes for different directions. Typically, a 1 volt potential results in 1 to 10 nm displacement.
+Image is put together by slowly scanning sample surface in a raster fashion.
+Scan areas range from a few to 200 micrometers.
+Imaging times range from a few minutes to 30 minutes.
+Restoring force constants on the cantilever range from 0.01 to 100 N/m depending on the material of the cantilever.
+Magnetized tip at one end of a flexible lever (cantilever); generally an AFM probe with a magnetic coating.
+In the past, tips were made of etched magnetic metals such as nickel.
+Nowadays, tips are batch fabricated (tip-cantilever) using a combination of micromachining and photolithography. As a result, smaller tips are possible, and better mechanical control of the tip-cantilever is obtained.
+Cantilever can be made of single-crystalline silicon, silicon dioxide (SiO2), or silicon nitride (Si3N4). The Si3N4 cantilever-tip modules are usually more durable and have smaller restoring force constants (k).
+Tips are coated with a thin (< 50 nm) magnetic film (such as Ni or Co), usually of high coercivity, so that the tip magnetic state (or magnetization M) does not change during the imaging.
+The tip-cantilever module is driven close to the resonance frequency by a piezoelectric crystal with typical frequencies ranging from 10 kHz to 1 MHz.
+
+
+== Scanning procedure ==
+The scanning method when using an MFM is called the "lift height" method. When the tip scans the surface of a sample at close distances (< 10 nm), not only magnetic forces are sensed, but also atomic and electrostatic forces. The lift height method helps to enhance the magnetic contrast through the following:
+First, the topographic profile of each scan line is measured. That is, the tip is brought into a close proximity of the sample to take AFM measurements.
+The magnetized tip is then lifted further away from the sample.
+On the second pass, the magnetic signal is extracted.
+
+
+== Modes of operation ==
+
+
+=== Static (DC) mode ===
+The stray field from the sample exerts a force on the magnetic tip. The force is detected by measuring the displacement of the cantilever by reflecting a laser beam from it.
+The cantilever end is either deflected away or towards the sample surface by a distance Δz = Fz/k (perpendicular to the surface).
+Static mode corresponds to measurements of the cantilever deflection.
+Forces in the range of tens of piconewtons are normally measured.
+
+
+=== Dynamic (AC) mode ===
+For small deflections, the tip-cantilever can be modeled as a damped harmonic oscillator with a proof mass (m) in [kg], an ideal spring constant (k) in [N/m], and a damper (D) in [N·s/m].
+If an external oscillating force Fz is applied to the cantilever, then the tip will be displaced by an amount z. Moreover, the displacement will also harmonically oscillate, but with a phase shift between applied force and displacement given by:
+
+where the amplitude and phase shifts are given by:
+
+Here the quality factor of resonance, resonance angular frequency, and damping factor are:
+
+Dynamic mode of operation refers to measurements of the shifts in the resonance frequency.
+The cantilever is driven to its resonance frequency and frequency shifts are detected.
+Assuming small vibration amplitudes (which is generally true in MFM measurements), to a first-order approximation, the resonance frequency can be related to the natural frequency and the force gradient. That is, the shift in the resonance frequency is a result of changes in the spring constant due to the (repelling and attraction) forces acting on the tip.
+
+The change in the natural resonance frequency is given by
+, where 
+For instance, the coordinate system is such that positive z is away from or perpendicular to the sample surface, so that an attractive force would be in the negative direction (F<0), and thus the gradient is positive. Consequently, for attractive forces, the resonance frequency of the cantilever decreases (as described by the equation). The image is encoded in such a way that attractive forces are generally depicted in black color, while repelling forces are coded white.
+
+
+== Image formation ==
+
+
+=== Calculating forces acting on magnetic tips ===
+Theoretically, the magneto-static energy (U) of the tip-sample system can be calculated in one of two ways:
+One can either compute the magnetization (M) of the tip in the presence of the magnetic stray field (H) of the sample or
+Compute the magnetization of the sample in the presence of the magnetic stray field of the tip (whichever is easier)
+Then, integrate the (dot) product of the magnetization and stray field over the interaction volume as
+
+and compute the gradient of the energy over distance to obtain the force F. Assuming that the cantilever deflects along the z-axis, and the tip is magnetized along a certain direction (e.g. the z-axis), then the equations can be simplified to
+
+Since the tip is magnetized along a specific direction, it will be sensitive to the component of the magnetic stray field of the sample which is aligned to the same direction.
+
+
+== Imaging samples ==
+The MFM can be used to image various magnetic structures including domain walls (Bloch and Neel), closure domains, recorded magnetic bits, etc. Furthermore, motion of domain wall can also be studied in an external magnetic field. MFM images of various materials can be seen in the following books and journal publications: thin films, nanoparticles, nanowires, permalloy disks and recording media.
+
+
+== Advantages ==
+The popularity of MFM originates from several reasons, which include:
+The sample does not need to be electrically conductive.
+Measurement can be performed at ambient temperature, in ultra high vacuum (UHV), in liquid environment, at different temperatures, and in the presence of variable external magnetic fields.
+Measurement is nondestructive to the crystal lattice or structure.
+Long-range magnetic interactions are not sensitive to surface contamination.
+No special surface preparation or coating is required.
+Deposition of thin non-magnetic layers on the sample does not alter the results.
+Detectable magnetic field intensity, H, is in the range of 10 A/m
+Detectable magnetic field, B, is in the range of 0.1 gauss (10 microteslas).
+Typical measured forces are as low as 10−14 N, with the spatial resolutions as low as 20 nm.
+MFM can be combined with other scanning methods like STM.
+
+
+== Limitations ==
+There are some shortcomings or difficulties when working with an MFM, such as:
+The recorded image depends on the type of the tip and magnetic coating, due to tip-sample interactions.
+Magnetic field of the tip and sample can change each other's magnetization, M, which can result in nonlinear interactions. This hinders image interpretation.
+Relatively short lateral scanning range (order of hundreds micrometers).
+Scanning (lift) height affects the image.
+Housing of the MFM system is important to shield electromagnetic noise (Faraday cage), acoustic noise (anti-vibration tables), air flow (air isolation), and static charge on the sample.
+
+
+== Advances ==
+There have been several attempts to overcome the limitations mentioned above and to improve the resolution limits of MFM. For example, the limitations from air flow has been overcome by MFMs that operate at vacuum. The tip-sample effects have been understood and solved by several approaches. Wu et al., have used a tip with antiferromagnetically coupled magnetic layers in an attempt to produce a dipole only at the apex.
+
+
+== References ==
+
+
+== External links ==
+Magnetic Materials Scan Image Gallery
+Magnetic measurements application notes
+Ultra MFM project

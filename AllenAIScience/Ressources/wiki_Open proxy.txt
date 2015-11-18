@@ -1,0 +1,34 @@
+An open proxy is a proxy server that is accessible by any Internet user. Generally, a proxy server only allows users within a network group (i.e. a closed proxy) to store and forward Internet services such as DNS or web pages to reduce and control the bandwidth used by the group. With an open proxy, however, any user on the Internet is able to use this forwarding service.
+
+
+== Advantages ==
+An anonymous open proxy is one measure that might help computer users to hide their IP address against the webservers or internet content providers. It might make it harder to reveal their identity and thereby help preserve their perceived security while browsing the web or using other internet services. Real anonymity and extensive internet security might not be achieved by this measure alone.
+
+
+== Disadvantages ==
+
+It is possible for a computer to run as an open proxy server without the computer's owner knowing it. This can result from misconfiguration of proxy software running on the computer, or from infection with malware (viruses, trojans or worms) designed for this purpose. If it is caused by malware, the infected computer is known as a zombie computer.
+An open proxy is a high risk for the server operator:
+Such services are frequently used to break into foreign computer systems, child pornography is usually consumed through proxies, and illegal content is likely to be spread through such proxies.
+Such a proxy can cause a high bandwidth usage resulting in higher latency to the subnetwork and violation of bandwidth limits.
+A badly configured open proxy can also allow access to a private subnetwork or DMZ: this is a high security concern for any company or home network because computers that usually are out of risk or firewalled can be directly attacked.
+Many open proxies run very slowly, sometimes below 14.4 kbit/s, or even below 300 bit/s, while other times the speed may change from fast to slow every minute.
+Because open proxies are often implicated in abuse, a number of methods have been developed to detect them and to refuse service to them. IRC networks with strict usage policies automatically test client systems for known types of open proxies. Likewise, a mail server may be configured to automatically test mail senders for open proxies, using software such as proxycheck.
+
+
+== Testing for access from an open proxy ==
+Because of the potential risk of proxy service, there are ways developed for avoiding running open proxy. Many IRC networks test the client systems for known open proxy types automatically. Likewise, an e-mail server may be configured to automatically test e-mail senders for open proxies. As they are typically difficult to track, open proxies are especially useful to those seeking online anonymity and privacy.
+Groups of IRC and electronic mail operators run DNSBLs publishing lists of the IP addresses of known open proxies, such as AHBL, CBL, NJABL, and SORBS.
+The ethics of automatically testing clients for open proxies are controversial. Some experts, such as Vernon Schryver, consider such testing to be "very bad form". Others consider the client to have solicited the scan by connecting to a server whose terms of service include testing.
+
+
+== See also ==
+Open mail relay
+Open proxies blocked on Wikipedia
+
+
+== References ==
+
+
+== External links ==
+Open proxies at DMOZ

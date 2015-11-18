@@ -1,0 +1,81 @@
+In the broadest definition, a sensor is an object whose purpose is to detect events or changes in its environment, and then provide a corresponding output. A sensor is a type of transducer; sensors may provide various types of output, but typically use electrical or optical signals. For example, a thermocouple generates a known voltage (the output) in response to its temperature (the environment). A mercury-in-glass thermometer, similarly, converts measured temperature into expansion and contraction of a liquid, which can be read on a calibrated glass tube.
+Sensors are used in everyday objects such as touch-sensitive elevator buttons (tactile sensor) and lamps which dim or brighten by touching the base, besides innumerable applications of which most people are never aware. With advances in micro machinery and easy-to-use micro controller platforms, the uses of sensors have expanded beyond the more traditional fields of temperature, pressure or flow measurement, for example into MARG sensors. Moreover, analog sensors such as potentiometers and force-sensing resistors are still widely used. Applications include manufacturing and machinery, airplanes and aerospace, cars, medicine and robotics.it is also included in our day-to-day life.
+A sensor's sensitivity indicates how much the sensor's output changes when the input quantity being measured changes. For instance, if the mercury in a thermometer moves 1 cm when the temperature changes by 1 °C, the sensitivity is 1 cm/°C (it is basically the slope Dy/Dx assuming a linear characteristic). Some sensors can also have an impact on what they measure; for instance, a room temperature thermometer inserted into a hot cup of liquid cools the liquid while the liquid heats the thermometer. Sensors need to be designed to have a small effect on what is measured; making the sensor smaller often improves this and may introduce other advantages. Technological progress allows more and more sensors to be manufactured on a microscopic scale as microsensors using MEMS technology. In most cases, a microsensor reaches a significantly higher speed and sensitivity compared with macroscopic approaches.
+
+
+== Classification of measurement errors ==
+
+A good sensor obeys the following rules::
+it is sensitive to the measured property,
+it is insensitive to any other property likely to be encountered in its application, and
+it does not influence the measured property.
+The sensitivity is then defined as the ratio between output signal and measured property. For example, if a sensor measures temperature and has a voltage output, the sensitivity is a constant with the unit [V/K]; this sensor is linear because the ratio is constant at all points of measurement.
+For an analog sensor signal to be processed, or used in digital equipment, it needs to be converted to a digital signal, using an analog-to-digital converter.
+
+
+=== Sensor deviations ===
+If the sensor is not ideal, several types of deviations can be observed:
+The sensitivity may in practice differ from the value specified. This is called a sensitivity error.
+Since the range of the output signal is always limited, the output signal will eventually reach a minimum or maximum when the measured property exceeds the limits. The full scale range defines the maximum and minimum values of the measured property.
+If the output signal is not zero when the measured property is zero, the sensor has an offset or bias. This is defined as the output of the sensor at zero input.
+If the sensitivity is not constant over the range of the sensor, this is called non linearity. Usually this is defined by the amount the output differs from ideal behavior over the full range of the sensor, often noted as a percentage of the full range.
+If the deviation is caused by a rapid change of the measured property over time, there is a dynamic error. Often, this behavior is described with a bode plot showing sensitivity error and phase shift as function of the frequency of a periodic input signal.
+If the output signal slowly changes independent of the measured property, this is defined as drift (telecommunication). Long term drift usually indicates a slow degradation of sensor properties over a long period of time.
+Noise is a random deviation of the signal that varies in time.
+Hysteresis is an error caused by when the measured property reverses direction, but there is some finite lag in time for the sensor to respond, creating a different offset error in one direction than in the other.
+If the sensor has a digital output, the output is essentially an approximation of the measured property. The approximation error is also called digitization error.
+If the signal is monitored digitally, limitation of the sampling frequency also can cause a dynamic error, or if the variable or added noise changes periodically at a frequency near a multiple of the sampling rate may induce aliasing errors.
+The sensor may to some extent be sensitive to properties other than the property being measured. For example, most sensors are influenced by the temperature of their environment.
+All these deviations can be classified as systematic errors or random errors. Systematic errors can sometimes be compensated for by means of some kind of calibration strategy. Noise is a random error that can be reduced by signal processing, such as filtering, usually at the expense of the dynamic behavior of the sensor.
+
+
+=== Resolution ===
+The resolution of a sensor is the smallest change it can detect in the quantity that it is measuring. Often in a digital display, the least significant digit will fluctuate, indicating that changes of that magnitude are only just resolved. The resolution is related to the precision with which the measurement is made. For example, a scanning tunneling probe (a fine tip near a surface collects an electron tunneling current) can resolve atoms and molecules.
+
+
+== Types ==
+
+Pressure sensor
+Ultrasonic sensor
+Humidity Sensor
+Gas Sensor
+PIR Motion Sensor
+Acceleration sensor
+Displacement sensor
+
+
+== Sensors in nature ==
+
+All living organisms contain biological sensors with functions similar to those of the mechanical devices described. Most of these are specialized cells that are sensitive to:
+Light, motion, temperature, magnetic fields, gravity, humidity, moisture, vibration, pressure, electrical fields, sound, and other physical aspects of the external environment
+Physical aspects of the internal environment, such as stretch, motion of the organism, and position of appendages (proprioception)
+Environmental molecules, including toxins, nutrients, and pheromones
+Estimation of biomolecules interaction and some kinetics parameters
+Internal metabolic indicators, such as glucose level, oxygen level, or osmolality
+Internal signal molecules, such as hormones, neurotransmitters, and cytokines
+Differences between proteins of the organism itself and of the environment or alien creatures.
+
+
+== Chemical sensor ==
+A chemical sensor is a self-contained analytical device that can provide information about the chemical composition of its environment, that is, a liquid or a gas phase. The information is provided in the form of a measurable physical signal that is correlated with the concentration of a certain chemical species (termed as analyte). Two main steps are involved in the functioning of a chemical sensor, namely, recognition and transduction. In the recognition step, analyte molecules interact selectively with receptor molecules or sites included in the structure of the recognition element of the sensor. Consequently, a characteristic physical parameter varies and this variation is reported by means of an integrated transducer that generates the output signal. A chemical sensor based on recognition material of biological nature is a biosensor. However, as synthetic biomimetic materials are going to substitute to some extent recognition biomaterials, a sharp distinction between a biosensor and a standard chemical sensor is superfluous. Typical biomimetic materials used in sensor development are molecularly imprinted polymers and aptamers.
+
+
+== Biosensor ==
+
+In biomedicine and biotechnology, sensors which detect analytes thanks to a biological component, such as cells, protein, nucleic acid or biomimetic polymers, are called biosensors. Whereas a non-biological sensor, even organic (=carbon chemistry), for biological analytes is referred to as sensor or nanosensor (such a microcantilevers). This terminology applies for both in vitro and in vivo applications. The encapsulation of the biological component in biosensors, presents a slightly different problem that ordinary sensors; this can either be done by means of a semipermeable barrier, such as a dialysis membrane or a hydrogel, or a 3D polymer matrix, which either physically constrains the sensing macromolecule or chemically constrains the macromolecule by bounding it to the scaffold.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+M. Kretschmar and S. Welsby (2005), Capacitive and Inductive Displacement Sensors, in Sensor Technology Handbook, J. Wilson editor, Newnes: Burlington, MA.
+C. A. Grimes, E. C. Dickey, and M. V. Pishko (2006), Encyclopedia of Sensors (10-Volume Set), American Scientific Publishers. ISBN 1-58883-056-X
+M. Pohanka, O. Pavlis, and P. Skladal. Rapid Characterization of Monoclonal Antibodies using the Piezoelectric Immunosensor. Sensors 2007, 7, 341-353
+
+
+== External links ==
+http://www.cbm-sweden.se/images/Seminarie/Class_Descriptions_IDA_MEMS.pdf

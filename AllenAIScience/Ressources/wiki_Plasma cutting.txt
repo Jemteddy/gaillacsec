@@ -1,0 +1,69 @@
+Plasma cutting is a process that cuts through electrically conductive materials by means of an accelerated jet of hot plasma. Typical materials cut by this process include steel, aluminum, brass and copper though other conductive metals may be cut as well. Plasma cutting is often used in fabrication and welding shops, automotive repair and restoration, industrial construction, salvage and scrapping operations. Due to the high speed, precision cuts, combined with low cost of operation, plasma cutting sees a widespread usage from large scale industrial CNC applications down to small hobbyist shops.
+
+
+== Process ==
+
+The basic plasma cutting process involves creating an electrical channel of ionized gas i.e. plasma from the plasma cutter itself, through the work piece to be cut, thus forming a completed electric circuit back to the plasma cutter via a grounding clamp. This is accomplished by a compressed gas (oxygen, air, inert and others depending on material being cut) which is blown through a focused nozzle at high speed toward the work piece. An electrical arc is then formed within the gas, between an electrode near or integrated into the gas nozzle and the work piece itself. The electrical arc ionizes some of the gas, thereby creating an electrically conductive channel of plasma. As electricity from the cutter torch travels down this plasma it delivers sufficient heat to melt through the work piece. At the same time, much of the high velocity plasma and compressed gas blow the hot molten metal away, thereby separating i.e cutting through the work piece.
+Plasma cutting is an effective means of cutting thin and thick materials alike. Hand-held torches can usually cut up to 38mm thick steel plate, and stronger computer-controlled torches can cut steel up to 150 mm thick. Since plasma cutters produce a very hot and very localized "cone" to cut with, they are extremely useful for cutting sheet metal in curved or angled shapes.
+
+
+== History ==
+
+Plasma cutting grew out of plasma welding in the 1960s, and emerged as a very productive way to cut sheet metal and plate in the 1980s. It had the advantages over traditional "metal against metal" cutting of producing no metal chips, giving accurate cuts, and producing a cleaner edge than oxy-fuel cutting. Early plasma cutters were large, somewhat slow and expensive and, therefore, tended to be dedicated to repeating cutting patterns in a "mass production" mode.
+As with other machine tools, CNC (computer numerical control) technology was applied to plasma cutting machines in the late 1980s into the 1990s, giving plasma cutting machines greater flexibility to cut diverse shapes "on demand" based on a set of instructions that were programmed into the machine's numerical control. These CNC plasma cutting machines were, however, generally limited to cutting patterns and parts in flat sheets of steel, using only two axes of motion (referred to as X Y cutting).
+
+
+== Safety ==
+Proper eye protection (but not gas welding goggles as these do not give UV protection) and face shields are needed to prevent eye damage called arc eye as well as damage from debris, as per Arc Welding. It is recommended to use green lens shade #8 or #9 safety glasses for cutting to prevent the retinas from being "flashed" or burned. OSHA recommends a shade 8 for Arc Current less than 300, but notes that "These values apply where the actual arc is clearly seen. Experience has shown that lighter filters may be used when the arc is hidden by the workpiece." Lincoln Electric, a manufacturer of plasma cutting equipment, says, "Typically a darkness shade of #7 to #9 is acceptable." Longevity Global, Inc., another manufacturer, offers this more specific table for Eye Protection for Plasma Arc Cutting at lower amperages :
+Leather gloves, apron and jacket are also recommended to prevent burns from sparks and debris.
+
+
+== Starting methods ==
+Plasma cutters use a number of methods to start the arc. In some units, the arc is created by putting the torch in contact with the work piece. Some cutters use a high voltage, high frequency circuit to start the arc. This method has a number of disadvantages, including risk of electrocution, difficulty of repair, spark gap maintenance, and the large amount of radio frequency emissions. Plasma cutters working near sensitive electronics, such as CNC hardware or computers, start the pilot arc by other means. The nozzle and electrode are in contact. The nozzle is the cathode, and the electrode is the anode. When the plasma gas begins to flow, the nozzle is blown forward. A third, less common method is capacitive discharge into the primary circuit via a silicon controlled rectifier.
+
+
+== Inverter plasma cutters ==
+
+Analog plasma cutters, typically requiring more than 2 kilowatts, use a heavy mains-frequency transformer. Inverter plasma cutters rectify the mains supply to DC, which is fed into a high-frequency transistor inverter between 10 kHz to about 200 kHz. Higher switching frequencies give greater efficiencies in the transformer, allowing its size and weight to be reduced.
+The transistors used were initially MOSFETs, but are now increasingly using IGBTs. With paralleled MOSFETs, if one of the transistors activates prematurely it can lead to a cascading failure of one quarter of the inverter. A later invention, IGBTs, are not as subject to this failure mode. IGBTs can be generally found in high current machines where it is not possible to parallel sufficient MOSFET transistors.
+The switch mode topology is referred to as a dual transistor off-line forward converter. Although lighter and more powerful, some inverter plasma cutters, especially those without power factor correction, cannot be run from a generator (that means manufacturer of the inverter unit forbids doing so; it is only valid for small, light portable generators). However newer models have internal circuitry that allow units without power factor correction to run on light power generators.
+
+
+== Plasma gouging ==
+Plasma gouging is a related process, typically performed on the same equipment as plasma cutting. Instead of cutting the material, plasma gouging uses a different torch configuration (torch nozzles and gas diffusers are usually different), and a longer torch-to-workpiece distance, to blow away metal. Plasma gouging can be used in a variety of applications, including removing a weld for rework. The additional sparks generated by the process requires the operator to wear a leather shield protecting their hand and forearm. Torch leads also can be protected by a leather sheath or heavy insulation.
+
+
+== CNC cutting methods ==
+
+Some plasma cutter manufacturers build CNC cutting tables, and some have the cutter built into the table. CNC tables allow a computer to control the torch head producing clean sharp cuts. Modern CNC plasma equipment is capable of multi-axis cutting of thick material, allowing opportunities for complex welding seams that are not possible otherwise. For thinner material, plasma cutting is being progressively replaced by laser cutting, due mainly to the laser cutter's superior hole-cutting abilities.
+A specialized use of CNC Plasma Cutters has been in the HVAC industry. Software processes information on ductwork and creates flat patterns to be cut on the cutting table by the plasma torch. This technology has enormously increased productivity within the industry since its introduction in the early 1980s.
+CNC Plasma Cutters are also used in many workshops to create decorative metalwork. For instance, commercial and residential signage, wall art, address signs, and outdoor garden art.
+In recent years there has been even more development. Traditionally the machines' cutting tables were horizontal, but now vertical CNC plasma cutting machines are available, providing for a smaller footprint, increased flexibility, optimum safety and faster operation.
+
+
+== New technology ==
+
+In the past decade plasma torch manufacturers have engineered new models with a smaller nozzle and a thinner plasma arc. This allows near-laser precision on plasma cut edges. Several manufacturers have combined precision CNC control with these torches to allow fabricators to produce parts that require little or no finishing.
+
+
+== Costs ==
+Plasma torches were once quite expensive. For this reason they were usually only found in professional welding shops and very well-stocked private garages and shops. However, modern plasma torches are becoming cheaper, and now are within the price range of many hobbyists. Older units may be very heavy, but still portable, while some newer ones with inverter technology weigh only a little, yet equal or exceed the capacities of older ones.
+
+
+== See also ==
+Laser cutting
+Air carbon arc cutting
+Plasma arc welding
+Water jet cutter
+Welding
+List of plasma (physics) articles
+
+
+== References ==
+
+
+== External links ==
+HowStuffWorks on plasma cutting
+Plasma Cutter Safe Work Method Statement
+Torch Height Control through Arc Voltage Sensing
+Corrosion Inhibitors for Plasma Cutting Tables

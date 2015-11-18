@@ -1,0 +1,40 @@
+A node is a point along a standing wave where the wave has minimum amplitude. For instance, in a vibrating guitar string, the ends of the string are nodes. By changing the position of the end node through frets, the guitarist changes the effective length of the vibrating string and thereby the note played. The opposite of a node is an anti-node, a point where the amplitude of the standing wave is a maximum. These occur midway between the nodes.
+
+
+== ExplanationEdit ==
+
+Standing waves result when two sinusoidal wave trains of the same frequency are moving in opposite directions in the same space and interfere with each other. They occur when waves are reflected at a boundary, such as sound waves reflected from a wall or electromagnetic waves reflected from the end of a transmission line, and particularly when waves are confined in a resonator at resonance, bouncing back and forth between two boundaries, such as in an organ pipe or guitar string.
+In a standing wave the nodes are a series of locations at equally spaced intervals where the wave amplitude (motion) is zero (see animation above). At these points the two waves add with opposite phase and cancel each other out. They occur at intervals of half a wavelength (λ/2). Midway between each pair of nodes are locations where the amplitude is maximum. These are called the antinodes. At these points the two waves add with the same phase and reinforce each other.
+In cases where the two opposite wave trains are not the same amplitude, they do not cancel perfectly, so the amplitude of the standing wave at the nodes is not zero but merely a minimum. This occurs when the reflection at the boundary is imperfect. This is indicated by a finite standing wave ratio (SWR), the ratio of the amplitude of the wave at the antinode to the amplitude at the node.
+In resonance of a two dimensional surface or membrane, such as a drumhead or vibrating metal plate, the nodes become nodal lines, lines on the surface where the surface is motionless, dividing the surface into separate regions vibrating with opposite phase. These can be made visible by sprinkling sand on the surface, and the intricate patterns of lines resulting are called Chladni figures.
+In transmission lines a voltage node is a current antinode, and a voltage antinode is a current node.
+
+
+== Boundary conditionsEdit ==
+Where the nodes occur in relation to the boundary reflecting the waves depends on the end conditions or boundary conditions. Although there are many types of end conditions, the ends of resonators are usually one of two types that cause total reflection:
+Fixed boundary: Examples of this type of boundary are the attachment point of a guitar string, the closed end of an open pipe like an organ pipe or a woodwind pipe, the periphery of a drumhead, a transmission line with the end short circuited, or the mirrors at the ends of a laser cavity. In this type, the amplitude of the wave is forced to zero at the boundary, so there is a node at the boundary, and the other nodes occur at multiples of half a wavelength from it:
+
+0,  λ/2,  λ,  3λ/2,  2λ, ...
+
+Free boundary: Examples of this type are an open-ended organ or woodwind pipe, the ends of the vibrating resonator bars in a xylophone, glockenspiel or tuning fork, the ends of an antenna, or a transmission line with an open end. In this type the derivative (slope) of the wave's amplitude (in sound waves the pressure, in electromagnetic waves the current) is forced to zero at the boundary. So there is an amplitude maximum (antinode) at the boundary, the first node occurs a quarter wavelength from the end, and the other nodes are at half wavelength intervals from there:
+
+λ/4,  3λ/4,  5λ/4,  7λ/4, ...
+
+
+== ExamplesEdit ==
+
+
+=== SoundEdit ===
+A sound wave consists of alternating cycles of compression and expansion of the wave medium. During compression, the molecules of the medium are forced together, resulting in the increased pressure and density. During expansion the molecules are forced apart, resulting in the decreased pressure and density.
+The number of nodes in a specified length is directly proportional to the frequency of the wave.
+Occasionally on a guitar, violin, or other stringed instrument, nodes are used to create harmonics. When the finger is placed on top of the string at a certain point, but does not push the string all the way down to the fretboard, a third node is created (in addition to the bridge and nut) and a harmonic is sounded. During normal play when the frets are used, the harmonics are always present, although they are quieter. With the artificial node method, the overtone is louder and the fundamental tone is quieter. If the finger is placed at the midpoint of the string, the first overtone is heard, which is an octave above the fundamental note which would be played, had the harmonic not been sounded. When two additional nodes divide the string into thirds, this creates an octave and a perfect fifth (twelfth). When three additional nodes divide the string into quarters, this creates a double octave. When four additional nodes divide the string into fifths, this creates a double-octave and a major third (17th). The octave, major third and perfect fifth are the three notes present in a major chord.
+The characteristic sound that allows the listener to identify a particular instrument is largely due to the relative magnitude of the harmonics created by the instrument.
+
+
+=== ChemistryEdit ===
+In chemistry, quantum mechanical waves, or "orbitals", are used to describe the wave-like properties of electrons. Many of these quantum waves have nodes and antinodes as well. The number and position of these nodes and antinodes give rise to many of the properties of an atom or covalent bond. Atomic orbitals are classified according to the number of radial and angular nodes, while molecular orbitals are classified according to bonding character. Molecular orbitals with an antinode between nuclei are very stable, and are known as "bonding orbitals" which strengthen the bond. In contrast, molecular orbitals with a node between nuclei will not be stable due to electrostatic repulsion and are known as "anti-bonding orbitals" which weaken the bond. Another such quantum mechanical concept is the particle in a box where the number of nodes of the wavefunction can help determine the quantum energy state—zero nodes corresponds to the ground state, one node corresponds to the 1st excited state, etc.
+
+
+== ReferencesEdit ==
+^ Stanford, A. L.; Tanner, J. M. (2014). Physics for Students of Science and Engineering. Academic Press. p. 561. ISBN 148322029X. 
+^ Feynman, Richard P.; Robert Leighton; Matthew Sands (1963). The Feynman Lectures on Physics, Vol.1. USA: Addison-Wesley. pp. ch.49. ISBN 0-201-02011-4.

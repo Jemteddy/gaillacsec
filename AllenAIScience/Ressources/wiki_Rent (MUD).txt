@@ -1,0 +1,9 @@
+Rent, in MUDs (primarily DikuMUDs), is a mechanism for both enabling and limiting persistence of a player character's possessions. In the "traditional" rent paradigm, in order to keep belongings between game sessions, the player must travel to an inn and use the rent command there, and is assessed a price, in game money, for each inventory item; items that cannot be paid for are not persisted. If the player simply uses the quit command rather than rent, inventory items are not kept, and fall to the ground. Many evolutions of this approach exist: the rent command is often made to be performable anywhere rather than only at an inn, sometimes costs are removed or made negligible, and so on. At times, in MUDs where inventory is made to simply persist automatically when the player quits the game, the conceptualization of inventory persistence as "rent" is sufficiently ingrained that this is referred to as "autorent".
+Rent is often considered an annoyance to players, which is a factor that drives the many variations seen on the concept. On the other hand, the need to pay to retain one's items can provide an impetus to engagement with the game, though this may be seen as unduly coercive.
+
+
+== See also ==
+Persistent world
+
+
+== References ==

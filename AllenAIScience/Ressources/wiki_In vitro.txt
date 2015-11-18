@@ -1,0 +1,60 @@
+Studies that are in vitro (Latin: in glass; often not italicized in English) are performed with cells or biological molecules studied outside their normal biological context; for example proteins are examined in solution, or cells in artificial culture medium. Colloquially called "test tube experiments", these studies in biology and its sub-disciplines are traditionally done in test-tubes, flasks, petri dishes etc. They now involve the full range of techniques used in molecular biology such as the so-called omics. Studies that are conducted using components of an organism that have been isolated from their usual biological surroundings permit a more detailed or more convenient analysis than can be done with whole organisms. In contrast, in vivo studies are those conducted in animals including humans, and whole plants.
+Examples of in vitro studies include: the isolation, growth and identification of microorganisms; cells derived from multicellular organisms (cell culture or tissue culture); subcellular components (e.g. mitochondria or ribosomes); cellular or subcellular extracts (e.g. wheat germ or reticulocyte extracts); purified molecules (often proteins, DNA, or RNA, either individually or in combination); and the commercial production of antibiotics and other pharmaceutical products. Viruses, which only replicate in living cells, are studied in the laboratory in cell or tissue culture, and many animal virologists refer to such work as being in vitro to distinguish it from in vivo work on whole animals.
+
+
+== AdvantagesEdit ==
+Living organisms are extremely complex functional systems that are made up of, at a minimum, many tens of thousands of genes, protein molecules, RNA molecules, small organic compounds, inorganic ions and complexes in an environment that is spatially organized by membranes and, in the case of multicellular organisms, organ systems. For a biological organism to survive, these myriad components must interact with each other and with their environment in a way that processes food, removes waste, moves components to the correct location, and is responsive to signalling molecules, other organisms, light, sound, heat, taste, touch, and balance.
+
+This complexity is a great barrier to the identification of interactions between its individual components and the exploration of their basic biological functions. The primary advantage of in vitro work is that it simplifies the system under study, so that the investigator can focus on a small number of components. For example, the identity of proteins of the immune system (e.g. antibodies), and the mechanism by which they recognize and bind to foreign antigens would remain very obscure if not for the extensive use of in vitro work to isolate the proteins, identify the cells and genes that produce them, study the physical properties of their interaction with antigens, and identify how those interactions lead to cellular signals that activate other components of the immune system.
+Cellular responses are often species-specific, making cross-species transpositions problematic. That is true indeed of studies in whole animals used in replacement of unethical human trials: they are difficult to extrapolate to humans. An advantage of in vitro methods is that human cells can be used directly. No translation from animal to human is needed in that case.
+In vitro testing is also quite useful in the characterization of some specific adsorption, distribution, metabolism and excretion (ADME) processes taking place inside the living organism. These ADME processes can be integrated into the physiologically based pharmacokinetic (PBPK) models, which in turn depends on the in vitro testing for proper characterization of the specific ADME processes.
+Yet another advantage is that in vitro methods are usually amenable to miniaturization and automation, yielding high-throughput screening methods for testing molecules in pharmacology or toxicology 
+
+
+== DisadvantagesEdit ==
+The primary disadvantage of in vitro experimental studies is that it can sometimes be very challenging to extrapolate from the results of in vitro work back to the biology of the intact organism. Investigators doing in vitro work must be careful to avoid over-interpretation of their results, which can sometimes lead to erroneous conclusions about organismal and systems biology.
+For example, scientists developing a new viral drug to treat an infection with a pathogenic virus (e.g. HIV-1) may find that a candidate drug functions to prevent viral replication in an in vitro setting (typically cell culture). However, before this drug is used in the clinic, it must progress through a series of in vivo trials to determine if it is safe and effective in intact organisms (typically small animals, primates and humans in succession). Typically, most candidate drugs that are effective in vitro prove to be ineffective in vivo because of issues associated with delivery of the drug to the affected tissues, toxicity towards essential parts of the organism that were not represented in the initial in vitro studies, or other issues.
+
+
+== ExamplesEdit ==
+Polymerase chain reaction is a method for selective replication of specific DNA and RNA sequences in the test tube.
+Protein purification involves the isolation of a specific protein of interest from a complex mixture of proteins, often obtained from homogenized cells or tissues.
+In vitro fertilization is used to allow spermatozoa to fertilize eggs in a culture dish before implanting the resulting embryo or embryos into the uterus of the prospective mother.
+In vitro diagnostics refers to a wide range of medical and veterinary laboratory tests that are used to diagnose diseases and monitor the clinical status of patients using samples of blood, cells or other tissues obtained from a patient.
+In vitro systems can be used to study the ADME properties of drugs or general chemicals: Caco-2 cell experiments can be performed to estimate the absorption of compounds through the lining of the gastro-intestinal tract; The partitioning of the compounds between organs can be determined to study distribution mechanisms; Suspension or plated cultures of primary hepatocytes or hepatocyte-like cell lines (HepG2, HepaRG) can be used to study and quantify metabolism of chemicals.
+
+
+== In vitro to in vivo extrapolation (IVIVE)Edit ==
+As explained above, results obtained from in vitro experiments cannot usually be transposed as is to predict the reaction of an entire organism in vivo. Build a consistent and reliable extrapolation procedure from in vitro results to in vitro is therefore extremely important. Two solutions are now commonly accepted:
+(1) Increasing the complexity of in vitro systems to reproduce tissues and interactions between them (as in “human on chip” systems).
+(2) Using mathematical modeling to numerically simulate the behavior of the complex system, the in vitro data providing model parameter values.
+The two approaches are not incompatible: better in vitro systems will provide better data to mathematical models. On the other hand increasingly sophisticated in vitro experiments collect increasingly numerous, complex, and challenging data to integrate: Mathematical models, such as systems biology models are much needed here.
+IVIVE can be split in two steps: (1) dealing with pharmacokinetics (PK) and (2) dealing with pharmacodynamics (PD). Basically, PK describes quantitatively the fate of molecules in the body; PD focuses on their effects (therapeutic or toxic) at the biological target(s) level. It is classical to differentiate PK from PD, but they form a continuum and there may be feedback one on each other.[2] 
+
+
+=== Extrapolating pharmacokineticsEdit ===
+Since the timing and intensity of effects on a given target depend on the concentration time course of candidate drug (parent molecule or metabolites) at that target site, in vivo tissue and organ sensitivities can be completely different or even inverse of those observed on cells cultured and exposed in vitro. That indicates that extrapolating effects observed in vitro needs a quantitative model of in vivo PK. It is generally accepted that physiologically based PK (PBPK) models are central to the extrapolations.
+
+
+=== Extrapolating pharmacodynamicsEdit ===
+In the case of early effects or those without inter-cellular communications, it is assumed that the same cellular exposure concentration cause the same effects, both qualitatively and quantitatively, in vitro and in vivo. In these conditions, it is enough to (1) develop a simple PD model of the dose–response relationship observed in vitro and (2) transpose it without changes to predict in vivo effects.
+See In vitro to in vivo extrapolation for more details.
+
+
+== See alsoEdit ==
+Animal testing
+Ex vivo
+In situ
+In utero
+In vivo
+In silico
+In papyro
+In natura
+Animal in vitro cellular and developmental biology
+Plant in vitro cellular and developmental biology
+In vitro toxicology
+In vitro to in vivo extrapolation
+Slice preparation
+
+
+== NotesEdit ==

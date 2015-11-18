@@ -1,0 +1,25 @@
+The lattice constant, or lattice parameter, refers to the physical dimension of unit cells in a crystal lattice. Lattices in three dimensions generally have three lattice constants, referred to as a, b, and c. However, in the special case of cubic crystal structures, all of the constants are equal and we only refer to a. Similarly, in crystal structures, the a and b constants are equal, and we only refer to the a and c constants. A group of lattice constants could be referred to as lattice parameters. However, the full set of lattice parameters consist of the three lattice constants and the three angles between them.
+For example the lattice constant for diamond is a = 3.57 Å at 300 K. The structure is equilateral although its actual shape cannot be determined from only the lattice constant. Furthermore, in real applications, typically the average lattice constant is given. Near the crystal's surface, lattice constant is affected by the surface reconstruction that results in a deviation from its mean value. This deviation is especially important in nano-crystals since surface to nano-crystal core ratio is large. As lattice constants have the dimension of length, their SI unit is the meter. Lattice constants are typically on the order of several angstroms (i.e. tenths of a nano-metre). Lattice constants can be determined using techniques such as X-ray diffraction or with an atomic force microscope.
+In epitaxial growth, the lattice constant is a measure of the structural compatibility between different materials. Lattice constant matching is important for the growth of thin layers of materials on other materials; when the constants differ, strains are introduced into the layer, which prevents epitaxial growth of thicker layers without defects.
+
+
+== Volume ==
+The volume of the unit cell can be calculated from the lattice constant lengths and angles. If the unit cell sides are represented as vectors, then the volume is the dot product of one vector with the cross product of the other two vectors. The volume is represented by the letter V. For the general unit cell  For monoclinic lattices with α = 90°, γ = 90°, this simplifies to  For orthorhombic, tetragonal and cubic lattices with β = 90° as well, then .
+
+
+== Lattice matching ==
+Matching of lattice structures between two different semiconductor materials allows a region of band gap change to be formed in a material without introducing a change in crystal structure. This allows construction of advanced light-emitting diodes and diode lasers.
+For example, gallium arsenide, aluminium gallium arsenide, and aluminium arsenide have almost equal lattice constants, making it possible to grow almost arbitrarily thick layers of one on the other one.
+
+
+== Lattice grading ==
+Typically, films of different materials grown on the previous film or substrate are chosen to match the lattice constant of the prior layer to minimize film stress.
+An alternative method is to grade the lattice constant from one value to another by a controlled altering of the alloy ratio during film growth. The beginning of the grading layer will have a ratio to match the underlying lattice and the alloy at the end of the layer growth will match the desired final lattice for the following layer to be deposited.
+The rate of change in the alloy must be determined by weighing the penalty of layer strain, and hence defect density, against the cost of the time in the epitaxy tool.
+For example, indium gallium phosphide layers with a band gap above 1.9 eV can be grown on gallium arsenide wafers with index grading.
+
+
+== List of Lattice Constants at 300K ==
+
+
+== References ==

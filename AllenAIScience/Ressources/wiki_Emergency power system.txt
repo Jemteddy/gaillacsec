@@ -1,0 +1,54 @@
+An emergency power system is an independent source of electrical power that supports important electrical systems on loss of normal power supply. A standby power system may include a standby generator, batteries and other apparatus. Emergency power systems are installed to protect life and property from the consequences of loss of primary electric power supply.
+They find uses in a wide variety of settings from homes to hospitals, scientific laboratories, data centers, telecommunication equipment and ships. Emergency power systems can rely on generators, deep cycle batteries, flywheel energy storage or hydrogen fuel cells.
+
+
+== HistoryEdit ==
+Emergency power systems were used as early as World War II on naval ships. In combat, a ship may lose the function of its boilers, which power the steam turbines for the ship's generator. In such a case, one or more diesel engines are used to drive back-up generators. Early transfer switches relied on manual operation; two switches would be placed horizontally, in line and the "on" position facing each other. a rod is placed in between. In order to operate the switch one source must be turned off, the rod moved to the other side and the other source turned on.
+
+
+== Operation in buildingsEdit ==
+
+Mains power can be lost due to downed lines, malfunctions at a sub-station, inclement weather, planned blackouts or in extreme cases a grid-wide failure. In modern buildings, most emergency power systems have been and are still based on generators. Usually, these generators are Diesel engine driven, although smaller buildings may use a gasoline engine driven generator and larger ones a gas turbine. However, lately, more use is being made of deep cycle batteries and other technologies such as flywheel energy storage or fuel cells. These latter systems do not produce polluting gases, thereby allowing the placement to be done within the building. Also, as a second advantage, they do not require a separate shed to be built for fuel storage.
+With regular generators, an automatic transfer switch is used to connect emergency power. One side is connected to both the normal power feed and the emergency power feed; and the other side is connected to the load designated as emergency. If no electricity comes in on the normal side, the transfer switch uses a solenoid to throw a triple pole, single throw switch. This switches the feed from normal to emergency power. The loss of normal power also triggers a battery operated starter system to start the generator, similar to using a car battery to start an engine. Once the transfer switch is switched and the generator starts, the building's emergency power comes back on (after going off when normal power was lost.)
+Unlike emergency lights, emergency lighting is not a type of light fixture; it is a pattern of the building's normal lights that provides a path of lights to allow for safe exit, or lights up service areas such as mechanical rooms and electric rooms. Exit signs, Fire alarm systems (that are not on back up batteries) and the electric motor pumps for the fire sprinklers are almost always on emergency power. Other equipment on emergency power may include smoke isolation dampers, smoke evacuation fans, elevators, handicap doors and outlets in service areas. Hospitals use emergency power outlets to power life support systems and monitoring equipment. Some buildings may even use emergency power as part of normal operations, such as a theater using it to power show equipment because "the show must go on."
+
+
+== Operation in aviationEdit ==
+Localizer, glideslope, and other instrument landing aids (such as microwave transmitters) are both high power consumers and mission-critical, and cannot be reliably operated from a battery supply, even for short periods. Hence, when absolute reliability is required (such as when Category 3 operations are in force at the airport) it is usual to run the system from a diesel generator with automatic switchover to the mains supply should the generator fail. This avoids any interruption to transmission while a generator is brought up to operating speed.
+This is opposed to the typical view of emergency power systems, where the backup generators are seen as secondary to the mains electrical supply.
+
+
+== Electronic device protectionEdit ==
+Computers, communication networks, and other modern electronic devices need not only power, but also a steady flow of it to continue to operate. If the source voltage drops significantly or drops out completely, these devices will fail, even if the power loss is only for a fraction of a second. Because of this, even a generator back-up does not provide protection because of the start-up time involved.
+To achieve more comprehensive loss protection, extra equipment such as surge protectors, inverters, or sometimes a complete uninterruptible power supply (UPS) is used. UPS systems can be local (to one device or one power outlet) or may extend building-wide. A local UPS is a small box that fits under a desk or a telecom rack and powers a small number of devices. A building-wide UPS may take any of several different forms, depending on the application. It directly feeds a system of outlets designated as UPS feed and can power a large number of devices.
+Since telephone exchanges use DC, the building's battery room is generally wired directly to the consuming equipment and floats continuously on the output of the rectifiers that normally supply DC rectified from utility power. When utility power fails, the battery carries the load without needing to switch. With this simple though somewhat expensive system, some exchanges have never lost power for a moment since the 1920s.
+
+
+== Structure and operation in utility stationsEdit ==
+
+In recent years, large units of a utility power station are usually designed on a unit system basis in which the required devices, including the boiler, the turbine generator unit, and its power (step up) and unit (auxiliary) transformer are solidly connected as one unit. A less common set-up consists of two units grouped together with one common station auxiliary. As each turbine generator unit has its own attached unit auxiliary transformer, it is connected to the circuit automatically. For starting the unit, the auxiliaries are supplied with power by another unit (auxiliary) transformer or station auxiliary transformer. The period of switching from the first unit transformer to the next unit is designed for automatic, instantaneous operation in times when the emergency power system needs to kick in. It is imperative that the power to unit auxiliaries not fail during a station shutdown (an occurrence known as black-out when all regular units temporarily fail). Instead, during shutdowns the grid is expected to remain operational. When problems occur, it is usually due to reverse power relays and frequency-operated relays on grid lines due to severe grid disturbances. Under these circumstances, the emergency station supply must kick in to avoid damage to any equipment and to prevent hazardous situations such as the release of hydrogen gas from generators to the local environment.
+
+
+== In nuclear power plantsEdit ==
+Emergency power systems, called there Emergency Diesel Generators (EDGs), are a required feature in nuclear power plants. They are typically installed in sets of three. The EDG installation is designed to the same safety-grade requirements as the other safety systems in the plant. The next (upcoming) generation of nuclear power plants includes some designs with multiple independent banks of EDGs (as in the ABWRs ).
+
+
+== Controlling the emergency power systemEdit ==
+For a 208 VAC emergency supply system, a central battery system with automatic controls, located in the power station building, is used to avoid long electric supply wires. This central battery system consists of lead-acid battery cell units to make up a 12 or 24 VDC system as well as stand-by cells, each with its own battery charging unit. Also needed are a voltage sensing unit capable of receiving 208 VAC and an automatic system that is able to signal to and activate the emergency supply circuit in case of failure of 208 VAC station supply.
+
+
+== See alsoEdit ==
+Stationary fuel cell applications
+Vehicle-to-grid (V2G)
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+India Orders 310 units backup power fuel cells
+
+
+== External linksEdit ==
+How Emergency Power Systems Work
+Difference between car battery and deep-cycle batteries

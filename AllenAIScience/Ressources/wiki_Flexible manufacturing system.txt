@@ -1,0 +1,52 @@
+A flexible manufacturing system (FMS) is a manufacturing system in which there is some amount of flexibility that allows the system to react in case of changes, whether predicted or unpredicted. This flexibility is generally considered to fall into two categories, which both contain numerous subcategories.
+The first category, machine flexibility, covers the system's ability to be changed to produce new product types, and ability to change the order of operations executed on a part. The second category is called routing flexibility, which consists of the ability to use multiple machines to perform the same operation on a part, as well as the system's ability to absorb large-scale changes, such as in volume, capacity, or capability.
+Most FMS consist of three main systems. The work machines which are often automated CNC machines are connected by a material handling system to optimize parts flow and the central control computer which controls material movements and machine flow.
+The main advantages of an FMS is its high flexibility in managing manufacturing resources like time and effort in order to manufacture a new product. The best application of an FMS is found in the production of small sets of products like those from a mass production.
+
+
+== AdvantagesEdit ==
+Reduced manufacturing cost
+Lower cost per unit produced,
+Greater labour productivity,
+Greater machine efficiency,
+Improved quality,
+Increased system reliability,
+Reduced parts inventories,
+Adaptability to CAD/CAM operations.
+Shorter lead times
+
+
+== DisadvantagesEdit ==
+Cost to implement,
+Substantial pre-planning
+Requirement of skilled labour
+Complicated system
+
+
+== FlexibilityEdit ==
+Flexibility in manufacturing means the ability to deal with slightly or greatly mixed parts, to allow variation in parts assembly and variations in process sequence, change the production volume and change the design of certain product being manufactured.
+
+
+== Industrial FMS CommunicationEdit ==
+
+An Industrial Flexible Manufacturing System (FMS) consists of robots, Computer-controlled Machines, Numerical controlled machines (CNC), instrumentation devices, computers, sensors, and other stand alone systems such as inspection machines. The use of robots in the production segment of manufacturing industries promises a variety of benefits ranging from high utilization to high volume of productivity. Each Robotic cell or node will be located along a material handling system such as a conveyor or automatic guided vehicle. The production of each part or work-piece will require a different combination of manufacturing nodes. The movement of parts from one node to another is done through the material handling system. At the end of part processing, the finished parts will be routed to an automatic inspection node, and subsequently unloaded from the Flexible Manufacturing System.
+
+The FMS data traffic consists of large files and short messages, and mostly come from nodes, devices and instruments. The message size ranges between a few bytes to several hundreds of bytes. Executive software and other data, for example, are files with a large size, while messages for machining data, instrument to instrument communications, status monitoring, and data reporting are transmitted in small size.
+There is also some variation on response time. Large program files from a main computer usually take about 60 seconds to be down loaded into each instrument or node at the beginning of FMS operation. Messages for instrument data need to be sent in a periodic time with deterministic time delay. Other types of messages used for emergency reporting are quite short in size and must be transmitted and received with an almost instantaneous response. The demands for reliable FMS protocol that support all the FMS data characteristics are now urgent. The existing IEEE standard protocols do not fully satisfy the real time communication requirements in this environment. The delay of CSMA/CD is unbounded as the number of nodes increases due to the message collisions. Token Bus has a deterministic message delay, but it does not support prioritized access scheme which is needed in FMS communications. Token Ring provides prioritized access and has a low message delay, however, its data transmission is unreliable. A single node failure which may occur quite often in FMS causes transmission errors of passing message in that node. In addition, the topology of Token Ring results in high wiring installation and cost.
+A design of FMS communication that supports a real time communication with bounded message delay and reacts promptly to any emergency signal is needed. Because of machine failure and malfunction due to heat, dust, and electromagnetic interference is common, a prioritized mechanism and immediate transmission of emergency messages are needed so that a suitable recovery procedure can be applied. A modification of standard Token Bus to implement a prioritized access scheme was proposed to allow transmission of short and periodic messages with a low delay compared to the one for long messages.
+
+
+== Further readingEdit ==
+Manufacturing Flexibility: a literature review. By A. de Toni and S. Tonchia. International Journal of Production Research, 1998, vol. 36, no. 6, 1587-617.
+Computer Control of Manufacturing Systems. By Y. Korem. McGraw Hill, Inc. 1983, 287 pp, ISBN 0-07-035341-7
+Manufacturing Systems – Theory and Practice. By G. Chryssolouris. New York, NY: Springer Verlag, 2005. 2nd edition.
+Design of Flexible Production Systems – Methodologies and Tools. By T. Tolio. Berlin: Springer, 2009. ISBN 978-3-540-85413-5
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+FMS video 1
+FMS video 2
+FMS video 3

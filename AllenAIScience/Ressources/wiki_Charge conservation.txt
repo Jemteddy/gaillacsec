@@ -1,0 +1,66 @@
+In physics, charge conservation is the principle that electric charge can neither be created nor destroyed. The net quantity of electric charge, the amount of positive charge minus the amount of negative charge in the universe, is always conserved. The first written statement of the principle was by American scientist and statesman Benjamin Franklin in 1747.
+
+it is now discovered and demonstrated, both here and in Europe, that the Electrical Fire is a real Element, or Species of Matter, not created by the Friction, but collected only.
+
+Charge conservation is a physical law that states that the change in the amount of electric charge in any volume of space is exactly equal to the amount of charge flowing into the volume minus the amount of charge flowing out of the volume. In essence, charge conservation is an accounting relationship between the amount of charge in a region and the flow of charge into and out of that region.
+Mathematically, we can state the law as a continuity equation:
+
+Q(t) is the quantity of electric charge in a specific volume at time t, QIN is the amount of charge flowing into the volume between time t1 and t2, and QOUT is the amount of charge flowing out of the volume during the same time period.
+This does not mean that individual positive and negative charges cannot be created or destroyed. Electric charge is carried by subatomic particles such as electrons and protons, which can be created and destroyed. In particle physics, charge conservation means that in elementary particle reactions that create charged particles, equal numbers of positive and negative particles are always created, keeping the net amount of charge unchanged. Similarly, when particles are destroyed, equal numbers of positive and negative charges are destroyed.
+Although conservation of charge requires that the total quantity of charge in the universe is constant, it leaves open the question of what that quantity is. Most evidence indicates that the net charge in the universe is zero; that is, there are equal quantities of positive and negative charge.
+
+
+== Formal statement of the lawEdit ==
+
+Vector calculus can be used to express the law in terms of charge density ρ (in coulombs per cubic meter) and electric current density J (in amperes per square meter):
+
+The term on the left is the rate of change of the charge density ρ at a point. The term on the right is the divergence of the current density J. The equation equates these two factors, which says that the only way for the charge density at a point to change is for a current of charge to flow into or out of the point. This statement is equivalent to a conservation of four-current.
+
+
+=== Mathematical derivationEdit ===
+The net current into a volume is
+
+where S = ∂V is the boundary of V oriented by outward-pointing normals, and dS is shorthand for NdS, the outward pointing normal of the boundary ∂V. Here J is the current density (charge per unit area per unit time) at the surface of the volume. The vector points in the direction of the current.
+From the Divergence theorem this can be written
+
+Charge conservation requires that the net current into a volume must necessarily equal the net change in charge within the volume.
+
+Charge is related to charge density by the relation
+
+This yields
+
+Since this is true for every volume, we have in general
+
+
+== Connection to gauge invarianceEdit ==
+Charge conservation can also be understood as a consequence of symmetry through Noether's theorem, a central result in theoretical physics that asserts that each conservation law is associated with a symmetry of the underlying physics. The symmetry that is associated with charge conservation is the global gauge invariance of the electromagnetic field. This is related to the fact that the electric and magnetic fields are not changed by different choices of the value representing the zero point of electrostatic potential . However the full symmetry is more complicated, and also involves the vector potential . The full statement of gauge invariance is that the physics of an electromagnetic field are unchanged when the scalar and vector potential are shifted by the gradient of an arbitrary scalar field :
+
+In quantum mechanics the scalar field is equivalent to a phase shift in the wavefunction of the charged particle:
+
+so gauge invariance is equivalent to the well known fact that changes in the phase of a wavefunction are unobservable, and only changes in the magnitude of the wavefunction result in changes to the probability function . This is the ultimate theoretical origin of charge conservation.
+Gauge invariance is a very important, well established property of the electromagnetic field and has many testable consequences. The theoretical justification for charge conservation is greatly strengthened by being linked to this symmetry. For example, local gauge invariance also requires that the photon be massless, so the good experimental evidence that the photon has zero mass is also strong evidence that charge is conserved.
+Even if gauge symmetry is exact, however, there might be apparent electric charge non-conservation if charge could leak from our normal 3-dimensional space into hidden extra dimensions.
+
+
+== Experimental EvidenceEdit ==
+Simple arguments rule out some types of charge nonconservation. For example, the magnitude of the elementary charge on positive and negative particles must be exactly equal. Ordinary matter contains equal numbers of positive and negative particles, protons and electrons, in enormous quantities. If the elementary charge on the electron and proton were even slightly different, all matter would have a large electric charge and would be mutually repulsive.
+The best experimental tests of electric charge conservation are searches for particle decays that would be allowed if electric charge is not always conserved. No such decays have ever been seen. The best experimental test comes from searches for the energetic photon from an electron decaying into a neutrino and a single photon:
+but there are theoretical arguments that such single-photon decays will never occur even if charge is not conserved. Charge disappearance tests are sensitive to decays without energetic photons, other unusual charge violating processes such as an electron spontaneously changing into a positron, and to electric charge moving into other dimensions. The best experimental bounds on charge disappearance are:
+
+
+== See alsoEdit ==
+Capacitance
+Charge invariance
+Conservation Laws and Symmetry
+Introduction to gauge theory – includes further discussion of gauge invariance and charge conservation
+Kirchhoff's circuit laws – application of charge conservation to electric circuits
+Maxwell's equations
+Relative charge density
+Franklin's electrostatic machine
+
+
+== NotesEdit ==
+
+
+== Further readingEdit ==
+Lemay, J.A. Leo (2008). "Chapter 2: Electricity". The Life of Benjamin Franklin, Volume 3: Soldier, Scientist, and Politician. University of Pennsylvania Press. ISBN 978-0-8122-4121-1.

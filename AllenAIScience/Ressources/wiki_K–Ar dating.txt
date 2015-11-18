@@ -1,0 +1,55 @@
+Potassium–argon dating, abbreviated K–Ar dating, is a radiometric dating method used in geochronology and archaeology. It is based on measurement of the product of the radioactive decay of an isotope of potassium (K) into argon (Ar). Potassium is a common element found in many materials, such as micas, clay minerals, tephra, and evaporites. In these materials, the decay product 40Ar is able to escape the liquid (molten) rock, but starts to accumulate when the rock solidifies (recrystallizes). Time since recrystallization is calculated by measuring the ratio of the amount of 40Ar accumulated to the amount of 40K remaining. The long half-life of 40K allows the method to be used to calculate the absolute age of samples older than a few thousand years.
+The quickly cooled lavas that make nearly ideal samples for K–Ar dating also preserve a record of the direction and intensity of the local magnetic field as the sample cooled past the Curie temperature of iron. The geomagnetic polarity time scale was calibrated largely using K–Ar dating.
+
+
+== Decay series ==
+
+Potassium naturally occurs in 3 isotopes – 39K (93.2581%), 40K (0.0117%), 41K (6.7302%). The radioactive isotope 40K decays with a half-life of 7016393838848000000♠1.248×109 years to 40Ca and 40Ar. Conversion to stable 40Ca occurs via electron emission (beta decay) in 89.1% of decay events. Conversion to stable 40Ar occurs via electron capture in the remaining 10.9% of decay events.
+Argon, being a noble gas, is a minor component of most rock samples of geochronological interest: it does not bind with other atoms in a crystal lattice. When 40K decays to 40Ar (argon), the atom typically remains trapped within the lattice because it is larger than the spaces between the other atoms in a mineral crystal. But it can escape into the surrounding region when the right conditions are met, such as change in pressure and/or temperature. 40Ar atoms are able to diffuse through and escape from molten magma because most crystals have melted and the atoms are no longer trapped. Entrained argon—diffused argon that fails to escape from the magma—may again become trapped in crystals when magma cools to become solid rock again. After the recrystallization of magma, more 40K will decay and 40Ar will again accumulate, along with the entrained argon atoms, trapped in the mineral crystals. Measurement of the quantity of 40Ar atoms is used to compute the amount of time that has passed since a rock sample has solidified.
+Calcium is common in the crust, with 40Ca being the most abundant isotope. Despite 40Ca being the favored daughter nuclide, its usefulness in dating is limited since a great many decay events are required for a small change in relative abundance, and also the amount of calcium originally present may not be known.
+
+
+== Formula ==
+The ratio of the amount of 40Ar to that of 40K is directly related to the time elapsed since the rock was cool enough to trap the Ar by the following equation:
+
+t is time elapsed
+t1/2 is the half-life of 40K
+Kf is the amount of 40K remaining in the sample
+Arf is the amount of 40Ar found in the sample.
+The scale factor 0.109 corrects for the unmeasured fraction of 40K which decayed into 40Ca; the sum of the measured 40K and the scaled amount of 40Ar gives the amount of 40K which was present at the beginning of the elapsed time period. In practice, each of these values may be expressed as a proportion of the total potassium present, as only relative, not absolute, quantities are required.
+
+
+== Obtaining the data ==
+To obtain the content ratio of isotopes 40Ar to 40K in a rock or mineral, the amount of Ar is measured by mass spectrometry of the gases released when a rock sample is melted in vacuum. The potassium is quantified by flame photometry or atomic absorption spectroscopy.
+The amount of 40K is rarely measured directly. Rather, the more common 39K is measured and that quantity is then multiplied by the accepted ratio of 40K/39K (i.e., 0.0117%/93.2581%, see above).
+The amount of 36Ar may also be required to be measured.
+
+
+== Assumptions ==
+According to McDougall & Harrison (1999, p. 11) the following assumptions must be true for computed dates to be accepted as representing the true age of the rock:
+The parent nuclide, 40K, decays at a rate independent of its physical state and is not affected by differences in pressure or temperature. This is a well founded major assumption, common to all dating methods based on radioactive decay. Although changes in the electron capture partial decay constant for 40K possibly may occur at high pressures, theoretical calculations indicate that for pressures experienced within a body of the size of the Earth the effects are negligibly small.
+The 40K/39K ratio in nature is constant so the 40K is rarely measured directly, but is assumed to be 0.0117% of the total potassium. Unless some other process is active at the time of cooling, this is a very good assumption for terrestrial samples.
+The radiogenic argon measured in a sample was produced by in situ decay of 40K in the interval since the rock crystallized or was recrystallized. Violations of this assumption are not uncommon. Well-known examples of incorporation of extraneous 40Ar include chilled glassy deep-sea basalts that have not completely outgassed preexisting 40Ar*, and the physical contamination of a magma by inclusion of older xenolitic material. The Ar–Ar dating method was developed to measure the presence of extraneous argon.
+Great care is needed to avoid contamination of samples by absorption of nonradiogenic 40Ar from the atmosphere. The equation may be corrected by subtracting from the 40Armeasured value the amount present in the air where 40Ar is 295.5 times more plentiful than 36Ar. 40Ardecayed = 40Armeasured − 295.5 × 36Armeasured.
+The sample must have remained a closed system since the event being dated. Thus, there should have been no loss or gain of 40K or 40Ar*, other than by radioactive decay of 40K. Departures from this assumption are quite common, particularly in areas of complex geological history, but such departures can provide useful information that is of value in elucidating thermal histories. A deficiency of 40Ar in a sample of a known age can indicate a full or partial melt in the thermal history of the area. Reliability in the dating of a geological feature is increased by sampling disparate areas which have been subjected to slightly different thermal histories.
+Both flame photometry and mass spectrometry are destructive tests, so particular care is needed to ensure that the aliquots used are truly representative of the sample. Ar–Ar dating is a similar technique which compares isotopic ratios from the same portion of the sample to avoid this problem.
+
+
+== Applications ==
+Due to the long half-life, the technique is most applicable for dating minerals and rocks more than 100,000 years old. For shorter timescales, it is likely that not enough argon-40 will have had time to accumulate in order to be accurately measurable. K–Ar dating was instrumental in the development of the geomagnetic polarity time scale. Although it finds the most utility in geological applications, it plays an important role in archaeology. One archeological application has been in bracketing the age of archeological deposits at Olduvai Gorge by dating lava flows above and below the deposits. It has also been indispensable in other early east African sites with a history of volcanic activity such as Hadar, Ethiopia. The K–Ar method continues to have utility in dating clay mineral diagenesis. Clay minerals are less than 2 micrometres thick and cannot easily be irradiated for Ar–Ar analysis because Ar recoils from the crystal lattice.
+In 2013 the K-Ar method was used by the Mars Curiosity rover to date a rock on the Martian surface, the first time a rock has been dated from its mineral ingredients while situated on another planet.
+
+
+== Notes ==
+
+
+== References ==
+McDougall, I.; Harrison, T. M. (1999). Geochronology and thermochronology by the 40Ar/39Ar method. Oxford University Press. ISBN 0-19-510920-1. 
+Tattersall, I. (1995). The Fossil Trail: How We Know What We Think We Know About Human Evolution. Oxford University Press. ISBN 0-19-506101-2. 
+
+
+== Further reading ==
+"K/Ar and 40K/39K methodology". New Mexico Geochronology Research Laboratory. Archived from the original on 2006-04-17. 
+Michaels, G. H.; Fagan, B. M. (15 December 2005). "Chronological Methods 9: Potassium–Argon Dating". University of California. Archived from the original on 2010-08-10. 
+Aronson, J. L.; Lee, M. (1986). "K/Ar systematics of bentonite and shale in a contact metamorphic zone". Clays and Clay Minerals 34 (4): 483–487. Bibcode:1986CCM....34..483A. doi:10.1346/CCMN.1986.0340415. 
+Moran, T. J. (2009). "Teaching Radioisotope Dating Using the Geology of the Hawaiian Islands" (PDF). Journal of Geoscience Education 57 (2): 101–105. Bibcode:2009JGeEd..57..101M. doi:10.5408/1.3544237.

@@ -1,0 +1,83 @@
+Optical sorting (sometimes called digital sorting) is the automated process of sorting solid products using cameras and/or lasers.
+Depending on the types of sensors used and the software-driven intelligence of the image processing system, optical sorters can recognize objects’ color, size, shape, structural properties and chemical composition. The sorter compares objects to user-defined accept/reject criteria to identify and remove defective products and foreign material (FM) from the production line, or to separate product of different grades or types of materials.
+
+Optical sorters are in widespread use in the food industry worldwide, with the highest adoption in processing harvested foods such as potatoes, fruits, vegetables and nuts where it achieves non-destructive, 100 percent inspection in-line at full production volumes. The technology is also used in pharmaceutical manufacturing and nutraceutical manufacturing, tobacco processing, waste recycling and other industries. Compared to manual sorting, which is subjective and inconsistent, optical sorting helps improve product quality, maximize throughput and increase yields while reducing labor costs.
+
+
+== The Sorting System ==
+In general, optical sorters feature four major components: the feed system, the optical system, image processing software and the separation system. The objective of the feed system is to spread product into a uniform monolayer so products are presented to the optical system evenly, without clumps, at a constant velocity. The optical system includes lights and sensors housed above and/or below the flow of the objects being inspected. The image processing system compares objects to user-defined accept/reject thresholds to classify objects and actuate the separation system. The separation system, usually compressed air for small products and mechanical devices for larger products like whole potatoes, pinpoints objects while in-air and deflects the objects to remove into a reject chute while good product continues along its normal trajectory.
+The ideal sorter depends on the application, with the product’s characteristics and the user’s objectives determining the ideal sensors, software-driven capabilities and mechanical platform.
+
+
+== Sensors ==
+Optical sorters require a compatible combination of light and sensors to illuminate objects and capture images of the objects before the images can be processed and accept/reject decisions made.
+There are camera sorters, laser sorters and sorters that feature a combination of cameras and lasers on one platform. Lights, cameras, lasers and laser sensors can be designed to function within visible light wavelengths as well as the infrared (IR) and ultraviolet (UV) spectrums. The optimal wavelengths for each application maximize the contrast between the objects to be separated. Cameras and laser sensors can differ in spatial resolution, with higher resolutions enabling the sorter to detect and remove smaller defects.
+
+
+=== Cameras ===
+
+Monochromatic cameras detect shades of gray from black to white and can be effective when sorting products with high-contrast defects.
+Sophisticated color cameras with high color resolution are capable of detecting millions of colors to better distinguish more subtle color defects. Trichromatic color cameras (also called three-channel cameras) divide light into three bands, which can include red, green and/or blue within the visible spectrum as well as IR and UV.
+Coupled with intelligent software, sorters that feature cameras are capable of recognizing each object’s color, size and shape as well as the color, size, shape and location of a defect on a product. Some intelligent sorters even allow the user to define a defective product based on the total defective surface area of any given object.
+
+
+=== Lasers ===
+While cameras capture product information based primarily on material reflectance, lasers and their sensors are able to interrogate a material’s structural properties in addition to determining differences in color. This structural property inspection capability makes lasers ideal for detecting a wide range of organic and inorganic foreign material such as insects, glass, metal, sticks, rocks and plastic, even if they are the same color as the good product, and for separating various materials at waste recycling facilities.
+Lasers can be designed to operate within specific wavelengths of light, within the visible spectrums and beyond. For example, lasers can detect chlorophyll by stimulating fluorescence using specific wavelengths, a process that is very effective for removing foreign material from green vegetables.
+
+
+=== Camera/Laser Combinations ===
+Sorters equipped with cameras and lasers on one platform are generally capable of identifying the widest variety of attributes. Cameras are often better at recognizing color, size and shape while laser sensors identify differences in structural properties to maximize foreign material detection and removal.
+
+
+=== Hyperspectral Imaging ===
+
+Driven by the need to solve previously impossible sorting challenges, a new generation of sorters that feature multispectral and hyperspectral imaging systems are being developed.
+Like trichromatic cameras, multispectral and hyperspectral cameras collect data from across the electromagnetic spectrum. Unlike trichromatic cameras, which divide light into three bands, hyperspectral systems can divide light into hundreds of narrow bands over a continuous range that covers a vast portion of the electromagnetic spectrum. Compared to the three data points per pixel collected by trichromatic cameras, hyperspectral cameras can collect hundreds of data points per pixel, which are combined to create a unique spectral signature (also called a fingerprint) for each object. When complemented by capable software intelligence, a hyperspectral sorter processes those fingerprints to enable sorting on the chemical composition of the product. This is an emerging area of chemometrics.
+
+
+== Software-Driven Intelligence ==
+Once the sensors capture the object’s response to the energy source, image processing takes over to manipulate the raw data to extract and categorize information about specific features. As raw data flows from the sensors, the definitions of good and bad flow from the user who sets the accept/reject thresholds. The art and science of image processing lies in developing algorithms that maximize the effectiveness of the sorter while presenting a simple user-interface to the operator.
+Object-based recognition is a classic example of software-driven intelligence. It allows the user to define a defective product based on where a defect lies on the product and/or the total defective surface area of an object. It offers more control in defining a wider range of defective products, and if used to control the sorter’s ejection system, it improves the accuracy of ejecting defective products, which improves product quality and increases yields.
+New software-driven capabilities are constantly being developed to address the specific needs of various applications. As computing hardware becomes more powerful, new software-driven advancements that require more bandwidth become possible. Some of these advancements enhance the effectiveness of sorters to achieve better results while others enable completely new sorting decisions to be made.
+
+
+== Platforms ==
+The considerations that determine the ideal platform for a specific application include the nature of the product – large or small, wet or dry, fragile or unbreakable, round or easy to stabilize – and the user’s objectives. In general, products smaller than a grain of rice and as large as whole potatoes can be sorted. Throughputs range from less than 2 metric tons of product per hour on low-capacity sorters to more than 35 metric tons of product per hour on high-capacity sorters.
+
+
+=== Channel Sorters ===
+The simplest optical sorters are channel sorters, a type of color sorter that can be effective for products that are small, hard and dry with a consistent size and shape such as rice and seeds. For these products, channel sorters offer an affordable solution and ease of use with a small footprint. Channel sorters feature monochromatic or color cameras and remove defects and foreign material based only on differences in color.
+For products that are soft or wet or non-homogenous, which cannot be handled by a channel sorter, and for processors that want more control over the quality of their product, freefall sorters (also called waterfall or gravity-fed sorters), chute-fed sorters or belt sorters are ideal. These more sophisticated sorters often feature advanced cameras and/or lasers that, when complemented by capable software intelligence, detect objects’ size, shape, color, structural properties and chemical composition.
+
+
+=== Freefall and Chute-Fed Sorters ===
+As the names imply, freefall sorters inspect product in-air during the freefall, while chute-fed sorters stabilize product on a chute prior to in-air inspection. The major advantages of freefall and chute-fed sorters, compared to belt sorters, are a lower price point, smaller footprint and the absence of moving parts, which contributes to low maintenance. These sorters are often most suitable for nuts and berries as well as a frozen and dried fruits, vegetables, potato strips and seafood, in addition to waste recycling applications that require mid-volume throughputs.
+
+
+=== Belt Sorters ===
+
+Belt sorting platforms are often preferred for higher capacity applications such as vegetable and potato products prior to canning, freezing or drying, most fresh cut produce and wet fruits as well as waste recycling. Belt sorters stabilize product on a conveyor belt prior to inspection. Some belt sorters inspect product on the belt from the top only while others also launch product off the belt for in-air inspection from the bottom. Belt sorters can be designed to achieve traditional two-way sorting or can be equipped with two ejector systems and three outfeed streams to achieve three-way sorting.
+
+
+=== ADR Systems ===
+A fifth type of sorting platform, called an automated defect removal (ADR) system, is specifically for potato strips (French fries). Unlike other sorters that eject products with defects from the production line, ADR systems identify defects and actually cut the defects from the strips. In conjunction with a mechanical nubbin grader that follows the ADR, this combination is essentially another type of optical sorting system because it uses optical sensors to identify and remove defects.
+
+
+=== Single-File Inspection Systems ===
+The platforms described above all operate in bulk mode, without needing to single-file product prior to inspection. In contrast, a sixth type of platform, used in the pharmaceutical industry, is a single-file optical inspection system. Although these sorters are effective in detecting and removing foreign tablets and capsules and defects based on differences in size, shape and color, they have not been widely adopted due to the high capital costs, low throughput and slow changeover, compared to the belt sorters for tablets, capsules and softgels.
+
+
+=== Mechanical Graders ===
+For products that require sorting only by size, mechanical grading systems that don’t utilize sensors or image processing systems are often highly effective. These mechanical grading systems are sometimes referred to as sorting systems, but should not be confused with optical sorters that feature sensors and image processing systems.
+
+
+== See also ==
+
+Food grading
+Food safety
+Food technology
+Recycling#Sorting
+
+
+== References ==

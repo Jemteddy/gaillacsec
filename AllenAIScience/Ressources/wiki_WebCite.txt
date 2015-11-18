@@ -1,0 +1,58 @@
+WebCite is an on-demand archiving service, designed to digitally preserve scientific and educationally important material on the web by making snapshots of Internet contents as they existed at the time when a blogger, or a scholar or a Wikipedia editor cited or quoted from it. The preservation service enables verifiability of claims supported by the cited sources even when the original web pages are being revised, removed, or disappear for other reasons, an effect known as link rot.
+
+
+== Comparison to other services ==
+The service differs from the short time Google Cache copies by having indefinite archiving, and WebCite also offers on-the-fly archiving. The Internet Archive, since 2013, also offers immediate archiving, however, WebCite has some advantages:
+pages cached by WebCite also capture several layers of underlying links while Internet Archive only captures the top page chosen for archiving. The accuracy with which formatting and functionality is preserved also varies greatly between Internet Archive and WebCite.
+WebCite checks robots.txt only at the time of archiving, Internet Archive checks robots.txt occasionally so changes in robots.txt (which can be caused by change the ownership of the domain name) can result in removing the cached pages from the Internet Archive.
+WebCite is a non-profit consortium supported by publishers and editors, and it can be used by individuals without charge. Rather than relying on a web crawler which archives pages in a "random" fashion, authors who want to cite web pages in a scholarly article can initiate the archiving process. They then cite – instead of or in addition to the original URL – the snapshot address archived by WebCite, with an identifier that specifies the cited source.
+It can be used to preserve cited Internet content, such as the archived web pages through WebCite, in addition to citing the original URL of the Internet content. All types of web content, including HTML web pages, PDF files, style sheets, JavaScript and digital images can be preserved. It also archives metadata about the collected resources such as access time, MIME type, and content length.
+
+
+== History ==
+Conceived in 1997 by Gunther Eysenbach, WebCite was publicly described the following year when an article on Internet quality control declared that such a service could also measure the citation impact of web pages. In the next year, a pilot service was set up at the address webcite.net (see archived screenshots of that service at the Wayback Machine (archived February 3, 1999)). Although it seemed that the need for WebCite decreased when Google's short term copies of web pages begun to be offered by Google Cache and the Internet Archive expanded their crawling (which started in 1996), WebCite was the only one allowing "on-demand" archiving by users. WebCite also offers interfaces to scholarly journals and publishers to automate the archiving of cited links. By 2008, over 200 journals had begun routinely using WebCite.
+WebCite used to be, but is no longer, a member of the International Internet Preservation Consortium. In a 2012 message on Twitter, Eysenbach commented that "WebCite has no funding, and IIPC charges 4000 Euro/yr in membership fees."
+WebCite "feeds its content" to other digital preservation projects, including the Internet Archive. Lawrence Lessig, an American academic who writes extensively on copyright and technology, used WebCite in his amicus brief in the United States Supreme Court case of MGM Studios, Inc. v. Grokster, Ltd.
+
+
+== Fundraising ==
+WebCite has been running a fund-raising campaign using FundRazr since January 2013 with a target of $22,500, a sum which its operators have stated is needed to maintain and modernize the service beyond the end of 2013. This includes relocating the service to Amazon EC2 cloud hosting and legal support. It is currently undecided if WebCite will continue as a non-profit or as a for-profit entity.
+
+
+== Process ==
+WebCite allows on-demand prospective archiving. It is not crawler-based; pages are only archived if the citing author or publisher requests it. No cached copy will appear in a WebCite search unless the author or another person has specifically cached it beforehand.
+To initiate the caching and archiving of a page, an author may use WebCite's "archive" menu option or create a WebCite bookmarklet that will allow web surfers to cache pages just by clicking a button in their bookmarks folder.
+One can retrieve or cite archived pages through a transparent format such as
+http://webcitation.org/query?url=URL&date=DATE
+where URL is the URL that was archived, and DATE indicates the caching date. For example,
+http://webcitation.org/query?url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain_Page&date=2008-03-04
+or the alternate short form http://webcitation.org/5W56XTY5h retrieves an archived copy of the URL http://en.wikipedia.org/wiki/Main_Page that is closest to the date of March 4, 2008.
+It is important to note that WebCite does not work for pages which contain a no-cache tag. WebCite respects the author's request to not have their web page cached.
+One can archive a page by simply navigating in their browser to a link formatted like this:
+http://webcitation.org/archive?url=urltoarchive&email=youremail
+replacing urltoarchive with the full URL of the page to be archived, and youremail with their e-mail address. This is how the WebCite bookmarklet works.
+
+
+== Business model ==
+The term "WebCite" is a registered trademark. WebCite does not charge individual users, journal editors and publishers any fee to use their service. WebCite earns revenue from publishers who want to "have their publications analyzed and cited webreferences archived", and accepts donations. Early support was from the University of Toronto.
+
+
+== Copyright issues ==
+WebCite maintains the legal position that its archiving activities are allowed by the copyright doctrines of fair use and implied license. To support the fair use argument, WebCite notes that its archived copies are transformative, socially valuable for academic research, and not harmful to the market value of any copyrighted work. WebCite argues that caching and archiving web pages is not considered a copyright infringement when the archiver offers the copyright owner an opportunity to "opt-out" of the archive system, thus creating an implied license. To that end, WebCite will not archive in violation of Web site "do-not-cache" and "no-archive" metadata, as well as robot exclusion standards, the absence of which creates an "implied license" for web archive services to preserve the content.
+In a similar case involving Google's web caching activities, on January 19, 2006, the United States District Court for the District of Nevada agreed with that argument in the case of Field v. Google (CV-S-04-0413-RCJ-LRL), holding that fair use and an "implied license" meant that Google's caching of Web pages did not constitute copyright violation. The "implied license" referred to general Internet standards.
+
+
+== See also ==
+
+Digital preservation
+Uniform Resource Locator
+Wayback Machine
+Web archiving
+]
+
+
+== References ==
+
+
+== External links ==
+Official website

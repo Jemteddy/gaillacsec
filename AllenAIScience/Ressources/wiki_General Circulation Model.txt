@@ -1,0 +1,173 @@
+A general circulation model (GCM) is a type of climate model. It employs a mathematical model of the general circulation of a planetary atmosphere or ocean. It uses the Navier–Stokes equations on a rotating sphere with thermodynamic terms for various energy sources (radiation, latent heat). These equations are the basis for computer programs used to simulate the Earth's atmosphere or oceans. Atmospheric and oceanic GCMs (AGCM and OGCM) are key components along with sea ice and land-surface components.
+GCMs and global climate models are used for weather forecasting, understanding the climate and forecasting climate change.
+Versions designed for decade to century time scale climate applications were originally created by Syukuro Manabe and Kirk Bryan at the Geophysical Fluid Dynamics Laboratory in Princeton, New Jersey. These models are based on the integration of a variety of fluid dynamical, chemical and sometimes biological equations.
+
+
+== Terminology ==
+The acronym GCM originally stood for General Circulation Model. Recently, a second meaning came into use, namely Global Climate Model. While these do not refer to the same thing, General Circulation Models are typically the tools used for modelling climate, and hence the two terms are sometimes used interchangeably. However, the term "global climate model" is ambiguous and may refer to an integrated framework that incorporates multiple components including a general circulation model, or may refer to the general class of climate models that use a variety of means to represent the climate mathematically.
+
+
+== History ==
+
+In 1956, Norman Phillips developed a mathematical model that could realistically depict monthly and seasonal patterns in the troposphere. It became the first successful climate model. Following Phillips's work, several groups began working to create GCMs. The first to combine both oceanic and atmospheric processes was developed in the late 1960s at the NOAA Geophysical Fluid Dynamics Laboratory. By the early 1980s, the United States' National Center for Atmospheric Research had developed the Community Atmosphere Model; this model has been continuously refined. In 1996, efforts began to model soil and vegetation types. Later the Hadley Centre for Climate Prediction and Research's HadCM3 model coupled ocean-atmosphere elements. The role of gravity waves was added in the mid-1980s. Gravity waves are required to simulate regional and global scale circulations accurately.
+
+
+== Atmospheric and oceanic models ==
+Atmospheric (AGCMs) and oceanic GCMs (OGCMs) can be coupled to form an atmosphere-ocean coupled general circulation model (CGCM or AOGCM). With the addition of submodels such as a sea ice model or a model for evapotranspiration over land, AOGCMs become the basis for a full climate model.
+
+
+== Trends ==
+A recent trend in GCMs is to apply them as components of Earth system models, e.g. by coupling ice sheet models for the dynamics of the Greenland and Antarctic ice sheets, and one or more chemical transport models (CTMs) for species important to climate. Thus a carbon CTM may allow a GCM to better predict anthropogenic changes in carbon dioxide concentrations. In addition, this approach allows accounting for inter-system feedback: e.g. chemistry-climate models allow the possible effects of climate change on ozone hole to be studied.
+Climate prediction uncertainties depend on uncertainties in chemical, physical and social models (see IPCC scenarios below). Significant uncertainties and unknowns remain, especially regarding the future course of human population, industry and technology.
+
+
+== Structure ==
+Three-dimensional (more properly four-dimensional) GCMs apply discrete equations for fluid motion and integrate these forward in time. They contain parameterisations for processes such as convection that occur on scales too small to be resolved directly.
+A simple general circulation model (SGCM) consists of a dynamic core that relates properties such as temperature to others such as pressure and velocity. Examples are programs that solve the primitive equations, given energy input and energy dissipation in the form of scale-dependent friction, so that atmospheric waves with the highest wavenumbers are most attenuated. Such models may be used to study atmospheric processes, but are not suitable for climate projections.
+Atmospheric GCMs (AGCMs) model the atmosphere (and typically contain a land-surface model as well) using imposed sea surface temperatures (SSTs). They may include atmospheric chemistry.
+AGCMs consist of a dynamical core which integrates the equations of fluid motion, typically for:
+surface pressure
+horizontal components of velocity in layers
+temperature and water vapor in layers
+radiation, split into solar/short wave and terrestrial/infra-red/long wave
+parameters for:
+convection
+land surface processes
+albedo
+hydrology
+cloud cover
+
+A GCM contains prognostic equations that are a function of time (typically winds, temperature, moisture, and surface pressure) together with diagnostic equations that are evaluated from them for a specific time period. As an example, pressure at any height can be diagnosed by applying the hydrostatic equation to the predicted surface pressure and the predicted values of temperature between the surface and the height of interest. Pressure is used to compute the pressure gradient force in the time-dependent equation for the winds.
+OGCMs model the ocean (with fluxes from the atmosphere imposed) and may contain a sea ice model. For example, the standard resolution of HadOM3 is 1.25 degrees in latitude and longitude, with 20 vertical levels, leading to approximately 1,500,000 variables.
+AOGCMs (e.g. HadCM3, GFDL CM2.X) combine the two submodels. They remove the need to specify fluxes across the interface of the ocean surface. These models are the basis for model predictions of future climate, such as are discussed by the IPCC. AOGCMs internalise as many processes as possible. They have been used to provide predictions at a regional scale. While the simpler models are generally susceptible to analysis and their results are easier to understand, AOGCMs may be nearly as hard to analyse as the climate itself.
+
+
+=== Grid ===
+The fluid equations for AGCMs are made discrete using either the finite difference method or the spectral method. For finite differences, a grid is imposed on the atmosphere. The simplest grid uses constant angular grid spacing (i.e., a latitude / longitude grid). However, non-rectantangular grids (e.g., icosahedral) and grids of variable resolution are more often used. The LMDz model can be arranged to give high resolution over any given section of the planet. HadGEM1 (and other ocean models) use an ocean grid with higher resolution in the tropics to help resolve processes believed to be important for the El Niño Southern Oscillation (ENSO). Spectral models generally use a gaussian grid, because of the mathematics of transformation between spectral and grid-point space. Typical AGCM resolutions are between 1 and 5 degrees in latitude or longitude: HadCM3, for example, uses 3.75 in longitude and 2.5 degrees in latitude, giving a grid of 96 by 73 points (96 x 72 for some variables); and has 19 vertical levels. This results in approximately 500,000 "basic" variables, since each grid point has four variables (u,v, T, Q), though a full count would give more (clouds; soil levels). HadGEM1 uses a grid of 1.875 degrees in longitude and 1.25 in latitude in the atmosphere; HiGEM, a high-resolution variant, uses 1.25 x 0.83 degrees respectively. These resolutions are lower than is typically used for weather forecasting. Ocean resolutions tend to be higher, for example HadCM3 has 6 ocean grid points per atmospheric grid point in the horizontal.
+For a standard finite difference model, uniform gridlines converge towards the poles. This would lead to computational instabilities (see CFL condition) and so the model variables must be filtered along lines of latitude close to the poles. Ocean models suffer from this problem too, unless a rotated grid is used in which the North Pole is shifted onto a nearby landmass. Spectral models do not suffer from this problem. Some experiments use geodesic grids and icosahedral grids, which (being more uniform) do not have pole-problems. Another approach to solving the grid spacing problem is to deform a Cartesian cube such that it covers the surface of a sphere.
+
+
+=== Flux buffering ===
+Some early versions of AOGCMs required an ad hoc process of "flux correction" to achieve a stable climate. This resulted from separately prepared ocean and atmospheric models that each used an implicit flux from the other component different than that component could produce. Such a model failed to match observations. However, if the fluxes were 'corrected', the factors that led to these unrealistic fluxes might be unrecognised, which could affect model sensitivity. As a result the vast majority of models used in the current round of IPCC reports do not use them. The model improvements that now make flux corrections unnecessary include improved ocean physics, improved resolution in both atmosphere and ocean, and more physically consistent coupling between atmosphere and ocean submodels. Improved models now maintain stable, multi-century simulations of surface climate that are considered to be of sufficient quality to allow their use for climate projections.
+
+
+=== Convection ===
+Moist convection releases latent heat and is important to the Earth's energy budget. Convection occurs on too small a scale to be resolved by climate models, and hence it must be handled via parameters. This has been done since the 1950s. Akio Arakawa did much of the early work, and variants of his scheme are still used, although a variety of different schemes are now in use. Clouds are also typically handled with a parameter, for a similar lack of scale. Limited understanding of clouds has limited the success of this strategy, but not due to some inherent shortcoming of the method.
+
+
+=== Software ===
+Most models include software to diagnose a wide range of variables for comparison with observations or study of atmospheric processes. An example is the 1.5-metre temperature, which is the standard height for near-surface observations of air temperature. This temperature is not directly predicted from the model but is deduced from surface and lowest-model-layer temperatures. Other software is used for creating plots and animations.
+
+
+== Projections ==
+
+Coupled AOGCMs use transient climate simulations to project/predict climate changes under various scenarios. These can be idealised scenarios (most commonly, CO2 emissions increasing at 1%/yr) or based on recent history (usually the "IS92a" or more recently the SRES scenarios). Which scenarios are most realistic remains uncertain.
+The 2001 IPCC Third Assessment Report Figure 9.3 shows the global mean response of 19 different coupled models to an idealised experiment in which emissions increased at 1% per year. Figure 9.5 shows the response of a smaller number of models to more recent trends. For the 7 climate models shown there, the temperature change to 2100 varies from 2 to 4.5 °C with a median of about 3 °C.
+Future scenarios do not include unknown events – for example, volcanic eruptions or changes in solar forcing. These effects are believed to be small in comparison to greenhouse gas (GHG) forcing in the long term, but large volcanic eruptions, for example, can exert a substantial temporary cooling effect.
+Human GHG emissions are a model input, although it is possible to include an economic/technological submodel to provide these as well. Atmospheric GHG levels are usually supplied as an input, though it is possible to include a carbon cycle model that reflects vegetation and oceanic processes to calculate such levels.
+
+
+=== Emissions scenarios ===
+
+For the six SRES marker scenarios, IPCC (2007:7–8) gave a "best estimate" of global mean temperature increase (2090–2099 relative to the period 1980–99) of 1.8 °C to 4.0 °C. Over the same time period, the "likely" range (greater than 66% probability, based on expert judgement) for these scenarios was for a global mean temperature increase of 1.1 to 6.4 °C.
+In 2008 a study made climate projections using several emission scenarios. In a scenario where global emissions start to decrease by 2010 and then declined at a sustained rate of 3% per year, the likely global average temperature increase was predicted to be 1.7 °C above pre-industrial levels by 2050, rising to around 2 °C by 2100. In a projection designed to simulate a future where no efforts are made to reduce global emissions, the likely rise in global average temperature was predicted to be 5.5 °C by 2100. A rise as high as 7 °C was thought possible, although less likely.
+Another no-reduction scenario resulted in a median warming over land (2090–99 relative to the period 1980–99) of 5.1 °C. Under the same emissions scenario but with a different model, the predicted median warming was 4.1 °C.
+
+
+=== Model accuracy ===
+
+AOGCMs internalise as many processes as are sufficiently understood. However, they are still under development and significant uncertainties remain. They may be coupled to models of other processes, such as the carbon cycle, so as to better model feedbacks. Most recent simulations show "plausible" agreement with the measured temperature anomalies over the past 150 years, when driven by observed changes in greenhouse gases and aerosols. Agreement improves by including both natural and anthropogenic forcings.
+Imperfect models may nevertheless produce useful results. GCMs are capable of reproducing the general features of the observed global temperature over the past century.
+A debate over how to reconcile climate model predictions that upper air (tropospheric) warming should be greater than observed surface warming, some of which appeared to show otherwise, was resolved in favour of the models, following data revisions.
+Cloud effects are a significant area of uncertainty in climate models. Clouds have competing effects on climate. They cool the surface by reflecting sunlight into space; they warm it by increasing the amount of infrared radiation transmitted from the atmosphere to the surface. In the 2001 IPCC report possible changes in cloud cover were highlighted as a major uncertainty in predicting climate.
+Climate researchers around the world use climate models to understand the climate system. Thousands of papers have been published about model-based studies. Part of this research is to improve the models.
+In 2000, a comparison between measurements and dozens of GCM simulations of ENSO-driven tropical precipitation, water vapor, temperature, and outgoing longwave radiation found similarity between measurements and simulation of most factors. However the simulated change in precipitation was about one-fourth less than what was observed. Errors in simulated precipitation imply errors in other processes, such as errors in the evaporation rate that provides moisture to create precipitation. The other possibility is that the satellite-based measurements are in error. Either indicates progress is required in order to monitor and predict such changes.
+A more complete discussion of climate models is provided in the IPCC's Third Assessment Report.
+The model mean exhibits good agreement with observations.
+The individual models often exhibit worse agreement with observations.
+Many of the non-flux adjusted models suffered from unrealistic climate drift up to about 1 °C/century in global mean surface temperature.
+The errors in model-mean surface air temperature rarely exceed 1 °C over the oceans and 5 °C over the continents; precipitation and sea level pressure errors are relatively greater but the magnitudes and patterns of these quantities are recognisably similar to observations.
+Surface air temperature is particularly well simulated, with nearly all models closely matching the observed magnitude of variance and exhibiting a correlation > 0.95 with the observations.
+Simulated variance of sea level pressure and precipitation is within ±25% of observed.
+All models have shortcomings in their simulations of the present day climate of the stratosphere, which might limit the accuracy of predictions of future climate change.
+There is a tendency for the models to show a global mean cold bias at all levels.
+There is a large scatter in the tropical temperatures.
+The polar night jets in most models are inclined poleward with height, in noticeable contrast to an equatorward inclination of the observed jet.
+There is a differing degree of separation in the models between the winter sub-tropical jet and the polar night jet.
+
+For nearly all models the r.m.s. error in zonal- and annual-mean surface air temperature is small compared with its natural variability.
+There are problems in simulating natural seasonal variability. ( 2000)
+In flux-adjusted models, seasonal variations are simulated to within 2 K of observed values over the oceans. The corresponding average over non-flux-adjusted models shows errors up to about 6 K in extensive ocean areas.
+Near-surface land temperature errors are substantial in the average over flux-adjusted models, which systematically underestimates (by about 5 K) temperature in areas of elevated terrain. The corresponding average over non-flux-adjusted models forms a similar error pattern (with somewhat increased amplitude) over land.
+In Southern Ocean mid-latitudes, the non-flux-adjusted models overestimate the magnitude of January-minus-July temperature differences by ~5 K due to an overestimate of summer (January) near-surface temperature. This error is common to five of the eight non-flux-adjusted models.
+Over Northern Hemisphere mid-latitude land areas, zonal mean differences between July and January temperatures simulated by the non-flux-adjusted models show a greater spread (positive and negative) about observed values than results from the flux-adjusted models.
+The ability of coupled GCMs to simulate a reasonable seasonal cycle is a necessary condition for confidence in their prediction of long-term climatic changes (such as global warming), but it is not a sufficient condition unless the seasonal cycle and long-term changes involve similar climatic processes.
+
+Coupled climate models do not simulate with reasonable accuracy clouds and some related hydrological processes (in particular those involving upper tropospheric humidity). Problems in the simulation of clouds and upper tropospheric humidity, remain worrisome because the associated processes account for most of the uncertainty in climate model simulations of anthropogenic change.
+The precise magnitude of future changes in climate is still uncertain; for the end of the 21st century (2071 to 2100), for SRES scenario A2, the change of global average SAT change from AOGCMs compared with 1961 to 1990 is +3.0 °C (4.8 °F) and the range is +1.3 to +4.5 °C (+2 to +7.2 °F).
+The IPCC's Fifth Assessment Report asserted "...very high confidence that models reproduce the general features of the global-scale annual mean surface temperature increase over the historical period." However, the report also observed that the rate of warming over the period 1998-2012 was lower than that predicted by 111 out of 114 Coupled Model Intercomparison Project climate models.
+
+
+== Relation to weather forecasting ==
+The global climate models used for climate projections are similar in structure to (and often share computer code with) numerical models for weather prediction, but are nonetheless logically distinct.
+Most weather forecasting is done on the basis of interpreting numerical model results. Since forecasts are short—typically a few days or a week—such models do not usually contain an ocean model but rely on imposed SSTs. They also require accurate initial conditions to begin the forecast—typically these are taken from the output of a previous forecast, blended with observations. Predictions must require only a few hours; but because they only cover a one week the models can be run at higher resolution than in climate mode. Currently the ECMWF runs at 40 km (25 mi) resolution as opposed to the 100-to-200 km (62-to-124 mi) scale used by typical climate model runs. Often local models are run using global model results for boundary conditions, to achieve higher local resolution: for example, the Met Office runs a mesoscale model with an 11 km (6.8 mi) resolution covering the UK, and various agencies in the US employ models such as the NGM and NAM models. Like most global numerical weather prediction models such as the GFS, global climate models are often spectral models instead of grid models. Spectral models are often used for global models because some computations in modeling can be performed faster, thus reducing run times.
+
+
+== Computations ==
+Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface and ice.
+All climate models take account of incoming energy as short wave electromagnetic radiation, chiefly visible and short-wave (near) infrared, as well as outgoing energy as long wave (far) infrared electromagnetic radiation from the earth. Any imbalance results in a change in temperature.
+The most talked-about models of recent years relate temperature to emissions of greenhouse gases. These models project an upward trend in the surface temperature record, as well as a more rapid increase in temperature at higher altitudes.
+Three (or more properly, four since time is also considered) dimensional GCM's discretise the equations for fluid motion and energy transfer and integrate these over time. They also contain parametrisations for processes such as convection that occur on scales too small to be resolved directly.
+Atmospheric GCMs (AGCMs) model the atmosphere and impose sea surface temperatures as boundary conditions. Coupled atmosphere-ocean GCMs (AOGCMs, e.g. HadCM3, EdGCM, GFDL CM2.X, ARPEGE-Climat) combine the two models.
+Models range in complexity:
+A simple radiant heat transfer model treats the earth as a single point and averages outgoing energy
+This can be expanded vertically (radiative-convective models), or horizontally
+Finally, (coupled) atmosphere–ocean–sea ice global climate models discretise and solve the full equations for mass and energy transfer and radiant exchange.
+Box models treat flows across and within ocean basins.
+Other submodels can be interlinked, such as land use, allowing researchers to predict the interaction between climate and ecosystems.
+
+
+== Other climate models ==
+
+
+=== Earth-system models of intermediate complexity (EMICs) ===
+The Climber-3 model uses a 2.5-dimensional statistical-dynamical model with 7.5° × 22.5° resolution and time step of 1/2 a day. An oceanic submodel is MOM-3 (Modular Ocean Model) with a 3.75° × 3.75° grid and 24 vertical levels.
+
+
+=== Radiative-convective models (RCM) ===
+One-dimensional, radiative-convective models were used to verify basic climate assumptions in the '80s and '90s.
+
+
+== See also ==
+
+Atmospheric Model Intercomparison Project (AMIP)
+Atmospheric Radiation Measurement (ARM) (in the US)
+Earth Simulator
+Global Environmental Multiscale Model
+Ice-sheet model
+Intermediate General Circulation Model
+NCAR
+Prognostic variable
+
+
+== References ==
+
+IPCC AR4 SYR (2007), Core Writing Team; Pachauri, R.K; and Reisinger, A., ed., Climate Change 2007: Synthesis Report (SYR), Contribution of Working Groups I, II and III to the Fourth Assessment Report (AR4) of the Intergovernmental Panel on Climate Change, Geneva, Switzerland: IPCC, ISBN 92-9169-122-4 .
+
+
+== Further reading ==
+Ian Roulstone and John Norbury (2013). Invisible in the Storm: the role of mathematics in understanding weather. Princeton University Press. 
+
+
+== External links ==
+IPCC AR5, Evaluation of Climate Models
+Media from GFDL's CCVP Group. Includes videos, animations, podcasts and transcripts on climate models.
+[4] GFDL's Flexible Modeling System containing code for the climate models.
+Program for climate model diagnosis and intercomparison (PCMDI/CMIP)
+National Operational Model Archive and Distribution System (NOMADS)
+Hadley Centre for Climate Prediction and Research – model info
+NCAR/UCAR Community Climate System Model (CESM)
+Climate prediction, community modeling
+NASA/GISS, primary research GCM model
+EDGCM/NASA: Educational Global Climate Modeling
+NOAA/GFDL

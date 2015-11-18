@@ -1,0 +1,51 @@
+Thermodynamic reaction control or kinetic reaction control in a chemical reaction can decide the composition in a reaction product mixture when competing pathways lead to different products and the reaction conditions influence the selectivity or stereoselectivity. The distinction is relevant when product A forms faster than product B because the activation energy for product A is lower than that for product B, yet product B is more stable. In such a case A is the kinetic product and is favoured under kinetic control and B is the thermodynamic product and is favoured under thermodynamic control.
+The conditions of the reaction, such as temperature, pressure, or solvent, affect which reaction pathway may be favored: either the kinetically controlled or the thermodynamically controlled one. Note this is only true if the activation energy of the two pathways differ, with one pathway having a lower Ea (energy of activation) than the other.
+Prevalence of thermodynamic or kinetic control determines the final composition of the product when these competing reaction pathways lead to different products. The reaction conditions as mentioned above influence the selectivity of the reaction - i.e., which pathway is taken.
+
+
+== Scope ==
+
+
+=== In Diels-Alder reactions ===
+The Diels-Alder reaction of cyclopentadiene with furan can produce two isomeric products. At room temperature, kinetic reaction control prevails and the less stable endo isomer 2 is the main reaction product. At 81 °C and after long reaction times, the chemical equilibrium can assert itself and the thermodynamically more stable exo isomer 1 is formed. The exo product is more stable by virtue of a lower degree of steric congestion, while the endo product is favoured by orbital overlap in the transition state.
+
+
+=== In enolate chemistry ===
+In the protonation of an enolate ion, the kinetic product is the enol and the thermodynamic product is a ketone or aldehyde. Carbonyl compounds and their enols interchange rapidly by proton transfers catalyzed by acids or bases, even in trace amounts, in this case mediated by the enolate or the proton source.
+In the deprotonation of an unsymmetrical ketone, the kinetic product is the enolate resulting from removal of the most accessible α-H while the thermodynamic product has the more highly substituted enolate moiety. Use of low temperatures and sterically demanding bases increases the kinetic selectivity. Here, the difference in pKb between the base and the enolate is so large that the reaction is essentially irreversible, so the equilibration leading to the thermodynamic product is likely a proton exchange occurring during the addition between the kinetic enolate and as-yet-unreacted ketone. An inverse addition (adding ketone to the base) with rapid mixing would minimize this. The position of the equilibrium will depend on the countercation and solvent.
+
+If a much weaker base is used, the deprotonation will be incomplete, and there will be an equilibrium between reactants and products. Thermodynamic control is obtained, however the reaction remains incomplete unless the product enolate is trapped, as in the example below. Since H transfers are very fast, the trapping reaction being slower, the ratio of trapped products largely mirrors the deprotonation equilibrium.
+
+
+=== In electrophilic additions ===
+The electrophilic addition reaction of hydrogen bromide to 1,3-butadiene above room temperature leads predominantly to the thermodynamically more stable 1,4 adduct, 1-bromo-2-butene, but decreasing the reaction temperature to below room temperature favours the kinetic 1,2 adduct, 3-bromo-1-butene.
+
+The rationale for the differing selectivities is as follows: Both products result from Markovnikov protonation at position 1, resulting in a resonance-stabilized allylic cation. The 1,4 adduct places the larger Br atom at a less congested site and includes a more highly substituted alkene moiety, while the 1,2 adduct is the result of the attack by the nucleophile (Br−) at the carbon of the allylic cation bearing the greatest positive charge (the more highly substituted carbon is the most likely place for the positive charge).
+
+
+== Characteristics ==
+In every reaction, the first product formed is that which is most easily formed. Thus, every reaction a priori starts under kinetic control.
+A necessary condition for thermodynamic control is reversibility or a mechanism permitting the equilibration between products. Reactions are considered to take place under thermodynamic reaction control when the reverse reaction is sufficiently rapid that the equilibrium establishes itself within the allotted reaction time. In this way, the thermodynamically more stable product is always favoured.
+Under kinetic reaction control, the forward reaction is faster than the reverse reaction. After reaction time t, the product ratio is the ratio of rate constants k and thus a function of the difference in activation energies Ea or ΔG‡:
+     (equation 1)
+Unless equilibration is prevented, pure kinetic control is practically impossible, because equilibration will have started before the reactants will have been entirely consumed.
+Under pure thermodynamic reaction control, when the equilibrium has been reached, the product distribution will be a function of the stabilities G°. After an infinite amount of reaction time, the ratio of product concentrations will equal the equilibrium constant Keq and therefore be a function of the difference in Gibbs free energies,
+     (equation 2)
+In general, short reaction times favour kinetic control, whereas longer reaction times favour thermodynamic reaction control. Low temperatures will enhance the selectivity under both sets of conditions, since T is in the denominator in both cases. The ideal temperature to optimise the yield of the fastest-forming product will be the lowest temperature that will ensure reaction completion in a reasonable amount of time. The ideal temperature for a reaction under thermodynamic control is the lowest temperature at which equilibrium will be reached in a reasonable amount of time. If needed, the selectivity can be increased by then slowly cooling the reaction mixture to shift the equilibrium further toward the most stable product. When the difference in product stability is very large, the thermodynamically controlled product can dominate even under relatively vigorous reaction conditions.
+If a reaction is under thermodynamic control at a given temperature, it will also be under thermodynamic control at a higher temperature for the same reaction time.
+In the same manner, if a reaction is under kinetic control at a given temperature, it will also be under kinetic control at any lower temperature for the same reaction time.
+If one presumes that a new reaction will be a priori under kinetic control, one can detect the presence of an equilibration mechanism (and therefore the possibility of thermodynamic control) if the product distribution:
+changes over time,
+shows one product to be dominant at one temperature while another dominates at a different temperature (inversion of dominance), or
+changes with temperature but is not consistent with equation 1, that is a change in temperature (without changing the reaction time) causes a change in the product ratio  that is larger or smaller than would be expected from the change in temperature alone, assuming that  is largely invariant with temperature over a modest temperature range.
+
+In the same way, one can detect the possibility of kinetic control if a temperature change causes a change in the product ratio that is inconsistent with equation 2, assuming that  is largely invariant with temperature over a modest temperature range.
+
+
+== History ==
+The first to report on the relationship between kinetic and thermodynamic control were R.B. Woodward and Harold Baer in 1944. They were re-investigating a reaction between maleic anhydride and a fulvene first reported in 1929 by Otto Diels and Kurt Alder. They observed that while the endo isomer is formed more rapidly, longer reaction times, as well as relatively elevated temperatures, result in higher exo / endo ratios which had to be considered in the light of the remarkable stability of the exo-compound on the one hand and the very facile dissociation of the endo isomer on the other.
+
+C. K. Ingold with E. D. Hughes and G. Catchpole independently described a thermodynamic and kinetic reaction control model in 1948. They were reinvestigating a certain allylic rearrangement reported in 1930 by Jakob Meisenheimer. Solvolysis of gamma-phenylallyl chloride with AcOK in acetic acid was found to give a mixture of the gamma and the alpha acetate with the latter converting to the first by equilibration. This was interpreted as a case in the field of anionotropy of the phenomenon, familiar in prototropy, of the distinction between kinetic and thermodynamic control in ion-recombination.
+
+
+== References ==

@@ -1,0 +1,156 @@
+In logic and philosophy, an argument is a series of statements typically used to persuade someone of something or to present reasons for accepting a conclusion. The general form of an argument in a natural language is that of premises (typically in the form of propositions, statements or sentences) in support of a claim: the conclusion. The structure of some arguments can also be set out in a formal language, and formally defined "arguments" can be made independently of natural language arguments, as in math, logic, and computer science.
+In a typical deductive argument, the premises are meant to provide a guarantee of the truth of the conclusion, while in an inductive argument, they are thought to provide reasons supporting the conclusion's probable truth. The standards for evaluating non-deductive arguments may rest on different or additional criteria than truth, for example, the persuasiveness of so-called "indispensability claims" in transcendental arguments, the quality of hypotheses in retroduction, or even the disclosure of new possibilities for thinking and acting.
+The standards and criteria used in evaluating arguments and their forms of reasoning are studied in logic. Ways of formulating arguments effectively are studied in rhetoric (see also: argumentation theory). An argument in a formal language shows the logical form of the symbolically represented or natural language arguments obtained by its interpretations.
+
+
+== Formal and informal ==
+
+Informal arguments as studied in informal logic, are presented in ordinary language and are intended for everyday discourse. Conversely, formal arguments are studied in formal logic (historically called symbolic logic, more commonly referred to as mathematical logic today) and are expressed in a formal language. Informal logic may be said to emphasize the study of argumentation, whereas formal logic emphasizes implication and inference. Informal arguments are sometimes implicit. That is, the rational structure –the relationship of claims, premises, warrants, relations of implication, and conclusion –is not always spelled out and immediately visible and must sometimes be made explicit by analysis.
+
+
+== Standard types ==
+There are several kinds of arguments in logic, the best-known of which are "deductive" and "inductive." Deductive arguments are sometimes referred to as "truth-preserving" arguments, because the truth of the conclusion follows given that of the premises. A deductive argument asserts that the truth of the conclusion is a logical consequence of the premises. An inductive argument, on the other hand, asserts that the truth of the conclusion is otherwise supported by the premises. Each premise and the conclusion are truth bearers or "truth-candidates", capable of being either true or false (and not both). While statements in an argument are referred to as being either true or false, arguments are referred to as being valid or invalid (see logical truth). A deductive argument is valid if and only if the truth of the conclusion is entailed by (is a logical consequence of) the premises, and its corresponding conditional is therefore a logical truth. A sound argument is a valid argument with true premises; a valid argument may well have false premises under a given interpretation, however, the truth value of a conclusion cannot be determined by an unsound argument.
+
+
+== Deductive ==
+
+A deductive argument is one that, if valid, has a conclusion that is entailed by its premises. In other words, the truth of the conclusion is a logical consequence of the premises—if the premises are true, then the conclusion must be true. It would be self-contradictory to assert the premises and deny the conclusion, because the negation of the conclusion is contradictory to the truth of the premises.
+
+
+=== Validity ===
+
+Deductive arguments may be either valid or invalid. If an argument is valid, it is a valid deduction, and if its premises are true, the conclusion must be true: a valid argument cannot have true premises and a false conclusion.
+An argument is formally valid if and only if the denial of the conclusion is incompatible with accepting all the premises.
+The validity of an argument depends, however, not on the actual truth or falsity of its premises and conclusion, but solely on whether or not the argument has a valid logical form. The validity of an argument is not a guarantee of the truth of its conclusion. Under a given interpretation, a valid argument may have false premises that render it inconclusive: the conclusion of a valid argument with one or more false premises may be either true or false.
+Logic seeks to discover the valid forms, the forms that make arguments valid. A form of argument is valid if and only if the conclusion is true under all interpretations of that argument in which the premises are true. Since the validity of an argument depends solely on its form, an argument can be shown to be invalid by showing that its form is invalid. This can be done by giving a counter example of the same form of argument with premises that are true under a given interpretation, but a conclusion that is false under that interpretation. In informal logic this is called a counter argument.
+The form of argument can be shown by the use of symbols. For each argument form, there is a corresponding statement form, called a corresponding conditional, and an argument form is valid if and only its corresponding conditional is a logical truth. A statement form which is logically true is also said to be a valid statement form. A statement form is a logical truth if it is true under all interpretations. A statement form can be shown to be a logical truth by either (a) showing that it is a tautology or (b) by means of a proof procedure.
+The corresponding conditional of a valid argument is a necessary truth (true in all possible worlds) and so the conclusion necessarily follows from the premises, or follows of logical necessity. The conclusion of a valid argument is not necessarily true, it depends on whether the premises are true. If the conclusion, itself, just so happens to be a necessary truth, it is so without regard to the premises.
+Some examples:
+All Greeks are human and all humans are mortal; therefore, all Greeks are mortal. : Valid argument; if the premises are true the conclusion must be true.
+Some Greeks are logicians and some logicians are tiresome; therefore, some Greeks are tiresome. Invalid argument: the tiresome logicians might all be Romans (for example).
+Either we are all doomed or we are all saved; we are not all saved; therefore, we are all doomed. Valid argument; the premises entail the conclusion. (Remember that this does not mean the conclusion has to be true; it is only true if the premises are true, which they may not be!)
+Some men are hawkers. Some hawkers are rich. Therefore, some men are rich. Invalid argument. This can be easier seen by giving a counter-example with the same argument form:
+Some people are herbivores. Some herbivores are zebras. Therefore, some people are zebras. Invalid argument, as it is possible that the premises be true and the conclusion false.
+
+In the above second to last case (Some men are hawkers...), the counter-example follows the same logical form as the previous argument, (Premise 1: "Some X are Y." Premise 2: "Some Y are Z." Conclusion: "Some X are Z.") in order to demonstrate that whatever hawkers may be, they may or may not be rich, in consideration of the premises as such. (See also, existential import).
+The forms of argument that render deductions valid are well-established, however some invalid arguments can also be persuasive depending on their construction (inductive arguments, for example). (See also, formal fallacy and informal fallacy).
+
+
+=== Soundness ===
+
+A sound argument is a valid argument whose conclusion follows from its premise(s), and the premise(s) of which is/are true.
+
+
+== Inductive ==
+
+Non-deductive logic is reasoning using arguments in which the premises support the conclusion but do not entail it. Forms of non-deductive logic include the statistical syllogism, which argues from generalizations true for the most part, and induction, a form of reasoning that makes generalizations based on individual instances. An inductive argument is said to be cogent if and only if the truth of the argument's premises would render the truth of the conclusion probable (i.e., the argument is strong), and the argument's premises are, in fact, true. Cogency can be considered inductive logic's analogue to deductive logic's "soundness." Despite its name, mathematical induction is not a form of inductive reasoning. The lack of deductive validity is known as the problem of induction.
+
+
+== Defeasible arguments and argumentation schemes ==
+In modern argumentation theories, arguments are regarded as defeasible passages from premises to a conclusion. Defeasibility means that when additional information (new evidence or contrary arguments) is provided, the premises may be no longer lead to the conclusion (non-monotonic reasoning). This type of reasoning is referred to as defeasible reasoning. For instance we consider the famous Tweedy example:
+
+Tweedy is a bird.
+Birds generally fly.
+Therefore, Tweedy (probably) flies.
+
+This argument is reasonable and the premises support the conclusion unless additional information indicating that the case is an exception comes in. If Tweedy is a penguin, the inference is no longer justified by the premise. Defeasible arguments are based on generalizations that hold only in the majority of cases, but are subject to exceptions and defaults. In order to represent and assess defeasible reasoning, it is necessary to combine the logical rules (governing the acceptance of a conclusion based on the acceptance of its premises) with rules of material inference, governing how a premise can support a given conclusion (whether it is reasonable or not to draw a specific conclusion from a specific description of a state of affairs). Argumentation schemes have been developed to describe and assess the acceptability or the fallaciousness of defeasible arguments. Argumentation schemes are stereotypical patterns of inference, combining semantic-ontological relations with types of reasoning and logical axioms and representing the abstract structure of the most common types of natural arguments. The argumentation schemes provided in (Walton, Reed & Macagno, 2008) describe tentatively the patterns of the most typical arguments. However, the two levels of abstraction are not distinguished. For this reason, under the label of “argumentation schemes” fall indistinctly patterns of reasoning such as the abductive, analogical, or inductive ones, and types of argument such as the ones from classification or cause to effect. A typical example is the argument from expert opinion, which has two premises and a conclusion.
+Each scheme is associated to a set of critical questions, namely criteria for assessing dialectically the reasonableness and acceptability of an argument. The matching critical questions are the standard ways of casting the argument into doubt.
+If an expert says that a proposition is true, this provides a reason for tentatively accepting it, in the absence of stronger reasons to doubt it. But suppose that evidence of financial gain suggests that the expert is biased, for example by evidence showing that he will gain financially from his claim.
+
+
+== By analogy ==
+Argument by analogy may be thought of as argument from the particular to particular. An argument by analogy may use a particular truth in a premise to argue towards a similar particular truth in the conclusion. For example, if A. Plato was mortal, and B. Socrates was like Plato in other respects, then asserting that C. Socrates was mortal is an example of argument by analogy because the reasoning employed in it proceeds from a particular truth in a premise (Plato was mortal) to a similar particular truth in the conclusion, namely that Socrates was mortal.
+
+
+== Other kinds ==
+Other kinds of arguments may have different or additional standards of validity or justification. For example, Charles Taylor writes that so-called transcendental arguments are made up of a "chain of indispensability claims" that attempt to show why something is necessarily true based on its connection to our experience, while Nikolas Kompridis has suggested that there are two types of "fallible" arguments: one based on truth claims, and the other based on the time-responsive disclosure of possibility (see world disclosure). The late French philosopher Michel Foucault is said to have been a prominent advocate of this latter form of philosophical argument.
+
+
+=== In informal logic ===
+Argument is an informal calculus, relating an effort to be performed or sum to be spent, to possible future gain, either economic or moral. In informal logic, an argument is a connexion between
+an individual action
+through which a generally accepted good is obtained.
+Ex :
+
+You should marry Jane (individual action, individual decision)
+because she has the same temper as you. (generally accepted wisdom that marriage is good in itself, and it is generally accepted that people with the same character get along well).
+
+You should not smoke (individual action, individual decision)
+because smoking is harmful (generally accepted wisdom that health is good).
+
+The argument is neither a) advice nor b) moral or economical judgement, but the connection between the two. An argument always uses the connective because. An argument is not an explanation. It does not connect two events, cause and effect, which already took place, but a possible individual action and its beneficial outcome. An argument is not a proof. A proof is a logical and cognitive concept; an argument is a praxeologic concept. A proof changes our knowledge; an argument compels us to act.
+
+
+==== Logical status ====
+Argument does not belong to logic, because it is connected to a real person, a real event, and a real effort to be made.
+If you, John, will buy this stock, it will become twice as valuable in a year.
+If you, Mary, study dance, you will become a famous ballet dancer.
+The value of the argument is connected to the immediate circumstances of the person spoken to. If, in the first case,(1) John has no money, or will die the next year, he will not be interested in buying the stock. If, in the second case (2) she is too heavy, or too old, she will not be interested in studying and becoming a dancer. The argument is not logical, but profitable.
+
+
+=== World-disclosing ===
+
+World-disclosing arguments are a group of philosophical arguments that are said to employ a disclosive approach, to reveal features of a wider ontological or cultural-linguistic understanding – a "world," in a specifically ontological sense – in order to clarify or transform the background of meaning and "logical space" on which an argument implicitly depends.
+
+
+== Explanations ==
+
+While arguments attempt to show that something was, is, will be, or should be the case, explanations try to show why or how something is or will be. If Fred and Joe address the issue of whether or not Fred's cat has fleas, Joe may state: "Fred, your cat has fleas. Observe, the cat is scratching right now." Joe has made an argument that the cat has fleas. However, if Joe asks Fred, "Why is your cat scratching itself?" the explanation, "...because it has fleas." provides understanding.
+Both the above argument and explanation require knowing the generalities that a) fleas often cause itching, and b) that one often scratches to relieve itching. The difference is in the intent: an argument attempts to settle whether or not some claim is true, and an explanation attempts to provide understanding of the event. Note, that by subsuming the specific event (of Fred's cat scratching) as an instance of the general rule that "animals scratch themselves when they have fleas", Joe will no longer wonder why Fred's cat is scratching itself. Arguments address problems of belief, explanations address problems of understanding. Also note that in the argument above, the statement, "Fred's cat has fleas" is up for debate (i.e. is a claim), but in the explanation, the statement, "Fred's cat has fleas" is assumed to be true (unquestioned at this time) and just needs explaining.
+Arguments and explanations largely resemble each other in rhetorical use. This is the cause of much difficulty in thinking critically about claims. There are several reasons for this difficulty.
+People often are not themselves clear on whether they are arguing for or explaining something.
+The same types of words and phrases are used in presenting explanations and arguments.
+The terms 'explain' or 'explanation,' et cetera are frequently used in arguments.
+Explanations are often used within arguments and presented so as to serve as arguments.
+Likewise, "...arguments are essential to the process of justifying the validity of any explanation as there are often multiple explanations for any given phenomenon."
+Explanations and arguments are often studied in the field of Information Systems to help explain user acceptance of knowledge-based systems. Certain argument types may fit better with personality traits to enhance acceptance by individuals.
+
+
+== Fallacies and nonarguments ==
+
+Fallacies are types of argument or expressions which are held to be of an invalid form or contain errors in reasoning. There is not as yet any general theory of fallacy or strong agreement among researchers of their definition or potential for application but the term is broadly applicable as a label to certain examples of error, and also variously applied to ambiguous candidates.
+In Logic types of fallacy are firmly described thus: First the premises and the conclusion must be statements, capable of being true or false. Secondly it must be asserted that the conclusion follows from the premises. In English the words therefore, so, because and hence typically separate the premises from the conclusion of an argument, but this is not necessarily so. Thus: Socrates is a man, all men are mortal therefore Socrates is mortal is clearly an argument (a valid one at that), because it is clear it is asserted that Socrates is mortal follows from the preceding statements. However I was thirsty and therefore I drank is NOT an argument, despite its appearance. It is not being claimed that I drank is logically entailed by I was thirsty. The therefore in this sentence indicates for that reason not it follows that.
+Elliptical arguments
+Often an argument is invalid because there is a missing premise—the supply of which would render it valid. Speakers and writers will often leave out a strictly necessary premise in their reasonings if it is widely accepted and the writer does not wish to state the blindingly obvious. Example: All metals expand when heated, therefore iron will expand when heated. (Missing premise: iron is a metal). On the other hand, a seemingly valid argument may be found to lack a premise – a 'hidden assumption' – which if highlighted can show a fault in reasoning. Example: A witness reasoned: Nobody came out the front door except the milkman; therefore the murderer must have left by the back door. (Hidden assumptions- the milkman was not the murderer, and the murderer has left by the front or back door).
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Shaw, Warren Choate (1922). The Art of Debate. Allyn and Bacon. p. 74. 
+Robert Audi, Epistemology, Routledge, 1998. Particularly relevant is Chapter 6, which explores the relationship between knowledge, inference and argument.
+J. L. Austin How to Do Things With Words, Oxford University Press, 1976.
+H. P. Grice, Logic and Conversation in The Logic of Grammar, Dickenson, 1975.
+Vincent F. Hendricks, Thought 2 Talk: A Crash Course in Reflection and Expression, New York: Automatic Press / VIP, 2005, ISBN 87-991013-7-8
+R. A. DeMillo, R. J. Lipton and A. J. Perlis, Social Processes and Proofs of Theorems and Programs, Communications of the ACM, Vol. 22, No. 5, 1979. A classic article on the social process of acceptance of proofs in mathematics.
+Yu. Manin, A Course in Mathematical Logic, Springer Verlag, 1977. A mathematical view of logic. This book is different from most books on mathematical logic in that it emphasizes the mathematics of logic, as opposed to the formal structure of logic.
+Ch. Perelman and L. Olbrechts-Tyteca, The New Rhetoric, Notre Dame, 1970. This classic was originally published in French in 1958.
+Henri Poincaré, Science and Hypothesis, Dover Publications, 1952
+Frans van Eemeren and Rob Grootendorst, Speech Acts in Argumentative Discussions, Foris Publications, 1984.
+K. R. Popper Objective Knowledge; An Evolutionary Approach, Oxford: Clarendon Press, 1972.
+L. S. Stebbing, A Modern Introduction to Logic, Methuen and Co., 1948. An account of logic that covers the classic topics of logic and argument while carefully considering modern developments in logic.
+Douglas Walton, Informal Logic: A Handbook for Critical Argumentation, Cambridge, 1998.
+Walton, Douglas; Christopher Reed; Fabrizio Macagno, Argumentation Schemes, New York: Cambridge University Press, 2008.
+Carlos Chesñevar, Ana Maguitman and Ronald Loui, Logical Models of Argument, ACM Computing Surveys, vol. 32, num. 4, pp. 337–383, 2000.
+T. Edward Damer. Attacking Faulty Reasoning, 5th Edition, Wadsworth, 2005. ISBN 0-534-60516-8
+Charles Arthur Willard, A Theory of Argumentation. 1989.
+Charles Arthur Willard, Argumentation and the Social Grounds of Knowledge. 1982.
+
+
+== Further reading ==
+Salmon, Wesley C. Logic. New Jersey: Prentice-Hall (1963). Library of Congress Catalog Card no. 63-10528.
+Aristotle, Prior and Posterior Analytics. Ed. and trans. John Warrington. London: Dent (1964)
+Mates, Benson. Elementary Logic. New York: OUP (1972). Library of Congress Catalog Card no. 74-166004.
+Mendelson, Elliot. Introduction to Mathematical Logic. New York: Van Nostran Reinholds Company (1964).
+Frege, Gottlob. The Foundations of Arithmetic. Evanston, IL: Northwestern University Press (1980).
+Martin, Brian. The Controversy Manual (Sparsnäs, Sweden: Irene Publishing, 2014).
+
+
+== External links ==
+Argument at PhilPapers
+Argument at the Indiana Philosophy Ontology Project
+Argument entry in the Internet Encyclopedia of Philosophy

@@ -1,0 +1,53 @@
+The farad (symbol: F) is the SI derived unit of electrical capacitance, the ability of a body to store an electrical charge. It is named after the English physicist Michael Faraday.
+
+
+== DefinitionEdit ==
+One farad is defined as the capacitance of a capacitor across which, when charged with one coulomb of electricity, there is a potential difference of one volt. Conversely, it is the capacitance which, when charged to a potential difference of one volt, carries a charge of one coulomb. A coulomb is equal to the amount of charge (electrons) produced by a current of one ampere (A) flowing for one second. For example, the voltage across the two terminals of a 2 F capacitor will increase linearly by 1 V when a current of 2 A flows through it for 1 second.
+For most applications, the farad is an impractically large unit of capacitance. Most electrical and electronic applications are covered by the following SI prefixes:
+1 mF (millifarad, one thousandth (10−3) of a farad) = 1000 μF = 1000000 nF
+1 μF (microfarad, one millionth (10−6) of a farad) = 1000 nF = 1000000 pF
+1 nF (nanofarad, one billionth (10−9) of a farad) = 1000 pF
+1 pF (picofarad, one trillionth (10−12) of a farad)
+
+
+=== EqualitiesEdit ===
+A farad has the base SI representation of: s4 × A2 × m−2 × kg−1
+It can further be expressed as:
+
+where F=farad, A=ampere, V=volt, C=coulomb, J=joule, m=metre, N=newton, s=second, W=watt, kg=kilogram, Ω=ohm, H=henry.
+
+
+== HistoryEdit ==
+The term "farad" was originally coined by Latimer Clark and Charles Bright in 1861, in honor of Michael Faraday, for a unit of quantity of charge but, starting in 1881 at the International Congress of Electricians in Paris, the name farad was officially used for the unit of electrical capacitance.
+
+
+== ExplanationEdit ==
+
+A capacitor consists of two conducting surfaces, frequently referred to as plates, separated by an insulating layer usually referred to as a dielectric. The original capacitor was the Leyden jar developed in the 18th century. It is the accumulation of electric charge on the plates that results in capacitance. Modern capacitors are constructed using a range of manufacturing techniques and materials to provide the extraordinarily wide range of capacitance values used in electronics applications from femtofarads to farads, with maximum-voltage ratings ranging from a few volts to several kilovolts.
+Values of capacitors are usually specified in farads (F), microfarads (μF), nanofarads (nF) and picofarads (pF). The millifarad is rarely used in practice (a capacitance of 4.7 mF (0.0047 F), for example, is instead written as 4700 µF), while the nanofarad is uncommon in North America. The size of commercially available capacitors ranges from around 0.1 pF to 5000F (5 kF) supercapacitors. Parasitic capacitance in high-performance integrated circuits can be measured in femtofarads (1 fF = 0.001 pF = 10−15 F), while high-performance test equipment can detect changes in capacitance on the order of tens of attofarads (1 aF = 10−18 F).
+A value of 0.1 pF is about the smallest available in capacitors for general use in electronic design, since smaller ones would be dominated by the parasitic capacitances of other components, wiring or printed circuit boards. Capacitance values of 1 pF or lower can be achieved by twisting two short lengths of insulated wire together.
+The capacitance of the Earth's ionosphere with respect to the ground is calculated to be about 1 F.
+
+
+=== Informal and deprecated terminologyEdit ===
+The picofarad is sometimes colloquially pronounced as "puff" or "pic", as in "a ten-puff capacitor". Similarly, "mic" (pronounced "mike") is sometimes used informally to signify microfarads. If the Greek letter μ is not available, the notation "uF" is often used as a substitute for "μF" in electronics literature. A "micro-microfarad" (μμF, and confusingly often mmf or MMF), an obsolete unit sometimes found in older texts, is the equivalent of a picofarad. In texts prior to 1960, and on capacitor packages even much more recently, mf or MFD rather than the modern µF frequently represented microfarads. Similarly, mmf represented picofarads.
+
+
+=== Related conceptsEdit ===
+The reciprocal of capacitance is called electrical elastance, the (non-standard, non-SI) unit of which is the daraf.
+
+
+== CGS unitsEdit ==
+The abfarad (abbreviated abF) is an obsolete CGS unit of capacitance equal to 109 farads (1 gigafarad, GF). This very large unit is used in medical terminology only.
+The statfarad (abbreviated statF) is a rarely used CGS unit equivalent to the capacitance of a capacitor with a charge of 1 statcoulomb across a potential difference of 1 statvolt. It is 1/(10−5c2) farad, approximately 1.1126 picofarads.
+
+
+== See alsoEdit ==
+Supercapacitor
+
+
+== NotesEdit ==
+
+
+== External linksEdit ==
+Farad unit conversion tool

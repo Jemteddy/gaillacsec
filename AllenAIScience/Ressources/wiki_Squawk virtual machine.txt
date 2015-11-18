@@ -1,0 +1,30 @@
+Squawk is a Java micro edition virtual machine for embedded system and small devices. Most virtual machines for the Java platform are written in low level native languages such as C/C++ and assembler; what makes Squawk different is that Squawk's core is mostly written in Java. (This is called a meta-circular interpreter.) A Java implementation provides ease of portability, and a seamless integration of virtual machine and application resources such as objects, threads, and operating-system interfaces.
+The Squawk Virtual Machine figure can be simplified as:
+Write as much of the VM in Java as possible
+Targeting small, resource constrained devices
+Enable Java for micro-embedded development
+The research project was inspired by Squeak. Squawk has a Java ME heritage and features a small memory footprint. It was developed to be simple with minimal external dependencies. Its simplicity made it portable and easy to debug and maintain. Squawk also provides an isolated mechanism by which an application is represented as an object. In Squawk, one or more applications can run in the single JVM. Conceptually, each application is completely isolated from all other applications.
+
+
+== See also ==
+
+Sun SPOT
+JikesRVM, another JVM written mostly in Java
+Rubinius, a VM for Ruby written in Ruby
+List of Java virtual machines
+
+
+== References ==
+
+
+== External links ==
+Squawk main website
+Squawk Project
+SunSPOTs and Squawk technology Podcast
+A Java Virtual Machine Architecture for Very Small Devices
+The Squawk Virtual Machine: Java(TM) on the Bare Metal
+Javaone 2006 Squawk for Wireless Sensor Networks
+Application-Driven Customization of an Embedded Java Virtual Machine
+Ahead of time deployment in ROM of a Java-OS
+Project Sun Spot
+Squawk Poster

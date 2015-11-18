@@ -1,0 +1,34 @@
+Simplex communication is a communication channel that sends information in one direction only.  A "duplex" communication channel requires two simplex channels operating in opposite directions. The ITU definition of simplex is a communications channel that operates in one direction at a time, but that may be reversible; this is termed "half duplex" in other contexts.
+For example, in TV and radio broadcasting, information flows only from the transmitter site to multiple receivers. An RS 232 interface between a computer terminal and a modem is made up of multiple simplex control and data circuits, but information can flow both ways since channels are provided both to and from the terminal. A pair of walkie-talkie two-way radios provide a simplex circuit in the ITU sense; only one party at a time can talk, while the other listens until it can hear an opportunity to transmit. The transmission medium (the radio signal over the air) can carry information in both directions, but the apparatus only allows one direction at a time to be used.
+
+
+== ExamplesEdit ==
+Commercial radio and television broadcast (not two-way radio such as walkie-talkies)
+Garage door openers
+Baby monitors
+Wireless microphones
+Radio controlled models
+Public address systems
+Surveillance cameras
+Pagers
+Communication between a mouse and a computer
+Internet multicast
+Radio navigation beacons and radiolocation services such as GPS
+Telemetry
+printers
+
+
+== ITU-T definition: One way signaling at a timeEdit ==
+According to the ITU-T definition, a simplex circuit is one where signals can flow in only one direction at a time. At other times communications can flow in the reverse direction. A more common term for this application is half-duplex. Examples are intercoms, and two way radios such as walkie-talkies, citizens band, and mobile radios used dispatch police, firefighters, and taxicabs.
+The old Western Union company used the term simplex when describing the half-duplex and simplex capacity of their new transatlantic telegraph cable completed between Newfoundland and the Azores in 1928. The same definition for a simplex radio channel was used by the National Fire Protection Association in 2002.
+
+
+== See alsoEdit ==
+Communications channel
+Duplex (telecommunications)
+
+
+== ReferencesEdit ==
+^ IEEE Std. 100 "Dictionary of Standards Terms", "Simplex" p.1053
+^ Milnor, J.W. and G.A. Randall. "The Newfoundland-Azores High-Speed Duplex Cable". A.I.E.E. Electrical Engineering. May 1931
+^ Report of the Committee on Public Emergency Service Communication. NFPA 1221, May, 2002.

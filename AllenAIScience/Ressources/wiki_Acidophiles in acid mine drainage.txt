@@ -1,0 +1,73 @@
+The outflow of acidic liquids and other pollutants from mines is often catalysed by acid-loving microorganisms; these are the acidophiles in acid mine drainage.
+Acidophiles are not just present in exotic environments such as Yellowstone National Park or deep-sea hydrothermal vents. Genera such as Acidithiobacillus and Leptospirillum bacteria, and Thermoplasmatales archaea, are present in syntrophic relationships in the more mundane environments of concrete sewer pipes and implicated in the heavy-metal-containing, sulfurous waters of rivers such as the Rheidol.
+Such microorganisms are responsible for the phenomenon of acid mine drainage (AMD) and thus are important both economically and from a conservation perspective. Control of these acidophiles and their harnessing for industrial biotechnology shows their effect need not be entirely negative.
+The use of acidophilic organisms in mining is a new technique for extracting trace metals through bioleaching, and offers solutions for the phenomenon of acid mine drainage in mining spoils.
+
+
+== Introduction ==
+Upon exposure to oxygen (O2) and water (H2O), metal sulfides undergo oxidation to produce metal-rich acidic effluent. If the pH is low enough to overcome the natural buffering capacity of the surrounding rocks (‘calcium carbonate equivalent’ or ‘acid neutralising capacity’), the surrounding area may become acidic, as well as contaminated with high levels of heavy metals. Though acidophiles have an important place in the iron and sulfur biogeochemical cycles, strongly acidic environments are overwhelmingly anthropogenic in cause, primarily created at the cessation of mining operations where sulfide minerals, such as pyrite (iron disulfide or FeS2), are present.
+Acid mine drainage may occur in the mine itself, the spoil heap (particularly colliery spoils from coal mining), or through some other activity that exposes metal sulfides at a high concentration, such as at major construction sites. Banks et al. provide a basic summary of the processes that occur:
+2FeS2 + 2H2O + 7O2 = 2Fe2+ + 4SO42− + 4H+(aq)
+Pyrite + water + oxygen = ferrous iron + sulfate + acid
+
+
+== Bacterial influences on acid mine drainage ==
+The oxidation of metal sulfide (by oxygen) is slow without colonization by acidophiles, particularly Acidithiobacillus ferrooxidans (synonym Thiobacillus ferrooxidans). These bacteria can accelerate pyritic oxidation by 10^6 times. In that study, a proposal for the rate at which A.ferrooxidans can oxidise pyrite is the ability to use ferrous iron to generate a ferric iron catalyst :
+Fe2+ + 1/4O2 + H+ → Fe3+ + 1/2H2O
+Under the above acidic conditions, ferric iron (Fe3+) is a more potent oxidant than oxygen, resulting in faster pyrite oxidation rates.
+A.ferrooxidans is a chemolithoautotrophic bacteria, due to the oligotrophic nature (low dissolved organic carbon concentration) of acidic environments, and their lack of illumination for phototrophy. Even when in vadose conditions, A.ferrooxidans can survive, if the rock retains moisture and the mine is aerated. In fact in this situation, with pioneer microorganisms, the limiting factor is likely to be the environmental circumneutral pH, which inhibits many acidophiles' growth. However, favourable geochemical conditions quickly develop with an acidic interface between the bacteria and the mineral surface, and pH is lowered to a level closer to acidophilic optimum.
+The process proceeds through A.ferrooxidans exhibiting a quorum level for the trigger of acid mine drainage (AMD). At first colonisation of metal sulfides there is no AMD, and as the bacteria grow into microcolonies, AMD remains absent, then at a certain colony size, the population begins to produce a measurable change in water chemistry, and AMD escalates. This means pH is not a clear measure of a mine’s liability to AMD; culturing A.ferrooxidans (or others) gives a definite indication of a future AMD issue.
+Other bacteria also implicated in AMD include Leptospirillum ferrooxidans, Acidithiobacillus thiooxidans and Sulfobacillus thermosulfidooxidans.
+
+
+== Archaean acidophiles ==
+Though proteobacteria display impressive acid tolerance, most retain a circumneutral cytoplasm to avoid denaturation of their acid-labile cell constituents. Archaea such as Ferroplasma acidiphilum, which oxidises ferrous iron, have a number of intracellular enzymes with an optimum similar to that of their external acidic environment. This may explain their ability to survive pH as low as 1.3. The differing cell membranes in archaea compared to the bacteria may hold part of the explanation; ether lipids that link isoprene, compared to proteobacteria’s di-ester linkage, are central to the difference. Though lacking a cell wall, F. acidiphilum cell membranes contain caldarchaetidylglycerol tetraether lipids, which effectively block almost all proton access, Thermoplasma acidophilum also uses these bulky isoprenoid cores in its phospholipid bilayer.
+It is possible that the family Ferroplasmaceae may in fact be more important in AMD than the current paradigm, Acidithiobacillaceae. From a practical viewpoint this changes little, as despite the myriad physiological differences between archaea and bacteria, treatments would remain the same; if pH is kept high, and water and oxygen are prohibited from the pyrite, the reaction will be negligible.
+The isolation from solfataric soils of two Picrophilus species of archaea P.oshimae and P.torridus are of note for their record low of survival at pH 0, indicating that further AMD microorganisms may remain to be found which operate at an even lower pH. Though the genus Picrophilus is not known to be involved in AMD, its extreme acidophily is of interest, for instance its proton-resistant liposomes, which could be present in AMD acidophiles.
+
+
+== Interactions in the mine community ==
+Tentatively, there may be examples of syntrophy between acidophilic species, and even cross-domain cooperation between archaea and bacteria. One mutalistic example is the rotation of iron between species; ferrous-oxidising chemolithotrophs use iron as an electron donor, then ferric-reducing heterotrophs use iron as an electron-acceptor.
+Another more synergistic behaviour is the faster oxidation of ferrous iron when A.ferrooxidans and Sulfobacillus thermosulfidooxidans are combined in low-CO2 culture. S.thermosulfidooxidans is a more efficient iron-oxidiser, but this is usually inhibited by low-CO2 uptake. A.ferrooxidans has a higher affinity for the gas, but a lower iron oxidation speed, and so can supply S.thermosulfidooxidans for mutual benefit.
+The community possesses diversity beyond the bacteria and archaea however; the approximately constant pH present during acid mine drainage make for a reasonably stable environment, with a community that spans a number of trophic levels, and includes obligately acidophilic eukaryotes such as fungi, yeasts, algae and protozoa.
+
+
+== Physiology and biochemistry ==
+Acidophiles display a great range of adaptations to not just tolerating, but thriving in an extreme pH environment (the definition of an acidophile being an organism that has a pH optimum below pH 3). Principal in these is the necessity of maintaining a large pH gradient, to ensure a circumneutral cytoplasm (normally, however not in Picrophilus species). The archaeans have already been discussed above, and further information on their and bacterial adaptations are in basic form in the Figure. To elaborate upon the figure, the bacteria also use membrane proton blocking to maintain a high cytoplasmic pH, which is a passive system as even non-respiring A.ferrooxidans exhibit it. Acidophiles are also able to extrude protons against the pH gradient with unique transport proteins, a process more difficult for moderate- and hyper-thermophiles; a higher temperature causes cell membranes to become more permeable to protons, necessarily leading to increased H+ influx, in the absence of other membrane alterations.
+
+
+=== Proton motive force ===
+To grow at low pH, acidophiles must maintain a pH gradient of several pH units across the cellular membrane.  Acidophiles harness the strong proton motive force (PMF), caused by the pH gradient across their cell membrane, for ATP production. A large amount of energy is available to the acidophile through proton movement across the membrane, but with it comes cytoplasmic acidity. Instead ions such as sodium can be used as a substitute energy transducer to avoid this pH increase (ATPases are often Na+ linked, rather than H+ linked).
+
+
+=== Expelling H+ containing vesicles ===
+Alternatively bacteria can use H+ containing vesicles to avoid cytoplasmic acidity (see Figure), but most require that any H+ taken in must be extruded after use in the electron transport chain (ETC). On the subject of the ETC, an adaptation to living in the mine environment is in the use of different ETC electron acceptors to neutralophiles; sulfur, arsenic, selenium, uranium, iron, and manganese in solid form rather than O2 (most commonly Fe in dissimilatory iron reduction, frequent in AMD).
+
+
+=== Genomic adaptations ===
+Genomic adaptations are also present, but not without complications in organisms like Thermoplasmatales archaea, which is both acidophilic and thermophilic. For instance, this Order expresses an increased concentration of purine-containing codons for heat-stability, whilst increasing pyramidine codons in long open reading frames for protection from acid-stress. More generally, and presumably to reduce the chances of an acid-hydrolysis mutation, all obligate hyperacidophiles have truncated genomes when compared to neutralophile microorganisms. Picrophilus torridus, for instance, has the highest coding density of any non-parasitic aerobic microorganism living on organic substrates.
+
+
+=== Improved repair ===
+Acidophiles also benefit from improved DNA and protein repair systems such as chaperones involved in protein refolding. The P.torridus genome just mentioned contains a large numbers of genes concerned with repair proteins.
+
+
+== Biotechnology applications ==
+Bioremediation is the primary biotech issue created by the AMD acidophiles. There are a number of methods for dealing with AMD, some crude (such as raising pH through liming, removing water, binding iron with organic wastes) and some less so (application of bactericides, biocontrol with other bacteria/archaea, offsite wetland creation, use of metal-immobilising bacteria, galvanic suppression). A number of other neutralising agents are available (pulverised fuel ash-based grouts, cattle manure, whey, brewer's yeast) many which solve a waste disposal problem from another industry.
+As supplies of some metals dwindle, other methods of extraction are being explored, including the use of acidophiles, in a process known as bioleaching. Though slower than conventional methods, the microorganisms (which can also include fungi) enable the exploitation of extremely low grade ores with minimum expense. Projects include nickel extraction with A.ferrooxidans and Aspergillus sp. fungi and sulfur removal from coal with Acidithiobacillus sp.. The extraction can occur at the mine site, from waste water streams (or the main watercourse if the contamination has reached that far), in bioreactors, or at a power station (for instance to remove sulfur from coal before combustion to avoid sulfuric acid rain).
+
+
+== Future of the technique ==
+AMD continues to be important in the River Rheidol, and in the near future further treatment will be needed in the area around Aberystwyth, which contains 38 of the 50 worst polluting metal mines in Wales.
+In 2007, the UK government endorsed a return to coal as an energy source and mining in the UK is increasing (for instance the open-cast coal pit at Ffos-y-fran, Merthyr Tydfil). Much preventative work will be required to avoid the AMD associated with the last generation of coal mines.
+The fast and efficient protein and DNA repair systems show promise for human medical uses, particularly with regard to cancer and ageing. However further research is required to determine whether these systems really are qualitatively different, and how that can be applied from microorganisms to humans.
+As discussed above, acidophiles can have the option to use electron acceptors other than oxygen. Johnson (1998) points out that facultative anaerobism of acidophiles, previously dismissed, could have major implications for AMD control. Further research is needed to determine how far current methods to block oxygen will working, in light of the fact that the reaction may be able to continue anaerobically.
+
+
+== See also ==
+Microbial metabolism
+Extremophiles
+BacTech Environmental Corp.
+
+
+== References ==

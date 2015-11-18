@@ -1,0 +1,119 @@
+Transcription is the first step of gene expression, in which a particular segment of DNA is copied into RNA (mRNA) by the enzyme RNA polymerase.
+Both RNA and DNA are nucleic acids, which use base pairs of nucleotides as a complementary language. The two can be converted back and forth from DNA to RNA by the action of the correct enzymes. During transcription, a DNA sequence is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand called a primary transcript.
+Transcription proceeds in the following general steps:
+One or more sigma factor protein binds to the RNA polymerase holoenzyme, allowing it to bind to promoter DNA.
+RNA polymerase creates a transcription bubble, which separates the two strands of the DNA helix. This is done by breaking the hydrogen bonds between complementary DNA nucleotides.
+RNA polymerase adds matching RNA nucleotides to the complementary nucleotides of one DNA strand.
+RNA sugar-phosphate backbone forms with assistance from RNA polymerase to form an RNA strand.
+Hydrogen bonds of the untwisted RNA-DNA helix break, freeing the newly synthesized RNA strand.
+If the cell has a nucleus, the RNA may be further processed. This may include polyadenylation, capping, and splicing.
+The RNA may remain in the nucleus or exit to the cytoplasm through the nuclear pore complex.
+The stretch of DNA transcribed into an RNA molecule is called a transcription unit and encodes at least one gene. If the gene transcribed encodes a protein, messenger RNA (mRNA) will be transcribed; the mRNA will in turn serve as a template for the protein's synthesis through translation. Alternatively, the transcribed gene may encode for either non-coding RNA (such as microRNA), ribosomal RNA (rRNA), transfer RNA (tRNA), or other enzymatic RNA molecules called ribozymes. Overall, RNA helps synthesize, regulate, and process proteins; it therefore plays a fundamental role in performing functions within a cell.
+In virology, the term may also be used when referring to mRNA synthesis from an RNA molecule (i.e., RNA replication). For instance, the genome of a negative-sense single-stranded RNA (ssRNA -) virus may be template for a positive-sense single-stranded RNA (ssRNA +). This is because the positive-sense strand contains the information needed to translate the viral proteins for viral replication afterwards. This process is catalysed by a viral RNA replicase.
+
+
+== BackgroundEdit ==
+A DNA transcription unit encoding for a protein may contain both a coding sequence, which will be translated into the protein, and regulatory sequences, which direct and regulate the synthesis of that protein. The regulatory sequence before ("upstream" from) the coding sequence is called the five prime untranslated region (5'UTR); the sequence after ("downstream" from) the coding sequence is called the three prime untranslated region (3'UTR).
+As opposed to DNA replication, transcription results in an RNA complement that includes the nucleotide uracil (U) in all instances where thymine (T) would have occurred in a DNA complement.
+Only one of the two DNA strands serve as a template for transcription. The antisense strand of DNA is read by RNA polymerase from the 3' end to the 5' end during transcription (3' → 5'). The complementary RNA is created in the opposite direction, in the 5' → 3' direction, matching the sequence of the sense strand with the exception of switching uracil for thymine. This directionality is because RNA polymerase can only add nucleotides to the 3' end of the growing mRNA chain. This use of only the 3' → 5' DNA strand eliminates the need for the Okazaki fragments that are seen in DNA replication. This removes the need for an RNA primer to initiate RNA synthesis, as is the case in DNA replication.
+The non-template sense strand of DNA is called the coding strand, because its sequence is the same as the newly created RNA transcript (except for the substitution of uracil for thymine). This is the strand that is used by convention when presenting a DNA sequence.
+Transcription has some proofreading mechanisms, but they are fewer and less effective than the controls for copying DNA; therefore, transcription has a lower copying fidelity than DNA replication.
+
+
+== Major stepsEdit ==
+Transcription is divided into pre-initiation, initiation, promoter clearance, elongation and termination.
+
+
+=== Pre-initiationEdit ===
+In eukaryotes, a core promoter sequence in the DNA must be present for RNA polymerase to initiate transcription. Promoters are regions of DNA that promote transcription - in eukaryotes, they are found at -30, -75, and -90 base pairs upstream from the transcription start site (abbreviated to TSS). Transcription factors are proteins that bind to these promoter sequences and facilitate the binding of RNA Polymerase.
+The most characterized type of core promoter in eukaryotes is a short DNA sequence known as a TATA box, found 25-30 base pairs upstream from the TSS. The TATA box, as a core promoter, is the binding site for a transcription factor known as TATA-binding protein (TBP) (which is itself a subunit of another transcription factor, called Transcription Factor II D (TFIID)). After TFIID binds to the TATA box via the TBP, five more transcription factors and RNA polymerase combine around the TATA box in a series of stages to form a preinitiation complex. One transcription factor, Transcription factor II H, has two components with helicase activity and so is involved in the separating of opposing strands of double-stranded DNA to form the initial transcription bubble. However, the preinitiation complex produces only a low transcription rate on its own. Other proteins known as activators and repressors, along with any associated coactivators or corepressors, are responsible for modulating transcription rate.
+Thus, preinitiation complex contains:.
+Core Promoter Sequence
+Transcription Factors
+RNA Polymerase
+Activators and Repressors.
+The transcription preinitiation in archaea is, in essence, homologous to that of eukaryotes, but is much less complex. The archaeal preinitiation complex assembles at a TATA-box binding site; however, in archaea, this complex is composed of only RNA polymerase II, TBP, and TFB (the archaeal homologue of eukaryotic transcription factor II B (TFIIB)).
+
+
+=== InitiationEdit ===
+
+In bacteria, transcription begins with the binding of RNA polymerase to the promoter in DNA. RNA polymerase is a core enzyme consisting of five subunits: 2 α subunits, 1 β subunit, 1 β' subunit, and 1 ω subunit. At the start of initiation, the core enzyme is associated with a sigma factor that aids in finding the appropriate -35 and -10 base pairs upstream of promoter sequences. When the sigma factor and RNA polymerase combine, they form a holoenzyme.
+Transcription initiation is more complex in eukaryotes. Eukaryotic RNA polymerase does not directly recognize the core promoter sequences. Instead, a collection of proteins called transcription factors mediate the binding of RNA polymerase and the initiation of transcription. Only after certain transcription factors are attached to the promoter does the RNA polymerase bind to it. The completed assembly of transcription factors and RNA polymerase bind to the promoter, forming a transcription initiation complex. Transcription in the archaea domain is similar to transcription in eukaryotes.
+
+
+=== Promoter clearanceEdit ===
+After the first bond is synthesized, the RNA polymerase must clear the promoter. During this time there is a tendency to release the RNA transcript and produce truncated transcripts. This is called abortive initiation and is common for both eukaryotes and prokaryotes.
+In prokaryotes, abortive initiation continues to occur until an RNA product of a threshold length of approximately 10 nucleotides is synthesized, at which point promoter escape occurs and a transcription elongation complex is formed. The σ factor is released according to a stochastic model. Mechanistically, promoter escape occurs through a scrunching mechanism, where the energy built up by DNA scrunching provides the energy needed to break interactions between RNA polymerase holoenzyme and the promoter.
+In eukaryotes, after several rounds of 10nt abortive initiation, promoter clearance coincides with the TFIIH's phosphorylation of serine 5 on the carboxy terminal domain of RNAP II, leading to the recruitment of capping enzyme (CE). The exact mechanism of how CE induces promoter clearance in eukaryotes is not yet known.
+
+
+=== ElongationEdit ===
+
+One strand of the DNA, the template strand (or noncoding strand), is used as a template for RNA synthesis. As transcription proceeds, RNA polymerase traverses the template strand and uses base pairing complementarity with the DNA template to create an RNA copy. Although RNA polymerase traverses the template strand from 3' → 5', the coding (non-template) strand and newly formed RNA can also be used as reference points, so transcription can be described as occurring 5' → 3'. This produces an RNA molecule from 5' → 3', an exact copy of the coding strand (except that thymines are replaced with uracils, and the nucleotides are composed of a ribose (5-carbon) sugar where DNA has deoxyribose (one fewer oxygen atom) in its sugar-phosphate backbone).
+mRNA transcription can involve multiple RNA polymerases on a single DNA template and multiple rounds of transcription (amplification of particular mRNA), so many mRNA molecules can be rapidly produced from a single copy of a gene.
+Elongation also involves a proofreading mechanism that can replace incorrectly incorporated bases. In eukaryotes, this may correspond with short pauses during transcription that allow appropriate RNA editing factors to bind. These pauses may be intrinsic to the RNA polymerase or due to chromatin structure.
+
+
+=== TerminationEdit ===
+
+Bacteria use two different strategies for transcription termination - Rho-independent termination and Rho-dependent termination. In Rho-independent transcription termination, also called intrinsic termination, RNA transcription stops when the newly synthesized RNA molecule forms a G-C-rich hairpin loop followed by a run of Us. When the hairpin forms, the mechanical stress breaks the weak rU-dA bonds, now filling the DNA-RNA hybrid. This pulls the poly-U transcript out of the active site of the RNA polymerase, in effect, terminating transcription. In the "Rho-dependent" type of termination, a protein factor called "Rho" destabilizes the interaction between the template and the mRNA, thus releasing the newly synthesized mRNA from the elongation complex.
+Transcription termination in eukaryotes is less understood but involves cleavage of the new transcript followed by template-independent addition of adenines at its new 3' end, in a process called polyadenylation.
+
+
+== InhibitorsEdit ==
+Transcription inhibitors can be used as antibiotics against, for example, pathogenic bacteria (antibacterials) and fungi (antifungals). An example of such an antibacterial is rifampicin, which inhibits prokaryotic DNA transcription into mRNA by inhibiting DNA-dependent RNA polymerase by binding its beta-subunit. 8-Hydroxyquinoline is an antifungal transcription inhibitor. The effects of histone methylation may also work to inhibit the action of transcription.
+
+
+== Transcription factoriesEdit ==
+
+Active transcription units are clustered in the nucleus, in discrete sites called transcription factories or euchromatin. Such sites can be visualized by allowing engaged polymerases to extend their transcripts in tagged precursors (Br-UTP or Br-U) and immuno-labeling the tagged nascent RNA. Transcription factories can also be localized using fluorescence in situ hybridization or marked by antibodies directed against polymerases. There are ~10,000 factories in the nucleoplasm of a HeLa cell, among which are ~8,000 polymerase II factories and ~2,000 polymerase III factories. Each polymerase II factory contains ~8 polymerases. As most active transcription units are associated with only one polymerase, each factory usually contains ~8 different transcription units. These units might be associated through promoters and/or enhancers, with loops forming a ‘cloud’ around the factor.
+
+
+== HistoryEdit ==
+A molecule that allows the genetic material to be realized as a protein was first hypothesized by François Jacob and Jacques Monod. Severo Ochoa won a Nobel Prize in Physiology or Medicine in 1959 for developing a process for synthesizing RNA in vitro with polynucleotide phosphorylase, which was useful for cracking the genetic code. RNA synthesis by RNA polymerase was established in vitro by several laboratories by 1965; however, the RNA synthesized by these enzymes had properties that suggested the existence of an additional factor needed to terminate transcription correctly.
+In 1972, Walter Fiers became the first person to actually prove the existence of the terminating enzyme.
+Roger D. Kornberg won the 2006 Nobel Prize in Chemistry "for his studies of the molecular basis of eukaryotic transcription".
+
+
+== Measuring and detecting transcriptionEdit ==
+
+Transcription can be measured and detected in a variety of ways:
+Nuclear Run-on assay: measures the relative abundance of newly formed transcripts
+RNase protection assay and ChIP-Chip of RNAP: detect active transcription sites
+RT-PCR: measures the absolute abundance of total or nuclear RNA levels, which may however differ from transcription rates
+DNA microarrays: measures the relative abundance of the global total or nuclear RNA levels; however, these may differ from transcription rates
+In situ hybridization: detects the presence of a transcript
+MS2 tagging: by incorporating RNA stem loops, such as MS2, into a gene, these become incorporated into newly synthesized RNA. The stem loops can then be detected using a fusion of GFP and the MS2 coat protein, which has a high affinity, sequence-specific interaction with the MS2 stem loops. The recruitment of GFP to the site of transcription is visualised as a single fluorescent spot. This new approach has revealed that transcription occurs in discontinuous bursts, or pulses (see Transcriptional bursting). With the notable exception of in situ techniques, most other methods provide cell population averages, and are not capable of detecting this fundamental property of genes.
+Northern blot: the traditional method, and until the advent of RNA-Seq, the most quantitative
+RNA-Seq: applies next-generation sequencing techniques to sequence whole transcriptomes, which allows the measurement of relative abundance of RNA, as well as the detection of additional variations such as fusion genes, post-transcriptional edits and novel splice sites
+
+
+== Reverse transcriptionEdit ==
+
+Some viruses (such as HIV, the cause of AIDS), have the ability to transcribe RNA into DNA. HIV has an RNA genome that is reverse transcribed into DNA. The resulting DNA can be merged with the DNA genome of the host cell. The main enzyme responsible for synthesis of DNA from an RNA template is called reverse transcriptase.
+In the case of HIV, reverse transcriptase is responsible for synthesizing a complementary DNA strand (cDNA) to the viral RNA genome. The enzyme ribonuclease H then digests the RNA strand, and reverse transcriptase synthesises a complementary strand of DNA to form a double helix DNA structure ("cDNA"). The cDNA is integrated into the host cell's genome by the enzyme integrase, which causes the host cell to generate viral proteins that reassemble into new viral particles. In HIV, subsequent to this, the host cell undergoes programmed cell death, or apoptosis of T cells. However, in other retroviruses, the host cell remains intact as the virus buds out of the cell.
+Some eukaryotic cells contain an enzyme with reverse transcription activity called telomerase. Telomerase is a reverse transcriptase that lengthens the ends of linear chromosomes. Telomerase carries an RNA template from which it synthesizes a repeating sequence of DNA, or "junk" DNA. This repeated sequence of DNA is called a telomere and can be thought of as a "cap" for a chromosome. It is important because every time a linear chromosome is duplicated, it is shortened. With this "junk" DNA or "cap" at the ends of chromosomes, the shortening eliminates some of the non-essential, repeated sequence rather than the protein-encoding DNA sequence, that is farther away from the chromosome end.
+Telomerase is often activated in cancer cells to enable cancer cells to duplicate their genomes indefinitely without losing important protein-coding DNA sequence. Activation of telomerase could be part of the process that allows cancer cells to become immortal. The immortalizing factor of cancer via telomere lengthening due to telomerase has been proven to occur in 90% of all carcinogenic tumors in vivo with the remaining 10% using an alternative telomere maintenance route called ALT or Alternative Lengthening of Telomeres.
+
+
+== See alsoEdit ==
+Crick's central dogma - DNA is transcribed to RNA, which is translated to polypeptides (polypeptides cannot "reverse translate" into RNA or DNA)
+Eukaryotic transcription
+Gene regulation
+Bacterial transcription
+RNA Polymerase
+Reverse transcription - process viruses use to make DNA from RNA
+Splicing - process of removing introns from precursor messenger RNA (pre-mRNA) to make messenger RNA (mRNA)
+Translation - process of decoding RNA to form polypeptides
+Transcription factor
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Interactive Java simulation of transcription initiation. From Center for Models of Life at the Niels Bohr Institute.
+Interactive Java simulation of transcription interference--a game of promoter dominance in bacterial virus. From Center for Models of Life at the Niels Bohr Institute.
+Biology animations about this topic under Chapter 15 and Chapter 18
+Virtual Cell Animation Collection, Introducing Transcription
+Easy to use DNA transcription site

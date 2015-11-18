@@ -1,0 +1,89 @@
+CableCARD is a special-use PC Card device that allows consumers in the United States to view and record digital cable television channels on digital video recorders, personal computers and television sets without the use of other equipment such as a set top box (STB) provided by a cable television company. The card may be provided by the local cable provider; usually for a nominal monthly fee.
+In technical contexts, "CableCARD" refers more broadly to a set of technologies created by the United States cable television industry in response to requirements by federal government's Telecommunications Act of 1996 that cable companies allow non cable company provided devices to access their networks.
+Use of the term CableCARD can be confusing, because some technologies refer not to the physical card, but to a device ("Host") that uses the card. Some CableCARD technologies can be used with devices that have no physical CableCARDs.
+AllVid is a proposed successor system announced in 2010 by the FCC. Unlike CableCARD, AllVid is intended to enable two-way services such as interactive program guides, pay- per-view, and video-on-demand.
+
+
+== Background ==
+The portion of the 1996 Telecom law which resulted in the creation of CableCARDs is known as Section 629, instructing the Federal Communications Commission (FCC) to:
+
+"...assure the commercial availability to consumers of multichannel video programming and other services offered over multichannel video programming systems, of converter boxes, interactive communications equipment, and other equipment used by consumers to access multichannel video programming and other services offered over multichannel video programming systems, from manufacturers, retailers, and other vendors not affiliated with any multichannel video programming distributor."
+
+Multichannel video programming refers to cable or satellite television. A driving motivation of this passage was to foster the kind of consumer choices that resulted after the Federal government landmark Carterfone ruling requiring telephone companies to allow consumers to purchase third party telephones for attachment to the phone company network. The thought was that consumers would benefit from wider choices due to competition between consumer electronics (CE) manufacturers unaffiliated with cable companies.
+The FCC was charged with working with industry to carry out the directives of the 1996 law. On June 11, 1998, after securing proposals and recommendations from interested parties, the FCC ordered that cable companies would provide a separable security access device by July 1, 2000 which could be used by third-party devices to access digital cable networks. One important issue was the concern that cable companies might not be motivated to provide efficient security access mechanisms for competitor companies to use. To address this, the FCC directed that the cable companies would by January 1, 2005 also have to use a separable access device that was also available to third parties. The cable company would be banned from providing devices that relied on a security access mechanism integrated with the device after the 2005 deadline. This rule is usually referred to as the "integration ban", and has been unsuccessfully challenged in the courts and in FCC petitions by the cable companies. The deadline was shifted forward twice and went into effect July 1, 2007.
+The separable security device was referred to in FCC regulations as a "Point of Deployment" (POD) module. After many requests for delay from the cable industry, the first CableCARD devices became available from third party manufacturers in August 2004.
+CableCARDs may be used to access both standard definition and high definition channels as long as they are not part of a switched video system. (This applies to one-way devices only, two-way devices are capable of receiving and viewing switched video. The ability for one-way devices to receive and view switched video has changed with the addition of the Tuning Resolver Interface Specification. Tuning adaptors and tuning adaptor interfaces have been added to provide communication back to the headend needed for switched video.) CableCARDs are not necessary for viewing unscrambled digital cable channels if the user has a QAM tuner — a feature in some televisions and DVRs. CableCARD support is most common on higher end televisions that include a special slot for the CableCARD and a built-in cable tuner. The card acts like a unique "key" to unlock the channels and services to which the cable customer has subscribed, and the television's remote-control will also control the cable channels. Televisions that support CableCARD should be labeled by the manufacturer as "digital cable ready", or DCR.
+
+
+== Existing standard and certification procedures ==
+Cable providers in the United States are required by the FCC to support the CableCARD 2.0 standard. The specification was developed by CableLabs, a research group run by a consortium of cable companies. Devices that use CableCARDs are known as "Hosts" and must be certified as compliant with the specification by CableLabs. The certification process can be lengthy and is performed in batches on a regular cycle every three months.
+The first test tool to verify compliance of OpenCable hosts with the CableCARD one-way single stream specifications, HPNX, was released by SCM and Digital Keystone in 2003. Subsequently the HPNX Pro version, supporting two-way and M-card specifications, was released by Digital Keystone in 2006. The "M-UDCP Device Acceptance Test Plan" published by CableLabs defines how to use the HPNX Pro test tool to validate the OpenCable host devices.
+The first test tool to verify compliance of the CableCARD devices with the OpenCable specifications, Host Emulator Tool, and produced by Margi Systems, was first utilized by CableLabs to validate the Scientific Atlanta (Cisco) and Motorola POD devices in 2003 (POD later renamed to CableCard).
+Cable companies in the United States are required to provide CableCARDs conforming to this specification, and must correct incompatibilities between their networks and certified CableCARD devices.
+The current CableCARD standard was born out of an adversarial process between two main groups: cable companies represented by the National Cable & Telecommunications Association (NCTA) and consumer electronics companies represented by the Consumer Electronics Association (CEA). The portion of the CableCARD specs that could be agreed on describe how one-way services work, and so only the portion known as UDCP (Unidirectional Digital Cable Product) was required by the FCC. As it was the only thing required, most of the early devices were only one-way capable; however all the actual CableCARDs produced were always two-way capable. Many enhancements to the CableCARD standard including the optional Multi-Stream support became known as CableCARD 2.0.
+Optical cable services (e.g. Verizon FiOS) are classified as cable services and must, by FCC rules, also support the CableCARD standard. No cable providers in Canada currently support CableCARD. Video providers in Europe must conform to the DVB standard which is a more comprehensive open standard governed by independent standards bodies.
+CableCARDs can also support non-television functions and can act as a cable modem controller with the host providing modulation and demodulation functions and the card providing decoding and IP routing functionality; however this feature is rarely used and depends on the cable provider.
+
+
+== Physical CableCARDs ==
+
+The physical CableCARD that is inserted into the host device is a PC Card type II that handles decryption of video and ensures that only people that have paid for a channel may view it. This is also known as a "conditional-access module" function.
+There are two kinds of physical CableCARDs:
+A "Single-stream" CableCARD (S-CARD) can decode a single channel at a time. The S-CARD specification was initially specified in the Host-POD Interface (SCTE 28) and POD Copy Protection System (SCTE 41) standards (often referred to as CableCARD 1.0) set of specifications.
+A "Multi-Stream" CableCARD (M-Card) can decode up to six channels simultaneously. Multi-Stream cards were specified in a separate document in 2003.
+No actual M-Cards were released before CableCARD 2.0 was released which combined and enhanced the CableCARD 1.0 and Multi-Stream standards. M-Cards are backward compatible with current CableCARD devices. To older CableCARD devices that do not support multiple streams, the card appears to be a single stream card. CE companies have long wanted M-Cards for their CableCARD 1.0 host devices in order to compete with Cable company devices that use multiple tuners. This is important for products such as Moxi and TiVo CableCARD DVRs, televisions with picture-in-picture and CableCARD-equipped personal computers, which need to be able to record one show while the user is watching another. To enable this without an M-Card, these products would be required to use multiple S-CARDs.
+Interactive features such as video on demand rely on the CableCARD Host device being an OpenCable Host Device and have nothing to do with the physical card. This makes the common use of the phrase "CableCARD 2.0" as a requirement for video on demand misleading, since two way services have been provided with the actual cards from the very beginning.
+
+
+== Adoption ==
+There has been much resistance from the cable companies to CableCARD rollout across the United States with the cable companies preferring to support their own set-top boxes. This has changed somewhat with the July 2007 FCC integration ban, which required all new set-top boxes to use CableCARDs as their decryption mechanism. Prior to this, adoption had proceeded slowly with 141,000 units by February 2006. By June 2009, there were over 14,000,000 CableCARDs deployed including 437,800 of which went into retail equipment. Currently almost all the retail equipment is not capable of two way communications.
+There are still many in the cable industry who are advocating that physical CableCARDs be dropped entirely. These cable companies prefer to move away from physical cards, and have proposed that a downloadable security component known as Downloadable Conditional Access System (DCAS) be used instead of a physical CableCARD. In this proposal, a custom security chip must be soldered into every compliant host; if a security scheme is compromised, a new security program can be downloaded to the host device. The FCC has not yet approved it.
+CE companies advocate their proposal for more unfettered access to cable company networks, with CableLabs' role reduced to addressing only cable company interests of maintaining network stability and security.
+
+
+== Technical overview ==
+CableCARD is a term trademarked by CableLabs for the Point of Deployment (POD) module defined by standards including SCTE 28, SCTE 41, CEA-679 and others. The CableCARD is physically a PC Card type II, supplied by the cable company, which is inserted into a slot in the host (typically a digital television set or a set-top box) in order to identify and authorize the customer, and to provide proprietary decoding of the encrypted digital cable signal without the need for a set-top box. The cable tuner and QAM demodulator themselves are part of the host device, as is the MPEG decoder. The role of the card is to perform any conditional access and decryption functions. This results in an MPEG-2 transport stream, which is decoded by the host. The card also receives messages sent over the out-of-band signaling channel by the cable company's headend servers and forwards them to the host.
+As of November 1, 2011, all US cable operators must allow self-installation of CableCARDs.
+
+
+=== CableCARDs with personal computers ===
+Existing integrated cable set-top boxes perform four basic functions:
+Enable receiving and selecting digital and analog cable channels
+Uniquely identify the customer and authorize the features to which they have subscribed
+Decode scrambled digital channels and premium programming such as movie channels
+Provide interactive two-way communications for electronic program guides, pay-per-view, video on demand, or switched video streams
+New digital televisions and other devices that are labeled DCR (Digital cable ready) contain:
+Built-in support for receiving digital cable channels (via an internal QAM tuner)
+A slot for the current version of CableCARD, which allows decryption of encrypted digital channels
+The CableCARD 2.0 specification includes support for #1-4, interactive two-way communications; however it is unknown exactly when CableCARD 2.0 hosts and compatible servers will become available. Future devices which support CableCARD 2.0 are expected to be labeled iDCR "Interactive digital cable ready". Among other requirements, CableCARD 2.0 hosts will be required to provide the OpenCable Application Platform (OCAP), also known as Tru2Way, to run programs downloaded from the cable company.
+Because the conditional access system is in software, it can be sent with the video as a form of Digital Rights Management (DRM). The CableCARD Host Licensing Agreement (CHILA) and the DCAS agreement restrict the technologies that CE companies may use for distributing video from host devices. CE companies object to this expanding the notion of CableCARD network security issues to also include content protection issues. They prefer to deal with content owners directly with their standards and regard cable company protocols and formats as a transport only. CE companies wish to communicate video inside the home network using their own protected protocols and formats.
+The OpenCable Application Platform (OCAP) is a Java-based platform intended for use either with any security access scheme—whether it is CableCARD 2.0 devices or future downloadable security schemes. OCAP was tied to CableCARDs because, as it was imagined by CableLabs, the additional processing necessary for managing the communication with the cable company server would be performed, not on the cable company provided equipment (the CableCARD), but on the consumer electronics device—known as the CableCARD "Host". CE companies objected that OCAP is unnecessary for the simple task of managing two-way communications on the cable networks. The CEA perspective is that Java is not efficient for CE devices, and that cable companies are passing to CE manufacturers the costs of a software platform which they didn't need, and which won't run on their existing hardware architectures.
+The consumer electronics industry proposed in November 2006 that the CableCARD 2.0 specification be upgraded to include the provision for modified MCards that would support the communications necessary for VOD, PPV, and Switched Video. This card would be backward compatible with older cards, and support would be required for them on cable company servers by January 2008. These modified MCards would not allow two-way communication using current OCURs, which, by definition, are unidirectional. This so-called "OCAP-less" proposal was rejected by the NCTA for a variety of reasons elaborated on in the issues segment of this article. The technical advantage is that much less is assumed about the computing capability of the host, allowing the manufacturing cost to be significantly reduced. The disadvantage is that the MCard will be slightly more expensive, but the host will not necessarily be able to support the envisioned ecommerce and banking applications. CE companies argue that such a card fulfills the 1996 law's requirement that cable companies allow two-way communication on their networks, and that OCAP fulfills technical goals far in excess of those necessary for such two-way communications.
+
+
+== AllVid ==
+
+In 2010, the Federal Communications Commission (FCC) issued a notice of inquiry for a successor system, called AllVid.
+
+
+== See also ==
+Conditional-access module (CAM)
+Quadrature phase-shift keying (QPSK)
+
+
+== References ==
+
+
+== Further reading ==
+"CableCARD 2.0 is ready". engadgethd. 2007-06-22. Retrieved 2007-07-06. 
+"CableCARD 2_0 What's the hold up — Engadget HD". engadgethd. 2007-06-18. Retrieved 2007-07-06. 
+"There is no CableCARD 2.0". engadgethd. 2007-06-15. Retrieved 2007-07-06. 
+"FAQ: CableCARD? What's that?". CNET. 2005-01-20. Retrieved 2006-06-08. 
+Taub, Eric A. (2006-07-03). "A CableCARD That Hasn't Been Able to Kill the Set-Top Box". The New York Times. Retrieved 2006-07-03. 
+"CableCARD: A Primer". ars technica. 2006-02-06. Archived from the original on 2007-02-16. Retrieved 2006-06-08. 
+"FAQ: CableCARD? What's that?". CNET. 2005-01-20. Retrieved 2006-06-08. 
+"CableCARDs — A Primer". Audioholics. 2004-10-12. Retrieved 2006-06-08. 
+"CableCARD Interface 2.0 Specification" (PDF). Cable Television Laboratories, Inc. 2006-01-26. Retrieved 2006-06-08. 
+"Proposal for Bi-Directional Digital Cable Compatibility and Related Issues- Access to Basic Interactive Services" (PDF). FCC. 2006-11-07. Retrieved 2006-12-26.  Document may be retrieved by visiting the FCC document search site, and entering "Consumer Electronics Association" in field 4. In field 7, enter 11/07/2006 in the From and To: dates. Appendix A is the 3rd document.
+"ANSI/SCTE 28 2004 HOST-POD Interface Standard" (PDF). Society of Cable Telecommunications Engineers (SCTE). Archived from the original (PDF) on 2006-05-16. Retrieved 2006-06-08. 
+"Exploding CEA's Myths about the Integration Ban" (PDF). NCTA. 2006-01-02. Retrieved 2006-12-28.

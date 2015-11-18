@@ -1,0 +1,21 @@
+In statistical hypothesis testing, the alternative hypothesis (or maintained hypothesis or research hypothesis) and the null hypothesis are the two rival hypotheses which are compared by a statistical hypothesis test.
+In the domain of science two rival hypotheses can be compared by explanatory power and predictive power.
+
+
+== ExampleEdit ==
+An example might be where water quality in a stream has been observed over many years and a test is made of the null hypothesis that there is no change in quality between the first and second halves of the data against the alternative hypothesis that the quality is poorer in the second half of the record.
+
+
+== HistoryEdit ==
+The concept of an alternative hypothesis in testing was devised by Jerzy Neyman and Egon Pearson, and it is used in the Neyman–Pearson lemma. It forms a major component in modern statistical hypothesis testing. However it was not part of Ronald Fisher's formulation of statistical hypothesis testing, and he opposed its use. In Fisher's approach to testing, the central idea is to assess whether the observed dataset could have resulted from chance if the null hypothesis were assumed to hold, notionally without preconceptions about what other model might hold. Modern statistical hypothesis testing accommodates this type of test since the alternative hypothesis can be just the negation of the null hypothesis.
+
+
+== Types of alternative hypothesisEdit ==
+In the case of a scalar parameter, there are four principal types of alternative hypothesis:
+Point. Point alternative hypotheses occur when the hypothesis test is framed so that the population distribution under the alternative hypothesis is a fully defined distribution, with no unknown parameters; such hypotheses are usually of no practical interest but are fundamental to theoretical considerations of statistical inference and are the basis of the Neyman–Pearson lemma.
+One-tailed directional. A one-tailed directional alternative hypothesis is concerned with the region of rejection for only one tail of the sampling distribution.
+Two-tailed directional. A two-tailed directional alternative hypothesis is concerned with both regions of rejection of the sampling distribution.
+Non-directional. A non-directional alternative hypothesis is not concerned with either region of rejection, but, rather, it is only concerned that null hypothesis is not true.
+
+
+== ReferencesEdit ==

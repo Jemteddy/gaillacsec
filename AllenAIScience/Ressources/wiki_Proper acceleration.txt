@@ -1,0 +1,103 @@
+In relativity theory, proper acceleration is the physical acceleration (i.e., measurable acceleration as by an accelerometer) experienced by an object. It is thus acceleration relative to a free-fall, or inertial, observer who is momentarily at rest relative to the object being measured. Gravitation therefore does not cause proper acceleration, since gravity acts upon the inertial observer that any proper acceleration must depart from (accelerate from). A corollary is that all inertial observers always have a proper acceleration of zero.
+Proper acceleration contrasts with coordinate acceleration, which is dependent on choice of coordinate systems and thus upon choice of observers.
+In the standard inertial coordinates of special relativity, for unidirectional motion, proper acceleration is the rate of change of proper velocity with respect to coordinate time.
+In an inertial frame in which the object is momentarily at rest, the proper acceleration 3-vector, combined with a zero time-component, yields the object's four-acceleration, which makes proper-acceleration's magnitude Lorentz-invariant. Thus the concept is useful: (i) with accelerated coordinate systems, (ii) at relativistic speeds, and (iii) in curved spacetime.
+In an accelerating rocket after launch, or even in a rocket standing at the gantry, the proper acceleration is the acceleration felt by the occupants, and which is described as g-force (which is not a force but rather an acceleration; see that article for more discussion of proper acceleration) delivered by the vehicle only. The "acceleration of gravity" ("force of gravity") never contributes to proper acceleration in any circumstances, and thus the proper acceleration felt by observers standing on the ground is due to the mechanical force from the ground, not due to the "force" or "acceleration" of gravity. If the ground is removed and the observer allowed to free-fall, the observer will experience coordinate acceleration, but no proper acceleration, and thus no g-force. Generally, objects in such a fall or generally any such ballistic path (also called inertial motion), including objects in orbit, experience no proper acceleration (neglecting small tidal accelerations for inertial paths in gravitational fields). This state is also known as "zero gravity," ("zero-g") or "free-fall," and it always produces a sensation of weightlessness.
+Proper acceleration reduces to coordinate acceleration in an inertial coordinate system in flat spacetime (i.e. in the absence of gravity), provided the magnitude of the object's proper-velocity (momentum per unit mass) is much less than the speed of light c. Only in such situations is coordinate acceleration entirely felt as a "g-force" (i.e., a proper acceleration, also defined as one that produces measurable weight).
+In situations in which gravitation is absent but the chosen coordinate system is not inertial, but is accelerated with the observer (such as the accelerated reference frame of an accelerating rocket, or a frame fixed upon objects in a centrifuge), then g-forces and corresponding proper accelerations felt by observers in these coordinate systems are caused by the mechanical forces which resist their weight in such systems. This weight, in turn, is produced by fictitious forces or "inertial forces" which appear in all such accelerated coordinate systems, in a manner somewhat like the weight produced by the "force of gravity" in systems where objects are fixed in space with regard to the gravitating body (as on the surface of the Earth).
+The total (mechanical) force which is calculated to induce the proper acceleration on a mass at rest in a coordinate system that has a proper acceleration, via Newton's law F = m a, is called the proper force. As seen above, the proper force is equal to the opposing reaction force that is measured as an object's "operational weight" (i.e., its weight as measured by a device like a spring scale, in vacuum, in the object's coordinate system). Thus, the proper force on an object is always equal and opposite to its measured weight.
+
+
+== Examples ==
+For instance, when holding onto a carousel that turns at constant angular velocity you experience a radially inward (centripetal) proper-acceleration due to the interaction between the handhold and your hand. This cancels the radially outward geometric acceleration associated with your spinning coordinate frame. This outward acceleration (from the spinning frame's perspective) will become the coordinate acceleration when you let go, causing you to fly off along a zero proper-acceleration (geodesic) path. Unaccelerated observers, of course, in their frame simply see your equal proper and coordinate accelerations vanish when you let go.
+
+Similarly, standing on a non-rotating planet (and on earth for practical purposes) we experience an upward proper-acceleration due to the normal-force exerted by the earth on the bottom of our shoes. This cancels the downward geometric acceleration due to our choice of coordinate system (a so-called shell-frame). That downward acceleration becomes coordinate if we inadvertently step off a cliff into a zero proper-acceleration (geodesic or rain-frame) trajectory.
+
+Note that geometric accelerations (due to the connection term in the coordinate system's covariant derivative below) act on every ounce of our being, while proper-accelerations are usually caused by an external force. Introductory physics courses often treat gravity's downward (geometric) acceleration as one that's due to a mass-proportional force. This, along with diligent avoidance of unaccelerated frames, allows them to treat proper and coordinate acceleration as the same thing.
+Even then if an object maintains a constant proper-acceleration from rest over an extended period in flat spacetime, observers in the rest frame will see the object's coordinate acceleration decrease as its coordinate velocity approaches lightspeed. The rate at which the object's proper-velocity goes up, nevertheless, remains constant.
+
+Thus the distinction between proper-acceleration and coordinate acceleration allows one to track the experience of accelerated travelers from various non-Newtonian perspectives. These perspectives include those of accelerated coordinate systems (like a carousel), of high speeds (where proper time differs from coordinate time), and of curved spacetime (like that associated with gravity on earth).
+
+
+== Classical applications ==
+At low speeds in the inertial coordinate systems of Newtonian physics, proper acceleration simply equals the coordinate acceleration a=d2x/dt2. As reviewed above, however, it differs from coordinate acceleration if one chooses (against Newton's advice) to describe the world from the perspective of an accelerated coordinate system like a motor vehicle accelerating from rest, or a stone being spun around in a slingshot. If one chooses to recognize that gravity is caused by the curvature of spacetime (see below), proper acceleration also differs from coordinate acceleration in a gravitational field.
+For example, an object subjected to physical or proper acceleration ao will be seen by observers in a coordinate system undergoing constant acceleration aframe to have coordinate acceleration:
+.
+Thus if the object is accelerating with the frame, observers fixed to the frame will see no acceleration at all.
+
+Similarly, an object undergoing physical or proper acceleration ao will be seen by observers in a frame rotating with angular velocity ω to have coordinate acceleration:
+.
+In the equation above, there are three geometric acceleration terms on the right hand side. The first "centrifugal acceleration" term depends only on the radial position r and not the velocity of our object, the second "Coriolis acceleration" term depends only on the object's velocity in the rotating frame vrot but not its position, and the third "Euler acceleration" term depends only on position and the rate of change of the frame's angular velocity.
+
+In each of these cases, physical or proper acceleration differs from coordinate acceleration because the latter can be affected by your choice of coordinate system as well as by physical forces acting on the object. Those components of coordinate acceleration not caused by physical forces (like direct contact or electrostatic attraction) are often attributed (as in the Newtonian example above) to forces that: (i) act on every ounce of the object, (ii) cause mass-independent accelerations, and (iii) don't exist from all points of view. Such geometric (or improper) forces include Coriolis forces, Euler forces, g-forces, centrifugal forces and (as we see below) gravity forces as well.
+
+
+== Viewed from a flat spacetime slice ==
+Proper-acceleration's relationships to coordinate acceleration in a specified slice of flat spacetime follow from Minkowski's flat-space metric equation (cdτ)2 = (cdt)2 - (dx)2. Here a single reference frame of yardsticks and synchronized clocks define map position x and map time t respectively, the traveling object's clocks define proper time τ, and the "d" preceding a coordinate means infinitesimal change. These relationships allow one to tackle various problems of "anyspeed engineering", albeit only from the vantage point of an observer whose extended map frame defines simultaneity.
+
+
+=== Acceleration in (1+1)D ===
+
+In the unidirectional case i.e. when the object's acceleration is parallel or anti-parallel to its velocity in the spacetime slice of the observer, proper acceleration α and coordinate acceleration a are related through the Lorentz factor γ by α=γ3a. Hence the change in proper-velocity w=dx/dτ is the integral of proper acceleration over map-time t i.e. Δw=αΔt for constant α. At low speeds this reduces to the well-known relation between coordinate velocity and coordinate acceleration times map-time, i.e. Δv=aΔt.
+For constant unidirectional proper-acceleration, similar relationships exist between rapidity η and elapsed proper time Δτ, as well as between Lorentz factor γ and distance traveled Δx. To be specific:
+,
+where the various velocity parameters are related by
+.
+These equations describe some consequences of accelerated travel at high speed. For example, imagine a spaceship that can accelerate its passengers at "1 gee" (10 m/s2 or about 1.0 lightyear per year squared) halfway to their destination, and then decelerate them at "1 gee" for the remaining half so as to provide earth-like artificial gravity from point A to point B over the shortest possible time. For a map-distance of ΔxAB, the first equation above predicts a midpoint Lorentz factor (up from its unit rest value) of γmid=1+α(ΔxAB/2)/c2. Hence the round-trip time on traveler clocks will be Δτ = 4(c/α) cosh−1(γmid), during which the time elapsed on map clocks will be Δt = 4(c/α) sinh[cosh−1(γmid)].
+This imagined spaceship could offer round trips to Proxima Centauri lasting about 7.1 traveler years (~12 years on Earth clocks), round trips to the Milky Way's central black hole of about 40 years (~54,000 years elapsed on earth clocks), and round trips to Andromeda Galaxy lasting around 57 years (over 5 million years on Earth clocks). Unfortunately, sustaining 1-gee acceleration for years is easier said than done, as illustrated by the maximum payload to launch mass ratios shown in the figure at right.
+
+
+== In curved spacetime ==
+In the language of general relativity, the components of an object's acceleration four-vector A (whose magnitude is proper acceleration) are related to elements of the four-velocity via a covariant derivative D with respect to proper time τ:
+
+Here U is the object's four-velocity, and Γ represents the coordinate system's 64 connection coefficients or Christoffel symbols. Note that the Greek subscripts take on four possible values, namely 0 for the time-axis and 1-3 for spatial coordinate axes, and that repeated indices are used to indicate summation over all values of that index. Trajectories with zero proper acceleration are referred to as geodesics.
+The left hand side of this set of four equations (one each for the time-like and three spacelike values of index λ) is the object's proper-acceleration 3-vector combined with a null time component as seen from the vantage point of a reference or book-keeper coordinate system in which the object is at rest. The first term on the right hand side lists the rate at which the time-like (energy/mc) and space-like (momentum/m) components of the object's four-velocity U change, per unit time τ on traveler clocks.
+Let's solve for that first term on the right since at low speeds its spacelike components represent the coordinate acceleration. More generally, when that first term goes to zero the object's coordinate acceleration goes to zero. This yields...
+.
+Thus, as exemplified with the first two animations above, coordinate acceleration goes to zero whenever proper-acceleration is exactly canceled by the connection (or geometric acceleration) term on the far right. Caution: This term may be a sum of as many as sixteen separate velocity and position dependent terms, since the repeated indices μ and ν are by convention summed over all pairs of their four allowed values.
+
+
+=== Force and equivalence ===
+The above equation also offers some perspective on forces and the equivalence principle. Consider local book-keeper coordinates for the metric (e.g. a local Lorentz tetrad like that which global positioning systems provide information on) to describe time in seconds, and space in distance units along perpendicular axes. If we multiply the above equation by the traveling object's rest mass m, and divide by Lorentz factor γ = dt/dτ, the spacelike components express the rate of momentum change for that object from the perspective of the coordinates used to describe the metric.
+This in turn can be broken down into parts due to proper and geometric components of acceleration and force. If we further multiply the time-like component by lightspeed c, and define coordinate velocity as v = dx/dt, we get an expression for rate of energy change as well:
+ (timelike) and  (spacelike).
+Here ao is an acceleration due to proper forces and ag is, by default, a geometric acceleration that we see applied to the object because of our coordinate system choice. At low speeds these accelerations combine to generate a coordinate acceleration like a=d2x/dt2, while for unidirectional motion at any speed ao's magnitude is that of proper acceleration α as in the section above where α = γ3a when ag is zero. In general expressing these accelerations and forces can be complicated.
+Nonetheless if we use this breakdown to describe the connection coefficient (Γ) term above in terms of geometric forces, then the motion of objects from the point of view of any coordinate system (at least at low speeds) can be seen as locally Newtonian. This is already common practice e.g. with centrifugal force and gravity. Thus the equivalence principle extends the local usefulness of Newton's laws to accelerated coordinate systems and beyond.
+
+
+=== Surface dwellers on a planet ===
+For low speed observers being held at fixed radius from the center of a spherical planet or star, coordinate acceleration ashell is approximately related to proper acceleration ao by:
+
+where the planet or star's Schwarzschild radius rs=2GM/c2. As our shell observer's radius approaches the Schwarzschild radius, the proper acceleration ao needed to keep it from falling in becomes intolerable.
+On the other hand, for r>>rs, an upward proper force of only GMm/r2 is needed to prevent one from accelerating downward. At the Earth's surface this becomes:
+
+where g is the downward 9.8 m/s2 acceleration due to gravity, and  is a unit vector in the radially outward direction from the center of the gravitating body. Thus here an outward proper force of mg is needed to keep one from accelerating downward.
+
+
+=== Four-vector derivations ===
+The spacetime equations of this section allow one to address all deviations between proper and coordinate acceleration in a single calculation. For example, let's calculate the Christoffel symbols:
+
+for the far-coordinate Schwarzschild metric (c dτ)2 = (1−rs/r)(c dt)2 − (1/(1−rs/r))dr2 − r2 dθ2 − (r sinθ)2 dφ2, where rs is the Schwarzschild radius 2GM/c2. The resulting array of coefficients becomes:
+.
+From this you can obtain the shell-frame proper acceleration by setting coordinate acceleration to zero and thus requiring that proper acceleration cancel the geometric acceleration of a stationary object i.e. . This does not solve the problem yet, since Schwarzschild coordinates in curved spacetime are book-keeper coordinates but not those of a local observer. The magnitude of the above proper acceleration 4-vector, namely , is however precisely what we want i.e. the upward frame-invariant proper acceleration needed to counteract the downward geometric acceleration felt by dwellers on the surface of a planet.
+A special case of the above Christoffel symbol set is the flat-space spherical coordinate set obtained by setting rs or M above to zero:
+.
+From this we can obtain, for example, the centripetal proper acceleration needed to cancel the centrifugal geometric acceleration of an object moving at constant angular velocity ω=dφ/dτ at the equator where θ=π/2. Forming the same 4-vector sum as above for the case of dθ/dτ and dr/dτ zero yields nothing more than the classical acceleration for rotational motion given above, i.e.  so that ao=ω2r. Coriolis effects also reside in these connection coefficients, and similarly arise from coordinate-frame geometry alone.
+
+
+== See also ==
+Acceleration: change in velocity
+Proper velocity
+Fictitious force: one name for mass times geometric acceleration
+Four-vector: making the connection between space and time explicit
+Kinematics: for studying ways that position changes with time
+Uniform acceleration: holding coordinate acceleration fixed
+
+
+== Footnotes ==
+
+
+== External links ==
+Excerpts from the first edition of Spacetime Physics, and other resources posted by Edwin F. Taylor
+James Hartle's gravity book page including Mathematica programs to calculate Christoffel symbols.
+Andrew Hamilton's notes and programs for working with local tetrads at U. Colorado, Boulder.

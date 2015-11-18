@@ -1,0 +1,57 @@
+Two-dimensional gel electrophoresis, abbreviated as 2-DE or 2-D electrophoresis, is a form of gel electrophoresis commonly used to analyze proteins. Mixtures of proteins are separated by two properties in two dimensions on 2D gels. 2-DE was first independently introduced by O'Farrell and Klose in 1975.
+
+
+== Basis for separation ==
+2-D electrophoresis begins with 1-D electrophoresis but then separates the molecules by a second property in a direction 90 degrees from the first. In 1-D electrophoresis, proteins (or other molecules) are separated in one dimension, so that all the proteins/molecules will lie along a lane but that the molecules are spread out across a 2-D gel. Because it is unlikely that two molecules will be similar in two distinct properties, molecules are more effectively separated in 2-D electrophoresis than in 1-D electrophoresis.
+The two dimensions that proteins are separated into using this technique can be isoelectric point, protein complex mass in the native state, and protein mass.
+To separate the proteins by isoelectric point is called isoelectric focusing (IEF). Thereby, a gradient of pH is applied to a gel and an electric potential is applied across the gel, making one end more positive than the other. At all pH values other than their isoelectric point, proteins will be charged. If they are positively charged, they will be pulled towards the more negative end of the gel and if they are negatively charged they will be pulled to the more positive end of the gel. The proteins applied in the first dimension will move along the gel and will accumulate at their isoelectric point; that is, the point at which the overall charge on the protein is 0 (a neutral charge).
+For the analysis of the functioning of proteins in a cell, the knowledge of their cooperation is essential. Most often proteins act together in complexes to be fully functional. The analysis of this sub organelle organisation of the cell requires techniques conserving the native state of the protein complexes. In native polyacrylamide gel electrophoresis (native PAGE), proteins remain in their native state and are separated in the electric field following their mass and the mass of their complexes respectively. To obtain a separation by size and not by net charge, as in IEF, an additional charge is transferred to the proteins by the use of Coomassie Brilliant Blue or lithium dodecyl sulfate. After completion of the first dimension the complexes are destroyed by applying the denaturing SDS-PAGE in the second dimension, where the proteins of which the complexes are composed of are separated by their mass.
+Before separating the proteins by mass, they are treated with sodium dodecyl sulfate (SDS) along with other reagents (SDS-PAGE in 1-D). This denatures the proteins (that is, it unfolds them into long, straight molecules) and binds a number of SDS molecules roughly proportional to the protein's length. Because a protein's length (when unfolded) is roughly proportional to its mass, this is equivalent to saying that it attaches a number of SDS molecules roughly proportional to the protein's mass. Since the SDS molecules are negatively charged, the result of this is that all of the proteins will have approximately the same mass-to-charge ratio as each other. In addition, proteins will not migrate when they have no charge (a result of the isoelectric focusing step) therefore the coating of the protein in SDS (negatively charged) allows migration of the proteins in the second dimension (SDS-PAGE, it is not compatible for use in the first dimension as it is charged and a nonionic or zwitterionic detergent needs to be used). In the second dimension, an electric potential is again applied, but at a 90 degree angle from the first field. The proteins will be attracted to the more positive side of the gel (because SDS is negatively charged) proportionally to their mass-to-charge ratio. As previously explained, this ratio will be nearly the same for all proteins. The proteins' progress will be slowed by frictional forces. The gel therefore acts like a molecular sieve when the current is applied, separating the proteins on the basis of their molecular weight with larger proteins being retained higher in the gel and smaller proteins being able to pass through the sieve and reach lower regions of the gel.
+
+
+== Detecting proteins ==
+The result of this is a gel with proteins spread out on its surface. These proteins can then be detected by a variety of means, but the most commonly used stains are silver and Coomassie Brilliant Blue staining. In the former case, a silver colloid is applied to the gel. The silver binds to cysteine groups within the protein. The silver is darkened by exposure to ultra-violet light. The amount of silver can be related to the darkness, and therefore the amount of protein at a given location on the gel. This measurement can only give approximate amounts, but is adequate for most purposes. Silver staining is 100x more sensitive than Coomassie Brilliant Blue with a 40-fold range of linearity.
+Molecules other than proteins can be separated by 2D electrophoresis. In supercoiling assays, coiled DNA is separated in the first dimension and denatured by a DNA intercalator (such as ethidium bromide or the less carcinogenic chloroquine) in the second. This is comparable to the combination of native PAGE /SDS-PAGE in protein separation.
+
+
+== Common techniques ==
+
+
+=== IPG-DALT ===
+A common technique is to use an Immobilized pH gradient (IPG) in the first dimension. This technique is referred to as IPG-DALT. The sample is first separated onto IPG gel (which is commercially available) then the gel is cut into slices for each sample which is then equilibrated in SDS-mercaptoethanol and applied to an SDS-PAGE gel for resolution in the second dimension. Typically IPG-DALT is not used for quantification of proteins due to the loss of low molecular weight components during the transfer to the SDS-PAGE gel.
+
+
+=== IEF SDS-PAGE ===
+See Isoelectric focusing
+
+
+== 2D gel analysis software ==
+
+In quantitative proteomics, these tools primarily analyze bio-markers by quantifying individual proteins, and showing the separation between one or more protein "spots" on a scanned image of a 2-DE gel. Additionally, these tools match spots between gels of similar samples to show, for example, proteomic differences between early and advanced stages of an illness. Software packages include BioNumerics 2D, Delta2D, ImageMaster, Melanie, PDQuest, Progenesis and REDFIN - among others. While this technology is widely utilized, the intelligence has not been perfected. For example, while PDQuest and Progenesis tend to agree on the quantification and analysis of well-defined well-separated protein spots, they deliver different results and analysis tendencies with less-defined less-separated spots.
+Challenges for automatic software-based analysis include:
+incompletely separated (overlapping) spots (less-defined and/or separated)
+weak spots / noise (e.g., "ghost spots")
+running differences between gels (e.g., protein migrates to different positions on different gels)
+unmatched/undetected spots, leading to missing values
+mismatched spots
+errors in quantification (several distinct spots may be erroneously detected as a single spot by the software and/or parts of a spot may be excluded from quantification)
+differences in software algorithms and therefore analysis tendencies
+Generated picking lists can be used for the automated in-gel digestion of protein spots, and subsequent identification of the proteins by mass spectrometry.
+For an overview of the current approach for software analysis of 2DE gel images see or.
+
+
+== See also ==
+Difference gel electrophoresis
+QPNC-PAGE
+PROTOMAP
+
+
+== External links ==
+A 2-D electrophoresis tutorial on the web site of the Parasitology Group at Aberystwyth University
+JVirGel Create virtual 2-D Gels from sequence data.
+fixingproteomics.org Protocols for preparing samples and running 2-D Gels.
+Gel IQ A freely downloadable software tool for assessing the quality of 2D gel image analysis data.
+2-D Electrophoresis Principles & Methods Handbook
+
+
+== References ==

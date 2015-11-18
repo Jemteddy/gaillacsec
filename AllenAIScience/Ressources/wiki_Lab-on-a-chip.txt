@@ -1,0 +1,86 @@
+A lab-on-a-chip (LOC) is a device that integrates one or several laboratory functions on a single chip of only millimeters to a few square centimeters to achieve automation and high-throughput screening. LOCs deal with the handling of extremely small fluid volumes down to less than pico liters. Lab-on-a-chip devices are a subset of Micro-electro-mechanical systems (MEMS) devices and often indicated by "Micro Total Analysis Systems" (µTAS) as well. LOC is closely related to, and overlaps with, microfluidics which describes primarily the physics, the manipulation and study of minute amounts of fluids. However, strictly regarded "Lab-on-a-Chip" indicates generally the scaling of single or multiple lab processes down to chip-format, whereas "µTAS" is dedicated to the integration of the total sequence of lab processes to perform chemical analysis. The term "Lab-on-a-Chip" was introduced later on when it turned out that µTAS technologies were more widely applicable than only for analysis purposes.
+
+
+== History ==
+
+After the invention of microtechnology (~1954) for realizing integrated semiconductor structures for microelectronic chips, these lithography-based technologies were soon applied in pressure sensor manufacturing (1966) as well. Due to further development of these usually CMOS-compatibility limited processes, a tool box became available to create micrometre or sub-micrometre sized mechanical structures in silicon wafers as well: the Micro Electro Mechanical Systems (MEMS) era (also indicated with Micro System Technology - MST) had started.
+Next to pressure sensors, airbag sensors and other mechanically movable structures, fluid handling devices were developed. Examples are: channels (capillary connections), mixers, valves, pumps and dosing devices. The first LOC analysis system was a gas chromatograph, developed in 1979 by S.C. Terry - Stanford University. However, only at the end of the 1980s, and beginning of the 1990s, the LOC research started to seriously grow as a few research groups in Europe developed micropumps, flowsensors and the concepts for integrated fluid treatments for analysis systems. These µTAS concepts demonstrated that integration of pre-treatment steps, usually done at lab-scale, could extend the simple sensor functionality towards a complete laboratory analysis, including additional cleaning and separation steps.
+A big boost in research and commercial interest came in the mid 1990s, when µTAS technologies turned out to provide interesting tooling for genomics applications, like capillary electrophoresis and DNA microarrays. A big boost in research support also came from the military, especially from DARPA (Defense Advanced Research Projects Agency), for their interest in portable bio/chemical warfare agent detection systems. The added value was not only limited to integration of lab processes for analysis but also the characteristic possibilities of individual components and the application to other, non-analysis, lab processes. Hence the term "Lab-on-a-Chip" was introduced.
+Although the application of LOCs is still novel and modest, a growing interest of companies and applied research groups is observed in different fields such as analysis (e.g. chemical analysis, environmental monitoring, medical diagnostics and cellomics) but also in synthetic chemistry (e.g. rapid screening and microreactors for pharmaceutics). Besides further application developments, research in LOC systems is expected to extend towards downscaling of fluid handling structures as well, by using nanotechnology. Sub-micrometre and nano-sized channels, DNA labyrinths, single cell detection and analysis, and nano-sensors, might become feasible, allowing new ways of interaction with biological species and large molecules. Many books have been written that cover various aspects of these devices, including the fluid transport, system properties, sensing techniques, and bioanalytical applications.
+
+
+== Chip materials and fabrication technologies ==
+The basis for most LOC fabrication processes is photolithography. Initially most processes were in silicon, as these well-developed technologies were directly derived from semiconductor fabrication. Because of demands for e.g. specific optical characteristics, bio- or chemical compatibility, lower production costs and faster prototyping, new processes have been developed such as glass, ceramics and metal etching, deposition and bonding, polydimethylsiloxane (PDMS) processing (e.g., soft lithography), thick-film- and stereolithography as well as fast replication methods via electroplating, injection molding and embossing. The demand for cheap and easy LOC fabrication resulted in an alternative methodology for creating PDMS microfluidic devices: ESCARGOT (Embedded SCAffold RemovinG Open Technology). This technique uses dissolvable scaffold (made by e.g. 3D printing) for the creation of microfluidic channels in a single block of PDMS. Furthermore, the LOC field more and more exceeds the borders between lithography-based microsystem technology, nanotechnology and precision engineering.
+
+
+== Advantages of LOCs ==
+LOCs may provide advantages, which are specific to their application. Typical advantages are:
+low fluid volumes consumption (less waste, lower reagents costs and less required sample volumes for diagnostics)
+faster analysis and response times due to short diffusion distances, fast heating, high surface to volume ratios, small heat capacities.
+better process control because of a faster response of the system (e.g. thermal control for exothermic chemical reactions)
+compactness of the systems due to integration of much functionality and small volumes
+massive parallelization due to compactness, which allows high-throughput analysis
+lower fabrication costs, allowing cost-effective disposable chips, fabricated in mass production
+part quality may be verified automatically
+safer platform for chemical, radioactive or biological studies because of integration of functionality, smaller fluid volumes and stored energies
+
+
+== Disadvantages of LOCs ==
+Some of the disadvantages of LOCs are:
+novel technology and therefore not yet fully developed
+physical and chemical effects—like capillary forces, surface roughness, chemical interactions of construction materials on reaction processes—become more dominant on small-scale. This can sometimes make processes in LOCs more complex than in conventional lab equipment
+detection principles may not always scale down in a positive way, leading to low signal-to-noise ratios
+although the absolute geometric accuracies and precision in microfabrication are high, they are often rather poor in a relative way, compared to precision engineering for instance.
+
+
+== LOCs and global health ==
+Lab-on-a-chip technology may soon become an important part of efforts to improve global health, particularly through the development of point-of-care testing devices. In countries with few healthcare resources, infectious diseases that would be treatable in a developed nation are often deadly. In some cases, poor healthcare clinics have the drugs to treat a certain illness but lack the diagnostic tools to identify patients who should receive the drugs. Many researchers believe that LOC technology may be the key to powerful new diagnostic instruments. The goal of these researchers is to create microfluidic chips that will allow healthcare providers in poorly equipped clinics to perform diagnostic tests such as immunoassays and nucleic acid assays with no laboratory support.
+
+
+=== Global challenges ===
+For the chips to be used in areas with limited resources, many challenges must be overcome. In developed nations, the most highly valued traits for diagnostic tools include speed, sensitivity, and specificity; but in countries where the healthcare infrastructure is less well developed, attributes such as ease of use and shelf life must also be considered. The reagents that come with the chip, for example, must be designed so that they remain effective for months even if the chip is not kept in a climate-controlled environment. Chip designers must also keep cost, scalability, and recyclability in mind as they choose what materials and fabrication techniques to use.
+
+
+=== Examples of global LOC application ===
+One active area of LOC research involves ways to diagnose and manage HIV infections. Around 40 million people are infected with HIV in the world today, yet only 1.3 million of these people receive anti-retroviral treatment. Around 90% of people with HIV have never been tested for the disease. Measuring the number of CD4+ T lymphocytes in a person’s blood is an accurate way to determine if a person has HIV and to track the progress of an HIV infection. At the moment, flow cytometry is the gold standard for obtaining CD4 counts, but flow cytometry is a complicated technique that is not available in most developing areas because it requires trained technicians and expensive equipment. Recently such a cytometer was developed for just $5. Another active area of LOC research is for controlled separation and mixing. In such devices it is possible to quickly diagnose and potentially treat diseases. As mentioned above, a big motivation for development of these is that they can potentially be manufactured at very low cost.
+
+
+== LOCs and plant sciences ==
+Lab-on-a-chip devices could be used to characterize pollen tube guidance in Arabidopsis thaliana. Specifically, plant on a chip is a miniaturized device in which pollen tissues and ovules could be incubated for plant sciences studies.
+
+
+== See also ==
+
+Microfluidics
+List of microfluidics research groups
+Real-time PCR: detection of bacteria, viruses and cancers.
+Biochemical assays
+Immunoassay: detect bacteria, viruses and cancers based on antigen-antibody reactions.
+Dielectrophoresis: detection of cancer cells and bacteria.
+Ion channel screening (patch clamp)
+Testing the safety and efficacy of new drugs, as with lung on a chip
+Characterizing pollen tube guidance with plant on a chip
+Total analysis system
+
+
+== References ==
+
+
+== Further reading ==
+
+
+=== Journals ===
+"Lab on a Chip"
+"Journal of Microelectromechanical Systems"
+"Journal of Micromechanics and Microengineering"
+"Biomicrofluidics"
+"Microfluidics and Nanofluidics"
+"Biomedical Microdevices"
+
+
+=== Books ===
+Geschke, Klank & Telleman, eds.: Microsystem Engineering of Lab-on-a-chip Devices, 1st ed, John Wiley & Sons. ISBN 3-527-30733-8.
+Herold, KE; Rasooly, A (eds) (2009). Lab-on-a-Chip Technology: Fabrication and Microfluidics. Caister Academic Press. ISBN 978-1-904455-46-2. 
+Herold, KE; Rasooly, A (eds) (2009). Lab-on-a-Chip Technology: Biomolecular Separation and Analysis. Caister Academic Press. ISBN 978-1-904455-47-9. 
+Yehya H. Ghallab, Wael Badawy (2010). Lab-on-a-chip: Techniques, Circuits, and Biomedical Applications. Artech House. p. 220. ISBN 978-1-59693-418-4. 
+(2012) Gareth Jenkins & Colin D Mansfield (eds): Methods in Molecular Biology - Microfluidic Diagnostics, Humana Press, ISBN 978-1-62703-133-2

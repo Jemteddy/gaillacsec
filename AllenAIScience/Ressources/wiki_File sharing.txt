@@ -1,0 +1,84 @@
+File sharing is the practice of distributing or providing access to digital media, such as computer programs, multimedia (audio, images and video), documents or electronic books. File sharing may be achieved in a number of ways. Common methods of storage, transmission and dispersion include manual sharing utilizing removable media, centralized servers on computer networks, World Wide Web-based hyperlinked documents, and the use of distributed peer-to-peer networking.
+
+
+== Types ==
+
+
+=== Peer-to-peer file sharing ===
+Peer-to-peer file sharing is based on the peer-to-peer (P2P) application architecture. shared files on the computers of other users are indexed on directory servers. P2P technology was used by popular services like Napster, Spotify, and Infinit. The most popular protocol for P2P sharing is BitTorrent.
+
+
+=== File sync and sharing services ===
+Cloud-based file syncing and sharing services implement automated file transfers by updating files from a dedicated sharing directory on each user's networked devices. Files placed in this folder also are typically accessible through a website and mobile app, and can be easily shared with other users for viewing or collaboration. Such services have become popular via consumer products such as Dropbox and Google Drive.
+rsync is a more traditional program released in 1996 which synchronizes files on a direct machine-to-machine basis.
+Data synchronization in general can use other approaches to share files, such as distributed filesystems, version control, or mirrors.
+
+
+== History ==
+
+Files were first exchanged on removable media. Computers were able to access remote files using filesystem mounting, bulletin board systems (1978), Usenet (1979), and FTP servers (1985). Internet Relay Chat (1988) and Hotline (1997) enabled users to communicate remotely through chat and to exchange files. The mp3 encoding, which was standardized in 1991 and which substantially reduced the size of audio files, grew to widespread use in the late 1990s. In 1998, MP3.com and Audiogalaxy were established, the Digital Millennium Copyright Act was unanimously passed, and the first mp3 player devices were launched.
+In June 1999, Napster was released as an unstructured centralized peer-to-peer system, requiring a central server for indexing and peer discovery. It is generally credited as being the first peer-to-peer file sharing system.
+Gnutella, eDonkey2000, and Freenet were released in 2000, as MP3.com and Napster were facing litigation. Gnutella, released in March, was the first decentralized file sharing network. In the gnutella network, all connecting software was considered equal, and therefore the network had no central point of failure. In July, Freenet was released and became the first anonymity network. In September the eDonkey2000 client and server software was released.
+In 2001, Kazaa and Poisoned for the Mac was released. Its FastTrack network was distributed, though unlike gnutella, it assigned more traffic to 'supernodes' to increase routing efficiency. The network was proprietary and encrypted, and the Kazaa team made substantial efforts to keep other clients such as Morpheus off of the FastTrack network.
+In July 2001, Napster was sued by several recording companies and lost in A&M Records, Inc. v. Napster, Inc.. In the case of Napster, it has been ruled that an online service provider could not use the "transitory network transmission" safe harbor in the DMCA if they had control of the network with a server.
+Shortly after its loss in court, Napster was shut down to comply with a court order. This drove users to other P2P applications and file sharing continued its growth. The Audiogalaxy Satellite client grew in popularity, and the LimeWire client and BitTorrent protocol were released. Until its decline in 2004, Kazaa was the most popular file sharing program despite bundled malware and legal battles in the Netherlands, Australia, and the United States. In 2002, a Tokyo district court ruling shut down File Rogue, and the Recording Industry Association of America (RIAA) filed a lawsuit that effectively shut down Audiogalaxy.
+
+From 2002 through 2003, a number of BitTorrent services were established, including Suprnova.org, isoHunt, TorrentSpy, and The Pirate Bay. In 2002, the RIAA was filing lawsuits against Kazaa users. As a result of such lawsuits, many universities added file sharing regulations in their school administrative codes (though some students managed to circumvent them during after school hours). With the shutdown of eDonkey in 2005, eMule became the dominant client of the eDonkey network. In 2006, police raids took down the Razorback2 eDonkey server and temporarily took down The Pirate Bay.
+In 2009, the Pirate Bay trial ended in a guilty verdict for the primary founders of the tracker. The decision was appealed, leading to a second guilty verdict in November 2010. In October 2010, Limewire was forced to shut down following a court order in Arista Records LLC v. Lime Group LLC but the gnutella network remains active through open source clients like Frostwire and gtk-gnutella. Furthermore, multi-protocol file sharing software such as MLDonkey and Shareaza adapted in order to support all the major file sharing protocols, so users no longer had to install and configure multiple file sharing programs.
+On January 19, 2012, the United States Department of Justice shut down the popular domain of Megaupload (established 2005). The file sharing site has claimed to have over 50,000,000 people a day. Kim Dotcom (formerly Kim Schmitz) was arrested in New Zealand and is awaiting extradition. The case involving the downfall of the world's largest and most popular file sharing site was not well received, with hacker group Anonymous bringing down several sites associated with the take-down. In the following days, other file sharing sites began to cease services; Filesonic blocked public downloads on January 22, with Fileserve following suit on January 23.
+
+
+== Public opinion of file sharing ==
+In 2004 there were an estimated 70 million people participating in online file sharing. According to a CBS News poll in 2009, 58% of Americans who follow the file sharing issue, considered it acceptable "if a person owns the music CD and shares it with a limited number of friends and acquaintances"; with 18- to 29-year-olds this percentage reached as much as 70%.
+
+
+== Economic impact ==
+According to David Glenn, writing in The Chronicle of Higher Education, "A majority of economic studies have concluded that file sharing hurts sales". A literature review by Professor Peter Tschmuck found 22 independent studies on the effects of music file sharing. "Of these 22 studies, 14 – roughly two-thirds – conclude that unauthorized downloads have a 'negative or even highly negative impact' on recorded music sales. Three of the studies found no significant impact while the remaining five found a positive impact."
+A study by economists Felix Oberholzer-Gee and Koleman Strumpf in 2004 concluded that music file sharing's effect on sales was "statistically indistinguishable from zero". This research was disputed by other economists, most notably Stan Liebowitz, who said Oberholzer-Gee and Strumpf had made multiple assumptions about the music industry "that are just not correct." In June 2010, Billboard reported that Oberholzer-Gee and Strumpf had "changed their minds", now finding "no more than 20% of the recent decline in sales is due to sharing". However, citing Nielsen SoundScan as their source, the co-authors maintained that illegal downloading had not deterred people from being original. "In many creative industries, monetary incentives play a reduced role in motivating authors to remain creative. Data on the supply of new works are consistent with the argument that file sharing did not discourage authors and publishers. Since the advent of file sharing, the production of music, books, and movies has increased sharply." Glenn Peoples of Billboard disputed the underlying data, saying "SoundScan's number for new releases in any given year represents new commercial titles, not necessarily new creative works." The RIAA likewise responded that "new releases" and "new creative works" are two separate things. "[T]his figure includes re-releases, new compilations of existing songs, and new digital-only versions of catalog albums. SoundScan has also steadily increased the number of retailers (especially non-traditional retailers) in their sample over the years, better capturing the number of new releases brought to market. What Oberholzer and Strumpf found was better ability to track new album releases, not greater incentive to create them."
+A 2006 study prepared by Birgitte Andersen and Marion Frenz, published by Industry Canada, was "unable to discover any direct relationship between P2P file-sharing and CD purchases in Canada". The results of this survey were similarly criticized by academics and a subsequent revaluation of the same data by Dr. George R. Barker of the Australian National University reached the opposite conclusion. "In total, 75% of P2P downloaders responded that if P2P were not available they would have purchased either through paid sites only (9%), CDs only (17%) or through CDs and pay sites (49%). Only 25% of people say they would not have bought the music if it were not available on P2P for free." Barker thus concludes; "This clearly suggests P2P network availability is reducing music demand of 75% of music downloaders which is quite contrary to Andersen and Frenz's much published claim."
+
+
+=== Market dominance ===
+A paper in journal Management Science found that file sharing decreased the chance of survival for low ranked albums on music charts and increased exposure to albums that were ranked high on the music charts, allowing popular and well known artists to remain on the music charts more often. This had a negative impact for new and less known artists while promoting the work of already popular artists and celebrities.
+A more recent study that examined pre-release file sharing of music albums, using BitTorrent software, also discovered positive impacts for "established and popular artists but not newer and smaller artists." According to Robert G. Hammond of North Carolina State University, an album that leaked one month early would see a modest increase in sales. "This increase in sales is small relative to other factors that have been found to affect album sales."
+
+"File-sharing proponents commonly argue that file sharing democratizes music consumption by 'leveling the playing field' for new/small artists relative to established/popular artists, by allowing artists to have their work heard by a wider audience, lessening the advantage held by established/popular artists in terms of promotional and other support. My results suggest that the opposite is happening, which is consistent with evidence on file-sharing behavior."
+
+Billboard cautioned that this research looked only at the pre-release period and not continuous file sharing following a release date. "The problem in believing piracy helps sales is deciding where to draw the line between legal and illegal ... Implicit in the study is the fact that both buyers and sellers are required in order for pre-release file sharing to have a positive impact on album sales. Without iTunes, Amazon and Best Buy, file-sharers would be just file sharers rather than purchasers. If you carry out the 'file sharing should be legal' argument to its logical conclusion, today's retailers will be tomorrow's file-sharing services that integrate with their respective cloud storage services."
+
+
+=== Availability ===
+Many argue that file-sharing has forced the owners of entertainment content to make it more widely available legally through fee or advertising on demand on the internet. Netflix traffic has recently come to surpass that of Bittorrent.
+
+
+== Copyright issues ==
+
+File sharing raises copyright issues and has led to many lawsuits. In the United States, some of these lawsuits have even reached the Supreme Court. For example, in MGM v. Grokster, the Supreme Court ruled that the creators of P2P networks can be held liable if their software is marketed as a tool for copyright infringement.
+On the other hand, not all file sharing is illegal. Content in the public domain can be freely shared. Even works covered by copyright can be shared under certain circumstances. For example, some artists, publishers, and record labels grant the public a license for unlimited distribution of certain works, sometimes with conditions, and they advocate free content and file sharing as a promotional tool.
+
+
+== See also ==
+
+Graduated response
+Comparison of file sharing applications
+Open Music Model
+File sharing news sites
+Privacy in file sharing networks
+Torrent poisoning
+Trade group efforts against file sharing
+Warez
+File hosting service
+Missionary Church of Kopimism
+
+
+== References ==
+
+
+== Further reading ==
+Levine, Robert. Free Ride: How the Internet Is Destroying the Culture Business and How the Culture Business Can Fight Back, Bodley Head, February 2011.
+Ghosemajumder, Shuman. Advanced Peer-Based Technology Business Models. MIT Sloan School of Management, 2002
+Silverthorne, Sean. Music Downloads: Pirates- or Customers?. Harvard Business School Working Knowledge, 2004.
+Ralf Steinmetz, Klaus Wehrle (Eds). Peer-to-Peer Systems and Applications. ISBN 3-540-29192-X, Lecture Notes in Computer Science, Volume 3485, September 2005
+Stephanos Androutsellis-Theotokis and Diomidis Spinellis. A survey of peer-to-peer content distribution technologies. ACM Computing Surveys, 36(4):335–371, December 2004. doi:10.1145/1041680.1041681.
+Stefan Saroiu, P. Krishna Gummadi, and Steven D. Gribble. A Measurement Study of Peer-to-Peer File Sharing Systems. Technical Report # UW-CSE-01-06-02. Department of Computer Science & Engineering. University of Washington. Seattle, WA, USA.
+Selected Papers — A collection of academic papers.

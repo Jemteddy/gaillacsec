@@ -1,0 +1,21 @@
+Polarization-division multiplexing (PDM) is a physical layer method for multiplexing signals carried on electromagnetic waves using the polarization of the electromagnetic waves to distinguish between the different orthogonal signals.
+
+
+== Radio ==
+Polarization techniques have long been used in radio transmission to reduce interference between channels, particularly at VHF frequencies and beyond.
+
+
+== Photonics ==
+Polarization-division multiplexing is typically used together with phase modulation or optical QAM, allowing transmission speeds of 100 Gbit/s or more over a single wavelength. Sets of PDM wavelength signals can then be carried over wavelength-division multiplexing infrastructure, potentially substantially expanding its capacity.
+The major problem with the practical use of PDM over fiber-optic transmission systems are the drifts in polarization state that occur continuously over time due to physical changes in the fibre environment. Over a long-distance system, these drifts accumulate progressively without limit, resulting in rapid and erratic rotation of the polarized light's Jones vector over the entire Poincaré sphere. Polarization mode dispersion, polarization-dependent loss. and cross-polarization modulation are other phenomena that can cause problems in PDM systems.
+For this reason, PDM is generally used in conjunction with advanced channel coding techniques, allowing the use of digital signal processing to decode the signal in a way that is resilient to polarization-related signal artifacts. Modulations used include PM-QPSK and PM-DQPSK.
+Companies working on commercial PDM technology include Alcatel-Lucent, Ciena, Cisco Systems, Huawei and Infinera.
+
+
+== See also ==
+Polarization scrambler
+Wavelength-division multiplexing
+Orbital angular momentum multiplexing
+
+
+== References ==

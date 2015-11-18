@@ -1,0 +1,11 @@
+This article describes the distribution function as used in physics. You may be looking for the related mathematical concepts of cumulative distribution function or probability density function.
+In molecular kinetic theory in physics, a particle's distribution function is a function of seven variables, , which gives the number of particles per unit volume in single-particle phase space. It is the number of particles per unit volume having approximately the velocity  near the place  and time . The usual normalization of the distribution function is
+
+Here, N is the total number of particles and n is the number density of particles - the number of particles per unit volume, or the density divided by the mass of individual particles.
+A distribution function may be specialised with respect to a particular set of dimensions. E.g. take the quantum mechanical six-dimensional phase space,  and multiply by the total space volume, to give the momentum distribution i.e. the number of particles in the momentum phase space having approximately the momentum .
+Particle distribution functions are often used in plasma physics to describe wave–particle interactions and velocity-space instabilities. Distribution functions are also used in fluid mechanics, statistical mechanics and nuclear physics.
+The basic distribution function uses the Boltzmann constant  and temperature  with the number density to modify the normal distribution:
+
+Related distribution functions may allow bulk fluid flow, in which case the velocity origin is shifted, so that the exponent's numerator is ;  is the bulk velocity of the fluid. Distribution functions may also feature non-isotropic temperatures, in which each term in the exponent is divided by a different temperature.
+Plasma theories such as magnetohydrodynamics may assume the particles to be in thermodynamic equilibrium. In this case, the distribution function is Maxwellian. This distribution function allows fluid flow and different temperatures in the directions parallel to, and perpendicular to, the local magnetic field. More complex distribution functions may also be used since plasmas are rarely in thermal equilibrium.
+The mathematical analog of a distribution is a measure; the time evolution of a measure on a phase space is the topic of study in dynamical systems.

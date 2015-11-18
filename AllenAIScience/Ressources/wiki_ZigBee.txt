@@ -1,0 +1,193 @@
+ZigBee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios.
+The technology defined by the ZigBee specification is intended to be simpler and less expensive than other wireless personal area networks (WPANs), such as Bluetooth or Wi-Fi. Applications include wireless light switches, electrical meters with in-home-displays, traffic management systems, and other consumer and industrial equipment that requires short-range low-rate wireless data transfer.
+Its low power consumption limits transmission distances to 10–100 meters line-of-sight, depending on power output and environmental characteristics. ZigBee devices can transmit data over long distances by passing data through a mesh network of intermediate devices to reach more distant ones. ZigBee is typically used in low data rate applications that require long battery life and secure networking (ZigBee networks are secured by 128 bit symmetric encryption keys.) ZigBee has a defined rate of 250 kbit/s, best suited for intermittent data transmissions from a sensor or input device.
+ZigBee was conceived in 1998, standardized in 2003, and revised in 2006. The name refers to the waggle dance of honey bees after their return to the beehive.
+
+
+== OverviewEdit ==
+ZigBee is a low-cost, low-power, wireless mesh network standard targeted at wide development of long battery life devices in wireless control and monitoring applications. Zigbee devices have low latency, which further reduces average current. ZigBee chips are typically integrated with radios and with microcontrollers that have between 60-256 KB flash memory. ZigBee operates in the industrial, scientific and medical (ISM) radio bands: 2.4 GHz in most jurisdictions worldwide; 784 MHz in China, 868 MHz in Europe and 915 MHz in the USA and Australia. Data rates vary from 20 kbit/s (868 MHz band) to 250 kbit/s (2.4 GHz band).
+The ZigBee network layer natively supports both star and tree networks, and generic mesh networking. Every network must have one coordinator device, tasked with its creation, the control of its parameters and basic maintenance. Within star networks, the coordinator must be the central node. Both trees and meshes allow the use of ZigBee routers to extend communication at the network level.
+ZigBee builds on the physical layer and media access control defined in IEEE standard 802.15.4 for low-rate WPANs. The specification includes four additional key components: network layer, application layer, ZigBee device objects (ZDOs) and manufacturer-defined application objects which allow for customization and favor total integration. ZDOs are responsible for a number of tasks, including keeping track of device roles, managing requests to join a network, as well as device discovery and security .
+ZigBee is one of the global standards of communication protocol formulated by the relevant task force under the IEEE 802.15 working group. The fourth in the series, WPAN Low Rate/ZigBee is the newest and provides specifications for devices that have low data rates, consume very low power and are thus characterized by long battery life. Other standards like Bluetooth and IrDA address high data rate applications such as voice, video and LAN communications.
+
+
+== HistoryEdit ==
+ZigBee-style self-organizing ad-hoc digital radio networks were conceived in the 1990s. The IEEE 802.15.4-2003 ZigBee specification was ratified on December 14, 2004. The ZigBee Alliance announced availability of Specification 1.0 on June 13, 2005, known as the ZigBee 2004 Specification.
+
+
+=== Cluster LibraryEdit ===
+In September 2006, the ZigBee 2006 Specification was announced, obsoleting the 2004 stack (2006 mainly replaces the Message/Key Value Pair structure used in 2004 with a "cluster library").
+The library is a set of standardised commands, organised under groups known as clusters with names such as Smart Energy, Home Automation, ZigBee Light Link.
+
+
+=== ZigBee PROEdit ===
+ZigBee PRO, also known as Zigbee 2007, the enhanced ZigBee Pro Specification, was posted on 30 October 2007, and was finalized that same year. ZigBee PRO is fully backward-compatible with ZigBee 2006 devices. A ZigBee 2007 device may join and operate on a ZigBee 2006 network and vice versa. Due to differences in routing options, ZigBee PRO devices must become non-routing ZigBee End-Devices (ZEDs) on a ZigBee 2006 network and ZigBee 2006 devices must become ZEDs on a ZigBee PRO network. The applications running on those devices work the same, regardless of the stack profile beneath them. The first ZigBee Application Profile, Home Automation, was announced November 2, 2007.
+
+
+== Use casesEdit ==
+ZigBee protocols are intended for embedded applications requiring low power consumption and tolerating low data rates. The resulting network will use very small amounts of power — individual devices must have a battery life of at least two years to pass ZigBee certification.
+Typical application areas include:
+Home Entertainment and Control — Home automation such as in QIVICON, smart lighting, advanced temperature control, safety and security, movies and music
+Wireless sensor networks — Starting with individual sensors like Telosb/Tmote and Iris from Memsic
+Industrial control
+Embedded sensing
+Medical data collection
+Smoke and intruder warning
+Building automation
+
+
+== Standard and profilesEdit ==
+The ZigBee Alliance is a group of companies that maintain and publish the ZigBee standard. The term ZigBee is a registered trademark of this group, not a single technical standard. The Alliance publishes application profiles that allow multiple OEM vendors to create interoperable products. The relationship between IEEE 802.15.4 and ZigBee is similar to that between IEEE 802.11 and the Wi-Fi Alliance.
+
+
+=== LicenseEdit ===
+For non-commercial purposes, the ZigBee specification is available free to the general public. An entry level membership in the ZigBee Alliance, called Adopter, provides access to the as-yet unpublished specifications and permission to create products for market using the specifications.
+The requirements for membership in the ZigBee Alliance cause problems for Free Software developers because the annual fee conflicts with the GNU General Public Licence. The requirement for the developer to join the ZigBee Alliance similarly conflicts with most other free software licenses.
+The ZigBee Alliance board has been asked to make their license compatible with GPL, but refused. The refusal came, even though Bluetooth had already changed their license to make it compatible with GPL.
+
+
+=== Application profilesEdit ===
+The current list of application profiles either published, or in development are:
+
+
+==== Released specificationsEdit ====
+ZigBee Home Automation 1.2
+Smart Energy 1.1b
+Telecommunication Services 1.0
+Health Care 1.0
+RF4CE – Remote Control 1.0
+RF4CE – Input Device 1.0
+Remote Control 2.0
+Light Link 1.0
+IP 1.0
+Building Automation 1.0
+Gateway 1.0
+Green Power 1.0 (Optional battery-less remote control feature of ZigBee 2012)
+Retail Services
+
+
+==== Specifications under developmentEdit ====
+ZigBee Smart Energy 2.0
+Smart Energy 1.2/1.3
+Light Link 1.1
+Home Automation 1.3
+The ZigBee Smart Energy V2.0 specifications define an IP-based protocol to monitor, control, inform and automate the delivery and use of energy and water. It is an enhancement of the ZigBee Smart Energy version 1 specifications, adding services for plug-in electric vehicle (PEV) charging, installation, configuration and firmware download, prepay services, user information and messaging, load control, demand response and common information and application profile interfaces for wired and wireless networks. It is being developed by partners including:
+HomeGrid Forum responsible for marketing and certifying ITU-T G.hn technology and products
+HomePlug Powerline Alliance
+International Society of Automotive Engineers SAE International
+IPSO Alliance
+SunSpec Alliance
+Wi-Fi Alliance.
+In 2009 the RF4CE (Radio Frequency for Consumer Electronics) Consortium and ZigBee Alliance agreed to jointly deliver a standard for radio frequency remote controls. ZigBee RF4CE is designed for a wide range of consumer electronics products, such as TVs and set-top boxes. It promises many advantages over existing remote control solutions, including richer communication and increased reliability, enhanced features and flexibility, interoperability, and no line-of-sight barrier. The ZigBee RF4CE specification lifts off some networking weight and does not support all the mesh features, which is traded for smaller memory configurations for lower cost devices, such as remote control of consumer electronics.
+With the introduction of the second ZigBee RF4CE application profile in 2012 and increased momentum in MSO market, the ZigBee RF4CE team provides an overview on current status of the standard, applications, and future of the technology.
+
+
+== Radio hardwareEdit ==
+The radio design used by ZigBee has been carefully optimized for low cost in large scale production. It has few analog stages and uses digital circuits wherever possible.
+Though the radios themselves are inexpensive, the ZigBee Qualification Process involves a full validation of the requirements of the physical layer. All radios derived from the same validated semiconductor mask set would enjoy the same RF characteristics. An uncertified physical layer that malfunctions could cripple the battery lifespan of other devices on a ZigBee network. ZigBee radios have very tight constraints on power and bandwidth. Thus, radios are tested with guidance given by Clause 6 of the 802.15.4-2006 Standard. Most vendors plan to integrate the radio and microcontroller onto a single chip getting smaller devices.
+This standard specifies operation in the unlicensed 2.4 GHz (worldwide), 915 MHz (Americas and Australia) and 868 MHz (Europe) ISM bands. Sixteen channels are allocated in the 2.4 GHz band, with each channel spaced 5 MHz apart, though using only 2 MHz of bandwidth. The radios use direct-sequence spread spectrum coding, which is managed by the digital stream into the modulator. Binary phase-shift keying (BPSK) is used in the 868 and 915 MHz bands, and offset quadrature phase-shift keying (OQPSK) that transmits two bits per symbol is used in the 2.4 GHz band.
+The raw, over-the-air data rate is 250 kbit/s per channel in the 2.4 GHz band, 40 kbit/s per channel in the 915 MHz band, and 20 kbit/s in the 868 MHz band. The actual data throughput will be less than the maximum specified bit rate due to the packet overhead and processing delays. For indoor applications at 2.4 GHz transmission distance may be 10–20 m, depending on the construction materials, the number of walls to be penetrated and the output power permitted in that geographical location. Outdoors with line-of-sight, range may be up to 1500 m depending on power output and environmental characteristics. The output power of the radios is generally 0-20 dBm (1-100 mW).
+
+
+== Example commercial SOCsEdit ==
+
+
+== Device types and operating modesEdit ==
+ZigBee devices are of three types:
+ZigBee Coordinator (ZC): The most capable device, the Coordinator forms the root of the network tree and might bridge to other networks. There is exactly one ZigBee Coordinator in each network since it is the device that started the network originally (the ZigBee LightLink specification also allows operation without a ZigBee Coordinator, making it more usable for over-the-shelf home products). It stores information about the network, including acting as the Trust Center & repository for security keys.
+ZigBee Router (ZR): As well as running an application function, a Router can act as an intermediate router, passing on data from other devices.
+ZigBee End Device (ZED): Contains just enough functionality to talk to the parent node (either the Coordinator or a Router); it cannot relay data from other devices. This relationship allows the node to be asleep a significant amount of the time thereby giving long battery life. A ZED requires the least amount of memory, and therefore can be less expensive to manufacture than a ZR or ZC.
+The current ZigBee protocols support beacon and non-beacon enabled networks. In non-beacon-enabled networks, an unslotted CSMA/CA channel access mechanism is used. In this type of network, ZigBee Routers typically have their receivers continuously active, requiring a more robust power supply. However, this allows for heterogeneous networks in which some devices receive continuously, while others only transmit when an external stimulus is detected. The typical example of a heterogeneous network is a wireless light switch: The ZigBee node at the lamp may receive constantly, since it is connected to the mains supply, while a battery-powered light switch would remain asleep until the switch is thrown. The switch then wakes up, sends a command to the lamp, receives an acknowledgment, and returns to sleep. In such a network the lamp node will be at least a ZigBee Router, if not the ZigBee Coordinator; the switch node is typically a ZigBee End Device.
+In beacon-enabled networks, the special network nodes called ZigBee Routers transmit periodic beacons to confirm their presence to other network nodes. Nodes may sleep between beacons, thus lowering their duty cycle and extending their battery life. Beacon intervals depend on data rate; they may range from 15.36 milliseconds to 251.65824 seconds at 250 kbit/s, from 24 milliseconds to 393.216 seconds at 40 kbit/s and from 48 milliseconds to 786.432 seconds at 20 kbit/s. However, low duty cycle operation with long beacon intervals requires precise timing, which can conflict with the need for low product cost.
+In general, the ZigBee protocols minimize the time the radio is on, so as to reduce power use. In beaconing networks, nodes only need to be active while a beacon is being transmitted. In non-beacon-enabled networks, power consumption is decidedly asymmetrical: Some devices are always active, while others spend most of their time sleeping.
+Except for the Smart Energy Profile 2.0, ZigBee devices are required to conform to the IEEE 802.15.4-2003 Low-Rate Wireless Personal Area Network (LR-WPAN) standard. The standard specifies the lower protocol layers—the physical layer (PHY), and the Media Access Control portion of the data link layer (DLL). The basic channel access mode is "carrier sense, multiple access/collision avoidance" (CSMA/CA). That is, the nodes talk in the same way that humans converse; they briefly check to see that no one is talking before they start, with three notable exceptions. Beacons are sent on a fixed timing schedule and do not use CSMA. Message acknowledgments also do not use CSMA. Finally, devices in beacon-enabled networks that have low latency real-time requirements may also use Guaranteed Time Slots (GTS), which by definition do not use CSMA.
+
+
+== SoftwareEdit ==
+The software is designed to be easy to develop on small, inexpensive microprocessors.
+
+
+=== Network layerEdit ===
+The main functions of the network layer are to enable the correct use of the MAC sublayer and provide a suitable interface for use by the next upper layer, namely the application layer. Its capabilities and structure are those typically associated to such network layers, including routing.
+On the one hand, the data entity creates and manages network layer data units from the payload of the application layer and performs routing according to the current topology. On the other hand, there is the layer control, which is used to handle configuration of new devices and establish new networks: it can determine whether a neighboring device belongs to the network and discovers new neighbors and routers. The control can also detect the presence of a receiver, which allows direct communication and MAC synchronization.
+The routing protocol used by the network layer is AODV. In order to find the destination device, it broadcasts out a route request to all of its neighbors. The neighbors then broadcast the request to their neighbors, etc. until the destination is reached. Once the destination is reached, it sends its route reply via unicast transmission following the lowest cost path back to the source. Once the source receives the reply, it will update its routing table for the destination address with the next hop in the path and the path cost.
+
+
+=== Application layerEdit ===
+The application layer is the highest-level layer defined by the specification, and is the effective interface of the ZigBee system to its end users. It comprises the majority of components added by the ZigBee specification: both ZDO and its management procedures, together with application objects defined by the manufacturer, are considered part of this layer.
+
+
+=== Main componentsEdit ===
+The ZDO (ZigBee Device Object), a protocol in the ZigBee protocol stack, is responsible for overall device management, security keys and policies. It is responsible for defining the role of a device as either coordinator or end device, as mentioned above, but also for the discovery of new (one-hop) devices on the network and the identification of their offered services. It may then go on to establish secure links with external devices and reply to binding requests accordingly.
+The application support sublayer (APS) is the other main standard component of the layer, and as such it offers a well-defined interface and control services. It works as a bridge between the network layer and the other components of the application layer: it keeps up-to-date binding tables in the form of a database, which can be used to find appropriate devices depending on the services that are needed and those the different devices offer. As the union between both specified layers, it also routes messages across the layers of the protocol stack.
+
+
+=== Communication modelsEdit ===
+
+An application may consist of communicating objects which cooperate to carry out the desired tasks. The focus of ZigBee is to distribute work among many different devices which reside within individual ZigBee nodes which in turn form a network (said work will typically be largely local to each device, for instance the control of each individual household appliance).
+The collection of objects that form the network communicate using the facilities provided by APS, supervised by ZDO interfaces. The application layer data service follows a typical request-confirm/indication-response structure. Within a single device, up to 240 application objects can exist, numbered in the range 1-240. 0 is reserved for the ZDO data interface and 255 for broadcast; the 241-254 range is not currently in use but may be in the future.
+Two services are available for application objects to use (in ZigBee 1.0):
+The key-value pair service (KVP) is meant for configuration purposes. It enables description, request and modification of object attributes through a simple interface based on get/set and event primitives, some allowing a request for response. Configuration uses compressed XML (full XML can be used) to provide an adaptable and elegant solution.
+The message service is designed to offer a general approach to information treatment, avoiding the necessity to adapt application protocols and potential overhead incurred on by KVP. It allows arbitrary payloads to be transmitted over APS frames.
+Addressing is also part of the application layer. A network node consists of an 802.15.4-conformant radio transceiver and one or more device descriptions (basically collections of attributes which can be polled or set, or which can be monitored through events). The transceiver is the base for addressing, and devices within a node are specified by an endpoint identifier in the range 1-240.
+
+
+=== Communication and device discoveryEdit ===
+In order for applications to communicate, their comprising devices must use a common application protocol (types of messages, formats and so on); these sets of conventions are grouped in profiles. Furthermore, binding is decided upon by matching input and output cluster identifiers, unique within the context of a given profile and associated to an incoming or outgoing data flow in a device. Binding tables contain source and destination pairs.
+Depending on the available information, device discovery may follow different methods. When the network address is known, the IEEE address can be requested using unicast communication. When it is not, petitions are broadcast (the IEEE address being part of the response payload). End devices will simply respond with the requested address, while a network coordinator or a router will also send the addresses of all the devices associated with it.
+This extended discovery protocol permits external devices to find out about devices in a network and the services that they offer, which endpoints can report when queried by the discovering device (which has previously obtained their addresses). Matching services can also be used.
+The use of cluster identifiers enforces the binding of complementary entities by means of the binding tables, which are maintained by ZigBee coordinators, as the table must be always available within a network and coordinators are most likely to have a permanent power supply. Backups, managed by higher-level layers, may be needed by some applications. Binding requires an established communication link; after it exists, whether to add a new node to the network is decided, according to the application and security policies.
+Communication can happen right after the association. Direct addressing uses both radio address and endpoint identifier, whereas indirect addressing uses every relevant field (address, endpoint, cluster and attribute) and requires that they be sent to the network coordinator, which maintains associations and translates requests for communication. Indirect addressing is particularly useful to keep some devices very simple and minimize their need for storage. Besides these two methods, broadcast to all endpoints in a device is available, and group addressing is used to communicate with groups of endpoints belonging to a set of devices.
+
+
+== Security servicesEdit ==
+As one of its defining features, ZigBee provides facilities for carrying out secure communications, protecting establishment and transport of cryptographic keys, cyphering frames and controlling devices. It builds on the basic security framework defined in IEEE 802.15.4. This part of the architecture relies on the correct management of symmetric keys and the correct implementation of methods and security policies.
+
+
+=== Basic security modelEdit ===
+The basic mechanism to ensure confidentiality is the adequate protection of all keying material. Trust must be assumed in the initial installation of the keys, as well as in the processing of security information. In order for an implementation to globally work, its general conformance to specified behaviors is assumed.
+Keys are the cornerstone of the security architecture; as such their protection is of paramount importance, and keys are never supposed to be transported through an insecure channel. A momentary exception to this rule occurs during the initial phase of the addition to the network of a previously unconfigured device. The ZigBee network model must take particular care of security considerations, as ad hoc networks may be physically accessible to external devices and the particular working environment cannot be foretold; likewise, different applications running concurrently and using the same transceiver to communicate are supposed to be mutually trustworthy: for cost reasons the model does not assume a firewall exists between application-level entities.
+Within the protocol stack, different network layers are not cryptographically separated, so access policies are needed and correct design assumed. The open trust model within a device allows for key sharing, which notably decreases potential cost. Nevertheless, the layer which creates a frame is responsible for its security. If malicious devices may exist, every network layer payload must be ciphered, so unauthorized traffic can be immediately cut off. The exception, again, is the transmission of the network key, which confers a unified security layer to the network, to a new connecting device.
+
+
+=== Security architectureEdit ===
+ZigBee uses 128-bit keys to implement its security mechanisms. A key can be associated either to a network, being usable by both ZigBee layers and the MAC sublayer, or to a link, acquired through pre-installation, agreement or transport. Establishment of link keys is based on a master key which controls link key correspondence. Ultimately, at least the initial master key must be obtained through a secure medium (transport or pre-installation), as the security of the whole network depends on it. Link and master keys are only visible to the application layer. Different services use different one-way variations of the link key in order to avoid leaks and security risks.
+Key distribution is one of the most important security functions of the network. A secure network will designate one special device which other devices trust for the distribution of security keys: the trust center. Ideally, devices will have the trust center address and initial master key preloaded; if a momentary vulnerability is allowed, it will be sent as described above. Typical applications without special security needs will use a network key provided by the trust center (through the initially insecure channel) to communicate.
+Thus, the trust center maintains both the network key and provides point-to-point security. Devices will only accept communications originating from a key provided by the trust center, except for the initial master key. The security architecture is distributed among the network layers as follows:
+The MAC sublayer is capable of single-hop reliable communications. As a rule, the security level it is to use is specified by the upper layers.
+The network layer manages routing, processing received messages and being capable of broadcasting requests. Outgoing frames will use the adequate link key according to the routing, if it is available; otherwise, the network key will be used to protect the payload from external devices.
+The application layer offers key establishment and transport services to both ZDO and applications. It is also responsible for the propagation across the network of changes in devices within it, which may originate in the devices themselves (for instance, a simple status change) or in the trust manager (which may inform the network that a certain device is to be eliminated from it). It also routes requests from devices to the trust center and network key renewals from the trust center to all devices. Besides this, the ZDO maintains the security policies of the device.
+The security levels infrastructure is based on CCM*, which adds encryption- and integrity-only features to CCM.
+
+
+== Simulation of ZigBee networksEdit ==
+Network simulators, like NS2, OPNET, and NetSim can be used to simulate IEEE 802.15.4 ZigBee networks.
+These simulators come with open source C or C++ libraries for users to modify. This way users can determine the validity of new algorithms prior to hardware implementation.
+
+
+== See alsoEdit ==
+Bluetooth
+DASH7
+6LoWPAN
+INSTEON – dual-mesh (RF and Powerline) technology from INSTEON
+Z-Wave – RF mesh technology
+EnOcean
+Comparison of 802.15.4 radio modules
+Comparison of wireless data standards
+Thread (network protocol)
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Official website
+Official websites for Smart Energy Documents (V2.0), Alliance Documents
+"ZigBee RF4CE: A Quiet Revolution is Underway" (PDF). December 2012. 
+
+What does ZigBee Pro mean for your application? by Jack Shandle, 11/27/2007
+The ZigBee PRO Feature Set: More of a good thing by Bob Gohn, 12/18/2007
+ZBOSS ZigBee Open Source Stack, (Certified by Zigbee Alliance)
+ZigBee for M2M Technology Find out how zigbee can be used for M2M communications
+FreakZ open source Zigbee project, Project homepage, and Zigbee/802.15.4 chip comparison
+ZigBee wants to be the Bluetooth of the internet of things. Too bad everyone hates it.

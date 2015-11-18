@@ -1,0 +1,27 @@
+SPICE is a NASA ancillary information system used to compute geometric information used in planning and analyzing science observations obtained from robotic spacecraft. It is also used in planning missions and conducting numerous engineering functions needed to carry out those missions.
+SPICE was developed at NASA's Navigation and Ancillary Information Facility (NAIF), located at the Jet Propulsion Laboratory. It has become the de facto standard for handling much of the so-called observation geometry information on NASA's planetary missions, and it is now widely used in support of science data analysis on planetary missions of other space agencies as well. Some SPICE capabilities are used on a variety of astrophysics and solar physics missions.
+SPICE consists of both data and software.
+
+
+== Data ==
+SPICE data files are usually referred to as "kernels." These files provide information such as spacecraft trajectory and orientation; target body ephemeris, size and shape; instrument field-of-view size, shape and orientation; specifications for reference frames; and tabulations of time system conversion coefficients.
+SPICE data are archived in a national archive center such as the NASA Planetary Data System archives.
+
+
+== Software ==
+The SPICE system includes software referred to as The SPICE Toolkit, used for reading the SPICE data files and computing geometric parameters based on data from those files. These tools are provided as subroutine libraries in four programming languages: C, FORTRAN, IDL, and MATLAB. The Toolkits also include a number of utility and application programs. The SPICE Toolkits are available for most popular computing platforms, operating systems and compilers. Extensive documentation accompanies each Toolkit.
+
+
+== Tutorials and Programming Lessons ==
+A set of tutorials is available to help users understand the SPICE data and software. Some "open book" programming lessons useful in learning how to program using Toolkit subroutines are also available.
+
+
+== Availability ==
+The SPICE data, Toolkit software, tutorials and programming lessons are all freely available from the NAIF website. Prospective users are cautioned that it takes some effort to learn to use this software: it is targeted for professionals in the space exploration business.
+
+
+== Weblinks ==
+SPICE Website
+
+
+== References ==

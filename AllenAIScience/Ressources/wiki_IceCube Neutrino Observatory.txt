@@ -1,0 +1,80 @@
+The IceCube Neutrino Observatory (or simply IceCube) is a neutrino telescope constructed at the Amundsen–Scott South Pole Station in Antarctica. Its thousands of sensors are distributed over a cubic kilometre of volume under the Antarctic ice. Similar to its predecessor, the Antarctic Muon And Neutrino Detector Array (AMANDA), IceCube consists of spherical optical sensors called Digital Optical Modules (DOMs), each with a photomultiplier tube (PMT) and a single board data acquisition computer which sends digital data to the counting house on the surface above the array. IceCube was completed on 18 December 2010.
+DOMs are deployed on "strings" of sixty modules each at depths ranging from 1,450 to 2,450 meters, into holes melted in the ice using a hot water drill. IceCube is designed to look for point sources of neutrinos in the TeV range to explore the highest-energy astrophysical processes.
+In November 2013 it was announced that IceCube had detected 28 neutrinos that likely originated outside of the Solar System.
+
+
+== Construction ==
+The IceCube project is part of the University of Wisconsin–Madison projects developed and supervised by the same institution, while collaboration and funding is provided by numerous other universities and research institutions worldwide. Construction of IceCube was only possible during the Antarctic austral summer from November to February, when permanent sunlight allows for 24-hour drilling. Construction began in 2005, when the first IceCube string was deployed and collected enough data to verify that the optical sensors worked correctly. In the 2005–2006 season, an additional eight strings were deployed, making IceCube the largest neutrino telescope in the world.
+
+Construction was completed on 17 December 2010. The construction cost was several hundred million dollars.
+
+
+== Sub-detectors ==
+
+The IceCube Neutrino Observatory is made up of several sub-detectors in addition to the main in-ice array.
+AMANDA, the Antarctic Muon And Neutrino Detector Array, was the first part built, and it served as a proof-of-concept for IceCube. AMANDA was turned off in May 2009.
+The IceTop array is a series of Cherenkov detectors on the surface of the glacier, with two detectors approximately above each IceCube string. IceTop is used as a cosmic ray shower detector, for cosmic ray composition studies and coincident event tests: if a muon is observed going through IceTop, it cannot be from a neutrino interacting in the ice.
+The Deep Core Low-Energy Extension is a densely instrumented region of the IceCube array which extends the observable energies below 100 GeV. The Deep Core strings are deployed at the center (in the surface plane) of the larger array, deep in the clearest ice at the bottom of the array (between 1760 and 2450 m deep). There are no Deep Core DOMs between 1850 m and 2107 m depth, as the ice is not as clear in those layers.
+PINGU (Precision IceCube Next Generation Upgrade) is a proposed extension that will allow detection of low energy neutrinos (GeV energy scale), with uses including determining the neutrino mass hierarchy, precision measurement of atmospheric neutrino oscillation (both tau neutrino appearance and muon neutrino disappearance disappearance), and searching for WIMP annihilation in the Sun. A vision has been presented for a larger observatory, IceCube-Gen2.
+
+
+== Experimental mechanism ==
+Neutrinos are electrically neutral leptons, and interact very rarely with matter. When they do react with the molecules of water in the ice, they can create charged leptons (electrons, muons, or taus). These charged leptons can, if they are energetic enough, emit Cherenkov radiation. This happens when the charged particle travels through the ice faster than the speed of light in the ice, similar to the bow shock of a boat traveling faster than the waves it crosses. This light can then be detected by photomultiplier tubes within the digital optical modules making up IceCube.
+The signals from the PMTs are digitized and then sent to the surface of the glacier on a cable. These signals are collected in a surface counting house, and some of them are sent north via satellite for further analysis. More of the data is kept on tape and sent north once a year via ship. Once the data reach experimenters, they can reconstruct kinematical parameters of the incoming neutrino. High-energy neutrinos may leave a large signal in the detector, pointing back to their origin. Clusters of such neutrino directions indicate point sources of neutrinos.
+Each of the above steps requires a certain minimum energy, and thus IceCube is sensitive mostly to high energy neutrinos, in the range of 1011 to about 1021 eV. Estimates predict a neutrino event about every 20 minutes in the fully constructed IceCube detector.
+IceCube is more sensitive to muons than other charged leptons, because they are the most penetrating and thus have the longest tracks in the detector. Thus, of the neutrino flavors, IceCube is most sensitive to muon neutrinos. An electron resulting from an electron neutrino event typically scatters several times before losing enough energy to fall below the Cherenkov threshold; this means that electron neutrino events cannot typically be used to point back to sources, but they are more likely to be fully contained in the detector, and thus they can be useful for energy studies. These events are more spherical, or "cascade"-like, than "track"-like; muon neutrino events are more track-like.
+Taus can also create cascade events; but are short-lived and cannot travel very far before decaying, and are thus usually indistinguishable from electron cascades. A tau could be distinguished from an electron with a "double bang" event, where a cascade is seen both at the tau creation and decay. This is only possible with very high energy taus. Hypothetically, to resolve a tau track, the tau would need to travel at least from one DOM to an adjacent DOM (17 m) before decaying. As the average lifetime of a tau is 6987290000000000000♠2.9×10−13 s, a tau traveling at near the speed of light would require 20 TeV of energy for every meter traveled. Realistically, an experimenter would need more space than just one DOM to the next to distinguish two cascades, so double bang searches are centered at PeV scale energies. Such searches are under way but have not so far isolated a double bang event from background events.
+However, there is a large background of muons created not by neutrinos from astrophysical sources but by cosmic rays impacting the atmosphere above the detector. There are about 106 times more cosmic ray muons than neutrino-induced muons observed in IceCube. Most of these can be rejected using the fact that they are traveling downwards. Most of the remaining (up-going) events are from neutrinos, but most of these neutrinos are from cosmic rays hitting the far side of the Earth; some unknown fraction may come from astronomical sources, and these neutrinos are the key to IceCube point source searches. Estimates predict the detection of about 75 upgoing neutrinos per day in the fully constructed IceCube detector. The arrival directions of these astrophysical neutrinos are the points with which the IceCube telescope maps the sky. To distinguish these two types of neutrinos statistically, the direction and energy of the incoming neutrino is estimated from its collision by-products. Unexpected excesses in energy or excesses from a given spatial direction indicate an extraterrestrial source.
+
+
+== Experimental goals ==
+
+
+=== Point sources of high energy neutrinos ===
+A point source of neutrinos could help explain the mystery of the origin of the highest energy cosmic rays. These cosmic rays have energies high enough that they cannot be contained by galactic magnetic fields (their gyroradii are larger than the radius of the galaxy), so they are believed to come from extra-galactic sources. Astrophysical events which are cataclysmic enough to create such high energy particles would probably also create high energy neutrinos, which could travel to the Earth with very little deflection, because neutrinos interact so rarely. IceCube could observe these neutrinos: its observable energy range is about 100 GeV to several PeV. The more energetic an event is, the larger volume IceCube may detect it in; in this sense, IceCube is more similar to Cherenkov telescopes like the Pierre Auger Observatory (an array of Cherenkov detecting tanks) than it is to other neutrino experiments, such as Super-K (with inward-facing PMTs fixing the fiducial volume).
+IceCube is sensitive to point sources more in the northern hemisphere than the southern. It can observe astrophysical neutrino signals from any direction, but in the southern hemisphere these neutrinos are swamped by the downgoing cosmic-ray muon background. Thus, early IceCube point source searches focus on the northern hemisphere, and the extension to southern hemisphere point sources takes extra work.
+Although IceCube is expected to detect very few neutrinos (relative to the number of photons detected by more traditional telescopes), it should have very high resolution with the ones that it does find. Over several years of operation, it could produce a flux map of the northern hemisphere similar to existing maps like that of the cosmic microwave background, or gamma ray telescopes, which use particle terminology more like IceCube. Likewise, KM3NeT could complete the map for the southern hemisphere.
+IceCube scientists may have detected their first neutrinos on January 29, 2006.
+
+
+=== Gamma ray bursts coincident with neutrinos ===
+When protons collide with one another or with photons, the result is usually pions. Charged pions decay into muons and muon neutrinos whereas neutral pions decay into gamma rays. Potentially, the neutrino flux and the gamma ray flux may coincide in certain sources such as gamma ray bursts and supernova remnants, indicating the elusive nature of their origin. Data from IceCube is being used in conjunction with gamma-ray satellites like Swift or Fermi for this goal. IceCube has not observed any neutrinos in coincidence with gamma ray bursts, but is able to use this search to constrain neutrino flux to values less than those predicted by the current models.
+
+
+=== Indirect dark matter searches ===
+Weakly interacting massive particle (WIMP) dark matter could be gravitationally captured by massive objects like the Sun and accumulate in the core of the Sun. With a high enough density of these particles, they would annihilate with each other at a significant rate. The decay products of this annihilation could decay into neutrinos, which could be observed by IceCube as an excess of neutrinos from the direction of the Sun. This technique of looking for the decay products of WIMP annihilation is called indirect, as opposed to direct searches which look for dark matter interacting within a contained, instrumented volume. Solar WIMP searches are more sensitive to spin-dependent WIMP models than many direct searches, because the Sun is made of lighter elements than direct search detectors (e.g. xenon or germanium). IceCube has set better limits with the 22 string detector (about 1⁄4 of the full detector) than the AMANDA limits.
+
+
+=== Neutrino oscillations ===
+IceCube can observe neutrino oscillations from atmospheric cosmic ray showers, over a baseline across the Earth. It is most sensitive at ~25 GeV, the energy range Deep Core will be able to see. Deep Core will have the full 6 strings deployed by the end of the 2009–2010 austral summer. In 2014, DeepCore data was used to determine θ23. As more data is collected and IceCube can refine this measurement, it may be possible to observe a shift in the oscillation peak that determines the neutrino mass hierarchy. This mechanism for determining the mass hierarchy would only work if θ13 is sufficiently large (close to present limits).
+
+
+=== Galactic supernovae ===
+Despite the fact that individual neutrinos expected from supernovae have energies well below the IceCube energy cutoff, IceCube could detect a local supernova. It would appear as a detector-wide, brief, correlated rise in noise rates. The supernova would have to be relatively close (within our galaxy) to get enough neutrinos before the 1/r2 distance dependence took over. IceCube is a member of the Supernova Early Warning System (SNEWS).
+
+
+=== Sterile Neutrinos ===
+A signature of sterile neutrinos would be a distortion of the energy spectrum of atmospheric neutrinos around 1 TeV, for which IceCube is uniquely positioned to search. This signature would arise from matter effects as atmospheric neutrinos interact with the matter of the Earth.
+The described detection strategy, along with its South Pole position, could allow the detector to provide the first robust experimental evidence of extra dimensions predicted in string theory. Many extensions of the Standard Model of particle physics, including string theory, propose a sterile neutrino; in string theory this is made from a closed string. These could leak into extra dimensions before returning, making them appear to travel faster than the speed of light. An experiment to test this may be possible in the near future. Furthermore, if high energy neutrinos create microscopic black holes (as predicted by some aspects of string theory) it would create a shower of particles, resulting in an increase of "down" neutrinos while reducing "up" neutrinos.
+There is no group within the IceCube collaboration working on tachyons, travel through extra dimensions, or observations of microscopic black holes, although sterile neutrinos are being considered.
+
+
+== Results ==
+The IceCube collaboration has published flux limits for neutrinos from point sources, Gamma-ray bursts, and neutralino annihilation in the Sun, with implications for WIMP-proton cross sections.
+A shadowing effect from the Moon has been observed. Cosmic ray protons are blocked by the Moon, creating a deficit of cosmic ray shower muons in the direction of the Moon. A small (under 1%) but robust anisotropy has been observed in cosmic ray muons.
+A pair of high energy neutrinos were detected in 2013. possibly of astrophysical origin, they were in the peta-electron volt range, making them the highest energy neutrinos discovered to date. The pair were nicknamed "Bert" and "Ernie", after characters from the Sesame Street TV show. An even more energetic neutrino was discovered in 2013 and given the name "Big Bird".
+IceCube measured 10 to 100 GeV atmospheric muon neutrino disappearance in 2014, using 3 years of data taken May 2011 to April 2014 including DeepCore, determining neutrino oscillation parameters ∆m232 = 2.72+0.19−0.20 × 10−3eV2 and sin2(θ23) = 0.53+0.09−0.12 (normal mass hierarchy), comparable to other results.
+
+
+== See also ==
+Antarctic Muon And Neutrino Detector Array
+Radio Ice Cerenkov Experiment
+ANTARES and KM3NeT, similar neutrino telescopes using deep-sea water instead of ice.
+
+
+== References ==
+
+
+== External links ==
+Official website
+AMANDA at UCI

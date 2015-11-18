@@ -1,0 +1,49 @@
+In the seven-layer OSI model of computer networking, the network layer is layer 3. The network layer is responsible for packet forwarding including routing through intermediate routers, whereas the data link layer is responsible for media access control, flow control and error checking.
+
+
+== FunctionsEdit ==
+The network layer provides the functional and procedural means of transferring variable-length data sequences from a source to a destination host via one or more networks, while maintaining the quality of service functions.
+Functions of the network layer include:
+Connection model: connectionless communication
+For example, IP is connectionless, in that a datagram can travel from a sender to a recipient without the recipient having to send an acknowledgement. Connection-oriented protocols exist at other, higher layers of the OSI model.
+Host addressing
+Every host in the network must have a unique address that determines where it is. This address is normally assigned from a hierarchical system. For example, you can be "Fred Murphy" to people in your house, "Fred Murphy, 1 Main Street" to Dubliners, or "Fred Murphy, 1 Main Street, Dublin" to people in Ireland, or "Fred Murphy, 1 Main Street, Dublin, Ireland" to people anywhere in the world. On the Internet, addresses are known as Internet Protocol (IP) addresses.
+Message forwarding
+Since many networks are partitioned into subnetworks and connect to other networks for wide-area communications, networks use specialized hosts, called gateways or routers, to forward packets between networks. This is also of interest to mobile applications, where a user may move from one location to another, and it must be arranged that his messages follow him. Version 4 of the Internet Protocol (IPv4) was not designed with this feature in mind, although mobility extensions exist. IPv6 has a better designed solution.
+Within the service layering semantics of the OSI network architecture, the network layer responds to service requests from the transport layer and issues service requests to the data link layer.
+
+
+== ProtocolsEdit ==
+IPv4/IPv6, Internet Protocol
+DVMRP, Distance Vector Multicast Routing Protocol
+ICMP, Internet Control Message Protocol
+IGMP, Internet Group Management Protocol
+PIM-SM, Protocol Independent Multicast Sparse Mode
+PIM-DM, Protocol Independent Multicast Dense Mode
+IPsec, Internet Protocol Security
+IPX, Internetwork Packet Exchange
+RIP, Routing Information Protocol
+DDP, Datagram Delivery Protocol
+RSMLT Routed-SMLT
+Shortest Path Bridging
+
+
+== Relation to TCP/IP modelEdit ==
+The TCP/IP model describes the protocols used by the Internet. The TCP/IP model has a layer called the Internet layer, located above the link layer. In many textbooks and other secondary references, the TCP/IP Internet layer is equated with the OSI network layer. However, this comparison is misleading, as the allowed characteristics of protocols (e.g., whether they are connection-oriented or connection-less) placed into these layers are different in the two models. The TCP/IP Internet layer is in fact only a subset of functionality of the network layer. It describes only one type of network architecture, the Internet.
+In general, direct or strict comparisons between these models should be avoided, since the layering in TCP/IP is not a principal design criterion and the Internet Engineering Task Force (IETF) considers it "harmful".
+
+
+== See alsoEdit ==
+Datakit
+Router
+DECnet
+AppleTalk
+
+
+== ReferencesEdit ==
+
+Tanenbaum, Andrew S. (2003). Computer networks. Upper Saddle River, New Jersey: Prentice Hall. ISBN 0-13-066102-3. 
+
+
+== External linksEdit ==
+OSI Reference Model—The ISO Model of Architecture for Open Systems Interconnection, Hubert Zimmermann, IEEE Transactions on Communications, vol. 28, no. 4, April 1980, pp. 425 – 432. (PDF-Datei; 776 kB)

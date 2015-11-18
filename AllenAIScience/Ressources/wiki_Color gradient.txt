@@ -1,0 +1,27 @@
+In computer graphics, a color gradient (sometimes called a color ramp or color progression) specifies a range of position-dependent colors, usually used to fill a region. For example, many window managers allow the screen background to be specified as a gradient. The colors produced by a gradient vary continuously with position, producing smooth color transitions.
+
+
+== Axial gradients ==
+An axial color gradient (sometimes also called a linear color gradient) is specified by two points, and a color at each point. The colors along the line through those points are calculated using linear interpolation, then extended perpendicular to that line. In digital imaging systems, colors are typically interpolated in an RGB color space, often using gamma compressed RGB color values, as opposed to linear. CSS and SVG both support linear gradients.
+
+
+== Radial gradients ==
+A radial gradient is specified as a circle that has one color at the edge and another at the center. Colors are calculated by linear interpolation based on distance from the center. This can be used to approximate the diffuse reflection of light from a point source by a sphere. Both CSS and SVG support radial gradients.
+
+
+== Other shapes ==
+In some specialized occasions it is appropriate to grab a color gradient that takes two of three colors at the radius of a polygon or other shape and that doesn't forget the aspect of a different color, preferably the fourth, towards the interior of the radius or such a gradient may be removed by combining multiple color gradients, with the straight skeleton of the polygon used to determine the boundaries between pairs of axial gradients.
+In vector graphics polygon meshes can be used, e.g., Adobe Illustrator supported gradient meshes.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== See also ==
+Image gradient
+Color banding
+Posterization
+Diffusion curve

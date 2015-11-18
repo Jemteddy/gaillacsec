@@ -1,0 +1,193 @@
+Cell culture is the process by which cells are grown under controlled conditions, generally outside of their natural environment. In practice, the term "cell culture" now refers to the culturing of cells derived from multicellular eukaryotes, especially animal cells, in contrast with other types of culture that also grow cells, such as plant tissue culture, fungal culture, and microbiological culture (of microbes). The historical development and methods of cell culture are closely interrelated to those of tissue culture and organ culture. Viral culture is also related, with cells as hosts for the viruses.
+The laboratory technique of maintaining live cell lines (a population of cells descended from a single cell and containing the same genetic makeup) separated from their original tissue source became more robust in the middle 20th century.
+
+
+== History ==
+The 19th-century English physiologist Sydney Ringer developed salt solutions containing the chlorides of sodium, potassium, calcium and magnesium suitable for maintaining the beating of an isolated animal heart outside of the body. In 1885, Wilhelm Roux removed a portion of the medullary plate of an embryonic chicken and maintained it in a warm saline solution for several days, establishing the principle of tissue culture. Ross Granville Harrison, working at Johns Hopkins Medical School and then at Yale University, published results of his experiments from 1907 to 1910, establishing the methodology of tissue culture.
+Cell culture techniques were advanced significantly in the 1940s and 1950s to support research in virology. Growing viruses in cell cultures allowed preparation of purified viruses for the manufacture of vaccines. The injectable polio vaccine developed by Jonas Salk was one of the first products mass-produced using cell culture techniques. This vaccine was made possible by the cell culture research of John Franklin Enders, Thomas Huckle Weller, and Frederick Chapman Robbins, who were awarded a Nobel Prize for their discovery of a method of growing the virus in monkey kidney cell cultures.
+
+
+== Concepts in mammalian cell culture ==
+
+
+=== Isolation of cells ===
+Cells can be isolated from tissues for ex vivo culture in several ways. Cells can be easily purified from blood; however, only the white cells are capable of growth in culture. Mononuclear cells can be released from soft tissues by enzymatic digestion with enzymes such as collagenase, trypsin, or pronase, which break down the extracellular matrix. Alternatively, pieces of tissue can be placed in growth media, and the cells that grow out are available for culture. This method is known as explant culture.
+Cells that are cultured directly from a subject are known as primary cells. With the exception of some derived from tumors, most primary cell cultures have limited lifespan.
+An established or immortalized cell line has acquired the ability to proliferate indefinitely either through random mutation or deliberate modification, such as artificial expression of the telomerase gene. Numerous cell lines are well established as representative of particular cell types.
+
+
+=== Maintaining cells in culture ===
+
+For the majority of isolated primary cells, they undergo the process of senescence and stop dividing after a certain number of population doublings while generally retaining their viability (described as the Hayflick limit).
+Cells are grown and maintained at an appropriate temperature and gas mixture (typically, 37 °C, 5% CO2 for mammalian cells) in a cell incubator. Culture conditions vary widely for each cell type, and variation of conditions for a particular cell type can result in different phenotypes.
+Aside from temperature and gas mixture, the most commonly varied factor in culture systems is the cell growth medium. Recipes for growth media can vary in pH, glucose concentration, growth factors, and the presence of other nutrients. The growth factors used to supplement media are often derived from the serum of animal blood, such as fetal bovine serum (FBS), bovine calf serum, equine serum, and porcine serum. One complication of these blood-derived ingredients is the potential for contamination of the culture with viruses or prions, particularly in medical biotechnology applications. Current practice is to minimize or eliminate the use of these ingredients wherever possible and use human platelet lysate (hPL). This eliminates the worry of cross-species contamination when using FBS with human cells. hPL has emerged as a safe and reliable alternative as a direct replacement for FBS or other animal serum. In addition, chemically defined media can be used to eliminate any serum trace (human or animal), but this cannot always be accomplished with different cell types. Alternative strategies involve sourcing the animal blood from countries with minimum BSE/TSE risk, such as The United States, Australia and New Zealand, and using purified nutrient concentrates derived from serum in place of whole animal serum for cell culture.
+Plating density (number of cells per volume of culture medium) plays a critical role for some cell types. For example, a lower plating density makes granulosa cells exhibit estrogen production, while a higher plating density makes them appear as progesterone-producing theca lutein cells.
+Cells can be grown either in suspension or adherent cultures. Some cells naturally live in suspension, without being attached to a surface, such as cells that exist in the bloodstream. There are also cell lines that have been modified to be able to survive in suspension cultures so they can be grown to a higher density than adherent conditions would allow. Adherent cells require a surface, such as tissue culture plastic or microcarrier, which may be coated with extracellular matrix (such as collagen and laminin) components to increase adhesion properties and provide other signals needed for growth and differentiation. Most cells derived from solid tissues are adherent. Another type of adherent culture is organotypic culture, which involves growing cells in a three-dimensional (3-D) environment as opposed to two-dimensional culture dishes. This 3D culture system is biochemically and physiologically more similar to in vivo tissue, but is technically challenging to maintain because of many factors (e.g. diffusion).
+
+
+=== Cell line cross-contamination ===
+Cell line cross-contamination can be a problem for scientists working with cultured cells. Studies suggest anywhere from 15–20% of the time, cells used in experiments have been misidentified or contaminated with another cell line. Problems with cell line cross-contamination have even been detected in lines from the NCI-60 panel, which are used routinely for drug-screening studies. Major cell line repositories, including the American Type Culture Collection (ATCC), the European Collection of Cell Cultures (ECACC) and the German Collection of Microorganisms and Cell Cultures (DSMZ), have received cell line submissions from researchers that were misidentified by them. Such contamination poses a problem for the quality of research produced using cell culture lines, and the major repositories are now authenticating all cell line submissions. ATCC uses short tandem repeat (STR) DNA fingerprinting to authenticate its cell lines.
+To address this problem of cell line cross-contamination, researchers are encouraged to authenticate their cell lines at an early passage to establish the identity of the cell line. Authentication should be repeated before freezing cell line stocks, every two months during active culturing and before any publication of research data generated using the cell lines. Many methods are used to identify cell lines, including isoenzyme analysis, human lymphocyte antigen (HLA) typing, chromosomal analysis, karyotyping, morphology and STR analysis.
+One significant cell-line cross contaminant is the immortal HeLa cell line.
+
+
+=== Other technical issues ===
+As cells generally continue to divide in culture, they generally grow to fill the available area or volume. This can generate several issues:
+Nutrient depletion in the growth media
+Changes in pH of the growth media
+Accumulation of apoptotic/necrotic (dead) cells
+Cell-to-cell contact can stimulate cell cycle arrest, causing cells to stop dividing, known as contact inhibition.
+Cell-to-cell contact can stimulate cellular differentiation.
+Genetic and epigenetic alterations, with a natural selection of the altered cells potentially leading to overgrowth of abnormal, culture-adapted cells with decreased differentiation and increased proliferative capacity.
+
+
+=== Manipulation of cultured cells ===
+Among the common manipulations carried out on culture cells are media changes, passaging cells, and transfecting cells. These are generally performed using tissue culture methods that rely on aseptic technique. Aseptic technique aims to avoid contamination with bacteria, yeast, or other cell lines. Manipulations are typically carried out in a biosafety hood or laminar flow cabinet to exclude contaminating micro-organisms. Antibiotics (e.g. penicillin and streptomycin) and antifungals (e.g.amphotericin B) can also be added to the growth media.
+As cells undergo metabolic processes, acid is produced and the pH decreases. Often, a pH indicator is added to the medium to measure nutrient depletion.
+
+
+==== Media changes ====
+In the case of adherent cultures, the media can be removed directly by aspiration, and then is replaced. Media changes in non-adherent cultures involve centrifuging the culture and resuspending the cells in fresh media.
+
+
+==== Passaging cells ====
+
+Passaging (also known as subculture or splitting cells) involves transferring a small number of cells into a new vessel. Cells can be cultured for a longer time if they are split regularly, as it avoids the senescence associated with prolonged high cell density. Suspension cultures are easily passaged with a small amount of culture containing a few cells diluted in a larger volume of fresh media. For adherent cultures, cells first need to be detached; this is commonly done with a mixture of trypsin-EDTA; however, other enzyme mixes are now available for this purpose. A small number of detached cells can then be used to seed a new culture. Some cell cultures, such as RAW cells are mechanically scraped from the surface of their vessel with rubber scrapers.
+
+
+==== Transfection and transduction ====
+
+Another common method for manipulating cells involves the introduction of foreign DNA by transfection. This is often performed to cause cells to express a protein of interest. More recently, the transfection of RNAi constructs have been realized as a convenient mechanism for suppressing the expression of a particular gene/protein. DNA can also be inserted into cells using viruses, in methods referred to as transduction, infection or transformation. Viruses, as parasitic agents, are well suited to introducing DNA into cells, as this is a part of their normal course of reproduction.
+
+
+=== Established human cell lines ===
+
+Cell lines that originate with humans have been somewhat controversial in bioethics, as they may outlive their parent organism and later be used in the discovery of lucrative medical treatments. In the pioneering decision in this area, the Supreme Court of California held in Moore v. Regents of the University of California that human patients have no property rights in cell lines derived from organs removed with their consent.
+
+It is possible to fuse normal cells with an immortalised cell line. This method is used to produce monoclonal antibodies. In brief, lymphocytes isolated from the spleen (or possibly blood) of an immunised animal are combined with an immortal myeloma cell line (B cell lineage) to produce a hybridoma which has the antibody specificity of the primary lymphocyte and the immortality of the myeloma. Selective growth medium (HA or HAT) is used to select against unfused myeloma cells; primary lymphoctyes die quickly in culture and only the fused cells survive. These are screened for production of the required antibody, generally in pools to start with and then after single cloning.
+
+
+=== Cell strains ===
+A cell strain is derived either from a primary culture or a cell line by the selection or cloning of cells having specific properties or characteristics which must be defined. Cell strains are cells that have been adapted to culture but, unlike cell lines, have a finite division potential. Non-immortalized cells stop dividing after 40 to 60 population doublings and, after this, they lose their ability to proliferate (a genetically determined event known as senescence).
+
+
+== Applications of cell culture ==
+Mass culture of animal cell lines is fundamental to the manufacture of viral vaccines and other products of biotechnology.
+Biological products produced by recombinant DNA (rDNA) technology in animal cell cultures include enzymes, synthetic hormones, immunobiologicals (monoclonal antibodies, interleukins, lymphokines), and anticancer agents. Although many simpler proteins can be produced using rDNA in bacterial cultures, more complex proteins that are glycosylated (carbohydrate-modified) currently must be made in animal cells. An important example of such a complex protein is the hormone erythropoietin. The cost of growing mammalian cell cultures is high, so research is underway to produce such complex proteins in insect cells or in higher plants, use of single embryonic cell and somatic embryos as a source for direct gene transfer via particle bombardment, transit gene expression and confocal microscopy observation is one of its applications. It also offers to confirm single cell origin of somatic embryos and the asymmetry of the first cell division, which starts the process.
+
+
+=== Cell culture in two dimensions ===
+Research in tissue engineering, stem cells and molecular biology primarily involves cultures of cells on flat plastic dishes. This technique is known as two-dimensional (2D) cell culture, and was first developed by Wilhelm Roux who, in 1885, removed a portion of the medullary plate of an embryonic chicken and maintained it in warm saline for several days on a flat glass plate. From the advance of polymer technology arose today's standard plastic dish for 2D cell culture, commonly known as the Petri dish. Julius Richard Petri, a German bacteriologist, is generally credited with this invention while working as an assistant to Robert Koch. Various researchers today also utilize culturing laboratory flasks, conicals, and even disposable bags like those used in single-use bioreactors.
+Aside from Petri dishes, scientists have long been growing cells within biologically derived matrices such as collagen or fibrin, and more recently, on synthetic hydrogels such as polyacrylamide or PEG. They do this in order to elicit phenotypes that are not expressed on conventionally rigid substrates. There is growing interest in controlling matrix stiffness, a concept that has led to discoveries in fields such as:
+Stem cell self-renewal
+Lineage specification
+Cancer cell phenotype
+Fibrosis
+Hepatocyte function
+Mechanosensing
+
+
+=== Cell culture in three dimensions ===
+Cell culture in three dimensions has been touted as "Biology's New Dimension". Nevertheless, the practice of cell culture remains based on varying combinations of single or multiple cell structures in 2D. That being said, there is an increase in use of 3D cell cultures in research areas including drug discovery, cancer biology, regenerative medicine and basic life science research. There are a variety of platforms used to facilitate the growth of three-dimensional cellular structures such as nanoparticle facilitated magnetic levitation, gel matrices scaffolds, and hanging drop plates.
+
+
+=== 3D Cell Culturing by Magnetic Levitation ===
+3D Cell Culturing by Magnetic Levitation method (MLM) is the application of growing 3D tissue by inducing cells treated with magnetic nanoparticle assemblies in spatially varying magnetic fields using neodymium magnetic drivers and promoting cell to cell interactions by levitating the cells up to the air/liquid interface of a standard petri dish. The magnetic nanoparticle assemblies consist of magnetic iron oxide nanoparticles, gold nanoparticles, and the polymer polylysine. 3D cell culturing is scalable, with the capability for culturing 500 cells to millions of cells or from single dish to high-throughput low volume systems.
+
+
+=== Tissue culture and engineering ===
+Cell culture is a fundamental component of tissue culture and tissue engineering, as it establishes the basics of growing and maintaining cells in vitro. The major application of human cell culture is in stem cell industry, where mesenchymal stem cells can be cultured and cryopreserved for future use. Tissue engineering potentially offers dramatic improvements in low cost medical care for hundreds of thousands of patients annually.
+
+
+=== Vaccines ===
+Vaccines for polio, measles, mumps, rubella, and chickenpox are currently made in cell cultures. Due to the H5N1 pandemic threat, research into using cell culture for influenza vaccines is being funded by the United States government. Novel ideas in the field include recombinant DNA-based vaccines, such as one made using human adenovirus (a common cold virus) as a vector, and novel adjuvants.
+
+
+== Culture of non-mammalian cells ==
+
+
+=== Plant cell culture methods ===
+
+Plant cell cultures are typically grown as cell suspension cultures in a liquid medium or as callus cultures on a solid medium. The culturing of undifferentiated plant cells and calli requires the proper balance of the plant growth hormones auxin and cytokinin.
+
+
+=== Insect cell culture ===
+Cells derived from Drosophila melanogaster (most prominently, Schneider 2 cells) can be used for experiments which may be hard to do on live flies or larvae, such as biochemical studies or studies using siRNA. Cell lines derived from the army worm Spodoptera frugiperda, including Sf9 and Sf21, and from the cabbage looper Trichoplusia ni, High Five cells, are commonly used for expression of recombinant proteins using baculovirus.
+
+
+=== Bacterial and yeast culture methods ===
+
+For bacteria and yeasts, small quantities of cells are usually grown on a solid support that contains nutrients embedded in it, usually a gel such as agar, while large-scale cultures are grown with the cells suspended in a nutrient broth.
+
+
+=== Viral culture methods ===
+
+The culture of viruses requires the culture of cells of mammalian, plant, fungal or bacterial origin as hosts for the growth and replication of the virus. Whole wild type viruses, recombinant viruses or viral products may be generated in cell types other than their natural hosts under the right conditions. Depending on the species of the virus, infection and viral replication may result in host cell lysis and formation of a viral plaque.
+
+
+== Common cell lines ==
+Human cell lines
+HeLa
+National Cancer Institute's 60 cancer cell lines (NCI60)
+ESTDAB database
+DU145 (prostate cancer)
+Lncap (prostate cancer)
+MCF-7 (breast cancer)
+MDA-MB-438 (breast cancer)
+PC3 (prostate cancer)
+T47D (breast cancer)
+THP-1 (acute myeloid leukemia)
+U87 (glioblastoma)
+SHSY5Y Human neuroblastoma cells, cloned from a myeloma
+Saos-2 cells (bone cancer)
+KBM-7 cells (chronic myelogenous leukemia)
+Primate cell lines
+Vero (African green monkey Chlorocebus kidney epithelial cell line initiated in 1962)
+Rat tumor cell lines
+GH3 (pituitary tumor)
+PC12 (pheochromocytoma)
+Mouse cell lines
+MC3T3 (embryonic calvarium)
+Plant cell lines
+Tobacco BY-2 cells (kept as cell suspension culture, they are model system of plant cell)
+Other species cell lines
+Zebrafish ZF4 and AB9 cells
+Madin-Darby canine kidney (MDCK) epithelial cell line
+Xenopus A6 kidney epithelial cells
+
+
+== List of cell lines ==
+
+Culture Collections
+
+
+== See also ==
+Biological immortality
+Cell culture assays
+Electric cell-substrate impedance sensing
+List of contaminated cell lines
+
+
+== References and notes ==
+
+Public Health England, Public Health England Culture Collections (ECACC)
+MacLeod, R. A. F.; Dirks, Wilhelm G.; Matsuo, Yoshinobu; Kaufmann, Maren; Milch, Herbert; Drexler, Hans G. (1999). "Widespread intraspecies cross-contamination of human tumour cell lines". International Journal of Cancer 83 (4): 555–563. doi:10.1002/(SICI)1097-0215(19991112)83:4<555::AID-IJC19>3.0.CO;2-2. PMID 10508494. 
+Masters, John R. (2002). "HeLa cells 50 years on: the good, the bad and the ugly". Nature Reviews Cancer 2 (4): 315–319. doi:10.1038/nrc775. PMID 12001993. 
+Recently invented was the 3D Petri dish, the first 3D cell culture offering.
+
+
+== External links ==
+Table of common cell lines from Alberts 4th ed.
+Cancer Cells in Culture
+Hypertext version of the Cell Line Data Base
+Microcarrier Cell Culture Handbook by GE Healthcare Life Sciences
+Cell Culture Applications - Resources including application notes and protocols to create an ideal environment for growing cells, right from the start.
+Cell Culture Basics - Introduction to cell culture, covering topics such as laboratory set-up, safety and aseptic technique including basic cell culture protocols and video training
+Database of Who's Who in Cell Culture and Related Research
+Witkowski, Jan A. (2012). "Experimental pathology and the origins of tissue culture: Leo Loeb's contribution". Medical History 27 (3): 269–88. doi:10.1017/S0025727300042964. PMC 1139336. PMID 6353093. 
+Coriell Cell Repositories
+Strategies for Protein Purification Handbook
+An Introduction To Cell Culture. This webinar introduces the history, theory, basic techniques, and potential pit-falls of mammalian cell culture.
+The National Centre for Cell Science (NCCS), Pune, India; national repository for cell lines/hybridomas etc.
+Pacey, Laura; Stead, Shelley; Gleave, Jacqueline; Tomczyk, Kasia; Doering, Laurie (2006). "Neural Stem Cell Culture: Neurosphere generation, microscopical analysis and cryopreservation". Protocol Exchange. doi:10.1038/nprot.2006.215. 
+Gilabert, Juan A.; Montalvo, Gema B.; Artalejo, Antonio R. (2006). "Rat Chromaffin cells primary cultures: Standardization and quality assessment for single-cell assays". Protocol Exchange. doi:10.1038/nprot.2006.294.

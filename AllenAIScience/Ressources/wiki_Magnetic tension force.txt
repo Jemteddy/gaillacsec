@@ -1,0 +1,34 @@
+The magnetic tension force is a restoring force (SI unit: Pa·m−1) that acts to straighten bent magnetic field lines. It equals:
+
+It is analogous to rubber bands and their restoring force. The force is directed antiradially. Although magnetic tension is referred to as a force, it is actually a pressure gradient (Pa m−1) which is also a force density (N m−3).
+The magnetic pressure is the energy density of the magnetic field and it increases as magnetic field lines convene with each other. In contrast, magnetic tension force is determined by how much the magnetic pressure changes with distance. Magnetic tension forces also rely on vector current densities  and their interaction with the magnetic field . Plotting magnetic tension along adjacent field lines can give a picture as to their divergence and convergence with respect to each other as well as current densities .
+
+
+== Use in Plasma Physics ==
+Magnetic tension is particularly important in plasma physics and magnetohydrodynamics, where it controls dynamics of some systems and the shape of magnetized structures. In magnetohydrodynamics, the magnetic tension force can be derived from the momentum equation of plasma physics:
+.
+The first term on the right hand side of the above equation represents electromagnetic forces and the second term represents pressure gradient forces. Using the relation  and the vector identity
+￼￼￼￼
+we obtain the following equation:
+
+The first and last gradient terms are associated with the total pressure which is the sum of the magnetic and thermal pressures; . The second term represents the magnetic tension.
+A more rigorous way to look at this is through Maxwell stress tensor. The Lorentz force law
+
+gives the force per unit volume:
+
+This, after some algebra and using Maxwell's equations to replace the current, leads to
+
+This result can be re-written more compactly by introducing the Maxwell stress tensor,
+
+All but the last term of the above expression for the force density, , can be written as the divergence of the Maxwell tensor:
+,
+which gives the electromagnetic force density in terms of Maxwell stress tensor, , and the Poynting vector, . Now, the magnetic tension is implicitly included inside . The implication of the above relation is the conservation of momentum. Here,  is the momentum flux density and plays a role similar to  in Poynting's theorem.
+
+
+== See also ==
+Magnetic pressure
+List of plasma (physics) articles
+Maxwell stress tensor
+
+
+== References ==

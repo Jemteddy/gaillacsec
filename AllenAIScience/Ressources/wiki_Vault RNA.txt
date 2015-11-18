@@ -1,0 +1,65 @@
+Many eukaryotic cells contain large ribonucleoprotein particles in the cytoplasm known as vaults. The vault complex comprises the major vault protein (MVP), two minor vault proteins (VPARP and TEP1), and a variety of small untranslated RNA molecules. Given the association with the nuclear membrane and the location within the cell, vaults are thought to play roles in intracellular and nucleocytoplasmic transport processes. Also, given that the structure and protein composition are highly conserved among species, it is believed that the roles vault plays are integral to eukaryotic function.
+
+While vault proteins appear to be present in a variety of organisms, only a small portion, about 5%, of vault particles have been found to contain vault RNAs, vtRNAs. These RNA molecules are polymerase III transcripts. In addition, a study, using cry-electron microscopy, has determined that vtRNAs are found close to the end caps of vaults. This positioning of the RNA indicates that they could interact with both the interior and exterior of the vault particle. Overall, the current belief is that the vtRNAs do not have a structural role in the vault protein, but rather play some kind of functional role. However, while there has been an expanding body of research on vtRNA, there has yet to be a solid conclusion on the exact function.
+
+
+== History ==
+Vault RNA was first identified as part of the vault ribonucleoprotein complex in 1986. Since the first discovery of non-coding RNA in the mid 60’s, there had been considerable interest in the field. The fruition of this interest was apparent in the 80’s during a string of non-coding RNA discoveries, such as Ribosomal RNA, snoRNA, Xist, and Vault RNA.
+Early research in the 1990s looked into the specifics of Vault RNA and focused around the conservation of the gene in animals. So far Vault RNAs have been isolated from: Human, Rodents, and Bullfrogs.
+Vault proteins, but not the vtRNA, have also been found in: Sea urchin, Dictyostelium discoideum, and Acanthamoeba.
+As the field progressed into the 2000s, more research was done on the structure and biological capabilities of the molecule. More recently, there have been a few experiments on Vault RNA.
+
+
+== Expression ==
+Vaults have been found to be highly expressed in “higher” eukaryotes, specifically mammals, amphibians, and avians, as well as “lower” eukaryotes such as Dictyostelium discoideum. Given that both the structure and protein composition are highly conserved among these species, researchers posit that their function is crucial to eukaryotic cell function.
+vtRNA has a length that ranges between 86 and 141 bases, depending on the species. While the length of the transcript remains within a certain range from species to species, the level of expression can change significantly. For example, rats and mice express a single vtRNA 141 bases long while bullfrogs express 2 vtRNAs: one 89 bases long and the other 94.
+Human expression of vtRNA is interesting because researchers have found we express four related vtRNAs. Currently, only three have been identified and described; they are: hvg1 (98 bases), hvg2 (88 bases), and hvg3 (88 bases). A bulk of the total vtRNA was associated with the hvg1 type.
+Despite the inter-species differences in the vtRNA, the polymerase III promoter elements have been found to be highly conserved. In addition, all vtRNAs are predicted to fold into similar stem-loop structures.
+
+
+== Structure ==
+Vault RNAs have fairly simple molecular compositions with unusual symmetries. They contain several arches and have characteristic hollow barrel-like frameworks. Vaults are considerably heavy, weighing around 13 MDa. As such, they are the heaviest ribonucleoprotein complexes known so far. On the other hand, they are considerably small in length, falling in the range between 80 and 150 nucleotides. Their secondary structures have conserved stem loops that connect the 5’ and 3’ ends of the molecule, in addition to the panhandle-like shape. There are polymerase III promoter elements, box A and box B, of which box A takes part in conserving structural features whereas box B does not.
+
+
+== Biological Applications ==
+
+
+=== Drug Resistance ===
+Vault RNAs, in conjunction with the vault complex, have been associated with drug resistance. Through recent discoveries, it has been shown that the vault non-coding RNAs produce small vault RNAs through a DICER mechanism. These small vault RNAs then operate in similar manner to miRNAs: An svRNA binds an argonaute protein and down-regulates expression of CYP3A4, an enzyme involved in drug metabolism.
+
+
+=== Cancer ===
+One of the major causes of cancer treatment failures is the resistance that cancer cells develop towards chemotherapeutic drugs. vtRNAs have been shown to play a role in this phenomenon due their interaction with certain chemotherapeutic drugs through specific binding sites. It is believed these interactions lead to the export of the chemical agents released by the chemotherapeutic drugs.
+These conclusions come from the results of a study that show abnormally high levels of vtRNA expression in cancer cells (derived from glioblastoma, leukemia, and osteocarcinoma cell lines) that had resistance to mitoxantrone. In addition, the same study showed weakened expression of vtRNA correlated to the cancer cells became more responsive or sensitive to mitoxantrone. Studies as such suggest that vtRNAs might have a role in blocking the drugs from getting to their target sites.
+
+
+=== NSUN2 Deficiency Disease ===
+It has been shown that vault non-coding RNAs contain multiple cytosine residues that have been methylated by the NSUN2 protein. In NSUN2 deficient cells, the loss of cytosine-5 methylation causes incorrect processing into small RNA fragments that end up functioning similar to micro RNAs. As a result, it has been suggested that impaired vault RNA processing may contribute to the symptoms that are manifested in NSUN2 deficiency diseases.
+
+
+=== Research Methods ===
+While the function of vault RNAs is still relatively unknown, due to their unique structure these molecules have become useful in developing new research methods. One example of this is seen in the fact that vtRNAs are now used to benchmark the performance of the recently created research query tool, fragrep2.
+Query tools are used to find regions of similar biological sequences amongst species. However, one problem that these tools (e.g. most famously, “Blast”) have is that they struggle to identify sequences that contain insertions and deletions. These highly variable structural changes cause the tool to be fooled, and have errors in their results.
+Fragrep2 seeks to solve this problem by using a pattern-based logarithm that can match or almost match exact sequences of motifs within the desired molecule. In order to help build fragrep2, the scientists needed a test molecule, and found vault RNA’s to be perfect. The reason being that vault RNA’s generally have two very well conserved sequences, surrounded by regions of high variability.
+This tool is significant not only because it has helped advance the research of vault RNA, but also because of its other applications within the RNA field. Vault RNAs are not the only kind of RNA with this type of semi-conserved/highly variable structure, other notable RNA’s include RNAse P, RNAse MRP, and 7SK RNA.
+
+
+== See also ==
+Vault (organelle)
+Major vault protein
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+
+Page for Vault RNA at Rfam
+The Vault website
+Vault Ribonucleoprotein Particles at the US National Library of Medicine Medical Subject Headings (MeSH)
+
+
+== References ==

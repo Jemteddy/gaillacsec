@@ -1,0 +1,76 @@
+In the physics of wave propagation, a plane wave (also spelled planewave) is a constant-frequency wave whose wavefronts (surfaces of constant phase) are infinite parallel planes of constant peak-to-peak amplitude normal to the phase velocity vector.
+It is not possible in practice to have a true plane wave; only a plane wave of infinite extent will propagate as a plane wave. However, many waves are approximately plane waves in a localized region of space. For example, a localized source such as an antenna produces a field that is approximately a plane wave far from the antenna in its far-field region. Similarly, if the length scales are much longer than the wave’s wavelength, as is often the case for light in the field of optics, one can treat the waves as light rays which correspond locally to plane waves.
+
+
+== Mathematical formalismsEdit ==
+
+Two functions that meet the above criteria of having a constant frequency and constant amplitude are the sine and cosine functions. One of the simplest ways to use such a sinusoid involves defining it along the direction of the x-axis. The equation below, which is illustrated toward the right, uses the cosine function to represent a plane wave travelling in the positive x direction.
+
+In the above equation:
+ is the magnitude or disturbance of the wave at a given point in space and time. An example would be to let  represent the variation of air pressure relative to the norm in the case of a sound wave.
+ is the amplitude of the wave which is the peak magnitude of the oscillation.
+ is the wave’s wave number or more specifically the angular wave number and equals 2π/λ, where λ is the wavelength of the wave.  has the units of radians per unit distance and is a measure of how rapidly the disturbance changes over a given distance at a particular point in time.
+ is a point along the x-axis.  and  are not part of the equation because the wave's magnitude and phase are the same at every point on any given y-z plane. This equation defines what that magnitude and phase are.
+ is the wave’s angular frequency which equals 2π/T, where T is the period of the wave.  has the units of radians per unit time and is a measure of how rapidly the disturbance changes over a given length of time at a particular point in space.
+ is a given point in time
+ is the phase shift of the wave and has the units of radians. Note that a positive phase shift, at a given moment of time, shifts the wave in the negative x-axis direction. A phase shift of 2π radians shifts it exactly one wavelength.
+Other formalisms which directly use the wave’s wavelength , period , frequency  and velocity  are below.
+
+To appreciate the equivalence of the above set of equations note that  and 
+
+
+=== Arbitrary directionEdit ===
+A more generalized form is used to describe a plane wave traveling in an arbitrary direction. It uses vectors in combination with the vector dot product.
+
+here:
+ is the wave vector which only differs from a wave number in that it has a direction as well as a magnitude. This means that, . The direction of the wave vector is ordinarily that direction which the plane wave is traveling, but it can differ slightly in an anisotropic medium.
+  is the vector dot product.
+ is the position vector which defines a point in three-dimensional space.
+
+
+=== Complex exponential formEdit ===
+Many choose to use a more mathematically versatile formulation that utilizes the complex number plane. It requires the use of the natural exponent  and the imaginary number .
+
+To appreciate this equation’s relationship to the earlier ones, below is this same equation expressed using sines and cosines. Observe that the first term equals the real form of the plane wave just discussed.
+
+The introduced complex form of the plane wave can be simplified by using a complex-valued amplitude  substitute the real valued amplitude .
+Specifically, since the complex form…
+
+equals
+
+one can absorb the phase factor  into a complex amplitude by letting , resulting in the more compact equation
+
+While the complex form has an imaginary component, after the necessary calculations are performed in the complex plane, its real value can be extracted giving a real valued equation representing an actual plane wave.
+
+The main reason one would choose to work with complex exponential form of plane waves is that complex exponentials are often algebraically easier to handle than the trigonometric sines and cosines. Specifically, the angle-addition rules are extremely simple for exponentials.
+Additionally, when using Fourier analysis techniques for waves in a lossy medium, the resulting attenuation is easier to deal with using complex Fourier coefficients. It should be noted however that if a wave is traveling through a lossy medium, the amplitude of the wave is no longer constant, and therefore the wave is strictly speaking no longer a true plane wave.
+In quantum mechanics the solutions of the Schrödinger wave equation are by their very nature complex and in the simplest instance take a form identical to the complex plane wave representation above. The imaginary component in that instance however has not been introduced for the purpose of mathematical expediency but is in fact an inherent part of the “wave”.
+
+
+=== ApplicationsEdit ===
+These waves are solutions for a scalar wave equation in a homogeneous medium. For vector wave equations, such as the ones describing electromagnetic radiation or waves in an elastic solid, the solution for a homogeneous medium is similar: the scalar amplitude Ao is replaced by a constant vector Ao. For example, in electromagnetism Ao is typically the vector for the electric field, magnetic field, or vector potential. A transverse wave is one in which the amplitude vector is orthogonal to k, which is the case for electromagnetic waves in an isotropic medium. By contrast, a longitudinal wave is one in which the amplitude vector is parallel to k, such as for acoustic waves in a gas or fluid.
+The plane-wave equation works for arbitrary combinations of ω and k, but any real physical medium will only allow such waves to propagate for those combinations of ω and k that satisfy the dispersion relation of the medium. The dispersion relation is often expressed as a function, ω(k). The ratio ω/|k| gives the magnitude of the phase velocity and dω/dk gives the group velocity. For electromagnetism in an isotropic medium with index of refraction n, the phase velocity is c/n, which equals the group velocity if the index is not frequency-dependent.
+In linear uniform media, a wave solution can be expressed as a superposition of plane waves. This approach is known as the Angular spectrum method. The form of the planewave solution is actually a general consequence of translational symmetry. More generally, for periodic structures having discrete translational symmetry, the solutions take the form of Bloch waves, most famously in crystalline atomic materials but also in photonic crystals and other periodic wave equations. As another generalization, for structures that are only uniform along one direction x (such as a waveguide along the x direction), the solutions (waveguide modes) are of the form exp[i(kx-ωt)] multiplied by some amplitude function a(y,z). This is a special case of a separable partial differential equation.
+
+
+== Polarized electromagnetic plane wavesEdit ==
+
+Represented in the first illustration toward the right is a linearly polarized, electromagnetic wave. Because this is a plane wave, each blue vector, indicating the perpendicular displacement from a point on the axis out to the sine wave, represents the magnitude and direction of the electric field for an entire plane that is perpendicular to the axis.
+Represented in the second illustration is a circularly polarized, electromagnetic plane wave. Each blue vector indicating the perpendicular displacement from a point on the axis out to the helix, also represents the magnitude and direction of the electric field for an entire plane perpendicular to the axis.
+In both illustrations, along the axes is a series of shorter blue vectors which are scaled down versions of the longer blue vectors. These shorter blue vectors are extrapolated out into the block of black vectors which fill a volume of space. Notice that for a given plane, the black vectors are identical, indicating that the magnitude and direction of the electric field is constant along that plane.
+In the case of the linearly polarized light, the field strength from plane to plane varies from a maximum in one direction, down to zero, and then back up to a maximum in the opposite direction.
+In the case of the circularly polarized light, the field strength remains constant from plane to plane but its direction steadily changes in a rotary type manner.
+Not indicated in either illustration is the electric field’s corresponding magnetic field which is proportional in strength to the electric field at each point in space but is at a right angle to it. Illustrations of the magnetic field vectors would be virtually identical to these except all the vectors would be rotated 90 degrees about the axis of propagation so that they were perpendicular to both the direction of propagation and the electric field vector.
+The ratio of the amplitudes of the electric and magnetic field components of a plane wave in free space is known as the free-space wave-impedance, equal to 376.730313 ohms.
+
+
+== See alsoEdit ==
+Angular spectrum method
+Plane waves in a vacuum
+Plane wave expansion
+Wave equation
+
+
+== ReferencesEdit ==
+
+J. D. Jackson, Classical Electrodynamics (Wiley: New York, 1998).

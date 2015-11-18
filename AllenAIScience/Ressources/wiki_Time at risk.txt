@@ -1,0 +1,29 @@
+Time at Risk (TaR) is a time-based risk measure designed for corporate finance practice.
+TaR represents certain quantile for a given probability distribution, so is similar to Value at Risk (VaR). However, TaR measures risk amount as time(time until an adverse event) rather than value (loss amount).
+
+
+== Definition and examples ==
+Mathematical definition of TaR is same as that of VaR.
+However, value-based random variable is replaced with time-based one, and given time-horizon is replaced with given finance structure.
+Examples comparing VaR and TaR are as below.
+“An insurance company's 90% VaR is 10 million dollars for 1-year insurance risk.”
+This means it is 90% probability that insurance claim payout would be below 10 million dollars; so if the insurer has accumulated 10 million dollars in cash, it would be 90% safe.
+“An insurance company's 90% TaR is 3 years for liquidity risk under current finance structure.”
+This means it is 90% probability that net liquid assets(= liquid assets - volatile liabilities) would not be run out within 3 years; so for 3 years, the insurer under current finance structure would be 90% safe.
+For confidence level α,
+VaR can be interpreted as “Required minimum capital to sustain loss”
+TaR can be interpreted as “Maximum period of time that an adverse event would not occur or would be prevented (ie. safe against the event)”
+Thus for same α, lower VaR means lower risk and higher TaR means lower risk.
+
+
+== Applications ==
+TaR is a simple measure for whom are familiar with VaR, so is easy to communicate by. TaR also can be used for supplementary purpose to VaR analysis.
+Applying TaR in financial models, practitioners can analyze sources of risks and take remedial actions in corporate finance planning; not only for liquidity risk mentioned above, but also for any risks that demands time-based analysis.
+When TaR is applied to a household's financial planning it can measure longevity risk, and TaR in this case is referred to as Age at Risk (AaR).
+
+
+== References ==
+
+
+== See also ==
+Age at risk

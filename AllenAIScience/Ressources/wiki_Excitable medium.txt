@@ -1,0 +1,52 @@
+An excitable medium is a nonlinear dynamical system which has the capacity to propagate a wave of some description, and which cannot support the passing of another wave until a certain amount of time has passed (known as the refractory time).
+A forest is an example of an excitable medium: if a wildfire burns through the forest, no fire can return to a burnt spot until the vegetation has gone through its refractory period and regrown. In chemistry, oscillating reactions are excitable media, for example the Belousov–Zhabotinsky reaction and the Briggs–Rauscher reaction. Pathological activities in the heart and brain can be modelled as excitable media. A group of spectators at a sporting event are an excitable medium, as can be observed in a Mexican wave (so-called from its initial appearance in the 1986 World Cup in Mexico).
+
+
+== Modelling excitable media ==
+Excitable media can be modelled using both partial differential equations and cellular automata.
+
+
+=== With cellular automata ===
+Cellular automata provide a simple model to aid in the understanding of excitable media. Perhaps the simplest such model is in. See Greenberg-Hastings cellular automaton for this model.
+Each cell of the automaton is made to represent some section of the medium being modelled (for example, a patch of trees in a forest, or a segment of heart tissue). Each cell can be in one of the three following states:
+
+Quiescent or excitable — the cell is unexcited, but can be excited. In the forest fire example, this corresponds to the trees being unburnt.
+Excited — the cell is excited. The trees are on fire.
+Refractory — the cell has recently been excited and is temporarily not excitable. This corresponds to a patch of land where the trees have burnt and the vegetation has yet to regrow.
+As in all cellular automata, the state of a particular cell in the next time step depends on the state of the cells around it—its neighbours—at the current time. In the forest fire example the simple rules given in Greenberg-Hastings cellular automaton  might be modified as follows:
+If a cell is quiescent, then it remains quiescent unless one or more of its neighbours is excited. In the forest fire example, this means a patch of land only burns if a neighbouring patch is on fire.
+If a cell is excited, it becomes refractory at the next iteration. After trees have finished burning, the patch of land is left barren.
+If a cell is refractory, then its remaining refractory period is lessened at the next period, until it reaches the end of the refractory period and becomes excitable once more. The trees regrow.
+This function can be refined according to the particular medium. For example, the effect of wind can be added to the model of the forest fire.
+
+
+== Geometries of waves ==
+
+
+=== One-dimensional waves ===
+It is most common for a one-dimensional medium to form a closed circuit, i.e. a ring. For example, the Mexican wave can be modeled as a ring going around the stadium. If the wave moves in one direction it will eventually return to where it started. If, upon a wave's return to the origin, the original spot has gone through its refractory period, then the wave will propagate along the ring again (and will do so indefinitely). If, however, the origin is still refractory upon the wave's return, the wave will be stopped.
+In the Mexican wave, for example, if for some reason, the originators of the wave are still standing upon its return it will not continue. If the originators have sat back down then the wave can, in theory, continue.
+
+
+=== Two-dimensional waves ===
+Several forms of waves can be observed in a two-dimensional medium.
+A spreading wave will originate at a single point in the medium and spread outwards. For example a forest fire could start from a lightning strike at the centre of a forest and spread outwards.
+A spiral wave will again originate at a single point, but will spread in a spiral circuit. Spiral waves are believed to underlie phenomena such as tachycardia and fibrillation.
+Spiral waves constitute one of the mechanisms of fibrillation when they organize in long-lasting reentrant activities named rotors.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Leon Glass and Daniel Kaplan, Understanding Nonlinear Dynamics.
+
+
+== External links ==
+An introduction to excitable media
+Java applets that show excitable media in 0, 1, and 2D
+Another excitable medium java applet.
+CAPOW software by Rudy Rucker contains several excitable media models.

@@ -1,0 +1,101 @@
+A Reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription. It is mainly associated with retroviruses. However, non-retroviruses also use RT (for example, the hepatitis B virus, a member of the Hepadnaviridae, which are dsDNA-RT viruses, while retroviruses are ssRNA viruses). RT inhibitors are widely used as antiretroviral drugs. RT activities are also associated with the replication of chromosome ends (telomerase) and some mobile genetic elements (retrotransposons).
+Retroviral RT has three sequential biochemical activities:
+(a) RNA-dependent DNA polymerase activity,
+(b) ribonuclease H, and
+(c) DNA-dependent DNA polymerase activity.
+These activities are used by the retrovirus to convert single-stranded genomic RNA into double-stranded cDNA which can integrate into the host genome, potentially generating a long-term infection that can be very difficult to eradicate. The same sequence of reactions is widely used in the laboratory to convert RNA to DNA for use in molecular cloning, RNA sequencing, polymerase chain reaction (PCR), or genome analysis.
+Well studied reverse transcriptases include:
+HIV-1 reverse transcriptase from human immunodeficiency virus type 1 (PDB: 1HMV​) has two subunits, which have respective molecular weights of 66 and 51 kilodaltons.
+M-MLV reverse transcriptase from the Moloney murine leukemia virus is a single 75 kDa monomer.
+AMV reverse transcriptase from the avian myeloblastosis virus like HIV also has two subunits, a 63kDa subunit and a 95kDa subunit.
+Telomerase reverse transcriptase that maintains the telomeres of eukaryotic chromosomes
+
+
+== HistoryEdit ==
+Reverse transcriptases were discovered by Howard Temin at the University of Wisconsin–Madison in RSV virions, and independently isolated by David Baltimore in 1970 at MIT from two RNA tumour viruses: R-MLV and again RSV. For their achievements, both shared the 1975 Nobel Prize in Physiology or Medicine (with Renato Dulbecco).
+The idea of reverse transcription was very unpopular at first as it contradicted the central dogma of molecular biology which states that DNA is transcribed into RNA which is then translated into proteins. However, in 1970 when the scientists Howard Temin and David Baltimore both independently discovered the enzyme responsible for reverse transcription, named reverse transcriptase, the possibility that genetic information could be passed on in this manner was finally accepted.
+
+
+== Function in virusesEdit ==
+
+The enzymes are encoded and used by reverse-transcribing viruses, which use the enzyme during the process of replication. Reverse-transcribing RNA viruses, such as retroviruses, use the enzyme to reverse-transcribe their RNA genomes into DNA, which is then integrated into the host genome and replicated along with it. Reverse-transcribing DNA viruses, such as the hepadnaviruses, can allow RNA to serve as a template in assembling, and making DNA strands. HIV infects humans with the use of this enzyme. Without reverse transcriptase, the viral genome would not be able to incorporate into the host cell, resulting in failure to replicate.
+
+
+=== Process of reverse transcriptionEdit ===
+Reverse transcriptase creates single-stranded DNA from an RNA template.
+In virus species with reverse transcriptase lacking DNA-dependent DNA polymerase activity, creation of double-stranded DNA can possibly be done by host-encoded DNA polymerase δ, mistaking the viral DNA-RNA for a primer and synthesizing a double-stranded DNA by similar mechanism as in primer removal, where the newly synthesized DNA displaces the original RNA template.
+The process of reverse transcription is extremely error-prone and it is during this step that mutations may occur. Such mutations may cause drug resistance.
+
+
+==== Retroviral reverse transcriptionEdit ====
+
+Retroviruses, also referred to as class VI ssRNA-RT viruses, are RNA reverse transcribing viruses with a DNA intermediate. Their genomes consist of two molecules of positive-sense single stranded RNA with a 5' cap and 3' polyadenylated tail. Examples of retroviruses include the human immunodeficiency virus (HIV) and the human T-lymphotropic virus (HTLV). Creation of double-stranded DNA occurs in the cytosol as a series of these steps:
+A specific cellular tRNA acts as a primer and hybridizes to a complementary part of the virus RNA genome called the primer binding site or PBS
+Complementary DNA then binds to the U5 (non-coding region) and R region (a direct repeat found at both ends of the RNA molecule) of the viral RNA
+A domain on the reverse transcriptase enzyme called RNAse H degrades the 5’ end of the RNA which removes the U5 and R region
+The primer then ‘jumps’ to the 3’ end of the viral genome and the newly synthesised DNA strands hybridizes to the complementary R region on the RNA
+The first strand of complementary DNA (cDNA) is extended and the majority of viral RNA is degraded by RNAse H
+Once the strand is completed, second strand synthesis is initiated from the viral RNA
+There is then another ‘jump’ where the PBS from the second strand hybridizes with the complementary PBS on the first strand
+Both strands are extended further and can be incorporated into the hosts genome by the enzyme integrase
+Creation of double-stranded DNA also involves strand transfer, in which there is a translocation of short DNA product from initial RNA dependent DNA synthesis to acceptor template regions at the other end of the genome, which are later reached and processed by the reverse transcriptase for its DNA-dependent DNA activity.
+Retroviral RNA is arranged in 5’ terminus to 3’ terminus. The site where the primer is annealed to viral RNA is called the primer-binding site (PBS). The RNA 5’end to the PBS site is called U5, and the RNA 3’ end to the PBS is called the leader. The tRNA primer is unwound between 14 and 22 nucleotides and forms a base-paired duplex with the viral RNA at PBS. The fact that the PBS is located near the 5’ terminus of viral RNA is unusual because reverse transcriptase synthesize DNA from 3’ end of the primer in the 5’ to 3’ direction (with respect to the RNA template).Therefore, the primer and reverse transcriptase must be relocated to 3’ end of viral RNA. In order to accomplish this reposition, multiple steps and various enzymes including DNA polymerase, ribonuclease H(RNase H) and polynucleotide unwinding are needed.
+The HIV reverse transcriptase also has ribonuclease activity that degrades the viral RNA during the synthesis of cDNA, as well as DNA-dependent DNA polymerase activity that copies the sense cDNA strand into an antisense DNA to form a double-stranded viral DNA intermediate (vDNA).
+
+
+== In eukaryotesEdit ==
+Self-replicating stretches of eukaryotic genomes known as retrotransposons utilize reverse transcriptase to move from one position in the genome to another via an RNA intermediate. They are found abundantly in the genomes of plants and animals. Telomerase is another reverse transcriptase found in many eukaryotes, including humans, which carries its own RNA template; this RNA is used as a template for DNA replication.
+
+
+== In prokaryotesEdit ==
+Initial reports of reverse transcriptase in prokaryotes came as far back as 1971 (Beljanski et al., 1971a, 1972). These have since been broadly described as part of bacterial Retrons, distinct sequences which code for reverse transcriptase, and are used in the synthesis of msDNA. In order to initiate synthesis of DNA, a primer is needed. In bacteria, the primer is synthesized during replication.
+
+
+== Evolutionary roleEdit ==
+Valerian Dolja of Oregon State argues that viruses due to their diversity have played an evolutionary role in the development of cellular life, with reverse transcriptase playing a central role.
+
+
+== StructureEdit ==
+Reverse transcriptase enzymes include an RNA-dependent DNA polymerase and a DNA-dependent DNA polymerase, which work together to perform transcription. In addition to the transcription function, retroviral reverse transcriptases have a domain belonging to the RNase H family which is vital to their replication.
+
+
+== Replication fidelityEdit ==
+There are three different replication systems during the life cycle of a retrovirus. First of all, the reverse transcriptase synthesizes viral DNA from viral RNA, and then from newly made complementary DNA strand. The second replication process occurs when host cellular DNA polymerase replicates the integrated viral DNA. Lastly, RNA polymerase II transcribes the proviral DNA into RNA which will be packed into virions. Therefore, mutation can occur during one or all of these replication steps.
+Reverse transcriptase has a high error rate when transcribing RNA into DNA since, unlike most other DNA polymerases, it has no proofreading ability. This high error rate allows mutations to accumulate at an accelerated rate relative to proofread forms of replication. The commercially available reverse transcriptases produced by Promega are quoted by their manuals as having error rates in the range of 1 in 17,000 bases for AMV and 1 in 30,000 bases for M-MLV
+Other than creating single nucleotide polymorphisms, reverse transcriptases have also been shown to be involved in processes such as transcript fusions, exon shuffling and creating artificial antisense transcripts. It has been speculated that this template switching activity of Reverse Transcriptase, which can be demonstrated completely in vivo, may have been one of the causes for finding several thousand unannotated transcripts in the genomes of model organisms.
+
+
+== ApplicationsEdit ==
+
+
+=== Antiviral drugsEdit ===
+
+As HIV uses reverse transcriptase to copy its genetic material and generate new viruses (part of a retrovirus proliferation circle), specific drugs have been designed to disrupt the process and thereby suppress its growth. Collectively, these drugs are known as reverse transcriptase inhibitors and include the nucleoside and nucleotide analogues zidovudine (trade name Retrovir), lamivudine (Epivir) and tenofovir (Viread), as well as non-nucleoside inhibitors, such as nevirapine (Viramune).
+
+
+=== Molecular biologyEdit ===
+
+Reverse transcriptase is commonly used in research to apply the polymerase chain reaction technique to RNA in a technique called reverse transcription polymerase chain reaction (RT-PCR). The classical PCR technique can be applied only to DNA strands, but, with the help of reverse transcriptase, RNA can be transcribed into DNA, thus making PCR analysis of RNA molecules possible. Reverse transcriptase is used also to create cDNA libraries from mRNA. The commercial availability of reverse transcriptase greatly improved knowledge in the area of molecular biology, as, along with other enzymes, it allowed scientists to clone, sequence, and characterise RNA.
+Reverse transcriptase has also been employed in insulin production. By inserting eukaryotic mRNA for insulin production along with reverse transcriptase into bacteria, the mRNA could be inserted into the prokaryote's genome. Large amounts of insulin can then be created, sidestepping the need to harvest pig pancreas and other such traditional sources. Directly inserting eukaryotic DNA into bacteria would not work because it carries introns, so would not translate successfully using the bacterial ribosomes. Processing in the eukaryotic cell during mRNA production removes these introns to provide a suitable template. Reverse transcriptase converted this edited RNA back into DNA so it could be incorporated in the genome.
+
+
+== See alsoEdit ==
+
+cDNA library
+DNA polymerase
+msDNA
+Reverse transcribing virus
+RNA polymerase
+Telomerase
+Retrotransposon marker
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+RNA Transcriptase at the US National Library of Medicine Medical Subject Headings (MeSH)
+animation of reverse transcriptase action and three reverse transcriptase inhibitors
+Molecule of the month (September 2002) at the RCSB PDB
+HIV Replication 3D Medical Animation. (Nov 2008). Video by Boehringer Ingelheim.
+Goodsell DS. "Molecule of the Month: Reverse Transcriptase (Sep 2002)". Research Collaboratory for Structural Bioinformatics (RCSB) Protein Data Bank (PDB). Retrieved 2013-01-13.

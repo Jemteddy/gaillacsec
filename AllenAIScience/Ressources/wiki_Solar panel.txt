@@ -1,0 +1,126 @@
+Solar panel refers to a panel designed to absorb the sun's rays as a source of energy for generating electricity or heating.
+A photovoltaic (in short PV) module is a packaged, connected assembly of typically 6×10 solar cells. Solar Photovoltaic panels constitute the solar array of a photovoltaic system that generates and supplies solar electricity in commercial and residential applications. Each module is rated by its DC output power under standard test conditions, and typically ranges from 100 to 365 watts. The efficiency of a module determines the area of a module given the same rated output –  an 8% efficient 230 watt module will have twice the area of a 16% efficient 230 watt module. There are a few solar panels available that are exceeding 19% efficiency. A single solar module can produce only a limited amount of power; most installations contain multiple modules. A photovoltaic system typically includes a panel or an array of solar modules, a solar inverter, and sometimes a battery and/or solar tracker and interconnection wiring.
+The price of solar power, together with batteries for storage, has continued to fall so that in many countries it is cheaper than ordinary fossil fuel electricity from the grid (there is "grid parity"). For example in 2015, an average home in Europe or the US could use around 3,000 kilowatt-hour (kWh) in electricity each year. Twelve 280 watt solar PV modules (each generating 250 kWh annually) would generate at least 3,000 kWh each year, even in a cloudy country like the UK. An example market price would be about £8,000 in the UK, $12,000 in the US, or €10,000 in the Eurozone in 2015, which is certain to continually fall, allowing permanent energy independence for each household. Most governments have feed-in tariff systems that allow homeowner to sell surplus energy back into the grid, and make a future profit on their investment.
+
+
+== Theory and construction ==
+
+Solar modules use light energy (photons) from the sun to generate electricity through the photovoltaic effect. The majority of modules use wafer-based crystalline silicon cells or thin-film cells based on cadmium telluride or silicon. The structural (load carrying) member of a module can either be the top layer or the back layer. Cells must also be protected from mechanical damage and moisture. Most solar modules are rigid, but semi-flexible ones are available, based on thin-film cells. These early solar modules were first used in space in 1958.
+Electrical connections are made in series to achieve a desired output voltage and/or in parallel to provide a desired current capability. The conducting wires that take the current off the modules may contain silver, copper or other non-magnetic conductive transition metals. The cells must be connected electrically to one another and to the rest of the system. Externally, popular terrestrial usage photovoltaic modules use MC3 (older) or MC4 connectors to facilitate easy weatherproof connections to the rest of the system.
+Bypass diodes may be incorporated or used externally, in case of partial module shading, to maximize the output of module sections still illuminated.
+Some recent solar module designs include concentrators in which light is focused by lenses or mirrors onto an array of smaller cells. This enables the use of cells with a high cost per unit area (such as gallium arsenide) in a cost-effective way.
+
+
+== Efficiencies ==
+
+Depending on construction, photovoltaic modules can produce electricity from a range of frequencies of light, but usually cannot cover the entire solar range (specifically, ultraviolet, infrared and low or diffused light). Hence, much of the incident sunlight energy is wasted by solar modules, and they can give far higher efficiencies if illuminated with monochromatic light. Therefore, another design concept is to split the light into different wavelength ranges and direct the beams onto different cells tuned to those ranges. This has been projected to be capable of raising efficiency by 50%. Scientists from Spectrolab, a subsidiary of Boeing, have reported development of multijunction solar cells with an efficiency of more than 40%, a new world record for solar photovoltaic cells. The Spectrolab scientists also predict that concentrator solar cells could achieve efficiencies of more than 45% or even 50% in the future, with theoretical efficiencies being about 58% in cells with more than three junctions.
+Currently the best achieved sunlight conversion rate (solar module efficiency) is around 21.5% in new commercial products typically lower than the efficiencies of their cells in isolation. The most efficient mass-produced solar modules have power density values of up to 175 W/m2 (16.22 W/ft2). Research by Imperial College, London has shown that the efficiency of a solar panel can be improved by studding the light-receiving semiconductor surface with aluminum nanocylinders similar to the ridges on Lego blocks. The scattered light then travels along a longer path in the semiconductor which means that more photons can be absorbed and converted into current. Although these nanocylinders have been used previously (aluminum was preceded by gold and silver), the light scattering occurred in the near infrared region and visible light was absorbed strongly. Aluminum was found to have absorbed the ultraviolet part of the spectrum, while the visible and near infrared parts of the spectrum were found to be scattered by the aluminum surface. This, the research argued, could bring down the cost significantly and improve the efficiency as aluminum is more abundant and less costly than gold and silver. The research also noted that the increase in current makes thinner film solar panels technically feasible without "compromising power conversion efficiencies, thus reducing material consumption".
+Efficiencies of solar panel can be calculated by MPP(Maximum power point) value of solar panels
+Solar inverters convert the DC power to AC power by performing MPPT process: solar inverter samples the output Power(I-V curve) from the solar cell and applies the proper resistance (load) to solar cells to obtain maximum power.
+MPP(Maximum power point) of the solar panel consists of MPP voltage(V mpp) and MPP current(I mpp): it is a capacity of the solar panel and the higher value can make higher MPP.
+Micro-inverted solar panels are wired in parallel which produces more output than normal panels which are wired in series with the output of the series determined by the lowest performing panel (this is known as the "Christmas light effect"). Micro-inverters work independently so each panel contributes its maximum possible output given the available sunlight.
+
+
+== Technology ==
+
+Most solar modules are currently produced from crystalline silicon (c-Si) solar cells made of multicrystalline and monocrystalline silicon. In 2013, crystalline silicon accounted for more than 90 percent of worldwide PV production, while the rest of the overall market is made up of thin-film technologies using cadmium telluride, CIGS and amorphous silicon Emerging, third generation solar technologies use advanced thin-film cells. They produce a relatively high-efficiency conversion for the low cost compared to other solar technologies. Also, high-cost, high-efficiency, and close-packed rectangular multi-junction (MJ) cells are preferably used in solar panels on spacecraft, as they offer the highest ratio of generated power per kilogram lifted into space. MJ-cells are compound semiconductors and made of gallium arsenide (GaAs) and other semiconductor materials. Another emerging PV technology using MJ-cells is concentrator photovoltaics (CPV).
+
+
+=== Thin film ===
+In rigid thin-film modules, the cell and the module are manufactured in the same production line. The cell is created on a glass substrate or superstrate, and the electrical connections are created in situ, a so-called "monolithic integration". The substrate or superstrate is laminated with an encapsulant to a front or back sheet, usually another sheet of glass. The main cell technologies in this category are CdTe, or a-Si, or a-Si+uc-Si tandem, or CIGS (or variant). Amorphous silicon has a sunlight conversion rate of 6–12%
+Flexible thin film cells and modules are created on the same production line by depositing the photoactive layer and other necessary layers on a flexible substrate. If the substrate is an insulator (e.g. polyester or polyimide film) then monolithic integration can be used. If it is a conductor then another technique for electrical connection must be used. The cells are assembled into modules by laminating them to a transparent colourless fluoropolymer on the front side (typically ETFE or FEP) and a polymer suitable for bonding to the final substrate on the other side.
+
+
+== Smart solar modules ==
+
+Several companies have begun embedding electronics into PV modules. This enables performing maximum power point tracking (MPPT) for each module individually, and the measurement of performance data for monitoring and fault detection at module level. Some of these solutions make use of power optimizers, a DC-to-DC converter technology developed to maximize the power harvest from solar photovoltaic systems. As of about 2010, such electronics can also compensate for shading effects, wherein a shadow falling across a section of a module causes the electrical output of one or more strings of cells in the module to fall to zero, but not having the output of the entire module fall to zero.
+
+
+== Performance and degradation ==
+Module performance is generally rated under standard test conditions (STC): irradiance of 1,000 W/m², solar spectrum of AM 1.5 and module temperature at 25 °C.
+Electrical characteristics include nominal power (PMAX, measured in W), open circuit voltage (VOC), short circuit current (ISC, measured in amperes), maximum power voltage (VMPP), maximum power current (IMPP), peak power, (watt-peak, Wp), and module efficiency (%).
+Nominal voltage refers to the voltage of the battery that the module is best suited to charge; this is a leftover term from the days when solar modules were only used to charge batteries. The actual voltage output of the module changes as lighting, temperature and load conditions change, so there is never one specific voltage at which the module operates. Nominal voltage allows users, at a glance, to make sure the module is compatible with a given system.
+Open circuit voltage or VOC is the maximum voltage that the module can produce when not connected to an electrical circuit or system. VOC can be measured with a meter directly on an illuminated module's terminals or on its disconnected cable.
+The peak power rating, Wp, is the maximum output under standard test conditions (not the maximum possible output). Typical modules, which could measure approximately 1x2 meters or 2x4 feet, will be rated from as low as 75 watts to as high as 350 watts, depending on their efficiency. At the time of testing, the test modules are binned according to their test results, and a typical manufacturer might rate their modules in 5 watt increments, and either rate them at +/- 3%, +/-5%, +3/-0% or +5/-0%.
+Solar modules must withstand rain, hail, heavy snow load, and cycles of heat and cold for many years. Many crystalline silicon module manufacturers offer a warranty that guarantees electrical production for 10 years at 90% of rated power output and 25 years at 80%.
+Potential induced degradation (also called PID) is a potential induced performance degradation in crystalline photovoltaic modules, caused by so-called stray currents. This effect may cause power loss of up to 30 percent.
+
+
+== Maintenance ==
+Solar panel conversion efficiency, typically in the 20 percent range, is reduced by dust, grime, pollen, and other particulates that accumulate on the solar panel. "A dirty solar panel can reduce its power capabilities by up to 30 percent in high dust/pollen or desert areas", says Seamus Curran, associate professor of physics at the University of Houston and director of the Institute for NanoEnergy, which specializes in the design, engineering, and assembly of nanostructures.
+Paying to have solar panels cleaned is often not a good investment; researchers found panels that hadn’t been cleaned, or rained on, for 145 days during a summer drought in California, lost only 7.4 percent of their efficiency. Overall, for a typical residential solar system of 5 kilowatts, washing panels halfway through the summer would translate into a mere $20 gain in electricity production until the summer drought ends—in about 2 ½ months. For larger commercial rooftop systems, the financial losses are bigger but still rarely enough to warrant the cost of washing the panels. On average, panels lost a little less than 0.05 percent of their overall efficiency per day.
+
+
+== Recycling ==
+Most parts of a solar module can be recycled including up to 97% of certain semiconductor materials or the glass as well as large amounts of ferrous and non-ferrous metals. Some private companies and non-profit organizations are currently engaged in take-back and recycling operations for end-of-life modules.
+Recycling possibilities depend on the kind of technology used in the modules:
+Silicon based modules: aluminum frames and junction boxes are dismantled manually at the beginning of the process. The module is then crushed in a mill and the different fractions are separated - glass, plastics and metals. It is possible to recover more than 80% of the incoming weight. This process can be performed by flat glass recyclers since morphology and composition of a PV module is similar to those flat glasses used in the building and automotive industry. The recovered glass for example is readily accepted by the glass foam and glass insulation industry.
+Non-silicon based modules: they require specific recycling technologies such as the use of chemical baths in order to separate the different semiconductor materials. For cadmium telluride modules, the recycling process begins by crushing the module and subsequently separating the different fractions. This recycling process is designed to recover up to 90% of the glass and 95% of the semiconductor materials contained. Some commercial-scale recycling facilities have been created in recent years by private companies.
+Since 2010, there is an annual European conference bringing together manufacturers, recyclers and researchers to look at the future of PV module recycling.
+
+
+== Production ==
+
+In 2010, 15.9 GW of solar PV system installations were completed, with solar PV pricing survey and market research company PVinsights reporting growth of 117.8% in solar PV installation on a year-on-year basis.
+With over 100% year-on-year growth in PV system installation, PV module makers dramatically increased their shipments of solar modules in 2010. They actively expanded their capacity and turned themselves into gigawatt GW players. According to PVinsights, five of the top ten PV module companies in 2010 are GW players. Suntech, First Solar, Sharp, Yingli and Trina Solar are GW producers now, and most of them doubled their shipments in 2010.
+The basis of producing solar panels revolves around the use of silicon cells. These silicon cells are not efficient enough in their current state and can only convert solar energy in to usable power at a rate of roughly 10-20 percent. In order for solar panels to become more efficient, and therefore more useful in the future, researchers across the world have been trying to develop new technology to make solar panels more effective at turning the sun in to energy.
+in 2014, the world's top ten solar module producers in terms of shipped capacity during the calendar year of 2014 were Trina Solar, Yingli, Sharp Solar and Canadian Solar.
+
+
+== Price ==
+
+Average pricing information divides in three pricing categories: those buying small quantities (modules of all sizes in the kilowatt range annually), mid-range buyers (typically up to 10 MWp annually), and large quantity buyers (self-explanatory—and with access to the lowest prices). Over the long term there is clearly a systematic reduction in the price of cells and modules. For example in 2012 it was estimated that the quantity cost per watt was about US$0.60, which was 250 times lower than the cost in 1970 of US$150.
+Real world prices depend a great deal on local weather conditions. In a cloudy country such as the United Kingdom, price per installed kW is higher than in sunnier countries like Spain.
+Following to RMI, Balance-of-System (BoS) elements, this is, non-module cost of non-microinverter solar modules (as wiring, converters, racking systems and various components) make up about half of the total costs of installations.
+For merchant solar power stations, where the electricity is being sold into the electricity transmission network, the cost of solar energy will need to match the wholesale electricity price. This point is sometimes called 'wholesale grid parity' or 'busbar parity'.
+Some photovoltaic systems, such as rooftop installations, can supply power directly to an electricity user. In these cases, the installation can be competitive when the output cost matches the price at which the user pays for his electricity consumption. This situation is sometimes called 'retail grid parity', 'socket parity' or 'dynamic grid parity'. Research carried out by UN-Energy in 2012 suggests areas of sunny countries with high electricity prices, such as Italy, Spain and Australia, and areas using diesel generators, have reached retail grid parity.
+
+
+== Mounting and tracking ==
+
+Ground mounted photovoltaic system are usually large, utility-scale solar power plants. Their solar modules are held in place by racks or frames that are attached to ground based mounting supports. Ground based mounting supports include:
+Pole mounts, which are driven directly into the ground or embedded in concrete.
+Foundation mounts, such as concrete slabs or poured footings
+Ballasted footing mounts, such as concrete or steel bases that use weight to secure the solar module system in position and do not require ground penetration. This type of mounting system is well suited for sites where excavation is not possible such as capped landfills and simplifies decommissioning or relocation of solar module systems.
+Roof-mounted solar power systems consist of solar modules held in place by racks or frames attached to roof-based mounting supports. Roof-based mounting supports include:
+Pole mounts, which are attached directly to the roof structure and may use additional rails for attaching the module racking or frames.
+Ballasted footing mounts, such as concrete or steel bases that use weight to secure the panel system in position and do not require through penetration. This mounting method allows for decommissioning or relocation of solar panel systems with no adverse effect on the roof structure.
+All wiring connecting adjacent solar modules to the energy harvesting equipment must be installed according to local electrical codes and should be run in a conduit appropriate for the climate conditions
+Solar trackers increase the amount of energy produced per module at a cost of mechanical complexity and need for maintenance. They sense the direction of the Sun and tilt or rotate the modules as needed for maximum exposure to the light. Alternatively, fixed racks hold modules stationary as the sun moves across the sky. The fixed rack sets the angle at which the module is held. Tilt angles equivalent to an installation's latitude are common. Most of these fixed racks are set on poles above ground.
+
+
+== Standards ==
+Standards generally used in photovoltaic modules:
+IEC 61215 (crystalline silicon performance), 61646 (thin film performance) and 61730 (all modules, safety)
+ISO 9488 Solar energy—Vocabulary.
+UL 1703 From Underwriters Laboratories
+UL 1741 From Underwriters Laboratories
+UL 2703 From Underwriters Laboratories
+CE mark
+Electrical Safety Tester (EST) Series (EST-460, EST-22V, EST-22H, EST-110).
+
+
+== Applications ==
+There are many practical applications for the use of solar panels or photovoltaics. It can first be used in agriculture as a power source for irrigation. In health care solar panels can be used to refrigerate medical supplies. It can also be used for infrastructure. PV modules are used in photovoltaic systems and include a large variety of electric devices:
+Photovoltaic power stations
+Rooftop solar PV systems
+Standalone PV systems
+Solar hybrid power systems
+Concentrated photovoltaics
+Solar planes
+Solar-pumped lasers
+Solar vehicles
+Solar panels on spacecrafts and space stations
+
+
+== Future ==
+Varun Sivaram, Samuel Stranks, and Henry Snaith in an article for Scientific American about perovskite solar cells said that the solar panels of tomorrow will be transparent, lightweight, flexible, and ultra-efficient. We will be able to coat shingles or skylights or windows with them — and it’ll all be as cheap as putting up wallpaper. In the future there will be solar panel roads. These roads will be able to support the force of any vehicle driving across it. They will have lights on showing the different lanes instead of reflectors or paint. The lights will be easier to see in the dark. The solar panel road will also have heat radiating from it so that there will be no more problems with snow or ice. The company SolaRoad has installed a 70-meter cycle path in Amsterdam. An American company, Solar Roadways is developing solar panels meant for all types of roads and conditions.
+
+
+== Gallery ==
+
+
+== See also ==
+
+
+== References ==

@@ -1,0 +1,50 @@
+Acoustic absorption refers to the process by which a material, structure, or object takes in sound energy when sound waves are encountered, as opposed to reflecting the energy. Part of the absorbed energy is transformed into heat and part is transmitted through the absorbing body. The energy transformed into heat is said to have been 'lost'.
+When sound from a loudspeaker collides with the walls of a room part of the sound's energy is reflected and part is absorbed into the walls. As the waves travel through the wall they deform the material thereof (just like they deformed the air before). This deformation has mechanical losses which convert part of the sound energy into heat through acoustic attenuation, mostly due to the wall's viscosity. The same attenuating mechanics apply for the air and any other medium through which sound travels.
+The fraction of sound absorbed is governed by the acoustic impedances of both media and is a function of frequency and the incident angle. Size and shape can influence the sound wave's behavior if they interact with its wavelength, giving rise to wave phenomena such as standing waves and diffraction.
+Acoustic absorption is of particular interest in soundproofing. Soundproofing aims to absorb as much sound energy (often in particular frequencies) as possible converting it into heat or transmitting it away from a certain location.
+In general, soft, pliable, or porous materials (like cloths) serve as good acoustic insulators - absorbing most sound, whereas dense, hard, impenetrable materials (such as metals) reflect most.
+How well a room absorbs sound is quantified by the effective absorption area of the walls, also named total absorption area. This is calculated using its dimensions and the absorption coefficients of the walls. The total absorption is expressed in Sabins and is useful in, for instance, determining the reverberation time of auditoria. Absorption coefficients can be measured using a reverberation room, which is the opposite of an anechoic chamber (see below).
+
+
+== Applications ==
+
+Acoustic absorption is critical in areas such as:
+Soundproofing
+Sound recording and reproduction
+Loudspeaker design
+Acoustic transmission lines
+Room acoustics
+Architectural acoustics
+Sonar
+Noise Barrier Walls
+
+
+=== Anechoic chamber ===
+An acoustic anechoic chamber is a room designed to absorb as much sound as possible. The walls consist of a number of baffles with highly absorptive material arranged in such a way that the fraction of sound they do reflect is directed towards another baffle instead of back into the room. This makes the chamber almost devoid of echos which is useful for measuring the sound pressure level of a source and for various other experiments and measurements.
+Anechoic chambers are expensive for several reasons and are therefore not common.
+They must be isolated from outside influences (eg, planes, trains, automobiles, snowmobiles, elevators, pumps, ...; indeed any source of sound which may interfere with measurements inside the chamber) and they must be physically large. The first, environmental isolation, requires in most cases specially constructed, nearly always massive, and likewise thick, walls, floors, and ceilings. Such chambers are often built as spring supported isolated rooms within a larger building. The National Research Council in Canada has a modern anechoic chamber, and has posted a video on the Web, noting these as well as other constructional details. Doors must be specially made, sealing for them must be acoustically complete (no leaks around the edges), ventilation (if any) carefully managed, and lighting chosen to be silent.
+The second requirement follows in part from the first and from the necessity of preventing reverberation inside the room from, say, a sound source being tested. Preventing echoes is almost always done with absorptive foam wedges on walls, floors and ceilings, and if they are to be effective at low frequencies, these must be physically large, and the lower frequencies they must be absorb, the larger they must be.
+An anechoic chamber must therefore be large to accommodate those absorbers and isolation schemes, but still allow for space for experimental apparatus and units under test.
+
+
+== Electrical and mechanical analogy ==
+The energy dissipated within a medium as sound travels through it is analogous to the energy dissipated in electrical resistors or that dissipated in mechanical dampers for mechanical motion transmission systems. All three are equivalent to the resistive part of a system of resistive and reactive elements. The resistive elements dissipate energy (irreversibly into heat) and the reactive elements store and release energy (reversibly, neglecting small losses). The reactive parts of an acoustic medium are determined by its bulk modulus and its density, analogous to respectively an electrical capacitor and an electrical inductor, and analogous to, respectively, a mechanical spring attached to a mass.
+Note that since dissipation solely relies on the resistive element it is independent of frequency. In practice however the resistive element varies with frequency. For instance, vibrations of most materials change their physical structure and so their physical properties; the result is a change in the 'resistance' equivalence. Additionally, the cycle of compression and rarefaction exhibits hysteresis of pressure waves in most materials which is a function of frequency, so for every compression there is a rarefaction, and the total amount of energy dissipated due to hysteresis changes with frequency. Furthermore some materials behave in a non-Newtonian way, which causes their viscosity to change with the rate of shear strain experienced during compression and rarefaction; again, this varies with frequency. Gasses and liquids generally exhibit less hysteresis than solid materials (eg, sound waves cause adiabatic compression and rarefaction) and behave in a, mostly, Newtonian way.
+Combined, the resistive and reactive properties of an acoustic medium form the acoustic impedance. The behaviour of sound waves encountering a different medium is dictated by the differing acoustic impedances. As with electrical impedances, there are matches and mismatches and energy will be transferred for certain frequencies (up to nearly 100%) whereas for others it could be mostly reflected (again, up to very large percentages).
+In amplifier and loudspeaker design electrical impedances, mechanical impedances, and acoustic impedances of the system have to be balanced such that the frequency and phase response least alter the reproduced sound across a very broad spectrum whilst still producing adequate sound levels for the listener. Modelling acoustical systems using the same (or similar) techniques long used in electrical circuits gave acoustical designers a new and powerful design tool.
+
+
+== See also ==
+Soundproofing
+Acoustic attenuation
+Attenuation coefficient
+Anechoic chamber
+Acoustic wave
+Acoustic impedance
+
+
+== References ==
+
+
+== External links ==
+Table of sound absorption coefficients of common solutions used in buildings

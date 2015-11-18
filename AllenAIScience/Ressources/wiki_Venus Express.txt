@@ -1,0 +1,102 @@
+Venus Express (VEX) was the first Venus exploration mission of the European Space Agency (ESA). Launched in November 2005, it arrived at Venus in April 2006 and began continuously sending back science data from its polar orbit around Venus. Equipped with seven scientific instruments, the main objective of the mission was the long term observation of the Venusian atmosphere. The observation over such long periods of time had never been done in previous missions to Venus, and was key to a better understanding of the atmospheric dynamics. It was hoped that such studies can contribute to an understanding of atmospheric dynamics in general, while also contributing to an understanding of climate change on Earth. ESA concluded the mission in December 2014.
+
+
+== History ==
+The mission was proposed in 2001 to reuse the design of the Mars Express mission. However, some mission characteristics led to design changes: primarily in the areas of thermal control, communications and electrical power. For example, since Mars is approximately twice as far from the Sun as Venus is, the radiant heating of the spacecraft is four times greater for Venus Express than Mars Express. Also, the ionizing radiation environment is harsher. On the other hand, the more intense illumination of the solar panels results in more generated photovoltaic power. The Venus Express mission also uses some spare instruments developed for the Rosetta spacecraft. The mission was proposed by a consortium led by D. Titov (Germany), E. Lellouch (France) and F. Taylor (United Kingdom).
+The launch window for Venus Express was open from 26 October to 23 November 2005, with the launch initially set for 26 October 4:43 UTC. However, problems with the insulation from the Fregat upper stage led to a two-week launch delay to inspect and clear out the small insulation debris that migrated on the spacecraft. It was eventually launched by a Soyuz-FG/Fregat rocket from the Baikonur Cosmodrome in Kazakhstan on 9 November 2005 at 03:33:34 UTC into a parking Earth orbit and 1 h 36 min after launch put into its transfer orbit to Venus. A first trajectory correction maneuver was successfully performed on 11 November 2005. It arrived at Venus on 11 April 2006, after 153 days of journey, and fired its main engine between 07:10:29 and 08:00:42 UTC SCET to reduce its velocity so that it could be captured by Venusian gravity into a nine-day orbit of 400 by 330,000 kilometres (250 by 205,050 mi). The burn was monitored from ESA's Control Centre, ESOC, in Darmstadt, Germany.
+Seven further orbit control maneuvers, two with the main engine and five with the thrusters, were required for Venus Express to reach its final operational 24-hour orbit around Venus.
+Venus Express entered its target orbit at apoapsis on 7 May 2006 at 13:31 UTC, when the spacecraft was 151,000,000 kilometres (94,000,000 mi) from Earth. At this point the spacecraft was running on an ellipse substantially closer to the planet than during the initial orbit. The polar orbit ranged between 250 and 66,000 kilometres (160 and 41,010 mi) over Venus. The periapsis is located almost above the North pole (80° North latitude), and it takes 24 hours for the spacecraft to travel around the planet.
+Venus Express studied the Venusian atmosphere and clouds in detail, the plasma environment and the surface characteristics of Venus from orbit. It is also made global maps of the Venusian surface temperatures. Its nominal mission was originally planned to last for 500 Earth days (approximately two Venusian sidereal days), but the mission has been extended three times: first on 28 February 2007 until early May 2009; then on 4 February 2009 until 31 December 2009; and then on 7 October 2009 until 31 December 2012.
+On 22 November 2010, the mission was extended to 2014. On 20 June 2013, the mission was extended until 2015. There were on-board resources for an additional 500 Earth days.
+On 28 November 2014, mission control lost contact with Venus Express. Intermittent contact was reestablished on 3 December 2014, though there was no control over the spacecraft, likely due to exhaustion of propellant. On 16 December 2014, ESA announced that the Venus Express mission had ended. A carrier signal was still being received from the vehicle, but no data was being transmitted. Mission manager Patrick Martin expected the spacecraft would fall below 150 kilometres (93 mi) in early January 2015, with destruction occurring in late January or early February. The spacecraft's carrier signal was last detected by ESA on 18 January 2015.
+
+
+== Instruments ==
+ASPERA-4: An acronym for "Analyzer of Space Plasmas and Energetic Atoms," ASPERA-4 investigated the interaction between the solar wind and the Venusian atmosphere, determine the impact of plasma processes on the atmosphere, determine global distribution of plasma and neutral gas, study energetic neutral atoms, ions and electrons, and analyze other aspects of the near Venus environment. ASPERA-4 is a re-use of the ASPERA-3 design used on Mars Express, but adapted for the harsher near-Venus environment.
+VMC: The Venus Monitoring Camera is a wide-angle, multi-channel CCD. The VMC is designed for global imaging of the planet. It operates in the visible, ultraviolet, and near infrared spectral ranges, and maps surface brightness distribution searching for volcanic activity, monitoring airglow, studying the distribution of unknown ultraviolet absorbing phenomenon at the cloud-tops, and making other science observations. It is derived in part by the Mars Express High Resolution Stereo Camera (HRSC) and the Rosetta Optical, Spectroscopic and Infrared Remote Imaging System (OSIRIS). The camera includes an FPGA to pre-process image data, reducing the amount transmitted to Earth. The consortium of institutions responsible for the VMC includes the Max Planck Institute for Solar System Research, the Institute of Planetary Research at the German Aerospace Center and the Institute of Computer and Communication Network Engineering at Technische Universität Braunschweig. It is not to be confused with Visual Monitoring Camera mounted on Mars Express, of which it is an evolution.
+
+
+=== Magnetometer ===
+MAG: The magnetometer is designed to measure the strength of Venus's magnetic field and the direction of it as affected by the solar wind and Venus itself. It mapped the magnetosheath, magnetotail, ionosphere, and magnetic barrier in high resolution in three-dimensions, aid ASPERA-4 in the study of the interaction of the solar wind with the atmosphere of Venus, identify the boundaries between plasma regions, and carry planetary observations as well (such as the search for and characterization of Venus lightning). MAG is derived from the Rosetta lander's ROMAP instrument.
+One measuring device is placed at the surface of the sonde, the identical second of the pair is placed a necessary distance off the body of the sonde by unfolding a 1 m long boom (carbon composite tube). Two redundant pyrotechnical cutters cut one loop of thin rope to free the power of metal springs. The driven knee lever rotates the boom perpendicularly outwards and latches at last. Only the use of a pair of sensors together with the rotation of the sonde allows to resolve the small natural magnetic field beneath the fields of the disturbing fields of the probe itself. The measurements took place already on the route from Earth to Venus.
+
+
+=== Spectrometer ===
+PFS: The "Planetary Fourier Spectrometer" (PFS) operates in the infrared between the 0.9 µm and 45 µm wavelength range and is designed to perform vertical optical sounding of the Venus atmosphere. It performed global, long-term monitoring of the three-dimensional temperature field in the lower atmosphere (cloud level up to 100 kilometers). Furthermore it searched for minor atmospheric constituents that may be present, but had not yet been detected, analyzed atmospheric aerosols, and investigated surface to atmosphere exchange processes. The design is based on a spectrometer on Mars Express, but modified for optimal performance for the Venus Express mission.
+SPICAV: The "SPectroscopy for Investigation of Characteristics of the Atmosphere of Venus" (SPICAV) is an imaging spectrometer that was used for analyzing radiation in the infrared and ultraviolet wavelengths. It is derived from the SPICAM instrument flown on Mars Express. However, SPICAV has an additional channel known as SOIR (Solar Occultation at Infrared) that was used to observe the Sun through Venus's atmosphere in the infrared.
+VIRTIS: The "Visible and Infrared Thermal Imaging Spectrometer" (VIRTIS) is an imaging spectrometer that observes in the near-ultraviolet, visible, and infrared parts of the electromagnetic spectrum. It analyzed all layers of the atmosphere, surface temperature and surface/atmosphere interaction phenomena.
+
+
+=== Radio science ===
+VeRa: Venus Radio Science is a radio sounding experiment that transmitted radio waves from the spacecraft and passed them through the atmosphere or reflected them off the surface. These radio waves were received by a ground station on Earth for analysis of the ionosphere, atmosphere and surface of Venus. It is derived from the Radio Science Investigation instrument flown on Rosetta.
+
+
+== Science ==
+
+
+=== Climate of Venus ===
+Starting out in the early planetary system with similar sizes and chemical compositions, the histories of Venus and Earth have diverged in spectacular fashion. It is hoped that the Venus Express mission data that was obtained can contribute not only to an in-depth understanding of how the Venusian atmosphere is structured, but also to an understanding of the changes that led to the current greenhouse atmospheric conditions. Such an understanding may contribute to the study of climate change on Earth.
+
+
+=== Search for life on Earth ===
+Venus Express was also used to observe signs of life on Earth from Venus orbit. In images acquired by the probe, Earth was less than one pixel in size, which mimics observations of Earth-sized planets in other solar systems. These observations were then used to develop methods for habitability studies of exoplanets.
+
+
+== Important events and discoveries ==
+Important events for Venus Express include:
+3 August 2005: Venus Express completed its final phase of testing at Astrium Intespace facility in Toulouse, France. It flew on an Antonov An-124 cargo aircraft via Moscow, before arriving at Baikonur on 7 August.
+7 August 2005: Venus Express arrived at the airport of the Baikonur Cosmodrome.
+16 August 2005: First flight verification test completed.
+22 August 2005: Integrated System Test-3.
+30 August 2005: Last Major System Test Successfully Started.
+5 September 2005: Electrical Testing Successful.
+21 September 2005: FRR (Fuelling Readiness Review) Ongoing.
+12 October 2005: Mating to the Fregat upper stage completed.
+21 October 2005: Contamination detected inside the fairing — launch on hold.
+5 November 2005: Arrival at launch pad.
+9 November 2005: Launch from Baikonur Cosmodrome at 03:33:34 UTC.
+11 November 2005: First trajectory correction maneuver successfully performed.
+17 February 2006: The main engine is fired successfully in a dress rehearsal for the arrival maneuver.
+24 February 2006: Second trajectory correction maneuver successfully performed.
+29 March 2006: Third trajectory correction maneuver successfully performed - on target for 11 April orbit insertion.
+7 April 2006: Command stack for orbit insertion maneuver is loaded on the spacecraft.
+11 April 2006: The Venus Orbit Insertion (VOI) is completed successfully, according to the following timeline:
+
+Period of this initial orbit is nine days.
+
+13 April 2006: First images of Venus from Venus Express released.
+20 April 2006: Apoapsis Lowering Manoeuvre #1 performed. Orbital period is now 40 hours.
+23 April 2006: Apoapsis Lowering Manoeuvre #2 performed. Orbital period is now approx 25 hours 43 minutes.
+26 April 2006: Apoapsis Lowering Manoeuvre #3 is slight fix to previous ALM.
+7 May 2006: Venus Express entered its target orbit at apoapsis at 13:31 UTC
+14 December 2006: First temperature map of the southern hemisphere.
+27 February 2007: ESA agrees to fund mission extension until May 2009.
+19 September 2007: End of the nominal mission (500 Earth days) - Start of mission extension.
+27 November 2007: The scientific journal Nature publishes a series of papers giving the initial findings. It finds evidence for past oceans. It confirms the presence of lightning on Venus and that it is more common on Venus than it is on Earth. It also reports the discovery that a huge double atmospheric vortex exists at the south pole of the planet.
+20 May 2008: The detection by the VIRTIS instrument on Venus Express of hydroxyl (OH) in the atmosphere of Venus is reported in the May 2008 issue of Astronomy and Astrophysics.
+4 February 2009: ESA agrees to fund mission extension until 31 December 2009.
+7 October 2009: ESA agrees to fund the mission through 31 December 2012.
+23 November 2010: ESA agrees to fund the mission through 31 December 2014.
+25 August 2011: It is reported that a layer of ozone exists in the upper atmosphere of Venus.
+1 October 2012: It is reported that a cold layer where dry ice may precipate exists in the atmosphere of Venus.
+18 June—11 July 2014: Performs successful aerobraking experiment.
+28 November 2014: Mission control loses contact with Venus Express.
+3 December 2014: Intermittent contact established, spacecraft determined to likely be out of propellant.
+16 December 2014: ESA declares the Venus Express mission over.
+18 January 2015: Last detection of the spacecraft's X-band carrier signal.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Dambeck, Thorsten (2009). "The Blazing Hell Behind the Veil" (PDF). MaxPlanckResearch (4): 26–33. B56133. 
+
+
+== External links ==
+Venus Express mission page by the European Space Agency
+Venus Express mission page by ESA Spacecraft Operations
+Venus Express profile by NASA's Solar System Exploration

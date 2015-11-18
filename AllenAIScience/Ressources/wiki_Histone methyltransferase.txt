@@ -1,0 +1,78 @@
+Histone methyltransferases (HMT) are histone-modifying enzymes (e.g., histone-lysine N-methyltransferases and histone-arginine N-methyltransferases), that catalyze the transfer of one, two, or three methyl groups to lysine and arginine residues of histone proteins. The attachment of methyl groups occurs predominantly at specific lysine or arginine residues on histones H3 and H4. Two major types of histone methyltranferases exist, lysine-specific (which can be SET (Su(var)3-9, Enhancer of Zeste, Trithorax) domain containing or non-SET domain containing) and arginine-specific. In both types of histone methyltransferases, cofactor S-Adenosyl methionine (SAM) serves as a cofactor and methyl donor group.  In eukaryotic cells, the genome is tightly condensed into chromatin (composed of DNA and histone proteins), so enzymes, such as histone methyltransferases, must overcome this inaccessibility. Histone methyltransferase does so by modifying histones at certain sites through methylation. Methylation of histones is important biologically because it is the principal epigenetic modification of chromatin that determines gene expression, genomic stability, stem cell maturation, cell lineage development, genetic imprinting, DNA methylation, and cell mitosis. 
+
+
+== Types ==
+The class of lysine-specific histone methyltransferases is subdivided into SET domain-containing and non-SET domain-containing. As indicated by their monikers, these differ in the presence of a SET domain, which is a type of protein domain.
+Human genes encoding proteins with histone methyltransferase activity include:
+ASH1L
+DOT1L
+EHMT1, EHMT2, EZH1, EZH2
+MLL, MLL2, MLL3, MLL4, MLL5
+NSD1
+PRDM2
+SET, SETBP1, SETD1A, SETD1B, SETD2, SETD3, SETD4, SETD5, SETD6, SETD7, SETD8, SETD9, SETDB1, SETDB2
+SETMAR, SMYD1, SMYD2, SMYD3, SMYD4, SMYD5, SUV39H1, SUV39H2, SUV420H1, SUV420H2
+
+
+=== SET domain-containing lysine-specific ===
+
+
+==== Structure ====
+The structures involved in methyltransferase activity are the SET domain (composed of approximately 130 amino acids), the pre-SET, and the post-SET domains. The pre-SET and post-SET domains flank the SET domain on either side. The pre-SET region contains cysteine residues that form triangular zinc clusters, tightly binding the zinc atoms and stabilizing the structure. The SET domain itself contains a catalytic core rich in β-strands that, in turn, make up several regions of β-sheets. Often, the β-strands found in the pre-SET domain will form β-sheets with the β-strands of the SET domain, leading to slight variations to the SET domain structure. These small changes alter the target residue site specificity for methylation and allow the SET domain methyltransferases to target many different residues. This interplay between the pre-SET domain and the catalytic core is critical for enzyme function.
+
+
+==== Catalytic mechanism ====
+In order for the reaction to proceed, S-Adenosyl methionine (SAM) and the lysine residue of the substrate histone tail must first be bound and properly oriented in the catalytic pocket of the SET domain. Next, a nearby tyrosine residue deprotonates the ε-amino group of the lysine residue. The lysine chain then makes a nucleophilic attack on the methyl group on the sulfur atom of the SAM molecule, transferring the methyl group to the lysine side chain.
+
+
+=== Non-SET domain-containing lysine-specific ===
+Instead of SET, non-SET domain-containing histone methyltransferase utilizes the enzyme Dot1. Unlike the SET domain, which targets the lysine tail region of the histone, Dot1 methylates a lysine residue in the globular core of the histone, and is the only enzyme known to do so. A possible homolog of Dot1 was found in archaea which shows the ability to methylate archaeal histone-like protein in recent studies.
+
+
+==== Structure ====
+The N terminal of Dot1 contains the active site. A loop serving as the binding site for SAM links the N-terminal and the C-terminal domains of the Dot1 catalytic domain. The C-terminal is important for the substrate specificity and binding of Dot1 because the region carries a positive charge, allowing for a favorable interaction with the negatively charged backbone of DNA. Due to structural constraints, Dot1 is only able to methylate histone H3.
+
+
+=== Arginine-specific ===
+There are two different types of protein arginine methyltransferases (PRMTs) and three types of methylation that can occur at arginine residues on histone tails. The first type of PRMTs (PRMT1, PRMT3, CARM1⧸PRMT4, and Rmt1⧸Hmt1) produce monomethylarginine and asymmetric dimethylarginine. The second type (JBP1⧸PRMT5) produces monomethyl or symmetric dimethylarginine. The differences in the two types of PRMTs arise from restrictions in the arginine binding pocket.
+
+
+==== Structure ====
+The catalytic domain of PRMTs consists of a SAM binding domain and substrate binding domain (about 310 amino acids in total). Each PRMT has a unique N-terminal region and a catalytic core. The arginine residue and SAM must be correctly oriented within the binding pocket. SAM is secured inside the pocket by a hydrophobic interaction between an adenine ring and a phenyl ring of a phenylalanine.
+
+
+==== Catalytic Mechanism ====
+A glutamate on a nearby loop interacts with nitrogens on the target arginine residue. This interaction redistributes the positive charge and leads to the deprotonation of one nitrogen group, which can then make a nucleophilic attack on the methyl group of SAM. Differences between the two types of PRMTs determine the next methylation step: either catalyzing the dimethylation of one nitrogen or allowing the symmetric methylation of both groups. However, in both cases the proton stripped from the nitrogen is dispersed through a histidine–aspartate proton relay system and released into the surrounding matrix.
+
+
+== Role in gene regulation ==
+Histone methylation plays an important role in epigenetic gene regulation. Methylated histones can either repress or activate transcription as different experimental findings suggest. For example, it is likely that the methylation of lysine 9 on histone H3 (H3K9me3) in the promoter region of genes prevents excessive expression of these genes and, therefore, delays cell cycle transition and/or proliferation. See Histone#Chromatin regulation.
+
+
+== Disease relevance ==
+Abnormal expression or activity of methylation-regulating enzymes has been noted in some types of human cancers, suggesting associations between histone methylation and malignant transformation of cells or formation of tumors. In recent years, epigenetic modification of the histone proteins, especially the methylation of the histone H3, in cancer development has been an area of emerging research. It is now generally accepted that in addition to genetic aberrations, cancer can be initiated by epigenetic changes in which gene expression is altered without genomic abnormalities. These epigenetic changes include loss or gain of methylations in both DNA and histone proteins.
+There is not yet compelling evidence that suggests cancers develop purely by abnormalities in histone methylation or its signaling pathways, however they may be a contributing factor. For example, down-regulation of methylation of lysine 9 on histone 3 (H3K9me3) has been observed in several types of human cancer (such as colorectal cancer, ovarian cancer, and lung cancer), which arise from either the deficiency of H3K9 methyltransferases or elevated activity or expression of H3K9 demethylases.
+
+
+== Further research ==
+Histone methyltransferase may be able to be used as biomarkers for the diagnosis and prognosis of cancers. Additionally, many questions still remain about the function and regulation of histone methyltransferases in malignant transformation of cells, carcinogenesis of the tissue, and tumorigenesis.
+
+
+== See also ==
+Histone-Modifying Enzymes
+Histone acetyltransferase (HAT)
+Histone deacetylase (HDAC)
+RNA polymerase control by chromatin structure
+Histone methylation
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+GeneReviews/NCBI/NIH/UW entry on Kleefstra Syndrome
+Histone-Lysine N-Methyltransferase at the US National Library of Medicine Medical Subject Headings (MeSH)
+Protein-Arginine N-Methyltransferase at the US National Library of Medicine Medical Subject Headings (MeSH)

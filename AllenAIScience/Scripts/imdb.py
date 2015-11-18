@@ -102,7 +102,7 @@ def load_data(path="imdb.pkl", n_words=100000, valid_portion=0.1, maxlen=None,
 
     # Load the dataset
     path = get_dataset_file(
-        path, "imdb.pkl",
+        "imdb.pkl", "imdb.pkl",
         "http://www.iro.umontreal.ca/~lisa/deep/data/imdb.pkl")
 
     if path.endswith(".gz"):

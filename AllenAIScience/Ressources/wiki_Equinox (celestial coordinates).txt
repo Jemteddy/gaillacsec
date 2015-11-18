@@ -1,0 +1,47 @@
+In astronomy, equinox is a moment in time at which the vernal point, celestial equator, and other such elements are taken to be used in the definition of a celestial coordinate system. The position at other equinoxes can be computed by taking into account precession, nutation and aberration, which directly affect e.g. right ascension and declination.
+In contrast "epoch" is a moment in time for which a given position of an astronomical object is valid. The position at other epochs can be computed by taking into account proper motion, parallax and/or orbital elements.
+In the case of orbital elements for objects within the solar system, only a few of the classical orbital elements are affected by a switch of equinox: the longitude of the ascending node, and (to a much lesser extent) the inclination. If another set of orbital elements are used, such as the position and velocity vectors for a particular epoch, all components can be affected by a switch of equinox.
+Equinox is often confused with epoch with the difference between the two being that the equinox addresses changes in the coordinate system, while the epoch addresses changes in the position of the celestial body itself. The currently used standard equinox (and epoch) is J2000.0, which is January 1, 2000 at 12:00 TT. The prefix "J" indicates that it is a Julian epoch. The previous standard equinox (and epoch) was B1950.0, with the prefix "B" indicating it was a Besselian epoch. Before 1984 Besselian equinoxes and epochs were used. Since that time Julian equinoxes and epochs have been used.
+Other equinoxes/epochs that have been used include:
+The Bonner Durchmusterung started by Friedrich Wilhelm August Argelander uses B1855.0
+The Henry Draper Catalog uses B1900.0
+Constellation boundaries were defined in 1930 along lines of right ascension and declination for the B1875.0 epoch.
+Occasionally, non-standard equinoxes have been used, such as B1925.0 and B1970.0
+The Hipparcos Catalog uses the ICRS coordinate system (which is essentially equinox J2000.0) but uses an epoch of J1991.25. For objects with a significant proper motion assuming that the epoch is J2000.0 leads to a large position error. Assuming that the equinox is J1991.25 leads to a large error for nearly all objects.
+Epochs and equinoxes for orbital elements are usually given in Terrestrial Time, in several different formats, including:
+Gregorian date with 24-hour time: 2000 January 1, 12:00 TT
+Gregorian date with fractional day: 2000 January 1.5 TT
+Julian day with fractional day: JDT 2451545.0
+NASA/NORAD's Two-line elements format with fractional day: 00001.50000000
+
+
+== Besselian equinoxes/epochsEdit ==
+A Besselian epoch, named after the German mathematician and astronomer Friedrich Bessel (1784–1846), is an epoch that is based on a Besselian year of 365.242198781 days, which is a tropical year measured at the point where the Sun's longitude is exactly 280°. Since 1984, Besselian equinoxes and epochs have been superseded by Julian equinoxes and epochs. The current standard equinox and epoch is J2000.0, which is a Julian epoch.
+Besselian epochs are calculated according to:
+B = 1900.0 + (Julian date − 2415020.31352) / 365.242198781
+The previous standard equinox and epoch were B1950.0, a Besselian epoch.
+Since the right ascension and declination of stars are constantly changing due to precession, astronomers always specify these with reference to a particular equinox. Historically used Besselian equinoxes include B1875.0, B1900.0, B1925.0 and B1950.0. The official constellation boundaries were defined in 1930 using B1875.0.
+
+
+== Julian equinoxes/epochsEdit ==
+A Julian epoch is an epoch that is based on Julian years of exactly 365.25 days. Since 1984, Julian epochs are used in preference to the earlier Besselian epochs.
+Julian epochs are calculated according to:
+J = 2000.0 + (Julian date − 2451545.0)/365.25
+The standard equinox and epoch currently in use are J2000.0, which corresponds to January 1, 2000 12:00 Terrestrial Time.
+
+
+=== J2000.0Edit ===
+The J2000.0 epoch is precisely Julian date 2451545.0 TT (Terrestrial Time), or January 1, 2000, noon TT. This is equivalent to January 1, 2000, 11:59:27.816 TAI or January 1, 2000, 11:58:55.816 UTC.
+Since the right ascension and declination of stars are constantly changing due to precession, (and, for relatively nearby stars due to proper motion), astronomers always specify these with reference to a particular epoch. The earlier epoch that was in standard use was the B1950.0 epoch.
+When the mean equator and equinox of J2000 are used to define a celestial reference frame, that frame may also be denoted J2000 coordinates or simply J2000. Technically, this is different from, but similar to, the International Celestial Reference System (ICRS): the mean equator and equinox at J2000.0 are distinct from and of lower precision than ICRS, but agree with ICRS to the limited precision of the former. Use of the "mean" locations means that nutation is averaged out or omitted. Novices are sometimes confused by finding that the Earth's rotational North pole does not point quite at the J2000 celestial pole at the epoch J2000.0; the reason is that the true pole of epoch nutates away from the mean one. The same differences pertain to the equinox.
+The "J" in the prefix indicates that it is a Julian equinox/epoch rather than a Besselian equinox/epoch.
+
+
+== External linksEdit ==
+Celestial Coordinate System, UTK
+
+
+== ReferencesEdit ==
+^ Astronomy on the Personal Computer, p. 20. Google books. Retrieved July 13, 2007. 
+^ Perryman, M.A.C.; et al. (1997). "The Hipparcos Catalogue". Astronomy & Astrophysics 323: L49–L52. 
+^ Hilton, J. L. and Hohenkerk, C. Y. (2004). "Rotation matrix from the mean dynamical equator and equinox at J2000.0 to the ICRS". Astronomy & Astrophysics 413: 765–770. Bibcode:2004A&A...413..765H. doi:10.1051/0004-6361:20031552.

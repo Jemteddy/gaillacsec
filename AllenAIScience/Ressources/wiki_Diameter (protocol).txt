@@ -1,0 +1,120 @@
+Diameter is an authentication, authorization, and accounting protocol for computer networks. It evolved from and replaces the much less capable RADIUS protocol that preceded it.
+Diameter Applications extend the base protocol by adding new commands and/or attributes, such as those for use with the Extensible Authentication Protocol (EAP).
+
+
+== Comparison with RADIUS ==
+The name is a play on words, derived from the RADIUS protocol, which is the predecessor (a diameter is twice the radius). Diameter is not directly backwards compatible but provides an upgrade path for RADIUS. The main features provided by Diameter but lacking in RADIUS are:
+Support for SCTP
+Capability negotiation
+Application layer acknowledgements, Diameter defines failover methods and state machines (RFC 3539)
+Extensibility; new commands can be defined
+Aligned on 32-bit boundaries
+
+
+== Applications ==
+A Diameter Application is not a software application but is a protocol based on the Diameter base protocol defined in RFC 6733 (Obsoletes: RFC 3588). Each application is defined by an application identifier and can add new command codes and/or new mandatory AVPs (Attribute-Value Pair). Adding a new optional AVP does not require a new application.
+Examples of Diameter applications:
+Diameter Mobile IPv4 Application (MobileIP, RFC 4004)
+Diameter Network Access Server Application (NASREQ, RFC 4005)
+Diameter Extensible Authentication Protocol Application (RFC 4072)
+Diameter Credit-Control Application (DCCA, RFC 4006)
+Diameter Session Initiation Protocol Application (RFC 4740)
+Various applications in the 3GPP IP Multimedia Subsystem
+
+Both the HSS and the SLF communicate using the Diameter protocol.
+
+(Generic Bootstrapping Architecture): Bootstrapping Server Function
+
+
+== History ==
+The Diameter protocol was initially developed by Pat R. Calhoun, Glen Zorn, and Ping Pan in 1998 to provide a framework for authentication, authorization and accounting (AAA) that could overcome the limitations of RADIUS. RADIUS had issues with reliability, scalability, security and flexibility. RADIUS cannot deal effectively with remote access, IP mobility and policy control. The Diameter protocol defines a policy protocol used by clients to perform policy, AAA, and resource control. This allows a single server to handle policies for many services.
+Like RADIUS, Diameter provides AAA functionality, but it is using TCP and SCTP instead of UDP, therefore logic for detection of communication problems is not included in the Diameter protocol itself. The Diameter protocol is enhanced further by the development of the 3rd Generation Partnership Project (3GPP) IP Multimedia Subsystem (IMS). The Cx, Dh, Dx, Rf, Ro, and Sh interfaces are supported by Diameter applications. Through the use of extensions, the protocol was designed to be extensible to support proxies, brokers, strong security, mobile IP, network-access servers (NASREQ), accounting and resource management.
+
+
+== Protocol Description ==
+The Diameter base protocol is defined by RFC 6733 (Obsoletes: RFC 3588) and defines the minimum requirements for an AAA protocol. Diameter Applications can extend the base protocol by adding new commands, attributes, or both. Diameter security is provided by IPsec or TLS. The IANA has assigned TCP and SCTP port number 3868 to Diameter.
+
+
+=== Packet Format ===
+The packet consists of a Diameter header and a variable number of Attribute-Value Pairs, or AVPs, for encapsulating information relevant to the Diameter message.
+
+
+=== Version ===
+This field indicates the version of the Diameter Base Protocol. As of 2014, the only value supported is 1.
+
+
+=== Message Length ===
+The Message Length field indicates the length of the Diameter message including the header fields and the padded AVPs.
+
+
+=== Command Codes ===
+The "R" (Request) bit – If set, the message is a request. If cleared, the message is an answer.
+The "P" (Proxiable) bit – If set, the message MAY be proxied, relayed or redirected. If cleared, the message MUST be locally processed.
+The "E" (Error) bit – If set, the message contains a protocol error, and the message will not conform to the ABNF described for this command. Messages with the "E" bit set are commonly referred to as error messages. This bit MUST NOT be set in request messages.
+The "T" (Potentially re-transmitted message) bit – This flag is set after a link failover procedure, to aid the removal of duplicate requests. It is set when resending requests not yet acknowledged as an indication of a possible duplicate due to a link failure.
+
+
+=== Commands ===
+Each command Request/Answer pair is assigned a command code, and the request or answer is identified via the ’R’ bit in the Command Flags field of the header.
+The values 0-255 are reserved for RADIUS backward compatibility. The values 256-16777213 are for permanent, standard commands allocated by IANA. The values 16777214 and 16777215 (hex 0xFFFFFE and 0xFFFFFF) are reserved for experimental and testing purposes.
+A Command Code is used to determine the action that is to be taken for a particular message. Some common Diameter commands defined in the protocol (base and applications) are:
+
+
+=== Application-ID ===
+Application-ID is used to identify for which Diameter application the message is applicable. The application can be an authentication application, an accounting application, or a vendor-specific application.
+Diameter agents conforming to a certain Diameter extension publicize its support by including a specific value of in the Auth-Application-Id Attribute of the Capabilities-Exchange-Request (CER) and Capabilities-Exchange-Answer (CEA) command.
+The value of the Application-ID field in the header is the same as any relevant Application-Id AVPs contained in the message. For instance, the value of the Application-ID and the of Auth-Application-Id Attribute in the Credit-Control-Request (CCR) and Credit-Control-Answer (CCA) Command for the Diameter Credit-Control Application is 4.
+
+
+=== Hop-by-Hop Identifier ===
+The Hop-by-Hop Identifier is an unsigned 32-bit integer field (in network byte order) that is used to match the requests with their answers as the same value in the request is used in the response.
+The Diameter protocol requires that relaying and proxying agents maintain transaction state, which is used for failover purposes. Transaction state implies that upon forwarding a request, its Hop-by-Hop Identifier is saved; the field is replaced with a locally unique identifier, which is restored to its original value when the corresponding answer is received. The request’s state is released upon receipt of the answer. Received answers that do not match a known Hop-by-Hop Identifier are ignored by the Diameter agent.
+In case of redirecting agents, the Hop-by-Hop Identifier is maintained in the header as the Diameter agent responds with an answer message.
+
+
+=== End-to-End Identifier ===
+The End-to-End Identifier is an unsigned 32-bit integer field (in network byte order) that is used to detect duplicate messages along with the combination of the Origin-Host AVP.
+When creating a request, the End-to-End Identifier is set to a locally unique value. The End-to-End Identifier is not modified by Diameter agents of any kind, and the same value in the corresponding request is used in the answer.
+
+
+=== Attribute-Value Pairs (AVP) ===
+For simplicity, "V" bit Means Vendor Specific; "M" bit means Mandatory; "P" bit means Protected.
+The "V" bit, known as the Vendor-Specific bit, indicates whether the optional Vendor-ID field is present in the AVP header. When set the AVP Code belongs to the specific vendor code address space.
+The "M" bit, known as the Mandatory bit, indicates whether support of the AVP is required. If an AVP with the "M" bit set is received by a Diameter client, server, proxy, or translation agent and either the AVP or its value is unrecognized, the message must be rejected. Diameter Relay and redirect agents must not reject messages with unrecognized AVPs.
+The "P" bit indicates the need for encryption for end-to-end security.
+
+
+=== State machines ===
+The RFC 3588 defines a core state machine for maintaining connections between peers and processing messages. This is part of the basic protocol functionality and all stacks should support it and as such abstract from the connectivity related operations.
+
+Additionally, application specific state machines can be introduced either later or at a higher abstraction layer. The RFC 3588 defines an authorization and an accounting state machine.
+
+
+=== Message flows ===
+
+The communication between two diameter peers starts with the establishment of a transport connection (TCP or SCTP). The initiator then sends a Capabilities-Exchange-Request (CER) to the other peer, which responds with a Capabilities-Exchange-Answer (CEA). For RFC3588 compliant peers TLS (Transport Layer Security) may optionally be negotiated. For RFC6733 compliant peers TLS negotiation may optionally happen before the CER/CEA.
+The connection is then ready for exchanging application messages.
+If no messages have been exchanged for some time either side may send a Device-Watchdog-Request (DWR) and the other peer must respond with Device-Watchdog-Answer.
+Either side may terminate the communication by sending a Disconnect-Peer-Request (DPR) which the other peer must respond to with Disconnect-Peer-Answer. After that the transport connection can be disconnected.
+
+
+== RFCs ==
+The Diameter protocol is currently defined in the following IETF RFCs: Obsolete RFCs are indicated with strikethrough text.
+
+
+== See also ==
+List of authentication protocols
+Host Identity Protocol (HIP)
+
+
+== References ==
+
+
+== External links ==
+Introduction to Diameter - Get the next generation AAA protocol
+Cisco page outlining differences between RADIUS and DIAMETER
+Diameter: next generation’s AAA protocol Paper about Diameter by Håkan Ventura
+The Open IMS Core JavaDiameterPeer The Open IMS Core JavaDiameterPeer
+freeDiameter, open-source implementation of Diameter Base Protocol and Extensions
+go-diameter, open-source implementation of Diameter Base Protocol for the Go programming language
+Reference page listing vendors of Diameter Gateways, Diameter Signaling Controllers and Diameter Stacks

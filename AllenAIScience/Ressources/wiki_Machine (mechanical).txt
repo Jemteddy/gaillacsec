@@ -1,0 +1,131 @@
+Machines employ power to achieve desired forces and movement (motion). A machine has a power source and actuators that generate forces and movement, and a system of mechanisms that shape the actuator input to achieve a specific application of output forces and movement. Modern machines often include computers and sensors that monitor performance and plan movement, and are called mechanical systems.
+The meaning of the word "machine" is traced by the Oxford English Dictionary to an independently functioning structure and by Merriam-Webster Dictionary to something that has been constructed. This includes human design into the meaning of machine.
+The adjective "mechanical" refers to skill in the practical application of an art or science, as well as relating to or caused by movement, physical forces, properties or agents such as is dealt with by mechanics. Similarly Merriam-Webster Dictionary defines "mechanical" as relating to machinery or tools.
+Power flow through a machine provides a way to understand the performance of devices ranging from levers and gear trains to automobiles and robotic systems. The German mechanician Franz Reuleaux wrote "a machine is a combination of resistant bodies so arranged that by their means the mechanical forces of nature can be compelled to do work accompanied by certain determinate motion." Notice that forces and motion combine to define power.
+More recently, Uicker et al. stated that a machine is "a device for applying power or changing its direction." And McCarthy and Soh describe a machine as a system that "generally consists of a power source and a mechanism for the controlled use of this power."
+
+
+== Simple machinesEdit ==
+The idea that a machine can be decomposed into simple movable elements led Archimedes to define the lever, pulley and screw as simple machines. By the time of the Renaissance this list increased to include the wheel and axle, wedge and inclined plane. The modern approach to characterizing machines focusses on the components that allow movement, known as joints.
+
+Wedge (hand axe): Perhaps the first example of a device designed to manage power is the hand axe, also see biface and Olorgesailie. A hand axe is made by chipping stone, generally flint, to form a bifacial edge, or wedge. A wedge is a simple machine that transforms lateral force and movement of the tool into a transverse splitting force and movement of the workpiece. The available power is limited by the effort of the person using the tool, but because power is the product of force and movement, the wedge amplifies the force by reducing the movement. This amplification, or mechanical advantage is the ratio of the input speed to output speed. For a wedge this is given by 1/tanα, where α is the tip angle. The faces of a wedge are modeled as straight lines to form a sliding or prismatic joint.
+Lever: The lever is another important and simple device for managing power. This is a body that pivots on a fulcrum. Because the velocity of a point farther from the pivot is greater than the velocity of a point near the pivot, forces applied far from the pivot are amplified near the pivot by the associated decrease in speed. If a is the distance from the pivot to the point where the input force is applied and b is the distance to the point where the output force is applied, then a/b is the mechanical advantage of the lever. The fulcrum of a lever is modeled as a hinged or revolute joint.
+Wheel: The wheel is clearly an important early machine, such as the chariot. A wheel uses the law of the lever to reduce the force needed to overcome friction when pulling a load. To see this notice that the friction associated with pulling a load on the ground is approximately the same as the friction in a simple bearing that supports the load on the axle of a wheel. However, the wheel forms a lever that magnifies the pulling force so that it overcomes the frictional resistance in the bearing.
+
+
+== Power sourcesEdit ==
+
+Natural forces such as wind and water powered larger mechanical systems. Waterwheels appeared around the world around 300 BC to use flowing water to generate rotary motion, which was applied to milling grain, and powering lumber, machining and textile operations. Modern water turbines use water flowing through a dam to drive an electric generator. Early windmills captured wind power to generate rotary motion for milling operations. Modern wind turbines also drives a generator. This electricity in turn is used to drive motors forming the actuators of mechanical systems.
+The word engine derives from "ingenuity" and originally referred to contrivances that may or may not be physical devices. See Merriam-Webster's definition of engine. A steam engine uses heat to boil water contained in a pressure vessel; the expanding steam drives a piston or a turbine. This principle can be seen in the aeolipile of Hero of Alexandria. This is called an external combustion engine.
+An automobile engine is called an internal combustion engine because it burns fuel (an exothermic chemical reaction) inside a cylinder and uses the expanding gases to drive a piston. A jet engine uses a turbine to compress air which is burned with fuel so that it expands through a nozzle to provide thrust to an aircraft, and so is also an "internal combustion engine."
+The heat from coal and natural gas combustion in a boiler generates steam that drives a steam turbine to rotate an electric generator. A nuclear power plant uses heat from a nuclear reactor to generate steam and electric power. This power is distributed through a network of transmission lines for industrial and individual use. Electric motors use either AC or DC electric current to generate rotational movement. Electric servomotors are the actuators for mechanical systems ranging from robotic systems to modern aircraft. Hydraulic and pneumatic systems use electrically driven pumps to drive water or air respectively into cylinders to power linear movement.
+
+
+== MechanismsEdit ==
+A machine consists of an actuator input, a system of mechanisms that generate the output forces and movement, and an interface to the user. Electric motors, hydraulic and pneumatic actuators provide the input forces and movement. This input is shaped by mechanisms consisting of gears and gear trains, belt and chain drives, cam and follower mechanisms, and linkages as well as friction devices such as brakes and clutches. Structural components consist of the frame, fasteners, bearings, springs, lubricants and seals, as well as a variety of specialized machine elements such as splines, pins and keys. The user interface ranges from switches and buttons to programmable logic controllers and includes the covers that provide texture, color and styling.
+
+
+=== Gears and gear trainsEdit ===
+
+The transmission of rotation between contacting toothed wheels can be traced back to the Antikythera mechanism of Greece and the south-pointing chariot of China. Illustrations by the renaissance scientist Georgius Agricola show gear trains with cylindrical teeth. The implementation of the involute tooth yielded a standard gear design that provides a constant speed ratio. Some important features of gears and gear trains are:
+The ratio of the pitch circles of mating gears defines the speed ratio and the mechanical advantage of the gear set.
+A planetary gear train provides high gear reduction in a compact package.
+It is possible to design gear teeth for gears that are non-circular, yet still transmit torque smoothly.
+The speed ratios of chain and belt drives are computed in the same way as gear ratios. See bicycle gearing.
+
+
+=== Cam and follower mechanismsEdit ===
+A cam and follower is formed by the direct contact of two specially shaped links. The driving link is called the cam (also see cam shaft) and the link that is driven through the direct contact of their surfaces is called the follower. The shape of the contacting surfaces of the cam and follower determines the movement of the mechanism.
+
+
+=== LinkagesEdit ===
+
+A linkage is a collection of links connected by joints. Generally, the links are the structural elements and the joints allow movement. Perhaps the single most useful example is the planar four-bar linkage. However, there are many more special linkages:
+Watt's linkage is a four-bar linkage that generates an approximate straight line. It was critical to the operation of his design for the steam engine. This linkage also appears in vehicle suspensions to prevent side-to-side movement of the body relative to the wheels. Also see the article Parallel motion.
+The success of Watt's linkage lead to the design of similar approximate straight-line linkages, such as Hoeken's linkage and Chebyshev's linkage.
+The Peaucellier linkage generates a true straight-line output from a rotary input.
+The Sarrus linkage is a spatial linkage that generates straight-line movement from a rotary input. Select this link for an animation of the Sarrus linkage
+The Klann linkage and the Jansen linkage are recent inventions that provide interesting walking movements. They are respectively a six-bar and an eight-bar linkage.
+
+
+=== Flexure mechanismsEdit ===
+A flexure mechanism consists of a series of rigid bodies connected by compliant elements (also known as flexure joints) that is designed to produce a geometrically well-defined motion upon application of a force.
+
+
+== Structural componentsEdit ==
+A number of machine elements provide important structural functions such as the frame, bearings, splines, spring and seals.
+The recognition that the frame of a mechanism is an important machine element changed the name three-bar linkage into four-bar linkage. Frames are generally assembled from truss or beam elements.
+Bearings are components designed to manage the interface between moving elements and are the source of friction in machines. In general, bearings are designed for pure rotation or straight line movement.
+Splines and keys are two ways to reliably mount an axle to a wheel, pulley or gear so that torque can be transferred through the connection.
+Springs provides forces that can either hold components of a machine in place or acts as a suspension to support part of a machine.
+Seals are used between mating parts of a machine to ensure fluids, such as water, hot gases, or lubricant do not leak between the mating surfaces.
+Fasteners such as screws, bolts, spring clips, and rivets are critical to the assembly of components of a machine. Fasteners are generally considered to be removable. In contrast, joining methods, such as welding, soldering, crimping and the application of adhesives, usually require cutting the parts to disassemble the components
+
+
+== MechanicsEdit ==
+Usher reports that Hero of Alexandria's treatise on Mechanics focussed on the study of lifting heavy weights. Today mechanics refers to the mathematical analysis of the forces and movement of a mechanical system, and consists of the study of the kinematics and dynamics of these systems.
+
+
+=== Dynamics of machinesEdit ===
+The dynamic analysis of machines begins with a rigid-body model to determine reactions at the bearings, at which point the elasticity effects are included. The rigid-body dynamics studies the movement of systems of interconnected bodies under the action of external forces. The assumption that the bodies are rigid, which means that they do not deform under the action of applied forces, simplifies the analysis by reducing the parameters that describe the configuration of the system to the translation and rotation of reference frames attached to each body.
+The dynamics of a rigid body system is defined by its equations of motion, which are derived using either Newtons laws of motion or Lagrangian mechanics. The solution of these equations of motion defines how the configuration of the system of rigid bodies changes as a function of time. The formulation and solution of rigid body dynamics is an important tool in the computer simulation of mechanical systems.
+
+
+=== Kinematics of machinesEdit ===
+The dynamic analysis of a machine requires the determination of the movement, or kinematics, of its component parts, known as kinematic analysis. The assumption that the system is an assembly of rigid components allows rotational and translational movement to be modeled mathematically as Euclidean, or rigid, transformations. This allows the position, velocity and acceleration of all points in a component to be determined from these properties for a reference point, and the angular position, angular velocity and angular acceleration of the component.
+
+
+== Kinematic chainsEdit ==
+
+The classification of simple machines to provide a strategy for the design of new machines was developed by Franz Reuleaux, who collected and studied over 800 elementary machines. He recognized that the classical simple machines can be separated into the lever, pulley and wheel and axle that are formed by a body rotating about a hinge, and the inclined plane, wedge and screw that are similarly a block sliding on a flat surface.
+Simple machines are elementary examples of kinematic chains or linkages that are used to model mechanical systems ranging from the steam engine to robot manipulators. The bearings that form the fulcrum of a lever and that allow the wheel and axle and pulleys to rotate are examples of a kinematic pair called a hinged joint. Similarly, the flat surface of an inclined plane and wedge are examples of the kinematic pair called a sliding joint. The screw is usually identified as its own kinematic pair called a helical joint.
+This realization shows that it is the joints, or the connections that provide movement, that are the primary elements of a machine. Starting with four types of joints, the rotary joint, sliding joint, cam joint and gear joint, and related connections such as cables and belts, it is possible to understand a machine as an assembly of solid parts that connect these joints called a mechanism .
+Two levers, or cranks, are combined into a planar four-bar linkage by attaching a link that connects the output of one crank to the input of another. Additional links can be attached to form a six-bar linkage or in series to form a robot.
+
+
+=== Planar mechanismsEdit ===
+While all mechanisms in a mechanical system are three-dimensional, they can be analyzed using plane geometry, if the movement of the individual components are constrained so all point trajectories are parallel or in a series connection to a plane. In this case the system is called a planar mechanism. The kinematic analysis of planar mechanisms uses the subset of SE(3) consisting of planar rotations and translations, denote SE(2).
+The group SE(2) is three-dimensional, which means that every position of a body in the plane is defined by three parameters. The parameters are often the x and y coordinates of the origin of a coordinate frame in M measured from the origin of a coordinate frame in F, and the angle measured from the x-axis in F to the x-axis in M. This is often described saying a body in the plane has three degrees-of-freedom.
+The pure rotation of a hinge and the linear translation of a slider can be identified with subgroups of SE(2), and define the two joints one degree-of-freedom joints of planar mechanisms. The cam joint formed by two surfaces in sliding and rotating contact is a two degree-of-freedom joint.
+Select this link to see Theo Jansen's Strandbeest walking machine with legs constructed from planar eight-bar linkages
+
+
+=== Spherical mechanismsEdit ===
+It is possible to construct a mechanism such that the point trajectories in all components lie in concentric spherical shells around a fixed point. An example is the gimbaled gyroscope. These devices are called spherical mechanisms. Spherical mechanisms are constructed by connecting links with hinged joints such that the axes of each hinge passes through the same point. This point becomes center of the concentric spherical shells. The movement of these mechanisms is characterized by the group SO(3) of rotations in three-dimensional space. Other examples of spherical mechanisms are the automotive differential and the robotic wrist.
+Select this link for an animation of a Spherical deployable mechanism.
+The rotation group SO(3) is three-dimensional. An example of the three parameters that specify a spatial rotation are the roll, pitch and yaw angles used to define the orientation of an aircraft.
+
+
+=== Spatial mechanismsEdit ===
+A mechanism in which a body moves through a general spatial movement is called a spatial mechanism. An example is the RSSR linkage, which can be viewed as a four-bar linkage in which the hinged joints of the coupler link are replaced by rod ends, also called spherical joints or ball joints. The rod ends allow the input and output cranks of the RSSR linkage to be misaligned to the point that they lie in different planes, which causes the coupler link to move in a general spatial movement. Robot arms, Stewart platforms, and humanoid robotic systems are also examples of spatial mechanisms.
+Bennett's linkage is an example of a spatial overconstrained mechanism, which is constructed from four hinged joints.
+The group SE(3) is six-dimensional, which means the position of a body in space is defined by six parameters. Three of the parameters define the origin of the moving reference frame relative to the fixed frame. Three other parameters define the orientation of the moving frame relative to the fixed frame.
+
+
+=== Kinematic diagramEdit ===
+A kinematic diagram reduces the machine components to a skeleton diagram that emphasizes the joints and reduces the links to simple geometric elements. This diagram can also be formulated as a graph by representing the links of the mechanism as vertices and the joints as edges of the graph. This version of the kinematic diagram has proven effective in enumerating kinematic structures in the process of machine design.
+An important consideration in this design process is the degree of freedom of the system of links and joints, which is be determined using the Chebychev–Grübler–Kutzbach criterion.
+
+
+== Machine designEdit ==
+
+Machine design refers to the procedures and techniques used to address the three phases of a machine's lifecycle:
+invention, which involves the identification of a need, development of requirements, concept generation, prototype development, manufacturing, and verification testing;
+performance engineering involves enhancing manufacturing efficiency, reducing service and maintenance demands, adding features and improving effectiveness, and validation testing;
+recycle is the decommissioning and disposal phase and includes recovery and reuse of materials and components.
+
+
+== Machine elementsEdit ==
+The elementary mechanical components of a machine are termed machine elements. These elements consist of three basic types (i) structural components such as frame members, bearings, axles, splines, fasteners, seals, and lubricants, (ii) mechanisms that control movement in various ways such as gear trains, belt or chain drives, linkages, cam and follower systems, including brakes and clutches, and (iii) control components such as buttons, switches, indicators, sensors, actuators and computer controllers. While generally not considered to be a machine element, the shape, texture and color of covers are an important part of a machine that provide a styling and operational interface between the mechanical components of a machine and its users.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Oberg, Erik; Franklin D. Jones; Holbrook L. Horton; Henry H. Ryffel (2000). ed. Christopher J. McCauley, Riccardo Heald, and Muhammed Iqbal Hussain, ed. Machinery's Handbook (26th ed.). New York: Industrial Press Inc. ISBN 0-8311-2635-3. 
+Reuleaux, Franz; (trans. and annotated by A. B. W. Kennedy) (1876). The Kinematics of Machinery. New York: reprinted by Dover (1963).  
+Uicker, J. J.; G. R. Pennock; J. E. Shigley (2003). Theory of Machines and Mechanisms. New York: Oxford University Press.

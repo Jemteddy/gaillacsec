@@ -1,0 +1,15 @@
+Total electron content (or TEC) is an important descriptive quantity for the ionosphere of the Earth. TEC is the total number of electrons integrated between two points, along a tube of one meter squared cross section, i.e., the electron columnar number density. It is often reported in multiples of the so-called TEC unit, defined as TECU=1016·m−2.
+TEC is significant in determining the scintillation and group and phase delays of a radio wave through a medium. Ionospheric TEC is characterized by observing carrier phase delays of received radio signals transmitted from satellites located above the ionosphere, often using Global Positioning System satellites. TEC is strongly affected by solar activity.
+
+
+== FormulationEdit ==
+To first order, the ionospheric radio effect is proportional to TEC and inversely proportional to the radio frequency f. The ionospheric phase delay reads:
+
+while the ionospheric group delay has the same magnitude but opposite sign:
+
+The proportionality constant κ reads:
+
+where q, me, re are the electron charge, mass, and radius, respectively; c is the vacuum speed of light and ϵ0 is the vacuum permittivity. The value of the constant is approximately κ ≈ 40.308193 m3·s−2; the units can be expressed equivalently as m·m2·Hz2 to highlight the cancellation involved in yielding delays τ in meters, given f in Hz and TEC in m−2.
+
+
+== ReferencesEdit ==

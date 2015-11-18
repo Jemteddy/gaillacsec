@@ -1,0 +1,21 @@
+The Echo Protocol is a service in the Internet Protocol Suite defined in RFC 862. It was originally proposed for testing and measurement of round-trip times in IP networks.
+A host may connect to a server that supports the Echo Protocol using the Transmission Control Protocol (TCP) or the User Datagram Protocol (UDP) on the well-known port number 7. The server sends back an identical copy of the data it received.
+
+
+== Inetd implementationEdit ==
+On UNIX-like operating systems an echo server is built into the inetd daemon. The echo service is usually not enabled by default. It may be enabled by adding the following lines to the file /etc/inetd.conf and telling inetd to reload its configuration:
+
+echo   stream  tcp     nowait  root    internal
+echo   dgram   udp     wait    root    internal
+
+
+== See alsoEdit ==
+Discard Protocol
+Daytime Protocol
+Character Generator Protocol
+Time Protocol
+
+
+== External linksEdit ==
+RFC 347 Echo Process
+RFC 862 Echo Protocol

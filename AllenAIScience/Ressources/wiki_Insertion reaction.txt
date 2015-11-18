@@ -1,0 +1,47 @@
+An insertion reaction is a chemical reaction where one chemical entity (a molecule or molecular fragment) interposes itself into an existing bond of typically a second chemical entity e.g.:
+A + B–C → B–A–C
+The term only refers to the result of the reaction and does not suggest a mechanism. Insertion reactions are observed in organic, inorganic, and organometallic chemistry. In cases where a metal-ligand bond in a coordination complex is involved, these reactions are typically organometallic in nature and involve a bond between a transition metal and a carbon or hydrogen. It is usually reserved for the case where the coordination number and oxidation state of the metal remain unchanged. When these reactions are reversible, the removal of the small molecule from the metal-ligand bond is called extrusion or elimination.
+
+There are two common insertion geometries— 1,1 and 1,2 (pictured above). Additionally, the inserting molecule can act either as a nucleophile or as an electrophile to the metal complex. These behaviors will be discussed in more detail for CO, nucleophilic behavior, and SO2, electrophilic behavior.
+
+
+== Organic chemistry ==
+Homologation reactions like the Kowalski ester homologation provide simple examples of insertion process in organic synthesis. In the Arndt-Eistert reaction, a methylene unit is inserted into the carboxyl-carbon bond of carboxylic acid to form the next acid in the homologous series. Organic Syntheses provides the example of t-BOC protected (S)-phenylalanine (2-amino-3-phenylpropanoic acid) being reacted sequentially with triethylamine, ethyl chloroformate, and diazomethane to produce the α-diazoketone, which is then reacted with silver trifluoroacetate / triethylamine in aqueous solution to generate the t-BOC protected form of (S)-3-amino-4-phenylbutanoic acid.
+
+Mechanistically, the α-diazoketone undergoes a Wolff rearrangement to form a ketene in a 1,2-rearrangement. Consequently, the methylene group α- to the carboxyl group in the product is the methylene group from the diazomethane reagant. The 1,2-rearrangement has been shown to conserve the stereochemistry of the chiral centre as the product formed from t-BOC protected (S)-phenylalanine retains the (S) stereochemistry with a reported enantiomeric excess of at least 99%.
+A related transformation is the Nierenstein reaction in which a diazomethane methylene group is inserted into the carbon-chlorine bond of an acid chloride to generate an α-chloromethyl ketone. An example, published in 1924, illustrates the reaction in a substituted benzoyl chloride system:
+
+Perhaps surprisingly, α-bromoacetophenone is the minor product when this reaction is carried out with benzoyl bromide, a dimeric dioxane being the major product. Organic azides also provide an example of an insertion reaction in organic synthesis and, like the above examples, the transformations proceed with loss of nitrogen gas. When tosyl azide reacts with norbornadiene, a ring expansion reaction takes place in which a nitrogen atom is inserted into a carbon-carbon bond α- to the bridge head:
+
+The Beckmann rearrangement is another example of a ring expanding reaction in which a heteroatom is inserted into a carbon-carbon bond. The most important application of this reaction is the conversion of cyclohexanone to its oxime, which is then rearranged under acidic conditions to provide ε-caprolactam, the feedstock for the manufacture of Nylon 6. Annual production of caprolactam exceeds 2 billion kilograms.
+
+Carbenes undergo both intermolecular and intramolecular insertion reactions. Cyclopentene moieties can be generated from sufficiently long-chain ketones by reaction with trimethylsilyldiazomethane, (CH3)3Si–CHN2:
+
+Here, the carbene intermediate inserts into a carbon-hydrogen bond to form the carbon-carbon bond needed to close the cyclopentene ring. Carbene insertions into carbon-hydrogen bonds can also occur intermolecularly:
+
+Carbenoids are reactive intermediates that behave similarly to carbenes. One example is the chloroalkyllithium carbenoid reagent prepared in situ from a sulfoxide and t-BuLi which inserts into the carbon-boron bond of a pinacol boronic ester:
+
+
+== Organometallic chemistry ==
+
+Many reactions in organometallic chemistry involve insertion of one ligand (L) into a metal-hydride or metal-alkyl/aryl bond. Generally it is the hydride, alkyl, or aryl group that migrates onto L, which is often CO, an alkene, or alkyne.
+
+
+=== Carbonylations ===
+The insertion of carbon monoxide and alkenes into metal-carbon bonds is a widely exploited reaction with major industrial applications.
+
+Such reactions are subject to the usual parameters that affect other reactions in coordination chemistry, but steric effects are especially important in determining the stereochemistry and regiochemistry of the reactions. The reverse reaction, the de-insertion of CO and alkenes, are of fundamental significance in many catalytic cycles as well.
+Widely employed applications of migratory insertion of carbonyl groups are hydroformylation and the carbonylative production of acetic acid. The former converts alkenes, hydrogen, and carbon monoxide into aldehydes. The production of acetic acid by carbonylation proceeds via two similar industrial processes. More traditional is the rhodium-based Monsanto acetic acid process, but this process has been superseded by the iridium-based Cativa process. By 2002, worldwide annual production of acetic acid stood at 6 million tons, of which approximately 60% is produced by the Cativa process.
+
+The Cativa process catalytic cycle, shown above, includes both insertion and de-insertion steps. The oxidative addition reaction of methyl iodide with (1) involves the formal insertion of the iridium(I) centre into the carbon-iodine bond, whereas step (3) to (4) is an example of migratory insertion of carbon monoxide into the iridium-carbon bond. The active catalyst species is regenerated by the reductive elimination of acetyl iodide from (4), a de-insertion reaction.
+
+
+=== Olefin insertion ===
+The insertion of ethylene and propylene into titanium alkyls is the cornerstone of Ziegler-Natta catalysis, the commercial route of polyethylene and polypropylene. This technology mainly involves heterogeneous catalysts, but it is widely assumed that the principles and observations on homogeneous systems are applicable to the solid-state versions. Related technologies include the Shell Higher Olefin Process which produces detergent precursors. the olefin can be coordinated to the metal before insertion. Depending on the ligand density of the metal, ligand dissociation may be necessary to provide a coordination site for the olefin.
+
+
+=== Other insertion reactions in coordination chemistry ===
+Many electrophilic oxides insert into metal carbon bonds; these include sulfur dioxide, carbon dioxide, and nitric oxide. These reactions have limited practical significance, but are of historic interest. With transition metal alkyls, these oxides behave as electrophiles and insert into the bond between metals and their relatively nucleophilic alkyl ligands. As discussed in the article on Metal sulfur dioxide complexes, the insertion of SO2 has been examined in particular detail.
+
+
+== References ==

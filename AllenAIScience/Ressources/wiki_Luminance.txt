@@ -1,0 +1,69 @@
+Luminance is a photometric measure of the luminous intensity per unit area of light travelling in a given direction. It describes the amount of light that passes through, is emitted or reflected from a particular area, and falls within a given solid angle. The SI unit for luminance is candela per square metre (cd/m2). A non-SI term for the same unit is the "nit". The CGS unit of luminance is the stilb, which is equal to one candela per square centimetre or 10 kcd/m2.
+
+
+== ExplanationEdit ==
+Luminance is often used to characterize emission or reflection from flat, diffuse surfaces. The luminance indicates how much luminous power will be detected by an eye looking at the surface from a particular angle of view. Luminance is thus an indicator of how bright the surface will appear. In this case, the solid angle of interest is the solid angle subtended by the eye's pupil. Luminance is used in the video industry to characterize the brightness of displays. A typical computer display emits between 50 and 7002300000000000000♠300 cd/m2. The sun has luminance of about 7009160000000000000♠1.6×109 cd/m2 at noon.
+Luminance is invariant in geometric optics. This means that for an ideal optical system, the luminance at the output is the same as the input luminance. For real, passive, optical systems, the output luminance is at most equal to the input. As an example, if one uses a lens to form an image that is smaller than the source object, the luminous power is concentrated into a smaller area, meaning that the illuminance is higher at the image. The light at the image plane, however, fills a larger solid angle so the luminance comes out to be the same assuming there is no loss at the lens. The image can never be "brighter" than the source.
+
+
+== DefinitionEdit ==
+
+The luminance of a specified point of a light source, in a specified direction, is defined by the derivative
+
+where
+Lv is the luminance (cd/m2),
+d2Φv is is the luminous flux (lm) leaving the area dΣ in any direction contained inside the solid angle dΩΣ,
+dΣ is an infinitesimal area (m2) of the source containing the specified point,
+dΩΣ is an infinitesimal solid angle (sr) containing the specified direction,
+θΣ is the angle between the normal nΣ to the surface dΣ and the specified direction.
+If light travels through a lossless medium, the luminance does not change along a given light ray. As the ray crosses an arbitrary surface S, the luminance is given by
+
+where
+dS is the infinitesimal area of S seen from the source inside the solid angle dΩΣ,
+dΩS is the infinitesimal solid angle subtended by dΣ as seen from dS,
+θS is the angle between the normal nS to dS and the direction of the light.
+More generally, the luminance along a light ray can be defined as
+
+where
+dG is the etendue of an infinitesimally narrow beam containing the specified ray,
+dΦv is the luminous flux carried by this beam,
+n is the index of refraction of the medium.
+
+
+== UnitsEdit ==
+A variety of units have been used for luminance, besides the candela per square metre.
+One candela per square metre is equal to:
+10−4 stilbs (the CGS unit of luminance)
+π apostilbs
+π×10−4 lamberts
+0.292 foot-lamberts
+
+
+== Health effectsEdit ==
+
+Retinal damage can occur when the eye is exposed to high luminance. Damage can occur due to local heating of the retina. Photochemical effects can also cause damage, especially at short wavelengths.
+
+
+== See alsoEdit ==
+Orders of magnitude (luminance)
+Diffuse reflection
+Etendue
+Exposure value
+Lambertian reflectance
+Lightness, property of a color
+Luma, the representation of luminance in a video monitor
+Lumen (unit)
+Radiance, radiometric quantity analogous to luminance
+Brightness, the subjective impression of luminance
+Glare
+Luminance meter
+
+
+== ReferencesEdit ==
+^ "Luminance". Lighting Design Glossary. Retrieved Apr 13, 2009. 
+^ Chaves, Julio (2008). Introduction to Nonimaging Optics. Optical Science and Engineering 134. CRC Press. p. 449. ISBN 9781420054293. 
+
+
+== External linksEdit ==
+A Kodak guide to Estimating Luminance and Illuminance using a camera's exposure meter. Also available in PDF form and Google Docs online version
+Autodesk Design Academy Measuring Light Levels

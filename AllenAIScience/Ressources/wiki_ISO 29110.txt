@@ -1,0 +1,93 @@
+ISO/IEC 29110: Systems and Software Life Cycle Profiles and Guidelines for Very Small Entities (VSEs) International Standards (IS) and Technical Reports (TR) are targeted at Very Small Entities (VSEs). A Very Small Entity (VSE) is an enterprise, an organization, a department or a project having up to 25 people. The ISO/IEC 29110 is a series of international standards entitled "Systems and Software Engineering — Lifecycle Profiles for Very Small Entities (VSEs)". The standards and technical reports were developed by working group 24 (WG24) of sub-committee 7 (SC7) of Joint Technical Committee 1 (JTC1) of the International Organization for Standardization and the International Electrotechnical Commission.
+
+
+== The need for lightweight Systems and Software Engineering standards ==
+Industry recognizes the value of VSEs in contributing valuable products and services. VSEs also develop and/or maintain system and/or software that is used in larger systems, therefore, recognition of VSEs as suppliers of high quality systems and/or software is often required.
+According to the Organization for Economic Co-operation and Development (OECD) SME and Entrepreneurship Outlook report (2005), Small and Medium Enterprises (SMEs) constitute the dominant form of business organisation in all countries world-wide, accounting for over 95% and up to 99% of the business population depending on country. The challenge facing OECD governments is to provide a business environment that supports the competitiveness of this large heterogeneous business population and that promotes a vibrant entrepreneurial culture.
+From studies and surveys conducted (,), it is clear that the majority of International Standards do not address the needs of VSEs. Conformance with these standards is difficult, if not impossible, giving VSEs no way, or very limited ways, to be recognized as entities that produce quality software in their domain. Therefore, VSEs are often cut off from some economic activities.
+It has been found that VSEs find it difficult to relate international standards to their business needs and to justify their application to their business practices. Most VSEs can neither afford the resources, in terms of number of employees, budget and time, nor do they see a net benefit in establishing software life cycle processes.To rectify some of these difficulties, a set of standards and technical reports have been developed according to a set of VSE characteristics.(,).The documents are based on subsets of appropriate standards elements, referred to as VSE profiles. The purpose of a VSE profile is to define a subset of international Standards relevant to the VSE context, for example, processes elements of ISO/IEC/IEEE 12207 for the software engineering ISO/IEC 29110, ISO/IEC/IEEE 15288 for the systems engineering ISO/IEC 29110, and products of ISO/IEC 15289.
+ISO/IEC 29110 series, targeted by audience, have been developed to improve product and/or service quality, and process performance. See Table 1. ISO/IEC 29110 is not intended to preclude the use of different life cycles such as: waterfall, iterative, incremental, evolutionary or agile.
+If a new profile is needed, ISO/IEC 29110-4 and ISO/IEC 29110-5 can be developed without impacting existing documents and they become ISO/IEC 29110-4-m and ISO/IEC 29110-5-m-n respectively through the ISO/IEC process.
+
+
+== Profiles ==
+The core characteristic of the entities targeted by ISO/IEC 29110 is size, however there are other aspects and characteristics of VSEs that may affect profile preparation or selection, such as: Business Models (commercial, contracting, in-house development, etc.); Situational factors (such as criticality, uncertainty environment, etc.); and Risk Levels. Creating one profile for each possible combination of values of the various dimensions introduced above would result in an unmanageable set of profiles. Accordingly VSE's profiles are grouped in such a way as to be applicable to more than one category. Profile Groups are a collection of profiles which are related either by composition of processes (i.e. activities, tasks), or by capability level, or both.
+
+
+== Generic Profile Group ==
+The Generic Profile Group has been defined as applicable to a vast majority of VSEs that do not develop critical systems and/or software and have typical situational factors. The Generic Profile Group is a collection of four profiles (Entry, Basic, Intermediate, Advanced), providing a progressive approach to satisfying a vast majority of VSEs. The Software Engineering Generic Profile Group is mainly based on the ISO/IEC/IEEE 12207 Software Life Cycle Processes standard. The ISO working group mandated to develop ISO/IEC 29110 used the Mexican software process model MoProSoft to help the development of ISO/IEC 29110.
+
+
+== Published Standards and Technical Report ==
+ISO/IEC 29110 series is a set of five different Parts. Part 1, ISO/IEC TR 29110-1, defines the business terms common to the VSE Profile Set of Documents. It introduces processes, lifecycle and standardization concepts, and the ISO/IEC 29110 series. It also introduces the characteristics and requirements of a VSE, and clarifies the rationale for VSE-specific profiles, documents, standards and guides.
+Part 2, ISO/IEC 29110-2, introduces the concepts for software engineering standardized profiles for VSEs, and defines the terms common to the VSE Profile Set of Documents. It establishes the logic behind the definition and application of standardized profiles. It specifies the elements common to all standardized profiles (structure, conformance, assessment) and introduces the taxonomy (catalogue) of ISO/IEC 29110 profiles.
+Part 3, ISO/IEC TR 29110-3, defines the process assessment guidelines and compliance requirements needed to meet the purpose of the defined VSE Profiles. ISO/IEC TR 29110-3 also contains information that can be useful to developers of assessment methods and assessment tools. ISO/IEC TR 29110-3 is addressed to people who have direct relation with the assessment process, e.g. the assessor and the sponsor of the assessment, who need guidance on ensuring that the requirements for performing an assessment have been met.
+Part 4, ISO/IEC 29110-4-1, provides the specification for all the profiles of the Generic Profile Group. The Generic Profile Group is applicable to VSEs that do not develop critical software products. The profiles are based on subsets of appropriate standards elements. VSE Profiles apply and are targeted at authors/providers of guides and authors/providers of tools and other support material.
+Part 5, ISO/IEC 29110-5-m-n, provides systems engineering or software engineering project management and engineering guides for the VSE Profile described in ISO/IEC 29110-4-m.
+
+
+== Deployment Packages ==
+A Deployment Package (DP) is a set of artefacts developed to facilitate the implementation of a set of practices, of the selected framework, in a Very Small Entity (VSE). The Deployment Packages, described below, have been developed to help implement the processes of the Generic Profile Group. The Generic profile group is applicable to VSEs that do not develop critical systems or software. The Generic profile group is composed of 4 profiles: Entry, Basic, Intermediate and Advanced. The Generic profile group does not imply any specific application domain.
+The content of a typical deployment package is listed in table 2. The mapping to standards and models is given as information to show that a Deployment Package has explicit links to Part 5 and to selected ISO standards, such as ISO/IEC/IEEE 152888, ISO/IEC/IEEE 12207, or models such as the CMMI developed by the Software Engineering Institute. By implementing a deployment package, a VSE can see its concrete step to achieve or demonstrate coverage to ISO/IEC 29110 Part 5. Deployment Packages are designed such that a VSE can implement its content, without having to implement the complete framework at the same time.
+The systems engineering or software engineering Basic Profile describes development of a single application by a single project team with no special risk or situational factors. The set of DPs for the software Basic Profile is illustrated in figure 2.
+
+A set of DPs to support the Systems Engineering is under development in collaboration with members of INCOSE as illustrated in the figure below.
+
+Deployment packages as well as other support material, such as a plug-in, are available at no cost on Internet (see below).
+
+
+== Status ==
+Current version: ISO/IEC 29110-2 and ISO/IEC 29110-4-1, published in January 2011.
+Current version: ISO/IEC TR 29110-1, ISO/IEC TR 29110-3 and ISO/IEC TR 29110-5-1-2, published in 2011 and freely available from ISO/ITTF as a free download
+Current version: ISO/IEC TR 29110-5-1-1:2012 - Management and engineering guide for the Entry profile has been published in English and French in September 2012 and are freely available from ISO/ITTF as a free download
+Current version: [1] Systems engineering Basic profile ISO/IEC TR 29110-5-6-2 Management and engineering guide. Published in August 2014. Freely available from ISO/ITTF as a free download
+
+
+== In preparation ==
+For the Software engineering Intermediate Profile: ISO/IEC TR 29110-5-1-3 Management and engineering guide - publication expected in 2015.
+For the Software engineering Advanced Profile: ISO/IEC TR 29110-5-1-4 Management and engineering guide - publication expected in 2015.
+For the Systems engineering Entry Profile: ISO/IEC TR 29110-5-6-1 Management and engineering guide - publication expected in 2015.
+
+
+== Articles and other communications ==
+Laporte, C.Y., Chevalier, F., Maurice, J.-C., Improving Project Management for Small Projects, ISO Focus+, International Organization for Standardization, February 2013, pp 52–55.
+Laporte, C.Y., Séguin, N., Villas Boas, G., Seizing the benefits of software and systems engineering standards, ISO Focus+, International Organization for Standardization, February 2013, pp 32–36.
+Laporte, C.Y., O'Connor, R., Fanmuy,G., International Systems and Software Engineering Standards for Very Small Entities, CrossTalk - The Journal of Defense Software Engineering, May/June 2013, Vol. 26, No 3, pp 28–33.
+Laporte, C.Y., Hébert, C., Mineau, C., [2] Development of a Social Network Website Using the New ISO/IEC 29110 Standard Developed Specifically for Very Small Entities, Software Quality Professional Journal, ASQ, vol. 16, no. 4, pp 4–25.
+Laporte, Claude Y., Houde, R., Marvin, J., Systems Engineering International Standards and Support Tools for Very Small Enterprises, 24th Annual International Symposium of INCOSE (International Council on Systems Engineering), Las Vegas, US, June 30-July 3, 2014.
+Laporte, C.Y., O'Connor, R., Garcia Paucar, L.H., Gerançon, B., An Innovative Approach in Developing Standard Professionals by Involving Software Engineering Students in Implementing and Improving International Standards, International Cooperation for Education about Standardization Conference, August 14, 2014, Ottawa, Canada.
+Laporte, C.Y., O'Connor, R., A Systems Process Lifecycle Standard for Very Small Entities: Development and Pilot Trials, 21st European Software Process Improvement Conference (Euro SPI 2014), CCIS 425, pp. 13–24, Springer-Verlag, Heidelberg, Luxembourg, June 25–27, 2014.
+
+
+== See also ==
+Video in English about ISO/IEC 29110
+[3]
+
+ISO/IEC 12207, Systems and software engineering - Software life cycle processes.
+ISO/IEC 15289, Systems and software engineering - Content of systems and software life cycle process information products (Documentation)
+VSE support sites in English:
+Canada
+Finland
+Ireland
+Thailand
+Belgique
+
+VSE support sites in French:
+Canada
+Belgium
+
+VSE support in Spanish
+Peru
+Canada
+
+VSE support in Japanese
+Japan
+
+ISO 29110 Wikipedia in Czech
+cs:ISO 29110
+
+Anti-pattern
+Capability Immaturity Model
+
+
+== References ==

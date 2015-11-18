@@ -1,0 +1,134 @@
+Programmable calculators are calculators that can automatically carry out a sequence of operations under control of a stored program, much like a computer. The first programmable calculators such as the IBM CPC used punched cards or other media for program storage. Hand-held electronic calculators store programs on magnetic strips, removable read-only memory cartridges, or in battery-backed read/write memory.
+Since the early 1990s, most of these flexible handheld units belong to the class of graphing calculators. Before the mass-manufacture of inexpensive dot-matrix LCD displays, however, programmable calculators usually featured a one-line numeric or alphanumeric display. The Big Four manufacturers of programmable calculators are Casio, Hewlett-Packard, Sharp, and Texas Instruments. All of the above have also made pocket computers in the past, especially Casio and Sharp.
+Many calculators of this type are monochrome LCD, some are four-colour (red or orange, green, blue, and black), or, in the case of some machines at the top of the line as of February 2015 colour similar to monitors displaying 8 or 16 bit graphics. As they are used for graphing functions, the screens of these machines are pixel-addressable. Some have a touch screen, buzzers or other sound producers, internal clocks, modems or other connectivity devices including IrDA transceivers, several types of ports for peripherals like printers, and ports for memory cards of a number of types. .
+For earlier devices, see: History of computing hardware
+
+
+== Calculator programmingEdit ==
+Programmable calculators allow the user to write and store programs in the calculator in order to solve difficult problems or automate an elaborate procedure.
+Programming capability appears most commonly (although not exclusively) in graphing calculators, as the larger screen allows multiple lines of source code to be viewed simultaneously (i.e., without having to scroll to the next/previous display line). Originally, calculator programming had to be done in the calculator's own command language, but as calculator hackers discovered ways to bypass the main interface of the calculators and write assembly language programs, calculator companies (particularly Texas Instruments) began to support native-mode programming on their calculator hardware, first revealing the hooks used to enable such code to operate, and later explicitly building in facilities to handle such programs directly from the user interface.
+Many programs written for calculators can be found on the internet. Users can download the programs to a personal computer, and then upload them to the calculator using a specialized link cable, infrared wireless link or through a memory card. Sometimes these programs can also be run through emulators on the PC.
+One possibility arising from the above is writing interpreters, compilers, and translator programmes for additional languages for programming the machines; BBC Basic has already been ported to the TI-83 and -84 series and other on-board languages and programming tools discussed by many include Fortran, awk, Pascal, Rexx, perl, Common Lisp, Python, tcl, and various Unix shells.
+Commonly available programs for calculators include everything from math/science related problem solvers to video games, as well as so-called demos. Much of this code is user-created freeware or even open source, though commercial software, particularly for educational and science/engineering markets, is also available.
+
+
+== Programming languagesEdit ==
+
+
+=== Keystroke programmingEdit ===
+
+In the early days most programmable calculators used a very simplified programming language, often based either on recording actual keystrokes or bytecode if the keystrokes were merged. Calculators supporting such programming were Turing-complete if they supported both conditional statements and indirect addressing of memory. Notable examples of Turing complete calculators were Casio FX-602P series, the HP-41 and the TI-59. Keystroke programming is still used in mid-range calculators like the HP 35s.
+
+
+=== BASICEdit ===
+BASIC is a widespread programming language commonly adapted to desktop computers and pocket computers. The most common languages now used in high range calculators are proprietary BASIC-style dialects as used by CASIO and TI (TI-BASIC). These BASIC dialects are optimised for calculator use, combining the advantages of BASIC and keystroke programming. They have little in common with mainstream BASIC. The version for the Ti-89 and subsequent is more fully featured, including the full set of string and character manipulation functions and statements in standard Basic.
+A complete port of BBC Basic to the TI-83 subfamily of calculators is now available. It is installed via a cable or IrDA connection with a computer.
+
+
+=== RPLEdit ===
+
+RPL is a special Forth-like programming language used by Hewlett Packard in its high range devices. The first device with RPL calculator was the HP-28C released in 1987.
+The language PPL was introduced with the HP Prime calculator and is much like Pascal
+
+
+=== AssemblyEdit ===
+
+An on-board (i.e. right on the calculator) assembler for TI 89 and related calculators was announced and released in 2014.
+Machine language programming was often discouraged on early calculator models; however, dedicated platform hackers discovered ways to bypass the built-in interpreters on some models and program the calculator directly in assembly language, a technique that was first discovered and utilized on the TI-85 due to a programming flaw in a mode-switching key. By the time the TI-83 came out, TI and HP had realized the need to address the support needs of homebrew programmers, and started to make assembly language libraries and documentation available for prospective developers. Software, particularly games, could now be nearly as fast and as graphical as their Game Boy counterparts, and TI in particular would later formalize assembly programming into support for packaged applications for future calculators such as the TI-83 Plus and TI-89; HP includes some onboard support for assembler programming on the HP-50g, its current top-of-the-line calculator model.
+Programmes and toolkits to allow on-board assembly-like programming (often Intel 80*86 even if the actual processor in the calculator is something completely different like a Zilog or Motorola chip) are in the beta stage in at least two implementations—the native Basic variant can be enhanced by user-defined functions and procedures as well as assembly and C modules developed on a computer and uploaded to the calculator which allow for writing and running "pseudo assembly" programmes just as one would the Basic type ones. Other languages like Rexx, awk, Perl, and Windows NT and some Unix shells can also be implemented in this fashion on many calculators of this type.
+
+
+=== Other LanguagesEdit ===
+The GCC development suite is available for several models of Casio, HP, and TI calculators, meaning that C, C++, Fortran 77, and inline assembly language can be used to develop a programme on the computer side and then upload it to the calculator.
+Projects in development by third parties include on-board and/or computer-side converters, interpreters, code generators, macro assemblers, or compilers for Fortran, other Basic variants, awk, C, Cobol, Rexx, Perl, Python, Tcl, Pascal Delphi, and operating system shells like DOS/Win95 batch, OS/2 batch, WinNT/2000 shell, Unix shells, and DCL.
+Many TI, Casio, Sharp and HP models have Lua interpreters which are part of the default configuration or can be optionally added.
+Some calculators run a subset of Fortran 77 called Mini-Fortran; the compiler is on the calculator so connecting to a PC to put programmes onto the machine is not needed.
+The OnCalc C Compiler for the Casio fx-9860 series is now available. The Sharp PC G850V pocket computer has an on-board C compiler in addition to an assembler and a Basic interpreter.
+
+
+== Persistent memoryEdit ==
+One important feature of programmable calculators is the availability of some form of persistent memory. Without persistent memory, programs have to be re-entered whenever power is lost, making the device cumbersome. Persistent memory can be internal or on a separate device. Some programmable calculators employ both schemes.
+
+
+=== Magnetic card reader / writerEdit ===
+
+Magnetic card readers were among the first persistent memory options available. The entered programs are stored on magnetic strips. Those were easy to transport, and the reader/writer was compact in size. However, the reader/writer as well as the magnetic strips were quite expensive. The last and most notable devices to use magnetic strips were the HP-41C and TI-59.
+
+
+=== Continuous memoryEdit ===
+
+Continuous memory does not lose its content when the calculator is switched off. With continuous memory the user can, for example, change batteries without losing the entered programs.
+
+
+=== Cassette tapeEdit ===
+
+Compact Cassettes offered a simple, inexpensive alternative to magnetic cards. Usually, an interface module, such as the Casio FA-1, was used to connect the calculator to an ordinary cassette recorder and digital data were encoded as frequency-shift keyed audio signals.
+Sharp and Hewlett-Packard also sold dedicated micro- or mini-cassette recorders that connected directly to the calculator. These set-ups, while being more practical and reliable, were also more expensive.
+
+
+=== Semi-continuous memoryEdit ===
+As memory demands rose, it became more difficult to create true continuous memory and developers sought alternatives. With semi-continuous memory memory content was only preserved if specific battery-changing rules were observed. The most common rules were:
+A special backup battery would ensure that the memory was not lost while the main batteries were changed.
+Battery removal and replacement had to be completed in a relatively short time. For example, with the HP 35s, battery replacement had to be completed in less than 2 minutes after removal.
+At least two main batteries were used and could only be changed one at a time.
+
+
+=== PC-connectionEdit ===
+Programs and data are transferred to a Personal computer for storage. The transfer is done by the following connection methods (chronological order of appearance) RS-232, IrDA and USB. This method has the advantage of being very cost efficient and is usually faster than cassette interface. These advantages are offset by the need of a Personal computer. An early example of PC connection is the Casio FX-603P in conjunction with the Casio FA-6 interface. In this set-up transfer was done in Plain text so the program and data could not only be stored but also edited with a standard Text editor.
+
+
+=== Flash memoryEdit ===
+
+
+== Programmable calculators and pocket computersEdit ==
+
+Throughout the 1980s and the beginning of the 1990s, programmable calculators stood in competition with pocket computers, with high-end calculators sharing many similarities. For example, both device types were programmable in unstructured BASIC and with few exceptions featured QWERTY keyboards. However, there were also some differences:
+BASIC-programmable calculators often featured an additional "calculator-like" keyboard and a special calculator mode in which the system behaved like a Scientific calculator.
+Pocket computers often offered additional programming languages as option. The Casio PB-2000 for example offered ANSI-C, BASIC, Assembler and Lisp.
+Companies often had both device types in their product portfolio. Casio, for example, sold some BASIC-programmable calculators as part of their "fx-" calculator series  and pocket computer the dedicated "pb-" series while Sharp on marketed all BASIC-programmable devices as pocket computers.
+
+
+== Related ToolsEdit ==
+All of the programmable calculators have one or more methods of connecting to a PC for interchange of data, programmes, and software. These methods include IrDA, other wireless, serial ports, and the D-shaped connector to USB, serial ports using .125 inch or other size audio plugs, etc.
+Some of the latest programmable calculators contain cellular modems as an additional channel of connectivity.
+The programmable calculators can in many cases, via these connexions, be used with peripherals such as data loggers and interfaces for instruments like thermometers, pH meters, weather instruments of all kinds, light meters, audio probes and microphones, dynamometers, pressure gauges, voltmeters, ammeters, ohm meters, atmospheric electricity measurement apparatus, ion counters, Geiger counters and scintillometers, altimeters, scales, accelerometers and many others. Some machines can be used with oscilloscopes and their peripherals as well. Others can be configured -- for example, collecting bio-feedback data by connecting devices for pulse, blood pressure, oxygen saturation, galvanic skin resistance, body temperature, and even EKG and EEG probes to a data logger which is then connected to the calculator and, then or later, a PC.
+The HP programmables and others have an IrDA interface which allows them to interface with the printers specially designed for the calculators, HP's main lines of laser printers, computers, other calculators, and other devices.
+Also commonly available from many companies are small printers made specifically for calculators which tend to use cash register tape paper, ports and cables for connecting the calculators to a computer and/or another calculator, cassette recorders for recording programmes and data, overhead projector displays and connectors for auxiliary display devices. The earlier programmable calculators as well as the pocket computers mentioned above also had such things as video interfaces for televisions and composite monitors, 2½ inch mini floppy disc drives, bar-code readers, and standard RS-232 connectivity which provided for other such things as modems, external hard drives and more. The printer selection for the pocket computers was a bit wider as well, including thermal, impact, dot matrix, daisy wheel, 4-colour pen, printers of the type used in simpler printing calculator. Some calculators and pocket computers had external 3½ and 5¼ inch floppy drives, cables for connecting two cassette recorders, cradles containing a printer and/or cassette recorder into which the machine slid, and so on.
+It is also possible to connect some machines to certain electric typewriters for use as a printer (the typewriters are also able to be connected to PCs for this purpose, and the interface tends to be a standard RS-232 and/or DIN plug), and in some cases to access the typewriter's floppy or micro floppy drives.
+
+
+== List of programmable calculatorsEdit ==
+Casio 
+Casio FX-502P series · Casio FX-602P series · Casio FX-603P · FX-702P · FX-850P · Casio 9850 series · Casio 9860 series · Casio ClassPad 300
+Elektronika 
+B3-34 · MK-61 · MK-52
+Hewlett-Packard 
+HP-25 · HP 35s · HP-41C · HP-48 · HP-49 · HP-50 · HP-65
+Sharp 
+PC-1401 · PC-1403
+Texas Instruments 
+TI-58 C · TI-59 · TI-83 Plus · TI-84 Plus · TI-89
+
+
+== See alsoEdit ==
+Calculator input methods
+Graphics calculator
+Pocket computer
+Scientific calculator
+
+
+== External linksEdit ==
+Sharp Pocket Computers, Printers, Cables, Level Converters & Accessories by PROM Software Inc.
+
+
+== ReferencesEdit ==
+^ "Programming Casio FX-7400G+" (PDF). Retrieved 2014-03-23. 
+^ "Programming Casio BASIC on the CFX-9850 Series" (PDF). Retrieved 2014-03-23. 
+^ "TI-Basic Developer". Tibasicdev.wikidot.com. Retrieved 2014-03-23. 
+^ Description of the HP-28C in The Museum of HP Calculators
+^ i.E. HP 9810A introduced 1971
+^ Description of the HP-15C in the The Museum of HP Calculators
+^ Description of the FX-502P and FA-1 on Voidware
+^ HP-32s Users Manual Page 289ff
+^ Description of the PB-2000 in Caz Pocket Computers
+^ The picture of the FX-700P and FX-702P show the text "programmable calculator"

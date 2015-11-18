@@ -1,0 +1,41 @@
+A short circuit (sometimes abbreviated to short or s/c) is an electrical circuit that allows a current to travel along an unintended path, often where essentially no (or a very low) electrical impedance is encountered. The electrical opposite of a short circuit is an "open circuit", which is an infinite resistance between two nodes. It is common to misuse "short circuit" to describe any electrical malfunction, regardless of the actual problem.
+
+
+== Definition ==
+A short circuit is an abnormal connection between two nodes of an electric circuit intended to be at different voltages. This results in an excessive electric current limited only by the Thévenin equivalent resistance of the rest of the network and potentially causes circuit damage, overheating, fire or explosion. Although usually the result of a fault, there are cases where short circuits are caused intentionally, for example, for the purpose of voltage-sensing crowbar circuit protectors.
+In circuit analysis, a short circuit is a connection between two nodes that forces them to be at the same voltage. In an ideal short circuit, this means there is no resistance and no voltage drop across the short. In real circuits, the result is a connection with almost no resistance. In such a case, the current is limited by the rest of the circuit.
+
+
+== Examples ==
+A common type of short circuit occurs when the positive and negative terminals of a battery are connected with a low-resistance conductor, like a wire. With low resistance in the connection, a high current exists, causing the cell to deliver a large amount of energy in a short time.
+A large current through a battery can cause the rapid buildup of heat, potentially resulting in an explosion or the release of hydrogen gas and electrolyte (an acid or a base), which can burn tissue, cause blindness or even death. Overloaded wires can also overheat, sometimes causing damage to the wire's insulation, or a fire. High current conditions may also occur with electric motor loads under stalled conditions, such as when the impeller of an electrically driven pump is jammed by debris; this is not a short, though it may have some similar effects.
+In electrical devices unintentional short circuits are usually caused when a wire's insulation breaks down, or when another conducting material is introduced, allowing charge to flow along a different path than the one intended.
+In mains circuits, short circuits may occur between two phases, between a phase and neutral or between a phase and earth (ground). Such short circuits are likely to result in a very high current and therefore quickly trigger an overcurrent protection device. However, it is possible for short circuits to arise between neutral and earth conductors, and between two conductors of the same phase. Such short circuits can be dangerous, particularly as they may not immediately result in a large current and are therefore less likely to be detected. Possible effects include unexpected energisation of a circuit presumed to be isolated. To help reduce the negative effects of short circuits, power distribution transformers are deliberately designed to have a certain amount of leakage reactance. The leakage reactance (usually about 5 to 10% of the full load impedance) helps limit both the magnitude and rate of rise of the fault current.
+A short circuit may lead to formation of an electric arc. The arc, a channel of hot ionized plasma, is highly conductive and can persist even after significant amount of original material of the conductors was evaporated. Surface erosion is a typical sign of electric arc damage. Even short arcs can remove significant amount of materials from the electrodes. The temperature of the resulting electrical arc is very high (tens of thousands of degrees Fahrenheit), causing the metal on the contact surfaces to melt, pool and migrate with the current, as well as to escape into the air as fine particulate matter.
+
+
+== Damage ==
+A short circuit fault current can, within milliseconds, be thousands of times larger than the normal operating current of the system. Damage from short circuits can be reduced or prevented by employing fuses, circuit breakers, or other overload protection, which disconnect the power in reaction to excessive current. Overload protection must be chosen according to the current rating of the circuit. Circuits for large home appliances require protective devices set or rated for higher currents than lighting circuits. Wire gauges specified in building and electrical codes are chosen to ensure safe operation in conjunction with the overload protection. An overcurrent protection device must be rated to safely interrupt the maximum prospective short circuit current.
+In an improper installation, the overcurrent from a short circuit may cause ohmic heating of the circuit parts with poor conductivity (faulty joints in wiring, faulty contacts in power sockets, or even the site of the short circuit itself). Such overheating is a common cause of fires. An electric arc, if it forms during the short circuit, produces high amount of heat and can cause ignition of combustible substances as well.
+In industrial and utility distribution systems, dynamic forces generated by high short circuit currents cause conductors to spread apart. Busbars, cables, and apparatus can be damaged by the forces generated in a short circuit.
+
+
+== Related concepts ==
+In electronics, the ideal model (infinite gain) of an operational amplifier is said to produce a virtual short circuit between its input terminals because no matter what the output voltage is, the difference of potential between its input terminals is zero. If one of the input terminals is connected to the ground, then the other one is said to provide a virtual ground because its potential is (ideally) identical to that of the ground. An ideal operational amplifier also has infinite input impedance, so unlike a real short circuit, no current flows between the terminals of the virtual short. Due to these differences, the terminology can be confusing; one textbook parenthetically suggests that "virtual open circuit" may be equally suitable because no current flows.
+
+
+== See also ==
+
+Breaking capacity
+Conditional short circuit current
+Ohm's law
+Power (physics)
+Prospective short circuit current
+
+
+== References ==
+
+
+== External links ==
+Troubleshooting Strategy for US/Canadian Homes The Circuit Detective
+Short Circuit Calculations Software Free Demo

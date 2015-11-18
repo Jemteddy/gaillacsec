@@ -1,0 +1,92 @@
+Digital permanence addresses the history and development of digital storage techniques specifically quantifying the expected lifetime of data stored on various digital media and the factors which influence the permanence of digital data. It is often a mix of ensuring the data itself can be retained on a particular form of media and that the technology remains viable. Where possible, as well as describing expected lifetimes, factors affecting data retention will be detailed including potential technology issues.
+Since the inception of computers, a key concept differentiating computers from other calculating machines has been their ability to store information. Over the years, various hardware devices have been designed to store ever larger quantities of data. With the development of the Internet the quantity of information available appears to continue to grow at an ever increasing rate often characterised as an Information Explosion. As information stored on traditional media such as hand-written documents, printed books, photographic images and the likes is being replaced by digital files so our social and cultural legacy to future generations will depend more and more on the permanence of digital information.
+However, not all this information is worth saving for any length of time; sometimes its value can be very short-lived. Other data, such as legal contracts, literature, scientific studies, are frequently expected to last for centuries. This article describes how reliable different types of storage media are at storing data over time and factors affecting this reliability.
+Librarians and Archivists responsible for large repositories of information take a deeper view of electronic archives.
+
+Data format 
+Data must be stored in a format which can be meaningfully accessed now and in the future.
+Technology reliance 
+If data requires a special program to view it, say, as an image, then software must also be available to both interpret the basic data file and also render it appropriately. In some cases, this might also require special hardware.
+Archival strategy 
+Data must remain available in the long term.
+At present a growing problem is the time taken to reproduce an archive, for instance following a hardware or system upgrade. Since the sheer volume of archive data continues to grow, new hardware is always required to maintain the archive and so regular migration of data to a new system must be performed on a regular basis. The time taken to migrate data is starting to approach the frequency of system upgrade such that archive transfer will become a continuous, never-ending process.
+Digital rights management 
+Maintaining digital information in an accurate and accessible format over an extended retention period also must address the requirements of the authors' digital rights.
+In many cases the data may include proprietary information that should not be accessible to all, but only to a defined group of users who understand or have legally agreed to only utilize the information in limited ways so as to protect the proprietary rights of the original authoring team. Maintaining this requirement over decades can be a challenge that requires processes and tools to ensure total compliance.
+Reproducibility 
+Digital information must be able to be reproduced as originally intended or available.
+This is significant especially where the original data was produced on technology at a lower level than currently possible. For example, archivists try to maintain the distinction between listening to a gramophone record played on a gramophone as opposed to a digitally cleaned version of the same recording through a modern hi-fi system.
+
+Given that individuals' personal data also seems to be growing at an alarming rate, these archiving issues affecting professional repositories will soon be manifest in small organisations and even the home.
+
+
+== Types of storage ==
+
+
+=== Solid-state memory devices ===
+Digital computers, in particular, make use of two forms of memory known as RAM or ROM and although the most common form today is RAM, designed to retain data while the computer is powered on, this was not always the case. Nor is active memory the only form used; passive memory devices are now in common use in digital cameras.
+Magnetic, or ferrite core, data retention is dependent on the magnetic properties of iron and its compounds.
+PROM, or programmable read-only memory, stores data in a fixed form during the manufacturing process, with data retention dependent on the life expectancy of the device itself.
+EPROM, or erasable programmable read-only memory, is similar to PROM but can be cleared by exposure to ultraviolet light.
+EEPROM, or electrically erasable programmable read-only memory, is the format used by flash memory devices and can be erased and rewritten electronically. These devices tend to be extraordinarily resilient; in a 2005 destructive test, a USB key survived boiling in a custard pie, being run-over by a truck and fired from a mortar at a brick wall. Although physically damaged after the final test, some deft soldering restored the device and data was successfully retrieved.
+
+
+=== Magnetic media ===
+Magnetic tapes consist of narrow bands of a magnetic medium bonded in paper or plastic. The magnetic medium passes across a semi-fixed head which reads or writes data. Typically magnetic media has maximum lifetime of about 50 years although this assumes optimal storage conditions; life expectancy can decrease rapidly depending on storage conditions and the resilience and reliability of hardware components.
+magnetic tape reels
+magnetic stripe cards
+magnetic cards
+cassette tapes
+video cassette tapes
+Magnetic disks and drums include a rotating magnetic medium combined with a movable read/write head.
+floppy disks
+zip drives
+hard disks and drums
+
+
+=== Non-magnetic media ===
+punched paper-tape
+punched cards
+optical media (rotating media combined with a moveable read/write head comprising a laser), such as:
+pressed CD-ROMs
+WORMs, CD-R
+DVDs
+multi-layer DVDs
+
+
+=== Printing technology ===
+Although not a digital storage medium in itself, printing hard-copies of documents and images remains a popular means of representing digital data and possibly acquires the qualities associated with original documents especially their potential for endurance. More recent advances in printer technology have raised the quality of photographic images in particular. Unfortunately the permanence of printed documents cannot be easily discerned from the documents themselves.
+wet-ribbon inked printers
+heat sensitive papers, such as FAX rolls
+NCR and other carbon technologies
+ink-jet printers
+wax-based inks e.g. DataProducts SI810
+water-based inks
+other bases
+
+mono laser printers
+colour laser printers
+
+
+=== Financial Driven Resources ===
+A way of preserving digital content through means of financial trusts. The data is driven with financial investments typically assigned to a Trust Company which pay traditional storage providers to house data for long periods of time with the interest gained on the principal. In 2008 a series of companies such as LivingStory.com and Orysa.com started offering these services to store point in time accounting data and provide consumer archive services.
+
+
+=== Soft storage technology ===
+The short-comings of some storage media is already well recognised and various attempts have been made to supplement the permanence of an under-lying technology. These "soft storage technologies" enhance their base technology by applying software or system techniques often within quite narrow fields of data storage and not always with the explicit intention of improving digital permanence.
+RAID systems
+Distributed systems, such as bitTorrent
+networked backup services
+public archive repositories
+web-site archives
+financial trust resources
+
+
+== See also ==
+UK Digital Archive Strategy
+
+
+== References ==
+^ Burk, Alan; James Kerr; and Andy Pope. "The Credibility of Electronic Publishing". Available at web.mala.bc.ca
+^ Sweeny, Latanya. "Information Explosion. Available at privacy.cs.cmu.edu
+^ Adelstein, Peter Z. "Permanence of Digital Information". Available at www.ica.org.

@@ -1,0 +1,51 @@
+A seven-segment display (SSD), or seven-segment indicator, is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays.
+Seven-segment displays are widely used in digital clocks, electronic meters, basic calculators, and other electronic devices that display numerical information.
+
+
+== Concept and visual structureEdit ==
+
+The seven elements of the display can be lit in different combinations to represent the arabic numerals. Often the seven segments are arranged in an oblique (slanted) arrangement, which aids readability. In most applications, the seven segments are of nearly uniform shape and size (usually elongated hexagons, though trapezoids and rectangles can also be used), though in the case of adding machines, the vertical segments are longer and more oddly shaped at the ends in an effort to further enhance readability.
+The numerals 6, 7 and 9 may be represented by two or more different glyphs on seven-segment displays, with or without a 'tail'.
+The seven segments are arranged as a rectangle of two vertical segments on each side with one horizontal segment on the top, middle, and bottom. Additionally, the seventh segment bisects the rectangle horizontally. There are also fourteen-segment displays and sixteen-segment displays (for full alphanumerics); however, these have mostly been replaced by dot matrix displays.
+The segments of a 7-segment display are referred to by the letters A to G, where the optional decimal point (an "eighth segment", referred to as DP) is used for the display of non-integer numbers.
+
+
+== ImplementationsEdit ==
+
+Seven-segment displays may use a liquid crystal display (LCD), a light-emitting diode (LED) for each segment, or other light-generating or controlling techniques such as cold cathode gas discharge, vacuum fluorescent, incandescent filaments, and others. For gasoline price totems and other large signs, vane displays made up of electromagnetically flipped light-reflecting segments (or "vanes") are still commonly used. An alternative to the 7-segment display in the 1950s through the 1970s was the cold-cathode, neon-lamp-like nixie tube. Starting in 1970, RCA sold a display device known as the Numitron that used incandescent filaments arranged into a seven-segment display.
+In a simple LED package, typically all of the cathodes (negative terminals) or all of the anodes (positive terminals) of the segment LEDs are connected and brought out to a common pin; this is referred to as a "common cathode" or "common anode" device. Hence a 7 segment plus decimal point package will only require nine pins, though commercial products typically contain more pins, and/or spaces where pins would go, in order to match standard IC sockets. Integrated displays also exist, with single or multiple digits. Some of these integrated displays incorporate their own internal decoder, though most do not: each individual LED is brought out to a connecting pin as described.
+
+Multiple-digit LED displays as used in pocket calculators and similar devices used multiplexed displays to reduce the number of I/O pins required to control the display. For example, all the anodes of the A segments of each digit position would be connected together and to a driver circuit pin, while the cathodes of all segments for each digit would be connected. To operate any particular segment of any digit, the controlling integrated circuit would turn on the cathode driver for the selected digit, and the anode drivers for the desired segments; then after a short blanking interval the next digit would be selected and new segments lit, in a sequential fashion. In this manner an eight digit display with seven segments and a decimal point would require only 8 cathode drivers and 8 anode drivers, instead of sixty-four drivers and IC pins. Often in pocket calculators the digit drive lines would be used to scan the keyboard as well, providing further savings; however, pressing multiple keys at once would produce odd results on the multiplexed display.
+A single byte can encode the full state of a 7-segment-display. The most popular bit encodings are gfedcba and abcdefg, where each letter represents a particular segment in the display. In the gfedcba representation, a byte value of 0x06 would (in a common-anode circuit) turn on segments 'c' and 'b', which would display a '1'.
+
+
+== HistoryEdit ==
+Seven-segment displays can be found in patents as early as 1908 (in U.S. Patent 974,943, F W Wood invented an 8-segment display, which displayed the number 4 using a diagonal bar). In 1910, a seven-segment display illuminated by incandescent bulbs was used on a power-plant boiler room signal panel. They did not achieve widespread use until the advent of LEDs in the 1970s.
+They are sometimes used in posters or tags, where the user either applies color to pre-printed segments, or applies color through a seven-segment digit template, to compose figures such as product prices or telephone numbers.
+For many applications, dot-matrix LCDs have largely superseded LED displays, though even in LCDs 7-segment displays are very common. Unlike LEDs, the shapes of elements in an LCD panel are arbitrary since they are formed on the display by a kind of printing process. In contrast, the shapes of LED segments tend to be simple rectangles, reflecting the fact that they have to be physically moulded to shape, which makes it difficult to form more complex shapes than the segments of 7-segment displays. However, the high common recognition factor of 7-segment displays, and the comparatively high visual contrast obtained by such displays relative to dot-matrix digits, makes seven-segment multiple-digit LCD screens very common on basic calculators.
+The seven-segment display has inspired type designers to produce typefaces reminiscent of that display (but more legible), such as New Alphabet (typeface), "DB LCD Temp", "ION B", etc.
+
+
+== Displaying lettersEdit ==
+
+Hexadecimal digits can be displayed on seven-segment displays. A combination of uppercase and lowercase letters is used for A–F; this is done to obtain a unique, unambiguous shape for each hexadecimal digit (otherwise, a capital D would look identical to an 0/O and a capital B would look identical to an 8). Also the digit 6 must be displayed with the top bar lit to avoid ambiguity with the letter b.
+
+In addition, seven segment displays can be used to show various other letters of the latin, Cyrillic and Greek alphabets including punctuation, but few representations are unambiguous and intuitive at the same time. Short messages giving status information (e.g. "no dISC" on a CD player) are also commonly represented on 7-segment displays. In the case of such messages it is not necessary for every letter to be unambiguous, merely for the words as a whole to be readable.
+Similar displays with fourteen or sixteen segments are available allowing less-ambiguous representations of the alphabet.
+Using a restricted range of letters that look like (upside-down) digits, seven-segment displays are commonly used by school children to form words and phrases using a technique known as "calculator spelling".
+
+
+== See alsoEdit ==
+Nine-segment display
+Fourteen-segment display
+Sixteen-segment display
+Dot matrix display
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Interactive Demonstration of a Seven Segment Display
+Interfacing Seven Segment Display to 8051 Microcontroller
+Interfacing 7 Segment Display with AVR Microcontroller

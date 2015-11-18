@@ -1,0 +1,198 @@
+Cell is a multi-core microprocessor microarchitecture that combines a general-purpose Power Architecture core of modest performance with streamlined coprocessing elements which greatly accelerate multimedia and vector processing applications, as well as many other forms of dedicated computation.
+It was developed by Sony, Toshiba, and IBM, an alliance known as "STI". The architectural design and first implementation were carried out at the STI Design Center in Austin, Texas over a four-year period beginning March 2001 on a budget reported by Sony as approaching US$400 million. Cell is shorthand for Cell Broadband Engine Architecture, commonly abbreviated CBEA in full or Cell BE in part.
+The first major commercial application of Cell was in Sony's PlayStation 3 game console. Mercury Computer Systems has a dual Cell server, a dual Cell blade configuration, a rugged computer, and a PCI Express accelerator board available in different stages of production. Toshiba had announced plans to incorporate Cell in high definition television sets, but seems to have abandoned the idea. Exotic features such as the XDR memory subsystem and coherent Element Interconnect Bus (EIB) interconnect appear to position Cell for future applications in the supercomputing space to exploit the Cell processor's prowess in floating point kernels.
+The Cell architecture includes a memory coherence architecture that emphasizes power efficiency, prioritizes bandwidth over low latency, and favors peak computational throughput over simplicity of program code. For these reasons, Cell is widely regarded as a challenging environment for software development. IBM provides a Linux-based development platform to help developers program for Cell chips. The architecture will not be widely used unless it is adopted by the software development community. However, Cell's strengths may make it useful for scientific computing regardless of its mainstream success.
+
+
+== History ==
+
+In mid-2000, Sony Computer Entertainment, Toshiba Corporation, and IBM formed an alliance known as "STI" to design and manufacture the processor.
+The STI Design Center opened in March 2001. The Cell was designed over a period of four years, using enhanced versions of the design tools for the POWER4 processor. Over 400 engineers from the three companies worked together in Austin, with critical support from eleven of IBM's design centers.
+
+During this period, IBM filed many patents pertaining to the Cell architecture, manufacturing process, and software environment. An early patent version of the Broadband Engine was shown to be a chip package comprising four "Processing Elements", which was the patent's description for what is now known as the Power Processing Element (PPE). Each Processing Element contained 8 APUs, which are now referred to as SPEs on the current Broadband Engine chip. This chip package was widely regarded to run at a clock speed of 4 GHz and with 32 APUs providing 32 gigaFLOPS each, the Broadband Engine was shown to have 1 teraFLOPS of raw computing power. This design was fabricated using a 90 nm SOI process.
+In March 2007, IBM announced that the 65 nm version of Cell BE is in production at its plant (at the time, now GlobalFoundries') in East Fishkill, New York.
+Bandai Namco Entertainment used the cell processor for their 357 arcade board as well as the subsequent 369.
+In February 2008, IBM announced that it will begin to fabricate Cell processors with the 45 nm process.
+In May 2008, IBM introduced the high-performance double-precision floating-point version of the Cell processor, the PowerXCell 8i, at the 65 nm feature size.
+In May 2008, an Opteron- and PowerXCell 8i-based supercomputer, the IBM Roadrunner system, became the world's first system to achieve one petaFLOPS, and was the fastest computer in the world until third quarter 2009. The world's three most energy efficient supercomputers, as represented by the Green500 list, are similarly based on the PowerXCell 8i.
+The 45 nm Cell processor was introduced in concert with Sony's PlayStation 3 Slim in August 2009.
+By November 2009 IBM had discontinued the development of a Cell processor with 32 APUs but was still developing other Cell products.
+
+
+=== Commercialization ===
+On May 17, 2005, Sony Computer Entertainment confirmed some specifications of the Cell processor that would be shipping in the then-forthcoming PlayStation 3 console. This Cell configuration has one PPE on the core, with eight physical SPEs in silicon. In the PlayStation 3, one SPE is locked-out during the test process, a practice which helps to improve manufacturing yields, and another one is reserved for the OS, leaving 6 free SPEs to be used by games' code. The target clock-frequency at introduction is 3.2 GHz. The introductory design is fabricated using a 90 nm SOI process, with initial volume production slated for IBM's facility in East Fishkill, New York.
+The relationship between cores and threads is a common source of confusion. The PPE core is dual threaded and manifests in software as two independent threads of execution while each active SPE manifests as a single thread. In the PlayStation 3 configuration as described by Sony, the Cell processor provides nine independent threads of execution.
+On June 28, 2005, IBM and Mercury Computer Systems announced a partnership agreement to build Cell-based computer systems for embedded applications such as medical imaging, industrial inspection, aerospace and defense, seismic processing, and telecommunications. Mercury has since then released blades, conventional rack servers and PCI Express accelerator boards with Cell processors.
+In the fall of 2006, IBM released the QS20 blade module using double Cell BE processors for tremendous performance in certain applications, reaching a peak of 410 gigaFLOPS per module. The QS22 based on the PowerXCell 8i processor is used for the IBM Roadrunner supercomputer. Mercury and IBM uses the fully utilized Cell processor with eight active SPEs. On April 8, 2008, Fixstars Corporation released a PCI Express accelerator board based on the PowerXCell 8i processor.
+Sony's high performance media computing server ZEGO uses a 3.2 GHz Cell/B.E processor.
+
+
+== Overview ==
+
+The Cell Broadband Engine, or Cell as it is more commonly known, is a microprocessor intended as a hybrid of conventional desktop processors (such as the Athlon 64, and Core 2 families) and more specialized high-performance processors, such as the NVIDIA and ATI graphics-processors (GPUs). The longer name indicates its intended use, namely as a component in current and future online distribution systems; as such it may be utilized in high-definition displays and recording equipment, as well as HDTV systems. Additionally the processor may be suited to digital imaging systems (medical, scientific, etc.) and physical simulation (e.g., scientific and structural engineering modeling).
+In a simple analysis, the Cell processor can be split into four components: external input and output structures, the main processor called the Power Processing Element (PPE) (a two-way simultaneous multithreaded Power ISA v.2.03 compliant core), eight fully functional co-processors called the Synergistic Processing Elements, or SPEs, and a specialized high-bandwidth circular data bus connecting the PPE, input/output elements and the SPEs, called the Element Interconnect Bus or EIB.
+To achieve the high performance needed for mathematically intensive tasks, such as decoding/encoding MPEG streams, generating or transforming three-dimensional data, or undertaking Fourier analysis of data, the Cell processor marries the SPEs and the PPE via EIB to give access, via fully cache coherent DMA (direct memory access), to both main memory and to other external data storage. To make the best of EIB, and to overlap computation and data transfer, each of the nine processing elements (PPE and SPEs) is equipped with a DMA engine. Since the SPE's load/store instructions can only access its own local memory, each SPE entirely depends on DMAs to transfer data to and from the main memory and other SPEs' local memories. A DMA operation can transfer either a single block area of size up to 16KB, or a list of 2 to 2048 such blocks. One of the major design decisions in the architecture of Cell is the use of DMAs as a central means of intra-chip data transfer, with a view to enabling maximal asynchrony and concurrency in data processing inside a chip.
+The PPE, which is capable of running a conventional operating system, has control over the SPEs and can start, stop, interrupt, and schedule processes running on the SPEs. To this end the PPE has additional instructions relating to control of the SPEs. Unlike SPEs, the PPE can read and write the main memory and the local memories of SPEs through the standard load/store instructions. Despite having Turing complete architectures, the SPEs are not fully autonomous and require the PPE to prime them before they can do any useful work. As most of the "horsepower" of the system comes from the synergistic processing elements, the use of DMA as a method of data transfer and the limited local memory footprint of each SPE pose a major challenge to software developers who wish to make the most of this horsepower, demanding careful hand-tuning of programs to extract maximal performance from this CPU.
+The PPE and bus architecture includes various modes of operation giving different levels of memory protection, allowing areas of memory to be protected from access by specific processes running on the SPEs or the PPE.
+Both the PPE and SPE are RISC architectures with a fixed-width 32-bit instruction format. The PPE contains a 64-bit general purpose register set (GPR), a 64-bit floating point register set (FPR), and a 128-bit Altivec register set. The SPE contains 128-bit registers only. These can be used for scalar data types ranging from 8-bits to 64-bits in size or for SIMD computations on a variety of integer and floating point formats. System memory addresses for both the PPE and SPE are expressed as 64-bit values for a theoretic address range of 264 bytes (16 exabytes or 16,777,216 terabytes). In practice, not all of these bits are implemented in hardware. Local store addresses internal to the SPU (Synergistic Processor Unit) processor are expressed as a 32-bit word. In documentation relating to Cell a word is always taken to mean 32 bits, a doubleword means 64 bits, and a quadword means 128 bits.
+
+
+=== PowerXCell 8i ===
+In 2008, IBM announced a revised variant of the Cell called the PowerXCell 8i, which is available in QS22 Blade Servers from IBM. The PowerXCell is manufactured on a 65 nm process, and adds support for up to 32 GB of slotted DDR2 memory, as well as dramatically improving double-precision floating-point performance on the SPEs from a peak of about 12.8 GFLOPS to 102.4 GFLOPS total for eight SPEs, which, coincidentally, is the same peak performance as the NEC SX-9 vector processor released around the same time. The IBM Roadrunner supercomputer, the world's fastest during 2008-2009, consists of 12,240 PowerXCell 8i processors, along with 6,562 AMD Opteron processors. The PowerXCell 8i powered super computers also dominated all of the top 6 "greenest" systems in the Green500 list, with highest MFLOPS/Watt ratio supercomputers in the world. Beside the QS22 and supercomputers, the PowerXCell processor is also available as an accelerator on a PCI Express card and is used as the core processor in the QPACE project.
+Since the PowerXCell 8i removed the RAMBUS memory interface and added significantly larger DDR2 interfaces, and enhanced SPEs the chip layout had to be reworked which resulted in both larger chip die and packaging.
+
+
+== Architecture ==
+While the Cell chip can have a number of different configurations, the basic configuration is a multi-core chip composed of one "Power Processor Element" ("PPE") (sometimes called "Processing Element", or "PE"), and multiple "Synergistic Processing Elements" ("SPE"). The PPE and SPEs are linked together by an internal high speed bus dubbed "Element Interconnect Bus" ("EIB"). Due to the nature of its applications, Cell is optimized towards single precision floating point computation. The SPEs are capable of performing double precision calculations, albeit with an order of magnitude performance penalty. New chips expected mid-2008 are rumored to boost SPE double precision performance as high as 5x over pre-2008 designs. In the meantime, there are ways to circumvent this in software using iterative refinement, which means values are calculated in double precision only when necessary. Jack Dongarra and his team demonstrated a 3.2 GHz Cell with 8 SPEs delivering a performance equal to 100 GFLOPS on an average double precision Linpack 4096x4096 matrix.
+
+
+=== Power Processor Element (PPE) ===
+
+The PPE is the Power Architecture based, two-way multithreaded core acting as the controller for the eight SPEs, which handle most of the computational workload. The PPE will work with conventional operating systems due to its similarity to other 64-bit PowerPC processors, while the SPEs are designed for vectorized floating point code execution. The PPE contains a 64 KiB level 1 cache (32 KiB instruction and a 32 KiB data) and a 512 KiB Level 2 cache. The size of a cache line is 128 bytes. Additionally, IBM has included an AltiVec unit which is fully pipelined for single precision floating point. (Altivec does not support double precision floating-point vectors.) Each PPE can complete two double precision operations per clock cycle using a scalar-fused multiply-add instruction, which translates to 6.4 GFLOPS at 3.2 GHz; or eight single precision operations per clock cycle with a vector fused-multiply-add instruction, which translates to 25.6 GFLOPS at 3.2 GHz.
+
+
+==== Xenon in Xbox 360 ====
+The PPE was designed specifically for the Cell processor but during development, Microsoft approached IBM wanting a high performance processor core for its Xbox 360. IBM complied and made the tri-core Xenon processor, based on a slightly modified version of the PPE.
+
+
+=== Synergistic Processing Elements (SPE) ===
+Each SPE is composed of a "Synergistic Processing Unit", SPU, and a "Memory Flow Controller", MFC (DMA, MMU, and bus interface). The SPU runs a specially developed instruction set (ISA) with 128-bit SIMD organization for single and double precision instructions. With the current generation of the Cell, each SPE contains a 256 KiB embedded SRAM for instruction and data, called "Local Storage" (not to be mistaken for "Local Memory" in Sony's documents that refer to the VRAM) which is visible to the PPE and can be addressed directly by software. Each SPE can support up to 4 GiB of local store memory. The local store does not operate like a conventional CPU cache since it is neither transparent to software nor does it contain hardware structures that predict which data to load. The SPEs contain a 128-bit, 128-entry register file and measures 14.5 mm2 on a 90 nm process. An SPE can operate on sixteen 8-bit integers, eight 16-bit integers, four 32-bit integers, or four single-precision floating-point numbers in a single clock cycle, as well as a memory operation. Note that the SPU cannot directly access system memory; the 64-bit virtual memory addresses formed by the SPU must be passed from the SPU to the SPE memory flow controller (MFC) to set up a DMA operation within the system address space.
+In one typical usage scenario, the system will load the SPEs with small programs (similar to threads), chaining the SPEs together to handle each step in a complex operation. For instance, a set-top box might load programs for reading a DVD, video and audio decoding, and display, and the data would be passed off from SPE to SPE until finally ending up on the TV. Another possibility is to partition the input data set and have several SPEs performing the same kind of operation in parallel. At 3.2 GHz, each SPE gives a theoretical 25.6 GFLOPS of single precision performance.
+Compared to its personal computer contemporaries, the relatively high overall floating point performance of a Cell processor seemingly dwarfs the abilities of the SIMD unit in CPUs like the Pentium 4 and the Athlon 64. However, comparing only floating point abilities of a system is a one-dimensional and application-specific metric. Unlike a Cell processor, such desktop CPUs are more suited to the general purpose software usually run on personal computers. In addition to executing multiple instructions per clock, processors from Intel and AMD feature branch predictors. The Cell is designed to compensate for this with compiler assistance, in which prepare-to-branch instructions are created. For double-precision floating point operations, as sometimes used in personal computers and often used in scientific computing, Cell performance drops by an order of magnitude, but still reaches 20.8 GFLOPS (1.8 GFLOPS per SPE, 6.4 GFLOPS per PPE). The PowerXCell 8i variant, which was specifically designed for double-precision, reaches 102.4 GFLOPS in double-precision calculations.
+Tests by IBM show that the SPEs can reach 98% of their theoretical peak performance running optimized parallel matrix multiplication.
+Toshiba has developed a co-processor powered by four SPEs, but no PPE, called the SpursEngine designed to accelerate 3D and movie effects in consumer electronics.
+
+
+=== Element Interconnect Bus (EIB) ===
+The EIB is a communication bus internal to the Cell processor which connects the various on-chip system elements: the PPE processor, the memory controller (MIC), the eight SPE coprocessors, and two off-chip I/O interfaces, for a total of 12 participants in the PS3 (the number of SPU can vary in industrial applications). The EIB also includes an arbitration unit which functions as a set of traffic lights. In some documents IBM refers to EIB participants as 'units'.
+The EIB is presently implemented as a circular ring consisting of four 16 bytes wide unidirectional channels which counter-rotate in pairs. When traffic patterns permit, each channel can convey up to three transactions concurrently. As the EIB runs at half the system clock rate the effective channel rate is 16 bytes every two system clocks. At maximum concurrency, with three active transactions on each of the four rings, the peak instantaneous EIB bandwidth is 96 bytes per clock (12 concurrent transactions * 16 bytes wide / 2 system clocks per transfer). While this figure is often quoted in IBM literature it is unrealistic to simply scale this number by processor clock speed. The arbitration unit imposes additional constraints which are discussed in the Bandwidth Assessment section below.
+IBM Senior Engineer David Krolak, EIB lead designer, explains the concurrency model:
+A ring can start a new op every three cycles. Each transfer always takes eight beats. That was one of the simplifications we made, it's optimized for streaming a lot of data. If you do small ops, it does not work quite as well. If you think of eight-car trains running around this track, as long as the trains aren't running into each other, they can coexist on the track.
+Each participant on the EIB has one 16 byte read port and one 16 byte write port. The limit for a single participant is to read and write at a rate of 16 byte per EIB clock (for simplicity often regarded 8 byte per system clock). Note that each SPU processor contains a dedicated DMA management queue capable of scheduling long sequences of transactions to various endpoints without interfering with the SPU's ongoing computations; these DMA queues can be managed locally or remotely as well, providing additional flexibility in the control model.
+Data flows on an EIB channel stepwise around the ring. Since there are twelve participants, the total number of steps around the channel back to the point of origin is twelve. Six steps is the longest distance between any pair of participants. An EIB channel is not permitted to convey data requiring more than six steps; such data must take the shorter route around the circle in the other direction. The number of steps involved in sending the packet has very little impact on transfer latency: the clock speed driving the steps is very fast relative to other considerations. However, longer communication distances are detrimental to the overall performance of the EIB as they reduce available concurrency.
+Despite IBM's original desire to implement the EIB as a more powerful cross-bar, the circular configuration they adopted to spare resources rarely represents a limiting factor on the performance of the Cell chip as a whole. In the worst case, the programmer must take extra care to schedule communication patterns where the EIB is able to function at high concurrency levels.
+David Krolak explains:
+Well, in the beginning, early in the development process, several people were pushing for a crossbar switch, and the way the bus is designed, you could actually pull out the EIB and put in a crossbar switch if you were willing to devote more silicon space on the chip to wiring. We had to find a balance between connectivity and area, and there just was not enough room to put a full crossbar switch in. So we came up with this ring structure which we think is very interesting. It fits within the area constraints and still has very impressive bandwidth.
+
+
+==== Bandwidth assessment ====
+At 3.2 GHz, each channel flows at a rate of 25.6 GB/s. Viewing the EIB in isolation from the system elements it connects, achieving twelve concurrent transactions at this flow rate works out to an abstract EIB bandwidth of 307.2 GB/s. Based on this view many IBM publications depict available EIB bandwidth as "greater than 300 GB/s". This number reflects the peak instantaneous EIB bandwidth scaled by processor frequency.
+However, other technical restrictions are involved in the arbitration mechanism for packets accepted onto the bus. The IBM Systems Performance group explains:
+Each unit on the EIB can simultaneously send and receive 16 bytes of data every bus cycle. The maximum data bandwidth of the entire EIB is limited by the maximum rate at which addresses are snooped across all units in the system, which is one per bus cycle. Since each snooped address request can potentially transfer up to 128 bytes, the theoretical peak data bandwidth on the EIB at 3.2 GHz is 128Bx1.6 GHz = 204.8 GB/s.
+This quote apparently represents the full extent of IBM's public disclosure of this mechanism and its impact. The EIB arbitration unit, the snooping mechanism, and interrupt generation on segment or page translation faults are not well described in the documentation set as yet made public by IBM.
+In practice effective EIB bandwidth can also be limited by the ring participants involved. While each of the nine processing cores can sustain 25.6 GB/s read and write concurrently, the memory interface controller (MIC) is tied to a pair of XDR memory channels permitting a maximum flow of 25.6 GB/s for reads and writes combined and the two IO controllers are documented as supporting a peak combined input speed of 25.6 GB/s and a peak combined output speed of 35 GB/s.
+To add further to the confusion, some older publications cite EIB bandwidth assuming a 4 GHz system clock. This reference frame results in an instantaneous EIB bandwidth figure of 384 GB/s and an arbitration-limited bandwidth figure of 256 GB/s.
+All things considered the theoretic 204.8 GB/s number most often cited is the best one to bear in mind. The IBM Systems Performance group has demonstrated SPU-centric data flows achieving 197 GB/s on a Cell processor running at 3.2 GHz so this number is a fair reflection on practice as well.
+
+
+==== Optical interconnect ====
+Sony is currently working on the development of an optical interconnection technology for use in the device-to-device or internal interface of various types of Cell-based digital consumer electronics and game systems.
+
+
+=== Memory and I/O controllers ===
+Cell contains a dual channel Rambus XIO macro which interfaces to Rambus XDR memory. The memory interface controller (MIC) is separate from the XIO macro and is designed by IBM. The XIO-XDR link runs at 3.2 Gbit/s per pin. Two 32-bit channels can provide a theoretical maximum of 25.6 GB/s.
+The I/O interface, also a Rambus design, is known as FlexIO. The FlexIO interface is organized into 12 lanes, each lane being a unidirectional 8-bit wide point-to-point path. Five 8-bit wide point-to-point paths are inbound lanes to Cell, while the remaining seven are outbound. This provides a theoretical peak bandwidth of 62.4 GB/s (36.4 GB/s outbound, 26 GB/s inbound) at 2.6 GHz. The FlexIO interface can be clocked independently, typ. at 3.2 GHz. 4 inbound + 4 outbound lanes are supporting memory coherency.
+
+
+== Possible applications ==
+
+
+=== Video processing card ===
+Some companies, such as Leadtek, have released PCI-E cards based upon the Cell to allow for "faster than real time" transcoding of H.264, MPEG-2 and MPEG-4 video.
+
+
+=== Blade server ===
+On August 29, 2007, IBM announced the BladeCenter QS21. Generating a measured 1.05 giga–floating point operations per second (gigaFLOPS) per watt, with peak performance of approximately 460 GFLOPS it is one of the most power efficient computing platforms to date. A single BladeCenter chassis can achieve 6.4 tera–floating point operations per second (teraFLOPS) and over 25.8 teraFLOPS in a standard 42U rack.
+IBM Press Release
+On May 13, 2008, IBM announced the BladeCenter QS22. The QS22 introduces the PowerXCell 8i processor with five times the double-precision floating point performance of the QS21, and the capacity for up to 32 GB of DDR2 memory on-blade.
+IBM Press Release
+IBM has discontinued the Blade server line based on Cell processors as on January 12, 2012.
+IBM Shuts down Cell Blade Servers
+
+
+=== PCI Express Board ===
+Several companies provide PCI-e boards utilising the IBM PowerXCell 8i. The performance is reported as 179.2 GFlops (SP), 89.6 GFlops (DP) at 2.8 GHz.
+
+
+=== Console video games ===
+Sony's PlayStation 3 video game console contains the first production application of the Cell processor, clocked at 3.2 GHz and containing seven out of eight operational SPEs, to allow Sony to increase the yield on the processor manufacture. Only six of the seven SPEs are accessible to developers as one is reserved by the OS.
+
+
+=== Home cinema ===
+Toshiba has produced HDTVs using Cell. They have already presented a system to decode 48 standard definition MPEG-2 streams simultaneously on a 1920×1080 screen. This can enable a viewer to choose a channel based on dozens of thumbnail videos displayed simultaneously on the screen.
+
+
+=== Supercomputing ===
+IBM's supercomputer, IBM Roadrunner, is a hybrid of General Purpose CISC Opteron as well as Cell processors. This system assumed the #1 spot on the June 2008 Top 500 list as the first supercomputer to run at petaFLOPS speeds, having gained a sustained 1.026 petaFLOPS speed using the standard Linpack benchmark. IBM Roadrunner uses the PowerXCell 8i version of the Cell processor, manufactured using 65 nm technology and enhanced SPUs that can handle double precision calculations in the 128-bit registers, reaching double precision 102 GFLOPs per chip.
+
+
+=== Cluster computing ===
+
+Clusters of PlayStation 3 consoles are an attractive alternative to high-end systems based on Cell blades. Innovative Computing Laboratory, a group led by Jack Dongarra, in the Computer Science Department at the University of Tennessee, investigated such an application in depth. Terrasoft Solutions is selling 8-node and 32-node PS3 clusters with Yellow Dog Linux pre-installed, an implementation of Dongarra's research.
+As first reported by Wired on October 17, 2007, an interesting application of using PlayStation 3 in a cluster configuration was implemented by Astrophysicist Gaurav Khanna, from the Physics department of University of Massachusetts Dartmouth, who replaced time used on supercomputers with a cluster of eight PlayStation 3s. Subsequently, the next generation of this machine, now called the PlayStation 3 Gravity Grid, uses a network of 16 machines, and exploits the Cell processor for the intended application which is binary black hole coalescence using perturbation theory. In particular, the cluster performs astrophysical simulations of large supermassive black holes capturing smaller compact objects and has generated numerical data that has been published multiple times in the relevant scientific research literature. The Cell processor version used by the PlayStation 3 has a main CPU and 6 floating-point vector processors, giving the Gravity Grid machine a net of 16 general-purpose processors and 96 vector processors. The machine has a one-time cost of $9,000 to build and is adequate for black-hole simulations which would otherwise cost $6,000 per run on a conventional supercomputer. The black hole calculations are not memory-intensive and are highly localizable, and so are well-suited to this architecture. Khanna claims that the cluster's performance exceeds that of a 100+ Intel Xeon core based traditional Linux cluster on his simulations. The PS3 Gravity Grid gathered significant media attention through 2007, 2008, 2009, and 2010.
+The computational Biochemistry and Biophysics lab at the Universitat Pompeu Fabra, in Barcelona, deployed in 2007 a BOINC system called PS3GRID for collaborative computing based on the CellMD software, the first one designed specifically for the Cell processor.
+The United States Air Force Research Laboratory has deployed a PlayStation 3 cluster of over 1700 units, nicknamed the "Condor Cluster", for analyzing high-resolution satellite imagery. The Air Force claims the Condor Cluster would be the 33rd largest supercomputer in the world in terms of capacity. The lab has opened up the supercomputer for use by universities for research.
+
+
+=== Distributed computing ===
+With the help of the computing power of over half a million PlayStation 3 consoles, the distributed computing project Folding@home has been recognized by Guinness World Records as the most powerful distributed network in the world. The first record was achieved on September 16, 2007, as the project surpassed one petaFLOPS, which had never been previously been attained by a distributed computing network. Additionally, the collective efforts enabled PS3 alone to reach the petaFLOPS mark on September 23, 2007. In comparison, the world's second most powerful supercomputer at the time, IBM's BlueGene/L, performed at around 478.2 teraFLOPS. This means Folding@home's computing power is approximately twice BlueGene/L's (although the CPU interconnect in BlueGene/L is more than one million times faster than the mean network speed in Folding@home.). As of May 7, 2011, Folding@home runs at about 9.3 x86 petaFLOPS, with 1.6 petaFLOPS generated by 26,000 active PS3s alone. In late 2008, a cluster of 200 PlayStation 3 consoles was used to generate a rogue SSL certificate, effectively cracking its encryption.
+
+
+=== Mainframes ===
+IBM announced April 25, 2007 that it would begin integrating its Cell Broadband Engine Architecture microprocessors into the company's line of mainframes. This has led to the Gameframe.
+
+
+=== Password cracking ===
+The architecture of the processor makes it better suited to hardware-assisted cryptographic brute force attack applications than conventional processors.
+
+
+== Software engineering ==
+
+Due to the flexible nature of the Cell, there are several possibilities for the utilization of its resources, not limited to just different computing paradigms:
+
+
+=== Job queue ===
+The PPE maintains a job queue, schedules jobs in SPEs, and monitors progress. Each SPE runs a "mini kernel" whose role is to fetch a job, execute it, and synchronize with the PPE.
+
+
+=== Self-multitasking of SPEs ===
+The kernel and scheduling is distributed across the SPEs. Tasks are synchronized using mutexes or semaphores as in a conventional operating system. Ready-to-run tasks wait in a queue for an SPE to execute them. The SPEs use shared memory for all tasks in this configuration.
+
+
+=== Stream processing ===
+Each SPE runs a distinct program. Data comes from an input stream, and is sent to SPEs. When an SPE has terminated the processing, the output data is sent to an output stream.
+This provides a flexible and powerful architecture for stream processing, and allows explicit scheduling for each SPE separately. Other processors are also able to perform streaming tasks, but are limited by the kernel loaded.
+
+
+=== Open source software development ===
+In 2005, patches enabling Cell support in the Linux kernel were submitted for inclusion by IBM developers. Arnd Bergmann (one of the developers of the aforementioned patches) also described the Linux-based Cell architecture at LinuxTag 2005. As of release 2.6.16 (March 20, 2006), the Linux kernel officially supports the Cell processor.
+Both PPE and SPEs are programmable in C/C++ using a common API provided by libraries.
+Fixstars Solutions provides Yellow Dog Linux for IBM and Mercury Cell-based systems, as well as for the PlayStation 3. Terra Soft strategically partnered with Mercury to provide a Linux Board Support Package for Cell, and support and development of software applications on various other Cell platforms, including the IBM BladeCenter JS21 and Cell QS20, and Mercury Cell-based solutions. Terra Soft also maintains the Y-HPC (High Performance Computing) Cluster Construction and Management Suite and Y-Bio gene sequencing tools. Y-Bio is built upon the RPM Linux standard for package management, and offers tools which help bioinformatics researchers conduct their work with greater efficiency. IBM has developed a pseudo-filesystem for Linux coined "Spufs" that simplifies access to and use of the SPE resources. IBM is currently maintaining a Linux kernel and GDB ports, while Sony maintains the GNU toolchain (GCC, binutils).
+In November 2005, IBM released a "Cell Broadband Engine (CBE) Software Development Kit Version 1.0", consisting of a simulator and assorted tools, to its web site. Development versions of the latest kernel and tools for Fedora Core 4 are maintained at the Barcelona Supercomputing Center website.
+In August 2007, Mercury Computer Systems released a Software Development Kit for PLAYSTATION(R)3 for High-Performance Computing.
+In November 2007, Fixstars Corporation released the new "CVCell" module aiming to accelerate several important OpenCV APIs for Cell. In a series of software calculation tests, they recorded execution times on a 3.2 GHz Cell processor that were between 6x and 27x faster compared with the same software on a 2.4 GHz Intel Core 2 Duo.
+
+
+== Gallery ==
+Illustrations of the different generations of Cell/B.E. processors and the PowerXCell 8i. The images are not to scale; All Cell/B.E. packages measures 42.5×42.5 mm and the PowerXCell 8i measures 47.5×47.5 mm.
+
+
+== See also ==
+Octopiler
+STI Center of Competence for the Cell Processor
+adapteva epiphany architecture, a similar network-on-a-chip with local stores and DMA, but more cores and easier off-core communication.
+
+
+== References ==
+
+
+== External links ==
+Cell Broadband Engine resource center
+Sony Computer Entertainment Incorporated's Cell resource page
+Cmpware Configurable Multiprocessor Development Kit for Cell BE
+ISSCC 2005: The CELL Microprocessor, a comprehensive overview of the CELL microarchitecture
+Holy Chip!
+The little broadband engine that could
+Introducing the IBM/Sony/Toshiba Cell Processor — Part I: the SIMD processing units
+Introducing the IBM/Sony/Toshiba Cell Processor -- Part II: The Cell Architecture
+The Soul of Cell: An interview with Dr. H. Peter Hofstee

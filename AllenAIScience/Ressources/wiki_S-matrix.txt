@@ -1,0 +1,310 @@
+In physics, the S-matrix or scattering matrix relates the initial state and the final state of a physical system undergoing a scattering process. It is used in quantum mechanics, scattering theory and quantum field theory.
+More formally, the S-matrix is defined as the unitary matrix connecting asymptotic particle states in the Hilbert space of physical states (scattering channels). While the S-matrix may be defined for any background (spacetime) that is asymptotically solvable and has no event horizons, it has a simple form in the case of the Minkowski space. In this special case, the Hilbert space is a space of irreducible unitary representations of the inhomogeneous Lorentz group (the Poincaré group); the S-matrix is the evolution operator between time equal to minus infinity (the distant past), and time equal to plus infinity (the distant future). It is defined only in the limit of zero energy density (or infinite particle separation distance).
+It can be shown that if a quantum field theory in Minkowski space has a mass gap, the state in the asymptotic past and in the asymptotic future are both described by Fock spaces.
+
+
+== History ==
+The S-matrix was first introduced by John Archibald Wheeler in the 1937 paper "'On the Mathematical Description of Light Nuclei by the Method of Resonating Group Structure'". In this paper Wheeler introduced a scattering matrix – a unitary matrix of coefficients connecting "the asymptotic behaviour of an arbitrary particular solution [of the integral equations] with that of solutions of a standard form", but did not develop it fully.
+In the 1940s, Werner Heisenberg developed, independently, and substantiated the idea of the S-matrix. Because of the problematic divergences present in quantum field theory at that time, Heisenberg was motivated to isolate the essential features of the theory that would not be affected by future changes as the theory developed. In doing so, he was led to introduce a unitary "characteristic" S-matrix.
+After World War II, the clout of Heisenberg and his attachment to the S-matrix approach may well have slowed down development of alternative approaches, such as quantum field theory and the closer study of sub-hadronic physics for a decade or more, at least in Europe: "Pretty much like medieval Scholastic Magisters were extremely inventive in defending the Church Dogmas and blocking the way to experimental science, some great minds in the sixties developed the S-Matrix dogma with great perfection and skill before it was buried down in the seventies after discovery of quarks and asymptotic freedom" 
+Today, however, exact S-matrix results are a crowning achievement of Conformal field theory, Integrable systems, and several further areas of quantum field theory and string theory. S-matrices are not substitutes for a field-theoretic treatment, but rather, complements and the end results of such.
+
+
+== Motivation ==
+In high-energy particle physics we are interested in computing the probability for different outcomes in scattering experiments. These experiments can be broken down into three stages:
+1. Collide together a collection of incoming particles (usually two particles with high energies).
+2. Allowing the incoming particles to interact. These interactions may change the types of particles present (e.g. if an electron and a positron annihilate they may produce two photons).
+3. Measuring the resulting outgoing particles.
+The process by which the incoming particles are transformed (through their interaction) into the outgoing particles is called scattering. For particle physics, a physical theory of these processes must be able to compute the probability for different outgoing particles when different incoming particles collide with different energies.
+The S-matrix in quantum field theory achieves exactly this. It is assumed that the small-energy-density approximation is valid in these cases.
+
+
+== Use of S-matrices ==
+The S-matrix is closely related to the transition probability amplitude in quantum mechanics and to cross sections of various interactions; the elements (individual numerical entries) in the S-matrix are known as scattering amplitudes. Poles of the S-matrix in the complex-energy plane are identified with bound states, virtual states or resonances. Branch cuts of the S-matrix in the complex-energy plane are associated to the opening of a scattering channel.
+In the Hamiltonian approach to quantum field theory, the S-matrix may be calculated as a time-ordered exponential of the integrated Hamiltonian in the interaction picture; it may also be expressed using Feynman's path integrals. In both cases, the perturbative calculation of the S-matrix leads to Feynman diagrams.
+In scattering theory, the S-matrix is an operator mapping free particle in-states to free particle out-states (scattering channels) in the Heisenberg picture. This is very useful because often we cannot describe the interaction (at least, not the most interesting ones) exactly.
+
+
+== S-matrix in one-dimensional quantum mechanics ==
+A simple prototype in which the S-matrix is 2-dimensional is considered first, for the purposes of illustration. In it, particles with sharp energy E scatter from a localized potential V according to the rules of 1-dimensional quantum mechanics. Already this simple model displays some features of more general cases, but is easier to handle.
+Each energy E yields an S-matrix S = S(E) that depends on V. Thus, the total S-matrix could, figuratively speaking, be visualized, in a suitable basis, as a "continuous matrix" with every element zero except for 2 × 2-blocks along the diagonal for a given V.
+
+
+=== Definition ===
+Consider a localized one dimensional potential barrier V(x), subjected to a beam of quantum particles with energy E. These particles incident on the potential barrier from left and right.
+The solution of Schrödinger's equation outside the potential barrier are plane waves given by
+
+for the region to the left of the potential barrier, and
+
+for the region to the right to the potential barrier, where
+
+is the wave vector. The time dependence is not needed and is hence omitted. The term with coefficient A represents the incoming wave, whereas term with coefficient C represents the outgoing wave. B stands for the reflecting wave, and D could be omitted if we set the incoming wave as the positive direction.
+The "scattering amplitude", i.e., the transition overlap of the outgoing waves with the incoming waves is a linear relation defining the S-matrix,
+
+The above relation can be written as
+
+where
+
+The elements of S completely characterize the scattering properties of the potential barrier V(x).
+
+
+=== Unitary property of S-matrix ===
+The unitary property of S-matrix is directly related to the conservation of the probability current in quantum mechanics.
+The probability current J of the wave function ψ(x) is defined as
+.
+The current density to the left of the barrier is
+,
+while the current density to the right of the barrier is
+.
+For conservation of the probability current density, JL = JR. This implies the S-matrix is a unitary matrix.
+
+
+=== Time-reversal symmetry ===
+If the potential V(x) is real,then the system possesses time-reversal symmetry. Under this condition, if ψ(x) is a solution of Schrödinger's equation, then ψ*(x) is also a solution.
+The time-reversed solution is given by
+
+for the region to the left to the potential barrier, and
+
+for the region to the right to the potential barrier, where the terms with coefficient B*, C* represent incoming wave, and terms with coefficient A*, D* represent outgoing wave.
+They are again related by the S-matrix,
+
+that is,
+
+Now, the relations
+
+together yield a condition
+
+This condition, in conjunction with the unitarity relation, implies that the S-matrix is symmetric, as a result of time reversal symmetry,
+
+
+=== Transmission coefficient and Reflection coefficient ===
+The transmission coefficient from the left of the potential barrier is, when D = 0,
+
+The reflection coefficient from the left of the potential barrier is, when D = 0,
+
+Similarly, the transmission coefficient from the right of the potential barrier is, when A = 0,
+
+The reflection coefficient from the right of the potential barrier is, when A = 0,
+
+The relations between the transmission and reflection coefficients are
+
+and
+
+This is a consequence of the unitarity property of the S-matrix.
+
+
+=== Optical theorem in one dimension ===
+In the case of free particles V(x) = 0, the S-matrix is
+
+Whenever V(x) is different from zero, however, there is a departure of the S-matrix from the above form, to
+
+This departure is parameterized by two complex functions of energy, r and t. From unitarity there also follows a relationship between these two functions,
+
+The analogue of this identity in three dimensions is known as the optical theorem.
+
+
+== Definition in quantum field theory ==
+
+
+=== Interaction picture ===
+A straightforward way to define the S-matrix begins with considering the interaction picture. Let the Hamiltonian H be split into the free part H0 and the interaction V, H = H0 + V. In this picture, the operators behave as free field operators and the state vectors have dynamics according to the interaction V. Let
+
+denote a state that has evolved from a free initial state
+
+The S-matrix element is then defined as the projection of this state on the final state
+
+Thus
+
+where S is the S-operator. The great advantage of this definition is that the time-evolution operator U evolving a state in the interaction picture is formally known,
+
+where T denotes the time-ordered product. Expressed in this operator,
+
+from which
+
+Using the knowledge about U,
+
+or, if V comes as a Hamiltonian density,
+
+Being a special type of time-evolution operator, S is unitary. For any initial state and any final state one finds
+
+This approach is somewhat naîve in that potential problems are swept under the carpet. This is intentional. The approach works in practice and some of the technical issues are addressed in the other sections.
+
+
+=== In and out states ===
+Here a slightly more rigorous approach is taken in order to address potential problems that were disregarded in the interaction picture approach of above. The final outcome is, of course, the same as when taking the quicker route. For this, the notions of in and out states are needed. These will be developed in two ways, from vacua, and from free particle states. Needless to say, the two approaches are equivalent, but they illuminate matters from different angles.
+
+
+==== From vacua ====
+If a(k)† is a creation operator, its hermitian adjoint is an annihilation operator and destroys the vacuum,
+
+In Dirac notation, define
+
+as a vacuum quantum state, i.e. a state without real particles. The asterisk signifies that not all vacua are necessarily equal, and certainly not equal to the Hilbert space zero state 0. All vacuum states are assumed Poincaré invariant, invariance under translations, rotations and boosts, formally,
+
+where Pμ is the generator of translation in space and time, and Mμν is the generator of Lorentz transformations. Thus the description of the vacuum is independent of the frame of reference. Associated to the in and out states to be defined are the in and out field operators (aka fields) Φi and Φo. Attention is here focused to the simplest case, that of a scalar theory in order to exemplify with the least possible cluttering of the notation. The in and out fields satisfy
+
+the free Klein–Gordon equation. These fields are postulated to have the same equal time commutation relations (ETCR) as the free fields,
+
+where πi,j is the field canonically conjugate to Φi,j. Associated to the in and out fields are two sets of creation and annihilation operators, ai(k)† and af (k)†, acting in the same Hilbert space, on two distinct complete sets (Fock spaces; initial space i, final space f ). These operators satisfy the usual commutation rules,
+
+The action of the creation operators on their respective vacua and states with a finite number of particles in the in and out states is given by
+
+where issues of normalization have been ignored. See the next section for a detailed account on how a general n-particle state is normalized. The initial and final spaces are defined by
+
+The asymptotic states are assumed to have well defined Poincaré transformation properties, i.e. they are assumed to transform as a direct product of one-particle states. This is a characteristic of a non-interacting field. From this follows that the asymptotic states are all eigenstates of the momentum operator Pμ,
+
+In particular, they are eigenstates of the full Hamiltonian,
+
+The vacuum is usually postulated to be stable and unique,
+.
+The interaction is assumed adiabatically turned on and off.
+
+
+==== Heisenberg picture ====
+The Heisenberg picture is employed henceforth. In this picture, the states are time-independent. A Heisenberg state vector thus represents the complete spacetime history of a system of particles. The labeling of the in and out states refers to the asymptotic appearance. An state Ψα, in is characterized by that as t→−∞ the particle content is that represented collectively by α. Likewise, a state Ψβ, out will have the particle content represented by β for t→+∞. Using the assumption that the in and out states, as well as the interacting states, inhabit the same Hilbert space and assuming completeness of the normalized in and out states (postulate of asymptotic completeness), the initial states can be expanded in a basis of final states (or vice versa). The explicit expression is given later after more notation and terminology has been introduced. The expansion coefficients are precisely the S-matrix elements to be defined below.
+While the state vectors are constant in time in the Heisenberg picture, the physical states they represent are not. If a system is found to be in a state Ψ at time t = 0, then it will be found in the state U(τ)Ψ =e−iHτΨ at time t = τ. This is not (necessarily) the same Heisenberg state vector, but it is an equivalent state vector, meaning that it will, upon measurement, be found to be one of the final states from the expansion with nonzero coefficient. Letting τ vary one sees that the observed Ψ (not measured) is indeed the Schrödinger picture state vector. By repeating the measurement sufficiently many times and averaging, one may say that the same state vector is indeed found at time t = τ as at time t = 0. This reflects the expansion above of an in state into out states.
+
+
+==== From free particle states ====
+For this viewpoint, one should consider how the archetypical scattering experiment is performed. The initial particles are prepared in well defined states where they are so far apart that they don't interact. They are somehow made to interact, and the final particles are registered when they are so far apart that they have ceased to interact. The idea is to look for states in the Heisenberg picture that in the distant past had the appearance of free particle states. This will be the in states. Likewise, an out state will be a state that in the distant future has the appearance of a free particle state.
+The notation from the general reference for this section, Weinberg (2002) will be used. A general non-interacting multi-particle state is given by
+
+where
+p is momentum,
+σ is spin z-component or, in the massless case, helicity,
+n is particle species.
+These states are normalized as
+
+Permutations work as such; if s ∈ Sk is a permutation of k objects (for a k-particle state) such that
+
+then a nonzero term results. The sign is plus unless s involves an odd number of fermion transpositions, in which case it is minus. The notation is usually abbreviated letting one Greek letter stand for the whole collection describing the state. In abbreviated form the normalization becomes
+
+When integrating over free-particle states one writes in this notation
+
+where the sum includes only terms such that no two terms are equal modulo a permutation of the particle type indices. The sets of states sought for are supposed to be complete. This is expressed as
+
+which could be paraphrased as
+
+where for each fixed α, the right hand side is a projection operator onto the state α. Under an inhomogeneous Lorentz transformation (Λ, a), the field transforms according to the rule
+
+where W(Λ, p) is the Wigner rotation and D(j) is the (2j + 1)-dimensional representation of SO(3). By putting Λ = 1, a = (τ, 0, 0, 0), for which U is exp(iHτ), in (1), it immediately follows that
+
+so the in and out states sough after are eigenstates of the full Hamiltonian that are necessarily non-interacting due to the absence of mixed particle energy terms. The discussion in the section above suggests that the in states Ψ+ and the out states Ψ− should be such that
+
+for large positive and negative τ has the appearance of the corresponding package, represented by g, of free-particle states, g assumed smooth and suitably localized in momentum. Wave packages are necessary, else the time evolution will yield only a phase factor indicating free particles, which cannot be the case. The right hand side follows from that the in and out states are eigenstates of the Hamiltonian per above. To formalize this requirement, assume that the full Hamiltonian H can be divided into two terms, a free-particle Hamiltonian H0 and an interaction V, H = H0 + V such that the eigenstates Φγ of H0 have the same appearance as the in- and out-states with respect to normalization and Lorentz transformation properties,
+
+The in and out states are defined as eigenstates of the full Hamiltonian,
+
+satisfying
+
+for τ → −∞ or τ → +∞ respectively. Define
+
+then
+
+This last expression will work only using wave packages.From these definitions follow that the in and out states are normalized in the same way as the free-particle states,
+
+and the three sets are unitarily equivalent. Now rewrite the eigenvalue equation,
+
+where the ±iε terms has been added to make the operator on the LHS invertible. Since the in and out states reduce to the free-particle states for V → 0, put
+
+on the RHS to obtain
+
+Then use the completeness of the free-particle states,
+
+to finally obtain
+
+Here H0 has been replaced by its eigenvalue on the free-particle states. This is the Lippmann–Schwinger equation.
+
+
+==== In states expressed as out states ====
+The initial states can be expanded in a basis of final states (or vice versa). Using the completeness relation,
+
+where |Cm|2 is the probability that the interaction transforms
+
+into
+.
+By the ordinary rules of quantum mechanics,
+
+and one may write
+
+The expansion coefficients are precisely the S-matrix elements to be defined below.
+
+
+=== The S-matrix ===
+The S-matrix is now defined by
+
+Here α and β are shorthands that represent the particle content but suppresses the individual labels. Associated to the S-matrix there is the S-operator S defined by
+
+where the Φγ are free particle states. This definition conforms with the direct approach used in the interaction picture. Also, due to unitary equivalence,
+
+As a physical requirement, S must be a unitary operator. This is a statement of conservation of probability in quantum field theory. But
+
+By completeness then,
+
+so S is the unitary transformation from in-states to out states. Lorentz invariance is another crucial requirement on the S-matrix. The S-operator represents the quantum canonical transformation of the initial in states to the final out states. Moreover, S leaves the vacuum state invariant and transforms in-space fields to out-space fields,
+
+In terms of creation and annihilation operators, this becomes
+
+hence
+
+A similar expression holds when S operates to the left on an out state. This means that the S-matrix can be expressed as
+
+If S describes an interaction correctly, these properties must be also true:
+If the system is made up with a single particle in momentum eigenstate |k⟩, then S|k⟩= |k⟩. This follows from the calculation above as a special case.
+The S-matrix element may be nonzero only where the output state has the same total momentum as the input state.This follows from the required Lorentz invariance of the S-matrix.
+
+
+== S-matrix and evolution operator U ==
+Define a time-dependent creation and annihilation operator as follows,
+
+so, for the fields,
+
+where
+ .
+We allow for a phase difference, given by
+
+because for S,
+
+Substituting the explicit expression for U, one has
+
+where  is the interaction part of the hamiltonian and  is the time ordering.
+By inspection, it can be seen that this formula is not explicitly covariant.
+
+
+== Dyson series ==
+
+The most widely used expression for the S-matrix is the Dyson series. This expresses the S-matrix operator as the series:
+
+where:
+ denotes time-ordering,
+ denotes the interaction Hamiltonian density which describes the interactions in the theory.
+
+
+== See also ==
+
+Feynman diagram
+LSZ reduction formula
+Wick's theorem
+Haag's theorem
+Interaction picture
+Dyson series
+
+
+== Remarks ==
+
+
+== Notes ==
+
+
+== References ==
+L.D. Landau, E.M. Lifshitz (1977). Quantum Mechanics: Non-Relativistic Theory. Vol. 3 (3rd ed.). Pergamon Press. ISBN 978-0-08-020940-1.   §125
+Weinberg, S. (2002), The Quantum Theory of Fields, vol I, Cambridge University Press, ISBN 0-521-55001-7 
+Merzbacher, Eugen (1961), Quantum Mechanics, Wiley & Sons, Ch 13, §3; Ch 19, §6, ISBN 0-471-59670-1 
+Sakurai, J.J.; Napolitano, J (2011) [1964]. Modern quantum mechanics (2nd ed.). Addison Wesley. Chapter 6. ISBN 978-0-8053-8291-4. 
+Barut, Asim Orhan (1967). The Theory of the Scattering Matrix for the interactions of fundamental particles. Macmillan. 
+Albert Messiah (1999). Quantum Mechanics. Dover Publications. ISBN 0-486-40924-4. 
+Tony Philips (November 2001). "Finite-dimensional Feynman Diagrams". What's New In Math. American Mathematical Society. Retrieved 2007-10-23. 
+Stephen Gasiorowicz (1974). Quantum Physics. Wiley & Sons. ISBN 0-471-29281-8. 
+Greiner, W.; Reinhardt, J. (1996), Field Quantization, Springer Publishing, ISBN 3-540-59179-6 
+Mussardo, G. (1992). "Off-critical statistical models: Factorized scattering theories and bootstrap program". Physics Reports 218 (5–6): 215. doi:10.1016/0370-1573(92)90047-4. 
+Zamolodchikov, A. B.; Zamolodchikov, A. B. (1979). "Factorized S-matrices in two dimensions as the exact solutions of certain relativistic quantum field theory models". Annals of Physics 120 (2): 253. doi:10.1016/0003-4916(79)90391-9.

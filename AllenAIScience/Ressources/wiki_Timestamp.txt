@@ -1,0 +1,44 @@
+A timestamp is a sequence of characters or encoded information identifying when a certain event occurred, usually giving date and time of day, sometimes accurate to a small fraction of a second. The term derives from rubber stamps used in offices to stamp the current date, and sometimes time, in ink on paper documents, to record when the document was received. Common examples of this type of timestamp are a postmark on a letter or the "in" and "out" times on a time card.
+In modern times usage of the term has expanded to refer to digital date and time information attached to digital data. For example, computer files contain timestamps that tell when the file was last modified, and digital cameras add timestamps to the pictures they take, recording the date and time the picture was taken.
+
+
+== Digital timestamps ==
+A timestamp is the time at which an event is recorded by a computer, not the time of the event itself. In many cases, the difference may be inconsequential: the time at which an event is recorded by a timestamp (e.g., entered into a log file) should be close to the time of the event.
+This data is usually presented in a consistent format, allowing for easy comparison of two different records and tracking progress over time; the practice of recording timestamps in a consistent manner along with the actual data is called timestamping. The sequential numbering of events is sometimes called timestamping.
+Timestamps are typically used for logging events or in a sequence of events (SOE), in which case each event in the log or SOE is marked with a timestamp. In filesystems, timestamp may mean the stored date/time of creation or modification of a file.
+
+
+== Examples ==
+Examples of timestamps:
+Tue 01-01-2009 6:00
+2005-10-30 T 10:45 UTC
+2007-11-09 T 11:20 UTC
+Sat Jul 23 02:16:57 2005
+12569537329
+(1969-07-21 T 02:56 UTC) –  first footstep on the Moon, "That's one small step for man, one giant leap for mankind"
+07:38, 11 December 2012 (UTC)
+
+
+== Standardization ==
+ISO 8601 standardizes the representation of dates and times. These standard representations are often used to construct timestamp values.
+
+
+== Other meanings ==
+Timestamp can also refer to:
+A time code (in networking or video technology)
+Unix time, the number of seconds since 00:00:00 UTC on January 1, 1970
+ICMP Timestamp
+A digitally signed timestamp whose signer vouches for the existence of the signed document or content at the time given as part of the digital signature
+The modification or access time of a file or directory in a computer file system or database
+A proof of authenticity of a person (if a picture is timestamped it asserts the image is original) on sites such as 4chan
+
+
+== See also ==
+Bates numbering
+Timestamping (computing)
+Timestamp-based concurrency control
+Trusted timestamping
+Linked timestamping
+
+
+== Notes ==

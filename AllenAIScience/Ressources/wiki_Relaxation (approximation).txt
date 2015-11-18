@@ -1,0 +1,48 @@
+In mathematical optimization and related fields, relaxation is a modeling strategy. A relaxation is an approximation of a difficult problem by a nearby problem that is easier to solve. A solution of the relaxed problem provides information about the original problem.
+For example, a linear programming relaxation of an integer programming problem removes the integrality constraint and so allows non-integer rational solutions. A Lagrangian relaxation of a complicated problem in combinatorial optimization penalizes violations of some constraints, allowing an easier relaxed problem to be solved. Relaxation techniques complement or supplement branch and bound algorithms of combinatorial optimization; linear programming and Lagrangian relaxations are used to obtain bounds in branch-and-bound algorithms for integer programming.
+The modeling strategy of relaxation should not be confused with iterative methods of relaxation, such as successive over-relaxation (SOR); iterative methods of relaxation are used in solving problems in differential equations, linear least-squares, and linear programming. However, iterative methods of relaxation have been used to solve Lagrangian relaxations.
+
+
+== DefinitionEdit ==
+A relaxation of the minimization problem
+
+is another minimization problem of the form
+
+with these two properties
+
+ for all .
+The first property states that the original problem's feasible domain is a subset of the relaxed problem's feasible domain. The second property states that the original problem's objective-function is greater than or equal to the relaxed problem's objective-function.
+
+
+=== PropertiesEdit ===
+If  is an optimal solution of the original problem, then  and . Therefore  provides an upper bound on .
+If in addition to the previous assumptions, , , the following holds: If an optimal solution for the relaxed problem is feasible for the original problem, then it is optimal for the original problem.
+
+
+== Some relaxation techniquesEdit ==
+Linear programming relaxation
+Lagrangian relaxation
+Semidefinite relaxation
+Surrogate relaxation and duality
+
+
+== NotesEdit ==
+^ a b c Geoffrion (1971)
+^ Murty, Katta G. (1983). "16 Iterative methods for linear inequalities and linear programs (especially 16.2 Relaxation methods, and 16.4 Sparsity-preserving iterative SOR algorithms for linear programming)". Linear programming. New York: John Wiley & Sons, Inc. pp. 453–464. ISBN 0-471-09725-X. MR 720547. 
+^ Goffin, J.-L. (1980). "The relaxation method for solving systems of linear inequalities". Math. Oper. Res. 5 (3): 388–414. doi:10.1287/moor.5.3.388. JSTOR 3689446. MR 594854. 
+^ Minoux, M. (1986). Mathematical programming: Theory and algorithms. Egon Balas (foreword) (Translated by Steven Vajda from the (1983 Paris: Dunod) French ed.). Chichester: A Wiley-Interscience Publication. John Wiley & Sons, Ltd. pp. xxviii+489. ISBN 0-471-90170-9. MR 868279. (2008 Second ed., in French: Programmation mathématique: Théorie et algorithmes. Editions Tec & Doc, Paris, 2008. xxx+711 pp. ISBN 978-2-7430-1000-3. . MR 2571910)
+^ Relaxation methods for finding feasible solutions to linear inequality systems arise in linear programming and in Lagrangian relaxation. Goffin (1980) and Minoux (1986)|loc=Section 4.3.7, pp. 120–123 cite Shmuel Agmon (1954), and Theodore Motzkin and Isaac Schoenberg (1954), and L. T. Gubin, Boris T. Polyak, and E. V. Raik (1969).
+
+
+== ReferencesEdit ==
+G.Buttazzo (1989). Semicontinuity, Relaxation and Integral Representation in the Calculus of Variations. Pitman Res. Notes in Math. 207. Harlow: Longmann. 
+Geoffrion, A. M. (1971). "Duality in Nonlinear Programming: A Simplified Applications-Oriented Development". SIAM Review 13 (1). pp. 1–37. JSTOR 2028848. .
+Goffin, J.-L. (1980). "The relaxation method for solving systems of linear inequalities". Math. Oper. Res. 5 (3): 388–414. doi:10.1287/moor.5.3.388. JSTOR 3689446. MR 594854. 
+Minoux, M. (1986). Mathematical programming: Theory and algorithms ((With a foreword by Egon Balas) Translated by Steven Vajda from the (1983 Paris: Dunod) French ed.). Chichester: A Wiley-Interscience Publication. John Wiley & Sons, Ltd. pp. xxviii+489. ISBN 0-471-90170-9. MR 868279. (2008 Second ed., in French: Programmation mathématique: Théorie et algorithmes. Editions Tec & Doc, Paris, 2008. xxx+711 pp. ISBN 978-2-7430-1000-3. . MR 2571910)|
+Nemhauser, G. L.; Rinnooy Kan, A. H. G.; Todd, M. J., eds. (1989). Optimization. Handbooks in Operations Research and Management Science 1. Amsterdam: North-Holland Publishing Co. pp. xiv+709. ISBN 0-444-87284-1. MR 1105099. 
+W. R. Pulleyblank, Polyhedral combinatorics (pp. 371–446);
+George L. Nemhauser and Laurence A. Wolsey, Integer programming (pp. 447–527);
+Claude Lemaréchal, Nondifferentiable optimization (pp. 529–572);
+
+Rardin, Ronald L. (1998). Optimization in operations research. Prentice Hall. ISBN 0-02-398415-5. 
+Roubíček, T. (1997). Relaxation in Optimization Theory and Variational Calculus. Berlin: Walter de Gruyter. ISBN 3-11-014542-1.

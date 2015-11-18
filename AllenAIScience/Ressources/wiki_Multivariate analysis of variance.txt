@@ -1,0 +1,34 @@
+In statistics, multivariate analysis of variance (MANOVA) is a procedure for comparing multivariate sample means. As a multivariate procedure, it is used when there are two or more dependent variables, and is typically followed by significance tests involving individual dependent variables separately. It helps to answer 
+Do changes in the independent variable(s) have significant effects on the dependent variables?
+What are the relationships among the dependent variables?
+What are the relationships among the independent variables?
+
+
+== Relationship with ANOVA ==
+MANOVA is a generalized form of univariate analysis of variance (ANOVA), although, unlike univariate ANOVA, it uses the variance-covariance between variables in testing the statistical significance of the mean differences.
+Where sums of squares appear in univariate analysis of variance, in multivariate analysis of variance certain positive-definite matrices appear. The diagonal entries are the same kinds of sums of squares that appear in univariate ANOVA. The off-diagonal entries are corresponding sums of products. Under normality assumptions about error distributions, the counterpart of the sum of squares due to error has a Wishart distribution.
+MANOVA is based on the product of model variance matrix,  and inverse of the error variance matrix, , or . The hypothesis that  implies that the product . Invariance considerations imply the MANOVA statistic should be a measure of magnitude of the singular value decomposition of this matrix product, but there is no unique choice owing to the multi-dimensional nature of the alternative hypothesis.
+The most common statistics are summaries based on the roots (or eigenvalues)  of the  matrix:
+Samuel Stanley Wilks'  distributed as lambda (Λ)
+the Pillai-M. S. Bartlett trace, 
+the Lawley-Hotelling trace, 
+Roy's greatest root (also called Roy's largest root), 
+Discussion continues over the merits of each, although the greatest root leads only to a bound on significance which is not generally of practical interest. A further complication is that the distribution of these statistics under the null hypothesis is not straightforward and can only be approximated except in a few low-dimensional cases. The best-known approximation for Wilks' lambda was derived by C. R. Rao.
+In the case of two groups, all the statistics are equivalent and the test reduces to Hotelling's T-square.
+
+
+== Correlation of dependent variables ==
+MANOVA's power is affected by the correlations of the dependent variables, depending on the effect sizes. For example, when there are two groups and two dependent variables, MANOVA's power is lowest when the correlation equals the ratio of the smaller to the larger standardized effect size.
+
+
+== See also ==
+Discriminant function analysis
+Repeated measures design
+Canonical correlation analysis
+
+
+== References ==
+
+
+== External links ==
+Multivariate Analysis of Variance (MANOVA) by Aaron French, Marcelo Macedo, John Poulsen, Tyler Waterson and Angela Yu, San Francisco State University

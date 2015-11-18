@@ -1,0 +1,70 @@
+In relativistic physics, the electromagnetic stress–energy tensor is the contribution to the stress–energy tensor due to the electromagnetic field. The stress–energy tensor describes the flow of energy and momentum in spacetime. The electromagnetic stress–energy tensor contains the classical Maxwell stress tensor that governs the electromagnetic interactions.
+
+
+== Definition ==
+
+
+=== SI units ===
+In free space and flat space–time, the electromagnetic stress–energy tensor in SI units is
+
+where  is the electromagnetic tensor and where  is the Minkowski metric tensor of metric signature (−+++). When using the metric with signature (+−−−), the expression for  will have opposite sign.
+Explicitly in matrix form:
+
+where
+
+is the Poynting vector,
+
+is the Maxwell stress tensor, and c is the speed of light. Thus,  is expressed and measured in SI pressure units (pascals).
+
+
+=== CGS units ===
+The permittivity of free space and permeability of free space in cgs-Gaussian units are
+
+then:
+
+and in explicit matrix form:
+
+where Poynting vector becomes:
+
+The stress–energy tensor for an electromagnetic field in a dielectric medium is less well understood and is the subject of the unresolved Abraham–Minkowski controversy.
+The element  of the stress–energy tensor represents the flux of the μth-component of the four-momentum of the electromagnetic field, , going through a hyperplane ( is constant). It represents the contribution of electromagnetism to the source of the gravitational field (curvature of space–time) in general relativity.
+
+
+== Algebraic properties ==
+The electromagnetic stress–energy tensor has several algebraic properties:
+It is a symmetric tensor:
+
+The tensor  is traceless:
+.
+The energy density is positive-definite:
+
+The symmetry of the tensor is as for a general stress–energy tensor in general relativity. The tracelessness relates to the masslessness of the photon.
+
+
+== Conservation laws ==
+
+The electromagnetic stress–energy tensor allows a compact way of writing the conservation laws of linear momentum and energy in electromagnetism. The divergence of the stress–energy tensor is:
+
+where  is the (3D) Lorentz force per unit volume on matter.
+This equation is equivalent to the following 3D conservation laws
+
+respectively describing the flux of electromagnetic energy density
+
+and electromagnetic momentum density
+
+where J is the electric current density and ρ the electric charge density.
+
+
+== See also ==
+Ricci calculus
+Covariant formulation of classical electromagnetism
+Mathematical descriptions of the electromagnetic field
+Maxwell's equations
+Maxwell's equations in curved spacetime
+General relativity
+Einstein field equations
+Magnetohydrodynamics
+Vector calculus
+
+
+== References ==

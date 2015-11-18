@@ -1,0 +1,38 @@
+Color co-site sampling is a system of photographic color sensing, wherein 4, 16 or 36 images are collected from the sensor and merged to form a single image. Each subsequent image physically moves the sensor by exactly one pixel, in order to collect R, G and B data for each pixel, known as microscanning. This is a viable alternative to the typical Bayer filter array of pixels which returns a lower quality images with interpolated pixel colors.
+
+
+== Operation ==
+Several images are captured and combined to a sharp resulting image. After the acquisition of each image a piezo mechanism moves the sensor by precisely the distance of one pixel and delivers the complete colour information for each detail and with the same sharpness in all three colour channels.
+Microscanning is essential for the method. 4 (2x2), 16 (4x4) or 36 (6x6) shots can be used for improved colour reproduction.
+Advantages
+Higher resolution possible in comparison with the basic CCD pixel count
+No colour interpolation required
+Better sensitivity than a three-chip camera
+Live colour image possible at the basic CCD sensor's resolution
+Only one colour sensor required
+
+Disadvantages
+Stable imaging conditions required due to microscanning
+Longer acquisition times because of multiple exposures
+
+
+== Comparison to Bayer filter ==
+
+With standard digital cameras, colour images are acquired with only one sensor (see CCD and CMOS sensor). Each pixel of the sensor is sensitive to just one of the three basic colours. For each single pixel on the CCD only one third of the required information is provided and two thirds are missing, as at least three monochrome pixels would be necessary for one colour pixel. As only one image is acquired, the missing colour information is determined by the interpolation. In current cameras sophisticated interpolation algorithms are used to reconstruct the colour information(see filter mosaics, interpolation, and aliasing), so the reduction in the "colour" resolution can turn out to be better than the expected one third. Because of the interpolation, however, unwanted side-effect artifacts, such as colour Moire patterns or false coloured edges, can occur.
+Advantages
+R, G, B in one exposure
+Colour live image and dynamic scenes possible
+
+Disadvantages
+Colour interpolation
+Reduced spatial resolution
+Susceptible to colour errors
+
+
+== References ==
+European patent EP0396687 (1989-10-26), Reimar Lenz, Optoelectronic image sensor　Family patent of that EP687 patrent is also published as US5877807 [1].
+
+
+== External links ==
+Brian L. Kuyatt, Robert Weaver, and Philip Merlo (2005). "Image Capture Methods", Advanced Materials & Processes, 163 (4), April 2005
+Color co-site sampling: how does it work?

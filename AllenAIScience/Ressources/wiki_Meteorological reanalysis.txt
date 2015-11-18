@@ -1,0 +1,33 @@
+A meteorological reanalysis is a meteorological data assimilation project which aims to assimilate historical observational data spanning an extended period, using a single consistent assimilation (or "analysis") scheme throughout.
+
+
+== Operational data analysisEdit ==
+In operational numerical weather prediction, forecast models are used to predict future states of the atmosphere, based on how the climate system evolves with time from an initial state. The initial state provided as input to the forecast must consist of data values for a range of "prognostic" meteorological fields – that is, those fields which determine the future evolution of the model. Spatially varying fields are required in the form used by the model, for example at each intersection point on a regular grid of longitude and latitude circles, and initial data must be valid at a single time that corresponds to the present or the recent past. By contrast, the available observational data usually do not include all of the model's prognostic fields, and may include other additional fields; these data also have different spatial distribution from the forecast model grid, are valid over a range of times rather than a single time, and are also subject to observational error. The technique of data assimilation is therefore used to produce an analysis of the initial state, which is a best fit of the numerical model to the available data, taking into account the errors in the model and the data.
+
+
+== Uses and examplesEdit ==
+In addition to initializing operational forecasts, the analyses themselves are a valuable tool for subsequent meteorological and climatological studies. However, an operational analysis dataset, i.e. the analysis data which were used for the real-time forecasts, will typically suffer from inconsistency if it spans any extended period of time, because operational analysis systems are frequently being improved. A reanalysis project involves reprocessing observational data spanning an extended historical period using a consistent modern analysis system, to produce a dataset that can be used for meteorological and climatological studies.
+Examples of reanalysis datasets include the ECMWF re-analysis and the NCEP/NCAR Reanalysis (N.B.: these linked articles include published references), and the JRA-25 reanalysis conducted by the Japan Meteorological Agency.
+
+
+== Caution in usageEdit ==
+While often reanalysis can be thought as the best estimate on many variables (such as winds and temperature) of the atmosphere, its usage must be taken with caution. Degradation of, replacement of, or changes to instruments (e.g. satellites), and changes in methods of observation (e.g., surface, aloft), may inject error. Not all reanalysis data are constrained by observation: some data types, such as precipitation (depending on the reanalysis) and surface evapotranspiration (for which global observations simply do not exist), are obtained by running (presumably newer) general circulation or NWP models. Reanalyses are known not to conserve moisture.
+
+
+== ReferencesEdit ==
+
+
+== Reading about specific reanalysesEdit ==
+Kalnay, E., and coauthors, 1996: The NCEP/NCAR 40-Year Reanalysis Project. Bull. Amer. Meteor. Soc., 77, 437–471.
+Kanamitsu, M., W. Ebisuzaki, J. Woolen, S.-K. Yang, J. J. Hnilo, M. Fiorino, and G. L. Potter, 2002: NCEP-DOE AMIP-II Reanalysis (R-2). Bull. Amer. Meteor. Soc., 83, 1631–1643.
+Mesinger, F., and coauthors, 2006: North American Regional Reanalysis. Bull. Amer. Meteor. Soc., 87, 343–360.
+Uppala, S., and coauthors, 2005: The ERA-40 Re-Analysis. Quart. J. Roy. Meteor. Soc., 131, 2961–3012.
+Onogi, K., and coauthors, 2007: The JRA-25 Reanalysis. J. Meteor. Soc. Japan, 85, 369–432.
+
+
+== See alsoEdit ==
+Ocean reanalysis
+
+
+== External linksEdit ==
+lecture notes from the European Centre for Medium-Range Weather Forecasts

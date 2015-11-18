@@ -1,0 +1,196 @@
+In calculus, the differential represents the principal part of the change in a function y = f(x) with respect to changes in the independent variable. The differential dy is defined by
+
+where  is the derivative of f with respect to x, and dx is an additional real variable (so that dy is a function of x and dx). The notation is such that the equation
+
+holds, where the derivative is represented in the Leibniz notation dy/dx, and this is consistent with regarding the derivative as the quotient of the differentials. One also writes
+
+The precise meaning of the variables dy and dx depends on the context of the application and the required level of mathematical rigor. The domain of these variables may take on a particular geometrical significance if the differential is regarded as a particular differential form, or analytical significance if the differential is regarded as a linear approximation to the increment of a function. Traditionally, the variables dx and dy are considered to be very small (infinitesimal), and this interpretation is made rigorous in non-standard analysis.
+
+
+== History and usage ==
+The differential was first introduced via an intuitive or heuristic definition by Gottfried Wilhelm Leibniz, who thought of the differential dy as an infinitely small (or infinitesimal) change in the value y of the function, corresponding to an infinitely small change dx in the function's argument x. For that reason, the instantaneous rate of change of y with respect to x, which is the value of the derivative of the function, is denoted by the fraction
+
+in what is called the Leibniz notation for derivatives. The quotient dy/dx is not infinitely small; rather it is a real number.
+The use of infinitesimals in this form was widely criticized, for instance by the famous pamphlet The Analyst by Bishop Berkeley. Augustin-Louis Cauchy (1823) defined the differential without appeal to the atomism of Leibniz's infinitesimals. Instead, Cauchy, following d'Alembert, inverted the logical order of Leibniz and his successors: the derivative itself became the fundamental object, defined as a limit of difference quotients, and the differentials were then defined in terms of it. That is, one was free to define the differential dy by an expression
+
+in which dy and dx are simply new variables taking finite real values, not fixed infinitesimals as they had been for Leibniz.
+According to Boyer (1959, p. 12), Cauchy's approach was a significant logical improvement over the infinitesimal approach of Leibniz because, instead of invoking the metaphysical notion of infinitesimals, the quantities dy and dx could now be manipulated in exactly the same manner as any other real quantities in a meaningful way. Cauchy's overall conceptual approach to differentials remains the standard one in modern analytical treatments, although the final word on rigor, a fully modern notion of the limit, was ultimately due to Karl Weierstrass.
+In physical treatments, such as those applied to the theory of thermodynamics, the infinitesimal view still prevails. Courant & John (1999, p. 184) reconcile the physical use of infinitesimal differentials with the mathematical impossibility of them as follows. The differentials represent finite non-zero values that are smaller than the degree of accuracy required for the particular purpose for which they are intended. Thus "physical infinitesimals" need not appeal to a corresponding mathematical infinitesimal in order to have a precise sense.
+Following twentieth-century developments in mathematical analysis and differential geometry, it became clear that the notion of the differential of a function could be extended in a variety of ways. In real analysis, it is more desirable to deal directly with the differential as the principal part of the increment of a function. This leads directly to the notion that the differential of a function at a point is a linear functional of an increment Δx. This approach allows the differential (as a linear map) to be developed for a variety of more sophisticated spaces, ultimately giving rise to such notions as the Fréchet or Gâteaux derivative. Likewise, in differential geometry, the differential of a function at a point is a linear function of a tangent vector (an "infinitely small displacement"), which exhibits it as a kind of one-form: the exterior derivative of the function. In non-standard calculus, differentials are regarded as infinitesimals, which can themselves be put on a rigorous footing (see differential (infinitesimal)).
+
+
+== Definition ==
+
+The differential is defined in modern treatments of differential calculus as follows. The differential of a function f(x) of a single real variable x is the function df of two independent real variables x and Δx given by
+
+One or both of the arguments may be suppressed, i.e., one may see df(x) or simply df. If y = f(x), the differential may also be written as dy. Since dx(x, Δx) = Δx it is conventional to write dx = Δx, so that the following equality holds:
+
+This notion of differential is broadly applicable when a linear approximation to a function is sought, in which the value of the increment Δx is small enough. More precisely, if f is a differentiable function at x, then the difference in y-values
+
+satisfies
+
+where the error ε in the approximation satisfies ε/Δx → 0 as Δx → 0. In other words, one has the approximate identity
+
+in which the error can be made as small as desired relative to Δx by constraining Δx to be sufficiently small; that is to say,
+
+as Δx → 0. For this reason, the differential of a function is known as the principal (linear) part in the increment of a function: the differential is a linear function of the increment Δx, and although the error ε may be nonlinear, it tends to zero rapidly as Δx tends to zero.
+
+
+== Differentials in several variables ==
+Following Goursat (1904, I, §15), for functions of more than one independent variable,
+
+the partial differential of y with respect to any one of the variables x1 is the principal part of the change in y resulting from a change dx1 in that one variable. The partial differential is therefore
+
+involving the partial derivative of y with respect to x1. The sum of the partial differentials with respect to all of the independent variables is the total differential
+
+which is the principal part of the change in y resulting from changes in the independent variables xi.
+More precisely, in the context of multivariable calculus, following Courant (1937b), if f is a differentiable function, then by the definition of the differentiability, the increment
+
+where the error terms ε i tend to zero as the increments Δxi jointly tend to zero. The total differential is then rigorously defined as
+
+Since, with this definition,
+
+one has
+
+As in the case of one variable, the approximate identity holds
+
+in which the total error can be made as small as desired relative to  by confining attention to sufficiently small increments.
+
+
+=== Application of the total differential to error estimation ===
+In measurement, the total differential is used in estimating the error Δf of a function f based on the errors Δx, Δy, ... of the parameters x, y, .... Assuming that the interval is short enough for the change to be approximately linear:
+Δf(x) = f'(x) × Δx
+and that all variables are independent, then for all variables,
+
+This is because the derivative fx with respect to the particular parameter x gives the sensitivity of the function f to a change in x, in particular the error Δx. As they are assumed to be independent, the analysis describes the worst-case scenario. The absolute values of the component errors are used, because after simple computation, the derivative may have a negative sign. From this principle the error rules of summation, multiplication etc. are derived, e.g.:
+Let f(a, b) = a × b;
+Δf = faΔa + fbΔb; evaluating the derivatives
+Δf = bΔa + aΔb; dividing by f, which is a × b
+Δf/f = Δa/a + Δb/b
+That is to say, in multiplication, the total relative error is the sum of the relative errors of the parameters.
+To illustrate how this depends on the function considered, consider the case where the function is f(a, b) = a ln b instead. Then, it can be computed that the error estimate is
+Δf/f = Δa/a + Δb/(b ln b)
+with an extra 'ln b' factor not found in the case of a simple product. This additional factor tends to make the error smaller, as ln b is not as large as a bare b.
+
+
+== Higher-order differentials ==
+Higher-order differentials of a function y = f(x) of a single variable x can be defined via:
+
+and, in general,
+
+Informally, this justifies Leibniz's notation for higher-order derivatives
+
+When the independent variable x itself is permitted to depend on other variables, then the expression becomes more complicated, as it must include also higher order differentials in x itself. Thus, for instance,
+
+and so forth.
+Similar considerations apply to defining higher order differentials of functions of several variables. For example, if f is a function of two variables x and y, then
+
+where  is a binomial coefficient. In more variables, an analogous expression holds, but with an appropriate multinomial expansion rather than binomial expansion.
+Higher order differentials in several variables also become more complicated when the independent variables are themselves allowed to depend on other variables. For instance, for a function f of x and y which are allowed to depend on auxiliary variables, one has
+
+Because of this notational infelicity, the use of higher order differentials was roundly criticized by Hadamard 1935, who concluded:
+Enfin, que signifie ou que représente l'égalité
+
+A mon avis, rien du tout.
+That is: Finally, what is meant, or represented, by the equality [...]? In my opinion, nothing at all. In spite of this skepticism, higher order differentials did emerge as an important tool in analysis
+In these contexts, the nth order differential of the function f applied to an increment Δx is defined by
+
+or an equivalent expression, such as
+
+where  is an nth forward difference with increment tΔx.
+This definition makes sense as well if f is a function of several variables (for simplicity taken here as a vector argument). Then the nth differential defined in this way is a homogeneous function of degree n in the vector increment Δx. Furthermore, the Taylor series of f at the point x is given by
+
+The higher order Gâteaux derivative generalizes these considerations to infinite dimensional spaces.
+
+
+== Properties ==
+A number of properties of the differential follow in a straightforward manner from the corresponding properties of the derivative, partial derivative, and total derivative. These include:
+Linearity: For constants a and b and differentiable functions f and g,
+
+Product rule: For two differentiable functions f and g,
+
+An operation d with these two properties is known in abstract algebra as a derivation. They imply the Power rule
+
+In addition, various forms of the chain rule hold, in increasing level of generality:
+If y = f(u) is a differentiable function of the variable u and u = g(x) is a differentiable function of x, then
+
+If y = f(x1, ..., xn) and all of the variables x1, ..., xn depend on another variable t, then by the chain rule for partial derivatives, one has
+
+Heuristically, the chain rule for several variables can itself be understood by dividing through both sides of this equation by the infinitely small quantity dt.
+More general analogous expressions hold, in which the intermediate variables x i depend on more than one variable.
+
+
+== General formulation ==
+
+A consistent notion of differential can be developed for a function f : Rn → Rm between two Euclidean spaces. Let x,Δx ∈ Rn be a pair of Euclidean vectors. The increment in the function f is
+
+If there exists an m × n matrix A such that
+
+in which the vector ε → 0 as Δx → 0, then f is by definition differentiable at the point x. The matrix A is sometimes known as the Jacobian matrix, and the linear transformation that associates to the increment Δx ∈ Rn the vector AΔx ∈ Rm is, in this general setting, known as the differential df(x) of f at the point x. This is precisely the Fréchet derivative, and the same construction can be made to work for a function between any Banach spaces.
+Another fruitful point of view is to define the differential directly as a kind of directional derivative:
+
+which is the approach already taken for defining higher order differentials (and is most nearly the definition set forth by Cauchy). If t represents time and x position, then h represents a velocity instead of a displacement as we have heretofore regarded it. This yields yet another refinement of the notion of differential: that it should be a linear function of a kinematic velocity. The set of all velocities through a given point of space is known as the tangent space, and so df gives a linear function on the tangent space: a differential form. With this interpretation, the differential of f is known as the exterior derivative, and has broad application in differential geometry because the notion of velocities and the tangent space makes sense on any differentiable manifold. If, in addition, the output value of f also represents a position (in a Euclidean space), then a dimensional analysis confirms that the output value of df must be a velocity. If one treats the differential in this manner, then it is known as the pushforward since it "pushes" velocities from a source space into velocities in a target space.
+
+
+== Other approaches ==
+
+Although the notion of having an infinitesimal increment dx is not well-defined in modern mathematical analysis, a variety of techniques exist for defining the infinitesimal differential so that the differential of a function can be handled in a manner that does not clash with the Leibniz notation. These include:
+Defining the differential as a kind of differential form, specifically the exterior derivative of a function. The infinitesimal increments are then identified with vectors in the tangent space at a point. This approach is popular in differential geometry and related fields, because it readily generalizes to mappings between differentiable manifolds.
+Differentials as nilpotent elements of commutative rings. This approach is popular in algebraic geometry.
+Differentials in smooth models of set theory. This approach is known as synthetic differential geometry or smooth infinitesimal analysis and is closely related to the algebraic geometric approach, except that ideas from topos theory are used to hide the mechanisms by which nilpotent infinitesimals are introduced.
+Differentials as infinitesimals in hyperreal number systems, which are extensions of the real numbers which contain invertible infinitesimals and infinitely large numbers. This is the approach of nonstandard analysis pioneered by Abraham Robinson.
+
+
+== Examples and applications ==
+Differentials may be effectively used in numerical analysis to study the propagation of experimental errors in a calculation, and thus the overall numerical stability of a problem (Courant 1937a). Suppose that the variable x represents the outcome of an experiment and y is the result of a numerical computation applied to x. The question is to what extent errors in the measurement of x influence the outcome of the computation of y. If the x is known to within Δx of its true value, then Taylor's theorem gives the following estimate on the error Δy in the computation of y:
+
+where ξ = x + θΔx for some 0 < θ < 1. If Δx is small, then the second order term is negligible, so that Δy is, for practical purposes, well-approximated by dy = f'(x)Δx.
+The differential is often useful to rewrite a differential equation
+
+in the form
+
+in particular when one wants to separate the variables.
+
+
+== Notes ==
+^ For a detailed historical account of the differential, see Boyer 1959, especially page 275 for Cauchy's contribution on the subject. An abbreviated account appears in Kline 1972, Chapter 40.
+^ Cauchy explicitly denied the possibility of actual infinitesimal and infinite quantities (Boyer 1959, pp. 273–275), and took the radically different point of view that "a variable quantity becomes infinitely small when its numerical value decreases indefinitely in such a way as to converge to zero" (Cauchy 1823, p. 12; translation from Boyer 1959, p. 273).
+^ Boyer 1959, p. 275
+^ Boyer 1959, p. 12: "The differentials as thus defined are only new variables, and not fixed infinitesimals..."
+^ Courant 1937a, II, §9: "Here we remark merely in passing that it is possible to use this approximate representation of the increment Δy by the linear expression hƒ(x) to construct a logically satisfactory definition of a "differential", as was done by Cauchy in particular."
+^ Boyer 1959, p. 284
+^ See, for instance, the influential treatises of Courant 1937a, Kline 1977, Goursat 1904, and Hardy 1905. Tertiary sources for this definition include also Tolstov 2001 and Ito 1993, §106.
+^ Cauchy 1823. See also, for instance, Goursat 1904, I, §14.
+^ Goursat 1904, I, §14
+^ In particular to infinite dimensional holomorphy (Hille & Phillips 1974) and numerical analysis via the calculus of finite differences.
+^ Goursat 1904, I, §17
+^ Goursat 1904, I, §§14,16
+^ Eisenbud & Harris 1998.
+^ See Kock 2006 and Moerdijk & Reyes 1991.
+^ See Robinson 1996 and Keisler 1986.
+
+
+== References ==
+Boyer, Carl B. (1959), The history of the calculus and its conceptual development, New York: Dover Publications, MR 0124178 .
+Cauchy, Augustin-Louis (1823), Résumé des Leçons données à l'Ecole royale polytechnique sur les applications du calcul infinitésimal .
+Courant, Richard (1937a), Differential and integral calculus. Vol. I, Wiley Classics Library, New York: John Wiley & Sons (published 1988), ISBN 978-0-471-60842-4, MR 1009558 .
+Courant, Richard (1937b), Differential and integral calculus. Vol. II, Wiley Classics Library, New York: John Wiley & Sons (published 1988), ISBN 978-0-471-60840-0, MR 1009559 .
+Courant, Richard; John, Fritz (1999), Introduction to Calculus and Analysis Volume 1, Classics in Mathematics, Berlin, New York: Springer-Verlag, ISBN 3-540-65058-X, MR 1746554 
+Eisenbud, David; Harris, Joe (1998), The Geometry of Schemes, Springer-Verlag, ISBN 0-387-98637-5 .
+Fréchet, Maurice (1925), "La notion de différentielle dans l'analyse générale", Annales Scientifiques de l'École Normale Supérieure. Troisième Série 42: 293–323, ISSN 0012-9593, MR 1509268 .
+Goursat, Édouard (1904), A course in mathematical analysis: Vol 1: Derivatives and differentials, definite integrals, expansion in series, applications to geometry, E. R. Hedrick, New York: Dover Publications (published 1959), MR 0106155 .
+Hadamard, Jacques (1935), "La notion de différentiel dans l'enseignement", Mathematical Gazette XIX (236): 341–342, JSTOR 3606323 .
+Hardy, Godfrey Harold (1908), A Course of Pure Mathematics, Cambridge University Press, ISBN 978-0-521-09227-2 .
+Hille, Einar; Phillips, Ralph S. (1974), Functional analysis and semi-groups, Providence, R.I.: American Mathematical Society, MR 0423094 .
+Ito, Kiyosi (1993), Encyclopedic Dictionary of Mathematics (2nd ed.), MIT Press, ISBN 978-0-262-59020-4 .
+Kline, Morris (1977), "Chapter 13: Differentials and the law of the mean", Calculus: An intuitive and physical approach, John Wiley and Sons .
+Kline, Morris (1972), Mathematical thought from ancient to modern times (3rd ed.), Oxford University Press (published 1990), ISBN 978-0-19-506136-9 
+Keisler, H. Jerome (1986), Elementary Calculus: An Infinitesimal Approach (2nd ed.) .
+Kock, Anders (2006), Synthetic Differential Geometry (PDF) (2nd ed.), Cambridge University Press .
+Moerdijk, I.; Reyes, G.E. (1991), Models for Smooth Infinitesimal Analysis, Springer-Verlag .
+Robinson, Abraham (1996), Non-standard analysis, Princeton University Press, ISBN 978-0-691-04490-3 .
+Tolstov, G.P. (2001), "Differential", in Hazewinkel, Michiel, Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 .
+
+
+== External links ==
+Differential Of A Function at Wolfram Demonstrations Project

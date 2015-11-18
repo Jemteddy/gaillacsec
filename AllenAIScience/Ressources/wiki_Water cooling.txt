@@ -1,0 +1,140 @@
+Water cooling is a method of heat removal from components and industrial equipment. As opposed to air cooling, water is used as the heat conductor. Water cooling is commonly used for cooling automobile internal combustion engines and large industrial facilities such as steam electric power plants, hydroelectric generators, petroleum refineries and chemical plants. Other uses include cooling the barrels of machine guns, cooling of lubricant oil in pumps; for cooling purposes in heat exchangers; cooling products from tanks or columns, and recently, cooling of various major components inside high-end personal computers. The main mechanism for water cooling is convective heat transfer.
+
+
+== Nomenclature ==
+Cooling water is the water removing heat from a machine or system. Cooling water may be recycled through a recirculating system or used in a single pass once-through cooling (OTC) system. Recirculating systems may be open if they rely upon cooling towers or cooling ponds to remove heat or closed if heat removal is accomplished with negligible evaporative loss of cooling water. A heat exchanger or condenser may separate non-contact cooling water from a fluid being cooled, or contact cooling water may directly impinge on items like saw blades where phase difference allows easy separation. Environmental regulations emphasize the reduced concentrations of waste products in non-contact cooling water.
+
+
+== Advantages ==
+Water is inexpensive and non-toxic. The advantages of using water cooling over air cooling include water's higher specific heat capacity, density, and thermal conductivity. This allows water to transmit heat over greater distances with much less volumetric flow and reduced temperature difference.
+For cooling CPU cores in computing equipment, the primary advantage of water cooling is that its tremendously increased ability to transport heat away from source to a secondary cooling surface allows for large, more optimally designed radiators rather than small, inefficient fins mounted directly on the heat source.
+The water jacket around an engine is also very effective at deadening mechanical noises, which makes the engine quieter. However, the primary disadvantage is that it costs significantly more than an air-cooled engine system.
+
+
+== Disadvantages ==
+Water accelerates corrosion of metal parts and is a favorable medium for biological growth. Dissolved minerals in natural water supplies are concentrated by evaporation to leave deposits called scale. Cooling water often requires addition of chemicals to minimize corrosion and insulating deposits of scale and biofouling. In water cooling systems for electronic devices, the use of deionized water is required, which must be carefully controlled in order to avoid contamination, which would cause a decrease in resistance of the water and subsequently increase risk of short circuits.
+
+
+== Open method ==
+
+An open water cooling system makes use of evaporative cooling, lowering the temperature of the remaining (unevaporated) water. This method was common in early internal combustion engines, until scale buildup was observed from dissolved salts and minerals in the water. Modern open cooling systems continuously waste a fraction of recirculating water as blowdown to remove dissolved solids at concentrations low enough to prevent scale formation. Some open systems use inexpensive tap water, but this requires higher blowdown rates than deionized or distilled water. Purified water systems still require blowdown to remove accumulation of byproducts of chemical treatment to prevent corrosion and biofouling.
+
+
+== Automotive usage ==
+
+
+=== Pressurization ===
+Modern automotive cooling systems are slightly pressurized, often to 15 psi (103 kPa). This raises the boiling-point of the coolant and reduces evaporation.
+
+
+=== Antifreeze ===
+The use of water cooling carries the risk of damage from freezing. Automotive and many other engine cooling applications require the use of a water and antifreeze mixture to lower the freezing point to a temperature unlikely to be experienced. Antifreeze also inhibits corrosion from dissimilar metals and can increase the boiling point, allowing a wider range of water cooling temperatures. Its distinctive odor also alerts operators to cooling system leaks and problems that would go unnoticed in a water-only cooling system. The heated water can also be used to warm the air conditioning system inside the car, if so desired.
+
+
+=== Other additives ===
+Other less common chemical additives are products to reduce surface tension. These additives are meant to increase the efficiency of automotive cooling systems. Such products are used to enhance the cooling of underperforming or undersized cooling systems or in racing where the weight of a larger cooling system could be a disadvantage.
+
+
+== Power electronics and transmitters ==
+Since approximately 1930 it is common to use water cooling for tubes of powerful transmitters. As these devices uses high operation voltages ( around 10 kV), the use of deionized water is required and it has to be carefully controlled. Modern solid-state transmitters can be built so, that even high power transmitters do not require water cooling. Water cooling is however also sometimes used for thyristors of HVDC valves, for which also the use of deionized water is required.
+
+
+== Computer usage ==
+
+Cooling hot computer components with various fluids has been in use since at least as far back as the development of Cray-2 in 1982, using Fluorinert. Through the 1990s, water cooling for home PCs slowly gained recognition amongst enthusiasts, but it started to become noticeably more prevalent after the introduction of AMD's hot-running Athlon processor in mid-2000. As of 2011, there are several manufacturers of water cooling components and kits, and some custom computer retailers include various setups of water cooling for their high-performance systems.
+Water cooling can be used to cool many computer components, but especially the CPU. Water cooling usually uses a CPU water block, a water pump, and a heat exchanger (usually a radiator with a fan attached). Water cooling can allow quieter (potentially fanless) operation, or improved processor speeds (overclocking), or a balance of both. Less commonly, GPUs, Northbridges, Southbridges, hard disk drives, memory, voltage regulator modules (VRMs), and even power supplies can be water-cooled.
+Radiator size may vary: from 40mm dual fan (80mm) to 140 quad fan (560mm) and thickness from 30mm to 80mm
+Water coolers for desktop computers were, until the end of the 1990s, homemade. They were made from car radiators (or more commonly, a car's heater core), aquarium pumps and home-made water blocks, laboratory-grade PVC and silicone tubing and various reservoirs (homemade using plastic bottles, or constructed using cylindrical acrylic or sheets of acrylic, usually clear) and or a T-Line. More recently a growing number of companies are manufacturing water-cooling components compact enough to fit inside a computer case. This, and the trend to CPUs of higher power dissipation, has greatly increased the popularity of water cooling, although only a very small minority of computers are water-cooled.
+Dedicated overclockers occasionally use vapor-compression refrigeration or thermoelectric coolers in place of more common standard heat exchangers. Water cooling systems in which water is cooled directly by the evaporator coil of a phase change system are able to chill the circulating coolant below the ambient air temperature (impossible with a standard heat exchanger) and, as a result, generally provide superior cooling of the computer's heat-generating components. The downside of phase-change or thermoelectric cooling is that it uses much more electricity, and antifreeze must be added due to the low temperature. Additionally, insulation, usually in the form of lagging around water pipes and neoprene pads around the components to be cooled, must be used in order to prevent damage caused by condensation of water vapour from the air on chilled surfaces. Common places from which to borrow the required phase transition systems are a household dehumidifier or air conditioner.
+An alternative cooling system, which enables components to be cooled below the ambient temperature, but which obviates the requirement for antifreeze and lagged pipes, is to place a thermoelectric device (commonly referred to as a 'Peltier junction' or 'pelt' after Jean Peltier, who documented the effect) between the heat-generating component and the water block. Because the only sub-ambient temperature zone now is at the interface with the heat-generating component itself, insulation is required only in that localized area. The disadvantage to such a system is that pelts typically dissipate a lot of power, and the water cooling system must remove this heat in addition to that generated by the component.
+Another possible danger is damaging condensation, due to the ambient air right around the pelt being cold. A proper installation requires that the Peltier be "potted" with silicone epoxy. The epoxy is applied around the edges of the device, preventing air from entering or leaving the interior.
+Apple's Power Mac G5 was the first mainstream desktop computer to have water cooling as standard. Dell followed suit by shipping their XPS computers with liquid cooling, using thermoelectric cooling to help cool the liquid. Currently, Dell's only computers to offer liquid cooling are their Alienware desktops.
+Electronics applications are progressively requiring more powerful components and reduced space envelope. Conventional heat removal methods are therefore quickly reaching their limits.
+
+
+== Liquid cooling maintenance ==
+
+Liquid cooling techniques are increasingly being used for the thermal management of electronic components. This type of cooling is a solution to ensure the optimisation of energy efficiency while simultaneously minimising noise and space requirements. Especially useful in supercomputers or Data Centers as maintenance of the racks is quick and easy. After disassembly of the rack, advanced technology quick release couplings eliminate spillage for the safety of operators and protects the integrity of fluids (no impurities in the circuits). These couplings are also capable of being locked (Panel mounted?) to allow blind connection in difficult to access areas. It is important in electronics technology to analyse the connection systems to ensure:
+Non-spill sealing (clean break, flush face couplings)
+Compact and lightweight (materials in special aluminum alloys)
+Operator safety (disconnection without spillage)
+Quick-release couplings sized for optimized flow
+Connection guiding system and compensation of misalignment during connection on rack systems
+Excellent resistance to vibration and corrosion
+Designed to withstand a large number of connections even on refrigerant circuits under residual pressure
+
+
+== Industrial usage ==
+
+Industrial cooling towers may use river water, coastal water (seawater), or well water as their source of fresh cooling water. The large mechanical induced-draft or forced-draft cooling towers in industrial plants continuously circulate cooling water through heat exchangers and other equipment where the water absorbs heat. That heat is then rejected to the atmosphere by the partial evaporation of the water in cooling towers where upflowing air is contacted with the circulating downflow of water. The loss of evaporated water into the air exhausted to the atmosphere is replaced by "make-up" fresh river water or fresh cooling water. Since the evaporation of pure water is replaced by make-up water containing carbonates and other dissolved salts, a portion of the circulating water is also continuously discarded as "blowdown" water to prevent the excessive build-up of salts in the circulating water.
+
+On very large rivers, but more often at coastal and estuarine sites, "direct cooled" systems are often used, instead. These industrial plants do not use cooling towers and the atmosphere as a heat sink, but put the waste heat to the river or coastal water instead. These OTC systems thus rely upon a good supply of river water or seawater for their cooling needs. Many facilities, particularly electric power plants, use millions of gallons of water per day for cooling. Such facilities are built with intake structures designed to pump in large volumes of water at a high rate of flow. These structures tend to also pull in large numbers of fish and other aquatic organisms, which are killed or injured on the intake screens.
+The warmed water is returned directly to the aquatic environment, often at temperatures significantly (to aquatic life) above the ambient receiving water. Thermal pollution of rivers, estuaries and coastal waters is a consideration when siting such plants.
+High-grade industrial water (produced by reverse osmosis) and potable water are sometimes used in industrial plants requiring high-purity cooling water.
+Some nuclear reactors use heavy water as cooling. Heavy water is employed in nuclear reactors because it is a weaker neutron absorber. This allows for the use of less enriched fuel. For the main cooling system, normal water is preferably employed through the use of a heat exchanger, as heavy water is much more expensive. Reactors that use other materials for moderation (graphite) may also use normal water for cooling.
+
+
+== Marine Vessel usage ==
+Water is an ideal cooling medium for vessels as they are constantly surrounded by water that generally remains at a low temperature throughout the year. This does however pose new challenges as cooling systems operating with sea water need to be manufactured from materials that are suitable for the environment. A heat exchanger for example will need to be manufactured from materials such as Cupronickel, Bronze or Titanium to protect it from erosion or corrosion. The velocity will also need to be far more restricted compared with a fresh water cooling system. If the velocity is too low; then sand and other sediments can block the tubes. If the velocity is too high then the tubes can be eroded by the sediments in the water.
+
+
+== Environmental considerations ==
+Water is a favorable environment for many life forms. Water cooling may alter natural water environments and create new environments. Flow characteristics of recirculating cooling water systems encourage colonization by sessile organisms to use the circulating supply of food, oxygen and nutrients. Volumes of water lost during evaporative cooling may decrease natural habitat for aquatic organisms. Water temperature increases modify aquatic habitat by increasing biochemical reaction rates and decreasing oxygen saturation capacity of the habitat. Temperature increases initially favor a population shift from those requiring the high-oxygen concentration of cold water to those enjoying advantages of increased metabolic rates in warm water. Temperatures may become high enough to support thermophilic populations.
+Biofouling of heat exchange surfaces can reduce heat transfer rates of the cooling system; and biofouling of cooling towers can alter flow distribution to reduce evaporative cooling rates. Biofouling may also create differential oxygen concentrations increasing corrosion rates. OTC and open recirculating systems are most susceptible to biofouling. Biofouling may be inhibited by temporary habitat modifications. Temperature differences may discourage establishment of thermophilic populations in intermittently operated facilities; and intentional short term temperature spikes may periodically kill less tolerant populations. Biocides have been commonly used to control biofouling where sustained facility operation is required.
+Large OTC flow rates may immobilize slow-swimming organisms including fish and shrimp on screens protecting the small bore tubes of the heat exchangers from blockage. High temperatures or pump turbulence and shear may kill or disable smaller organisms passing the screens entrained with the cooling water. In the U.S., cooling water intake structures kill billions of fish and other organisms each year. More agile aquatic predators consume organisms impinged on the screens; and warm water predators and scavengers colonize the cooling water discharge to feed on entrained organisms.
+Manufactured metals tend to revert to ores via electrochemical reactions of corrosion. Water can accelerate corrosion as both an electrical conductor and solvent for metal ions and oxygen. Corrosion reactions proceed more rapidly as temperature increases. Preservation of machinery in the presence of hot water has been improved by addition of chemicals including zinc, chromates and phosphates. The first two have toxicity concerns; and the last has been associated with eutrophication. Residual concentrations of biocides and corrosion inhibitors are of potential concern for OTC and blowdown from open recirculating systems. With the exception of machines with short design life, closed recirculating systems require periodic cooling water treatment or replacement raising similar concern about ultimate disposal of cooling water containing chemicals used with environmental safety assumptions of a closed system.
+Industrial cooling water regulations
+The U.S. Clean Water Act requires the Environmental Protection Agency (EPA) to issue regulations on industrial cooling water intake structures. EPA issued final regulations for new facilities in 2001 (amended 2003), and for existing facilities in 2014.
+
+
+== Cooling water chemistry ==
+Water contains varying amounts of impurities from contact with the atmosphere, soil, and containers. Cooling water treatments add other chemicals attempting to maintain satisfactory heat exchange.
+
+
+=== Solids ===
+Total dissolved solids or TDS (sometimes called filtrable residue) is measured as the mass of residue remaining when a measured volume of filtered water is evaporated. Salinity measures water density or conductivity changes caused by dissolved materials. Probability of scale formation increases with increasing total dissolved solids. Solids commonly associated with scale formation are calcium and magnesium carbonate and sulfate. Corrosion rates initially increase with salinity in response to increasing electrical conductivity, but then decrease after reaching a peak as higher levels of salinity decrease dissolved oxygen levels.
+
+
+=== Hydrogen ===
+Water ionizes into hydronium (H3O) cations and hydroxyl (OH) anions. The concentration of ionized hydrogen (as protonated water) is expressed as pH. Low pH values increase rate of corrosion while high pH values encourage scale formation. Amphoterism is uncommon among metals used in water cooling systems, but aluminum corrosion rates increase with pH values above 9. Galvanic corrosion may be severe in water systems with copper and aluminum components. Acid may be added to cooling water systems to prevent scale formation if the pH decrease will offset increased salinity and dissolved solids.
+
+
+=== Phosphorus and chromium ===
+Concentrations of polyphosphates or phosphonates with zinc and chromates or similar compounds have been maintained in cooling systems to keep heat exchange surfaces clean so a film of gamma iron oxide and zinc phosphate may inhibit corrosion by passivating anodic and cathodic reaction points. These increase salinity and total dissolved solids, and phosphorus compounds may provide the limiting essential nutrient for algal growth contributing to biofouling of the cooling system or to eutrophication of natural aquatic environments receiving blowdown or OTC water. Chromates reduce biofouling in addition to effective corrosion inhibition, but residual toxicity in blowdown or OTC water has encouraged reduced chromate concentrations and use of less flexible corrosion inhibitors. Blowdown may also contain chromium leached from cooling towers constructed of wood preserved with chromated copper arsenate.
+
+
+=== Oxygen ===
+Some groundwater contains very little oxygen when pumped from wells, but most natural water supplies include dissolved oxygen. Corrosion increases with increasing oxygen concentrations. Dissolved oxygen approaches saturation levels in cooling towers. Dissolved oxygen is desirable in blowdown or OTC water being returned to natural aquatic environments.
+
+
+=== Biocides ===
+Chlorine may be added in the form of hypochlorite to decrease biofouling, but is later reduced to chloride to minimize toxicity of blowdown or OTC water returned to natural aquatic environments. Hypochlorite is increasingly destructive to wooden cooling towers as pH increases. Chlorinated phenols have been used as biocides or leached from preserved wood in cooling towers. Both hypochlorite and pentachlorophenol have reduced effectiveness at pH values greater than 8. Non-oxidizing biocides may be more difficult to detoxify prior to release of blowdown or OTC water to natural aquatic environments.
+
+
+== See also ==
+Cooling pond
+Deep lake water cooling
+Free cooling
+Full immersion cooling
+Heat pipe cooling
+Hopper cooling
+Oil cooling
+Peltier cooling
+Thermosiphon (passive heat exchange)
+
+
+== References ==
+
+
+== Bibliography ==
+Handbook of Industrial Water Conditioning (7th ed.). Betz Laboratories. 1976. 
+Franson, Mary Ann (1975). Standard Methods for the Examination of Water and Wastewater (14th ed.). APHA, AWWA & WPCF. ISBN 0-87553-078-8. 
+Goldman, Charles R.; Horne, Alexander J. (1983). Limnology. McGraw-Hill. ISBN 0-07-023651-8. 
+Kemmer, Frank N. (1979). The NALCO Water Handbook. McGraw-Hill. 
+King, James J. The Environmental Dictionary (3rd Edition) John Wiley & Sons (1995) ISBN 0-471-11995-4
+Reid, George K. Ecology in Inland Waters and Estuaries Van Nostrand Reinhold (1961)
+
+
+== External links ==
+Basic Theory and Practice of Cooling Towers
+Howstuffworks "How Liquid-cooled PCs Work"

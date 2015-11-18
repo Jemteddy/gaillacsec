@@ -1,0 +1,30 @@
+In natural languages, an indicative conditional is the logical operation given by statements of the form "If A then B". Unlike the material conditional, an indicative conditional does not have a stipulated definition. The philosophical literature on this operation is broad, and no clear consensus has been reached.
+
+
+== Distinctions between the material conditional and the indicative conditionalEdit ==
+The material conditional does not always function in accordance with everyday if-then reasoning. Therefore there are drawbacks with using the material conditional to represent if-then statements.
+One problem is that the material conditional allows implications to be true even when the antecedent is irrelevant to the consequent. For example, it's commonly accepted that the sun is made of gas, on one hand, and that 3 is a prime number, on the other. The standard definition of implication allows us to conclude that, if the sun is made of gas, then 3 is a prime number. This is arguably synonymous to the following: the sun's being made of gas makes 3 be a prime number. Many people intuitively think that this is false, because the sun and the number three simply have nothing to do with one another. Logicians have tried to address this concern by developing alternative logics, e.g., relevant logic.
+For a related problem, see vacuous truth.
+Another issue is that the material conditional is not designed to deal with counterfactuals and other cases that people often find in if-then reasoning. This has inspired people to develop modal logic.
+A further problem is that the material conditional is such that P AND ¬P → Q, regardless of what Q is taken to mean. That is, a contradiction implies that absolutely everything is true. Logicians concerned with this have tried to develop paraconsistent logics.
+
+
+== Psychology and indicative conditionalsEdit ==
+Most behavioral experiments on conditionals in the psychology of reasoning have been carried out with indicative conditionals, causal conditionals, and counterfactual conditionals. People readily make the modus ponens inference, that is, given if A then B, and given A, they conclude B, but only about half of participants in experiments make the modus tollens inference, that is, given if A then B, and given not-B, only about half of participants conclude not-A, the remainder say that nothing follows (Evans et al., 1993). When participants are given counterfactual conditionals, they make both the modus ponens and the modus tollens inferences (Byrne, 2005).
+
+
+== See alsoEdit ==
+
+Material conditional
+Counterfactual conditional
+Logical consequence
+Strict conditional
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Byrne, R.M.J. (2005). The Rational Imagination: How People Create Counterfactual Alternatives to Reality. Cambridge, MA: MIT Press.
+Edgington, Dorothy. (2006). "Conditionals". The Stanford Encyclopedia of Philosophy, Edward Zalta (ed.). http://plato.stanford.edu/entries/conditionals/.
+Evans, J. St. B. T., Newstead, S. and Byrne, R. M. J. (1993). Human Reasoning: The Psychology of Deduction. Hove, Psychology Press.

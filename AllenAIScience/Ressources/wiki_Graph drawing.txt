@@ -1,0 +1,76 @@
+Graph drawing is an area of mathematics and computer science combining methods from geometric graph theory and information visualization to derive two-dimensional depictions of graphs arising from applications such as social network analysis, cartography, linguistics, and bioinformatics.
+A drawing of a graph or network diagram is a pictorial representation of the vertices and edges of a graph. This drawing should not be confused with the graph itself: very different layouts can correspond to the same graph. In the abstract, all that matters is which pairs of vertices are connected by edges. In the concrete, however, the arrangement of these vertices and edges within a drawing affects its understandability, usability, fabrication cost, and aesthetics. The problem gets worse, if the graph changes over time by adding and deleting edges (dynamic graph drawing) and the goal is to preserve the user's mental map.
+
+
+== Graphical conventions ==
+
+Graphs are frequently drawn as node-link diagrams in which the vertices are represented as disks, boxes, or textual labels and the edges are represented as line segments, polylines, or curves in the Euclidean plane. Node-link diagrams can be traced back to the 13th century work of Ramon Llull, who drew diagrams of this type for complete graphs in order to analyze all pairwise combinations among sets of metaphysical concepts.
+In the case of directed graphs, arrowheads form a commonly used graphical convention to show their orientation; however, user studies have shown that other conventions such as tapering provide this information more effectively. Upward planar drawing uses the convention that every edge is oriented from a lower vertex to a higher vertex, making arrowheads unnecessary.
+Alternative conventions to node-link diagrams include adjacency representations such as circle packings, in which vertices are represented by disjoint regions in the plane and edges are represented by adjacencies between regions; intersection representations in which vertices are represented by non-disjoint geometric objects and edges are represented by their intersections; visibility representations in which vertices are represented by regions in the plane and edges are represented by regions that have an unobstructed line of sight to each other; confluent drawings, in which edges are represented as smooth curves within mathematical train tracks; fabrics, in which nodes are represented as horizontal lines and edges as vertical lines; and visualizations of the adjacency matrix of the graph.
+
+
+== Quality measures ==
+Many different quality measures have been defined for graph drawings, in an attempt to find objective means of evaluating their aesthetics and usability. In addition to guiding the choice between different layout methods for the same graph, some layout methods attempt to directly optimize these measures.
+
+The crossing number of a drawing is the number of pairs of edges that cross each other. If the graph is planar, then it is often convenient to draw it without any edge intersections; that is, in this case, a graph drawing represents a graph embedding. However, nonplanar graphs frequently arise in applications, so graph drawing algorithms must generally allow for edge crossings.
+The area of a drawing is the size of its smallest bounding box, relative to the closest distance between any two vertices. Drawings with smaller area are generally preferable to those with larger area, because they allow the features of the drawing to be shown at greater size and therefore more legibly. The aspect ratio of the bounding box may also be important.
+Symmetry display is the problem of finding symmetry groups within a given graph, and finding a drawing that displays as much of the symmetry as possible. Some layout methods automatically lead to symmetric drawings; alternatively, some drawing methods start by finding symmetries in the input graph and using them to construct a drawing.
+It is important that edges have shapes that are as simple as possible, to make it easier for the eye to follow them. In polyline drawings, the complexity of an edge may be measured by its number of bends, and many methods aim to provide drawings with few total bends or few bends per edge. Similarly for spline curves the complexity of an edge may be measured by the number of control points on the edge.
+Several commonly used quality measures concern lengths of edges: it is generally desirable to minimize the total length of the edges as well as the maximum length of any edge. Additionally, it may be preferable for the lengths of edges to be uniform rather than highly varied.
+Angular resolution is a measure of the sharpest angles in a graph drawing. If a graph has vertices with high degree then it necessarily will have small angular resolution, but the angular resolution can be bounded below by a function of the degree.
+The slope number of a graph is the minimum number of distinct edge slopes needed in a drawing with straight line segment edges (allowing crossings). Cubic graphs have slope number at most four, but graphs of degree five may have unbounded slope number; it remains open whether the slope number of degree-4 graphs is bounded.
+
+
+== Layout methods ==
+
+There are many different graph layout strategies:
+In force-based layout systems, the graph drawing software modifies an initial vertex placement by continuously moving the vertices according to a system of forces based on physical metaphors related to systems of springs or molecular mechanics. Typically, these systems combine attractive forces between adjacent vertices with repulsive forces between all pairs of vertices, in order to seek a layout in which edge lengths are small while vertices are well-separated. These systems may perform gradient descent based minimization of an energy function, or they may translate the forces directly into velocities or accelerations for the moving vertices.
+Spectral layout methods use as coordinates the eigenvectors of a matrix such as the Laplacian derived from the adjacency matrix of the graph.
+Orthogonal layout methods, which allow the edges of the graph to run horizontally or vertically, parallel to the coordinate axes of the layout. These methods were originally designed for VLSI and PCB layout problems but they have also been adapted for graph drawing. They typically involve a multiphase approach in which an input graph is planarized by replacing crossing points by vertices, a topological embedding of the planarized graph is found, edge orientations are chosen to minimize bends, vertices are placed consistently with these orientations, and finally a layout compaction stage reduces the area of the drawing.
+Tree layout algorithms these show a rooted tree-like formation, suitable for trees. Often, in a technique called "balloon layout", the children of each node in the tree are drawn on a circle surrounding the node, with the radii of these circles diminishing at lower levels in the tree so that these circles do not overlap.
+Layered graph drawing methods (often called Sugiyama-style drawing) are best suited for directed acyclic graphs or graphs that are nearly acyclic, such as the graphs of dependencies between modules or functions in a software system. In these methods, the nodes of the graph are arranged into horizontal layers using methods such as the Coffman–Graham algorithm, in such a way that most edges go downwards from one layer to the next; after this step, the nodes within each layer are arranged in order to minimize crossings.
+
+Arc diagrams, a layout style dating back to the 1960s, place vertices on a line; edges may be drawn as semicircles above or below the line, or as smooth curves linked together from multiple semicircles.
+Circular layout methods place the vertices of the graph on a circle, choosing carefully the ordering of the vertices around the circle to reduce crossings and place adjacent vertices close to each other. Edges may be drawn either as chords of the circle or as arcs inside or outside of the circle. In some cases, multiple circles may be used.
+Dominance drawing places vertices in such a way that one vertex is upwards, rightwards, or both of another if and only if it is reachable from the other vertex. In this way, the layout style makes the reachability relation of the graph visually apparent.
+
+
+== Application-specific graph drawings ==
+Graphs and graph drawings arising in other areas of application include
+Sociograms, drawings of a social network, as often offered by social network analysis software
+Hasse diagrams, a type of graph drawing specialized to partial orders
+Dessin d'enfants, a type of graph drawing used in algebraic geometry
+State diagrams, graphical representations of finite state machines
+Computer network diagrams, depictions of the nodes and connections in a computer network
+Flow charts, drawings in which the nodes represent the steps of an algorithm and the edges represent control flow between steps.
+Data flow diagrams, drawings in which the nodes represent the components of an information system and the edges represent the movement of information from one component to another.
+Bioinformatics including phylogenetic trees, protein-protein interaction networks, and metabolic pathways.
+In addition, the placement and routing steps of electronic design automation (EDA) are similar in many ways to graph drawing, as is the problem of greedy embedding in distributed computing, and the graph drawing literature includes several results borrowed from the EDA literature. However, these problems also differ in several important ways: for instance, in EDA, area minimization and signal length are more important than aesthetics, and the routing problem in EDA may have more than two terminals per net while the analogous problem in graph drawing generally only involves pairs of vertices for each edge.
+
+
+== Software ==
+Software, systems, and providers of systems for drawing graphs include:
+BioFabric, open-source software from the Institute of Systems Biology for visualizing large networks by drawing nodes as horizontal lines.
+Cytoscape, open-source software for visualizing molecular interaction networks
+Gephi, open-source network analysis and visualization software
+Graphviz, an open-source graph drawing system from AT&T Corporation
+Mathematica, a general purpose computation tool that includes 2D and 3D graph visualization and graph analysis tools.
+Microsoft Automatic Graph Layout, a .NET library (formerly called GLEE) for laying out graphs
+Tom Sawyer Software Tom Sawyer Perspectives is a graphics-based software for building enterprise-class data visualization and social network analysis applications. It is a Software Development Kit (SDK) with a graphics-based design and preview environment.
+Tulip (software), an open source data visualization tool
+yEd, a graph editor with graph layout functionality
+PGF/TikZ 3.0 with the graphdrawing package (requires LuaTeX).
+
+
+== References ==
+Footnotes
+
+General references
+
+Specialized subtopics
+
+
+== External links ==
+GraphX library for .NET: open-source WPF library for graph calculation and visualization. Supports many layout and edge routing algorithms.
+Graph drawing e-print archive: including information on papers from all Graph Drawing symposia.
+Graph drawing at DMOZ for many additional links related to graph drawing.

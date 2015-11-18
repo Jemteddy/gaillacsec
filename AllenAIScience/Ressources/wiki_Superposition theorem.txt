@@ -1,0 +1,13 @@
+The superposition theorem for electrical circuits states that for a linear system the response (voltage or current) in any branch of a bilateral linear circuit having more than one independent source equals the algebraic sum of the responses caused by each independent source acting alone, where all the other independent sources are replaced by their internal impedances.
+To ascertain the contribution of each individual source, all of the other sources first must be "turned off" (set to zero) by:
+Replacing all other independent voltage sources with a short circuit (thereby eliminating difference of potential i.e. V=0; internal impedance of ideal voltage source is zero (short circuit)).
+Replacing all other independent current sources with an open circuit (thereby eliminating current i.e. I=0; internal impedance of ideal current source is infinite (open circuit)).
+This procedure is followed for each source in turn, then the resultant responses are added to determine the true operation of the circuit. The resultant circuit operation is the superposition of the various voltage and current sources.
+The superposition theorem is very important in circuit analysis. It is used in converting any circuit into its Norton equivalent or Thevenin equivalent.
+The theorem is applicable to linear networks (time varying or time invariant) consisting of independent sources, linear dependent sources, linear passive elements (resistors, inductors, capacitors) and linear transformers.
+Another point that should be considered is that superposition only works for voltage and current but not power. In other words, the sum of the powers of each source with the other sources turned off is not the real consumed power. To calculate power we should first use superposition to find both current and voltage of each linear element and then calculate the sum of the multiplied voltages and currents.
+
+
+== ReferencesEdit ==
+Electronic Devices and Circuit Theory (9th ed.) by Boylestad and Nashelsky
+Basic Circuit Theory by C. A. Desoer and E. H. Kuh

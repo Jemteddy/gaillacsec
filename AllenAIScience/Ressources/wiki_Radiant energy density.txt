@@ -1,0 +1,27 @@
+In radiometry, radiant energy density is the radiant energy per unit volume. The SI unit of radiant energy density is the joule per cubic metre (J/m3).
+
+
+== Mathematical definition ==
+Radiant energy density, denoted we ("e" for "energetic", to avoid confusion with photometric quantities), is defined as
+
+where
+∂ is the partial derivative symbol;
+Qe is the radiant energy;
+V is the volume.
+
+
+== Relation to other radiometric quantities ==
+Because radiation always transmits the energy, it is useful to wonder what the speed of the transmission is. If all the radiation at given location propagates in the same direction, then the radiant flux through a unit area perpendicular to the propagation direction is given by the irradiance:
+
+where c is the radiation propagation speed.
+Contrarily if the radiation intensity is equal in all directions, like in a cavity in a thermodynamic equilibrium, then the energy transmition is best described by radiance:
+
+Radiant exitance through a small opening from such a cavity is:
+
+These relations can be used for example in the black-body radiation equation's derivation.
+
+
+== SI radiometry units ==
+
+
+== References ==

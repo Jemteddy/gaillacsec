@@ -1,0 +1,29 @@
+In probability and statistics, the inverse-chi-squared distribution (or inverted-chi-square distribution) is a continuous probability distribution of a positive-valued random variable. It is closely related to the chi-squared distribution and its specific importance is that it arises in the application of Bayesian inference to the normal distribution, where it can be used as the prior and posterior distribution for an unknown variance.
+
+
+== Definition ==
+The inverse-chi-squared distribution (or inverted-chi-square distribution ) is the probability distribution of a random variable whose multiplicative inverse (reciprocal) has a chi-squared distribution. It is also often defined as the distribution of a random variable whose reciprocal divided by its degrees of freedom is a chi-squared distribution. That is, if  has the chi-squared distribution with  degrees of freedom, then according to the first definition,  has the inverse-chi-squared distribution with  degrees of freedom; while according to the second definition,  has the inverse-chi-squared distribution with  degrees of freedom. Only the first definition will usually be covered in this article.
+The first definition yields a probability density function given by
+
+while the second definition yields the density function
+
+In both cases,  and  is the degrees of freedom parameter. Further,  is the gamma function. Both definitions are special cases of the scaled-inverse-chi-squared distribution. For the first definition the variance of the distribution is  while for the second definition .
+Differential equation
+
+
+== Related distributions ==
+chi-squared: If  and , then 
+scaled-inverse chi-squared: If , then 
+Inverse gamma with  and 
+
+
+== See also ==
+Scaled-inverse-chi-squared distribution
+Inverse-Wishart distribution
+
+
+== References ==
+
+
+== External links ==
+InvChisquare in geoR package for the R Language.

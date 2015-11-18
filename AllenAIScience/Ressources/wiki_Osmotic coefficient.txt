@@ -1,0 +1,25 @@
+An osmotic coefficient φ is a quantity which characterises the deviation of a solvent from ideal behaviour, referenced to Raoult's law. It can be also applied to solutes. Its definition depends on the ways of expressing compositions of mixtures.
+The osmotic coefficient based on molality b is defined by:
+
+and on an amount fraction basis by:
+
+where  is the chemical potential of the pure solvent and  is the chemical potential of the solvent in a solution, MA is its molar mass, xA its amount fraction, R the gas constant and T the temperature in kelvins. The latter osmotic coefficient is sometimes called the rational osmotic coefficient. The values for the two definitions are different, but since
+
+the two definitions are similar, and in fact both approach 1 as the concentration goes to zero.
+In a single solute solution, the (molality based) osmotic coefficient and the solute activity coefficient are related to the excess Gibbs free energy  by the relations:
+
+and there is thus a differential relationship between them (temperature and pressure held constant):
+
+In ionic solutions, Debye-Hückel theory implies that  is asymptotic to , where I is ionic strength and A is the Debye-Hückel constant (equal to about 1.17 for water at 25 °C). This means that, at least at low concentrations, the vapor pressure of the solvent will be greater than that predicted by Raoult's law. For instance, for solutions of magnesium chloride, the vapor pressure is slightly greater than that predicted by Raoult's law up to a concentration of 0.7 mol/kg, after which the vapor pressure is lower than Raoult's law predicts.
+For aqueous solutions, the osmotic coefficients can be calculated theoretically by Pitzer equations or TCPC model.
+
+
+== See also ==
+Bromley equation
+Pitzer equation
+Davies equation
+van 't Hoff factor
+Thermodynamic activity
+
+
+== References ==

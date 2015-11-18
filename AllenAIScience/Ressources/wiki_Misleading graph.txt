@@ -1,0 +1,139 @@
+In statistics, a misleading graph, also known as a distorted graph, is a graph that misrepresents data, constituting a misuse of statistics and with the result that an incorrect conclusion may be derived from it.
+Graphs may be misleading through being excessively complex or poorly constructed. Even when constructed to accurately display the characteristics of their data, graphs can be subject to different interpretation.
+Misleading graphs may be created intentionally to hinder the proper interpretation of data or accidentally due to unfamiliarity with graphing software, misinterpretation of data, or because data cannot be accurately conveyed. Misleading graphs are often used in false advertising. One of the first authors to write about misleading graphs was Darrell Huff, publisher of the 1954 book How to Lie with Statistics.
+The field of data visualization describes ways to present information that avoids creating misleading graphs.
+
+
+== Misleading graph methods ==
+
+There are numerous ways in which a misleading graph may be constructed.
+
+
+=== Excessive usage ===
+The use of graphs where they are not needed can lead to unnecessary confusion/interpretation. Generally, the more explanation a graph needs, the less the graph itself is needed. Graphs do not always convey information better than tables.
+
+
+=== Biased labeling ===
+The use of biased or loaded words in the graph's title, axis labels, or caption may inappropriately prime the reader.
+
+
+=== Pie chart ===
+
+Comparing pie charts of different sizes could be misleading as people cannot accurately read the comparative area of circles.
+The usage of thin slices, which are hard to discern, may be difficult to interpret.
+The usage of percentages as labels on a pie chart can be misleading when the sample size is small.
+Making a pie chart 3D or adding a slant will make interpretation difficult due to distorted effect of perspective. Bar-charted pie graphs in which the height of the slices is varied may confuse the reader.
+
+
+==== 3D Pie chart slice perspective ====
+A perspective (3D) pie chart is used to give the chart a 3D look. Often used for aesthetic reasons, the third dimension does not improve the reading of the data; on the contrary, these plots are difficult to interpret because of the distorted effect of perspective associated with the third dimension. The use of superfluous dimensions not used to display the data of interest is discouraged for charts in general, not only for pie charts. In a 3D pie chart, the slices that are closer to the reader appear to be larger than those in the back due to the angle at which they're presented.
+Edward Tufte, a prominent American statistician noted why tables may be preferred to pie charts in The Visual Display of Quantitative Information:
+
+Tables are preferable to graphics for many small data sets. A table is nearly always better than a dumb pie chart; the only thing worse than a pie chart is several of them, for then the viewer is asked to compare quantities located in spatial disarray both within and between pies – Given their low data-density and failure to order numbers along a visual dimension, pie charts should never be used.
+
+
+=== Improper scaling ===
+When using pictograms in bar graphs, they should not be scaled uniformly, as this creates a perceptually misleading comparison. The area of the pictogram is interpreted instead of only its height or width. This causes the scaling to make the difference appear to be squared.
+The effect of improper scaling of pictograms is further exemplified when the pictogram has 3 dimensions, in which case the effect is cubed.
+Additionally, an improperly scaled pictogram may leave the reader with the sense that the item itself has actually changed in size.
+
+
+==== Logarithmic scaling ====
+Logarithmic (often referred to as log) scales can be a very valid means of representing data, however if used without clearly being labelled as so, or displayed to a reader who is unfamiliar with the concept of log scales, a graph using a log scale can be misleading. Log scales put the data values in terms of a chosen number (the base of the log) to a particular power, the base is often e (2.71828...) or 10. For example log scales may give a height of 1 "unit" for a value of 10 in the data and a height of 6 "units" for a value of 1000000 (1x10^6) in the data. Log scales have common usage in some fields, including the VEI (volcanic explosivity index) scale or the richter scale for earthquakes, magnitudes of stars in astronomy and the pH of acidic and alkaline solutions are also based on a form of log scale, but can have the effect of making data less immediately apparent to the eye. A graph with a log scale which was not clearly labelled as such, or a graph with a log scale presented to a viewer who did not have knowledge of logarithmic scales, would generally result in a representation which made data values look of similar size whilst in fact being of wildy differing magnitudes. Misuse of a log scale can make vastly different values (such as 10 and 10 thousand) appear close together (on a log scale they would be only "1" and "4" ), or it can make small values appear to be negative due to the way in which logarithmic scales represent numbers smaller than the chosen value used as their base.
+Misuse of log scales may also cause relationships between quantities to appear to be linear whilst those relationships are in fact exponentials or power laws which rise very rapidly towards higher values. It has been stated, although mainly in a humorous way, that "anything looks linear on a log-log plot with thick marker pen" .
+
+
+=== Truncated graph ===
+A truncated graph (also known as a torn graph) has a y axis that does not start at 0. These graphs can create the impression of important change where there is relatively little change.
+Truncated graphs are useful in illustrating small differences. Graphs may also be truncated to save space. Commercial software such as MS Excel will tend to truncate graphs by default if the values are all within a narrow range, as in this example.
+
+
+=== Axis changes ===
+
+
+=== No scale ===
+The scales of a graph are often used to exaggerate or minimize differences.
+
+
+=== Improper intervals/units ===
+The intervals and units used in a graph may be manipulated to create or mitigate the expression of change.
+
+
+=== Omitting data ===
+Graphs created with omitted data remove information from which to base a conclusion.
+In financial reports, negative returns or data that do not correlate a positive outlook may be excluded to create a more favorable visual impression.
+
+
+=== Improper extraction ===
+Graphs based on other graphs should be representative in their presentation.
+Extraction has valid uses when searching for anomalies.
+
+
+=== 3D ===
+The use of a superfluous third dimension, which does not contain information, is strongly discouraged, as it may confuse the reader.
+
+
+=== Complexity ===
+Graphs are designed to allow easier interpretation of statistical data. However, graphs with excessive complexity can obfuscate the data and make interpretation difficult.
+
+
+=== Poor construction ===
+Poorly constructed graphs can make data difficult to discern and thus interpret.
+
+
+== Measuring distortion ==
+Several methods have been developed to determine whether graphs are distorted and to quantify this distortion.
+
+
+=== Lie factor ===
+
+where
+
+A graph with a high lie factor (>1) would exaggerate change in the data it represents, while one with a small lie factor (>0, <1) would obscure change in the data. A perfectly accurate graph would exhibit a lie factor of 1.
+
+
+=== Graph discrepancy index ===
+
+where
+
+The graph discrepancy index, also known as the graph distortion index (GDI), was originally proposed by Paul John Steinbart in 1998. GDI is calculated as a percentage ranging from −100% to positive infinity, with zero percent indicating that the graph has been properly constructed and anything outside the ±5% margin is considered to be distorted. Research into the usage of GDI as a measure of graphics distortion has found it to be inconsistent and discontinuous, making the usage of GDI as a measurement for comparisons difficult.
+
+
+=== Data-ink ratio ===
+
+The data-ink ratio should be relatively high, otherwise the chart may have unnecessary graphics.
+
+
+=== Data density ===
+
+The data density should be relatively high, otherwise a table may be better suited for displaying the data.
+
+
+== Usage in finance and corporate reports ==
+Graphs are useful in the summary and interpretation of financial data. Graphs allow trends in large data sets to be seen while also allowing the data to be interpreted by non-specialists.
+Graphs are often used in corporate annual reports as a form of impression management. In the United States, graphs do not have to be audited, as they fall under AU Section 550 Other Information in Documents Containing Audited Financial Statements.
+Several published studies have looked at the usage of graphs in corporate reports for different corporations in different countries and have found frequent usage of improper design, selectivity, and measurement distortion within these reports. The presence of misleading graphs in annual reports have led to requests for standards to be set.
+Research has found that while readers with poor levels of financial understanding have a greater chance of being misinformed by misleading graphs, even those with financial understanding, such as loan officers, may be misled.
+
+
+== Academia ==
+The perception of graphs is studied in psychophysics, cognitive psychology, and computational visions.
+
+
+== See also ==
+Impression management
+Misuse of statistics
+How to Lie with Statistics
+
+
+== References ==
+
+
+=== Books ===
+
+
+== Further reading ==
+
+
+== External links ==
+Gallery of Data Visualization The Best and Worst of Statistical Graphics, York University

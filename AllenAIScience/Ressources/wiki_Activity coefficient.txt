@@ -1,0 +1,76 @@
+An activity coefficient is a factor used in thermodynamics to account for deviations from ideal behaviour in a mixture of chemical substances. In an ideal mixture, the microscopic interactions between each pair of chemical species are the same (or macroscopically equivalent, the enthalpy change of solution and volume variation in mixing is zero) and, as a result, properties of the mixtures can be expressed directly in terms of simple concentrations or partial pressures of the substances present e.g. Raoult's law. Deviations from ideality are accommodated by modifying the concentration by an activity coefficient. Analogously, expressions involving gases can be adjusted for non-ideality by scaling partial pressures by a fugacity coefficient.
+The concept of activity coefficient is closely linked to that of activity in chemistry.
+
+
+== Thermodynamic definition ==
+The chemical potential, , of a substance B in an ideal mixture of liquids or an ideal solution is given by
+
+where  is the chemical potential in the standard state and xB is the mole fraction of the substance in the mixture.
+This is generalised to include non-ideal behavior by writing
+
+when  is the activity of the substance in the mixture with
+
+where  is the activity coefficient, which may itself depend on . As  approaches 1, the substance behaves as if it were ideal. For instance, if , then Raoult's law is accurate. For  and , substance B shows positive and negative deviation from Raoult's law, respectively. A positive deviation implies that substance B is more volatile.
+In many cases, as  goes to zero, the activity coefficient of substance B approaches a constant; this relationship is Henry's law for the solvent. These relationships are related to each other through the Gibbs–Duhem equation. Note that in general activity coefficients are dimensionless.
+Modifying mole fractions or concentrations by activity coefficients gives the effective activities of the components, and hence allows expressions such as Raoult's law and equilibrium constants to be applied to both ideal and non-ideal mixtures.
+Knowledge of activity coefficients is particularly important in the context of electrochemistry since the behaviour of electrolyte solutions is often far from ideal, due to the effects of the ionic atmosphere. Additionally, they are particularly important in the context of soil chemistry due to the low volumes of solvent and, consequently, the high concentration of electrolytes.
+
+
+== Experimental determination of activity coefficients ==
+Activity coefficients may be determined experimentally by making measurements on non-ideal mixtures. Use may be made of Raoult's law or Henry's law to provide a value for an ideal mixture against which the experimental value may be compared to obtain the activity coefficient. Other colligative properties, such as osmotic pressure may also be used.
+For solution of substances which ionize in solution the activity coefficients of the cation and anion cannot be experimentally determined independently of each other because solution properties depend on both ions. In this case a mean activity coefficient of the dissolved electrolyte, , must be used. For a 1:1 electrolyte, such as NaCl it is defined as follows:
+
+where γ+ and γ- are the activity coefficients of the cation and anion respectively. This definition tacitly assumes a degree of 100% ionic disociation of the electrolyte.
+More generally, the mean activity coefficient of a compound of formula ApBq is given by
+
+Single-ion activity coefficients can be calculated theoretically, for example by using the Debye–Hückel equation. The theoretical equation can be tested by combining the calculated single-ion activity coefficients to give mean values which can be compared to experimental values.
+The prevailing view that single ion activity coefficients are unmeasurable, or perhaps even physically meaningless, has its roots in the work of Guggenheim in the late 1920s.  However, chemists have never been able to give up the idea of single ion activities, and by implication single ion activity coefficients. For example, pH is defined as the negative logarithm of the hydrogen ion activity. If the prevailing view on the physical meaning and measurability of single ion activities is correct then defining pH as the negative logarithm of the hydrogen ion activity places the quantity squarely in the unmeasurable category. Recognizing this logical difficulty, International Union of Pure and Applied Chemistry (IUPAC) states that the activity-based definition of pH is a notional definition only.  Despite the prevailing negative view on the measurability of single ion coefficients, the concept of single ion activities continues to be discussed in the literature, and at least one author presents a definition of single ion activity in terms of purely thermodynamic quantities and proposes a method of measuring single ion activity coefficients based on purely thermodynamic processes. 
+
+
+== Theoretical calculation of activity coefficients ==
+
+Activity coefficients of electrolyte solutions may be calculated theoretically, using the Debye–Hückel equation or extensions such as the Davies equation, Pitzer equations or TCPC model. Specific ion interaction theory (SIT) may also be used.
+For non-electrolyte solutions correlative methods such as UNIQUAC, NRTL, MOSCED or UNIFAC may be employed, provided fitted component-specific or model parameters are available. COSMO-RS is a theoretical method which is less dependent on model parameters as required information is obtained from quantum mechanics calculations specific to each molecule (sigma profiles) combined with a statistical thermodynamics treatment of surface segments.
+For uncharged species, the activity coefficient γ0 mostly follows a salting-out model:
+
+This simple model predicts activities of many species (dissolved undissociated gases such as CO2, H2S, NH3, undissociated acids and bases) to high ionic strengths (up to 5 mol/kg). The value of the constant b for CO2 is 0.11 at 10 °C and 0.20 at 330 °C.
+For water (solvent), the activity aw can be calculated using:
+φ
+where ν is the number of ions produced from the dissociation of one molecule of the dissolved salt, m is the molality of the salt dissolved in water, φ is the osmotic coefficient of water, and the constant 55.51 represents the molality of water. In the above equation, the activity of a solvent (here water) is represented as inversely proportional to the number of particles of salt versus that of the solvent.
+
+
+== Link to ionic diameter ==
+The ionic activity coefficient is connected to the ionic diameter a by the formula:
+
+where A and B are constant, zi is the valence number of the ion, and I is ionic strength.
+
+
+== Dependence on state parameters ==
+The derivative of an activity coefficient with respect to temperature is related to excess molar enthalpy by
+
+Similarly, the derivative of an activity coefficient with respect to pressure can be related to excess molar volume.
+
+
+== Application to chemical equilibrium ==
+At equilibrium, the sum of the chemical potentials of the reactants is equal to the sum of the chemical potentials of the products. The Gibbs free energy change for the reactions, , is equal to the difference between these sums and therefore, at equilibrium, is equal to zero. Thus, for an equilibrium such as
+
+Substitute in the expressions for the chemical potential of each reactant:
+
+Upon rearrangement this expression becomes
+
+The sum  is the standard free energy change for the reaction, . Therefore
+
+K is the equilibrium constant. Note that activities and equilibrium constants are dimensionless numbers.
+This derivation serves two purposes. It shows the relationship between standard free energy change and equilibrium constant. It also shows that an equilibrium constant is defined as a quotient of activities. In practical terms this is inconvenient. When each activity is replaced by the product of a concentration and an activity coefficient, the equilibrium constant is defined as
+
+where [S] denotes the concentration of S, etc. In practice equilibrium constants are determined in a medium such that the quotient of activity coefficient is constant and can be ignored, leading to the usual expression
+
+which applies under the conditions that the activity quotient has a particular (constant) value.
+
+
+== References ==
+
+
+== External links ==
+AIOMFAC online-model An interactive group-contribution model for the calculation of activity coefficients in organic-inorganic mixtures.
+Electrochimica Acta Single-ion activity coefficients

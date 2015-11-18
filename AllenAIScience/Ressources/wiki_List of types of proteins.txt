@@ -1,0 +1,356 @@
+List of proteins contains large amounts of information concerning genes and proteins. Gene sequencing efforts and genome sequencing projects have led to the creation of many gene databases and attempts to organize all of the available information. Classifications may be based on protein structure as in the CATH database and the Structural Classification of Proteins database (SCOP). The list is based on the biological categories described in the GO Slims list for "GOA and whole proteome analysis". Modifications are being made as needed, but an effort is being made to keep these "top level" categories limited in number.
+The original GOA and whole proteome analysis slim contains many suggested “synonyms” and subcategories for the following categories.
+
+
+== Biological Process Unknown ==
+"Used for the annotation of gene products whose process is not known or cannot be inferred."
+Proteins with no known biological function can be categorized according to protein structural criteria (distinctive structural domains), source organism or subcellular location.
+
+
+=== Structural Categories ===
+Proteins with unknown functions can sometimes be categorized according to their structural features if they contain a recognizable protein domain.
+See Protein domains.
+
+
+=== Organism Categories ===
+If the only thing known about a protein is the organism that produces it, then it can enjoy (as a last resort) being categorized according to the organism.
+Root NCBI Taxonomy Browser 
+WikiSpecies taxonomy system 
+
+
+=== Cellular Component ===
+"The part of a cell of which a gene product is a component; for purpose of GO includes the extracellular environment of cells; a gene product may be a component of one or more parts of a cell; this term includes gene products that are parts of macromolecular complexes, by the definition that all members of a complex normally copurify under all except extreme conditions."
+
+
+==== Unlocalized Protein Complex ====
+"Used as a holding place for cellular components whose precise localization is, as yet, unknown, or has not been determined by GO (the latter is the major reason for nodes to have this parent); this term should not be used for annotation of gene products." See also the cellular component term 'cellular component unknown’ (below).
+
+
+==== Cellular Component Unknown ====
+"Used for the annotation of gene products whose localization is not known or cannot be inferred." Consider placing such proteins in Structural categories or organism categories
+
+
+==== Cell ====
+"The basic structural and functional unit of all organisms. Includes the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope."
+
+
+==== Cell Surface ====
+"The external part of the cell wall and/or cell membrane."
+comment: Note that this term is intended to annotate gene products that are attached to the plasma membrane or cell wall.
+2 types of membrane proteins are "integral" (such as ion channels) and "peripheral"
+
+
+==== Intracellular ====
+exact_synonym: "protoplasm"
+"The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm."
+See the Organelles category of Wikipedia.
+
+
+===== Cytoplasm =====
+"All of the contents of a cell excluding the plasma membrane and nucleus."
+
+
+===== Nucleus =====
+"A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."
+
+
+===== Membrane =====
+exact_synonym: "membrane organelle"
+"Double layer of lipid molecules that encloses all cells, and, in eukaryotes, many organelles; may be a single or double lipid bilayer; also includes associated proteins."
+. See the Membrane biology category of Wikipedia.
+See the Membrane proteins category of Wikipedia.
+See the Integral membrane proteins category of Wikipedia.
+
+
+===== Chromosome =====
+"A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information."
+
+
+==== Extracellular Region ====
+exact_synonym: "extracellular"
+Note that this term is intended to annotate gene products that are not attached to the cell surface.
+"The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite."
+
+
+===== External Encapsulating Structure =====
+"A structure that lies outside the plasma membrane and surrounds the entire cell."
+
+
+===== Extracellular Space =====
+"That part of a multicellular organism outside the cells proper, usually taken to be outside the plasma membranes, and occupied by fluid."
+
+
+== Molecular function ==
+"Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions."Note: the next four categories (below) are general default categories. Try to find more specific functional categories (further below) for proteins than these general categories.
+
+
+=== physiological process ===
+“Those processes specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms."...
+
+
+=== biological process ===
+"A phenomenon marked by changes that lead to a particular result, mediated by one or more gene products."
+
+
+=== cellular process ===
+"Processes that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level."
+
+
+=== cellular physiological process ===
+"The processes pertinent to the integrated function of a cell."
+
+
+=== catalytic activity ===
+related_synonym: "Enzyme activity"
+"Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic."Note: see the Wikipedia enzymes category.
+
+
+==== aromatase activity ====
+exact_synonym: "estrogen synthetase"
+"Catalysis of the reaction: R-H + reduced flavoprotein + O2 = R-OH + oxidized flavoprotein + H2O."
+See the Wikipedia EC 1.14.14 category.
+
+
+==== motor activity ====
+Catalysis of movement along a polymeric molecule such as a microfilament or microtubule, coupled to the hydrolysis of a nucleoside triphosphate. Also includes prokaryotic motors.Note: the myosin, kinesin and dynein motor proteins are also in the cytoskeleton category.
+See the Wikipedia Motor protein article and the motor proteins category of Wikipedia.
+
+
+==== helicase activity ====
+"Catalysis of the unwinding of a DNA or RNA duplex."
+dnaB
+recQ
+
+
+==== integrase activity ====
+"Catalysis of the integration of DNA possibly by forming a transient DNA-protein link."
+
+
+==== antioxidant activity ====
+"Inhibition of the reactions brought about by dioxygen (O2) or peroxides. Usually the antioxidant is effective because it can itself be more easily oxidized than the substance protected. The term is often applied to components that can trap free radicals, thereby breaking the chain reaction that normally leads to extensive biological damage."
+
+
+==== metabolism ====
+"Processes that cause many of the chemical changes in living organisms, including anabolism and catabolism. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation." Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.
+
+
+==== macromolecule metabolism ====
+The chemical reactions involving macromolecules (large molecules including proteins, nucleic acids and carbohydrates). See also: #catabolism.
+
+
+===== Proteolysis =====
+Protease
+Category:EC 3.4
+
+Protease inhibitors
+Serine protease inhibitors category
+
+
+==== amino acid and derivative metabolism ====
+"The chemical reactions involving amino acids, organic acids containing one or more amino substituents, and compounds derived from amino acids."
+
+
+==== nucleobase, nucleoside, nucleotide and nucleic acid metabolism ====
+"The chemical reactions involving nucleobases, nucleosides, nucleotides and nucleic acids."
+
+
+==== biosynthesis ====
+"The energy-requiring part of metabolism in which simpler substances are transformed into more complex ones, as in growth and other biosynthetic processes."
+
+
+==== catabolism ====
+exact_synonym: "breakdown"
+exact_synonym: "degradation"
+"Any metabolic process involving the breakdown of complex substances into smaller products, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism."Note: use #macromolecule metabolism (above) for proteins, nucleic acids and carbohydrates.
+
+
+==== kinase activity ====
+"Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule."
+
+
+==== oxidoreductase activity ====
+"Catalysis of an oxidation-reduction (redox) reaction; a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced."
+
+
+==== transferase activity ====
+"Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2."
+
+
+==== hydrolase activity ====
+"Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3."
+
+
+==== lyase activity ====
+"Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring." (EC:4)
+
+
+==== isomerase activity ====
+"Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5."
+
+
+==== ligase activity ====
+"Catalysis of the ligation of two substances with concomitant breaking of a diphosphate linkage, usually in a nucleoside triphosphate. Ligase is the systematic name for any enzyme of EC class 6."
+
+
+=== enzyme regulator activity ===
+"Modulates the activity of an enzyme."
+exact_synonym: "enzyme modulator"
+
+
+=== signal transducer activity ===
+namespace: molecular_function def: "Mediates the transfer of a signal from the outside to the inside of a cell by means other than the introduction of the signal molecule itself into the cell."
+
+
+=== structural molecule activity ===
+"The action of a molecule that contributes to the structural integrity of a complex or assembly within or outside a cell."
+
+
+==== Cytoskeleton ====
+The cytoskeleton is composed of protein filaments in the cytoplasm.
+The Wikipedia Cytoskeleton category.
+
+
+==== extracellular matrix ====
+"A layer consisting mainly of proteins (especially collagen) and glycosaminoglycans (mostly as proteoglycans) that forms a sheet underlying cells such as endothelial and epithelial cells. The proteins are secreted by cells in the vicinity. As in, but not restricted to, the multicellular animals.
+
+
+=== binding ===
+"The selective, often stoichiometric interaction of a molecule with one or more specific sites on another molecule." For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding' (receptor activity, below)
+
+
+==== Receptor activity ====
+"Combining with an extracellular or intracellular messenger to initiate a change in cell activity."
+The Wikipedia Receptors category.
+
+
+==== protein binding ====
+"Interacting selectively with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules)."
+
+
+==== lipid binding ====
+"Interacting selectively and non-covalently with a lipid." (GO:0008289)
+Lipid transfer proteins
+
+
+=== cell motility ===
+"Any process involved in the controlled movement of a cell."
+exact_synonym: "cell locomotion"
+exact_synonym: "cell movement" Note: also see #motor activity (above) for other proteins involved in cell motility.
+
+
+=== membrane fusion ===
+"The joining of two lipid bilayers to form a single membrane."
+
+
+=== cell communication ===
+"Any process that mediates interactions between a cell and its surroundings. Encompasses interactions such as signaling or attachment between one cell and another cell, between a cell and an extracellular matrix, or between a cell and any other aspect of its environment."
+
+
+=== regulation of biological process ===
+"Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule."
+
+
+=== development ===
+"The biological process specifically aimed at the progression of an organism over time from an initial condi (e.g. a multicellular animal, an aged adult or a mature single celled organism)." ('developmental process').
+
+
+==== cell differentiation ====
+"The process whereby relatively unspecialized cells, e.g. embryonic or regenerative cells, acquire specialized structural and/or functional features that characterize the cells, tissues, or organs of the mature organism or some other relatively stable phase of the organism's life history."
+
+
+=== response to stimulus ===
+"A change in state or activity of a cell or organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the perception of a stimulus."
+
+
+=== behavior ===
+"The specific actions or reactions of an organism in response to external or internal stimuli. Patterned activity of a whole organism in a manner dependent upon some combination of that organism's internal state and external conditions."
+
+
+=== cell adhesion ===
+
+
+=== cell death ===
+"The specific aalting of processes within a cell so that its vital functions markedly cease, rather than simply deteriorating gradually over time, which culminates in cell death."
+
+
+=== transport ===
+"The directed movement of substances (such as macromolecules, small molecules, ions) into, out of, within or between cells."
+
+
+==== protein transporter activity ====
+"Enables the directed movement of proteins into, out of, within or between cells."
+
+
+===== Nuclear transport =====
+importin, nuclear transport factor 2 (NTF2), Ran, exportin
+
+
+==== ion transporter activity ====
+"Enables the directed movement of charged atoms or small charged molecules into, out of, within or between cells."
+
+
+===== channel or pore class transporter activity =====
+"Allows facilitated diffusion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without a carrier-mediated mechanism. They do not exhibit stereospecificity but may be specific for a particular molecular species or class of molecules."
+
+
+==== carrier activity ====
+exact synonym: "carrier type transporter"
+"Catalysis of the transfer of a specific substance or related group of substances from one side of the membrane to the other."
+
+
+==== permease activity ====
+"Catalysis of the stereospecific transfer of a substrate across a biological membrane."
+
+
+==== secretion ====
+"The regulated release of a substance by a cell or group of cells."
+
+
+==== electron transporter activity ====
+"Enables the directed movement of electrons into, out of, within or between cells."
+
+
+==== electron transport ====
+"The transport of electrons from an electron donor to an electron acceptor." (electron transfer)
+
+
+=== pathogenesis ===
+"The specific processes that generate the ability of an organism to cause disease in another."
+comment: Note that this term should not be used to annotate gene products that are involved in the host response to pathogenesis. It should only be used to annotate those gene products involved in the generation of pathogenesis by the pathogen itself (virulence).
+
+
+=== chaperone regulator activity ===
+"Modulates the activity of a molecular chaperone."
+
+
+=== nucleic acid binding ===
+"Interacting selectively with any nucleic acid."
+
+
+=== transcription regulator activity ===
+"Plays a role in regulating transcription; may bind a promoter or enhancer DNA sequence or interact with a DNA-binding transcription factor."Category:Transcription factorsCategory:Transcription coregulators; Transcription coregulators like PELP-1; Coactivator (genetics)
+
+
+=== extracellular structure organization and biogenesis ===
+"The assembly and arrangement of structures in the space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane, and also covers the host cell environment outside an intracellular parasite."
+exact_synonym: "extracellular structure organization and biogenesis"
+
+
+=== translation regulator activity ===
+"Any substance involved in the initiation, activation, perpetuation, repression or termination of polypeptide synthesis at the ribosome."
+
+
+== See also ==
+requested articles about protein families
+Ontology (computer science): an exhaustive and rigorous conceptual schema about a collection of information such as genomes and proteomes.
+
+
+== References ==
+^ GO Slims Format-version: 1.0 date: 17:08:2005 14:57
+^ GOA and whole proteome analysis slim This is an ftp file
+^ NCBI Taxonomy Browser
+^ WikiSpecies
+
+
+== External links ==
+gene families

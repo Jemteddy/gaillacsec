@@ -1,0 +1,7 @@
+The Compact Electronics Bay Specification (CEB) as well as EEB, MEB and TEB ("Thin Electronics Bay") are standard form factors for dual or multi processor motherboards defined by the Server System Infrastructure (SSI) Forum. The specification is intended for value servers and workstations based on the Intel Xeon processor.
+The SSI CEB specification was derived from the EEB and ATX specifications. SSI CEB motherboards have the same IO connector area and many of the same motherboard mounting holes as ATX motherboards, although SSI CEB motherboards are larger in size than ATX motherboards and have different processor mounting holes. The rear panel aperture is identical to the EEB and ATX specification and expansion cards mounted on an SSI CEB motherboard appear much the same as they would on an ATX motherboard.
+To standardize thermal behavior, processor position is defined, including primary and secondary processor identification. For motherboards with only one processor installed, it is recommended the primary processor socket be populated first.
+
+
+== External links ==
+ssiforum.org - Server System Infrastructure (SSI) Forum

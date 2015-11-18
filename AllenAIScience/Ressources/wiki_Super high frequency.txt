@@ -1,0 +1,33 @@
+Super high frequency (SHF) is the ITU designation for radio frequencies (RF) in the range between 3 GHz and 30 GHz. This band of frequencies is also known as the centimetre band or centimetre wave as the wavelengths range from one to ten centimetres. These frequencies fall within the microwave band, so radio waves with these frequencies are called microwaves. The small wavelength of microwaves allows them to be directed in narrow beams by aperture antennas such as parabolic dishes, so they are used for point-to-point communication and data links and for radar. This frequency range is used for most radar transmitters, microwave ovens, wireless LANs, cell phones, satellite communication, microwave radio relay links, and numerous short range terrestrial data links. Wireless USB technology is anticipated to use approximately one-third of this spectrum.
+Frequencies in the SHF range are often referred to by their IEEE radar band designations: S, C, X, Ku, K, or Ka band, or by similar NATO or EU designations.
+
+
+== PropagationEdit ==
+
+Microwaves propagate entirely by line of sight; groundwave and skywave ("skip") propagation do not occur. Although in some cases they can penetrate building walls enough for useful reception, unobstructed rights of way cleared to the first Fresnel zone are usually required. Wavelengths are small enough that they can be focused into narrow beams by parabolic and horn antennas from a half meter to five meters in diameter. Therefore, they are used in point-to-point terrestrial communications links limited by the visual horizon (about 40 miles). Such high gain antennas allow frequency reuse by nearby transmitters. The size of SHF waves allow large reflections from metal objects the size of automobiles, aircraft, and ships, and other vehicles. Thus, the narrow beamwidths possible with high gain antennas and the low atmospheric attenuation as compared with higher frequencies make SHF the main frequencies used in radar. Attenuation and scattering by moisture in the atmosphere is a factor at the high end of the band.
+Although they are not reflected by the ionosphere, small amounts of microwave energy are randomly scattered by water vapor molecules in the troposphere. This is used in troposcatter communications systems, operating at a few GHz, to communicate beyond the horizon. A powerful microwave beam is aimed just above the horizon; as it passes through the tropopause some of the microwaves are scattered back to Earth to a receiver beyond the horizon. Distances of 300 km can be achieved. These are mainly used for military communication.
+
+
+== AntennasEdit ==
+
+Wavelengths are small enough at microwave frequencies that the antenna can be much larger than a wavelength, allowing highly directional (high gain) antennas to be built. Directive antennas at SHF frequencies are mostly aperture antennas, such as parabolic antennas (the most common type), dielectric lens, slot and horn antennas. Large parabolic antennas can produce very narrow beams of a few degrees or less, and often must be aimed with the aid of a boresight. For omnidirectional applications like wireless devices and cellphones, small dipoles or monopoles are used. The patch antenna is another type, often integrated into the skin of aircraft. Another type of antenna practical at microwave frequencies is the phased array, consisting of many dipoles or patch antennas on a flat surface, each fed through a phase shifter, which allows the array's beam to be steered electronically. The short wavelength requires great mechanical rigidity in large antennas, to ensure that the radio waves arrive at the feed point in phase.
+To transport microwaves between antenna and transmitter or receiver, waveguide (metal pipe) must be used, since at these frequencies other types of transmission line such as coaxial cable have unacceptably high losses. Because of the high cost and maintenance requirements of long waveguide runs, in many microwave antennas the output stage of the transmitter or the RF front end of the receiver is located at the antenna.
+
+
+== UtilizationEdit ==
+SHF frequencies occupy a "sweet spot" in the radio spectrum which is currently being exploited by many new radio services. They are the lowest frequency band where radio waves can be directed in narrow beams by conveniently sized antennas so they do not interfere with nearby transmitters on the same frequency, allowing frequency reuse. On the other hand, they are the highest frequencies which can be used for long distance terrestrial communication; higher frequencies in the EHF (millimeter wave) band are highly absorbed by the atmosphere, limiting practical propagation distances to one kilometer. The large bandwidth gives the band a very large information-carrying capacity. In recent decades many new solid state sources of microwave energy have been developed, and microwave integrated circuits for the first time allow significant signal processing to be done at these frequencies. Sources of EHF energy are much more limited and in an earlier state of development.
+
+
+== See alsoEdit ==
+Knife-edge effect
+Microwave
+Microwave burn
+
+
+== ReferencesEdit ==
+^ Freedman, S. (September 1946). "Two-way radio for everyone" (PDF). Radio News (New York: Ziff-Davis Publications) 36 (3): 25–27. Retrieved March 24, 2014.  This article from the beginning of the microwave era predicted the future value of microwaves for point-to-point communication.
+
+
+== External linksEdit ==
+Tomislav Stimac, "Definition of frequency bands (VLF, ELF... etc.)". IK1QFK Home Page (vlf.it).
+Inés Vidal Castiñeira, "Celeria: Wireless Access To Cable Networks"

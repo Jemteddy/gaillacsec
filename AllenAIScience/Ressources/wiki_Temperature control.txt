@@ -1,0 +1,25 @@
+Temperature control is a process in which change of temperature of a space (and objects collectively there within) is measured or otherwise detected, and the passage of heat energy into or out of the space is adjusted to achieve a desired average temperature.
+
+
+== Control loopsEdit ==
+A home thermostat is an example of a closed control loop: It constantly assesses the current room temperature and controls a heater and/or air conditioner to increase or decrease the temperature according to user-defined setting(s). A simple (low-cost, cheap) thermostat merely switches the heater or air conditioner either on or off, and temporary overshoot and undershoot of the desired average temperature must be expected. A more expensive thermostat varies the amount of heat or cooling provided by the heater or cooler, depending on the difference between the required temperature (the "setpoint") and the actual temperature. This minimizes over/undershoot. This method is called Proportional control. Further enhancements using the accumulated error signal (Integral) and the rate at which the error is changing (Derivative) are used to form more complex PID Controllers which is the form usually seen in industry.
+
+
+== Energy balanceEdit ==
+An object's or space's temperature increases when heat energy moves into it, increasing the average kinetic energy of its atoms, e.g., of things and air in a room. Heat energy leaving an object or space lowers its temperature. Heat flows from one place to another (always from a higher temperature to a lower one) by one or more of three processes: conduction, convection and radiation. In conduction, energy is passed from one atom to another by direct contact. In convection, heat energy moves by conduction into some movable fluid (such as air or water) and the fluid moves from one place to another, carrying the heat with it. At some point the heat energy in the fluid is usually transferred to some other object by means conduction again. The movement of the fluid can be driven by negative-buoyancy, as when cooler (and therefore denser) air drops and thus upwardly displaces warmer (less-dense) air (natural convection), or by fans or pumps (forced convection). In radiation, the heated atoms make electromagnetic emissions absorbed by remote other atoms, whether nearby or at astronomical distance. For example, the Sun radiates heat as both invisible and visible electromagnetic energy. What we know as "light" is but a narrow region of the electromagnetic spectrum.
+If, in a place or thing, more energy is received than is lost, its temperature increases. If the amount of energy coming in and going out are exactly the same, the temperature stays constant—there is thermal balance, or thermal equilibrium.
+
+
+== See alsoEdit ==
+Heat exchanger
+Moving bed heat exchanger
+Thermal Control System
+Thermodynamic equilibrium
+Industrial automation
+
+
+== External linksEdit ==
+Global Temperature Controller
+Temperature Controller
+Thermal Actuators
+Thermostatic Temperature Controls

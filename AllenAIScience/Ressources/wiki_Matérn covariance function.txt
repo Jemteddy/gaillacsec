@@ -1,0 +1,16 @@
+In statistics, the Matérn covariance (named after the Swedish forestry statistician Bertil Matérn) is a covariance function used in spatial statistics, geostatistics, machine learning, image analysis, and other applications of multivariate statistical analysis on metric spaces. It is commonly used to define the statistical covariance between measurements made at two points that are d units distant from each other. Since the covariance only depends on distances between points, it is stationary. If the distance is Euclidean distance, the Matérn covariance is also isotropic.
+The Matérn covariance between two points separated by d distance units is given by
+
+where Γ is the gamma function, Kν is the modified Bessel function of the second kind, and ρ and ν are non-negative parameters of the covariance.
+A Gaussian process with Matérn covariance has sample paths that are  times differentiable. As , the Matérn covariance converges to the squared exponential covariance function
+
+When , the Matérn covariance is identical to the exponential covariance function. In fact,
+
+
+== See also ==
+Radial basis function
+
+
+== References ==
+^ Minasny, B.; McBratney, A. B. (2005). "The Matérn function as a general model for soil variograms". Geoderma 128 (3–4): 192–207. doi:10.1016/j.geoderma.2005.04.003. 
+^ a b Rasmussen, Carl Edward (2006) Gaussian Processes Covariance Functions and Classification. Presentation at Gaussian Processes in Practice

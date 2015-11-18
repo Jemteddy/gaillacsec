@@ -1,0 +1,85 @@
+Carbon fixation or сarbon assimilation refers to the conversion process of inorganic carbon (carbon dioxide) to organic compounds by living organisms. The most prominent example is photosynthesis, although chemosynthesis is another form of carbon fixation that can take place in the absence of sunlight. Organisms that grow by fixing carbon are called autotrophs. Autotrophs include photoautotrophs, which synthesize organic compounds using the energy of sunlight, and lithoautotrophs, which synthesize organic compounds using the energy of inorganic oxidation. Heterotrophs are organisms that grow using the carbon fixed by autotrophs. The organic compounds are used by heterotrophs to produce energy and to build body structures. "Fixed carbon", "reduced carbon", and "organic carbon" are equivalent terms for various organic compounds.
+
+
+== Net vs gross CO2 fixationEdit ==
+
+It is estimated that approximately 258 billion tons of carbon dioxide are converted by photosynthesis annually. The majority of the fixation occurs in marine environments, especially areas of high nutrients. The gross amount of carbon dioxide fixed is much larger since approximately 40% is consumed by respiration following photosynthesis. Given the scale of this process, it is understandable that RuBisCO is the most abundant protein on earth.
+
+
+== Overview of pathwaysEdit ==
+Six autotrophic carbon fixation pathways are known as of 2011. The Calvin cycle fixes carbon in the chloroplasts of plants and algae, and in the cyanobacteria. It also fixes carbon in the anoxygenic photosynthetic proteobacteria called purple bacteria, and in some non-phototrophic proteobacteria.
+
+
+== Oxygenic photosynthesisEdit ==
+In photosynthesis, energy from sunlight drives the carbon fixation pathway. Oxygenic photosynthesis is used by the primary producers—plants, algae, and cyanobacteria. They contain the pigment chlorophyll, and use the Calvin cycle to fix carbon autotrophically. The process works like this:
+2H2O → 4e− + 4H+ + O2
+CO2 + 4e− + 4H+ → CH2O + H2O
+In the first step, water is dissociated into electrons, protons, and free oxygen. This allows the use of water, one of the most abundant substances on Earth, as an electron donor—as a source of reducing power. The release of free oxygen is a side-effect of enormous consequence. The first step uses the energy of sunlight to oxidize water to O2, and, ultimately, to produce ATP
+ADP + Pi  ATP + H2O
+and the reductant, NADPH
+NADP+ + 2e− + 2H+  NADPH + H+
+In the second step, called the Calvin cycle, the actual fixation of carbon dioxide is carried out. This process consumes ATP and NADPH. The Calvin cycle in plants accounts for the preponderance of carbon fixation on land. In algae and cyanobacteria, it accounts for the preponderance of carbon fixation in the oceans. The Calvin cycle converts carbon dioxide into sugar, as triose phosphate (TP), which is glyceraldehyde 3-phosphate (GAP) together with dihydroxyacetone phosphate (DHAP):
+3 CO2 + 12 e− + 12 H+ + Pi → TP + 4 H2O
+An alternative perspective accounts for NADPH (source of e−) and ATP:
+3 CO2 + 6 NADPH + 6 H+ + 9 ATP + 5 H2O → TP + 6 NADP+ + 9 ADP + 8 Pi
+The formula for inorganic phosphate (Pi) is HOPO32− + 2H+. Formulas for triose and TP are C2H3O2-CH2OH and C2H3O2-CH2OPO32− + 2H+
+
+
+=== Evolutionary considerationsEdit ===
+Somewhere between 3.5 and 2.3 billion years ago, the ancestors of cyanobacteria evolved oxygenic photosynthesis, enabling the use of the abundant yet relatively oxidized molecule H2O as an electron donor to the electron tranport chain of light-catalyzed proton-pumping responsible for efficient ATP synthesis. When this evolutionary breakthrough occurred, autotrophy (growth using inorganic carbon as the sole carbon source) is believed to have already been developed. However, the proliferation of cyanobacteria, due to their novel ability to exploit water as a source of electrons, radically altered the global environment by oxygenating the atmosphere and by achieving large fluxes of CO2 consumption. 
+
+
+=== Carbon concentrating mechanismsEdit ===
+Many photosynthetic organisms have acquired inorganic carbon concentrating mechanisms (CCM), which increase the concentration of carbon dioxide available to the initial carboxylase of the Calvin cycle, the enzyme RuBisCO. The benefits of CCM include increased tolerance to low external concentrations of inorganic carbon, and reduced loses to photorespiration. CCM can make plants more tolerant of heat and water stress.
+Carbon concentrating mechanisms use the enzyme carbonic anhydrase (CA), which catalyze both the dehydration of bicarbonate to carbon dioxide and the hydration of carbon dioxide to bicarbonate
+HCO3− + H+  CO2 + H2O
+Lipid membranes are much less permeable to bicarbonate than to carbon dioxide. To capture inorganic carbon more effectively, some plants have adapted the anaplerotic reactions
+HCO3− + H+ + PEP → OAA + Pi
+catalyzed by PEP carboxylase (PEPC), to carboxylate phosphoenolpyruvate (PEP) to oxaloacetate (OAA) which is a C4 dicarboxylic acid.
+
+
+==== CAM plantsEdit ====
+CAM plants that use Crassulacean acid metabolism as an adaptation for arid conditions. CO2 enters through the stomata during the night and is converted into the 4-carbon compound, malic acid, which releases CO2 for use in the Calvin cycle during the day, when the stomata are closed. The jade plant (Crassula ovata) and cacti are typical of CAM plants. Sixteen thousand species of plants use CAM. These plants have a carbon isotope signature of -20 to -10 ‰.
+
+
+==== C4 plantsEdit ====
+C4 plants preface the Calvin cycle with reactions that incorporate CO2 into one of the 4-carbon compounds, malic acid or aspartic acid. C4 plants have a distinctive internal leaf anatomy. Tropical grasses, such as sugar cane and maize are C4 plants, but there are many broadleaf plants that are C4. Overall, 7600 species of terrestrial plants use C4 carbon fixation, representing around 3% of all species. These plants have a carbon isotope signature of -16 to -10 ‰.
+
+
+==== C3 plantsEdit ====
+The large majority of plants are C3 plants. They are so-called to distinguish them from the CAM and C4 plants, and because the carboxylation products of the Calvin cycle are 3-carbon compounds. They lack C4 dicarboxylic acid cycles, and therefore have higher carbon dioxide compensation points than CAM or C4 plants. C3 plants have a carbon isotope signature of -24 to -33‰.
+
+
+== Other autotrophic pathwaysEdit ==
+Of the five other autotrophic pathways, two are known only in bacteria, two only in archaea, and one in both bacteria and archaea.
+
+
+=== Reductive citric acid cycleEdit ===
+The reductive citric acid cycle is the oxidative citric acid cycle run in reverse. It has been found in anaerobic and microaerobic bacteria. It was proposed in 1966 by Evans, Buchanan and Arnon who were working with the anoxygenic photosynthetic green sulfur bacterium that they called Chlorobium thiosulfatophilum. The reductive citric acid cycle is sometimes called the Arnon-Buchanan cycle.
+
+
+=== Reductive acetyl CoA pathwayEdit ===
+The reductive acetyl CoA pathway operated in strictly anaerobic bacteria (acetogens) and archaea (methanogens). The pathway was proposed in 1965 by Ljungdahl and Wood. They were working with the gram-positive acetic acid producing bacterium Clostridium thermoaceticum, which is now named Moorella thermoacetica. Hydrogenotrophic methanogenesis, which is only found in certain archaea and accounts fror 80% of global methanogenesis, is also based on the reductive acetyl CoA pathway. The pathway is often referred to as the Wood-Ljungdahl pathway.
+
+
+=== 3-Hydroxypropionate and two related cyclesEdit ===
+The 3-hydroxypropionate cycle is utilized only by green nonsulfur bacteria. It was proposed in 2002 for the anoxygenic photosynthetic Chloroflexus aurantiacus. None of the enzymes that participate in the 3-hydroxypropionate cycle are especially oxygen sensitive.
+A variant of the 3-hydroxypropionate pathway was found to operate in aerobic extreme thermoacidophile archaeon Metallosphaera sedula. This pathway, called the 3-hydroxypropionate/4-hydroxybutyrate cycle . And yet another variant of the 3-hydroxypropionate pathway is the dicarboxylate/4-hydroxybutyrate cycle. It was discovered in anaerobic archaea. It was proposed in 2008 for the hyperthermophile archeon Ignicoccus hospitalis.
+
+
+== ChemosynthesisEdit ==
+Chemosynthesis is carbon fixation driven by the oxidation of inorganic substances (e.g., hydrogen gas or hydrogen sulfide). Sulfur- and hydrogen-oxidizing bacteria often use the Calvin cycle or the reductive citric acid cycle.
+
+
+== Non-autotrophic pathwaysEdit ==
+Although almost all heterotrophs cannot synthesize complete organic molecules from carbon dioxide, some carbon dioxide is incorporated in their metabolism. Notably pyruvate carboxylase consumes carbon dioxide (as bicarbonate ions) as part of gluconeogenesis, and carbon dioxide is consumed in various anaplerotic reactions.
+
+
+== Carbon isotope discriminationEdit ==
+Some carboxylases, particularly RuBisCO, preferentially bind the lighter carbon stable isotope carbon-12 over the heavier carbon-13. This is known as carbon isotope discrimination and results in carbon-12 to carbon-13 ratios in the plant that are lower than in the free air. Measurement of this ratio is important in the evaluation of water use efficiency in plants, and also in assessing the possible or likely sources of carbon in global carbon cycle studies.
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==

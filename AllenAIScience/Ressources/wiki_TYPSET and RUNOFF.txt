@@ -1,0 +1,42 @@
+RUNOFF was the first computer text formatting program to see significant use. It was written in 1964 for the CTSS operating system by Jerome H. Saltzer in MAD and FAP.
+It actually consisted of a pair of programs, TYPSET (which was basically a document editor), and RUNOFF (the output processor). RUNOFF had support for pagination and headers, as well as text justification (TJ-2 appears to have been the earliest text justification system, but it did not have the other capabilities).
+RUNOFF is a direct predecessor of the runoff document formatting program of Multics, which in turn was the ancestor of the roff and nroff document formatting programs of Unix, and their descendants. It was also the ancestor of FORMAT for the IBM System/360, and of course indirectly of every computerized word processing system.
+Likewise, RUNOFF for CTSS was the predecessor of the various RUNOFFs for DEC's operating systems, via the RUNOFF developed by the University of California, Berkeley's Project Genie for the SDS 940 system.
+The name is alleged to have come from the phrase at the time, I'll run off a copy.
+
+
+== Example ==
+Input:
+
+When you're ready to order,
+call us at our toll free number:
+.SK
+.CENTER
+1-800-555-xxxx
+.SK
+Your order will be processed
+within two working days and shipped
+
+Output:
+
+   When you're ready to order, call us at our toll free number:
+
+                             1-800-555-xxxx
+
+   Your order will be processed within two working days and shipped
+
+
+== See also ==
+Expensive Typewriter
+Colossal Typewriter
+TECO
+TJ-2
+
+
+== Notes ==
+
+
+== References ==
+Jerome H. Saltzer, TYPSET and RUNOFF: Memorandum editor and type-out commands (MIT Computation Center CC-244, Project MAC MAC-M-193, Cambridge, 1964)
+Jerome H. Saltzer, Manuscript typing and editing: TYPSET, RUNOFF (Section AH.9.01, CTSS Programmer's Guide, Project MAC, Cambridge, 1966)
+Jerome H. Saltzer, Experimental Additions to the RUNOFF Command (Programming Staff Note 40, Project MAC, Cambridge, 1965)

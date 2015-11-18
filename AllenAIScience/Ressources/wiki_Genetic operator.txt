@@ -1,0 +1,28 @@
+A genetic operator is an operator used in genetic algorithms to guide the algorithm towards a solution to a given problem. There are three main types of operators (mutation, crossover and selection), which must work in conjunction with one another in order for the algorithm to be successful. Genetic operators are used to create and maintain genetic diversity (mutation operator), combine existing solutions (also known as chromosomes) into new solutions (crossover) and select between solutions (selection). In his book discussing the use of genetic programming for the optimization of complex problems, computer scientist John Koza has also identified an 'inversion' or 'permutation' operator; however, the effectiveness of this operator has never been conclusively demonstrated and this operator is rarely discussed.
+Mutation (or mutation-like) operators are said to be unary operators, as they only operate on one chromosome at a time. In contrast, crossover operators are said to be binary operators, as they operate on two chromosomes at a time, combining two existing chromosomes into one new chromosome.
+
+
+== Operators ==
+Genetic variation is a necessity for the process of evolution. Genetic operators used in genetic algorithms are analogous to those in the natural world: survival of the fittest, or selection; reproduction (crossover, also called recombination); and mutation.
+
+
+=== Selection ===
+
+Selection operators give preference to better solutions (chromosomes), allowing them to pass on their 'genes' to the next generation of the algorithm. The best solutions are determined using some form of objective function (also known as a 'fitness function' in genetic algorithms), before being passed to the crossover operator. Different methods for choosing the best solutions exist, for example, fitness proportionate selection and tournament selection; different methods may choose different solutions as being 'best'. The selection operator may also simply pass the best solutions from the current generation directly to the next generation without being mutated; this is known as elitism or elitist selection.
+
+
+=== Crossover ===
+
+Crossover is the process of taking more than one parent solutions (chromosomes) and producing a child solution from them. By recombining portions of good solutions, the genetic algorithm is more likely to create a better solution. As with selection, there are a number of different methods for combining the parent solutions, including the edge recombination operator (ERO) and the 'cut and splice crossover' and 'uniform crossover' methods. The crossover method is often chosen to closely match the chromosome's representation of the solution; this may become particularly important when variables are grouped together as building blocks, which might be disrupted by a non-respectful crossover operator. Similarly, crossover methods may be particularly suited to certain problems; the ERO is generally considered a good option for solving the travelling salesman problem.
+
+
+=== Mutation ===
+
+The mutation operator encourages genetic diversity amongst solutions and attempts to prevent the genetic algorithm converging to a local minimum by stopping the solutions becoming too close to one another. In mutating the current pool of solutions, a given solution may change entirely from the previous solution. By mutating the solutions, a genetic algorithm can reach an improved solution solely through the mutation operator. Again, different methods of mutation may be used; these range from a simple bit mutation (flipping random bits in a binary string chromosome with some low probability) to more complex mutation methods, which may replace genes in the solution with random values chosen from the uniform distribution or the Gaussian distribution. As with the crossover operator, the mutation method is usually chosen to match the representation of the solution within the chromosome.
+
+
+== Combining operators ==
+While each operator acts to improve the solutions produced by the genetic algorithm working individually, the operators must work in conjunction with each other for the algorithm to be successful in finding a good solution. Using the selection operator on its own will tend to fill the solution population with copies of the best solution from the population. If the selection and crossover operators are used without the mutation operator, the algorithm will tend to converge to a local minimum, that is, a good but sub-optimal solution to the problem. Using the mutation operator on its own leads to a random walk through the search space. Only by using all three operators together can the genetic algorithm become a noise-tolerant hill-climbing algorithm, yielding good solutions to the problem.
+
+
+== References ==

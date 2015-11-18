@@ -1,0 +1,17 @@
+In fluid dynamics, the Ursell number indicates the nonlinearity of long surface gravity waves on a fluid layer. This dimensionless parameter is named after Fritz Ursell, who discussed its significance in 1953.
+The Ursell number is derived from the Stokes wave expansion, a perturbation series for nonlinear periodic waves, in the long-wave limit of shallow water — when the wavelength is much larger than the water depth. Then the Ursell number U is defined as:
+
+which is, apart from a constant 3 / (32 π2), the ratio of the amplitudes of the second-order to the first-order term in the free surface elevation. The used parameters are:
+H : the wave height, i.e. the difference between the elevations of the wave crest and trough,
+h : the mean water depth, and
+λ : the wavelength, which has to be large compared to the depth, λ ≫ h.
+So the Ursell parameter U is the relative wave height H / h times the relative wavelength λ / h squared.
+For long waves (λ ≫ h) with small Ursell number, U ≪ 32 π2 / 3 ≈ 100, linear wave theory is applicable. Otherwise (and most often) a non-linear theory for fairly long waves (λ > 7 h) — like the Korteweg–de Vries equation or Boussinesq equations — has to be used. The parameter, with different normalisation, was already introduced by George Gabriel Stokes in his historical paper on surface gravity waves of 1847.
+
+
+== Notes ==
+
+
+== References ==
+Dingemans, M. W. (1997). Water wave propagation over uneven bottoms. Advanced Series on Ocean Engineering 13. Singapore: World Scientific. ISBN 981-02-0427-2.  In 2 parts, 967 pages.
+Svendsen, I. A. (2006). Introduction to nearshore hydrodynamics. Advanced Series on Ocean Engineering 24. Singapore: World Scientific. ISBN 981-256-142-0.  722 pages.

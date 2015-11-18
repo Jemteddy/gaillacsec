@@ -1,0 +1,106 @@
+An autonomous robot is a robot that performs behaviors or tasks with a high degree of autonomy, which is particularly desirable in fields such as space exploration, household maintenance (such as cleaning), waste water treatment and delivering goods and services.
+Some modern factory robots are "autonomous" within the strict confines of their direct environment. It may not be that every degree of freedom exists in their surrounding environment, but the factory robot's workplace is challenging and can often contain chaotic, unpredicted variables. The exact orientation and position of the next object of work and (in the more advanced factories) even the type of object and the required task must be determined. This can vary unpredictably (at least from the robot's point of view).
+One important area of robotics research is to enable the robot to cope with its environment whether this be on land, underwater, in the air, underground, or in space.
+A fully autonomous robot can:
+Gain information about the environment
+Work for an extended period without human intervention
+Move either all or part of itself throughout its operating environment without human assistance
+Avoid situations that are harmful to people, property, or itself unless those are part of its design specifications
+An autonomous robot may also learn or gain new knowledge like adjusting for new methods of accomplishing its tasks or adapting to changing surroundings.
+Like other machines, autonomous robots still require regular maintenance.
+
+
+== Examples ==
+
+
+=== Self-maintenance ===
+The first requirement for complete physical autonomy is the ability for a robot to take care of itself. Many of the battery-powered robots on the market today can find and connect to a charging station, and some toys like Sony's Aibo are capable of self-docking to charge their batteries.
+Self-maintenance is based on "proprioception", or sensing one's own internal status. In the battery charging example, the robot can tell proprioceptively that its batteries are low and it then seeks the charger. Another common proprioceptive sensor is for heat monitoring. Increased proprioception will be required for robots to work autonomously near people and in harsh environments. Common proprioceptive sensors include thermal, optical, and haptic sensing, as well as the Hall effect (electric).
+
+
+=== Sensing the environment ===
+Exteroception is sensing things about the environment. Autonomous robots must have a range of environmental sensors to perform their task and stay out of trouble.
+Common exteroceptive sensors include the electromagnetic spectrum, sound, touch, chemical (smell, odor), temperature, range to various objects, and altitude.
+Some robotic lawn mowers will adapt their programming by detecting the speed in which grass grows as needed to maintain a perfectly cut lawn, and some vacuum cleaning robots have dirt detectors that sense how much dirt is being picked up and use this information to tell them to stay in one area longer.
+
+
+=== Task performance ===
+The next step in autonomous behavior is to actually perform a physical task. A new area showing commercial promise is domestic robots, with a flood of small vacuuming robots beginning with iRobot and Electrolux in 2002. While the level of intelligence is not high in these systems, they navigate over wide areas and pilot in tight situations around homes using contact and non-contact sensors. Both of these robots use proprietary algorithms to increase coverage over simple random bounce.
+The next level of autonomous task performance requires a robot to perform conditional tasks. For instance, security robots can be programmed to detect intruders and respond in a particular way depending upon where the intruder is.
+
+
+=== Autonomous navigation ===
+
+
+==== Indoor navigation ====
+For a robot to associate behaviors with a place (localization) requires it to know where it is and to be able to navigate point-to-point. Such navigation began with wire-guidance in the 1970s and progressed in the early 2000s to beacon-based triangulation. Current commercial robots autonomously navigate based on sensing natural features. The first commercial robots to achieve this were Pyxus' HelpMate hospital robot and the CyberMotion guard robot, both designed by robotics pioneers in the 1980s. These robots originally used manually created CAD floor plans, sonar sensing and wall-following variations to navigate buildings. The next generation, such as MobileRobots' PatrolBot and autonomous wheelchair, both introduced in 2004, have the ability to create their own laser-based maps of a building and to navigate open areas as well as corridors. Their control system changes its path on the fly if something blocks the way.
+At first, autonomous navigation was based on planar sensors, such as laser range-finders, that can only sense at one level. The most advanced systems now fuse information from various sensors for both localization (position) and navigation. Systems such as Motivity can rely on different sensors in different areas, depending upon which provides the most reliable data at the time, and can re-map a building autonomously.
+Rather than climb stairs, which requires highly specialized hardware, most indoor robots navigate handicapped-accessible areas, controlling elevators, and electronic doors. With such electronic access-control interfaces, robots can now freely navigate indoors. Autonomously climbing stairs and opening doors manually are topics of research at the current time.
+As these indoor techniques continue to develop, vacuuming robots will gain the ability to clean a specific user-specified room or a whole floor. Security robots will be able to cooperatively surround intruders and cut off exits. These advances also bring concomitant protections: robots' internal maps typically permit "forbidden areas" to be defined to prevent robots from autonomously entering certain regions.
+
+
+==== Outdoor navigation ====
+Outdoor autonomy is most easily achieved in the air, since obstacles are rare. Cruise missiles are rather dangerous highly autonomous robots. Pilotless drone aircraft are increasingly used for reconnaissance. Some of these unmanned aerial vehicles (UAVs) are capable of flying their entire mission without any human interaction at all except possibly for the landing where a person intervenes using radio remote control. Some drones are capable of safe, automatic landings, however. An autonomous ship was announced in 2014—the Autonomous spaceport drone ship—and is scheduled to make its first operational test in December 2014.
+Outdoor autonomy is the most difficult for ground vehicles, due to:
+Three-dimensional terrain
+Great disparities in surface density
+Weather exigencies
+Instability of the sensed environment
+
+In the United States, the MDARS project, which defined and built a prototype outdoor surveillance robot in the 1990s, is now moving into production and will be implemented in 2006. The General Dynamics MDARS robot can navigate semi-autonomously and detect intruders, using the MRHA software architecture planned for all unmanned military vehicles. The Seekur robot was the first commercially available robot to demonstrate MDARS-like capabilities for general use by airports, utility plants, corrections facilities and Homeland Security.
+The Mars rovers MER-A and MER-B (now known as Spirit rover and Opportunity rover) can find the position of the sun and navigate their own routes to destinations on the fly by:
+Mapping the surface with 3D vision
+Computing safe and unsafe areas on the surface within that field of vision
+Computing optimal paths across the safe area towards the desired destination
+Driving along the calculated route;
+Repeating this cycle until either the destination is reached, or there is no known path to the destination
+The planned ESA Rover, ExoMars Rover, is capable of vision based relative localisation and absolute localisation to autonomously navigate safe and efficient trajectorys to targets by:
+Reconstructing 3D models of the terrain surrounding the Rover using a pair of stereo cameras
+Determining safe and unsafe areas of the terrain and the general "difficulty" for the Rover to navigate the terrain
+Computing efficient paths across the safe area towards the desired destination
+Driving the Rover along the planned path
+Building up a navigation map of all previous navigation data
+The DARPA Grand Challenge and DARPA Urban Challenge have encouraged development of even more autonomous capabilities for ground vehicles, while this has been the demonstrated goal for aerial robots since 1990 as part of the AUVSI International Aerial Robotics Competition.
+
+
+== Open problems in autonomous robotics ==
+There are several open problems in autonomous robotics which are special to the field rather than being a part of the general pursuit of AI. According to George A. Bekey's Autonomous Robots: From Biological Inspiration to Implementation and Control, problems include things such as making sure the robot is able to function correctly and not run into obstacles autonomously.
+
+
+=== Energy autonomy and foraging ===
+Researchers concerned with creating true artificial life are concerned not only with intelligent control, but further with the capacity of the robot to find its own resources through foraging (looking for food, which includes both energy and spare parts).
+This is related to autonomous foraging, a concern within the sciences of behavioral ecology, social anthropology, and human behavioral ecology; as well as robotics, artificial intelligence, and artificial life.
+
+
+== See also ==
+
+AIBO
+Artificial intelligence
+Autonomous spaceport drone ship
+Cognitive robotics
+Domestic robot
+Driverless car
+Epigenetic robotics
+Evolutionary robotics
+Friendly Robotics
+Humanoid robot
+Microbotics
+PatrolBot
+RoboBee
+Simultaneous localization and mapping
+von Neumann machine
+Wake-up robot problem
+William Grey Walter
+Teleoperation
+
+
+== References ==
+^ Nyagudi, Nyagudi Musandu. "Humanitarian Algorithms : A Codified Key Safety Switch Protocol for Lethal Autonomy" (PDF). arXiv.org. Cornell University Library - arXiv.org. Retrieved 10 September 2015. 
+^ "Principal Investigator: W. Kennedy", National Institutes of Health, NIH SBIR 2 R44 HD041781-02
+^ "Speci-Minder; see elevator and door access"
+^ Bergin, Chris (2014-11-18). "Pad 39A – SpaceX laying the groundwork for Falcon Heavy debut". NASA Spaceflight. Retrieved 2014-11-17. 
+^ "Weapons Makers Unveil New Era of Counter-Terror Equipment", Fox News
+
+
+== External links ==
+ Media related to Autonomous robots at Wikimedia Commons

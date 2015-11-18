@@ -1,0 +1,135 @@
+In computer science, conditional statements, conditional expressions and conditional constructs are features of a programming language which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false. Apart from the case of branch predication, this is always achieved by selectively altering the control flow based on some condition.
+In imperative programming languages, the term "conditional statement" is usually used, whereas in functional programming, the terms "conditional expression" or "conditional construct" are preferred, because these terms all have distinct meanings.
+Although dynamic dispatch is not usually classified as a conditional construct, it is another way to select between alternatives at runtime.
+
+
+== If–then(–else) ==
+The if–then construct (sometimes called if–then–else) is common across many programming languages. Although the syntax varies quite a bit from language to language, the basic structure (in pseudocode form) looks like this:
+
+When an interpreter finds an If, it expects a boolean condition – for example, x > 0, which means "the variable x contains a number that is greater than zero" – and evaluates that condition. If the condition is true, the statements following the then are executed. Otherwise, the execution continues in the following branch – either in the else block (which is usually optional), or if there is no else branch, then after the end If.
+After either branch has been executed, control returns to the point after the end If.
+In early programming languages, especially some dialects of BASIC in the 1980s home computers, an if–then statement could only contain GOTO statements. This led to a hard-to-read style of programming known as spaghetti programming, with programs in this style called spaghetti code. As a result, structured programming, which allows (virtually) arbitrary statements to be put in statement blocks inside an if statement, gained in popularity, until it became the norm even in most BASIC programming circles. Such mechanisms and principles were based on the older but more advanced ALGOL family of languages, and ALGOL-like languages such as Pascal and Modula-2 influenced modern BASIC variants for many years. While it is possible while using only GOTO statements in if-then statements to write programs that are not spaghetti code and are just as well structured and readable as programs written in a structured programming language, structured programming makes this easier and enforces it. Structured if-then-else statements like the example above are one of the key elements of structured programming, and they are present in most popular high-level programming languages such as C, Java, JavaScript and Visual Basic .
+A subtlety is that the optional else clause found in many languages means that the context-free grammar is ambiguous, since nested conditionals can be parsed in multiple ways. Specifically,
+
+if a then if b then s else s2
+
+can be parsed as
+
+if a then (if b then s) else s2
+
+or
+
+if a then (if b then s else s2)
+
+depending on whether the else is associated with the first if or second if. This is known as the dangling else problem, and is resolved in various ways, depending on the language.
+
+
+=== Else if ===
+By using else if, it is possible to combine several conditions. Only the statements following the first condition that is found to be true will be executed. All other statements will be skipped. The statements of
+
+elsif, in Ada, is simply syntactic sugar for else followed by if. In Ada, the difference is that only one end if is needed, if one uses elsif instead of else followed by if. This is similar in Perl, which provides the keyword elsif to avoid the large number of braces that would be required by multiple if and else statements and also in Python, which uses the special keyword elif because structure is denoted by indentation rather than braces, so a repeated use of else and if would require increased indentation after every condition. Similarly, the earlier UNIX shells (later gathered up to the POSIX shell syntax ) use elif too, but giving the choice of delimiting with spaces, line breaks, or both.
+However, in many languages more directly descended from Algol, such as Algol68, Simula, Pascal, BCPL and C, this special syntax for the else if construct is not present, nor is it present in the many syntactical derivatives of C, such as Java, ECMA-script, PHP, and so on. This works because in these languages, any single statement (in this case if cond...) can follow a conditional without being enclosed in a block.
+This design choice has a slight "cost" in that code else if branch is, effectively, adding an extra nesting level, complicating the job for some compilers (or its implementors), which has to analyse and implement arbitrarily long else if chains recursively.
+If all terms in the sequence of conditionals are testing the value of a single expression (e.g., if x=0 ... else if x=1 ... else if x=2...), then an alternative is the switch statement, also called case-statement or select-statement. Conversely, in languages that do not have a switch statement, these can be produced by a sequence of else if statements.
+
+
+=== If-then-else expressions ===
+Many languages support if expressions, which are similar to if statements, but return a value as a result. Thus, they are true expressions (which evaluate to a value), not statements (which changes the program state or perform some kind of action).
+
+
+==== Algol family ====
+ALGOL 60 and some other members of the ALGOL family allow if-then-else as an expression:
+
+
+==== Lisp dialects ====
+In dialects of Lisp -- Scheme, Racket and Common Lisp -- the first of which was inspired to a great extent by ALGOL:
+
+
+==== Haskell ====
+In Haskell 98, there is only an if expression, no if statement, and the else part is compulsory, as every expression must have some value. Logic that would be expressed with conditionals in other languages is usually expressed with pattern matching in recursive functions.
+Because Haskell is lazy, it is possible to write control structures, such as if, as ordinary expressions; the lazy evaluation means that an if function can evaluate only the condition and proper branch (where a strict language would evaluate all three). It can be written like this:
+
+if' :: Bool -> a -> a -> a
+if' True x _ = x
+if' False _ y = y
+
+
+==== C-like languages ====
+C and C-like languages has a special ternary operator (?:) for conditional expressions with a function that may be described by a template like this:
+
+condition ? evaluated-when-true : evaluated-when-false
+
+This means that it can be inlined into expressions, unlike if-statements, in C-like languages:
+
+which can be compared to the Algol-family if-then-else expressions (and similar in Ruby and Scala, among others).
+To accomplish the same using an if-statement, this would take more than one line of code (under typical layout conventions):
+
+Some argue that the explicit if/then statement is easier to read and that it may compile to more efficient code than the ternary operator, while others argue that concise expressions are easier to read than statements spread over several lines.
+
+
+==== In Visual Basic ====
+In Visual Basic and some other languages, a function called IIf is provided, which can be used as a conditional expression. However, it does not behave like a true conditional expression, because both the true and false branches are always evaluated; it is just that the result of one of them is thrown away, while the result of the other is returned by the IIf function.
+
+
+=== Arithmetic if ===
+Up to Fortran 77, the language Fortran has an "arithmetic if" statement which is halfway between a computed IF and a case statement, based on the trichotomy , , . This was the earliest conditional statement in Fortran:
+
+Where e is any numeric expression (not necessarily an integer); this is equivalent to
+
+Because this arithmetic IF is equivalent to multiple GOTO statements that could jump to anywhere, it is considered to be an unstructured control statement, and should not be used if more structured statements can be used. In practice it has been observed that most arithmetic IF statements referenced the following statement with one or two of the labels.
+This was the only conditional control statement in the original implementation of Fortran on the IBM 704 computer. On that computer the test-and-branch op-code had three addresses for those three states. Other computers would have "flag" registers such as positive, zero, negative, even, overflow, carry, associated with the last arithmetic operations and would use instructions such as 'Branch if accumulator negative' then 'Branch if accumulator zero' or similar. Note that the expression is evaluated once only, and in cases such as integer arithmetic where overflow may occur, the overflow or carry flags would be considered also.
+
+
+=== Object-oriented implementation in Smalltalk ===
+In contrast to other languages, in Smalltalk the conditional statement is not a language construct but defined in the class Boolean as an abstract method that takes two parameters, both closures. Boolean has two subclasses, True and False, which both define the method, True executing the first closure only, False executing the second closure only.
+
+
+== Case and switch statements ==
+
+Switch statements (in some languages, case statements or multiway branches) compare a given value with specified constants and take action according to the first constant to match. There is usually a provision for a default action ('else','otherwise') to be taken if no match succeeds. Switch statements can allow compiler optimizations, such as lookup tables. In dynamic languages, the cases may not be limited to constant expressions, and might extend to pattern matching, as in the shell script example on the right, where the '*)' implements the default case as a regular expression matching any string.
+
+
+== Pattern matching ==
+
+Pattern matching may be seen as a more sophisticated alternative to both if-then-else, and case statements. It is available in many programming languages with functional programming features, such as Wolfram Language, ML and many others. Here is a simple example written in the OCaml language:
+
+The power of pattern matching is the ability to concisely match not only actions but also values to patterns of data. Here is an example written in Haskell which illustrates both of these features:
+
+This code defines a function map, which applies the first argument (a function) to each of the elements of the second argument (a list), and returns the resulting list. The two lines are the two definitions of the function for the two kinds of arguments possible in this case – one where the list is empty (just return an empty list) and the other case where the list is not empty.
+Pattern matching is not strictly speaking always a choice construct, because it is possible in Haskell to write only one alternative, which is guaranteed to always be matched – in this situation, it is not being used as a choice construct, but simply as a way to bind names to values. However, it is frequently used as a choice construct in the languages in which it is available.
+
+
+== Hash-based conditionals ==
+In programming languages that have associative arrays or comparable structure, such as Python, Perl, PHP or Objective-C, it is idiomatic to use them to implement conditional assignment.
+
+In dynamic languages that have anonymous functions or that allow a programmer to assign a named function to a variable reference, conditional flow can be implemented by using the hash as a jump table.
+
+
+== Branch predication ==
+
+In assembly language, branch predication is a feature of certain central processing unit (CPU) instruction sets which permits conditional execution of instructions, without having to perform costly conditional jumps.
+
+
+== Choice system cross reference ==
+This table refers to the most recent language specification of each language. For languages that do not have a specification, the latest officially released implementation is referred to.
+^ This refers to pattern matching as a distinct conditional construct in the programming language – as opposed to mere string pattern matching support, such as regular expression support.
+1 2 3 4 5 The often-encountered else if in the C family of languages, and in COBOL and Haskell, is not a language feature but a set of nested and independent if then else statements combined with a particular source code layout. However, this also means that a distinct else-if construct is not really needed in these languages.
+1 2 In Haskell and F#, a separate constant choice construct is unneeded, because the same task can be done with pattern matching.
+1 2 SQL has two similar constructs that fulfill both roles, both introduced in SQL-92. A "searched CASE" expression CASE WHEN cond1 THEN expr1 WHEN cond2 THEN expr2 [...] ELSE exprDflt END works like if ... else if ... else, whereas a "simple CASE" expression: CASE expr WHEN val1 THEN expr1 [...] ELSE exprDflt END works like a switch statement. For details and examples see Case (SQL).
+
+
+== See also ==
+Branch (computer science)
+Conditional compilation
+Dynamic dispatch for another way to make execution choices
+McCarthy Formalism for history and historical references
+Named condition
+Test (Unix)
+Yoda conditions
+
+
+== References ==
+
+
+== External links ==
+IF NOT (ActionScript 3.0) video

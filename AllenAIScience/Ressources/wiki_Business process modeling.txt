@@ -1,0 +1,119 @@
+Business process modeling (BPM) in systems engineering is the activity of representing processes of an enterprise, so that the current process may be analyzed or improved. BPM is typically performed by business analysts, who provide expertise in the modeling discipline; by subject matter experts, who have specialized knowledge of the processes being modeled; or more commonly by a team comprising both. The business objective is often to increase process speed or reduce cycle time; to increase quality; or to reduce costs, such as labor, materials, scrap, or capital costs. In practice, a management decision to invest in business process modeling is often motivated by the need to document requirements for an information technology project.
+Change management programs are typically involved to put any improved business processes into practice. With advances in software design, the vision of BPM models becoming fully executable (and capable of simulations and round-trip engineering) is coming closer to reality.
+
+
+== HistoryEdit ==
+Techniques to model business process such as the flow chart, functional flow block diagram, control flow diagram, Gantt chart, PERT diagram, and IDEF have emerged since the beginning of the 20th century. The Gantt charts were among the first to arrive around 1899, the flow charts in the 1920s, Functional Flow Block Diagram and PERT in the 1950s, Data Flow Diagrams and IDEF in the 1970s. Among the modern methods are Unified Modeling Language and Business Process Model and Notation. Still, these represent just a fraction of the methodologies used over the years to document business processes. The term 'business process modeling' was coined in the 1960s in the field of systems engineering by S. Williams in his 1967 article 'Business Process Modeling Improves Administrative Control'. His idea was that techniques for obtaining a better understanding of physical control systems could be used in a similar way for business processes. It was not until the 1990s that the term became popular.
+In the 1990s the term 'process' became a new productivity paradigm. Companies were encouraged to think in processes instead of functions and procedures. Process thinking looks at the chain of events in the company from purchase to supply, from order retrieval to sales, etc. The traditional modeling tools were developed to illustrate time and cost, while modern tools focus on cross-functional activities. These cross-functional activities have increased significantly in number and importance, due to the growth of complexity and dependence. New methodologies include business process redesign, business process innovation, business process management, integrated business planning, among others, all "aiming at improving processes across the traditional functions that comprise a company".
+In the field of software engineering, the term 'business process modeling' opposed the common software process modeling, aiming to focus more on the state of the practice during software development. In that time (early 1990s) all existing and new modeling techniques to illustrate business processes were consolidated as 'business process modeling languages'. In the Object Oriented approach, it was considered to be an essential step in the specification of business application systems. Business process modeling became the base of new methodologies, for instance those that supported data collection, data flow analysis, process flow diagrams and reporting facilities. Around 1995, the first visually oriented tools for business process modeling and implementation were being presented.
+
+
+== BPM topicsEdit ==
+
+
+=== Business modelEdit ===
+A business model is a framework for creating economic, social, and/or other forms of value. The term 'business model' is thus used for a broad range of informal and formal descriptions to represent core aspects of a business, including purpose, offerings, strategies, infrastructure, organizational structures, trading practices, and operational processes and policies.
+In the most basic sense, a business model is the method of doing business by which a company can sustain itself. That is, generate revenue. The business model spells-out how a company makes money by specifying where it is positioned in the value chain.
+
+
+=== Business processEdit ===
+A business process is a collection of related, structured activities or tasks that produce a specific service or product (serve a particular goal) for a particular customer or customers. There are three main types of business processes:
+Management processes, that govern the operation of a system. Typical management processes include corporate governance and strategic management.
+Operational processes, that constitute the core business and create the primary value stream. Typical operational processes are purchasing, manufacturing, marketing, and sales.
+Supporting processes, that support the core processes. Examples include accounting, recruitment, and technical support.
+A business process can be decomposed into several sub-processes, which have their own attributes, but also contribute to achieving the goal of the super-process. The analysis of business processes typically includes the mapping of processes and sub-processes down to activity level. A business process model is a model of one or more business processes, and defines the ways in which operations are carried out to accomplish the intended objectives of an organization. Such a model remains an abstraction and depends on the intended use of the model. It can describe the workflow or the integration between business processes. It can be constructed in multiple levels.
+A workflow is a depiction of a sequence of operations, declared as work of a person, of a simple or complex mechanism, of a group of persons, of an organization of staff, or of machines. Workflow may be seen as any abstraction of real work, segregated into workshare, work split or other types of ordering. For control purposes, workflow may be a view of real work under a chosen aspect.
+
+
+=== Artifact-centric Business ProcessEdit ===
+The artifact-centric business process model has emerged as a holistic approach for modeling business processes, as it provides a highly flexible solution to capture operational specifications of business processes. It particularly focuses on describing the data of business processes, known as “artifacts”, by characterizing business-relevant data objects, their lifecycles, and related services. The artifact-centric process modelling approach fosters the automation of the business operations and supports the flexibility of the workflow enactment and evolution.
+
+
+== Business process modeling toolsEdit ==
+Business process modeling tools provide business users with the ability to model their business processes, implement and execute those models, and refine the models based on as-executed data. As a result, business process modeling tools can provide transparency into business processes, as well as the centralization of corporate business process models and execution metrics.
+
+
+=== Modeling and simulationEdit ===
+Modeling and simulation functionality allows for pre-execution “what-if” modeling and simulation. Post-execution optimization is available based on the analysis of actual as-performed metrics.
+Use case diagrams created by Ivar Jacobson, 1992 (integrated in UML)
+Activity diagrams (also adopted by UML)
+Some business process modeling techniques are:
+Business Process Model and Notation (BPMN)
+Cognition enhanced Natural language Information Analysis Method (CogNIAM)
+Extended Business Modeling Language (xBML)
+Event-driven process chain (EPC)
+ICAM DEFinition (IDEF0)
+Unified Modeling Language (UML), extensions for business process such as Eriksson-Penker's
+
+
+=== Programming language tools for BPMEdit ===
+BPM suite software provides programming interfaces (web services, application program interfaces (APIs)) which allow enterprise applications to be built to leverage the BPM engine. This component is often referenced as the engine of the BPM suite.
+Programming languages that are being introduced for BPM include:
+Business Process Execution Language (BPEL),
+Web Services Choreography Description Language (WS-CDL).
+XML Process Definition Language (XPDL),
+Some vendor-specific languages:
+Architecture of Integrated Information Systems (ARIS) supports EPC,
+Java Process Definition Language (JBPM),
+Other technologies related to business process modeling include model-driven architecture and service-oriented architecture.
+
+
+== See alsoEdit ==
+
+
+=== Business reference modelEdit ===
+
+A business reference model is a reference model, concentrating on the functional and organizational aspects of an enterprise, service organization or government agency. In general a reference model is a model of something that embodies the basic goal or idea of something and can then be looked at as a reference for various purposes. A business reference model is a means to describe the business operations of an organization, independent of the organizational structure that perform them. Other types of business reference model can also depict the relationship between the business processes, business functions, and the business area’s business reference model. These reference models can be constructed in layers, and offer a foundation for the analysis of service components, technology, data, and performance.
+The most familiar business reference model is the Business Reference Model of the US Federal Government. That model is a function-driven framework for describing the business operations of the Federal Government independent of the agencies that perform them. The Business Reference Model provides an organized, hierarchical construct for describing the day-to-day business operations of the Federal government. While many models exist for describing organizations - organizational charts, location maps, etc. - this model presents the business using a functionally driven approach.
+
+
+=== Business process integrationEdit ===
+
+A business model, which may be considered an elaboration of a business process model, typically shows business data and business organizations as well as business processes. By showing business processes and their information flows a business model allows business stakeholders to define, understand, and validate their business enterprise. The data model part of the business model shows how business information is stored, which is useful for developing software code. See the figure on the right for an example of the interaction between business process models and data models.
+Usually a business model is created after conducting an interview, which is part of the business analysis process. The interview consists of a facilitator asking a series of questions to extract information about the subject business process. The interviewer is referred to as a facilitator to emphasize that it is the participants, not the facilitator, who provide the business process information. Although the facilitator should have some knowledge of the subject business process, but this is not as important as the mastery of a pragmatic and rigorous method interviewing business experts. The method is important because for most enterprises a team of facilitators is needed to collect information across the enterprise, and the findings of all the interviewers must be compiled and integrated once completed.
+Business models are developed as defining either the current state of the process, in which case the final product is called the "as is" snapshot model, or a concept of what the process should become, resulting in a "to be" model. By comparing and contrasting "as is" and "to be" models the business analysts can determine if the existing business processes and information systems are sound and only need minor modifications, or if reengineering is required to correct problems or improve efficiency. Consequently, business process modeling and subsequent analysis can be used to fundamentally reshape the way an enterprise conducts its operations.
+
+
+=== Business process reengineeringEdit ===
+
+Business process reengineering (BPR) aims to improve the efficiency and effectiveness of the processes that exist within and across organizations. It examines business processes from a "clean slate" perspective to determine how best to construct them.
+Business process reengineering (BPR) began as a private sector technique to help organizations fundamentally rethink how they do their work. A key stimulus for reengineering has been the development and deployment of sophisticated information systems and networks. Leading organizations use this technology to support innovative business processes, rather than refining current ways of doing work.
+
+
+=== Business process managementEdit ===
+Business process management is a field of management focused on aligning organizations with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility and integration with technology. As organizations strive for attainment of their objectives, business process management attempts to continuously improve processes - the process to define, measure and improve your processes – a "process optimization" process.
+
+
+== See alsoEdit ==
+
+Artifact-centric business process model
+Business architecture
+Business Model Canvas
+Business plan
+Business process mapping
+Business Process Model and Notation
+Capability Maturity Model Integration
+Drakon-chart
+Extended Enterprise Modeling Language
+Generalised Enterprise Reference Architecture and Methodology
+Model Driven Engineering
+Value Stream Mapping
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Aguilar-Saven, Ruth Sara. "Business process modelling: Review and framework." International Journal of production economics 90.2 (2004): 129-149.
+Becker, Jörg, Michael Rosemann, and Christoph von Uthmann. "Guidelines of business process modeling." Business Process Management. Springer Berlin Heidelberg, 2000. 30-49.
+Bart-Jan Hommes (2004). The Evaluation of Business Process Modeling Techniques. Doctoral thesis. Technische Universiteit Delft.
+Håvard D. Jørgensen (2004). Interactive Process Models. Thesis Norwegian University of Science and Technology Trondheim, Norway.
+Manuel Laguna, Johan Marklund (2004). Business Process Modeling, Simulation, and Design. Pearson/Prentice Hall, 2004.
+Ovidiu S. Noran (2000). Business Modelling: UML vs. IDEF Paper Griffh University
+Jan Recker (2005). "Process Modeling in the 21st Century". In: BP Trends, May 2005.
+Ryan K. L. Ko, Stephen S. G. Lee, Eng Wah Lee (2009) Business Process Management (BPM) Standards: A Survey. In: Business Process Management Journal, Emerald Group Publishing Limited. Volume 15 Issue 5. ISSN 1463-7154.
+Jan Vanthienen, S. Goedertier and R. Haesen (2007). "EM-BrA2CE v0.1: A vocabulary and execution model for declarative business process modeling". DTEW - KBI_0728.
+
+
+== External linksEdit ==
+ Media related to Business process modeling at Wikimedia Commons

@@ -1,0 +1,82 @@
+A website, also written as web site, or simply site, is a set of related web pages typically served from a single web domain. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a uniform resource locator (URL). All publicly accessible websites collectively constitute the World Wide Web.
+Web pages, which are the building blocks of websites, are documents, typically written in plain text interspersed with formatting instructions of Hypertext Markup Language (HTML, XHTML). They may incorporate elements from other websites with suitable markup anchors. Webpages are accessed and transported with the Hypertext Transfer Protocol (HTTP), which may optionally employ encryption (HTTP Secure, HTTPS) to provide security and privacy for the user of the webpage content. The user's application, often a web browser, renders the page content according to its HTML markup instructions onto a display terminal.
+The pages of a website can usually be accessed from a simple Uniform Resource Locator (URL) called the web address. The URLs of the pages organize them into a hierarchy, although hyperlinking between them conveys the reader's perceived site structure and guides the reader's navigation of the site which generally includes a home page with most of the links to the site's web content, and a supplementary about, contact and link page.
+Some websites require a subscription to access some or all of their content. Examples of subscription websites include many business sites, parts of news websites, academic journal websites, gaming websites, file-sharing websites, message boards, web-based email, social networking websites, websites providing real-time stock market data, and websites providing various other services (e.g., websites offering storing and/or sharing of images, files and so forth).
+
+
+== HistoryEdit ==
+
+The World Wide Web (WWW) was created in 1990 by the British CERN physicist Tim Berners-Lee. On 30 April 1993, CERN announced that the World Wide Web would be free to use for anyone.
+Before the introduction of HTML and HTTP, other protocols such as File Transfer Protocol and the gopher protocol were used to retrieve individual files from a server. These protocols offer a simple directory structure which the user navigates and chooses files to download. Documents were most often presented as plain text files without formatting, or were encoded in word processor formats.
+
+
+== OverviewEdit ==
+Websites have many functions and can be used in various fashions; a website can be a personal website, a commercial website, a government website or a non-profit organization website. Websites can be the work of an individual, a business or other organization, and are typically dedicated to a particular topic or purpose. Any website can contain a hyperlink to any other website, so the distinction between individual sites, as perceived by the user, can be blurred.
+Websites are written in, or converted to, HTML (Hyper Text Markup Language) and are accessed using a software interface classified as a user agent. Web pages can be viewed or otherwise accessed from a range of computer-based and Internet-enabled devices of various sizes, including desktop computers, laptops, PDAs and cell phones.
+A website is hosted on a computer system known as a web server, also called an HTTP server. These terms can also refer to the software that runs on these systems which retrieves and delivers the web pages in response to requests from the website's users. Apache is the most commonly used web server software (according to Netcraft statistics) and Microsoft's IIS is also commonly used. Some alternatives, such as Nginx, Lighttpd, Hiawatha or Cherokee, are fully functional and lightweight.
+
+
+== Static websiteEdit ==
+
+A static website is one that has web pages stored on the server in the format that is sent to a client web browser. It is primarily coded in Hypertext Markup Language (HTML); Cascading Style Sheets (CSS) are used to control appearance beyond basic HTML. Images are commonly used to effect the desired appearance and as part of the main content. Audio or video might also be considered "static" content if it plays automatically or is generally non-interactive.
+This type of website usually displays the same information to all visitors. Similar to handing out a printed brochure to customers or clients, a static website will generally provide consistent, standard information for an extended period of time. Although the website owner may make updates periodically, it is a manual process to edit the text, photos and other content and may require basic website design skills and software. Simple forms or marketing examples of websites, such as classic website, a five-page website or a brochure website are often static websites, because they present pre-defined, static information to the user. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.
+Static web sites can be edited using four broad categories of software:
+Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
+WYSIWYG offline editors, such as Microsoft FrontPage and Adobe Dreamweaver (previously Macromedia Dreamweaver), with which the site is edited using a GUI and the final HTML markup is generated automatically by the editor software
+WYSIWYG online editors which create media rich online presentation like web pages, widgets, intro, blogs, and other documents.
+Template-based editors such as iWeb allow users to create and upload web pages to a web server without detailed HTML knowledge, as they pick a suitable template from a palette and add pictures and text to it in a desktop publishing fashion without direct manipulation of HTML code.
+Static websites may still use server side includes (SSI) as an editing convenience, such as sharing a common menu bar across many pages. As the site's behaviour to the reader is still static, this is not considered a dynamic site.
+
+
+== Dynamic websiteEdit ==
+
+A dynamic website is one that changes or customizes itself frequently and automatically.
+Server-side dynamic pages are generated "on the fly" by computer code that produces the HTML (CSS are responsible for appearance and thus, are static files). There are a wide range of software systems, such as CGI, Java Servlets and Java Server Pages (JSP), Active Server Pages and ColdFusion (CFML) that are available to generate dynamic web systems and dynamic sites. Various web application frameworks and web template systems are available for general-use programming languages like PHP, Perl, Python, and Ruby, to make it faster and easier to create complex dynamic web sites.
+A site can display the current state of a dialogue between users, monitor a changing situation, or provide information in some way personalized to the requirements of the individual user. For example, when the front page of a news site is requested, the code running on the web server might combine stored HTML fragments with news stores retrieved from a database or another web site via RSS to produce a page that includes the latest information. Dynamic sites can be interactive by using HTML forms, storing and reading back browser cookies, or by creating a series of pages that reflect the previous history of clicks. Another example of dynamic content is when a retail website with a database of media products allows a user to input a search request, e.g. for the keyword Beatles. In response, the content of the web page will spontaneously change the way it looked before, and will then display a list of Beatles products like CDs, DVDs and books.
+Dynamic HTML uses JavaScript code to instruct the web browser how to interactively modify the page contents.
+One way to simulate a certain type of dynamic web site while avoiding the performance loss of initiating the dynamic engine on a per-user or per-connection basis, is to periodically automatically regenerate a large series of static pages.
+
+
+== Multimedia and interactive contentEdit ==
+Early web sites had only text, and soon after, images. Web browser plug ins were then used to add audio, video, and interactivity (such as for a rich Internet application that mirrors the complexity of a desktop application like a word processor). Examples of such plug-ins are Microsoft Silverlight, Adobe Flash, Adobe Shockwave, and applets written in Java. HTML 5 includes provisions for audio and video without plugins. JavaScript is also built into most modern web browsers, and allows for web site creators to send code to the web browser that instructs it how to interactively modify page content and communicate with the web server if needed. (The browser's internal representation of the content is known as the Document Object Model (DOM) and the technique is known as Dynamic HTML.
+A more recent trend in websites called "responsive design" has given the best of viewing experience as it provides with a device based layout for users. These websites change their layout according to the device or mobile platform thus giving a rich user experience.
+
+
+== SpellingEdit ==
+The form "website" has become the most common spelling, but "Web site" (capitalised) and "web site" are also widely used, though declining. Some in academia, some large book publishers, and some dictionaries still use "Web site", reflecting the origin of the term in the proper name World Wide Web. There has also been similar debate regarding related terms such as web page, web server, and webcam.
+Among leading style guides, the Reuters style guide, The Chicago Manual of Style, and the AP Stylebook (since April 2010) all recommend "website".
+Among leading dictionaries and encyclopedias, the Canadian Oxford Dictionary prefers "website", and the Oxford English Dictionary changed to "website" in 2004. Wikipedia also uses "website", but Encyclopaedia Britannica uses both "Web site" and "Website". Britannica's Merriam-Webster subsidiary uses "Web site", recognising "website" as a variant.
+Among leading language-usage commentators, Garner's Modern American Usage acknowledges that "website" is the standard form, but Bill Walsh, of The Washington Post, argues for using "Web site" in his books and on his website (however, The Washington Post itself uses "website").
+Among major Internet technology companies and corporations, Google uses "website", as does Apple, though Microsoft uses both "website" and "web site".
+
+
+== Types of websiteEdit ==
+Websites can be divided into two broad categories - static and interactive. Interactive sites are part of the Web 2.0 community of sites, and allow for interactivity between the site owner and site visitors. Static sites serve or capture information but do not allow engagement with the audience directly.
+Some web sites are informational or produced by enthusiasts or for personal use or entertainment. Many web sites do aim to make money, using one or more business models, including:
+Posting interesting content and selling contextual advertising either through direct sales or through an advertising network.
+E-commerce - products or services are purchased directly through the web site
+Advertising products or services available at a brick and mortar business
+Freemium - basic content is available for free but premium content is paid
+There are many varieties of websites, each specializing in a particular type of content or use, and they may be arbitrarily classified in any number of ways. A few such classifications might include:
+Some websites may be included in one or more of these categories. For example, a business website may promote the business's products, but may also host informative documents, such as white papers. There are also numerous sub-categories to the ones listed above. For example, a porn site is a specific type of e-commerce site or business site (that is, it is trying to sell memberships for access to its site) or have social networking capabilities. A fansite may be a dedication from the owner to a particular celebrity.
+Websites are constrained by architectural limits (e.g., the computing power dedicated to the website). Very large websites, such as Facebook, Yahoo!, Microsoft, and Google employ many servers and load balancing equipment such as Cisco Content Services Switches to distribute visitor loads over multiple computers at multiple locations. As of early 2011, Facebook utilized 9 data centers with approximately 63,000 servers.
+In February 2009, Netcraft, an Internet monitoring company that has tracked Web growth since 1995, reported that there were 215,675,903 websites with domain names and content on them in 2009, compared to just 19,732 websites in August 1995.
+After reaching 1 billion websites in September 2014, a milestone confirmed by NetCraft in its October 2014 Web Server Survey and that Internet Live Stats was the first to announce - as attested by this tweet from the inventor of the World Wide Web himself, Tim Berners-Lee - the number of websites in the world has subsequently declined, reverting to a level below 1 billion. This is due to the monthly fluctuations in the count of inactive websites. We do expect, however, to exceed 1 billion websites again sometime in 2015 and to stabilize the count above this historic milestone in 2016.
+
+
+== AwardsEdit ==
+The Webby Awards, Favourite Website Awards, Interactive Media Awards and WebAwards are prominent award organizations recognizing the world's best websites.
+
+
+== See alsoEdit ==
+
+Web development tools
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Internet Corporation For Assigned Names and Numbers (ICANN)
+World Wide Web Consortium (W3C)
+The Internet Society (ISOC)

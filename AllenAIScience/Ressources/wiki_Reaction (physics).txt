@@ -1,0 +1,63 @@
+One common form of the third of Newton's laws of motion of classical mechanics states that if one object exerts a force on another object, then the second object exerts an equal and opposite reaction force on the first. In that form, only forces are mentioned. The full form of the third law translated from the Newton's Latin states: "To every action there is always opposed an equal reaction: or the mutual actions of two bodies upon each other are always equal, and directed to contrary parts." In this full form, Newton's explanatory commentary explicitly allows for "actions" to include both forces and rates of change of momentum. The attribution of which of the two forces (or "actions") is the action and which is the reaction is arbitrary. Either of the two can be considered the action, while the other is its associated reaction.
+
+
+== Examples ==
+
+
+=== Interaction with ground ===
+When something is exerting force on the ground, the ground will push back with equal force in the opposite direction. In certain fields of applied physics, such as biomechanics, this force by the ground is called 'ground reaction force'; the force by the object on the ground is viewed as the 'action'.
+When someone wants to jump, he or she exerts additional downward force on the ground ('action'). Simultaneously, the ground exerts upward force on the person ('reaction'). If this upward force is greater than the person's weight, this will result in upward acceleration. When these forces are perpendicular to the ground, they are also called a normal force.
+Likewise, the spinning wheels of a vehicle attempt to slide backward across the ground. If the ground is not too slippery, this results in a pair of friction forces: the 'action' by the wheel on the ground in backward direction, and the 'reaction' by the ground on the wheel in forward direction. This forward force propels the vehicle.
+
+
+=== Gravitational forces ===
+The Earth orbits around the Sun because the gravitational force exerted by the Sun on the Earth, the action, serves as the centripetal force that maintains the planet in the neighborhood of the Sun. Simultaneously, the Earth exerts a gravitational attraction on the Sun, the reaction, which has the same amplitude as the action and an opposite direction (in this case, pulling the Sun towards the Earth). Since the Sun's mass is very much larger than the Earth's, it does not appear to be reacting to the pull of the Earth, but in fact it does. A correct way of describing the combined motion of both objects (ignoring all other celestial bodies for the moment) is to say that they both orbit around the center of mass of the combined system.
+
+
+=== Supported mass ===
+Any mass on earth is pulled down by the gravitational force of the earth; this force is also called its weight. The corresponding 'reaction' is the gravitational force that mass exerts on the planet.
+If the object is supported so that it remains at rest, for instance by a cable from which it is hanging, or by a surface underneath, or by a liquid on which it is floating, there is also a support force in upward direction (tension force, normal force, buoyant force, respectively). This support force is an 'equal and opposite' force; we know this not because of Newton's Third Law, but because the object remains at rest, so that the forces must be balanced.
+To this support force there is also a 'reaction': the object pulls down on the supporting cable, or pushes down on the supporting surface or liquid. In this case, there are therefore four forces of equal magnitude:
+F1. gravitational force by earth on object (downward)
+F2. gravitational force by object on earth (upward)
+F3. force by support on object (upward)
+F4. force by object on support (downward)
+Forces F1 and F2 are equal because of Newton's Third Law; the same is true for forces F3 and F4. Forces F1 and F3 are only equal if the object is in equilibrium, and no other forces are applied. This has nothing to do with Newton's Third Law.
+
+
+=== Mass on a spring ===
+If a mass is hanging from a spring, the same considerations apply as before. However, if this system is then perturbed (e.g., the mass is given a slight kick upwards or downwards, say), the mass starts to oscillate up and down. Because of these accelerations (and subsequent decelerations), we conclude from Newton's second law that a net force is responsible for the observed change in velocity. The gravitational force pulling down on the mass is no longer equal to the upward elastic force of the spring. In the terminology of the previous section, F1 and F3 are no longer equal.
+However, it is still true that F1 = F2 and F3 = F4, as this is required by Newton's Third Law.
+
+
+=== Causal misinterpretation ===
+The terms 'action' and 'reaction' have the unfortunate suggestion of causality, as if the 'action' is the cause and 'reaction' is the effect. It is therefore easy to think of the second force as being there because of the first, and even happening some time after the first. This is incorrect; the forces are perfectly simultaneous, and are there for the same reason.
+When the forces are caused by a person's volition (e.g. a soccer player kicks a ball), this volitional cause often leads to an asymmetric interpretation, where the force by the player on the ball is considered the 'action' and the force by the ball on the player, the 'reaction'. But physically, the situation is symmetric. The forces on ball and player are both explained by their nearness, which results in a pair of contact forces (ultimately due to electric repulsion). That this nearness is caused by a decision of the player has no bearing on the physical analysis. As far as the physics is concerned, the labels 'action' and 'reaction' can be flipped.
+
+
+=== 'Equal and opposite' ===
+One problem frequently observed by physics educators is that students tend to apply Newton's Third Law to pairs of 'equal and opposite' forces acting on the same object. This is incorrect; the Third Law refers to forces on two different objects. For example, a book lying on a table is subject to a downward gravitational force (exerted by the earth) and to an upward normal force by the table. Since the book is not accelerating, these forces must be exactly balanced, according to Newton's First or Second law. They are therefore 'equal and opposite'. However, these forces are not always equally strong; they will be different if the book is pushed down by a third force, or if the table is slanted, or if the table-and-book system is in an accelerating elevator. The case of three or more forces is covered by considering the sum of all forces.
+A possible cause of this problem is that the Third Law is often stated in an abbreviated form: For every action there is an equal and opposite reaction, without the details, namely that these forces act on two different objects. Moreover, there is a causal connection between the weight of something and the normal force: if an object had no weight, it would not experience support force from the table, and the weight dictates how strong the support force will be. This causal relationship is not due to the Third Law but to other physical relations in the system.
+
+
+=== Centripetal and centrifugal force ===
+Another common mistake is to state that
+
+The centrifugal force that an object experiences is the reaction to the centripetal force on that object.
+
+If an object were simultaneously subject to both a centripetal force and an equal and opposite centrifugal force, the resultant force would vanish and the object could not experience a circular motion. The centrifugal force is sometimes called a fictitious force or pseudo force, to underscore the fact that such a force only appears when calculations or measurements are conducted in non-inertial reference frames.
+
+
+== See also ==
+Ground reaction force
+Reactive centrifugal force
+Isaac Newton
+Ibn Bajjah
+Reaction engine/jet engine
+
+
+== References ==
+
+Feynman, R. P., Leighton and Sands (1970) The Feynman Lectures on Physics, Volume 1, Addison Wesley Longman, ISBN 0-201-02115-3.
+Resnick, R. and D. Halliday (1966) Physics, Part 1, John Wiley & Sons, New York, 646 pp + Appendices.
+Warren, J. W. (1965) The Teaching of Physics, Butterworths, London,130 pp.

@@ -1,0 +1,66 @@
+The Dynamic Energy Budget (DEB) theory aims to identify simple quantitative rules for the organization of metabolism of individual organisms that can be understood from basic first principles. The word "dynamic" refers to the life cycle perspective of the theory, where the budget changes dynamically over time.
+Cornerstones of the theory are:
+conservation of mass, energy and time,
+relationships between surface area and volume
+stoichiometric constraints on production
+organisational uncoupling of metabolic modules
+strong and weak homeostasis
+substrate(s) from the environment is/are first converted to reserve(s) before being used for further metabolism
+They are essential to understand evolution of metabolic organisation since the origin of life.
+DEB theory delineates reserves, as separate from structure. Reserves are synthesized from environmental substrates (food) for use by the metabolism for the purpose of somatic maintenance (including protein turnover, maintenance of concentration gradients across membranes, activity and other types of work), growth (increase of structural mass), maturity maintenance (installation of regulation systems, preparation for reproduction, maintenance of defense systems, such as the immune system), maturation (increase of the state of maturity) and reproduction. This organizational position of reserve creates a rather constant internal chemical environment, with only an indirect coupling with the extra-organismal environment. Reserves as well as structure are taken to be generalised compounds, i.e. mixtures of a large number of compounds, which do not change in composition. The latter requirement is called the strong homeostasis assumption. Polymers (carbohydrates, proteins, ribosomal RNA) and lipids form the main bulk of reserves and of structure.
+Some reasons for including reserve are to give an explanation for:
+the metabolic memory; changes in food (substrate) availability affect production (growth or reproduction) with some delay. Growth continues for some time during starvation; embryo development is fueled by reserves
+the composition of biomass depends on growth rate. With two components (reserves and structure) particular changes in composition can be captured. More complex changes require several reserves, as is required for autotrophs.
+the body size scaling of life history parameters. The specific respiration rate decreases with (maximum) body size between species because large bodied species have relatively more reserve. Many other life history parameters directly or indirectly relate to respiration.
+the observed respiration patterns, which reflect the use of energy. Freshly laid eggs hardly respire, but their respiratory rates increase during development while egg weight decreases. After hatching, however, the respiration rate further increases, while the weight now also increases
+all mass fluxes are linear combinations of assimilation, dissipation and growth. If reserves are omitted, there is not enough flexibility to capture product formation and explain indirect calorimetry.
+The standard model quantifies the metabolism of isomorphs with 1 reserve and 1 structure that feeds on one type of food with a constant composition. The rules for the standard model for reproducing multicellulars, and modified for dividing unicellulars, are:
+
+
+== Assumptions of the standard model ==
+The state variables of the individual are structural mass and reserve; they have a constant composition (strong homeostasis).
+Food is transformed into reserve, which fuels all other metabolic processes
+The reserve density at birth equals that of the mother at egg formation. Foetuses develop similarly, but receive unrestricted amount of reserve from the mother during development.
+Stage transitions occur if the cumulated investment into maturation exceeds threshold values. These stages typically are: embryo, juvenile and adult.
+Somatic maintenance is proportional to structural body volume, and maturity maintenance to maturity but maturity does not increase in the adult stage. Heating costs for endotherms and osmostic work (for fresh water organisms) are somatic maintenance costs that are proportional to surface area.
+The feeding rate is proportional to the surface area; food handling time and the transformation efficiency from food to reserve are independent of food density.
+The reserves is such that weak homeostasis applies: the chemical composition of the body becomes constant during growth in a constant environment.
+A fixed fraction (called kappa) of mobilized reserve is allocated to somatic maintenance plus growth (soma), the rest on maturity maintenance plus maturation or reproduction.
+Reserve that is allocated to reproduction is first accumulated in a buffer. The rules for converting the buffer to gametes are species-specific (e.g. spawning can be once per season).
+During starvation, individuals always give priority to maintenance. After having used the reproduction buffer, they allow a species-specific amount of shrinking of structure and/or maturity
+These assumptions quantify all energy and mass fluxes in an organism (including heat, dioxygen, carbon dioxide, ammonia) and imply rules for the covariation of parameter values across species (body size scaling relationships).
+
+
+== Extensions of the standard model ==
+DEB theory has been extended into many directions, such as
+effects of changes in shape during growth (e.g. V1-morphs and V0-morphs)
+inclusion of more types of food (substrate), which requires Synthesizing Units to model
+inclusion of more reserves (which is necessary for organisms that do not feed on other organisms) and more structures (which is necessary to deal with plants)
+the formation and excretion of metabolic products (which is a basis for syntrophic relationships, and useful in biotechnology)
+the production of free radicals (linked to size and nutritional status) and their effect on survival (aging)
+the growth of body parts (including tumours)
+effects of chemical compounds (toxicants) on parameter values and the hazard rate (which is useful to establish no effect concentrations for environmental risk assessment): the DEBtox method
+processes of adaptation (gene expression) to the availability of substrates (important in biodegradation)
+DEB theory provides constraints on the metabolic organisation of sub-cellular processes. Together with rules for interaction between individuals (competition, syntrophy, prey-predator relationships), it also provides a basis to understand population and ecosystem dynamics. The theory, therefore, links various levels of biological organisation (cells, organisms and populations). A considerable number of popular empirical models turn out to be special cases of the DEB model, or very close numerical approximations.
+
+
+== Dynamic energy budget theory and body size ==
+The explanation of certain body size relationships differs for intra- and inter-species comparisons in the context of the Dynamic Energy Budget (DEB) theory. Young (small) organisms behave different from old (large) ones of the same species because they typically do different things (grow fast and don't reproduce). Adults of small-bodied species, however, are expected to behave similarly to adults of large-bodied species. The reason the parameters of the DEB theory vary between species may thus follow naturally from the structure of the theory.
+Maximum body length equals the maximum surface area-specific assimilation rate times the fraction of mobilised reserve that is allocated to the soma divided by the volume-specific somatic maintenance costs. Only the first of these three parametres depend on the size of the individual and is, therefore, proportional to maximum length. Appropriate ratios of parameters that depend on size are independent of size; this reveals how such parameters depend on size. Any eco-physiological quantity that can be written as function of DEB parameters can, for this reason, also be written as function of the maximum body size.
+
+
+== See also ==
+Allometry
+Comparative physiology
+Evolutionary physiology
+Metabolic theory of ecology
+Power law (also known as a scaling law)
+
+
+== External links ==
+DEB Information
+
+
+== References ==
+S.A.L.M. Kooijman, 2010. Dynamic Energy Budget theory for metabolic organisation. Cambridge University Press, 3rd edition.
+T. Sousa, T. Domingos and S.A.L.M. Kooijman, 2008. From empirical patterns to theory: A formal metabolic theory of life. Phil. Trans. R. Soc. B, 363:2453–2464.

@@ -1,0 +1,51 @@
+Motion detection is the process of detecting a change in the position of an object relative to its surroundings or a change in the surroundings relative to an object. Motion detection can be achieved by either mechanical or electronic methods. When motion detection is accomplished by natural organisms, it is called motion perception.
+
+
+== Methods ==
+
+Motion can be detected by:
+Infrared (passive and active sensors)
+Optics (video and camera systems)
+Radio Frequency Energy (radar, microwave and tomographic motion detection)
+Sound (microphones and acoustic sensors)
+Vibration (triboelectric, seismic, and inertia-switch sensors)
+Magnetism (magnetic sensors and magnetometers)
+
+
+=== Mechanical ===
+The most basic form of mechanical motion detection is in the form of a switch or trigger. For example, the keys of a typewriter employ a mechanical method of detecting motion. Each key is a manual switch that is either off or on. Each letter that appears is a result of motion on that corresponding key and the switch being turned on.
+
+
+=== Electronic ===
+
+The principal methods by which motion can be electronically identified are optical detection and acoustic detection. Infrared light or laser technology may be used for optical detection. Motion detection devices, such as PIR motion detectors, have a sensor that detects a disturbance in the infrared spectrum. Once detected, a signal can activate an alarm or a camera that can capture an image or video of the motioner.
+The chief applications for such detection are detection of unauthorized entry, detection of cessation of occupancy of an area to extinguish lighting, and detection of a moving object which triggers a camera to record subsequent events.
+A simple algorithm for motion detection by a fixed camera compares the current image with a reference image and simply counts the number of different pixels. Since images will naturally differ due to factors such as varying lighting, camera flicker, and CCD dark currents, pre-processing is useful to reduce the number of false positive alarms.
+More complex algorithms are necessary to detect motion when the camera itself is moving, or when the motion of a specific object must be detected in a field containing other movement which can be ignored. An example might be a painting surrounded by visitors in an art gallery. For the case of a moving camera, models based on optical flow are used to distinguish between apparent background motion caused by the camera movement and that of independent objects moving in the scene. 
+
+
+== Devices ==
+
+Motion detecting devices include:
+Sony Computer Entertainment's PlayStation Move or PlayStation Eye for PS3 and PlayStation Camera for PS4
+Microsoft Corporation's Kinect for Xbox 360, Windows 7, 8, 8.1 or Xbox One
+Nintendo's Wii Remote
+ASUS Eee Stick
+HP's Swing
+
+
+== See also ==
+Motion controller for video game consoles
+Occupancy sensor
+
+
+== References ==
+
+
+== External links ==
+Relational Motion Detection
+www.cs.rochester.edu/~nelson/research
+Motion Detection Algorithms In Image Processing
+Motion Detection and Recognition Research
+Presence and Absence detection explained
+Motion detection sample algorithm realization video

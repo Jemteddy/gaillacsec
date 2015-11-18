@@ -1,0 +1,183 @@
+Stream processing is a computer programming paradigm, equivalent to dataflow programming and reactive programming, that allows some applications to more easily exploit a limited form of parallel processing. Such applications can use multiple computational units, such as the FPUs on a GPU or field programmable gate arrays (FPGAs), without explicitly managing allocation, synchronization, or communication among those units.
+The stream processing paradigm simplifies parallel software and hardware by restricting the parallel computation that can be performed. Given a set of data (a stream), a series of operations (kernel functions) is applied to each element in the stream. Uniform streaming, where one kernel function is applied to all elements in the stream, is typical. Kernel functions are usually pipelined, and local on-chip memory is reused to minimize external memory bandwidth. Since the kernel and stream abstractions expose data dependencies, compiler tools can fully automate and optimize on-chip management tasks. Stream processing hardware can use scoreboarding, for example, to launch DMAs at runtime, when dependencies become known. The elimination of manual DMA management reduces software complexity, and the elimination of hardware caches reduces the amount of the area not dedicated to computational units such as ALUs.
+During the 1980s stream processing was explored within dataflow programming. An example is the language SISAL (Streams and Iteration in a Single Assignment Language).
+
+
+== ApplicationsEdit ==
+Stream processing is essentially a compromise, driven by a data-centric model that works very well for traditional DSP or GPU-type applications (such as image, video and digital signal processing) but less so for general purpose processing with more randomized data access (such as databases). By sacrificing some flexibility in the model, the implications allow easier, faster and more efficient execution. Depending on the context, processor design may be tuned for maximum efficiency or a trade-off for flexibility.
+Stream processing is especially suitable for applications that exhibit three application characteristics:
+Compute Intensity, the number of arithmetic operations per I/O or global memory reference. In many signal processing applications today it is well over 50:1 and increasing with algorithmic complexity.
+Data Parallelism exists in a kernel if the same function is applied to all records of an input stream and a number of records can be processed simultaneously without waiting for results from previous records.What is called as Task-level (function or control) Parallelism? How it is different from Data Parallelism?
+Data Locality is a specific type of temporal locality common in signal and media processing applications where data is produced once, read once or twice later in the application, and never read again. Intermediate streams passed between kernels as well as intermediate data within kernel functions can capture this locality directly using the stream processing programming model.
+Examples of records within streams include:
+In graphics, each record might be the vertex, normal, and color information for a triangle;
+In image processing, each record might be a single pixel from an image;
+In a video encoder, each record may be 256 pixels forming a macroblock of data; or
+In wireless signal processing, each record could be a sequence of samples received from an antenna.
+For each record we can only read from the input, perform operations on it, and write to the output. It is permissible to have multiple inputs and multiple outputs, but never a piece of memory that is both readable and writable.
+
+
+== Comparison to prior parallel paradigmsEdit ==
+Basic computers started from a sequential execution paradigm. Traditional CPUs are SISD based, which means they conceptually perform only one operation at a time. As the computing needs of the world evolved, the amount of data to be managed increased very quickly. It was obvious that the sequential programming model could not cope with the increased need for processing power. Various efforts have been spent on finding alternative ways to perform massive amounts of computations but the only solution was to exploit some level of parallel execution. The result of those efforts was SIMD, a programming paradigm which allowed applying one instruction to multiple instances of (different) data. Most of the time, SIMD was being used in a SWAR environment. By using more complicated structures, one could also have MIMD parallelism.
+Although those two paradigms were efficient, real-world implementations were plagued with limitations from memory alignment problems to synchronization issues and limited parallelism. Only few SIMD processors survived as stand-alone components; most were embedded in standard CPUs.
+Consider a simple program adding up two arrays containing 100 4-component vectors (i.e. 400 numbers in total).
+
+
+=== Conventional, sequential paradigmEdit ===
+
+This is the sequential paradigm that is most familiar. Variations do exist (such as inner loops, structures and such), but they ultimately boil down to that construct.
+
+
+=== Parallel SIMD paradigm, packed registers (SWAR)Edit ===
+
+This is actually oversimplified. It assumes the instruction vector_sum works. Although this is what happens with instruction intrinsics, much information is actually not taken into account here such as the number of vector components and their data format. This is done for clarity.
+You can see however, this method reduces the number of decoded instructions from numElements * componentsPerElement to numElements. The number of jump instructions is also decreased, as the loop is run fewer times. These gains result from the parallel execution of the four mathematical operations.
+What happened however is that the packed SIMD register holds a certain amount of data so it's not possible to get more parallelism. The speed up is somewhat limited by the assumption we made of performing four parallel operations (please note this is common for both AltiVec and SSE).
+
+
+=== Parallel Stream paradigm (SIMD/MIMD)Edit ===
+
+As you can see, the idea is to define the whole set of data instead of each single block. Describing the set of data is assumed to be in the first two rows. After that, the result is inferred from the sources and kernel. For simplicity, there's a 1:1 mapping between input and output data but this does not need to be. Applied kernels can also be much more complex.
+An implementation of this paradigm can "unroll" a loop internally. This allows throughput to scale with chip complexity, easily utilizing hundreds of ALUs.[1] The elimination of complex data patterns makes much of this extra power available.
+While stream processing is a branch of SIMD/MIMD processing, they must not be confused. Although SIMD implementations can often work in a "streaming" manner, their performance is not comparable: the model envisions a very different usage pattern which allows far greater performance by itself. It has been noted[2] that when applied on generic processors such as standard CPU, only a 1.5x speedup can be reached. By contrast, ad-hoc stream processors easily reach over 10x performance, mainly attributed to the more efficient memory access and higher levels of parallel processing.
+Although there are various degrees of flexibility allowed by the model, stream processors usually impose some limitations on the kernel or stream size. For example, consumer hardware often lacks the ability to perform high-precision math, lacks complex indirection chains or presents lower limits on the number of instructions which can be executed.
+
+
+== Stream processing considerationsEdit ==
+Stanford University has been historically involved in a variety of stream processing projects, beginning from the Stanford Shading language and deploying a flexible, stand-alone stream processor called Imagine. Both those projects revealed the paradigm has a great potential so a much larger scale project has been started. With the name of Merrimac, a Stream-based supercomputer is now being researched. AT&T also recognized the wide adoption of stream-enhanced processors as GPUs rapidly evolved in both speed and functionality.[3] Since these early days, dozens of stream processing languages have been developed, as well as a myriad of specialized hardware.
+
+
+=== Data dependencies and parallelismEdit ===
+A great advantage of the stream programming model lies in the kernel defining independent and local data usage.
+Kernel operations define the basic data unit, both as input and output. This allows the hardware to better allocate resources and schedule global I/O. Although usually not exposed in the programming model, the I/O operations seems to be much more advanced on stream processors (at least, on GPUs). I/O operations are also usually pipelined by themselves while chip structure can help hide latencies. Definition of the data unit is usually explicit in the kernel, which is expected to have well-defined inputs (possibly using structures, which is encouraged) and outputs. In some environments, output values are fixed (in GPUs for example, there is a fixed set of output attributes, unless this is relaxed). Having each computing block clearly independent and defined allows to schedule bulk read or write operations, greatly increasing cache and memory bus efficiency.
+Data locality is also explicit in the kernel. This concept is usually referred to as kernel locality, identifying all the values which are short-lived to a single kernel invocation. All the temporaries are simply assumed to be local to each kernel invocation so, hardware or software can easily allocate them on fast registers. This is strictly related to degree of parallelism that can be exploited.
+Inside each kernel, producer-consumer relationships can be individuated by usual means while, when kernels are chained one after the another, this relationship is given by the model. This allows easier scheduling decisions because it's clear that if kernel B requires output from kernel A, it's obvious that A must be completed before B can be run (at least on the data unit being used). The Imagine chip's on-board stream controller module manages kernel loads and execution in hardware at runtime keeping a scoreboard of kernel dependencies (as told by the compiler) and can allow out-of-order execution to minimize stalls producer-consumer locality. This is another major new paradigm for high performance processing. The Cell processor allows this by routing data between various SPEs for example. In comparison, since the Imagine is a pure SIMD machine, inter-cluster communication and kernel execution is always explicit with much lower silicon overhead than a MIMD machine, such as Cell. Imagine uses 8 clusters (a.k.a. lanes) of ALUs (similar to Cell's SPEs), but the clusters run in data-parallel mode executing a single kernel at a time. Task switching is done using conventional time-multiplexing. There is only one instruction decode for instance. The tradeoff here is that for kernels that can exploit lower levels of data-parallelism, the efficiency drops as not all clusters will do useful work. For a vast majority of DSP processing though this trade off pays off very well.
+The parallelism between two kernel instances is similar to a thread level parallelism. Each kernel instance gets data parallelism. Inside each kernel, it is still possible to use instruction level parallelism. Task parallelism (such as overlapped I/O) can still happen. It's easy to have thousands of kernel instances but it's simply impossible to have the same amounts of threads.
+
+
+=== Programming model notesEdit ===
+The most immediate challenge in the realm of parallel processing does not lie as much in the type of hardware architecture used, but in how easy it will be to program the system in question in a real-world environment with acceptable performance. Machines like Imagine use a straightforward single-threaded model with automated dependencies, memory allocation and DMA scheduling. This in itself is a result of the research at MIT and Stanford in finding an optimal layering of tasks between programmer, tools and hardware. Programmers beat tools in mapping algorithms to parallel hardware, and tools beat programmers in figuring out smartest memory allocation schemes, etc. Of particular concern are MIMD designs such as Cell, for which the programmer needs to deal with application partitioning across multiple cores and deal with process synchronization and load balancing. Efficient multi-core programming tools are severely lacking today.
+A drawback of SIMD programming was the issue of Array-of-Structures (AoS) and Structure-of-Arrays (SoA). Programmers often wanted to build data structures with a 'real' meaning, for example:
+
+What happened is that those structures were then assembled in arrays to keep things nicely organized. This is AoS. When the structure is laid out in memory, the compiler will produce interleaved data, in the sense that all the structures will be contiguous but there will be a constant offset between, say, the "size" attribute of a structure instance and the same element of the following instance. The offset depends on the structure definition (and possibly other things not considered here such as compiler's policies). There are also other problems. For example, the three position variables cannot be SIMD-ized that way, because it's not sure they will be allocated in continuous memory space. To make sure SIMD operations can work on them, they shall be grouped in a 'packed memory location' or at least in an array. Another problem lies in both "color" and "xyz" to be defined in three-component vector quantities. SIMD processors usually have support for 4-component operations only (with some exceptions however).
+These kinds of problems and limitations made SIMD acceleration on standard CPUs quite nasty. The proposed solution, SoA follows as:
+
+For readers not experienced with C, the '*' before each identifier means a pointer. In this case, they will be used to point to the first element of an array, which is to be allocated later. For Java programmers, this is roughly equivalent to "[]". The drawback here is that the various attributes could be spread in memory. To make sure this does not cause cache misses, we'll have to update all the various "reds", then all the "greens" and "blues".
+For stream processors, the usage of structures is encouraged. From an application point of view, all the attributes can be defined with some flexibility. Taking GPUs as reference, there is a set of attributes (at least 16) available. For each attribute, the application can state the number of components and the format of the components (but only primitive data types are supported for now). The various attributes are then attached to a memory block, possibly defining a stride between 'consecutive' elements of the same attributes, effectively allowing interleaved data. When the GPU begins the stream processing, it will gather all the various attributes in a single set of parameters (usually this looks like a structure or a "magic global variable"), performs the operations and scatters the results to some memory area for later processing (or retrieving).
+Summing up, there's more flexibility on the application's side yet everything looks very organized on the stream processor's side.
+
+
+=== Models of computation for stream processingEdit ===
+Apart from specifying streaming applications in high-level language. Models of computation (MoCs) also have been widely used such as dataflow models and process-based models.
+
+
+=== Generic processor architectureEdit ===
+Historically, CPUs began implementing various tiers of memory access optimizations because of the ever increasing performance when compared to relatively slow growing external memory bandwidth. As this gap widened, big amounts of die area were dedicated to hiding memory latencies. Since fetching information and opcodes to those few ALUs is expensive, very little die area is dedicated to actual mathematical machinery (as a rough estimation, consider it to be less than 10%).
+A similar architecture exists on stream processors but thanks to the new programming model, the amount of transistors dedicated to management is actually very little.
+Beginning from a whole system point of view, stream processors usually exist in a controlled environment. GPUs do exist on an add-in board (this seems to also apply to Imagine). CPUs do the dirty job of managing system resources, running applications and such.
+The stream processor is usually equipped with a fast, efficient, proprietary memory bus (crossbar switches are now common, multi-buses have been employed in the past). The exact amount of memory lanes is dependent on the market range. As this is written, there are still 64-bit wide interconnections around (entry-level). Most mid-range models use a fast 128-bit crossbar switch matrix (4 or 2 segments), while high-end models deploy huge amounts of memory (actually up to 512MB) with a slightly slower crossbar that is 256 bits wide. By contrast, standard processors from Intel Pentium to some Athlon 64 have only a single 64-bit wide data bus.
+Memory access patterns are much more predictable. While arrays do exist, their dimension is fixed at kernel invocation. The thing which most closely matches a multiple pointer indirection is an indirection chain, which is however guaranteed to finally read or write from a specific memory area (inside a stream).
+Because of the SIMD nature of the stream processor's execution units (ALUs clusters), read/write operations are expected to happen in bulk, so memories are optimized for high bandwidth rather than low latency (this is a difference from Rambus and DDR SDRAM, for example). This also allows for efficient memory bus negotiations.
+Most (90%) of a stream processor's work is done on-chip, requiring only 1% of the global data to be stored to memory. This is where knowing the kernel temporaries and dependencies pays.
+Internally, a stream processor features some clever communication and management circuits but what's interesting is the Stream Register File (SRF). This is conceptually a large cache in which stream data is stored to be transferred to external memory in bulks. As a cache-like software-controlled structure to the various ALUs, the SRF is shared between all the various ALU clusters. The key concept and innovation here done with Stanford's Imagine chip is that the compiler is able to automate and allocate memory in an optimal way, fully transparent to the programmer. The dependencies between kernel functions and data is known through the programming model which enables the compiler to perform flow analysis and optimally pack the SRFs. Commonly, this cache and DMA management can take up the majority of a project's schedule, something the stream processor (or at least Imagine) totally automates. Tests done at Stanford showed that the compiler did an as well or better job at scheduling memory than if you hand tuned the thing with much effort.
+There is proof, there can be a lot of clusters because inter-cluster communication is assumed to be rare. Internally however, each cluster can efficiently exploit a much lower amount of ALUs because intra-cluster communication is common and thus needs to be highly efficient.
+To keep those ALUs fetched with data, each ALU is equipped with Local Register Files (LRFs), which are basically its usable registers.
+This three-tiered data access pattern, makes it easy to keep temporary data away from slow memories, thus making the silicon implementation highly efficient and power-saving.
+
+
+=== Hardware-in-the-loop issuesEdit ===
+Although an order of magnitude speedup can be reasonably expected (even from mainstream GPUs when computing in a streaming manner), not all applications benefit from this. Communication latencies are actually the biggest problem. Although PCI Express improved this with full-duplex communications, getting a GPU (and possibly a generic stream processor) to work will possibly take long amounts of time. This means it's usually counter-productive to use them for small datasets. Because changing the kernel is a rather expensive operation the stream architecture also incurs penalties for small streams, a behaviour referred to as the short stream effect.
+Pipelining is a very widespread and heavily-used practice on stream processors, with GPUs featuring pipelines exceeding 200 stages. The cost for switching settings is dependent on the setting being modified but it's now considered to always be expensive. To avoid those problems at various levels of the pipeline, many techniques have been deployed such as "über shaders" and "texture atlases". Those techniques are game-oriented because of the nature of GPUs, but the concepts are interesting for generic stream processing as well.
+
+
+== Notable stream processorsEdit ==
+The Blitter in the Commodore Amiga is an early graphics processor capable of combining 3 source streams of 16 component bit vectors in 256 ways to produce an output stream consisting of 16 component bit vectors. Total input stream bandwidth is up to 42 million bits per second. Output stream bandwidth is up to 28 million bits per second.
+Imagine, headed by Professor William Dally of Stanford University, is a flexible architecture intended to be both fast and energy efficient. The project, originally conceived in 1996, included architecture, software tools, a VLSI implementation and a development board, was funded by DARPA, Intel and Texas Instruments.
+Another Stanford project called Merrimac is aimed at developing a stream-based supercomputer. Merrimac intends to use a stream architecture and advanced interconnection networks to provide more performance per unit cost than cluster-based scientific computers built from the same technology.
+The Storm-1 Family from Stream Processors, Inc, a commercial spinoff of Stanford's Imagine project, was announced during a feature presentation at ISSCC 2007. The family contains four members ranging from 30 GOPS to 220 16-bit GOPS (billions of operations per second), all fabricated at TSMC in a 130 nanometer process. The devices target the high end of the DSP market including video conferencing, multifunction printers and digital video surveillance equipment.
+GPUs are widespread, consumer-grade stream processors[4] designed mainly by AMD and Nvidia. Various generations to be noted from a stream processing point of view:
+Pre-R2xx/NV2x: no explicit support for stream processing. Kernel operations were hidden in the API and provided too little flexibility for general use.
+R2xx/NV2x: kernel stream operations became explicitly under the programmer's control but only for vertex processing (fragments were still using old paradigms). No branching support severely hampered flexibility but some types of algorithms could be run (notably, low-precision fluid simulation).
+R3xx/NV4x: flexible branching support although some limitations still exist on the number of operations to be executed and strict recursion depth, as well as array manipulation.
+R8xx: Supports append/consume buffers and atomic operations. This generation is the state of the art.
+
+AMD FireStream brand name for product line targeting HPC
+Nvidia Tesla brand name for product line targeting HPC
+The Cell processor from STI, an alliance of Sony Computer Entertainment, Toshiba Corporation, and IBM, is a hardware architecture that can function like a stream processor with appropriate software support. It consists of a controlling processor, the PPE (Power Processing Element, an IBM PowerPC) and a set of SIMD coprocessors, called SPEs (Synergistic Processing Elements), each with independent program counters and instruction memory, in effect a MIMD machine. In the native programming model all DMA and program scheduling is left up to the programmer. The hardware provides a fast ring bus among the processors for local communication. Because the local memory for instructions and data is limited the only programs that can exploit this architecture effectively either require a tiny memory footprint or adhere to a stream programming model. With a suitable algorithm the performance of the Cell can rival that of pure stream processors, however this nearly always requires a complete redesign of algorithms and software.
+
+
+== Stream Programming LanguagesEdit ==
+Most programming languages for stream processors start with Java, C or C++ and add extensions which provide specific instructions to allow application developers to tag kernels and/or streams. This also applies to most shading languages, which can be considered stream programming languages to a certain degree.
+Non-commercial examples of stream programming languages include:
+Ateji PX Free Edition, enables a simple expression of stream programming, the Actor model, and the MapReduce algorithm on JVM
+Auto-Pipe, from the Stream Based Supercomputing Lab at Washington University in St. Louis, an application development environment for streaming applications that allows authoring of applications for heterogeneous systems (CPU, GPGPU, FPGA). Applications can be developed in any combination of C, C++, and Java for the CPU. Verilog or VHDL for FPGAs. Cuda is currently used for Nvidia GPGPUs. Auto-Pipe also handles coordination of TCP connections between multiple machines.
+ACOTES Programming Model: language from Polytechnic University of Catalonia based on OpenMP
+Brook language from Stanford
+DUP language from Technical University of Munich and University of Denver
+RaftLib - open source C++ stream processing template library originally from the Stream Based Supercomputing Lab at Washington University in St. Louis
+Sh library from the University of Waterloo
+Shallows, an open source project
+S-Net coordination language from the University of Hertfordshire, which provides separation of coordination and algorithmic programming
+StreamIt from MIT
+WaveScript Functional stream processing, also from MIT.
+Functional reactive programming could be considered stream processing in a broad sense.
+Commercial implementations are either general purpose or tied to specific hardware by a vendor. Examples of general purpose languages include:
+AccelerEyes' Jacket, a commercialization of a GPU engine for MATLAB
+Ateji PX Java extension that enables a simple expression of stream programming, the Actor model, and the MapReduce algorithm
+Floodgate, a stream processor provided with the Gamebryo game engine for PlayStation 3, Xbox360, Wii, and PC
+OpenHMPP, a "directive" vision of Many-Core programming
+PeakStream, a spinout of the Brook project (acquired by Google in June 2007)
+IBM Spade - Stream Processing Application Declarative Engine (B. Gedik, et al. SPADE: the system S declarative stream processing engine. ACM SIGMOD 2008.)
+RapidMind, a commercialization of Sh (acquired by Intel in August 2009)
+TStreams, Hewlett-Packard Cambridge Research Lab
+Vendor-specific languages include:
+Brook+ (AMD hardware optimized implementation of Brook) from AMD/ATI
+CUDA (Compute Unified Device Architecture) from Nvidia
+Intel Ct - C for Throughput Computing
+StreamC from Stream Processors, Inc, a commercialization of the Imagine work at Stanford
+
+
+== See alsoEdit ==
+GPGPU
+MIMD
+Parallel computing
+Molecular modeling on GPU
+SIMD
+Vector processor
+Dataflow
+Partitioned global address space
+Streaming algorithm
+Data stream mining
+Dimension reduction
+Digital signal processing
+Flow-based programming
+Real Time Streaming Protocol
+Spark Streaming
+
+
+== ReferencesEdit ==
+
+
+== NotesEdit ==
+^ IEEE Journal of Solid-State Circuits:"A Programmable 512 GOPS Stream Processor for Signal, Image, and Video Processing", Stanford University and Stream Processors, Inc.
+^ Khailany, Dally, Rixner, Kapasi, Owens and Towles: "Exploring VLSI Scalability of Stream Processors", Stanford and Rice University.
+^ Gummaraju and Rosenblum, "Stream processing in General-Purpose Processors", Stanford University.
+^ Kapasi, Dally, Rixner, Khailany, Owens, Ahn and Mattson, "Programmable Stream Processors", Universities of Stanford, Rice, California (Davis) and Reservoir Labs.
+
+
+== External linksEdit ==
+Twitter Storm
+SQLstream Blaze
+Linkedin (Apache) Samza
+RaftLib C++ Streaming Library
+Microsoft StreamInsight
+Amazon Kinesis
+Software AG Apama (CEP)
+Google MillWheel
+High-Velocity Data - The Data Firehose
+Press Release Launch information for AMD's dedicated R580 GPU-based Stream Processing unit for enterprise solutions.
+StreamIt - programming language and compilation infrastructure by MIT CSAIL
+IBM Spade - Stream Processing Application Declarative Engine
+IBM InfoSphere Streams
+Database Technology for Large Scale Data
+Stream Processing summary page on statalgo

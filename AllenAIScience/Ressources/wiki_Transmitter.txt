@@ -1,0 +1,54 @@
+In electronics and telecommunications a transmitter or radio transmitter is an electronic device which, with the aid of an antenna, produces radio waves. The transmitter itself generates a radio frequency alternating current, which is applied to the antenna. When excited by this alternating current, the antenna radiates radio waves. In addition to their use in broadcasting, transmitters are necessary component parts of many electronic devices that communicate by radio, such as cell phones, wireless computer networks, Bluetooth enabled devices, garage door openers, two-way radios in aircraft, ships, spacecraft, radar sets and navigational beacons. The term transmitter is usually limited to equipment that generates radio waves for communication purposes; or radiolocation, such as radar and navigational transmitters. Generators of radio waves for heating or industrial purposes, such as microwave ovens or diathermy equipment, are not usually called transmitters even though they often have similar circuits.
+The term is popularly used more specifically to refer to a broadcast transmitter, a transmitter used in broadcasting, as in FM radio transmitter or television transmitter. This usage typically includes both the transmitter proper, the antenna, and often the building it is housed in.
+An unrelated use of the term is in industrial process control, where a "transmitter" is a telemetry device which converts measurements from a sensor into a signal, and sends it, usually via wires, to be received by some display or control device located a distance away.
+
+
+== DescriptionEdit ==
+A transmitter can be a separate piece of electronic equipment, or an electrical circuit within another electronic device. A transmitter and a receiver combined in one unit are called a transceiver. The term transmitter is often abbreviated "XMTR" or "TX" in technical documents. The purpose of most transmitters is radio communication of information over a distance. The information is provided to the transmitter in the form of an electronic signal, such as an audio (sound) signal from a microphone, a video (TV) signal from a video camera, or in wireless networking devices a digital signal from a computer. The transmitter combines the information signal to be carried with the radio frequency signal which generates the radio waves, which is often called the carrier. This process is called modulation. The information can be added to the carrier in several different ways, in different types of transmitter. In an amplitude modulation (AM) transmitter, the information is added to the radio signal by varying its amplitude. In a frequency modulation (FM) transmitter, it is added by varying the radio signal's frequency slightly. Many other types of modulation are used.
+The antenna may be enclosed inside the case or attached to the outside of the transmitter, as in portable devices such as cell phones, walkie-talkies, and garage door openers. In more powerful transmitters, the antenna may be located on top of a building or on a separate tower, and connected to the transmitter by a feed line, that is a transmission line.
+
+
+== HistoryEdit ==
+
+The first primitive radio transmitters (called Hertzian oscillators) were built by German physicist Heinrich Hertz in 1887 during his pioneering investigations of radio waves. These generated radio waves by a high voltage spark between two conductors. Beginning in 1895 Guglielmo Marconi developed the first practical radio communication systems using spark transmitters. They couldn't transmit audio and instead transmitted information by telegraphy, the operator spelling out text messages in Morse code. These spark-gap transmitters were used during the first three decades of radio (1887-1917), called the wireless telegraphy or "spark" era. Because they generated damped waves, spark transmitters were electrically "noisy"; their energy was spread over a broad band of frequencies, creating radio noise which interfered with other transmitters. Two short-lived competing transmitter technologies came into use after the turn of the century, which were the first continuous wave transmitters: the Alexanderson alternator and Poulsen arc transmitters, which were used into the 1920s.
+All these early technologies were replaced by vacuum tube transmitters in the 1920s, which used the feedback oscillator invented by Edwin Armstrong and Alexander Meissner around 1912, based on the Audion (triode) vacuum tube invented by Lee De Forest in 1906. Vacuum tube transmitters took over because they were inexpensive and produced continuous waves, which could be modulated to transmit audio (sound) using amplitude modulation (AM). This made possible commercial AM radio broadcasting, which began in about 1920. Practical frequency modulation (FM) transmission was invented by Edwin Armstrong in 1933, who showed that it was less vulnerable to noise and static than AM, and the first FM radio station was licensed in 1937. Experimental television transmission had been conducted by radio stations since the late 1920s, but practical television broadcasting didn't begin until the 1940s. The development of radar during World War 2 was a great stimulus to the evolution of high frequency transmitters in the UHF and microwave ranges, using new devices such as the magnetron, klystron, and traveling wave tube. The invention of the transistor allowed the development in the 1960s of small portable transmitters such as wireless microphones and walkie-talkies, although the first walkie-talkie was actually produced for the military during World War 2 using vacuum tubes. In recent years, the need to conserve crowded radio spectrum bandwidth has driven the development of new types of transmitters such as spread spectrum.
+
+
+== How it worksEdit ==
+A radio transmitter is an electronic circuit which transforms electric power from a battery or electrical mains into a radio frequency alternating current, which reverses direction millions to billions of times per second. The energy in such a rapidly reversing current can radiate off a conductor (the antenna) as electromagnetic waves (radio waves). The transmitter also impresses information such as an audio or video signal onto the radio frequency current to be carried by the radio waves. When they strike the antenna of a radio receiver, the waves excite similar (but less powerful) radio frequency currents in it. The radio receiver extracts the information from the received waves. A practical radio transmitter usually consists of these parts:
+A power supply circuit to transform the input electrical power to the higher voltages needed to produce the required power output.
+An electronic oscillator circuit to generate the radio frequency signal. This usually generates a sine wave of constant amplitude often called the carrier wave, because it serves to "carry" the information through space. In most modern transmitters this is a crystal oscillator in which the frequency is precisely controlled by the vibrations of a quartz crystal.
+A modulator circuit to add the information to be transmitted to the carrier wave produced by the oscillator. This is done by varying some aspect of the carrier wave. The information is provided to the transmitter either in the form of an audio signal, which represents sound, a video signal, or for data in the form of a binary digital signal.
+In an AM (amplitude modulation) transmitter the amplitude (strength) of the carrier wave is varied in proportion to the modulation signal.
+In an FM (frequency modulation) transmitter the frequency of the carrier is varied by the modulation signal.
+In an FSK (frequency-shift keying) transmitter, which transmits digital data, the frequency of the carrier is shifted between two frequencies which represent the two binary digits, 0 and 1.
+
+Many other types of modulation are also used. In large transmitters the oscillator and modulator together are often referred to as the exciter.
+An RF amplifier to increase the power of the signal, to increase the range of the radio waves.
+An impedance matching (antenna tuner) circuit to match the impedance of the transmitter to the impedance of the antenna (or the transmission line to the antenna), to transfer power efficiently to the antenna. If these impedances are not equal, it causes a condition called standing waves, in which the power is reflected back from the antenna toward the transmitter, wasting power and sometimes overheating the transmitter.
+In higher frequency transmitters, in the UHF and microwave range, oscillators that operate stably at the output frequency cannot be built. In these transmitters the oscillator usually operates at a lower frequency, and is multiplied by frequency multipliers to get a signal at the desired frequency.
+
+
+== Legal restrictionsEdit ==
+In most parts of the world, use of transmitters is strictly controlled by law because of the potential for dangerous interference with other radio transmissions (for example to emergency communications). Transmitters must be licensed by governments, under a variety of license classes depending on use such as broadcast, marine radio, Airband, Amateur and are restricted to certain frequencies and power levels. In some classes each transmitter is given a unique call sign consisting of a string of letters and numbers which must be used as an identifier in transmissions. The operator of the transmitter usually must hold a government license, such as a general radiotelephone operator license, which is obtained by passing a test demonstrating adequate technical and legal knowledge of safe radio operation.
+An exception is made allowing the unlicensed use of low-power short-range transmitters in devices such as cell phones, cordless telephones, wireless microphones, walkie-talkies, Wifi and Bluetooth devices, garage door openers, and baby monitors. In the US, these fall under Part 15 of the Federal Communications Commission (FCC) regulations. Although they can be operated without a license, these devices still generally must be type-approved before sale.
+
+
+== See alsoEdit ==
+List of famous transmission sites
+Radio transmitter design
+Transmitter station
+Transposer
+TV transmitter
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+International Telecommunication Union
+Jim Hawkins' Radio and Broadcast Technology Page
+WCOV-TV's Transmitter Technical Website
+Major UK television transmitters including change of group information, see Transmitter Planning section.
+Details of UK digital television transmitters
+Richard Moore's Anorak Zone Photo Gallery of UK TV and Radio transmission sites

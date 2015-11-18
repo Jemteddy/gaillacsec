@@ -1,0 +1,246 @@
+A multi-core processor is a single computing component with two or more independent actual processing units (called "cores"), which are the units that read and execute program instructions. The instructions are ordinary CPU instructions such as add, move data, and branch, but the multiple cores can run multiple instructions at the same time, increasing overall speed for programs amenable to parallel computing. Manufacturers typically integrate the cores onto a single integrated circuit die (known as a chip multiprocessor or CMP), or onto multiple dies in a single chip package.
+Processors were originally developed with only one core. In the mid 1980s Rockwell International manufactured versions of the 6502 with two 6502 cores on one chip as the R65C00, R65C21, and R65C29, sharing the chip's pins on alternate clock phases. Other multi-core processors were developed in the early 2000s by Intel, AMD and others.
+Multi-core processors may have two cores (dual-core CPUs, for example, AMD Phenom II X2 and Intel Core Duo), three cores (tri-core CPUs, for example, AMD Phenom II X3), four cores (quad-core CPUs, for example, AMD Phenom II X4, Intel's i5 and i7 processors), six cores (hexa-core CPUs, for example, AMD Phenom II X6 and Intel Core i7 Extreme Edition 980X), eight cores (octa-core CPUs, for example, Intel Xeon E7-2820 and AMD FX-8350), ten cores (deca-core CPUs, for example, Intel Xeon E7-2850), or more.
+A multi-core processor implements multiprocessing in a single physical package. Designers may couple cores in a multi-core device tightly or loosely. For example, cores may or may not share caches, and they may implement message passing or shared-memory inter-core communication methods. Common network topologies to interconnect cores include bus, ring, two-dimensional mesh, and crossbar. Homogeneous multi-core systems include only identical cores, heterogeneous multi-core systems have cores that are not identical. Just as with single-processor systems, cores in multi-core systems may implement architectures such as VLIW, superscalar, vector, or multithreading.
+Multi-core processors are widely used across many application domains including general-purpose, embedded, network, digital signal processing (DSP), and graphics (GPU).
+The improvement in performance gained by the use of a multi-core processor depends very much on the software algorithms used and their implementation. In particular, possible gains are limited by the fraction of the software that can be run in parallel simultaneously on multiple cores; this effect is described by Amdahl's law. In the best case, so-called embarrassingly parallel problems may realize speedup factors near the number of cores, or even more if the problem is split up enough to fit within each core's cache(s), avoiding use of much slower main system memory. Most applications, however, are not accelerated so much unless programmers invest a prohibitive amount of effort in re-factoring the whole problem. The parallelization of software is a significant ongoing topic of research.
+
+
+== TerminologyEdit ==
+The terms multi-core and dual-core most commonly refer to some sort of central processing unit (CPU), but are sometimes also applied to digital signal processors (DSP) and system-on-a-chip (SoC). The terms are generally used only to refer to multi-core microprocessors that are manufactured on the same integrated circuit die; separate microprocessor dies in the same package are generally referred to by another name, such as multi-chip module. This article uses the terms "multi-core" and "dual-core" for CPUs manufactured on the same integrated circuit, unless otherwise noted.
+In contrast to multi-core systems, the term multi-CPU refers to multiple physically separate processing-units (which often contain special circuitry to facilitate communication between each other).
+The terms many-core and massively multi-core are sometimes used to describe multi-core architectures with an especially high number of cores (tens or hundreds).
+Some systems use many soft microprocessor cores placed on a single FPGA. Each "core" can be considered a "semiconductor intellectual property core" as well as a CPU core.
+
+
+== DevelopmentEdit ==
+While manufacturing technology improves, reducing the size of individual gates, physical limits of semiconductor-based microelectronics have become a major design concern. These physical limitations can cause significant heat dissipation and data synchronization problems. Various other methods are used to improve CPU performance. Some instruction-level parallelism (ILP) methods such as superscalar pipelining are suitable for many applications, but are inefficient for others that contain difficult-to-predict code. Many applications are better suited to thread-level parallelism (TLP) methods, and multiple independent CPUs are commonly used to increase a system's overall TLP. A combination of increased available space (due to refined manufacturing processes) and the demand for increased TLP led to the development of multi-core CPUs.
+
+
+=== Commercial incentivesEdit ===
+Several business motives drive the development of multi-core architectures. For decades, it was possible to improve performance of a CPU by shrinking the area of the integrated circuit (IC), which drove down the cost per device on the IC. Alternatively, for the same circuit area, more transistors could be used in the design, which increased functionality, especially for complex instruction set computing (CISC) architectures. Clock rates also increased by orders of magnitude in the decades of the late 20th century, from several megahertz in the 1980s to several gigahertz in the early 2000s.
+As the rate of clock speed improvements slowed, increased use of parallel computing in the form of multi-core processors has been pursued to improve overall processing performance. Multiple cores were used on the same CPU chip, which could then lead to better sales of CPU chips with two or more cores. Intel has produced a 48-core processor for research in cloud computing; each core has an x86 architecture.
+
+
+=== Technical factorsEdit ===
+Since computer manufacturers have long implemented symmetric multiprocessing (SMP) designs using discrete CPUs, the issues regarding implementing multi-core processor architecture and supporting it with software are well known.
+Additionally:
+Using a proven processing-core design without architectural changes reduces design risk significantly.
+For general-purpose processors, much of the motivation for multi-core processors comes from greatly diminished gains in processor performance from increasing the operating frequency. This is due to three primary factors:
+The memory wall; the increasing gap between processor and memory speeds. This, in effect, pushes for cache sizes to be larger in order to mask the latency of memory. This helps only to the extent that memory bandwidth is not the bottleneck in performance.
+The ILP wall; the increasing difficulty of finding enough parallelism in a single instruction stream to keep a high-performance single-core processor busy.
+The power wall; the trend of consuming exponentially increasing power with each factorial increase of operating frequency. This increase can be mitigated by "shrinking" the processor by using smaller traces for the same logic. The power wall poses manufacturing, system design and deployment problems that have not been justified in the face of the diminished gains in performance due to the memory wall and ILP wall.
+
+In order to continue delivering regular performance improvements for general-purpose processors, manufacturers such as Intel and AMD have turned to multi-core designs, sacrificing lower manufacturing-costs for higher performance in some applications and systems. Multi-core architectures are being developed, but so are the alternatives. An especially strong contender for established markets is the further integration of peripheral functions into the chip.
+
+
+=== AdvantagesEdit ===
+The proximity of multiple CPU cores on the same die allows the cache coherency circuitry to operate at a much higher clock rate than is possible if the signals have to travel off-chip. Combining equivalent CPUs on a single die significantly improves the performance of cache snoop (alternative: Bus snooping) operations. Put simply, this means that signals between different CPUs travel shorter distances, and therefore those signals degrade less. These higher-quality signals allow more data to be sent in a given time period, since individual signals can be shorter and do not need to be repeated as often.
+Assuming that the die can physically fit into the package, multi-core CPU designs require much less printed circuit board (PCB) space than do multi-chip SMP designs. Also, a dual-core processor uses slightly less power than two coupled single-core processors, principally because of the decreased power required to drive signals external to the chip. Furthermore, the cores share some circuitry, like the L2 cache and the interface to the front-side bus (FSB). In terms of competing technologies for the available silicon die area, multi-core design can make use of proven CPU core library designs and produce a product with lower risk of design error than devising a new wider-core design. Also, adding more cache suffers from diminishing returns.
+Multi-core chips also allow higher performance at lower energy. This can be a big factor in mobile devices that operate on batteries. Since each core in a multi-core CPU is generally more energy-efficient, the chip becomes more efficient than having a single large monolithic core. This allows higher performance with less energy. The challenge of writing parallel code clearly offsets this benefit.
+
+
+=== DisadvantagesEdit ===
+Maximizing the usage of the computing resources provided by multi-core processors requires adjustments both to the operating system (OS) support and to existing application software. Also, the ability of multi-core processors to increase application performance depends on the use of multiple threads within applications.
+Integration of a multi-core chip drives chip production yields down. They are also more difficult to manage thermally than lower-density single-core designs. Intel has partially countered this first problem by creating its quad-core designs by combining two dual-core ones on a single die with a unified cache, hence any two working dual-core dies can be used, as opposed to producing four cores on a single die and requiring all four to work to produce a quad-core CPU. From an architectural point of view, ultimately, single CPU designs may make better use of the silicon surface area than multiprocessing cores, so a development commitment to this architecture may carry the risk of obsolescence. Finally, raw processing power is not the only constraint on system performance. Two processing cores sharing the same system bus and memory bandwidth limits the real-world performance advantage. It has been claimed that if a single core is close to being memory-bandwidth limited, then going to dual-core might give 30% to 70% improvement; if memory bandwidth is not a problem, then a 90% improvement can be expected; however, Amdahl's law makes this claim dubious. It would be possible for an application that used two CPUs to end up running faster on a dual-core one if communication between the CPUs was the limiting factor, which would count as more than 100% improvement.
+
+
+== HardwareEdit ==
+
+
+=== TrendsEdit ===
+The trend in processor development has been towards an ever increasing number of cores, as processors with hundreds or even thousands of cores become theoretically possible. In addition, multi-core chips mixed with simultaneous multithreading, memory-on-chip, and special-purpose "heterogeneous" cores promise further performance and efficiency gains, especially in processing multimedia, recognition and networking applications. There is also a trend towards improving energy-efficiency by focusing on performance-per-watt with advanced fine-grain or ultra fine-grain power management and dynamic voltage and frequency scaling (i.e. laptop computers and portable media players).
+
+
+=== ArchitectureEdit ===
+The composition and balance of the cores in multi-core architecture show great variety. Some architectures use one core design repeated consistently ("homogeneous"), while others use a mixture of different cores, each optimized for a different, "heterogeneous" role.
+The article "CPU designers debate multi-core future" by Rick Merritt, EE Times 2008, includes these comments:
+
+Chuck Moore [...] suggested computers should be like cellphones, using a variety of specialty cores to run modular software scheduled by a high-level applications programming interface.
+[...] Atsushi Hasegawa, a senior chief engineer at Renesas, generally agreed. He suggested the cellphone's use of many specialty cores working in concert is a good model for future multi-core designs.
+[...] Anant Agarwal, founder and chief executive of startup Tilera, took the opposing view. He said multi-core chips need to be homogeneous collections of general-purpose cores to keep the software model simple.
+
+
+== Software effectsEdit ==
+An outdated version of an anti-virus application may create a new thread for a scan process, while its GUI thread waits for commands from the user (e.g. cancel the scan). In such cases, a multi-core architecture is of little benefit for the application itself due to the single thread doing all the heavy lifting and the inability to balance the work evenly across multiple cores. Programming truly multithreaded code often requires complex co-ordination of threads and can easily introduce subtle and difficult-to-find bugs due to the interweaving of processing on data shared between threads (thread-safety). Consequently, such code is much more difficult to debug than single-threaded code when it breaks. There has been a perceived lack of motivation for writing consumer-level threaded applications because of the relative rarity of consumer-level demand for maximum use of computer hardware. Although threaded applications incur little additional performance penalty on single-processor machines, the extra overhead of development has been difficult to justify due to the preponderance of single-processor machines. Also, serial tasks like decoding the entropy encoding algorithms used in video codecs are impossible to parallelize because each result generated is used to help create the next result of the entropy decoding algorithm.
+Given the increasing emphasis on multi-core chip design, stemming from the grave thermal and power consumption problems posed by any further significant increase in processor clock speeds, the extent to which software can be multithreaded to take advantage of these new chips is likely to be the single greatest constraint on computer performance in the future. If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling.
+The telecommunications market had been one of the first that needed a new design of parallel datapath packet processing because there was a very quick adoption of these multiple-core processors for the datapath and the control plane. These MPUs are going to replace the traditional Network Processors that were based on proprietary micro- or pico-code.
+Parallel programming techniques can benefit from multiple cores directly. Some existing parallel programming models such as Cilk Plus, OpenMP, OpenHMPP, FastFlow, Skandium, MPI, and Erlang can be used on multi-core platforms. Intel introduced a new abstraction for C++ parallelism called TBB. Other research efforts include the Codeplay Sieve System, Cray's Chapel, Sun's Fortress, and IBM's X10.
+Multi-core processing has also affected the ability of modern computational software development. Developers programming in newer languages might find that their modern languages do not support multi-core functionality. This then requires the use of numerical libraries to access code written in languages like C and Fortran, which perform math computations faster than newer languages like C#. Intel's MKL and AMD's ACML are written in these native languages and take advantage of multi-core processing. Balancing the application workload across processors can be problematic, especially if they have different performance characteristics. There are different conceptual models to deal with the problem, for example using a coordination language and program building blocks (programming libraries or higher-order functions). Each block can have a different native implementation for each processor type. Users simply program using these abstractions and an intelligent compiler chooses the best implementation based on the context.
+Managing concurrency acquires a central role in developing parallel applications. The basic steps in designing parallel applications are:
+Partitioning 
+The partitioning stage of a design is intended to expose opportunities for parallel execution. Hence, the focus is on defining a large number of small tasks in order to yield what is termed a fine-grained decomposition of a problem.
+Communication 
+The tasks generated by a partition are intended to execute concurrently but cannot, in general, execute independently. The computation to be performed in one task will typically require data associated with another task. Data must then be transferred between tasks so as to allow computation to proceed. This information flow is specified in the communication phase of a design.
+Agglomeration 
+In the third stage, development moves from the abstract toward the concrete. Developers revisit decisions made in the partitioning and communication phases with a view to obtaining an algorithm that will execute efficiently on some class of parallel computer. In particular, developers consider whether it is useful to combine, or agglomerate, tasks identified by the partitioning phase, so as to provide a smaller number of tasks, each of greater size. They also determine whether it is worthwhile to replicate data and computation.
+Mapping 
+In the fourth and final stage of the design of parallel algorithms, the developers specify where each task is to execute. This mapping problem does not arise on uniprocessors or on shared-memory computers that provide automatic task scheduling.
+On the other hand, on the server side, multi-core processors are ideal because they allow many users to connect to a site simultaneously and have independent threads of execution. This allows for Web servers and application servers that have much better throughput.
+
+
+=== LicensingEdit ===
+Vendors may license some software "per processor". This can give rise to ambiguity, because a "processor" may consist either of a single core or of a combination of cores.
+Microsoft has stated that it would treat a socket as a single processor.
+Oracle Corporation counts an AMD X2 or an Intel dual-core CPU as a single processor but uses other metrics for other types, especially for processors with more than two cores.
+
+
+== Embedded applicationsEdit ==
+Embedded computing operates in an area of processor technology distinct from that of "mainstream" PCs. The same technological drives towards multi-core apply here too. Indeed, in many cases the application is a "natural" fit for multi-core technologies, if the task can easily be partitioned between the different processors.
+In addition, embedded software is typically developed for a specific hardware release, making issues of software portability, legacy code or supporting independent developers less critical than is the case for PC or enterprise computing. As a result, it is easier for developers to adopt new technologies and as a result there is a greater variety of multi-core processing architectures and suppliers.
+As of 2010, multi-core network processing devices have become mainstream, with companies such as Freescale Semiconductor, Cavium Networks, Wintegra and Broadcom all manufacturing products with eight processors. For the system developer, a key challenge is how to exploit all the cores in these devices to achieve maximum networking performance at the system level, despite the performance limitations inherent in an SMP operating system. To address this issue, companies such as 6WIND provide portable packet processing software designed so that the networking data plane runs in a fast path environment outside the OS, while retaining full compatibility with standard OS APIs.
+In digital signal processing the same trend applies: Texas Instruments has the three-core TMS320C6488 and four-core TMS320C5441, Freescale the four-core MSC8144 and six-core MSC8156 (and both have stated they are working on eight-core successors). Newer entries include the Storm-1 family from Stream Processors, Inc with 40 and 80 general purpose ALUs per chip, all programmable in C as a SIMD engine and Picochip with three-hundred processors on a single die, focused on communication applications.
+
+
+== Hardware examplesEdit ==
+
+
+=== CommercialEdit ===
+Adapteva Epiphany, a many-core processor architecture which allows up to 4096 processors on-chip, although only a 16 core version has been commercially produced.
+Aeroflex Gaisler LEON3, a multi-core SPARC that also exists in a fault-tolerant version.
+Ageia PhysX, a multi-core physics processing unit.
+Ambric Am2045, a 336-core Massively Parallel Processor Array (MPPA)
+AMD
+A-Series, dual-, triple-, and quad-core of Accelerated Processor Units (APU).
+Athlon 64, Athlon 64 FX and Athlon 64 X2 family, dual-core desktop processors.
+Athlon II, dual-, triple-, and quad-core desktop processors.
+FX-Series, quad-, 6-, and 8-core desktop processors.
+Opteron, dual-, quad-, 6-, 8-, 12-, and 16-core server/workstation processors.
+Phenom, dual-, triple-, and quad-core processors.
+Phenom II, dual-, triple-, quad-, and 6-core desktop processors.
+Sempron X2, dual-core entry level processors.
+Turion 64 X2, dual-core laptop processors.
+Radeon and FireStream multi-core GPU/GPGPU (10 cores, 16 5-issue wide superscalar stream processors per core)
+
+Analog Devices Blackfin BF561, a symmetrical dual-core processor
+ARM MPCore is a fully synthesizable multi-core container for ARM11 MPCore and ARM Cortex-A9 MPCore processor cores, intended for high-performance embedded and entertainment applications.
+ASOCS ModemX, up to 128 cores, wireless applications.
+Azul Systems
+Vega 1, a 24-core processor, released in 2005.
+Vega 2, a 48-core processor, released in 2006.
+Vega 3, a 54-core processor, released in 2008.
+
+Broadcom SiByte SB1250, SB1255, SB1455; BCM 2836 quad-core ARM SoC (designed for the Raspberry Pi 2)
+ClearSpeed
+CSX700, 192-core processor, released in 2008 (32/64-bit floating point; Integer ALU)
+
+Cradle Technologies CT3400 and CT3600, both multi-core DSPs.
+Cavium Networks Octeon, a 32-core MIPS MPU.
+Freescale Semiconductor QorIQ series processors, up to 8 cores, Power Architecture MPU.
+Hewlett-Packard PA-8800 and PA-8900, dual core PA-RISC processors.
+IBM
+POWER4, a dual-core PowerPC processor, released in 2001.
+POWER5, a dual-core PowerPC processor, released in 2004.
+POWER6, a dual-core PowerPC processor, released in 2007.
+POWER7, a 4,6,8-core PowerPC processor, released in 2010.
+POWER8, a 12-core PowerPC processor, released in 2013.
+PowerPC 970MP, a dual-core PowerPC processor, used in the Apple Power Mac G5.
+Xenon, a triple-core, SMT-capable, PowerPC microprocessor used in the Microsoft Xbox 360 game console.
+z10, a quad-core z/Architecture processor, released in 2008
+z196, a quad-core z/Architecture processor, released in 2010
+zEC12, a six-core z/Architecture processor, released in 2012
+z13, an eight-core z/Architecture processor, released in 2015
+
+Kalray
+MPPA-256, 256-core processor, released 2012 (256 usable VLIW cores, Network-on-Chip (NoC), 32/64-bit IEEE 754 compliant FPU)
+
+Sony/IBM/Toshiba's Cell processor, a nine-core processor with one general purpose PowerPC core and eight specialized SPUs (Synergystic Processing Unit) optimized for vector operations used in the Sony PlayStation 3
+Infineon
+AURIX
+Danube, a dual-core, MIPS-based, home gateway processor.
+
+Intel
+Atom, single and dual-core processors for netbook systems.
+Celeron Dual-Core, the first dual-core processor for the budget/entry-level market.
+Core Duo, a dual-core processor.
+Core 2 Duo, a dual-core processor.
+Core 2 Quad, 2 dual-core dies packaged in a multi-chip module.
+Core i3, Core i5 and Core i7, a family of multi-core processors, the successor of the Core 2 Duo and the Core 2 Quad.
+Itanium 2, a dual-core processor.
+Pentium D, 2 single-core dies packaged in a multi-chip module.
+Pentium Extreme Edition, 2 single-core dies packaged in a multi-chip module.
+Pentium Dual-Core, a dual-core processor.
+Teraflops Research Chip (Polaris), a 3.16 GHz, 80-core processor prototype, which the company originally stated would be released by 2011.
+Xeon dual-, quad-, 6-, 8-, 10-, 12-, 14-, 15-, 16-, and 18-core processors.
+Xeon Phi 57-core, 60-core and 61-core processors.
+
+IntellaSys
+SEAforth 40C18, a 40-core processor
+SEAforth24, a 24-core processor designed by Charles H. Moore
+
+NetLogic Microsystems
+XLP, a 32-core, quad-threaded MIPS64 processor
+XLR, an eight-core, quad-threaded MIPS64 processor
+XLS, an eight-core, quad-threaded MIPS64 processor
+
+Nvidia
+GeForce 9 multi-core GPU (8 cores, 16 scalar stream processors per core)
+GeForce 200 multi-core GPU (10 cores, 24 scalar stream processors per core)
+Tesla multi-core GPGPU (10 cores, 24 scalar stream processors per core)
+
+Parallax Propeller P8X32, an eight-core microcontroller.
+picoChip PC200 series 200–300 cores per device for DSP & wireless
+Plurality HAL series tightly coupled 16-256 cores, L1 shared memory, hardware synchronized processor.
+Rapport Kilocore KC256, a 257-core microcontroller with a PowerPC core and 256 8-bit "processing elements".
+SiCortex "SiCortex node" has six MIPS64 cores on a single chip.
+Sun Microsystems
+MAJC 5200, two-core VLIW processor
+UltraSPARC IV and UltraSPARC IV+, dual-core processors.
+UltraSPARC T1, an eight-core, 32-thread processor.
+UltraSPARC T2, an eight-core, 64-concurrent-thread processor.
+UltraSPARC T3, a sixteen-core, 128-concurrent-thread processor.
+SPARC T4, an eight-core, 64-concurrent-thread processor.
+SPARC T5, a sixteen-core, 128-concurrent-thread processor.
+
+Texas Instruments
+TMS320C80 MVP, a five-core multimedia video processor.
+TMS320TMS320C66, 2,4,8 core dsp.
+
+Tilera
+TILE64, a 64-core 32-bit processor
+TILE-Gx, a 72-core 64-bit processor
+
+XMOS Software Defined Silicon quad-core XS1-G4
+
+
+=== FreeEdit ===
+OpenSPARC
+
+
+=== AcademicEdit ===
+MIT, 16-core RAW processor
+University of California, Davis, Asynchronous array of simple processors (AsAP)
+36-core 610 MHz AsAP
+167-core 1.2 GHz AsAP2
+
+University of Washington, Wavescalar processor
+University of Texas, Austin, TRIPS processor
+Linköping University, Sweden, ePUMA processor
+
+
+== BenchmarksEdit ==
+The research and development of multicore processors often compares many options, and benchmarks are developed to help such evaluations. Existing benchmarks include SPLASH-2, PARSEC, and COSMIC for heterogeneous systems.
+
+
+== NotesEdit ==
+^ Digital signal processors (DSPs) have used multi-core architectures for much longer than high-end general-purpose processors. A typical example of a DSP-specific implementation would be a combination of a RISC CPU and a DSP MPU. This allows for the design of products that require a general-purpose processor for user interfaces and a DSP for real-time data processing; this type of design is common in mobile phones. In other applications, a growing number of companies have developed multi-core DSPs with very large numbers of processors.
+^ Two types of operating systems are able to use a dual-CPU multiprocessor: partitioned multiprocessing and symmetric multiprocessing (SMP). In a partitioned architecture, each CPU boots into separate segments of physical memory and operate independently; in an SMP OS, processors work in a shared space, executing threads within the OS independently.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Khondker S. Hasan, John Antonio, Sridhar Radhakrishnan. A New Composite CPU/Memory Model for Predicting Efficiency of Multi-core Processing. The 20th IEEE International Conference on High Performance Computer Architecture (HPCA-14) workshop. Orlando, FL, USA. doi:10.13140/RG.2.1.3051.9207. 
+Khondker S. Hasan, Nicolas G. Grounds, John K. Antonio (July 2011). Predicting CPU Availability of a Multi-core Processor Executing Concurrent Java Threads. 17th International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA-11). Las Vegas, Nevada, USA. pp. 551–557. 
+
+
+== External linksEdit ==
+What Is A Processor Core?
+Embedded moves to multicore
+Multicore News blog
+IEEE: Multicore Is Bad News For Supercomputers
+Architecting solutions for the Manycore future, published on Feb 19, 2010 (more than one dead link in the slide)

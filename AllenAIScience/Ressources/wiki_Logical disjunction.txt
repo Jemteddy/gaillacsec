@@ -1,0 +1,95 @@
+In logic and mathematics, or is the truth-functional operator of (inclusive) disjunction, also known as alternation; the or of a set of operands is true if and only if one or more of its operands is true. The logical connective that represents this operator is typically written as ∨ or +.
+"A or B" is true if A is true, or if B is true, or if both A and B are true.
+In logic, or by itself means the inclusive or, distinguished from an exclusive or, which is false when both of its arguments are true, while an "or" is true in that case.
+An operand of a disjunction is called a disjunct.
+Related concepts in other fields are:
+In natural language, the coordinating conjunction "or".
+In programming languages, the short-circuit or control structure.
+In set theory, union.
+In predicate logic, existential quantification.
+
+
+== NotationEdit ==
+Or is usually expressed with an infix operator: in mathematics and logic, ∨; in electronics, +; and in most programming languages, |, ||, or or. In Jan Łukasiewicz's prefix notation for logic, the operator is A, for Polish alternatywa.
+
+
+== DefinitionEdit ==
+Logical disjunction is an operation on two logical values, typically the values of two propositions, that has a value of false if and only if both of its operands are false. More generally, a disjunction is a logical formula that can have one or more literals separated only by ORs. A single literal is often considered to be a degenerate disjunction.
+The disjunctive identity is false, which is to say that the or of an expression with false has the same value as the original expression. In keeping with the concept of vacuous truth, when disjunction is defined as an operator or function of arbitrary arity, the empty disjunction (OR-ing over an empty set of operands) is generally defined as false.
+
+
+=== Truth tableEdit ===
+
+The truth table of :
+
+
+== PropertiesEdit ==
+Commutativity
+Associativity
+Distributivity with various operations, especially with and
+Idempotency
+Monotonicity
+Truth-preserving validity
+When all inputs are true, the output is true.
+False-preserving validity
+When all inputs are false, the output is false.
+Walsh spectrum: (3,-1,-1,-1)
+Nonlinearity: 1 (the function is bent)
+If using binary values for true (1) and false (0), then logical disjunction works almost like binary addition. The only difference is that , while .
+
+
+== SymbolEdit ==
+The mathematical symbol for logical disjunction varies in the literature. In addition to the word "or", and the formula "Apq", the symbol "", deriving from the Latin word vel (“either”, “or”) is commonly used for disjunction. For example: "A  B " is read as "A or B ". Such a disjunction is false if both A and B are false. In all other cases it is true.
+All of the following are disjunctions:
+
+The corresponding operation in set theory is the set-theoretic union.
+
+
+== Applications in computer scienceEdit ==
+
+Operators corresponding to logical disjunction exist in most programming languages.
+
+
+=== Bitwise operationEdit ===
+Disjunction is often used for bitwise operations. Examples:
+0 or 0 = 0
+0 or 1 = 1
+1 or 0 = 1
+1 or 1 = 1
+1010 or 1100 = 1110
+The or operator can be used to set bits in a bit field to 1, by or-ing the field with a constant field with the relevant bits set to 1. For example, x = x | 0b00000001 will force the final bit to 1 while leaving other bits unchanged.
+
+
+=== Logical operationEdit ===
+Many languages distinguish between bitwise and logical disjunction by providing two distinct operators; in languages following C, bitwise disjunction is performed with the single pipe (|) and logical disjunction with the double pipe (||) operators.
+Logical disjunction is usually short-circuited; that is, if the first (left) operand evaluates to true then the second (right) operand is not evaluated. The logical disjunction operator thus usually constitutes a sequence point.
+ In a parallel (concurrent) language, it is possible to short-circuit both sides: they are evaluated in parallel, and if one terminates with value true, the other is interrupted. This operator is thus called the parallel or.
+Although in most languages the type of a logical disjunction expression is boolean and thus can only have the value true or false, in some (such as Python and JavaScript) the logical disjunction operator returns one of its operands: the first operand if it evaluates to a true value, and the second operand otherwise.
+
+
+=== Constructive disjunctionEdit ===
+The Curry–Howard correspondence relates a constructivist form of disjunction to tagged union types.
+
+
+== UnionEdit ==
+The membership of an element of an union set in set theory is defined in terms of a logical disjunction: x ∈ A ∪ B if and only if (x ∈ A) ∨ (x ∈ B). Because of this, logical disjunction satisfies many of the same identities as set-theoretic union, such as associativity, commutativity, distributivity, and de Morgan's laws.
+
+
+== Natural languageEdit ==
+As with other notions formalized in mathematical logic, the meaning of the natural-language coordinating conjunction or is closely related to, but different from the logical or. For example, "Please ring me or send an email" likely means "do one or the other, but not both". On the other hand, "Her grades are so good that she's either very bright or studies hard" does not exclude the possibility of both. In other words, in ordinary language "or" can mean the inclusive or exclusive or.
+
+
+== See alsoEdit ==
+
+
+== NotesEdit ==
+George Boole, closely following analogy with ordinary mathematics, premised, as a necessary condition to the definition of "x + y", that x and y were mutually exclusive. Jevons, and practically all mathematical logicians after him, advocated, on various grounds, the definition of "logical addition" in a form which does not necessitate mutual exclusiveness.
+
+
+== External linksEdit ==
+Hazewinkel, Michiel, ed. (2001), "Disjunction", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Stanford Encyclopedia of Philosophy entry
+Eric W. Weisstein. "Disjunction." From MathWorld--A Wolfram Web Resource
+
+
+== ReferencesEdit ==

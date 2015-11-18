@@ -1,0 +1,45 @@
+SharpDevelop (also styled as #develop) is a free and open source integrated development environment (IDE) for the .NET Framework, Mono, Gtk# and Glade# platforms. It supports development in C#, Visual Basic .NET, Boo, F#, IronPython and IronRuby programming languages.
+It was designed as a free and lightweight alternative to Microsoft Visual Studio, and contains an equivalent feature for almost every essential Visual Studio Express feature, including features for project management, code editing, application compiling and debugging. To allow for easy project migration, SharpDevelop works natively with Visual Studio project and code files. It is able to compile applications for .NET Framework version 2.0, 3.0, 3.5, 4.0 and the .NET Compact Framework 2.0 and 3.5.
+Although not as widespread as the Visual Studio line of products, SharpDevelop is fairly popular and as of 2013 has been downloaded at least 8 million times worldwide, and has been documented in the book Dissecting a C# Application: Inside SharpDevelop (2003) published by its creators.
+SharpDevelop is written entirely in C# and consists of about 20 components that integrate to form the application. The source code editor component is known as AvalonEdit and can be used by other applications. Early in its development the project was split for Mono and Gtk# development into the MonoDevelop project.
+
+
+== Features ==
+SharpDevelop includes features very similar to those found in Visual Studio, or Delphi/Kylix, including a GUI Designer, Code/Design views, Syntax highlighting, Auto completion menus (similar to IntelliSense) the ability to compile and debug form/console .NET Framework applications, the New Project wizard, Toolbars, Menus, Panels, and a Panel docking system.
+SharpDevelop integrates Graphic User Interface Designers for the C#, VB.NET, Boo, and the IronPython and IronRuby languages, using the following GUI technologies:
+Windows Forms
+Windows Presentation Foundation (WPF)
+Entity Framework
+SharpDevelop has in-built code refactoring tools, such as to create or modify functions and properties. It has an integrated debugger that allows for stepping, viewing values of objects in memory, and breakpoints. It also includes ILSpy, a decompiler for IL assemblies, so debugging third-party assemblies without source code is also possible.
+It also includes functionality for:
+External COM and ActiveX components
+Code analysis (FxCop)
+Unit testing (NUnit)
+Code coverage (PartCover)
+Profiler
+Subversion (TortoiseSVN)
+Git
+Mercurial
+StyleCop addin
+Documentation generation (Sandcastle, SHFB)
+Plugins
+
+
+== History ==
+On the 11th September of 2000 Mike Kruger launched the project, while testing the first public release of .Net Framework 1.0. At that time there was no IDE publicly available. So he decided to write a code editor to run the compiler.
+
+
+== See also ==
+
+Comparison of integrated development environments
+Software development kit
+.NET Framework § Standardization and licensing
+
+
+== References ==
+
+
+== External links ==
+Official website
+SharpDevelop at CodePlex
+SharpDevelop at SourceForge

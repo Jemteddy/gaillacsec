@@ -1,0 +1,43 @@
+In statistics, sampling error is incurred when the statistical characteristics of a population are estimated from a subset, or sample, of that population. Since the sample does not include all members of the population, statistics on the sample, such as means and quantiles, generally differ from statistics on the entire population. For example, if one measures the height of a thousand individuals from a country of one million, the average height of the thousand is typically not the same as the average height of all one million people in the country. Since sampling is typically done to determine the characteristics of a whole population, the difference between the sample and population values is considered a sampling error. Exact measurement of sampling error is generally not feasible since the true population values are unknown; however, sampling error can often be estimated by probabilistic modeling of the sample.
+
+
+== DescriptionEdit ==
+
+
+=== Random samplingEdit ===
+
+In statistics, sampling error is the error caused by observing a sample instead of the whole population. The sampling error is the difference between a sample statistic used to estimate a population parameter and the actual but unknown value of the parameter (Bunns & Grove, 2009). An estimate of a quantity of interest, such as an average or percentage, will generally be subject to sample-to-sample variation. These variations in the possible sample values of a statistic can theoretically be expressed as sampling errors, although in practice the exact sampling error is typically unknown. Sampling error also refers more broadly to this phenomenon of random sampling variation.
+Random sampling, and its derived terms such as sampling error, imply specific procedures for gathering and analyzing data that are rigorously applied as a method for arriving at results considered representative of a given population as a whole. Despite a common misunderstanding, "random" does not mean the same thing as "chance" as this idea is often used in describing situations of uncertainty, nor is it the same as projections based on an assessed probability or frequency. Sampling always refers to a procedure of gathering data from a small aggregation of individuals that is purportedly representative of a larger grouping which must in principle be capable of being measured as a totality. Random sampling is used precisely to ensure a truly representative sample from which to draw conclusions, in which the same results would be arrived at if one had included the entirety of the population instead. Random sampling (and sampling error) can only be used to gather information about a single defined point in time. If additional data is gathered (other things remaining constant) then comparison across time periods may be possible. However, this comparison is distinct from any sampling itself. As a method for gathering data within the field of statistics, random sampling is recognized as clearly distinct from the causal process that one is trying to measure. The conducting of research itself may lead to certain outcomes affecting the researched group, but this effect is not what is called sampling error. Sampling error always refers to the recognized limitations of any supposedly representative sample population in reflecting the larger totality, and the error refers only to the discrepancy that may result from judging the whole on the basis of a much smaller number. This is only an "error" in the sense that it would automatically be corrected if the totality were itself assessed. The term has no real meaning outside of statistics.
+According to a differing view, a potential example of a sampling error in evolution is genetic drift; a change is a population’s allele frequencies due to chance. For example, the bottleneck effect; when natural disasters dramatically reduce the size of a population resulting in a small population that may or may not fairly represent the original population. What may make the bottleneck effect a sampling error is that certain alleles, due to natural disaster, are more common while others may disappear completely, making it a potential sampling error. Another example of genetic drift that is a potential sampling error is the founder effect. The founder effect is when a few individuals from a larger population settle a new isolated area. In this instance, there are only a few individuals with little gene variety, making it a potential sampling error.
+The likely size of the sampling error can generally be controlled by taking a large enough random sample from the population, although the cost of doing this may be prohibitive; see sample size and statistical power for more detail. If the observations are collected from a random sample, statistical theory provides probabilistic estimates of the likely size of the sampling error for a particular statistic or estimator. These are often expressed in terms of its standard error.
+
+
+=== Bias problemsEdit ===
+Sampling bias is a possible source of sampling errors. It leads to sampling errors which either have a prevalence to be positive or negative. Such errors can be considered to be systematic errors.
+
+
+=== Non-sampling errorEdit ===
+Sampling error can be contrasted with non-sampling error. Non-sampling error is a catch-all term for the deviations from the true value that are not a function of the sample chosen, including various systematic errors and any random errors that are not due to sampling. Non-sampling errors are much harder to quantify than sampling error.
+
+
+== See alsoEdit ==
+Margin of error
+Propagation of error
+Ratio estimator
+Sampling (statistics)
+
+
+== CitationsEdit ==
+
+Burns, N & Grove, S.K. (2009). the Practice of Nursing research: Appraisal, Synthesis, and Generation of evidence. (6th ed). St. Louis, MO: Saunders Elsevier.
+
+
+== ReferencesEdit ==
+Sarndal, Swenson, and Wretman (1992), Model Assisted Survey Sampling, Springer-Verlag, ISBN 0-387-40620-4
+Fritz Scheuren (2005). "What is a Margin of Error?", Chapter 10, in "What is a Survey?", American Statistical Association, Washington, D.C. Accessed 2008-01-08
+Campbell, Neil A.; Reece, Jane B. (2002), Biology, Benjamin Cummings, pp. 450–451 
+
+
+== External linksEdit ==
+NIST: Selecting Sample Sizes
+itfeature.com: Sampling Error

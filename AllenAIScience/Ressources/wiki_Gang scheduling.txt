@@ -1,0 +1,15 @@
+In computer science, gang scheduling is a scheduling algorithm for parallel systems that schedules related threads or processes to run simultaneously on different processors. Usually these will be threads all belonging to the same process, but they may also be from different processes, for example when the processes have a producer-consumer relationship, or when they all come from the same MPI program.
+Gang scheduling is used so that if two or more threads or processes communicate with each other, they will all be ready to communicate at the same time. If they were not gang-scheduled, then one could wait to send or receive a message to another while it is sleeping, and vice versa. When processors are over-subscribed and gang scheduling is not used within a group of processes or threads which communicate with each other, it can lead to situations where each communication event suffers the overhead of a context switch.
+Technically, gang scheduling is based on a data structure called the Ousterhout matrix. In this matrix each row represents a time slice, and each column a processor. The threads or processes of each job are packed into a single row of the matrix. During execution, coordinated context switching is performed across all nodes to switch from the processes in one row to those in the next row.
+Gang scheduling is stricter than coscheduling. It requires all threads of the same process to run concurrently, while coscheduling allows for fragments, which are sets of threads that do not run concurrently with the rest of the gang.
+Gang scheduling was implemented and used in production mode on several parallel machines, most notably the Connection Machine CM-5.
+
+
+== See also ==
+Coscheduling
+Parallel computing
+
+
+== References ==
+Gang Scheduling, Timesharing on Parallel Computers, SC98, November 1998 (a summary)
+Performance Characteristics of Gang Scheduling in Multiprogrammed Environments, SC97, November 1997

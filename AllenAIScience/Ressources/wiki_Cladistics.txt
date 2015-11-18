@@ -1,0 +1,86 @@
+Cladistics (from Greek κλάδος, klados, i.e. "branch") is an approach to biological classification in which organisms are categorized based on shared derived characteristics that can be traced to a group's most recent common ancestor and are not present in more distant ancestors. Therefore, members of a group are assumed to share a common history and are considered to be closely related.
+The techniques and nomenclature of cladistics have been applied to other disciplines. (See Phylogenetic nomenclature and the relevant section below).
+
+
+== HistoryEdit ==
+
+The original methods used in cladistic analysis and the school of taxonomy derived from the work of the German entomologist Willi Hennig, who referred to it as phylogenetic systematics (also the title of his 1966 book); the terms "cladistics" and "clade" were popularized by other researchers. Cladistics in the original sense refers to a particular set of methods used in phylogenetic analysis, although it is now sometimes used to refer to the whole field.
+What is now called the cladistic method appeared as early as 1901 with a work by Peter Chalmers Mitchell for birds and subsequently by Robert John Tillyard (for insects) in 1921, and W. Zimmermann (for plants) in 1943. The term "clade" was introduced in 1958 by Julian Huxley after having been coined by Lucien Cuénot in 1940, "cladogenesis" in 1958, "cladistic" by Cain and Harrison in 1960, "cladist" (for an adherent of Hennig's school) by Mayr in 1965, and "cladistics" in 1966. Hennig referred to his own approach as "phylogenetic systematics". From the time of his original formulation until the end of the 1970s, cladistics competed as an analytical and philosophical approach to phylogenetic inference with phenetics and so-called evolutionary taxonomy. Phenetics was championed at this time by the numerical taxonomists Peter Sneath and Robert Sokal and the evolutionary taxonomist Ernst Mayr.
+Originally conceived, if only in essence, by Willi Hennig in a book published in 1950, cladistics did not flourish until its translation into English in 1966 (Lewin 1997). Today, cladistics is the most popular method for constructing phylogenies not only from morphological data but also from molecular. Unlike phenetics, cladistics is specifically aimed at reconstructing evolutionary histories.
+In the 1990s, the development of effective polymerase chain reaction techniques allowed the application of cladistic methods to biochemical and molecular genetic traits of organisms, as well as to anatomical ones, vastly expanding the amount of data available for phylogenetics. At the same time, cladistics rapidly became the dominant set of methods of phylogenetics in evolutionary biology, because computers made it possible to process large quantities of data about organisms and their characteristics.
+The way for computational phylogenetics was paved by phenetics, a set of methods commonly used from the 1950s to 1980s and to some degree later. Phenetics did not try to reconstruct phylogenetic trees; rather, it tried to build dendrograms from similarity data; its algorithms required less computer power than phylogenetic ones.
+
+
+== MethodologyEdit ==
+
+The cladistic method interprets each character state transformation implied by the distribution of shared character states among taxa (or other terminals) as a potential piece of evidence for grouping. The outcome of a cladistic analysis is a cladogram – a tree-shaped diagram (dendrogram) that is interpreted to represent the best hypothesis of phylogenetic relationships. Although traditionally such cladograms were generated largely on the basis of morphological characters and originally calculated by hand, genetic sequencing data and computational phylogenetics are now commonly used in phylogenetic analyses, and the parsimony criterion has been abandoned by many phylogeneticists in favor of more "sophisticated" but less parsimonious evolutionary models of character state transformation. Cladists contend that these models are unjustified.
+Every cladogram is based on a particular dataset analyzed with a particular method. Datasets are tables consisting of molecular, morphological, ethological and/or other characters and a list of operational taxonomic units (OTUs), which may be genes, individuals, populations, species, or larger taxa that are presumed to be monophyletic and therefore to form, all together, one large clade; phylogenetic analysis infers the branching pattern within that clade. Different datasets and different methods, not to mention violations of the mentioned assumptions, often result in different cladograms. Only scientific investigation can show which is more likely to be correct.
+Until recently, for example, cladograms like the following have generally been accepted as accurate representations of the ancestral relations among turtles, lizards, crocodilians, and birds:
+
+If this phylogenetic hypothesis is correct, then the last common ancestor of turtles and birds, at the branch near the ▼ lived earlier than the last common ancestor of lizards and birds, near the ♦. Most molecular evidence, however, produces cladograms more like this:
+
+If this is accurate, then the last common ancestor of turtles and birds lived later than the last common ancestor of lizards and birds. Since the cladograms provide competing accounts of real events, at most one of them is correct.
+
+The cladogram to the right represents the current universally accepted hypothesis that all primates, including strepsirrhines like the lemurs and lorises, had a common ancestor all of whose descendants were primates, and so form a clade; the name Primates is therefore recognized for this clade. Within the primates, all anthropoids (monkeys, apes and humans) are hypothesized to have had a common ancestor all of whose descendants were anthropoids, so they form the clade called Anthropoidea. The "prosimians", on the other hand, form a paraphyletic taxon. The name Prosimii is not used in phylogenetic nomenclature, which names only clades; the "prosimians" are instead divided between the clades Strepsirhini and Haplorhini, where the latter contains Tarsiiformes and Anthropoidea.
+
+
+== Terminology for character statesEdit ==
+The following terms, coined by Hennig, are used to identify shared or distinct character states among groups:
+ A plesiomorphy ("close form") or ancestral state is a character state that a taxon has retained from its ancestors. When two or more taxa that are not nested within each other share a plesiomorphy, it is a symplesiomorphy (from syn-, "together"). Symplesiomorphies do not mean that the taxa that exhibit that character state are necessarily closely related. For example, Reptilia is traditionally characterized by (among other things) being cold-blooded (i.e. not maintaining a constant high body temperature), whereas birds are warm-blooded. Since cold-bloodedness is a plesiomorphy, inherited from the common ancestor of traditional reptiles and birds, and thus a symplesiomorphy of turtles, snakes and crocodiles (among others), it does not mean that turtles, snakes and crocodiles form a clade that excludes the birds.
+ An apomorphy ("separate form") or derived state is an innovation. It can thus be used to diagnose a clade – or even to help define a clade name in phylogenetic nomenclature. Features that are derived in individual taxa (a single species or a group that is represented by a single terminal in a given phylogenetic analysis) are called autapomorphies (from auto-, "self"). Autapomorphies express nothing about relationships among groups; clades are identified (or defined) by synapomorphies (from syn-, "together"). For example, the possession of digits that are homologous with those of Homo sapiens is a synapomorphy within the vertebrates. The tetrapods can be singled out as consisting of the first vertebrate with such digits homologous to those of Homo sapiens together with all descendants of this vertebrate (an apomorphy-based phylogenetic definition). Importantly, snakes and other tetrapods that do not have digits are nonetheless tetrapods: other characters, such as amniotic eggs and diapsid skulls, indicate that they descended from ancestors that possessed digits which are homologous with ours.
+A character state is homoplastic or "an instance of homoplasy" if it is shared by two or more organisms but is absent from their common ancestor or from a later ancestor in the lineage leading to one of the organisms. It is therefore inferred to have evolved by convergence or reversal. Both mammals and birds are able to maintain a high constant body temperature (i.e. they are warm-blooded). However, the accepted cladogram explaining their significant features indicates that their common ancestor is in a group lacking this character state, so the state must have evolved independently in the two clades. Warm-bloodedness is separately a synapomorphy of mammals (or a larger clade) and of birds (or a larger clade), but it is not a synapomorphy of any group including both these clades. Hennig's Auxiliary Principle  states that shared character states should be considered evidence of grouping unless they are contradicted by the weight of other evidence; thus, homoplasy of some feature among members of a group may only be inferred after a phylogenetic hypothesis for that group has been established.
+The terms plesiomorphy and apomorphy are relative; their application depends on the position of a group within a tree. For example, when trying to decide whether the tetrapods form a clade, an important question is whether having four limbs is a synapomorphy of the earliest taxa to be included within Tetrapoda: did all the earliest members of the Tetrapoda inherit four limbs from a common ancestor, whereas all other vertebrates did not, or at least not homologously? By contrast, for a group within the tetrapods, such as birds, having four limbs is a plesiomorphy. Using these two terms allows a greater precision in the discussion of homology, in particular allowing clear expression of the hierarchical relationships among different homologous features.
+It can be difficult to decide whether a character state is in fact the same and thus can be classified as a synapomorphy, which may identify a monophyletic group, or whether it only appears to be the same and is thus a homoplasy, which cannot identify such a group. There is a danger of circular reasoning: assumptions about the shape of a phylogenetic tree are used to justify decisions about character states, which are then used as evidence for the shape of the tree. Phylogenetics uses various forms of parsimony to decide such questions; the conclusions reached often depend on the dataset and the methods. Such is the nature of empirical science, and for this reason, most cladists refer to their cladograms as hypotheses of relationship. Cladograms that are supported by a large number and variety of different kinds of characters are viewed as more robust than those based on more limited evidence.
+
+
+== Terminology for taxaEdit ==
+Mono-, para- and polyphyletic taxa can be understood based on the shape of the tree (as done above), as well as based on their character states. These are compared in the table below.
+
+
+== CriticismEdit ==
+Cladistics, either generally or in specific applications, has been criticized from its beginnings. Decisions as to whether particular character states are homologous, a precondition of their being synapomorphies, have been challenged as involving circular reasoning and subjective judgements. Transformed cladistics arose in the late 1970s in an attempt to resolve some of these problems by removing phylogeny from cladistic analysis, however it has remained unpopular.
+However, homology is usually determined from analysis of the results that are evaluated with homology measures, mainly the CI (consistency index) and RI (retention index), which, it has been claimed, makes the process objective. Also, homology can be equated to synapomorphy, which is what Patterson has done.
+
+
+== In disciplines other than biologyEdit ==
+The comparisons used to acquire data on which cladograms can be based are not limited to the field of biology. Any group of individuals or classes that are hypothesized to have a common ancestor, and to which a set of common characteristics may or may not apply, can be compared pairwise. Cladograms can be used to depict the hypothetical descent relationships within groups of items in many different academic realms. The only requirement is that the items have characteristics that can be identified and measured.
+Anthropology and archaeology: Cladistic methods have been used to reconstruct the development of cultures or artifacts using groups of cultural traits or artifact features.
+Comparative mythology and folktale use cladistic methods to reconstruct the protoversion of many myths. Mythological phylogenies constructed with mythemes clearly support low horizontal transmissions (borrowings), historical (sometimes Palaeolithic) diffusions and punctuated evolution. They also are a powerful way to test hypotheses about cross-cultural relationships among folktales.
+Literature: Cladistic methods have been used in the classification of the surviving manuscripts of the Canterbury Tales, and the manuscripts of the Sanskrit Charaka Samhita.
+Historical linguistics: Cladistic methods have been used to reconstruct the phylogeny of languages using linguistic features. This is similar to the traditional comparative method of historical linguistics, but is more explicit in its use of parsimony and allows much faster analysis of large datasets (computational phylogenetics).
+Textual criticism or stemmatics: Cladistic methods have been used to reconstruct the phylogeny of manuscripts of the same work (and reconstruct the lost original) using distinctive copying errors as apomorphies. This differs from traditional historical-comparative linguistics in enabling the editor to evaluate and place in genetic relationship large groups of manuscripts with large numbers of variants that would be impossible to handle manually. It also enables parsimony analysis of contaminated traditions of transmission that would be impossible to evaluate manually in a reasonable period of time.
+Astrophysics infers the history of relationships between galaxies to create branching diagram hypotheses of galaxy diversification.
+
+
+== See alsoEdit ==
+Bioinformatics
+Biomathematics
+Coalescent theory
+Common descent
+Language family
+Maximum parsimony
+Patrocladogram
+Phylogenetic network
+Scientific classification
+Stratocladistics
+Systematics
+Three-taxon analysis
+Tree model
+Tree structure
+
+
+== Notes and referencesEdit ==
+
+
+== BibliographyEdit ==
+
+
+== External linksEdit ==
+
+Willi Hennig Society
+Cladistics (scholarly journal of the Willi Hennig Society)
+Collins, Allen G.; Guralnick, Rob; Smith, Dave (1994–2005). "Journey into Phylogenetic Systematics". University of California Museum of Paleontology. Retrieved 21 January 2010. 
+Felsenstein, Joe. "Phylogeny Programs". Seattle: University of Washington. Retrieved 21 January 2010. 
+O'Neil, Dennis (1998–2008). "Classification of Living Things". San Marcos CA: Palomar College. Retrieved 21 January 2010. 
+Robinson, Peter; O'Hara, Robert J. (1992). "Report on the Textual Criticism Challenge 1991". rjohara.net. Retrieved 21 January 2010. 
+Theobald, Douglas (1999–2004). "Phylogenetics Primer". The TalkOrigins Archive. Retrieved 21 January 2010.

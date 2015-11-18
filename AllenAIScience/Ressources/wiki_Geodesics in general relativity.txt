@@ -1,0 +1,126 @@
+In general relativity, a geodesic generalizes the notion of a "straight line" to curved spacetime. Importantly, the world line of a particle free from all external, non-gravitational force, is a particular type of geodesic. In other words, a freely moving or falling particle always moves along a geodesic.
+In general relativity, gravity can be regarded as not a force but a consequence of a curved spacetime geometry where the source of curvature is the stress–energy tensor (representing matter, for instance). Thus, for example, the path of a planet orbiting around a star is the projection of a geodesic of the curved 4-D spacetime geometry around the star onto 3-D space.
+
+
+== Mathematical expressionEdit ==
+The full geodesic equation is this:
+
+where s is a scalar parameter of motion (e.g. the proper time), and  are Christoffel symbols (sometimes called the affine connection or Levi-Civita connection) which is symmetric in the two lower indices. Greek indices take the values [0,1,2,3]. The quantity on the left-hand-side of this equation is the acceleration of a particle, and so this equation is analogous to Newton's laws of motion which likewise provide formulae for the acceleration of a particle. This equation of motion employs the Einstein notation, meaning that repeated indices are summed (i.e. from zero to three). The Christoffel symbols are functions of the four space-time coordinates, and so are independent of the velocity or acceleration or other characteristics of a test particle whose motion is described by the geodesic equation.
+
+
+== Equivalent mathematical expression using coordinate time as parameterEdit ==
+So far the geodesic equation of motion has been written in terms of a scalar parameter s. It can alternatively be written in terms of the time coordinate,  (here we have used the triple bar to signify a definition). The geodesic equation of motion then becomes:
+
+This formulation of the geodesic equation of motion can be useful for computer calculations and to compare General Relativity with Newtonian Gravity. It is straightforward to derive this form of the geodesic equation of motion from the form which uses proper time as a parameter, using the chain rule. Notice that both sides of this last equation vanish when the mu index is set to zero. If the particle's velocity is small enough, then the geodesic equation reduces to this:
+
+Here the Latin index n takes the values [1,2,3]. This equation simply means that all test particles at a particular place and time will have the same acceleration, which is a well-known feature of Newtonian gravity. For example, everything floating around in the international space station will undergo roughly the same acceleration due to gravity.
+
+
+== Derivation directly from the equivalence principleEdit ==
+Physicist Steven Weinberg has presented a derivation of the geodesic equation of motion directly from the equivalence principle. The first step in such a derivation is to suppose that no particles are accelerating in the neighborhood of a point-event with respect to a freely falling coordinate system (). Setting , we have the following equation that is locally applicable in free fall:
+
+The next step is to employ the chain rule. We have:
+
+Differentiating once more with respect to the time, we have:
+
+Therefore:
+
+Multiply both sides of this last equation by the following quantity:
+
+Consequently, we have this:
+
+As before, we can set . Using the chain rule, the parameter T can be eliminated in favor of the parameter t like so:
+
+The geodesic equation of motion (using the coordinate time as parameter) follows immediately from this last equation, because the bracketed terms (which involve the relationship between local coordinates X and general coordinates x) are functions of the general coordinates. The geodesic equation of motion can alternatively be derived using the concept of parallel transport.
+
+
+== Deriving the geodesic equation via an actionEdit ==
+We can (and this is the most common technique) derive the geodesic equation via the action principle.
+Let the action be 
+where  is the line element. To get the geodesic equation we must vary this action. To do this lets parameterize this action with respect a parameter . Doing this we get:
+
+We can now go ahead and vary this action with respect to the curve . By the principle of least action we get:
+
+For concreteness lets parameterize this action w.r.t. the proper time, . Since the four-velocity is normalized to -1 (for time-like paths) we can say that the above is equivalent to the action:
+
+Using the product rule we get:
+
+Integrating by-parts the last term and dropping the total derivative (which equals to zero at the boundaries) we get that:
+
+Simplifying a bit we see that:
+
+so,
+
+multiplying this equation by  we get:
+
+So by Hamilton's principle we find that the Euler–Lagrange equation is
+
+Multiplying by the inverse metric tensor  we get that
+
+Thus we get the geodesic equation:
+
+with the Christoffel symbol defined in terms of the metric tensor as
+
+(NOTE: This derivation works for light-like and space-like paths too.)
+
+
+== Equation of motion may follow from the field equations for empty spaceEdit ==
+Albert Einstein believed that the geodesic equation of motion can be derived from the field equations for empty space, i.e. from the fact that the Ricci curvature vanishes. He wrote:
+
+It has been shown that this law of motion — generalized to the case of arbitrarily large gravitating masses — can be derived from the field equations of empty space alone. According to this derivation the law of motion is implied by the condition that the field be singular nowhere outside its generating mass points.
+
+Both physicists and philosophers have often repeated the assertion that the geodesic equation can be obtained from the field equations to describe the motion of a gravitational singularity, but this claim remains disputed. Less controversial is the notion that the field equations determine the motion of a fluid or dust, as distinguished from the motion of a point-singularity.
+
+
+== Extension to the case of a charged particleEdit ==
+In deriving the geodesic equation from the equivalence principle, it was assumed that particles in a local inertial coordinate system are not accelerating. However, in real life, the particles may be charged, and therefore may be accelerating locally in accordance with the Lorentz force. That is:
+
+with
+
+The Minkowski tensor η is given by:
+
+These last three equations can be used as the starting point for the derivation of an equation of motion in General Relativity, instead of assuming that acceleration is zero in free fall. Because the Minkowski tensor is involved here, it becomes necessary to introduce something called the metric tensor in General Relativity. The metric tensor g is symmetric, and locally reduces to the Minkowski tensor in free fall. The resulting equation of motion is as follows:
+
+with
+
+This last equation signifies that the particle is moving along a timelike geodesic; massless particles like the photon instead follow null geodesics (replace −1 with zero on the right-hand side of the last equation). It is important that the last two equations are consistent with each other, when the latter is differentiated with respect to proper time, and the following formula for the Christoffel symbols ensures that consistency:
+
+This last equation does not involve the electromagnetic fields, and it is applicable even in the limit as the electromagnetic fields vanish. The letter g with superscripts refers to the inverse of the metric tensor. In General Relativity, indices of tensors are lowered and raised by contraction with the metric tensor or its inverse, respectively.
+
+
+== Geodesics as curves of stationary intervalEdit ==
+A geodesic between two events can also be described as the curve joining those two events which has a stationary interval (4-dimensional "length"). Stationary here is used in the sense in which that term is used in the calculus of variations, namely, that the interval along the curve varies minimally among curves that are nearby to the geodesic.
+In Minkowski space there is only one time-like geodesic that connects any given pair of time-like separated events, and that geodesic is the curve with the longest proper time between the two events. But in curved spacetime, it's possible for a pair of widely-separated events to have more than one time-like geodesic that connects them. In such instances, the proper times along the various geodesics will not in general be the same. And for some geodesics in such instances, it's possible for a curve that connects the two events and is nearby to the geodesic to have either a longer or a shorter proper time than the geodesic.
+For a space-like geodesic through two events, there are always nearby curves which go through the two events that have either a longer or a shorter proper length than the geodesic, even in Minkowski space. In Minkowski space, in an inertial frame of reference in which the two events are simultaneous, the geodesic will be the straight line between the two events at the time at which the events occur. Any curve that differs from the geodesic purely spatially in that frame of reference will have a longer proper length than the geodesic, but a curve that differs from the geodesic purely temporally in that frame of reference will have a shorter proper length.
+The interval of a curve in spacetime is
+
+Then, the Euler–Lagrange equation,
+
+becomes, after some calculation,
+
+where 
+
+If the parameter s is chosen to be affine, then the right side the above equation vanishes (because  is constant). Finally, we have the geodesic equation
+
+
+== See alsoEdit ==
+Geodesic
+Geodesics as Hamiltonian flows
+
+
+== BibliographyEdit ==
+Steven Weinberg, Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity, (1972) John Wiley & Sons, New York ISBN 0-471-92567-5 See chapter 3.
+Lev D. Landau and Evgenii M. Lifschitz, The Classical Theory of Fields, (1973) Pergammon Press, Oxford ISBN 0-08-018176-7 See section 87.
+Charles W. Misner, Kip S. Thorne, John Archibald Wheeler, Gravitation, (1970) W.H. Freeman, New York; ISBN 0-7167-0344-0.
+Bernard F. Schutz, A first course in general relativity, (1985; 2002) Cambridge University Press: Cambridge, UK; ISBN 0-521-27703-5. See chapter 6.
+Robert M. Wald, General Relativity, (1984) The University of Chicago Press, Chicago. See Section 3.3.
+
+
+== ReferencesEdit ==
+^ Will, Clifford. Theory and Experiment in Gravitational Physics, p. 143 (Cambridge University Press 1993).
+^ a b Weinberg, Steven. Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity (Wiley 1972).
+^ Plebański, Jerzy and Krasiński, Andrzej. An Introduction to General Relativity and Cosmology, p. 34 (Cambridge University Press, 2006).
+^ Einstein, Albert. The Meaning of Relativity, p. 113 (Psychology Press 2003).
+^ Tamir, M. "Proving the principle: Taking geodesic dynamics too seriously in Einstein’s theory", Studies In History and Philosophy of Modern Physics 43(2), 137–154 (2012).
+^ Plebański, Jerzy and Krasiński, Andrzej. An Introduction to General Relativity and Cosmology, p. 143 (Cambridge University Press, 2006).
+^ Charles W. Misner; Kip Thorne; John Archibald Wheeler (1973). Gravitation. W. H. Freeman. pp. 316,318–319. ISBN 0-7167-0344-0.

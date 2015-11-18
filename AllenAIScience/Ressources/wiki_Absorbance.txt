@@ -1,0 +1,115 @@
+"Optical density" redirects here. "Optical density" can also refer to index of refraction.
+In chemistry, absorbance or decadic absorbance is the common logarithm of the ratio of incident to transmitted radiant power through a material, and spectral absorbance or spectral decadic absorbance is the common logarithm of the ratio of incident to transmitted spectral radiant power through a material. Absorbance is dimensionless, and in particular is not a length, though it is a monotonically increasing function of path length, and approaches zero as the path length approaches zero. The use of the term "optical density" for absorbance is discouraged. In physics, a closely related quantity called "optical depth" is used instead of absorbance: the natural logarithm of the ratio of incident to transmitted radiant power through a material. The optical depth equals the absorbance times ln(10).
+The term absorption refers to the physical process of absorbing light, while absorbance does not always measure absorption: it measures attenuation (of transmitted radiant power). Attenuation can be caused by absorption, but also reflection, scattering, and other physical processes.
+
+
+== Mathematical definitionsEdit ==
+
+
+=== AbsorbanceEdit ===
+Absorbance of a material, denoted A, is given by
+
+where
+Φet is the radiant flux transmitted by that material;
+Φei is the radiant flux received by that material;
+T is the transmittance of that material.
+Absorbance is related to optical depth by
+
+where τ is the optical depth.
+
+
+=== Spectral absorbanceEdit ===
+Spectral absorbance in frequency and spectral absorbance in wavelength of a material, denoted Aν and Aλ respectively, are given by
+
+where
+Φe,νt is the spectral radiant flux in frequency transmitted by that material;
+Φe,νi is the spectral radiant flux in frequency received by that material;
+Tν is the spectral transmittance in frequency of that material;
+Φe,λt is the spectral radiant flux in wavelength transmitted by that material;
+Φe,λi is the spectral radiant flux in wavelength received by that material;
+Tλ is the spectral transmittance in wavelength of that material.
+Spectral absorbance is related to spectral optical depth by
+
+where
+τν is the spectral optical depth in frequency;
+τλ is the spectral optical depth in wavelength.
+Although absorbance is properly unitless, it is sometimes reported in "absorbance units", or AU. Many people, including scientific researchers, wrongly state the results from absorbance measurement experiments in terms of these made-up units.
+
+
+== Relationship with attenuationEdit ==
+
+
+=== AttenuanceEdit ===
+Absorbance is a number that measures the attenuation of the transmitted radiant power in a material. Attenuation can be caused by the physical process of "absorption", but also reflection, scattering, and other physical processes. Absorbance of a material is approximately equal to its attenuance when both the absorbance is much less than 1 and the emittance of that material (not to be confused with radiant exitance or emissivity) is much less than the absorbance:
+
+where
+Φet is the radiant power transmitted by that material;
+Φeatt is the radiant power attenuated by that material;
+Φei is the radiant power received by that material;
+Φee is the radiant power emitted by that material;
+T = Φet/Φei is the transmittance of that material;
+ATT = Φeatt/Φei is the attenuance of that material;
+E = Φee/Φei is the emittance of that material,
+and according to Beer–Lambert law,
+
+so:
+
+
+=== Attenuation coefficientEdit ===
+Absorbance of a material is also related to its decadic attenuation coefficient by
+
+where
+l is the thickness of that material through which the light travels;
+a(z) is the decadic attenuation coefficient of that material at z,
+and if a(z) is uniform along the path, the attenuation is said to be a linear attenuation and the relation becomes:
+
+Sometimes the relation is given using the molar attenuation coefficient of the material, that is its attenuation coefficient divided by its molar concentration:
+
+where
+ε is the molar attenuation coefficient of that material;
+c(z) is the molar concentration of that material at z,
+and if c(z) is uniform along the path, the relation becomes:
+
+The use of the term "molar absorptivity" for molar attenuation coefficient is discouraged.
+
+
+== MeasurementsEdit ==
+
+
+=== Logarithmic vs. directly proportional measurementsEdit ===
+The amount of light transmitted through a material diminishes exponentially as it travels through the material, according to Beer–Lambert law. Since the absorbance of a sample is measured as a logarithm, it is directly proportional to the thickness of the sample and to the concentration of the absorbing material in the sample. Some other measures related to absorption, such as transmittance, are measured as a simple ratio so they vary exponentially with the thickness and concentration of the material.
+
+
+=== Instrument measurement rangeEdit ===
+Any real measuring instrument has a limited range over which it can accurately measure absorbance. An instrument must be calibrated and checked against known standards if the readings are to be trusted. Many instruments will become non-linear (fail to follow the Beer–Lambert law) starting at approximately 2 AU (~1% transmission). It is also difficult to accurately measure very small absorbance values (below 10−4) with commercially available instruments for chemical analysis. In such cases, laser-based absorption techniques can be used, since they have demonstrated detection limits that supersede those obtained by conventional non-laser-based instruments by many orders of magnitude (detections have been demonstrated all the way down to 5 × 10−13). The theoretical best accuracy for most commercially available non-laser-based instruments is in the range near 1 AU. The path length or concentration should then, when possible, be adjusted to achieve readings near this range.
+
+
+=== Method of measurementEdit ===
+Typically, absorbance of a dissolved substance is measured using absorption spectroscopy. This involves shining a light through a solution and recording how much light and what wavelengths were transmitted onto a detector. Using this information, the wavelengths that were absorbed can be determined. First, measurements on a "blank" are taken using just the solvent for reference purposes. This is so that the absorbance of the solvent is known, and then any change in absorbance when measuring the whole solution is made by just the solute of interest. Then measurements of the solution are taken. The transmitted spectral radiant flux that makes it through the solution sample is measured and compared to the incident spectral radiant flux. As stated above, the spectral absorbance at a given wavelength is
+
+The absorbance spectrum is plotted on a graph of absorbance vs. wavelength.
+A UV-Vis spectrophotometer will do all this automatically. To use this machine, solutions are placed in a small cuvette and inserted into the holder. The machine is controlled through a computer and, once you "blank" it, will automatically display the absorbance plotted against wavelength. Getting the absorbance spectrum of a solution is useful for determining the concentration of that solution using the Beer–Lambert law and is used in HPLC.
+
+
+== Shade numberEdit ==
+Some filters, notably welding glass, are rated by shade number, which is 7/3 times the absorbance plus one:
+
+or
+
+where SN is the shade number.
+So, if the filter has 0.1% transmittance (0.001 transmittance, which is 3 absorbance units) the shade number would be 8.
+
+
+== See alsoEdit ==
+Absorptance
+Optical depth
+Transmittance
+Beer–Lambert law
+Attenuation coefficient
+Tunable Diode Laser Absorption Spectroscopy (TDLAS)
+Densitometry
+Neutral density filter
+Mathematical descriptions of opacity
+
+
+== ReferencesEdit ==

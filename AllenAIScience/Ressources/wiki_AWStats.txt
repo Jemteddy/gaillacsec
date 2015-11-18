@@ -1,0 +1,43 @@
+AWStats is an open source Web analytics reporting tool, suitable for analyzing data from Internet services such as web, streaming media, mail, and FTP servers. AWStats parses and analyzes server log files, producing HTML reports. Data is visually presented within reports by tables and bar graphs. Static reports can be created through a command line interface, and on-demand reporting is supported through a Web browser CGI program.
+AWStats supports most major web server log file formats including Apache (NCSA combined/XLF/ELF log format or Common Log Format (CLF)), WebStar, IIS (W3C log format), and many other common web server log formats. Developers can contribute to the AWStats project through SourceForge.net.
+
+
+== Cross-platform availability ==
+Written in Perl, AWStats can be deployed on almost any operating system. It is a server administration tool, with packages available for most Linux distributions. AWStats can be installed on a workstation, such as MS Windows, for local use in situations where log files can be downloaded from a remote server.
+
+
+== Licensing ==
+AWStats is licensed under the GNU General Public License (GPL).
+
+
+== Support ==
+Proper web log analysis tool configuration and report interpretation requires a bit of technical and business knowledge. AWStats support resources include documentation and user community forums.
+
+
+== Security considerations ==
+The on-demand CGI program has been the object of security exploits, as is the case of many CGI programs. Organizations wishing to provide public access to their Web analytics reports should consider generating static HTML reports. The on-demand facility can still be used by restricting its use to internal users. Precautions should be taken against referrer spam. Referrer spam filtering functionality was added in version 6.5.
+
+
+== Alternatives ==
+Three open source packages are considered the primary alternatives to AWStats:
+Analog offers a wealth of reporting options for a technical audience. It does not support the concept of a visitor, usually desired for business analysis. Development and support appears to have stopped in 2004 (with last version 6.0).
+Webalizer is offered by many ISPs, as it is fast and simple. It has a smaller functionality set compared to AWStats.
+W3Perl is a powerful alternative that has features similar to AWStats.
+A number of other open source alternatives to AWStats are available, although not always with same level of functionality, including:
+Obsessive Website Statistics
+Piwik
+Visitors (program)
+The AWStats project provides a detailed comparison chart.
+
+
+== References ==
+
+
+== See also ==
+
+List of web analytics software
+
+
+== External links ==
+AWStats documentation set
+AWStats official Web site including documentation, news, software download, and community support forums

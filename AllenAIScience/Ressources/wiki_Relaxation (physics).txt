@@ -1,0 +1,76 @@
+In the physical sciences, relaxation usually means the return of a perturbed system into equilibrium. Each relaxation process can be characterized by a relaxation time τ. The simplest theoretical description of relaxation as function of time t is an exponential law exp(-t/τ).
+
+
+== Relaxation in simple linear systemsEdit ==
+
+
+=== Mechanics: Damped unforced oscillatorEdit ===
+Let the homogeneous differential equation:
+
+model damped unforced oscillations of a weight on a spring.
+The displacement will then be of the form . The constant T is called the relaxation time of the system and the constant μ is the quasi-frequency.
+
+
+=== Electronics: The RC circuitEdit ===
+In an RC circuit containing a charged capacitor and a resistor, the voltage decays exponentially:
+
+The constant  is called the relaxation time of the circuit. A nonlinear oscillator circuit which generates a repeating waveform by the repetitive discharge of a capacitor through a resistance is called a relaxation oscillator.
+
+
+== Relaxation in condensed matter physicsEdit ==
+In condensed matter physics, relaxation is usually studied as a linear response to a small external perturbation. Since the underlying microscopic processes are active even in the absence of external perturbations, one can also study "relaxation in equilibrium" instead of the usual "relaxation into equilibrium" (see fluctuation-dissipation theorem).
+
+
+=== Stress relaxationEdit ===
+In continuum mechanics, stress relaxation is the gradual disappearance of stresses from a viscoelastic medium after it has been deformed.
+
+
+=== Dielectric relaxation timeEdit ===
+In dielectric materials, the dielectric polarization P depends on the electric field E. If E changes, P(t) reacts: the polarization relaxes towards a new equilibrium.
+The dielectric relaxation time is closely related to the electrical conductivity. In a semiconductor it is a measure of how long it takes to become neutralized by conduction process. This relaxation time is small in metals and can be large in semiconductors and insulators.
+
+
+=== Liquids and amorphous solidsEdit ===
+
+An amorphous solid, such as amorphous indomethacin displays a temperature dependence of molecular motion, which can be quantified as the average relaxation time for the solid in a metastable supercooled liquid or glass to approach the molecular motion characteristic of a crystal. Differential scanning calorimetry can be used to quantify enthalpy change due to molecular structural relaxation.
+The term "structural relaxation" was introduced in the scientific literature in 1947/48 without any explanation, applied to NMR, and meaning the same as "thermal relaxation".
+
+
+=== Spin relaxation in NMREdit ===
+
+In nuclear magnetic resonance, relaxation is of prime importance. See Relaxation (NMR).
+
+
+== Chemical relaxation methodsEdit ==
+
+In chemical kinetics, relaxation methods are used for the measurement of very fast reaction rates. A system initially at equilibrium is perturbed by a rapid change in a parameter such as the temperature (most commonly), the pressure, the electric field or the pH of the solvent. The return to equilibrium is then observed, usually by spectroscopic means, and the relaxation time measured. In combination with the chemical equilibrium constant of the system, this enables the determination of the rate constants for the forward and reverse reactions.
+
+
+== Relaxation in atmospheric sciencesEdit ==
+
+
+=== Desaturation of cloudsEdit ===
+Consider a supersaturated portion of a cloud. Then shut off the updrafts, entrainment, or any other vapor sources/sinks and things that would induce the growth of the particles (ice or water). Then wait for this supersaturation to reduce and become just saturation (relative humidity = 100%), which is the equilibrium state. The time it took for this to happen is called relaxation time. It will happen as ice crystals or liquid water content grow within the cloud and will thus consume the contained moisture. The dynamics of relaxation are very important in cloud physics modeling because if models do not take relaxation time into account, then it is highly probable that error will creep into the system.
+In water clouds where the concentrations are larger (hundreds per cm3) and the temperatures are warmer (thus allowing for much lower supersaturation rates as compared to ice clouds), the relaxation times will be very low (seconds to minutes).
+In ice clouds the concentrations are lower (just a few per liter) and the temperatures are colder (very high supersaturation rates) and so the relaxation times can be hours and hours.
+τ=(4πDNRK)−1
+where
+D = diffusion coefficient [m2/s]
+N = concentration (of ice crystals or water droplets) [m−3]
+R = mean radius of particles [m]
+K = capacitance [unitless]
+
+
+== Relaxation in astronomyEdit ==
+In astronomy, relaxation time relates to clusters of gravitationally interacting bodies, for instance, stars in a galaxy. The relaxation time is a measure of the time it takes for one object in the system (the "test star") to be significantly perturbed by other objects in the system (the "field stars"). It is most commonly defined as the time for the test star's velocity to change by of order itself.
+Suppose that the test star has velocity v. As the star moves along its orbit, its motion will be randomly perturbed by the gravitational field of nearby stars. The relaxation time can be shown to be 
+
+where ρ is the mean density, m is the test-star mass, σ is the 1d velocity dispersion of the field stars, and ln Λ is the Coulomb logarithm.
+Various events occur on timescales relating to the relaxation time, including core collapse, energy equipartition, and formation of a Bahcall-Wolf cusp around a supermassive black hole.
+
+
+== See alsoEdit ==
+Relaxation oscillator
+
+
+== ReferencesEdit ==

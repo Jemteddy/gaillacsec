@@ -1,0 +1,48 @@
+In accelerator physics, a beamline refers to the trajectory of the beam of accelerated particles, including the overall construction of the path segment (vacuum tube, magnets, diagnostic devices) along a specific path of an accelerator facility. This part is either
+the line in a linear accelerator along which a beam of particles travels, or
+the path leading from a cyclic accelerator to the experimental endstation (as in synchrotron light sources or cyclotrons).
+Beamlines usually end in experimental stations that utilize particle beams or synchrotron light obtained from a synchrotron, or neutrons from a spallation source or research reactor. Beamlines are used in experiments in particle physics, materials science, chemistry, and molecular biology.
+
+
+== Beamline in a particle accelerator ==
+
+In particle accelerators the beamline is usually housed in a tunnel and/or underground, cased inside a cement housing. The beamline is usually a cylindrical metal pipe, typically called a beam pipe, and/or a drift tube, evacuated to a high vacuum so there are few gas molecules in the path for the beam of accelerated particles to hit, which would scatter them before they reach their destination.
+There are specialized devices and equipment on the beamline that are used for producing, maintaining, monitoring, and accelerating the particle beam. These devices may be in proximity or attached to the beamline. These devices include sophisticated transducers, diagnostics (position monitors and wire scanners), lenses, collimators, thermocouples, ion pumps, ion gauges, ion chambers (sometimes called "beam loss monitors"), vacuum valves ("isolation valves"), and gate valves, to mention a few. There are also water cooling devices to cool the dipole and quadrupole magnets. Positive pressure, such as that provided by compressed air, regulates and controls the vacuum valves and manipulators on the beamline.
+It is imperative to have all beamline sections, magnets, etc., aligned by a survey and alignment crew by using a laser tracker. All beamlines must be within micrometre tolerance. Good alignment helps to prevent beam loss, and beam from colliding with the pipe walls, which creates secondary emissions and/or radiation.
+
+
+== Synchrotron radiation beamline ==
+
+Regarding synchrotrons, beamline may also refer to the instrumentation that carries beams of synchrotron radiation to an experimental end station, which uses the radiation produced by the bending magnets and insertion devices in the storage ring of a synchrotron radiation facility. A typical application for this kind of beamline is crystallography, although many other techniques utilising synchrotron light exist.
+At a large synchrotron facility there will be many beamlines, each optimised for a particular field of research. The differences will depend on the type of insertion device (which, in turn, determines the intensity and spectral distribution of the radiation); the beam conditioning equipment; and the experimental end station. A typical beamline at a modern synchrotron facility will be 25 to 100 m long from the storage ring to the end station, and may cost up to millions of US dollars. For this reason, a synchrotron facility is often built in stages, with the first few beamlines opening on day one of operation, and other beamlines being added later as the funding permits.
+The beamline elements are located in radiation shielding enclosures, called hutches, which are the size of a small room (cabin). A typical beamline consists of two hutches, an optical hutch for the beam conditioning elements and an experimental hutch, which houses the experiment. Between hutches, the beam travels in a transport tube. Entrance to the hutches is forbidden when the beam shutter is open and radiation can enter the hutch. This is enforced by the use of elaborate safety systems with redundant interlocking functions, which make sure that no one is inside the hutch when the radiation is turned on. The safety system will also shut down the radiation beam if the door to the hutch is accidentally opened when the beam is on. In this case, the beam is dumped, meaning the stored beam is diverted into a target designed to absorb and contain its energy.
+Elements that are used in beamlines by experimenters for conditioning the radiation beam between the storage ring and the end station include the following:
+Windows - thin sheets of metal, often beryllium, which transmit almost all of the beam, but protect the vacuum within the storage ring from contamination
+Slits - which control the physical width of the beam and its angular spread
+Focusing mirrors - one or more mirrors, which may be flat, bent-flat, or toroidal, which helps to collimate (focus) the beam
+Monochromators - devices based on diffraction by crystals which select particular wavelength bands and absorb other wavelengths, and which are sometimes tunable to varying wavelengths, and sometimes fixed to a particular wavelength
+Spacing tubes - vacuum maintaining tubes which provide the proper space between optical elements, and shield any scattered radiation
+Sample stages - for mounting and manipulating the sample under study and subjecting it to various external conditions, such a varying temperature, pressure etc.
+Radiation detectors - for measuring the radiation which has interacted with the sample
+The combination of beam conditioning devices controls the thermal load (heating caused by the beam) at the end station; the spectrum of radiation incident at the end station; and the focus or collimation of the beam. Devices along the beamline which absorb significant power from the beam may need to be actively cooled by water, or liquid nitrogen. The entire length of a beamline is normally kept under ultra high vacuum conditions.
+
+
+=== Software for beamline modeling ===
+Although the design of a synchrotron radiation beamline may be seen as an application of X-ray optics, there are dedicated tools for modeling the x-ray propagation down the beamline and their interaction with various components. There are ray-tracing codes such as Shadow and McXTrace that treat the x-ray beam in the geometric optics limit, and then there are wave propagation software that takes into account diffraction, and the intrinsic wavelike properties of the radiation. For the purposes of understanding full or partial coherence of the synchrotron radiation, the wave properties need to be taken into account. The codes SRW and Spectra include this possibility.
+
+
+== Neutron beamline ==
+An experimental end station in a neutron facility is called a neutron beamline. Superficially, neutron beamlines differ from synchrotron radiation beamlines mostly by the fact that they use neutrons from a research reactor or a spallation source instead of photons. The experiments usually measure neutron scattering from the sample under study.
+
+
+== See also ==
+Ion beam
+Category:Neutron facilities
+Klystron
+
+
+== References ==
+
+
+== External links ==
+Macromolecular Crystallography at Synchrotrons: An Historical Introduction

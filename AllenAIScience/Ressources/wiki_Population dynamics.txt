@@ -1,0 +1,83 @@
+Population dynamics is the branch of life sciences that studies the size and age composition of populations as dynamic systems, and the biological and environmental processes driving them (such as birth and death rates, and by immigration and emigration). Example scenarios are ageing populations,population growth, or population decline.
+
+
+== History ==
+Population dynamics has traditionally been the dominant branch of mathematical biology, which has a history of more than 210 years, although more recently the scope of mathematical biology has greatly expanded. The first principle of population dynamics is widely regarded as the exponential law of Malthus, as modeled by the Malthusian growth model. The early period was dominated by demographic studies such as the work of Benjamin Gompertz and Pierre François Verhulst in the early 19th century, who refined and adjusted the Malthusian demographic model.
+A more general model formulation was proposed by F.J. Richards in 1959, further expanded by Simon Hopkins, in which the models of Gompertz, Verhulst and also Ludwig von Bertalanffy are covered as special cases of the general formulation. The Lotka–Volterra predator-prey equations are another famous example, as well as the alternative Arditi-Ginzburg equations. The computer game SimCity and the MMORPG Ultima Online, among others, tried to simulate some of these population dynamics.
+In the past 30 years, population dynamics has been complemented by evolutionary game theory, developed first by John Maynard Smith. Under these dynamics, evolutionary biology concepts may take a deterministic mathematical form. Population dynamics overlap with another active area of research in mathematical biology: mathematical epidemiology, the study of infectious disease affecting populations. Various models of viral spread have been proposed and analyzed, and provide important results that may be applied to health policy decisions.
+
+
+== Intrinsic rate of increase ==
+The rate at which a population increases in size if there are no density-dependent forces regulating the population is known as the intrinsic rate of increase.
+
+Where  is the rate of increase of the population, N is the population size, and r is the intrinsic rate of increase. This is therefore the theoretical maximum rate of increase of a population per individual. The concept is commonly used in insect population biology to determine how environmental factors affect the rate at which pest populations increase. See also exponential population growth and logistic population growth.
+
+
+== Common mathematical models ==
+
+
+=== Exponential population growth ===
+Exponential growth describes unregulated reproduction. It is very unusual to see this in nature. In the last 100 years, human population growth has appeared to be exponential. In the long run, however, it is not likely. Paul Ehrlich and Thomas Malthus believed that human population growth would lead to overpopulation and starvation due to scarcity of resources. They believed that human population would grow at rate in which they exceed the ability at which humans can find food. In the future, humans would be unable to feed large populations. The biological assumptions of exponential growth is that the per capita growth rate is constant. Growth is not limited by resource scarcity or predation.
+
+
+=== Simple discrete time exponential model ===
+
+where λ is the discrete-time per capita growth rate. At λ = 1, we get a linear line and a discrete-time per capita growth rate of zero. At λ < 1, we get a decrease in per capita growth rate. At λ > 1, we get an increase in per capita growth rate. At λ = 0, we get extinction of the species.
+
+
+=== Continuous time version of exponential growth. ===
+Some species have continuous reproduction.
+
+where  is the rate of population growth per unit time, r is the maximum per capita growth rate, and N is the population size.
+At r > 0, there is an increase in per capita growth rate. At r = 0, the per capita growth rate is zero. At r < 0, there is a decrease in per capita growth rate.
+
+
+=== Logistic population growth ===
+Logistics comes from the French word logistique, which means to compute. Population regulation is a density-dependent process, meaning that population growth rates are regulated by the density of a population. Think of the analogy of a thermostat. When the temperature is too hot, the thermostat turns on the AC to decrease the temperature back to homeostasis. When the temperature is too cold, the thermostat turns on the heater to increase the temperature back to homeostasis. Likewise with density dependence. Whether the population density is high or low, population dynamics returns the population density to homeostasis. Homeostasis is the set point, or carrying capacity, defined as K.
+
+
+=== Continuous-time model of logistic growth ===
+
+where  is the density dependence, N is the number in the population, K is the set point for homeostasis and the carrying capacity. In this logistic model, population growth rate is highest at 1/2 K and the population growth rate is zero around K. The optimum harvesting rate is a close rate to 1/2 K where population will grow the fastest. Above K, the population growth rate is negative. The logistic models also shows density dependence, meaning the per capita population growth rates decline as the population density increases. In the wild, you can't get these pattern to emerge without simplification. Negative density dependence allows for a population that overshoots the carrying capacity to decrease back to the carrying capacity, K.
+According to R/K_selection_theory organisms may be specialised for rapid growth, or stability closer to carrying capacity.
+
+
+=== Discrete time logistical model ===
+
+This equation uses r instead of λ because per capita growth rate is zero when r = 0. As r gets very high, there are oscillations and deterministic chaos.  Deterministic chaos is large changes in population dynamics when there is a very small r. This makes it hard to make predictions at high r values because a very small r error results in a massive error in population dynamics.
+Population is always density dependent. Even a severe density independent event cannot regulate populate, although it may cause it to go extinct.
+Not all population models are necessarily negative density dependent. The Allee effect allows for a positive correlation between population density and per capita growth rate in communities with very small populations. For example, a fish swimming on its own is more likely to be eaten than the same fish swimming among a school of fish, because the pattern of movement of the school of fish is more likely to confuse and stun the predator.
+
+
+=== Examples of individual-based models ===
+
+
+== Fisheries and wildlife management ==
+
+In fisheries and wildlife management, population is affected by three dynamic rate functions.
+Natality or birth rate, often recruitment, which means reaching a certain size or reproductive stage. Usually refers to the age a fish can be caught and counted in nets
+Population growth rate, which measures the growth of individuals in size and length. More important in fisheries, where population is often measured in biomass.
+Mortality, which includes harvest mortality and natural mortality. Natural mortality includes non-human predation, disease and old age.
+If N1 is the number of individuals at time 1 then
+
+where N0 is the number of individuals at time 0, B is the number of individuals born, D the number that died, I the number that immigrated, and E the number that emigrated between time 0 and time 1.
+If we measure these rates over many time intervals, we can determine how a population's density changes over time. Immigration and emigration are present, but are usually not measured.
+All of these are measured to determine the harvestable surplus, which is the number of individuals that can be harvested from a population without affecting long-term population stability or average population size. The harvest within the harvestable surplus is termed "compensatory" mortality, where the harvest deaths are substituted for the deaths that would have occurred naturally. Harvest above that level is termed "additive" mortality, because it adds to the number of deaths that would have occurred naturally. These terms are not necessarily judged as "good" and "bad," respectively, in population management. For example, a fish & game agency might aim to reduce the size of a deer population through additive mortality. Bucks might be targeted to increase buck competition, or does might be targeted to reduce reproduction and thus overall population size.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Introduction to Social Macrodynamics: Compact Macromodels of the World System Growth by Andrey Korotayev, Artemy Malkov, and Daria Khaltourina. ISBN 5-484-00414-4
+Turchin, P. 2003. Complex Population Dynamics: a Theoretical/Empirical Synthesis. Princeton, NJ: Princeton University Press.
+Weiss, V. 2007. The population cycle drives human history - from a eugenic phase into a dysgenic phase and eventual collapse. The Journal of Social, Political and Economic Studies 32: 327-358 [1]
+
+
+== External links ==
+GreenBoxes code sharing network. Greenboxes (Beta) is a repository for open-source population modelling and PVA code. Greenboxes allows users an easy way to share their code and to search for others shared code.
+The Virtual Handbook on Population Dynamics. An online compilation of state-ot-the-art basic tools for the analysis of population dynamics with emphasis on benthic invertebrates.
+Creatures! High School interactive simulation program that implements an agent based simulation of grass, rabbits and foxes.

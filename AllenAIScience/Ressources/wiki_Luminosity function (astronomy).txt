@@ -1,0 +1,22 @@
+In astronomy, the luminosity function gives the number of stars or galaxies per luminosity interval. Luminosity functions are used to study the properties of large groups or classes of objects, such as the stars in clusters or the galaxies in the Local Group.
+Note that the term "function" is slightly misleading, and the luminosity function might better be described as a luminosity distribution. Given a luminosity as input, the luminosity function essentially returns the abundance of objects with that luminosity (specifically, number density per luminosity interval).
+
+
+== Schechter luminosity function ==
+The Schechter luminosity function provides a parametric description of the space density of galaxies as a function of their luminosity. The form of the function is
+
+where , and  is a characteristic galaxy luminosity where the power-law form of the function cuts off. The parameter  has units of number density and provides the normalization. The galaxy luminosity function may have different parameters for different populations and environments; it is not a universal function. One measurement from field galaxies is .
+It is often more convenient to rewrite the Schechter function in terms of magnitudes, rather than luminosities. In this case, the Schechter function becomes:
+
+Note that because the magnitude system is logarithmic, the power law has logarithmic slope . This is why a Schechter function with  is said to be flat.
+
+
+== Integrals of the Schechter function ==
+Integrals of the Schechter function can be expressed via the incomplete gamma function
+
+
+== White dwarf luminosity function ==
+The white dwarf luminosity function (WDLF) gives the number of white dwarf stars with a given luminosity. As this is determined by the rates at which these stars form and cool, it is of interest for the information it gives about the physics of white dwarf cooling and the age and history of the Galaxy.
+
+
+== References ==

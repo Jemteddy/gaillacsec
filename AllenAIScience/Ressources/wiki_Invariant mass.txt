@@ -1,0 +1,66 @@
+The invariant mass, rest mass, intrinsic mass, proper mass, or in the case of bound systems simply mass, is a characteristic of the total energy and momentum of an object or a system of objects that is the same in all frames of reference related by Lorentz transformations. If a center of momentum frame exists for the system, then the invariant mass of a system is simply the total energy divided by the speed of light squared. In other reference frames, the energy of the system increases, but system momentum is subtracted from this, so that the invariant mass remains unchanged.
+Systems whose four-momentum is a null vector (for example a single photon or many photons moving in exactly the same direction) have zero invariant mass, and are referred to as massless. A physical object or particle moving faster than the speed of light would have space-like four-momenta (such as the hypothesized tachyon), and these do not appear to exist. Any time-like four-momentum possesses a reference frame where the momentum (3-dimensional) is zero, which is a center of momentum frame. In this case, invariant mass is positive and is referred to as the rest mass.
+If objects within a system are in relative motion, then the invariant mass of the whole system will differ from the sum of the objects' rest masses. This is also equal to the total energy of the system divided by c2. See mass–energy equivalence for a discussion of definitions of mass. Since the mass of systems must be measured with a weight or mass scale in a center of momentum frame in which the entire system has zero momentum, such a scale always measures the system's invariant mass. For example, a scale would measure the kinetic energy of the molecules in a bottle of gas to be part of invariant mass of the bottle, and thus also its rest mass. The same is true for massless particles in such system, which add invariant mass and also rest mass to systems, according to their energy.
+For an isolated massive system, the center of mass of the system moves in a straight line with a steady sub-luminal velocity (with a velocity depending on the reference frame used to view it). Thus, an observer can always be placed to move along with it. In this frame, which is the center of momentum frame, the total momentum is zero, and the system as a whole may be thought of as being "at rest" if it is a bound system (like a bottle of gas). In this frame, which always exists, the invariant mass of the system is equal to the total system energy (in the zero-momentum frame) divided by c2. This total energy in the center of momentum frame, is the minimum energy which the system may be observed to have, when seen by various observers from various inertial frames.
+Note that for reasons above, such a rest frame does not exist for single photons, or rays of light moving in one direction. When two or more photons move in different directions, however, a center of mass frame (or "rest frame" if the system is bound) exists. Thus, the mass of a system of several photons moving in different directions is positive, which means that an invariant mass exists for this system even though it does not exist for each photon.
+
+
+== Sum of rest massesEdit ==
+Because the invariant mass includes the mass of any kinetic and potential energies which remain in the center of momentum frame, the invariant mass of a system is usually greater than sum of rest masses of its separate constituents. For example, rest mass and invariant mass are zero for individual photons even though they may add mass to the invariant mass of systems. For this reason, invariant mass is in general not an additive quantity (although there are a few rare situations where it may be, as is the case when massive particles in a system without potential or kinetic energy can be added to a total mass).
+Consider the simple case of two-body system, where object A is moving towards another object B which is initially at rest (in any particular frame of reference). The magnitude of invariant mass of this two-body system (see definition below) is different from the sum of rest mass (i.e. their respective mass when stationary). Even if we consider the same system from center-of-momentum frame, where net momentum is zero, the magnitude of the system's invariant mass is not equal to the sum of the rest masses of the particles within it.
+The kinetic energy of such particles and the potential energy of the force fields increase the total energy above the sum of the particle rest masses, and both terms contribute to the invariant mass of the system. The sum of the particle kinetic energies as calculated by an observer is smallest in the center of momentum frame (again, called the "rest frame" if the system is bound).
+They will often also interact through one or more of the fundamental forces, giving them a potential energy of interaction, possibly negative.
+For an isolated massive system, the center of mass moves in a straight line with a steady sub-luminal velocity. Thus, an observer can always be placed to move along with it. In this frame, which is the center of momentum frame, the total momentum is zero, and the system as a whole may be thought of as being "at rest" if it is a bound system (like a bottle of gas). In this frame, which always exists, the invariant mass of the system is equal to the total system energy (in the zero-momentum frame) divided by c2.
+
+
+== As defined in particle physicsEdit ==
+In particle physics, the invariant mass m0 is equal to the mass in the rest frame of the particle, and can be calculated by the particle's energy E and its momentum p as measured in any frame, by the energy–momentum relation:
+
+or in natural units where c = 1,
+
+This invariant mass is the same in all frames of reference (see also special relativity). This equation says that the invariant mass is the pseudo-Euclidean length of the four-vector (E, p), calculated using the relativistic version of the Pythagorean theorem which has a different sign for the space and time dimensions. This length is preserved under any Lorentz boost or rotation in four dimensions, just like the ordinary length of a vector is preserved under rotations. In quantum theory the invariant mass is a parameter in the relativistic Dirac equation for an elementary particle. The Dirac quantum operator corresponds to the particle four-momentum vector.
+Since the invariant mass is determined from quantities which are conserved during a decay, the invariant mass calculated using the energy and momentum of the decay products of a single particle is equal to the mass of the particle that decayed. The mass of a system of particles can be calculated from the general formula:
+
+where
+ is the invariant mass of the system of particles, equal to the mass of the decay particle.
+ is the sum of the energies of the particles
+ is the vector sum of the momentum of the particles (includes both magnitude and direction of the momenta)
+The term invariant mass is also used in inelastic scattering experiments. Given an inelastic reaction with total incoming energy larger than the total detected energy (i.e. not all outgoing particles are detected in the experiment), the invariant mass (also known as the "missing mass") W of the reaction is defined as follows (in natural units):
+
+If there is one dominant particle which was not detected during an experiment, a plot of the invariant mass will show a sharp peak at the mass of the missing particle.
+In those cases when the momentum along one direction cannot be measured (i.e. in the case of a neutrino, whose presence is only inferred from the missing energy) the Transverse mass is used.
+
+
+== Example: two-particle collisionEdit ==
+In a two-particle collision (or a two-particle decay) the square of the invariant mass (in natural units) is
+
+
+=== Massless particlesEdit ===
+The invariant mass of a system made of two massless particles whose momenta form an angle  has a convenient expression:
+
+
+=== Collider experimentsEdit ===
+In particle collider experiments, one often defines the angular position of a particle in terms of an azimuthal angle  and pseudorapidity . Additionally the transverse momentum, , is usually measured. In this case if the particles are massless, or highly relativistic ( ,) then the invariant mass becomes:
+
+
+== Rest energyEdit ==
+
+The rest energy  of a particle is defined as:
+,
+where  is the speed of light in vacuum. In general, only differences in energy have physical significance.
+The concept of rest energy follows from the special theory of relativity that leads to Einstein's famous conclusion about equivalence of energy and mass. See background for mass–energy equivalence.
+On the other hand, the concept of the equivalent Dirac invariant rest mass may be defined in terms of the self energy corresponding to the product of a geometric matter current and a generalized potential  as part of a single definition of mass in a geometric unified theory.
+
+
+== See alsoEdit ==
+Mass in special relativity
+Invariant (physics)
+Transverse mass
+
+
+== ReferencesEdit ==
+Landau, L.D., Lifshitz, E.M. (1975). The Classical Theory of Fields: 4-th revised English Edition: Course of Theoretical Physics Vol. 2. Butterworth Heinemann. ISBN 0-7506-2768-9. 
+Halzen, Francis; Martin, Alan (1984). Quarks & Leptons: An Introductory Course in Modern Particle Physics. John Wiley & Sons. ISBN 0-471-88741-2. 
+
+
+== CitationsEdit ==

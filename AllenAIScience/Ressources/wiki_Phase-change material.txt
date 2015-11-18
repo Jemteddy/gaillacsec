@@ -1,0 +1,152 @@
+A phase-change material (PCM) is a substance with a high heat of fusion which, melting and solidifying at a certain temperature, is capable of storing and releasing large amounts of energy. Heat is absorbed or released when the material changes from solid to liquid and vice versa; thus, PCMs are classified as latent heat storage (LHS) units.
+
+
+== Characteristics and classification ==
+PCMs latent heat storage can be achieved through liquid–solid, solid–liquid, solid–gas and liquid–gas phase change. However, the only phase change used for PCMs is the solid–liquid change. Liquid-gas phase changes are not practical for use as thermal storage due to the large volumes or high pressures required to store the materials when in their gas phase. Liquid–gas transitions do have a higher heat of transformation than solid–liquid transitions. Solid–solid phase changes are typically very slow and have a rather low heat of transformation.
+Initially, the solid–liquid PCMs behave like sensible heat storage (SHS) materials; their temperature rises as they absorb heat. Unlike conventional SHS, however, when PCMs reach the temperature at which they change phase (their melting temperature) they absorb large amounts of heat at an almost constant temperature. The PCM continues to absorb heat without a significant rise in temperature until all the material is transformed to the liquid phase. When the ambient temperature around a liquid material falls, the PCM solidifies, releasing its stored latent heat. A large number of PCMs are available in any required temperature range from −5 up to 190 °C. Within the human comfort range between 20–30 °C, some PCMs are very effective. They store 5 to 14 times more heat per unit volume than conventional storage materials such as water, masonry or rock.
+
+
+=== Organic PCMs ===
+Paraffin (CnH2n+2) and fatty acids (CH3(CH2)2nCOOH)
+Advantages
+Freeze without much undercooling
+Ability to melt congruently
+Self nucleating properties
+Compatibility with conventional material of construction
+No segregation
+Chemically stable
+High heat of fusion
+Safe and non-reactive
+Recyclable
+
+Disadvantages
+Low thermal conductivity in their solid state. High heat transfer rates are required during the freezing cycle
+Volumetric latent heat storage capacity is low
+Flammable. This can be partially alleviated by specialist containment
+To obtain reliable phase change points, most manufacturers use technical grade paraffins which are essentially paraffin mixture(s) and are completely refined of oil, resulting in high costs
+
+
+=== Inorganic ===
+Salt hydrates (MnH2O)
+Advantages
+High volumetric latent heat storage capacity
+Availability and low cost
+Sharp melting point
+High thermal conductivity
+High heat of fusion
+Non-flammable
+
+Disadvantages
+Change of volume is very high
+Super cooling is major problem in solid–liquid transition
+Nucleating agents are needed and they often become inoperative after repeated cycling
+
+
+=== Eutectics ===
+Organic-organic, organic-inorganic, inorganic-inorganic compounds
+Advantages
+Eutectics have sharp melting point similar to pure substance
+Volumetric storage density is slightly above organic compounds
+
+Disadvantages
+Only limited data is available on thermo-physical properties as the use of these materials are relatively new to thermal storage application
+
+
+=== Hygroscopic materials ===
+Many natural building materials are hygroscopic, that is they can absorb (water condenses) and release water (water evaporates). The process is thus:
+Condensation (gas to liquid) ΔH<0; enthalpy decreases (exothermic process) gives off heat.
+Vaporization (liquid to gas) ΔH>0; enthalpy increases (endothermic process) absorbs heat (or cools).
+Whilst this process liberates a small quantity of energy, large surfaces area allows significant (1–2 °C) heating or cooling in buildings. The corresponding materials are wool insulation, earth/clay render finishes,.
+
+
+== Selection criteria ==
+Thermodynamic properties. The phase change material should possess:Melting temperature in the desired operating temperature range
+High latent heat of fusion per unit volume
+High specific heat, high density and high thermal conductivity
+Small volume changes on phase transformation and small vapor pressure at operating temperatures to reduce the containment problem
+Congruent melting
+
+Kinetic properties
+High nucleation rate to avoid supercooling of the liquid phase
+High rate of crystal growth, so that the system can meet demands of heat recovery from the storage system
+
+Chemical properties
+Chemical stability
+Complete reversible freeze/melt cycle
+No degradation after a large number of freeze/melt cycle
+Non-corrosiveness, non-toxic, non-flammable and non-explosive materials
+
+Economic properties
+Low cost
+Availability
+
+
+== Thermophysical properties of common PCMs ==
+Volumetric heat capacity (VHC) J·m−3·K−1
+
+Thermal inertia (I) = Thermal effusivity (e) J·m−2·K−1·s−1/2
+
+
+== Thermophysical properties of commercially available PCMs near room temperature ==
+The above dataset is also available as an Excel spreadsheet from UCLA Engineering
+
+
+== Technology, development and encapsulation ==
+The most commonly used PCMs are salt hydrates, fatty acids and esters, and various paraffins (such as octadecane). Recently also ionic liquids were investigated as novel PCMs.
+As most of the organic solutions are water-free, they can be exposed to air, but all salt based PCM solutions must be encapsulated to prevent water evaporation or uptake. Both types offer certain advantages and disadvantages and if they are correctly applied some of the disadvantages becomes an advantage for certain applications.
+They have been used since the late 19th century as a medium for the thermal storage applications. They have been used in such diverse applications as refrigerated transportation for rail and road applications and their physical properties are, therefore, well known.
+Unlike the ice storage system, however, the PCM systems can be used with any conventional water chiller both for a new or alternatively retrofit application. The positive temperature phase change allows centrifugal and absorption chillers as well as the conventional reciprocating and screw chiller systems or even lower ambient conditions utilizing a cooling tower or dry cooler for charging the TES system.
+The temperature range offered by the PCM technology provides a new horizon for the building services and refrigeration engineers regarding medium and high temperature energy storage applications. The scope of this thermal energy application is wide ranging of solar heating, hot water, heating rejection, i.e. cooling tower and dry cooler circuitry thermal energy storage applications.
+Since PCMs transform between solid–liquid in thermal cycling, encapsulation naturally become the obvious storage choice.
+Encapsulation of PCMs
+Macro-encapsulation: Early development of macro-encapsulation with large volume containment failed due to the poor thermal conductivity of most PCMs. PCMs tend to solidify at the edges of the containers preventing effective heat transfer.
+Micro-encapsulation: Micro-encapsulation on the other hand showed no such problem. It allows the PCMs to be incorporated into construction materials, such as concrete, easily and economically. Micro-encapsulated PCMs also provide a portable heat storage system. By coating a microscopic sized PCM with a protective coating, the particles can be suspended within a continuous phase such as water. This system can be considered a phase change slurry (PCS).
+Molecular-encapsulation is another technology, developed by Dupont de Nemours that allows a very high concentration of PCM within a polymer compound. It allows storage capacity up to 515 kJ/m2 for a 5 mm board (103 MJ/m3). Molecular-encapsulation allows drilling and cutting through the material without any PCM leakage.
+
+As phase change materials perform best in small containers, therefore they are usually divided in cells. The cells are shallow to reduce static head – based on the principle of shallow container geometry. The packaging material should conduct heat well; and it should be durable enough to withstand frequent changes in the storage material's volume as phase changes occur. It should also restrict the passage of water through the walls, so the materials will not dry out (or water-out, if the material is hygroscopic). Packaging must also resist leakage and corrosion. Common packaging materials showing chemical compatibility with room temperature PCMs include stainless steel, polypropylene and polyolefin.
+
+
+== Thermal composites ==
+Thermal-composites is a term given to combinations of phase change materials (PCMs) and other (usually solid) structures. A simple example is a copper-mesh immersed in a paraffin-wax. The copper-mesh within parraffin-wax can be considered a composite material, dubbed a thermal-composite. Such hybrid materials are created to achieve specific overall or bulk properties.
+Thermal conductivity is a common property which is targeted for maximisation by creating thermal composites. In this case the basic idea is to increase thermal conductivity by adding a highly conducting solid (such as the copper-mesh) into the relatively low conducting PCM thus increasing overall or bulk (thermal) conductivity. If the PCM is required to flow, the solid must be porous, such as a mesh.
+Solid composites such as fibre-glass or kevlar-pre-preg for the aerospace industry usually refer to a fibre (the kevlar or the glass) and a matrix (the glue which solidifies to hold fibres and provide compressive strength). A thermal composite is not so clearly defined, but could similarly refer to a matrix (solid) and the PCM which is of course usually liquid and/or solid depending on conditions. They are also meant to discover minor elements in the earth.
+
+
+== Applications ==
+
+Applications of phase change materials include, but are not limited to:
+Thermal energy storage
+Conditioning of buildings, such as 'ice-storage'
+Cooling of heat and electrical engines
+Cooling: food, beverages, coffee, wine, milk products, green houses
+Medical applications: transportation of blood, operating tables, hot-cold therapies, treatment of birth asphyxia
+Human body cooling under bulky clothing or costumes.
+Waste heat recovery
+Off-peak power utilization: Heating hot water and Cooling
+Heat pump systems
+Passive storage in bioclimatic building/architecture (HDPE, paraffin)
+Smoothing exothermic temperature peaks in chemical reactions
+Solar power plants
+Spacecraft thermal systems
+Thermal comfort in vehicles
+Thermal protection of electronic devices
+Thermal protection of food: transport, hotel trade, ice-cream, etc.
+Textiles used in clothing
+Computer cooling
+Turbine Inlet Chilling with thermal energy storage
+Telecom shelters in tropical regions. They protect the high-value equipment in the shelter by keeping the indoor air temperature below the maximum permissible by absorbing heat generated by power-hungry equipment such as a Base Station Subsystem. In case of a power failure to conventional cooling systems, PCMs minimize use of diesel generators, and this can translate into enormous savings across thousands of telecom sites in tropics.
+
+
+== Fire and safety issues ==
+Some phase change materials are suspended in water, and are relatively nontoxic. Others are hydrocarbons or other flammable materials, or are toxic. As such, PCMs must be selected and applied very carefully, in accordance with fire and building codes and sound engineering practices. Because of the increased fire risk, flamespread, smoke, potential for explosion when held in containers, and liability, it may be wise not to use flammable PCMs within residential or other regularly occupied buildings. Phase change materials are also being used in thermal regulation of electronics.
+
+
+== See also ==
+Heat pipe
+
+
+== References ==
+
+
+== Further reading ==
+Raoux, S. (2009). "Phase Change Materials". Annual Review of Materials Research 39: 25–48. Bibcode:2009AnRMS..39...25R. doi:10.1146/annurev-matsci-082908-145405.

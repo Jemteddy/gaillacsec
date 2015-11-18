@@ -1,0 +1,12 @@
+Exponential dispersion models are statistical models in which the probability distribution is of a special form. This class of models represents a generalisation of the exponential family of models which themselves play an important role in statistical theory because they have a special structure which enables deductions to be made about appropriate statistical inference.
+
+
+== Definition ==
+Exponential dispersion models are a generalisation of the natural exponential family: these have a probability density function which, for a multivariate model, can be written as
+
+where the parameter  has the same dimension as the observation variable . The generalisation includes an extra scalar "index parameter", , and has density function of the form
+
+The terminology "dispersion parameter" is used for , while  is the "natural parameter" (also known as "canonical parameter").
+
+
+== References ==

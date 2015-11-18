@@ -1,0 +1,30 @@
+A nitrogen oxide sensor or NOx sensor is typically a high-temperature device built to detect nitrogen oxides in combustion environments such as an automobile or truck tailpipe or a smokestack.
+
+
+== Availability ==
+Continental Automotive Systems/NGK produce NOx sensors for automotive and truck applications. Several automobile and related companies such as Delphi, Ford, Chrysler, and Toyota have also put extensive research into development of NOx sensors. Many academic and government labs are pushing to develop the sensors as well. The term NOx actually represents several forms of nitrogen oxides such as NO (nitric oxide), NO2 (nitrogen dioxide) and N2O (nitrous oxide aka laughing gas). In a gasoline engine NO is the most common form of NOx being around 93% while NO2 is around 5% and the rest is N2O. There are other forms of NOx such as N2O4 (the dimer of NO2), which only exists at lower temperatures, and N2O5, for example. However, owing to much higher combustion temperatures due to high cylinder compression and turbo or supercharging, diesel engines produce much higher engine-out NOx emissions than spark-ignition gasoline engines do. The recent availability of Selective catalytic reduction (SCR) allows the properly equipped diesel engine to emit similar values of NOx at the tailpipe compared to a typical gasoline engine with a 3-way catalyst. In addition, the diesel oxidation catalyst significantly increases the fraction of NO2 in "NOx" by oxidizing over 50% of NO using the excess oxygen in the diesel exhaust gases.
+
+
+== Motivating factors ==
+The drive to develop a NOx sensor comes from environmental factors. NOx gases can cause various problems such as smog and acid rain. Many governments around the world have passed laws to limit their emissions (along with other combustion gases such as SOx (oxides of sulfur), CO (carbon monoxide) and CO2 (carbon dioxide) and hydrocarbons). Companies have realized that one way of minimizing NOx emissions is to first detect them and then employ some sort of feedback loop in the combustion process, minimizing NOx production by, for example, combustion optimization or regeneration of NOx traps.
+
+
+== Difficulties ==
+
+
+=== Harsh environment ===
+Due to the high temperature of the combustion environment, only certain types of material can operate in situ. The majority of NOx sensors developed have been made out of ceramic type metal oxides, with the most common being yttria-stabilized zirconia (YSZ), which is currently used in the decades-old oxygen sensor. The YSZ is compacted into a dense ceramic and actually conducts oxygen ions (O2−) at the high temperatures of a tailpipe such at 400 °C and above. To get a signal from the sensor a pair of high-temperature electrodes such as noble metals (platinum, gold, or palladium) or other metal oxides are placed onto the surface and an electrical signal such as the change in voltage or current is measured as a function of NOx concentration.
+
+
+=== High sensitivity and durability required ===
+The levels of NO are around 100–2000 ppm (parts per million) and NO2 20–200 ppm in a range of 1–10% O2. The sensor has to be very sensitive to pick up these levels.
+The main problems that have limited the development of a successful NOx sensor (which are typical of many sensors) are selectivity, sensitivity, stability, reproducibility, response time, limit of detection, and cost. In addition due to the harsh environment of combustion the high gas flow rate can cool the sensor which alters the signal or it can delaminate the electrodes over time and soot particles can degrade the materials.
+
+
+== See also ==
+List of sensors
+
+
+== External links ==
+Prabir Dutta Research group at Ohio State University, USA, that develops combustion sensors, including NOx. A research summary and
+review article.

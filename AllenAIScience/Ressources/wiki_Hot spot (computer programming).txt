@@ -1,0 +1,23 @@
+A hot spot in computer science is most usually defined as a region of a computer program where a high proportion of executed instructions occur or where most time is spent during the program's execution (not necessarily the same thing since some instructions are faster than others).
+If a program is stopped randomly, the program counter (the pointer to the next instruction to be executed) is frequently found to contain the address of an instruction within a certain range, possibly indicating code that is in need of optimization or even indicating the existence of a 'tight' CPU loop. This simple technique can actually be used as a method of detecting highly used instructions although somewhat more sophisticated methods, such as instruction set simulators or performance analyzers, achieve this more accurately and consistently.
+
+
+== History of hot spot detection ==
+The computer scientist Donald Knuth described his first encounter with what he refers to as a jump trace in an interview for Dr. Dobb's Journal in 1996, saying:
+
+In the '60s, someone invented the concept of a 'jump trace'. This was a way of altering the machine language of a program so it would change the next branch or jump instruction to retain control, so you could execute the program at fairly high speed instead of interpreting each instruction one at a time and record in a file just where a program diverged from sequentiality. By processing this file you could figure out where the program was spending most of its time. So the first day we had this software running, we applied it to our Fortran compiler supplied by, I suppose it was in those days, Control Data Corporation. We found out it was spending 87 percent of its time reading comments! The reason was that it was translating from one code system into another into another.
+
+
+=== Iteration ===
+The example above serves to illustrate that effective hot spot detection is often an iterative process and perhaps one that should always be carried out (instead of simply accepting that a program is performing reasonably). After eliminating all extraneous processing (just by removing all the embedded comments for instance), a new runtime analysis would more accurately detect the "genuine" hot spots in the translation. If no hot spot detection had taken place at all, the program may well have consumed vastly more resources than necessary, possibly for many years on numerous machines, without anyone ever being fully aware of this.
+
+
+== Instruction set simulation as a hot spot detector ==
+An instruction set simulator can be used to count each time a particular instruction is executed and later produce either an on-screen display, a printed program listing (with counts and/or percentages of total instruction path length) or a separate report, showing precisely where the highest number of instructions took place. This only provides a relative view of hot spots (from an instruction step perspective) since most instructions have different timings on many machines. It nevertheless provides a measure of highly used code and one that is quite useful in itself when tuning an algorithm.
+
+
+== See also ==
+Profiling (computer programming)
+
+
+== References ==

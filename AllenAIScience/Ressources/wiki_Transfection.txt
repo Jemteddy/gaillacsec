@@ -1,0 +1,77 @@
+Transfection is the process of deliberately introducing nucleic acids into cells. The term is often used for non-viral methods in eukaryotic cells. It may also refer to other methods and cell types, although other terms are preferred: "transformation" is more often used to describe non-viral DNA transfer in bacteria and non-animal eukaryotic cells, including plant cells. In animal cells, transfection is the preferred term as transformation is also used to refer to progression to a cancerous state (carcinogenesis) in these cells. Transduction is often used to describe virus-mediated DNA transfer.
+The word transfection is a blend of trans- and infection. Genetic material (such as supercoiled plasmid DNA or siRNA constructs), or even proteins such as antibodies, may be transfected.
+Transfection of animal cells typically involves opening transient pores or "holes" in the cell membrane to allow the uptake of material. Transfection can be carried out using calcium phosphate, by electroporation, by cell squeezing or by mixing a cationic lipid with the material to produce liposomes, which fuse with the cell membrane and deposit their cargo inside.
+Transfection can result in unexpected morphologies and abnormalities in target cells.
+
+
+== Terminology ==
+The meaning of the term has evolved. The original meaning of transfection was "infection by transformation," i.e., introduction of DNA (or RNA) from a prokaryote-infecting virus or bacteriophage into cells, resulting in an infection. Because the term transformation had another sense in animal cell biology (a genetic change allowing long-term propagation in culture, or acquisition of properties typical of cancer cells), the term transfection acquired, for animal cells, its present meaning of a change in cell properties caused by introduction of DNA.
+
+
+== Methods ==
+There are various methods of introducing foreign DNA into a eukaryotic cell: some rely on physical treatment (electroporation, cell squeezing, nanoparticles, magnetofection), other on chemical materials or biological particles (viruses) that are used as carriers.
+
+
+=== Chemical-based transfection ===
+Chemical-based transfection can be divided into several kinds: cyclodextrin, polymers, liposomes, or nanoparticles  (with or without chemical or viral functionalization. See below).
+One of the cheapest methods uses calcium phosphate, originally discovered by F. L. Graham and A. J. van der Eb in 1973 (see also ). HEPES-buffered saline solution (HeBS) containing phosphate ions is combined with a calcium chloride solution containing the DNA to be transfected. When the two are combined, a fine precipitate of the positively charged calcium and the negatively charged phosphate will form, binding the DNA to be transfected on its surface. The suspension of the precipitate is then added to the cells to be transfected (usually a cell culture grown in a monolayer). By a process not entirely understood, the cells take up some of the precipitate, and with it, the DNA. This process has been a preferred method of identifying many oncogenes.
+Other methods use highly branched organic compounds, so-called dendrimers, to bind the DNA and get it into the cell.
+A very efficient method is the inclusion of the DNA to be transfected in liposomes, i.e. small, membrane-bounded bodies that are in some ways similar to the structure of a cell and can actually fuse with the cell membrane, releasing the DNA into the cell. For eukaryotic cells, transfection is better achieved using cationic liposomes (or mixtures), because the cells are more sensitive. See lipofection for more details.
+Another method is the use of cationic polymers such as DEAE-dextran or polyethylenimine. The negatively charged DNA binds to the polycation and the complex is taken up by the cell via endocytosis.
+
+
+=== Non-chemical methods ===
+Electroporation (Gene electrotransfer) is a popular method, where transient increase in the permeability of cell membrane is achieved when the cells are exposed to short pulses of an intense electric field.
+Cell squeezing is a method invented in 2012 by Armon Sharei, Robert Langer and Klavs Jensen at MIT. It enables delivery of molecules into cells by a gentle squeezing of the cell membrane. It is a high throughput vector-free microfluidic platform for intracellular delivery. It eliminates the possibility of toxicity or off-target effects as it does not rely on exogenous materials or electrical fields.
+Sonoporation uses high-intensity ultrasound to induce pore formation in cell membranes. This pore formation is attributed mainly to the cavitation of gas bubbles interacting with nearby cell membranes since it is enhanced by the addition of ultrasound contrast agent, a source of cavitation nuclei.
+Optical transfection is a method where a tiny (~1 µm diameter) hole is transiently generated in the plasma membrane of a cell using a highly focused laser. This technique was first described in 1984 by Tsukakoshi et al., who used a frequency tripled Nd:YAG to generate stable and transient transfection of normal rat kidney cells. In this technique, one cell at a time is treated, making it particularly useful for single cell analysis.
+Protoplast fusion is a technique in which transformed bacterial cells are treated with lysozyme in order to remove the cell wall. Following this, fusogenic agents (e.g., Sendai virus, PEG, electroporation) are used in order to fuse the protoplast carrying the gene of interest with the target recipient cell. A major disadvantage of this method is that bacterial components are non-specifically introduced into the target cell as well.
+Impalefection is a method of introducing DNA bound to a surface of a nanofiber that is inserted into a cell. This approach can also be implemented with arrays of nanofibers that are introduced into large numbers of cells and intact tissue.
+Hydrodynamic delivery In mice and rats, but to a lesser extent in larger animals, DNA most often in plasmids, including transposons, can be delivered to the liver using hydrodynamic injection that involves infusion of a relatively large volume in the blood in less than 10 seconds; nearly all of the DNA is expressed in the liver by this procedure.
+
+
+=== Particle-based methods ===
+A direct approach to transfection is the gene gun, where the DNA is coupled to a nanoparticle of an inert solid (commonly gold) which is then "shot" directly into the target cell's nucleus.
+Magnetofection, or Magnet assisted transfection is a transfection method, which uses magnetic force to deliver DNA into target cells. Nucleic acids are first associated with magnetic nanoparticles. Then, application of magnetic force drives the nucleic acid particle complexes towards and into the target cells, where the cargo is released.
+Impalefection is carried out by impaling cells by elongated nanostructures and arrays of such nanostructures such as carbon nanofibers or silicon nanowires which have been functionalized with plasmid DNA.
+Another particle-based method of transfection is known as particle bombardment. The nucleic acid is delivered through membrane penetration at a high velocity, usually connected to microprojectiles.
+
+
+=== Viral methods ===
+DNA can also be introduced into cells using viruses as a carrier. In such cases, the technique is called viral transduction, and the cells are said to be transduced. Adenoviral vectors can be useful for viral transfection methods because they can transfer genes into a wide variety of human cells and have high transfer rates. Lentiviral vectors are also helpful due to their ability to transduce cells not currently undergoing mitosis.
+
+
+=== Other (and hybrid) methods ===
+Other methods of transfection include nucleofection, which has proved very efficient in transfection of the THP-1 cell line, creating a viable cell line that was able to be differentiated into mature macrophages, heat shock.
+
+
+== Stable and transient transfection ==
+For some applications of transfection, it is sufficient if the transfected genetic material is only transiently expressed. Since the DNA introduced in the transfection process is usually not integrated into the nuclear genome, the foreign DNA will be diluted through mitosis or degraded. Cell lines expressing the Epstein–Barr virus (EBV) nuclear antigen 1 (EBNA1) or the SV40 large-T antigen, allow episomal amplification of plasmids containing the viral EBV (293E) or SV40 (293T) origins of replication, greatly reducing the rate of dilution.
+If it is desired that the transfected gene actually remain in the genome of the cell and its daughter cells, a stable transfection must occur. To accomplish this, a marker gene is co-transfected, which gives the cell some selectable advantage, such as resistance towards a certain toxin. Some (very few) of the transfected cells will, by chance, have integrated the foreign genetic material into their genome. If the toxin is then added to the cell culture, only those few cells with the marker gene integrated into their genomes will be able to proliferate, while other cells will die. After applying this selective stress (selection pressure) for some time, only the cells with a stable transfection remain and can be cultivated further.
+A common agent for selecting stable transfection is Geneticin, also known as G418, which is a toxin that can be neutralized by the product of the neomycin resistance gene.
+
+
+== RNA transfection ==
+
+RNA can also be transfected into cells to transiently express its coded protein, or to study RNA decay kinetics. The latter application is referred as siRNA transfection or RNA silencing, and has become a major application in research (to replace the "knock-down" experiments, to study the expression of proteins, i.e. of Endothelin-1) with potential applications in gene-therapy.
+A limitation of the silencing approach rely on the toxicity of the transfection for cells, and its suspected effect on the expression of other genes/proteins.
+
+
+== See also ==
+Protofection
+Transformation
+Transduction
+Cationic liposome
+Nucleofection
+Magnet assisted transfection
+Impalefection
+
+
+== References ==
+
+
+== External links ==
+Transfection at the US National Library of Medicine Medical Subject Headings (MeSH)
+Biology Research Resource — Articles and Forums about Transfection
+Bonetta L (2005). "The inside scoop—evaluating gene delivery methods". Nature Methods 2 (11): 875–883. doi:10.1038/nmeth1105-875. 
+Research in optical transfection at the University of St Andrews

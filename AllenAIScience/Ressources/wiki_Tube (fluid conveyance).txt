@@ -1,0 +1,50 @@
+A tube, or tubing, is a long hollow cylinder used for moving fluids (liquids or gases) or to protect electrical or optical cables and wires.
+The terms "pipe" and "tube" are almost interchangeable, although minor distinctions exist — generally, a tube has tighter engineering requirements than a pipe. Both pipe and tube imply a level of rigidity and permanence, whereas a hose is usually portable and flexible. A tube and pipe may be specified by standard pipe size designations, e.g., nominal pipe size, or by nominal outside or inside diameter and/or wall thickness. The actual dimensions of pipe are usually not the nominal dimensions: A 1-inch pipe will not actually measure 1 inch in either outside or inside diameter, whereas many types of tubing are specified by actual inside diameter, outside diameter, or wall thickness.
+
+
+== Manufacture ==
+
+There are three classes of manufactured tubing: seamless, as-welded or electric resistant welded (ERW), and drawn-over-mandrel (DOM).
+Seamless tubing is produced via extrusion or rotary piercing.
+Drawn-over-mandrel tubing is made from cold-drawn electrical-resistance-welded tube that is drawn through a die and over a mandrel to create such characteristics as dependable weld integrity, dimensional accuracy, and an excellent surface finish.
+
+
+== Standards ==
+There are many industry and government standards for pipe and tubing. Many standards exist for tube manufacture; some of the most common are as follows:
+ASTM A213 Standard Specification for Seamless Ferritic and Austenitic Alloy-Steel Boiler, Superheater, Heat-Exchanger Tubes.
+ASTM A269 Standard Specification for Seamless and Welded Austenitic Stainless Steel Tubing for General Service
+ASTM A270 Standard Specification for Seamless and Welded Austenitic Stainless Steel Sanitary Tubing
+ASTM A511 Standard Specification for Seamless Stainless Steel Mechanical Tubing
+ASTM A513 Standard Specification for Electric-Resistance-Welded Carbon and Alloy Steel Mechanical Tubing
+ASTM A554 Standard Specification for Welded Stainless Steel Mechanical Tubing
+British Standard 1387:1985 Specification for screwed and socketed steel tubes and tubulars and for plain end steel tubes suitable for welding or for screwing to BS 21 pipe threads
+ASTM material specifications generally cover a variety of grades or types that indicate a specific material composition. Some of the most commonly used are:
+TP 304
+TP 316
+MT 304
+MT 403
+MT 506
+In installations using hydrogen, copper and stainless steel tubing must be factory pre-cleaned (ASTM B 280) and/or certified as instrument grade. This is due to hydrogen's particular propensities: to explode in the presence of oxygen, oxygenation sources, or contaminants; to leak due to its atomic size; and to cause embrittlement of metals, particularly under pressure.
+
+
+== Calculation of strength ==
+For a tube of silicone rubber with a tensile strength of 10 MPa and an 8 mm outer diameter and 2 mm thick walls. The maximum pressure may be calculated as follows:
+Outer diameter = 0.008 [meter]
+Wall thickness = 0.002 [meter]
+Tensile strength = 10 * 1000000 [Pa]
+Pressure burst = (Tensile strength * Wall thickness * 2 / (10 * Outer diameter) ) * 10 [Pa]
+Gives burst pressure of 5 MPa.
+Using a safety factor:
+Pressure max = (Tensile strength * Wall thickness * 2 / (10 * Outer diameter) ) * 10 / Safety_factor [Pa]
+
+
+== See also ==
+
+
+== References ==
+^ "API 5L Grade B seamless tube PSL1 & PSL2". HYSP Steel Pipe. 
+^ "Mechanical properties of metals".  100607 ami.ac.uk
+
+
+== External links ==
+Steeltubeinstitute.org

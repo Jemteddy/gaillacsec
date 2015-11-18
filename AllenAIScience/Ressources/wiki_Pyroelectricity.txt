@@ -1,0 +1,54 @@
+Pyroelectricity (from the Greek pyr, fire, and electricity) is the ability of certain materials to generate a temporary voltage when they are heated or cooled. The change in temperature modifies the positions of the atoms slightly within the crystal structure, such that the polarization of the material changes. This polarization change gives rise to a voltage across the crystal. If the temperature stays constant at its new value, the pyroelectric voltage gradually disappears due to leakage current (the leakage can be due to electrons moving through the crystal, ions moving through the air, current leaking through a voltmeter attached across the crystal, etc.).
+Pyroelectricity should not be confused with thermoelectricity: In a typical demonstration of pyroelectricity, the whole crystal is changed from one temperature to another, and the result is a temporary voltage across the crystal. In a typical demonstration of thermoelectricity, one part of the device is kept at one temperature and the other part at a different temperature, and the result is a permanent voltage across the device as long as there is a temperature difference.
+
+
+== ExplanationEdit ==
+Pyroelectricity can be visualized as one side of a triangle, where each corner represents energy states in the crystal: kinetic, electrical and thermal energy. The side between electrical and thermal corners represents the pyroelectric effect and produces no kinetic energy. The side between kinetic and electrical corners represents the piezoelectric effect and produces no heat.
+Although artificial pyroelectric materials have been engineered, the effect was first discovered in minerals such as tourmaline. The pyroelectric effect is also present in both bone and tendon.
+Pyroelectric charge in minerals develops on the opposite faces of asymmetric crystals. The direction in which the propagation of the charge tends toward is usually constant throughout a pyroelectric material, but in some materials this direction can be changed by a nearby electric field. These materials are said to exhibit ferroelectricity. All pyroelectric materials are also piezoelectric, the two properties being closely related. However, note that some piezoelectric materials have a crystal symmetry that does not allow pyroelectricity.
+Very small changes in temperature can produce an electric potential due to a materials' pyroelectricity. Passive infrared sensors are often designed around pyroelectric materials, as the heat of a human or animal from several feet away is enough to generate a difference in charge.
+
+
+== HistoryEdit ==
+The first reference to the pyroelectric effect is in writings by Theophrastus in 314 BC, who noted that lyngourion could attract sawdust or bits of straw. Tourmaline's properties were rediscovered in 1707 by Johann Georg Schmidt, who noted that the stone attracted only hot ashes, not cold ones. In 1717 Louis Lemery noticed, as Schmidt had, that small scraps of non-conducting material were first attracted to tourmaline, but then repelled by it once they contacted the stone. In 1747 Linnaeus first related the phenomenon to electricity (he called tourmaline Lapidem Electricum, "the electric stone"), although this was not proven until 1756 by Franz Ulrich Theodor Aepinus.
+Research in pyroelectricity became more sophisticated in the 19th century. In 1824 Sir David Brewster gave the effect the name it has today. Both William Thomson in 1878 and Woldemar Voigt in 1897 helped develop a theory for the processes behind pyroelectricity. Pierre Curie and his brother, Jacques Curie, studied pyroelectricity in the 1880s, leading to their discovery of some of the mechanisms behind piezoelectricity.
+
+
+== The pyroelectric crystal classes and piezoelectricityEdit ==
+All crystal structures can be divided into 32 crystal classes, according to the number of rotational axes and reflection planes they exhibit that leave the crystal structure unchanged. Of the thirty-two crystal classes, twenty-one are non-centrosymmetric (not having a centre of symmetry). Of these twenty-one, twenty exhibit direct piezoelectricity, the remaining one being the cubic class 432. Ten of these twenty piezoelectric classes are polar, i.e., they possess a spontaneous polarization, having a dipole in their unit cell, and exhibit pyroelectricity. If this dipole can be reversed by the application of an electric field, the material is said to be ferroelectric. Any dielectric material develops a dielectric polarization (electrostatics) when an electric field is applied, but a substance which has such a natural charge separation even in the absence of a field is called a polar material. Whether or not a material is polar is determined solely by its crystal structure. Only 10 of the 32 point groups are polar. All polar crystals are pyroelectric, so the 10 polar crystal classes are sometimes referred to as the pyroelectric classes.
+Piezoelectric crystal classes: 1, 2, m, 222, mm2, 4, -4, 422, 4mm, -42m, 3, 32, 3m, 6, -6, 622, 6mm, -62m, 23, -43m
+Pyroelectric: 1, 2, m, mm2, 3, 3m, 4, 4mm, 6, 6mm
+The property of pyroelectricity is the measured change in net polarization (a vector) proportional to a change in temperature. The total pyroelectric coefficient measured at constant stress is the sum of the pyroelectric coefficients at constant strain (primary pyroelectric effect) and the piezoelectric contribution from thermal expansion (secondary pyroelectric effect). Under normal circumstances, even polar materials do not display a net dipole moment. As a consequence there are no electric dipole equivalents of bar magnets because the intrinsic dipole moment is neutralized by "free" electric charge that builds up on the surface by internal conduction or from the ambient atmosphere. Polar crystals only reveal their nature when perturbed in some fashion that momentarily upsets the balance with the compensating surface charge.
+
+
+== Recent developmentsEdit ==
+Progress has been made in creating artificial pyroelectric materials, usually in the form of a thin film, out of gallium nitride (GaN), caesium nitrate (CsNO3), polyvinyl fluorides, derivatives of phenylpyridine, and cobalt phthalocyanine. (See pyroelectric crystals.) Lithium tantalate (LiTaO3) is a crystal exhibiting both piezoelectric and pyroelectric properties, which has been used to create small-scale nuclear fusion ("pyroelectric fusion").
+
+
+== Mathematical descriptionEdit ==
+The pyroelectric coefficient may be described as the change in the spontaneous polarization vector with temperature:
+
+where pi (Cm−2K−1) is the vector for the pyroelectric coefficient.
+
+
+== Power generationEdit ==
+A pyroelectric can be repeatedly heated and cooled (analogously to a heat engine) to generate usable electrical power. One group calculated that a pyroelectric in an Ericsson cycle could reach 50% of Carnot efficiency, while a different study found a material that could in theory reach 84-92% of Carnot efficiency (these efficiency values are for the pyroelectric itself, ignoring losses from heating and cooling the substrate, other heat-transfer losses, and all other losses elsewhere in the system). Possible advantages of pyroelectric generators for generating electricity (as compared to the conventional heat engine plus electrical generator) include potentially lower operating temperatures, less bulky equipment, and fewer moving parts. Although a few patents have been filed for such a device, it does not appear to be anywhere close to commercialization yet.
+
+
+== See alsoEdit ==
+Pyroelectric crystal
+Pyroelectric fusion
+The opposite effect is called electrocaloric effect
+Thermoelectricity
+Kelvin probe force microscope
+
+
+== ReferencesEdit ==
+
+Gautschi, Gustav, 2002, Piezoelectric Sensorics, Springer, ISBN 3-540-42259-5 [1]
+
+
+== External linksEdit ==
+Substantial explanations of pyroelectric detector operation
+Pyroelectric Infrared Detectors DIAS Infrared
+DoITPoMS Teaching and Learning Package- "Pyroelectric Materials"

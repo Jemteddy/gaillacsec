@@ -1,0 +1,121 @@
+A digital elevation model (DEM) is a digital model or 3D representation of a terrain's surface — commonly for a planet (including Earth), moon, or asteroid — created from terrain elevation data.
+
+
+== TerminologyEdit ==
+There is no universal usage of the terms digital elevation model (DEM), digital terrain model (DTM) and digital surface model (DSM) in scientific literature. In most cases the term digital surface model represents the earth's surface and includes all objects on it. In contrast to a DSM, the digital terrain model (DTM) represents the bare ground surface without any objects like plants and buildings (see the figure on the right).
+
+DEM is often used as a generic term for DSMs and DTMs, only representing height information without any further definition about the surface. Other definitions equalise the terms DEM and DTM, or define the DEM as a subset of the DTM, which also represents other morphological elements. There are also definitions which equalise the terms DEM and DSM. On the Web definitions can be found which define DEM as a regularly spaced GRID and a DTM as a three-dimensional model (TIN). Most of the data providers (USGS, ERSDAC, CGIAR, Spot Image) use the term DEM as a generic term for DSMs and DTMs. All datasets which are captured with satellites, airplanes or other flying platforms are originally DSMs (like SRTM or the ASTER GDEM). It is possible to compute a DTM from high resolution DSM datasets with complex algorithms (Li et al., 2005). In the following the term DEM is used as a generic term for DSMs and DTMs.
+
+
+== Types of DEMEdit ==
+
+A DEM can be represented as a raster (a grid of squares, also known as a heightmap when representing elevation) or as a vector-based triangular irregular network (TIN). The TIN DEM dataset is also referred to as a primary (measured) DEM, whereas the Raster DEM is referred to as a secondary (computed) DEM. The DEM could be acquired through techniques such as photogrammetry, lidar, IfSAR, land surveying, etc. (Li et al. 2005). DEMs are commonly built using data collected using remote sensing techniques, but they may also be built from land surveying. DEMs are used often in geographic information systems, and are the most common basis for digitally-produced relief maps. While a DSM may be useful for landscape modeling, city modeling and visualization applications, a DTM is often required for flood or drainage modeling, land-use studies, geological applications, and other applications.
+
+
+== ProductionEdit ==
+
+Mappers may prepare digital elevation models in a number of ways, but they frequently use remote sensing rather than direct survey data. One powerful technique for generating digital elevation models is interferometric synthetic aperture radar where two passes of a radar satellite (such as RADARSAT-1 or TerraSAR-X or Cosmo SkyMed), or a single pass if the satellite is equipped with two antennas (like the SRTM instrumentation), collect sufficient data to generate a digital elevation map tens of kilometers on a side with a resolution of around ten meters. Other kinds of stereoscopic pairs can be employed using the digital image correlation method, where two optical images are acquired with different angles taken from the same pass of an airplane or an Earth Observation Satellite (such as the HRS instrument of SPOT5 or the VNIR band of ASTER).
+The SPOT 1 satellite (1986) provided the first usable elevation data for a sizeable portion of the planet's landmass, using two-pass stereoscopic correlation. Later, further data were provided by the European Remote-Sensing Satellite (ERS, 1991) using the same method, the Shuttle Radar Topography Mission (SRTM, 2000) using single-pass SAR and the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER, 2000) instrumentation on the Terra satellite using double-pass stereo pairs.
+The HRS instrument on SPOT 5 has acquired over 100 million square kilometers of stereo pairs.
+Older methods of generating DEMs often involve interpolating digital contour maps that may have been produced by direct survey of the land surface. This method is still used in mountain areas, where interferometry is not always satisfactory. Note that contour line data or any other sampled elevation datasets (by GPS or ground survey) are not DEMs, but may be considered digital terrain models. A DEM implies that elevation is available continuously at each location in the study area.
+The quality of a DEM is a measure of how accurate elevation is at each pixel (absolute accuracy) and how accurately is the morphology presented (relative accuracy). Several factors play an important role for quality of DEM-derived products:
+terrain roughness;
+sampling density (elevation data collection method);
+grid resolution or pixel size;
+interpolation algorithm;
+vertical resolution;
+terrain analysis algorithm;
+Reference 3D products include quality masks that give information on the coastline, lake, snow, clouds, correlation etc.
+
+
+=== Methods for obtaining elevation data used to create DEMsEdit ===
+
+Lidar
+Stereo photogrammetry from aerial surveys
+Structure from motion / Multi-view stereo applied to aerial photography
+Block adjustment from optical satellite imagery
+Interferometry from radar data
+Real Time Kinematic GPS
+Topographic maps
+Theodolite or total station
+Doppler radar
+Focus variation
+Inertial surveys
+Surveying and mapping drones
+Range imaging
+
+
+== UsesEdit ==
+
+Common uses of DEMs include:
+Extracting terrain parameters for geomorphology
+Modeling water flow for hydrology or mass movement (for example avalanches and landslides)
+Creation of relief maps
+Rendering of 3D visualizations.
+3D flight planning and TERCOM
+Creation of physical models (including raised relief maps)
+Rectification of aerial photography or satellite imagery
+Reduction (terrain correction) of gravity measurements (gravimetry, physical geodesy)
+Terrain analysis in geomorphology and physical geography
+Geographic Information Systems (GIS)
+Engineering and infrastructure design
+Global positioning systems (GPS)
+Line-of-sight analysis
+Base mapping
+Flight simulation
+Precision farming and forestry
+Surface analysis
+Intelligent transportation systems (ITS)
+Auto safety / Advanced Driver Assistance Systems (ADAS)
+Archaeology
+
+
+== SourcesEdit ==
+A free DEM of the whole world called GTOPO30 (30 arcsecond resolution, approx. 1 km) is available, but its quality is variable and in some areas it is very poor. A much higher quality DEM from the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) instrument of the Terra satellite is also freely available for 99% of the globe, and represents elevation at 30 meter resolution. A similarly high resolution was previously only available for the United States territory under the Shuttle Radar Topography Mission (SRTM) data, while most of the rest of the planet was only covered in a 3 arc-second resolution (around 90 meters). The limitation with the GTOPO30 and SRTM datasets is that they cover continental landmasses only, and SRTM does not cover the polar regions and has mountain and desert no data (void) areas. SRTM data, being derived from radar, represents the elevation of the first-reflected surface — quite often tree tops. So, the data are not necessarily representative of the ground surface, but the top of whatever is first encountered by the radar. Submarine elevation (known as bathymetry) data is generated using ship-mounted depth soundings. The SRTM30Plus dataset (used in NASA World Wind) attempts to combine GTOPO30, SRTM and bathymetric data to produce a truly global elevation model. Another global model is Global Multi-resolution Terrain Elevation Data 2010 (GMTED2010) with 7.5 arc second resolution. It is based on SRTM data and combines other data outside SRTM coverage. A novel global DEM of postings lower than 12 m and a height accuracy of less than 2 m is expected from the TanDEM-X satellite mission which started in July 2010.
+The most common grid (raster) spacing is between 50 and 500 meters. In gravimetry e.g., the primary grid may be 50 m, but is switched to 100 or 500 meters in distances of about 5 or 10 kilometers.
+Since 2002, the HRS instrument on SPOT 5 has acquired over 100 million square kilometers of stereo pairs used to produce a DTED2 format DEM (with a 30-meter posting) DEM format DTED2 over 50 million km². The radar satellite RADARSAT-2 has been used by MacDonald, Dettwiler and Associates Ltd. to provide DEMs for commercial and military customers.
+In 2014, acquisitions from radar satellites TerraSAR-X and TanDEM-X will be available in the form of a uniform global coverage with a resolution of 12 meters.
+Many national mapping agencies produce their own DEMs, often of a higher resolution and quality, but frequently these have to be purchased, and the cost is usually prohibitive to all except public authorities and large corporations. DEMs are often a product of national lidar dataset programs.
+Free DEMs are also available for Mars: the MEGDR, or Mission Experiment Gridded Data Record, from the Mars Global Surveyor's Mars Orbiter Laser Altimeter (MOLA) instrument; and NASA's Mars Digital Terrain Model (DTM).
+OpenTopography is a community access resource of high-resolution, Earth science-oriented, topography data, and related tools and resources that warehouses a great deal of DEM data. OpenTopography is based at the San Diego Supercomputer Center at the University of California, San Diego and is operated in collaboration with colleagues in the School of Earth and Space Exploration at Arizona State University. Core operational support for OpenTopography comes from the National Science Foundation Earth Sciences: Instrumentation and Facilities Program (EAR/IF) and the Office of Cyberinfrastructure.
+
+
+=== United StatesEdit ===
+The US Geological Survey produces the National Elevation Dataset, a seamless DEM for the United States, Hawaii and Puerto Rico based on 7.5' topographic mapping. As of the beginning of 2006, this replaces the earlier DEM tiled format (one DEM per USGS topographic map).
+OpenTopography is a U.S.-based community access source of a large amount of high-resolution topography data for the U.S.
+
+
+== See alsoEdit ==
+Terrain visualization
+
+
+=== DEM file formatsEdit ===
+USGS DEM
+SDTS DEM
+DTED
+DIMAP
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Paula Messina. "Terrain Analysis Home Page". Spatial Analysis and Remote Sensing Lab at Hunter College. Retrieved 2007-02-16. 
+Wilson, J.P.; Gallant, J.C. (2000). "Chapter 1" (PDF). In Wilson, J.P., and Gallant, J.C. (Eds.). Terrain Analysis: Principles and Applications. New York: Wiley. pp. 1–27. ISBN 0-471-32188-5. Retrieved 2007-02-16. 
+Hirt, C.; Filmer, M.S.; Featherstone, W.E. (2010). "Comparison and validation of recent freely-available ASTER-GDEM ver1, SRTM ver4.1 and GEODATA DEM-9S ver3 digital elevation models over Australia.". Australian Journal of Earth Sciences 57 (3): 337–347. doi:10.1080/08120091003677553. Retrieved May 5, 2012. 
+Rexer, M.; Hirt, C. (2014). "Comparison of free high-resolution digital elevation data sets (ASTER GDEM2, SRTM v2.1/v4.1) and validation against accurate heights from the Australian National Gravity Database." (PDF). Australian Journal of Earth Sciences 61 (2). doi:10.1080/08120099.2014.884983. Retrieved April 24, 2014. 
+
+
+== External linksEdit ==
+Maps-For-Free.com Free global relief maps
+Geo-Spatial Data Acquisition Homepage
+GTOPO30 Homepage
+GTOPO30 FTP Server
+SRTM Homepage
+SRTM30 Plus Homepage
+Global Multi-resolution Terrain Elevation Data 2010 (GMTED2010)
+Terrainmap Homepage
+More information about available DEM data
+More information about DEM by Spot Image
+DEMs with TanDEM-X
+TanDEM-X Science Home

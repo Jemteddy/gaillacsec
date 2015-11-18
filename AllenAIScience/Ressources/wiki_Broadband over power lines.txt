@@ -1,0 +1,87 @@
+Broadband over power lines (BPL) is a method of power line communication that allows relatively high-speed digital data transmission over the public electric power distribution wiring. BPL uses higher frequencies, a wider frequency range and different technologies from other forms of power-line communications to provide high-rate communication over longer distances. BPL uses frequencies which are part of the radio spectrum allocated to over-the-air communication services therefore the prevention of interference to, and from, these services is a very important factor in designing BPL systems.
+
+
+== Standards ==
+Two BPL standards are:
+The IEEE 1901 standard is usable by all classes of BPL devices, including BPL devices used for the first-mile/last-mile connection (<1500m to the premise) as well as in buildings for LANs, Smart Energy applications, transportation platforms (vehicle) applications, and other data distribution (<100m between devices).
+The G.hn (Gigabit Home Networking) standards maintained by the ITU-T define networking over power lines, phone lines and coaxial cables for home networking applications 
+
+
+== Applications ==
+
+
+=== Internet access ===
+Internet access service through existing power lines is often marketed as broadband over power lines (BPL), also known as power-line Internet or powerband. A computer (or any other device) would need only to plug a BPL modem into any outlet in an equipped building to have high-speed Internet access. International Broadband Electric Communications (IBEC), a provider of BPL Internet access in the USA, ceased BPL operations in January 2012.
+Unlike home users, power providers are more able to consider widespread deployment of fiber optic cables immune to electromagnetic interference (and which do not generate any) and for which mature devices (switches, repeaters) are available. Accordingly there is no one single compelling reason to carry data on the existing power lines themselves as there is in homes, except in remote regions where fibre optic networks would not normally be deployed at all. Power network architectures with many transformers are more likely to be served using fibre.
+Even if a home is using BPL it may not necessarily connect to the Internet using a BPL-based gateway (typically a smart meter), although this would have major advantages to both the consumer and provider. NIST and IEEE have considered whether requiring smart meters to all be fully functioning BPL gateways would not accelerate demand side management and create a uniform market into which security, home control and other providers can sell.
+
+
+== Application concerns ==
+BPL may offer benefits over regular cable modem or digital subscriber line (DSL) connections: the extensive infrastructure already available appears to allow people in remote locations to access the Internet with relatively little equipment investment by the utility. Cost of running wires such as Ethernet in many buildings can be prohibitive; Relying on wireless has a number of predictable problems including security, limited maximum throughput and inability to power devices efficiently.
+But variations in the physical characteristics of the electricity network and the lack of standards mean that provisioning of the service is far from being a standard, repeatable process. The bit rate a power line system can provide compared to cable and wireless is in question. The prospect of BPL was predicted in 2004 to possibly motivate DSL and cable operators to more quickly serve rural communities.
+BPL modems transmit in medium and high frequency (1.6 to 80 MHz electric carrier). The asymmetric speed in the modem is generally from 256 kbit/s to 2.7 Mbit/s. In the repeater situated in the meter room the speed is up to 45 Mbit/s and can be connected to 256 PLC modems. In the medium voltage stations, the speed from the head ends to the Internet is up to 135 Mbit/s. To connect to the Internet, utilities can use optical fiber backbone or wireless link.
+Deployment of BPL has illustrated a number of fundamental challenges, the primary one being that power lines are inherently a very noisy environment. Every time a device turns on or off, it introduces a pop or click into the line. Switching power supplies often introduce noisy harmonics into the line. And unlike coaxial cable or twisted-pair, the wiring has no inherent noise rejection. The system must be designed to deal with these natural signaling disruptions and work around them. For these reasons BPL can be thought of as a compromise between wireless transmission (where likewise there is little control of the medium through which signals propagate) and wired transmission (but not requiring any new cables).
+Broadband over power lines developed faster in Europe than in the United States due to a historical difference in power system design philosophies. Power distribution uses step-down transformers to reduce the voltage for use by customers. BPL signals cannot readily pass through transformers, as their high inductance makes them act as low-pass filters, blocking high-frequency signals. So, repeaters must be attached to the transformers. In the U.S., it is common for a small transformer hung from a utility pole to service a single house or a small number of houses. In Europe, it is more common for a somewhat larger transformer to service 10 or 100 houses. This makes little difference for power distribution. But delivering BPL in a typical U.S. city requires an order of magnitude more repeaters than in a comparable European city. On the other hand, since bandwidth to the transformer is limited, this can increase the speed at which each household can connect, due to fewer people sharing the same line. One possible solution is to use BPL as the backhaul for wireless communications, for instance by hanging Wi-Fi access points or cellphone base stations on utility poles, thus allowing end-users within a certain range to connect with equipment they already have.
+The second major issue is electromagnetic compatibility (EMC), with main parameters the signal strength and operating frequency. The system was expected to use frequencies of 10 to 30 MHz in the high frequency (HF) range, used for many decades by communications systems (military, aeronautical, amateur radio, etc.) and by international and regional shortwave broadcasters. Power lines are unshielded and will act as antennas for the signals they carry, and they will cause interference to high frequency radio communications and broadcasting. Modern BPL systems use orthogonal frequency-division multiplexing (OFDM), which allows them to mitigate interference with specific radio services by not using specific frequencies for data transmission subcarriers. A 2001 joint study by the American Radio Relay League (ARRL) and HomePlug Powerline Alliance showed that for modems using this technique "in general that with moderate separation of the antenna from the structure containing the HomePlug signal that interference was barely perceptible at the notched frequencies" and interference only happened when the "antenna was physically close to the power lines" (however other frequencies still suffer from interference). The effects of large scale deployment on BPL modems on the notching has still to be defined; however in lab tests the notches appear to fill in due to intermodulation between modems.
+
+
+== Failure scenarios ==
+There are many ways in which the communication signal may have error introduced into it. Interference, cross chatter, some active devices, and some passive devices all introduce noise or attenuation into the signal. When error becomes significant the devices controlled by the unreliable signal may fail, become inoperative, or operate in an undesirable fashion.
+Interference: Interference from nearby systems can cause signal degradation as the modem may not be able to determine a specific frequency among many signals in the same bandwidth.
+Signal degradation by active devices: Devices such as relays, transistors, and rectifiers create noise in their respective systems, increasing the likelihood of signal degradation. Arc-fault circuit interrupter (AFCI) devices, required by some recent electrical codes for living spaces, may also attenuate the signals.
+Signal attenuation by passive devices: Transformers and DC-DC converters attenuate the input frequency signal almost completely. "Bypass" devices become necessary for the signal to be passed on to the receiving node. A bypass device may consist of three stages, a filter in series with a protection stage and coupler, placed in parallel with the passive device.
+
+
+== Ultra-High-frequency (≥100 MHz) ==
+Even higher information rate transmissions over power line use RF through microwave frequencies transmitted via a transverse mode surface wave propagation mechanism that requires only a single conductor. An implementation of this technology is marketed as E-Line. These use microwaves instead of the lower frequency bands, up to 2–20 GHz. While these may interfere with radio astronomy  when used outdoors, the advantages of speeds competitive with fibre optic cables without new wiring are likely to outweigh that.
+These systems claim symmetric and full duplex communication in excess of 1 Gbit/s in each direction. Multiple Wi-Fi channels with simultaneous analog television in the 2.4 and 5.3 GHz unlicensed bands have been demonstrated operating over a single medium voltage line conductor. Because the underlying propagation mode is extremely broadband (in the technical sense), it can operate anywhere in the 20 MHz - 20 GHz region. Also since it is not restricted to below 80 MHz, as is the case for high-frequency BPL, these systems can avoid the interference issues associated with use of shared spectrum with other licensed or unlicensed services.
+
+
+== Real Plug and Play Last Mile Communications System ==
+The worldwide patented UHF based power line communication products' advantages are that: there is no need for any installation to deploy several hundred Mbit/s to several Gbit/s throughput speed with AC-WAN(TM) to AC-LAN(TM) modems for the Last Mile communication application; there are no interference problems; it is the cheapest Last Mile solution; the most stable Last Mile solution among wireless and BPL products; it communicates without repeater for +500 meter distance in any rural area directly through any size transformers, between the 3 phase power lines and through the electricity meters; it communicates with repeater for the last couple of mile distances directly through any size transformers, between the 3 phase power lines and through the electricity meters; it delivers around 100 Mbit/s throughput speed for the Last Mile application.
+Typical wireless and BPL products throughput speed is about 10-20% of the raw data rate. What this means is that the advertised 200 Mbit/s modem will deliver maybe 1-10 Mbit/s throughput speed beyond 300 meters after several repeaters. These types of modems throughput speed is also significantly changing when the power load or the number of users are changing.
+The AC-WAN(TM) to AC-LAN(TM) modems' throughput speed is about 50% of the raw data rate and resolve these problems since the power load changes or the number of user changes don't affect its throughput speed significantly.
+
+
+== Government promotion and regulation ==
+
+
+=== US FCC ===
+On 14 October 2004, the U.S. Federal Communications Commission adopted rules to facilitate the deployment of "Access BPL", the marketing term for Internet access service over power lines. The technical rules are more liberal than those advanced by the US national amateur radio organization, the American Radio Relay League (ARRL), and other spectrum users, but include provisions that require BPL providers to investigate and correct any interference they cause. These rules may be subject to future litigation. One service was announced in 2004 for Ohio, Kentucky, and Indiana by Current Communications  but they left the BPL business in 2008.
+On 3 August 2006 FCC adopted a memorandum opinion and an order on broadband over power lines, giving the go-ahead to promote broadband service to all Americans. The order rejected calls from aviation, business, commercial, amateur radio and other sectors of spectrum users to limit or prohibit deployment until further study was completed. FCC chief Kevin Martin said that BPL "holds great promise as a ubiquitous broadband solution that would offer a viable alternative to cable, digital subscriber line, fiber, and wireless broadband solutions".
+
+
+=== Other governments ===
+Austria, Australia, New Zealand and other locations experienced early BPL's so-called "spectrum pollution" and raised concerns within their governing bodies. In the UK, the BBC published the results of tests to detect interference from BPL installations.
+In April 2009 the Wireless Institute of Australia reported that radio amateurs in Australia appear to be safe from a nationwide BPL system. Australia's government announced that it will be building a system based on fibre optic technology for its backbone - though it would likely still rely on BPL on high-voltage lines in remote areas. This decision would appear to remove the possibility of widespread interference to radio communications from any network-wide adoption of BPL technology, but still leaves as a concern the possibility of interference from in-home use of G.hn over AC.
+In June 2007, NATO Research and Technology Organisation released a report which concluded that widespread deployment of BPL may have a "possible detrimental effect upon military HF radio communications."
+
+
+== See also ==
+Power-over-fiber
+Broadband
+National broadband plans from around the world
+
+
+== References ==
+^ "IEEE-SA - Final IEEE 1901 Broadband Over Power Line Standard Now Published". Standards.ieee.org. 2011-02-01. Retrieved 2013-07-08. 
+^ "Homegrid - About". Homegridforum.org. Retrieved 2013-07-08. 
+^ Joan Engebretson (3 January 2012). "IBEC Shutdown Deals Latest Blow to BPL". Telecompetitor. Retrieved 6 November 2013. 
+^ "Nelson County Broadband Provider IBEC Drops Service". WVIR-TV. 2 January 2012. Retrieved 6 November 2013. 
+^ Denis Du Bois (9 December 2004). "Broadband over Powerlines (BPL) in a Nutshell". Energy Priorities blog. Retrieved 6 November 2013. 
+^ "HomePlug & ARRL Joint Test Report" (PDF). 24 January 2001. Archived from the original (PDF) on 9 May 2003. Retrieved 24 November 2011. 
+^ A Work in Progress: Belkin Gigabit Powerline HD available at http://www.smallnetbuilder.com/lanwan/lanwan-reviews/30888-a-work-in-progress-belkin-gigabit-powerline-hd-starter-kit-reviewed?start=4
+^ http://ntrg.cs.tcd.ie/undergrad/4ba2.05/group13/index.html#21
+^ Glenn Elmore (August 2006). "Understanding the information rate of BPL and other last-mile pipes". Computing Unplugged magazine. Retrieved 22 July 2011. 
+^ Glenn Elmore (July 27, 2009). "Introduction to the Propagating TM Wave on a Single Conductor" (PDF). Corridor Systems. Retrieved 22 July 2011. 
+^ Charles Abraham (21 April 2014). "The Real Plug and Play Broadband Last Mile Communication Device Without the Need for Installation Called AC-WAN". 
+^ Grant Gross (2 March 2004). "Vendor Offers Broadband by Power Lines". PC World. Retrieved 22 July 2011. 
+^ Katie Fehrenbacher (13 Sep 2011). "Current’s pivot: From broadband to smart grid to overseas". GigaOM. Retrieved 13 June 2012. 
+^ "CURRENT Group Says Goodbye to BPL Industry". SmartGrid News. 19 Feb 2008. Retrieved 13 June 2012. 
+^ "FCC Adopts Memorandum Opinion and Order on Broadband over Power Lines to Promote Broadband Service to all Americans" (PDF). News release. 3 August 2006. Retrieved 22 July 2011. 
+^ "Statement of Chairman Kevin J. Martin" (PDF). 3 August 2006. Retrieved 22 July 2011. 
+^ Schwager, Andreas; Berger, Lars T. (February 2014). "PLC Electromagnetic Compatibility Regulations". In Berger, Lars T.; Schwager, Andreas; Pagani, Pascal; Schneider, Daniel M. MIMO Power Line Communications: Narrow and Broadband Standards, EMC, and Advanced Processing. Devices, Circuits, and Systems. CRC Press. pp. 169–186. doi:10.1201/b16540-9. ISBN 9781466557529. 
+^ The effects of PLT on broadcast reception
+^ PLT and Broadcasting
+^ Co-existence of PLT and Radio Services
+^ "HF Interference, Procedures and Tools" (PDF). Final Report of NATO RTO Information Systems Technology Panel Research Task Group IST-050/RTG-022. NATO Research and Technology Organisation. June 2007. Retrieved 6 November 2013.

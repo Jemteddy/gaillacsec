@@ -1,0 +1,107 @@
+In physical sciences and electrical engineering, dispersion relations describe the effect of dispersion in a medium on the properties of a wave traveling within that medium. A dispersion relation relates the wavelength or wavenumber of a wave to its frequency. From this relation the phase velocity and group velocity of the wave have convenient expressions which then determine the refractive index of the medium. More general than the geometry-dependent and material-dependent dispersion relations, there are the overarching Kramers–Kronig relations that describe the frequency dependence of wave propagation and attenuation.
+Dispersion may be caused either by geometric boundary conditions (waveguides, shallow water) or by interaction of the waves with the transmitting medium. Elementary particles, considered as matter waves, have a nontrivial dispersion relation even in the absence of geometric constraints and other media.
+In the presence of dispersion, wave velocity is no longer uniquely defined, giving rise to the distinction of phase velocity and group velocity.
+
+
+== Dispersion ==
+
+Dispersion occurs when pure plane waves of different wavelengths have different propagation velocities, so that a wave packet of mixed wavelengths tends to spread out in space. The speed of a plane wave, v, is a function of the wave's wavelength :
+
+The wave's speed, wavelength, and frequency, f, are related by the identity
+
+The function f(λ) expresses the dispersion relation of the given medium. Dispersion relations are more commonly expressed in terms of the angular frequency  and wavenumber . Rewriting the relation above in these variables gives
+
+where we now view f as a function of k. The use of ω(k) to describe the dispersion relation has become standard because both the phase velocity ω/k and the group velocity dω/dk have convenient representations via this function.
+The plane waves being considered can be described by
+
+where
+A is the amplitude of the wave,
+A0 = A(0,0),
+x is a position along the wave's direction of travel, and
+t is the time at which the wave is described.
+
+
+== Plane waves in vacuum ==
+Plane waves in vacuum are the simplest case of wave propagation: no geometric constraint, no interaction with a transmitting medium.
+
+
+=== Electromagnetic waves ===
+For electromagnetic waves in vacuum, the angular frequency is proportional to the wavenumber:
+
+This is a linear dispersion relation. In this case, the phase velocity and the group velocity are the same:
+
+they are given by c, the speed of light in vacuum, a frequency-independent constant.
+
+
+=== De Broglie dispersion relations ===
+
+Total energy, momentum, and mass of particles are connected through the relativistic relation
+  
+which in the ultrarelativistic limit is
+
+and in the nonrelativistic limit is
+
+where  is the rest mass. In the nonrelativistic limit,  is a constant and  is the familiar kinetic energy expressed in terms of the momentum .
+The transition from ultrarelativistic to nonrelativistic behaviour shows up as a slope change from p to p2 as shown in the log-log dispersion plot of E vs. p.
+Elementary particles, atomic nuclei, atoms, and even molecules behave in some contexts as matter waves. According to the de Broglie relations, their kinetic energy E can be expressed as a frequency ω, and their momentum p as a wavenumber k, using the reduced Planck constant ħ:
+
+Accordingly, angular frequency and wavenumber are connected through a dispersion relation, which in the nonrelativistic limit reads
+
+
+== Frequency versus wavenumber ==
+As mentioned above, when the focus in a medium is on refraction rather than absorption—that is, on the real part of the refractive index—it is common to refer to the functional dependence of angular frequency on wavenumber as the dispersion relation. For particles, this translates to a knowledge of energy as a function of momentum.
+
+
+=== Waves and optics ===
+
+The name "dispersion relation" originally comes from optics. It is possible to make the effective speed of light dependent on wavelength by making light pass through a material which has a non-constant index of refraction, or by using light in a non-uniform medium such as a waveguide. In this case, the waveform will spread over time, such that a narrow pulse will become an extended pulse, i.e., be dispersed. In these materials,  is known as the group velocity and corresponds to the speed at which the peak of the pulse propagates, a value different from the phase velocity.
+
+
+=== Deep water waves ===
+
+The dispersion relation for deep water waves is often written as
+
+where g is the acceleration due to gravity. Deep water, in this respect, is commonly denoted as the case where the water depth is larger than half the wavelength. In this case the phase velocity is
+
+and the group velocity is
+
+
+=== Waves on a string ===
+
+For an ideal string, the dispersion relation can be written as
+
+where T is the tension force in the string and μ is the string's mass per unit length. As for the case of electromagnetic waves in a vacuum, ideal strings are thus a non-dispersive medium i.e., the phase and group velocities are equal and independent (to first order) of vibration frequency.
+For a nonideal string, where stiffness is taken into account, the dispersion relation is written as
+
+where "" is a constant that depends on the string.
+
+
+=== Solid state ===
+In the study of solids, the study of the dispersion relation of electrons is of paramount importance. The periodicity of crystals means that many levels of energy are possible for a given momentum and that some energies might not be available at any momentum. The collection of all possible energies and momenta is known as the band structure of a material. Properties of the band structure define whether the material is an insulator, semiconductor or conductor.
+
+
+=== Phonons ===
+Phonons are to sound waves in a solid what photons are to light: they are the quanta that carry it. The dispersion relation of phonons is also important and non-trivial. Most systems will show two separate bands on which phonons live. Phonons on the band that cross the origin are known as acoustic phonons, the others as optical phonons.
+
+
+=== Electron optics ===
+With high energy (e.g., 200 keV) electrons in a transmission electron microscope, the energy dependence of higher order Laue zone (HOLZ) lines in convergent beam electron diffraction (CBED) patterns allows one, in effect, to directly image cross-sections of a crystal's three-dimensional dispersion surface. This dynamical effect has found application in the precise measurement of lattice parameters, beam energy, and more recently for the electronics industry: lattice strain.
+
+
+== History ==
+Isaac Newton studied refraction in prisms. He failed, however, to recognize the material dependence of the dispersion relation. Had he done so, he would almost certainly have invented the achromatic lens.
+Dispersion of waves on water was studied by Pierre-Simon Laplace in 1776.
+The universality of the Kramers-Kronig relations (1926/27) became apparent with subsequent papers on the dispersion relation's connection to causality in the scattering theory of all types of waves and particles.
+
+
+== See also ==
+Ellipsometry
+Ultrashort pulse
+
+
+== References ==
+
+
+== External links ==
+Poster on CBED simulations to help visualize dispersion surfaces, by Andrey Chuvilin and Ute Kaiser
+Angular frequency calculator

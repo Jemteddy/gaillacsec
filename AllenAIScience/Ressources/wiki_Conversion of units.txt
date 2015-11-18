@@ -1,0 +1,182 @@
+Conversion of units is the conversion between different units of measurement for the same quantity, typically through multiplicative conversion factors.
+
+
+== TechniquesEdit ==
+
+
+=== ProcessEdit ===
+The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards. Engineering judgment may include such factors as:
+The precision and accuracy of measurement and the associated uncertainty of measurement.
+The statistical confidence interval or tolerance interval of the initial measurement.
+The number of significant figures of the measurement.
+The intended use of the measurement including the engineering tolerances.
+Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
+Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement. This is sometimes called soft conversion. It does not involve changing the physical configuration of the item being measured.
+By contrast, a hard conversion or an adaptive conversion may not be exactly equivalent. It changes the measurement to convenient and workable numbers and units in the new system. It sometimes involves a slightly different configuration, or size substitution, of the item. Nominal values are sometimes allowed and used.
+
+
+=== Multiplication factorsEdit ===
+Conversion between units in the metric system can be discerned by their prefixes (for example, 1 kilogram = 1000 grams, 1 milligram = 0.001 grams) and are thus not listed in this article. Exceptions are made if the unit is commonly known by another name (for example, 1 micron = 10−6 metre).
+
+
+=== Table orderingEdit ===
+Within each table, the units are listed alphabetically, and the SI units (base or derived) are highlighted.
+
+
+== Tables of conversion factorsEdit ==
+This article gives lists of conversion factors for each of a number of physical quantities, which are listed in the index. For each physical quantity, a number of different units (some only of historical interest) are shown and expressed in terms of the corresponding SI unit.
+
+
+=== LengthEdit ===
+
+
+=== AreaEdit ===
+
+
+=== VolumeEdit ===
+
+
+=== Plane angleEdit ===
+
+
+=== Solid angleEdit ===
+
+
+=== MassEdit ===
+Notes:
+See Weight for detail of mass/weight distinction and conversion.
+Avoirdupois is a system of mass based on a pound of 16 ounces, while Troy weight is the system of mass where 12 troy ounces equals one troy pound.
+In this table, the unit gee is used to denote standard gravity in order to avoid confusion with the "g" symbol for grams.
+In physics, the pound of mass is sometimes written lbm to distinguish it from the pound-force (lbf). It should not be read as the mongrel unit "pound metre".
+
+
+=== DensityEdit ===
+
+
+=== TimeEdit ===
+
+
+=== FrequencyEdit ===
+
+
+=== Speed or velocityEdit ===
+A velocity consists of a speed combined with a direction; the speed part of the velocity takes units of speed.
+
+
+=== Flow (volume)Edit ===
+
+
+=== AccelerationEdit ===
+
+
+=== ForceEdit ===
+See also: Conversion between weight (force) and mass
+
+
+=== Pressure or mechanical stressEdit ===
+
+
+=== Torque or moment of forceEdit ===
+
+
+=== EnergyEdit ===
+
+
+=== Power or heat flow rateEdit ===
+
+
+=== ActionEdit ===
+
+
+=== Dynamic viscosityEdit ===
+
+
+=== Kinematic viscosityEdit ===
+
+
+=== Electric currentEdit ===
+
+
+=== Electric chargeEdit ===
+
+
+=== Electric dipoleEdit ===
+
+
+=== Electromotive force, electric potential differenceEdit ===
+
+
+=== Electrical resistanceEdit ===
+
+
+=== CapacitanceEdit ===
+
+
+=== Magnetic fluxEdit ===
+
+
+=== Magnetic flux densityEdit ===
+
+
+=== InductanceEdit ===
+
+
+=== TemperatureEdit ===
+
+
+=== Information entropyEdit ===
+Often, information entropy is measured in shannons, whereas the (discrete) storage space of digital devices is measured in bits. Thus, uncompressed redundant data occupy more than one bit of storage per shannon of information entropy. The multiples of a bit listed above are usually used with this meaning. Other times the bit is used as a measure of information entropy and is thus a synonym of shannon.
+
+
+=== Luminous intensityEdit ===
+The candela is the preferred nomenclature for the SI unit.
+
+
+=== LuminanceEdit ===
+
+
+=== Luminous fluxEdit ===
+
+
+=== IlluminanceEdit ===
+
+
+=== Radiation - source activityEdit ===
+Please note that although becquerel (Bq) and hertz (Hz) both ultimately refer to the same SI base unit (s−1), Hz is used only for periodic phenomena, and Bq is only used for stochastic processes associated with radioactivity.
+
+
+=== Radiation - exposureEdit ===
+The roentgen is not an SI unit and the NIST strongly discourages its continued use.
+
+
+=== Radiation - absorbed doseEdit ===
+
+
+=== Radiation - equivalent doseEdit ===
+Although the definitions for sievert (Sv) and gray (Gy) would seem to indicate that they measure the same quantities, this is not the case. The effect of receiving a certain dose of radiation (given as Gy) is variable and depends on many factors, thus a new unit was needed to denote the biological effectiveness of that dose on the body; this is known as the equivalent dose and is shown in Sv. The general relationship between absorbed dose and equivalent dose can be represented as
+H = Q · D
+where H is the equivalent dose, D is the absorbed dose, and Q is a dimensionless quality factor. Thus, for any quantity of D measured in Gy, the numerical value for H measured in Sv may be different.
+
+
+== Software toolsEdit ==
+There are many conversion tools. They are found in the function libraries of applications such as spreadsheets databases, in calculators, and in macro packages and plugins for many other applications such as the mathematical, scientific and technical applications.
+There are many standalone applications that offer the thousands of the various units with conversions. For example, the free software movement offers a command line utility GNU units for Linux and Windows.
+
+
+== See alsoEdit ==
+
+
+== Notes and referencesEdit ==
+
+Notes
+
+
+== External linksEdit ==
+Statutory Instrument 1995 No. 1804 Units of measurement regulations 1995 From legislation.gov.uk
+How Many? A dictionary of units of measurement
+NIST: Fundamental physical constants — Non-SI units PDF (35.7 KB)
+NIST Guide to SI Units Many conversion factors listed.
+The Unified Code for Units of Measure
+Units, Symbols, and Conversions XML Dictionary
+Units of Measurement Software at DMOZ
+Units of Measurement Online Conversion at DMOZ

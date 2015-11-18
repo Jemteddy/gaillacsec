@@ -1,0 +1,66 @@
+A temperature coefficient describes the relative change of a physical property that is associated with a given change in temperature. For a property R that changes by dR when the temperature changes by dT, the temperature coefficient α is defined by
+
+Here α has the dimension of an inverse temperature and can be expressed e.g. in 1/K or K−1.
+If the temperature coefficient itself does not vary too much with temperature, a linear approximation can be used to determine the value R of a property at a temperature T, given its value R0 at a reference temperature T0:
+
+where ΔT is the difference between T and T0. For strongly temperature-dependent α, this approximation is only useful for small temperature differences ΔT.
+Temperature coefficients are specified for various applications, including electric and magnetic properties of materials as well as reactivity.
+
+
+== Negative temperature coefficient ==
+A ' Most ceramics exhibit NTC behaviour, which is governed by an Arrhenius equation over a wide range of temperatures:
+
+where R is resistance, A and B are constants, and T is absolute temperature (K). The constant B is related to the energies required to form and move the charge carriers responsible for electrical conduction – hence, as the value of B increases, the material becomes insulating. Practical and commercial NTC resistors aim to combine modest resistance with a value of B that provides good sensitivity to temperature. Such is the importance of the B constant value, that it is possible to characterize NTC thermistors using the B parameter equation:
+
+where  is resistance at temperature . Therefore, many materials that produce acceptable values of  include materials that have been alloyed or possess variable negative temperature coefficient' (NTC) occurs when a physical property (such as thermal conductivity or electrical resistivity) of a material lowers with increasing temperature, typically in a defined temperature range. For most materials, electrical resistivity will decrease with increasing temperature.
+Materials with a negative temperature coefficient have been used in floor heating since 1971. The negative temperature coefficient avoids excessive local heating beneath carpets, bean bag chairs, mattresses etc., which can damage wooden floors, and may infrequently cause fires.
+
+
+== Reversible temperature coefficient ==
+Residual magnetic flux density or Br changes with temperature and it is one of the important characteristics of magnet performance. Some applications, such as inertial gyroscopes and traveling-wave tubes (TWTs), need to have constant field over a wide temperature range. The reversible temperature coefficient (RTC) of Br is defined as:
+
+To address these requirements, temperature compensated magnets were developed in the late 1970s. For conventional SmCo magnets, Br decreases as temperature increases. Conversely, for GdCo magnets, Br increases as temperature increases within certain temperature ranges. By combining samarium and gadolinium in the alloy, the temperature coefficient can be reduced to nearly zero.
+
+
+== Electrical resistance ==
+
+The temperature dependence of electrical resistance and thus of electronic devices (wires, resistors) has to be taken into account when constructing devices and circuits. The temperature dependence of conductors is to a great degree linear and can be described by the approximation below.
+
+where
+
+ just corresponds to the specific resistance temperature coefficient at a specified reference value (normally T = 0 °K)
+That of a semiconductor is however exponential:
+
+where  is defined as the cross sectional area and  and  are coefficients determining the shape of the function and the value of resistivity at a given temperature.
+For both,  is referred to as the resistance temperature coefficient.
+This property is used in devices such as thermistors.
+
+
+=== Positive temperature coefficient of resistance ===
+A positive temperature coefficient (PTC) refers to materials that experience an increase in electrical resistance when their temperature is raised. Materials which have useful engineering applications usually show a relatively rapid increase with temperature, i.e. a higher coefficient. The higher the coefficient, the greater an increase in electrical resistance for a given temperature increase. A PTC material can be designed to reach a maximum temperature for a given input voltage, since at some point any further increase in temperature would be met with greater electrical resistance. Unlike linear resistance heating or NTC materials, PTC materials are inherently self-limiting.
+
+
+=== Negative temperature coefficient of resistance ===
+A negative temperature coefficient (NTC) refers to materials that experience a decrease in electrical resistance when their temperature is raised. Materials which have useful engineering applications usually show a relatively rapid decrease with temperature, i.e. a lower coefficient. The lower the coefficient, the greater a decrease in electrical resistance for a given temperature increase. NTC materials are used to create inrush current limiters (because they present higher initial resistance until the current limiter reaches quiescent temperature), temperature sensors and thermistors.
+
+
+== Temperature coefficient of elasticity ==
+The elastic modulus of elastic materials varies with temperature, typically decreasing with higher temperature.
+
+
+== Temperature coefficient of reactivity ==
+In nuclear engineering, the temperature coefficient of reactivity is a measure of the change in reactivity (resulting in a change in power), brought about by a change in temperature of the reactor components or the reactor coolant. This may be defined as
+
+Where  is reactivity and T is temperature. The relationship shows that  is the value of the partial differential of reactivity with respect to temperature and is referred to as the "temperature coefficient of reactivity". As a result, the temperature feedback provided by  has an intuitive application to passive nuclear safety. A negative  is broadly cited as important for reactor safety, but wide temperature variations across real reactors (as opposed to a theoretical homogeneous reactor) limit the usability of a single metric as a marker of reactor safety.
+In water moderated nuclear reactors, the bulk of reactivity changes with respect to temperature are brought about by changes in the temperature of the water. However each element of the core has a specific temperature coefficient of reactivity (e.g. the fuel or cladding). The mechanisms which drive fuel temperature coefficients of reactivity are different than water temperature coefficients. While water expands as temperature increases, causing longer neutron travel times during moderation, fuel material will not expand appreciably. Changes in reactivity in fuel due to temperature stem from a phenomenon known as doppler broadening, where resonance absorption of fast neutrons in fuel filler material prevents those neutrons from thermalizing (slowing down).
+
+
+== Units ==
+The thermal coefficient of electrical circuit parts is sometimes specified as ppm/°C. This specifies the fraction (expressed in parts per million) that its electrical characteristics will deviate when taken to a temperature above or below the operating temperature.
+
+
+== References ==
+
+
+== Bibliography ==
+Duderstadt, Jame J.; Hamilton, Louis J. (1976). Nuclear Reactor Analysis. Wiley. ISBN 0-471-22363-8.

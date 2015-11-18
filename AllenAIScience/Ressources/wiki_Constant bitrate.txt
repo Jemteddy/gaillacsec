@@ -1,0 +1,12 @@
+Constant bitrate (CBR) is a term used in telecommunications, relating to the quality of service. Compare with variable bitrate.
+When referring to codecs, constant bit rate encoding means that the rate at which a codec's output data should be consumed is constant. CBR is useful for streaming multimedia content on limited capacity channels since it is the maximum bit rate that matters, not the average, so CBR would be used to take advantage of all of the capacity. CBR would not be the optimal choice for storage as it would not allocate enough data for complex sections (resulting in degraded quality) while wasting data on simple sections.
+The problem of not allocating enough data for complex sections could be solved by choosing a high bitrate to ensure that there will be enough bits for the entire encoding process, though the size of the file at the end would be proportionally larger.
+Most coding schemes such as Huffman coding or run-length encoding produce variable-length codes, making perfect CBR difficult to achieve. This is partly solved by varying the quantization (quality), and fully solved by the use of padding. (However, CBR is implied in a simple scheme like reducing all 16-bit audio samples to 8 bits.)
+In the case of streaming video as a CBR, the source could be under the CBR data rate target. So in order to complete the stream, it's necessary to add stuffing packets in the stream to reach the data rate wanted. These packets are totally neutral and don't affect the stream.
+
+
+== See also ==
+Bitrate
+Average bitrate
+Variable bitrate
+Bit stuffing

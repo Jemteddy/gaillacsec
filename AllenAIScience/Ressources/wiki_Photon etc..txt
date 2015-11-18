@@ -1,0 +1,69 @@
+Photon etc. is a Canadian manufacturer of infrared cameras, hyperspectral imaging and spectroscopic scientific instruments for academic and industrial applications. Its main technology is based on volume Bragg gratings, which are used as filters either for swept lasers or for global imaging.
+
+
+== History ==
+As a spin-off of the California Institute of Technology, the company was founded in 2003 by Sébastien Blais-Ouellette  who was working on narrow band imaging tunable filters for the detection of hydroxyl groups in the earth atmosphere. This is how he developed the main technology of the company, a patented  volume Bragg grating for filtering purposes.
+The company was first established in the J.-Armand Bombardier Incubator at Université de Montréal where it benefited from complete infrastructures and proximity to researchers. After 5 years, Photon etc. moved to its actual location at the “Campus des technologies de la santé″ in the Rosemont district of Montréal. Photon etc. has 25 employees in Canada and has received several awards and recognitions (Québec Entrepreneur of the Year (finalist), CCFC (winner), Fondation Armand-Frappier (winner - prix émergence), Prism Award (finalist) ). In the last ten years, the company has developed numerous collaborations, filed several patents and created spin-off companies in various domains: Photonic Knowledge (mining exploration), Nüvü Cameras (EMCCD cameras)  and Optina Diagnostics (retinal imaging).
+
+
+== Technology ==
+Photon etc's core technology is a continuously tunable filter based on volume Bragg gratings. It consists of a photo-thermo-refractive glass with a periodically varying index of refraction in which the modulation structure can be orientated to transmit or reflect incident light. In order to select a particular wavelength that will be filtered (diffracted), the angle of the filter is adjusted to meet Bragg condition:
+
+where n is an integer, λB is the wavelength that will be diffracted, Λ is the step of the grating, θ is the angle between the incident beam and the normal of the entrance surface and φ is the angle between the normal and the grating vector. For transmission gratings, Bragg planes are perpendicular to the entrance surface (φ=π/2) while for reflection gratings, Bragg plans are parallel to the entrance surface (φ=0). If the beam does not meet the Bragg condition, it passes through the filter, undiffracted.
+In a Bragg filter, the incoming collimated light is first diffracted by a volume filter and only a small fraction of the spectrum is affected. Then, by using a second parallel filter with the same modulation period, light can be recombined and an image can be reconstructed.
+
+
+=== Hyperspectral imaging ===
+The company commercializes hyperspectral imaging systems based on volume Bragg gratings. This technique combines spectroscopy and imaging : each image is acquired on a narrow band of wavelength (as small as 0.3 nm). The monochromatic images acquired form a hyperspectral data cube, which contains both the spatial (x,y axes) and spectral (z axis) information of a sample.
+In this technique, global imaging is used in order to acquire large area of a sample without damaging it. In global imaging, the whole field of view of the microscope objective is acquired at the same time compared to point-by-point techniques where either the sample or the excitation laser needs to be moved in order to reconstruct a map. When combined to microscopy, darkfield or brightfield illumination can be employed and various experiments can be carried out such as:
+
+
+=== Tunable filters ===
+The volume Bragg grating technology is also used to design tunable bandpass filters for various light sources. This technology combines an out-of-bande rejection of <-60 dB and an optical density higher then OD 6 with a tunability over the visible and near infrared regions of the electromagnetic spectrum.
+
+
+=== Tunable lasers ===
+The Bragg grating filtering technology can be coupled to a supercontinuum laser in order to generate a tunable laser source. Supercontinuum sources are usually a high-power fiber laser which delivers ultra broadband radiation and can be used for steady-state or lifetime experiments. This ultra broad radiation is obtained when a laser is directed through a nonlinear medium. From there, a collection of highly nonlinear optical processes (e.g.: four-wave mixing, Raman shifting of the solitons) add up together which create the supercontinuum emission. Coupled with the proper filter it can deliver a quasi-monochromatic output over a spectral range going from 400 nm to 2,300 nm. This tool can be used in several experiments and fields of research which includes:
+
+
+=== Infrared cameras ===
+Photon etc. designs and manufactures low noise infrared cameras sensitive from 850 nm to 2,500 nm. Their HgCdTe (MCT) focal plane array (FPA) were first developed for faint flux measurements and are now used for Astronomy, Spectroscopy, Quality control and Sorting.
+
+
+== Applications ==
+
+
+=== Photovoltaics ===
+Photovoltaic devices can be characterized by global hyperspectral imaging by electroluminescence (EL) and photoluminescence (PL) mapping. This technique allows the characterization of different aspects of photovoltaic cells : open circuit voltage, transport mechanisms, external quantum efficiency, saturation currents, composition map, uniformity components, crystallographic domains, stress shifts and lifetime measurement for material quality. It has in fact already been employed for the characterization of Cu(In,Ga)Se2 (CIGS)  and GaAs  solar cells. In their study, researchers from IRDEP (Institute of Research and Development on Photovoltaic Energy) were able to extract maps of the quasi-fermi level splitting and of the external quantum efficiency with the help of photoluminescence and electroluminescence hyperspectral measurements combined with a spectral and photometric absolute calibration method.
+
+
+=== Health and life science ===
+Since global hyperspectral imaging is a non-invasive technique, it gained popularity in the last few years in the health domain. For example, it has been used for the early diagnosis of retina anomalies (e.g.: age-related macular degeneration (AMD), retinal vessel oxygen saturation ), in the biomedical field in addition to neurology and dermatology for the identification and location of certain proteins (e.g.: hemoglobin) or pigments (e.g.: melanin).
+In life science, this technique is used for darkfield and epifluorescence microscopy. Several studies showed hyperspectral imaging results of gold nanoparticles (AuNPs) targeting CD44+ cancer cells  and quantum dots (QDs) for the investigation of molecular dynamics in the central nervous system (CNS).
+Moreover, hyperspectral imaging optimized in the near-infrared is a well suited tool to study single carbon nanotube photoluminescence in living cells and tissues. In a Scientific Reports paper, Roxbury et al. presents simultaneous imaging of 17 nanotube chiralities, including 12 distinct fluorescent species within live cells. The measurements were performed ex vivo and in vivo.
+
+
+=== Semiconductors ===
+After the invention of the transistor in 1947 the research on semiconductors materials took a big step forward. One technique that emerged from this consists of combining Raman spectroscopy with hyperspectral imaging which permits characterisation of samples due to Raman diffusion specificity. For example, it is possible to detect stress, strain and impurities in silicon (Si) samples based on frequency, intensity, shape and width variation in the Si phonon band (~520 cm−1). Generally, it is possible to assess material's crystalline quality, local stress/strain, dopant and impurity levels and surface temperature.
+
+
+=== Nanomaterials ===
+Nanomaterials have recently raised a huge interest in the field of material science because of their colossal collection of industrial, biomedical and electronic applications. Global hyperspectral imaging combined with photoluminescence, electroluminescence or Raman spectroscopy offers a way to analyse those emerging materials. It can provide mapping of samples containing quantum dots, nanowires, nanoparticles, nanotracers, etc. Global hyperspectral imaging can also be used to study the diameter and chirality distribution  and radial breathing modes (RBM)  of carbon nanotubes. It can deliver maps of the uniformity, defects and disorder while providing information on the number and relative orientation of layers, strain, and electronic excitations. It can hence be employed for the characterization of 2D materials such as graphene and molybdenum disulfide (MoS2).
+
+
+=== Industrial ===
+Hyperspectral Imaging allows extracting information on the composition and the distribution of specific compounds. Those properties make hyperspectral imaging a well suited techniquue for the mining industry. Taking advantage of the specific spectral signature of minerals Photonic Knowledge's Core Mapper™ offers instant mineral identification. This technology delivers monochromatic images and fast mineralogy mapping. The widefield modality renders possible the identification of minerals signatures but also the classification of plants (e.g.: weed, precision agriculture) and food (e.g.: meat freshness, fruit defects) and can be use for diverse outdoor applications.
+Being able to quickly and efficiently detect explosive liquid precursors represents an important asset to identify potential threats. Hyperspectral camera in the SWIR region allows such detection by acquiring rapidly spectrally resolved images. The monochromatic full-frame images obtained permits fast identification of chemical compounds. Detection of sulfur by laser-induced breakdown spectroscopy (LIBS) can also be easily achieved with holographic Bragg grating used as filtering elements.
+
+
+=== Instrument calibration ===
+Calibration of measuring instruments (e.g. : photodetector, spectrometer) is essential if researchers want to be able to compare their results with those of different research groups and if we want to maintain high standards. Spectral calibration is often needed and requires a well-known source that can cover a wide part of the electromagnetic spectrum. Tunable laser source possess all of the above requirements and are hence particularly appropriate for this type of calibration.
+Before the Gemini Planet Imager (GPI) was sent to Gemini South it was necessary to calibrate its coronagraph. For this matter a nearly achromatic and collimated source that could cover 0.95-2.4 µm was needed. Photon etc’s efficient tunable laser source was chosen to test the coronagraph. The tunable source was able to provide an output across the whole GPI wavelength domain.
+
+
+== References ==
+
+
+== External links ==
+Company website
+Campus des technologies de la santé website

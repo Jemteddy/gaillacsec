@@ -1,0 +1,107 @@
+The impulse excitation technique is a nondestructive test method that uses natural frequency, dimensions and mass of a test-piece to determine Young's modulus, Shear modulus, Poisson's ratio and damping coefficient.
+
+
+== Practical ==
+Dimensions and mass of a test-piece can be easily measured. Natural frequency is determined by gently tapping the test-piece and analyzing the vibration. Tapping can be done using a small hammer or an automated tapping device. There are different ways to detect vibrations in the test-piece: piezoelectric sensor, microphone, laservibrometer or accelerometer. To optimize the results a microphone or a laservibrometer can be used as there is no contact between the test-piece and the sensor. Laservibrometers are preferred to measure signals with extreme frequencies. These kinds of signals are usually only induced in very thin test-pieces.
+
+
+=== Flexure mode ===
+
+This figure gives an example of a test-piece vibrating in the flexure mode. The induced vibration is also referred to as the out-of plane vibration. The in-plane vibration is the vibration vibrating vertically on the out-of plane vibration. The natural frequency of this vibration is measured to calculate Young's modulus. To damp the test-piece as little as possible it has to be supported at the nodes. The test-piece is mechanically excited at one of the anti-nodes to cause maximum vibration.
+
+
+=== Torsion mode ===
+
+This figure gives an example of a test-piece vibrating in the torsion mode. The natural frequency of this vibration is measured to calculate the Shear modulus. To damp the test-piece as little as possible it has to be supported in the nodes. The test-piece is mechanically excited at one of the anti-nodes to cause maximum vibration.
+
+
+=== Signal conditioning and calculating result ===
+After the signal is induced it has to be amplified and filtered. The resulting signal can than be introduced in a software package where it is logged. Software packages use algorithms to calculate Young's modulus, Shear modulus, Poisson's ratio and damping coefficient. The basic formulas used in these algorithms are discussed in the theory section. Most software packages visualize the signal and show a graphic of the obtained frequencies.
+
+
+=== Area of application ===
+There is a wide range of untested applications in which impulse excitation techniques (IET) could be used. Today IET is mostly used in research and quality control. The advantage of IET in research projects is that it gives an in depth look into the internal structure of materials. Physical properties like damping and Young's modulus can be used for example to map out thermal shock behaviour of certain materials. Some machines even have the possibility to do measurements at very high temperatures, up to 1750 °C, or in vacuum conditions. This can be an advantage in understanding the physical properties of certain materials. Applications in quality control work differently. Most of these applications need a reference piece they can relate to. Engine blocks for example can be tested by tapping them and comparing the recorded signal with a pre-recorded signal of another engine block of which there is certainty its properties are satisfactory. From a material point of view most materials that have enough stiffness to vibrate can be measured using IET.
+
+
+== Theory ==
+
+
+=== Rectangular bar ===
+
+
+==== Young’s modulus ====
+
+Where
+
+E is Young's modulus
+m is mass
+ff is natural frequency in flexure dimension
+b is width
+L is length
+t is thickness
+The above formula can be used should L/t ≥ 20
+
+
+==== Shear modulus ====
+
+Where
+
+Note we assume that b≥t
+ft is the natural frequency in the torsion mode
+m is mass
+b is width
+L is length
+t is thickness
+
+
+=== Cylindrical rod ===
+
+
+==== Young’s modulus ====
+
+Where
+
+E is Young's modulus
+m is mass
+ff is the natural frequency in flexure dimension
+d is diameter
+L is length
+The above formula can be used should L/t ≥ 20
+
+
+==== Shear modulus ====
+
+Where
+ft is the natural frequency in the torsion mode
+m is mass
+d is diameter
+L is length
+
+
+=== Poisson ratio ===
+If Young's modulus and Shear modulus are known Poisson's ratio can be calculated.
+
+
+=== Damping coefficient ===
+The signal induced in the test-piece is described as a damped sine. The damping of this sine can be determined by checking the force of consecutive amplitudes.
+
+Where
+f = 1/T = ω/(2π) the natural frequency
+δ = kt the logarithmic decrement
+k the exponential damping of the vibration signal
+
+
+== Accuracy ==
+Accuracy is determined by the quality of support of the test-piece and the correctness of measurement of the test-piece’s dimensions and mass. It is possible to do measurements within an accuracy rate of 0,1%. The best way to support a test-piece is to use nylon fibers, but most systems use polyurethane foam strips as support. This makes it very difficult to measure small test-pieces because the damping effect of the support is too big.
+
+
+== Standards ==
+ASTM E 1875 Standard Test Method for Dynamic Young's Modulus, Shear Modulus, and Poisson's Ratio by Sonic Resonance
+ASTM E 1876 Standard Test Method for Dynamic Young's Modulus, Shear Modulus, and Poisson's Ratio by Impulse Excitation of Vibration
+
+
+== External links ==
+Impulse Excitation Technique by J.W. Lemmens - GrindoSonic
+Quality Analysis with Impulse Excitation Technique using JE DEPA V9
+Recent advance in material characterization using IET
+Impulse excitation technique at IMCE

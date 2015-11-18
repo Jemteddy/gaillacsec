@@ -1,0 +1,11 @@
+Limit analysis is a structural analysis field which is dedicated to the development of efficient methods to directly determine estimates of the collapse load of a given structural model without resorting to iterative or incremental analysis. For this purpose, the field of limit analysis is based on a set of theorems, referred to as limit theorems, which are a set of theorems based on the law of conservation of energy that state properties regarding stresses and strains, lower and upper-bound limits for the collapse load and the exact collapse load.
+
+
+== Software for limit analysis ==
+LimitState:GEO (2008-) General purpose geotechnical software limit analysis application. Uses discontinuity layout optimization.
+OptumG2 (2014-) General purpose software for geotechnical applications (also includes elastoplasticity, seepage, consolidation, staged construction, tunneling, and other relevant geotechnical analysis types).
+LimitState:SLAB (2015-) Limit analysis software application for slabs. Uses discontinuity layout optimization.
+
+
+== References ==
+Chen, Wai-Fah; Da-Jian Han (2007). Plasticity for structural engineers. J. Ross publishing classics. pp. 409–490. ISBN 978-1-932159-75-2.

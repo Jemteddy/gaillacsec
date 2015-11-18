@@ -1,0 +1,29 @@
+In mathematics, a partial order or total order < on a set X is said to be dense if, for all x and y in X for which x < y, there is a z in X such that x < z < y.
+
+
+== Example ==
+The rational numbers with the ordinary ordering are a densely ordered set in this sense, as are the real numbers. On the other hand, the ordinary ordering on the integers is not dense.
+
+
+== Uniqueness ==
+Georg Cantor proved that every two densely totally ordered countable sets without lower or upper bounds are order-isomorphic. In particular, there exists an isomorphism between the rational numbers and other densely ordered countable sets including the dyadic rationals and the algebraic numbers. The proof of this result uses the back-and-forth method.
+Minkowski's question mark function can be used to determine the order isomorphisms between the quadratic algebraic numbers and the rational numbers, and between the rationals and the dyadic rationals.
+
+
+== Generalizations ==
+Any binary relation R is said to be dense if, for all R-related x and y, there is a z such that x and z and also z and y are R-related. Formally:
+
+Every reflexive relation is dense. A strict partial order < is a dense order iff < is a dense relation.
+
+
+== See also ==
+Dense set
+Dense-in-itself
+Kripke semantics
+
+
+== References ==
+
+
+== Additional reading ==
+David Harel, Dexter Kozen, Jerzy Tiuryn, Dynamic logic, MIT Press, 2000, ISBN 0-262-08289-6, p. 6ff

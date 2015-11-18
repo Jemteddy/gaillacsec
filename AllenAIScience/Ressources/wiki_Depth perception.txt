@@ -1,0 +1,92 @@
+Depth perception is the visual ability to perceive the world in three dimensions (3D) and the distance of an object. Depth sensation is the corresponding term for animals, since although it is known that animals can sense the distance of an object (because of their ability to move accurately, or to respond consistently, according to that distance), it is not known whether they "perceive" it in the same subjective way that humans do.
+Depth perception arises from a variety of depth cues. These are typically classified into binocular cues that are based on the receipt of sensory information in three dimensions from both eyes and monocular cues that can be represented in just two dimensions and observed with just one eye. Binocular cues include stereopsis, eye convergence, disparity, and yielding depth from binocular vision through exploitation of parallax. Monocular cues include size: distant objects subtend smaller visual angles than near objects, grain, size, and motion parallax.
+
+
+== Monocular cuesEdit ==
+Monocular cues provide depth information when viewing a scene with one eye.
+Motion parallax 
+When an observer moves, the apparent relative motion of several stationary objects against a background gives hints about their relative distance. If information about the direction and velocity of movement is known, motion parallax can provide absolute depth information. This effect can be seen clearly when driving in a car. Nearby things pass quickly, while far off objects appear stationary. Some animals that lack binocular vision due to their eyes having little common field-of-view employ motion parallax more explicitly than humans for depth cueing (e.g., some types of birds, which bob their heads to achieve motion parallax, and squirrels, which move in lines orthogonal to an object of interest to do the same ).
+Depth from motion 
+When an object moves toward the observer, the retinal projection of an object expands over a period of time, which leads to the perception of movement in a line toward the observer. Another name for this phenomenon is depth from optical expansion. The dynamic stimulus change enables the observer not only to see the object as moving, but to perceive the distance of the moving object. Thus, in this context, the changing size serves as a distance cue. A related phenomenon is the visual system’s capacity to calculate time-to-contact (TTC) of an approaching object from the rate of optical expansion – an ability that is useful in contexts ranging from driving a car to playing baseball. However, calculation of TTC is, strictly speaking, perception of velocity rather than depth.
+Kinetic depth effect 
+If a stationary rigid figure (for example, a wire cube) is placed in front of a point source of light so that its shadow falls on a translucent screen, an observer on the other side of the screen will see a two-dimensional pattern of lines. But if the cube rotates, the visual system will extract the necessary information for perception of the third dimension from the movements of the lines, and a cube is seen. This is an example of the kinetic depth effect. The effect also occurs when the rotating object is solid (rather than an outline figure), provided that the projected shadow consists of lines which have definite corners or end points, and that these lines change in both length and orientation during the rotation.
+Perspective 
+The property of parallel lines converging in the distance, at infinity, allows us to reconstruct the relative distance of two parts of an object, or of landscape features. An example would be standing on a straight road, looking down the road, and noticing the road narrows as it goes off in the distance.
+Relative size 
+If two objects are known to be the same size (e.g., two trees) but their absolute size is unknown, relative size cues can provide information about the relative depth of the two objects. If one subtends a larger visual angle on the retina than the other, the object which subtends the larger visual angle appears closer.
+Familiar size 
+Since the visual angle of an object projected onto the retina decreases with distance, this information can be combined with previous knowledge of the object's size to determine the absolute depth of the object. For example, people are generally familiar with the size of an average automobile. This prior knowledge can be combined with information about the angle it subtends on the retina to determine the absolute depth of an automobile in a scene.
+Absolute size 
+Even if the actual size of the object is unknown and there is only one object visible, a smaller object seems further away than a large object that is presented at the same location 
+Aerial perspective 
+Due to light scattering by the atmosphere, objects that are a great distance away have lower luminance contrast and lower color saturation. Due to this, images seem hazy the farther they are away from a person's point of view. In computer graphics, this is often called "distance fog." The foreground has high contrast; the background has low contrast. Objects differing only in their contrast with a background appear to be at different depths. The color of distant objects are also shifted toward the blue end of the spectrum (e.g., distant mountains). Some painters, notably Cézanne, employ "warm" pigments (red, yellow and orange) to bring features forward towards the viewer, and "cool" ones (blue, violet, and blue-green) to indicate the part of a form that curves away from the picture plane.
+Accommodation 
+This is an oculomotor cue for depth perception. When we try to focus on far away objects, the ciliary muscles stretch the eye lens, making it thinner, and hence changing the focal length. The kinesthetic sensations of the contracting and relaxing ciliary muscles (intraocular muscles) is sent to the visual cortex where it is used for interpreting distance/depth. Accommodation is only effective for distances less than 2 meters.
+Occlusion 
+Occlusion (also referred to as interposition) happens when near surfaces overlap far surfaces. If one object partially blocks the view of another object, humans perceive it as closer. However, this information only allows the observer to create a "ranking" of relative nearness. The presence of monocular occlusions consist of the object's texture and geometry. Monocular occlusions are able to reduce the depth perception latency both in natural and artificial stimuli.
+Curvilinear perspective 
+At the outer extremes of the visual field, parallel lines become curved, as in a photo taken through a fisheye lens. This effect, although it is usually eliminated from both art and photos by the cropping or framing of a picture, greatly enhances the viewer's sense of being positioned within a real, three-dimensional space. (Classical perspective has no use for this so-called "distortion," although in fact the "distortions" strictly obey optical laws and provide perfectly valid visual information, just as classical perspective does for the part of the field of vision that falls within its frame.)
+Texture gradient 
+Fine details on nearby objects can be seen clearly, whereas such details are not visible on faraway objects. Texture gradients are grains of an item. For example, on a long gravel road, the gravel near the observer can be clearly seen of shape, size and colour. In the distance, the road's texture cannot be clearly differentiated.
+Lighting and shading 
+The way that light falls on an object and reflects off its surfaces, and the shadows that are cast by objects provide an effective cue for the brain to determine the shape of objects and their position in space.
+Defocus blur 
+Selective image blurring is very commonly used in photographic and video for establishing the impression of depth. This can act as a monocular cue even when all other cues are removed. It may contribute to the depth perception in natural retinal images, because the depth of focus of the human eye is limited. In addition, there are several depth estimation algorithms based on defocus and blurring. Some jumping spiders are known to use image defocus to judge depth.
+Elevation 
+When an object is visible relative to the horizon, we tend to perceive objects which are closer to the horizon as being farther away from us, and objects which are farther from the horizon as being closer to us.
+
+
+== Binocular cuesEdit ==
+Binocular cues provide depth information when viewing a scene with both eyes.
+Stereopsis, or retinal (binocular) disparity, or binocular parallax 
+Animals that have their eyes placed frontally can also use information derived from the different projection of objects onto each retina to judge depth. By using two images of the same scene obtained from slightly different angles, it is possible to triangulate the distance to an object with a high degree of accuracy. Each eye views a slightly different angle of an object seen by the left and right eyes. This happens because of the horizontal separation parallax of the eyes. If an object is far away, the disparity of that image falling on both retinas will be small. If the object is close or near, the disparity will be large. It is stereopsis that tricks people into thinking they perceive depth when viewing Magic Eyes, Autostereograms, 3-D movies, and stereoscopic photos.
+Convergence 
+This is a binocular oculomotor cue for distance/depth perception. Because of stereopsis the two eyeballs focus on the same object. In doing so they converge. The convergence will stretch the extraocular muscles. As happens with the monocular accommodation cue, kinesthetic sensations from these extraocular muscles also help in depth/distance perception. The angle of convergence is smaller when the eye is fixating on far away objects. Convergence is effective for distances less than 10 meters.
+Shadow Stereopsis 
+A. Medina Puerta demonstrated that retinal images with no parallax disparity but with different shadows are fused stereoscopically, imparting depth perception to the imaged scene. He named the phenomenon "shadow stereopsis". Shadows are therefore an important, stereoscopic cue for depth perception.
+Of these various cues, only convergence, accommodation and familiar size provide absolute distance information. All other cues are relative (i.e., they can only be used to tell which objects are closer relative to others). Stereopsis is merely relative because a greater or lesser disparity for nearby objects could either mean that those objects differ more or less substantially in relative depth or that the foveated object is nearer or further away (the further away a scene is, the smaller is the retinal disparity indicating the same depth difference.)
+
+
+== SurvivalEdit ==
+Most open-plains herbivores, especially hoofed grazers, lack binocular vision because they have their eyes on the sides of the head, providing a panoramic, almost 360°, view of the horizon - enabling them to notice the approach of predators from almost any direction. However, most predators have both eyes looking forwards, allowing binocular depth perception and helping them to judge distances when they pounce or swoop down onto their prey. Animals that spend a lot of time in trees take advantage of binocular vision in order to accurately judge distances when rapidly moving from branch to branch.
+Matt Cartmill, a physical anthropologist & anatomist at Boston University, has criticized this theory, citing other arboreal species which lack binocular vision, such as squirrels and certain birds. Instead, he proposes a "Visual Predation Hypothesis," which argues that ancestral primates were insectivorous predators resembling tarsiers, subject to the same selection pressure for frontal vision as other predatory species. He also uses this hypothesis to account for the specialization of primate hands, which he suggests became adapted for grasping prey, somewhat like the way raptors employ their talons.
+
+
+== In artEdit ==
+Photographs capturing perspective are two-dimensional images that often illustrate the illusion of depth. (This differs from a painting, which may use the physical matter of the paint to create a real presence of convex forms and spatial depth.) Stereoscopes and Viewmasters, as well as 3D films, employ binocular vision by forcing the viewer to see two images created from slightly different positions (points of view). Charles Wheatstone was the first to discuss depth perception being a cue of binocular disparity. He invented the stereoscope, which is an instrument with two eyepieces that displays two photographs of the same location/scene taken at relatively different angles. When observed, separately by each eye, the pairs of images induced a clear sense of depth. By contrast, a telephoto lens—used in televised sports, for example, to zero in on members of a stadium audience—has the opposite effect. The viewer sees the size and detail of the scene as if it were close enough to touch, but the camera's perspective is still derived from its actual position a hundred meters away, so background faces and objects appear about the same size as those in the foreground.
+Trained artists are keenly aware of the various methods for indicating spatial depth (color shading, distance fog, perspective and relative size), and take advantage of them to make their works appear "real". The viewer feels it would be possible to reach in and grab the nose of a Rembrandt portrait or an apple in a Cézanne still life—or step inside a landscape and walk around among its trees and rocks.
+Cubism was based on the idea of incorporating multiple points of view in a painted image, as if to simulate the visual experience of being physically in the presence of the subject, and seeing it from different angles. The radical experiments of Georges Braque, Pablo Picasso, Jean Metzinger's Nu à la cheminée, Albert Gleizes's La Femme aux Phlox, or Robert Delaunay's views of the Eiffel Tower, employ the explosive angularity of Cubism to exaggerate the traditional illusion of three-dimensional space. The subtle use of multiple points of view can be found in the pioneering late work of Cézanne, which both anticipated and inspired the first actual Cubists. Cézanne's landscapes and still lives powerfully suggest the artist's own highly developed depth perception. At the same time, like the other Post-Impressionists, Cézanne had learned from Japanese art the significance of respecting the flat (two-dimensional) rectangle of the picture itself; Hokusai and Hiroshige ignored or even reversed linear perspective and thereby remind the viewer that a picture can only be "true" when it acknowledges the truth of its own flat surface. By contrast, European "academic" painting was devoted to a sort of Big Lie that the surface of the canvas is only an enchanted doorway to a "real" scene unfolding beyond, and that the artist's main task is to distract the viewer from any disenchanting awareness of the presence of the painted canvas. Cubism, and indeed most of modern art is an attempt to confront, if not resolve, the paradox of suggesting spatial depth on a flat surface, and explore that inherent contradiction through innovative ways of seeing, as well as new methods of drawing and painting.
+
+
+== Disorders affecting depth perceptionEdit ==
+Ocular conditions such as amblyopia, optic nerve hypoplasia, and strabismus may reduce the perception of depth.
+Since (by definition), binocular depth perception requires two functioning eyes, a person with only one functioning eye has no binocular depth perception.
+It is typically felt that depth perception must be learned in infancy using an unconscious inference.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+=== NotesEdit ===
+^ The term 'parallax vision' is often used as a synonym for binocular vision, and should not be confused with motion parallax. The former allows far more accurate gauging of depth than the latter.
+
+
+== BibliographyEdit ==
+Howard, Ian P.; Rogers, Brian J. (2012). Perceiving in Depth. New York: Oxford University Press.  In three volumes
+Palmer, S. E. (1999). Vision science: Photons to phenomenology. Cambridge, MA: Bradford Books/MIT Press. 
+Pinker, Steven (1997). "The Mind's Eye". How the Mind Works. pp. 211–233. ISBN 0-393-31848-6. 
+Sternberg RJ, Sternberg K, Sternberg K (2011). Cognitive Psychology (6th ed.). Wadsworth Pub Co. 
+Purves D, Lotto B (2003). Why We See What We Do: An Empirical Theory of Vision. Sunderland, MA: Sinauer Associates. 
+Steinman, Scott B.; Steinman, Barbara A.; Garzia, Ralph Philip (2000). Foundations of Binocular Vision: A Clinical Perspective. New York: McGraw-Hill Medical. ISBN 0-8385-2670-5. 
+
+
+== External linksEdit ==
+What is Binocular (Two-eyed) Depth Perception?
+Why Some People Can't See in Depth
+Space perception | Webvision.
+Depth perception | Webvision.
+Make3D.
+Depth Cues for Film, TV and Photography

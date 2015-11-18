@@ -1,0 +1,21 @@
+In computing, a compound document is a document type typically produced using word processing software, and is a regular text document intermingled with non-text elements such as spreadsheets, pictures, digital videos, digital audio, and other multimedia features. It can also be used to collect several documents into one.
+Compound document technologies are commonly utilized on top of a software componentry framework, but the idea of software componentry includes several other concepts apart from compound documents, and software components alone do not enable compound documents. Well-known technologies for compound documents include:
+ActiveX Documents
+Bonobo by Ximian (primarily used by GNOME)
+KParts in KDE
+Object linking and embedding (OLE) by Microsoft
+Open Document Architecture from ITU-T (not used)
+OpenDoc by Apple Computer (now defunct)
+Verdantium
+XML and XSL are encapsulation formats used for compound documents of all kinds
+Since many documents contain non-text elements such as spreadsheets, pictures, digital videos, digital audio, and other multimedia features is of critical importance to mitigate the risks of undetected and unapproved changes.
+Software-based compound document comparison compares the entire document granularly, including the native format, in addition to embedded objects like spreadsheets and images, and creates a third document highlighting modifications through a coded system. Normally this coded system takes the form of color-coding or highlighting the changes granularly. Compound document comparison can be used on any document format including Word, WordPerfect, spreadsheets, PDFs, and PowerPoint.
+The first public implementation was on the Xerox Star workstation, released in 1981.
+
+
+== See alsoEdit ==
+COM Structured Storage
+Transclusion
+
+
+== ReferencesEdit ==

@@ -1,0 +1,219 @@
+The rate law or rate equation for a chemical reaction is an equation that links the reaction rate with concentrations or pressures of reactants and constant parameters (normally rate coefficients and partial reaction orders). For many reactions the rate is given by a power law such as
+
+where [A] and [B] express the concentration of the species A and B, respectively (usually in moles per liter (molarity, M)). The exponents x and y are the partial reaction orders and must be determined experimentally; they are often not equal to the stoichiometric coefficients. The constant k is the rate coefficient or rate constant of the reaction. The value of this coefficient k may depend on conditions such as temperature, ionic strength, surface area of an adsorbent or light irradiation.
+For elementary reactions, which consist of a single step, the order equals the molecularity as predicted by collision theory. For example, a bimolecular elementary reaction A + B → products will be second order overall and first order in each reactant, with rate equation . For multistep reactions, the order of each step equals the molecularity, but this is not generally true for the overall rate.
+The rate equation of a reaction with an assumed multi-step mechanism can often be derived theoretically using quasi-steady state assumptions from the underlying elementary reactions, and compared with the experimental rate equation as a test of the assumed mechanism. The equation may involve a fractional order, and may depend on the concentration of an intermediate species.
+The rate equation is a differential equation, and it can be integrated to obtain an integrated rate equation that links concentrations of reactants or products with time.
+
+
+== Zero order reactionsEdit ==
+A Zero order reaction has a rate that is independent of the concentration of the reactant(s). Increasing the concentration of the reacting species will not speed up the rate of the reaction i.e. the amount of substance reacted is proportional to the time. Zero order reactions are typically found when a material that is required for the reaction to proceed, such as a surface or a catalyst, is saturated by the reactants. The rate law for a zero order reaction is
+
+where r is the reaction rate and k is the reaction rate coefficient with units of concentration or time. If, and only if, this zeroth order reaction 1) occurs in a closed system, 2) there is no net build-up of intermediates, and 3) there are no other reactions occurring, it can be shown by solving a mass balance equation for the system that:
+
+If this differential equation is integrated it gives an equation often called the integrated zero order rate law.
+
+where  represents the concentration of the chemical of interest at a particular time, and  represents the initial concentration.
+A reaction is zero order if concentration data are plotted versus time and the result is a straight line. A plot of  vs. time t gives a straight line with a slope of .
+The half-life of a reaction describes the time needed for half of the reactant to be depleted (same as the half-life involved in nuclear decay, which is a first order reaction). For a zero order reaction the half-life is given by
+
+Example of a zero order reaction
+Reversed Haber process: 
+The order of a reaction cannot be deduced from the chemical equation of the reaction.
+
+
+== First order reactionsEdit ==
+
+A first order reaction depends on the concentration of only one reactant (a unimolecular reaction). Other reactants can be present, but each will be zero order. The rate law for a reaction that is first order with respect to a reactant A is
+
+k is the first order rate constant, which has units of 1/s.
+The integrated first order rate law is
+
+A plot of  vs. time t gives a straight line with a slope of .
+The half-life of a first order reaction is independent of the starting concentration and is given by .
+Examples of reactions that are first order with respect to the reactant:
+
+
+=== Further properties of first order reaction kineticsEdit ===
+The integrated first order rate law
+
+is usually written in the form of the exponential decay equation
+
+A different (but equivalent) way of considering first order kinetics is as follows: The exponential decay equation can be rewritten as:
+
+where  corresponds to a specific time period and  is an integer corresponding to the number of time periods. At the end of each time period, the fraction of the reactant population remaining relative to the amount present at the start of the time period, , will be:
+
+Such that after  time periods, the fraction of the original reactant population will be:
+
+where:  corresponds to the fraction of the reactant population that will break down in each time period. This equation indicates that the fraction of the total amount of reactant population that will break down in each time period is independent of the initial amount present. When the chosen time period corresponds to , the fraction of the population that will break down in each time period will be exactly ½ the amount present at the start of the time period (i.e. the time period corresponds to the half-life of the first order reaction).
+The average rate of the reaction for the nth time period is given by:
+
+Therefore, the amount remaining at the end of each time period will be related to the average rate of that time period and the reactant population at the start of the time period by:
+
+Since the fraction of the reactant population that will break down in each time period can be expressed as:
+
+The amount of reactant that will break down in each time period can be related to the average rate over that time period by:
+
+Such that the amount that remains at the end of each time period will be related to the amount present at the start of the time period according to:
+
+This equation is a recursion allowing for the calculation of the amount present after any number of time periods, without need of the rate constant, provided that the average rate for each time period is known. 
+
+
+== Second order reactionsEdit ==
+A second order reaction depends on the concentrations of one second order reactant, or two first order reactants.
+Its reaction rate is given by:
+
+or
+
+or
+
+This last equations stems from the definition of a rate law, with respect to a reactant, A.
+Consider the reaction: 2A --> B
+Having a second order reaction involving one reagent only must mean, in terms of the definition of a rate law, that the derivative of [B] with respect to time is equal to one half of the derivative of A with respect to time. This is because for each B that appears, to As are disappearing. Thus; the speed with which A disappears is twice the speed with which B appears, because A is disappearing in groups of two while B is appearing in groups of one. So: the derivative of [B] with respect to time, is equal to minus one half the derivative of [A] with respect to the time:
+
+Taking into account the definition of the rate equation, which is a relationship between the rate of reaction in terms of the concentration of a given reagent, we can say that r=[A]^2. If we were to make both expressions equivalent, we find that:
+
+Thus, the derivative of [A] with respect to time must be halved to obtain the rate at which A is disappearing.)
+
+The integrated second order rate laws are respectively
+
+or
+
+[A]0 and [B]0 must be different to obtain that integrated equation.
+The half-life equation for a second order reaction dependent on one second order reactant is . For such a reaction, the half-life progressively doubles as the concentration of the reactant falls to half its initial value.
+Another way to present the above rate laws is to take the log of both sides: 
+Examples of a Second order reaction
+
+
+=== Pseudo-first orderEdit ===
+Measuring a second order reaction rate with reactants A and B can be problematic: The concentrations of the two reactants must be followed simultaneously, which is more difficult; or measure one of them and calculate the other as a difference, which is less precise. A common solution for that problem is the pseudo-first order approximation.
+If the concentration of one of a reactants remains constant because it is supplied in great excess, its concentration can be absorbed within the rate constant, obtaining a pseudo first order reaction constant, because in fact, it depends on the concentration of only one reactant. If, for example, [B] remains constant, then:
+
+where  (k' or kobs with units s−1) and an expression is obtained identical to the first order expression above.
+One way to obtain a pseudo-first order reaction is to use a large excess of one of the reactants ([B]>>[A]) would work for the previous example) so that, as the reaction progresses, only a small amount of the reactant is consumed, and its concentration can be considered to stay constant. By collecting  for many reactions with different (but excess) concentrations of [B], a plot of  versus [B] gives  (the regular second order rate constant) as the slope.
+Example: The hydrolysis of esters by dilute mineral acids follows pseudo-first order kinetics where the concentration of water is present in large excess.
+CH3COOCH3 + H2O → CH3COOH + CH3OH
+
+
+== Summary for reaction orders 0, 1, 2, and nEdit ==
+Elementary reaction steps with order 3 (called ternary reactions) are rare and unlikely to occur. However, overall reactions composed of several elementary steps can, of course, be of any (including non-integer) order.
+Where M stands for concentration in molarity (mol · L−1), t for time, and k for the reaction rate constant. The half-life of a first order reaction is often expressed as t1/2 = 0.693/k (as ln2 = 0.693).
+
+
+== Equilibrium reactions or opposed reactionsEdit ==
+A pair of forward and reverse reactions may define an equilibrium process. For example, A and B react into X and Y and vice versa (s, t, u, and v are the stoichiometric coefficients):
+
+The reaction rate expression for the above reactions (assuming each one is elementary) can be expressed as:
+
+where: k1 is the rate coefficient for the reaction that consumes A and B; k2 is the rate coefficient for the backwards reaction, which consumes X and Y and produces A and B.
+The constants k1 and k2 are related to the equilibrium coefficient for the reaction (K) by the following relationship (set r=0 in balance):
+
+
+=== Simple exampleEdit ===
+In a simple equilibrium between two species:
+
+Where the reactions starts with an initial concentration of A, , with an initial concentration of 0 for B at time t=0.
+Then the constant K at equilibrium is expressed as:
+
+Where  and  are the concentrations of A and B at equilibrium, respectively.
+The concentration of A at time t, , is related to the concentration of B at time t, , by the equilibrium reaction equation:
+
+Note that the term  is not present because, in this simple example, the initial concentration of B is 0.
+This applies even when time t is at infinity; i.e., equilibrium has been reached:
+
+then it follows, by the definition of K, that
+
+and, therefore,
+
+These equations allow us to uncouple the system of differential equations, and allow us to solve for the concentration of A alone.
+The reaction equation, given previously as:
+
+The derivative is negative because this is the rate of the reaction going from A to B, and therefore the concentration of A is decreasing. To simplify annotation, let x be , the concentration of A at time t. Let  be the concentration of A at equilibrium. Then:
+
+Since:
+
+The reaction rate becomes:
+
+which results in:
+
+A plot of the negative natural logarithm of the concentration of A in time minus the concentration at equilibrium versus time t gives a straight line with slope kf + kb. By measurement of Ae and Be the values of K and the two reaction rate constants will be known.
+
+
+=== Generalization of simple exampleEdit ===
+If the concentration at the time t = 0 is different from above, the simplifications above are invalid, and a system of differential equations must be solved. However, this system can also be solved exactly to yield the following generalized expressions:
+
+When the equilibrium constant is close to unity and the reaction rates very fast for instance in conformational analysis of molecules, other methods are required for the determination of rate constants for instance by complete lineshape analysis in NMR spectroscopy.
+
+
+== Consecutive reactionsEdit ==
+If the rate constants for the following reaction are  and ; , then the rate equation is:
+For reactant A: 
+For reactant B: 
+For product C: 
+With the individual concentrations scaled by the total population of reactants to become probabilities, linear systems of differential equations such as these can be formulated as a master equation. The differential equations can be solved analytically and the integrated rate equations are
+
+The steady state approximation leads to very similar results in an easier way.
+
+
+== Parallel or competitive reactionsEdit ==
+When a substance reacts simultaneously to give two different products, a parallel or competitive reaction is said to take place.
+Two first order reactions:
+ and , with constants  and  and rate equations   ;  and 
+The integrated rate equations are then ;  and .
+One important relationship in this case is 
+One first order and one second order reaction:
+This can be the case when studying a bimolecular reaction and a simultaneous hydrolysis (which can be treated as pseudo order one) takes place: the hydrolysis complicates the study of the reaction kinetics, because some reactant is being "spent" in a parallel reaction. For example A reacts with R to give our product C, but meanwhile the hydrolysis reaction takes away an amount of A to give B, a byproduct:  and . The rate equations are:  and . Where  is the pseudo first order constant.
+The integrated rate equation for the main product [C] is , which is equivalent to . Concentration of B is related to that of C through 
+The integrated equations were analytically obtained but during the process it was assumed that  therefeore, previous equation for [C] can only be used for low concentrations of [C] compared to [A]0
+
+
+== Stoichiometric reaction networksEdit ==
+The most general description of a chemical reaction network considers a number  of distinct chemical species reacting via  reactions.  The chemical equation of the -th reaction can then be written in the generic form
+
+which is often written in the equivalent form
+
+Here
+ is the reaction index running from 1 to ,
+ denotes the -th chemical species,
+ is the rate constant of the -th reaction and
+ and  are the stoichiometric coefficients of reactants and products, respectively.
+The rate of such reaction can be inferred by the law of mass action
+
+which denotes the flux of molecules per unit time and unit volume. Here  is the vector of concentrations. Note that this definition includes the elementary reactions:
+zero order reactions
+for which  for all ,
+first order reactions
+for which  for a single ,
+second order reactions
+for which  for exactly two , i.e., a bimolecular reaction, or  for a single , i.e., a dimerization reaction.
+Each of which are discussed in detail below. One can define the stoichiometric matrix
+
+denoting the net extend of molecules of  in reaction . The reaction rate equations can then be written in the general form
+
+Note that this is the product of the stoichiometric matrix and the vector of reaction rate functions. Particular simple solutions exist in equilibrium, , for systems composed of merely reversible reactions. In this case the rate of the forward and backward reactions are equal, a principle called detailed balance. Note that detailed balance is a property of the stoichiometric matrix  alone and does not depend on the particular form of the rate functions . All other cases where detailed balance is violated are commonly studied by flux balance analysis which has been developed to understand metabolic pathways.
+
+
+== General dynamics of unimolecular conversionEdit ==
+For a general unimolecular reaction involving interconversion of  different species, whose concentrations at time  are denoted by  through , an analytic form for the time-evolution of the species can be found. Let the rate constant of conversion from species  to species  be denoted as , and construct a rate-constant matrix  whose entries are the .
+Also, let  be the vector of concentrations as a function of time.
+Let  be the vector of ones.
+Let  be the × identity matrix.
+Let  be the function that takes a vector and constructs a diagonal matrix whose on-diagonal entries are those of the vector.
+Let  be the inverse Laplace transform from  to .
+Then the time-evolved state  is given by
+,
+thus providing the relation between the initial conditions of the system and its state at time .
+
+
+== See alsoEdit ==
+Michaelis–Menten kinetics
+Petersen matrix
+Reaction-diffusion equation
+Reactions on surfaces: rate equations for reactions where at least one of the reactants adsorbs onto a surface
+Reaction progress kinetic analysis
+Reaction rate
+Reaction rate constant
+Steady state approximation
+
+
+== ReferencesEdit ==

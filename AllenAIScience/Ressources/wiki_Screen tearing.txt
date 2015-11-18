@@ -1,0 +1,41 @@
+Screen tearing is a visual artifact in video display where a display device shows information from two or more frames in a single screen draw.
+The artifact occurs when the video feed to the device isn't in sync with the display's refresh. This can be due to non-matching refresh rates—in which case the tear line moves as the phase difference changes (with speed proportional to difference of frame rates). It can also occur simply from lack of sync between two equal frame rates, in which case the tear line is at a fixed location that corresponds to the phase difference. During video motion, screen tearing creates a torn look as edges of objects (such as a wall or a tree) fail to line up. An example is in games that run in 3DFX SLI mode because of the way 3DFX SLI works, if one graphics card draws a frame faster than the other one, and it can be especially severe on a 3DFX Voodoo 5 6000 card because it has onboard quad SLI so the first GPU draws a frame in xxx time but the second one draws it x% faster, the third one y% slower and the fourth one z% faster.
+Tearing can occur with most common display technologies and video cards, and is most noticeable in horizontally-moving visuals, such as in slow camera pans in a movie, or classic side-scrolling video games.
+Screen tearing is less noticeable when more than two frames finish rendering during the same refresh interval, since this means the screen has several narrower tears instead of a single wider one.
+
+
+== Prevention ==
+Ways to prevent video tearing depend on the display device and video card technology, software in use, and the nature of the video material. The most common solution is to use multiple buffering.
+Most systems use multiple buffering and one or both of these two methods:
+
+
+=== V-sync ===
+Vertical synchronization is an option in most systems, wherein the video card is prevented from doing anything visible to the display memory until after the monitor finishes its current refresh cycle.
+During the vertical blanking interval, the driver orders the video card to either rapidly copy the off-screen graphics area into the active display area (double buffering), or treat both memory areas as displayable, and simply switch back and forth between them (page flipping).
+With Nvidia cards there is an option to enable 'Adaptive Vsync'. This option will only turn on vertical synchronization when the frame rate of the rendering engine exceeds the display's refresh rate, leaving the frame rate unlocked otherwise. This eliminates the stutter that occurs as the rendering engine frame rate drops below the display's refresh rate.
+
+
+==== Complications ====
+When vertical synchronization is used, the frame rate of the rendering engine gets limited to the video signal frame rate. Though this feature normally improves video quality, it involves trade-offs in some cases.
+
+
+===== Judder =====
+Vertical synchronization can also cause artifacts in video and movie presentations, as they are generally recorded at frame rates significantly lower than the typical monitor frame rates (24–30 frame/s). When such a movie is played on a monitor set for a typical 60 Hz refresh rate, the video player misses the monitor's deadline fairly frequently, in addition to the interceding frames being displayed at a slightly higher rate than intended for, resulting in an effect similar to judder. (See Telecine: Frame rate differences.)
+
+
+===== Input lag =====
+Video games, which use a wide variety of rendering engines, tend to benefit visually from vertical synchronization, as a rendering engine is normally expected to build each frame in real time, based on whatever the engine's variables specify at the moment a frame is requested. However, because vertical synchronization causes input lag, it interferes with the interactive nature of games, and particularly interferes with games that require precise timing or fast reaction times.
+
+
+===== Benchmarking =====
+Lastly, benchmarking a video card or rendering engine generally implies that the hardware and software render the display as fast as possible, without regard to monitor capabilities or resultant video tearing. Otherwise, the monitor and video card throttle the benchmarking program, causing invalid results.
+
+
+=== Beam tracing ===
+
+Some graphics systems let the software perform its memory accesses so that they stay at the same time point relative to the display hardware's refresh cycle. In this case, the software writes to the areas of the display that have just been updated, staying just behind the monitor's active refresh point. This allows for copy routines or rendering engines with less predictable throughput, as long as the rendering engine can "catch up" with the monitor's active refresh point when it falls behind.
+Alternatively, software can instead stay just ahead of the active refresh point. Depending on how far ahead one chooses to stay, this method may demand code that copies or renders the display at a fixed, constant speed. Too much latency causes the monitor to overtake the software on occasion, leading to rendering artifacts, tearing, etc.
+Demo software on classic systems such as the Commodore 64 and ZX Spectrum frequently exploited these techniques, owing to the predictable nature of their respective video systems, to achieve effects that might otherwise be impossible.
+
+
+== References ==

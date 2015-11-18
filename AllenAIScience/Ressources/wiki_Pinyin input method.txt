@@ -1,0 +1,112 @@
+The pinyin method (simplified Chinese: 拼音输入法; traditional Chinese: 拼音輸入法; pinyin: pīnyīn shūrù fǎ) refers to a family of input methods based on the pinyin method of romanization.
+In the most basic form, the pinyin method allows a user to input Chinese characters by entering the pinyin of a Chinese character and then presenting the user with a list of possible characters with that pronunciation. However, there are a number of slightly different such systems in use, and modern pinyin methods provide a number of convenient features.
+
+
+== Advantages and disadvantages ==
+The obvious advantage of pinyin-based input methods is the ease of learning for Standard Chinese speakers. Those who are familiar with pinyin would be able to input Chinese characters with almost no training, compared to other input methods.
+For people who do not speak Chinese, the main advantage of pinyin becomes its disadvantage. They will need to learn the Standard Chinese pronunciation of characters before they are able to use this input method.
+However, since all children in Mainland China are required to learn pinyin in school, pinyin is in fact very popular there.
+Unlike stroke-based input methods, the pinyin method only requires the user to know how to speak Mandarin and be able to recognize the characters. It does not require the user to be able to construct the character from scratch as one would do in writing Chinese. This is both an advantage and a disadvantage. It is an advantage in that people will be able to type all the characters they can recognize. It is a disadvantage in that it may cause language attrition and skill loss in adults, and it may be a learning barrier for written Chinese in children.
+
+
+== Elements and features ==
+Pinyin input methods differ in a number of possible aspects. Most pinyin input methods provide convenience features to speed up input. Some of these features can speed up typing immensely.
+
+
+=== Conversion length ===
+The basic idea of an input method is to have a buffer that holds the user input until it is converted into characters that would otherwise be unavailable from the keyboard.
+In the most basic systems, one character is converted at a time. This makes a very time consuming input process. Not only does the user have to select characters one at a time, it also means that the input system does not have the ability to prioritize character choices using word phrases, grammatical structure, or context. In addition, since the input method only supports one character at a time, it likely requires the user to type out the full pinyin spelling to narrow down the selection. This system still exists in embedded applications such as cell phones.
+Common pinyin implementations on the computer today can hold up to a clause in pinyin before requiring a conversion. The method attempts to guess the appropriate characters by using word phrases from a dictionary, grammatical structure, and context.
+
+
+=== Treatment of tones ===
+Chinese is a tonal language. Tones can be used to further distinguish characters of the same sound. Many of the early single-character pinyin method implementations required input of tones in order to narrow down the character selection.
+For the sake of convenience, tone selection is disabled by default in most modern pinyin systems on the computer. The user may have the option to enable it depending on the pinyin implementation.
+
+
+=== Treatment of extended Latin characters (ü and ê) ===
+With the exception of intonation, there are two extended Latin vowels in pinyin. They are ü (U-umlaut) and ê (E-circumflex). Given that the US keyboard layout is the most common keyboard layout in China, any pinyin method implementation would need to be able to facilitate the input of those vowels on US keyboard.
+Since the letter "v" is unused in Mandarin pinyin, it is universally used as an alias for ü. For example, typing "nv" into the input method would bring up the candidate list for pinyin: nǚ.
+The handling of ê is not as universal, since the character 欸 is the only commonly used character with this pronunciation. It is an interjection roughly equivalent to "Eh" in English. Some IMEs, such as Google Pinyin, merge it into "e", while others create an additional letter combination for it, such as "ea" or "eh", or "ei" in iOS. Others would simply drop this sound.
+
+
+=== Treatment of hm, hng, ng, n ===
+The character 嗯 (ng) can be written using the IBUS linux and the Microsoft input method by typing "en".
+
+
+=== Usage statistics and user dictionaries ===
+Most modern input method implementations would adjust the positions of word candidates in the candidate list based on prior usage statistics. In addition, the input method would also support user-defined phrases via a user dictionary.
+
+
+=== Abbreviation ===
+Abbreviation is a feature that allows the user to omit all but the first or first couple of letters in the pinyin spelling. This feature can speed up the input of long word phrases significantly. Under this feature, the user can enter the word for "concert" (simplified Chinese: 音乐会; traditional Chinese: 音樂會; pinyin: yīnyuèhuì) by typing "yyh" as opposed to "yinyuehui".
+In systems that support user-defined phrases, users can even define their own abbreviations that might not follow standard pinyin rules.
+
+
+=== Fuzzy pinyin ===
+Pinyin was created based on the pronunciation of Standard Chinese, a variety of Mandarin Chinese. Regional accents are prevalent in Mandarin among both native and nonnative speakers. This means that a significant number of Mandarin speakers would have trouble distinguishing a number of similar sounding syllables of pinyin, such as c and ch, s and sh, z and zh, n and ng, h or hu and f, or n and l. Fuzzy pinyin or fuzzy input (模糊音) is a feature that allows a user to input those similar sounding vowels or consonants as if they were the same thing. It also has disadvantages as the user must choose the correct characters or words from a longer list of "homophones".
+
+
+=== Word prediction ===
+Word prediction (simplified Chinese: 联想; traditional Chinese: 聯想; pinyin: liánxiǎng; literally: "association") is a feature of an input method that attempts to guess the next series of characters that the user is attempting to enter. This feature is often used to refer to two different mechanisms that have similar functions.
+One of these mechanisms is akin to an auto-complete function for user input. While the user is typing the appropriate pinyin, the input method would take the input and look up all possible word phrases that might match the user input even though the input is incomplete. For example, when the user enters "shang", the input method would show "上海" (Shanghai) as a word candidate under this feature.
+The second possible mechanism is the prediction of the user's next input after the user completes entering a set of words. For example, in the above example, after user selects "上海" (Shanghai) from the word candidate list, the input method's pinyin buffer would be empty. Under this mechanism, the input method would display a list of words that often follows the word Shanghai, such as "人" (people), "市" (city), "的" (an auxiliary word).
+
+
+=== Double pinyin ===
+
+Vowel groups in pinyin can be up to four letters long. Double pinyin (双拼) is a method whereby longer vowel groups are assigned to consonant keys as shortcuts, and zh,ch,sh are assigned to vowel keys as shortcuts. Thus, when the input method expects a vowel, the user can use the shortcuts to speed up typing.
+In the Microsoft Pinyin IME, for example, if a user wants to input “中华人民共和国 (zhōnghuárénmíngònghéguó)”, "People's Republic of China" into the computer, they need to type "zhonghuarenmingongheguo" in Full Pinyin. In Double Pinyin, however, one only need type "vshwrfmngshego" (v=zh, s=ong,h=h, w=ua,r=r, f=en,m=m, n=in, g=g, s=ong, h=h, e=e, g=g, o=uo).
+
+
+=== Typo correction ===
+Similar to automatic typo correction for English in word processors, pinyin method implementations can recognize possible typos and show appropriate word candidates. Using Google Pinyin as an example, when encountering a suspected typo, Google Pinyin would show both the word candidates assuming it is correct and the word candidates assuming it is a typo.
+
+
+=== Language mixing ===
+Most advanced pinyin method implementations allow the mixing of English into an input stream without requiring the user to change the language mode. However, it often comes with some limitations such as requiring the input to be uppercase.
+The following examples show the difference if user wishes to enter "这个SQL漏洞可以瘫痪整个系统。" (This SQL vulnerability could paralyze the entire system.):
+"zhe ge [switch to English] SQL [switch to Chinese] loudong keyi tanhuan zhengge xitong." (Unsupported)
+"zhe ge SQL loudong keyi tanhuan zhengge xitong." (Supported)
+
+
+== Implementations ==
+The following are the most popular pinyin method editors used in Mainland China. They are free to download at their official websites.
+Cross Platform
+Rime input method engine, an open source input method engine for pinyin and others, which supports Windows, Mac OS X, and Linux (中州韻).
+Windows
+Microsoft Pinyin IME, bundled with Windows 2000 or higher, developed by Harbin Institute of Technology (微软拼音输入法).
+ZNABC, bundled with Simplified Chinese edition of Windows XP, developed by Peking University (智能ABC输入法).
+Sogou Pinyin, Sogou created the IME on which Google based Google Pinyin (搜狗拼音输入法).
+Google Pinyin, Google's implementation for Windows XP.（谷歌拼音输入法）
+Ziguang Pinyin (紫光拼音输入法)
+QQ Pinyin (QQ拼音输入法)
+Baidu Pinyin (百度拼音输入法)
+Pinyin Jiajia (拼音加加输入法)
+Linux/Unix
+Fcitx, general input method that supports Pinyin with fcitx-pinyin and fcitx-rime, among many others schemes.
+Smart Pinyin (scim-pinyin), pinyin implementation for the SCIM input platform on Linux, BSD, and other Unices.
+Bimspinyin, pinyin implementation for the xcin input platform on Linux, BSD, and other Unices.
+OpenVanilla, a cross-platform framework for Chinese and more.
+Ibus-Pinyin (ibus-pinyin), pinyin implementation for the IBus input platform on Linux, BSD, and other Unices.
+Ibus-sunpinyin, a statistical language model based pinyin input method for IBus.
+Mac OS X
+Pinyin input is part of the standard installation of OS X. With version 10.5.8 and before, the international standard term ITABC was used, but was changed to "Pinyin - Simplified" in OS 10.6.
+Fit smart Pinyin is an alternative to the standard OS X Chinese input method.
+Web
+Sogou Cloud Input Method web-based IME through browsers, can be embedded into other pages.
+QQ Cloud Input Method web-based IME through browsers, can be embedded into other pages. Similar to above.
+Google web-based IME
+Online Pinyin Input Method web-based IME through browsers.
+
+
+== See also ==
+Chinese input methods for computers
+Keyboard layout
+
+
+== External links ==
+Online Pinyin Input Method Editor (IME) 網上拼音輸入法
+
+
+== References ==

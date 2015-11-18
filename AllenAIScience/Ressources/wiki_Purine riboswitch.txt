@@ -1,0 +1,53 @@
+A purine riboswitch is a sequence of ribonucleotides in certain messenger RNA (mRNA) that selectively binds to purine ligands via a natural aptamer domain. This binding causes a conformational change in the mRNA that can affect translation by revealing an expression platform for a downstream gene, or by forming a translation-terminating stem-loop. The ultimate effects of such translational regulation often take action to manage an abundance of the instigating purine, and might produce proteins that facilitate purine metabolism or purine membrane uptake.
+
+
+== Binding Properties ==
+Purine riboswitches bind to their purine ligands via interactions at a three-way junction formed by junctional helix P1 and hairpin helicies P2 and P3. Associations that a purine makes when it is within this binding pocket stabilize the three-way junction, and support the ligand-bound conformation of the mRNA molecule. The purine riboswitch can become saturated at concentrations as low as 5 nM, which reflects the need for gene expression to respond quickly and dynamically to changes in purine concentration.
+Despite the relative similarity of the purine-binding aptamer domain across different purine riboswitches, one binding pocket can still discriminate for a single type of purine ligand with high selectivity. Critical to this sensitivity is a single difference in the secondary structure of ribonucleotides: in position 74 of the aptamer domain, it has been found that conversion of a cytosine to a uracil changes an aptamer from being guanine sensitive to being adenine sensitive, and vice versa. Such a conversion is owed to the ability of a nucleotide in position 74 to Watson-Crick base pair with the ligand in the binding pocket, and cytosine and uracil's respective ability to preferentially hydrogen-bond with guanine or adenine.
+
+
+== Adenine Riboswitch ==
+
+The Adenine Riboswitch selectively recognizes adenine, and contains a uracil ribonucleotide in position 74 of the adenine-binding aptamer domain. Some of the more frequently researched instances of this riboswitch are detailed below.
+
+
+=== add ===
+The add gene encodes adenosine deaminase, and the adenine riboswitch that is upstream exposes the gene's start codon and the Shine-Dalgarno sequence when adenine is present in the binding pocket. This behavior facilitates adenosine deaminase translation, and in this way, the add adenosine riboswitch contributes to a metabolic negative feedback mechanism that regulates the amount of adenine present in the system.
+
+
+==== Ligand-binding Conformational Changes ====
+The add adenine riboswitch has shown three distinct stable confirmations in the presence of adenine. When unbound to adenine, the mRNA sequence converts between two different non-translatable conformations, one of which is able to accept adenine into the binding pocket and conform to the adenine-bound mRNA shape. This three-stage mechanism is quite distinct from the standard two-stage explanation of riboswitch action, which assumes a single ligand-bound state and a single ligand-unbound state. This mechanistic uniqueness of the add adenine riboswitch may serve as a benefit for organisms like Vibrio vulnificus, whose varied habitats require a particularly nuanced metabolic sensitivity to a wide variety of environmental conditions.
+
+
+==== Magnesium and Temperature Dependence ====
+At higher temperatures, conversion between different conformations of unbound add adenine riboswitch favors the form that is able to accept adenine into its binding pocket. Higher temperatures also favor the conversion of this unbound riboswitch to the adenine-bound, start-sequence-exposed conformation. The concentration of Magnesium ion has an influence on only the latter of these conformation changes, and favors the binding of adenine to the riboswitch. The combination of these effects facilitates a more controlled translation of the add gene at lower temperatures: taking a portion of the unbound riboswitch and rendering it unable to bind adenine increases the sensitivity of the remaining portion to magnesium.
+
+
+=== pbuE ===
+The pbuE gene encodes a purine base efflux pump. Binding of adenine to the pbuE adenine riboswitch disrupts the structure of a terminator stem that previously was blocking access to the gene expression platform. In this way, an abundance of adenine can instigate the process of adenine's efflux from a cell.
+
+
+==== Ligand-binding Conformational Changes ====
+Unlike the add adenine riboswitch, the pbuE adenine riboswitch appears to exist in one of two stable conformations. Binding of adenine causes the formation of an antiterminator, thus allowing translation to finish to completion. In the absence of adenine, the aptamer domain of the riboswitch instead associates with the riboswitch expression platform, impeding the process of translation.
+
+
+== Guanine Riboswitch ==
+
+The Guanine Riboswitch selectively recognizes guanine, and contains a cytosine ribonucleotide in position 74 of the guanine-binding aptamer domain. One of the more frequently researched instances of this riboswitch is detailed below.
+
+
+=== xpt ===
+The xpt gene encodes a specific xanthine phosphoribosyltransferase protein, which is involved in purine metabolism. Unlike the add gene or the pbuE gene, ligand binding to the xpt guanine riboswitch serves as a translational off-switch. The xpt guanine riboswitch aptamer is stabilized by guanine in a way that allows the riboswitch to more easily bind magnesium, which causes folding of the mRNA such that the xpt gene ceases to be translated.
+
+
+== Practical Utility ==
+Like other riboswitches, purine riboswitches are found in the five prime untranslated region (5' UTR) of prokaryotic mRNA. Since the function of this region is important to bacterial metabolism, purine riboswitches constitute a potentially useful drug target. Moreover, the purine riboswitch is the only riboswitch so far that has been mutated to respond to non-natural ligands, opening up possibilities to use riboswitches as novel gene-expression tools.
+
+
+== References ==
+
+
+== External links ==
+Page for Purine riboswitch at Rfam
+PDB entry for the adenosine riboswitch tertiary structure
+PDB entry for the guanine riboswitch tertiary structure

@@ -1,0 +1,52 @@
+Networking hardware may also be known as network equipment or computer networking devices.
+Units which are the last receiver or generate data are called hosts or data terminal equipment.
+All these terms refer to devices facilitating the use of a computer network. Specifically, they mediate data in a computer network.
+
+
+== RangeEdit ==
+Typically, networking hardware includes gateways, routers, network bridges, switches, hubs, and repeaters. But it also includes hybrid network devices such as multilayer switches, protocol converters, bridge routers, proxy servers, firewalls, network address translators, multiplexers, network interface controllers, wireless network interface controllers, modems, ISDN terminal adapters, line drivers, wireless access points, networking cables and other related hardware.
+The most common kind of networking hardware today is a copper-based Ethernet adapter because of its standard inclusion on most modern computer systems. Wireless networking has, however, become increasingly popular, especially for portable and handheld devices.
+Other hardware prevalent in computer networking includes data center equipment (such as file servers, database servers and storage areas), network services (such as DNS, DHCP, email, etc.) as well as devices which assure content delivery.
+Taking a wider view, mobile phones, PDAs and even modern coffee machines may also be considered networking hardware. As technology advances and IP-based networks are integrated into building infrastructure and household utilities, network hardware will become an ambiguous term owing to the vastly increasing number of "network capable" endpoints.
+
+
+== Specific devicesEdit ==
+Gateway: this device is placed at a network node and interfaces with another network that uses different protocols. It works on OSI layers 4 to 7.
+Router: a specialized network device that determines the next network point to which it can forward a data packet towards the ultimate destination of the packet. Unlike a gateway, it cannot interface different protocols. It works on OSI layer 3.
+Switch: a device that allocates traffic from one network segment to certain lines (intended destination(s)) which connect the segment to another network segment. Unlike a hub, a switch splits the network traffic and sends it to different destinations rather than to all systems on the network. It works on OSI layer 2.
+Bridge: a device that connects multiple network segments along the data link layer. It works on OSI layer 2.
+Hub: a device that connects multiple Ethernet segments, making them act as a single segment. When using a hub, every attached device shares the same broadcast domain and the same collision domain. Therefore, only one computer connected to the hub is able to transmit at a time. Depending on the network topology, the hub provides a basic level 1 OSI model connection among the network objects (workstations, servers, etc.). It provides bandwidth which is shared among all the objects, in contrast to switches, which provide a connection between individual nodes. It works on OSI layer 1.
+Repeater: a device which amplifies or regenerates digital signals received while sending them from one part of a network into another. It works on OSI layer 1.
+Hybrid network devices include:
+Multilayer switch: a switch which, in addition to switching on OSI layer 2, provides functionality at higher protocol layers.
+Protocol converter: a hardware device that converts between two different types of transmission, such as asynchronous and synchronous transmissions.
+Bridge router (brouter): a device that combines router and bridge functionality and therefore works on OSI layers 2 and 3.
+Hardware or software components which typically sit on the connection point of different networks (for example, between an internal network and an external network) include:
+Proxy server: computer network service which allows clients to make indirect network connections to other network services.
+Firewall: a piece of hardware or software put on the network to prevent some communications forbidden by the network policy.
+Network address translator (NAT): network service (provided as hardware or as software) that converts internal to external network addresses and vice versa.
+Other hardware devices used for establishing networks or dial-up connections include:
+Multiplexer: a device that combines several electrical signals into a single signal.
+Network interface controller (NIC): a device connecting a computer to a wire-based computer network.
+Wireless network interface controller: a device connecting the attached computer to a radio-based computer network.
+Modem: device that modulates an analog "carrier" signal (such as sound) to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information. Used (for example) when a computer communicates with another computer over a telephone network.
+ISDN terminal adapter (TA): a specialized gateway for ISDN.
+Line driver: a device to increase transmission distance by amplifying the signal; used in base-band networks only.
+
+
+== See alsoEdit ==
+Node (networking)
+Data circuit-terminating equipment
+Telecommunications equipment
+Computer network#Network nodes
+Intermediate System to Intermediate System
+List of Networking hardware vendors
+Computer hardware
+Residential gateway
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+USF Explanation of network hardware

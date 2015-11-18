@@ -1,0 +1,13 @@
+A billiard-ball computer, also known as a conservative logic circuit, is an idealized model of a reversible mechanical computer based on Newtonian dynamics, proposed in 1982 by Edward Fredkin and Tommaso Toffoli. Instead of using electronic signals like a conventional computer, it relies on the motion of spherical billiard balls in a friction-free environment made of buffers against which the balls bounce perfectly. It was devised to investigate the relation between computation and reversible processes in physics.
+
+
+== Simulating circuits with billiard ballsEdit ==
+This model can be used to simulate Boolean circuits in which the wires of the circuit correspond to paths on which one of the balls may travel, the signal on a wire is encoded by the presence or absence of a ball on that path, and the gates of the circuit are simulated by collisions of balls at points where their paths cross. In particular, it is possible to set up the paths of the balls and the buffers around them to form a reversible Toffoli gate, from which any other Boolean logic gate may be simulated. Therefore, suitably configured billiard-ball computers may be used to perform any computational task.
+
+
+== Simulating billiard balls in other models of computationEdit ==
+It is possible to simulate billiard-ball computers on several types of reversible cellular automaton, including block cellular automata and second-order cellular automata. In these simulations, the balls are only allowed to move at a constant speed in an axis-parallel direction, assumptions that in any case were already present in the use of the billiard ball model to simulate logic circuits. Both the balls and the buffers are simulated by certain patterns of live cells, and the field across which the balls move is simulated by regions of dead cells, in these cellular automaton simulations.
+Logic gates based on billiard-ball computer designs have also been made to operate using live soldier crabs of the species Mictyris guinotae in place of the billiard balls.
+
+
+== ReferencesEdit ==

@@ -1,0 +1,20 @@
+In statistics, controlling for a variable is the attempt to reduce the effect of confounding variables on an observational study. It means that when looking at the effect of one variable, all other variable predictors are held constant.
+
+
+== Introduction ==
+In controlled experiments, researchers randomly assign individuals to a treatment group or control group. This is done to reduce the confounding effect of irrelevant variables that are not being studied. In an observational study, however, researchers have no control over who receives the treatment. Instead, they must control for variables using statistics. Controlling for a variable holds that variable constant for calculations made about the effect of the independent variable on the dependent variable.
+
+
+== Justification for statistical control ==
+Observational studies are used when controlled experiments may be unethical or impractical. For instance, if a researcher wished to study the effect of unemployment (the independent variable) on health (the dependent variable), it would be considered unethical by most institutional review boards to randomly assign some participants to have jobs and some not to. Instead, the researcher will have to create a sample where some people are employed and some are unemployed. However, there could be factors that affect both whether someone is employed and how healthy he or she is. Any observed association between the independent variable and the dependent variable could be due instead to these outside, spurious factors rather than indicating a true link between them. This can be problematic even in a true random sample. By holding extraneous variables constant, the researcher can come closer to understanding the true effect of the independent variable on the dependent variable.
+
+
+== See also ==
+Scientific control
+Omitted-variable bias
+Mixed model
+
+
+== References ==
+
+Freedman, David; Pisani, Robert; Purves, Roger (2007). Statistics. W. W. Norton & Company. ISBN 0393929728.

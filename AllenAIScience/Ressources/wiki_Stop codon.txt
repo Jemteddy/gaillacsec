@@ -1,0 +1,62 @@
+In the genetic code, a stop codon (or termination codon) is a nucleotide triplet within messenger RNA that signals a termination of translation. Proteins are based on polypeptides, which are unique sequences of amino acids. Most codons in messenger RNA (from DNA) correspond to the addition of an amino acid to a growing polypeptide chain, which may ultimately become a protein. Stop codons signal the termination of this process by binding release factors, which cause the ribosomal subunits to disassociate, releasing the amino acid chain. While start codons need nearby sequences or initiation factors to start translation, a stop codon alone is sufficient to initiate termination.
+
+
+== IntroductionEdit ==
+In the standard genetic code, there are three different stop codons:
+in RNA:
+UAG ("amber")
+UAA ("ochre")
+UGA ("opal")
+
+in DNA:
+TAG ("amber")
+TAA ("ochre")
+TGA ("opal" or "umber")
+
+The UGA codon has recently been identified as the codon coding for Selenocysteine (Sec). This amino acid is found in 25 selenoproteins where it is located in the active site of the protein. Transcription of this codon is enabled by the proximity of the SECIS element (SElenoCysteine Incorporation Sequence). The UAG codon can translate into pyrrolysine in a similar way selenocysteine is encoded.
+Distribution of stop codons within the genome of an organism is non-random and can correlate with GC-content. For example, the E. coli K-12 genome contains 2705 TAA (63%), 1257 TGA (29%), and 326 TAG (8%) stop codons (GC content 50.8%). Also the substrates for the stop codons release factor 1 or release factor 2 are strongly correlating to the abundance of stop codons. Large scale study of bacteria with a broad range of GC-contents shows that while the frequency of occurrence of TAA is negatively correlated to the GC-content and the frequency of occurrence of TGA is positively correlated to the GC-content, the frequency of occurrence of the TAG stop codon, which is often the minimally used stop codon in a genome, is not influenced by the GC-content.
+Nonsense mutations are changes in DNA sequence that introduce a premature stop codon, causing any resulting protein to be abnormally shortened. This often causes a loss of function in the protein, as critical parts of the amino acid chain are no longer created. Because of this terminology, stop codons have also been referred to as nonsense codons.
+
+
+== Amber, ochre, and opal nomenclatureEdit ==
+Stop codons were historically given many different names, as they each corresponded to a distinct class of mutants that all behaved in a similar manner. These mutants were first isolated within bacteriophages (T4 and lambda), viruses that infect the bacteria Escherichia coli. Mutations in viral genes weakened their infectious ability, sometimes creating viruses that were able to infect and grow within only certain varieties of E coli.
+amber mutations (UAG)
+were the first set of nonsense mutations to be discovered, isolated by Richard Epstein and Charles Steinberg and named after their friend Harris Bernstein (whose last name means "amber" in German).
+Viruses with amber mutations are characterized by their ability to infect only certain strains of bacteria, known as amber suppressors. These bacteria carry their own mutation that allow a recovery of function in the mutant viruses. For example, a mutation in the tRNA that recognizes the amber stop codon allows translation to "read through" the codon and produce full-length protein, thereby recovering the normal form of the protein and "suppressing" the amber mutation. Thus, amber mutants are an entire class of virus mutants that can grow in bacteria that contain amber suppressor mutations.
+ochre mutation (UAA)
+was the second stop codon mutation to be discovered. Given a color name to match the name of amber mutants, ochre mutant viruses had a similar property in that they recovered infectious ability within certain suppressor strains of bacteria. The set of ochre suppressors was distinct from amber suppressors, so ochre mutants were inferred to correspond to a different nucleotide triplet. Through a series of mutation experiments comparing these mutants with each other and other known amino acid codons, Sydney Brenner concluded that the amber and ochre mutations corresponded to the nucleotide triplets "UAG" and "UAA".
+opal mutations or umber mutations (UGA)
+the third and last stop codon in the standard genetic code was discovered soon after, corresponding to the nucleotide triplet "UGA". Nonsense mutations that created this premature stop codon were later called opal mutations or umber mutations.
+Amber suppressors are tRNA molecules that carry a mutation that suppresses an amber stopcodon. It can thus read through an amber stopcodon. The same applies for opal or ochre suppressors. It literally means they suppress an amber/ochre or opal sequence.
+
+
+== Hidden stopsEdit ==
+Hidden stops are non-stop codons that would be read as stop codons if they were frameshifted +1 or -1. These prematurely terminate translation if the corresponding frame-shift (such as due to a ribosomal RNA slip) occurs before the hidden stop. It is hypothesised that this decreases resource waste on nonfunctional proteins and the production of potential cytotoxins. Researchers at Louisiana State University propose the ambush hypothesis, that hidden stops are selected for. Codons that can form hidden stops are used in genomes more frequently compared to synonymous codons that would otherwise code for the same amino acid. Unstable rRNA in an organism correlates with a higher frequency of hidden stops. This hypothesis however could not be validated with a larger data set.
+Stop-codons and hidden stops together are collectively referred as stop-signals. Researchers at University of Memphis found that the ratios of the stop-signals on the three reading frames of a genome (referred as translation stop-signals ratio or TSSR) of genetically related bacteria, despite their great differences in gene contents, are much alike. This nearly identical Genomic-TSSR value of genetically related bacteria may suggest that bacterial genome expansion is limited by their unique stop-signals bias of that bacterial species.
+
+
+== Translational readthroughEdit ==
+Stop codon suppression or translational readthrough occurs when in translation a stop codon is interpreded as a sense codon, that is, when a (standard) amino acid is 'encoded' by the stop codon. Mutated tRNAs can be the cause of readthrough, but also certain nucleotide motifs close to the stop codon. Translational readthrough is very common in viruses and bacteria, and has also be found as a gene regulatory principle in humans.
+
+
+== Nonstop mutationsEdit ==
+
+A nonstop mutation is a point mutation that occurs within a stop codon. Nonstop mutations cause the continued translation of an mRNA strand into an untranslated region. Most polypeptides resulting from a gene with a nonstop mutation are nonfunctional due to their extreme length. Nonstop mutations differ from nonsense mutations in that they do not create a stop codon but, instead, delete one.
+Nonstop mutations have been linked with several congenital diseases including congenital adrenal hyperplasia, variable anterior segment dysgenesis, and mitochondrial neurogastrointestinal encephalomyopathy.
+
+
+== Use as a watermarkEdit ==
+When Craig Venter unveiled the first fully functioning, reproducing cell controlled by synthetic DNA he described how his team used frequent stop codons to create watermarks in RNA and DNA to help confirm the results were indeed synthetic (and not contaminated or otherwise), using it to encode authors names and website addresses.
+
+
+== Online softwareEdit ==
+A large database for stop codon usage
+
+
+== See alsoEdit ==
+Genetic code
+Start codon
+Terminator gene
+
+
+== ReferencesEdit ==

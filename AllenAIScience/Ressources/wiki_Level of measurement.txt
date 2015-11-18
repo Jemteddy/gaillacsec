@@ -1,0 +1,117 @@
+Level of measurement or scale of measure is a classification that describes the nature of information within the numbers assigned to variables. The best known classification is that developed by the psychologist Stanley Smith Stevens, who proposed four levels, or scales, of measurement: nominal, ordinal, interval, and ratio. Other classifications include those by Chrisman and by Mosteller and Tukey. This framework of distinguishing levels of measurement originated in psychology and is widely criticized by scholars in other disciplines.
+
+
+== Stevens's typology ==
+
+
+=== Overview ===
+Stevens proposed his typology in a 1946 Science article titled "On the theory of scales of measurement". In that article, Stevens claimed that all measurement in science was conducted using four different types of scales that he called "nominal," "ordinal," "interval," and "ratio," unifying both "qualitative" (which are described by his "nominal" type) and "quantitative" (to a different degree, all the rest of his scales). The concept of scale types later received the mathematical rigour that it lacked at its inception with the work of mathematical psychologists Theodore Alper (1985, 1987), Louis Narens (1981a, b), and R. Duncan Luce (1986, 1987, 2001). As Luce (1997, p. 395) wrote:
+
+S. S. Stevens (1946, 1951, 1975) claimed that what counted was having an interval or ratio scale. Subsequent research has given meaning to this assertion, but given his attempts to invoke scale type ideas it is doubtful if he understood it himself ... no measurement theorist I know accepts Stevens's broad definition of measurement ... in our view, the only sensible meaning for 'rule' is empirically testable laws about the attribute.
+
+
+=== Nominal level ===
+The nominal type differentiates between items or subjects based only on their names or (meta-)categories and other qualitative classifications they belong to; thus dichotomous data involves the construction of classifications as well as the classification of items. Discovery of an exception to a classification can be viewed as progress. Numbers may be used to represent the variables but the numbers do not have numerical value or relationship.
+Examples of these classifications include gender, nationality, ethnicity, language, genre, style, biological species, and form. In a university one could also use hall of affiliation as an example. Other concrete examples are
+in grammar, the parts of speech: noun, verb, preposition, article, pronoun, etc.
+in politics, power projection: hard power, soft power, etc.
+in biology, the taxonomic ranks below domains: Archaea, Bacteria, and Eukarya
+Nominal scales were often called qualitative scales, and measurements made on qualitative scales were called qualitative data. However, the rise of qualitative research has made this usage confusing.
+
+
+==== Mathematical operations ====
+Set membership, classification, categorical equality, and equivalence are all operations which apply to objects of the nominal type.
+
+
+==== Central tendency ====
+The mode, i.e. the most common item, is allowed as the measure of central tendency for the nominal type. On the other hand, the median, i.e. the middle-ranked item, makes no sense for the nominal type of data since ranking is meaningless for the nominal type.
+
+
+=== Ordinal scale ===
+
+The ordinal type allows for rank order (1st, 2nd, 3rd, etc.) by which data can be sorted, but still does not allow for relative degree of difference between them. Examples include, on one hand, dichotomous data with dichotomous (or dichotomized) values such as 'sick' vs. 'healthy' when measuring health, 'guilty' vs. 'innocent' when making judgments in courts, 'wrong/false' vs. 'right/true' when measuring truth value, and, on the other hand, non-dichotomous data consisting of a spectrum of values, such as 'completely agree', 'mostly agree', 'mostly disagree', 'completely disagree' when measuring opinion.
+Central tendency
+The median, i.e. middle-ranked, item is allowed as the measure of central tendency; however, the mean (or average) as the measure of central tendency is not allowed. The mode is allowed.
+In 1946, Stevens observed that psychological measurement, such as measurement of opinions, usually operates on ordinal scales; thus means and standard deviations have no validity, but they can be used to get ideas for how to improve operationalization of variables used in questionnaires. Most psychological data collected by psychometric instruments and tests, measuring cognitive and other abilities, are ordinal, although some theoreticians have argued they can be treated as interval or ratio scales. However, there is little prima facie evidence to suggest that such attributes are anything more than ordinal (Cliff, 1996; Cliff & Keats, 2003; Michell, 2008). In particular, IQ scores reflect an ordinal scale, in which all scores are meaningful for comparison only. There is no absolute zero, and a 10-point difference may carry different meanings at different points of the scale.
+
+
+=== Interval scale ===
+The interval type allows for the degree of difference between items, but not the ratio between them. Examples include temperature with the Celsius scale, which has two defined points (the freezing and boiling point of water at specific conditions) and then separated into 100 intervals, date when measured from an arbitrary epoch (such as AD), percentage such as a percentage return on a stock, and direction measured in degrees from true or magnetic north. Ratios are not allowed since 20 °C cannot be said to be "twice as hot" as 10 °C, nor can multiplication/division be carried out between any two dates directly. However, ratios of differences can be expressed; for example, one difference can be twice another. Interval type variables are sometimes also called "scaled variables", but the formal mathematical term is an affine space (in this case an affine line).
+
+
+==== Central tendency and statistical dispersion ====
+The mode, median, and arithmetic mean are allowed to measure central tendency of interval variables, while measures of statistical dispersion include range and standard deviation. Since one can only divide by differences, one cannot define measures that require some ratios, such as the coefficient of variation. More subtly, while one can define moments about the origin, only central moments are meaningful, since the choice of origin is arbitrary. One can define standardized moments, since ratios of differences are meaningful, but one cannot define the coefficient of variation, since the mean is a moment about the origin, unlike the standard deviation, which is (the square root of) a central moment.
+
+
+=== Ratio scale ===
+The ratio type takes its name from the fact that measurement is the estimation of the ratio between a magnitude of a continuous quantity and a unit magnitude of the same kind (Michell, 1997, 1999). A ratio scale possesses a meaningful (unique and non-arbitrary) zero value. Most measurement in the physical sciences and engineering is done on ratio scales. Examples include mass, length, duration, plane angle, energy and electric charge. Ratios are allowed because having a non-arbitrary zero point makes it meaningful to say, for example, that one object has "twice the length" of another (= is "twice as long"). Very informally, many ratio scales can be described as specifying "how much" of something (i.e. an amount or magnitude) or "how many" (a count). The Kelvin temperature scale is a ratio scale because it has a unique, non-arbitrary zero point called absolute zero.
+Central tendency and statistical dispersion
+The geometric mean and the harmonic mean are allowed to measure the central tendency, in addition to the mode, median, and arithmetic mean. The studentized range and the coefficient of variation are allowed to measure statistical dispersion. All statistical measures are allowed because all necessary mathematical operations are defined for the ratio scale.
+
+
+=== Debate on Stevens's typology ===
+While Stevens's typology is widely adopted, it is still being challenged by other theoreticians, particularly in the cases of the nominal and ordinal types (Michell, 1986).
+Duncan (1986) objected to the use of the word measurement in relation to the nominal type, but Stevens (1975) said of his own definition of measurement that "the assignment can be any consistent rule. The only rule not allowed would be random assignment, for randomness amounts in effect to a nonrule". However, so-called nominal measurement involves arbitrary assignment, and the "permissible transformation" is any number for any other. This is one of the points made in Lord's (1953) satirical paper On the Statistical Treatment of Football Numbers.
+The use of the mean as a measure of the central tendency for the ordinal type is still debatable among those who accept Stevens's typology. Many behavioural scientists use the mean for ordinal data, anyway. This is often justified on the basis that the ordinal type in behavioural science is in fact somewhere between the true ordinal and interval types; although the interval difference between two ordinal ranks is not constant, it is often of the same order of magnitude.
+For example, applications of measurement models in educational contexts often indicate that total scores have a fairly linear relationship with measurements across the range of an assessment. Thus, some argue that so long as the unknown interval difference between ordinal scale ranks is not too variable, interval scale statistics such as means can meaningfully be used on ordinal scale variables. Statistical analysis software such as SPSS requires the user to select the appropriate measurement class for each variable. This ensures that subsequent user errors cannot inadvertently perform meaningless analyses (for example correlation analysis with a variable on a nominal level).
+L. L. Thurstone made progress toward developing a justification for obtaining the interval type, based on the law of comparative judgment. A common application of the law is the analytic hierarchy process. Further progress was made by Georg Rasch (1960), who developed the probabilistic Rasch model that provides a theoretical basis and justification for obtaining interval-level measurements from counts of observations such as total scores on assessments.
+
+
+=== Scale types and Stevens's "operational theory of measurement" ===
+The theory of scale types is the intellectual handmaiden to Stevens's "operational theory of measurement", which was to become definitive within psychology and the behavioral sciences, despite Michell's characterization as its being quite at odds with measurement in the natural sciences (Michell, 1999). Essentially, the operational theory of measurement was a reaction to the conclusions of a committee established in 1932 by the British Association for the Advancement of Science to investigate the possibility of genuine scientific measurement in the psychological and behavioral sciences. This committee, which became known as the Ferguson committee, published a Final Report (Ferguson, et al., 1940, p. 245) in which Stevens's sone scale (Stevens & Davis, 1938) was an object of criticism:
+
+…any law purporting to express a quantitative relation between sensation intensity and stimulus intensity is not merely false but is in fact meaningless unless and until a meaning can be given to the concept of addition as applied to sensation.
+
+That is, if Stevens's sone scale genuinely measured the intensity of auditory sensations, then evidence for such sensations as being quantitative attributes needed to be produced. The evidence needed was the presence of additive structure – a concept comprehensively treated by the German mathematician Otto Hölder (Hölder, 1901). Given that the physicist and measurement theorist Norman Robert Campbell dominated the Ferguson committee's deliberations, the committee concluded that measurement in the social sciences was impossible due to the lack of concatenation operations. This conclusion was later rendered false by the discovery of the theory of conjoint measurement by Debreu (1960) and independently by Luce & Tukey (1964). However, Stevens's reaction was not to conduct experiments to test for the presence of additive structure in sensations, but instead to render the conclusions of the Ferguson committee null and void by proposing a new theory of measurement:
+
+Paraphrasing N.R. Campbell (Final Report, p.340), we may say that measurement, in the broadest sense, is defined as the assignment of numerals to objects and events according to rules (Stevens, 1946, p.677).
+
+Stevens was greatly influenced by the ideas of another Harvard academic, the Nobel laureate physicist Percy Bridgman (1927), whose doctrine of operationism Stevens used to define measurement. In Stevens's definition, for example, it is the use of a tape measure that defines length (the object of measurement) as being measurable (and so by implication quantitative). Critics of operationism object that it confuses the relations between two objects or events for properties of one of those of objects or events (Hardcastle, 1995; Michell, 1999; Moyer, 1981a,b; Rogers, 1989).
+The Canadian measurement theorist William Rozeboom (1966) was an early and trenchant critic of Stevens's theory of scale types.
+
+
+=== Same variable may be different scale type depending on context ===
+Another issue is that the same variable may be a different scale type depending on how it is measured and on the goals of the analysis. For example, hair color is usually thought of as a nominal variable, since it has no apparent ordering. However, it is possible to order colors (including hair colors) in various ways, including by hue; this is known as colorimetry. Hue is an interval level variable.
+
+
+== Chrisman's typology ==
+Nicholas R. Chrisman wrote an article, "Rethinking Levels of Measurement for Cartography", in which he introduced an expanded list of levels of measurement to account for various measurements that do not necessarily fit with the traditional notions of levels of measurement. Measurements bound to a range and repeating (like degrees in a circle, clock time, etc.), graded membership categories, and other types of measurement do not fit to Steven's original work, leading to the introduction of six new levels of measurement, for a total of ten:
+Nominal
+Graded membership
+Ordinal
+Interval
+Log-Interval
+Extensive Ratio
+Cyclical Ratio
+Derived Ratio
+Counts
+Absolute
+The extended levels of measurement are rarely used outside of academic geography.
+
+
+== Mosteller and Tukey's typology ==
+Mosteller and Tukey noted that the four levels are not exhaustive and proposed:
+Names
+Grades (e.g. freshmen, sophomores etc.)
+Counted fractions bound by 0 and 1
+Counts (non-negative integers)
+Amounts (non-negative real numbers)
+Balances (any real number)
+For example, percentages (a variation on fractions in the Mosteller-Tukey framework) do not fit well into Stevens’s framework: No transformation is fully admissible.
+
+
+== See also ==
+Cohen's kappa
+Hume's principle
+Inter-rater reliability
+Logarithmic scale
+Ramsey–Lewis method
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==

@@ -1,0 +1,94 @@
+Image stabilization (IS) is a family of techniques used to reduce blurring associated with the motion of a camera or other imaging device during exposure. Generally, it compensates for pan and tilt (angular movement, equivalent to yaw and pitch) of the imaging device, although electronic image stabilization can also be used to compensate for rotation. It is used in image-stabilized binoculars, still and video cameras, astronomical telescopes, and also smartphones, mainly the high-end. With still cameras, camera shake is particularly problematic at slow shutter speeds or with long focal length (telephoto or zoom) lenses. With video cameras, camera shake causes visible frame-to-frame jitter in the recorded video. In astronomy, the problem of lens-shake is added to by variations in the atmosphere over time, which will cause the apparent positions of objects to change.
+
+
+== Application in still photography ==
+In photography, image stabilization can often permit the use of shutter speeds 2–4.5 stops slower (exposures 4–22.5 times longer), although even slower effective speeds have been reported.
+The rule of thumb to determine the slowest shutter speed possible for hand-holding without noticeable blur due to camera shake is to take the reciprocal of the 35 mm equivalent focal length of the lens, also known as the "1/mm rule". For example, at a focal length of 125 mm on a 35 mm camera, vibration or camera shake could affect sharpness if the shutter speed was slower than 1/125 second. As a result of the 2–4.5 stops slower shutter speeds allowed by IS, an image taken at 1/125 second speed with an ordinary lens could be taken at 1/15 or 1/8 second with an IS-equipped lens and produce almost the same quality. The sharpness obtainable at a given speed can increase dramatically. When calculating the effective focal length, it is important to take into account the image format a camera uses. For example, many digital SLR cameras use an image sensor that is 2/3, 5/8, or 1/2 the size of a 35 mm film frame. This means that the 35 mm frame is 1.5, 1.6, or 2 times the size of the digital sensor. The latter values are referred to as the crop factor, field-of-view crop factor, focal-length multiplier, or format factor. On a 2x crop factor camera, for instance, a 50 mm lens produces the same field of view as a 100 mm lens used on a 35 mm film camera, and can typically be handheld at 1/100 of a second.
+However, image stabilization does not prevent motion blur caused by the movement of the subject or by extreme movements of the camera. Image stabilization is only designed for and capable of reducing blur that results from normal, minute shaking of a lens due to hand-held shooting. Some lenses and camera bodies include a secondary panning mode or a more aggressive 'active mode', both described in greater detail below under optical image stabilization.
+Image-stabilization features can also be a benefit in astrophotography, when the camera is technically—but not effectively—fixed in place. The Pentax K-5 and K-r can use their sensor-shift capability to reduce star trails in reasonable exposure times, when equipped with the O-GPS1 GPS accessory for position data. In effect, the stabilization compensates for the Earth's motion, not the camera's.
+There are two types of implementation - lens-based, or body-based stabilization. These refer to where the stabilizing system is located. Both have their advantages and disadvantages.
+
+
+== Techniques ==
+
+
+=== Optical image stabilization ===
+
+An optical image stabilizer, often abbreviated OIS, IS, or OS, is a mechanism used in a still camera or video camera that stabilizes the recorded image by varying the optical path to the sensor. This technology is implemented in the lens itself, or by moving the sensor as the final element in the optical path. The key element of all optical stabilization systems is that they stabilize the image projected on the sensor before the sensor converts the image into digital information.
+Different companies have different names for the OIS technology, for example:
+Vibration Reduction (VR) - Nikon (produced the first optical stabilized lens, a 38–105 mm f/4-7.8 zoom built into the Nikon Zoom 700VR (US: Zoom-Touch 105 VR) camera in 1994)
+Image Stabilizer (IS) - Canon (introduced the first optically 2-axis stabilized lens (the EF 75-300mm F4-5.6 IS USM) in 1995. In 2009, they introduced their first lens (the EF 100mm F2.8 Macro L) utilizing their 4-axis Hybrid IS.)
+AntiShake (AS) - Konica Minolta (Minolta introduced the first sensor-based 2-axis image stabilizer with the DiMAGE A1 in 2003)
+IBIS - In Body Image Stabilisation - Olympus
+Optical SteadyShot (OSS) - Sony (for Cyber-shot and several Alpha E-mount lenses)
+MegaOIS, PowerOIS - Panasonic and Leica
+SteadyShot (SS), Super SteadyShot (SSS), SteadyShot INSIDE (SSI) - Sony (based on Konica Minolta's AntiShake originally, Sony introduced a 2-axis full-frame variant for the DSLR-A900 in 2008 and a 5-axis stabilizer for the full-frame ILCE-7M2 in 2014)
+Optical Stabilization (OS) - Sigma
+Vibration Compensation (VC) - Tamron
+Shake Reduction (SR) - Pentax
+PureView - Nokia (produced the first cell phone optical stabilised sensor, built into the Lumia 920)
+UltraPixel - HTC (Image Stabilization is only available for the 2013 HTC One with UltraPixel. It is not available for the HTC One (M8) or HTC Butterfly S which also have UltraPixel)
+Most of high-end smartphones as of late 2014 use Optical Image Stabilization for photos and videos.
+
+
+==== Lens-based ====
+In Nikon and Canon's implementation, it works by using a floating lens element that is moved orthogonally to the optical axis of the lens using electromagnets. Vibration is detected using two piezoelectric angular velocity sensors (often called gyroscopic sensors), one to detect horizontal movement and the other to detect vertical movement. As a result, this kind of image stabilizer corrects only for pitch and yaw axis rotations, and cannot correct for rotation around the optical axis. Some lenses have a secondary mode that counteracts vertical only camera shake. This mode is useful when using a panning technique, and switching into this mode depends on the lens; sometimes it is done by using a switch on the lens, or it can be automatic.
+Mainly for using video while walking to compensate jitter, Panasonic introduced Power Hybrid O.I.S + with 5-axis correction: axis rotation, horizontal rotation, vertical rotation, horizontal and vertical.
+Some of Nikon's more recent VR-enabled lenses offer an 'Active Mode' that is intended to be used when shooting from a moving vehicle, such as a car or boat, and should correct for larger shakes than the 'Normal Mode'. However, Active Mode, when used under normal shooting conditions, can result in poorer results than the 'Normal Mode'. This is because active mode is optimized for reducing higher angular velocity movements (typically when shooting from a heavily moving platform using faster shutter speeds), where normal mode tries to reduce lower angular velocity movements over a larger amplitude and timeframe (typically body and hand movement when standing on a stationary or slowly moving platform while using slower shutter speeds).
+Most manufacturers suggest that the IS feature of a lens be turned off when the lens is mounted on a tripod as it can cause erratic results and is generally unnecessary. Many modern image stabilization lenses (notably Canon's more recent IS lenses) are able to auto-detect that they are tripod-mounted (as a result of extremely low vibration readings) and disable IS automatically to prevent this and any consequent image quality reduction. The system also draws power from the battery, so deactivating it when it is not needed will extend the time before a recharge is required.
+One of the main disadvantages about lens-based image stabilization is the higher price tag that comes with it; image stabilization has to be paid for each lens anew. Also, not every lens is available as an image-stabilized variant. This is often the case for fast primes and wide-angle lenses. While the most obvious advantage for image stabilization lies with longer focal lengths, even normal and wide-angle lenses benefit from it in low-light applications.
+Lens based stabilization also has advantages over in-body stabilization. In low-light or low-contrast situations, the autofocus system (which has no stabilized sensors) is able to work more accurately when the image coming from the lens is already stabilized. In cameras with optical viewfinders, the image seen by the photographer through the stabilized lens (as opposed to in-body stabilization) reveals more detail because of its stability, and it also makes correct framing easier. This is especially the case with longer telephoto lenses. This advantage does not occur on compact system cameras, because the sensor output to the screen or electronic viewfinder would be stabilized.
+
+
+==== Sensor-shift ====
+The sensor capturing the image can be moved in such a way as to counteract the motion of the camera, a technology often referred to as mechanical image stabilization. When the camera rotates, causing angular error, gyroscopes encode information to the actuator that moves the sensor. The sensor is moved to maintain the projection of the image onto the image plane, which is a function of the focal length of the lens being used. Modern cameras can automatically acquire focal length information from modern lenses made for that camera; in a few cases, a chip can be retrofitted to a lens allowing the focal length to be communicated. Konica Minolta used a technique called AntiShake (AS) now marketed as SteadyShot (SS) in the Sony α line and Shake Reduction (SR) in the Pentax K-series and Q series cameras, which relies on a very precise angular rate sensor to detect camera motion. Olympus introduced image stabilization with their E-510 D-SLR body, employing a system built around their Supersonic Wave Drive. Other manufacturers use DSPs to analyze the image on the fly and then move the sensor appropriately. Sensor shifting is also used in some cameras by Fujifilm, Samsung, Casio Exilim and Ricoh Caplio.
+The advantage with moving the image sensor, instead of the lens, is that the image can be stabilized even on lenses made without stabilization. This may allow the stabilization to work with many otherwise-unstabilized lenses, and reduces the weight and complexity of the lenses. Further, when sensor-based image stabilization technology improves, it requires replacing only the camera to take advantage of the improvements, which is typically far less expensive than replacing all existing lenses if relying on lens-based image stabilization. Some sensor-based image stabilization implementations are capable of correcting camera roll rotation, a motion that is easily excited by pressing the shutter button. No lens-based system can address this potential source of image blur. A by-product of available "roll" compensation is that the camera can automatically correct for tilted horizons in the optical domain, provided it is equipped with an electronic spirit level, such as the Pentax K-7/K-5 cameras.
+One of the primary disadvantages of moving the image sensor itself is that the image projected to the viewfinder is not stabilized. However, this is not an issue on cameras that use an electronic viewfinder (EVF), since the image projected on that viewfinder is taken from the image sensor itself. Similarly, the image projected to a phase-detection autofocus system, if used, is not stabilized.
+Some, but not all, camera-bodies capable of in-body stabilization can be pre-set manually to a given focal length, and their anti-shake will correct as if that focal length lens is attached, allowing older lenses and lenses from other makers to be stabilized. This isn't viable with zoom lenses, whose focal length is variable. Some adapters will communicate focal length information from the maker of one lens to the body of another maker. Some lenses that do not report their focal length can have a chip added to the lens, which will report a pre-programmed focal-length to the camera body. Sometimes, none of these techniques is viable, and image-stabilization simply cannot be used with such lenses.
+In-body image stabilization requires the lens to have a larger output image circle because the sensor is moved during exposure and thus uses a larger part of the image. Compared to lens movements in optical image stabilization systems the sensor movements are quite large, so the effectiveness is limited by the maximum range of sensor movement, where a typical modern optically stabilized lens has greater freedom. The required sensor movement (both speed and range) increase with the focal length of the lens being used, making sensor-shift technology less suited for very long telephoto lenses, especially when using slower shutter speeds because the available motion range of the sensor quickly becomes insufficient to cope with the increasing image displacement.
+
+
+=== Digital image stabilization ===
+
+Real-time digital image stabilization—also called electronic image stabilization (EIS) -- is used in some video cameras. This technique shifts the electronic image from frame to frame of video, enough to counteract the motion. It uses pixels outside the border of the visible frame to provide a buffer for the motion. This technique reduces distracting vibrations from videos by smoothing the transition from one frame to another. This technique does not affect the noise level of the image, except in the extreme borders when the image is extrapolated. It cannot do anything about existing motion blur, which may result in an image seemingly losing focus as motion is compensated.
+Some still camera manufacturers marketed their cameras as having "digital image stabilization", when they really only had a high-sensitivity mode giving a short exposure time, resulting in pictures with less motion blur, but more noise. It will reduce blur when photographing something that is moving, as well as from camera shake.
+Others are now also using digital signal processing (DSP) to reduce blur in stills, for example by sub-dividing the exposure into several shorter exposures in rapid succession, discarding blurred ones, re-aligning the sharpest sub-exposures and adding them back together again.  
+
+
+=== Stabilization filters ===
+Many video non-linear editing systems use stabilization filters that can correct a non-stabilized image by tracking the movement of pixels in the image and correcting the image by moving the frame. The process is similar to digital image stabilization but since there is no larger image to work with the filter either crops the image down to hide the motion of the frame or attempts to recreate the lost image at the edge through spatial or temporal extrapolation.
+Online services, including Google's YouTube, are also beginning to provide video stabilization as a post-processing step after content is uploaded. This has the disadvantage of not having access to the realtime gyroscopic data, but the advantage of more computing power and the ability to analyze images both before and after a particular frame.
+
+
+=== Orthogonal transfer CCD ===
+Used in astronomy, an orthogonal transfer CCD (OTCCD) actually shifts the image within the CCD itself while the image is being captured, based on analysis of the apparent motion of bright stars. This is a rare example of digital stabilization for still pictures. An example of this is in the upcoming gigapixel telescope Pan-STARRS being constructed in Hawaii.
+
+
+=== Stabilizing the camera body ===
+
+A technique that requires no additional capabilities of any camera body–lens combination consists of stabilizing the entire camera body externally rather than using an internal method. This is achieved by attaching a gyroscope to the camera body, usually utilizing the camera's built-in tripod mount. This allows the external gyro to stabilize the camera, and is typically employed in photography from a moving vehicle, when a lens or camera offering another type of image stabilization is not available.
+This has been integrated into camcorders by allowing the sensor and lens assembly to move together within the camera housing. 
+Another technique for stabilizing a video or motion picture camera body is the Steadicam system, which isolates the camera from the operator's body using a harness and a camera boom with a counterweight. 
+
+
+=== Camera stabilizer ===
+
+A camera stabilizer is any device or object that is used to externally stabilize the camera. This could be a Steadicam, a tripod, the camera operator's hand, or anything in-between.
+In close-up photography, using rotation sensors to compensate for changes in camera-pointing-direction becomes insufficient. Moving, rather than tilting, the camera up/down or left/right by a fraction of a millimeter becomes noticeable if you are trying to resolve millimeter-size details on the object. Linear accelerometers in the camera, coupled with information such as the lens focal length and focused distance, can feed a secondary correction into the drive that moves the sensor or optics, to compensate for linear as well as rotational shake. 
+
+
+== In biological eyes ==
+
+In many animals, including human beings, the inner ear functions as the biological analogue of an accelerometer in camera image stabilization systems, to stabilize the image by moving the eyes. When a rotation of the head is detected, an inhibitory signal is sent to the extraocular muscles on one side and an excitatory signal to the muscles on the other side. The result is a compensatory movement of the eyes. Typically eye movements lag the head movements by less than 10 ms.
+
+
+== See also ==
+Adaptive optics
+Heligimbal
+Shaky camera
+Hyperlapse
+Deblurring
+Motion compensation
+
+
+== References ==

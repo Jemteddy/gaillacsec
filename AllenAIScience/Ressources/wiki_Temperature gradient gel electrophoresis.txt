@@ -1,0 +1,51 @@
+Temperature Gradient Gel Electrophoresis (TGGE) and Denaturing Gradient Gel Electrophoresis (DGGE) are forms of electrophoresis which use either a temperature or chemical gradient to denature the sample as it moves across an acrylamide gel. TGGE and DGGE can be applied to nucleic acids such as DNA and RNA, and (less commonly) proteins. TGGE relies on temperature dependent changes in structure to separate nucleic acids. DGGE was the original technique, and TGGE a refinement of it.
+
+
+== History ==
+DGGE was invented by Leonard Lerman, while he was a professor at SUNY Albany.
+The same equipment can be used for analysis of protein, which was first done by Thomas E. Creighton of the MRC Laboratory of Molecular Biology, Cambridge, England. Similar looking patterns are produced by proteins and nucleic acids, but the fundamental principles are quite different.
+TGGE was first described by Thatcher and Hodson  and by Roger Wartell of Georgia Tech. Extensive work was done by the group of Riesner in Germany. Commercial equipment for DGGE is available from Bio-Rad, INGENY and CBS Scientific; a system for TGGE is available from Biometra.
+
+
+== Temperature gradient gel electrophoresis ==
+DNA has a negative charge and so will move to the positive electrode in an electric field. A gel is a molecular mesh, with holes roughly the same size as the diameter of the DNA string. When an electric field is applied, the DNA will begin to move through the gel, at a speed roughly proportional to the length of the DNA molecule — this is the basis for size dependent separation in standard electrophoresis.
+However, in TGGE, there is also a temperature gradient across the gel. At room temperature, the DNA will exist stably in a double-stranded form. As the temperature is increased, the strands begin to separate (melting), and the speed at which they move through the gel decreases drastically. Critically, the temperature at which melting occurs depends on the sequence (GC basepairs are more stable than AT due to stacking interactions, not, as commonly thought, due to the difference in hydrogen bonds (there are three hydrogen bonds between a cytosine and guanine base pair, but only two between adenine and thymine)), so TGGE provides a "sequence dependent, size independent method" for separating DNA molecules. TGGE not only separates molecules, but gives additional information about melting behavior and stability (Biometra, 2000).
+
+
+== Denaturing gradient gel electrophoresis ==
+Denaturing gradient gel electrophoresis (DGGE) works by applying a small sample of DNA (or RNA) to an electrophoresis gel that contains a denaturing agent. Researchers have found that certain denaturing gels are capable of inducing DNA to melt at various stages. As a result of this melting, the DNA spreads through the gel and can be analyzed for single components, even those as small as 200-700 base pairs.
+What is unique about the DGGE technique is that as the DNA is subjected to increasingly extreme denaturing conditions, the melted strands fragment completely into single strands. The process of denaturation on a denaturing gel is very sharp: "Rather than partially melting in a continuous zipper-like manner, most fragments melt in a step-wise process. Discrete portions or domains of the fragment suddenly become single-stranded within a very narrow range of denaturing conditions" (Helms, 1990). This makes it possible to discern differences in DNA sequences or mutations of various genes: sequence differences in fragments of the same length often cause them to partially melt at different positions in the gradient and therefore "stop" at different positions in the gel. By comparing the melting behavior of the polymorphic DNA fragments side-by side on denaturing gradient gels, it is possible to detect fragments that have mutations in the first melting domain (Helms, 1990). Placing two samples side-by-side on the gel and allowing them to denature together, researchers can easily see even the smallest differences in two samples or fragments of DNA.
+There are a number of disadvantages to this technique: "Chemical gradients such as those used in DGGE are not as reproducible, are difficult to establish and often do not completely resolve heteroduplexes" (Westburg, 2001). These problems are addressed by TGGE, which uses a temperature, rather than chemical, gradient to denature the sample.
+
+
+== Method of TGGE ==
+To separate nucleic acids by TGGE, the following steps must be performed:
+Preparing and pouring the gels - Because a buffered system must be chosen, it is important that the system remain stable within the context of increasing temperature. Thus, urea is typically utilized for gel preparation; however, researchers need to be aware that the amount of urea used will have an impact on the overall temperature required to separate the DNA (Biometra, 2000).
+Electrophoresis - The gel is loaded, the sample is placed on the gel according to the type of gel that is being run—i.e. parallel or perpendicular—the voltage is adjusted and the sample can be left to run (Biometra, 2000). Depending on which type of TGGE is to be run, either perpendicular or parallel, varying amounts of sample need to be prepared and loaded. A larger amount of one sample is used with perpendicular, while a smaller amount of many samples are used with parallel TGGE.
+Staining – Once the gel has been run, the gel must be stained to visualize the results. While there are a number of stains that can be used for this purpose, silver staining has proven to be the most effective tool (Biometra, 2000).
+Elution of DNA – the DNA can be eluted from the silver stain for further analysis through PCR amplification (Biometra, 2000).
+
+
+== Applications ==
+TGGE and DGGE are broadly useful in biomedical and ecological research; selected applications are described below.
+
+
+=== Mutations in mtDNA ===
+According to a recent investigation by Wong, Liang, Kwon, Bai, Alper and Gropman, TGGE can be utilized to examine the mitochondrial DNA of an individual. According to these authors, TGGE was utilized to determine two novel mutations in the mitochondrial genome: "A 21-year-old woman who has been suspected of mitochondrial cytopathy, but negative for common mitochondrial DNA (mtDNA) point mutations and deletions, was screened for unknown mutations in the entire mitochondrial genome by temperature gradient gel electrophoresis" (Wong et al., 2002).
+
+
+=== p53 mutation in pancreatic juices ===
+Lohr and coworkers (2001) report that in a comprehensive study of pancreatic juices of individuals without pancreatic carcinoma, p53 mutations could be found in the pancreatic juices of a small percentage of participants. Because mutations of p53 has been extensively found in pancreatic carcinomas, the researchers for this investigation were attempting to determine if the mutation itself can be linked to the development of pancreatic cancer. While Lohr was able to find p53 mutations via TGGE in a few subjects, none subsequently developed pancreatic carcinoma. Thus, the researchers conclude by noting that the p53 mutation may not be the sole indicator of pancreatic carcinoma oncogenesis.
+
+
+=== Microbial ecology ===
+DGGE of small ribosomal subunit coding genes was first described by Gerard Muyzer, while he was Post-doc at Leiden University, and has become a widely used technique in microbial ecology. PCR amplification of DNA extracted from mixed microbial communities with PCR primers specific for 16S rRNA gene fragments of Bacteria and Archaea, and 18S rRNA gene fragments of Eukaryotes results in mixtures of PCR products. Because these amplicons all have the same length, they cannot be separated from each other by agarose gel electrophoresis. However, sequence variations (i.e. differences in GC content and distribution) between different microbial rRNAs result in different denaturation properties of these DNA molecules. Hence, DGGE banding patterns can be used to visualize variations in microbial genetic diversity and provide a rough estimate of the richness of abundance of predominant microbial community members. This method is often referred to as community fingerprinting. Recently, several studies have shown that DGGE of functional genes (e.g. genes involved in sulfur reduction, nitrogen fixation, and ammonium oxidation) can provide information about microbial function and phylogeny simultaneously. For instance, Tabatabaei et al. (2009) applied DGGE and managed to reveal the microbial pattern during the anaerobic fermentation of palm oil mill effluent (POME) for the first time.
+
+
+== References ==
+
+Charles J. Sailey, M.D., M.S. Parts taken from a summary paper entitled "TGGE." 2003. The University of the Sciences in Philadelphia.
+
+
+== External links ==
+BioNumerics One universal bioinformatics solution to store and analyze all your biological data, including microbial community fingerprints.

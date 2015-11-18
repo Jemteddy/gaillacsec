@@ -1,0 +1,58 @@
+A very small aperture terminal (VSAT) is a two-way satellite ground station or a stabilized maritime VSAT antenna with a dish antenna that is smaller than 3 meters. The majority of VSAT antennas range from 75 cm to 1.2 m. Data rates range from 4 kbit/s up to 4 Mbit/s; some upgraded modules can even reach a max downlink of up to 16 Mbit/s. VSATs access satellites in geosynchronous orbit to relay data from small remote earth stations (terminals) to other terminals (in mesh topology) or master earth station "hubs" (in star topology).
+VSATs are used to transmit narrowband data (e.g., point-of-sale transactions using credit cards, polling or RFID data, or SCADA), or broadband data (for the provision of satellite Internet access to remote locations, VoIP or video). VSATs are also used for transportable, on-the-move (utilising phased array antennas) or mobile maritime communications.
+
+
+== History ==
+The concept of the geostationary orbit was originated by Russian theorist Konstantin Tsiolkovsky, who wrote articles on space travel around the beginning of the 20th century. In the 1920s, Hermann Oberth and Herman Potocnik, also known as Herman Noordung, described an orbit at an altitude of 35,900 kilometres (22,300 mi) whose period exactly matched the Earth's rotational period, making it appear to hover over a fixed point on the Earth's equator.
+Arthur C. Clarke's October 1945 Wireless World article (called "Extra-Terrestrial Relays: Can Rocket Stations Give World-wide Radio Coverage?") discussed the necessary orbital characteristics for a geostationary orbit and the frequencies and power needed for communication.
+Live satellite communication was developed in the 1960s by NASA, which called it Syncom 1-3. It transmitted live coverage of the 1964 Olympics in Japan to viewers in the United States and Europe. On April 6, 1965, the first commercial satellite was launched into space, Intelsat I, nicknamed Early Bird.
+The first commercial VSATs were C band (6 GHz) receive-only systems by Equatorial Communications using spread spectrum technology. More than 30,000 60 cm antenna systems were sold in the early 1980s. Equatorial later developed a C band (4/6 GHz) two-way system using 1 m x 0.5 m antennas and sold about 10,000 units in 1984–85.
+In 1985, Schlumberger Oilfield Research co-developed the world's first Ku band (12–14 GHz) VSATs with Hughes Communications to provide network connectivity for oil field drilling and exploration units. Hughes Communications went on to develop Ku band VSATs for enterprise customers such as WalMart, Holiday Inn, Chrysler, and General Motors. These enterprise terminals made up the vast majority of sites for the next 20 years for two-way data or telephony applications. A large VSAT network, with more than 12,000 sites, was deployed by Spacenet and MCI for the U.S. Postal Service in the 1980s. Today, the largest VSAT Ku band network containing over 100,000 VSATs was deployed by and is operated by Hughes Communications for lottery applications.
+In 2007, Hughes Communications started deploying Ka band VSAT sites for consumers under its HughesNet brand on the Spaceway 3 satellite and later in 2012 on its EchoStar XXVII/Jupiter 1 satellite. By September 2014, Hughes became the first Satellite Internet Provider to surpass one million active terminals.
+
+
+== Configurations ==
+Most VSAT networks are configured in one of these topologies:
+A star topology, using a central uplink site, such as a network operations center (NOC), to transport data back and forth to each VSAT via satellite,
+A mesh topology, where each VSAT relays data via satellite to another terminal by acting as a hub, minimizing the need for a centralized uplink site,
+A combination of both star and mesh topologies. Some VSAT networks are configured by having several centralized uplink sites (and VSAT stemming from it) connected in a multi-star topology with each star (and each terminal in each star) connected to each other in a mesh topology. Others configured in only a single-star topology sometimes will have each terminal connected to each other as well, resulting in each terminal acting as a central hub. These configurations are utilized to minimize the overall cost of the network, and to alleviate the amount of data that has to be relayed through a central uplink site (or sites) of a star or multi-star network.
+
+
+== Future applications ==
+Advances in technology have dramatically improved the price–performance ratio of fixed satellite service (FSS) over the past five years. New VSAT systems are coming online using Ka band technology that promise higher data rates for lower costs.
+FSS systems currently in orbit have a huge capacity with a relatively low price structure. FSS systems provide various applications for subscribers, including: telephony, fax, television, high-speed data communication services, Internet access, satellite news gathering (SNG), Digital Audio Broadcasting (DAB) and others. These systems provide high-quality service because they create efficient communication systems for both residential and business users.
+
+
+== Constituent parts of a VSAT configuration ==
+Antenna
+Block upconverter (BUC)
+Low-noise block downconverter (LNB)
+Orthomode transducer (OMT)
+Interfacility link cable (IFL)
+Indoor unit (IDU)
+All the outdoor parts on the dish are collectively called the ODU (Outdoor Unit), i.e., OMT to split signal between BUC and LNB. The IDU is effectively a modem, usually with ethernet port and 2 x F-connectors for the coax to BUC (Transmit) and from LNB (Receive). The Astra2Connect has an all-in-one OMT/BUC/LNA that looks like a Quad LNB in shape and size which mounts on a regular TV satellite mount. As a consequence it is only 500 mW compared with the normal 2W, thus is poorer in rain. Skylogic's Tooway system also uses an integrated OMT/BUC/LNB assembly called a transmit and receive integrated assembly (TRIA), which is 3W.
+
+
+== Maritime VSAT ==
+Maritime VSAT is the use of satellite communication through a VSAT terminal on a ship at sea. Since a ship at sea moves with the water, the antenna needs to be stabilized with reference to the horizon and true north. The antenna is constantly pointing at the satellite it uses to transmit and receive signals.
+
+
+=== Technology ===
+Initially, the use of VSAT antennas at sea was for transmission of television signals. One of the first companies to manufacture stabilized VSAT antennas was SeaTel of Concord, California, which launched its first stabilized antenna in 1978. SeaTel dominates the supply of two-way VSAT stabilised antenna systems to the marine industry with almost 72% of the market in 2007 compared to Orbit’s 17.6%. Initially, maritime VSAT was using single channel per carrier technology, which suited large-volume users like oil drilling rigs and oil platforms and large fleets of ships from one shipowner sailing within one or few satellite footprints. This changed when the company iDirect launched its IP-based time division multiple access technology that dynamically allocated bandwidth to each ship for shared bandwidth, lowering the entry-level cost for getting maritime VSAT installed, which turned out to be of key importance to small to mid-sized fleets, and thus to the market acceptance of VSAT.
+
+
+=== Market ===
+According to the Maritime VSAT report issued by the Comsys Group, the market for stabilised maritime VSAT services (not including oil and gas rigs) reached more than $400 million in 2007. In 2010, COMSYS released its "2nd Maritime VSAT Report", where the market estimate had increased to $590 million in 2009 with predictions for 2010 at $850 million. The estimated size of the market in terms of vessels eligible to get VSAT was in this report set to in excess of 42.000 with just over 34.000 to go. The major companies market share in terms of number of vessels in service were in 2009 (2007 in parenthesis) according to these reports: Vizada: 17,6% (26.0%), Ship Equip: 11.0% (10.7%), Cap Rock 2.8% (2.9%), MTN 7.5% (6.4%), Stratos - % (3.6%), KVH 5.4% (- %) Elektrikom 4.9% (3.2%), Intelsat 3.4% (- %), Eutelsat 3.1%, NSSL 3.1%, Radio Holland 3.0%, Telemar 3.0%, DTS 2.6% and others accounted for 32.6% (27.7%). Many of the major providers have branded their maritime VSAT offerings such that Vizada offers its service through the Marlink division and the SeaLink and WaveCall products, OmniAccess, through their BroadBEAM products and Ship Equip calls its offering Sevsat.
+
+
+== Training ==
+Modern VSAT systems are a prime example of convergence, and hence require skills from both the RF and IP domains. VSAT-specific training includes:
+ITC Global VSAT Career Certifications
+Global VSAT Forum VSAT Installer Certification
+Global VSAT provider
+
+
+== References ==
+
+
+== External links ==

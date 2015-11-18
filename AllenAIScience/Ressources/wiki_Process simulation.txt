@@ -1,0 +1,52 @@
+Process simulation is used for the design, development, analysis, and optimization of technical processes such as: chemical plants, chemical processes, environmental systems, power stations, complex manufacturing operations, biological processes, and similar technical functions.
+
+
+== Main principle ==
+
+Process simulation is a model-based representation of chemical, physical, biological, and other technical processes and unit operations in software. Basic prerequisites are a thorough knowledge of chemical and physical properties of pure components and mixtures, of reactions, and of mathematical models which, in combination, allow the calculation of a process in computers.
+Process simulation software describes processes in flow diagrams where unit operations are positioned and connected by product or educt streams. The software has to solve the mass and energy balance to find a stable operating point. The goal of a process simulation is to find optimal conditions for an examined process. This is essentially an optimization problem which has to be solved in an iterative process.
+Process simulation always use models which introduce approximations and assumptions but allow the description of a property over a wide range of temperatures and pressures which might not be covered by real data. Models also allow interpolation and extrapolation - within certain limits - and enable the search for conditions outside the range of known properties.
+
+
+== Modelling ==
+The development of models for a better representation of real processes is the core of the further development of the simulation software. Model development is done on the chemical engineering side but also in control engineering and for the improvement of mathematical simulation techniques. Process simulation is therefore one of the few fields where scientists from chemistry, physics, computer science, mathematics, and several engineering fields work together.
+
+A lot of efforts are made to develop new and improved models for the calculation of properties. This includes for example the description of
+thermophysical properties like vapor pressures, viscosities, caloric data, etc. of pure components and mixtures
+properties of different apparatuses like reactors, distillation columns, pumps, etc.
+chemical reactions and kinetics
+environmental and safety-related data
+Two main different types of models can be distinguished:
+Rather simple equations and correlations where parameters are fitted to experimental data.
+Predictive methods where properties are estimated.
+The equations and correlations are normally preferred because they describe the property (almost) exactly. To obtain reliable parameters it is necessary to have experimental data which are usually obtained from factual data banks or, if no data are publicly available, from measurements.
+Using predictive methods is much cheaper than experimental work and also than data from data banks. Despite this big advantage predicted properties are normally only used in early steps of the process development to find first approximate solutions and to exclude wrong pathways because these estimation methods normally introduce higher errors than correlations obtained from real data.
+Process simulation also encouraged the further development of mathematical models in the fields of numerics and the solving of complex problems.
+
+
+== History ==
+The history of process simulation is strongly related to the development of the computer science and of computer hardware and programming languages. Early working simple implementations of partial aspects of chemical processes were introduced in the 1970s when suitable hardware and software (here mainly the programming languages FORTRAN and C) became available. The modelling of chemical properties began much earlier, notably the cubic equation of states and the Antoine equation were precursory developments of the 19th century.
+
+
+== Steady state and dynamic process simulation ==
+Initially process simulation was used to simulate steady state processes. Steady-state models perform a mass and energy balance of a stationary process (a process in an equilibrium state) it does not depend on time.
+Dynamic simulation is an extension of steady-state process simulation whereby time-dependence is built into the models via derivative terms i.e. accumulation of mass and energy. The advent of dynamic simulation means that the time-dependent description, prediction and control of real processes in real time has become possible. This includes the description of starting up and shutting down a plant, changes of conditions during a reaction, holdups, thermal changes and more.
+Dynamic simulations require increased calculation time and are mathematically more complex than a steady state simulation. It can be seen as a multiply repeated steady state simulation (based on a fixed time step) with constantly changing parameters.
+Dynamic simulation can be used in both an online and offline fashion. The online case being model predictive control, where the real-time simulation results are used to predict the changes that would occur for a control input change, and the control parameters are optimised based on the results. Offline process simulation can be used in the design, troubleshooting and optimisation of process plant as well as the conduction of case studies to assess the impacts of process modifications. Dynamic simulation is also used for operator training.
+
+
+== See also ==
+Advanced Simulation Library
+Computer simulation
+List of chemical process simulators
+Software Process simulation
+
+
+== References ==
+^ Rhodes C.L., “The Process Simulation Revolution: Thermophysical Property Needs and Concerns”, J.Chem.Eng.Data, 41, 947-950, 1996
+^ Gani R., Pistikopoulos E.N., “Property Modelling and Simulation for Product and Process Design″, Fluid Phase Equilib., 194-197, 43-59, 2002
+^ Marsh K., Satyro M.A., “Integration of Databases and their Impact on Process Simulation and Design”, Conference, Lake Tahoe, USA, 1994, 1-14, 1994
+^ Wadsley M.W., “Thermochemical and Thermophysical Property Databases for Computational Chemical Process Simulation”, Conference, Korea, Seoul, August 30 - September 2, 1998, 253-256, 1998
+^ Saeger R.B., Bishnoi P.R., “A Modified 'Inside-Out' Algorithm for Simulation of Multistage Multicomponent Separation Processes Using the UNIFAC Group-Contribution Method”, Can.J.Chem.Eng., 64, 759-767, 1986
+^ Mallya J.U., Zitney S.E., Choudhary S., Stadtherr M.A., “Parallel Frontal Solver for Large-Scale Process Simulation and Optimization″, AIChE J., 43(4), 1032-1040, 1997
+^ "ASL: Physical Vapor Deposition Simulation".

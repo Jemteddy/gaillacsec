@@ -1,0 +1,118 @@
+An I-beam, also known as H-beam, W-beam (for "wide flange"), Universal Beam (UB), Rolled Steel Joist (RSJ), or double-T (especially in Polish, Bulgarian, Spanish, Italian and German), is a beam with an I- or H-shaped cross-section. The horizontal elements of the "I" are known as flanges, while the vertical element is termed the "web". I-beams are usually made of structural steel and are used in construction and civil engineering.
+The web resists shear forces, while the flanges resist most of the bending moment experienced by the beam. Beam theory shows that the I-shaped section is a very efficient form for carrying both bending and shear loads in the plane of the web. On the other hand, the cross-section has a reduced capacity in the transverse direction, and is also inefficient in carrying torsion, for which hollow structural sections are often preferred.
+
+
+== HistoryEdit ==
+The method of producing an I-beam, as rolled from a single piece of steel, was patented by Alphonse Halbou of the company Forges de la Providence in 1849.
+Bethlehem Steel was a leading supplier of rolled structural steel of various cross-sections in American bridge and skyscraper work of the mid-twentieth century. Today, rolled cross-sections have been partially displaced in such work by fabricated cross-sections.
+
+
+== OverviewEdit ==
+
+There are two standard I-beam forms:
+Rolled I-beam, formed by hot rolling, cold rolling or extrusion (depending on material).
+Plate girder, formed by welding (or occasionally bolting or riveting) plates.
+I-beams are commonly made of structural steel but may also be formed from aluminium or other materials. A common type of I-beam is the rolled steel joist (RSJ)—sometimes incorrectly rendered as reinforced steel joist. British and European standards also specify Universal Beams (UBs) and Universal Columns (UCs). These sections have parallel flanges, as opposed to the varying thickness of RSJ flanges which are seldom now rolled in the UK. Parallel flanges are easier to connect to and do away with the need for tapering washers. UCs have equal or near-equal width and depth and are more suited to being oriented vertically to carry axial load such as columns in multi-storey construction, while UBs are significantly deeper than they are wide are more suited to carrying bending load such as beam elements in floors.
+I-joists—I-beams engineered from wood with fiberboard and/or laminated veneer lumber—are also becoming increasingly popular in construction, especially residential, as they are both lighter and less prone to warping than solid wooden joists. However there has been some concern as to their rapid loss of strength in a fire if unprotected.
+
+
+== DesignEdit ==
+
+I-beams are widely used in the construction industry and are available in a variety of standard sizes. Tables are available to allow easy selection of a suitable steel I-beam size for a given applied load. I-beams may be used both as beams and as columns.
+I-beams may be used both on their own, or acting compositely with another material, typically concrete. Design may be governed by any of the following criteria:
+deflection: the stiffness of the I-beam will be chosen to minimize deformation
+vibration: the stiffness and mass are chosen to prevent unacceptable vibrations, particularly in settings sensitive to vibrations, such as offices and libraries
+bending failure by yielding: where the stress in the cross section exceeds the yield stress
+bending failure by lateral torsional buckling: where a flange in compression tends to buckle sideways or the entire cross-section buckles torsionally
+bending failure by local buckling: where the flange or web is so slender as to buckle locally
+local yield: caused by concentrated loads, such as at the beam's point of support
+shear failure: where the web fails. Slender webs will fail by buckling, rippling in a phenomenon termed tension field action, but shear failure is also resisted by the stiffness of the flanges
+buckling or yielding of components: for example, of stiffeners used to provide stability to the I-beam's web.
+
+
+=== Design for bendingEdit ===
+
+A beam under bending sees high stresses along the axial fibers that are farthest from the neutral axis. To prevent failure, most of the material in the beam must be located in these regions. Comparatively little material is needed in the area close to the neutral axis. This observation is the basis of the I-beam cross-section; the neutral axis runs along the center of the web which can be relatively thin and most of the material can be concentrated in the flanges.
+The ideal beam is the one with the least cross-sectional area (and hence requiring the least material) needed to achieve a given section modulus. Since the section modulus depends on the value of the moment of inertia, an efficient beam must have most of its material located as far from the neutral axis as possible. The farther a given amount of material is from the neutral axis, the larger is the section modulus and hence a larger bending moment can be resisted.
+When designing a symmetric I-beam to resist stresses due to bending the usual starting point is the required section modulus. If the allowable stress is  and the maximum expected bending moment is , then the required section modulus is given by
+
+where  is the moment of inertia of the beam cross-section and  is the distance of the top of the beam from the neutral axis (see beam theory for more details).
+For a beam of cross-sectional area  and height , the ideal cross-section would have half the area at a distance  above the cross-section and the other half at a distance  below the cross-section For this cross-section
+
+However, these ideal conditions can never be achieved because material is needed in the web for physical reasons, including to resist buckling. For wide-flange beams, the section modulus is approximately
+
+which is superior to that achieved by rectangular beams and circular beams.
+
+
+=== IssuesEdit ===
+Though I-beams are excellent for unidirectional bending in a plane parallel to the web, they do not perform as well in bidirectional bending. These beams also show little resistance to twisting and undergo sectional warping under torsional loading. For torsion dominated problems, box beams and other types of stiff sections are used in preference to the I-beam.
+
+
+== Wide-flange steel materials and rolling processes (U.S.)Edit ==
+
+In the United States, the most commonly mentioned I-beam is the wide-flange (W) shape. These beams have flanges in which the planes are nearly parallel. Other I-beams include American Standard (designated S) shapes, in which flange surfaces are not parallel, and H-piles (designated HP), which are typically used as pile foundations. Wide-flange shapes are available in grade ASTM A992, which has generally replaced the older ASTM grades A572 and A36. Ranges of yield strength:
+A36: 36,000 psi (250 MPa)
+A572: 42,000–60,000 psi (290–410 MPa), but 50,000 psi (340 MPa) is the most common
+A588: Similar to A572
+A992: 50,000–65,000 psi (340–450 MPa)
+Like most steel products, I-beams often contain some recycled content.
+The American Institute of Steel Construction (AISC) publishes the Steel Construction Manual for designing structures of various shapes. It documents the common approaches, Allowable Stress Design (ASD) and Load and Resistance Factor Design (LRFD), (starting with 13th ed.) to create such designs.
+
+
+== StandardsEdit ==
+The following standards define the shape and tolerances of I-beam steel sections:
+
+
+=== EuronormsEdit ===
+EN 10024, Hot rolled taper flange I sections - Tolerances on shape and dimensions.
+EN 10034, Structural steel I and H sections - Tolerances on shape and dimensions.
+EN 10162, Cold rolled steel sections - Technical delivery conditions - Dimensional and cross-sectional tolerances
+
+
+=== OtherEdit ===
+DIN 1025-5
+ASTM A6, American Standard Beams
+BS 4-1
+IS 808 - Dimensions hot rolled steel beam, column, channel and angle sections
+
+
+== Designation and terminologyEdit ==
+In the United States, steel I-beams are commonly specified using the depth and weight of the beam. For example, a "W10x22" beam is approximately 10 inches (25 cm) in depth (nominal height of the I-beam from the outer face of one flange to the outer face of the other flange) and weighs 22 lb/ft (33 kg/m). It should be noted that wide flange section often vary from their nominal depth. In the case of the W14 series, they may be as deep as 22.84 inches (58.0 cm).
+In Canada, steel I-beams are now commonly specified using the depth and weight of the beam in metric terms. For example, a "W250x33" beam is approximately 250 millimetres (9.8 in) in depth (height of the I-beam from the outer face of one flange to the outer face of the other flange) and weighs approximately 33 kg/m (22 lb/ft). I-beams are still available in U.S. sizes from many Canadian manufacturers.
+In India I-beams are designated as ISMB, ISJB, ISLB, ISWB. ISMB: Indian Standard Medium Weight Beam, ISJB: Indian Standard Junior Beams, ISLB: Indian Standard Light Weight Beams, and ISWB: Indian Standard Wide Flange Beams. Beams are designated as per respective abbreviated reference followed by the depth of section, such as for example "ISMB 450", where 450 is the depth of section in millimetres (mm). The dimensions of these beams are classified as per IS:808 (as per BIS).
+In the United Kingdom, these steel sections are commonly specified with a code consisting of the major dimension (usually the depth)-x-the minor dimension-x-the mass per metre-ending with the section type, all measurements being metric. Therefore a 152x152x23UC would be a column section (UC = universal column) of approximately 152 millimetres (6.0 in) depth 152 mm width and weighing 23 kilograms per metre (46 lb/yd) of length.
+In Australia, these steel sections are commonly referred to as Universal Beams (UB) or Columns (UC). The designation for each is given as the height of the beam, the type (beam or column) and then the unit metre rate (e.g., a 460UB67 is a 460 millimetres (18.1 in) deep universal beam that weighs 67 kilograms per metre (135 lb/yd)).
+
+
+=== Indian standard beams ISMBEdit ===
+
+
+=== European wide flange beams HEA and HEBEdit ===
+
+
+== Cellular beamsEdit ==
+Cellular beams are the modern version of the traditional "castellated" beam which results in a beam approximately 40–60% deeper than its parent section. The exact finished depth, cell diameter and cell spacing are flexible. A cellular beam is up to 1.5 times stronger than its parent section and is therefore utilized to create efficient large span constructions.
+
+
+== See alsoEdit ==
+DIN 1025, a DIN standard which defines the dimensions, masses and sectional properties of a set of I-beams
+I-joist
+Open web steel joist
+Reinforced concrete
+T-beam
+Weld access hole
+Steel design
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+M. F. Ashby, 2005, Materials Selection in Mechanical Design, Elsevier.
+
+
+== External linksEdit ==
+Canadian Institute of Steel Construction website
+American Institute of Steel Construction website
+Wood I-joists
+British Constructional Steelwork Association website

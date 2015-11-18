@@ -1,0 +1,57 @@
+A phase response curve (PRC) illustrates the transient change in the cycle period of an oscillation induced by a perturbation as a function of the phase at which it is received. PRCs are used in various fields; examples of biological oscillations are the heartbeat, circadian rhythms, and the regular, repetitive firing observed in some neurons in the absence of noise.
+
+
+== PRCs in circadian rhythms ==
+
+In circadian rhythm research, a PRC illustrates the relationship between a treatment's time of administration and the treatment's effect on a circadian rhythm. Normally, the body's various physiological rhythms will be synchronized within an individual organism (human or animal). The sleep–wake cycle is the most familiar of these rhythms; for humans, a treatment designed to affect circadian rhythms will most often be intended to adjust sleep timing, by either delaying it to later in the day (night), or advancing it. Extreme morning people may want to delay their sleep timing; extreme evening chronotypes may wish to advance it.
+A PRC is a graph showing, by convention, time of the subject's endogenous day along the x-axis and the amount of the phase shift (in hours) along the y-axis. The curve has one peak and one nadir in each 24 hour cycle. Relative circadian time is plotted vs. phase shift magnitude.
+The two common treatments used to shift the timing of sleep are light therapy, directed at the eyes, and administration of the hormone melatonin, usually taken orally. Either or both can be used daily. Each of these treatments has its own PRC which will vary according to the species being studied; its shape may also vary individually, just slightly. The magnitude is dose-dependent. The discussions below are restricted to the human PRCs for the chronobiotics light and melatonin.
+
+
+=== Light PRC ===
+
+Starting about two hours before an individual's regular bedtime, exposure of the eyes to light will delay the circadian phase, causing later wake-up time and later sleep onset. The delaying effect gets stronger as evening progresses; it is also dependent on the wavelength and illuminance ("brightness") of the light. The effect is small in dim indoor lighting.
+About five hours after usual bedtime, coinciding with the body temperature nadir (the lowest point of the core body temperature during sleep) the PRC peaks and the effect changes abruptly from phase delay to phase advance. Immediately after this peak, light exposure has its greatest phase-advancing effect, causing earlier wake-up and sleep onset. Again, illuminance greatly affects results; indoor light may be less than 500 lux while light therapy uses up to 10,000 lux. The effect diminishes until about two hours after spontaneous wake-up time, when it reaches approximately zero.
+During the period between two hours after usual wake-up time and two hours before usual bedtime, light exposure has little or no effect on circadian phase (slight effects generally cancelling each other out).
+Another image of the PRC for light is here (Figure 1). Within that image, the explanatory text is
+Delay region: evening light shifts sleepiness later and
+Advance region: morning light shifts sleepiness earlier.
+Light therapy, typically with a light box producing 10,000 lux at a prescribed distance, can be used in the evening to delay or in the morning to advance a person's sleep timing. Because losing sleep to obtain bright light exposure is considered undesirable by most people, and because it is very difficult to estimate exactly when the greatest effect (the PRC peak) will occur in an individual, the treatment is usually applied daily just prior to bedtime (to achieve phase delay), or just after spontaneous awakening (to achieve phase advance).
+In addition to its use in the adjustment of circadian rhythms, light therapy is used as treatment for several affective disorders including seasonal affective disorder (SAD).
+In 2002 Brown University researchers led by David Berson announced the discovery of special cells in the human eye, ipRGCs (intrinsically photosensitive retinal ganglion cells), which many researchers now believe control the light entrainment effect of the phase response curve. In the human eye, the ipRGCs have the greatest response to light in the 460–480 nm (blue) range. In one experiment, 400 lux of blue light produced the same effects as 10,000 lux of white light. A theory of spectral opponency, in which the addition of other spectral colors renders blue light less effective for circadian phototransduction, was supported by research reported in 2005.
+
+
+=== Melatonin PRC ===
+The phase response curve for melatonin is roughly twelve hours out of phase with the phase response curve for light. At spontaneous wake-up time, exogenous (externally administered) melatonin has a slight phase-delaying effect. The amount of phase-delay increases until about eight hours after wake-up time, when the effect swings abruptly from strong phase delay to strong phase advance. The phase-advance effect diminishes as the day goes on until it reaches zero about bedtime. From usual bedtime until wake-up time, exogenous melatonin has no effect on circadian phase.
+The human body produces its own (endogenous) melatonin starting about two hours before bedtime, provided the lighting is dim. This is known as dim-light melatonin onset, DLMO. This stimulates the phase-advance portion of the PRC and helps keep the body on a regular sleep-wake schedule. It also helps prepare the body for sleep.
+Administration of melatonin at any time may have a mild hypnotic (sleep-inducing) effect. The expected effect on sleep phase timing, if any, is predicted by the PRC.
+
+
+=== Additive effects ===
+In a 2006 study Victoria L. Revell et al. showed that a combination of morning bright light and afternoon melatonin, both timed to phase advance according to the respective PRCs, produce a larger phase advance shift than bright light alone, for a total of up to 21⁄2 hours.
+All times are approximate and vary from one person to another. In particular, there is no convenient way to accurately determine the times of the peaks and zero-crossings of these curves in an individual. Administration of light or melatonin close to the time at which the effect is expected to change sense abruptly may, if the changeover time is not accurately known, produce an opposite effect to that desired.
+
+
+=== Origin of the PRC ===
+The first published usage of the term "phase response curve" was in 1960 by Patricia DeCoursey. The "daily" activity rhythms of her flying squirrels, kept in constant darkness, responded to pulses of light exposure. The response varied according to the time of day—that is, the animals' subjective "day"—when light was administered. When DeCoursey plotted all her data relating the quantity and direction (advance or delay) of phase-shift on a single curve, she created the PRC. It has since been a standard tool in the study of biological rhythms.
+
+
+== PRC in neurons ==
+Phase response curve analysis can be used to understand the intrinsic properties and oscillatory behavior of regular-spiking neurons. The neuronal PRCs can be classified as being purely positive (PRC type I) or as having negative parts (PRC type II). Importantly, the PRC type exhibited by a neuron is indicative of its input–output function (excitability) as well as synchronization behavior: networks of PRC type II neurons can synchronize their activity via mutual excitatory connections, but those of PRC type I can not.
+Experimental estimation of PRC in living, regular-spiking neurons involves measuring the changes in inter-spike interval in response to a small perturbation, such as a transient pulse of current. Notably, the PRC of a neuron is not fixed but may change when firing frequency or neuromodulatory state of the neuron is changed.
+
+
+== References ==
+
+
+== Further reading ==
+Rosenthal NE, Joseph-Vanderpool JR, Levendosky AA, et al. (August 1990). "Phase-shifting effects of bright morning light as treatment for delayed sleep phase syndrome". Sleep 13 (4): 354–61. PMID 2267478. 
+Lewy A, Sack R, Fredrickson R (1983). "The use of bright light in the treatment of chronobiologic sleep and mood disorders: The phase-response curve". Psychopharmacol Bull 19: 523–5. 
+Lewy AJ, Ahmed S, Latham JM, et al. (1992). "Melatonin shifts human circadian rhythms according to a phase-response curve". Chronobiol Int. 9 (5): 380–392. doi:10.3109/07420529209064550. PMID 1394610. 
+Figueiro MG, Rea MS (2010). "Lack of short-wavelength light during the school day delays dim light melatonin onset (DLMO) in middle school students". Neuro Endocrinol. Lett. 31 (1): 92–6. PMID 20150866. 
+
+
+== See also ==
+Circadian rhythm sleep disorders
+Delayed sleep phase syndrome
+Chronobiology

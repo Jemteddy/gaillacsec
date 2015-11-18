@@ -1,0 +1,33 @@
+File Replication Service (FRS) is a Microsoft Windows Server service for distributing shared files and Group Policy Objects. It replaced the (Windows NT) Lan Manager Replication service, and has been partially replaced by Distributed File System Replication. It is also known as NTFRS after the name of the executable file that runs the service.
+
+
+== Details ==
+When the File Replication Service (FRS) detects a change to a file, such as the creation of a new file or the modification to an existing file, it replicates it to other servers in the group. To deal with conflicts (when two copies of the files are edited at the same time on different servers) the service resolves any issues by using the file with latest date and time.
+One of the main uses of FRS is for the SYSVOL directory share. The SYSVOL directory share is particularly important in a Microsoft network as it is used to distribute files supporting Group Policy and scripts to client computers on the network. Since Group Policies and scripts are run each time a user logs on to the system, it is important to have reliability. Having multiple copies of the SYSVOL directory increases the resilience and spreads the workload for this essential service.
+The SYSVOL directory can be accessed by using a network share to any server that has a copy of the SYSVOL directory (normally a Domain Controller) as shown below:
+
+  \\server\SYSVOL
+
+Or by accessing it using the domain name:
+
+  \\domain.com\SYSVOL
+
+Servers that work together to provide this service are called Replication Partners.
+To control file replication:
+Use the Active Directory Sites and Services from Administrative Tools.
+Select the Sites container to view a list of sites.
+Expand the site that to be viewed. This will provide the list of servers in that site.
+Expand the server to be viewed, right click the NTDS settings, and select Properties.
+Under the Connections tab, the list of servers that are being replicated can be seen.
+
+
+== DFS Replication ==
+In Windows Server 2003 R2 and Windows Server 2008, DFS Replication is available as well as the File Replication Service. DFS Replication is a state-based replication engine for file replication among DFS shares, which supports replication scheduling and bandwidth throttling. It uses Remote Differential Compression to detect and replicate only the change to files, rather than replicating entire files, if changed. Windows Vista also includes a DFS Replication Service which is limited to peer-to-peer DFS Replication service groups. FRS is still used for SYSVOL replication, but optionally, DFS replication may be used instead of FRS replication for SYSVOL shares, and the FRS stopped. On up-level Windows Server 2008 domain controllers, SYSVOL replication is performed using DFS replication, by default although NTFRS replication is also supported. On Windows Server 2008/R2 up-level domain controllers, SYSVOL replication is performed using DFS replication, and NTFRS replication is disabled altogether.
+
+
+== References ==
+
+
+== External links ==
+FRS Technical Reference
+DFSR limits in Windows 2008

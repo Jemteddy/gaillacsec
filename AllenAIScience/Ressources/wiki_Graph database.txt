@@ -1,0 +1,107 @@
+In computing, a graph database is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data.
+
+
+== Structure ==
+Graph databases are based on graph theory. Graph databases employ nodes, properties, and edges.
+Nodes represent entities such as people, businesses, accounts, or any other item you might want to keep track of.
+Properties are pertinent information that relate to nodes. For instance, if Wikipedia were one of the nodes, one might have it tied to properties such as website, reference material, or word that starts with the letter w, depending on which aspects of Wikipedia are pertinent to the particular database.
+Edges are the lines that connect nodes to nodes, or nodes to properties and they represent the relationship between the two. Most of the important information is stored in the edges. Meaningful patterns emerge when examining the connections and interconnections of nodes, properties, and edges
+
+
+== Properties ==
+Compared with relational databases, graph databases are often faster for associative data sets and map more directly to the structure of object-oriented applications. They can scale more naturally to large data sets as they do not typically require expensive join operations. As they depend less on a rigid schema, they are more suitable to manage ad hoc and changing data with evolving schemas. Conversely, relational databases are typically faster at performing the same operation on large numbers of data elements.
+Graph databases are a powerful tool for graph-like queries, for example computing the shortest path between two nodes in the graph. Other graph-like queries can be performed over a graph database in a natural way (for example graph's diameter computations or community detection).
+
+
+== Projects ==
+The following is a list of several well-known graph database projects:
+
+
+== Features ==
+The table below compares the features of the above graph databases.
+
+
+== Distributed processing ==
+Angrapa - graph package in Hama, a bulk synchronous parallel (Bulk Synchronous Parallel (BSP)) platform
+Apache Hama - a pure BSP(Bulk Synchronous Parallel) computing framework on top of HDFS (Hadoop Distributed File System) for massive scientific computations such as matrix, graph and network algorithms.
+Blazegraph - A RDF/graph database capable of clustered deployment. Blazegraph supports high availability (HA) mode, embedded mode, single server mode and has available commercial licenses. As of version 1.3.1, it supports the Blueprints API and Reification Done Right (RDR).
+Cyclops - A computing and communication efficient graph processing system with significantly low communication cost.
+Faunus - a Hadoop-based graph computing framework that uses Gremlin as its query language. Faunus provides connectivity to Titan, Rexster-fronted graph databases, and to text/binary graph formats stored in HDFS. Faunus is developed by Aurelius.
+FlockDB - an open source distributed, fault-tolerant graph database based on MySQL and the Gizzard framework for managing Twitter-like graph data (single-hop relationships).
+Giraph - a Graph processing infrastructure that runs on Hadoop (see Pregel).
+GraphBase - Enterprise Edition supports embedding of callable Java Agents within the vertices of a distributed graph.
+Graph Engine - A free distributed, in-memory, large graph processing engine, formerly named Trinity.
+GoldenOrb - Pregel implementation built on top of Apache Hadoop
+GraphLab - A framework for machine learning and data mining in the cloud
+GraphX - GraphLab built on the Spark cluster computing system. Dr. Joseph Gonzalez is the project lead, the creator of GraphLab.
+HipG - a library for high-level parallel processing of large-scale graphs. HipG is implemented in Java and is designed for distributed-memory machine
+IBM System G Graph Analytics Toolkit - A comprehensive graph analytics library consisted of network topological analysis tools, graph matching and search tools, and graph path and flow tools. It has been applied to various use cases and industry solutions.
+Imitator - A reliable distributed graph processing system with replication-based fault-tolerance.
+InfiniteGraph - a commercially available distributed graph database that supports parallel load and parallel queries.
+JPregel - In-memory java based Pregel implementation
+Lionsgate - A distributed, browser-based graph database developed by Semblent.
+KDT - An open-source distributed graph library with a Python front-end and C++/MPI backend.
+Mizan - An optimized Pregel clone that can be deployed easily on Amazon EC2, local clusters, stand-alone Linux systems and supercomputers (IBM BlueGene/P). It utilizes runtime graph repartitioning between iterations to provide dynamic load balancing for better algorithm performance.
+OpenLink Virtuoso - the shared-nothing Cluster Edition supports distributed graph data processing.
+Oracle Spatial and Graph - loading, inferencing, and querying workloads are automatically and transparently distributed across the nodes in an Oracle Real Application Cluster, Oracle Exadata Database Machine, and Oracle Database Appliance.
+Phoebus - Pregel implementation written in Erlang
+Pregel - Google's internal graph processing platform, released details in ACM paper.
+Powergraph - Distributed graph-parallel computing on natural graphs
+PowerLyra - A distributed graph analytics based on GraphLab using differentiated graph computing and partitioning on skewed (e.g., power-law and bipartite) graphs: dynamically applying different computing and partition strategies for different vertices
+PowerSwitch - Adaptive prediction and mode switch (sync & aysnc) on graph-parallel computing
+Sedge - A framework for distributed large graph processing and graph partition management; including an open source version of Google's Pregel
+Signal/Collect - a framework for parallel graph processing written in Scala
+Sqrrl Enterprise - distributed graph processing utilizing Apache Accumulo and featuring cell-level security, massive scalability, and JSON support
+Titan - A distributed, disk-based graph database developed by Aurelius
+Parallel Boost Graph Library (PBGL) - a C++ library for graph processing on distributed machines, part of Boost framework
+Weaver - A fast and scalable graph store designed specifically for dynamically-changing graphs
+
+
+== GPGPU graph processing ==
+Medusa - A framework for graph processing using graphics processing units (GPUs) on both shared memory and distributed environments; allows users with no GPU programming expertise to leverage GPUs for graph processing
+
+
+== APIs and graph query-programming languages ==
+Bounds Language - terse C-style syntax which initiates concurrent traversals in GraphBase and supports interaction between them.
+Blueprints - a Java API for Property graphs from TinkerPop and supported by a few graph database vendors.
+Blueprints.NET - a C#/.NET API for generic property graphs.
+Bulbs - a Python persistence framework for TinkerPop, Gremlin Server, Rexster, Titan, and Neo4j Server.
+Cypher Query Language - a declarative graph query language for Neo4j that enables ad hoc and programmatic (SQL-like) access to the graph
+Dave - a declarative graph query language for Semblent - Lionsgate
+Gremlin - an open-source graph programming language that works over various graph database systems.
+Neo4jClient - a .NET client for accessing Neo4j.
+Neography - a thin Ruby wrapper that provides access to Neo4j via REST.
+Neo4jPHP - a PHP library wrapping the Neo4j graph database.
+NodeNeo4j - a Node.js driver for Neo4j that provides access to Neo4j via REST
+Pacer - a Ruby dialect/implementation of the Gremlin graph traversal language.
+Pipes - a lazy dataflow framework written in Java that forms the foundation for various property graph traversal languages.
+Pixy - a declarative graph query language that works on any Blueprints-compatible graph database
+PYBlueprints - a Python API for Property graphs.
+Pygr - a Python API for large-scale analysis of biological sequences and genomes, with alignments represented as graphs.
+Rexster - a graph database server that provides a REST or binary protocol API (RexPro). Supports Titan, Neo4j, OrientDB, Dex, and any TinkerPop/Blueprints-enabled graph.
+RDFSharp - a .NET API for modeling RDF graphs, storing them on many SQL databases (Firebird, MySQL, PostgreSQL, SQL Server, SQLite) and querying them with SPARQL.
+SPARQL - a query language for databases, able to retrieve and manipulate data stored in Resource Description Framework format.
+SPASQL - an extension of the SQL standard, allowing execution of SPARQL queries within SQL statements, typically by treating them as subquery or function clauses. This also allows SPARQL queries to be issued through "traditional" data access APIs (ODBC, JDBC, OLE DB, ADO.NET, etc.)
+Spring Data Neo4j - an extension to Spring Data (part of the Spring Framework), providing direct/native access to Neo4j
+Oracle SQL and PL/SQL APIs] - have graph extensions for Oracle Spatial and Graph.
+Styx (formerly named Pipes.Net) - a dataflow framework for C#/.NET for processing generic and property graphs.
+Thunderdome - Titan Rexster object-graph mapper for Python. No longer maintained.
+Mogwai - a Titan Rexster Object-Graph Mapper for Python - Forked from Thunderdome
+Rexpro-Python - Titan Rexpro connection handler for Python.
+
+
+== See also ==
+NoSQL
+Document-oriented database
+Structured storage
+Object database
+Resource Description Framework (RDF), framework to express node-edge graphs
+Graph transformation for a complementary topic (rule based in memory manipulation of graphs instead of transaction safe Persistence).
+RDF Database
+
+
+== References ==
+
+
+== External links ==
+DB-Engines Ranking of Graph DBMS by popularity, updated monthly

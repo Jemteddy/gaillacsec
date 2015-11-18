@@ -1,0 +1,19 @@
+Old World ROM computers are the Macintosh (Mac) models that use a Macintosh Toolbox read-only memory (ROM) chip, usually in a socket (but soldered to the motherboard in some models). All Macs prior to the iMac, the iBook, the Blue and White Power Mac G3 and the Bronze Keyboard PowerBook G3 use Old World ROM, while the iMac, iBook, Blue and White G3, and Bronze Keyboard PowerBook G3, as well as all subsequent models until the introduction of the Intel-based EFI Models, are New World ROM machines. In particular, the Beige Power Mac G3 and all other beige and platinum-colored Power Macs are Old World ROM machines. In common use, the "Old World" designation usually applies to the early generations of PCI-based "beige" Power Macs (and sometimes the very first NuBus-equipped models), but not the older Motorola 68000-based Macs; however, the Toolbox runs the same way on all three types of machines.
+
+
+== DetailsEdit ==
+PCI Power Macs with an Old World ROM contain an Open Firmware implementation, and a copy of the Macintosh Toolbox as an Open Firmware device. These machines are set to boot from this device by default, thus starting the normal Macintosh startup procedure. This can be changed, just as on New World ROM Macs, but with limitations placed on what devices and formats can be used; on these machines, particularly the early machines like the Power Macintosh 9500, the Open Firmware implementation was just enough to enumerate PCI devices and load the Toolbox ROM, and these Open Firmware revisions have several bugs which must be worked around by boot loaders or nvramrc patches. The Open Firmware environment can be entered by holding the key combination ⌘ Cmd+⌥ Option+O+F while booting.
+All Power Macs emulate a 68LC040 CPU inside a nanokernel; this emulator is then used to boot the predominantly 68k-based Toolbox, and is also used to support applications written for the 68k processor. Once Toolbox is running, PPC machines can boot into MacOS directly.
+On all Old World ROM machines, once Toolbox is loaded, the boot procedure is the same. Toolbox executes a memory test, enumerates Mac OS devices it knows about (this varies from model to model), and either starts the on-board video (if present) or the option ROM on a NuBus or PCI video card. Toolbox then checks for a disk in the floppy drive, and scans all SCSI buses for a disk with a valid System Folder, giving preference to whatever disk is set as the startup disk in the parameter RAM.
+If a bootable disk is found, the Happy Mac logo is displayed, and control is handed over to the Mac OS. If no disk to boot from is present, an icon depicting a floppy disk with a blinking question mark in the middle will be displayed. If a hardware problem occurs during the early part of the boot process, the machine will display the Sad Mac icon with a hexadecimal error code and freeze; on Macs made after 1987, this will be accompanied by the Chimes of Death sound.
+Since the Old World ROM usually boots to Toolbox, most OSs have to be installed using a boot loader from inside Mac OS (BootX is commonly used for Linux installations). 68K-based Macs and NuBus Power Macs must have Mac OS installed to load another OS (even A/UX, which was an Apple product), usually with virtual memory turned off. PCI Power Macs can be configured to boot into Open Firmware, allowing the firmware to load a boot loader directly, or they can use a specially-prepared floppy disk to trick the Toolbox into loading a kernel (this is used for Linux installation floppy images).
+The simplest way to identify an Old World ROM Mac is that it will not have a factory built-in USB port. Only New World ROM Macs featured a USB port as factory equipment.
+
+
+== See alsoEdit ==
+BootX (Linux), the standard LinuxPPC boot loader for Old World machines
+Quik (boot loader), a replacement boot loader for Old World PCI systems
+
+
+== External linksEdit ==
+Macintosh: ROM Size for Various Models (archived)

@@ -1,0 +1,54 @@
+Industrial control system (ICS) is a general term that encompasses several types of control systems used in industrial production, including supervisory control and data acquisition (SCADA) systems, distributed control systems (DCS), and other smaller control system configurations such as programmable logic controllers (PLC) often found in the industrial sectors and critical infrastructures.
+ICSs are typically used in industries such as electrical, water, oil, gas and data. Based on data received from remote stations, automated or operator-driven supervisory commands can be pushed to remote station control devices, which are often referred to as field devices. Field devices control local operations such as opening and closing valves and breakers, collecting data from sensor systems, and monitoring the local environment for alarm conditions.
+
+
+== A historical perspective ==
+Industrial control system technology has evolved over the decades.
+DCS (distributed control systems) generally refer to the particular functional distributed control system design that exist in industrial process plants (e.g., oil and gas, refining, chemical, pharmaceutical, some food and beverage, water and wastewater, pulp and paper, utility power, mining, metals). The DCS concept came about from a need to gather data and control the systems on a large campus in real time on high-bandwidth, low-latency data networks. It is common for loop controls to extend all the way to the top level controllers in a DCS, as everything works in real time. These systems evolved from a need to extend pneumatic control systems beyond just a small cell area of a refinery.
+PLC (programmable logic controller) evolved out of a need to replace racks of relays in ladder form. The latter were not particularly reliable, were difficult to rewire, and were difficult to diagnose. PLC control tends to be used in very regular, high-speed binary controls, such as controlling a high-speed printing press. Originally, PLC equipment did not have remote I/O racks, and many could not perform more than rudimentary analog controls.
+SCADA's history is rooted in distribution applications, such as power, natural gas, and water pipelines, where there is a need to gather remote data through potentially unreliable or intermittent low-bandwidth/high-latency links. SCADA systems use open-loop control with sites that are widely separated geographically. A SCADA system uses RTUs (remote terminal units, also referred to as remote telemetry units) to send supervisory data back to a control center. Most RTU systems always did have some limited capacity to handle local controls while the master station is not available. However, over the years RTU systems have grown more and more capable of handling local controls.
+The boundaries between these system definitions are blurring as time goes on. The technical limits that drove the designs of these various systems are no longer as much of an issue. Many PLC platforms can now perform quite well as a small DCS, using remote I/O and are sufficiently reliable that some SCADA systems actually manage closed loop control over long distances. With the increasing speed of today's processors, many DCS products have a full line of PLC-like subsystems that weren't offered when they were initially developed.
+This led to the concept of a PAC (programmable automation controller or process automation controller), that is an amalgamation of these three concepts. Time and the market will determine whether this can simplify some of the terminology and confusion that surrounds these concepts today.
+
+
+== DCSs ==
+
+DCSs are used to control industrial processes such as electric power generation, oil and gas refineries, water and wastewater treatment, and chemical, food, and automotive production. DCSs are integrated as a control architecture containing a supervisory level of control, overseeing multiple integrated sub-systems that are responsible for controlling the details of a localized process.
+Product and process control are usually achieved by deploying feed back or feed forward control loops whereby key product and/or process conditions are automatically maintained around a desired set point. To accomplish the desired product and/or process tolerance around a specified set point, only specific programmable controllers are used.
+
+
+== PLCs ==
+
+PLCs provide boolean logic operations, timers, and (in some models) continuous control. The proportional, integral, and/or differential gains of the PLC continuous control feature may be tuned to provide the desired tolerance as well as the rate of self-correction during process upsets. PLCs are used extensively in process-based industries. PLCs are computer-based solid-state devices that control industrial equipment and processes. While PLCs can control system components used throughout SCADA and DCS systems, they are often the primary components in smaller control system configurations. They are used to provide regulatory control of discrete processes such as automobile assembly lines and power plant soot blower controls and are used extensively in almost all industrial processes.
+
+
+== Embedded control ==
+Another option is the use of several small embedded controls attached to an industrial computer via a network. Examples are the Lantronix Xport and Digi/ME.
+
+
+== See also ==
+Automation
+Industrial safety systems
+MTConnect
+OPC Foundation
+Programmable logic controller (PLC)
+Safety instrumented system (SIS)
+SCADA
+Control System Security
+Industrial Internet
+
+
+== References ==
+ This article incorporates public domain material from websites or documents of the National Institute of Standards and Technology.
+
+
+== Additional reading ==
+Guide to Industrial Control Systems (ICS) Security, SP800-82 Rev1, National Institute of Standards and Technology, May 2013. Accessed June 05, 2014.
+
+
+== External links ==
+Control System Integrators Association
+ISA a leading, global, nonprofit organization that is setting the standard for automation
+New Age of Industrial Controllers
+Proview Open source Process Control System
+A simple guide to Embedded PLCs

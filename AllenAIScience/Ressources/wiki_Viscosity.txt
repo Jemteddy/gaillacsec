@@ -1,0 +1,295 @@
+The viscosity of a fluid is a measure of its resistance to gradual deformation by shear stress or tensile stress. For liquids, it corresponds to the informal concept of "thickness". For example, honey has a much higher viscosity than water.
+Viscosity is a property arising from collisions between neighboring particles in a fluid that are moving at different velocities. When the fluid is forced through a tube, the particles which compose the fluid generally move more quickly near the tube's axis and more slowly near its walls: therefore some stress, (such as a pressure difference between the two ends of the tube), is needed to overcome the friction between particle layers to keep the fluid moving. For the same velocity pattern, the stress required is proportional to the fluid's viscosity.
+A fluid that has no resistance to shear stress is known as an ideal or inviscid fluid. Zero viscosity is observed only at very low temperatures in superfluids. Otherwise, all fluids have positive viscosity, and are technically said to be viscous or viscid. In common parlance however, a liquid is said to be viscous if its viscosity is substantially greater than that of water; and may be described as mobile if the viscosity is noticeably less than water. A fluid with a relatively high viscosity, for example, pitch, may appear to be a solid.
+
+
+== EtymologyEdit ==
+The word "viscosity" is derived from the Latin "viscum", meaning mistletoe and also a viscous glue (birdlime) made from mistletoe berries and applied to twigs to catch birds.
+
+
+== DefinitionEdit ==
+
+
+=== Dynamic (shear) viscosity Edit ===
+
+The dynamic (shear) viscosity of a fluid expresses its resistance to shearing flows, where adjacent layers move parallel to each other with different speeds. It can be defined through the idealized situation known as a Couette flow, where a layer of fluid is trapped between two horizontal plates, one fixed and one moving horizontally at constant speed . This fluid has to be homogeneous in the layer and at different shear stresses. (The plates are assumed to be very large, so that one need not consider what happens near their edges.)
+If the speed of the top plate is small enough, the fluid particles will move parallel to it, and their speed will vary linearly from zero at the bottom to  at the top. Each layer of fluid will move faster than the one just below it, and friction between them will give rise to a force resisting their relative motion. In particular, the fluid will apply on the top plate a force in the direction opposite to its motion, and an equal but opposite one to the bottom plate. An external force is therefore required in order to keep the top plate moving at constant speed.
+The magnitude  of this force is found to be proportional to the speed  and the area  of each plate, and inversely proportional to their separation :
+
+The proportionality factor μ in this formula is the viscosity (specifically, the dynamic viscosity) of the fluid.
+The ratio  is called the rate of shear deformation or shear velocity, and is the derivative of the fluid speed in the direction perpendicular to the plates. Isaac Newton expressed the viscous forces by the differential equation
+
+where  and  is the local shear velocity. This formula assumes that the flow is moving along parallel lines and the  axis, perpendicular to the flow, points in the direction of maximum shear velocity. This equation can be used where the velocity does not vary linearly with , such as in fluid flowing through a pipe.
+Use of the Greek letter mu (μ) for the dynamic stress viscosity is common among mechanical and chemical engineers, as well as physicists. However, the Greek letter eta (η) is also used by chemists, physicists, and the IUPAC.
+
+
+=== Kinematic viscosityEdit ===
+The kinematic viscosity (also called "momentum diffusivity") is the ratio of the dynamic viscosity μ to the density of the fluid ρ. It is usually denoted by the Greek letter nu (ν).
+
+It is a convenient concept when analyzing the Reynolds number, which expresses the ratio of the inertial forces to the viscous forces:
+
+where  is a typical length scale in the system.
+
+
+=== Bulk viscosityEdit ===
+When a compressible fluid is compressed or expanded evenly, without shear, it may still exhibit a form of internal friction that resists its flow. These forces are related to the rate of compression or expansion by a factor σ, called the volume viscosity, bulk viscosity or second viscosity.
+The bulk viscosity is important only when the fluid is being rapidly compressed or expanded, such as in sound and shock waves. Bulk viscosity explains the loss of energy in those waves, as described by Stokes' law of sound attenuation.
+
+
+=== Viscosity tensorEdit ===
+
+In general, the stresses within a flow can be attributed partly to the deformation of the material from some rest state (elastic stress), and partly to the rate of change of the deformation over time (viscous stress). In a fluid, by definition, the elastic stress includes only the hydrostatic pressure.
+In very general terms, the fluid's viscosity is the relation between the strain rate and the viscous stress. In the Newtonian fluid model, the relationship is by definition a linear map, described by a viscosity tensor that, multiplied by the strain rate tensor (which is the gradient of the flow's velocity), gives the viscous stress tensor.
+The viscosity tensor has nine independent degrees of freedom in general. For isotropic Newtonian fluids, these can be reduced to two independent parameters. The most usual decomposition yields the stress viscosity μ and the bulk viscosity σ.
+
+
+== Newtonian and non-Newtonian fluidsEdit ==
+
+Newton's law of viscosity is a constitutive equation (like Hooke's law, Fick's law, Ohm's law): it is not a fundamental law of nature but an approximation that holds in some materials and fails in others.
+A fluid that behaves according to Newton's law, with a viscosity μ that is independent of the stress, is said to be Newtonian. Gases, water, and many common liquids can be considered Newtonian in ordinary conditions and contexts. There are many non-Newtonian fluids that significantly deviate from that law in some way or other. For example:
+Shear thickening liquids, whose viscosity increases with the rate of shear strain.
+Shear thinning liquids, whose viscosity decreases with the rate of shear strain.
+Thixotropic liquids, that become less viscous over time when shaken, agitated, or otherwise stressed.
+Rheopectic liquids, that become more viscous over time when shaken, agitated, or otherwise stressed.
+Bingham plastics that behave as a solid at low stresses but flow as a viscous fluid at high stresses.
+Shear thinning liquids are very commonly, but misleadingly, described as thixotropic.
+Even for a Newtonian fluid, the viscosity usually depends on its composition and temperature. For gases and other compressible fluids, it depends on temperature and varies very slowly with pressure.
+The viscosity of some fluids may depend on other factors. A magnetorheological fluid, for example, becomes thicker when subjected to a magnetic field, possibly to the point of behaving like a solid.
+
+
+== Viscosity in solidsEdit ==
+The viscous forces that arise during fluid flow must not be confused with the elastic forces that arise in a solid in response to shear, compression or extension stresses. While in the latter the stress is proportional to the amount of shear deformation, in a fluid it is proportional to the rate of deformation over time. (For this reason, Maxwell used the term fugitive elasticity for fluid viscosity.)
+However, many liquids (including water) will briefly react like elastic solids when subjected to sudden stress. Conversely, many "solids" (even granite) will flow like liquids, albeit very slowly, even under arbitrarily small stress. Such materials are therefore best described as possessing both elasticity (reaction to deformation) and viscosity (reaction to rate of deformation); that is, being viscoelastic.
+Indeed, some authors have claimed that amorphous solids, such as glass and many polymers, are actually liquids with a very high viscosity (e.g.~greater than 1012 Pa·s).  However, other authors dispute this hypothesis, claiming instead that there is some threshold for the stress, below which most solids will not flow at all, and that alleged instances of glass flow in window panes of old buildings are due to the crude manufacturing process of older eras rather than to the viscosity of glass.
+Viscoelastic solids may exhibit both shear viscosity and bulk viscosity. The extensional viscosity is a linear combination of the shear and bulk viscosities that describes the reaction of a solid elastic material to elongation. It is widely used for characterizing polymers.
+In geology, earth materials that exhibit viscous deformation at least three orders of magnitude greater than their elastic deformation are sometimes called rheids.
+
+
+== Viscosity measurementEdit ==
+
+Viscosity is measured with various types of viscometers and rheometers. A rheometer is used for those fluids that cannot be defined by a single value of viscosity and therefore require more parameters to be set and measured than is the case for a viscometer. Close temperature control of the fluid is essential to acquire accurate measurements, particularly in materials like lubricants, whose viscosity can double with a change of only 5 °C.
+For some fluids, viscosity is a constant over a wide range of shear rates (Newtonian fluids). The fluids without a constant viscosity (non-Newtonian fluids) cannot be described by a single number. Non-Newtonian fluids exhibit a variety of different correlations between shear stress and shear rate.
+One of the most common instruments for measuring kinematic viscosity is the glass capillary viscometer.
+In coating industries, viscosity may be measured with a cup in which the efflux time is measured. There are several sorts of cup- e.g. Zahn cup, Ford viscosity cup- with usage of each type varying mainly according to the industry. The efflux time can also be converted to kinematic viscosities (centistokes, cSt) through the conversion equations.
+Also used in coatings, a Stormer viscometer uses load-based rotation in order to determine viscosity. The viscosity is reported in Krebs units (KU), which are unique to Stormer viscometers.
+Vibrating viscometers can also be used to measure viscosity. These models such as the Dynatrol use vibration rather than rotation to measure viscosity.
+Extensional viscosity can be measured with various rheometers that apply extensional stress.
+Volume viscosity can be measured with an acoustic rheometer.
+Apparent viscosity is a calculation derived from tests performed on drilling fluid used in oil or gas well development. These calculations and tests help engineers develop and maintain the properties of the drilling fluid to the specifications required.
+
+
+== UnitsEdit ==
+
+
+=== Dynamic viscosity μEdit ===
+Both the physical unit of dynamic viscosity in SI Poiseuille (Pl) and the cgs units Poise (P) come from Jean Léonard Marie Poiseuille. The poiseuille, which is never used, is equivalent to the pascal-second (Pa·s), or (N·s)/m2, or kg/(m·s). If a fluid is placed between two plates with distance one meter, and one plate is pushed sideways with a shear stress of one pascal, and it moves at x meter per second, then it has viscosity of 1/x Pascal second. For example, water at 20 °C has a viscosity of 1.002  mPa·s, while a typical motor oil could have a viscosity of about 250  mPa·s. The units used in practice are either Pa·s and its submultiples or the cgs Poise referred to below, and its submultiples.
+The cgs physical unit for dynamic viscosity is the poise (P), is also named after Jean Poiseuille. It is more commonly expressed, particularly in ASTM standards, as centipoise (cP) since the latter is equal to the SI multiple milliPascal seconds (mPa·s). For example, water at 20 °C has a viscosity of 1.0020mPa·s = 1.0020 cP.
+1Pl = 1Pa·s
+1 P = 0.1 Pa·s= 0.1 kg·m−1·s−1
+1 cP = 1 mPa·s = 0.001 Pa·s = 0.001 N·s·m−2 = 0.001 kg·m−1·s−1.
+
+
+=== Kinematic viscosity νEdit ===
+The SI unit of kinematic viscosity is m2/s.
+The cgs physical unit for kinematic viscosity is the stokes (St), named after George Gabriel Stokes. It is sometimes expressed in terms of centistokes (cSt). In U.S. usage, stoke is sometimes used as the singular form.
+1 St = 1 cm2·s−1 = 10−4 m2·s−1.
+1 cSt = 1 mm2·s−1 = 10−6 m2·s−1.
+Water at 20 °C has a kinematic viscosity of about 1 cSt.
+The kinematic viscosity is sometimes referred to as diffusivity of momentum, because it is analogous to diffusivity of heat and diffusivity of mass. It is therefore used in dimensionless numbers which compare the ratio of the diffusivities.
+
+
+=== FluidityEdit ===
+The reciprocal of viscosity is fluidity, usually symbolized by φ = 1 / μ or F = 1 / μ, depending on the convention used, measured in reciprocal poise (cm·s·g−1), sometimes called the rhe. Fluidity is seldom used in engineering practice.
+The concept of fluidity can be used to determine the viscosity of an ideal solution. For two components  and , the fluidity when a and b are mixed is
+,
+which is only slightly simpler than the equivalent equation in terms of viscosity:
+
+where χa and χb is the mole fraction of component a and b respectively, and μa and μb are the components' pure viscosities.
+
+
+=== Non-standard unitsEdit ===
+The Reyn is a British unit of dynamic viscosity.
+Viscosity index is a measure for the change of kinematic viscosity with temperature. It is used to characterise lubricating oil in the automotive industry.
+At one time the petroleum industry relied on measuring kinematic viscosity by means of the Saybolt viscometer, and expressing kinematic viscosity in units of Saybolt Universal Seconds (SUS). Other abbreviations such as SSU (Saybolt Seconds Universal) or SUV (Saybolt Universal Viscosity) are sometimes used. Kinematic viscosity in centistoke can be converted from SUS according to the arithmetic and the reference table provided in ASTM D 2161.
+
+
+== Molecular originsEdit ==
+
+The viscosity of a system is determined by how molecules constituting the system interact. There are no simple but correct expressions for the viscosity of a fluid. The simplest exact expressions are the Green–Kubo relations for the linear shear viscosity or the Transient Time Correlation Function expressions derived by Evans and Morriss in 1985. Although these expressions are each exact, in order to calculate the viscosity of a dense fluid using these relations currently requires the use of molecular dynamics computer simulations.
+
+
+=== GasesEdit ===
+Viscosity in gases arises principally from the molecular diffusion that transports momentum between layers of flow. The kinetic theory of gases allows accurate prediction of the behavior of gaseous viscosity.
+Within the regime where the theory is applicable:
+Viscosity is independent of pressure and
+Viscosity increases as temperature increases.
+James Clerk Maxwell published a famous paper in 1866 using the kinetic theory of gases to study gaseous viscosity. To understand why the viscosity is independent of pressure, consider two adjacent boundary layers (A and B) moving with respect to each other. The internal friction (the viscosity) of the gas is determined by the probability a particle of layer A enters layer B with a corresponding transfer of momentum. Maxwell's calculations show that the viscosity coefficient is proportional to the density, the mean free path, and the mean velocity of the atoms. On the other hand, the mean free path is inversely proportional to the density. So an increase in density due to an increase in pressure doesn't result in any change in viscosity.
+
+
+==== Relation to mean free path of diffusing particlesEdit ====
+In relation to diffusion, the kinematic viscosity provides a better understanding of the behavior of mass transport of a dilute species. Viscosity is related to shear stress and the rate of shear in a fluid, which illustrates its dependence on the mean free path, λ, of the diffusing particles.
+From fluid mechanics, for a Newtonian fluid, the shear stress, τ, on a unit area moving parallel to itself, is found to be proportional to the rate of change of velocity with distance perpendicular to the unit area:
+
+for a unit area parallel to the x-z plane, moving along the x axis. We will derive this formula and show how μ is related to λ.
+Interpreting shear stress as the time rate of change of momentum, p, per unit area A (rate of momentum flux) of an arbitrary control surface gives
+
+where  is the average velocity, along the x axis, of fluid molecules hitting the unit area, with respect to the unit area and  is the rate of fluid mass hitting the surface.
+By making simplified assumption that the velocity of the molecules depends linearly on the distance they are coming from, the mean velocity depends linearly on the mean distance:
+.
+Further manipulation will show,
+
+where
+ρ is the density of the fluid,
+ū is the average molecular speed (),
+μ is the dynamic viscosity.
+Note, that the mean free path itself typically depends (inversely) on the density.
+
+
+==== Effect of temperature on the viscosity of a gasEdit ====
+Sutherland's formula can be used to derive the dynamic viscosity of an ideal gas as a function of the temperature:
+
+This in turn is equal to
+  where    is a constant for the gas.
+in Sutherland's formula:
+μ = dynamic viscosity (Pa·s or μPa·s) at input temperature T,
+μ0 = reference viscosity (in the same units as μ) at reference temperature T0,
+T = input temperature (kelvin),
+T0 = reference temperature (kelvin),
+C = Sutherland's constant for the gaseous material in question.
+Valid for temperatures between 0 < T < 555 K with an error due to pressure less than 10% below 3.45 MPa.
+According to Sutherland's formula, if the absolute temperature is less than C, the relative change in viscosity for a small change in temperature is greater than the relative change in the absolute temperature, but it is smaller when T is above C. The kinematic viscosity though always increases faster than the temperature (that is, d log(ν)/d log(T) is greater than 1).
+Sutherland's constant, reference values and λ values for some gases:
+
+
+==== Viscosity of a dilute gasEdit ====
+The Chapman-Enskog equation may be used to estimate viscosity for a dilute gas. This equation is based on a semi-theoretical assumption by Chapman and Enskog. The equation requires three empirically determined parameters: the collision diameter (σ), the maximum energy of attraction divided by the Boltzmann constant (є/к) and the collision integral (ω(T*)).
+
+with
+T* = κT/ε — reduced temperature (dimensionless),
+μ0 = viscosity for dilute gas (μPa.s),
+M = molecular mass (g/mol),
+T = temperature (K),
+σ = the collision diameter (Å),
+ε / κ = the maximum energy of attraction divided by the Boltzmann constant (K),
+ωμ = the collision integral.
+
+
+=== LiquidsEdit ===
+
+In liquids, the additional forces between molecules become important. This leads to an additional contribution to the shear stress though the exact mechanics of this are still controversial. Thus, in liquids:
+Viscosity is independent of pressure (except at very high pressure); and
+Viscosity tends to fall as temperature increases (for example, water viscosity goes from 1.79 cP to 0.28 cP in the temperature range from 0 °C to 100 °C); see temperature dependence of liquid viscosity for more details.
+The dynamic viscosities of liquids are typically several orders of magnitude higher than dynamic viscosities of gases.
+
+
+==== Viscosity of blends of liquidsEdit ====
+The viscosity of the blend of two or more liquids can be estimated using the Refutas equation. The calculation is carried out in three steps.
+The first step is to calculate the Viscosity Blending Number (VBN) (also called the Viscosity Blending Index) of each component of the blend:
+(1)   
+where ν is the kinematic viscosity in centistokes (cSt). It is important that the kinematic viscosity of each component of the blend be obtained at the same temperature.
+The next step is to calculate the VBN of the blend, using this equation:
+(2)   
+where xX is the mass fraction of each component of the blend.
+Once the viscosity blending number of a blend has been calculated using equation (2), the final step is to determine the kinematic viscosity of the blend by solving equation (1) for ν:
+(3)   
+where VBNBlend is the viscosity blending number of the blend.
+
+
+== Viscosity of selected substancesEdit ==
+
+
+=== AirEdit ===
+
+The viscosity of air depends mostly on the temperature. At 15 °C, the viscosity of air is 1.81×10−5 kg/(m·s), 18.1 μPa.s or 1.81×10−5 Pa.s. The kinematic viscosity at 15 °C is 1.48×10−5 m2/s or 14.8 cSt. At 25 °C, the viscosity is 18.6 μPa.s and the kinematic viscosity 15.7 cSt. One can get the viscosity of air as a function of temperature from the Gas Viscosity Calculator
+
+
+=== WaterEdit ===
+
+The dynamic viscosity of water is 8.90 × 10−4 Pa·s or 8.90 × 10−3 dyn·s/cm2 or 0.890 cP at about 25 °C.
+Water has a viscosity of 0.0091 poise at 25 °C, or 1 centipoise at 20 °C.
+As a function of temperature T (K): (Pa·s) = A × 10B/(T−C)
+where A=2.414 × 10−5 Pa·s ; B = 247.8 K ; and C = 140 K.
+Viscosity of liquid water at different temperatures up to the normal boiling point is listed below.
+
+
+=== Other substancesEdit ===
+
+Some dynamic viscosities of Newtonian fluids are listed below:
+* These materials are highly non-Newtonian.
+Note: Higher viscosity means thicker substance
+
+
+== Viscosity of slurryEdit ==
+
+The term slurry describes mixtures of a liquid and solid particles that retain some fluidity. The viscosity of slurry can be described as relative to the viscosity of the liquid phase:
+
+where μs and μl are respectively the dynamic viscosity of the slurry and liquid (Pa·s), and μr is the relative viscosity (dimensionless).
+Depending on the size and concentration of the solid particles, several models exist that describe the relative viscosity as a function of volume fraction ɸ of solid particles.
+In the case of extremely low concentrations of fine particles, Einstein's equation may be used:
+
+In the case of higher concentrations, a modified equation was proposed by Guth and Simha, which takes into account interaction between the solid particles:
+
+Further modification of this equation was proposed by Thomas from the fitting of empirical data:
+
+where A = 0.00273 and B = 16.6.
+In the case of high shear stress (above 1 kPa), another empirical equation was proposed by Kitano et al. for polymer melts:
+
+where A = 0.68 for smooth spherical particles.
+
+
+== Viscosity of amorphous materialsEdit ==
+
+Viscous flow in amorphous materials (e.g. in glasses and melts) is a thermally activated process:
+
+where Q is activation energy, T is temperature, R is the molar gas constant and A is approximately a constant.
+The viscous flow in amorphous materials is characterized by a deviation from the Arrhenius-type behavior: Q changes from a high value QH at low temperatures (in the glassy state) to a low value QL at high temperatures (in the liquid state). Depending on this change, amorphous materials are classified as either
+strong when: QH − QL < QL or
+fragile when: QH − QL ≥ QL.
+The fragility of amorphous materials is numerically characterized by the Doremus’ fragility ratio:
+
+and strong material have RD < 2 whereas fragile materials have RD ≥ 2.
+
+The viscosity of amorphous materials is quite exactly described by a two-exponential equation:
+
+with constants A1, A2, B, C and D related to thermodynamic parameters of joining bonds of an amorphous material.
+Not very far from the glass transition temperature, Tg, this equation can be approximated by a Vogel-Fulcher-Tammann (VFT) equation.
+If the temperature is significantly lower than the glass transition temperature, T ≪ Tg, then the two-exponential equation simplifies to an Arrhenius type equation:
+
+with:
+
+where Hd is the enthalpy of formation of broken bonds (termed configuron s) and Hm is the enthalpy of their motion. When the temperature is less than the glass transition temperature, T < Tg, the activation energy of viscosity is high because the amorphous materials are in the glassy state and most of their joining bonds are intact.
+If the temperature is highly above the glass transition temperature, T ≫ Tg, the two-exponential equation also simplifies to an Arrhenius type equation:
+
+with:
+
+When the temperature is higher than the glass transition temperature, T > Tg, the activation energy of viscosity is low because amorphous materials are melted and have most of their joining bonds broken, which facilitates flow.
+
+
+== Eddy viscosityEdit ==
+In the study of turbulence in fluids, a common practical strategy for calculation is to ignore the small-scale vortices (or eddies) in the motion and to calculate a large-scale motion with an eddy viscosity that characterizes the transport and dissipation of energy in the smaller-scale flow (see large eddy simulation). Values of eddy viscosity used in modeling ocean circulation may be from 5×104 to 106 Pa·s depending upon the resolution of the numerical grid.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Hatschek, Emil (1928). The Viscosity of Liquids. New York: Van Nostrand. OCLC 53438464.
+Massey, B. S.; Ward-Smith, A. J. (2011). Mechanics of Fluids (Ninth ed.). London; New York: Spon Press. ISBN 978-0-415-60259-4. OCLC 690084654. 
+
+
+== External linksEdit ==
+Fluid properties High accuracy calculation of viscosity and other physical properties of frequent used pure liquids and gases.
+Gas viscosity calculator as function of temperature
+Air viscosity calculator as function of temperature and pressure
+Fluid Characteristics Chart A table of viscosities and vapor pressures for various fluids
+Gas Dynamics Toolbox Calculate coefficient of viscosity for mixtures of gases
+Glass Viscosity Measurement Viscosity measurement, viscosity units and fixpoints, glass viscosity calculation
+Kinematic Viscosity conversion between kinematic and dynamic viscosity.
+Physical Characteristics of Water A table of water viscosity as a function of temperature
+Vogel–Tammann–Fulcher Equation Parameters
+Calculation of temperature-dependent dynamic viscosities for some common components
+"Test Procedures for Testing Highway and Nonroad Engines and Omnibus Technical Amendments". United States Environmental Protection Agency
+Artificial viscosity

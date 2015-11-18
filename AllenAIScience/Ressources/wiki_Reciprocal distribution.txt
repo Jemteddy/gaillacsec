@@ -1,0 +1,19 @@
+In probability and statistics, the reciprocal distribution is a continuous probability distribution. It is characterised by its probability density function, within the support of the distribution, being proportional to the reciprocal of the variable.
+The reciprocal distribution is an example of an inverse distribution, and the reciprocal (inverse) of a random variable with a reciprocal distribution itself has a reciprocal distribution.
+
+
+== Definition ==
+The probability density function (pdf) of the reciprocal distribution is
+
+Here,  and  are the parameters of the distribution, which are the lower and upper bounds of the support, and  is the natural log function (the logarithm to base e). The cumulative distribution function is
+
+
+== Differential equation ==
+The pdf of the reciprocal distribution is a solution to the following differential equation:
+
+
+== Applications ==
+The reciprocal distribution is of considerable importance in numerical analysis as a computer’s arithmetic operations transform mantissas with initial arbitrary distributions to the reciprocal distribution as a limiting distribution.
+
+
+== References ==

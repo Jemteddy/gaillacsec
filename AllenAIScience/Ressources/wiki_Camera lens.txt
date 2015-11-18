@@ -1,0 +1,137 @@
+A camera lens (also known as photographic lens or photographic objective) is an optical lens or assembly of lenses used in conjunction with a camera body and mechanism to make images of objects either on photographic film or on other media capable of storing an image chemically or electronically.
+There is no major difference in principle between a lens used for a still camera, a video camera, a telescope, a microscope, or other apparatus, but the detailed design and construction are different. A lens may be permanently fixed to a camera, or it may be interchangeable with lenses of different focal lengths, apertures, and other properties.
+While in principle a simple convex lens will suffice, in practice a compound lens made up of a number of optical lens elements is required to correct (as much as possible) the many optical aberrations that arise. Some aberrations will be present in any lens system. It is the job of the lens designer to balance these out and produce a design that is suitable for photographic use and possibly mass production.
+
+
+== Theory of operation ==
+Typical rectilinear lenses can be thought of as "improved" pinhole "lenses". As shown, a pinhole "lens" is simply a small aperture that blocks most rays of light, ideally selecting one ray to the object for each point on the image sensor. Pinhole lenses have a few severe limitations:
+A pinhole camera with a large aperture is blurry because each pixel is essentially the shadow of the aperture stop, so its size is no smaller than the size of the aperture (below left). Here a pixel is the area of the detector exposed to light from a point on the object.
+Making the pinhole smaller improves resolution (up to a limit), but reduces the amount of light captured.
+At a certain point, shrinking the hole does not improve the resolution because of the diffraction limit. Beyond this limit, making the hole smaller makes the image blurrier as well as darker (see the figure below).
+Practical lenses can be thought of as an answer to the question "how can we modify a pinhole lens to admit more light and give a smaller spot size?" A first step is to put a simple convex lens at the pinhole with a focal length equal to the distance to the film plane (assuming the camera will take pictures of distant objects ). This allows us to open up the pinhole significantly (below right) because a thin convex lens bends light rays in proportion to their distance to the axis of the lens, with rays striking the center of the lens passing straight through. The geometry is almost the same as with a simple pinhole lens, but rather than being illuminated by single rays of light, each image point is illuminated by a focused "pencil" of light rays.
+Standing in front of the camera, you would see the small hole, the aperture. The virtual image of the aperture as seen from the world is known as the lens's entrance pupil; ideally, all rays of light leaving a point on the object that enter the entrance pupil will be focused to the same point on the image sensor/film (provided the object point is in the field of view). If one were inside the camera, one would see the lens acting as a projector. The virtual image of the aperture from inside the camera is the lens's exit pupil. In this simple case, the aperture, entrance pupil, and exit pupil are all in the same place because the only optical element is in the plane of the aperture, but in general these three will be in different places. Practical photographic lenses include more lens elements. The additional elements allow lens designers to reduce various aberrations, but the principle of operation remains the same: pencils of rays are collected at the entrance pupil and focused down from the exit pupil onto the image plane.
+
+
+== Construction ==
+
+A camera lens may be made from a number of elements: from one, as in the Box Brownie's meniscus lens, to over 20 in the more complex zooms. These elements may themselves comprise a group of lenses cemented together.
+The front element is critical to the performance of the whole assembly. In all modern lenses the surface is coated to reduce abrasion, flare, and surface reflectance, and to adjust color balance. To minimize aberration, the curvature is usually set so that the angle of incidence and the angle of refraction are equal. In a prime lens this is easy, but in a zoom there is always a compromise.
+The lens usually is focused by adjusting the distance from the lens assembly to the image plane, or by moving elements of the lens assembly. To improve performance, some lenses have a cam system that adjusts the distance between the groups as the lens is focused. Manufacturers call this different things: Nikon calls it CRC (close range correction); Canon calls it a floating system; and Hasselblad and Mamiya call it FLE (floating lens element).
+Glass is the most common material used to construct lens elements, due to its good optical properties and resistance to scratching. Other materials are also used, such as quartz glass, fluorite, plastics like acrylic (Plexiglass), and even germanium and meteoritic glass. Plastics allow the manufacturing of strongly aspherical lens elements which are difficult or impossible to manufacture in glass, and which simplify or improve lens manufacturing and performance. Plastics are not used for the outermost elements of all but the cheapest lenses as they scratch easily. Molded plastic lenses have been used for the cheapest disposable cameras for many years, and have acquired a bad reputation: manufacturers of quality optics tend to use euphemisms such as "optical resin". However many modern, high performance (and high priced) lenses from popular manufacturers include molded or hybrid aspherical elements, so it is not true that all lenses with plastic elements are of low photographic quality.
+The 1951 USAF resolution test chart is one way to measure the resolving power of a lens. The quality of the material, coatings, and build affect the resolution. Lens resolution is ultimately limited by diffraction, and very few photographic lenses approach this resolution. Ones that do are called "diffraction limited" and are usually extremely expensive.
+Today, most lenses are multi-coated in order to minimize lens flare and other unwanted effects. Some lenses have a UV coating to keep out the ultraviolet light that could taint color. Most modern optical cements for bonding glass elements also block UV light, negating the need for a UV filter. UV photographers must go to great lengths to find lenses with no cement or coatings.
+A lens will most often have an aperture adjustment mechanism, usually an iris diaphragm, to regulate the amount of light that passes. In early camera models a rotating plate or slider with different sized holes was used. These Waterhouse stops may still be found on modern, specialized lenses. A shutter, to regulate the time during which light may pass, may be incorporated within the lens assembly (for better quality imagery), within the camera, or even, rarely, in front of the lens. Some cameras with leaf shutters in the lens omit the aperture, and the shutter does double duty.
+
+
+== Aperture and focal length ==
+
+The two fundamental parameters of an optical lens are the focal length and the maximum aperture. The lens' focal length determines the magnification of the image projected onto the image plane, and the aperture the light intensity of that image. For a given photographic system the focal length determines the angle of view, short focal lengths giving a wider field of view than longer focal length lenses. A wider aperture, identified by a smaller f-number, allows using a faster shutter speed for the same exposure.
+The maximum usable aperture of a lens is specified as the focal ratio or f-number, defined as the lens's focal length divided by the effective aperture (or entrance pupil), a dimensionless number. The lower the f-number, the higher light intensity at the focal plane. Larger apertures (smaller f-numbers) provide a much shallower depth of field than smaller apertures, other conditions being equal. Practical lens assemblies may also contain mechanisms to deal with measuring light, secondary apertures for flare reduction, and mechanisms to hold the aperture open until the instant of exposure to allow SLR cameras to focus with a brighter image with shallower depth of field, theoretically allowing better focus accuracy.
+Focal lengths are usually specified in millimetres (mm), but older lenses might be marked in centimetres (cm) or inches. For a given film or sensor size, specified by the length of the diagonal, a lens may be classified as a:
+Normal lens: angle of view of the diagonal about 50° and a focal length approximately equal to the image diagonal.
+Wide-angle lens: angle of view wider than 60° and focal length shorter than normal.
+Long-focus lens: any lens with a focal length longer than the diagonal measure of the film or sensor. Angle of view is narrower. The most common type of long-focus lens is the telephoto lens, a design that uses special optical configurations to make the lens shorter than its focal length.
+A side effect of using lenses of different focal lengths is the different distances from which a subject can be framed, resulting in a different perspective. Photographs can be taken of a person stretching out a hand with a wideangle, a normal lens, and a telephoto, which contain exactly the same image size by changing the distance from the subject. But the perspective will be different. With the wideangle, the hands will be exaggeratedly large relative to the head. As the focal length increases, the emphasis on the outstretched hand decreases. However, if pictures are taken from the same distance, and enlarged and cropped to contain the same view, the pictures will have identical perspective. A moderate long-focus (telephoto) lens is often recommended for portraiture because the perspective corresponding to the longer shooting distance is considered to look more flattering.
+The widest aperture lens in history of photography is believed to be the Carl Zeiss Planar 50mm f/0.7, which was designed and made specifically for the NASA Apollo lunar program to capture the far side of the moon in 1966. Three of these lenses were purchased by filmmaker Stanley Kubrick in order to film scenes in his movie Barry Lyndon, using candlelight as the sole light source.
+
+
+== Number of elements ==
+
+The complexity of a lens — the number of elements and their degree of asphericity — depends upon the angle of view, the maximum aperture, and intended price point, among other variables. An extreme wideangle lens of large aperture must be of very complex construction to correct for optical aberrations, which are worse at the edge of the field and when the edge of a large lens is used for image-forming. A long-focus lens of small aperture can be of very simple construction to attain comparable image quality: a doublet (two elements) will often suffice. Some older cameras were fitted with convertible lenses (German: Satzobjektiv) of normal focal length. The front element could be unscrewed, leaving a lens of twice the focal length, and half the angle of view and half the aperture. The simpler half-lens was of adequate quality for the narrow angle of view and small relative aperture. Obviously the bellows had to extend to twice the normal length.
+Good-quality lenses with maximum aperture no greater than f/2.8 and fixed, normal, focal length need at least three (triplet) or four elements (the trade name "Tessar" derives from the Greek tessera, meaning "four"). The widest-range zooms often have fifteen or more. The reflection of light at each of the many interfaces between different optical media (air, glass, plastic) seriously degraded the contrast and color saturation of early lenses, particularly zoom lenses, especially where the lens was directly illuminated by a light source. The introduction many years ago of optical coatings, and advances in coating technology over the years, have resulted in major improvements, and modern high-quality zoom lenses give images of quite acceptable contrast, although zoom lenses with many elements will transmit less light than lenses made with fewer elements (all other factors such as aperture, focal length, and coatings being equal).
+
+
+== Lens mounts ==
+
+Many Single-lens reflex cameras, and some rangefinder cameras have detachable lenses. A few other types do as well, notably the Mamiya TLR cameras and mirrorless interchangeable-lens cameras. The lenses attach to the camera using a lens mount, which contains mechanical linkages and, often also electrical contacts between the lens and camera body.
+The lens mount design is an important issue for compatibility between cameras and lenses. There is no universal standard for lens mounts, and each major camera maker typically uses its own proprietary design, incompatible with other makers. A few older manual focus lens mount designs, such as the Leica M39 lens mount for rangefinders, M42 lens mount for early SLRs, and the Pentax K mount are found across multiple brands, but this is not common today. A few mount designs, such as the Olympus/Kodak Four Thirds System mount for DSLRs, have also been licensed to other makers. Most large-format cameras take interchangeable lenses as well, which are usually mounted in a lensboard or on the front standard.
+The most common interchangeable lens mounts on the market today include the Canon EF, EF-S and EF-M autofocus lens mounts, the Nikon F manual and autofocus mounts, the Olympus/Kodak Four Thirds and Olympus/Panasonic Micro Four Thirds digital-only mounts, the Pentax K mount and autofocus variants, the Sony Alpha mount (derived from the Minolta mount) and the Sony E digital-only mount.
+
+
+== Types of lens ==
+
+
+=== "Close-up" or macro ===
+A macro lens used in macro or "close-up" photography (not to be confused with the compositional term close up) is any lens that produces an image on the focal plane (i.e., film or a digital sensor) that is the same size or larger than the subject being imaged. This configuration is generally used to image close-up very small subjects. A macro lens may be of any focal length, the actual focus length being determined by its practical use, considering magnification, the required ratio, access to the subject, and illumination considerations. It can be a special lens corrected optically for close up work or it can be any lens modified (with adapters or spacers) to bring the focal plane "forward" for very close photography. The depth-of-field is very narrow, limiting its usefulness. Lenses are usually stopped down to give a greater depth-of-field.
+
+
+=== Zoom ===
+
+Some lenses, called zoom lenses, have a focal length that varies as internal elements are moved, typically by rotating the barrel or pressing a button which activates an electric motor. Commonly, the lens may zoom from moderate wide-angle, through normal, to moderate telephoto; or from normal to extreme telephoto. The zoom range is limited by manufacturing constraints; the ideal of a lens of large maximum aperture which will zoom from extreme wideangle to extreme telephoto is not attainable. Zoom lenses are widely used for small-format cameras of all types: still and cine cameras with fixed or interchangeable lenses. Bulk and price limit their use for larger film sizes. Motorized zoom lenses may also have the focus, iris, and other functions motorized.
+
+
+=== Special-purpose ===
+
+Apochromat (APO) lenses have added correction for chromatic aberration.
+Process lenses have extreme correction for aberrations of geometry (pincushion distortion, barrel distortion) and are generally intended for use at a specific distance.
+Process and apochromat lenses are normally of small aperture, and are used for extremely accurate photographs of static objects. Generally their performance is optimized for subjects a few inches from the front of the lens, and suffers outside this narrow range.
+Enlarger lenses are made to be used with photographic enlargers (specialised projectors), rather than cameras.
+Lenses for aerial photography.
+Fisheye lenses: extreme wide-angle lenses with an angle of view of up to 180 degrees or more, with very noticeable (and intended) distortion.
+Stereoscopic lenses, to produce pairs of photographs which give a 3-dimensional effect when viewed with an appropriate viewer.
+Soft-focus lenses which give a soft, but not out-of-focus, image and have an imperfection-removing effect popular among portrait and fashion photographers.
+Infrared lenses
+Ultraviolet lenses
+Swivel lenses rotate while attached to a camera body to give unique perspectives and camera angles.
+Shift lenses and tilt/shift lenses (collectively perspective control lenses) allow special control of perspective on SLR cameras by mimicking view camera movements.
+
+
+== History and technical development of photographic camera lenses ==
+
+
+== Lens designs ==
+
+Some notable photographic optical lens designs are:
+Angenieux retrofocus
+Cooke triplet
+Double-Gauss
+Goerz Dagor
+Leitz Elmar
+Rapid Rectilinear
+Zeiss Sonnar
+Zeiss Planar
+Zeiss Tessar
+
+Some lens manufacturers (2009):
+Canon
+Cosina
+Dörr Danubia
+Leica/Leitz
+Nikon
+Olympus
+Pentax
+Rodenstock
+Samyang Optics
+Schneider Kreuznach
+Sigma Corporation
+Sony
+Tamron
+Tokina
+Zeiss
+
+
+== See also ==
+
+Anti-fogging treatment of optical surfaces
+Large format lens
+Lens (optics)
+Lens hood
+Lens cover
+Lenses for SLR and DSLR cameras
+Teleconverter
+Teleside converter
+William Taylor (inventor)
+Optical train
+
+
+== Notes ==
+Kingslake, Rudolf (1989). A History of the Photographic Lens. Boston: Academic Press. ISBN 978-0-12-408640-1. 
+Guy, NK (2012). The Lens: A Practical Guide for the Creative Photographer. Rocky Nook. ISBN 978-1-933952-97-0. 
+
+
+== References ==
+
+
+== External links ==
+Photo.net Lens Tutorial
+optical glass

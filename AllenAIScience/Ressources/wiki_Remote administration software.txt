@@ -1,0 +1,62 @@
+A remote administration tool (RAT) is a piece of software that allows a remote "operator" to control a system as if he has physical access to that system. While desktop sharing and remote administration have many legal uses, "RAT" software is usually associated with criminal or malicious activity. Malicious RAT software is typically installed without the victim's knowledge, often as payload of a Trojan horse, and will try to hide its operation from the victim and from security software.
+The operator controls the RAT through a network connection. Such tools provide an operator the following capabilities:
+Screen/camera capture or image control
+File management (download/upload/execute/etc.)
+Shell control (from command prompt)
+Computer control (power off/on/log off if remote feature is supported)
+Registry management (query/add/delete/modify)
+Hardware Destroyer (overclocker)
+Other software product-specific functions
+Its primary function is for one computer operator to gain access to remote PCs. One computer will run the "client" software application, while the other computer(s) operate as the "host(s)".
+
+
+== RAT trojan horsesEdit ==
+Many trojans and backdoors now have remote administration capabilities allowing an individual to control the victim's computer. Many times, a file (often called a client or stub) must be opened on the victim's computer before the hacker can have access to it. These are generally sent through email, P2P file sharing software, and in internet downloads. They are usually disguised as a legitimate program or file. Many clients/stubs will display a fake error message when opened, to make it seem like it didn't open. Some will also disable antivirus and firewall software. RAT trojans can generally do the following:
+Block mouses and keyboards
+Change the desktop wallpapers
+Downloads, uploads, deletes, and rename files
+Destroys hardware by overclocking
+Drop viruses and worms
+Edit Registry
+Use your internet connection to perform denial of service attacks (DoS)
+Format drives
+Steal passwords, credit card numbers
+Alter your web browser's homepage
+Hide desktop icons, task bar and files
+Silently install applications
+Log keystrokes, keystroke capture software
+Open CD-ROM tray
+Overload the RAM/ROM drive
+Send message boxes
+Play sounds
+Control mouse or keyboard
+Record sound with a connected microphone
+Record video with a connected webcam
+Show fake errors
+Shutdown, restart, log-off, shut down monitor
+Record and control victim's screen remotely
+View, kill, and start tasks in task manager
+Let the hacker surf the web with the IP-address of the infected computer
+A well-designed RAT will allow the operator the ability to do anything that they could do with physical access to the machine. Some RAT trojans are pranks that are most likely being controlled by a friend or enemy on April Fool's Day or a holiday. Prank RATs are generally not harmful, and won't log keystrokes or store information about the system on the computer. They usually do disruptive things like flip the screen upside-down, open the CD-ROM tray, or swap mouse buttons.
+
+
+== Notable RAT software and trojansEdit ==
+Back Orifice
+NetBus
+iControl
+Sub Seven
+Beast Trojan
+Bifrost
+Blackshades
+DarkComet
+LANfiltrator
+Win32.HsIdir
+Optix Pro
+
+
+== See alsoEdit ==
+Trojan horse
+VNC
+
+
+== ReferencesEdit ==

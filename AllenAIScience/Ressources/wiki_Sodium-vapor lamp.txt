@@ -1,0 +1,74 @@
+A sodium-vapor lamp is a gas-discharge lamp that uses sodium in an excited state to produce light. There are two varieties of such lamps: low pressure and high pressure. Low-pressure sodium lamps are highly efficient electrical light sources, but their yellow light restricts applications to outdoor lighting such as street lamps. High-pressure sodium lamps have a broader spectrum of light than the low-pressure lamps, but still poorer color rendering than other types of lamps. Low-pressure sodium lamps only give monochromatic yellow light and so inhibit color vision at night.
+
+
+== Low-pressure sodiumEdit ==
+
+Low-pressure sodium (LPS) lamps have a borosilicate glass gas discharge tube (arc tube) containing solid sodium, a small amount of neon, and argon gas in a Penning mixture to start the gas discharge. The discharge tube may be linear (SLI lamp)  or U-shaped. When the lamp is turned on it emits a dim red/pink light to warm the sodium metal and within a few minutes it turns into the common bright yellow as the sodium metal vaporizes. These lamps produce a virtually monochromatic light averaging a 589.3 nm wavelength (actually two dominant spectral lines very close together at 589.0 and 589.6 nm). As a result, the colors of illuminated objects are not easily distinguished because they are seen almost entirely by their reflection of this narrow bandwidth yellow light.
+LPS lamps have an outer glass vacuum envelope around the inner discharge tube for thermal insulation, which improves their efficiency. Earlier types of LPS lamps had a detachable dewar jacket (SO lamps). Lamps with a permanent vacuum envelope (SOI lamps) were developed to improve thermal insulation. Further improvement was attained by coating the glass envelope with an infrared reflecting layer of indium tin oxide, resulting in SOX lamps.
+LPS lamps are some of the most efficient electrically powered light sources when measured in photopic lighting conditions—producing up to 200 lm/W, partly because the light is at a wavelength near the peak sensitivity of the human eye. They are mainly used for outdoor lighting such as street lights and security lighting where faithful color rendition is considered unimportant. Recently it has been found that under typical nighttime mesopic driving conditions, whiter light can provide better results at a lower level.
+LPS lamps are similar to fluorescent lamps because they are a low-intensity light source with a linear lamp shape. They do not exhibit a bright arc as do High-intensity discharge (HID) lamps; they emit a softer luminous glow, resulting in less glare. Unlike HID lamps, during a voltage dip low-pressure sodium lamps return to full brightness rapidly. LPS lamps are available with power ratings from 10 W up to 180 W; longer bulb lengths can however create design and engineering problems.
+Another property of LPS lamps is they do not decline in lumen output with age. For example, mercury vapor HID lamps become dimmer towards the end of their lives, to the point of being ineffective, while continuing to consume their rated electrical power. LPS lamps do increase their energy use slightly (by about 10%) towards the end of their life, which is generally about 18,000 hours for modern lamps.
+
+
+=== Light pollution considerationsEdit ===
+For placements where light pollution is of prime importance, such as near astronomical observatories or sea turtle nesting beaches, low-pressure sodium is preferred (such as in San Jose and Flagstaff, Arizona). Such lamps emit light on just two dominant spectral lines (with other far weaker lines), and therefore have the least spectral interference with astronomical observation. The yellow color of low-pressure sodium lamps also leads to the least visual sky glow, due primarily to the Purkinje shift of dark-adapted human vision, causing the eye to be relatively insensitive to the yellow light scattered at low luminance levels in the clear atmosphere.  One consequence of widespread public lighting is that on cloudy nights, cities with enough lighting are illuminated by light reflected off the clouds. As sodium vapor lights are often the source of urban illumination, this turns the sky a tinge of orange.
+
+
+=== Film special effectsEdit ===
+Sodium vapor process (occasionally referred to as yellowscreen) is a film technique that relies on narrowband characteristics of LPS lamp. A yellow light of a LPS lamp falls into region that typical color negative is not sensitive to, but can be captured on special black-and-white film. A special camera can prepare two spools simultaneously: one with actors (or other foreground objects) and another which becomes a mask to combine them into different background. This technique originally yielded superior results compared to competing blue-screen, however advancements in blue- and green-screen techniques and computer imagery closed that gap, leaving SVP uncompetitive cost-wise. SVP was used in years 1956–1990, mostly by Disney. Notable example of films using this technique include Alfred Hitchcock's The Birds, Mary Poppins, and Bedknobs and Broomsticks.
+
+
+== High-pressure sodiumEdit ==
+
+High-pressure sodium lamps are quite efficient—about 100 lm/W—when measured for photopic lighting conditions. The higher power versions of 600 W have an efficiency of 150 lm/W. They have been widely used for outdoor area lighting such as streetlights and security. Understanding the change in human color vision sensitivity from photopic to mesopic and scotopic is essential for proper planning when designing lighting for roads.
+Because of the extremely high chemical activity of the high-pressure sodium arc, the arc tube is typically made of translucent aluminum oxide. This construction led General Electric to use the tradename "Lucalox" for their line of high-pressure sodium lamps.
+Xenon at a low pressure is used as a "starter gas" in the HPS lamp. It has the lowest thermal conductivity and lowest ionization potential of all the non-radioactive noble gases. As a noble gas, it does not interfere with the chemical reactions occurring in the operating lamp. The low thermal conductivity minimizes thermal losses in the lamp while in the operating state, and the low ionization potential causes the breakdown voltage of the gas to be relatively low in the cold state, which allows the lamp to be easily started.
+
+
+=== "White" SONEdit ===
+A variation of the high-pressure sodium, the White SON, introduced in 1986, has a higher pressure than the typical HPS/SON lamp, producing a color temperature of around 2700 K, with a CRI of 85, greatly resembling the color of an incandescent light. These are often used indoors in cafes and restaurants to create a particular atmosphere. However, these lamps suffer from higher purchase cost, shorter life, and lower light efficiency.
+
+
+=== Theory of operationEdit ===
+
+An amalgam of metallic sodium and mercury lies at the coolest part of the lamp and provides the sodium and mercury vapor that is needed to draw an arc. The temperature of the amalgam is determined to a great extent by lamp power. The higher the lamp power, the higher will be the amalgam temperature. The higher the temperature of the amalgam, the higher will be the mercury and sodium vapor pressures in the lamp and the higher will be the terminal voltage. As the temperature rises, the constant current and increasing voltage result in increased power until the nominal power is reached. For a given voltage, there are generally three modes of operation:
+The lamp is extinguished and no current flows.
+The lamp is operating with liquid amalgam in the tube.
+The lamp is operating with all amalgam evaporated.
+The first and last states are stable, because the lamp resistance is weakly related to the voltage, but the second state is unstable. Any anomalous increase in current will cause an increase in power, causing an increase in amalgam temperature, which will cause a decrease in resistance, which will cause a further increase in current. This will create a runaway effect, and the lamp will jump to the high-current state (#3). Because actual lamps are not designed to handle this much power, this would result in catastrophic failure. Similarly, an anomalous drop in current will drive the lamp to extinction. It is the second state that is the desired operating state of the lamp, because a slow loss of the amalgam over time from a reservoir will have less effect on the characteristics of the lamp than a fully evaporated amalgam. The result is an average lamp life in excess of 20,000 hours.
+In practical use, the lamp is powered by an AC voltage source in series with an inductive "ballast" in order to supply a nearly constant current to the lamp, rather than a constant voltage, thus assuring stable operation. The ballast is usually inductive rather than simply being resistive to minimize resistive losses. Because the lamp effectively extinguishes at each zero-current point in the AC cycle, the inductive ballast assists in the reignition by providing a voltage spike at the zero-current point.
+The light from the lamp consists of atomic emission lines of mercury and sodium, but is dominated by the sodium D-line emission. This line is extremely pressure (resonance) broadened and is also self-reversed because of absorption in the cooler outer layers of the arc, giving the lamp its improved color rendering characteristics. In addition, the red wing of the D-line emission is further pressure broadened by the Van der Waals forces from the mercury atoms in the arc.
+
+
+== End of lifeEdit ==
+
+At the end of life, high-pressure sodium lamps exhibit a phenomenon known as cycling, which is caused by a loss of sodium in the arc. Sodium is a highly reactive element and is easily lost by reacting with the arc tube, made of aluminum oxide. The products are sodium oxide and aluminum:
+6 Na + Al2O3 → 3 Na2O + 2 Al
+As a result, these lamps can be started at a relatively low voltage, but, as they heat up during operation, the internal gas pressure within the arc tube rises, and more and more voltage is required to maintain the arc discharge. As a lamp gets older, the maintaining voltage for the arc eventually rises to exceed the maximum voltage output by the electrical ballast. As the lamp heats to this point, the arc fails, and the lamp goes out. Eventually, with the arc extinguished, the lamp cools down again, the gas pressure in the arc tube is reduced, and the ballast can once again cause the arc to strike. The effect of this is that the lamp glows for a while and then goes out, typically starting at a pure or bluish white then moving to a red-orange before going out.
+More sophisticated ballast designs detect cycling and give up attempting to start the lamp after a few cycles, as the repeated high-voltage ignitions needed to restart the arc reduce the lifetime of the ballast. If power is removed and reapplied, the ballast will make a new series of startup attempts.
+LPS lamp failure does not result in cycling; rather, the lamp will simply not strike or will maintain its dull red glow exhibited during the start-up phase. In another failure mode, a tiny puncture of the arc tube leaks some of the sodium vapor into the outer vacuum bulb. The sodium condenses and creates a mirror on the outer glass, partially obscuring the arc tube. The lamp often continues operating normally. Much of the light generated is obscured by the sodium coating and no longer leaves the lamp.
+
+
+== ANSI HPS ballast codesEdit ==
+
+
+== See alsoEdit ==
+Arc lamp
+High-intensity discharge lamp (HID)
+History of street lighting in the United States
+List of light sources
+Metal-halide lamp
+Mercury-vapor lamp
+Neon lamp
+Street light
+Sulfur lamp
+Light pollution
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+de Groot, J J; van Vliet; J A J M (1986). The High-Pressure Sodium Lamp. Deventer: Kluwer Technische Boeken BV. ISBN 978-90-201-1902-2. OCLC 16637733. 
+Waymouth, John F (1971). Electric Discharge Lamps. Cambridge, MA: MIT Press. ISBN 978-0-262-23048-3. OCLC 214331. 
+Museum of Electric Discharge Lamps

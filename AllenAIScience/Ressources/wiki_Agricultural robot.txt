@@ -1,0 +1,52 @@
+Agricultural Robots or agribot is a robot deployed for agricultural purposes. The main area of application of robots in agriculture is at the harvesting stage. Fruit picking robots, driverless tractor / sprayer, and sheep shearing robots are designed to replace human labor. In most cases, a lot of factors have to be considered (e.g., the size and color of the fruit to be picked) before the commencement of a task. Robots can be used for other horticultural tasks such as pruning, weeding, spraying and monitoring. Robots can also be used in livestock applications (livestock robotics) such as automatic milking, washing and castrating. Robots like these have many benefits for the agricultural industry, including a higher quality of fresh produce, lower production costs, and a smaller need for manual labor.
+
+
+== Mechanical design ==
+The mechanical design consists of an end effector, manipulator, and gripper. Several factors must be considered in the design of the manipulator, including the task, economic efficiency, and required motions. The end effector influences the market value of the fruit and the gripper's design is based on the crop that is being harvested.
+
+
+=== End effectors ===
+An end effector in an agricultural robot is the device found at the end of the robotic arm, used for various agricultural operations. Several different kinds of end effectors have been developed. In an agricultural operation involving grapes in Japan, end effectors are used for harvesting, berry-thinning, spraying, and bagging. Each was designed according to the nature of the task and the shape and size of the target fruit. For instance, the end effectors used for harvesting were designed to grasp, cut, and push the bunches of grapes.
+Berry thinning is another operation performed on the grapes, and is used to enhance the market value of the grapes, increase the grapes' size, and facilitate the bunching process. For berry thinning, an end effector consists of an upper, middle, and lower part. The upper part has two plates and a rubber that can open and close. The two plates compress the grapes to cut off the rachis branches and extract the bunch of grapes. The middle part contains a plate of needles, a compression spring, and another plate which has holes spread across its surface. When the two plates compress, the needles punch holes through the grapes. Next, the lower part has a cutting device which can cut the bunch to standardize its length.
+For spraying, the end effector consists of a spray nozzle that is attached to a manipulator. In practice, producers want to ensure that the chemical liquid is evenly distributed across the bunch. Thus, the design allows for an even distribution of the chemical by making the nozzle to move at a constant speed while keeping distance from the target.
+The final step in grape production is the bagging process. The bagging end effector is designed with a bag feeder and two mechanical fingers. In the bagging process, the bag feeder is composed of slits which continuously supply bags to the fingers in an up and down motion. While the bag is being fed to the fingers, two leaf springs that are located on the upper end of the bag hold the bag open. The bags are produced to contain the grapes in bunches. Once the bagging process is complete, the fingers open and release the bag. This shuts the leaf springs, which seals the bag and prevents it from opening again.
+
+
+=== Gripper ===
+The gripper is a grasping device that is used for harvesting the target crop. Design of the gripper is based on simplicity, low cost, and effectiveness. Thus, the design usually consists of two mechanical fingers that are able to move in synchrony when performing their task. Specifics of the design depend on the task that is being performed. For example, in a procedure that required plants to be cut for harvesting, the gripper was equipped with a sharp blade.
+
+
+=== Manipulator ===
+The manipulator allows the gripper and end effector to navigate through their environment. The manipulator consists of four-bar parallel links that maintain the gripper's position and height. The manipulator also can utilize one, two, or three pneumatic actuators. Pneumatic actuators are motors which produce linear and rotary motion by converting compressed air into energy. The pnuematic actuator is the most effective actuator for agricultural robots because of its high power-weight ratio. The most cost efficient design for the manipulator is the single actuator configuration, yet this is the least flexible option.
+
+
+== Applications ==
+Robots have many fields of application in agriculture. Some examples and prototypes of robots include the Merlin Robot Milker, Rosphere, Harvest Automation, Orange Harvester, lettuce bot,  and weeder. One case of a large scale use of robots in farming is the milk bot. It is widespread among British dairy farms because of its efficiency and nonrequirement to move. According to David Gardner (chief executive of the Royal Agricultural Society of England), a robot can complete a complicated task if its repetitive and the robot is allowed to sit in a single place. Furthermore, robots that work on repetitive tasks (e.g. milking) fulfill their role to a consistent and particular standard. 
+Another field of application is horticulture. One horticultural application is the development of RV 100 by Harvest Automation Inc. RV 100 is designed to transport potted plants in a greenhouse or outdoor setting. The functions of RV100 in handling and organizing potted plants include spacing capabilities, collection, and consolidation. The benefits of using RV100 for this task include high placement accuracy, autonomous outdoor and indoor function, and reduced production costs.
+
+
+== Examples ==
+"Ag Ant", an inexpensive foot-long bot that works cooperatively.
+The Oracle Robot
+The Shear Magic Robot
+Fruit Picking Robot
+LSU's AgBot
+Harvest Automation is a company founded by former iRobot employees to develop robots for greenhouses
+Strawberry picking robot from Robotic Harvesting and Agrobot.
+Casmobot next generation slope mower
+Fieldrobot Event is a competition in mobile agricultural robotics
+HortiBot - A Plant Nursing Robot,
+Lettuce Bot - Organic Weed Elimination and Thinning of Lettuce
+Rice planting robot developed by the Japanese National Agricultural Research Centre 
+
+
+== See also ==
+
+Future of robotics
+
+
+== References ==
+
+
+== External links ==
+ Media related to Agricultural robots at Wikimedia Commons

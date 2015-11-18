@@ -1,0 +1,67 @@
+A ferrite is a type of ceramic compound composed of iron oxide (Fe2O3) combined chemically with one or more additional metallic elements. They are both electrically nonconductive and ferrimagnetic, meaning they can be magnetized or attracted to a magnet. Ferrites can be divided into two families based on their magnetic coercivity, their resistance to being demagnetized. Hard ferrites have high coercivity; Hence they are difficult to demagnetize. They are used to make magnets, for devices such as refrigerator magnets, loudspeakers and small electric motors. Soft ferrites have low coercivity. They are used in the electronics industry to make ferrite cores for inductors and transformers, and in various microwave components. Yogoro Kato and Takeshi Takei of the Tokyo Institute of Technology invented this material in 1930.
+
+
+== Composition and properties ==
+Ferrites are usually non-conductive ferrimagnetic ceramic compounds derived from iron oxides such as hematite (Fe2O3) or magnetite (Fe3O4) as well as oxides of other metals. Ferrites are, like most of the other ceramics, hard and brittle.
+Many ferrites are spinels with the formula AB2O4, where A and B represent various metal cations, usually including iron Fe. Spinel ferrites usually adopt a crystal motif consisting of cubic close-packed (fcc) oxides (O2−) with A cations occupying one eighth of the tetrahedral holes and B cations occupying half of the octahedral holes. If one eighth of the tetrahedral holes are occupied by B cation, then one fourth of the octahedral sites are occupied by A cation and the other one fourth by B cation and it's called the inverse spinel structure. It's also possible to have mixed structure spinel ferrites with formula [M2+1-δFe3+δ][M2+δFe3+2-δ]O4 where δ is the degree of inversion.
+The magnetic material known as "ZnFe" has the formula ZnFe2O4, with Fe3+ occupying the octahedral sites and Zn2+ occupy the tetrahedral sites, it's an example of normal structure spinel ferrite.
+Some ferrites have hexagonal crystal structure, like Barium and Strontium ferrites BaFe12O19 (BaO:6Fe2O3) and SrFe12O19 (SrO:6Fe2O3). 
+In terms of their magnetic properties, the different ferrites are often classified as "soft" or "hard", which refers to their low or high magnetic coercivity, as follows.
+
+
+=== Soft ferrites ===
+
+Ferrites that are used in transformer or electromagnetic cores contain nickel, zinc, and/or manganese compounds. They have a low coercivity and are called soft ferrites. The low coercivity means the material's magnetization can easily reverse direction without dissipating much energy (hysteresis losses), while the material's high resistivity prevents eddy currents in the core, another source of energy loss. Because of their comparatively low losses at high frequencies, they are extensively used in the cores of RF transformers and inductors in applications such as switched-mode power supplies and loopstick antennas used in AM radios.
+The most common soft ferrites are: 
+Manganese-zinc ferrite (MnZn, with the formula MnaZn(1-a)Fe2O4). MnZn have higher permeability and saturation induction than NiZn.
+Nickel-zinc ferrite (NiZn, with the formula NiaZn(1-a)Fe2O4). NiZn ferrites exhibit higher resistivity than MnZn, and are therefore more suitable for frequencies above 1 MHz.
+For applications below 5 MHz, MnZn ferrites are used; above that, NiZn is the usual choice. The exception is with common mode inductors, where the threshold of choice is at 70 MHz.
+
+
+=== Hard ferrites ===
+In contrast, permanent ferrite magnets are made of hard ferrites, which have a high coercivity and high remanence after magnetization. Iron oxide and barium or strontium carbonate are used in manufacturing of hard ferrite magnets. The high coercivity means the materials are very resistant to becoming demagnetized, an essential characteristic for a permanent magnet. They also have high magnetic permeability. These so-called ceramic magnets are cheap, and are widely used in household products such as refrigerator magnets. The maximum magnetic field B is about 0.35 tesla and the magnetic field strength H is about 30 to 160 kiloampere turns per meter (400 to 2000 oersteds). The density of ferrite magnets is about 5 g/cm3.
+The most common hard ferrites are:
+Strontium ferrite, SrFe12O19 (SrO·6Fe2O3), used in small electric motors, micro-wave devices, recording media, magneto-optic media, telecommunication and electronic industry.
+Barium ferrite, BaFe12O19 (BaO·6Fe2O3), a common material for permanent magnet applications. Barium ferrites are robust ceramics that are generally stable to moisture and corrosion-resistant. They are used in e.g. loudspeaker magnets and as a medium for magnetic recording, e.g. on magnetic stripe cards.
+Cobalt ferrite, CoFe2O4 (CoO·Fe2O3), used in some media for magnetic recording.
+
+
+== Production ==
+Ferrites are produced by heating a mixture of finely-powdered precursors pressed into a mold. During the heating process, calcination of carbonates occurs:
+MCO3 → MO + CO2
+The oxides of barium and strontium are typically supplied as their carbonates, BaCO3 or SrCO3. The resulting mixture of oxides undergoes sintering. Sintering is a high temperature process similar to the firing of ceramic ware.
+Afterwards, the cooled product is milled to particles smaller than 2 µm, small enough that each particle consists of a single magnetic domain. Next the powder is pressed into a shape, dried, and re-sintered. The shaping may be performed in an external magnetic field, in order to achieve a preferred orientation of the particles (anisotropy).
+Small and geometrically easy shapes may be produced with dry pressing. However, in such a process small particles may agglomerate and lead to poorer magnetic properties compared to the wet pressing process. Direct calcination and sintering without re-milling is possible as well but leads to poor magnetic properties.
+Electromagnets are pre-sintered as well (pre-reaction), milled and pressed. However, the sintering takes place in a specific atmosphere, for instance one with an oxygen shortage. The chemical composition and especially the structure vary strongly between the precursor and the sintered product.
+To allow efficient stacking of product in the furnace during sintering and prevent parts sticking together, many manufacturers separate ware using ceramic powder separator sheets. These sheets are available in various materials such as alumina, zirconia and magnesia. They are also available in fine, medium and coarse particle sizes. By matching the material and particle size to the ware being sintered, surface damage and contamination can be reduced while maximizing furnace loading.
+
+
+== Uses ==
+Ferrite cores are used in electronic inductors, transformers, and electromagnets where the high electrical resistance of the ferrite leads to very low eddy current losses. They are commonly seen as a lump in a computer cable, called a ferrite bead, which helps to prevent high frequency electrical noise (radio frequency interference) from exiting or entering the equipment.
+Early computer memories stored data in the residual magnetic fields of hard ferrite cores, which were assembled into arrays of core memory. Ferrite powders are used in the coatings of magnetic recording tapes. One such type of material is iron (III) oxide.
+Ferrite particles are also used as a component of radar-absorbing materials or coatings used in stealth aircraft and in the absorption tiles lining the rooms used for electromagnetic compatibility measurements.
+Most common radio magnets, including those used in loudspeakers, are ferrite magnets. Ferrite magnets have largely displaced Alnico magnets in these applications.
+It is a common magnetic material for electromagnetic instrument pickups.
+Ferrite nanoparticles exhibit superparamagnetic properties.
+
+
+== See also ==
+Ferromagnetic material properties
+Ferrite core
+
+
+== References ==
+
+
+== External links ==
+International Magnetics Association
+What are the bumps at the end of computer cables?
+
+
+== Sources ==
+MMPA 0100-00, Standard Specifications for Permanent Magnet Materials
+Meeldijk, Victor Electronic Components: Selection and Application Guidelines, 1997 Wiley ISBN 0-471-18972-3
+Ott, Henry Noise Reduction Techniques in Electronic Systems 1988 Wiley ISBN 0-471-85068-3
+Luecke, Gerald and others General Radiotelephone Operator License Plus Radar Endorsement 2004, Master Pub. ISBN 0-945053-14-2
+Bartlett, Bruce and others Practical Recording Techniques 2005 Focal Press [ISBN 0-240-80685-9]
+Schaller, George E. Ferrite Processing & Effects on Material Performance

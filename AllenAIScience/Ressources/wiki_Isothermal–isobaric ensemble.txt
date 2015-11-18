@@ -1,0 +1,10 @@
+The isothermal–isobaric ensemble (constant temperature and constant pressure ensemble) is a statistical mechanical ensemble that maintains constant temperature  and constant pressure  applied. It is also called the -ensemble, where the number of particles  is also kept as a constant. This ensemble plays an important role in chemistry as chemical reactions are usually carried out under constant pressure condition. The partition function can be written as the weighted sum of the partition function of canonical ensemble,  .
+
+where  ( is the Boltzmann constant), and  is volume of the system.
+There are several candidates for the normalization factor , e.g., , or . These choices make the partition function a nondimensional quantity. The differences vanish in the thermodynamic limit, i.e., in the limit of infinite number of particles.
+The characteristic state function of this ensemble is the Gibbs free energy,
+
+This thermodynamic potential is related to the Helmholtz free energy (logarithm of the canonical partition function), , in the following way:
+
+
+== References ==

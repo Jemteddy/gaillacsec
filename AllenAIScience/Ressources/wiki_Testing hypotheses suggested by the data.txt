@@ -1,0 +1,38 @@
+In statistics, hypotheses suggested by the data, if tested using the data set that suggested them, are likely to be accepted even when they are not true. This is because circular reasoning (double dipping) would be involved: something seems true in the limited data set, therefore we hypothesize that it is true in general, therefore we (wrongly) test it on the same limited data set, which seems to confirm that it is true. Generating hypotheses based on data already observed, in the absence of testing them on new data, is referred to as post hoc theorizing (from Latin post hoc, "after this").
+The correct procedure is to test any hypothesis on a data set that was not used to generate the hypothesis.
+
+
+== Example of fallacious acceptance of a hypothesisEdit ==
+Suppose fifty different researchers, unaware of each other's work, run clinical trials to test whether Vitamin X is efficacious in treating cancer. Forty-nine of them find no significant differences between measurements done on patients who have taken Vitamin X and those who have taken a placebo. The fiftieth study finds a big difference, but the difference is of a size that one would expect to see in about one of every fifty studies even if vitamin X has no effect at all, just due to chance (with patients who were going to get better anyway disproportionately ending up in the Vitamin X group instead of the control group, which can happen since the entire population of cancer patients cannot be included in the study). When all fifty studies are pooled, one would say no effect of Vitamin X was found, because the positive result was not more frequent than chance, i.e. it was not statistically significant. However, it would be reasonable for the investigators running the fiftieth study to consider it likely that they have found an effect, at least until they learn of the other forty-nine studies. Now suppose that the one anomalous study was in Denmark. The data suggest a hypothesis that Vitamin X is more efficacious in Denmark than elsewhere. But Denmark was by chance the one-in-fifty in which an extreme value of the test statistic happened; one expects such extreme cases one time in fifty on average if no effect is present. It would therefore be fallacious to cite the data as serious evidence for this particular hypothesis suggested by the data.
+However, if another study is then done in Denmark and again finds a difference between the vitamin and the placebo, then the first study strengthens the case provided by the second study. Or, if a second series of studies is done on fifty countries, and Denmark stands out in the second study as well, the two series together constitute important evidence even though neither by itself is at all impressive.
+
+
+== The general problemEdit ==
+Testing a hypothesis suggested by the data can very easily result in false positives (type I errors). If one looks long enough and in enough different places, eventually data can be found to support any hypothesis. Yet, these positive data do not by themselves constitute evidence that the hypothesis is correct. The negative test data that were thrown out are just as important, because they give one an idea of how common the positive results are compared to chance. Running an experiment, seeing a pattern in the data, proposing a hypothesis from that pattern, then using the same experimental data as evidence for the new hypothesis is extremely suspect, because data from all other experiments, completed or potential, has essentially been "thrown out" by choosing to look only at the experiments that suggested the new hypothesis in the first place.
+A large set of tests as described above greatly inflates the probability of type I error as all but the data most favorable to the hypothesis is discarded. This is a risk, not only in hypothesis testing but in all statistical inference as it is often problematic to accurately describe the process that has been followed in searching and discarding data. In other words, one wants to keep all data (regardless of whether they tend to support or refute the hypothesis) from "good tests", but it is sometimes difficult to figure out what a "good test" is. It is a particular problem in statistical modelling, where many different models are rejected by trial and error before publishing a result (see also overfitting, Publication bias).
+The error is particularly prevalent in data mining and machine learning. It also commonly occurs in academic publishing where only reports of positive, rather than negative, results tend to be accepted, resulting in the effect known as publication bias.
+
+
+== Correct proceduresEdit ==
+All strategies for sound testing of hypotheses suggested by the data involve including a wider range of tests in an attempt to validate or refute the new hypothesis. These include:
+Collecting confirmation samples
+Cross-validation
+Methods of compensation for multiple comparisons
+Simulation studies including adequate representation of the multiple-testing actually involved
+Henry Scheffé's simultaneous test of all contrasts in multiple comparison problems is the most well-known remedy in the case of analysis of variance. It is a method designed for testing hypotheses suggested by the data while avoiding the fallacy described above.
+
+
+== See alsoEdit ==
+Bonferroni correction
+Data analysis
+Data dredging
+Data-snooping bias
+Exploratory data analysis
+Post-hoc analysis
+Predictive analytics
+Texas sharpshooter fallacy
+Type I and type II errors
+Uncomfortable science
+
+
+== Notes and referencesEdit ==

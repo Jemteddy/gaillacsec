@@ -1,0 +1,17 @@
+Windows File Protection (WFP), a sub-system included in Microsoft Windows operating systems of the Windows 2000 and Windows XP era, aims to prevent programs from replacing critical Windows system files. Protecting core system files mitigates problems such as DLL hell with programs and the operating system. Windows 2000, Windows XP and Windows Server 2003 include WFP under the name of Windows File Protection; Windows Me includes it as System File Protection (SFP).
+
+
+== Operation ==
+With Windows File Protection active, replacing or deleting a system file that has no file lock to prevent it getting overwritten causes Windows immediately and silently to restore the original copy of the file. The original version of the file is restored from a cached folder which contains backup copies of these files. The Windows NT family uses the cached folder %WinDir%\System32\Dllcache. Windows Me caches its entire set of compressed cabinet setup files and stores them in the %Systemroot%\Options\Install folder.
+WFP covers all files which the operating system installs (such as DLL, EXE, SYS, OCX etc.), protecting them from deletion or from replacement by older versions. The digital signatures of these files are checked using code signing and the signature catalog files stored in the %Systemroot%\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE} folder. Only certain operating system components such as the Package Installer (Update.exe) or Windows Installer (Msiexec.exe) can replace these files. Changes made using any other methods in order to replace these files are reverted and the files are silently restored from the cache. If Windows File Protection cannot automatically find the file in the cached folder, it searches the network path or prompts the user for the Windows installation disc to restore the appropriate version of the file.
+WFP integrates with the System File Checker (sfc.exe) utility.
+Windows Vista and later Windows systems do not include Windows File Protection, but they include Windows Resource Protection which protects files using ACLs. Windows Resource Protection aims to protect core registry keys and values and prevent potentially damaging system configuration changes, besides operating system files.
+Note that the non-use of ACLs in Windows File Protection was a design choice: Not only did it allow operation on non-NTFS systems, but it prevented those same "bad" installers from failing completely from a file access error.
+
+
+== External links ==
+Overview of Windows File Protection
+Registry settings for Windows File Protection
+Whitepaper on Windows File Protection
+Overview of System File Protection (Windows Me)
+Hacking Windows File Protection

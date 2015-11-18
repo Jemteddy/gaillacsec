@@ -1,0 +1,112 @@
+Statistical process control (SPC) is a method of quality control which uses statistical methods. SPC is applied in order to monitor and control a process. Monitoring and controlling the process ensures that it operates at its full potential. At its full potential, the process can make as much conforming product as possible with a minimum (if not an elimination) of waste (rework or scrap). SPC can be applied to any process where the "conforming product" (product meeting specifications) output can be measured. Key tools used in SPC include control charts; a focus on continuous improvement; and the design of experiments. An example of a process where SPC is applied is manufacturing lines.
+
+
+== OverviewEdit ==
+
+
+=== Objective analysis of variationEdit ===
+SPC must be practiced in 2 phases: The first phase is the initial establishment of the process, and the second phase is the regular production use of the process. In the second phase, a decision of the period to be examined must be made, depending upon the change in 4 - M conditions (Man, Machine, Material, Method) and wear rate of parts used in the manufacturing process (machine parts, jigs, and fixture)
+
+
+=== Emphasis on early detectionEdit ===
+An advantage of SPC over other methods of quality control, such as "inspection", is that it emphasizes early detection and prevention of problems, rather than the correction of problems after they have occurred.
+
+
+=== Increasing rate of productionEdit ===
+In addition to reducing waste, SPC can lead to a reduction in the time required to produce the product. SPC makes it less likely the finished product will need to be reworked.
+
+
+== LimitationsEdit ==
+SPC is applied to reduce or eliminate process waste. This, in turn, eliminates the need for the process step of post-manufacture inspection. The success of SPC relies not only on the skill with which it is applied, but also on how suitable or amenable the process is to SPC. In some cases, it may be difficult to judge when the application of SPC is appropriate.
+
+
+== HistoryEdit ==
+SPC was pioneered by Walter A. Shewhart at Bell Laboratories in the early 1920s. Shewhart developed the control chart in 1924 and the concept of a state of statistical control. Statistical control is equivalent to the concept of exchangeability developed by logician William Ernest Johnson also in 1924 in his book Logic, Part III: The Logical Foundations of Science. Along with a gifted team at AT&T that included Harold Dodge and Harry Romig he worked to put sampling inspection on a rational statistical basis as well. Shewhart consulted with Colonel Leslie E. Simon in the application of control charts to munitions manufacture at the Army's Picatinny Arsenal in 1934. That successful application helped convince Army Ordnance to engage AT&T's George Edwards to consult on the use of statistical quality control among its divisions and contractors at the outbreak of World War II.
+W. Edwards Deming invited Shewhart to speak at the Graduate School of the U.S. Department of Agriculture, and served as the editor of Shewhart's book Statistical Method from the Viewpoint of Quality Control (1939) which was the result of that lecture. Deming was an important architect of the quality control short courses that trained American industry in the new techniques during WWII. The graduates of these wartime courses formed a new professional society in 1945, the American Society for Quality Control, which elected Edwards as its first president. Deming traveled to Japan during the Allied Occupation and met with the Union of Japanese Scientists and Engineers (JUSE) in an effort to introduce SPC methods to Japanese industry .
+
+
+=== "Common" and "special" sources of variationEdit ===
+
+Shewhart read the new statistical theories coming out of Britain, especially the work of William Sealy Gosset, Karl Pearson, and Ronald Fisher. However, he understood that data from physical processes seldom produced a "normal distribution curve"; that is, a Gaussian distribution or "bell curve". He discovered that data from measurements of variation in manufacturing did not always behave the way as data from measurements of natural phenomena (for example, Brownian motion of particles). Shewhart concluded that while every process displays variation, some processes display variation that is natural to the process ("common" sources of variation)- these processes were described as in (statistical) control. Other processes additionally display variation that is not present in the causal system of the process at all times ("special" sources of variation), and these were described as 'not in control'.
+
+
+=== Application to non-manufacturing processesEdit ===
+In 1988, the Software Engineering Institute suggested that SPC could be applied to non-manufacturing processes, such as software engineering processes, in the Capability Maturity Model (CMM). The Level 4 and Level 5 practices of the Capability Maturity Model Integration (CMMI) use this concept.
+The notion that SPC is a useful tool when applied to non-repetitive, knowledge-intensive processes such as research and development or systems engineering has encountered skepticism and remains controversial.
+In his seminal article No Silver Bullet, Fred Brooks points out that the complexity, conformance requirements, changeability, and invisibility of software results in inherent and essential variation that cannot be removed. This implies that SPC is less effective in the domain of software development than in, e.g., manufacturing.
+In 2014 a method for data validation of measurement data, based on SPC, was tried out. The method enabled the user to validate data containing static wave components (process noise), a requirement when working on hydro power plants where slowly damping surges are abundant during normal operation. 
+
+
+== Variation in manufacturingEdit ==
+In manufacturing, quality is defined as conformance to specification. However, no two products or characteristics are ever exactly the same, because any process contains many sources of variability. In mass-manufacturing, traditionally, the quality of a finished article is ensured by post-manufacturing inspection of the product. Each article (or a sample of articles from a production lot) may be accepted or rejected according to how well it meets its design specifications. In contrast, SPC uses statistical tools to observe the performance of the production process in order to detect significant variations before they result in the production of a sub-standard article. Any source of variation at any point of time in a process will fall into one of two classes.
+1) "Common Causes" - sometimes referred to as nonassignable, normal sources of variation. It refers to many sources of variation that consistently acts on process. These types of causes produce a stable and repeatable distribution over time.
+2) "Special Causes" - sometimes referred to as assignable sources of variation. It refers to any factor causing variation that affects only some of the process output. They are often intermittent and unpredictable.
+Most processes have many sources of variation; most of them are minor and may be ignored. If the dominant sources of variation are identified, however, resources for change can be focused on them. If the dominant assignable sources of variation are detected, potentially they can be identified and removed. Once removed, the process is said to be "stable". When a process is stable, its variation should remain within a known set of limits. That is, at least, until another assignable source of variation occurs. For example, a breakfast cereal packaging line may be designed to fill each cereal box with 500 grams of cereal. Some boxes will have slightly more than 500 grams, and some will have slightly less. When the package weights are measured, the data will demonstrate a distribution of net weights. If the production process, its inputs, or its environment (for example, the machines on the line) change, the distribution of the data will change. For example, as the cams and pulleys of the machinery wear, the cereal filling machine may put more than the specified amount of cereal into each box. Although this might benefit the customer, from the manufacturer's point of view, this is wasteful and increases the cost of production. If the manufacturer finds the change and its source in a timely manner, the change can be corrected (for example, the cams and pulleys replaced).
+
+
+== Application of SPCEdit ==
+The application of SPC involves three main phases of activity:
+Understanding the process and the specification limits.
+Eliminating assignable (special) sources of variation, so that the process is stable.
+Monitoring the ongoing production process, assisted by the use of control charts, to detect significant changes of mean or variation.
+
+
+=== Control chartsEdit ===
+The data from measurements of variations at points on the process map is monitored using control charts. Control charts attempt to differentiate "assignable" ("special") sources of variation from "common" sources. "Common" sources, because they are an expected part of the process, are of much less concern to the manufacturer than "assignable" sources. Using control charts is a continuous activity, ongoing over time.
+
+
+==== Stable processEdit ====
+When the process does not trigger any of the control chart "detection rules" for the control chart, it is said to be "stable". A process capability analysis may be performed on a stable process to predict the ability of the process to produce "conforming product" in the future.
+
+
+==== Excessive variationEdit ====
+When the process triggers any of the control chart "detection rules", (or alternatively, the process capability is low), other activities may be performed to identify the source of the excessive variation. The tools used in these extra activities include: Ishikawa diagrams, designed experiments, and Pareto charts. Designed experiments are a means of objectively quantifying the relative importance (strength) of sources of variation. Once the sources of variation have been quantified, actions may be taken to reduce or eliminate them. Methods of eliminating a source of variation might include: development of standards; staff training; error-proofing and changes to the process itself or its inputs.
+
+
+== Mathematics of control chartsEdit ==
+Digital control charts use logic based rules that determine "derived values" which signal the need for correction. For example,
+derived value = last value + average absolute difference between the last N numbers.
+
+
+== See alsoEdit ==
+Process capability index
+Quality assurance
+ANOVA Gauge R&R
+Stochastic control
+Electronic design automation
+Reliability engineering
+Six sigma
+Process Window Index
+
+
+== ReferencesEdit ==
+
+
+== BibliographyEdit ==
+Barlow, R. E. & Irony, T. Z. (1992) "Foundations of statistical quality control" in Ghosh, M. & Pathak, P.K. (eds.) Current Issues in Statistical Inference: Essays in Honor of D. Basu, Hayward, CA: Institute of Mathematical Statistics, 99-112.
+Bergman, B. (2009) "Conceptualistic Pragmatism: A framework for Bayesian analysis?", IIE Transactions, 41, 86–93
+Deming, W E (1975) "On probability as a basis for action", The American Statistician, 29(4), 146–152
+— (1982) Out of the Crisis: Quality, Productivity and Competitive Position ISBN 0-521-30553-5
+Oakland, J (2002) Statistical Process Control ISBN 0-7506-5766-9
+Salacinski, T (2015) SPC - Statistical Process Control. The Warsaw University of Technology Publishing House. ISBN 978-83-7814-319-2
+Shewhart, W A (1931) Economic Control of Quality of Manufactured Product ISBN 0-87389-076-0
+— (1939) Statistical Method from the Viewpoint of Quality Control ISBN 0-486-65232-7
+Wheeler, D J (2000) Normality and the Process-Behaviour Chart ISBN 0-945320-56-6
+Wheeler, D J & Chambers, D S (1992) Understanding Statistical Process Control ISBN 0-945320-13-2
+Wheeler, Donald J. (1999). Understanding Variation: The Key to Managing Chaos - 2nd Edition. SPC Press, Inc. ISBN 0-945320-53-1.
+Wise, Stephen A. & Fair, Douglas C (1998). Innovative Control Charting: Practical SPC Solutions for Today's Manufacturing Environment. ASQ Quality Press. ISBN 0-87389-385-9
+Zabell, S. L. (1992). "Predicting the unpredictable". Synthese 90: 205. doi:10.1007/bf00485351. 
+
+
+== External linksEdit ==
+Statistical Process Control
+worked example of the Deming's Red Bead Experiment
+The Red Beads: Understanding Variation
+Explanation of all control charts
+Statistical Process Control
+MIT Course - Control of Manufacturing Processes
+NIST Engineering Statistics Handbook
+Online Calculators for Statistical Process Control
+Is Statistical Process Control Applicable to Software Development Processes?
+Could the Software Engineering Institute be Wrong About Statistical Process Control?
+Could the Software Engineering Institute be Wrong About Statistical Process Control?

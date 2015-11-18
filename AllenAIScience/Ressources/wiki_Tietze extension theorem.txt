@@ -1,0 +1,27 @@
+In topology, the Tietze extension theorem (also known as the Tietze–Urysohn–Brouwer extension theorem) states that continuous functions on a closed subset of a normal topological space can be extended to the entire space, preserving boundedness if necessary.
+
+
+== Formal statement ==
+If X is a normal topological space and
+
+is a continuous map from a closed subset A of X into the real numbers carrying the standard topology, then there exists a continuous map
+
+with F(a) = f(a) for all a in A. Moreover, F may be chosen such that , i.e., if f is bounded, F may be chosen to be bounded (with the same bound as f). F is called a continuous extension of f.
+
+
+== Equivalent statements ==
+This theorem is equivalent to the Urysohn's lemma (which is also equivalent to the normality of the space) and is widely applicable, since all metric spaces and all compact Hausdorff spaces are normal. It can be generalized by replacing R with RJ for some indexing set J, any retract of RJ, or any normal absolute retract whatsoever.
+
+
+== History ==
+L. E. J. Brouwer and Henri Lebesgue proved a special case of the theorem, when X is a finite-dimensional real vector space. Heinrich Tietze extended it to all metric spaces, and Paul Urysohn proved the theorem as stated here, for normal topological spaces.
+
+
+== References ==
+
+
+== External links ==
+Weisstein, Eric W. "Tietze's Extension Theorem." From MathWorld
+Tietze extension theorem at PlanetMath.org.
+Proof of Tietze extension theorem at PlanetMath.org.
+Mizar system proof: http://mizar.org/version/current/html/tietze.html

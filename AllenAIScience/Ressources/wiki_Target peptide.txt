@@ -1,0 +1,55 @@
+A target peptide is a short (3-70 amino acids long) peptide chain that directs the transport of a protein to a specific region in the cell, including the nucleus, mitochondria, endoplasmic reticulum (ER), chloroplast, apoplast, peroxisome and plasma membrane. Some target peptides are cleaved from the protein by signal peptidases after the proteins are transported.
+
+
+== Types by protein destination ==
+
+
+=== Secretion ===
+
+Almost all proteins that are destined to the secretory pathway have a sequence consisting of 5-30 hydrophobic amino acids on the N-terminus, which is commonly referred to as the signal peptide, signal sequence or leader peptide. Signal peptides form alpha-helical structures. Proteins that contain such signals are destined for either extra-cellular secretion, the plasma membrane, the lumen or membrane of either the (ER), Golgi or endosomes. Certain membrane-bound proteins are targeted to the secretory pathway by their first transmembrane domain, which resembles a typical signal peptide.
+In prokaryotes, signal peptides direct the newly synthesized protein to the SecYEG protein-conducting channel, which is present in the plasma membrane. A homologous system exists in eukaryotes, where the signal peptide directs the newly synthesized protein to the Sec61 channel, which shares structural and sequence homology with SecYEG, but is present in the endoplasmic reticulum. Both the SecYEG and Sec61 channels are commonly referred to as the translocon, and transit through this channel is known as translocation. While secreted proteins are threaded through the channel, transmembrane domains may diffuse across a lateral gate in the translocon to partition into the surrounding membrane.
+
+
+=== ER-Retention Signal ===
+In eukaryotes, most of the newly synthesized secretory proteins are transported from the ER to the Golgi apparatus. If these proteins have a particular 4-amino-acid retention sequence for the ER's lumen, KDEL, on their C-terminus, they are retained in the ER's lumen or are routed back to the ER's lumen (in instances where they escape) via interaction with the KDEL receptor in the Golgi apparatus. If the signal is KKXX, the retention mechanism to the ER will be similar but the protein will be transmembranal.
+
+
+=== Nucleus ===
+
+A nuclear localization signal (NLS) is a target peptide that directs proteins to the nucleus and is often a unit consisting of five basic, positively charged amino acids. The NLS normally is located anywhere on the peptide chain.
+A nuclear export signal (NES) is a target peptide that directs proteins from the nucleus back to the cytosol. It often consists of several hydrophobic amino acids (often leucine) interspaced by 2-3 other amino acids.
+Many proteins are known to constantly shuttle between the cytosol and nucleus and these contain both NESs and NLSs.
+
+
+=== Nucleolus ===
+The nucleolus within the nucleus can be targeted with a sequence called a nucleolar localization signal (abbreviated NoLS or NOS).
+
+
+=== Mitochondria ===
+The mitochondrial targeting signal is a 10-70 amino acid long peptide that directs a newly synthesized proteins to the mitochondria. It is found at the N-terminus and consists of an alternating pattern of hydrophobic and positively charged amino acids to form what is called an amphipathic helix. Mitochondrial targeting signals can contain additional signals that subsequently target the protein to different regions of the mitochondria, such as the mitochondrial matrix.
+Like signal peptides, mitochondrial targeting signals are cleaved once targeting is complete.
+
+
+=== Peroxisome ===
+There are two types of target peptides directing to peroxisome, which are called peroxisomal targeting signals (PTS). One is PTS1, which is made of three amino acids on the C-terminus. The other is PTS2, which is made of a 9-amino-acid sequence often present on the N-terminus of the protein.
+
+
+== Examples of target peptides ==
+
+H2N is the N-terminus of a protein. COOH is the C-Terminus of a protein.
+
+
+== See also ==
+Protein targeting
+Signal peptide
+
+
+== References ==
+^ Rapoport T. (Nov 2007). "Protein translocation across the eukaryotic endoplasmic reticulum and bacterial plasma membranes.". Nature 450 (7170): 663–9. doi:10.1038/nature06384. PMID 18046402. 
+^ Mariano Stornaiuolo, Lavinia V. Lotti, Nica Borgese, Maria-Rosaria Torrisi, Giovanna Mottola, Gianluca Martire, and Stefano Bonatti (March 2003). "KDEL and KKXX Retrieval Signals Appended to the Same Reporter Protein Determine Different Trafficking between Endoplasmic Reticulum, Intermediate Compartment, and Golgi Complex". Molecular Biology of the Cell 14 (3): 889–902. doi:10.1091/mbc.E02-08-0468. 
+
+
+== External links ==
+Target Peptide at the US National Library of Medicine Medical Subject Headings (MeSH)
+SPdb (Signal Peptide DataBase)
+SignalP — predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.

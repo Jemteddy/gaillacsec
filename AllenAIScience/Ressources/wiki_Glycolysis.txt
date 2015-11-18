@@ -1,0 +1,177 @@
+Glycolysis (from glycose, an older term for glucose + -lysis degradation) is the metabolic pathway that converts glucose C6H12O6, into pyruvate, CH3COCOO− + H+. The free energy released in this process is used to form the high-energy compounds ATP (adenosine triphosphate) and NADH (reduced nicotinamide adenine dinucleotide).
+Glycolysis is a determined sequence of ten enzyme-catalyzed reactions. The intermediates provide entry points to glycolysis. For example, most monosaccharides, such as fructose and galactose, can be converted to one of these intermediates. The intermediates may also be directly useful. For example, the intermediate dihydroxyacetone phosphate (DHAP) is a source of the glycerol that combines with fatty acids to form fat.
+Glycolysis is an oxygen independent metabolic pathway, meaning that it does not use molecular oxygen (i.e. atmospheric oxygen) for any of its reactions. However the products of glycolysis (pyruvate and NADH + H+) are sometimes disposed of using atmospheric oxygen. When molecular oxygen is used in the disposal of the products of glycolysis the process is usually referred to as aerobic, whereas if the disposal uses no oxygen the process is said to be anaerobic. Thus, glycolysis occurs, with variations, in nearly all organisms, both aerobic and anaerobic. The wide occurrence of glycolysis indicates that it is one of the most ancient metabolic pathways. Indeed, the reactions that constitute glycolysis and its parallel pathway, the pentose phosphate pathway, occur metal-catalyzed under the oxygen-free conditions of the Archean oceans, also in the absence of enzymes. Glycolysis could thus have originated from chemical constraints of the prebiotic world.
+Glycolysis occurs in most organisms in the cytosol of the cell. The most common type of glycolysis is the Embden–Meyerhof–Parnas (EMP pathway), which was discovered by Gustav Embden, Otto Meyerhof, and Jakub Karol Parnas. Glycolysis also refers to other pathways, such as the Entner–Doudoroff pathway and various heterofermentative and homofermentative pathways. However, the discussion here will be limited to the Embden–Meyerhof–Parnas pathway.
+The entire glycolysis pathway can be separated into two phases:
+The Preparatory Phase – in which ATP is consumed and is hence also known as the investment phase
+The Pay Off Phase – in which ATP is produced.
+
+
+== OverviewEdit ==
+The overall reaction of glycolysis is:
+The use of symbols in this equation makes it appear not balanced with respect to oxygen atoms, hydrogen atoms, and charges. Atom balance is maintained by the two phosphate (Pi) groups:
+Each exists in the form of a hydrogen phosphate anion (HPO42−), dissociating to contribute 2 H+ overall
+Each liberates an oxygen atom when it binds to an ADP (adenosine diphosphate) molecule, contributing 2 O overall
+Charges are balanced by the difference between ADP and ATP. In the cellular environment, all three hydroxyl groups of ADP dissociate into −O− and H+, giving ADP3−, and this ion tends to exist in an ionic bond with Mg2+, giving ADPMg−. ATP behaves identically except that it has four hydroxyl groups, giving ATPMg2−. When these differences along with the true charges on the two phosphate groups are considered together, the net charges of −4 on each side are balanced.
+For simple fermentations, the metabolism of one molecule of glucose to two molecules of pyruvate has a net yield of two molecules of ATP. Most cells will then carry out further reactions to 'repay' the used NAD+ and produce a final product of ethanol or lactic acid. Many bacteria use inorganic compounds as hydrogen acceptors to regenerate the NAD+.
+Cells performing aerobic respiration synthesize much more ATP, but not as part of glycolysis. These further aerobic reactions use pyruvate and NADH + H+ from glycolysis. Eukaryotic aerobic respiration produces approximately 34 additional molecules of ATP for each glucose molecule, however most of these are produced by a vastly different mechanism to the substrate-level phosphorylation in glycolysis.
+The lower-energy production, per glucose, of anaerobic respiration relative to aerobic respiration, results in greater flux through the pathway under hypoxic (low-oxygen) conditions, unless alternative sources of anaerobically oxidizable substrates, such as fatty acids, are found.
+
+
+== Elucidation of the pathwayEdit ==
+In 1860, Louis Pasteur discovered that microorganisms are responsible for fermentation. In 1897, Eduard Buchner found that extracts of certain cells can cause fermentation. In 1905, Arthur Harden and William Young along with Nick Sheppard determined that a heat-sensitive high-molecular-weight subcellular fraction (the enzymes) and a heat-insensitive low-molecular-weight cytoplasm fraction (ADP, ATP and NAD+ and other cofactors) are required together for fermentation to proceed. The details of the pathway were eventually determined by 1940, with a major input from Otto Meyerhof and some years later by Luis Leloir. The biggest difficulties in determining the intricacies of the pathway were due to the very short lifetime and low steady-state concentrations of the intermediates of the fast glycolytic reactions.
+
+
+== Sequence of reactionsEdit ==
+
+
+=== Preparatory phaseEdit ===
+The first five steps are regarded as the preparatory (or investment) phase, since they consume energy to convert the glucose into two three-carbon sugar phosphates (G3P).
+
+
+=== Pay-off phaseEdit ===
+The second half of glycolysis is known as the pay-off phase, characterised by a net gain of the energy-rich molecules ATP and NADH. Since glucose leads to two triose sugars in the preparatory phase, each reaction in the pay-off phase occurs twice per glucose molecule. This yields 2 NADH molecules and 4 ATP molecules, leading to a net gain of 2 NADH molecules and 2 ATP molecules from the glycolytic pathway per glucose.
+
+
+== RegulationEdit ==
+Glycolysis is regulated by slowing down or speeding up certain steps in the pathway by inhibiting or activating the enzymes that are involved. The steps that are regulated may be determined by calculating the change in free energy, ΔG, for each step.
+When ΔG is negative, a reaction proceeds spontaneously in the forward direction only and is considered irreversible. When ΔG is positive, the reaction is non-spontaneous and will not proceed in the forward direction unless coupled with an energetically favorable reaction. When ΔG is zero, the reaction is at equilibrium, can proceed in either directions and is considered reversible.
+If a step is at equilibrium (ΔG is zero), the enzyme catalyzing the reaction will balance the products and reactants and cannot confer directionality to the pathway. These steps (and associated enzymes) are considered unregulated. If a step is not at equilibrium, but spontaneous (ΔG is negative), the enzyme catalyzing the reaction is not balancing the products and reactants and is considered to be regulated. A common mechanism of regulating enzymes is allosteric control.
+
+
+=== Free energy changesEdit ===
+The change in free energy, ΔG, for each step in the glycolysis pathway can be calculated using ΔG = ΔG°' + RTln Q, where Q is the reaction quotient. This requires knowing the concentrations of the metabolites. All of these values are available for erythrocytes, with the exception of the concentrations of NAD+ and NADH. The ratio of NAD+ to NADH in the cytoplasm is approximately 1000, which makes the oxidation of glyceraldehyde-3-phosphate (step 6) more favourable.
+Using the measured concentrations of each step, and the standard free energy changes, the actual free energy change can be calculated. (Neglecting this is very common - the delta G of ATP hydrolysis in cells is not the standard free energy change of ATP hydrolysis quoted in textbooks).
+From measuring the physiological concentrations of metabolites in an erythrocyte it seems that about seven of the steps in glycolysis are in equilibrium for that cell type. Three of the steps — the ones with large negative free energy changes — are not in equilibrium and are referred to as irreversible; such steps are often subject to regulation.
+Step 5 in the figure is shown behind the other steps, because that step is a side-reaction that can decrease or increase the concentration of the intermediate glyceraldehyde-3-phosphate. That compound is converted to dihydroxyacetone phosphate by the enzyme triose phosphate isomerase, which is a catalytically perfect enzyme; its rate is so fast that the reaction can be assumed to be in equilibrium. The fact that ΔG is not zero indicates that the actual concentrations in the erythrocyte are not accurately known.
+
+
+=== Biochemical logicEdit ===
+The existence of more than one point of regulation indicates that intermediates between those points enter and leave the glycolysis pathway by other processes. For example, in the first regulated step, hexokinase converts glucose into glucose-6-phosphate. Instead of continuing through the glycolysis pathway, this intermediate can be converted into glucose storage molecules, such as glycogen or starch. The reverse reaction, breaking down, e.g., glycogen, produces mainly glucose-6-phosphate; very little free glucose is formed in the reaction. The glucose-6-phosphate so produced can enter glycolysis after the first control point.
+In the second regulated step (the third step of glycolysis), phosphofructokinase converts fructose-6-phosphate into fructose-1,6-bisphosphate, which then is converted into glyceraldehyde-3-phosphate and dihydroxyacetone phosphate. The dihydroxyacetone phosphate can be removed from glycolysis by conversion into glycerol-3-phosphate, which can be used to form triglycerides. On the converse, triglycerides can be broken down into fatty acids and glycerol; the latter, in turn, can be converted into dihydroxyacetone phosphate, which can enter glycolysis after the second control point.
+
+
+=== RegulationEdit ===
+The three regulated enzymes are hexokinase, phosphofructokinase, and pyruvate kinase.
+The flux through the glycolytic pathway is adjusted in response to conditions both inside and outside the cell. The rate in liver is regulated to meet major cellular needs: (1) the production of ATP, (2) the provision of building blocks for biosynthetic reactions, and (3) to lower blood glucose, one of the major functions of the liver. When blood sugar falls, glycolysis is halted in the liver to allow the reverse process, gluconeogenesis. In glycolysis, the reactions catalyzed by hexokinase, phosphofructokinase, and pyruvate kinase are effectively irreversible in most organisms. In metabolic pathways, such enzymes are potential sites of control, and all three enzymes serve this purpose in glycolysis.
+
+
+==== HexokinaseEdit ====
+
+In animals, regulation of blood glucose levels by the pancreas in conjunction with the liver is a vital part of homeostasis. In liver cells, extra G6P (glucose-6-phosphate) may be converted to G1P for conversion to glycogen, or it is alternatively converted by glycolysis to acetyl-CoA and then citrate. Excess citrate is exported to the cytosol, where ATP citrate lyase will regenerate acetyl-CoA and OAA. The acetyl-CoA is then used for fatty acid synthesis and cholesterol synthesis, two important ways of utilizing excess glucose when its concentration is high in blood. Liver contains both hexokinase and glucokinase; both catalyse the phosphorylation of glucose to G6P but the latter is not inhibited by G6P. Thus, glucokinase allows glucose to be converted into glycogen, fatty acids, and cholesterol even as G6P accumulates in hepatocytes. This is important when blood glucose levels are high. During hypoglycemia, the glycogen can be converted back to G6P and then converted to glucose by the liver-specific enzyme glucose 6-phosphatase and released into the blood without taking up the low concentration of glucose it releases. This reverse reaction is an important role of liver cells to maintain blood sugars levels during fasting. This is critical for brain function, since the brain utilizes glucose as an energy source under most conditions.
+
+
+==== PhosphofructokinaseEdit ====
+
+Phosphofructokinase is an important control point in the glycolytic pathway, since it is one of the irreversible steps and has key allosteric effectors, AMP and fructose 2,6-bisphosphate (F2,6BP).
+Fructose 2,6-bisphosphate (F2,6BP) is a very potent activator of phosphofructokinase (PFK-1) that is synthesized when F6P is phosphorylated by a second phosphofructokinase (PFK2). In liver, when blood sugar is low and glucagon elevates cAMP, PFK2 is phosphorylated by protein kinase A. The phosphorylation inactivates PFK2, and another domain on this protein becomes active as fructose bisphosphatase-2, which converts F2,6BP back to F6P. Both glucagon and epinephrine cause high levels of cAMP in the liver. The result of lower levels of liver fructose-2,6-bisphosphate is a decrease in activity of phosphofructokinase and an increase in activity of fructose 1,6-bisphosphatase, so that gluconeogenesis (in essence, "glycolysis in reverse") is favored. This is consistent with the role of the liver in such situations, since the response of the liver to these hormones is to release glucose to the blood.
+ATP competes with AMP for the allosteric effector site on the PFK enzyme. ATP concentrations in cells are much higher than those of AMP, typically 100-fold higher, but the concentration of ATP does not change more than about 10% under physiological conditions, whereas a 10% drop in ATP results in a 6-fold increase in AMP. Thus, the relevance of ATP as an allosteric effector is questionable. An increase in AMP is a consequence of a decrease in energy charge in the cell.
+Citrate inhibits phosphofructokinase when tested in vitro by enhancing the inhibitory effect of ATP. However, it is doubtful that this is a meaningful effect in vivo, because citrate in the cytosol is utilized mainly for conversion to acetyl-CoA for fatty acid and cholesterol synthesis.
+
+
+==== Pyruvate kinaseEdit ====
+
+Pyruvate kinase enzyme catalyzes the last step of glycolysis, in which pyruvate and ATP are formed. Pyruvate kinase catalyzes the transfer of a phosphate group from phosphoenolpyruvate (PEP) to ADP, yielding one molecule of pyruvate and one molecule of ATP.
+
+
+== Post-glycolysis processesEdit ==
+The overall process of glycolysis is:
+Glucose + 2 NAD+ + 2 ADP + 2 Pi → 2 Pyruvate + 2 NADH + 2 H+ + 2 ATP + 2 H2O
+If glycolysis were to continue indefinitely, all of the NAD+ would be used up, and glycolysis would stop. To allow glycolysis to continue, organisms must be able to oxidize NADH back to NAD+. How this is performed depends on which external electron acceptor is available.
+
+
+=== Anoxic regeneration of NAD+Edit ===
+One method of doing this is to simply have the pyruvate do the oxidation; in this process, pyruvate is converted to lactate (the conjugate base of lactic acid) in a process called lactic acid fermentation:
+Pyruvate + NADH + H+ → Lactate + NAD+
+This process occurs in the bacteria involved in making yogurt (the lactic acid causes the milk to curdle). This process also occurs in animals under hypoxic (or partially anaerobic) conditions, found, for example, in overworked muscles that are starved of oxygen. In many tissues, this is a cellular last resort for energy; most animal tissue cannot tolerate anaerobic conditions for an extended period of time.
+Some organisms, such as yeast, convert NADH back to NAD+ in a process called ethanol fermentation. In this process, the pyruvate is converted first to acetaldehyde and carbon dioxide, then to ethanol.
+Lactic acid fermentation and ethanol fermentation can occur in the absence of oxygen. This anaerobic fermentation allows many single-cell organisms to use glycolysis as their only energy source.
+Anoxic regeneration of NADH is only an effective means of energy production during short, intense exercise, providing energy for a period ranging from 10 seconds to 2 minutes and is dominant from about 10–30 seconds during a maximal effort. It replenishes very quickly over this period and produces 2 ATP molecules per glucose molecule, or about 5% of glucose's energy potential (38 ATP molecules in bacteria). The speed at which ATP is produced is about 100 times that of oxidative phosphorylation. The pH in the cytoplasm quickly drops when hydrogen ions accumulate in the muscle, eventually inhibiting enzymes involved in glycolysis.
+The burning sensation in muscles during hard exercise can be attributed to the production of hydrogen ions during a shift to lactic acid fermentation as oxygen is converted to carbon dioxide by aerobic respiration faster than the body can replenish it. These hydrogen ions form a part of lactic acid along with lactate. The body falls back on this less efficient but faster method of producing ATP under low oxygen conditions. This is thought to have been the primary means of energy production in earlier organisms before oxygen was at high concentration in the atmosphere and thus would represent a more ancient form of energy production in cells. The liver later gets rid of this excess lactate by transforming it back into an important glycolytic intermediate called pyruvate; see Cori cycle.
+Fermenation of pyruvate to lactate is sometimes also called "anaerobic glycolysis", however, glycolysis ends with the production of pyruvate regardless in the presence or absence of oxygen.
+
+
+=== Anaerobic respirationEdit ===
+In the above two examples of fermentation, NADH is oxidized by transferring two electrons to pyruvate. However, anaerobic bacteria use a wide variety of compounds as the terminal electron acceptors in cellular respiration: nitrogenous compounds, such as nitrates and nitrites; sulfur compounds, such as sulfates, sulfites, sulfur dioxide, and elemental sulfur; carbon dioxide; iron compounds; manganese compounds; cobalt compounds; and uranium compounds.
+
+
+=== Aerobic respirationEdit ===
+In aerobic organisms, a complex mechanism has been developed to use the oxygen in air as the final electron acceptor.
+First, pyruvate is converted to acetyl-CoA and CO2 within the mitochondria in a process called pyruvate decarboxylation.
+Second, the acetyl-CoA enters the citric acid cycle, also known as Krebs Cycle, where it is fully oxidized to carbon dioxide and water, producing yet more NADH.
+Third, the NADH is oxidized to NAD+ by the electron transport chain, using oxygen as the final electron acceptor. This process creates a hydrogen ion gradient across the inner membrane of the mitochondria.
+Fourth, the proton gradient is used to produce about 2.5 ATP for every NADH oxidized in a process called oxidative phosphorylation.
+
+
+=== Conversion of carbohydrates into fatty acids and cholesterolEdit ===
+The pyruvate produced by glycolysis is an important intermediary in the conversion of carbohydrates into fatty acids and cholesterol. This occurs via the conversion of pyruvate into acetyl-CoA in the mitochondrion. However, this acetyl CoA needs to be transported into cytosol where the synthesis of fatty acids and cholesterol occurs. This cannot occur directly. To obtain cytosolic acetyl-CoA, citrate (produced by the condensation of acetyl CoA with oxaloacetate) is removed from the citric acid cycle and carried across the inner mitochondrial membrane into the cytosol. There it is cleaved by ATP citrate lyase into acetyl-CoA and oxaloacetate. The oxaloacetate can be used for gluconeogenesis (in the liver), or it can be returned into mitochondrion as malate. The cytosolic acetyl-CoA is carboxylated by acetyl CoA carboxylase into malonyl CoA, the first committed step in the synthesis of fatty acids and the production of cholesterol. Cholesterol can, in turn, be used to synthesize the steroid hormones, bile salts, and vitamin D.
+
+
+=== Conversion to oxaloacetate for the citric acid cycleEdit ===
+Pyruvate molecules produced by glycolysis are actively transported across the inner mitochondrial membrane, and into the matrix where they can either be oxidized and combined with coenzyme A to form CO2, acetyl-CoA, and NADH, or they can be carboxylated (by pyruvate carboxylase) to form oxaloacetate. This latter reaction "fills up" the amount of oxaloacetate in the citric acid cycle, and is therefore an anaplerotic reaction (from the Greek meaning to "fill up"), increasing the cycle’s capacity to metabolize acetyl-CoA when the tissue's energy needs (e.g. in heart and skeletal muscle) are suddenly increased by activity. In the citric acid cycle all the intermediates (e.g. citrate, iso-citrate, alpha-ketoglutarate, succinate, fumarate, malate and oxaloacetate) are regenerated during each turn of the cycle. Adding more of any of these intermediates to the mitochondrion therefore means that that additional amount is retained within the cycle, increasing all the other intermediates as one is converted into the other. Hence the addition of oxaloacetate greatly increases the amounts of all the citric acid intermediates, thereby increasing the cycle's capacity to metabolize acetyl CoA, converting its acetate component into CO2 and water, with the release of enough energy to form 11 ATP and 1 GTP molecule for each additional molecule of acetyl CoA that combines with oxaloacetate in the cycle.
+To cataplerotically remove oxaloacetate from the citric cycle, malate can be transported from the mitochondrion into the cytoplasm, decreasing the amount of oxaloacetate that can be regenerated. Furthermore, citric acid intermediates are constantly used to form a variety of substances such as the purines, pyrimidines and porphyrins.
+
+
+== Intermediates for other pathwaysEdit ==
+This article concentrates on the catabolic role of glycolysis with regard to converting potential chemical energy to usable chemical energy during the oxidation of glucose to pyruvate. Many of the metabolites in the glycolytic pathway are also used by anabolic pathways, and, as a consequence, flux through the pathway is critical to maintain a supply of carbon skeletons for biosynthesis.
+In addition, not all carbon entering the pathway leaves as pyruvate and may be extracted at earlier stages to provide carbon compounds for other pathways.
+These metabolic pathways are all strongly reliant on glycolysis as a source of metabolites: and many more.
+Gluconeogenesis
+Lipid metabolism (glycerol synthesis, and the post-glycolytic production of fatty acids and cholesterol)
+Pentose phosphate pathway
+Citric acid cycle, a post-glycolytic process which in turn leads to:
+
+Amino acid synthesis
+Nucleotide synthesis
+Tetrapyrrole synthesis
+
+From an anabolic metabolism perspective, the NADH has a role to drive synthetic reactions, doing so by directly or indirectly reducing the pool of NADP+ in the cell to NADPH, which is another important reducing agent for biosynthetic pathways in a cell.
+
+
+== Glycolysis in diseaseEdit ==
+
+
+=== Genetic diseasesEdit ===
+Glycolytic mutations are generally rare due to importance of the metabolic pathway, this means that the majority of occurring mutations result in an inability for the cell to respire, and therefore cause the death of the cell at an early stage. However, some mutations are seen with one notable example being Pyruvate kinase deficiency, leading to chronic hemolytic anemia.
+
+
+=== CancerEdit ===
+Malignant rapidly growing tumor cells typically have glycolytic rates that are up to 200 times higher than those of their normal tissues of origin. This phenomenon was first described in 1930 by Otto Warburg and is referred to as the Warburg effect. The Warburg hypothesis claims that cancer is primarily caused by dysfunctionality in mitochondrial metabolism, rather than because of uncontrolled growth of cells. A number of theories have been advanced to explain the Warburg effect. One such theory suggests that the increased glycolysis is a normal protective process of the body and that malignant change could be primarily caused by energy metabolism.
+This high glycolysis rate has important medical applications, as high aerobic glycolysis by malignant tumors is utilized clinically to diagnose and monitor treatment responses of cancers by imaging uptake of 2-18F-2-deoxyglucose (FDG) (a radioactive modified hexokinase substrate) with positron emission tomography (PET).
+There is ongoing research to affect mitochondrial metabolism and treat cancer by reducing glycolysis and thus starving cancerous cells in various new ways, including a ketogenic diet.
+
+
+== Interactive pathway mapEdit ==
+Click on genes, proteins and metabolites below to link to respective articles. 
+
+
+== Alternative nomenclatureEdit ==
+Some of the metabolites in glycolysis have alternative names and nomenclature. In part, this is because some of them are common to other pathways, such as the Calvin cycle.
+
+
+== See alsoEdit ==
+
+Carbohydrate catabolism
+Citric acid cycle
+Cori cycle
+Fermentation (biochemistry)
+Gluconeogenesis
+Glycolytic oscillation
+Pentose phosphate pathway
+Pyruvate decarboxylation
+Triose kinase
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+A Detailed Glycolysis Animation provided by IUBMB (Adobe Flash Required)
+The Glycolytic enzymes in Glycolysis at RCSB PDB
+Glycolytic cycle with animations at wdv.com
+Metabolism, Cellular Respiration and Photosynthesis - The Virtual Library of Biochemistry and Cell Biology at biochemweb.org
+notes on glycolysis at rahulgladwin.com
+The chemical logic behind glycolysis at ufp.pt
+Expasy biochemical pathways poster at ExPASy
+MedicalMnemonics.com: 317 5468
+metpath: Interactive representation of glycolysis

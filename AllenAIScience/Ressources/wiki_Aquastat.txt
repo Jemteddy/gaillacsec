@@ -1,0 +1,5 @@
+An aquastat is a device used in hydronic heating systems for controlling water temperature. To prevent the boiler from firing too often, aquastats have a high limit temperature and a low limit. If the thermostat is calling for heat, the boiler will fire until the high limit is reached, then shut off (even if the thermostat is still calling for heat). The boiler will re-fire if the boiler water temperature drops below a range around the high limit. The high limit exists for the sake of efficiency and safety. The boiler will also fire (regardless of thermostat state) when the boiler water temperature goes below a range around the low limit, ensuring that the boiler water temperature remains above a certain point. The low limit is intended for tankless domestic hot water---it ensures that boiler water is always warm enough to heat the domestic hot water. Many aquastats also have a differential ("diff") control which determines the size of the range around the "low" and/or "high" controls.
+Aquastat is a registered Trademark of Honeywell International Inc.
+
+
+== References ==

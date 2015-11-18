@@ -1,0 +1,49 @@
+A mobile phone signal (also known as reception and service) is the signal strength (measured in dBm) received by a mobile phone from a cellular network (on the downlink). Depending on various factors, such as proximity to a tower, any obstructions such as buildings or trees, etc., this signal strength will vary. Most mobile devices use a set of bars of increasing height to display the approximate strength of this received signal to the mobile phone user. Traditionally five bars are used; see five by five.
+Generally, a strong mobile phone signal is more likely in an urban area, though these areas can also have some "dead zones" where no reception can be obtained. Cellular signals are designed to be resistant to multipath reception, which is most likely to be caused by the blocking of a direct signal path by large buildings such as high-rise towers. By contrast, many rural or sparsely inhabited areas lack any signal or have very weak fringe reception; many mobile phone providers are attempting to set up towers in those areas most likely to be occupied by users, such as along major highways. Even some national parks and other popular tourist destinations away from urban areas now have cell phone reception, though location of radio towers within these areas is normally prohibited or strictly regulated, and is often difficult to arrange.
+In areas where signal reception would normally be strong, other factors can have an effect on reception, or may cause complete failure (see RF interference). From inside a building with thick walls or of mostly metal construction (or with dense rebar in concrete), signal attenuation may prevent a mobile phone from being used. Underground areas, such as tunnels and subway stations, will lack reception unless they are wired for cell signals. There may also be gaps where the service contours of the individual base stations (Cell towers) of the mobile provider (and/or its roaming partners) do not completely overlap.
+In addition, the weather may affect the strength of a signal, due to the changes in radio propagation caused by clouds (particularly tall and dense thunderclouds which cause signal reflection), precipitation, and temperature inversions. This phenomenon, which is also common in other VHF radio bands including FM broadcasting, may also cause other anomalies, such as a person in San Diego "roaming" on a Mexican tower from just over the border in Tijuana, or someone in Detroit "roaming" on a Canadian tower located within sight across the Detroit River in Windsor, Ontario. These events may cause the user to be billed for "international" usage despite being in their own country, though mobile phone companies can program their billing systems to re-rate these as domestic usage when it occurs on a foreign cell site that is known to frequently cause such issues for their customers.
+The volume of network traffic can also cause calls to be blocked or dropped due to a disaster or other mass call event which overloads the number of available radio channels in an area, or the number of telephone circuits connecting to and from the general public switched telephone network.
+
+
+== Dead zonesEdit ==
+Areas where mobile phones cannot transmit to a nearby mobile site, base station, or repeater are known as dead zones. In these areas, the mobile phone is said to be in a state of outage. Dead zones are usually areas where mobile phone service is not available because the signal between the handset and mobile site antennas is blocked or severely reduced, usually by hilly terrain, dense foliage, or physical distance.
+A number of factors can create dead zones, which may exist even in locations in which a wireless carrier offers coverage, due to limitations in cellular network architecture (the locations of antennas), limited network density, interference with other mobile sites, and topography. Since cell phones rely on radio waves, which travel though the air and are easily attenuated (particularly at higher frequencies), mobile phones may be unreliable at times. Like other radio transmissions, mobile phone calls can be interrupted by large buildings, terrain, trees, or other objects between the phone and the nearest base s viders work continually to improve and upgrade their networks in order to minimize dropped calls, access failures, and dead zones (which they call "coverage holes" or "no-service areas"). For mobile virtual network operators, the network quality depends entirely on the host network for the particular handset in question. Some MVNOs use more than one host, which may even have different technologies. (For example, different Tracfone handsets uses either CDMA and 1xRTT on Verizon Wireless, or GSM and UMTS on AT&T Mobility.)
+Dead zones can be filled-in with microcells, while picocells can handle even smaller areas without causing interference to the larger network. Personal microcells, such as those for a home, are called femtocells, and generally have the range of a cordless phone, but may not be usable for an MVNO phone. A similar system can be set up to perform inmate call capture, which prevents cellphones smuggled into a prison from being used. These still complete calls to or from pre-authorized users such as prison staff, while not violating laws against jamming. These systems must be carefully designed so as to avoid capturing calls from outside the prison, which would in effect create a dead zone for any passersby outside.
+In the event of a disaster causing temporary dead zones, a cell on wheels may be brought in until the local telecom infrastructure can be restored. These portable units are also used where large gatherings are expected, in order to handle the extra load.
+
+
+== Dropped callsEdit ==
+A dropped call is the common term for a wireless mobile phone call that is terminated unexpectedly as a result of technical reasons, including presence in a dead zone. In technical circles, it is called an abnormal release.
+One reason for a dropped call is when the mobile phone moves out of range of a cellular network. An active call cannot usually be maintained across a different company's network (as calls cannot be re-routed over the traditional phone network while in progress), resulting in the termination of the call once a signal cannot be maintained between the phone and the original network.
+Another common reason is when a phone is taken into an area where wireless communication is unavailable, interrupted, interfered with, or jammed. From the network's perspective, this is the same as the mobile moving out of the coverage area.
+Occasionally, calls are dropped upon handoff between cells within the same provider's network. This may be due to an imbalance of traffic between the two cell sites' areas of coverage. If the new cell site is at capacity, it cannot accept the additional traffic of the call trying to "hand in." It may also be due to the network configuration not being set up properly, such that one cell site is not "aware" of the cell to which the phone is trying to handoff. If the phone cannot find an alternative cell to which to move that can take over the call, the call is lost.
+Co-channel and adjacent-channel interference can also be responsible for dropped calls in a wireless network. Neighbouring cells with the same frequencies interfere with each other, deteriorating the quality of service and producing dropped calls. Transmission problems are also a common cause of dropped calls. Another problem may be a faulty transceiver inside the base station.
+Calls can also be dropped if a mobile phone at the other end of the call loses battery power and stops transmitting abruptly.
+Sunspots and solar flares are rarely blamed for causing interference leading to dropped calls, as it would take a major geomagnetic storm to cause such a disruption (except for satellite phones).
+Experiencing too many dropped calls is one of the most common customer complaints received by wireless service providers. They have attempted to address the complaint in various ways, including expansion of their home network coverage, increased cell capacity, and offering refunds for individual dropped calls.
+Various signal booster systems are manufactured to reduce problems due to dropped calls and dead zones. Many options, such as wireless units and antennas, are intended to aid in strengthening weak signals.
+
+
+== ASUEdit ==
+Arbitrary Strength Unit (ASU) is an integer value proportional to the received signal strength measured by the mobile phone.
+It is possible to calculate the real signal strength measured in dBm (and thereby power in Watts) by a formula. However, there are different formulas for 2G and 3G networks.
+In GSM networks, ASU maps to RSSI (received signal strength indicator, see TS 27.007 sub clause 8.5).
+dBm = 2 × ASU - 113, ASU in the range of 0..31 and 99 (for not known or not detectable).
+In UMTS networks, ASU maps to RSCP level (received signal code power, see TS 27.007 sub clause 8.69 and TS 27.133 sub clause 9.1.1.3).
+dBm = ASU - 116, ASU in the range of -5..91 and 255 (for not known or not detectable).
+In LTE networks, ASU maps to RSRP (reference signal received power, see TS 36.133, sub-clause 9.1.4). The valid range of ASU is from 0 to 97. For the range 1 to 96, ASU maps to
+(ASU - 141) ≤ dBm < (ASU - 140).
+The value of 0 maps to RSRP below -140 dBm and the value of 97 maps to RSRP above -44 dBm.
+ASU shouldn't be confused with "Active Set Update". The Active Set Update is a signalling message used in handover procedures of UMTS and CDMA mobile telephony standards. On Android phones, the acronym ASU has nothing to do with Active Set Update. It has not been declared precisely by Google developers.
+
+
+== See alsoEdit ==
+Cell phone tower
+Subscriber Identity Module
+Cellular repeater
+Cel-Fi
+Missed call (intentionally dropped calls)
+Mobile phone radiation and health
+
+
+== ReferencesEdit ==

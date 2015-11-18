@@ -1,0 +1,17 @@
+An application-specific instruction set processor (ASIP) is a component used in system-on-a-chip design. The instruction set of an ASIP is tailored to benefit a specific application. This specialization of the core provides a tradeoff between the flexibility of a general purpose CPU and the performance of an ASIC.
+Some ASIPs have a configurable instruction set. Usually, these cores are divided into two parts: static logic which defines a minimum ISA (instruction-set architecture) and configurable logic which can be used to design new instructions. The configurable logic can be programmed either in the field in a similar fashion to an FPGA or during the chip synthesis.
+ASIPs can be used as an alternative of hardware accelerators for baseband signal processing or video coding. The traditional hardware accelerators for the baseband or multimedia suffer from inflexibility. It is very difficult to reuse the hardware datapath with handwritten finite-state machines (FSM). The retargetable compilers of ASIPs help the designer to update the program and reuse the datapath. Typically, the ASIP design is more or less dependent on the tool flow because designing a processor from the scratch can be very complicated. There are some commercial tools to design ASIPs, for example, Processor Designer from Synopsys. There is an open source tool as well, TTA-based codesign environment (TCE).
+
+
+== ReferencesEdit ==
+
+
+== LiteratureEdit ==
+Dake Liu (2008). Embedded DSP Processor Design Application Specific Instruction-set Processors. MA: Elsevier Mogan Kaufmann. ISBN 978-0-12-374123-3. 
+Oliver Schliebusch, Heinrich Meyr, Rainer Leupers (2007). Optimized ASIP Synthesis from Architecture Description Language Models. Dordrecht: Springer. ISBN 978-1-4020-5685-7. 
+Paolo Ienne, Rainer Leupers (eds.) (2006). Customizable Embedded Processors. San Mateo, CA: Morgan Kaufmann. ISBN 978-0-12-369526-0. 
+Matthias Gries, Kurt Keutzer (eds.) (2005). Building ASIPs: The Mescal Methodology. New York: Springer. ISBN 978-0-387-26057-0. 
+
+
+== External linksEdit ==
+TTA-Based Codesign Environment (TCE), an open source (MIT licensed) toolset for design of application specific TTA processors.

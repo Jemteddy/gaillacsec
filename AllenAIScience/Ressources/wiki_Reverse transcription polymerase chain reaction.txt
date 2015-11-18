@@ -1,0 +1,118 @@
+Reverse transcription polymerase chain reaction (RT-PCR) is one of many variants of polymerase chain reaction (PCR). This technique is commonly used in molecular biology to detect RNA expression. RT-PCR is often confused with real-time polymerase chain reaction (qPCR) by students and scientists alike. However, they are separate and distinct techniques. While RT-PCR is used to qualitatively detect gene expression through creation of complementary DNA (cDNA) transcripts from RNA, qPCR is used to quantitatively measure the amplification of DNA using fluorescent probes. qPCR is also referred to as quantitative PCR, quantitative real-time PCR, and real-time quantitative PCR.
+Although RT-PCR and the traditional PCR both produce multiple copies of particular DNA isolates through amplification, the applications of the two techniques are fundamentally different. Traditional PCR is used to exponentially amplify target DNA sequences. RT-PCR is used to clone expressed genes by reverse transcribing the RNA of interest into its DNA complement through the use of reverse transcriptase. Subsequently, the newly synthesized cDNA is amplified using traditional PCR.
+In addition to the qualitative study of gene expression, quantitative PCR can be utilized for quantification of RNA, in both relative and absolute terms, by incorporating qPCR into the technique. The combined technique, described as quantitative RT-PCR or real-time RT-PCR (sometimes even quantitative real-time RT-PCR), is often abbreviated as qRT-PCR, RT-qPCR, or RRT-PCR. Compared to other RNA quantification methods, such as northern blot, qRT-PCR is considered to be the most powerful, sensitive, and quantitative assay for the detection of RNA levels. It is frequently used in the expression analysis of single or multiple genes, and expression patterns for identifying infections and diseases.
+In order to avoid confusion, the following abbreviations will be used consistently throughout this article:
+
+
+== HistoryEdit ==
+Since its introduction in 1977, Northern blot had been used extensively for RNA quantification despite its shortcomings: (a) time-consuming technique, (b) requires a large quantity of RNA for detection, and (c) quantitatively inaccurate in the low abundance of RNA content. However, the discovery of reverse transcriptase during the study of viral replication of genetic material led to the development of RT-PCR, which has since displaced Northern blot as the method of choice for RNA detection and quantification.
+RT-PCR has risen to become the benchmark technology for the detection and/or comparison of RNA levels for several reasons: (a) it does not require post PCR processing, (b) a wide range (>107-fold) of RNA abundance can be measured, and (c) it provides insight into both qualitative and quantitative data. Due to its simplicity, specificity and sensitivity, RT-PCR is used in a wide range of applications from experiments as simple as quantification of yeast cells in wine to more complex uses as diagnostic tools for detecting infectious agents such as the avian flu virus.
+
+
+== PrinciplesEdit ==
+In RT-PCR, the RNA template is first converted into a complementary DNA (cDNA) using a reverse transcriptase. The cDNA is then used as a template for exponential amplification using PCR. QT-NASBA is currently the most sensitive method of RNA detection available. The use of RT-PCR for the detection of RNA transcript has revolutionalized the study of gene expression in the following important ways:
+Made it theoretically possible to detect the transcripts of practically any gene
+Enabled sample amplification and eliminated the need for abundant starting material that one faces when using northern blot analysis
+Provided tolerance for RNA degradation as long as the RNA spanning the primer is intact
+
+
+=== One-step RT-PCR vs. two-step RT-PCREdit ===
+
+The quantification of mRNA using RT-PCR can be achieved as either a one-step or a two-step reaction. The difference between the two approaches lies in the number of tubes used when performing the procedure. In the one-step approach, the entire reaction from cDNA synthesis to PCR amplification occurs in a single tube. On the other hand, the two-step reaction requires that the reverse transcriptase reaction and PCR amplification be performed in separate tubes. The one-step approach is thought to minimize experimental variation by containing all of the enzymatic reactions in a single environment. However, the starting RNA templates are prone to degradation in the one-step approach, and the use of this approach is not recommended when repeated assays from the same sample is required. Additionally, one-step approach is reported to be less accurate compared to the two-step approach. It is also the preferred method of analysis when using DNA binding dyes such as SYBR Green since the elimination of primer-dimers can be achieved through a simple change in the melting temperature. The disadvantage of the two-step approach is susceptibility to contamination due to more frequent sample handling.
+
+
+=== End-point RT-PCR vs. real-time RT-PCREdit ===
+Quantification of RT-PCR products can largely be divided into two categories: end-point and real-time. The use of end-point RT-PCR is preferred for measuring gene expression changes in small number of samples, but the real-time RT-PCR has become the gold standard method for validating results obtained from array analyses or gene expression changes on a global scale.
+
+
+==== End-point RT-PCREdit ====
+The measurement approaches of end-point RT-PCR requires the detection of gene expression levels by the use of fluorescent dyes like ethidium bromide, P32 labeling of PCR products using phosphorimager, or by scintillation counting. End-point RT-PCR is commonly achieved using three different methods: relative, competitive and comparative.
+Relative RT-PCR: Relative quantifications of RT-PCR involves the co-amplification of an internal control simultaneously with the gene of interest. The internal control is used to normalize the samples. Once normalized, a direct comparison of relative transcript abundances across multiple samples of mRNA can be made. One precaution to note is that the internal control must be chosen so that it is not affected by the experimental treatment. The expression level should be constant across all samples and with the mRNA of interest for the results to be accurate and meaningful. Because the quantification of the results are analyzed by comparing the linear range of the target and control amplification, it is crucial to take into consideration the starting target molecules concentration and their amplification rate prior to starting the analysis. The results of the analysis are expressed as the ratios of gene signal to internal control signal, which the values can then be used for the comparison between the samples in the estimation of relative target RNA expression.
+Competitive RT-PCR: Competitive RT-PCR technique is used for absolute quantification. It involves the use of a synthetic “competitor” RNA that can be distinguished from the target RNA by a small difference in size or sequence. It is important for the design of the synthetic RNA be identical in sequence but slightly shorter than the target RNA for accurate results. Once designed and synthesized, a known amount of the competitor RNA is added to experimental samples and is co-amplified with the target using RT-PCR. Then, a concentration curve of the competitor RNA is produced and it is used to compare the RT-PCR signals produced from the endogenous transcripts to determine the amount of target present in the sample.
+Comparative RT-PCR: Comparative RT-PCR is similar to the competitive RT-PCR in that the target RNA competes for amplification reagents within a single reaction with an internal standard of unrelated sequence. Once the reaction is complete, the results are compared to an external standard curve to determine the target RNA concentration. In comparison to the relative and competitive quantification methods, comparative RT-PCR is considered to be the more convenient method to use since it does not require the investigator to perform a pilot experiment; in relative RT-PCR, the exponential amplification range of the mRNA must be predetermined and in competitive RT-PCR, a synthetic competitor RNA must be synthesized.
+
+
+==== Real-time RT-PCREdit ====
+The emergence of novel fluorescent DNA labeling techniques in the past few years have enabled the analysis and detection of PCR products in real-time and has consequently led to the widespread adoption of real-time RT-PCR for the analysis of gene expression. Not only is real-time RT-PCR now the method of choice for quantification of gene expression, it is also the preferred method of obtaining results from array analyses and gene expressions on a global scale. Currently, there are four different fluorescent DNA probes available for the real-time RT-PCR detection of PCR products: SYBR Green, TaqMan, Molecular Beacons, and Scorpions. All of these probes allow the detection of PCR products by generating a fluorescent signal. While the SYBR Green dye emits its fluorescent signal simply by binding to the double-stranded DNA in solution, the TaqMan probes, Molecular Beacons and Scorpions generation of fluorescence depend on Förster Resonance Energy Transfer (FRET) coupling of the dye molecule and a quencher moiety to the oligonucleotide substrates.
+SYBR Green: When the SYBR Green binds to the double-stranded DNA of the PCR products, it will emit light upon excitation. The intensity of the fluorescence increases as the PCR products accumulate. This technique is easy to use since designing of probes is not necessary given lack of specificity of its binding. However, since the dye does not discriminate the double-stranded DNA from the PCR products and those from the primer-dimers, overestimation of the target concentration is a common problem. Where accurate quantification is an absolute necessity, further assay for the validation of results must be performed. Nevertheless, amongst the real-time RT-PCR product detection methods, SYBR Green is the most economical and easiest to use.
+
+TaqMan Probes: TaqMan probes are oligonucleotides that have a fluorescent probe attached to the 5' end and a quencher to the 3' end. During PCR amplification, these probes will hybridize to the target sequences located in the amplicon and as polymerase replicates the template with TaqMan bound, it also cleaves the fluorescent probe due to polymerase 5'- nuclease activity. Because the close proximity between the quench molecule and the fluorescent probe normally prevents fluorescence from being detected through FRET, the decoupling results in the increase of intensity of fluorescence proportional to the number of the probe cleavage cycles. Although well-designed TaqMan probes produce accurate real-time RT-PCR results, it is expensive and time-consuming to synthesize when separate probes must be made for each mRNA target analyzed.
+Molecular Beacon Probes: Similar to the TaqMan probes, Molecular Beacons also make use of FRET detection with fluorescent probes attached to the 5' end and a quencher attached to the 3' end of an oligonucleotide substrate. However, whereas the TaqMan fluorescent probes are cleaved during amplification, Molecular Beacon probes remain intact and rebind to a new target during each reaction cycle. When free in solution, the close proximity of the fluorescent probe and the quencher molecule prevents fluorescence through FRET. However, when Molecular Beacon probes hybridize to a target, the fluorescent dye and the quencher are separated resulting in the emittance of light upon excitation. As is with the TaqMan probes, Molecular Beacons are expensive to synthesize and require separate probes for each RNA target.
+Scorpion Probes: The Scorpion probes, like Molecular Beacon, will not be fluorescent active in an unhybridized state, again, due to the fluorescent probe on the 5' end being quenched by the moiety on the 3' end of an oligonucleotide. With Scorpions, however, the 3' end also contains sequence that is complementary to the extension product of the primer on the 5' end. When the Scorpion extension binds to its complement on the amplicon, the Scorpion structure opens, prevents FRET, and enables the fluorescent signal to be measured.
+Multiplex Probes: TaqMan probes, Molecular Beacons and Scorpions allow the concurrent measurement of PCR products in a single tube. This is possible because each of the different fluorescent dyes can be associated with a specific emission spectra. Not only does the use of multiplex probes save time and effort without compromising test utility, its application in wide areas of research such as gene deletion analysis, mutation and polymorphism analysis, quantitative analysis, and RNA detection, make it an invaluable technique for laboratories of many discipline.
+Two strategies are commonly employed to quantify the results obtained by real-time RT-PCR; the standard curve method and the comparative threshold method.
+
+
+== ApplicationEdit ==
+The exponential amplification via reverse transcription polymerase chain reaction provides for a highly sensitive technique in which a very low copy number of RNA molecules can be detected. RT-PCR is widely used in the diagnosis of genetic diseases and, semiquantitatively, in the determination of the abundance of specific different RNA molecules within a cell or tissue as a measure of gene expression.
+
+
+=== Research methodsEdit ===
+RT-PCR is commonly used in research methods to measure gene expression. For example, Lin et al. used qRT-PCR to measure expression of Gal genes in yeast cells. First, Lin et al. engineered a mutation of a protein suspected to participate in the regulation of Gal genes. This mutation was hypothesized to selectively abolish Gal expression. To confirm this, gene expression levels of yeast cells containing this mutation were analyzed using qRT-PCR. The researchers were able to conclusively determine that the mutation of this regulatory protein reduced Gal expression. Northern blot analysis is used to study the RNA's gene expression further.
+
+
+=== Gene InsertionEdit ===
+RT-PCR can also be very useful in the insertion of eukaryotic genes into prokaryotes. Because most eukaryotic genes contain introns, which are present in the genome but not in the mature mRNA, the cDNA generated from a RT-PCR reaction is the exact (without regard to the error-prone nature of reverse transcriptases) DNA sequence that would be directly translated into protein after transcription. When these genes are expressed in prokaryotic cells for the sake of protein production or purification, the RNA produced directly from transcription need not undergo splicing as the transcript contains only exons. (Prokaryotes, such as E. coli, lack the mRNA splicing mechanism of eukaryotes).
+
+
+=== Genetic Disease DiagnosisEdit ===
+RT-PCR can be used to diagnose genetic disease such as Lesch–Nyhan syndrome. This genetic disease is caused by a malfunction in the HPRT1 gene, which clinically leads to the fatal uric acid urinary stone and symptoms similar to gout.[6] Analyzing a pregnant mother and a fetus for mRNA expression levels of HPRT1 will reveal if the mother is a carrier and if the fetus will likely to develop Lesch–Nyhan syndrome.
+
+
+=== Cancer DetectionEdit ===
+Scientists are working on ways to use RT-PCR in cancer detection to help improve prognosis, and monitor response to therapy. Circulating tumor cells produce unique mRNA transcripts depending on the type of cancer. The goal is to determine which mRNA transcripts serve as the best biomarkers for a particular cancer cell type and then analyze its expression levels with RT-PCR.
+RT-PCR is commonly used in studying the genomes of viruses whose genomes are composed of RNA, such as Influenzavirus A and retroviruses like HIV.
+
+
+== ChallengesEdit ==
+Despite its major advantages, RT-PCR is not without drawbacks. The exponential growth of the reverse transcribed complementary DNA (cDNA) during the multiple cycles of PCR produces inaccurate end point quantification due to the difficulty in maintaining linearity. In order to provide accurate detection and quantification of RNA content in a sample, qRT-PCR was developed using fluorescence-based modification to monitor the amplification products during each cycle of PCR. The extreme sensitivity of the technique can be a double edged sword since even the slightest DNA contamination can lead to undesirable results. A simple method for elimination of false positive results is to include anchors, or tags, to the 5' region of a gene specific primer. Additionally, planning and design of quantification studies can be technically challenging due to the existence of numerous sources of variation including template concentration and amplification efficiency.
+
+
+== ProtocolEdit ==
+RT-PCR can be carried out by the one-step RT-PCR protocol or the two-step RT-PCR protocol.
+
+
+=== One-step RT-PCREdit ===
+One-step RT-PCR take mRNA targets (up to 6 kb) and subjects them to reverse transcription and then PCR amplification in a single test tube. Use only intact, high quality RNA for the best results. Be sure to use a sequence-specific primer.
+Select a one-step RT-PCR kit, which should include a mix with reverse transcriptase and the PCR system such as Taq DNA Polymerase and a proofreading polymerase.
+Obtain all necessary materials, equipment and instruments (kits should include a detailed list of necessary items).
+Prepare a reaction mix, which will include dNTPs, primers, template RNA, necessary enzymes and a buffer solution.
+Add the mix to a PCR tube for each reaction. Then add the template RNA.
+Place PCR tubes in the thermal cycler to begin cycling. The first cycle is reverse transcription to synthesize cDNA. The second cycle is initial denaturation. During this cycle reverse transcriptase is inactivated. The next 40 to 50 cycles are the amplification program, which consists of three steps: (1) denaturation, (2) annealing, (3) elongation.
+The RT-PCR products can then be analyzed with gel electrophoresis.
+(PCR Applications Manual and Biotools)
+
+
+=== Two-step RT-PCREdit ===
+Two-step RT-PCR, as the name implies, occurs in two steps. First the reverse transcription and then the PCR. This method is more sensitive than the one-step method. Kits are also useful for two-step RT-PCR. Just as for one-step, use only intact, high quality RNA for the best results. The primer for two-step does not have to be sequence specific.
+
+
+==== Step oneEdit ====
+Combine template RNA, primer, dNTP mix, and nuclease-free water in a PCR tube.
+Add RNase inhibitor and reverse transcriptase to the PCR tube.
+Place PCR tube in thermal cycler for one cycle that includes annealing, extending and then inactivating reverse transcriptase.
+Proceed directly to PCR or store on ice until PCR can be performed.
+
+
+==== Step twoEdit ====
+Add a master mix (containing buffer, dNTP mix, MgCl2, Taq polymerase and nuclease-free water) to each PCR tube.
+Add appropriate primer.
+Place PCR tubes in thermal cycler for 30 cycles of the amplification program, which includes three steps: (1) denaturation, (2) annealing, (3) elongation.
+The RT-PCR products can then be analyzed with gel electrophoresis.
+
+
+== Publication guidelinesEdit ==
+Quantitative RT-PCR assay is considered to be the gold standard for measuring the number of copies of specific cDNA targets in a sample but it is poorly standardized. As a result, while there are numerous publications utilizing the technique, many provide inadequate experimental detail and use unsuitable data analysis to draw inappropriate conclusions. Due to the inherent variability in the quality of any quantitative PCR data, reviewers not only have a difficult time evaluating these manuscripts, the studies also become impossible to replicate. Recognizing the need for the standardization of the reporting of experimental conditions, the Minimum Information for Publication of Quantitative Real-Time PCR Experiments (MIQE, pronounced mykee) guidelines have been published by the international consortium of academic scientists. The MIQE guidelines describe the minimum information necessary for evaluating quantitative PCR experiments that should be required for publication for encouraging better experimental practice and ensuring the relevance, accuracy, correct interpretation, and repeatability of quantitative PCR data.
+Besides reporting guidelines, the MIQE stresses the need to standardize the nomenclature associated with quantitative PCR to avoid confusion; for example, the abbreviation qPCR should be used for quantitative real-time PCR and RT-qPCR should be used for reverse transcription-qPCR, and genes used for normalisation should be referred to as reference genes instead of housekeeping genes. It is also proposes that commercially-derived terms like TaqMan® probes should not be used but instead referred to as hydrolysis probes. Additionally, it is proposed that quantification cycle (Cq) be used to describe the PCR cycle used for quantification instead of threshold cycle (Ct), crossing point (Cp), and takeoff point (TOP), which refer to the same value but were coined by different manufacturers of real-time instruments.
+The guideline consists of the following elements: 1) experimental design, 2) sample, 3) nucleic acid extraction, 4) reverse transcription, 5) qPCR target information, 6) oligonucleotides, 7) protocol, 8) validation, and 9) data analysis. Specific items within each element carry a label of either E (essential) or D (desirable). Those labelled E are considered critical and indispensable while those labelled D are considered peripheral yet important for best-practices.
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+RT-PCR protocols from Penn state University
+Database of validated PCR primer sets (website critique)
+Animation to illustrate RT-PCR procedure, from Cold Spring Harbor Laboratory
+The Reference in qPCR -- an Academic & Industrial Information Platform
+www.eConferences.de -- Amplify your knowledge in qPCR, dPCR and NGS!

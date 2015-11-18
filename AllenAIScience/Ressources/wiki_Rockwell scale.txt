@@ -1,0 +1,51 @@
+The Rockwell scale is a hardness scale based on indentation hardness of a material. The Rockwell test determines the hardness by measuring the depth of penetration of an indenter under a large load compared to the penetration made by a preload. There are different scales, denoted by a single letter, that use different loads or indenters. The result is a dimensionless number noted as HRA, HRB, HRC, etc., where the last letter is the respective Rockwell scale (see below).
+When testing metals, indentation hardness correlates linearly with tensile strength. This important relation permits economically important nondestructive testing of bulk metal deliveries with lightweight, even portable equipment, such as hand-held Rockwell hardness testers.
+
+
+== History ==
+The differential depth hardness measurement was conceived in 1908 by a Viennese professor Paul Ludwik in his book Die Kegelprobe (crudely, "the cone test"). The differential-depth method subtracted out the errors associated with the mechanical imperfections of the system, such as backlash and surface imperfections. The Brinell hardness test, invented in Sweden, was developed earlier – in 1900 – but it was slow, not useful on fully hardened steel, and left too large an impression to be considered nondestructive.
+Hugh M. Rockwell (1890–1957) and Stanley P. Rockwell (1886–1940) from Connecticut in the United States co-invented the "Rockwell hardness tester," a differential-depth machine. They applied for a patent on July 15, 1914. The requirement for this tester was to quickly determine the effects of heat treatment on steel bearing races. The application was subsequently approved on February 11, 1919, and holds U.S. Patent 1,294,171. At the time of invention, both Hugh and Stanley Rockwell worked for the New Departure Manufacturing Co. of Bristol, CT. New Departure was a major ball bearing manufacturer which in 1916 became part of United Motors and, shortly thereafter, General Motors Corp.
+After leaving the Connecticut company, Stanley Rockwell, then in Syracuse, NY, applied for an improvement to the original invention on September 11, 1919, which was approved on November 18, 1924. The new tester holds U.S. Patent 1,516,207. Rockwell moved to West Hartford, CT, and made an additional improvement in 1921. Stanley collaborated with instrument manufacturer Charles H. Wilson of the Wilson-Mauelen Company in 1920 to commercialize his invention and develop standardized testing machines. Stanley started a heat-treating firm circa 1923, the Stanley P. Rockwell Company, which still exists in Hartford, CT. The later-named Wilson Mechanical Instrument Company has changed ownership over the years, and was acquired by Instron Corp. in 1993.
+
+
+== Operation ==
+
+The determination of the Rockwell hardness of a material involves the application of a minor load followed by a major load. The minor load establishes the zero position. The major load is applied, then removed while still maintaining the minor load. The depth of penetration from the zero datum is measured from a dial, on which a harder material gives a higher number. That is, the penetration depth and hardness are inversely proportional. The chief advantage of Rockwell hardness is its ability to display hardness values directly, thus obviating tedious calculations involved in other hardness measurement techniques.
+It is typically used in engineering and metallurgy. Its commercial popularity arises from its speed, reliability, robustness, resolution and small area of indentation.
+In order to get a reliable reading the thickness of the test-piece should be at least 10 times the depth of the indentation. Also, readings should be taken from a flat perpendicular surface, because convex surfaces give lower readings. A correction factor can be used if the hardness of a convex surface is to be measured.
+
+
+== Scales and values ==
+There are several alternative scales, the most commonly used being the "B" and "C" scales. Both express hardness as an arbitrary dimensionless number.
+Except for testing thin materials in accordance with A623 the steel indenter balls have been replaced by tungsten carbide balls of the varying diameters. When a ball indenter is used, the letter "W" is used to indicate a tungsten carbide ball was used, and the letter "S" indicates the use of a steel ball. E.g.: 70 HRBW indicates the reading was 70 in the Rockwell B scale using a tungsten carbide indenter.
+The superficial Rockwell scales use lower loads and shallower impressions on brittle and very thin materials. The 45N scale employs a 45-kgf load on a diamond cone-shaped Brale indenter, and can be used on dense ceramics. The 15T scale employs a 15-kgf load on a 1⁄16-inch-diameter (1.588 mm) hardened steel ball, and can be used on sheet metal.
+The B and C scales overlap, such that readings below HRC 20 and those above HRB 100, generally considered unreliable, need not be taken or specified.
+
+
+=== Typical values ===
+Very hard steel (e.g. chisels, quality knife blades): HRC 55–66 (Hardened High Speed Carbon and Tool Steels such as M2, W2, O1, CPM-M4, and D2, as well as many of the newer powder metallurgy Stainless Steels such as S30V, CPM-154, ZDP-189, etc.)
+Axes: about HRC 45–55
+Brass: HRB 55 (Low brass, UNS C24000, H01 Temper) to HRB 93 (Cartridge Brass, UNS C26000 (260 Brass), H10 Temper)
+Several other scales, including the extensive A-scale, are used for specialized applications. There are special scales for measuring case-hardened specimens.
+
+
+== Standards ==
+International (ISO)
+ISO 6508-1: Metallic materials—Rockwell hardness test—Part 1: Test method (scales A, B, C, D, E, F, G, H, K, N, T)
+ISO 2039-2: Plastics—Determination of hardness—Part 2: Rockwell hardness
+
+US standard (ASTM International)
+ASTM E18: Standard methods for Rockwell hardness and Rockwell superficial hardness of metallic materials
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Video on the Rockwell hardness test
+Hardness Conversion Chart
+Rockwell to brinell conversion chart
+Hardness Conversion Table

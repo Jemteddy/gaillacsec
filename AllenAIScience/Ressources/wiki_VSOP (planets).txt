@@ -1,0 +1,58 @@
+The semi-analytic planetary theory VSOP (French: Variations Séculaires des Orbites Planétaires, abbreviated as VSOP) was developed and is maintained (updating it with the results of the latest and most accurate measurements) by the scientists at the Bureau des Longitudes in Paris, France. The first version, VSOP82, computed only the orbital elements at any moment. An updated version, VSOP87, besides providing improved accuracy, computed the positions of the planets directly, as well as their orbital elements, at any moment.
+The secular variations of the planetary orbits is a concept describing long-term changes (secular variation) in the orbits of the planets Mercury to Neptune. If one ignores the gravitational attraction between the planets and only models the attraction between the Sun and the planets, then with some further idealisations, the resulting orbits would be Keplerian ellipses. In this idealised model the shape and orientation of these ellipses would be constant in time. In reality, while the planets are at all times roughly in Keplerian orbits, the shape and orientation of these ellipses does change slowly over time. Over the centuries increasingly complex models have been made of the deviations from simple Keplerian orbits. In addition to the models, efficient and accurate numerical approximation methods have also been developed.
+At present the difference between computational predictions and observations is sufficiently small that the observations do not support the hypothesis that the models are missing some fundamental physics. Such hypothetical deviations are often referred to as post-Keplerian effects.
+
+
+== History ==
+Predicting the position of the planets in the sky was already performed in ancient times. Careful observations and geometrical calculations produced a model of the motion of the solar system known as the Ptolemaic system, which was based on an Earth-centered system. The parameters of this theory were improved during the Middle Ages by Indian and Islamic astronomers.
+The work of Tycho Brahe, Kepler, and Isaac Newton in early modern Europe laid a foundation for a modern heliocentric system. Future planetary positions continued to be predicted by extrapolating past observed positions as late as the 1740 tables of Jacques Cassini.
+The problem is that, for example, the Earth is not only gravitationally attracted by the Sun, which would result in a stable and easily predicted elliptical orbit, but also in varying degrees by the Moon, the other planets and any other object in the solar system. These forces cause perturbations to the orbit, which change over time and which cannot be exactly calculated. They can be approximated, but to do that in some manageable way requires advanced mathematics or very powerful computers. It is customary to develop them into periodic series which are a function of time, e.g. a+bt+ct2+...×cos(p+qt+rt2+...) and so forth one for each planetary interaction. The factor a in the preceding formula is the main amplitude, the factor q the main period, which is directly related to an harmonic of the driving force, that is a planetary position. For example: q= 3×(length of Mars) + 2×(length of Jupiter). (The term 'length' in this context refers to the ecliptic longitude, that is the angle over which the planet has progressed in its orbit, so q is an angle over time too. The time needed for the length to increase over 360° is equal to the revolution period.)
+It was Joseph Louis Lagrange in 1781, who carried out the first serious calculations, approximating the solution using a linearization method. Others followed, but it was not until 1897 that George William Hill expanded on the theories by taking second order terms into account. Third order terms had to wait until the 1970s when computers became available and the vast amounts of calculations to be performed in developing a theory finally became manageable.
+
+
+== Variations Séculaires des Orbites Planétaires ==
+
+
+=== VSOP82 ===
+Pierre Bretagnon completed a first phase of this work by 1982 and the results of it are known as VSOP82. But because of the long period variations, his results are expected not to last more than a million years (and much less, maybe 1000 years only on very high accuracy).
+A major problem in any theory is that the amplitudes of the perturbations are a function of the masses of the planets (and other factors, but the masses are the bottlenecks). These masses can be determined by observing the periods of the moons of each planet or by observing the gravitational deflection of spacecraft passing near a planet. More observations produce greater accuracy. Short period perturbations (less than a few years) can be quite easily and accurately determined. But long period perturbations (periods of many years up to centuries) are much more difficult, because the timespan over which accurate measurements exist is not long enough, which may make them almost indistinguishable from constant terms. Yet it is these terms which are the most important influence over the millennia.
+Notorious examples are the great Venus term and the Jupiter-Saturn great inequality. Looking up the revolution periods of these planets, one may notice that 8×(period of Earth) is almost equal to 13×(period of Venus) and 5×(period of Jupiter) is about 2×(period of Saturn).
+A practical problem with the VSOP82 was that since it provided long series only for the orbital elements of the planets, it was not easy to figure out where to truncate the series if full accuracy was not needed. This problem was fixed in VSOP87, which provides series for the positions as well as for the orbital elements of the planets.
+
+
+=== VSOP87 ===
+In VSOP87 especially these long period terms were addressed, resulting in much higher accuracy, although the calculation method itself remained similar. VSOP87 guarantees for Mercury, Venus, Earth-Moon barycenter and Mars a precision of 1" for 4000 years before and after the 2000 epoch. The same precision is ensured for Jupiter and Saturn over 2000 years and for Uranus and Neptune over 6000 years before and after J2000.
+This, together with its free availability has made VSOP87 the most popular source for planetary calculations nowadays; for example, it is used in Celestia and Orbiter.
+Another major improvement is the use of rectangular coordinates in addition to the elliptical. In traditional perturbation theory it is customary to write the base orbits for the planets down with the following 6 orbital elements (gravity yields second order differential equations which result in 2 integration constants, and there is one such equation for each direction in 3 dimensional space):
+a semi-major axis
+e eccentricity
+i inclination
+Ω longitude of the ascending node
+ω argument of perihelion (or longitude of perihelion ϖ = ω + Ω)
+T time of perihelion passage (or mean anomaly M)
+Without perturbations these elements would be constant, and are therefore ideal to base the theories on. With perturbations they slowly change, and one takes as many perturbations in the calculations as possible or desirable. The results are the orbital element at a specific time, which can be used to compute the position in either rectangular coordinates (X,Y,Z) or spherical coordinates: longitude, latitude and heliocentric distance. These heliocentric coordinates can then fairly easily be changed to other viewpoints, e.g. geocentric coordinates. For coordinate transformations, rectangular coordinates (X,Y,Z) are often easier to use: translations (e.g. heliocentric to geocentric coordinates) are performed through vector addition, and rotations (e.g. ecliptic to equatorial coordinates) through matrix multiplication.
+VSOP87 comes in 6 tables:
+VSOP87 Heliocentric ecliptic orbital elements for the equinox J2000.0; the 6 orbital elements, ideal to get an idea how the orbits are changing over time
+VSOP87A Heliocentric ecliptic rectangular coordinates for the equinox J2000.0; the most useful when converting to geocentric positions and later plot the position on a star chart
+VSOP87B Heliocentric ecliptic spherical coordinates for the equinox J2000.0
+VSOP87C Heliocentric ecliptic rectangular coordinates for the equinox of the day; the most useful when converting to geocentric positions and later compute e.g. rise/set/culmination times, or the altitude and azimuth relative to your local horizon
+VSOP87D Heliocentric ecliptic spherical coordinates for the equinox of the day
+VSOP87E Barycentric ecliptic rectangular coordinates for the equinox J2000.0, relative to the barycentre of the solar system.
+
+
+== See also ==
+Secular phenomena
+Shapiro delay
+Jet Propulsion Laboratory Development Ephemeris (JPL)
+ELP-2000
+
+
+== Notes and references ==
+
+
+=== References ===
+The VSOP87 Theory and Multi-language Program Source Code Generator - VSOP87 Theory and Source Code in 5 Computer Language Structures
+All relevant VSOP files can be downloaded via FTP
+P. Bretagnon (1982). "Théorie du mouvement de l'ensemble des planètes. Solution VSOP82". Astronomy & Astrophysics 114: 278–288. Bibcode:1982A&A...114..278B. 
+P. Bretagnon; G. Francou (1988). "Planetary theories in rectangular and spherical variables. VSOP87 solutions". Astronomy & Astrophysics 202: 309–315. Bibcode:1988A&A...202..309B. 
+J.L. Simon; P. Bretagnon; et al. (1994). "Numerical expressions for precession formulae and mean elements for the Moon and the planets". Astronomy & Astrophysics 282: 663–683. Bibcode:1994A&A...282..663S.

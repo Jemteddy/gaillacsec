@@ -1,0 +1,15 @@
+The Chess Engine Communication Protocol is an open communication protocol that enables a chess engine to communicate with its user interface.
+It was designed by Tim Mann, the author of XBoard. It was initially intended to only communicate with the GNU Chess engine which only accepted text input and produced text output. In fact, the first version of this protocol is nothing more than the behavior of GNU Chess's command line interface. XBoard, using the protocol, "wrapped around" GNU Chess by feeding the engine the expected text input, parsing the text output, and presenting this information on a graphical chess board.
+Since its early days, the protocol has grown more robust and now supports standard chess games along with various chess variants, including the world's major forms of chess (Xiangqi, Shogi, Makruk) as well as western variants (Knightmate, Capablanca chess, Seirawan chess), amongst which variants popular on internet chess servers (Wild Castle, No Castle, Fischer Random, Bughouse, Crazyhouse, Losers, Suicide, Give Away, Two Kings, Kriegspiel, Atomic, and Three Check). The protocol also supports three different styles of time control: conventional clocks, incremental clocks (Fischer Delay), and exact seconds per move. As of 2006, there are more than 300 chess engines (including GNU Chess and Crafty) and 30 chess interface programs (including XBoard itself and eboard) that support this protocol with varying degrees of compatibility.
+As of 2008 work is being done to update the Chess Engine Communication Protocol with some convenient features such as the ability to set memory usage and the number of search threads (the latter is essential for Symmetric multiprocessing architectures). The need to run engines based on the universal chess interface and other protocols in XBoard (which only supports CECP) through adapter without loss of functionality has forced CECP to remain at least as powerful as all these other protocols. An experimental extension of the protocol (the 'Alien Edition') exists, which aims at generalizing CECP for use with non-chesslike games such as Ultima, Checkers, Amazons or Dark chess, addressing issues such as multiple moves per turn, unusual capture modes, partial availability of move and board information, and allowing a user interface to function without any specific rule knowledge of the game at hand. With the release of XBoard 4.8 in 2014 the protocol has been extended to make it possible for variant engines to load the GUI with knowledge about the rules of a variant (board size, initial setup, participating pieces and how these move).
+
+
+== See also ==
+XBoard
+Chess engine
+Computer chess
+Universal Chess Interface
+
+
+== External links ==
+Chess Engine Communication Protocol

@@ -1,0 +1,32 @@
+A physical quantity is said to have a discrete spectrum if it takes only distinct values, with positive gaps between one value and the next.
+The classical example of discrete spectrum (for which the term was first used) is the characteristic set of discrete spectral lines seen in the emission spectrum and absorption spectrum of isolated atoms of a chemical element, which only absorb and emit light at particular wavelengths. The technique of spectroscopy is based on this phenomenon.
+Discrete spectra are contrasted with the continuous spectra also seen in such experiments, for example in thermal emission, in synchrotron radiation, and may other light-producing phenomena.
+
+Discrete spectra are seen in many other phenomena, such as vibrating strings, microwaves in a metal cavity, sound waves in a pulsating star, and resonances in high-energy particle physics.
+The general phenomenon of discrete spectra in physical systems can be mathematically modeled with tools of functional analysis, specifically by the decomposition of the spectrum of a linear operator acting on a functional space.
+
+
+== Origins of discrete spectra ==
+
+
+=== Classical mechanics ===
+In classical mechanics, discrete spectra are often associated to waves and oscillations in a bounded object or domain. Mathematically they can be identified with the eigenvalues of differential operators that describe the evolution of some continuous variable (such as strain or pressure) as a function of time and/or space.
+Discrete spectra are also produced by some non-linear oscillators where the relevant quantity has a non-sinusoidal waveform. Notable examples are the sound produced by the vocal chords or mammals. and the stridulation organs of crickets, whose spectrum shows a series of strong lines at frequencies that are integer multiples (harmonics) of the oscillation frequency.
+A related phenomenon is the appearance of strong harmonics when a sinusoidal signal (which has the ultimate "discrete spectrum", consisting of a single spectral line) is modified by a non-linear filter; for example, when a pure tone is played through an overloaded amplifier, or when an intense monochromatic laser beam goes through a non-linear medium. In the latter case, if two arbitrary sinusoidal signals with frequencies f and g are processed together, the output signal will generally have spectral lines at frequencies |mf + ng| where m and n are any integers.
+
+
+=== Quantum mechanics ===
+
+In quantum mechanics, the discrete spectrum of an observable corresponds to the eigenvalues of the operator used to model that observable. According to the mathematical theory of such operators, its eigenvalues are a discrete set of isolated points, which may be either finite or countable.
+Discrete spectra are usually associated with systems that are bound in some sense (mathematically, confined to a compact space). The position and momentum operators have continuous spectra in an infinite domain, but a discrete (quantized) spectrum in a compact domain; and the same holds for angular momentum, and the Hamiltonians of various physical systems.
+The quantum harmonic oscillator and the hydrogen atom are examples of physical systems in which the Hamiltonian has a discrete spectrum. In the case of the hydrogen atom the spectrum has both a continuous and a discrete part, the continuous part representing the ionization.
+
+
+== See also ==
+Band structure
+Discrete frequency domain
+Decomposition of spectrum (functional analysis)
+Essential spectrum
+
+
+== References ==

@@ -1,0 +1,61 @@
+The Protein Data Bank (PDB) is a crystallographic database for the three-dimensional structural data of large biological molecules, such as proteins and nucleic acids. The data, typically obtained by X-ray crystallography, NMR spectroscopy, or, increasingly, cryo-electron microscopy, and submitted by biologists and biochemists from around the world, are freely accessible on the Internet via the websites of its member organisations (PDBe, PDBj, and RCSB). The PDB is overseen by an organization called the Worldwide Protein Data Bank, wwPDB.
+The PDB is a key resource in areas of structural biology, such as structural genomics. Most major scientific journals, and some funding agencies, now require scientists to submit their structure data to the PDB. Many other databases use protein structures deposited in the PDB. For example, SCOP and CATH classify protein structures, while PDBsum provides a graphic overview of PDB entries using information from other sources, such as Gene ontology
+
+
+== History ==
+Two forces converged to initiate the PDB: 1) a small but growing collection of sets of protein structure data determined by X-ray diffraction; and 2) the newly available (1968) molecular graphics display, the Brookhaven RAster Display (BRAD), to visualize these protein structures in 3-D. In 1969, with the sponsorship of Walter Hamilton at the Brookhaven National Laboratory, Edgar Meyer (Texas A&M University) began to write software to store atomic coordinate files in a common format to make them available for geometric and graphical evaluation. By 1971, one of Meyer's programs, SEARCH, enabled researchers to remotely access information from the database to study protein structures offline. SEARCH was instrumental in enabling networking, thus marking the functional beginning of the PDB.
+Upon Hamilton's death in 1973, Tom Koeztle took over direction of the PDB for the subsequent 20 years. In January 1994, Joel Sussman of Israel's Weizmann Institute of Science was appointed head of the PDB. In October 1998, the PDB was transferred to the Research Collaboratory for Structural Bioinformatics (RCSB); the transfer was completed in June 1999. The new director was Helen M. Berman of Rutgers University (one of the member institutions of the RCSB). In 2003, with the formation of the wwPDB, the PDB became an international organization. The founding members are PDBe (Europe), RCSB (USA), and PDBj (Japan). The BMRB joined in 2006. Each of the four members of wwPDB can act as deposition, data processing and distribution centers for PDB data. The data processing refers to the fact that wwPDB staff review and annotate each submitted entry. The data are then automatically checked for plausibility (the source code for this validation software has been made available to the public at no charge).
+
+
+== Contents ==
+
+The PDB database is updated weekly (UTC+0 Wednesday). Likewise, the PDB holdings list is also updated weekly. As of 4 August 2015, the breakdown of current holdings is as follows:
+
+88,257 structures in the PDB have a structure factor file.
+8,360 structures have an NMR restraint file.
+2,118 structures in the PDB have a chemical shifts file.
+779 structures in the PDB have a 3DEM map file deposited in EM Data Bank
+
+These data show that most structures are determined by X-ray diffraction, but about 10% of structures are now determined by protein NMR. When using X-ray diffraction, approximations of the coordinates of the atoms of the protein are obtained, whereas estimations of the distances between pairs of atoms of the protein are found through NMR experiments. Therefore, the final conformation of the protein is obtained, in the latter case, by solving a distance geometry problem. A few proteins are determined by cryo-electron microscopy. (Clicking on the numbers in the original table will bring up examples of structures determined by that method.)
+The significance of the structure factor files, mentioned above, is that, for PDB structures determined by X-ray diffraction that have a structure file, the electron density map may be viewed. The data of such structures is stored on the "electron density server".
+In the past, the number of structures in the PDB has grown at an approximately exponential rate, passing the 100 registered structures milestone in 1982, the 1,000 in 1993, the 10,000 in 1999 and the 100,000 in 2014. However, since 2007, the rate of accumulation of new protein structures appears to have plateaued.
+
+
+== File format ==
+The file format initially used by the PDB was called the PDB file format. This original format was restricted by the width of computer punch cards to 80 characters per line. Around 1996, the "macromolecular Crystallographic Information file" format, mmCIF, started to be phased in. An XML version of this format, called PDBML, was described in 2005. The structure files can be downloaded in any of these three formats. In fact, individual files are easily downloaded into graphics packages using web addresses:
+For PDB format files, use, e.g., http://www.pdb.org/pdb/files/4hhb.pdb.gz or http://pdbe.org/download/4hhb
+For PDBML (XML) files, use, e.g., http://www.pdb.org/pdb/files/4hhb.xml.gz or http://pdbe.org/pdbml/4hhb
+The "4hhb" is the PDB identifier. Each structure published in PDB receives a four-character alphanumeric identifier, its PDB ID. (This cannot be used as an identifier for biomolecules, because often several structures for the same molecule—in different environments or conformations—are contained in PDB with different PDB IDs.)
+
+
+== Viewing the data ==
+The structure files may be viewed using one of several free and open source computer programs, including Jmol, Pymol, and Rasmol. Other non-free, shareware programs include ICM-Browser, VMD, MDL Chime, UCSF Chimera, Swiss-PDB Viewer, StarBiochem (a Java-based interactive molecular viewer with integrated search of protein databank), Sirius, and VisProt3DS (a tool for Protein Visualization in 3D stereoscopic view in anaglyth and other modes), and Discovery Studio. The RCSB PDB website contains an extensive list of both free and commercial molecule visualization programs and web browser plugins.
+
+
+== See also ==
+Crystallographic database
+Protein structure
+Protein structure prediction
+Protein structure database
+PDBREPORT lists all anomalies (also errors) in PDB structures
+PDBsum — extracts data from other databases about PDB structures
+PDBWiki — a website for community annotation of PDB structures
+Proteopedia — a collaborative 3D encyclopedia of proteins and other molecules
+
+
+== References ==
+
+
+== External links ==
+The Worldwide Protein Data Bank (wwPDB) — parent site to regional hosts (below)
+RCSB Protein Data Bank (USA)
+PDBe (Europe)
+PDBj (Japan)
+BMRB, Biological Magnetic Resonance Data Bank (USA)
+
+wwPDB Documentation — documentation on both the PDB and PDBML file formats
+Looking at Structures — The RCSB's introduction to crystallography
+PDBsum Home Page — Extracts data from other databases about PDB structures.
+Nucleic Acid Database, NDB — a PDB mirror especially for searching for nucleic acids
+Introductory PDB tutorial sponsored by PDB
+PDBe: Quick Tour on EBI Train OnLine

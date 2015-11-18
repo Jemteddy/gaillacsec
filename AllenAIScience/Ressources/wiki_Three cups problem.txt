@@ -1,0 +1,22 @@
+The three cups problem is a mathematical puzzle that, in its most common form, cannot be solved.
+In the beginning position of the problem, one cup is upside-down and the other two are right-side up. The objective is to turn all cups right-side up in no more than six moves. You must turn over exactly two cups at each move.
+
+
+== Solvable versionEdit ==
+
+The solvable (but trivial) version of this puzzle begins with one cup right-side up and two cups upside-down. To solve the puzzle in a single move, you need only turn up the two cups that are upside down — after which all three cups are facing up.
+
+
+== Proof of impossibilityEdit ==
+To see that the problem is insolvable (when starting with just one cup upside down), it suffices to concentrate on the number of cups the wrong way up, which we may call W. We observe that we are required to change W from 1 to 0, i.e. by -1; it is therefore sufficient to show that any move changes W by an even number. Since a move inverts two cups and each inversion changes W by +1 (if the cup was the right way up) or -1 (otherwise), a move changes W by the sum of two odd numbers, which is even, completing the proof.
+Another way of looking is that at the start we have 2 'right' cups and 1 'wrong'. By changing 1 right and 1 wrong, situation remains the same. By changing 2 rights, we land up at 3 wrongs. Next move takes us back to the original position of 1 wrong. Thus, any number of moves leaves us either with 3 wrongs or with 1 wrong, and never with 0 wrongs.
+More generally, this argument shows that for any number of cups, we cannot reduce W to 0 if it is initially odd. On the other hand, if W is even, all we need to do is invert them two at a time until W is 0.
+
+
+== See alsoEdit ==
+List of impossible puzzles
+Puzzle
+Recreational mathematics
+
+
+== ReferencesEdit ==

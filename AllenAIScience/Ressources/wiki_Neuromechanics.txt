@@ -1,0 +1,85 @@
+Neuromechanics is an interdisciplinary field which combines neuroscience and biomechanics to study the control of human or animal movement, particularly its relation to the brain/spinal cord or other CNS structures depending on species. It studies in combination the skeletal, muscular, and nervous systems and how they interact to produce motion about a joint to complete a motor task.
+Muscles signals stimulated by neurological impulses are collected using electromyography (EMG). These muscle signals are indicative of neural activity. In certain instances, EMG data can be indicative of neuroplasticity and learning of motor tasks. The muscular system, specifically skeletal muscle, creates movement around bone joints, and the central nervous system is imperative in directing skeletal muscles in motor movements.
+
+
+== Background ==
+
+Neuromechanics is the field of study that combines neuroscience and biomechanics in an effort to understand movement and its relationship with the brain. Neuromechanics is an area that attempts to combine the efforts of muscles, sensory organs, pattern generators in the brain, and the central nervous system itself to explain motion. Neuromechanics applications include easing health problems and designing and controlling robotic systems.
+
+
+=== Neuroscience ===
+Neuroscience is the study of the nervous system. The nervous system is divided into two sub-systems: the peripheral nervous system and the central nervous system.
+The peripheral nervous system is then composed of three sub-systems: the somatic nervous system, the autonomic nervous system, and the visceral nervous system. The autonomic nervous system is also broken down into the sympathetic nervous system, the parasympathetic nervous system, and the enteric nervous system. The nervous system responsible for voluntary motion, including lower limb motion, is the somatic nervous system. Though the somatic nervous system is part of the peripheral nervous system, motion also involves use of elements of the central nervous system: the brain and the spinal cord.
+Neuroscience contributes to human neuromechanics by studying how different neurological diseases contribute to biomechanical problems and changes in typical movement. Neuroscience deals with studying the cause of visible problems.
+
+
+=== Biomechanics ===
+Biomechanics is the study of the structure and function of living systems such as humans, animals, and other organisms by means of mechanics. Much of biomechanics is concerned with simple motor tasks such as walking. Walking can be defined by the gait cycle. The gait cycle is a repetitive event that consists of one full step from heel-strike to the next heel-strike in the same foot. It can be divided into two phases: stance phase and swing phase. Stance phase consists of the time during which the heel strikes the ground to the point in time at which the toe leaves the ground. Swing phase consists of the rest of the gait cycle, the time between the toe leaving the ground to the next heel strike.
+Biomechanics contributes to neuromechanics by studying how the body responds to different conditions whether they be neurological diseases or physical impairments. Biomechanics deals with studying the effect that results from such conditions.
+
+
+== Inverted Pendulum Theory ==
+
+The inverted pendulum theory of gait is a neuromechanical approach to understanding human movement. In the theory, the weight of the body is reduced to a center of mass resting on a massless leg at a single support. The ground reaction force travels from the center of pressure at the bottom of the massless leg to the center of mass at the top of the massless leg. The velocity vector of the center of mass is always perpendicular to the ground reaction force.
+Walking consists of alternating single-support and double-support phases. The single-support phase occurs when one leg is in contact with the ground while the double-support phase occurs when two legs are in contact with the ground.
+
+
+=== Neurological influences ===
+The inverted pendulum is stabilized by constant feedback from the brain and can operate even in the presence of sensory loss. In animals who have lost all sensory input to the moving limb, the variables produced by gait (center of mass acceleration, velocity of animal, and position of the animal) remain constant between both groups.
+During postural control, delayed feedback mechanisms are used in the temporal reproduction of task-level functions such as walking. The nervous system takes into account feedback from the center of mass acceleration, velocity, and position of an individual and utilizes the information to predict and plan future movements. Center of mass acceleration is essential in the feedback mechanism as this feedback takes place before any significant displacement data can be determined.
+
+
+=== Controversy ===
+The inverted pendulum theory directly contradicts the six determinants of gait, another theory for gait analysis. The six determinants of gait predict very high energy expenditure for the sinusoidal motion of the Center of Mass during gait, while the inverted pendulum theory offers the possibility that energy expenditure can be near zero. Paradoxically, the inverted pendulum theory predicts that little to no work is required for walking.
+
+
+== Electromyography ==
+Electromyography (EMG) is a tool used to measure the electrical outputs produced by skeletal muscles upon activation. Motor nerves innervate skeletal muscles and cause contraction upon command from the central nervous system. This contraction is measured by EMG and is typically measured on the scale of millivolts (mV). Another form of EMG data that is analyzed is integrated EMG (iEMG) data. iEMG measures the area under the EMG signal which corresponds to the overall muscle effort rather than the effort at a specific instant.
+
+
+=== Equipment ===
+There are four instrumentation components used to detect these signals: (1) the signal source, (2) the transducer used to detect the signal, (3) the amplifier, and (4) the signal processing circuit. The signal source refers to the location at which the EMG electrode is place. EMG signal acquisition is dependent on distance from the electrode to the muscle fiber, so placement is imperative. The transducer used to detect the signal is an EMG electrode than transforms the bioelectric signal from the muscle to a readable electric signal. The amplifier reproduces and undistorted bioelectric signal and also allows for noise reduction in the signal. Signal processing involves taking the recorded electrical impulses, filtering them, and enveloping the data.
+
+
+=== Latency ===
+Latency is a measure of the time span between the activation of a muscle and its peak EMG value. Latency is used as a means to diagnose disorders of the nervous system such as a herniated disc, amyotrophic lateral sclerosis (ALS), or myasthenia gravis (MG). These disorders may cause a disruption of the signal at the muscle, the nerve, or the junction between the muscle and the nerve.
+The use of EMG to identify nervous systems disorders is known as a nerve conduction study (NCS). Nerve conduction studies can only diagnose diseases on the muscular and nerve level. They cannot detect disease in the spinal cord or the brain. In most disorders of the muscle, nerve, or neuromuscular junction, the latency time is increased. This is a result of decreased nerve conduction or electrical stimulation at the site of the muscle. In 50% of patients with cerebral atrophy cases, the M3 spinal reflex latency, was increased and on occasion separated from the M2 spinal reflex response. The separation between the M2 and M3 spinal reflex responses is typically 20 milliseconds, but in patients with cerebral atrophy, the separation was increased to 50 ms. In some cases, however, other muscles can compensate for the muscle suffering from decreased electrical stimulation. In the compensatory muscle, the latency time is actually decreased in order to substitute for the function of the diseased muscle. These kinds of studies are used in neuromechanics to identify motor disorders and their effects on a cellular and electrical level rather than a system motion level.
+
+
+== Muscle Synergies ==
+
+A muscle synergy is a group of synergistic muscles and agonists that work together to perform a motor task. A muscle synergy is composed of agonist and synergistic muscles. An agonist muscle is a muscle that contracts individually, and it can cause a cascade of motion in neighboring muscles. Synergistic muscles aid the agonist muscles in motor control tasks, but they act against excess motion that the agonists may create.
+
+
+=== Muscle synergy hypothesis ===
+The muscle synergy hypothesis is based on the assumption that the central nervous system controls muscle groups independently rather than individual muscles. The muscle synergy hypothesis presents motor control as a three-tiered hierarchy. In tier one, a motor task vector is created by the central nervous system. The central nervous system then transforms the muscle vector to act upon a group of muscle synergies in tier two. Then in tier three, muscle synergies define a specific ratio of the motor task for each muscle and assign it to its respective muscle to act upon the joint to perform the motor task.
+
+
+=== Redundancy ===
+Redundancy plays a large role in muscle synergy. Muscle redundancy is a degrees of freedom problem on the muscular level. The central nervous system is presented with the opportunity to coordinate muscle movements, and it must choose one out of many. The muscle redundancy problem is a result of more muscle vectors than dimensions in the task space. Muscles can only generate tension by pulling, not pushing. This results in many muscle force vectors in multiple directions rather than a push and pull in the same direction.
+One debate on muscle synergies is between the prime mover strategy and the cooperation strategy. The prime mover strategy arises when a muscle's vector can act in the same direction as the mechanical action vector, the vector of the limb's motion. The cooperation strategy, however, takes place when no muscle can act directly in the vector direction of the mechanical action resulting in a coordination of multiple muscles to achieve the task. The prime mover strategy over time has declined in popularity as it has been found through electromyography studies that no one muscle consistently provides more force that other muscles that are acting to move about a joint.
+
+
+=== Criticisms ===
+The muscle synergy theory is difficult to falsify. Though experimentation has shown that groups of muscles indeed work together to control motor tasks, neural connections allow for individual muscles to be activated. Though individual muscle activation may contradict muscle synergy, it also obscures it. Activation of individual muscles may override or block the input from and overall effect of muscle synergies.
+
+
+== Adaptation ==
+
+Adaptation in the neuromechanical sense is the body's ability to change an action to better suit the situation or environment in which it is acting. Adaptation can be a result of injury, fatigue, or practice. Adaptation can be measured in a variety of ways: electromyography, three-dimensional reconstruction of joints, and changes in other variables pertaining to the specific adaptation being studied.
+
+
+=== Injury ===
+Injury can cause adaptation in a number of ways. Compensation is a large factor in injury adaptation. Compensation is a result of one or more weakened muscles. The brain is given the task to perform a certain motor task, and once a muscle has been weakened, the brain computes energy ratios to send to other muscles to perform the original task in the desired fashion. Change in muscle contribution is not the only byproduct of a muscle-related injury. Change in loading of the joint is another result which, if prolonged, can be harmful for the individual.
+
+
+=== Fatigue ===
+Muscle fatigue is the neuromuscular adaptation to challenges over a period of time. The use of motor units over a period of time can result in changes in the motor command from the brain. Since the force of contraction cannot be changed, the brain instead recruits more motor units to achieve maximal muscle contraction. Recruitment of motor units varies from muscle to muscle depending on the upper limit of motor recruitment in the muscle.
+
+
+=== Practice ===
+Adaptation due to practice can be a result of intended practice such as sports or unintended practice such as wearing an orthosis. In athletes, repetition results in muscle memory. The motor task becomes a long-term memory that can be repeated without much conscious effort. This allows the athlete to focus on fine-tuning their motor task strategy. Resistance to fatigue also comes with practice as the muscle is strengthened, but the speed at which an athlete can complete a motor task is also increased with practice. Volleyball players compared to non-jumpers show more repeatable control of muscles surrounding the knee that is controlled by co-activation in the single jump condition. In the repeated jump condition, both volleyball players and non-jumpers have a linear decrease in normalized jump flight time. Though the normalized linear decrease is the same for athletes and non-athletes, athletes consistently have higher flight times.
+There is also adaptation associated with use of a prosthesis or an orthosis. This operates similarly to adaptation due to fatigue; however, muscles can actually be fatigued or alter their mechanical contribution to a motor task as a result of wearing the orthosis. An ankle foot orthosis is a common solution to injury of the lower limb, specifically around the ankle joint. An ankle foot orthosis can be assistive or resistive. An assistive ankle orthosis encourages ankle movement, and a resistive ankle orthosis inhibits ankle movement. Upon wearing an assistive ankle foot orthosis, individuals have decreased EMG amplitude and joint stiffness over time while the opposite occurs for resistive ankle foot orthoses. Additionally, not only can electromyography readings differ, but the physical path that joints travel along can be altered as well.
+
+
+== References ==

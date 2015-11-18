@@ -1,0 +1,98 @@
+In computing, the Global File System 2 or GFS2 is a shared disk file system for Linux computer clusters. GFS2 differs from distributed file systems (such as AFS, Coda, InterMezzo, or GlusterFS) because GFS2 allows all nodes to have direct concurrent access to the same shared block storage. In addition, GFS or GFS2 can also be used as a local filesystem.
+GFS has no disconnected operating-mode, and no client or server roles. All nodes in a GFS cluster function as peers. Using GFS in a cluster requires hardware to allow access to the shared storage, and a lock manager to control access to the storage. The lock manager operates as a separate module: thus GFS and GFS2 can use the Distributed Lock Manager (DLM) for cluster configurations and the "nolock" lock manager for local filesystems. Older versions of GFS also support GULM, a server based lock manager which implements redundancy via failover.
+GFS and GFS2 are free software, distributed under the terms of the GNU General Public License.
+
+
+== History ==
+Development of GFS began in 1995 and was originally developed by University of Minnesota professor Matthew O'Keefe and a group of students. It was originally written for SGI's IRIX operating system, but in 1998 it was ported to Linux since the open source code provided a more convenient development platform. In late 1999/early 2000 it made its way to Sistina Software, where it lived for a time as an open-source project. In 2001, Sistina made the choice to make GFS a proprietary product.
+Developers forked OpenGFS from the last public release of GFS and then further enhanced it to include updates allowing it to work with OpenDLM. But OpenGFS and OpenDLM became defunct, since Red Hat purchased Sistina in December 2003 and released GFS and many cluster-infrastructure pieces under the GPL in late June 2004.
+Red Hat subsequently financed further development geared towards bug-fixing and stabilization. A further development, GFS2 derives from GFS and was included along with its distributed lock manager (shared with GFS) in Linux 2.6.19. Red Hat Enterprise Linux 5.2 included GFS2 as a kernel module for evaluation purposes. With the 5.3 update, GFS2 became part of the kernel package.
+As of 2009, GFS forms part of the Fedora, Red Hat Enterprise Linux 5.3 and upwards and associated CentOS Linux distributions. Users can purchase commercial support to run GFS fully supported on top of Red Hat Enterprise Linux. Since Red Hat Enterprise Linux version 5.3, Red Hat Enterprise Linux Advanced Platform has included support for GFS at no additional cost.
+The following list summarizes some version numbers and major features introduced:
+v1.0 (1996) SGI IRIX only
+v3.0 Linux port
+v4 journaling
+v5 Redundant Lock Manager
+v6.1 (2005) Distributed Lock Manager
+Linux 2.6.19 - GFS2 and DLM merged into Linux kernel
+Red Hat Enterprise Linux 5.3 releases the first fully supported GFS2
+
+
+== Hardware ==
+The design of GFS and of GFS2 targets SAN-like environments. Although it is possible to use them as a single node filesystem, the full feature-set requires a SAN. This can take the form of iSCSI, FibreChannel, AoE, or any other device which can be presented under Linux as a block device shared by a number of nodes, for example a DRBD device.
+The DLM requires an IP based network over which to communicate. This is normally just Ethernet, but again, there are many other possible solutions. Depending upon the choice of SAN, it may be possible to combine this, but normal practice involves separate networks for the DLM and storage.
+The GFS requires fencing hardware of some kind. This is a requirement of the cluster infrastructure, rather than GFS/GFS2 itself, but it is required for all multi-node clusters. The usual options include power switches and remote access controllers (e.g. DRAC, IPMI, or ILO). Fencing is used to ensure that a node which the cluster believes to be failed cannot suddenly start working again while another node is recovering the journal for the failed node. It can also optionally restart the failed node automatically once the recovery is complete.
+
+
+== Differences from a local filesystem ==
+Although the designers of GFS/GFS2 aimed to emulate a local filesystem closely, there are a number of differences to be aware of. Some of these are due to the existing filesystem interfaces not allowing the passing of information relating to the cluster. Some stem from the difficulty of implementing those features efficiently in a clustered manner. For example:
+The flock() system call on GFS/GFS2 is not interruptible by signals.
+The fcntl() F_GETLK system call returns a PID of any blocking lock. Since this is a cluster filesystem, that PID might refer to a process on any of the nodes which have the filesystem mounted. Since the purpose of this interface is to allow a signal to be sent to the blocking process, this is no longer possible.
+Leases are not supported with the lock_dlm (cluster) lock module, but they are supported when used as a local filesystem
+dnotify will work on a "same node" basis, but its use with GFS/GFS2 is not recommended
+inotify will also work on a "same node" basis, and is also not recommended (but it may become supported in the future)
+splice is supported on GFS2 only
+The other main difference, and one that is shared by all similar cluster filesystems, is that the cache control mechanism, known as glocks (pronounced Gee-locks) for GFS/GFS2, has an effect across the whole cluster. Each inode on the filesystem has two glocks associated with it. One (called the iopen glock) keeps track of which processes have the inode open. The other (the inode glock) controls the cache relating to that inode. A glock has four states, UN (unlocked), SH (shared – a read lock), DF (deferred – a read lock incompatible with SH) and EX (exclusive). Each of the four modes maps directly to a DLM lock mode.
+When in EX mode, an inode is allowed to cache data and metadata (which might be "dirty", i.e. waiting for write back to the filesystem). In SH mode, the inode can cache data and metadata, but it must not be dirty. In DF mode, the inode is allowed to cache metadata only, and again it must not be dirty. The DF mode is used only for direct I/O. In UN mode, the inode must not cache any metadata.
+In order that operations which change an inode's data or metadata do not interfere with each other, an EX lock is used. This means that certain operations, such as create/unlink of files from the same directory and writes to the same file should be, in general, restricted to one node in the cluster. Of course, doing these operations from multiple nodes will work as expected, but due to the requirement to flush caches frequently, it will not be very efficient.
+The single most frequently asked question about GFS/GFS2 performance is why the performance can be poor with email servers. The solution is to break up the mail spool into separate directories and to try to keep (so far as is possible) each node reading and writing to a private set of directories.
+
+
+== Journaling ==
+GFS and GFS2 are both journaled file systems; and GFS2 supports a similar set of journaling modes as ext3. In data=writeback mode, only metadata is journaled. This is the only mode supported by GFS, however it is possible to turn on journaling on individual data-files, but only when they are of zero size. Journaled files in GFS have a number of restrictions placed upon them, such as no support for the mmap or sendfile system calls, they also use a different on-disk format from regular files. There is also an "inherit-journal" attribute which when set on a directory causes all files (and sub-directories) created within that directory to have the journal (or inherit-journal, respectively) flag set. This can be used instead of the data=journal mount option which ext3 supports (and GFS/GFS2 doesn't).
+GFS2 also supports data=ordered mode which is similar to data=writeback except that dirty data is synced before each journal flush is completed. This ensures that blocks which have been added to an inode will have their content synced back to disk before the metadata is updated to record the new size and thus prevents uninitialised blocks appearing in a file under node failure conditions. The default journaling mode is data=ordered, to match ext3's default.
+As of 2010, GFS2 does not yet support data=journal mode, but it does (unlike GFS) use the same on-disk format for both regular and journaled files, and it also supports the same journaled and inherit-journal attributes. GFS2 also relaxes the restrictions on when a file may have its journaled attribute changed to any time that the file is not open (also the same as ext3).
+For performance reasons, each node in GFS and GFS2 has its own journal. In GFS the journals are disk extents, in GFS2 the journals are just regular files. The number of nodes which may mount the filesystem at any one time is limited by the number of available journals.
+
+
+== Features of GFS2 compared with GFS ==
+GFS2 adds a number of new features which are not in GFS. Here is a summary of those features not already mentioned in the boxes to the right of this page:
+The metadata filesystem (really a different root) – see Compatibility and the GFS2 meta filesystem below
+GFS2 specific trace points have been available since kernel 2.6.32
+The XFS-style quota interface has been available in GFS2 since kernel 2.6.33
+Caching ACLs have been available in GFS2 since 2.6.33
+GFS2 supports the generation of "discard" requests for thin provisioning/SCSI TRIM requests
+GFS2 supports I/O barriers (on by default, assuming underlying device supports it. Configurable from kernel 2.6.33 and up)
+FIEMAP ioctl (to query mappings of inodes on disk)
+Splice (system call) support
+mmap/splice support for journaled files (enabled by using the same on disk format as for regular files)
+Far fewer tunables (making set-up less complicated)
+Ordered write mode (as per ext3, GFS only has writeback mode)
+
+
+== Compatibility and the GFS2 meta filesystem ==
+GFS2 was designed so that upgrading from GFS would be a simple procedure. To this end, most of the on-disk structure has remained the same as GFS, including the big-endian byte ordering. There are a few differences though:
+GFS2 has a "meta filesystem" through which processes access system files
+GFS2 uses the same on-disk format for journaled files as for regular files
+GFS2 uses regular (system) files for journals, whereas GFS uses special extents
+GFS2 has some other "per_node" system files
+The layout of the inode is (very slightly) different
+The layout of indirect blocks differs slightly
+The journaling systems of GFS and GFS2 are not compatible with each other. Upgrading is possible by means of a tool (gfs2_convert) which is run with the filesystem off-line to update the metadata. Some spare blocks in the GFS journals are used to create the (very small) per_node files required by GFS2 during the update process. Most of the data remains in place.
+The GFS2 "meta filesystem" is not a filesystem in its own right, but an alternate root of the main filesystem. Although it behaves like a "normal" filesystem, its contents are the various system files used by GFS2, and normally users do not need to ever look at it. The GFS2 utilities mount and unmount the meta filesystem as required, behind the scenes.
+
+
+== See also ==
+
+Comparison of file systems
+GPFS, ZFS, VxFS
+Lustre
+GlusterFS
+List of file systems
+OCFS2
+QFS
+SAN file system
+Fencing
+Open-Sharedroot
+
+
+== References ==
+
+
+== External links ==
+Red Hat Red Hat Enterprise Linux 6 - Global File System 2
+Red Hat Cluster Suite and GFS Documentation Page
+GFS Project Page
+OpenGFS Project Page (obsolete)
+The GFS2 development git tree
+The GFS2 utilities development git tree

@@ -1,0 +1,6 @@
+System Policy Editor is a graphical tool provided with Windows 95, Windows NT 4.0, and Windows 98. System policies are made up from a set of registry entries that control the computer resources available to a user or group of users. These registry entries can be applied to individual users, groups of users, or to anybody logging on to a particular computer.
+It works by manipulating Registry and security settings. User-specific settings are stored in the HKEY_CURRENT_USER registry hive. Likewise, machine-specific settings are written under HKEY_LOCAL_MACHINE. ADM files are template files that are used by System Policy Editor to describe where registry-based policy settings are stored in the registry. They also describe the user interface presented to System Policy administrators.
+In Windows 2000, the System Policy Editor was replaced with the Group Policy snap-in for Microsoft Management Console (MMC).
+
+
+== References ==

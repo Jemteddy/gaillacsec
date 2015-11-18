@@ -1,0 +1,32 @@
+A solar controller is an electronic device that controls the circulating pump in a solar hot water system to harvest as much heat as possible from the solar panels and protect the system from overheating. The basic job of the controller is to turn the circulating pump on when there is heat available in the panels, moving the working fluid through the panels to the heat exchanger at the thermal store. Heat is available whenever the temperature of the solar panel is greater than the temperature of the water in the heat exchanger. Overheat protection is achieved by turning the pump off when the store reaches its maximum temperature and sometimes cooling the store by turning the pump on when the store is hotter than the panels.
+Most commercial controllers display the temperature of the hot water in the store and provide general status information about the system, including overall energy production.
+
+
+== Components ==
+The simplest solar controller circuit uses a comparator with two temperature inputs, one at the solar panel and one at the thermal store's heat exchanger, and an output to control the pump. Commercial controllers use a microprocessor usually with a LCD display and simple user interface with a few pushbuttons. Power for the controller and the pump can come from a mains electric supply or from a photovoltaic (PV) module.
+
+
+== Function ==
+The controller's main function is to switch the circulating pump on or off. The pump is usually switched on when the solar panel is hotter than the water in the store's heat exchanger and off when the panel is colder. Switching the pump on transfers the heat in the panel to the store. Switching it off when the panels cool prevents a reversal of the process and loss of heat from the store. The controller measures and compares the temperatures in the panel and the heat exchanger every few seconds.
+Commercial controllers do not turn on the pump until the difference in temperature between the panels and the water in the heat exchanger is sufficient to provide significantly more energy than is consumed by the pump. This temperature difference is called the on differential (usually 4–15 °C. They turn off the pump when the panels no longer are hot enough to provide significant heat to the store (the off differential). The wider the difference between these differentials, the fewer pump on-off cycles will take place. These factors are usually set by the solar installer in relation to the particular installation, especially dependent on the efficiency of the heat exhchanger and production capacity of the panels.
+Controllers provide an overrun time to extract some of the heat energy left in interconnecting pipes after the panels cool off. They may also implement certain safety features such as cooling the store when it exceeds a preset temperature such as 65 °C, by sending excess heat back to the panels to be given off to the environment.
+
+
+== Photovoltaic powered solar controller ==
+A photovoltaic (PV) powered solar controller uses solar electricity produced on-site to run the pump that delivers the solar-heated transfer fluid to the hot water store.
+One claimed advantage of PV power is that it reduces the overall carbon emissions associated with operating the system since it avoids the need to supply this energy from fossil sources. However, the energy required to operate the system is very small in comparison to the energy produced by the system and the carbon emissions reduction of adding PV power fractional.
+The most practical benefit of a PV powered controller is the resultant simplicity of the overall system. Rather than using complex algorithms based on store and panel temperatures, the pump is driven directly by the PV panel: when the sun shines, the pump runs. In practice this is nearly (90-99%) as efficient a practical control algorithm as most others achieve and has obvious advantages for reduced system complexity.
+A disadvantage to the PV powered approach is that the pump stops immediately after the sun is occluded. With vacuum tube and heat pipe solar panels, these can have an appreciable amount of energy stored in each tube at the moment the sun goes in. To avoid overheating the tubes it is necessary to either pump the circuit for a short time after the sun, or else to provide a large reservoir of fluid in the header above the tubes. Neither of these options is really compatible with the simple direct-PV pump approach and so such systems are limited to using the less efficient flat panel collectors.
+A PV powered controller may contain a small electricity store to allow the controller to remain powered and display temperatures at night when there is no sunlight. This electricity store is usually in the form of supercapacitors, since these have a much longer life than batteries.
+The benefits of a PV powered solar controller comes at a cost in reduced system performance in the range of 1-10%. This is due to heat losses at times when the panel may be hotter than the water store but there is insufficient sunlight to power the pump. This happens mainly on hot days when hot water is likely to be in excess so the potential reduction is less significant than it would be at times when the store was cooler.
+
+
+== References ==
+
+
+== Further reading ==
+Martin C, Watson M (2002). "Further Testing of Solar Water Heating Systems" (PDF). United Kingdom Department of Trade and Industry. Retrieved on 2007-08-04.
+
+
+== External links ==
+The Solar Trade Association

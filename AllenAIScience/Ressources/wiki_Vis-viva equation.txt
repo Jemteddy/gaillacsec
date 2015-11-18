@@ -1,0 +1,45 @@
+In astrodynamics, the vis-viva equation, also referred to as orbital-energy-invariance law, is one of the equations that model the motion of orbiting bodies. It is the direct result of the principle of conservation of mechanical energy which applies when the only force acting on an object is its own weight.
+Vis viva (Latin for "live force") is a term from the history of mechanics, and it survives in this sole context. It represents the principle that the difference between the aggregate work of the accelerating forces of a system and that of the retarding forces is equal to one half the vis viva accumulated or lost in the system while the work is being done.
+
+
+== EquationEdit ==
+For any Keplerian orbit (elliptic, parabolic, hyperbolic, or radial), the vis-viva equation is as follows:
+
+where:
+v is the relative speed of the two bodies
+r is the distance between the two bodies
+a is the semi-major axis (a > 0 for ellipses, a = ∞ or 1/a = 0 for parabolas, and a < 0 for hyperbolas)
+G is the gravitational constant
+M is the mass of the central body
+The product of GM can also be expressed using the Greek letter μ.
+
+
+== Derivation for Elliptic Orbits (0  eccentricity < 1)Edit ==
+In the vis-viva equation the mass m of the orbiting body (e.g., a spacecraft) is taken to be negligible in comparison to the mass M of the central body (e.g., the Earth). In the specific cases of an elliptical or circular orbit, the vis-viva equation may be readily derived from conservation of energy and momentum.
+Specific total energy is constant throughout the orbit. Thus, using the subscripts a and p to denote apoapsis (apogee) and periapsis (perigee), respectively,
+
+Rearranging,
+
+Recalling that for an elliptical orbit (and hence also a circular orbit) the velocity and radius vectors are perpendicular at apoapsis and periapsis, conservation of angular momentum requires , thus :
+
+Isolating the kinetic energy at apoapsis and simplifying,
+
+From the geometry of an ellipse,  where a is the length of the semimajor axis. Thus,
+
+Substituting this into our original expression for specific orbital energy,
+
+Thus,  and the vis-viva equation may be written
+
+or
+
+Therefore, the conserved angular momentum L = mh is derived below using
+
+where a, b, e and m are semi-major axis, semi-minor axis, eccentricity and mass
+
+
+== Practical applicationsEdit ==
+Given the total mass and the scalars r and v at a single point of the orbit, one can compute r and v at any other point in the orbit.
+Given the total mass and the scalars r and v at a single point of the orbit, one can compute the specific orbital energy , allowing an object orbiting a larger object to be classified as having not enough energy to remain in orbit, hence being "suborbital" (a ballistic missile, for example), having enough energy to be "orbital", but without the possibility to complete a full orbit anyway because it eventually collides with the other body, or having enough energy to come from and/or go to infinity (as a meteor, for example).
+
+
+== ReferencesEdit ==

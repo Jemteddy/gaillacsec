@@ -1,0 +1,98 @@
+In the seven-layer OSI model of computer networking, the physical layer or layer 1 is the first (lowest) layer. The implementation of this layer is often termed PHY.
+The physical layer consists of the basic networking hardware transmission technologies of a network. It is a fundamental layer underlying the logical data structures of the higher level functions in a network. Due to the plethora of available hardware technologies with widely varying characteristics, this is perhaps the most complex layer in the OSI architecture.
+The physical layer defines the means of transmitting raw bits rather than logical data packets over a physical link connecting network nodes. The bit stream may be grouped into code words or symbols and converted to a physical signal that is transmitted over a hardware transmission medium. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium. The shapes and properties of the electrical connectors, the frequencies to broadcast on, the modulation scheme to use and similar low-level parameters, are specified here.
+Within the semantics of the OSI network architecture, the physical layer translates logical communications requests from the data link layer into hardware-specific operations to affect transmission or reception of electronic signals.
+
+
+== Physical signaling sublayerEdit ==
+In a local area network (LAN) or a metropolitan area network (MAN) using open systems interconnection (OSI) architecture, the physical signaling sublayer is the portion of the physical layer that:
+interfaces with the data link layer's media access control (MAC) sublayer,
+performs character encoding, transmission, reception and decoding and,
+performs galvanic isolation.
+
+
+== List of servicesEdit ==
+The major functions and services performed by the physical layer are:
+Bit-by-bit or symbol-by-symbol delivery
+Providing a standardized interface to physical transmission media, including
+Mechanical specification of electrical connectors and cables, for example maximum cable length
+Electrical specification of transmission line signal level and impedance
+Radio interface, including electromagnetic spectrum frequency allocation and specification of signal strength, analog bandwidth, etc.
+Specifications for IR over optical fiber or a wireless IR communication link
+
+Modulation
+Line coding
+Bit synchronization in synchronous serial communication
+Start-stop signalling and flow control in asynchronous serial communication
+Circuit switching
+Multiplexing
+Establishment and termination of circuit switched connections
+
+Carrier sense and collision detection utilized by some level 2 multiple access protocols
+Equalization filtering, training sequences, pulse shaping and other signal processing of physical signals
+Forward error correction for example bitwise convolutional coding
+Bit-interleaving and other channel coding
+The physical layer is also concerned with
+Bit rate
+Point-to-point, multipoint or point-to-multipoint line configuration
+Physical network topology, for example bus, ring, mesh or star network
+Serial or parallel communication
+Simplex, half duplex or full duplex transmission mode
+Autonegotiation
+
+
+== List of protocolsEdit ==
+ARINC 818 Avionics Digital Video Bus
+Bluetooth physical layer
+CAN bus (controller area network) physical layer
+DSL
+EIA RS-232, EIA-422, EIA-423, RS-449, RS-485
+Etherloop
+Ethernet physical layer Including 10BASE-T, 10BASE2, 10BASE5, 100BASE-TX, 100BASE-FX, 100BASE-T, 1000BASE-T, 1000BASE-SX and other varieties
+GSM Um air interface physical layer
+G.hn/G.9960 physical layer
+IEEE 1394 interface
+ISDN
+IRDA physical layer
+ITU Recommendations: see ITU-T
+Mobile Industry Processor Interface physical layer
+Optical Transport Network (OTN)
+SONET/SDH
+T1 and other T-carrier links, and E1 and other E-carrier links
+TransferJet physical layer
+USB physical layer
+Telephone network modems- V.92
+Varieties of 802.11 Wi-Fi physical layers
+
+
+== Hardware equipment (network node) examplesEdit ==
+Network adapter
+Repeater
+Network hub
+Modem
+Fiber Media Converter
+
+
+== Relation to TCP/IP modelEdit ==
+The TCP/IP model, defined in RFC 1122 and RFC 1123, is a high-level networking description used for the Internet and similar networks. It does not define an equivalent layer that deals exclusively with hardware-level specifications and interfaces, as this model does not concern itself directly with physical interfaces. Several RFCs mention a physical layer and data link layer, but that is in context of IEEE protocols. RFC 1122 and 1123 do not mention any physical layer functionality or physical layer standards.
+
+
+== See alsoEdit ==
+Clock recovery
+Ethernet physical layer
+Data transmission
+Digital communication
+Digital modulation
+Line code
+Pulse shaping
+Bit synchronization
+Channel model
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Gorry Fairhurst (2001-01-01). "Physical Layer". Archived from the original on 2009-06-08. 
+Physical Layer (Layer 1)
+10G Layer 1 Walkthrough

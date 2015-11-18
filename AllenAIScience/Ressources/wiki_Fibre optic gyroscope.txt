@@ -1,0 +1,42 @@
+A fibre optic gyroscope (FOG) senses changes in orientation, thus performing the function of a mechanical gyroscope. However its principle of operation is instead based on the interference of light which has passed through a coil of optical fibre which can be as long as 5 km. The development of diode (semiconductor) lasers and low-loss single-mode optical fibre in the early 1970s for the telecommunications industry enabled Sagnac effect fibre optic gyros to be developed as practical devices.
+
+
+== OperationEdit ==
+Two beams from a laser are injected into the same fiber but in opposite directions. Due to the Sagnac effect, the beam travelling against the rotation experiences a slightly shorter path delay than the other beam. The resulting differential phase shift is measured through interferometry, thus translating one component of the angular velocity into a shift of the interference pattern which is measured photometrically.
+Beam splitting optics launches light from a laser diode into two waves propagating in the clockwise and anticlockwise directions through a coil consisting of many turns of optical fibre. The strength of the Sagnac effect is dependent on the effective area of the closed optical path: this is not simply the geometric area of the loop but is enhanced by the number of turns in the coil. The FOG was first proposed by Vali and Shorthill in 1976. Development of both the passive interferometer type of FOG, or IFOG, and a newer concept, the passive ring resonator FOG, or RFOG, is proceeding in many companies and establishments worldwide.
+
+
+== AdvantagesEdit ==
+A FOG provides extremely precise rotational rate information, in part because of its lack of cross-axis sensitivity to vibration, acceleration, and shock. Unlike the classic spinning-mass gyroscope, the FOG has no moving parts and doesn't rely on inertial resistance to movement. Hence, this is perhaps the most reliable alternative to the mechanical gyroscope. Because of their intrinsic reliability, FOGs are used for high performance space applications.
+The FOG typically shows a higher resolution than a ring laser gyroscope, but suffered from greater drift and worse scale factor performance until the end of the 1990s.
+FOGs are implemented in both open-loop and closed-loop configurations.
+
+
+== DisadvantagesEdit ==
+FOGs requires calibration (determining which indication corresponds to zero angular velocity) while ring laser gyroscopes do not (zero beat frequency always means zero angular velocity).
+
+
+== ApplicationsEdit ==
+FOGs are used in the inertial navigation systems of many guided missiles.
+FOGs can be a navigation aid in remotely operated vehicles and autonomous underwater vehicles.
+FOGs are used in surveying.
+
+
+== See alsoEdit ==
+Ring laser gyroscope
+Gyroscope
+Vibrating structure gyroscope
+Quantum gyroscope
+Inertial measurement unit
+Hemispherical resonator gyroscope
+
+
+== ReferencesEdit ==
+
+
+== SourcesEdit ==
+Anthony Lawrence, Modern Inertial Technology: Navigation, Guidance, and Control, Springer, Chapters 11 and 12 (pages 169–207), 1998. ISBN 0-387-98507-7.
+G.A. Pavlath, "Fiber-optic gyroscopes", IEEE Lasers and Electro-Optics Society (LEOS) Annual Meeting, 1994. LEOS '94 Conference Proceedings, Volume 2, pages 237–238. 31 Oct–3 Nov 1994.
+R.P.G. Collinson, Introduction to Avionics Systems, 2003 Kluwer Academic Publishers, Boston. ISBN 1-4020-7278-3.
+José Miguel López-Higuer, Handbook of Fibre Optic Sensing Technology, 2000, John Wiley & Sons Ltd.
+Hervé Lefèvre, The Fiber-Optic Gyroscope, 1993, Artech House. ISBN 0-89006-537-3.

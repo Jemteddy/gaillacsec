@@ -1,0 +1,140 @@
+An electromagnetic pulse (EMP), also sometimes called a transient electromagnetic disturbance, is a short burst of electromagnetic energy. Such a pulse's origination may be a natural occurrence or man-made and can occur as a radiated, electric or magnetic field or a conducted electric current, depending on the source. The term "electromagnetic pulse" is commonly abbreviated EMP (which is pronounced by saying the letters separately, "E-M-P").
+EMP interference is generally disruptive or damaging to electronic equipment, and at higher energy levels a powerful EMP event such as a lightning strike can damage physical objects such as buildings and aircraft structures. The management of EMP effects is an important branch of electromagnetic compatibility (EMC) engineering.
+The damaging effects of high-energy EMP have been used to create EMP weapons. These are typically divided into nuclear and non-nuclear devices. Such weapons, both real and fictional, are becoming known to the public by means of popular culture.
+
+
+== General characteristicsEdit ==
+An electromagnetic pulse is a short burst of electromagnetic energy. Its shortness means that it will always be spread over a range of frequencies. Pulses are typically characterised by:
+The type of energy (radiated, electric, magnetic or conducted).
+The range or spectrum of frequencies present.
+Pulse waveform: shape, duration and amplitude.
+The last two of these, the frequency spectrum and the pulse waveform, are interrelated via the Fourier transform and may be seen as two different ways of describing the same pulse.
+
+
+=== Types of energyEdit ===
+
+As with any electromagnetic signal, EMP energy may be transferred in any of four forms:
+Electric field
+Magnetic field
+Electromagnetic radiation
+Electrical conduction
+In general, only radiation acts over long distances, with the others acting only over short distances. There are a few exceptions, such as a solar magnetic flare.
+
+
+=== Frequency rangesEdit ===
+A pulse of electromagnetic energy typically comprises many frequencies from DC (zero Hz) to some upper limit depending on the source. The range defined as EMP, sometimes referred to as "DC to daylight", excludes the highest frequencies comprising the optical (infrared, visible, ultraviolet) and ionizing (X and gamma rays) ranges.
+Some types of EMP event can leave an optical trail, such as lightning and sparks, but these are side effects of the current flow through the air and are not part of the EMP itself.
+
+
+=== Pulse waveformsEdit ===
+The waveform of a pulse describes how its instantaneous amplitude (field strength or current) changes over time. Real pulses tend to be quite complicated, so simplified models are often used. Such a model is typically shown either as a diagram or as a mathematical equation.
+Most pulses have a very sharp leading edge, building up quickly to their maximum level. The classic model is a double-exponential curve which climbs steeply, quickly reaches a peak and then decays more slowly. However, pulses from a controlled switching circuit often take the form of a rectangular or "square" pulse.
+In a pulse train, such as from a digital clock circuit, the waveform is repeated at regular intervals.
+EMP events usually induce a corresponding signal in the victim equipment, due to coupling between the source and victim. Coupling usually occurs most strongly over a relatively narrow frequency band, leading to a characteristic damped sine wave signal in the victim. Visually it is shown as a high frequency sine wave growing and decaying within the longer-lived envelope of the double-exponential curve. A damped sinewave typically has much lower energy and a narrower frequency spread than the original pulse, due to the transfer characteristic of the coupling mode. In practice, EMP test equipment often injects these damped sinewaves directly rather than attempting to recreate the high-energy threat pulses.
+
+
+=== EffectsEdit ===
+Minor EMP events, and especially pulse trains, cause low levels of electrical noise or interference which can affect the operation of susceptible devices. For example, a common problem in the mid-twentieth century was interference emitted by the ignition systems of gasoline engines, which caused radio sets to crackle and TV sets to show stripes on the screen. Laws had to be introduced to make vehicle manufacturers fit interference suppressors.
+At a high voltage level an EMP can induce a spark, for example from an electrostatic discharge (ESD) when fuelling a gasoline-engined vehicle. Such sparks have been known to cause fuel-air explosions and precautions must be taken to prevent them.
+A large and energetic EMP can induce high currents and voltages in the victim, damaging electrical equipment or disrupting its function.
+A very large EMP event such as a lightning strike is also capable of damaging objects such as trees, buildings and aircraft directly, either through heating effects or the disruptive effects of the very large magnetic field generated by the current. An indirect effect can be electrical fires caused by heating. Most engineered structures and systems require some form of protection against lightning to be designed in.
+The damaging effects of EMP have led to the introduction of EMP weapons, from tactical missiles with a small radius of effect to nuclear bombs tailored for maximum EMP effect over a huge area.
+
+
+== Types of EMPEdit ==
+An EMP arises where the source emits a short-duration pulse of energy. The energy is usually broadband by nature, although it often excites a relatively narrow-band damped sine wave response in the victim. Some types are generated as repetitive and regular pulse trains.
+Different types of EMP arise from natural, man-made and weapons effects.
+Types of natural EMP event include:
+Lightning electromagnetic pulse (LEMP). The discharge is typically an initial huge current flow, at least mega-amps, followed by a train of pulses of decreasing energy.
+Electrostatic discharge (ESD), as a result of two charged objects coming into close proximity or even contact.
+Meteoric EMP. The discharge of electromagnetic energy resulting from either the impact of a meteoroid with a spacecraft or the explosive breakup of a meteoroid passing through the Earth's atmosphere.
+Types of (civil) man-made EMP event include:
+Switching action of electrical circuitry, whether isolated or repetitive (as a pulse train).
+Electric motors can create a train of pulses as the internal electrical contacts make and break connections as the armature rotates.
+Gasoline engine ignition systems can create a train of pulses as the spark plugs are energized or fired.
+Continual switching actions of digital electronic circuitry.
+Power line surges. These can be up to several kilovolts, enough to damage electronic equipment that is insufficiently protected.
+Types of military EMP include:
+Nuclear electromagnetic pulse (NEMP), as a result of a nuclear explosion. A variant of this is the high altitude nuclear EMP (HEMP), which produces a pulse of a much larger amplitude and different characteristics due to particle interactions with the Earth's atmosphere and subsequently the Earth's magnetic fields driving an oscillation in electric current after the original pulse from the particle and ray interactions on the atmosphere.
+Non-nuclear electromagnetic pulse (NNEMP) weapons.
+
+
+=== LightningEdit ===
+
+Lightning is unusual in that it typically has a preliminary "leader" discharge of low energy building up to the main pulse, which in turn may be followed at intervals by several smaller bursts.
+
+
+=== Electrostatic discharge (ESD)Edit ===
+
+ESD events are characterised by high voltages of many kV but small currents and sometimes cause visible sparks. ESD is treated as a small, localised phenomenon, although technically a lightning flash is a very large ESD event. ESD can also be man-made, as in the shock received from a Van de Graaff generator.
+An ESD event can damage electronic circuitry by injecting a high-voltage pulse, besides giving people an unpleasant shock. Such an ESD event can also create sparks, which may in turn ignite fires or fuel-vapour explosions. For this reason, before refuelling an aircraft or exposing any fuel vapour to the air, the fuel nozzle is first connected to the aircraft to safely discharge any static.
+
+
+=== Switching pulsesEdit ===
+The switching action of an electrical circuit creates a sharp change in the flow of electricity. This sharp change is a form of EMP.
+Simple electrical sources include inductive loads such as relays, solenoids, and the brush contacts in electric motors. Typically these send a pulse of voltage and/or current down any electrical connections present, as well as radiating a pulse of energy. The amplitude is usually small and the signal may be treated as "noise" or "interference". The switching off or "opening" of a circuit causes an abrupt change in the current flowing. This can in turn cause a large pulse in the electric field across the open contacts, causing arcing and damage. It is often necessary to incorporate design features to limit such effects.
+Electronic devices such as valves, transistors and diodes can also switch on and off very quickly, causing similar issues. One-off pulses may be caused by solid-state switches and other devices used only occasionally. By contrast the many millions of transistors in a modern computer may switch repeatedly at frequencies above 1 GHz, causing interference which appears to be continuous.
+
+
+=== Nuclear (NEMP) and high altitude nuclear (HEMP)Edit ===
+
+A nuclear EMP is the abrupt pulse of electromagnetic radiation resulting from a nuclear explosion. The resulting rapidly changing electric fields and magnetic fields may couple with electrical/electronic systems to produce damaging current and voltage surges.
+The intense gamma radiation emitted can also ionize the surrounding air, creating a secondary EMP as the atoms of air first lose their electrons and then regain them.
+NEMP weapons are designed to maximize such EMP effects as the primary damage mechanism, and some are capable of destroying susceptible electronic equipment over a wide area.
+An NEMP warhead designed to be detonated far above the Earth's surface is known as a high-altitude electromagnetic pulse (HEMP) device. The explosion releases a blast of gamma rays into the mid-stratosphere, which ionizes and the resultant energetic free electrons interact with the Earth's magnetic field to produce a much stronger EMP than is normally produced in the denser air at lower altitudes.
+
+
+=== Non-nuclear electromagnetic pulse (NNEMP)Edit ===
+Non-nuclear electromagnetic pulse (NNEMP) is a weapon-generated electromagnetic pulse without use of nuclear technology. Devices that can achieve this objective include a large low-inductance capacitor bank discharged into a single-loop antenna, a microwave generator and an explosively pumped flux compression generator. To achieve the frequency characteristics of the pulse needed for optimal coupling into the target, wave-shaping circuits and/or microwave generators are added between the pulse source and the antenna. Vircators are vacuum tubes that are particularly suitable for microwave conversion of high-energy pulses.
+NNEMP generators can be carried as a payload of bombs, cruise missiles (such as the CHAMP missile) and drones, with diminished mechanical, thermal and ionizing radiation effects, but without the political consequences of deploying nuclear weapons.
+The range of NNEMP weapons (non-nuclear electromagnetic pulse bombs) is much less than nuclear EMP. Nearly all NNEMP devices used as weapons require chemical explosives as their initial energy source, producing only 10−6 (one millionth) the energy of nuclear explosives of similar weight. The electromagnetic pulse from NNEMP weapons must come from within the weapon, while nuclear weapons generate EMP as a secondary effect. These facts limit the range of NNEMP weapons, but allow finer target discrimination. The effect of small e-bombs has proven to be sufficient for certain terrorist or military operations. Examples of such operations include the destruction of electronic control systems critical to the operation of many ground vehicles and aircraft.
+The concept of the explosively pumped flux compression generator for generating a non-nuclear electromagnetic pulse was conceived as early as 1951 by Andrei Sakharov in the Soviet Union, but nations kept work on non-nuclear EMP classified until similar ideas emerged in other nations.
+
+
+=== Electromagnetic formingEdit ===
+
+The large forces generated by electromagnetic pulses can be used to shape or form objects as part of their manufacturing process.
+
+
+== ControlEdit ==
+
+Like any electromagnetic interference, the threat from EMP is subject to control measures. This is true whether the threat is natural or man-made.
+Therefore, most control measures focus on the susceptibility of equipment to EMP effects, and hardening or protecting it from harm. Man-made sources, other than weapons, are also subject to control measures in order to limit the amount of pulse energy emitted.
+The discipline of ensuring correct equipment operation in the presence of EMP and other RF threats is known as electromagnetic compatibility (EMC).
+
+
+=== Test simulationEdit ===
+To test the effects of EMP on engineered systems and equipment, an EMP simulator may be used.
+
+
+==== Induced pulse simulationEdit ====
+Induced pulses are of much lower energy than threat pulses and so are more practicable to create, but they are less predictable. A common test technique is to use a current clamp in reverse, to inject a range of damped sine wave signals into a cable connected to the equipment under test. The damped sine wave generator is able to reproduce the range of induced signals likely to occur.
+
+
+==== Threat pulse simulationEdit ====
+Sometimes the threat pulse itself is simulated in a repeatable way. The pulse may be reproduced at low energy in order to characterise the victim's response prior to damped sinewave injection, or at high energy to recreate the actual threat conditions.
+A small-scale ESD simulator may be hand-held.
+Bench- or room-sized simulators come in a range of designs, depending on the type and level of threat to be generated.
+At the top end of the scale, large outdoor test facilities incorporating high-energy EMP simulators have been built by several countries. The largest facilities are able to test whole vehicles including ships and aircraft for their susceptibility to EMP. Nearly all of these large EMP simulators used a specialized version of a Marx generator.
+Examples include the huge wooden-structured ATLAS-I simulator (also known as TRESTLE) at Sandia National Labs, New Mexico, which was at one time the world's largest EMP simulator. Papers on this and other large EMP simulators used by the United States during the latter part of the Cold War, along with more general information about electromagnetic pulses, are now in the care of the SUMMA Foundation, which is hosted at the University of New Mexico. The US Navy also has a large facility called the Electro Magnetic Pulse Radiation Environmental Simulator for Ships I (EMPRESS I).
+
+
+== In fiction and popular cultureEdit ==
+
+Lightning has long been used as a dramatic device in popular fiction. In some tellings of the Frankenstein story, the monster is animated by a lightning strike.
+References to EMP weapons in popular fiction go back at least to 1965; however, EMP did not gain a significant presence until the mid 1980s.
+The popular media often depict EMP effects incorrectly, causing misunderstandings among the public and even professionals, and official efforts have been made in the USA to set the record straight.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== SourcesEdit ==
+Glasstone, Samuel; Dolan, Philip J. (1977). The Effects of Nuclear Weapons. United States Department of Defense and the Energy Research and Development Administration. 
+
+
+== External linksEdit ==
+TRESTLE: Landmark of the Cold War (Documentary Movie), a short documentary on the SUMMA Foundation website.

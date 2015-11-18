@@ -1,0 +1,68 @@
+The krytron is a cold-cathode gas-filled tube intended for use as a very high-speed switch, somewhat similar to the thyratron. It consists of a sealed glass tube with four electrodes. A small triggering pulse on the grid electrode switches the tube on, allowing a large current to flow between the cathode and anode electrodes. The vacuum version is called a vacuum krytron, or sprytron. Krytron was one of the earliest developments of the EG&G Corporation.
+
+
+== Description ==
+Unlike most other gas switching tubes, the krytron conducts by means of an arc discharge, to handle very high voltages and currents (reaching several kilovolts and several kiloamperes), rather than the low-current glow discharge used in other thyratrons. The krytron is a development of the triggered spark gaps and thyratrons originally developed for radar transmitters during World War II.
+The gas used in krytrons is hydrogen; noble gases (usually krypton, or a Penning mixture) can also be used.
+
+
+== Operation ==
+
+Krytron has four electrodes. Two are conventional anode and cathode. One is a keep-alive electrode, arranged to be close to the cathode. The keep-alive has a low positive voltage applied, which causes a small area of gas to ionize near the cathode. High voltage is applied to the anode, but primary conduction does not occur until a positive pulse is applied to the trigger electrode ("Grid" in the image above). Once started, arc conduction carries a considerable current.
+The control grid is usually wrapped around the anode, except a small opening on its top.
+In place of or in addition to the keep-alive electrode some krytrons may contain a very tiny amount of radioactive material (usually less than 5 microcuries of nickel-63), which emits beta particles (high-speed electrons) to make ionization easier. The radiation source serves to increase the reliability of ignition and formation of the keep-alive electrode discharge.
+The gas filling provides ions for neutralizing the space charge and allowing high currents at lower voltage. The keep-alive discharge populates the gas with ions, forming a preionized plasma; this can shorten the arc formation time by 3–4 orders of magnitude in comparison with non-preionized tubes, as time does not have to be spent on ionizing the medium during formation of the arc path.
+The electric arc is self-sustaining; once the tube is triggered, it conducts until the arc is interrupted by the current falling too low for too long (under 10 milliamperes for more than 100 microseconds for the KN22 krytrons).
+Krytrons and sprytrons are triggered by a high voltage from a capacitor discharge via a trigger transformer, in a similar way flashtubes for e.g. photoflash applications are triggered. Devices integrating a krytron with a trigger transformer are available.
+
+
+=== Sprytron ===
+Sprytron, also known as vacuum krytron, is a vacuum, rather than gas-filled, version. It is designed for use in environments with high levels of ionizing radiation, which might trigger a gas-filled krytron spuriously.
+Sprytrons lack the keepalive electrode and the preionization radioactive source. The trigger pulse for the grid must be stronger than for a krytron. Sprytrons are able to handle higher currents; krytrons tend to be used for triggering a secondary switch, e.g., a triggered spark gap, while sprytrons are usually connected directly to the load.
+The trigger pulse has to be much more intense, as there is no preionized gas path for the electric current, and a vacuum arc must form between the cathode and anode. An arc first forms between the cathode and the grid, then a breakdown occurs between the cathode–grid conductive region and the anode.
+Sprytrons are evacuated to hard vacuum. As Kovar and other metals are somewhat permeable for hydrogen, especially during the 600 °C bake-out before evacuation and sealing, all external metal surfaces have to be plated with thick (25 micrometers or more) layer of soft gold. The same metallization is used for other switch tubes as well.
+Sprytrons can be also triggered by a laser pulse. In 1999 the laser pulse energy needed to trigger a sprytron was reduced to 10 microjoules.
+Sprytrons are usually manufactured as rugged metal/ceramic parts. They typically have low inductance (10 nanohenries) and low electrical resistance when switched on (10–30 milliohms). After triggering, just before the sprytron switches fully on in avalanche mode, it briefly becomes slightly conductive (100–200 amperes); high-power MOSFET transistors operating in avalanche mode show similar behavior. SPICE models for sprytrons are available.
+
+
+== Performance ==
+This design, dating from the late 1940s, is still capable of pulse-power performance that even the most advanced semiconductors (even IGBTs) cannot match easily. Krytrons and sprytrons are capable of handling high-current high-voltage pulses, with very fast switching times, and constant, low jitter time delay between application of the trigger pulse and switching on.
+Krytrons can switch currents of up to about 3000 amperes and voltages up to about 5000 volts. Commutation time of less than 1 nanosecond can be achieved, with a delay between the application of the trigger pulse and switching as low as about 30 nanoseconds. The achievable jitter may be below 5 nanoseconds. The required trigger pulse voltage is about 200–2000 volts; higher voltages decrease the switching delay to some degree. The switching delay is strongly independent on the environment. Commutation time can be somewhat shortened by increasing the trigger pulse rise time. A given krytron tube will give very consistent performance to identical trigger pulses (low jitter). The keep-alive current ranges from tens to hundreds of microamperes. The pulse repetition rate can range from one per minute to tens of thousands per minute.
+Switching performance is largely independent of the environment (temperature, acceleration, vibration, etc.). However, the formation of the keep-alive glow discharge is more sensitive, which necessitates the use of a radioactive source to aid its ignition.
+Krytrons have a limited lifetime, ranging, according to type, typically from tens of thousands to tens of millions of switching operations, and sometimes only a few hundreds.
+Sprytrons have somewhat faster switching times than krytrons.
+Hydrogen-filled thyratrons may be used as a replacement in some applications.
+
+
+== Applications ==
+Krytrons and their variations are manufactured by Perkin-Elmer Components and used in a variety of industrial and military devices. They are best known for their use in igniting exploding-bridgewire and slapper detonators in nuclear weapons, their original application, either directly (sprytrons are usually used for this) or by triggering higher-power spark gap switches. They are also used to trigger thyratrons, large flashlamps in photocopiers, lasers and scientific apparatus, and for firing ignitors for industrial explosives.
+
+
+== Export restrictions in USA ==
+Because of their potential for use as triggers of nuclear weapons, the export of krytrons is tightly regulated in the United States. A number of cases involving the smuggling or attempted smuggling of krytrons have been reported, as countries seeking to develop nuclear weapons have attempted to procure supplies of krytrons for igniting their weapons. One prominent case was that of Richard Kelly Smyth, who allegedly helped Arnon Milchan smuggle 15 orders of 810 krytrons total to Israel. 469 of these were returned to America, with Israel claiming the remaining 441 were "destroyed in testing". The FBI has released documents showing Netanyahu was allegedly involved in this smuggling ring. Later, this story became the main idea behind Roman Polanski's film Frantic.
+Krytrons and sprytrons handling voltages of 2,500 V and above, currents of 100 A and above, and switching delays of under 10 microseconds are typically suitable for nuclear weapon triggers.
+
+
+== In popular culture ==
+A krytron was the "MacGuffin" in Roman Polanski's 1988 film Frantic.
+The krytron, incorrectly called a "kryton", also appeared in the Tom Clancy nuclear terrorism novel The Sum of All Fears.
+The plot of Larry Collins' book The Road to Armageddon revolved heavily around American-made krytrons that Iranian mullahs wanted for three Russian nuclear artillery shells they had hoped to upgrade to full nuclear weapons.
+The term "krytron" appeared in the season 3, episode 14 of the television drama Person of Interest.
+In Season 3 of NCIS episode "Kill Ari, Part 2", it was revealed that Ari Haswari, a rogue Mossad operative, had been tasked with acquiring a krytron trigger. Along with stolen plutonium from Dimona, these were key components for an Israeli sting operation. The krytron was also incorrectly called a "kryton".
+
+
+== Further developments ==
+Optically triggered solid-state switches based on diamond are a potential candidate for krytron replacement.
+
+
+== Notes ==
+
+
+== References ==
+EG&G Electronic Components Catalog, 1994.
+
+
+== External links ==
+John Pasley's article about gas-filled switch tubes, Krytron section
+Photo of a small glass krytron
+40 month sentence to illegal exporter (though the sentence was definitely related to the 'fugitive' details)

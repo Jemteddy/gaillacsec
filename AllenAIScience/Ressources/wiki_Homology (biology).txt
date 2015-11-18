@@ -1,0 +1,126 @@
+In the context of biology, homology is the existence of shared ancestry between a pair of structures, or genes, in different species. A common example of homologous structures in evolutionary biology are the wings of bats and the arms of primates. Evolutionary theory explains the existence of homologous structures adapted to different purposes as the result of descent with modification from a common ancestor.
+In the context of sexual differentiation—the process of development of the differences between males and females from an undifferentiated fertilized egg—the male and female organs are homologous if they develop from the same embryonic tissue. A typical example is the ovaries of female humans and the testicles of male humans.
+
+
+== EtymologyEdit ==
+The word homology, coined in about 1656, derives from the Greek ὁμόλογος homologos from ὁμός homos "same" and λόγος logos "relation". In biology, two things are homologous if they bear the same relationship to one another, such as a certain bone in various forms of the "hand".
+Ray Lankester defined the terms "homogeny", meaning homology due to inheritance from a common ancestor, and "homoplasy", meaning homology due to other factors.
+
+
+== DefinitionEdit ==
+Homology is a relationship defined between structures or DNA derived from a common ancestor. Homologous traits of organisms are therefore explained by descent from a common ancestor. The opposite of homologous organs are analogous organs which do similar jobs in two taxa that were not present in the last common ancestor but rather evolved separately. An example of an analogous trait would be the wings of bats and birds, which evolved independently in each lineage separately after diverging from ancestors with forelimbs not used as wings (terrestrial mammals and theropod dinosaurs, respectively).
+It is important to distinguish between different hierarchical levels of homology in order to make informative biological comparisons. In the above example, the bird and bat wings are analogous as wings, but homologous as forelimbs because the organ served as a forearm (not a wing) in the last common ancestor of tetrapods. Homology can also be described at the level of the gene. In genetics homology can refer to both the gene (DNA) and the corresponding protein product. It has been hypothesized that some behaviors might be homologous, based on either shared behavior across related taxa or common origins of the behavior in an individual’s development, though this remains controversial.
+
+
+== Anatomical homologyEdit ==
+
+Evolutionary ancestry means that structures evolved from some structure in a common ancestor; for example, the wings of bats and the arms of primates are homologous in this sense. Developmental ancestry means that structures arose from the same tissue in embryonal development; the ovaries of female humans and the testicles of male humans are homologous in this sense.
+Homology is different from analogy, which describes the relation between characters that are apparently similar yet phylogenetically independent. The wings of a maple seed and the wings of an albatross are analogous but not homologous (they both allow the organism to travel on the wind, but they didn't both develop from the same structure). Analogy is commonly also referred to as homoplasy, which is further distinguished into parallelism, reversal, and convergence.
+From the point of view of evolutionary developmental biology (evo-devo) where evolution is seen as the evolution of the development of organisms, Rolf Sattler emphasized that homology can also be partial. New structures can evolve through the combination of developmental pathways or parts of them. As a result, hybrid or mosaic structures can evolve that exhibit partial homologies. For example, certain compound leaves of flowering plants are partially homologous both to leaves and shoots because they combine some traits of leaves and shoots.
+
+
+=== Determining homologyEdit ===
+Systematists identify two forms of homology: primary homology is that initially conjectured by a researcher based on similar structure or anatomical connections, who states a hypothesis that two characters share an ancestry; secondary homology is implied by parsimony analysis, where a character that only occurs once on a tree is taken to be homologous. As implied in this definition, many cladists consider homology to be synonymous with synapomorphy.
+
+
+=== Homologous structures in other phylaEdit ===
+Introductory discussions of homology commonly limit themselves to the limbs of tetrapod vertebrates, occasionally touching on other structures, such as modified teeth as in whales and elephants. However, homologies provide the fundamental basis for all aspects of biological classification, although some of them may be highly counterintuitive. For example, within the arthropods, Brusca and Brusca  provide the following homologies for the first 10 somites (embryonic segments) in several groups of arthropods, but add that "...the subject of head appendage homology among the arthropods is quite unsettled and highly controversial..."
+
+
+=== PlantsEdit ===
+Modifications of primary leaves, stems, and roots occur in many higher plants.
+Examples:
+
+
+== Sequence homologyEdit ==
+
+As with anatomical structures, homology between protein or DNA sequences is defined in terms of shared ancestry. Two segments of DNA can have shared ancestry because of either a speciation event (orthologs) or a duplication event (paralogs).
+Homology among proteins or DNA is often incorrectly concluded on the basis of sequence similarity. The term "percent homology" is often incorrectly used to mean "sequence similarity," whereas sequences either are homologous or not and cannot demonstrate "percent homology." The correct term would be "percent identity." As with anatomical structures, high sequence similarity might occur because of convergent evolution, or, as with shorter sequences, because of chance. Such sequences are similar but not homologous. Sequence regions that are homologous are also called conserved. This is not to be confused with conservation in amino acid sequences in which the amino acid at a specific position has been substituted with a different one with functionally equivalent physicochemical properties. One can, however, refer to partial homology where a fraction of the sequences compared (are presumed to) share descent, while the rest does not. For example, partial homology may result from a gene fusion event.
+
+
+=== OrthologyEdit ===
+Homologous sequences are orthologous if they are inferred to be descended from the same ancestral sequence separated by a speciation event: when a species diverges into two separate species, the copies of a single gene in the two resulting species are said to be orthologous. Orthologs, or orthologous genes, are genes in different species that originated by vertical descent from a single gene of the last common ancestor. The term "ortholog" was coined in 1970 by Walter Fitch.
+For instance, the plant Flu regulatory protein is present both in Arabidopsis (multicellular higher plant) and Chlamydomonas (single cell green algae). The Chlamydomonas version is more complex: it crosses the membrane twice rather than once, contains additional domains and undergoes alternative splicing. However it can fully substitute the much simpler Arabidopsis protein, if transferred from algae to plant genome by means of gene engineering. Significant sequence similarity and shared functional domains indicate that these two genes are orthologous genes, inherited from the shared ancestor.
+Orthology is strictly defined in terms of ancestry. Given that the exact ancestry of genes in different organisms is difficult to ascertain due to gene duplication and genome rearrangement events, the strongest evidence that two similar genes are orthologous is usually found by carrying out phylogenetic analysis of the gene lineage. Orthologs often, but not always, have the same function.
+Orthologous sequences provide useful information in taxonomic classification and phylogenetic studies of organisms. The pattern of genetic divergence can be used to trace the relatedness of organisms. Two organisms that are very closely related are likely to display very similar DNA sequences between two orthologs. Conversely, an organism that is further removed evolutionarily from another organism is likely to display a greater divergence in the sequence of the orthologs being studied.
+
+
+==== Databases of orthologous genesEdit ====
+Given their tremendous importance for biology and bioinformatics, orthologous genes have been organized in several specialized databases that provide tools to identify and analyze orthologous gene sequences. These resources employ approaches that can be generally classified into those that are based on all pairwise sequence comparisons (heuristic) and those that use phylogenetic methods. Sequence comparison methods were first pioneered by COGs, now extended and automatically enhanced by the following databases:
+eggNOG
+InParanoid focuses on pairwise ortholog relationships
+OrthoDB appreciates that the orthology concept is relative to different speciation points by providing a hierarchy of orthologs along the species tree.
+OrthoMCL
+OMA
+Roundup
+OrthoMaM for mammals
+OrthologID
+GreenPhylDB for plants
+Tree-based phylogenetic approaches aim to distinguish speciation from gene duplication events by comparing gene trees with species trees, as implemented in resources such as
+TreeFam
+LOFT.
+A third category of hybrid approaches uses both heuristic and phylogenetic methods to construct clusters and determine trees, for example
+Ortholuge
+EnsemblCompara GeneTrees
+HomoloGene
+
+
+=== ParalogyEdit ===
+Homologous sequences are paralogous if they were created by a duplication event within the genome. For gene duplication events, if a gene in an organism is duplicated to occupy two different positions in the same genome, then the two copies are paralogous.
+Paralogous genes often belong to the same species, but this is not necessary: for example, the hemoglobin gene of humans and the myoglobin gene of chimpanzees are paralogs. Paralogs can be split into in-paralogs (paralogous pairs that arose after a speciation event) and out-paralogs (paralogous pairs that arose before a speciation event). Between-species out-paralogs are pairs of paralogs that exist between two organisms due to duplication before speciation, whereas within-species out-paralogs are pairs of paralogs that exist in the same organism, but whose duplication event happened before speciation. Paralogs typically have the same or similar function, but sometimes do not: due to lack of the original selective pressure upon one copy of the duplicated gene, this copy is free to mutate and acquire new functions.
+Paralogous sequences provide useful and dramatic insight into some of the way genomes evolve. The genes encoding myoglobin and hemoglobin are considered to be ancient paralogs. Similarly, the four known classes of hemoglobins (hemoglobin A, hemoglobin A2, hemoglobin B, and hemoglobin F) are paralogs of each other. While each of these proteins serves the same basic function of oxygen transport, they have already diverged slightly in function: fetal hemoglobin (hemoglobin F) has a higher affinity for oxygen than adult hemoglobin. Function is not always conserved, however. Human angiogenin diverged from ribonuclease, for example, and while the two paralogs remain similar in tertiary structure, their functions within the cell are now quite different.
+It is often asserted that orthologs are more functionally similar than paralogs of similar divergence, but several papers have challenged this notion.
+
+
+=== OhnologyEdit ===
+Ohnologous genes are paralogous genes that have originated by a process of whole-genome duplication (WGD). The name was first given in honour of Susumu Ohno by Ken Wolfe. Ohnologs/Ohnologues are interesting for evolutionary analysis because they all have been diverging for the same length of time since their common origin.
+
+
+=== XenologyEdit ===
+Homologs resulting from horizontal gene transfer between two organisms are termed xenologs. Xenologs can have different functions, if the new environment is vastly different for the horizontally moving gene. In general, though, xenologs typically have similar function in both organisms. The term was coined by Walter Fitch.
+
+
+=== GametologyEdit ===
+Gametology denotes the relationship between homologous genes on nonrecombining, opposite sex chromosomes. Gametologs result from the origination of genetic sex determination and barriers to recombination between sex chromosomes. Examples of gametologs include CHDW and CHDZ in birds.
+
+
+== Homology between sexes and formsEdit ==
+
+The term homology is sometimes applied to reproductive structures that share a common embryonic origin, but become spectacularly different between the two sexes in the adult. Those listed below are some of the more commonly cited examples.
+Among insects, the stinger used by infertile female worker bees is a modified ovipositor.
+
+
+== Homologies across phylaEdit ==
+
+
+== See alsoEdit ==
+Cladistics
+Deep homology
+OrthoDB
+Orthologous MAtrix (OMA)
+Protein homology
+TreeFam
+Syntelog
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Carroll, Sean B. (2006). Endless Forms Most Beautiful. New York: W.W. Norton & Co. ISBN 0-297-85094-6. 
+Carroll, Sean B. (2006). The making of the fittest: DNA and the ultimate forensic record of evolution. New York: W.W. Norton & Co. ISBN 0-393-06163-9. 
+DePinna MC (1991). "Concepts and tests of homology in the cladistic paradigm". Cladistics 7 (4): 367–94. doi:10.1111/j.1096-0031.1991.tb00045.x. 
+Dewey CN, Pachter L (April 2006). "Evolution at the nucleotide level: the problem of multiple whole-genome alignment". Human Molecular Genetics 15 (Spec No 1): R51–6. doi:10.1093/hmg/ddl056. PMID 16651369. 
+Fitch WM (May 2000). "Homology a personal view on some of the problems". Trends in Genetics 16 (5): 227–31. doi:10.1016/S0168-9525(00)02005-9. PMID 10782117. 
+Gegenbaur, G. (1898). Vergleichende Anatomie der Wirbelthiere... Leipzig. 
+Haeckel, Е. (1866). Generelle Morphologie der Organismen. Bd 1-2. Вerlin. 
+Owen, R. (1847). On the archetype and homologies of the vertebrate skeleton. London. 
+Mindell DP, Meyer A (2001). "Homology evolving" (PDF). Trends in Ecology and Evolution 16 (8): 434–40. doi:10.1016/S0169-5347(01)02206-6. 
+Kuzniar A, van Ham RC, Pongor S, Leunissen JA (November 2008). "The quest for orthologs: finding the corresponding gene across genomes". Trends Genet. 24 (11): 539–51. doi:10.1016/j.tig.2008.08.009. PMID 18819722. 
+
+
+== External linksEdit ==
+Brigandt, Ingo (2011) "Essay: Homology." In: The Embryo Project Encyclopedia. ISSN: 1940-5030. http://embryo.asu.edu/handle/10776/1754

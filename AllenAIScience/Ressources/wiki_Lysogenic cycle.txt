@@ -1,0 +1,37 @@
+Lysogeny, or the lysogenic cycle, is one of two cycles of viral reproduction (the lytic cycle is the other). Lysogeny is characterized by integration of the bacteriophage nucleic acid into the host bacterium's genome or formations of a circular replicon in the bacterium's cytoplasm. In this condition the bacterium continues to live and reproduce normally. The genetic material of the bacteriophage, called a prophage, can be transmitted to daughter cells at each subsequent cell division, and a later event (such as UV radiation or the presence of certain chemicals) can release it, causing proliferation of new phages via the lytic cycle.  Lysogenic cycles can also occur in eukaryotes, although the method of DNA incorporation is not fully understood.
+The distinction between lysogenic and lytic cycles is that the spread of the viral DNA occurs through the usual prokaryotic reproduction, while the lytic phage is spread through the production of thousands of individual phages capable of surviving and infecting other cells. The key difference between the lytic cycle and the lysogenic cycle is that the lysogenic cycle does not lyse the host cell. Phages that replicate only via the lytic cycle are known as virulent phages while phages that replicate using both lytic and lysogenic cycles are known as temperate phages.
+In the lysogenic cycle, the phage DNA first integrates into the bacterial chromosome to produce the prophage. When the bacterium reproduces, the prophage is also copied and is present in each of the daughter cells. The daughter cells can continue to replicate with the prophage present or the prophage can exit the bacterial chromosome to initiate the lytic cycle.
+
+
+== Bacteriophages ==
+Bacteriophages are viruses that infect and replicate within bacteria. Temperate phages (such as lambda phage) can reproduce using both the lytic and the lysogenic cycle. Via the lysogenic cycle, the bacteriophage's genome is not expressed and is instead integrated into the bacteria's genome to form the prophage. Since the bacteriophage's genetic information is incorporated into the bacteria's genetic information as a prophage, the bacteriophage replicates passively as the bacterium divides to form daughter bacteria cells. In this scenario, the daughter bacteria cells contain prophage and are known as lysogens. Lysogens can remain in the lysogenic cycle for many generations but can switch to the lytic cycle at any time via a process known as induction. During induction, prophage DNA is excised from the bacterial genome and is transcribed and translated to make coat proteins for the virus and regulate lytic growth.
+The model organism for studying lysogeny is lambda phage. Prophage integration, maintenance of lysogeny, induction, and control of phage genome excision in induction is described in detail in the lambda phage article.
+
+
+=== Fitness tradeoffs for bacteria ===
+Bacteriophages are parasitic because they infect their hosts, use bacterial machinery to replicate, and ultimately lyse the bacteria. Temperate phages can lead to both advantages and disadvantages for their hosts via the lysogenic cycle. During the lysogenic cycle, the virus genome is incorporated as prophage and a repressor prevents viral replication. Nonetheless, a temperate phage can escape repression to replicate, produce viral particles, and lyse the bacteria. The temperate phage escaping repression would be a disadvantage for the bacteria. On the other hand, the prophage may transfer genes that enhance host virulence and resistance to the immune system. Also, the repressor produced by the prophage that prevents prophage genes from being expressed confers an immunity for the host bacteria from lytic infection by related viruses.
+
+
+=== Lysogenic conversion ===
+In some interactions between lysogenic phages and bacteria, lysogenic conversion may occur. It is when a temperate phage induces a change in the phenotype of the infected bacteria that is not part of a usual phage cycle. Changes can often involve the external membrane of the cell by making it impervious to other phages or even by increasing the pathogenic capability of the bacteria for a host. In this way, temperate bacteriophages also play a role in the spread of virulence factors, such as exotoxins and exoenzymes, amongst bacteria.
+
+
+==== Bacterial survival ====
+Lysogenic conversion has shown to enable biofilm formation in Bacillus anthracis Strains of B. anthracis cured of all phage were unable to form biofilms, which are surface-adhered bacterial communities that enable bacteria to better access nutrients and survive environmental stresses. In addition to biofilm formation in B. anthracis, lysogenic conversion of Bacillus subtilis, Bacillus thuringiensis, and Bacillus cereus has shown an enhanced rate or extent of sporulation. Sporulation produces endospores, which are metabolically dormant forms of the bacteria that are highly resistant to temperature, ionizing radiation, desiccation, antibiotics, and disinfectants.
+
+
+==== Bacterial virulence ====
+Non-virulent bacteria have also been shown to transform into highly virulent pathogens through lysogenic conversion with the virulence factors carried on the lysogenic prophage. Virulence genes carried within prophages as discrete autonomous genetic elements, known as morons, confer an advantage to the bacteria that indirectly benefits the virus through enhanced lysogen survival.
+Examples:
+Corynebacterium diphtheriae produces the toxin of diphtheria only when it is infected by the phage β. In this case, the gene that codes for the toxin is carried by the phage, not the bacteria.
+Vibrio cholerae is a non-toxic strain that can become toxic, producing cholera toxin, when it is infected with the phage CTXφ.
+Shigella dysenteriae, which produces dysentery has toxins that fall into two major groups, Stx1 and Stx2, whose genes are considered to be part of the genome of lambdoid prophages.
+Streptococcus pyogenes, produce a pyrogenic exotoxin, obtained by lysogenic conversion, which causes fever and a scarlet-red rash, Scarlet Fever.
+Certain strains of Clostridium botulinum, which causes botulism, express botulinum toxin from phage-tranduced genes.
+
+
+==== Preventing lysogenic induction ====
+Strategies to combat certain bacterial infections by blocking prophage induction (the transition from the lysogenic to the lytic cycle) by eliminating in vivo induction agents have been proposed. Reactive oxygen species (ROS), such as hydrogen peroxide, are strong oxidizing agents that can decompose into free radicals and cause DNA damage to bacteria, which leads to prophage induction. One potential strategy to combat prophage induction is through the use of glutathione, a strong antioxidant that can remove free radical intermediates. Another approach could be to cause an overexpression of CI repressor since prophage induction only occurs when the concentration of CI repressor is too low.
+
+
+== References ==

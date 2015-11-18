@@ -1,0 +1,18 @@
+A test statistic is a single measure of some attribute of a sample (i.e. a statistic) used in statistical hypothesis testing. A hypothesis test is typically specified in terms of a test statistic, considered as a numerical summary of a data-set that reduces the data to one value that can be used to perform the hypothesis test. In general, a test statistic is selected or defined in such a way as to quantify, within observed data, behaviours that would distinguish the null from the alternative hypothesis, where such an alternative is prescribed, or that would characterize the null hypothesis if there is no explicitly stated alternative hypothesis.
+An important property of a test statistic is that its sampling distribution under the null hypothesis must be calculable, either exactly or approximately, which allows p-values to be calculated. A test statistic shares some of the same qualities of a descriptive statistic, and many statistics can be used as both test statistics and descriptive statistics. However, a test statistic is specifically intended for use in statistical testing, whereas the main quality of a descriptive statistic is that it is easily interpretable. Some informative descriptive statistics, such as the sample range, do not make good test statistics since it is difficult to determine their sampling distribution.
+
+
+== Example ==
+For example, suppose the task is to test whether a coin is fair (i.e. has equal probabilities of producing a head or a tail). If the coin is flipped 100 times and the results are recorded, the raw data can be represented as a sequence of 100 heads and tails. If there is interest in the marginal probability of obtaining a head, only the number T out of the 100 flips that produced a head needs to be recorded. But T can also be used as a test statistic in one of two ways:
+the exact sampling distribution of T under the null hypothesis is the binomial distribution with parameters 0.5 and 100.
+the value of T can be compared with its expected value under the null hypothesis of 50, and since the sample size is large a normal distribution can be used as an approximation to the sampling distribution either for T or for the revised test statistic T−50.
+Using one of these sampling distributions, it is possible to compute either a one-tailed or two-tailed p-value for the null hypothesis that the coin is fair. Note that the test statistic in this case reduces a set of 100 numbers to a single numerical summary that can be used for testing.
+
+
+== See also ==
+Sufficiency (statistics)
+Neyman–Pearson lemma
+Likelihood-ratio test
+
+
+== References ==

@@ -1,0 +1,167 @@
+Protein–protein interactions (PPIs) refer to physical contacts established between two or more proteins as a result of biochemical events and/or electrostatic forces.
+In fact, proteins are vital macromolecules, at both cellular and systemic levels, but they rarely act alone. Diverse essential molecular processes within a cell are carried out by molecular machines that are built from a large number of protein components organized by their PPIs. Indeed, these interactions are at the core of the entire interactomics system of any living cell and so, unsurprisingly, aberrant PPIs are on the basis of multiple diseases, such as Creutzfeld-Jacob, Alzheimer's disease, and cancer.
+PPIs have been studied from different perspectives: biochemistry, quantum chemistry, molecular dynamics, signal transduction, among others. All this information enables the creation of large protein interaction networks – similar to metabolic or genetic/epigenetic networks – that empower the current knowledge on biochemical cascades and disease pathogenesis, as well as provide putative new therapeutic targets.
+
+
+== Examples of protein–protein interactions ==
+Signal transduction
+The activity of the cell is regulated by extracellular signals. Signals propagation to inside and/or along the interior of cells depends on PPIs between the various signaling molecules. This process, called signal transduction, plays a fundamental role in many biological processes and in many diseases (e.g. Parkinson's disease and cancer).
+Transport across membranes
+A protein may be carrying another protein (for example, from cytoplasm to nucleus or vice versa in the case of the nuclear pore importins).
+Cell metabolism
+In many biosynthetic processes enzymes interact with each other to produce small compounds or other macromolecules.
+Muscle contraction
+Physiology of muscle contraction involves several interactions. Myosin filaments act as molecular motors and by binding to actin enables filament sliding. Furthermore, members of the skeletal muscle lipid droplet-associated proteins family associate with other proteins, as activator of adipose triglyceride lipase and its coactivator comparative gene identification-58, to regulate lipolysis in skeletal muscle.
+
+
+== Types of protein–protein interactions ==
+
+Protein complex assembly can result in the formation of homo-oligomeric or hetero-oligomeric complexes. In addition to the conventional complexes, as enzyme-inhibitor and antibody-antigen, interactions can also be established between domain-domain and domain-peptide. Moreover, interactions can be classified into stable or transient, and also according to the nature of the chemical bonds established between proteins.
+
+
+=== Homo-oligomers vs. hetero-oligomers ===
+Homo-oligomers are macromolecular complexes constituted by only one type of protein subunit. Protein subunits assembly is guided by the establishment of non-covalent interactions in the quaternary structure of the protein. Disruption of homo-oligomers in order to return to the initial individual monomers often requires denaturation of the complex. Several enzymes, carrier proteins, scaffolding proteins, and transcriptional regulatory factors carry out their functions as homo-oligomers. Distinct protein subunits interact in hetero-oligomers, which are essential to control several cellular functions. The importance of the communication between heterologous proteins is even more evident during cell signaling events and such interactions are only possible due to structural domains within the proteins (as described below).
+
+
+=== Stable interactions vs. transient interactions ===
+Stable interactions involve proteins that interact for a long time, taking part of permanent complexes as subunits, in order to carry out structural or functional roles. These are usually the case of homo-oligomers (e.g. cytochrome c), and some hetero-oligomeric proteins, as the subunits of ATPase. On the other hand, a protein may interact briefly and in a reversible manner with other proteins in only certain cellular contexts – cell type, cell cycle stage, external factors, presence of other binding proteins, etc. – as it happens with most of the proteins involved in biochemical cascades. These are called transient interactions. For example, some G protein-coupled receptors only transiently bind to Gi/o proteins when they are activated by extracellular ligands, while some Gq-coupled receptors, such as muscarinic receptor M3, pre-couple with Gq proteins prior to the receptor-ligand binding.
+
+
+=== Covalent vs. non-covalent ===
+
+Covalent interactions are those with the strongest association and are formed by disulphide bonds or electron sharing. Although being rare, these interactions are determinant in some posttranslational modifications, as ubiquitination and SUMOylation. Non-covalent bonds are usually established during transient interactions by the combination of weaker bonds, such as hydrogen bonds, ionic interactions, Van der Waals forces, or hydrophobic bonds.
+
+
+== Techniques to study the molecular structure of protein complexes ==
+
+The molecular structures of many protein complexes have been unlocked by the technique of X-ray crystallography. The first structure to be solved by this method was that of sperm whale myoglobin by Sir John Cowdery Kendrew. In this technique the angles and intensities of a beam of X-rays diffracted by crystalline atoms are detected in a film, thus producing a three-dimensional picture of the density of electrons within the crystal.
+Later, nuclear magnetic resonance also started to be applied with the aim of unravelling the molecular structure of protein complexes. One of the first examples was the structure of calmodulin-binding domains bound to calmodulin. This technique is based on the study of magnetic properties of atomic nuclei, thus determining physical and chemical properties of the correspondent atoms or the molecules. Nuclear magnetic resonance is advantageous for characterizing weak PPIs.
+
+
+== Properties of protein–protein interface ==
+The study of the molecular structure can give fine details about the interface that enables the interaction between proteins. When characterizing PPI interfaces it is important to take into account the type of complex.
+Parameters evaluated include size (measured in absolute dimensions Å2 or in solvent-accessible surface area (SASA)), shape, complementarity between surfaces, residue interface propensities, hydrophobicity, segmentation and secondary structure, and conformational changes on complex formation.
+The great majority of PPI interfaces reflects the composition of protein surfaces, rather than the protein cores, in spite of being frequently enriched in hydrophobic residues, particularly in aromatic residues. PPI interfaces are dynamic and frequently planar, although they can be globular and protruding as well. Based on three structures – insulin dimer, trypsin-pancreatic trypsin inhibitor complex, and oxyhaemoglobin – Cyrus Chothia and Joel Janin found that between 1,130 and 1,720 Å2 of surface area was removed from contact with water indicating that hydrophobicity is a major factor of stabilization of PPIs. Later studies refined the buried surface area of the majority of interactions to 1,600±350 Å2. However, much larger interaction interfaces were also observed and were associated with significant changes in conformation of one of the interaction partners. PPIs interfaces exhibit both shape and electrostatic complementarity.
+
+
+== Factors that regulate protein–protein interactions ==
+Protein concentration, which in turn are affected by expression levels and degradation rates;
+Protein affinity for proteins or other binding ligands;
+Ligands concentrations (substrates, ions, etc.);
+Presence of other proteins, nucleic acids, and ions;
+Electric fields around proteins.
+Occurrence of covalent modifications;
+
+
+== Structural domains involved in protein–protein interactions ==
+Proteins hold structural domains that allow their interaction with and bind to specific sequences on other proteins:
+Src homology 2 (SH2) domain
+
+SH2 domains are structurally composed by three-stranded twisted beta sheet sandwiched flanked by two alpha-helices. The existence of a deep binding pocket with high affinity for phosphotyrosine, but not for phosphoserine or phosphothreonine, is essential for the recognition of tyrosine phosphorylated proteins, mainly autophosphorylated growth factor receptors. Growth factor receptor binding proteins and phospholipase Cγ are examples of proteins that have SH2 domains.
+Src homology 3 (SH3) domain
+
+Structurally, SH3 domains are constituted by a beta barrel formed by two orthogonal beta sheets and three anti-parallel beta strands. These domains recognize proline enriched sequences, as polyproline type II helical structure (PXXP motifs) in cell signaling proteins like protein tyrosine kinases and the growth factor receptor bound protein 2 (Grb2).
+Phosphotyrosine-binding (PTB) domain
+
+PTB domains interact with sequences that contain a phosphotyrosine group. These domains can be found in the insulin receptor substrate.
+LIM domain
+
+LIM domains were initially identified in three homeodomain transcription factors (lin11, is11, and mec3). In addition to this homeodomain proteins and other proteins involved in development, LIM domains have also been identified in non-homeodomain proteins with relevant roles in cellular differentiation, association with cytoskeleton and senescence. These domains contain a tandem cysteine-rich Zn2+-finger motif and embrace the consensus sequence CX2CX16-23HX2CX2CX2CX16-21CX2C/H/D. LIM domains bind to PDZ domains, bHLH transcription factors, and other LIM domains.
+Sterile alpha motif (SAM) domain
+
+SAM domains are composed by five helices forming a compact package with a conserved hydrophobic core. These domains, which can be found in the Eph receptor and the stromal interaction molecule (STIM) for example, bind to non-SAM domain-containing proteins and they also appear to have the ability to bind RNA.
+PDZ domain
+
+PDZ domains were first identified in three guanylate kinases: PSD-95, DlgA and ZO-1. These domains recognize carboxy-terminal tri-peptide motifs (S/TXV), other PDZ domains or LIM domains and bind them through a short peptide sequence that has a C-terminal hydrophobic residue. Some of the proteins identified as having PDZ domains are scaffolding proteins or seem to be involved in ion receptor assembling and receptor-enzyme complexes formation.
+FERM domain
+
+FERM domains contain basic residues capable of binding PtdIns(4,5)P2. Talin and focal adhesion kinase (FAK) are two of the proteins that present FERM domains.
+Calponin homology (CH) domain
+
+CH domains are mainly present in cytoskeletal proteins as parvin.
+Pleckstrin homology domain
+
+Pleckstrin homology domains bind to phosphoinositides and acid domains in signaling proteins.
+WW domain
+
+WW domains bind to proline enriched sequences.
+WSxWS motif
+Found in cytokine receptors
+
+
+== Methods to investigate protein–protein interactions ==
+
+There are a multitude of methods to detect them. Each of the approaches has its own strengths and weaknesses, especially with regard to the sensitivity and specificity of the method. The most conventional and widely used high-throughput methods are yeast two-hybrid screening and affinity purification coupled to mass spectrometry.
+
+
+=== Yeast two-hybrid screening ===
+
+This system was firstly described in 1989 by Fields and Song using Saccharomyces cerevisiae as biological model. Yeast two hybrid allows the identification of pairwise PPIs (binary method) in vivo, indicating non-specific tendencies towards sticky interactions.
+Yeast cells are transfected with two plasmids: the bait (protein of interest fused with the DNA-binding domain of a yeast transcription factor, like Gal4), and the prey (a library of cDNA fragments linked to the activation domain of the transcription factor. Transcription of reporter genes does not occur unless bait and prey interact with each other and form a functional transcription factor. Thus, the interaction between proteins can be inferred by the presence of the products resultant of the reporter gene expression.
+Despite its usefulness, the yeast two-hybrid system has limitations: specificity is relatively low; uses yeast as main host system, which can be a problem when studying other biological models; the number of PPIs identified is usually low because some transient PPIs are lost during purification steps; and, understates membrane proteins, for example. Limitations have been overcoming by the emergence of yeast two-hybrid variants, such as the membrane yeast two-hybrid (MYTH) and the split-ubiquitin system, which are not limited to interactions that occur in the nucleus; and, the bacterial two-hybrid system, performed in bacteria;
+
+
+=== Affinity purification coupled to mass spectrometry ===
+
+Affinity purification coupled to mass spectrometry mostly detects stable interactions and thus better indicates functional in vivo PPIs. This method starts by purification of the tagged protein, which is expressed in the cell usually at in vivo concentrations, and its interacting proteins (affinity purification). One of the most advantageous and widely used method to purify proteins with very low contaminating background is the tandem affinity purification, developed by Bertrand Seraphin and Mathias Mann and respective colleagues. PPIs can then be quantitatively and qualitatively analysed by mass spectrometry using different methods: chemical incorporation, biological or metabolic incorporation (SILAC), and label-free methods.
+
+
+=== Other potential methods ===
+Diverse techniques to identify PPIs have been emerging along with technology progression. These include co-immunoprecipitation, protein microarrays, analytical ultracentrifugation, light scattering, fluorescence spectroscopy, luminescence-based mammalian interactome mapping (LUMIER), resonance-energy transfer systems, mammalian protein–protein interaction trap, electro-switchable biosurfaces, surface plasmon resonance, protein-fragment complementation assay, and calorimetry.
+
+
+=== Text mining methods ===
+Recently text-mining methods were implemented to extract automatically protein–protein interactions from the literature. These methods generally detect binary relations between interacting proteins from individual sentences using machine learning and rule/pattern based information extraction and machine learning approaches.
+
+
+== Protein–protein interaction databases ==
+Large scale identification of PPIs generated hundreds of thousands interactions, which were collected together in specialized biological databases that are continuously updated in order to provide complete interactomes. The first of these databases was the Database of Interacting Proteins (DIP). Since that time, the number of public databases has been increasing. Databases can be subdivided into primary databases, meta-databases, and prediction databases.
+Primary databases collect information about published PPIs proven to exist via small-scale or large-scale experimental methods. Examples: DIP, Biomolecular Interaction Network Database (BIND), Biological General Repository for Interaction Datasets (BioGRID), Human Protein Reference Database (HPRD), IntAct Molecular Interaction Database, Molecular Interactions Database (MINT), MIPS Protein Interaction Resource on Yeast (MIPS-MPact), and MIPS Mammalian Protein–Protein Interaction Database (MIPS-MPPI).
+Meta-databases normally result from the integration of primary databases information, but can also collect some original data. Examples: Agile Protein Interaction DataAnalyzer (APID), The Microbial Protein Interaction Database (MPIDB), and Protein Interaction Network Analysis (PINA) platform., (GPS-Prot)
+Prediction databases include many PPIs that are predicted using several techniques (main article). Examples: Michigan Molecular Interactions (MiMI), Human Protein–Protein Interaction Prediction Database (PIPs), Online Predicted Human Interaction Database (OPHID), Known and Predicted Protein–Protein Interactions (STRING), and Unified Human Interactome (UniHI).
+
+
+== Protein–protein interaction networks ==
+
+Information found in PPIs databases supports the construction of interaction networks. Although the PPI network of a given query protein can be represented in textbooks, diagrams of whole cell PPIs are frankly complex and difficult to generate.
+One example of a manually produced molecular interaction map is the Kurt Kohn's 1999 map of cell cycle control. Drawing on Kohn's map, Schwikowski et al. in 2000 published a paper on PPIs in yeast, linking together 1,548 interacting proteins determined by two-hybrid screening. They used a layered graph drawing method to find an initial placement of the nodes and then improved the layout using a force-based algorithm.
+Bioinformatic tools have been developed to simplify the difficult task of visualizing molecular interaction networks and complement them with other types of data. For instance, Cytoscape is an open-source software widely used and lots of plugins are currently available. Pajek software is advantageous for the visualization and analysis of very large networks.
+Identification of functional modules in PPI networks is an important challenge in bioinformatics. Functional modules means a set of proteins that are highly connected to each other in PPI network. It is almost similar problem as community detection in social networks. There are some methods such as Jactive modules and MoBaS. Jactive modules integrate PPI network and gene expression data where as MoBaS integrate PPI network and Genome Wide association Studies.
+The awareness of the major roles of PPIs in numerous physiological and pathological processes has been driving the challenge of unravel many interactomes. Examples of published interactomes are the thyroid specific DREAM interactome and the PP1α interactome in human brain.
+
+
+== Protein–protein interaction as therapeutic targets ==
+Modulation of PPI is challenging and is receiving increasing attention by the scientific community. Several properties of PPI such as allosteric sites and hotspots, have been incorporated into drug-design strategies. The relevance of PPI as putative therapeutic targets for the development of new treatments is particularly evident in cancer, with several ongoing clinical trials within this area. The consensus among these promising targets is, nonetheless, denoted in the already available drugs on the market to treat a multitude of diseases. Examples are Titrobifan, inhibitor of the glycoprotein IIb/IIIa, used as a cardiovascular drug, and Maraviroc, inhibitor of the CCR5-gp120 interaction, used as anti-HIV drug. Recently, Amit Jaiswal and others were able to develop 30 peptides using protein–protein interaction studies to inhibit telomerase recruitment towards telomeres.
+
+
+== See also ==
+Allostery
+Biochemical cascade
+Biological network
+Biological machines
+Enzyme catalysis
+Human interactome
+Interactome
+Multiprotein complex
+Protein domain dynamics
+Protein flexibility
+Protein structure
+Protein–protein interaction prediction
+Protein–protein interaction screening
+Signal transduction
+Systems biology
+
+
+== References ==
+
+
+== External links ==
+Stark C, Breitkreutz BJ, Reguly T, Boucher L, Breitkreutz A, Tyers M (January 2006). "BioGRID: a general repository for interaction datasets". Nucleic Acids Research 34 (Database issue): D535–9. doi:10.1093/nar/gkj109. PMC 1347471. PMID 16381927. 
+Peri S, Navarro JD, Kristiansen TZ, et al. (January 2004). "Human protein reference database as a discovery resource for proteomics". Nucleic Acids Research 32 (Database issue): D497–501. doi:10.1093/nar/gkh070. PMC 308804. PMID 14681466. 
+Hermjakob H, Montecchi-Palazzi L, Lewington C, et al. (January 2004). "IntAct: an open source molecular interaction database". Nucleic Acids Research 32 (Database issue): D452–5. doi:10.1093/nar/gkh052. PMC 308786. PMID 14681455. 
+Chatr-aryamontri A, Ceol A, Palazzi LM, et al. (January 2007). "MINT: the Molecular INTeraction database". Nucleic Acids Research 35 (Database issue): D572–4. doi:10.1093/nar/gkl950. PMC 1751541. PMID 17135203. 
+Güldener U, Münsterkötter M, Oesterheld M, et al. (January 2006). "MPact: the MIPS protein interaction resource on yeast". Nucleic Acids Research 34 (Database issue): D436–41. doi:10.1093/nar/gkj003. PMC 1347366. PMID 16381906. 
+Pagel P, Kovac S, Oesterheld M, et al. (March 2005). "The MIPS mammalian protein-protein interaction database". Bioinformatics 21 (6): 832–4. doi:10.1093/bioinformatics/bti115. PMID 15531608. 
+Library of Modulators of Protein–Protein Interactions (PPI) – http://www.chemdiv.com/portfolio/library-of-modulator-of-protein-protein-interactions-ppi/
+Proteins and Enzymes at DMOZ
+Casado-Vela, Juan; Matthiesen, Rune; Sellés, Susana; Naranjo, José (2013). "Protein-Protein Interactions: Gene Acronym Redundancies and Current Limitations Precluding Automated Data Integration". Proteomes 1 (1): 3–24. doi:10.3390/proteomes1010003.

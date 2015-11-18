@@ -1,0 +1,60 @@
+A Multi-Gigabit Transceiver (MGT) is a SerDes capable of operating at serial bit rates above 1 Gigabit/second. MGTs are used increasingly for data communications because they can run over longer distances, use fewer wires, and thus have lower costs than parallel interfaces with equivalent data throughput.
+
+
+== Functions ==
+Like other SerDes, the primary function of the MGT is to transmit parallel data as stream of serial bits, and convert the serial bits it receives to parallel data. The most basic performance metric of an MGT is its serial bit rate, or line rate, which is the number of serial bits it can transmit or receive per second. Although there is no strict rule, MGTs can typically run at line rates of 1 Gigabit/second or more. MGTs have become the 'data highways' for data processing systems that demand a high in/out raw data input and output (e.g. video processing applications). They are becoming very common on FPGA - such programmable logic devices being especially well fitted for parallel data processing algorithms.
+Beyond serialization and deserialization, MGTs must incorporate a number of additional technologies to allow them to operate at high line rates. Some of these are listed below:
+
+
+== Signal integrity and jitter ==
+Signal Integrity is critical for MGTs due to their high line rates. The quality of a given high-speed link is characterized by the Bit Error Ratio (BER) of the connection (the ratio of bits received in error to total bits received), and jitter.
+BER and jitter are functions of the entire MGT connection, including the MGTs themselves, their serial lines, their reference clocks, their power supplies, and the digital systems that create and consume their parallel data. As a result, MGTs are often measured by how little jitter they transmit (Jitter Transfer/Jitter Generation), and how much jitter they can tolerate before their BER is too high (Jitter Tolerance). These measurements are commonly taken using a BERT, and analyzed using an Eye diagram.
+
+
+== Other considerations ==
+Some other metrics for MGTs include:
+Maximum run length before loss of CDR lock
+Power Consumption
+Flexibility (e.g. multiple line rates, multiple encodings)
+Differential Swing (max differential signal the MGT can drive)
+Receiver sensitivity (min differential signal the MGT can detect)
+Common-mode rejection ratio
+
+
+== Protocols that use MGTs ==
+MGTs are used in the implementation of the following serial protocols:
+10 Gigabit Ethernet
+Aurora
+CEI-6G
+CPRI
+Fibre Channel
+Gigabit Ethernet
+GPON
+HD-SDI
+CoaXPress
+Infiniband
+Interlaken
+OBSAI
+PCI Express
+SAS (Serial Attached SCSI)
+Serial ATA
+SerialLite
+Serial RapidIO
+SFI-5
+SONET/SDH
+XAUI
+
+
+== External links ==
+Xilinx Aurora (Xilinx Inc.)
+Serial Multi-Protocol Transmission with the LatticeSC FPGA (Lattice Semiconductor)
+Virtex-5 RocketIO GTP Transceiver User Guide (Xilinx Inc.)
+Stratix II GX Transceiver User Guide (Altera Inc.)
+
+
+== References ==
+High Speed Digital Design, Johnson & Graham
+Signal Integrity Simplified, Bogatin
+Handbook of Digital Techniques for High Speed Design, Granberg
+Jitter
+FPGA blog : using multi-gigabit transceivers to test and debug FPGA

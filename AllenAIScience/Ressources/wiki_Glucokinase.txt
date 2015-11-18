@@ -1,0 +1,168 @@
+Glucokinase (EC 2.7.1.2) is an enzyme that facilitates phosphorylation of glucose to glucose-6-phosphate. Glucokinase occurs in cells in the liver, pancreas, gut, and brain of humans and most other vertebrates. In each of these organs it plays an important role in the regulation of carbohydrate metabolism by acting as a glucose sensor, triggering shifts in metabolism or cell function in response to rising or falling levels of glucose, such as occur after a meal or when fasting. Mutations of the gene for this enzyme can cause unusual forms of diabetes or hypoglycemia.
+Glucokinase (GK) is a hexokinase isozyme, related homologously to at least three other hexokinases. All of the hexokinases can mediate phosphorylation of glucose to glucose-6-phosphate (G6P), which is the first step of both glycogen synthesis and glycolysis. However, glucokinase is coded by a separate gene and its distinctive kinetic properties allow it to serve a different set of functions. Glucokinase has a lower affinity for glucose than the other hexokinases do, and its activity is localized to a few cell types, leaving the other three hexokinases as more important preparers of glucose for glycolysis and glycogen synthesis for most tissues and organs. Because of this reduced affinity, the activity of glucokinase, under usual physiological conditions, varies substantially according to the concentration of glucose.
+
+
+== Nomenclature ==
+Alternative names for this enzyme are: human hexokinase IV, hexokinase D, and ATP:D-hexose 6-phosphotransferase, EC 2.7.1.1 (previously 2.7.1.2). The common name, glucokinase, is derived from its relative specificity for glucose under physiologic conditions.
+Some biochemists have argued that the name glucokinase should be abandoned as misleading, as this enzyme can phosphorylate other hexoses in the right conditions, and there are distantly related enzymes in bacteria with more absolute specificity for glucose that better deserve the name and the EC 2.7.1.2. Nevertheless, glucokinase remains the name preferred in the contexts of medicine and mammalian physiology.
+Another mammalian glucose kinase, ADP-specific glucokinase, was discovered in 2004. The gene is distinct and similar to that of primitive organisms. It is dependent on ADP rather than ATP (suggesting the possibility of more effective function during hypoxia), and the metabolic role and importance remain to be elucidated.
+
+
+== Catalysis ==
+
+
+=== Substrates and products ===
+The principal substrate of physiologic importance of glucokinase is glucose, and the most important product is glucose-6-phosphate (G6P). The other necessary substrate, from which the phosphate is derived, is adenosine triphosphate (ATP), which is converted to adenosine diphosphate (ADP) when the phosphate is removed. The reaction catalyzed by glucokinase is:
+
+ATP participates in the reaction in a form complexed to magnesium (Mg) as a cofactor. Furthermore, under certain conditions, glucokinase, like other hexokinases, can induce phosphorylation of other hexoses (6 carbon sugars) and similar molecules. Therefore the general glucokinase reaction is more accurately described as:
+
+Hexose + MgATP2− → hexose-PO2−
+3 + MgADP− + H+
+
+Among the hexose substrates are mannose, fructose, and glucosamine, but the affinity of glucokinase for these requires concentrations not found in cells for significant activity.
+
+
+=== Kinetics ===
+Two important kinetic properties distinguish glucokinase from the other hexokinases, allowing it to function in a special role as glucose sensor.
+Glucokinase has a lower affinity for glucose than the other hexokinases. Glucokinase changes conformation and/or function in parallel with rising glucose concentrations in the physiologically important range of 4–10 mmol/L (72–180 mg/dl). It is half-saturated at a glucose concentration of about 8 mmol/L (144 mg/dl).
+Glucokinase is not inhibited by its product, glucose-6-phosphate. This allows continued signal output (e.g., to trigger insulin release) amid significant amounts of its product
+These two features allow it to regulate a "supply-driven" metabolic pathway. That is, the rate of reaction is driven by the supply of glucose, not by the demand for end products.
+Another distinctive property of glucokinase is its moderate cooperativity with glucose, with a Hill coefficient (nH) of about 1.7. Glucokinase has only a single binding site for glucose and is the only monomeric regulatory enzyme known to display substrate cooperativity. The nature of the cooperativity has been postulated to involve a "slow transition" between two different enzyme states with different rates of activity. If the dominant state depends upon glucose concentration, it would produce an apparent cooperativity similar to that observed.
+Because of this cooperativity, the kinetic interaction of glucokinase with glucose does not follow classical Michaelis-Menten kinetics. Rather than a Km for glucose, it is more accurate to describe a half-saturation level S0.5, which is the concentration at which the enzyme is 50% saturated and active.
+The S0.5 and nH extrapolate to an "inflection point" of the curve describing enzyme activity as a function of glucose concentration at about 4 mmol/L. In other words, at a glucose concentration of about 72 mg/dl, which is near the low end of the normal range, glucokinase activity is most sensitive to small changes in glucose concentration.
+The kinetic relationship with the other substrate, MgATP, can be described by classical Michaelis-Menten kinetics, with an affinity at about 0.3–0.4 mmol/L, well below a typical intracellular concentration of 2.5 mmol/L. The fact that there is nearly always an excess of ATP available implies that ATP concentration rarely influences glucokinase activity.
+The maximum specific activity (kcat, also known as the turnover rate) of glucokinase when saturated with both substrates is 62/s.
+A "minimal mathematical model" has been devised based on the above kinetic information to predict the beta cell glucose phosphorylation rate (BGPR) of normal ("wild type") glucokinase and the known mutations. The BGPR for wild type glucokinase is about 28% at a glucose concentration of 5 mmol/l, indicating that the enzyme is running at 28% of capacity at the usual threshold glucose for triggering insulin release.
+
+
+=== Mechanism ===
+The sulfhydryl groups of several cysteines surround the glucose binding site. All except cys 230 are essential for the catalytic process, forming multiple disulfide bridges during interaction with the substrates and regulators. At least in the beta cells, the ratio of active to inactive glucokinase molecules is at least partly determined by the balance of oxidation of sulfhydryl groups or reduction of disulfide bridges.
+These sulfhydryl groups are quite sensitive to the oxidation status of the cells, making glucokinase one of the components most vulnerable to oxidative stress, especially in the beta cells.
+
+
+=== Interactive pathway map ===
+Click on genes, proteins and metabolites below to link to respective articles. 
+
+
+== Structure ==
+Glucokinase is a monomeric protein of 465 amino acids and a molecular weight of about 50 kD. There are at least two clefts, one for the active site, binding glucose and MgATP, and the other for a putative allosteric activator that has not yet been identified.
+This is about half the size of the other mammalian hexokinases, which retain a degree of dimeric structure. Several sequences and the three-dimensional structure of the key active sites. The ATP binding domain, for example, are shared with hexokinases, bacterial glucokinases, and other proteins, and the common structure is termed an actin fold.
+
+
+== Genetics ==
+Human glucokinase is coded for by the GCK gene on chromosome 7. This single autosomal gene has 10 exons. Genes for glucokinase in other animals are homologous to human GCK.
+A distinctive feature of the gene is that it begins with two promoter regions. The first exon from the 5' end contains two tissue-specific promoter regions. Transcription can begin at either promoter (depending on the tissue) so that the same gene can produce a slightly different molecule in liver and in other tissues. The two isoforms of glucokinase differ only by 13–15 amino acids at the N-terminal end of the molecule, which produces only a minimal difference in structure. The two isoforms have the same kinetic and functional characteristics.
+The first promoter from the 5' end, referred to as the "upstream" or neuroendocrine promoter, is active in pancreatic islet cells, neural tissue, and enterocytes (small intestine cells) to produce the "neuroendocrine isoform" of glucokinase. The second promoter, the "downstream" or liver promoter, is active in hepatocytes and directs production of the "liver isoform". The two promoters have little or no sequence homology and are separated by a 30 kbp sequence which has not yet been shown to incur any functional differences between isoforms. The two promoters are functionally exclusive and governed by distinct sets of regulatory factors, so that glucokinase expression can be regulated separately in different tissue types. The two promoters correspond to two broad categories of glucokinase function: In liver, glucokinase acts as the gateway for the "bulk processing" of available glucose, while, in the neuroendocrine cells, it acts as a sensor, triggering cell responses that affect body-wide carbohydrate metabolism.
+
+
+== Distribution among organ systems ==
+Glucokinase has been discovered in specific cells in four types of mammalian tissue: liver, pancreas, small intestine, and brain. All play crucial roles in responding to rising or falling levels of blood glucose.
+The predominant cells of the liver are the hepatocytes, and GK is found exclusively in these cells. During digestion of a carbohydrate meal, when blood glucose is plentiful and insulin levels are high, hepatocytes remove glucose from the blood and store it as glycogen. After completion of digestion and absorption, the liver manufactures glucose from both non-glucose substrates (gluconeogenesis) and glycogen (glycogenolysis), and exports it into the blood, to maintain adequate blood glucose levels during fasting. Because GK activity rises rapidly as the glucose concentration rises, it serves as a central metabolic switch to shift hepatic carbohydrate metabolism between fed and fasting states. Phosphorylation of glucose to glucose-6-phosphate by GK facilitates storage of glucose as glycogen and disposal by glycolysis. The separate liver promoter allows glucokinase to be regulated differently in hepatocytes than in the neuroendocrine cells.
+Neuroendocrine cells of the pancreas, gut, and brain share some common aspects of glucokinase production, regulation, and function. These tissues are collectively referred to as "neuroendocrine" cells in this context.
+Beta cells and alpha cells of the pancreatic islets
+Beta cells release insulin in response to rising levels of glucose. Insulin enables many types of cells to import and use glucose, and signals the liver to synthesize glycogen. Alpha cells produce less glucagon in response to rising glucose levels, and more glucagon if blood glucose is low. Glucagon serves as a signal to the liver to break down glycogen and release glucose into the blood. Glucokinase in beta cells serves as a glucose sensor, amplifying insulin secretion as blood glucose rises.
+
+Glucose-sensitive neurons of the hypothalamus
+In response to rising or falling levels of glucose, cells in the hypothalamus polarize or depolarize. Among the neuroendocrine reactions of the central nervous system to hypoglycemia is activation of the adrenergic responses of the autonomic nervous system. Glucokinase likely serves as a glucose signal here as well. Glucokinase has also been found in cells of the anterior pituitary.
+
+Enterocytes of the small intestine
+This is the least-understood of the glucokinase sensor systems. It seems likely that responses to incoming glucose during digestion play a role in the incretin amplification of insulin secretion during a meal, or in the generation of satiety signals from gut to brain.
+
+
+== Distribution among species ==
+Liver glucokinase occurs widely but not universally throughout vertebrate species. The gene structure and amino acid sequence are highly conserved among most mammals (e.g., rat and human glucokinase is more than 80% homologous). However, there are some unusual exceptions: For example, it has not been discovered in cats and bats, though some reptiles, birds, amphibians, and fish have it. Whether glucokinase occurs similarly in the pancreas and other organs has not yet been determined. It has been postulated that the presence of glucokinase in liver reflects the ease with which carbohydrates can be included in the animals' diets.
+
+
+== Function and regulation ==
+Most of the glucokinase in a mammal is found in the liver, and glucokinase provides approximately 95% of the hexokinase activity in hepatocytes. Phosphorylation of glucose to glucose-6-phosphate (G6P) by glucokinase is the first step of both glycogen synthesis and glycolysis in the liver.
+When ample glucose is available, glycogen synthesis proceeds at the periphery of the hepatocytes until the cells are replete with glycogen. Excess glucose is then increasingly converted into triglycerides for export and storage in adipose tissue. Glucokinase activity in the cytoplasm rises and falls with available glucose.
+G6P, the product of glucokinase, is the principal substrate of glycogen synthesis, and glucokinase has a close functional and regulatory association with glycogen synthesis. When maximally active, GK and glycogen synthase appears to be located in the same peripheral areas of hepatocyte cytoplasm in which glycogen synthesis occurs. The supply of G6P affects the rate of glycogen synthesis not only as the primary substrate, but by direct stimulation of glycogen synthase and inhibition of glycogen phosphorylase.
+Glucokinase activity can be rapidly amplified or damped in response to changes in the glucose supply, typically resulting from eating and fasting. Regulation occurs at several levels and speeds, and is influenced by many factors that affect mainly two general mechanisms:
+Glucokinase activity can be amplified or reduced in minutes by actions of the glucokinase regulatory protein (GKRP). The actions of this protein are influenced by small molecules such as glucose and fructose.
+The amount of glucokinase can be increased by synthesis of new protein. Insulin is the principal signal for increased transcription, operating mainly by way of a transcription factor called sterol regulatory element binding protein-1c (SREBP1c) except in the liver. This occurs within an hour after a rise in insulin levels, as after a carbohydrate meal.
+
+
+=== Transcriptional ===
+Insulin acting via the sterol regulatory element binding protein-1c (SREBP1c) is thought to be the most important direct activator of glucokinase gene transcription in hepatocytes. SREBP1c is a basic helix-loop-helix zipper (bHLHZ) transactivator. This class of transactivators bind to the "E box" sequence of genes for a number of regulatory enzymes. The liver promoter in the first exon of the glucokinase gene includes such an E box, which appears to be the principal insulin-response element of the gene in hepatocytes. It was previously thought that SREBP1c must be present for transcription of glucokinase in hepatocytes however, it was recently shown that glucokinase transcription was carried out normally in SREBP1c knock out mice. SREBP1c increases in response to a high-carbohydrate diet, presumed as a direct effect of frequent insulin elevation. Increased transcription can be detected in less than an hour after hepatocytes are exposed to rising insulin levels.
+Fructose-2,6-bisphosphate (F2,6P
+2) also stimulates GK transcription, it seems by way of Akt2 rather than SREBP1c. It is not known whether this effect is one of the downstream effects of activation of insulin receptors or independent of insulin action. Levels of F2,6P
+2 play other amplifying roles in glycolysis in hepatocytes.
+Other transacting factors suspected of playing a role in liver cell transcription regulation include:
+Hepatic nuclear factor-4-alpha (HNF4α) is an orphan nuclear receptor important in the transcription of many genes for enzymes of carbohydrate and lipid metabolism. It activates GCK transcription.
+Upstream stimulatory factor 1 (USF1) is another basic helix-loop-helix zipper (bHLHZ) transactivator.
+Hepatic nuclear factor 6 (HNF6) is a homeodomain transcriptional regulator of the "one-cut class." HNF6 is also involved in regulation of transcription of gluconeogenic enzymes such as glucose-6-phosphatase and phosphoenolpyruvate carboxykinase.
+
+
+=== Hormonal and dietary ===
+Insulin is by far the most important of the hormones that have direct or indirect effects on glucokinase expression and activity in the liver. Insulin appears to affect both glucokinase transcription and activity through multiple direct and indirect pathways. While rising portal vein glucose levels increase glucokinase activity, the concomitant rise of insulin amplifies this effect by induction of glucokinase synthesis. Glucokinase transcription begins to rise within an hour of rising insulin levels. Glucokinase transcription becomes nearly undetectable in prolonged starvation, severe carbohydrate deprivation, or untreated insulin-deficient diabetes.
+The mechanisms by which insulin induces glucokinase may involve both of the major intracellular pathways of insulin action, the extracellular signal-regulated kinase (ERK 1/2) cascade, and the phosphoinositide 3-kinase (PI3-K) cascade. The latter may operate via the FOXO1 transactivator.
+However, as would be expected given its antagonistic effect on glycogen synthesis, glucagon and its intracellular second messenger cAMP suppresses glucokinase transcription and activity, even in the presence of insulin.
+Other hormones such as triiodothyronine (T
+3) and glucocorticoids provide permissive or stimulatory effects on glucokinase in certain circumstances. Biotin and retinoic acid increase GCK mRNA transcription as well as GK activity. Fatty acids in significant amounts amplify GK activity in the liver, while long chain acyl CoA inhibits it.
+
+
+=== Hepatic ===
+Glucokinase can be rapidly activated and inactivated in hepatocytes by a novel regulatory protein (glucokinase regulatory protein), which operates to maintain an inactive reserve of GK, which can be made quickly available in response to rising levels of portal vein glucose.
+GKRP moves between nucleus and cytoplasm of the hepatocytes and may be tethered to the microfilament cytoskeleton. It forms reversible 1:1 complexes with GK, and can move it from the cytoplasm into the nucleus. It acts as a competitive inhibitor with glucose, such that the enzyme activity is reduced to near-zero while bound. GK:GKRP complexes are sequestered in the nucleus while glucose and fructose levels are low. Nuclear sequestration may serve to protect GK from degradation by cytoplasmic proteases. GK can be rapidly released from GKRP in response to rising levels of glucose. Unlike GK in beta cells, GK in hepatocytes is not associated with mitochondria.
+Fructose in tiny (micromolar) amounts (after phosphorylation by ketohexokinase to fructose-1-phosphate (F1P)) accelerates release of GK from GKRP. This sensitivity to the presence of small amounts of fructose allows GKRP, GK, and ketohexokinase to act as a "fructose sensing system," which signals that a mixed carbohydrate meal is being digested, and accelerates the utilization of glucose. However, fructose 6-phosphate (F6P) potentiates binding of GK by GKRP. F6P decreases phosphorylation of glucose by GK when glycogenolysis or gluconeogenesis are underway. F1P and F6P both bind to the same site on GKRP. It is postulated that they produce 2 different conformations of GKRP, one able to bind GK and the other not.
+
+
+=== Pancreatic ===
+Although most of the glucokinase in the body is in the liver, smaller amounts in the beta and alpha cells of the pancreas, certain hypothalamic neurons, and specific cells (enterocytes) of the gut play an increasingly appreciated role in regulation of carbohydrate metabolism. In the context of glucokinase function, these cell types are collectively referred to as neuroendocrine tissues, and they share some aspects of glucokinase regulation and function, especially the common neuroendocrine promoter. Of the neuroendocrine cells, the beta cells of the pancreatic islets are the most-studied and best-understood. It is likely that many of the regulatory relationships discovered in the beta cells will also exist in the other neuroendocrine tissues with glucokinase.
+
+
+==== A signal for insulin ====
+In islet beta cells, glucokinase activity serves as a principal control for the secretion of insulin in response to rising levels of blood glucose. As G6P is consumed, increasing amounts of ATP initiate a series of processes that result in release of insulin. One of the immediate consequences of increased cellular respiration is a rise in the NADH and NADPH concentrations (collectively referred to as NAD(P)H). This shift in the redox status of the beta cells results in rising intracellular calcium levels, closing of the KATP channels, depolarization of the cell membrane, merging of the insulin secretory granules with the membrane, and release of insulin into the blood.
+It is as a signal for insulin release that glucokinase exerts the largest effect on blood sugar levels and overall direction of carbohydrate metabolism. Glucose, in turn, influences both the immediate activity and the amount of glucokinase produced in the beta cells.
+
+
+==== Regulation in beta cells ====
+Glucose immediately amplifies glucokinase activity by the cooperativity effect.
+A second important rapid regulator of glucokinase activity in beta cells occurs by direct protein-protein interaction between glucokinase and the "bifunctional enzyme" (phosphofructokinase-2/fructose-2,6-bisphosphatase), which also plays a role in the regulation of glycolysis. This physical association stabilizes glucokinase in a catalytically favorable conformation (somewhat opposite the effect of GKRP binding) that enhances its activity.
+In as little as 15 minutes, glucose can stimulate GCK transcription and glucokinase synthesis by way of insulin. Insulin is produced by the beta cells, but some of it acts on beta cell B-type insulin receptors, providing an autocrine positive-feedback amplification of glucokinase activity. Further amplification occurs by insulin action (via A-type receptors) to stimulate its own transcription.
+Transcription of the GCK gene is initiated through the "upstream," or neuroendocrine, promoter. This promoter, in contrast to the liver promoter, has elements homologous to other insulin-induced gene promoters. Among the probable transacting factors are Pdx-1 and PPARγ. Pdx-1 is a homeodomain transcription factor involved in the differentiation of the pancreas. PPARγ is a nuclear receptor that responds to glitazone drugs by enhancing insulin sensitivity.
+
+
+==== Association with insulin secretory granules ====
+Much, but not all, of the glucokinase found in the cytoplasm of beta cells is associated with insulin secretory granules and with mitochondria. The proportion thus "bound" falls rapidly in response to rising glucose and insulin secretion. It has been suggested that binding serves a purpose similar to the hepatic glucokinase regulatory protein—protecting glucokinase from degradation so that it is rapidly available as the glucose rises. The effect is to amplify the glucokinase response to glucose more rapidly than transcription could do so.
+
+
+==== Suppression of glucagon in alpha cells ====
+It has also been proposed that glucokinase plays a role in the glucose sensing of the pancreatic alpha cells, but the evidence is less consistent, and some researchers have found no evidence of glucokinase activity in these cells. Alpha cells occur in pancreatic islets, mixed with beta and other cells. While beta cells respond to rising glucose levels by secreting insulin, alpha cells respond by reducing glucagon secretion. When blood glucose concentration falls to hypoglycemic levels, alpha cells release glucagon. Glucagon is a protein hormone that blocks the effect of insulin on hepatocytes, inducing glycogenolysis, gluconeogenesis, and reduced glucokinase activity in hepatocytes. The degree to which glucose suppression of glucagon is a direct effect of glucose via glucokinase in alpha cells, or an indirect effect mediated by insulin or other signals from beta cells, is still uncertain.
+
+
+=== Hypothalamic ===
+While all neurons use glucose for fuel, certain glucose-sensing neurons alter their firing rates in response to rising or falling levels of glucose. These glucose-sensing neurons are concentrated primarily in the ventromedial nucleus and arcuate nucleus of the hypothalamus, which regulate many aspects of glucose homeostasis (especially the response to hypoglycemia), fuel utilization, satiety and appetite, and weight maintenance. These neurons are most sensitive to glucose changes in the 0.5–3.5 mmol/L glucose range.
+Glucokinase has been found in the brain in largely the same areas that contain glucose-sensing neurons, including both of the hypothalamic nuclei. Inhibition of glucokinase abolishes the ventromedial nucleus response to a meal. However, brain glucose levels are lower than plasma levels, typically 0.5–3.5 mmol/L. Although this range is matches the sensitivity of the glucose-sensing neurons, it is below the optimal inflection sensitivity for glucokinase. The presumption, based on indirect evidence and speculation, is that neuronal glucokinase is somehow exposed to plasma glucose levels even in the neurons.
+
+
+=== Enterocytes and incretin ===
+While glucokinase has been shown to occur in certain cells (enterocytes) of the small intestine and stomach, its function and regulation have not been worked out. It has been suggested that here, also, glucokinase serves as a glucose sensor, allowing these cells to provide one of the earliest metabolic responses to incoming carbohydrates. It is suspected that these cells are involved in incretin functions.
+
+
+== Clinical significance ==
+Because insulin is one of, if not the most important, regulators of glucokinase synthesis, diabetes of all types diminishes glucokinase synthesis and activity by a variety of mechanisms. Glucokinase activity is sensitive to oxidative stress of cells, especially the beta cells.
+Around 200 mutations of the human glucokinase gene GCK have been discovered, that can change the efficiency of glucose binding and phosphorylation, increasing or decreasing the sensitivity of beta cell insulin secretion in response to glucose, and producing clinically significant hyperglycemia or hypoglycemia.
+
+
+=== Diabetes ===
+Over 190 of these mutations reduce the functional efficiency of the glucokinase molecule. Heterozygosity for alleles with reduced enzyme activity results in a higher threshold for insulin release and persistent, mild hyperglycemia. This condition is referred to as maturity onset diabetes of the young, type 2 (MODY2).
+Homozygosity for GCK alleles with reduced function can cause severe congenital insulin deficiency, resulting in persistent neonatal diabetes.
+
+
+=== Hyperinsulinemic hypoglycemia ===
+As of 2004, 5 mutations have been found to enhance insulin secretion. Heterozygosity for gain of function mutations reduces the threshold glucose that triggers insulin release. This creates hypoglycemia of varying patterns, including transient or persistent congenital hyperinsulinism, or fasting or reactive hypoglycemia appearing at an older age.
+Homozygosity for gain of function mutations has not been found.
+
+
+== As a drug target ==
+Several laboratories sponsored by pharmaceutical companies are researching molecules that activate glucokinase in hope that it will be useful in the treatment of type 2 diabetes. Potential glucokinase activator MK-0941 led to unsustained glycemic improvements, as well as increased blood pressure and hypoglycemia risk.
+
+
+== References ==
+
+
+== External links ==
+Glaser, Benjamin (24 January 2013). Familial Hyperinsulinism. PMID 20301549. NBK1375.  In Pagon RA, Bird TD, Dolan CR; et al., eds. (1993–). GeneReviews™ [Internet]. Seattle WA: University of Washington, Seattle.  
+De León, Diva D; Stanley, Charles A (23 January 2014). Permanent Neonatal Diabetes Mellitus. PMID 20301620. NBK1447.  In GeneReviews
+Glucokinase at the US National Library of Medicine Medical Subject Headings (MeSH)

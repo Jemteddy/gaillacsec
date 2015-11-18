@@ -1,0 +1,21 @@
+Magnetic resonance force microscopy (MRFM) is an imaging technique that acquires magnetic resonance images (MRI) at nanometer scales, and possibly at atomic scales in the future. MRFM is potentially able to observe protein structures which cannot be seen using X-ray crystallography and protein nuclear magnetic resonance spectroscopy. Detection of the magnetic spin of a single electron has been demonstrated using this technique. The sensitivity of a current MRFM microscope is 10 billion times better than a medical MRI used in hospitals.
+
+
+== Basic principle ==
+The MRFM concept combines the ideas of magnetic resonance imaging (MRI) and atomic force microscopy (AFM). Conventional MRI employs an inductive coil as an antenna to sense resonant nuclear or electronic spins in a magnetic field gradient. MRFM uses a cantilever tipped with a ferromagnetic (iron cobalt) particle to directly detect a modulated spin gradient force between sample spins and the tip. The magnetic particle is characterized using the technique of cantilever magnetometry. As the ferromagnetic tip moves close to the sample, the atoms’ nuclear spins become attracted to it and generate a small force on the cantilever. The spins are then repeatedly flipped, causing the cantilever to gently sway back and forth in a synchronous motion. That displacement is measured with an interferometer (laser beam) to create a series of 2-D images of the sample, which are combined to generate a 3-D image. The interferometer measures resonant frequency of the cantilever. Smaller ferromagnetic particles and softer cantilevers increase the signal to noise ratio. Unlike the inductive coil approach, MRFM sensitivity scales favorably as device and sample dimensions are reduced.
+Because the signal to noise ratio is inversely proportional to the sample size, Brownian motion is the primary source of noise at the scale in which MRFM is useful. Accordingly, MRFM devices are cryogenically cooled. MRFM was specifically devised to determine the structure of proteins in situ.
+
+
+== Milestones ==
+The basic principles of MRFM imaging and the theoretical possibility of this technology were first described in 1991. The first MRFM image was obtained in 1993 at the IBM Almaden Research Center with 1-μm vertical resolution and 5-μm lateral resolution using a bulk sample of the paramagnetic substance diphenylpicrylhydrazyl. The spatial resolution reached nanometer-scale in 2003. Detection of the magnetic spin of a single electron was achieved in 2004. In 2009 researchers at IBM and Stanford announced that they had achieved resolution of better than 10 nanometers, imaging tobacco mosaic virus particles on a nanometer-thick layer of adsorbed hydrocarbons.
+
+
+== External links ==
+University of Washington Quantum System Engineering and MRFM Home Page, http://courses.washington.edu/goodall/MRFM/.
+Magnetic-Resonance Force Microscopy, http://www.medgadget.com/archives/2005/04/magneticresonan.html.
+Degen CL, Poggio M, Mamin HJ, Rettner CT, Rugar D (12 January 2009). "Nanoscale magnetic resonance imaging". PNAS (We have combined ultrasensitive magnetic resonance force microscopy (MRFM) with 3D image reconstruction to achieve magnetic resonance imaging (MRI) with resolution <10 nm.) 106 (5): 1313–7. Bibcode:2009PNAS..106.1313D. doi:10.1073/pnas.0812068106. PMC 2628306. PMID 19139397. Lay summary. 
+"BBC NEWS - Science & Environment - IBM team boosts MRI resolution". BBC News. 13 January 2009. Retrieved 2009-01-14. 
+Review Article: M. Poggio and C. L. Degen, Nanotechnology 21, 342001 (2010), "Force-detected nuclear magnetic resonance: recent advances and future challenges". arXiv:1006.3736. Bibcode:2010Nanot..21H2001P. doi:10.1088/0957-4484/21/34/342001. 
+
+
+== References ==

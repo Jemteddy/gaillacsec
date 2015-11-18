@@ -1,0 +1,50 @@
+An extrinsic is a semiconductor that has been doped, that is, into which a doping agent has been introduced, giving it different electrical properties than the intrinsic (pure) semiconductor.
+Doping involves adding dopant atoms to an intrinsic semiconductor, which changes the electron and hole carrier concentrations of the semiconductor at thermal equilibrium. Dominant carrier concentrations in an extrinsic semiconductor classify it as either an n-type or p-type semiconductor. The electrical properties of extrinsic semiconductors make them essential components of many electronic devices.
+
+
+== Semiconductor doping ==
+Semiconductor doping is the process that changes an intrinsic semiconductor to an extrinsic semiconductor. During doping, impurity atoms are introduced to an intrinsic semiconductor. Impurity atoms are atoms of a different element than the atoms of the intrinsic semiconductor. Impurity atoms act as either donors or acceptors to the intrinsic semiconductor, changing the electron and hole concentrations of the semiconductor. Impurity atoms are classified as donor or acceptor atoms based on the effect they have on the intrinsic semiconductor.
+Donor impurity atoms have more valence electrons than the atoms they replace in the intrinsic semiconductor lattice. Donor impurities "donate" their extra valence electrons to a semiconductor's conduction band, providing excess electrons to the intrinsic semiconductor. Excess electrons increase the electron carrier concentration (n0) of the semiconductor, making it n-type.
+Acceptor impurity atoms have fewer valence electrons than the atoms they replace in the intrinsic semiconductor lattice. They "accept" electrons from the semiconductor's valence band. This provides excess holes to the intrinsic semiconductor. Excess holes increase the hole carrier concentration (p0) of the semiconductor, creating a p-type semiconductor.
+Semiconductors and dopant atoms are defined by the column of the periodic table in which they fall. The column definition of the semiconductor determines how many valence electrons its atoms have and whether dopant atoms act as the semiconductor's donors or acceptors.
+Group IV semiconductors use group V atoms as donors and group III atoms as acceptors.
+Group III-V semiconductors, the compound semiconductors, use group VI atoms as donors and group II atoms as acceptors. Group III-V semiconductors can also use group IV atoms as either donors or acceptors. When a group IV atom replaces the group III element in the semiconductor lattice, the group IV atom acts as a donor. Conversely, when a group IV atom replaces the group V element, the group IV atom acts as an acceptor. Group IV atoms can act as both donors and acceptors; therefore, they are known as amphoteric impurities.
+
+
+== The two types of extrinsic semiconductor ==
+
+
+=== N-type semiconductors ===
+
+N-type semiconductors have a larger electron concentration than hole concentration. The phrase 'n-type' comes from the negative charge of the electron. In n-type semiconductors, electrons are the majority carriers and holes are the minority carriers. N-type semiconductors are created by doping an intrinsic semiconductor with donor impurities (or doping a p-type semiconductor as done in the making of CMOS chips). A common dopant for n-type silicon is phosphorus. In an n-type semiconductor, the Fermi level is greater than that of the intrinsic semiconductor and lies closer to the conduction band than the valence band.
+
+
+=== P-type semiconductors ===
+
+As opposed to n-type semiconductors, p-type semiconductors have a larger hole concentration than electron concentration. The phrase 'p-type' refers to the positive charge of the hole. In p-type semiconductors, holes are the majority carriers and electrons are the minority carriers. P-type semiconductors are created by doping an intrinsic semiconductor with acceptor impurities (or doping a n-type semiconductor). A common p-type dopant for silicon is boron. For p-type semiconductors the Fermi level is below the intrinsic Fermi level and lies closer to the valence band than the conduction band.
+
+
+== Use of extrinsic semiconductors ==
+Extrinsic semiconductors are components of many common electrical devices. A semiconductor diode (devices that allow current in only one direction) consists of p-type and n-type semiconductors placed in junction with one another. Currently, most semiconductor diodes use doped silicon or germanium.
+Transistors (devices that enable current switching) also make use of extrinsic semiconductors. Bipolar junction transistors (BJT) are one type of transistor. The most common BJTs are NPN and PNP type. NPN transistors have two layers of n-type semiconductors sandwiching a p-type semiconductor. PNP transistors have two layers of p-type semiconductors sandwiching an n-type semiconductor.
+Field-effect transistors (FET) are another type of transistor implementing extrinsic semiconductors. As opposed to BJTs, they are unipolar and considered either N-channel or P-channel. FETs are broken into two families, junction gate FET (JFET) and insulated gate FET (IGFET).
+Other devices implementing the extrinsic semiconductor:
+Lasers
+Solar cells
+Photodetectors
+Light-emitting diodes
+Thyristors
+
+
+== See also ==
+Intrinsic semiconductor
+Doping (semiconductor)
+List of semiconductor materials
+
+
+== References ==
+Neamen, Donald A. (2003). Semiconductor Physics and Devices: Basic Principles (3rd ed.). McGraw-Hill Higher Education. ISBN 0-07-232107-5. 
+
+
+== External links ==
+Howstuffworks: How Semiconductors Work

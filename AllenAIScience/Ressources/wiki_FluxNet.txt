@@ -1,0 +1,83 @@
+FluxNet is a global network of micrometeorological tower sites that use eddy covariance methods to measure the exchanges of carbon dioxide, water vapor, and energy between the biosphere and atmosphere. Fluxnet is a global 'network of regional networks' that serves to provide an infrastructure to compile, archive and distribute data for the scientific community. It works to ensure that different flux networks are calibrated to facilitate comparison between sites, and it provides a forum for the distribution of knowledge and data between scientists.
+As of April 2014, there are over 683 tower sites in continuous long-term operation. Researchers also collect data on site vegetation, soil, trace gas fluxes, hydrology, and meteorological characteristics at the tower sites.
+
+
+== Scientific goals ==
+
+According to the Fluxnet website, the goals of the project are as follows:
+To "quantify the spatial differences in carbon dioxide and water vapor exchange rates that may be experienced within and across natural ecosystems and climatic gradients"
+To "quantify temporal dynamics and variability (seasonal, inter-annual) of carbon, water and energy flux densities; such data allows us to examine the influences of phenology, droughts, heat spells, El Nino, length of growing season and presence or absence of snow on canopy-scale fluxes"
+To "quantify the variations of carbon dioxide and water vapor fluxes due to changes in insolation, temperature, soil moisture, photosynthetic capacity, nutrition, canopy structure and ecosystem functional type."
+
+
+== History ==
+
+Scientists have been measuring water vapor and carbon dioxide exchange between the Earth's surface and the atmosphere since the late 1950s. The relatively undeveloped computing capabilities and solid state measurement capabilities made it almost impossible to be able to get accurate measurements. Early scientists such as John Monteith used the "flux gradient" method to make semi-accurate assessments of the fluxes in a variety of natural settings. The work of scientists such as Monteith realized that the Flux Gradient method was not nearly as accurate as it needed to be when used to measure trace gas exchange in tall forests. Eventually, they realized that the downfall of their models was caused by "large scale transport in the roughness sublayer". The reason for these data inaccuracies was hypothesized to arise from Monin-Obukhov scaling theory.
+As digital technology advanced throughout the 1970s and 80s, so did advances in the sensors and digital hardware necessary to provide the means to make advanced measurements of fluxes with what became known as the eddy covariance technique. With this method as well as further advances in digital data storage, it became possible for curious scientists to make these eddy flux measurements for long periods of time and consequently get a sense of annual carbon dioxide and water vapor changes in the biosphere. As these techniques became more widespread in the scientific community, more research groups took the initiative to establish further measurement sites. Eventually, enough sites were established to allow research of fluxes over wide areas of land with the help of multiple investigators. An example of such a study is the "Boreal Ecosystem-Atmosphere Study".
+With the success of such projects, participating scientists began to explore the idea of creating a global network of sensor sites that could be used to integrate their data and provide access for the members of the academic community and general public. At a meeting in La Thuile, Italy during 1995, contributing scientists began to discuss the feasibility of such a network. With the successful conclusion of this meeting, there was an increase in the rate of sensor site installation and the growth of regional networks. Eventually, the Euroflux network took hold in 1996 and was soon followed by the AmeriFlux network in 1997. When NASA saw the enthusiasm from the scientific community for these two networks as well as the possibility to integrate trace gas data from the ground with data from the Earth Observatory Satellite, it finally funded the Fluxnet project as a whole in 1998.
+In 2002, Fluxnet was added to the NOAA Observing System Architecture (NOSA).
+
+
+== Future site planning ==
+
+Future FluxNet sites are planned according to a desirable accuracy in the acquired data. With the current model used to determine flux between the surface and the atmosphere, it is desirable to situate the tower in an area with uniform vegetative cover and minimal disturbances in the terrain. Deviations in terrain or plant cover would prevent a constant gas flux along the height of the tower.
+Another very important part of the sensor array is the tower on which it rests. The sensor tower must fit within a certain design criteria dependent on:
+the height of the vegetation in the area
+the average wind speed
+the sampling time of the sensors
+Typically, investigators who are monitoring fluxes in agricultural cropland place their sensors close to the ground. Meanwhile, scientists who hope to measure the fluxes in tall forests must place their sensors on relatively high scaffolding. The difference in sizes is attributed to the boundary layers that form close to the ground because of the vegetation. To minimize turbulence from the tower itself, instrumentation is often placed at the top of the tower and offset several feet with the help of booms.
+
+
+== Instrumentation and data processing ==
+
+Most FluxNet sites have at minimum sensors to accurately measure the wind speed as well as the concentration of the trace gases in question. To obtain the necessary data, it is common for the towers to employ a sonic anemometer, an infrared gas analyzer and some sensor to measure humidity. These tools are necessary because they provide the necessary variables to be put into the eddy covariance model of gas flux in the biosphere.
+
+The principle behind the eddy covariance technique is that parcels of air have eddy like characteristics in the atmosphere. In other words, when trace gases are respired by vegetation, their velocity can be represented by a 3D vector. The purpose of using such a precise anemometer is to measure value of the wind velocity component in three dimensions. Using the infrared gas analyzer and the humidity sensor, the concentration of water vapor and trace gases in the air sample is measured and sent to a computer which quickly figures out the mass flux of the gas in question. This mass flux makes the FluxNet project a valuable tool to scientists trying to monitor long term changes in trace gas flux within the atmosphere.
+
+Many different forms of anemometer exist on the current market. Unfortunately, the majority of the anemometers can only measure wind velocity in one plane and require a certain start-up wind speed. Sonic anemometers are solid state devices that measure the wind speed by passing ultrasonic sound waves through the moving air. As wind speed changes, so does the air density and when the density changes, so does the speed of sound. By measuring the change in time it takes for the ultrasonic sound wave to make its way from the emitter to the sensor, the sonic anemometer can measure the total air speed as well as its direction.
+
+This sensor works because Infrared light is absorbed by a variety of gases at different wavelengths within the spectrum including methane, carbon monoxide, carbon dioxide and oxygen. To measure the concentration, a beam of light is emitted into the air sample. By measuring the difference between the input and output of the infrared beam, the sensor can determine the amount of the trace gases in the sample. It is common for an infrared gas analyzer to have two configurations. The "open design" operates by shooting a beam of infrared light through the air outside of the sensor body. Meanwhile, the closed design works by sucking air into the sensor body measuring the concentration of trace gases inside of a sealed chamber. Usually, open sensors are placed within half a meter of the anemometer while closed sensors use a collection tube mounted inside the anemometer to get their air sample.
+
+The hygrogemeter is an essential tool used to figure out the concentration of water vapor in the air. Unfortunately, water vapor absorbs several frequencies of light in the infrared range and most of these bands overlap that of the trace gases. Without accounting for water vapor, the Infrared gas analyzer would give false data. To solve this problem, an accurate water vapor measurement is needed. Solid state hygrometers are designed to have two metal plates separated by a small air gap. Differing levels of humidity in the air change the capacitance of the air gap. This can be measured by applying a high frequency AC voltage to the plates and measuring the capacitance through an RC circuit.
+
+
+== Accuracy ==
+
+
+== Studies published with FluxNet data ==
+
+
+== FluxNet sites ==
+
+
+=== Yatir Forest, Israel ===
+
+The state of Israel is afforesting the Negev desert, which accounts for 60% of the country's land mass but remains sparsely populated. The Yatir Forest is located on the southern slopes of Mount Hebron, on the edge of the Negev Desert. Covering an area of 30,000 dunams (30 square kilometers), it is the largest planted forest in Israel. It is named after the ancient Levite city within its territory, Yatir, as written in the Torah The Yatir forest is a tower site of NASAs research project FluxNet. There is a multitude of modern Israeli scientific research conducted in the Yatir Forest to meet the challenge of climate change, which may result in rapid plant loss and desertification in certain circumstances. Studies of the Weizmann Institute of Science, in collaboration with the Desert Research Institute at Sde Boker, have shown that the trees function as a trap for carbon in the air. Shade provided by trees planted in the desert also reduces evaporation of the sparse rainfall. Arava Institute for Environmental Studies conducts research at Yatir forest that focuses on crops such as dates and grapes grown in the vicinity of Yatir forest. The research is part of a project aimed at introducing new crops into arid and saline zones.
+
+
+== Notes ==
+
+
+== References ==
+Baldocchi, D.D . 2008. 'Breathing' of the Terrestrial Biosphere: Lessons Learned from a Global Network of Carbon Dioxide Flux Measurement Systems. Australian Journal of Botany. 56, 1-26.
+Baldocchi, D.; Falge, E.; Gu, L.; Olson, R.; Hollinger, D.; Running, S.; Anthoni, P.; Bernhofer, C.; Davis, K.; Evans, R.; Others, (2001). "� FLUXNET: A New Tool to Study the Temporal and Spatial Variability of Ecosystem–Scale Carbon Dioxide …". Bulletin of the American Meteorological Society 82(11):2415–2434. doi:10.1175/1520-0477(2001)082<2415:FANTTS>2.3.CO;2
+Holton, James R. (2004). "An introduction to dynamic meteorology". ISBN 0-12-354015-1
+
+
+== External links ==
+Fluxnet at ORNL
+Fluxnet Synthesis Dataset
+Interactive Map of Fluxnet Sites
+Fluxnet on NOSA
+
+
+=== Regional Fluxnet websites ===
+
+AmeriFlux
+CarboEurope
+AsiaFlux
+KoFlux
+OzFlux
+Fluxnet-Canada
+Chinaflux
+Urban Flux Network

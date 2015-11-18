@@ -1,0 +1,50 @@
+The Illumina Methylation Assay using the Infinium I platform uses 'BeadChip' technology to generate a comprehensive genome wide profiling of human DNA methylation. Similar to bisulfite sequencing and pyrosequencing, this method quantifies methylation levels at specific loci within the genome. This assay is used for methylation probes on the Illumina 27k methylation array. Probes on the 27k array target regions of the human genome to measure measure methylation levels at 27,578 CpG dinucleotides in 14,495 genes.
+
+
+== Background ==
+DNA methylation plays a significant role in the epigenetic regulation of chromatin structure, which in the last decade has been recognized to be important in the regulation of gene expression, development and genetic imprinting in vertebrates. Changes in the methylation pattern and level have been shown to contribute to cancer and various developmental diseases. For example, hypermethylation at the promoter CpG islands of a tumour suppressor gene, which in turn leads to its silencing, is frequently associated with tumourgenesis. A large scale measurement of DNA methylation patterns from a wide selection of genes may enable us to understand better the relationships between epigenetic changes and the genesis of different diseases and a better understanding of the role that epigenetics plays in tissue specific differentiation.
+
+
+== Material ==
+The chip contains 27,578 individual CpG sites, spread across 14,495 genes. These genes include RefSeq genes from the NCBI CCDS Database, cancer genes that show differential methylation patterns during their course of progression and microRNA promoters. The markers included in the chip are summarized in Table 1.
+
+
+== Method ==
+
+The process is outlined in Figure 1.Bisulfite treatment
+Approximately 1 ug of genomic DNA is used in bisulfite conversion to convert the unmethylated cytosine into uracil. The product contains unconverted cytosine where they were previously methylated, but cytosine converted to uracil if they were previously unmethylated.
+Whole genomic DNA amplification
+The bisulfite treated DNA is subjected to whole genome amplification (WGA) via random hexamer priming and Phi29 DNA polymerase, which has a proofreading activity resulting in error rates 100 times lower than the Taq polymerase. The products are then enzymatically fragmented, purified from dNTPs, primers and enzymes, and applied to the chip.
+Hybridization and Single-base extension
+On the chip, there are two bead types for each CpG site per locus. Each locus tested is differentiated by different bead types, there are over 200,000 bead types available. Each of the bead types are attached to a single stranded 50-mer DNA oligonucleotides that differ in sequence only at the free end; this type of probe is known as an Allele specific oligonucleotide. One of the bead types will correspond to the methylated cytosine locus and the other will correspond to the unmethylated cytosine locus, which has been converted into uracil during bisulfite treatment and later amplified as thymine during whole genome amplification. The bisulfite converted amplified DNA products are denatured into single strands and hybridized to the chip via allele specific annealing to either the methylation specific probe or the non-methylation probe. Hybridization is followed by single-base extension with hapten labelled dideoxynucleotides. The ddCTP is labelled with biotin while ddATP, ddUTP and ddGTP are labelled with 2,4-dinitrophenol (DNP) 
+Fluorescence staining and scanning of chip
+After incorporation of these hapten labelled ddNTPs, multi-layered immunohistochemical assays are performed by repeated rounds of staining with a combination of antibodies to differentiate the two types. After staining, the chip is scanned to show the intensities of the unmethylated and methylated bead types. (Figure 2). The raw data are analyzed by the proprietary software, and the fluorescence intensity ratios between the two bead types are calculated. A ratio value of 0 equals to non-methylation of the locus; a ratio of 1 equals to total methylation; a value of 0.5 means that one copy is methylated and the other is not, in the diploid human genome.
+
+Analysis of methylation data
+The scanned microarray images of methylation data are further analyzed by the system, which normalizes the raw data to reduce the effects of experimental variation, background and average normalization, and performs standard statistical tests on the results. The data can then be compiled into several types of figures for visualization and analysis. Scatter plots are used to correlate the methylation data; bar plots to visualize relative levels of methylation at each site tested; heat maps to cluster the data to compare the methylation profile at the sites tested. Figure 2 shows the different types of results generated.
+
+
+== Advantages and disadvantages ==
+Advantages
+No PCR is required, which means that there will be no selective bias towards shorter fragments.
+Ability to survey up to 12 samples per chip allows for high throughput processing.
+Allows integration of data between other platforms such as gene expression and microRNA profiling.
+The method looks at ~2 CpG sites per CpG island, providing genome-wide coverage of methylation patterns
+Disadvantages
+Not every gene annotated in the NCBI database was included in the design of this assay, which covers 14,495 genes out of the 17,052 GeneIDs present to date (Human build 36.3).
+According to Staaf et al. (2008), “the Infinium II assay seemed to have dye intensity biases between the two channels used in fluorescence detection. Furthermore, this bias was not eliminated even after the data had gone through normalization algorithms used in the BeadStudio software.” This concern, while valid for the GoldenGate methylation assay, is not relevant to the HumanMethylation27k chips, where both probes in a pair extend and fluoresce within the same channel.
+
+
+== See also ==
+MethDB DNA Methylation Database
+
+
+== External links ==
+Epigenetics Methylation Station
+Nature Reviews:DNA methylation Collection in Nature Reviews
+DNA/Methylation Analysis Protocols
+Illumina, Infinium Methylation
+OMICtools: an educational directory for DNA methylation array data analysis.
+
+
+== References ==

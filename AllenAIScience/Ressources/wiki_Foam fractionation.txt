@@ -1,0 +1,33 @@
+Foam fractionation is a chemical process in which hydrophobic molecules are preferentially separated from a liquid solution using rising columns of foam. It is commonly used, albeit on a small scale, for the removal of organic waste from aquariums; these units are known as "protein skimmers". However it has much broader application in the chemical process industry and can be used for the removal of surface active contaminants from waste water streams in addition to the enrichment of bio-products.
+
+
+== History ==
+Whilst protein skimmers have been common place in aquaria for many years, it was not until the 1960s that a concerted effort was made by Robert Lemlich of the University of Cincinnati to characterise of model adsorptive bubble separation processes, of which foam fractionation is one example. Until the mid-2000s, there was very little further development of foam fractionation or attempts to understand the underlying physics of the process. Many workers were satisfied with empirical descriptions of specific systems rather than attempt a mechanistic model of the process, and it is possibly for this reason that the adoption of the technology has been slow despite its enormous potential.
+Foam fractionation is closely related to the allied process of froth flotation in which hydrophobic particles attach to the surface of bubbles which rise to form a pneumatic (i.e. rising) foam. In this way, relatively hydrophobic particles can be separated from relatively hydrophilic particles. Froth flotation is typically used to separate coal particles from ash or particles of valuable minerals from gangue material. It was research into the froth phase of froth flotation conducted at the University of Newcastle, Australia, specifically into the prediction of liquid fraction and liquid flux in a pneumatic foam, that enabled a preliminary mechanistic description of foam fractionation. The synergies between foam fractionation and froth flotation have been explored in a 2009 special issue of the Asia Pacific Journal of Chemical Engineering.
+
+
+== Design considerations ==
+Robert Lemlich showed how foam fractionation columns can be operated in stripping, enriching, or combined modes (depending on whether the feed is sent to the top, bottom or middle of the column), and can be operated with or without an external reflux stream at the top of the column. It helps to think of the process as similar to a gas-liquid absorption column. The differences are that:
+The target molecules adsorb to a surface, rather than absorb by travelling into the bulk of one phase from another, and
+The foam autogenously provides the packing within the column.
+Just as in gas-liquid absorption, the adoption of reflux at the top of the column can engender multiple equilibrium stages within the column. However, if one can control the rate at which the bubble size changes with height in the column, either by coalescence or Ostwald ripening, one can engineer an internal source of reflux within the column.
+As in many chemical processes, there are competing considerations of recovery (i.e. the percentage of target surfactant that reports to the overhead foamate stream) and enrichment (i.e. the ratio of surfactant concentration in the foamate to the concentration in the feed). A crude method of moving upon the enrichment-recovery spectrum is to control the gas rate to the column. A higher gas rate will mean higher recovery but lower enrichment.
+Foam fractionation proceeds via two mechanisms:
+The target molecule adsorbs to a bubble surface, and
+The bubbles form a foam which travels up a column and is discharged to the foamate stream of foam fractionation.
+The rate at which certain non-ionic molecules can adsorb to bubble surface can be estimated by solving the Ward-Tordai equation. The enrichment and recovery depend on the hydrodynamic condition of the rising foam, which is a complex system dependent upon bubble size distribution, stress state at the gas-liquid interface, rate of bubble coalescence, gas rate inter alia. The hydrodynamic condition is described by the Hydrodynamic Theory of Rising Foam.
+
+
+== Applications ==
+Enrichment of the solutions of biomolecules in pharmaceutical and food technologies.
+Stripping of surface-active contaminants from streams of waste water.
+Stripping of non-surface-active contaminants from streams of waste water (such as metal ions) with the help of one or more assistant surfactants.
+The removal of frother downstream of froth flotation operations (known as frother stripping).
+
+
+== Notes ==
+^ Lemlich R, Lavi E 1961 Foam fractionation with reflux, Science 134, p.191
+^ Lemlich R 1968 Adsorptive bubble separation techniques: Foam fractionation and allied techniques, Industrial & Engineering Chemistry 60 p.16
+^ Stevenson P, Jameson GJ 2007 Modeling continuous foam fractionation with reflux, Chemical Engineering and Processing 39, p.590
+^ Ward AFH & Tordai L 1946 Time-Dependence of boundary tension of solutions I. the role of diffusion in time-effects, Journal of Chemical Physics 14, p.453
+^ Stevenson P 2007 Hydrodynamic theory of rising foam, Minerals Engineering 20, p.282

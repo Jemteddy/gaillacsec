@@ -1,0 +1,46 @@
+In fields such as epidemiology, social sciences, psychology and statistics, an observational study draws inferences from a sample to a population where the independent variable is not under the control of the researcher. One common observational study is about the possible effect of a treatment on subjects, where the assignment of subjects into a treated group versus a control group is outside the control of the investigator. This is in contrast with experiments, such as randomized controlled trials, where each subject is randomly assigned to a treated group or a control group.
+
+
+== RationalesEdit ==
+The independent variable may be beyond the control of the investigator for a variety of reasons:
+A randomized experiment would violate ethical standards. Suppose one wanted to investigate the abortion – breast cancer hypothesis, which postulates a causal link between induced abortion and the incidence of breast cancer. In a hypothetical controlled experiment, one would start with a large subject pool of pregnant women and divide them randomly into a treatment group (receiving induced abortions) and a control group (not receiving abortions), and then conduct regular cancer screenings for women from both groups. Needless to say, such an experiment would run counter to common ethical principles. (It would also suffer from various confounds and sources of bias, e.g., it would be impossible to conduct it as a blind experiment.) The published studies investigating the abortion–breast cancer hypothesis generally start with a group of women who already have received abortions. Membership in this "treated" group is not controlled by the investigator: the group is formed after the "treatment" has been assigned.
+The investigator may simply lack the requisite influence. Suppose a scientist wants to study the public health effects of a community-wide ban on smoking in public indoor areas. In a controlled experiment, the investigator would randomly pick a set of communities to be in the treatment group. However, it is typically up to each community and/or its legislature to enact a smoking ban. The investigator can be expected to lack the political power to cause precisely those communities in the randomly selected treatment group to pass a smoking ban. In an observational study, the investigator would typically start with a treatment group consisting of those communities where a smoking ban is already in effect.
+A randomized experiment may be impractical. Suppose a researcher wants to study the suspected link between a certain medication and a very rare group of symptoms arising as a side effect. Setting aside any ethical considerations, a randomized experiment would be impractical because of the rarity of the effect. There may not be a subject pool large enough for the symptoms to be observed in at least one treated subject. An observational study would typically start with a group of symptomatic subjects and work backwards to find those who were given the medication and later developed the symptoms. Thus a subset of the treated group was determined based on the presence of symptoms, instead of by random assignment.
+
+
+== Types of observational studiesEdit ==
+Case-control study: study originally developed in epidemiology, in which two existing groups differing in outcome are identified and compared on the basis of some supposed causal attribute.
+Cross-sectional study: involves data collection from a population, or a representative subset, at one specific point in time.
+Longitudinal study: correlational research study that involves repeated observations of the same variables over long periods of time.
+Cohort study or Panel study: a particular form of longitudinal study where a group of patients is closely monitored over a span of time.
+Ecological study: an observational study in which at least one variable is measured at the group level.
+
+
+== Degree of usefulness and reliabilityEdit ==
+Although observational studies cannot be used as reliable sources to make statements of fact about the "safety, efficacy, or effectiveness" of a practice, they can still be of use for some other things:
+"[T]hey can: 1) provide information on “real world” use and practice; 2) detect signals about the benefits and risks of...[the] use [of practices] in the general population; 3) help formulate hypotheses to be tested in subsequent experiments; 4) provide part of the community-level data needed to design more informative pragmatic clinical trials; and 5) inform clinical practice."
+
+
+== Bias and compensating methodsEdit ==
+In all of those cases, if a randomized experiment cannot be carried out, the alternative line of investigation suffers from the problem that the decision of which subjects receive the treatment is not entirely random and thus is a potential source of bias. A major challenge in conducting observational studies is to draw inferences that are acceptably free from influences by overt biases, as well as to assess the influence of potential hidden biases.
+An observer of an uncontrolled experiment (or process) records potential factors and the data output: the goal is to determine the effects of the factors. Sometimes the recorded factors may not be directly causing the differences in the output. There may be more important factors which were not recorded but are, in fact, causal. Also, recorded or unrecorded factors may be correlated which may yield incorrect conclusions. Finally, as the number of recorded factors increases, the likelihood increases that at least one of the recorded factors will be highly correlated with the data output simply by chance.
+In lieu of experimental control, multivariate statistical techniques allow the approximation of experimental control with statistical control, which accounts for the influences of observed factors that might influence a cause-and-effect relationship. In healthcare and the social sciences, investigators may use matching to compare units that nonrandomly received the treatment and control. One common approach is to use propensity score matching in order to reduce confounding.
+A report from the Cochrane Collaboration in 2014 came to the conclusion that observational studies are very similar in results reported by similarly conducted randomized controlled trials. In other words, it reported little evidence for significant effect estimate differences between observational studies and randomized controlled trials, regardless of specific observational study design, heterogeneity, or inclusion of studies of pharmacological interventions. It therefore recommended that factors other than study design per se need to be considered when exploring reasons for a lack of agreement between results of randomized controlled trials and observational studies.
+In 2007, several prominent medical researchers issued the Strengthening the reporting of observational studies in epidemiology (STROBE) statement, in which they called for observational studies to conform to 22 criteria that would make their conclusions easier to understand and generalise.
+
+
+== See alsoEdit ==
+Correlation does not imply causation
+Natural experiment
+Regression discontinuity
+Difference-in-differences
+Instrumental variable
+Scientific method
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Rosenbaum, Paul R. (2002). Observational Studies (2nd ed.). New York: Springer-Verlag. ISBN 0387989676. 
+"NIST/SEMATECH Handbook on Engineering Statistics" at NIST

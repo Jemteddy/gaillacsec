@@ -1,0 +1,43 @@
+Epigenome editing is a type of genetic engineering in which the epigenome is modified at specific sites using engineered molecules targeted to those sites (as opposed to whole-genome modifications). “Editing” epigenomic features in this manner allows researchers to determine the exact biological role of an epigenetic modification at the site in question.
+The engineered proteins used for epigenome editing are composed of a DNA binding domain that target specific sequences and an effector domain that modifies epigenomic features. Currently, two major groups of DNA binding proteins have been predominantly used for epigenome editing: Transcription Activator-Like Effectors (TALEs) and nuclease deficient Cas9 fusions (CRISPR).
+
+
+== General concept ==
+Comparing genome-wide epigenetic maps with gene expression has allowed researchers to assign either activating or repressing roles to specific modifications. The importance of DNA sequence in regulating the epigenome has been demonstrated by using DNA motifs to predict epigenomic modification. Further insights into mechanisms behind epigenetics have come from in vitro biochemical and structural analyses. Using model organisms, researchers have been able to describe the role of many chromatin factors through knockout studies. However knocking out an entire chromatin modifier has massive effects on the entire genome, which may not be an accurate representation of its function in a specific context. As one example of this, DNA methylation occurs at repeat regions, promoters, enhancers, and gene bodies. Although DNA methylation typically correlates with gene repression, methylation has also been shown to play a role in gene splicing. The ability to directly target and edit individual methylation sites is critical to determining the exact function of DNA methylation at a specific site. Epigenome editing is a powerful tool that allows this type of analysis.
+
+
+=== Targeting proteins ===
+
+
+==== TALE ====
+The Transcription Activator-Like Effector (TALE) protein recognizes specific DNA sequences based on the composition of its DNA binding domain. This allows the researcher to construct different TALE proteins to recognize a target DNA sequence by editing the TALE's primary protein structure. The binding specificity of this protein is then typically confirmed using Chromatin Immunoprecipitation (ChIP) and Sanger sequencing of the resulting DNA fragment. This confirmation is still required on all TALE sequence recognition research. When used for epigenome editing, these DNA binding proteins are attached to an effector protein. Effector proteins that have been used for this purpose include Ten-eleven translocation methylcytosine dioxygenase 1 (TET1), Lysine (K)-specific demethylase 1A (LSD1) and Calcium and integrin binding protein 1 (CIB1).
+
+
+==== Zinc finger proteins ====
+The use of zinc finger-fusion proteins to recognize sites for epigenome editing has been explored as well. Maeder et al. has constructed a ZF-TET1 protein for use in DNA demethylation. These zinc finger proteins work similarly to TALE proteins in that they are able to bind to sequence specific sites in on the DNA based on their protein structure which can be modified. Chen et al. have successfully used a zinc finger DNA binding domain coupled with the TET1 protein to induce demethylation of several previously silenced genes.
+
+
+=== Commonly used effector proteins ===
+TET1 induces demethylation of cytosine at CpG sites. This protein has been used to activate genes that are repressed by CpG methylation and to determine the role of individual CpG methylation sites. LSD1 induces the demethylation of H3K4me1/2, which also causes an indirect effect of deacetylation on H3K27. This effector can be used on histones in enhancer regions, which can changes the expression of neighboring genes. CIB1 is a light sensitive cryptochrome, this cryptochrome is fused to the TALE protein. A second protein contains an interaction partner (CRY2) fused with a chromatin/DNA modifier (ex. SID4X). CRY2 is able to interact with CIB1 when the cryptochrome has been activated by illumination with blue light. The interaction allows the chromatin modifier to act on the desired location. This means that the modification can be performed in an inducible and reversible manner, which reduces long-term secondary effects that would be caused by constitutive epigenetic modification.
+
+
+== Applications ==
+
+
+=== Studying enhancer function and activity ===
+Editing of gene enhancer regions in the genome through targeted epigenetic modification has been demonstrated by Mendenhall et al. (2013). This study utilized a TALE-LSD1 effector fusion protein in order to target enhancers of genes, to induce enhancer silencing in order to deduce enhancer activity and gene control. Targeting specific enhancers followed by locus specific RT-qPCR allows for the genes affected by the silenced enhancer to be determined. Alternatively, inducing enhancer silencing in regions upstream of genes allows for gene expression to be altered. RT-qPCR can then be utilized to study effects of this on gene expression. This allows for enhancer function and activity to be studied in detail.
+
+
+=== Determining the function of specific methylation sites ===
+It is important to understand the role specific methylation sites play regulating in gene expression. To study this, one research group used a TALE-TET1 fusion protein to demethylate a single CpG methylation site. Although this approach requires many controls to ensure specific binding to target loci, a properly performed study using this approach can determine the biological function of a specific CpG methylation site.
+
+
+=== Determining the role of epigenetic modifications directly ===
+Epigenetic editing using an inducible mechanism offers a wide array of potential use to study epigenetic effects in various states. One research group employed an optogenetic two-hybrid system which integrated the sequence specific TALE DNA-binding domain with a light-sensitive cryptochrome 2 protein (CIB1). Once expressed in the cells, the system was able to inducibly edit histone modifications and determine their function in a specific context.
+
+
+== Limitations ==
+Sequence specificity is critically important in epigenome editing and must be carefully verified (this can be done using chromatin immunoprecipitation followed by Sanger sequencing to verify the targeted sequence). It is unknown if the TALE fusion may cause effects on the catalytic activity of the epigenome modifier. This could be especially important in effector proteins that require multiple subunits and complexes such as the Polycomb repressive complex. Proteins used for epigenome editing may obstruct ligands and substrates at the target site. The TALE protein itself may even compete with transcription factors if they are targeted to the same sequence. In addition, DNA repair systems could reverse the alterations on the chromatin and prevent the desired changes from being made. It is therefore necessary for fusion constructs and targeting mechanisms to be optimized for reliable and repeatable epigenome editing.
+
+
+== References ==

@@ -1,0 +1,24 @@
+In mathematics, a function on a normed vector space is said to vanish at infinity if
+ as 
+For example, the function
+
+defined on the real line vanishes at infinity.
+More generally, a function  on a locally compact space (which may not have a norm) vanishes at infinity if, given any positive number , there is a compact subset  such that
+
+whenever the point  lies outside of .
+In the other words,for each positive number  the set  is compact.
+For a given locally compact space , the set of such functions
+
+(where  is either the field  of real numbers or the field  of complex numbers) forms an -vector space with respect to pointwise scalar multiplication and addition, often denoted .
+Both of these notions correspond to the intuitive notion of adding a point at infinity and requiring the values of the function to get arbitrarily close to zero as we approach it. This definition can be formalized in many cases by adding a point at infinity.
+
+
+== Rapidly decreasing ==
+
+Refining the concept, one can look more closely to the rate of vanishing of functions at infinity. One of the basic intuitions of mathematical analysis is that the Fourier transform interchanges smoothness conditions with rate conditions on vanishing at infinity. The rapidly decreasing test functions of tempered distribution theory are smooth functions that are
+o(|x|−N)
+for all N, as |x| → ∞, and such that all their partial derivatives satisfy that condition, too. This condition is set up so as to be self-dual under Fourier transform, so that the corresponding distribution theory of tempered distributions will have the same good property.
+
+
+== References ==
+Hewitt, E and Stromberg, K (1963). Real and abstract analysis. Springer-Verlag.

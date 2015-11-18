@@ -1,0 +1,108 @@
+A beam is a structural element that is capable of withstanding load primarily by resisting bending. The bending force induced into the material of the beam as a result of the external loads, own weight, span and external reactions to these loads is called a bending moment. Beams are characterized by their profile (shape of cross-section), their length, and their material.
+Beams are traditionally descriptions of building or civil engineering structural elements, but smaller structures such as truck or automobile frames, machine frames, and other mechanical or structural systems contain beam structures that are designed and analyzed in a similar fashion.
+
+
+== OverviewEdit ==
+Historically beams were squared timbers but are also metal, stone, or combinations of wood and metal such as a flitch beam. Beams generally carry vertical gravitational forces but can also be used to carry horizontal loads (e.g., loads due to an earthquake or wind or in tension to resist rafter thrust as a tie beam or (usually) compression as a collar beam). The loads carried by a beam are transferred to columns, walls, or girders, which then transfer the force to adjacent structural compression members. In light frame construction joists may rest on beams.
+In carpentry a beam is called a plate as in a sill plate or wall plate, beam as in a summer beam or dragon beam.
+
+
+== Classification of beams based on supportsEdit ==
+In engineering, beams are of several types:
+Simply supported - a beam supported on the ends which are free to rotate and have no moment resistance.
+Fixed - a beam supported on both ends and restrained from rotation.
+Over hanging - a simple beam extending beyond its support on one end.
+Double overhanging - a simple beam with both ends extending beyond its supports on both ends.
+Continuous - a beam extending over more than two supports.
+Cantilever - a projecting beam fixed only at one end.
+Trussed - a beam strengthened by adding a cable or rod to form a truss.
+
+
+== Area moment of inertiaEdit ==
+
+In the beam equation I is used to represent the second moment of area. It is commonly known as the moment of inertia, and is the sum, about the neutral axis, of dA*r^2, where r is the distance from the neutral axis, and dA is a small patch of area. Therefore, it encompasses not just how much area the beam section has overall, but how far each bit of area is from the axis, squared. The greater I is, the stiffer the beam in bending, for a given material.
+
+
+== Stress in beamsEdit ==
+Internally, beams experience compressive, tensile and shear stresses as a result of the loads applied to them. Typically, under gravity loads, the original length of the beam is slightly reduced to enclose a smaller radius arc at the top of the beam, resulting in compression, while the same original beam length at the bottom of the beam is slightly stretched to enclose a larger radius arc, and so is under tension. The same original length of the middle of the beam, generally halfway between the top and bottom, is the same as the radial arc of bending, and so it is under neither compression nor tension, and defines the neutral axis (dotted line in the beam figure). Above the supports, the beam is exposed to shear stress. There are some reinforced concrete beams in which the concrete is entirely in compression with tensile forces taken by steel tendons. These beams are known as prestressed concrete beams, and are fabricated to produce a compression more than the expected tension under loading conditions. High strength steel tendons are stretched while the beam is cast over them. Then, when the concrete has cured, the tendons are slowly released and the beam is immediately under eccentric axial loads. This eccentric loading creates an internal moment, and, in turn, increases the moment carrying capacity of the beam. They are commonly used on highway bridges.
+The primary tool for structural analysis of beams is the Euler–Bernoulli beam equation. Other mathematical methods for determining the deflection of beams include "method of virtual work" and the "slope deflection method". Engineers are interested in determining deflections because the beam may be in direct contact with a brittle material such as glass. Beam deflections are also minimized for aesthetic reasons. A visibly sagging beam, even if structurally safe, is unsightly and to be avoided. A stiffer beam (high modulus of elasticity and high second moment of area) produces less deflection.
+Mathematical methods for determining the beam forces (internal forces of the beam and the forces that are imposed on the beam support) include the "moment distribution method", the force or flexibility method and the direct stiffness method.
+
+
+== General shapesEdit ==
+Most beams in reinforced concrete buildings have rectangular cross sections, but a more efficient cross section for a beam is an I or H section which is typically seen in steel construction. Because of the parallel axis theorem and the fact that most of the material is away from the neutral axis, the second moment of area of the beam increases, which in turn increases the stiffness.
+An I-beam is only the most efficient shape in one direction of bending: up and down looking at the profile as an I. If the beam is bent side to side, it functions as an H where it is less efficient. The most efficient shape for both directions in 2D is a box (a square shell) however the most efficient shape for bending in any direction is a cylindrical shell or tube. But, for unidirectional bending, the I or wide flange beam is superior.
+Efficiency means that for the same cross sectional area (volume of beam per length) subjected to the same loading conditions, the beam deflects less.
+Other shapes, like L (angles), C (channels) or tubes, are also used in construction when there are special requirements.
+
+
+== Thin walled beamsEdit ==
+
+A thin walled beam is a very useful type of beam (structure). The cross section of thin walled beams is made up from thin panels connected among themselves to create closed or open cross sections of a beam (structure). Typical closed sections include round, square, and rectangular tubes. Open sections include I-beams, T-beams, L-beams, and so on. Thin walled beams exist because their bending stiffness per unit cross sectional area is much higher than that for solid cross sections such a rod or bar. In this way, stiff beams can be achieved with minimum weight. Thin walled beams are particularly useful when the material is a composite laminates. Pioneer work on composite laminates thin walled beams was done by Librescu.
+
+
+== See alsoEdit ==
+Airy points
+Beam engine
+Building code
+Cantilever
+Classical mechanics
+Deflection (engineering)
+Elasticity (physics) and Plasticity (physics)
+Euler–Bernoulli beam equation
+Flexural modulus
+Finite element method in structural mechanics
+Free body diagram
+Influence line
+Materials science and Strength of materials
+Moment (physics)
+Poisson's ratio
+Post and lintel
+Shear strength
+Statics and Statically indeterminate
+Stress (physics) and Strain (materials science)
+Tensile strength, tensile stress and Hooke's law
+Thin-shell structure
+Timber framing
+Truss
+Yield (engineering)
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Popov, Egor P. (1968). Introduction to mechanics of solids. Prentice-Hall. ISBN 978-0-13-726159-8. 
+
+
+== External linksEdit ==
+[1] ISMB Beam Sizes and weights
+David Childs Ltd Consulting Civil Engineers: Tutorials
+Steel Beam Design
+Prestressed Concrete Beam Design Tutorial
+
+American Wood Council: Free Download Library Wood Construction Data
+Wood Structural Design Data (pdf file)
+online Span Calculator
+
+Introduction to Structural Design, U. Virginia Dept. Architecture
+Online Beam Calculator (Free Version)
+SkyCiv's Online Beam Design Software
+Glossary
+Course Sampler Lectures, Projects, Tests
+Beams and Bending review points (follow using next buttons)
+Structural Behavior and Design Approaches lectures (follow using next buttons)
+
+U. Maryland, J.A. Clark School of Engineering: HAMLET engineering simulations and models
+BeamAnalysis
+
+U. Wisconsin–Stout, Strength of Materials online lectures, problems, tests/solutions, links, software
+Beams I - Shear Forces and Bending Moments
+Beams II - Bending Stress
+
+Free Online Calculator for Beam Bending Moment & Shear Force
+Beam calculations in MS Excel from ExcelCalcs.com
+Beam Calculation Software for Windows from beams.com
+Timber Frame Engineering Counsel library, design information for wood joinery
+M.A.D. Propz Free downloadable desktop application for calculating section properties and stress/strain analysis of beam cross-sections
+Medeek Beam Calculator Online Beam Calculator and Engineering (Wood)

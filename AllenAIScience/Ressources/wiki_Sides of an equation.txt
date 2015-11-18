@@ -1,0 +1,33 @@
+In mathematics, LHS is informal shorthand for the left-hand side of an equation. Similarly, RHS is the right-hand side. The two sides have the same value, expressed differently, since equality is symmetric. 
+More generally, these terms may apply to an inequation or inequality; The right-hand side is everything on the right side of a test operator in an expression, with LHS defined similarly.
+
+
+== Some examples ==
+The expression on the right side of the "=" sign is the right side of the equation and the expression on the left of the "=" is the left side of the equation.
+For example, in
+x + 5 = y + 8,
+"x + 5" is the left-hand side (LHS) and "y + 8" is the right-hand side (RHS).
+
+
+== Homogeneous and inhomogeneous equations ==
+In solving mathematical equations, particularly linear simultaneous equations, differential equations and integral equations, the terminology homogeneous is often used for equations with the RHS set equal to zero; equations with RHS not set to zero are teermed inhomogeneous or nonhomogeneous.
+A typical case is of some operator L, with the difference being that between the equation
+Lf = 0,
+to be solved for a function f, and the equation
+Lf = g,
+with g a fixed function, to solve again for f. The point of the terminology appears for L a linear operator. Then any solution of the inhomogeneous equation may have a solution of the homogeneous equation added to it, and still remain a solution.
+For example in mathematical physics, the homogeneous equation may correspond to a physical theory formulated in empty space, while the inhomogeneous equation asks for more 'realistic' solutions with some matter, or charged particles.
+
+
+== Syntax ==
+More abstractly, when using infix notation
+T*U
+the term T stands as the left-hand side and U as the right-hand side of the operator *. This usage is less common, though.
+
+
+== See also ==
+equal sign
+
+
+== References ==
+^ Engineering Mathematics, John Bird, p65: definition and example of abbreviation

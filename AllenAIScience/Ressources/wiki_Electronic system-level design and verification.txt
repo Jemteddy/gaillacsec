@@ -1,0 +1,35 @@
+Electronic system level (ESL) design and verification is an emerging electronic design methodology that focuses primarily on the higher abstraction level concerns. The term Electronic System Level or ESL Design was first defined by Gartner Dataquest, an EDA-industry-analysis firm, on February 1, 2001. It is defined in the ESL Design and Verification book  as: "the utilization of appropriate abstractions in order to increase comprehension about a system, and to enhance the probability of a successful implementation of functionality in a cost-effective manner."
+The basic premise is to model the behavior of the entire system using a high-level language such as C, C++, LabVIEW, or MATLAB or using graphical "model-based" design tools like SystemVue, VisualSim or Simulink. Newer languages are emerging that enable the creation of a model at a higher level of abstraction including general purpose system design languages like SysML as well as those that are specific to embedded system design like SMDL and SSDL supported by emerging system design automation products like Teraptor. Rapid and correct-by-construction implementation of the system can be automated using EDA tools such as high-level synthesis and embedded software tools, although much of it is performed manually today. ESL can also be accomplished through the use of SystemC as an abstract modeling language.
+Electronic System Level is now an established approach at most of the world’s leading System-on-a-chip (SoC) design companies, and is being used increasingly in system design. From its genesis as an algorithm modeling methodology with ‘no links to implementation’, ESL is evolving into a set of complementary methodologies that enable embedded system design, verification, and debugging through to the hardware and software implementation of custom SoC, system-on-FPGA, system-on board, and entire multi-board systems.
+
+
+== See also ==
+High-level synthesis
+High-level verification
+Electronic design automation
+Platform-based design
+Integrated circuit design
+Register-transfer level
+Property Specification Language
+Virtual prototyping
+SystemC
+SystemC AMS
+Systems engineering
+SystemVerilog
+Transaction-level modeling (TLM)
+ParC an extend C++ attempting to cover all the domains in one language
+
+
+== References ==
+
+
+== Further reading ==
+Alice C. Parker, Yosef Tirat-Gefen, Suhrid A. Wadekar (2007). "System-Level Design". In Wai-Kai Chen. The VLSI handbook (2nd ed.). CRC Press. ISBN 978-0-8493-4199-1. chapter 76. 
+Brian Bailey; Grant Martin (2010). ESL Models and Their Application: Electronic System Level Design and Verification in Practice. Springer. ISBN 978-1-4419-0964-0. 
+Frank Rogin; Rolf Drechsler (2010). Debugging at the Electronic System Level. Springer. ISBN 978-90-481-9254-0. 
+Liming Xiu (2007). VLSI circuit design methodology demystified: a conceptual taxonomy. Wiley-IEEE. ISBN 978-0-470-12742-1. 
+
+
+== External links ==
+Mentor Graphics ESL User Community
+Discussion forum

@@ -1,0 +1,67 @@
+In mathematics, particularly in semigroup theory, a transformation is any function f mapping a set X to itself, i.e. f:X→X. In other areas of mathematics, a transformation may simply be any function, regardless of domain and codomain. This wider sense shall not be considered in this article; refer instead to the article on function for that sense.
+Examples include linear transformations and affine transformations, rotations, reflections and translations. These can be carried out in Euclidean space, particularly in dimensions 2 and 3. They are also operations that can be performed using linear algebra, and described explicitly using matrices.
+
+
+== TranslationEdit ==
+
+A translation, or translation operator, is an affine transformation of Euclidean space which moves every point by a fixed distance in the same direction. It can also be interpreted as the addition of a constant vector to every point, or as shifting the origin of the coordinate system. In other words, if v is a fixed vector, then the translation Tv will work as Tv(p) = p + v.
+For the purpose of visualization, consider a browser window. This window, if maximized to full dimensions of the screen, is the reference plane. Imagine one of the corners as the reference point or origin (0, 0).
+Consider a point P(x, y) in the corresponding plane. Now the axes are shifted from the original axes to a distance (h, k) and this is the corresponding reference axes. Now the origin (previous axes) is (x, y) and the point P is (X, Y) and therefore the equations are:
+X = x − h or x = X + h or h = x − X and Y = y − k or y = Y + k or k = y − Y.
+Replacing these values or using these equations in the respective equation we obtain the transformed equation or new reference axes, old reference axes, point lying on the plane.
+
+
+== ReflectionEdit ==
+
+A reflection is a map that transforms an object into its mirror image with respect to a "mirror", which is a hyperplane of fixed points in the geometry. For example, a reflection of the small Latin letter p with respect to a vertical line would look like a "q". In order to reflect a planar figure one needs the "mirror" to be a line (axis of reflection or axis of symmetry), while for reflections in the three-dimensional space one would use a plane (the plane of reflection or symmetry) for a mirror. Reflection may be considered as the limiting case of inversion as the radius of the reference circle increases without bound.
+Reflection is considered to be an opposite motion since it changes the orientation of the figures it reflects.
+
+
+== Glide reflectionEdit ==
+
+A glide reflection is a type of isometry of the Euclidean plane: the combination of a reflection in a line and a translation along that line. Reversing the order of combining gives the same result. Depending on context, we may consider a simple reflection (without translation) as a special case where the translation vector is the zero vector.
+
+
+== RotationEdit ==
+
+A rotation is a transformation that is performed by "spinning" the object around a fixed point known as the center of rotation. You can rotate the object at any degree measure, but 90° and 180° are two of the most common. Rotation by a positive angle rotates the object counterclockwise, whereas rotation by a negative angle rotates the object clockwise.
+
+
+== ScalingEdit ==
+
+Uniform scaling is a linear transformation that enlarges or diminishes objects; the scale factor is the same in all directions; it is also called a homothety or dilation. The result of uniform scaling is similar (in the geometric sense) to the original.
+More general is scaling with a separate scale factor for each axis direction; a special case is directional scaling (in one direction). Shapes not aligned with the axes may be subject to shear (see below) as a side effect: although the angles between lines parallel to the axes are preserved, other angles are not.
+
+
+== ShearEdit ==
+
+Shear is a transform that effectively rotates one axis so that the axes are no longer perpendicular. Under shear, a rectangle becomes a parallelogram, and a circle becomes an ellipse. Even if lines parallel to the axes stay the same length, others do not. As a mapping of the plane, it lies in the class of equi-areal mappings.
+
+
+== More generallyEdit ==
+More generally, a transformation in mathematics means a mathematical function (synonyms: map and mapping). A transformation can be an invertible function from a set X to itself, or from X to another set Y. The choice of the term transformation may simply flag that a function's more geometric aspects are being considered (for example, with attention paid to invariants).
+
+
+=== Partial transformationsEdit ===
+The notion of transformation generalized to partial functions. A partial transformation is a function f: A → B, where both A and B are subsets of some set X.
+
+
+== Algebraic structuresEdit ==
+The set of all transformations on a given base set together with function composition forms a regular semigroup.
+
+
+== CombinatoricsEdit ==
+For a finite set of cardinality n, there are nn transformations and (n+1)n partial transformations.
+
+
+== See alsoEdit ==
+Coordinate transformation
+Data transformation (statistics)
+Infinitesimal transformation
+Linear transformation
+Transformation geometry
+Transformation group
+Transformation matrix
+
+
+== ReferencesEdit ==

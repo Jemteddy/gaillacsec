@@ -1,0 +1,41 @@
+In probability theory, the craps principle is a theorem about event probabilities under repeated iid trials. Let  and  denote two mutually exclusive events which might occur on a given trial. Then for each trial, the conditional probability that  occurs given that  or  occur is
+
+The events  and  need not be collectively exhaustive.
+
+
+== Proof ==
+Since  and  are mutually exclusive,
+
+Also due to mutual exclusion,
+
+By conditional probability,
+
+Combining these three yields the desired result.
+
+
+== Application ==
+If the trials are repetitions of a game between two players, and the events are
+
+then the craps principle gives the respective conditional probabilities of each player winning a certain repetition, given that someone wins (i.e., given that a draw does not occur). In fact, the result is only affected by the relative marginal probabilities of winning  and  ; in particular, the probability of a draw is irrelevant.
+
+
+=== Stopping ===
+If the game is played repeatedly until someone wins, then the conditional probability above turns out to be the probability that the player wins the game.
+
+
+== Etymology ==
+If the game being played is craps, then this principle can greatly simplify the computation of the probability of winning in a certain scenario. Specifically, if the first roll is a 4, 5, 6, 8, 9, or 10, then the dice are repeatedly re-rolled until one of two events occurs:
+
+Since  and  are mutually exclusive, the craps principle applies. For example, if the original roll was a 4, then the probability of winning is
+
+This avoids having to sum the infinite series corresponding to all the possible outcomes:
+
+Mathematically, we can express the probability of rolling  ties followed by rolling the point:
+
+The summation becomes an infinite geometric series:
+
+which agrees with the earlier result.
+
+
+== References ==
+Pitman, Jim (1993). Probability. Berlin: Springer-Verlag. ISBN 0-387-97974-3.

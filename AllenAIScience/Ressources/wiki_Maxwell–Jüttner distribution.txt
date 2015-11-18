@@ -1,0 +1,24 @@
+In physics, the Maxwell–Jüttner distribution is the distribution of speeds of particles in a hypothetical gas of relativistic particles. Similar to Maxwell's distribution, the Maxwell–Jüttner distribution considers a classical ideal gas where the particles are dilute and do not significantly interact with each other. The distinction from Maxwell's case is that effects of special relativity are taken into account. In the limit of low temperatures T much less than mc2/k (where m is the mass of the kind of particle making up the gas, c is the speed of light and k is Boltzmann's constant), this distribution becomes identical to the Maxwell–Boltzmann distribution.
+The distribution can be attributed to Ferencz Jüttner, who derived it in 1911. It has become known as the Maxwell–Jüttner distribution by analogy to the name Maxwell-Boltzmann distribution that is commonly used to refer to Maxwell's distribution.
+
+
+== The distribution functionEdit ==
+
+As the gas becomes hotter and kT approaches or exceeds mc2, the probability distribution for  in this relativistic Maxwellian gas is given by the Maxwell–Jüttner distribution:
+
+where   and  is the modified Bessel function of the second kind.
+Alternatively, this can be written in terms of the momentum as
+
+where . The Maxwell–Jüttner equation is covariant, but not manifestly so, and the temperature of the gas does not vary with the gross speed of the gas.
+
+
+== LimitationsEdit ==
+Some limitations of the Maxwell–Jüttner distributions are shared with the classical ideal gas: neglect of interactions, and neglect of quantum effects. An additional limitation (not important in the classical ideal gas) is that the Maxwell–Jüttner distribution neglects antiparticles.
+If particle-antiparticle creation is allowed, then once the thermal energy kT is a significant fraction of mc2, particle-antiparticle creation will occur and begin to increase the number of particles while generating antiparticles (the number of particles is not conserved, but instead the conserved quantity is the difference between particle number and antiparticle number). The resulting thermal distribution will depend on the chemical potential relating to the conserved particle-antiparticle number difference. A further consequence of this is that it becomes necessary to incorporate statistical mechanics for indistinguishable particles, because the occupation probabilities for low kinetic energy states becomes of order unity. For fermions it is necessary to use Fermi–Dirac statistics and the result is analogous to the thermal generation of electron-hole pairs in semiconductors. For bosonic particles, it is necessary to use the Bose–Einstein statistics.
+
+
+== ReferencesEdit ==
+^ Jüttner, F. (1911). "Das Maxwellsche Gesetz der Geschwindigkeitsverteilung in der Relativtheorie". Annalen der Physik 339 (5): 856–882. doi:10.1002/andp.19113390503. 
+^ Synge, J.L (1957). The Relativistic Gas. Series in physics. North-Holland. LCCN 57003567. 
+^ Chacon-Acosta, Guillermo; Dagdug, Leonardo; Morales-Tecotl, Hugo A. (2009). "On the Manifestly Covariant Jüttner Distribution and Equipartition Theorem". ArXiv:0910.1625v1. arXiv:0910.1625. Bibcode:2010PhRvE..81b1126C. doi:10.1103/PhysRevE.81.021126. 
+^ See first few paragraphs in [1] for extended discussion.

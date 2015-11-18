@@ -1,0 +1,32 @@
+Label printer applicators are basic robots that automatically print and apply pressure-sensitive labels to various products. Some types of labeling include shipping labeling, content labeling, graphic images, and labeling to comply with specific standards such as those of GS1 and Universal Product Code U.P.C. A pressure-sensitive label consists of a label substrate and adhesive. First developed in the late 1970s, today there are over 70 manufacturers of these types of machines worldwide.
+
+
+== Overview ==
+Basic label printer applicators consist of three primary parts: a printer, or print engine, an applicator and a method to handle label and ribbons, referred to as media. Computing power also has the potential to increase the efficiency of label printer applicators.
+
+
+=== Print engine ===
+The print engine can be taken from an industrial table top printer, it can be a specifically designed module that can be "bolted" onto an applicator or it can be a proprietary element constructed by the printer applicator manufacturer. A print engine’s primary function is to accept data from a computer and print the data onto a label for application. This printing can be accomplished using either the direct thermal method or the thermal transfer method. Both methods heat up very fine elements (up to 600 per inch) on a print head. Direct thermal burns the image onto the face of specially designed label stock. This is the preferred method for shipping labels and is also very popular in Europe. The thermal transfer process utilizes a ribbon coated with wax, resin, or a hybrid of the two. It is then heated and melted onto the surface of the label substrate. Thermal transfer is the most popular method in the United States. The printer knows what to print via data communication from an outside software package, much like common inkjet printers. The software delivers data formatted in a specific layout and the printer reads the format based on its own driver.
+
+
+=== Applicator ===
+The applicator section delivers the label to the product. This can be accomplished by several methods. Typically application is achieved with a pneumatic or electric cylinder with a specially designed label pad. The cylinder will extend out and touch (tamp) the adhesive side of the label to a product. Variations of this method will extend the cylinder and then use air to blow the label to the product surface (tamp-blow]). Another popular method is a blow-on system that will use a burst of air to deliver the label from the pad to the product surface without the use of a cylinder. Other methods can be used to wipe a label onto a surface, or even place two duplicate or unique labels on different sides of a product.
+
+
+=== Media ===
+Media handling controls how the label stock is delivered to the print engine. It also performs the separation of the label from its backing and rewinds the waste label backing that remains after label application. This process can be difficult since consistent tension must be maintained for the label to peel off the liner and onto the applicator. Too much tension can cause the liner to break, which requires the machine to be rethreaded.
+
+
+=== Computing Power ===
+Today, a fourth element to label printer applicators is emerging: computing power. Recently label printer applicators have been introduced which have the power to store large amounts of data. These machines can also control and harvest data from other input devices such as barcode scanners and weighing scales. These printer applicators can be programmed with special languages such as Fingerprint designed by Intermec for Intermec print engines or MCL (Macro Command Language), a Datamax programming language. Now label printer applicators can communicate directly with an array of devices and hosts on the production line without the aid of a computer.
+
+
+== See also ==
+Thermal printer
+Thermal transfer printer
+Label
+Label printer
+Automatic label placement
+Food labelling (disambiguation)
+Packaging and labeling
+Document Automation

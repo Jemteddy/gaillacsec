@@ -1,0 +1,116 @@
+An autonomous underwater vehicle (AUV) is a robot which travels underwater without requiring input from an operator. AUVs constitute part of a larger group of undersea systems known as unmanned underwater vehicles, a classification that includes non-autonomous remotely operated underwater vehicles (ROVs) – controlled and powered from the surface by an operator/pilot via an umbilical or using remote control. In military applications AUVs are more often referred to simply as unmanned undersea vehicles (UUVs).
+
+
+== History ==
+The first AUV was developed at the Applied Physics Laboratory at the University of Washington as early as 1957 by Stan Murphy, Bob Francois and later on, Terry Ewart. The "Special Purpose Underwater Research Vehicle", or SPURV, was used to study diffusion, acoustic transmission, and submarine wakes.
+Other early AUVs were developed at the Massachusetts Institute of Technology in the 1970s. One of these is on display in the Hart Nautical Gallery in MIT. At the same time, AUVs were also developed in the Soviet Union (although this was not commonly known until much later).
+
+
+== Applications ==
+Until relatively recently, AUVs have been used for a limited number of tasks dictated by the technology available. With the development of more advanced processing capabilities and high yield power supplies, AUVs are now being used for more and more tasks with roles and missions constantly evolving.
+
+
+=== Commercial ===
+The oil and gas industry uses AUVs to make detailed maps of the seafloor before they start building subsea infrastructure; pipelines and sub sea completions can be installed in the most cost effective manner with minimum disruption to the environment. The AUV allows survey companies to conduct precise surveys of areas where traditional bathymetric surveys would be less effective or too costly. Also, post-lay pipe surveys are now possible.
+
+
+=== Research ===
+
+Scientists use AUVs to study lakes, the ocean, and the ocean floor. A variety of sensors can be affixed to AUVs to measure the concentration of various elements or compounds, the absorption or reflection of light, and the presence of microscopic life. Additionally, AUVs can be configured as tow-vehicles to deliver customized sensor packages to specific locations.
+
+
+=== Hobby ===
+
+Many roboticists construct AUVs as a hobby. Several competitions exist which allow these homemade AUVs to compete against each other while accomplishing objectives. Like their commercial brethren, these AUVs can be fitted with cameras, lights, or sonar. As a consequence of limited resources and inexperience, hobbyist AUVs can rarely compete with commercial models on operational depth, durability, or sophistication. Finally, these hobby AUVs are usually not oceangoing, being operated most of the time in pools or lake beds. A simple AUV can be constructed from a microcontroller, PVC pressure housing, automatic door lock actuator, syringes, and a DPDT relay. Some participants in competitions create open-source designs.
+
+
+=== Illegal drug traffic ===
+Submarines that travel autonomously to a destination by means of GPS navigation have been made by illegal drug traffickers.
+
+
+=== Air crash investigations ===
+Autonomous underwater vehicles, for example AUV ABYSS, have been used to find wreckages of missing airplanes, e.g. Air France Flight 447.
+
+
+== Vehicle designs ==
+
+Hundreds of different AUVs have been designed over the past 50 or so years, but only a few companies sell vehicles in any significant numbers. There are around 10 companies that sell AUVs on the international market, including Kongsberg Maritime, Hydroid (now a wholly owned subsidiary of Kongsberg Maritime)), Bluefin Robotics, Teledyne Gavia (previously known as Hafmynd), and International Submarine Engineering (ISE) Ltd.
+Vehicles range in size from man portable lightweight AUVs to large diameter vehicles of over 10 metres length. Large vehicle have advantages in terms of endurance and sensor payload capacity; smaller vehicles benefit significantly from lower logistics (for example: support vessel footprint; launch and recovery systems).
+Some manufacturers have benefited from domestic government sponsorship including Bluefin and Kongsberg. The market is effectively split into three areas: scientific (including universities and research agencies), commercial offshore (oil and gas etc.) and military application (mine countermeasures, battle space preparation). The majority of these roles utilize a similar design and operate in a cruise (torpedo-type) mode. They collect data while following a preplanned route at speeds between 1 and 4 knots.
+Commercially available AUVs include various designs such as the small REMUS 100 AUV originally developed by Woods Hole Oceanographic Institution in the US and now produced commercially by Hydroid, Inc. (a wholly owned subsidiary of Kongsberg Maritime); the larger HUGIN 1000 and 3000 AUVs developed by Kongsberg Maritime and Norwegian Defence Research Establishment; the Bluefin Robotics 12-and-21-inch-diameter (300 and 530 mm) vehicles and the International Submarine Engineering Ltd. Most AUVs follow the traditional torpedo shape as this is seen as the best compromise between size, usable volume, hydrodynamic efficiency and ease of handling. There are some vehicles that make use of a modular design, enabling components to be changed easily by the operators.
+The market is evolving and designs are now following commercial requirements rather than being purely developmental. Upcoming designs include hover-capable AUVs for inspection and light-intervention (primarily for the offshore energy applications), and hybrid AUV/ROV designs that switch between roles as part of their mission profile. Again, the market will be driven by financial requirements and the aim to save money and expensive ship time.
+Today, while most AUVs are capable of unsupervised missions most operators remain within range of acoustic telemetry systems in order to maintain a close watch on their investment. This is not always possible. For example, Canada has recently taken delivery of two AUVs (ISE Explorers) to survey the sea floor underneath the Arctic ice in support of their claim under Article 76 of the United Nations Convention of the Law of the Sea. Also, ultra-low-power, long-range variants such as underwater gliders are becoming capable of operating unattended for weeks or months in littoral and open ocean areas, periodically relaying data by satellite to shore, before returning to be picked up.
+As of 2008, a new class of AUVs are being developed, which mimic designs found in nature. Although most are currently in their experimental stages, these biomimetic (or bionic) vehicles are able to achieve higher degrees of efficiency in propulsion and maneuverability by copying successful designs in nature. Two such vehicles are Festo's AquaJelly (AUV) and Evologics' Bionic Manta (AUV). In 2012-2013, a group of 9 Ocean Engineering Undergraduate students from Florida Atlantic University developed a Biomimetic Autonomous Underwater Vehicle (BUUV) that was vision based and had the propulsion mimicking a frog. The BUUV had two kicking legs and a thruster for vertical propulsion.
+
+
+=== Sensors ===
+Primarily oceanographic tools, AUVs carry sensors to navigate autonomously and map features of the ocean. Typical sensors include compasses, depth sensors, sidescan and other sonars, magnetometers, thermistors and conductivity probes. A demonstration at Monterey Bay in California in September 2006 showed that a 21-inch (530 mm) diameter AUV can tow a 400 feet (120 m) long hydrophone array while maintaining a 6-knot (11 km/h) cruising speed.
+
+
+=== Navigation ===
+Radio waves can not penetrate water very far, so as soon as an AUV dives it loses its GPS signal. Therefore, a standard way for AUVs to navigate underwater is through dead reckoning. Navigation can however be improved by using an underwater acoustic positioning system. When operating within a net of sea floor deployed baseline transponders this is known as LBL navigation. When a surface reference such as a support ship is available, ultra-short baseline (USBL) or short-baseline (SBL) positioning is used to calculate where the subsea vehicle is relative to the known (GPS) position of the surface craft by means of acoustic range and bearing measurements. To improve estimation of its position, and reduce errors in dead reckoning (which grow over time), the AUV can also surface and take its own GPS fix. Between position fixes and for precise maneuvering, an Inertial Navigation System on board the AUV calculates through dead reckoning the AUV position, acceleration, and velocity. Estimates can be made using data from a Inertial Measurement Unit, and can be improved by adding a Doppler Velocity Log (DVL), which measures the rate of travel over the sea/lake floor. Typically, a pressure sensor measures the vertical position (vehicle depth), although this can also be obtained from DVL measurements. These observations are filtered to determine a final navigation solution.
+
+
+=== Propulsion ===
+AUVs can rely on a number of propulsion techniques, but propeller based thrusters or Kort nozzles are the most common by far. These thrusters are usually powered by electric motors and sometimes rely on a lip seal in order to protect the motor internals from corrosion. One consideration which impacts this process of waterproofing is the decision to use brushed motors or brushless motors. This same consideration also impacts reliability, efficiency, and cost.
+Underwater gliders do not directly propel themselves. By changing their buoyancy and trim, they repeatedly sink and ascend; airfoil "wings" then convert this up-and-down motion to forward motion. Because of their low speed and lowpower electronics, the energy required to cycle trim states is far less than for regular AUVs, and gliders can have endurances of months and transoceanic ranges.
+
+
+=== Power ===
+Most AUVs in use today are powered by rechargeable batteries (lithium ion, lithium polymer, nickel metal hydride etc.), and are implemented with some form of Battery Management System. Some vehicles use primary batteries which provide perhaps twice the endurance—at a substantial extra cost per mission. A few of the larger vehicles are powered by aluminum based semi-fuel cells, but these require substantial maintenance, require expensive refills and produce waste product that must be handled safely. An emerging trend is to combine different battery and power systems with supercapacitors.
+
+
+== See also ==
+
+Intervention AUV
+TIETEK
+Underwater glider
+Bionics, Biomimetics
+Monterey Bay Aquarium Research Institute
+Office of Naval Research
+National Oceanography Centre, Southampton
+DeepC
+National Institute for Undersea Science and Technology
+AUV-150
+REMUS (AUV)
+MAYA AUV
+
+
+== References ==
+
+
+=== Bibliography ===
+Technology and Applications of Autonomous Underwater Vehicles Gwyn Griffiths ISBN 978-0-415-30154-1
+Review of Autonomous Underwater Vehicle (Auv) Developments ISBN 978-1-155-10695-3
+Masterclass in AUV Technology for Polar Science ISBN 978-0-906940-48-8
+The Operation of Autonomous Underwater Vehicles2 ISBN 978-0-906940-40-2
+1996 Symposium on Autonomous Underwater Vehicle Technology ISBN 978-0-7803-3185-3
+Development of an Autonomous Underwater Vehicle ISBN 978-3-639-09644-6
+Optimal Control System for A Semi-Autonomous Underwater Vehicle ISBN 978-3-639-24545-5
+Autonomous Underwater Vehicles ISBN 978-1-4398-1831-2
+Recommended Code of Practice for the Operation of Autonomous Marine Vehicles ISBN 978-0-906940-51-8
+Autonomer Mobiler Roboter ISBN 978-1-158-80510-5
+Remotely operated underwater vehicle ISBN 978-613-0-30144-6
+Underwater Robots ISBN 978-3-540-31752-4
+The World AUV Market Report 2010-2019 ISBN 978-1-905183-48-7
+
+
+== External links ==
+
+
+=== Collection of groups and projects ===
+NOAA, Ocean Explorer AUVfest 2008: What Are AUVs, and Why Do We Use Them?
+Autonomous Underwater Vehicles
+Prosapien LLC
+Saab Seaeye AUV,ROV & Underwater Robotics
+Browseable AUV database at AUVAC.org
+GREX - Scientific research for AUV coordination and control (a project by order of the European Union)
+Ocean Systems Laboratory - Heriot-Watt University, Scotland
+First AUV to cross Atlantic Ocean Displayed at Smithsonian
+Presentation of the AUV Abyss (IFM-GEOMAR Kiel)
+The Tavros project at the University of South Florida College of Marine Science
+The Earhart Project
+
+
+=== Application papers ===
+The Application of Autonomous Underwater Vehicle (AUV) Technology in the Oil Industry – Vision and Experiences

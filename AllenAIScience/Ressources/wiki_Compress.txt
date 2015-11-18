@@ -1,0 +1,33 @@
+Compress is a Unix shell compression program based on the LZW compression algorithm. Compared to more modern compression utilities such as gzip and bzip2, compress performs faster and with less memory usage, at the cost of a significantly lower compression ratio.
+The uncompress utility will restore files to their original state after they have been compressed using the compress utility. If no files are specified, the standard input will be uncompressed to the standard output.
+
+
+== Description of program ==
+Files compressed by compress are typically given the extension ".Z" (modeled after the earlier pack program, that used the extension ".z"). Most tar programs will pipe their data through compress when given the command line option "-Z". (The tar program in its own does not compress; it just stores multiple files within one tape archive file.)
+Files can be returned to their original state using uncompress. The usual action of uncompress is not merely to create an uncompressed copy of the file, but also to restore the timestamp and other attributes of the compressed file.
+For files produced by compress on other systems, uncompress supports 9- to 16-bit compression.
+
+
+== History ==
+The LZW algorithm used in compress was patented by Sperry Research Center in 1983. Terry Welch published an IEEE article on the algorithm in 1984, but failed to note that he had applied for a patent on the algorithm. Spencer Thomas of the University of Utah took this article and implemented compress in 1984, without realizing that a patent was pending on the LZW algorithm. The GIF image format also incorporated LZW compression in this way, and Unisys later claimed royalties on implementations of GIF. Joseph M. Orost led the team and worked with Thomas et al. to create the 'final' (4.0) version of compress and published it as free software to the 'net.sources' USENET group in 1985. U.S. Patent 4,558,302 was granted in 1985, and this is why compress could not be used without paying royalties to Sperry Research, which was eventually merged into Unisys. compress has fallen out of favor in particular user-groups because it makes use of the LZW algorithm, which was covered by a Unisys patent — because of this, gzip and bzip2 increased in popularity on Linux-based operating systems due to their alternative algorithms, along with better file compression. compress has, however, maintained a presence on Unix and BSD systems. The US LZW patent expired in 2003, so it is now in the public domain in the United States. All patents on the LZW worldwide have also expired (see Graphics Interchange Format#Unisys and LZW patent enforcement).
+
+
+== See also ==
+Data compression
+Image compression
+List of Unix programs
+
+
+== External links ==
+compress: compress data – Commands & Utilities Reference, The Single UNIX® Specification, Issue 7 from The Open Group
+ncompress - public domain compress/uncompress implementation for POSIX systems
+compress - original Unix compress (in a compress'd archive)
+compress - original Unix compress executable (gzip'd)
+Source Code for compress v4.0 (gzip'd sharchive)
+ZIP File containing a Windows port of the compress utility
+source code to the current version of fcompress.c from compress
+
+
+== References ==
+^ Frysinger, Mike. "ncompress: a public domain project". Retrieved 2014-07-30. Compress is a fast, simple LZW file compressor. Compress does not have the highest compression rate, but it is one of the fastest programs to compress data. Compress is the defacto standard in the UNIX community for compressing files. 
+^ Welch, Terry A., "A technique for high performance data compression", IEEE Computer, 17(6), pp.8-19, June 1984.

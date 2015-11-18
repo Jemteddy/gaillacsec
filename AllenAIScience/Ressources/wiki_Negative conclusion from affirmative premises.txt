@@ -1,0 +1,32 @@
+Negative conclusion from affirmative premises is a syllogistic fallacy committed when a categorical syllogism has a negative conclusion yet both premises are affirmative. The inability of affirmative premises to reach a negative conclusion is usually cited as one of the basic rules of constructing a valid categorical syllogism.
+Statements in syllogisms can be identified as the following forms:
+a: All A is B. (affirmative)
+e: No A is B. (negative)
+i: Some A is B. (affirmative)
+o: Some A is not B. (negative)
+The rule states that a syllogism in which both premises are of form a or i (affirmative) cannot reach a conclusion of form e or o (negative). Exactly one of the premises must be negative to construct a valid syllogism with a negative conclusion. (A syllogism with two negative premises commits the related fallacy of exclusive premises.)
+Example (invalid aae form):
+Premise: All colonels are officers.
+Premise: All officers are soldiers.
+Conclusion: Therefore, no colonels are soldiers.
+The aao-4 form is perhaps more subtle as it follows many of the rules governing valid syllogisms, except it reaches a negative conclusion from affirmative premises.
+Invalid aao-4 form:
+All A is B.
+All B is C.
+Therefore, some C is not A.
+This is valid only if A is a proper subset of B and/or B is a proper subset of C. However, this argument reaches a faulty conclusion if A, B, and C are equivalent. In the case that A = B = C, the conclusion of the following simple aaa-1 syllogism would contradict the aao-4 argument above:
+All B is A.
+All C is B.
+Therefore, all C is A.
+
+
+== See also ==
+Affirmative conclusion from a negative premise, in which a syllogism is invalid because an affirmative conclusion is reached from a negative premise
+Fallacy of exclusive premises, in which a syllogism is invalid because both premises are negative
+
+
+== References ==
+
+
+== External links ==
+Gary N. Curtis. "Negative Conclusion from Affirmative Premisses". Fallacy Files. Retrieved December 20, 2010.

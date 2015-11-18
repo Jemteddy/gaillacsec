@@ -1,0 +1,106 @@
+A simple machine is a mechanical device that changes the direction or magnitude of a force. In general, they can be defined as the simplest mechanisms that use mechanical advantage (also called leverage) to multiply force. Usually the term refers to the six classical simple machines which were defined by Renaissance scientists:
+Lever
+Wheel and axle
+Pulley
+Inclined plane
+Wedge
+Screw
+A simple machine uses a single applied force to do work against a single load force. Ignoring friction losses, the work done on the load is equal to the work done by the applied force. The machine can increase the amount of the output force, at the cost of a proportional decrease in the distance moved by the load. The ratio of the output to the applied force is called the mechanical advantage.
+Simple machines can be regarded as the elementary "building blocks" of which all more complicated machines (sometimes called "compound machines") are composed. For example, wheels, levers, and pulleys are all used in the mechanism of a bicycle. The mechanical advantage of a compound machine is just the product of the mechanical advantages of the simple machines of which it is composed.
+Although they continue to be of great importance in mechanics and applied science, modern mechanics has moved beyond the view of the simple machines as the ultimate building blocks of which all machines are composed, which arose in the Renaissance as a neoclassical amplification of ancient Greek texts on technology. The great variety and sophistication of modern machine linkages, which arose during the Industrial Revolution, is inadequately described by these six simple categories. As a result, various post-Renaissance authors have compiled expanded lists of "simple machines", often using terms like basic machines, compound machines, or machine elements to distinguish them from the classical simple machines above. By the late 1800s, Franz Reuleaux had identified hundreds of machine elements, calling them simple machines. Models of these devices may be found at Cornell University's KMODDL website.
+
+
+== HistoryEdit ==
+The idea of a simple machine originated with the Greek philosopher Archimedes around the 3rd century BC, who studied the Archimedean simple machines: lever, pulley, and screw. He discovered the principle of mechanical advantage in the lever. Archimedes' famous remark with regard to the lever: "Give me a place to stand on, and I will move the Earth." (Greek: δῶς μοι πᾶ στῶ καὶ τὰν γᾶν κινάσω) expresses his realization that there was no limit to the amount of force amplification that could be achieved by using mechanical advantage. Later Greek philosophers defined the classic five simple machines (excluding the inclined plane) and were able to roughly calculate their mechanical advantage. For example, Heron of Alexandria (ca. 10–75 AD) in his work Mechanics lists five mechanisms that can "set a load in motion"; lever, windlass, pulley, wedge, and screw, and describes their fabrication and uses. However the Greeks' understanding was limited to the statics of simple machines; the balance of forces, and did not include dynamics; the tradeoff between force and distance, or the concept of work.
+During the Renaissance the dynamics of the Mechanical Powers, as the simple machines were called, began to be studied from the standpoint of how far they could lift a load, in addition to the force they could apply, leading eventually to the new concept of mechanical work. In 1586 Flemish engineer Simon Stevin derived the mechanical advantage of the inclined plane, and it was included with the other simple machines. The complete dynamic theory of simple machines was worked out by Italian scientist Galileo Galilei in 1600 in Le Meccaniche (On Mechanics), in which he showed the underlying mathematical similarity of the machines. He was the first to understand that simple machines do not create energy, only transform it.
+The classic rules of sliding friction in machines were discovered by Leonardo da Vinci (1452–1519), but remained unpublished in his notebooks. They were rediscovered by Guillaume Amontons (1699) and were further developed by Charles-Augustin de Coulomb (1785).
+
+
+== Frictionless analysisEdit ==
+Although each machine works differently mechanically, the way they function is similar mathematically. In each machine, a force  is applied to the device at one point, and it does work moving a load,  at another point. Although some machines only change the direction of the force, such as a stationary pulley, most machines multiply the magnitude of the force by a factor, the mechanical advantage
+
+that can be calculated from the machine's geometry and friction.
+Simple machines do not contain a source of energy, so they cannot do more work than they receive from the input force. A simple machine with no friction or elasticity is called an ideal machine. Due to conservation of energy, in an ideal simple machine, the power output (rate of energy output) at any time  is equal to the power input 
+
+The power output equals the velocity of the load  multiplied by the load force . Similarly the power input from the applied force is equal to the velocity of the input point  multiplied by the applied force . Therefore,
+
+Therefore, the mechanical advantage of a frictionless machine is equal to the velocity ratio, the ratio of input velocity to output velocity
+
+The velocity ratio of the machine is also equal to the ratio of the distance the output point moves to the corresponding distance the input point moves
+
+This can be calculated from the geometry of the machine. For example, the velocity ratio of the lever is equal to the ratio of its lever arms.
+The mechanical advantage can be greater or less than one:
+If  the output force is greater than the input, the machine acts as a force amplifier, but the distance moved by the load  is less than the distance moved by the input force .
+If  the output force is less than the input, but the distance moved by the load is greater than the distance moved by the input force.
+In the screw, which uses rotational motion, the input force should be replaced by the torque, and the velocity by the angular velocity the shaft is turned.
+
+
+== Friction and efficiencyEdit ==
+All real machines have friction, which causes some of the input power to be dissipated as heat. If  is the power lost to friction, from conservation of energy
+
+The efficiency  of a machine is a number between 0 and 1 defined as the ratio of power out to the power in, and is a measure of the energy losses
+
+As above, the power is equal to the product of force and velocity, so
+
+Therefore,
+
+So in non-ideal machines, the mechanical advantage is always less than the velocity ratio by the product with the efficiency η. So a machine that includes friction will not be able to move as large a load as a corresponding ideal machine using the same input force.
+
+
+== Compound machinesEdit ==
+A compound machine is a machine formed from a set of simple machines connected in series with the output force of one providing the input force to the next. For example, a bench vise consists of a lever (the vise's handle) in series with a screw, and a simple gear train consists of a number of gears (wheels and axles) connected in series.
+The mechanical advantage of a compound machine is the ratio of the output force exerted by the last machine in the series divided by the input force applied to the first machine, that is
+
+Because the output force of each machine is the input of the next, , this mechanical advantage is also given by
+
+Thus, the mechanical advantage of the compound machine is equal to the product of the mechanical advantages of the series of simple machines that form it
+
+Similarly, the efficiency of a compound machine is also the product of the efficiencies of the series of simple machines that form it
+
+
+== Self-locking machinesEdit ==
+
+In many simple machines, if the load force Fout on the machine is high enough in relation to the input force Fin, the machine will move backwards, with the load force doing work on the input force. So these machines can be used in either direction, with the driving force applied to either input point. For example, if the load force on a lever is high enough, the lever will move backwards, moving the input arm backwards against the input force. These are called "reversible", "non-locking" or "overhauling" machines, and the backward motion is called "overhauling". However, in some machines, if the frictional forces are high enough, no amount of load force can move it backwards, even if the input force is zero. This is called a "self-locking", "nonreversible", or "non-overhauling" machine. These machines can only be set in motion by a force at the input, and when the input force is removed will remain motionless, "locked" by friction at whatever position they were left.
+Self-locking occurs mainly in those machines with large areas of sliding contact between moving parts: the screw, inclined plane, and wedge:
+The most common example is a screw. In most screws, applying torque to the shaft can cause it to turn, moving the shaft linearly to do work against a load, but no amount of axial load force against the shaft will cause it to turn backwards.
+In an inclined plane, a load can be pulled up the plane by a sideways input force, but if the plane is not too steep and there is enough friction between load and plane, when the input force is removed the load will remain motionless and will not slide down the plane, regardless of its weight.
+A wedge can be driven into a block of wood by force on the end, such as from hitting it with a sledge hammer, forcing the sides apart, but no amount of compression force from the wood walls will cause it to pop back out of the block.
+A machine will be self-locking if and only if its efficiency η is below 50%:
+
+Whether a machine is self-locking depends on both the friction forces (coefficient of static friction) between its parts, and the distance ratio din/dout (ideal mechanical advantage). If both the friction and ideal mechanical advantage are high enough, it will self-lock.
+
+
+=== ProofEdit ===
+When a machine moves in the forward direction from point 1 to point 2, with the input force doing work on a load force, from conservation of energy the input work  is equal to the sum of the work done on the load force  and the work lost to friction 
+
+If the efficiency is below 50% 
+
+From (1)
+
+When the machine moves backward from point 2 to point 1 with the load force doing work on the input force, the work lost to friction  is the same
+
+So the output work is
+
+Thus the machine self-locks, because the work dissipated in friction is greater than the work done by the load force moving it backwards even with no input force
+
+
+== Modern machine theoryEdit ==
+
+
+=== Kinematic chainsEdit ===
+
+Simple machines are elementary examples of kinematic chains that are used to model mechanical systems ranging from the steam engine to robot manipulators. The bearings that form the fulcrum of a lever and that allow the wheel and axle and pulleys to rotate are examples of a kinematic pair called a hinged joint. Similarly, the flat surface of an inclined plane and wedge are examples of the kinematic pair called a sliding joint. The screw is usually identified as its own kinematic pair called a helical joint.
+Two levers, or cranks, are combined into a planar four-bar linkage by attaching a link that connects the output of one crank to the input of another. Additional links can be attached to form a six-bar linkage or in series to form a robot.
+
+
+=== Classification of machinesEdit ===
+The identification of simple machines arises from a desire for a systematic method to invent new machines. Therefore, an important concern is how simple machines are combined to make more complex machines. One approach is to attach simple machines in series to obtain compound machines.
+However, a more successful strategy was identified by Franz Reuleaux, who collected and studied over 800 elementary machines. He realized that a lever, pulley, and wheel and axle are in essence the same device: a body rotating about a hinge. Similarly, an inclined plane, wedge, and screw are a block sliding on a flat surface.
+This realization shows that it is the joints, or the connections that provide movement, that are the primary elements of a machine. Starting with four types of joints, the revolute joint, sliding joint, cam joint and gear joint, and related connections such as cables and belts, it is possible to understand a machine as an assembly of solid parts that connect these joints.
+
+
+== See alsoEdit ==
+Linkage (mechanical)
+
+
+== ReferencesEdit ==

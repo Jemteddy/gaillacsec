@@ -1,0 +1,88 @@
+The Ohio Automated Rx Reporting System (OARRS) is Ohio’s state Prescription Monitoring Program (PMP) and is controlled by the Ohio State Board of Pharmacy. The law permitting the Board of Pharmacy to create the PMP was signed on March 18, 2005 and became effective January 1, 2006. The OARRS program began operation on October 2, 2006. The law is available to read in the Drug Laws of Ohio pages C-50 through C-54. The Ohio State Board of Pharmacy (The Board) is responsible for collecting and verifying data for prescriptions that the Drug Enforcement Administration (DEA) classifies Schedule II-V as well as carisoprodol and tramadol prescriptions.
+
+
+== The Law ==
+The law establishing a database for keeping records of prescriptions is Ohio Revised Code 4729.75 and states:
+The state board of pharmacy may establish and maintain a drug database. The board shall use the drug database to monitor the misuse and diversion of controlled substances, as defined in section 3719.01 of the Revised Code, and other dangerous drugs the board includes in the database pursuant to rules adopted under section 4729.83 of the Revised Code. In establishing and maintaining the database, the board shall electronically collect information pursuant to sections 4729.77 and 4729.78 of the Revised Code and shall disseminate information as authorized or required by sections 4729.79 and 4729.80 of the Revised Code. The board’s collection and dissemination of information shall be conducted in accordance with rules adopted under section 4729.83 of the Revised Code.
+
+
+== The Purpose ==
+OARRS was put into place, just like any other PMP, to be used as a tool for Ohio to address prescription drug abuse, addiction and diversion. It may serve several purposes such as:
+Support access to legitimate medical use of controlled substances
+Identify and deter or prevent drug abuse and diversion
+Facilitate and encourage the identification, intervention with and treatment of persons addicted to prescription drugs
+Inform public health initiatives through outlining of use and abuse trends
+Educate individuals about PMPs and the use, abuse and diversion of and addiction to prescription drugs
+
+
+== Registration ==
+In Ohio, registration for the OARRS program is limited to health care professionals and law enforcement. There are five different account types to choose from when registering.
+Prescriber Master: an individual who is authorized to write prescriptions without the presence and/or authorization of another prescriber. Prescriber Master accounts can request OARRS reports as well as review ones requested by his/her delegates. Nurse Practitioners and Physician's Assistants with prescriptive authority are eligible for a Master Prescriber account. Residents and Interns who do not have a permanent medical license must register as a delegate.
+Prescriber Delegate: In order to qualify for a Prescriber Delegate account, a user must be a licensed health care professional. This includes, but is not limited to, physicians assistants, nurses and pharmacists. The job duties of the delegate must be within the scope of his/her license in order to qualify for a delegate account. All Prescriber Delegate accounts must be linked with a Prescriber Master account.
+Pharmacist: Only practicing pharmacists can register for this account. This means that the pharmacist in question must be practicing pharmacy as defined by the Ohio Revised Code.
+Law Enforcement Supervisor: For a Law Enforcement Supervisor account, you must be a sworn officer of the law, working for a Law Enforcement Agency responsible for enforcing drug laws. Law Enforcement accounts are unique because two accounts are required to make a request. A Law Enforcement Supervisor is not capable of making a request. He or she can only approve requests made by a related Law Enforcement Officer account.
+Law Enforcement Officer: For a Law Enforcement Officer account, you must be a sworn officer of the law, working for a Law Enforcement Agency responsible for enforcing drug laws. Law Enforcement accounts are unique in the aspect that two accounts are required to make a request. A Law Enforcement Officer can request both patient and prescriber history reports. Every request made by a Law Enforcement Officer must be approved by a related Law Enforcement Supervisor. Therefore, there must be at least one Law Enforcement Supervisor related to a Law Enforcement Officer account. There may be more than one Supervisor for a single Officer and vice versa.
+
+
+== Data Submission ==
+The format in which data is submitted to The Board is highly regulated as well. All data submitted to the OARRS system must be submitted according to the 2005 American Society for Automation in Pharmacy standards (ASAP). The following information is required for all record submissions to the Board:
+Patient's name, address, date of birth, telephone number and gender
+Prescription number
+National Drug Code (NDC) of dispensed medication
+Quantity of drug
+Days' supply
+Date of dispensing
+Date prescription was written or authorized
+Number of refills
+Refill number
+Prescriber's DEA number and DEA suffix if applicable
+Pharmacy's DEA number
+Pharmacy's name and telephone number
+Method of payment
+
+
+=== Accepted Mediums ===
+The following information shows the accepted mediums that the State Board of Pharmacy accepts for data submission as well as the requirements for each medium.
+SFTP: Secure File Transfer Protocol is the preferred method for data submission. The file format must be the pharmacy’s DEA number, the file creation time in HHMMSS, and formatted with .TXT (ex. AB1234567.123441.TXT).
+HTTPS: Secure Hypertext Transfer Protocol (HTTPS) is the method used to enter data on the OARRS website. ASAP formatted text files may also be uploaded via HTTPS.
+CD: Compact Discs can be submitted to the State Board as long as the files are in the ASCII format. When submitting a CD, the pharmacy must:
+include the file name on the disc which must be the pharmacy’s DEA number followed by .TXT
+label the front of the disc with the Pharmacy and/or Submitter’s name, DEA number, and number of prescriptions on the disc
+include a Transmittal Form
+Diskette: Diskettes are still accepted by the State Board but are not recommended as they can become corrupted during transit. Occasionally the State Board may request the data be resent in another format. If submitting a diskette, the pharmacy must:
+use a 3.5” floppy disk in ASAP 2005 format as ASCII files
+create a file name with the pharmacy’s DEA number followed by .TXT
+label the front of the disc with the Pharmacy’s name, DEA number, and number of prescriptions on the disc
+include a Transmittal Form
+Paper: OARRS will accept written reports only if the State Board has granted a waiver in writing to the pharmacy. OARRS has to provide the pharmacy with a form to complete for written submissions. Again, all non-electronic submissions must be accompanied with a Transmittal Form.
+
+
+== Data Reception ==
+After a data submission is received and updated, a confirmation e-mail will be sent to the pharmacy contact which will confirm the date processed, the number of records received, the number of records with errors and the name of the submitted file. If there were errors in the data submission, a Microsoft Excel document will be attached to the e-mail and will not contain any Protected Health Information (PHI).
+Receipt of paper forms will be provided via fax.
+
+
+== Data Rejection ==
+Data may be rejected if it does not meet the requirements laid out by the ASAP 2005 standards. The entity submitting the data will be notified via e-mail. Only the records containing errors will be rejected, not the entire file. For example, if Johnson’s Pharmacy submits a CD with 75 records on it and 12 do not follow the ASAP 2005 standards, OARRS will reject those 12 records, not all 75 on the CD.
+
+
+== Exceptions ==
+If a pharmacy never dispenses any controlled substances, carisoprodol or tramadol prescriptions, that pharmacy can notify the State Board via a signed letter. The State Board will then remove that pharmacy from a list of pharmacies that are expected to report to the OARRS system.
+If no controlled substances, carisoprodol or tramadol are dispensed within a 7-day period, a pharmacy must submit a “Zero Report”
+
+
+== See also ==
+Controlled Substances Act
+Food and Drug Administration
+Drug Enforcement Administration
+
+
+== References ==
+
+
+== External links ==
+Official OARRS Website
+Official ASAP Website
+Ohio State Board of Pharmacy
+Ohio Revised Code
+The Alliance of States with Prescription Monitoring Programs

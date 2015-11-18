@@ -1,0 +1,146 @@
+Homogeneous charge compression ignition (HCCI) is a form of internal combustion in which well-mixed fuel and oxidizer (typically air) are compressed to the point of auto-ignition. As in other forms of combustion, this exothermic reaction releases chemical energy into a sensible form that can be transformed in an engine into work and heat.
+
+HCCI combines characteristics of conventional gasoline engine and diesel engines. Gasoline engines combine homogeneous charge (HC) with spark ignition (SI), abbreviated as HCSI. Diesel engines combine stratified charge (SC) with compression ignition (CI), abbreviated as SCCI.
+As in HCSI, HCCI injects fuel during the intake stroke. However, rather than using an electric discharge (spark) to ignite a portion of the mixture, HCCI raises density and temperature by compression until the entire mixture reacts spontaneously.
+Stratified charge compression ignition also relies on temperature and density increase resulting from compression. However, it injects fuel later, during the compression stroke. Combustion occurs at the boundary of the fuel and air, producing higher emissions, but allowing a leaner and higher compression burn, producing greater efficiency.
+Controlling HCCI requires microprocessor control and physical understanding of the ignition process. HCCI designs achieve gasoline engine-like emissions with diesel engine-like efficiency.
+HCCI engines achieve extremely low levels of Nitrogen oxide emissions (NO
+x) without a catalytic converter. Unburned hydrocarbon and carbon monoxide emissions still require treatment to meet automotive emission regulations.
+Recent research has shown that the hybrid fuels combining different reactivities (such as gasoline and diesel) can help in controlling HCCI ignition and burn rates. RCCI or Reactivity Controlled Compression Ignition has been demonstrated to provide highly efficient, low emissions operation over wide load and speed ranges.
+
+
+== HistoryEdit ==
+HCCI engines have a long history, even though HCCI has not been as widely implemented as spark ignition or diesel injection. It is essentially an Otto combustion cycle. HCCI was popular before electronic spark ignition was used. One example is the hot-bulb engine which used a hot vaporization chamber to help mix fuel with air. The extra heat combined with compression induced the conditions for combustion. Another example is the "diesel" model aircraft engine.
+
+
+== OperationEdit ==
+
+
+=== MethodsEdit ===
+A mixture of fuel and air ignites when the concentration and temperature of reactants is sufficiently high. The concentration and/or temperature can be increased by several different ways:
+Increasing compression ratio
+Pre-heating of induction gases
+Forced induction
+Retained or re-inducted exhaust gases
+Once ignited, combustion occurs very quickly. When auto-ignition occurs too early or with too much chemical energy, combustion is too fast and high in-cylinder pressures can destroy an engine. For this reason, HCCI is typically operated at lean overall fuel mixtures.
+
+
+=== AdvantagesEdit ===
+Since HCCI engines are fuel-lean, they can operate at diesel-like compression ratios (>15), thus achieving 30% higher efficiencies than conventional SI gasoline engines.
+Homogeneous mixing of fuel and air leads to cleaner combustion and lower emissions. Because peak temperatures are significantly lower than in typical SI engines, NOx levels are almost negligible. Additionally, the technique does not produce soot.
+HCCI engines can operate on gasoline, diesel fuel, and most alternative fuels.
+HCCI avoids throttle losses, which further improves efficiency.
+
+
+=== DisadvantagesEdit ===
+Achieving cold start capability.
+High in-cylinder peak pressures may damage the engine.
+High heat release and pressure rise rates contribute to engine wear.
+Autoignition is difficult to control, unlike the ignition event in SI and diesel engines, which are controlled by spark plugs and in-cylinder fuel injectors, respectively.
+HCCI engines have a small power range, constrained at low loads by lean flammability limits and high loads by in-cylinder pressure restrictions.
+Carbon monoxide (CO) and hydrocarbon (HC) pre-catalyst emissions are higher than a typical spark ignition engine, caused by incomplete oxidation (due to the rapid combustion event and low in-cylinder temperatures) and trapped crevice gases, respectively.
+
+
+=== ControlEdit ===
+HCCI is more difficult to control than other combustion engines, such as SI and diesel. In a typical gasoline engine, a spark is used to ignite the pre-mixed fuel and air. In Diesel engines, combustion begins when the fuel is injected into pre-compressed air. In both cases, combustion timing is explicitly controlled. In an HCCI engine, however, the homogeneous mixture of fuel and air is compressed and combustion begins whenever sufficient pressure and temperature are reached. This means that no well-defined combustion initiator provides direct control. Engines must be designed so that ignition conditions occur at the desired timing. To achieve dynamic operation, the control system must manage the conditions that induce combustion. Options include the compression ratio, inducted gas temperature, inducted gas pressure, fuel-air ratio, or quantity of retained or re-inducted exhaust. Several control approaches are discussed below.
+
+
+==== Compression ratioEdit ====
+Two compression ratios are significant. The geometric compression ratio can be changed with a movable plunger at the top of the cylinder head. This system is used in diesel model aircraft engines. The effective compression ratio can be reduced from the geometric ratio by closing the intake valve either very late or very early with variable valve actuation (variable valve timing that enables the Miller cycle). Both approaches require energy to achieve fast response. Additionally, implementation is expensive, but is effective. The effect of compression ratio on HCCI combustion has also been studied extensively.
+
+
+==== Induction temperatureEdit ====
+HCCI's autoignition event is highly sensitive to temperature. The simplest temperature control method uses resistance heaters to vary the inlet temperature, but this approach is too slow to change on a cycle-to-cycle frequency. Another technique is fast thermal management (FTM). It is accomplished by varying the intake charge temperature by mixing hot and cold air streams. It is fast enough to allow cycle-to-cycle control. It is also expensive to implement and has limited bandwidth associated with actuator energy.
+
+
+==== Exhaust gas percentageEdit ====
+Exhaust gas is very hot if retained or re-inducted from the previous combustion cycle or cool if recirculated through the intake as in conventional EGR systems. The exhaust has dual effects on HCCI combustion. It dilutes the fresh charge, delaying ignition and reducing the chemical energy and engine output. Hot combustion products conversely increase gas temperature in the cylinder and advance ignition. Control of combustion timing HCCI engines using EGR has been shown experimentally.
+
+
+==== Valve actuationEdit ====
+Variable valve actuation (VVA) extends the HCCI operating region by giving finer control over the temperature-pressure-time envelope within the combustion chamber. VVA can achieve this via either:
+Controlling the effective compression ratio: VVA on intake can control the point at which the intake valve closes. Retarding past bottom dead center (BDC), changes the compression ratio, altering the in-cylinder pressure-time envelope.
+Controlling the amount of hot exhaust gas retained in the combustion chamber: VVA can control the amount of hot EGR within the combustion chamber, either by valve re-opening or changes in valve overlap. Balancing the percentage of cooled external EGR with the hot internal EGR generated by a VVA system, makes it possible to control the in-cylinder temperature.
+While electro-hydraulic and camless VVA systems offer control over the valve event, the componentry for such systems is currently complicated and expensive. Mechanical variable lift and duration systems, however, although more complex than a standard valvetrain, are cheaper and less complicated. It is relatively simple to configure such systems to achieve the necessary control over the valve lift curve.
+
+
+==== Fuel mixtureEdit ====
+Another means to extend the operating range is to control the onset of ignition and the heat release rate by manipulating the fuel itself. This is usually carried out by blending multiple fuels "on the fly" for the same engine. Examples include blending of commercial gasoline and diesel fuels, adopting natural gas  or ethanol ". This can be achieved in a number of ways:
+Upstream blending: Fuels are mixed in the liquid phase, one with low ignition resistance (such as diesel) and a second with greater resistance (gasoline). Ignition timing varyies with the ratio of these fuels.
+In-chamber blending: One fuel can be injected in the intake duct (port injection) and the other directly into the cylinder.
+
+
+==== Direct Injection: PCCI or PPCI CombustionEdit ====
+Compression Ignition Direct Injection (CIDI) combustion is a well-established means of controlling ignition timing and heat release rate and is adopted in diesel engine combustion. Partially Pre-mixed Charge Compression Ignition (PPCI) also known as Premixed Charge Compression Ignition (PCCI) is a compromise offering the control of CIDI combustion with the reduced exhaust gas emissions of HCCI, specifically lower soot. The heat release rate is controlled by preparing the combustible mixture in such a way that combustion occurs over a longer time duration making it less prone to knocking. This is done by timing the injection event such that a range of air/fuel ratios spread across the combustion cylinder when ignition begins. Ignition occurs in different regions of the combustion chamber at different times - slowing the heat release rate. This mixture is designed to minimize the number of fuel-rich pockets, reducing soot formation. The adoption of high EGR and diesel fuels with a greater resistance to ignition (more "gasoline like") enable longer mixing times before ignition and thus fewer rich pockets that produce soot and NO
+x
+
+
+=== Peak pressure and heat release rateEdit ===
+In a typical ICE, combustion occurs via a flame. Hence at any point in time, only a fraction of the total fuel is burning. This results in low peak pressures and low energy release rates. In HCCI, however, the entire fuel/air mixture ignites and burns over a much smaller time interval, resulting in high peak pressures and high energy release rates. To withstand the higher pressures, the engine has to be structurally stronger. Several strategies have been proposed to lower the rate of combustion and peak pressure. Mixing fuels, with different autoignition properties, can lower the combustion speed. However, this requires significant infrastructure to implement. Another approach uses dilution (i.e. with exhaust gases) to reduce the pressure and combustion rates (and output).
+
+
+=== PowerEdit ===
+In ICEs, power can be increased by introducing more fuel into the combustion chamber. These engines can withstand a boost in power because the heat release rate in these engines is slow. However, in HCCI engines increasing the fuel/air ratio results in higher peak pressures and heat release rates. In addition, many viable HCCI control strategies require thermal preheating of the fuel, which reduces the density and hence the mass of the air/fuel charge in the combustion chamber, reducing power. These factors make increasing the power in HCCI engines challenging.
+One technique is to use fuels with different autoignition properties. This lowers the heat release rate and peak pressures and makes it possible to increase the equivalence ratio. Another way is to thermally stratify the charge so that different points in the compressed charge have different temperatures and burn at different times, lowering the heat release rate and making it possible to increase power. A third way is to run the engine in HCCI mode only at part load conditions and run it as a diesel or SI engine at higher load conditions.
+
+
+=== EmissionsEdit ===
+Because HCCI operates on lean mixtures, the peak temperatures are much lower than SI and diesels. The low peak temperatures reduces the formation of NO
+x. However, the low peak temperatures also lead to incomplete burning of fuel, especially near combustion chamber walls. This leads to high carbon monoxide and hydrocarbon emissions. An oxidizing catalyst can remove the regulated species, because the exhaust is still oxygen-rich.
+
+
+=== Difference from knockEdit ===
+Engine knock or pinging occurs when some of the unburnt gases ahead of the flame in an SI engine spontaneously ignite. This gas is compressed as the flame propagates and the pressure in the combustion chamber rises. The high pressure and corresponding high temperature of unburnt reactants can cause them to spontaneously ignite. This causes a shock wave to traverse from the end gas region and an expansion wave to traverse into the end gas region. The two waves reflect off the boundaries of the combustion chamber and interact to produce high amplitude standing waves.
+A similar ignition process occurs in HCCI. However, rather than part of the reactant mixture igniting by compression ahead of a flame front, ignition in HCCI engines occurs due to piston compression. Little or no pressure differences occur between the different regions of the gas, eliminating any shock wave and knocking. However, at high loads (i.e. high fuel/air ratios), knocking is a possibility even in HCCI.
+
+
+=== Simulation of HCCI EnginesEdit ===
+Computational models for simulating combustion and heat release rates of HCCI engines require detailed chemistry models. This is largely because ignition is more sensitive to chemical kinetics than to turbulence/spray or spark processes as are typical in SI and diesel engines. Computational models have demonstrated the importance of accounting for the fact that the in-cylinder mixture is actually in-homogeneous, particularly in terms of temperature. This in-homogeneity is driven by turbulent mixing and heat transfer from the combustion chamber walls. The amount of temperature stratification dictates the rate of heat release and thus tendency to knock. This limits the usefulness of considering the in-cylinder mixture as a single zone, resulting in the integration of 3D computational fluid dynamics codes such as Los Alamos National Laboratory's KIVA CFD code and faster solving probability density function modelling codes.
+
+
+== PrototypesEdit ==
+As of 2012, no HCCI engines were produced at commercial scale. However, several car manufacturers had functioning HCCI prototypes.
+In 2007-2009, General Motors demonstrated HCCI with a modified 2.2 L Ecotec engine installed in Opel Vectra and Saturn Aura. The engine operates in HCCI mode at speeds below 60 miles per hour (97 km/h) or when cruising, switching to conventional SI when the throttle is opened and produces fuel economy of 43 miles per imperial gallon (6.6 L/100 km; 36 mpg-US) and carbon dioxide emissions of about 150 grams per kilometre, improving on the 37 miles per imperial gallon (7.6 L/100 km; 31 mpg-US) and 180 g/km of the conventional 2.2 L direct injection version. GM is also researching smaller Family 0 engines for HCCI applications. GM has used KIVA in the development of direct-injection, stratified charge gasoline engines as well as the fast burn, homogeneous-charge gasoline engine.
+Mercedes-Benz developed a prototype engine called DiesOtto, with controlled auto ignition. It was displayed in its F 700 concept car at the 2007 Frankfurt Auto Show.
+Volkswagen are developing two types of engine for HCCI operation. The first, called Combined Combustion System or CCS, is based on the VW Group 2.0-litre diesel engine, but uses homogeneous intake charge. It requires synthetic fuel to achieve maximum benefit. The second is called Gasoline Compression Ignition or GCI; it uses HCCI when cruising and spark ignition when accelerating. Both engines have been demonstrated in Touran prototypes, and the company expects them to be ready for production in about 2015.
+In November 2011 Hyundai announced the development of GDCI(Gasoline Direct Injection Compression Ignition) engine in association with Delphi Automotive. The engine completely eliminated the ignition plugs, and instead utilizes both supercharger and turbocharger to maintain the pressure within the cylinder. The engine is scheduled for commercial production in near future.
+In October 2005, the Wall Street Journal reported that Honda was developing an HCCI engine as part of an effort to produce a next generation hybrid car.
+Oxy-Gen Combustion, a UK-based Clean Technology company, produced a full-load HCCI concept engine with the aid of Michelin and Shell.
+Mazda's SkyActiv-G Generation 2 has a compression ratio of 18:1 to allow the use of HCCI combustion.
+
+
+== Other ApplicationsEdit ==
+To date, few prototype engines run in HCCI mode; however, HCCI research resulted in advancements in fuel and engine development. Examples include:
+PCCI/PPCI combustion—A hybrid of HCCI and conventional diesel combustion offering more control over ignition and heat release rates with lower soot and NO
+x emissions.
+Advancements in fuel modelling—HCCI combustion is driven mainly by chemical kinetics rather than turbulent mixing or injection, reducing the complexity of simulating the chemistry, which results in fuel oxidation and emissions formation. This has led to increasing interest and development of chemical kinetics that describe hydrocarbon oxidation.
+Fuel blending applications—Due to the advancements in fuel modelling, it is now possible to carry out detailed simulations of hydrocarbon fuel oxidation, enabling simulations of practical fuels such as gasoline/diesel and ethanol. Engineers can now blend fuels virtually and determine how they will perform in an engine context.
+
+
+== See alsoEdit ==
+Mercedes DiesOtto engine
+Internal combustion engine
+Gasoline engine
+Diesel engine
+Free-piston engine
+Variable valve timing
+Helical camshaft
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Research, publications at Lund University, SE
+Research at Chalmers University of Technology, SE
+Research at Stanford University, USA
+Research, publications at University of Wisconsin, Madison, USA
+Research at University of California, Berkeley, USA
+Research at the University of Cambridge, UK
+Research at RWTH Aachen University, Germany
+Research at Eindhoven University of Technology, The Netherlands
+Research at Los Alamos National Laboratory, Los Alamos, New Mexico, USA
+
+
+== Further readingEdit ==
+Automotive HCCI Engine by Sandia Combustion Research Facility, January 2012.

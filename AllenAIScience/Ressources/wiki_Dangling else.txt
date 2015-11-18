@@ -1,0 +1,83 @@
+The dangling else is a problem in computer programming in which an optional else clause in an if–then(–else) statement results in nested conditionals being ambiguous. Formally, the reference context-free grammar of the language is ambiguous, meaning there is more than one correct parse tree.
+In many programming languages one may write conditionally executed code in two forms: the if-then form, and the if-then-else form – the else clause is optional:
+
+if a then s
+if a then s1 else s2
+
+This gives rise to an ambiguity in interpretation when there are nested statements, specifically whenever an if-then form appears as s1 in an if-then-else form:
+
+if a then if b then s else s2
+
+In this example, s is unambiguously executed when a is true and b is true, but one may interpret s2 as being executed when a is false (thus attaching the else to the first if) or when a is true and b is false (thus attaching the else to the second if). In other words, one may see the previous statement as either of the following expressions:
+
+if a then (if b then s) else s2
+      or
+if a then (if b then s else s2)
+
+The dangling else problem dates to ALGOL 60, and has been resolved in various ways in subsequent languages. In LR parsers, the dangling else is the archetypal example of a shift-reduce conflict.
+
+
+== Avoiding ambiguity while keeping the syntax ==
+This is a problem that often comes up in compiler construction, especially scannerless parsing. The convention when dealing with the dangling else is to attach the else to the nearby if statement, allowing for unambiguous context-free grammars, in particular. Programming languages like Pascal and C follow this convention, so there is no ambiguity in the semantics of the language, though the use of a parser generator may lead to ambiguous grammars. In these cases alternative grouping is accomplished by explicit blocks, such as begin...end in Pascal and {...} in C.
+Depending on the compiler construction approach, one may take different corrective actions to avoid ambiguity:
+If the parser is produced by an SLR, LR(1) or LALR LR parser generator, the programmer will often rely on the generated parser feature of preferring shift over reduce whenever there is a conflict. Alternatively, the grammar can be rewritten to remove the conflict, at the expense of an increase in grammar size (see below).
+If the parser is produced by a Pruning and Deep Pruning LR generator, one can issue directives that prune away the ambiguities completely.
+If the parser is hand written, the programmer may use a non-ambiguous context-free grammar. Alternatively, one may rely on a non-context-free grammar or a parsing expression grammar.
+
+
+== Avoiding ambiguity by changing the syntax ==
+The problem can also be solved by making explicit the link between an else and its if, within the syntax. This usually helps avoid human errors.
+Possible solutions are:
+Having an "end if" statement. Examples of such languages are ALGOL 68, Ada, Eiffel, PL/SQL, Visual Basic, and Modula-2.
+Disallowing the statement following a "then" to be an "if" itself (it may however be a pair of statement brackets containing only an if-then-clause). This approach is followed by ALGOL 60 and Python.
+Requiring braces (parenthesizing) when an "else" follows an "if".
+Requiring every "if" to be paired with an "else".
+
+
+== Examples ==
+Concrete examples follow.
+
+
+=== C ===
+In C, the grammar reads, in part:
+
+ statement = ...
+    | selection-statement
+
+ selection-statement = ...
+    | IF ( expression ) statement
+    | IF ( expression ) statement ELSE statement
+
+Thus, without further rules, the statement
+
+could ambiguously be parsed as if it were either:
+
+or:
+
+In practice in C the first tree is chosen, by associating the else with the nearest if.
+
+
+==== Avoiding the conflict in LR parsers ====
+The above example could be rewritten in the following way to remove the ambiguity:
+
+ statement = ...
+    | selection-statement
+
+ statement-with-else = ...
+    | selection-statement-with-else
+
+ selection-statement = ...
+    | IF ( expression ) statement
+    | IF ( expression ) statement-with-else ELSE statement
+
+ selection-statement-with-else = ...
+    | IF ( expression ) statement-with-else ELSE statement-with-else
+
+Any other statement-related grammar rules may also have to be duplicated in this way if they may directly or indirectly end with a statement or selection-statement non-terminal.
+
+
+== See also ==
+The lexer hack
+
+
+== References ==

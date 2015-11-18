@@ -1,0 +1,44 @@
+A mixed-signal integrated circuit is any integrated circuit that has both analog circuits and digital circuits on a single semiconductor die.     In real-life applications mixed-signal designs are everywhere, for example, a smart mobile phone. However, it is more accurate to call them mixed-signal systems. Mixed-signal ICs also process both analog and digital signals together. For example, an analog-to-digital converter is a mixed-signal circuit. Mixed-signal circuits or systems are typically cost-effective solutions for building any modern consumer electronics applications.
+
+
+== Introduction ==
+A mixed-signal system-on-a-chip (AMS-SoC) can be a combination of analog circuits, digital circuits, intrinsic mixed-signal circuits (like ADC), and Embedded Software.
+Integrated Circuits (ICs) are generally classified as digital (e.g. a microprocessors) or analog (e.g. an operational amplifier). Mixed-signal ICs are chips that contain both digital and analog circuits on the same chip. This category of chip has grown dramatically with the increased use of 3G cell phones and other portable technologies.
+Mixed-signal ICs are often used to convert analog signals to digital signals so that digital devices can process them. For example, mixed-signal ICs are essential components for FM tuners in digital products such as media players, which have digital amplifiers. Any analog signal (such as an FM radio transmission, a light wave or a sound) can be digitized using a very basic analog-to-digital converter, and the smallest and most energy efficient of these would be in the form of mixed-signal ICs.
+Mixed-signal ICs are more difficult to design and manufacture than analog-only or digital-only integrated circuits. For example, an efficient mixed-signal IC would have its digital and analog components share a common power supply. However, as one can imagine, analog and digital components have very different power needs and consumption characteristics that make this a non-trivial goal in chip design.
+
+
+== Examples ==
+Typically, mixed-signal chips perform some whole function or sub-function in a larger assembly such as the radio subsystem of a cell phone, or the read data path and laser sled control logic of a DVD player. They often contain an entire system-on-a-chip.
+Examples of mixed-signal integrated circuits include data converters using delta-sigma modulation, analog-to-digital converter/digital-to-analog converter using error detection and correction, and digital radio chips. Digitally controlled sound chips are also mixed-signal circuits. With the advent of cellular technology and network technology this category now includes cellular telephone, software radio, LAN and WAN router integrated circuits.
+Because of the use of both digital signal processing and analog circuitry, mixed-signal ICs are usually designed for a very specific purpose and their design requires a high level of expertise and careful use of computer aided design (CAD) tools. Automated testing of the finished chips can also be challenging. Teradyne, Agilent, and Texas Instruments are the major suppliers of the test equipment for mixed-signal chips.
+The particular challenges of mixed signal include:
+CMOS technology is usually optimal for digital performance and scaling while bipolar transistors are usually optimal for analog performance, yet until the last decade it has been difficult to either combine these cost-effectively or to design both analog and digital in a single technology without serious performance compromises. The advent of technologies like high performance CMOS, BiCMOS, CMOS SOI and SiGe have removed many of the compromises that previously had to be made.
+Testing functional operation of mixed-signal ICs remains complex, expensive and often a "one-off" implementation task.
+Systematic design methodologies comparable to digital design methods are far more primitive in the analog and mixed-signal arena. Analog circuit design can not generally be automated to nearly the extent that digital circuit design can. Combining the two technologies multiplies this complication.
+Fast-changing digital signals send noise to sensitive analog inputs. One path for this noise is substrate coupling. A variety of techniques are used to attempt to block or cancel this noise coupling, such as fully differential amplifiers, P+ guard-rings, differential topology, on-chip decoupling, and triple-well isolation.
+
+
+== Commercial examples ==
+ICsense
+AnSem
+Atari POKEY
+MOS Technology SID
+PSoC - Cypress PSoC Programmable System on Chip
+System to ASIC
+Texas Instruments' MSP430
+Triad Semiconductor
+Wolfson Microelectronics
+Most modern radio and communications use mixed signal circuits.
+
+
+== See also ==
+Analog front-end
+
+
+== References ==
+
+
+== Further reading ==
+Saraju Mohanty (2015). Nanoelectronic Mixed-Signal System Design, ISBN 978-0071825719 and 0071825711, 1st Edition. McGraw-Hill.  
+R. Jacob Baker (2009). CMOS Mixed-Signal Circuit Design, Second Edition.  http://CMOSedu.com/

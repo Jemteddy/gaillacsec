@@ -1,0 +1,24 @@
+In quantum mechanics, for systems where the total number of particles may not be preserved, the number operator is the observable that counts the number of particles.
+The number operator acts on Fock space. Let
+
+be a Fock state, composed of single-particle states  drawn from a basis of the underlying Hilbert space of the Fock space. Given the corresponding creation and annihilation operators  and  we define the number operator by
+
+and we have
+
+where  is the number of particles in state . The above equality can be proven by noting that
+
+then
+
+
+== See also ==
+Harmonic oscillator
+Quantum harmonic oscillator
+Second quantization
+Quantum field theory
+Thermodynamics
+Fermion number operator
+
+
+== References ==
+Bruus, Henrik, Flensberg, Karsten. (2004). Many-body Quantum Theory in Condensed Matter Physics: An Introduction. Oxford University Press. ISBN 0-19-856633-6. 
+Second quantization notes by Fradkin

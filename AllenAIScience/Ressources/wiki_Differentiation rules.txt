@@ -1,0 +1,159 @@
+This is a summary of differentiation rules, that is, rules for computing the derivative of a function in calculus.
+
+
+== Elementary rules of differentiationEdit ==
+Unless otherwise stated, all functions are functions of real numbers (R) that return real values; although more generally, the formulae below apply wherever they are well defined—including complex numbers (C).
+
+
+=== Differentiation is linearEdit ===
+
+For any functions f and g and any real numbers a and b the derivative of the function h(x) = af(x) + bg(x) with respect to x is
+
+In Leibniz's notation this is written as:
+
+Special cases include:
+The constant factor rule
+
+The sum rule
+
+The subtraction rule
+
+
+=== The product ruleEdit ===
+
+For the functions f and g, the derivative of the function h(x) = f(x) g(x) with respect to x is
+
+In Leibniz's notation this is written
+
+
+=== The chain ruleEdit ===
+
+The derivative of the function of a function h(x) = f(g(x)) with respect to x is
+
+In Leibniz's notation this is written as:
+
+However, by relaxing the interpretation of h as a function, this is often simply written
+
+
+=== The inverse function ruleEdit ===
+
+If the function f has an inverse function g, meaning that g(f(x)) = x and f(g(y)) = y, then
+
+In Leibniz notation, this is written as
+
+
+== Power laws, polynomials, quotients, and reciprocalsEdit ==
+
+
+=== The polynomial or elementary power ruleEdit ===
+
+If , for any number  then
+
+Special cases include:
+Constant rule: if  then f is the constant function f(x) = c, for some number c, and, for all x, f′(x) = 0.
+if f(x) = x, then f′(x) = 1. This special case may be generalized to:
+The derivative of an affine function is constant: if f(x) = ax + b, then f′(x) = a.
+
+Combining this rule with the linearity of the derivative and the addition rule permits the computation of the derivative of any polynomial.
+
+
+=== The reciprocal ruleEdit ===
+
+The derivative of h(x) = 1/f(x) for any (nonvanishing) function f is:
+
+In Leibniz's notation, this is written
+
+The reciprocal rule can be derived from the chain rule and the power rule.
+
+
+=== The quotient ruleEdit ===
+
+If f and g are functions, then:
+ wherever g is nonzero.
+This can be derived from reciprocal rule and the product rule. Conversely (using the constant rule) the reciprocal rule may be derived from the special case f(x) = 1.
+
+
+=== Generalized power ruleEdit ===
+
+The elementary power rule generalizes considerably. The most general power rule is the functional power rule: for any functions f and g,
+
+wherever both sides are well defined.
+Special cases:
+If f(x) = xa, f′(x) = axa − 1 when a is any real number and x is positive.
+The reciprocal rule may be derived as the special case where g(x) = −1.
+
+
+== Derivatives of exponential and logarithmic functionsEdit ==
+
+note that the equation above is true for all c, but the derivative for c < 0 yields a complex number.
+
+the equation above is also true for all c but yields a complex number if c<0.
+
+
+=== Logarithmic derivativesEdit ===
+The logarithmic derivative is another way of stating the rule for differentiating the logarithm of a function (using the chain rule):
+ wherever f is positive.
+
+
+== Derivatives of trigonometric functionsEdit ==
+
+It is common to additionally define an inverse tangent function with two arguments, . Its value lies in the range  and reflects the quadrant of the point . For the first and fourth quadrant (i.e. ) one has . Its partial derivatives are
+
+
+== Derivatives of hyperbolic functionsEdit ==
+
+
+== Derivatives of special functionsEdit ==
+
+
+== Derivatives of integralsEdit ==
+
+Suppose that it is required to differentiate with respect to x the function
+
+where the functions  and  are both continuous in both  and  in some region of the  plane, including  , and the functions  and  are both continuous and both have continuous derivatives for . Then for :
+
+This formula is the general form of the Leibniz integral rule and can be derived using the fundamental theorem of calculus.
+
+
+== Derivatives to nth orderEdit ==
+Some rules exist for computing the nth derivative of functions, where n is a positive integer. These include:
+
+
+=== Faà di Bruno's formulaEdit ===
+
+If f and g are n times differentiable, then
+
+where  and the set  consists of all non-negative integer solutions of the Diophantine equation .
+
+
+=== General Leibniz ruleEdit ===
+
+If f and g are n times differentiable, then
+
+
+== See alsoEdit ==
+Vector calculus identities
+Differentiable function
+Differential of a function
+List of mathematical functions
+Trigonometric functions
+Inverse trigonometric functions
+Hyperbolic functions
+Inverse hyperbolic functions
+Matrix calculus
+Differentiation under the integral sign
+
+
+== ReferencesEdit ==
+
+
+== Sources and further readingEdit ==
+These rules are given in many books, both on elementary and advanced calculus, in pure and applied mathematics. Those in this article (in addition to the above references) can be found in:
+Mathematical Handbook of Formulas and Tables (3rd edition), S. Lipschutz, M.R. Spiegel, J. Liu, Schuam's Outline Series, 2009, ISBN 978-0-07-154855-7.
+The Cambridge Handbook of Physics Formulas, G. Woan, Cambridge University Press, 2010, ISBN 978-0-521-57507-2.
+Mathematical methods for physics and engineering, K.F. Riley, M.P. Hobson, S.J. Bence, Cambridge University Press, 2010, ISBN 978-0-521-86153-3
+NIST Handbook of Mathematical Functions, F. W. J. Olver, D. W. Lozier, R. F. Boisvert, C. W. Clark, Cambridge University Press, 2010, ISBN 978-0-521-19225-5.
+
+
+== External linksEdit ==
+Derivative calculator with formula simplification

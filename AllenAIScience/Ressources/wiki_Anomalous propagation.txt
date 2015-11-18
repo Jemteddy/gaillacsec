@@ -1,0 +1,47 @@
+Anomalous propagation (sometimes shortened to Anoprop) includes different forms of electromagnetic (EM) wave propagation that are not encountered in a standard atmosphere due to a non standard distribution of temperature and humidity with height in the atmosphere. While technically the term includes propagation with larger losses than in standard atmosphere, in practical applications it is most often meant to refer to cases when signal propagates beyond normal radio horizon.
+
+
+== CausesEdit ==
+
+
+=== Air temperature profileEdit ===
+
+The first assumption is that an electromagnetic wave is moving through air that cools down at a standard rate with height in the troposphere. Any variation to this stratification of temperatures will modify the path followed by the wave. This can be separated into super and under refraction:
+
+
+==== Super refractionEdit ====
+It is very common to have temperature inversions forming near the ground, for instance air cooling at night while remaining warm aloft. This happens equally aloft when a warm and dry airmass overrides a cooler one, like in the subsidence aloft cause by a high pressure intensifying. The index of refraction of air increases in both cases and the EM wave bends toward the ground instead of continuing upward.
+On surface-base inversion, the beam will eventually hit the ground and a part of it can be reflected back toward the emitter. In upper air inversion, the bending will be limited to the layer involved but the bending will extend the path of the beam, possibly beyond the usual transmission horizon.
+
+
+===== Atmospheric ductEdit =====
+
+The extreme of this problem is when the inversion is very strong and shallow, the EM wave is trapped within the inversion layer. The beam will bounce many times inside the layer as within a waveguide. In surface-based ducting, the beam will hit the ground many times, causing return echoes at regular distances toward the emitter. In elevated ducts, the transmission can be extended to very large distances.
+
+
+==== Under refractionEdit ====
+
+On the other hand, if the air is unstable and cools faster than the standard atmosphere with height, the wave is higher than expected as can miss the intended receiver.
+
+
+=== Other causesEdit ===
+Other ways anomalous propagation is recorded is by troposcatters causing irregularities in the troposphere, scattering due to meteors, refraction in the ionized regions and layers of the ionosphere, and reflection from the ionosphere.
+Finally, multipath propagation near the Earth's surface has multiple causes, including atmospheric ducting, ionospheric reflection and refraction, and reflection from water bodies and terrestrial objects such as mountains and buildings.
+
+
+== In RadioEdit ==
+Anomalous propagation can be a limiting factor for the propagation of radiowaves, especially the super refraction. However, reflection on the ionosphere is a common use of this phenomenon to extend the range of the signal. Other multiple reflections or refractions are more complex to predict but can be still useful.
+
+
+== RadarEdit ==
+The position of the radar echoes depend heavily on the standard decrease of temperature hypothesis. However, the real atmosphere can vary greatly from the norm. Anomalous Propagation (AP) refers to false radar echoes usually observed when calm, stable atmospheric conditions, often associated with super refraction in a temperature inversion, direct the radar beam toward the ground. The processing program will then wrongly place the return echoes at the height and distance it would have been in normal conditions.
+This type of false return is relatively easy to spot on a time loop if it is due to night cooling or marine inversion as one sees very strong echoes developing over an area, spreading in size laterally, not moving but varying greatly in intensity with time. After sunrise, the inversion disappears gradually and the area diminishes correspondingly. Inversion of temperature exists too ahead of warm fronts, and around thunderstorms' cold pool. Since precipitation exists in those circumstances, the abnormal propagation echoes are then mixed with real rain and/or targets of interest, which make them more difficult to separate.
+Anomalous Propagation is different from ground clutter, ocean reflections (sea clutter), biological returns from birds and insects, debris, chaff, sand storms, volcanic eruption plumes, and other non-precipitation meteorological phenomena. Ground and sea clutters are permanent reflection from fixed areas on the surface with stable reflective characteristics. Biological scatterer gives weak echoes over a large surface. These can vary in size with time but not much in intensity. Debris and chaff are transient and move in height with time. They are all indicating something actually there and either relevant to the radar operator and/or readily explicable and theoretically able to be reproduced. AP in the sense of radar is colloquially known as "garbish" and ground clutter as "rubbage".
+Doppler radars and Pulse-Doppler radars are extracting the velocities of the targets. Since AP comes from stable targets, it is possible to subtract the reflectivity data having a null speed and clean the radar images. Ground, sea clutter and the energy spike from the sun setting can be distinguished the same way but not other artifacts. This method is used in most modern radars, including air traffic control and weather radars.
+
+
+== See alsoEdit ==
+Wave propagation
+
+
+== NotesEdit ==

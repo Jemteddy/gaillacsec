@@ -1,0 +1,28 @@
+In probability theory, a balance equation is an equation that describes the probability flux associated with a Markov chain in and out of states or set of states.
+
+
+== Global balance ==
+The global balance equations (also known as full balance equations) are a set of equations that in principle can always be solved to give the equilibrium distribution of a Markov chain (when such a distribution exists).
+For a continuous time Markov chain with state space S, transition rate from state i to j given by qij and equilibrium distribution given by , the global balance equations are given for every state i in S by
+
+Here  represents the probability flux from state i to state j. In general it is computationally intractable to solve this system of equations for most queueing models.
+For a discrete time Markov chain with transition matrix P and equilibrium distribution  the global balance equation is
+
+
+== Detailed balance ==
+
+For a continuous time Markov chain (CTMC) with transition rate matrix Q, if  can be found such that for every pair of states i and j
+
+holds, then the global balance equations are satisfied and  is the stationary distribution of the process. If such a solution can be found the resulting equations are usually much easier than directly solving the global balance equations.
+A CTMC is reversible if and only if the detailed balance conditions are satisfied for every pair of states i and j.
+A discrete time Markov chains (DTMC) with transition matrix P and equilibrium distribution  is said to be in detailed balance if for all pairs i and j,
+
+When a solution can be found, as in the case of a CTMC, the computation is usually much quicker than directly solving the global balance equations.
+
+
+== Local balance ==
+In some situations, terms on either side of the global balance equations cancel. The global balance equations can then be partitioned to give a set of local balance equations (also known as partial balance equations, independent balance equations or individual balance equations). These balance equations were first considered by Peter Whittle. The resulting equations are somewhere between detailed balance and global balance equations. Any solution  to the local balance equations is always a solution to the global balance equations (we can recover the global balance equations by summing the relevant local balance equations), but the converse is not always true. Often, constructing local balance equations is equivalent to removing the outer summations in the global balance equations for certain terms.
+During the 1980s it was thought local balance was a requirement for a product-form equilibrium distribution, but Gelenbe's G-network model showed this not to be the case.
+
+
+== Notes ==

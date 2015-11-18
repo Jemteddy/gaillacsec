@@ -1,0 +1,97 @@
+A table is a means of arranging data in rows and columns. The use of tables is pervasive throughout all communication, research and data analysis. Tables appear in print media, handwritten notes, computer software, architectural ornamentation, traffic signs and many other places. The precise conventions and terminology for describing tables varies depending on the context. Further, tables differ significantly in variety, structure, flexibility, notation, representation and use. In books and technical articles, tables are typically presented apart from the main text in numbered and captioned floating blocks.
+
+
+== Basic descriptionEdit ==
+A table consists of an ordered arrangement of rows and columns. This is a simplified description of the most basic kind of table. Certain considerations follow from this simplified description:
+the term row has several common synonyms (e.g., record, k-tuple, n-tuple, vector);
+the term column has several common synonyms (e.g., field, parameter, property, attribute);
+a column is usually identified by a name;
+a column name can consist of a word, phrase or a numerical index;
+the intersection of a row and a column is a cell.
+The elements of a table may be grouped, segmented, or arranged in many different ways, and even nested recursively. Additionally, a table may include metadata, annotations, a header, a footer or other ancillary features.
+
+
+=== Simple tableEdit ===
+The following illustrates a simple table with three columns and seven rows. The first row is not counted, because it is only used to display the column names. This is traditionally called a "header row".
+
+
+=== Multi-dimensional tableEdit ===
+
+The concept of dimension is also a part of basic terminology. Any "simple" table can be represented as a "multi-dimensional" table by normalizing the data values into ordered hierarchies. A common example of such a table is a multiplication table.
+NOTE: Multidimensional tables, 2-dimensional as in the example, are created under the condition the coordinates or combination of the basic headers (margins) give a unique value attached. This is an injective relation: each combination of the values of the headers row (row 0, for lack of a better term) and the headers column (column 0 for lack of a better term) is related to a unique value represented on the table:
+column 1 and row 1 will only correspond to the value 1 (and no other)
+column 1 and row 2 will only correspond to the value 2 (and no other), etc.
+If the said condition is not present, it is required to insert extra columns or rows which increases the size of table with plenty of empty cells.
+To illustrate how a simple table can be transformed into a multi-dimensional table, consider the following transformation of the Age table.
+
+This is structurally identical to the multiplication table, except it uses concatenation instead of multiplication as the operator; and first name and last name instead of integers as the operands.
+
+
+=== Wide and Narrow TablesEdit ===
+Tables can be described as wide or narrow in format. Wide format has a separate column for each data variable, a Narrow format will have one column for all the variable values and another column for the context of that value. See Wide and Narrow Data.
+
+
+== Generic representationEdit ==
+As a communication tool, a table allows a form of generalization of information from an unlimited number of different social or scientific contexts. It provides a familiar way to convey information that might otherwise not be obvious or readily understood.
+For example, in the following diagram, two alternate representations of the same information are presented side by side. On the left is the NFPA 704 standard "fire diamond" with example values indicated and on the right is a simple table displaying the same values, along with additional information. Both representations convey essentially the same information, but the tabular representation is arguably more comprehensible to someone who is not familiar with the NFPA 704 standard. The tabular representation may not, however, be ideal for every circumstance (for example because of space limitations, or safety reasons).
+
+
+== Specific usesEdit ==
+There are several specific situations in which tables are routinely used as a matter of custom or formal convention.
+
+
+=== PublishingEdit ===
+Cross-reference (Table of contents)
+
+
+=== MathematicsEdit ===
+
+Arithmetic Multiplication table
+Logic Truth table
+
+
+=== Natural sciencesEdit ===
+Chemistry (Periodic table)
+Oceanography (tide table)
+
+
+=== Information technologyEdit ===
+Tables are both supported by software applications and used in software development.
+
+
+==== Software applicationsEdit ====
+Modern software applications give users the ability to generate, format, and edit tables and tabular data for a wide variety of uses, for example:
+word processing applications;
+spreadsheet applications;
+presentation software;
+tables specified in HTML or another markup language
+
+
+==== Software developmentEdit ====
+Tables have uses in software development for both high-level specification and low-level implementation. Usage in software specification can encompass ad hoc inclusion of simple decision tables in textual documents through to the use of tabular specification methodologies, examples of which include SCR and Statestep. Proponents of tabular techniques, among whom David Parnas is prominent, emphasize their understandability, as well as the quality and cost advantages of a format allowing systematic inspection, while corresponding shortcomings experienced with a graphical notation were cited in motivating the development of at least two tabular approaches.
+At a programming level, software may be implemented using constructs generally represented or understood as tabular, whether to store data (perhaps to memoize earlier results), for example, in arrays or hash tables, or control tables determining the flow of program execution in response to various events or inputs.
+
+
+== Historical relationship to furnitureEdit ==
+In medieval counting houses, the tables were covered with a piece of checkered cloth, to count money. Exchequer is an archaic term for the English institution which accounted for money owed to the monarch. Thus the checkerboard tables of stacks of coins are a concrete realization of this information.
+
+
+== See alsoEdit ==
+Abstract data type
+Column (database)
+Information graphics
+Periodic table
+Reference table
+Row (database)
+Table (database)
+Table (HTML)
+Tensor
+Dependent variable
+Independent variable
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+ Media related to Tables (information) at Wikimedia Commons

@@ -1,0 +1,178 @@
+In computer graphics, image scaling is the process of resizing a digital image. Scaling is a non-trivial process that involves a trade-off between efficiency, smoothness and sharpness. With bitmap graphics, as the size of an image is reduced or enlarged, the pixels that form the image become increasingly visible, making the image appear "soft" if pixels are averaged, or jagged if not. With vector graphics the trade-off may be in processing power for re-rendering the image, which may be noticeable as slow re-rendering with still graphics, or slower frame rate and frame skipping in computer animation.
+Apart from fitting a smaller display area, image size is most commonly decreased (or subsampled or downsampled) in order to produce thumbnails. Enlarging an image (upsampling or interpolating) is generally common for making smaller imagery fit a bigger screen in fullscreen mode, for example. In “zooming” a bitmap image, it is not possible to discover any more information in the image than already exists, and image quality inevitably suffers. However, there are several methods of increasing the number of pixels that an image contains, which evens out the appearance of the original pixels.
+
+
+== Scaling methods ==
+An image size can be changed in several ways. Consider quadrupling the size of the following photographic thumbnail image, and doubling the size of the following text based image:
+ 
+Nearest-neighbor interpolation
+One of the simpler ways of increasing the size is nearest-neighbor interpolation, replacing every pixel with a number of pixels of the same color:
+ 
+The resulting image is larger than the original, and preserves all the original detail, but has (possibly undesirable) jaggedness. The diagonal lines of the W, for example, now show the characteristic "stairway" shape.
+Other scaling methods below are better at preserving smooth contours in the image:
+Bilinear interpolation
+For example, bilinear interpolation produces the following results:
+ 
+Linear (or bilinear, in two dimensions) interpolation is typically good for changing the size of an image, but causes some undesirable softening of details and can still be somewhat jagged. Better scaling methods include bicubic interpolation (examples below) and Lanczos resampling.
+ 
+Edge-directed interpolation algorithms
+Edge-directed interpolation algorithms aim to preserve edges in the image after scaling, unlike other algorithms which can produce staircase artifacts around diagonal lines or curves.
+Examples of algorithms for this task include New Edge-Directed Interpolation (NEDI), Edge-Guided Image Interpolation (EGGI), Iterative Curvature-Based Interpolation (ICBI), and Directional Cubic Convolution Interpolation (DCCI). An article from 2013 compared the four algorithms above, and found that DCCI had the best scores in PSNR and SSIM on a series of test images.
+ 
+hqx
+For magnifying computer graphics with low resolution and/or few colors (usually from 2 to 256 colors), better results will be achieved by hqx or other pixel art scaling algorithms. These produce sharp edges and maintain high level of detail.
+ 
+Supersampling
+For scaling photos (and raster images with many colors), see also anti-aliasing algorithms called supersampling.
+Vectorization
+ 
+An entirely different approach is vector extraction or vectorization. Vectorization first creates a resolution independent vector representation of the graphic to be scaled. Then the resolution-independent version is rendered as a raster image at the desired resolution. This technique is used by Adobe Live Trace, inkscape, and several recent papers. Scalable Vector Graphics are well suited to simple geometric images, while photographs do not fare well with vectorization due to their complexity.
+SFG conversion
+ 
+Another approach is scalable function graphic conversion. As with vectorization, a conversion process creates a resolution independent representation of the graphic to be scaled. The conversion requires a large amount of processing time, but the resulting function is capable of scaling complex images such as photographs.
+Mipmap
+
+A unique problem occurs with downscaling. A scaling algorithm that relies on sampling a specific number of pixels would sample non-adjacent pixels when downscaling below a certain threshold, which can break the sampling and produce an unsmooth result. This can be avoided by using box sampling or a mipmap which contains many already geometrically downscaled copies. Any simple scaling algorithm can then be used on one of the prescaled copies and give an accurate result.
+
+
+== Algorithms ==
+Two standard scaling algorithms are bilinear and bicubic interpolation. Filters like these work by interpolating pixel color values, introducing a continuous transition into the output even where the original material has discrete transitions. Although this is desirable for continuous-tone images, some algorithms reduce contrast (sharp edges) in a way that may be undesirable for line art.
+Nearest-neighbor interpolation preserves these sharp edges, but it increases aliasing (or jaggies; where diagonal lines and curves appear pixelated). Several approaches have been developed that attempt to optimize for bitmap art by interpolating areas of continuous tone, preserve the sharpness of horizontal and vertical lines and smooth all other curves.
+
+
+== Pixel art scaling algorithms ==
+As pixel art graphics are usually in very low resolutions, they rely on careful placing of individual pixels, often with a limited palette of colors. This results in graphics that rely on a high amount of stylized visual cues to define complex shapes with very little resolution, down to individual pixels.
+A number of specialized algorithms have been developed to handle pixel art graphics, as the traditional scaling algorithms do not take such perceptual cues into account.
+
+
+=== Efficiency ===
+Since a typical application of this technology is improving the appearance of fourth-generation and earlier video games on arcade and console emulators, many are designed to run in real time for sufficiently small input images at 60 frames per second.
+Many work only on specific scale factors: 2× is the most common, with 3× and 4× also present.
+
+
+=== EPX/Scale2×/AdvMAME2× ===
+Eric's Pixel Expansion (EPX) is an algorithm developed by Eric Johnston at LucasArts around 1992, when porting the SCUMM engine games from the IBM PC (which ran at 320×200×256 colors) to the early color Macintosh computers, which ran at more or less double that resolution. The algorithm works as follows:
+
+  A    --\ 1 2
+C P B  --/ 3 4
+  D 
+ 1=P; 2=P; 3=P; 4=P;
+ IF C==A => 1=A
+ IF A==B => 2=B
+ IF B==D => 4=D
+ IF D==C => 3=C
+ IF of A, B, C, D, three or more are identical: 1=2=3=4=P
+
+Later implementations of this same algorithm (as AdvMAME2× and Scale2×, developed around 2001) have a slightly more efficient but functionally identical implementation:
+
+  A    --\ 1 2
+C P B  --/ 3 4
+  D 
+ 1=P; 2=P; 3=P; 4=P;
+ IF C==A AND C!=D AND A!=B => 1=A
+ IF A==B AND A!=C AND B!=D => 2=B
+ IF B==D AND B!=A AND D!=C => 4=D
+ IF D==C AND D!=B AND C!=A => 3=C
+
+The AdvMAME4×/Scale4× algorithm is just EPX applied twice to get 4× resolution.
+
+
+=== Scale3×/AdvMAME3× ===
+
+The AdvMAME3×/Scale3× algorithm can be thought of as a generalization of EPX to the 3× case. The corner pixels are calculated identically to EPX.
+
+A B C --\  1 2 3
+D E F    > 4 5 6
+G H I --/  7 8 9
+ 1=E; 2=E; 3=E; 4=E; 5=E; 6=E; 7=E; 8=E; 9=E;
+ IF D==B AND D!=H AND B!=F => 1=D
+ IF (D==B AND D!=H AND B!=F AND E!=C) OR (B==F AND B!=D AND F!=H AND E!=A) => 2=B
+ IF B==F AND B!=D AND F!=H => 3=F
+ IF (H==D AND H!=F AND D!=B AND E!=A) OR (D==B AND D!=H AND B!=F AND E!=G) => 4=D
+ 5=E
+ IF (B==F AND B!=D AND F!=H AND E!=I) OR (F==H AND F!=B AND H!=D AND E!=C) => 6=F
+ IF H==D AND H!=F AND D!=B => 7=D
+ IF (F==H AND F!=B AND H!=D AND E!=G) OR (H==D AND H!=F AND D!=B AND E!=I) => 8=H
+ IF F==H AND F!=B AND H!=D => 9=F
+
+
+=== Eagle ===
+
+Eagle works as follows: for every in pixel we will generate 4 out pixels. First, set all 4 to the color of the in pixel we are currently scaling (as nearest-neighbor). Next look at the pixels up and to the left; if they are the same color as each other, set the top left pixel to that color. Continue doing the same for all four pixels, and then move to the next one.
+
+Assume an input matrix of 3×3 pixels where the center most pixel is the pixel to be scaled, and an output matrix of 2×2 pixels (i.e., the scaled pixel)
+
+first:        |Then 
+. . . --\ CC  |S T U  --\ 1 2
+. C . --/ CC  |V C W  --/ 3 4
+. . .         |X Y Z
+              | IF V==S==T => 1=S
+              | IF T==U==W => 2=U
+              | IF V==X==Y => 3=X
+              | IF W==Z==Y => 4=Z
+
+Thus if we have a black pixel on a white background it will vanish. This is a bug in the Eagle algorithm, but is solved by its successors such as 2xSaI and HQ3x.
+
+
+=== 2×SaI ===
+2×SaI, short for 2× Scale and Interpolation engine, was inspired by Eagle. It was designed by Derek Liauw Kie Fa, also known as Kreed, primarily for use in console and computer emulators, and it has remained fairly popular in this niche. Many of the most popular emulators, including ZSNES and VisualBoyAdvance, offer this scaling algorithm as a feature.
+Since Kreed released the source code under the GNU General Public License, it is freely available to anyone wishing to utilize it in a project released under that license. Developers wishing to use it in a non-GPL project would be required to rewrite the algorithm without using any of Kreed's existing code.
+
+
+=== Super 2×SaI and Super Eagle ===
+
+Several slightly different versions of the scaling algorithm are available, and these are often referred to as Super 2×SaI and Super Eagle. Super Eagle, which is also written by Kreed, is similar to the 2×SaI engine, but does more blending. Super 2×SaI, which is also written by Kreed, is a filter that smooths the graphics, but it blends more than the Super Eagle engine.
+
+
+=== hqnx family ===
+
+Maxim Stepin's hq2x, hq3x, and hq4x are for scale factors of 2:1, 3:1, and 4:1 respectively. Each works by comparing the color value of each pixel to those of its eight immediate neighbours, marking the neighbours as close or distant, and using a pregenerated lookup table to find the proper proportion of input pixels' values for each of the 4, 9 or 16 corresponding output pixels. The hq3x family will perfectly smooth any diagonal line whose slope is ±0.5, ±1, or ±2 and which is not anti-aliased in the input; one with any other slope will alternate between two slopes in the output. It will also smooth very tight curves. Unlike 2xSaI, it anti-aliases the output.
+
+hqnx was initially created for the Super Nintendo emulator ZSNES. The author of bsnes has released a space-efficient implementation of hq2x to the public domain.
+
+
+=== xbr family ===
+There are 2 filters in this family: xBR and xBRZ.
+xBR, created by Hyllian, works much the same way as HQx (based on pattern recognition), and creates the same result from the above pattern. However, it goes further than HQx by using a 2-stage set of interpolation rules, which better handle more complex patterns such as anti-aliased lines and curves. Background textures keep the sharp characteristics of the original image rather than becoming blurry like with HQx.
+xBRZ, created by Zenju, is an enhancement of xBR. It was implemented from scratch in C++ using the same basic idea of xBR but with a different rule set: it preserves small image features consisting of few pixels only like commonly used in faces, in particular eyes.
+Technically it is optimized for multi-core CPUs and 64-bit architectures and shows 40-60% better performance than HQx even when running on a single CPU core only. xBRZ supports scaling images including an alpha channel and scaling factors from 2x up to 6x.
+
+
+=== RotSprite ===
+
+RotSprite is a scaling and rotation algorithm for sprites developed by Xenowhirl. It produces far fewer artifacts than nearest-neighbor rotation algorithms, and like EPX, it does not introduce new colors into the image (unlike most interpolation systems).
+The algorithm first scales the image to 8 times its original size with a modified Scale2× algorithm which treats similar (rather than identical) pixels as matches. It then calculates what rotation offset to use by favoring sampled points which are not boundary pixels. Next, the rotated image is created with a nearest-neighbor scaling and rotation algorithm that simultaneously shrinks the big image back to its original size and rotates the image. Finally, overlooked single-pixel details are restored if the corresponding pixel in the source image is different and the destination pixel has three identical neighbors.
+
+
+=== Kopf-Lischinski ===
+The Kopf-Lischinski algorithm is a novel way to extract resolution-independent vectors from pixel art described in the 2011 paper "Depixelizing Pixel Art".
+
+
+=== Comparison ===
+The following table shows a comparison of the above pixel scaling algorithms generated with the tool 2dimagefilter (linked below).
+
+
+== Applications to arcade and console emulators ==
+On sufficiently fast hardware, these algorithms are suitable for gaming and other real-time image processing software. These highly optimized algorithms provide sharp, crisp graphics while minimizing blur. Scaling art algorithms have been implemented in a wide range of emulators, 2D game engines and game engine recreations like HqMAME, DOSBox, and ScummVM. They have gained wide recognition with gamers, with whom these technologies have encouraged a revival of '80s and '90s gaming experiences.
+Such filters are currently used in commercial emulators on Xbox Live, Virtual Console, and PSN to allow classic low resolution games to be more visually appealing on modern HD displays. Recently released games that incorporate these filters include Sonic's Ultimate Genesis Collection, Castlevania: The Dracula X Chronicles, Castlevania: Symphony of the Night, and Akumajō Dracula X Chi no Rondo.
+
+
+== See also ==
+Bicubic interpolation
+Bilinear interpolation
+Lanczos resampling
+Spline interpolation
+Seam carving
+Supersampling
+
+
+== References ==
+
+
+== External links ==
+General Scaling – Leptonica
+FreeImage Display Demo
+2D Image Filters at code.google.com including Hqnx-family, SaI, Eagle, EPX, XBR, XBRz, Lanczos, etc.
+xBRZ Scaler Comparison and Testing Tool at SourceForge
+C Library implementing the xBR pixel art scaling algorithm at GitHub
+AVIR image resizing algorithm at GitHub

@@ -1,0 +1,29 @@
+The Newmark's sliding block analysis method is an engineering method used to calculate the permanent displacements of soil slopes (also embankments and dams) during seismic loading. It is also simply called Newmark's analysis or Sliding block method of slope stability analysis.
+
+
+== History ==
+The method is an extension of the Newmark's direct integration method originally proposed by Nathan M. Newmark in 1943. It was applied to the sliding block problem in a lecture delivered by him in 1965 in the British Geotechnical Association's 5th Rankine Lecture in London and published later in the Association's scientific journal Geotechnique. The extension owe a great deal to Nicolas Ambraseys whose doctoral thesis on the seismic stability of earth dams at Imperial College London in 1958 formed the basis of the method. At his Rankine Lecture, Newmark himself acknowledged Ambraseys' contribution to this method through various discussions between the two researchers while the latter was a Visiting Professor at the University of Illinois.
+
+
+== Method ==
+According to Kramer, the Newmark method is an improvement over the traditional pseudo-static method which considered the seismic slope failure only at limiting conditions (i.e. when the Factor of Safety, FOS, became equal to 1) and providing information about the collapse state but no information about the induced deformations. The new method points out that when the FOS becomes less than 1 "failure" does not necessarily occur as the time for which this happens is very short. However, each time the FOS falls below unity, some permanent deformations occur which accumulate whenever FOS < 1. The method further suggests that a failing mass from the slope may be considered as a block of mass sliding (and therefore sliding block) on an inclined surface only when the inertial force (acceleration x mass) acting on it, is equal or higher than the force required to cause sliding.
+Following these assumptions, the method suggests that whenever the acceleration (i.e. the seismic load) is higher than the critical acceleration required to cause collapse, which may be obtained from the traditional pseudo-static method (such as Sarma method ), permanent displacements will occur. The magnitude of these displacements is obtained by integrating twice (acceleration is the second time derivative of displacement) the difference of the apllied acceleration and the critical acceleration with respect to time.
+
+
+== Modern alternatives ==
+The method is still widely used nowadays in engineering practice to assess the consequences of earthquakes on slopes. In the special case of earth dams, it is used in conjunction with the shear beam method which can provide the acceleration time history at the level of the failure surface. It has been proved to give reasonable results and quite comparable to measured data.
+However, Newmark's sliding block assumes rigidity – perfect plasticity which is not realistic. It also cannot really take account of pore water pressure built-up during cyclic loading which can lead to initiation of liquefaction and different failures than simple distinct slip surfaces. As a result, more rigorous methods have been developed and are used nowadays in order to overcome these shortcomings. Numerical methods such as finite difference and finite element analysis are used which can employ more complicated elasto-plastic constitutive models simulating pre-yield elasticity.
+
+
+== See also ==
+Slope stability
+Slope stability analysis
+Earthquake engineering
+Finite element analysis
+
+
+== References ==
+
+
+== Bibliography ==
+Kramer, S. L. (1996) Geotechnical Earthquake Engineering. Prentice Hall, New Jersey.

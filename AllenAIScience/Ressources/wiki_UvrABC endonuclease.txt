@@ -1,0 +1,22 @@
+UvrABC endonuclease is a multienzyme complex in Escherichia coli involved in DNA repair by nucleotide excision repair, and it is, therefore, sometimes called an excinuclease. This UvrABC repair process, sometimes called the short-patch process, involves the removal of twelve nucleotides where a genetic mutation has occurred followed by a DNA polymerase, replacing these aberrant nucleotides with the correct nucleotides and completing the DNA repair. The subunits for this enzyme are encoded in the uvrA, uvrB, and uvrC genes. This enzyme complex is able to repair many different types of damage, including cyclobutyl dimer formation.
+
+
+== Mechanism ==
+Two UvrA proteins form a dimer and they both have ATPase/GTPase activity.
+The UvrA dimer binds with UvrB and forms a trimer that is able to detect DNA damage.The UvrA dimer functions as the unit responsible for the detection of DNA damage, probably through a mechanism of detecting distortions in the DNA double helix.
+The UvrB part of the trimer attaches to the double helix at the damaged site.
+The UvrA dimer leaves and a UvrC protein comes in and binds to the UvrB monomer and, hence, forms a new UvrBC dimer.
+This dimer is responsible for cleaving the nucleotides either side of the DNA damage. UvrB cleaves a phosphodiester bond four nucleotides downstream of the DNA damage, and the UvrC cleaves a phosphodiester bond eight nucleotides upstream of the DNA damage and created twelve nucleotide excised segment.
+DNA helicase II (sometimes called UvrD) then comes in and removes the excised segment by removing the base pairing. The UvrB still remains in place even though UvrC has disassociated at this stage, as UvrB may be involved to prevent the reannealing of the excised DNA.
+DNA polymerase I comes in and fills in the correct nucleotides sequence, kicking off UvrB in the process, and the last phosphodiester bond is completed by DNA ligase.
+
+
+== See also ==
+DNA repair
+endonuclease
+Nucleotide excision repair
+DNA
+
+
+== External links ==
+uvrABC endonuclease at the US National Library of Medicine Medical Subject Headings (MeSH)

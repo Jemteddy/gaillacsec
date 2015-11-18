@@ -1,0 +1,188 @@
+In mathematics, an inverse function is a function that "reverses" another function. That is, if f is a function mapping x to y, then the inverse function of f maps y back to x.
+
+
+== DefinitionsEdit ==
+
+Let f be a function whose domain is the set X, and whose image (range) is the set Y. Then f is invertible if there exists a function g with domain Y and image X, with the property:
+
+If f is invertible, the function g is unique, which means that there is exactly one function g satisfying this property (no more, no less). That function g is then called the inverse of f, and is usually denoted as f −1.
+Stated otherwise, a function is invertible if and only if its inverse relation is a function on the range Y, in which case the inverse relation is the inverse function.
+Not all functions have an inverse. For this rule to be applicable, each element y ∈ Y must correspond to no more than one x ∈ X; a function f with this property is called one-to-one or an injection. If f and f −1 are functions on X and Y respectively, then both are bijections. The inverse of an injection that is not a bijection is a partial function, that means for some y ∈ Y it is undefined.
+
+
+=== Example: squaring and square root functionsEdit ===
+The function f(x) = x2 may or may not be invertible, depending on what kinds of numbers are being considered (the "domain").
+If the domain is the real numbers, then each possible result y (except 0) corresponds to two different starting points in X – one positive and one negative, and so this function is not invertible: as it is impossible to deduce an input from its output. Such a function is called non-injective or information-losing.
+If the domain of the function is restricted to the nonnegative reals then the function is injective and invertible.
+
+
+=== Inverses in higher mathematicsEdit ===
+The definition given above is commonly adopted in set theory and calculus. In higher mathematics, the notation
+
+means "f is a function mapping elements of a set X to elements of a set Y ". The source, X, is called the domain of f, and the target, Y, is called the codomain. The codomain contains the range of f as a subset, and is part of the definition of f.
+When using codomains, the inverse of a function f: X → Y is required to have domain Y and codomain X. For the inverse to be defined on all of Y, every element of Y must lie in the range of the function f. A function with this property is called onto or surjective. Thus, a function with a codomain is invertible if and only if it is both injective (one-to-one) and surjective (onto). Such a function is called a one-to-one correspondence or a bijection, and has the property that every element y ∈ Y corresponds to exactly one element x ∈ X.
+
+
+=== Inverses and compositionEdit ===
+If f is an invertible function with domain X and range Y, then
+, for every 
+Using the composition of functions we can rewrite this statement as follows:
+
+where idX is the identity function on the set X; that is, the function that leaves its argument unchanged. In category theory, this statement is used as the definition of an inverse morphism.
+Considering function composition helps to understand the notation f −1. Repeatedly composing a function with itself is called iteration.If f is applied n times, starting with the value x, then this is written as f n(x); so f 2(x) = f (f (x)), etc. Since f −1(f (x)) = x, composing f −1 and f n yields f n−1, "undoing" the effect of one application of f.
+
+
+=== Note on notationEdit ===
+Whereas the notation f −1(x) might be misunderstood, f(x)−1 certainly denotes the multiplicative inverse of f(x) and has nothing to do with inversion of f.
+The expression sin−1 x does not represent the multiplicative inverse to sin x, but the inverse of the sine function applied to x (actually a partial inverse; see below). To avoid confusion, an inverse trigonometric function is often indicated by the prefix "arc" (for Latin arcus). For instance, the inverse of the sine function is typically called the arcsine function, written as arcsin. Similarly, the inverse of a hyperbolic function is indicated by the prefix "ar" (for Latin area).
+
+
+== PropertiesEdit ==
+
+
+=== UniquenessEdit ===
+If an inverse function exists for a given function f, it is unique: it must be the inverse relation.
+
+
+=== SymmetryEdit ===
+There is a symmetry between a function and its inverse. Specifically, if f is an invertible function with domain X and range Y, then its inverse f −1 has domain Y and range X, and the inverse of f −1 is the original function f. In symbols, for functions f:X→Y and g:Y→X,
+
+This follows from the connection between function inverse and relation inverse, because inversion of relations is an involution.
+This statement is an obvious consequence of the deduction that for f to be invertible it must be injective (first definition of the inverse) or bijective (second definition). The property of involutive symmetry can be concisely expressed by the following formula:
+
+The inverse of a composition of functions is given by the formula
+
+Notice that the order of g and f have been reversed; to undo f followed by g, we must first undo g and then undo f.
+For example, let f(x) = 3x and let g(x) = x + 5. Then the composition g ∘ f is the function that first multiplies by three and then adds five:
+
+To reverse this process, we must first subtract five, and then divide by three:
+
+This is the composition (f −1 ∘ g −1)(y).
+
+
+=== Self-inversesEdit ===
+If X is a set, then the identity function on X is its own inverse:
+
+More generally, a function f : X → X is equal to its own inverse if and only if the composition f ∘ f is equal to idX. Such a function is called an involution.
+
+
+== Inverses in calculusEdit ==
+Single-variable calculus is primarily concerned with functions that map real numbers to real numbers. Such functions are often defined through formulas, such as:
+
+A function f from the real numbers to the real numbers possesses an inverse as long as it is one-to-one, i.e. as long as the graph of y = f(x) has, for each possible y value only one corresponding x value, and thus passes the horizontal line test.
+The following table shows several standard functions and their inverses:
+
+
+=== Formula for the inverseEdit ===
+One approach to finding a formula for f −1, if it exists, is to solve the equation y = f(x) for x. For example, if f is the function
+
+then we must solve the equation y = (2x + 8)3 for x:
+
+Thus the inverse function f −1 is given by the formula
+
+Sometimes the inverse of a function cannot be expressed by a formula with a finite number of terms. For example, if f is the function
+
+then f is one-to-one, and therefore possesses an inverse function f −1. The formula for this inverse has an infinite number of terms:
+
+
+=== Graph of the inverseEdit ===
+
+If f is invertible, then the graph of the function
+
+is the same as the graph of the equation
+
+This is identical to the equation y = f(x) that defines the graph of f, except that the roles of x and y have been reversed. Thus the graph of f −1 can be obtained from the graph of f by switching the positions of the x and y axes. This is equivalent to reflecting the graph across the line y = x.
+
+
+=== Inverses and derivativesEdit ===
+A continuous function f is one-to-one (and hence invertible) if and only if it is either strictly increasing or decreasing (with no local maxima or minima). For example, the function
+
+is invertible, since the derivative f′(x) = 3x2 + 1 is always positive.
+If the function f is differentiable, then the inverse f −1 will be differentiable as long as f′(x) ≠ 0. The derivative of the inverse is given by the inverse function theorem:
+
+If we set y = f(x), then the formula above can be written
+
+This result follows from the chain rule (see the article on inverse functions and differentiation).
+The inverse function theorem can be generalized to functions of several variables. Specifically, a differentiable multivariable function f : Rn → Rn is invertible in a neighborhood of a point p as long as the Jacobian matrix of f at p is invertible. In this case, the Jacobian of f −1 at f(p) is the matrix inverse of the Jacobian of f at p.
+
+
+== Real-world examplesEdit ==
+1. Let f be the function that converts a temperature in degrees Celsius to a temperature in degrees Fahrenheit:
+
+then its inverse function converts degrees Fahrenheit to degrees Celsius:
+
+since
+
+2. Suppose f assigns each child in a family its birth year. An inverse function would output which child was born in a given year. However, if the family has twins (or triplets) then the output cannot be known when the input is the common birth year. As well, if a year is given in which no child was born then a child cannot be named. But if each child was born in a separate year, and if we restrict attention to the three years in which a child was born, then we do have an inverse function. For example,
+
+3. Let R be the function that leads to an x percentage rise of some quantity, and F be the function producing an x percentage fall. Applied to $100 with x = 10%, we find that applying the first function followed by the second does not restore the original value of $100, demonstrating the fact that, despite appearances, these two functions are not inverses of each other.
+
+
+== GeneralizationsEdit ==
+
+
+=== Partial inversesEdit ===
+
+Even if a function f is not one-to-one, it may be possible to define a partial inverse of f by restricting the domain. For example, the function
+
+is not one-to-one, since x2 = (−x)2. However, the function becomes one-to-one if we restrict to the domain x ≥ 0, in which case
+
+(If we instead restrict to the domain x ≤ 0, then the inverse is the negative of the square root of y.) Alternatively, there is no need to restrict the domain if we are content with the inverse being a multivalued function:
+
+Sometimes this multivalued inverse is called the full inverse of f, and the portions (such as √x and −√x) are called branches. The most important branch of a multivalued function (e.g. the positive square root) is called the principal branch, and its value at y is called the principal value of f −1(y).
+For a continuous function on the real line, one branch is required between each pair of local extrema. For example, the inverse of a cubic function with a local maximum and a local minimum has three branches (see the picture to the right).
+
+These considerations are particularly important for defining the inverses of trigonometric functions. For example, the sine function is not one-to-one, since
+
+for every real x (and more generally sin(x + 2πn) = sin(x) for every integer n). However, the sine is one-to-one on the interval [−π/2, π/2], and the corresponding partial inverse is called the arcsine. This is considered the principal branch of the inverse sine, so the principal value of the inverse sine is always between −π/2 and π/2. The following table describes the principal branch of each inverse trigonometric function:
+
+
+=== Left and right inversesEdit ===
+If f: X → Y, a left inverse for f (or retraction of f) is a function g: Y → X such that
+
+That is, the function g satisfies the rule
+If , then 
+Thus, g must equal the inverse of f on the image of f, but may take any values for elements of Y not in the image. A function f with a left inverse is necessarily injective. In classical mathematics, every injective function f necessarily has a left inverse; however, this may fail in constructive mathematics. For instance, a left inverse of the inclusion {0,1} → R of the two-element set in the reals violates indecomposability by giving a retraction of the real line to the set {0,1} .
+A right inverse for f (or section of f) is a function h: Y → X such that
+
+That is, the function h satisfies the rule
+If , then 
+Thus, h(y) may be any of the elements of X that map to y under f. A function f has a right inverse if and only if it is surjective (though constructing such an inverse in general requires the axiom of choice).
+An inverse which is both a left and right inverse must be unique. Likewise, if g is a left inverse for f, then g may or may not be a right inverse for f; and if g is a right inverse for f, then g is not necessarily a left inverse for f. For example let f: R → [0, ∞) denote the squaring map, such that f(x) = x2 for all x in R, and let g: [0, ∞) → R denote the square root map, such that g(x) = √x for all x ≥ 0. Then f(g(x)) = x for all x in [0, ∞); that is, g is a right inverse to f. However, g is not a left inverse to f, since, e.g., g(f(−1)) = 1 ≠ −1.
+
+
+=== PreimagesEdit ===
+If f: X → Y is any function (not necessarily invertible), the preimage (or inverse image) of an element y ∈ Y is the set of all elements of X that map to y:
+
+The preimage of y can be thought of as the image of y under the (multivalued) full inverse of the function f.
+Similarly, if S is any subset of Y, the preimage of S is the set of all elements of X that map to S:
+
+For example, take a function f: R → R, where f: x ↦ x2. This function is not invertible for reasons discussed above. Yet preimages may be defined for subsets of the codomain:
+
+The preimage of a single element y ∈ Y – a singleton set {y}  – is sometimes called the fiber of y. When Y is the set of real numbers, it is common to refer to f −1({y}) as a level set.
+
+
+== See alsoEdit ==
+Inverse function theorem, gives sufficient conditions for a function to be invertible in a neighborhood of a point in its domain and gives a formula for the derivative of the inverse function
+Inverse functions and differentiation
+Inverse relation
+Lagrange inversion theorem, gives the Taylor series expansion of the inverse function of an analytic function
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+Smith, Douglas; Eggen, Maurice; St. Andre, Richard (2006), A Transition to Advanced Mathematics (6th ed.), Thompson Brooks/Cole, ISBN 978-0-534-39900-9 
+Thomas, Jr., George B. (1972), Calculus and Analytic Geometry Part 1: Functions of One Variable and Analytic Geometry (Alternate ed.), Addison-Wesley 
+
+
+== Further readingEdit ==
+Spivak, Michael (1994), Calculus (3rd ed.), Publish or Perish, ISBN 0-914098-89-6 
+Stewart, James (2002), Calculus (5th ed.), Brooks Cole, ISBN 978-0-534-39339-7 
+
+
+== External linksEdit ==
+Hazewinkel, Michiel, ed. (2001), "Inverse function", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Wikibook: Functions
+Wolfram Mathworld: Inverse Function

@@ -1,0 +1,29 @@
+Differentiated service is a design pattern for business services and software, in which the service varies automatically according to the identity of the consumer and/or the context in which the service is used. Sometimes known as smart service or context-aware service.
+
+
+== Concept ==
+Differentiated service is extensively covered in a few narrow technical areas, such as telecoms networks and internet (see Differentiated services). It is also mentioned in some marketing sources, with reference to customer segmentation. But the general principle of service differentiation extends far beyond these domains, and it is one of the mechanisms for implementing flexibility in a service-oriented architecture (SOA).
+Various dimensions of the service can be differentiated, including:
+Information quality. For example, an information service providing stock prices may offer real-time prices to selected users, and 15-minute-delay prices to everyone else.
+Security. For example, a user may have restricted access to sensitive information when he is using an insecure network connection. And access to the financial accounts may be restricted prior to publication.
+Customer Segmentation. For example each retail customer may get a different set of special offers, and this can be generated dynamically, according to the contents of the shopping basket or the path through the store.
+Differentiating factors can include identity (including personalization) and context (including presence).
+
+
+== Examples ==
+Pay-As-You-Drive Insurance (PAYD)
+Telematics 2.0
+
+
+== See also ==
+Context awareness
+Context-aware pervasive systems
+Differentiated security
+
+
+== External links ==
+Differentiated Services
+Design Pattern: Differentiated Service (Fewer Interfaces than Components) CBDI Forum December 2000.
+Business Flexibility: Implementing Context Driven Services CBDI Forum June 2002.
+Smart Services SustainIT
+Manners Externalize Semantics for On-demand Composition of Context-aware Services

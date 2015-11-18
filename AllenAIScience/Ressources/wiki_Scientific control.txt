@@ -1,0 +1,60 @@
+A scientific control is an experiment or observation designed to minimize the effects of variables other than the single independent variable. This increases the reliability of the results, often through a comparison between control measurements and the other measurements. Scientific controls are a part of the scientific method.
+An example of a scientific control (sometimes called an "experimental control") might be testing plant fertilizer by giving it to only half the plants in a garden: the plants that receive no fertilizer are the control group, because they establish the baseline level of growth that the fertilizer-treated plants will be compared against. Without a control group, the experiment cannot determine whether the fertilizer-treated plants grow more than they would have if untreated.
+Ideally, all variables in an experiment will be controlled (accounted for by the control measurements) and none will be uncontrolled. In such an experiment, if all the controls work as expected, it is possible to conclude that the experiment is working as intended and that the results of the experiment are due to the effect of the variable being tested. That is, scientific controls allow an investigator to make a claim like "Two situations were identical until factor X occurred. Since factor X is the only difference between the two situations, the new outcome was caused by factor X."
+
+
+== Controlled experimentsEdit ==
+
+There are many forms of controlled experiments. A relatively simple one separates research subjects or biological specimens into two groups: an experimental group and a control group. No treatment is given to the control group, while the experimental group is changed according to some key variable of interest, and the two groups are otherwise kept under the same conditions.
+Controls eliminate alternate explanations of experimental results, especially experimental errors and experimenter bias. Many controls are specific to the type of experiment being performed, as in the molecular markers used in SDS-PAGE experiments, and may simply have the purpose of ensuring that the equipment is working properly. The selection and use of proper controls to ensure that experimental results are valid (for example, absent of confounding variables) can be very difficult. Control measurements may also be used for other purposes: for example, a measurement of a microphone's background noise in the absence of a signal allows the noise to be subtracted from later measurements of the signal, thus producing a processed signal of higher quality.
+For example, if a researcher feeds an experimental artificial sweetener to sixty laboratory rats and observes that ten of them subsequently become sick, the underlying cause could be the sweetener itself or something unrelated. Other variables, which may not be readily obvious, may interfere with the experimental design. For instance, perhaps the rats were simply not supplied with enough food or water, or the water was contaminated and undrinkable, or the rats were under some psychological or physiological stress, etc. Eliminating each of these possible explanations individually would be time-consuming and difficult. However, if a control group is used that does not receive the sweetener but is otherwise treated identically, any difference between the two groups can be ascribed to the sweetener itself with much greater confidence.
+
+
+== Types of controlEdit ==
+The simplest types of control are negative and positive controls, and both are found in many different types of experiments. These two controls, when both are successful, are usually sufficient to eliminate most potential confounding variables: it means that the experiment produces a negative result when a negative result is expected, and a positive result when a positive result is expected.
+
+
+=== NegativeEdit ===
+
+Negative controls are groups where no phenomenon is expected. They ensure that there is no effect when there should be no effect. To continue with the example of drug testing, a negative control is a group that has not been administered the drug of interest. This group receives either no preparation at all or a sham preparation (that is, a placebo), either an excipient-only (also called vehicle-only) preparation or the proverbial "sugar pill." We would say that the control group should show a negative or null effect.
+In an example where there are only two possible outcomes, positive and negative, then if the treatment group and the negative control both produce a negative result, it can be inferred that the treatment had no effect. If the treatment group and the negative control both produce a positive result, it can be inferred that a confounding variable acted on the experiment, and the positive results are not due to the treatment.
+In other examples, outcomes might be measured as lengths, times, percentages, and so forth. For the drug testing example, we could measure the percentage of patients cured. In this case, the treatment is inferred to have no effect when the treatment group and the negative control produce the same results. Some improvement is expected in the placebo group due to the placebo effect, and this result sets the baseline which the treatment must improve upon. Even if the treatment group shows improvement, it needs to be compared to the placebo group. If the groups show the same effect, then the treatment was not responsible for the improvement (because the same number of patients were cured in the absence of the treatment). The treatment is only effective if the treatment group shows more improvement than the placebo group.
+
+
+=== PositiveEdit ===
+Positive controls are groups where a phenomenon is expected. That is, they ensure that there is an effect when there should be an effect, by using an experimental treatment that is already known to produce that effect (and then comparing this to the treatment that is being investigated in the experiment).
+Positive controls are often used to assess test validity. For example, to assess a new test's ability to detect a disease (its sensitivity), then we can compare it against a different test that is already known to work. The well-established test is the positive control, since we already know that the answer to the question (whether the test works) is yes.
+Similarly, in an enzyme assay to measure the amount of an enzyme in a set of extracts, a positive control would be an assay containing a known quantity of the purified enzyme (while a negative control would contain no enzyme). The positive control should give a large amount of enzyme activity, while the negative control should give very low to no activity.
+If the positive control does not produce the expected result, there may be something wrong with the experimental procedure, and the experiment is repeated. For difficult or complicated experiments, the result from the positive control can also help in comparison to previous experimental results. For example, if the well-established disease test was determined to have the same effectiveness as found by previous experimenters, this indicates that the experiment is being performed in the same way that the previous experimenters did.
+When possible, multiple positive controls may be used — if there is more than one disease test that is known to be effective, more than one might be tested. Multiple positive controls also allow finer comparisons of the results (calibration, or standardization) if the expected results from the positive controls have different sizes. For example, in the enzyme assay discussed above, a standard curve may be produced by making many different samples with different quantities of the enzyme.
+
+
+=== RandomizationEdit ===
+
+In randomization, the groups that receive different experimental treatments are determined randomly. While this does not ensure that there are no differences between the groups, it ensures that the differences are distributed equally, thus correcting for systematic errors.
+For example, in experiments where crop yield is affected (e.g. soil fertility), the experiment can be controlled by assigning the treatments to randomly selected plots of land. This mitigates the effect of variations in soil composition on the yield.
+
+
+=== Blind experimentsEdit ===
+
+In blind experiments, at least some information is withheld from participants in the experiments (but not the experimenter). For example, to evaluate the success of a medical treatment, an outside expert might be asked to examine blood samples from each of the patients without knowing which patients received the treatment and which did not. If the expert's conclusions as to which samples represent the best outcome correlates with the patients who received the treatment, this allows the experimenter to have much higher confidence that the treatment is effective.
+The blinding eliminates effects such as confirmation bias and wishful thinking that might occur if the samples were evaluated by someone who knew which samples were in which group.
+
+
+=== Double-blind experimentsEdit ===
+
+In double-blind experiments, at least some participants and some experimenters do not possess full information while the experiment is being carried out. Double-blind experiments are most often used in clinical trials of medical treatments, to verify that the supposed effects of the treatment are produced only by the treatment itself. Trials are typically randomized and double-blinded, with two (statistically) identical groups of patients being compared. The treatment group receives the treatment, and the control group receives a placebo such as a sugar pill. The placebo is the "first" blind, and controls for the patient expectations that come with taking a pill, which can have an effect on patient outcomes. The "second" blind, of the experimenters, controls for the effects on patient expectations due to unintentional differences in the experimenters' behavior. Since the experimenters do not know which patients are in which group, they cannot unconsciously influence the patients. After the experiment is over, they then "unblind" themselves and analyse the results.
+In clinical trials involving a surgical procedure, a sham operated group is used to ensure that the data reflect the effects of the experiment itself, and are not a consequence of the surgery. In this case, double blinding is achieved by ensuring that the patient does not know whether their surgery was real or sham, and that the experimenters who evaluate patient outcomes are different from the surgeons and do not know which patients are in which group.
+
+
+== See alsoEdit ==
+False positive
+False negative
+Designed experiment
+Experiment
+Controlling for a variable
+James Lind cured scurvy using a controlled experiment that has been described as the first clinical trial.
+Wait list control group
+
+
+== ReferencesEdit ==

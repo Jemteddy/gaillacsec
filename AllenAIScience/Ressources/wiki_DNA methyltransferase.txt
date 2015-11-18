@@ -1,0 +1,68 @@
+In biochemistry, the DNA methyltransferase (DNA MTase) family of enzymes catalyze the transfer of a methyl group to DNA. DNA methylation serves a wide variety of biological functions. All the known DNA methyltransferases use S-adenosyl methionine (SAM) as the methyl donor.
+
+
+== Classification ==
+
+
+=== Substrate ===
+MTases can be divided into three different groups on the basis of the chemical reactions they catalyze:
+m6A - those that generate N6-methyladenine EC 2.1.1.72
+m4C - those that generate N4-methylcytosine EC 2.1.1.113
+m5C - those that generate C5-methylcytosine EC 2.1.1.37
+m6A and m4C methyltransferases are found primarily in prokaryotes. m5C methyltransfereases are found in some lower eukaryotes, in most higher plants, and in animals beginning with the echinoderms. thanh m6A methyltransferases (N-6 adenine-specific DNA methylase) (A-Mtase) are enzymes that specifically methylate the amino group at the C-6 position of adenines in DNA. They are found in the three existing types of bacterial restriction-modification systems (in type I system the A-Mtase is the product of the hsdM gene, and in type III it is the product of the mod gene). These enzymes are responsible for the methylation of specific DNA sequences in order to prevent the host from digesting its own genome via its restriction enzymes. These methylases have the same sequence specificity as their corresponding restriction enzymes. These enzymes contain a conserved motif Asp/Asn-Pro-Pro-Tyr/Phe in their N-terminal section, this conserved region could be involved in substrate binding or in the catalytic activity. The structure of N6-MTase TaqI (M.TaqI) has been resolved to 2.4 A. The molecule folds into 2 domains, an N-terminal catalytic domain, which contains the catalytic and cofactor binding sites, and comprises a central 9-stranded beta-sheet, surrounded by 5 helices; and a C-terminal DNA recognition domain, which is formed by 4 small beta-sheets and 8 alpha-helices. The N- and C-terminal domains form a cleft that accommodates the DNA substrate. A classification of N-MTases has been proposed, based on conserved motif (CM) arrangements. According to this classification, N6-MTases that have a DPPY motif (CM II) occurring after the FxGxG motif (CM I) are designated D12 class N6-adenine MTases. The type I restriction and modification system is composed of three polypeptides R, M and S. The M (hsdM) and S subunits together form a methyltransferase that methylates two adenine residues in complementary strands of a bipartite DNA recognition sequence. In the presence of the R subunit, the complex can also act as an endonuclease, binding to the same target sequence but cutting the DNA some distance from this site. Whether the DNA is cut or modified depends on the methylation state of the target sequence. When the target site is unmodified, the DNA is cut. When the target site is hemimethylated, the complex acts as a maintenance methyltransferase, modifying the DNA so that both strands become methylated. hsdM contains an alpha-helical domain at the N-terminus, the HsdM N-terminal domain.
+m4C methyltransferases (N-4 cytosine-specific DNA methylases) are enzymes that specifically methylate the amino group at the C-4 position of cytosines in DNA. Such enzymes are found as components of type II restriction-modification systems in prokaryotes. Such enzymes recognise a specific sequence in DNA and methylate a cytosine in that sequence. By this action they protect DNA from cleavage by type II restriction enzymes that recognise the same sequence
+m5C methyltransferases (C-5 cytosine-specific DNA methylase) (C5 Mtase) are enzymes that specifically methylate the C-5 carbon of cytosines in DNA to produce C5-methylcytosine. In mammalian cells, cytosine-specific methyltransferases methylate certain CpG sequences, which are believed to modulate gene expression and cell differentiation. In bacteria, these enzymes are a component of restriction-modification systems and serve as valuable tools for the manipulation of DNA. The structure of HhaI methyltransferase (M.HhaI) has been resolved to 2.5 A: the molecule folds into 2 domains - a larger catalytic domain containing catalytic and cofactor binding sites, and a smaller DNA recognition domain.
+
+
+=== De novo vs. maintenance ===
+De novo methyltransferases recognize something in the DNA that allows them to newly methylate cytosines. These are expressed mainly in early embryo development and they set up the pattern of methylation.
+Maintenance methyltransferases add methylation to DNA when one strand is already methylated. These work throughout the life of the organism to maintain the methylation pattern that had been established by the de novo methyltransferases IS.
+
+
+== Mammalian ==
+Three active DNA methyltransferases have been identified in mammals. They are named DNMT1, DNMT3A, and DNMT3B. A fourth enzyme previously known as DNMT2 is not a DNA methyltransferase (see below).
+DNMT3L is a protein closely related to DNMT3A and DNMT3B in structure and critical for DNA methylation, but appears to be inactive on its own.
+
+
+=== DNMT1 ===
+DNMT1 is the most abundant DNA methyltransferase in mammalian cells, and considered to be the key maintenance methyltransferase in mammals. It predominantly methylates hemimethylated CpG di-nucleotides in the mammalian genome. This enzyme is 7– to 100-fold more active on hemimethylated DNA as compared with unmethylated substrate in vitro, but it is still more active at de novo methylation than other DNMTs. The recognition motif for the human enzyme involves only three of the bases in the CpG dinuclotide pair: a C on one strand and CpG on the other. This relaxed substrate specificity requirement allows it to methylate unusual structures like DNA slippage intermediates at de novo rates that equal its maintenance rate. Like other DNA cytosine-5 methyltransferases the human enzyme recognizes flipped out cytosines in double stranded DNA and operates by the nucleophilic attack mechanism. In human cancer cells DNMT1 is responsible for both de novo and maintenance methylation of tumor suppressor genes. The enzyme is about 1,620 amino acids long. The first 1,100 amino acids constitute the regulatory domain of the enzyme, and the remaining residues constitute the catalytic domain. These are joined by Gly-Lys repeats. Both domains are required for the catalytic function of DNMT1.
+DNMT1 has several isoforms, the somatic DNMT1, a splice variant (DNMT1b) and an oocyte-specific isoform (DNMT1o). DNMT1o is synthesized and stored in the cytoplasm of the oocyte and translocated to the cell nucleus during early embryonic development, while the somatic DNMT1 is always found in the nucleus of somatic tissue.
+DNMT1 null mutant embryonic stem cells were viable and contained a small percentage of methylated DNA and methyltransferase activity. Mouse embryos homozygous for a deletion in Dnmt1 die at 10–11 days gestation.
+
+
+=== TRDMT1 ===
+Although this enzyme has strong sequence similarities with 5-methylcytosine methyltransferases of both prokaryotes and eukaryotes, in 2006, the enzyme was shown to methylate position 38 in aspartic acid transfer RNA and does not methylate DNA. To reflect this different function, the name for this methyltransferase has been changed to TRDMT1 (tRNA aspartic acid methyltransferase 1) to better reflect its biological function. TRDMT1 is the first RNA cytosine methyltransferase to be identified in a human.
+
+
+=== DNMT 3 ===
+DNMT3 is a family of DNA methyltransferases that could methylate hemimethylated and unmethylated CpG at the same rate. The architecture of DNMT3 enzymes is similar to that of DNMT1, with a regulatory region attached to a catalytic domain. There are three known members of the DNMT3 family: DNMT3a, 3b, and 3L.
+DNMT3a and DNMT3b can mediate methylation-independent gene repression. DNMT3a can co-localize with heterochromatin protein (HP1) and methyl-CpG-binding protein (MeCBP). They can also interact with DNMT1, which might be a co-operative event during DNA methylation. DNMT3a prefers CpG methylation to CpA, CpT, and CpC methylation, though there appears to be some sequence preference of methylation for DNMT3a and DNMT3b. DNMT3a methylates CpG sites at a rate much slower than DNMT1, but greater than DNMT3b.
+DNMT3L contains DNA methyltransferase motifs and is required for establishing maternal genomic imprints, despite being catalytically inactive. DNMT3L is expressed during gametogenesis when genomic imprinting takes place. The loss of DNMT3L leads to bi-allelic expression of genes normally not expressed by the maternal allele. DNMT3L interacts with DNMT3a and DNMT3b and co-localized in the nucleus. Though DNMT3L appears incapable of methylation, it may participate in transcriptional repression.
+
+
+== Clinical significance ==
+Because of the epigenetic effects of the DNMT family, some DNMT inhibitors are under investigation for treatment of some cancers:
+Vidaza (azacitidine) in phase III trials for Myelodysplastic Syndromes and AML
+Dacogen (decitabine) in phase III trials for AML and CML
+
+
+== See also ==
+Methyltransferase
+DNA methylation
+PRMT4 pathway
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Information about DNA methyltransferases and DNA methylation at epigeneticstation.com
+Data for a DNA methyltransferase (DNMT) Antibody
+DNA Modification Methyltransferases at the US National Library of Medicine Medical Subject Headings (MeSH)
+This article incorporates text from the public domain Pfam and InterPro IPR001525
+This article incorporates text from the public domain Pfam and InterPro IPR003356
+This article incorporates text from the public domain Pfam and InterPro IPR012327
+This article incorporates text from the public domain Pfam and InterPro IPR002941

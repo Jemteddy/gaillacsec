@@ -1,0 +1,66 @@
+Cluster decay, also named heavy particle radioactivity or heavy ion radioactivity, is a type of nuclear decay in which an atomic nucleus emits a small "cluster" of neutrons and protons, more than in an alpha particle, but less than a typical binary fission fragment. Ternary fission into three fragments also produces products in the cluster size. The loss of protons from the parent nucleus changes it to the nucleus of a different element, the daughter, with a mass number Ad = A - Ae and atomic number Zd = Z - Ze where Ae = Ne + Ze.  For example:
+223
+88Ra → 14
+6C + 209
+82Pb
+This type of rare decay mode was observed in radioisotopes that decay predominantly by alpha emission, and it occurs only in a small percentage of the decays for all such isotopes.
+The branching ratio with respect to alpha decay
+
+is rather small (see the Table below). Ta and Tc are the half-lives of the parent nucleus relative to alpha decay and cluster radioactivity, respectively.
+Cluster decay, like alpha decay, is a quantum tunneling process: in order to be emitted, the cluster must penetrate a potential barrier. This is a different process than the more random nuclear disintegration that precedes light fragment emission in ternary fission, which may be a result of a nuclear reaction, but can also be a type of spontaneous radioactive decay in certain nuclides, demonstrating that input energy is not necessarily needed for fission, which remains a fundamentally different process mechanistically.
+Theoretically any nucleus with Z > 40 for which the released energy (Q value) is a positive quantity, can be a cluster-emitter. In practice, observations are severely restricted to limitations imposed by currently available experimental techniques which require a sufficiently short half-life, Tc < 1032 s, and a sufficiently large branching ratio B > 10−17.
+In the absence of any energy loss for fragment deformation and excitation, as in cold fission phenomena or in alpha decay, the total kinetic energy is equal to the Q-value and is divided between the particles in inverse proportion with their masses, as required by conservation of linear momentum
+
+where Ad is the mass number of the daughter, Ad = A – Ae.
+Cluster decay exists in an intermediate position between alpha decay (in which a nucleus spits out a He4 nucleus), and spontaneous fission, in which a heavy nucleus splits into two (or more) large fragments and an assorted number of neutrons. Spontaneous fission ends up with a probabilistic distribution of daughter products, which sets it apart from cluster decay. In cluster decay for a given radioisotope, the emitted particle is a light nucleus and the decay method always emits this same particle. For heavier emitted clusters there is otherwise practically no qualitative difference between cluster decay and spontaneous cold fission.
+
+
+== History ==
+The first information about the atomic nucleus was obtained at the beginning of the 20th century by studying radioactivity. For a long period of time only three kinds of nuclear decay modes (alpha, beta, and gamma) were known. They illustrate three of the fundamental interactions in nature: strong, weak, and electromagnetic. Spontaneous fission became popular soon after its discovery in 1940 by K. Petrzhak and G. Flerov owing to both military and peaceful applications of neutron-induced fission discovered in 1939 by Otto Hahn, Lise Meitner, and Fritz Strassmann, employing the large amount of energy released during the process.
+There are many other kinds of radioactivity, e.g. cluster decay, proton decay, various beta-delayed decay modes (p, 2p, 3p, n, 2n, 3n, 4n, d, t, alpha, f), fission isomers, particle accompanied (ternary) fission, etc. The height of the potential barrier, mainly of Coulomb nature, for emission of the charged particles is much higher than the observed kinetic energy of the emitted particles. The spontaneous decay can only be explained by quantum tunneling in a similar way to the first application of the Quantum Mechanics to Nuclei given by G. Gamow for alpha decay.
+"In 1980 A. Sandulescu, D.N. Poenaru, and W. Greiner described calculations indicating the possibility of a new type of decay of heavy nuclei intermediate between alpha decay and spontaneous fission. The first observation of heavy-ion radioactivity was that of a 30-MeV, carbon-14 emission from radium-223 by H.J. Rose and G.A. Jones in 1984".
+
+Usually the theory explains an already experimentally observed phenomenon. Cluster decay is one of the rare examples of phenomena predicted before experimental discovery. Theoretical predictions were made in 1980, four years before experimental discovery.
+Four theoretical approaches were used: fragmentation theory by solving a Schrödinger equation with mass asymmetry as a variable to obtain the mass distributions of fragments; penetrability calculations similar to those used in traditional theory of alpha decay, and superasymmetric fission models, numerical (NuSAF) and analytical (ASAF). Superasymmetric fission models are based on the macroscopic-microscopic approach using the asymmetrical two-center shell model level energies as input data for the shell and pairing corrections. Either the liquid drop model or the Yukawa-plus-exponential model extended to different charge-to-mass ratios have been used to calculate the macroscopic deformation energy.
+Penetrability theory predicted eight decay modes: 14C, 24Ne, 28Mg, 32,34Si, 46Ar, and 48,50Ca from the following parent nuclei: 222,224Ra, 230,232Th, 236,238U, 244,246Pu, 248,250Cm, 250,252Cf, 252,254Fm, and 252,254No.
+The first experimental report was published in 1984, when physicists at Oxford University discovered that 223Ra emits one 14C nucleus out of every billion (109) alpha decays.
+
+
+== Theory ==
+The quantum tunneling may be calculated either by extending fission theory to a larger mass asymmetry or by heavier emitted particle from alpha decay theory.
+Both fission-like and alpha-like approaches are able to express the decay constant  = ln 2 / Tc, as a product of three model-dependent quantities
+
+where  is the frequency of assaults on the barrier per second, S is the preformation probability of the cluster at the nuclear surface, and Ps is the penetrability of the external barrier. In alpha-like theories S is an overlap integral of the wave function of the three partners (parent, daughter, and emitted cluster). In a fission theory the preformation probability is the penetrability of the internal part of the barrier from the initial turning point Ri to the touching point Rt. Very frequently it is calculated by using the Wentzel-Kramers-Brillouin (WKB) approximation.
+A very large number, of the order 105, of parent-emitted cluster combinations were considered in a systematic search for new decay modes. The large amount of computations could be performed in a reasonable time by using the ASAF model developed by Dorin N Poenaru, Walter Greiner, et al. The model was the first to be used to predict measurable quantities in cluster decay. More than 150 cluster decay modes have been predicted before any other kind of half-lives calculations have been reported. Comprehensive tables of half-lives, branching ratios, and kinetic energies have been published, e.g. . Potential barrier shapes similar to that considered within the ASAF model have been calculated by using the macroscopic-microscopic method.
+Previously it was shown that even alpha decay may be considered a particular case of cold fission. The ASAF model may be used to describe in a unified manner cold alpha decay, cluster decay, and cold fission (see figure 6.7, p. 287 of the Ref. [2]).
+One can obtain with good approximation one universal curve (UNIV) for any kind of cluster decay mode with a mass number Ae, including alpha decay
+
+In a logarithmic scale the equation log T = f(log Ps) represents a single straight line which can be conveniently used to estimate the half-life. A single universal curve for alpha decay and cluster decay modes results by expressing log T + log S = f(log Ps). The experimental data on cluster decay in three groups of even-even, even-odd, and odd-even parent nuclei are reproduced with comparable accuracy by both types of universal curves, fission-like UNIV and UDL derived using alpha-like R-matrix theory.
+In order to find the released energy
+
+one can use the compilation of measured masses M, Md, and Me of the parent, daughter, and emitted nuclei, c is the light velocity. The mass excess is transformed into energy according to the Einstein's formula E = mc2.
+
+
+== Experiments ==
+The main experimental difficulty in observing cluster decay comes from the need to identify a few rare events among an enormous number of background alpha particle. The quantities experimentally determined are the partial half life, Tc, and the kinetic energy of the emitted cluster Ek. There is also a need to identify the emitted particle.
+Detection of radiations is based on their interactions with matter, leading mainly to ionizations. Using a semiconductor telescope and conventional electronics to identify the 14C ions, the Rose and Jones's experiment was running for about six months in order to get 11 useful events.
+With modern magnetic spectrometers (SOLENO and Enge-split pole), at Orsay and Argonne National Laboratory (see ch. 7 in Ref. [2] pp. 188–204), a very strong source could be used, so that results were obtained in a run of few hours.
+Solid state nuclear track detectors (SSNTD) insensitive to alpha particles and magnetic spectrometers in which alpha particles are deflected by a strong magnetic field have been used to overcome this difficulty. SSNTD are cheap and handy but they need chemical etching and microscope scanning.
+A key role in experiments on cluster decay modes performed in Berkeley, Orsay, Dubna, and Milano played P. Buford Price, Eid Hourany, Michel Hussonnois, Svetlana Tretyakova, A. A. Ogloblin, Roberto Bonetti, and their coworkers.
+The main region of 20 emitters experimentally observed until 2010 is above Z=86: 221Fr, 221-224,226Ra, 223,225Ac, 228,230Th, 231Pa, 230,232-236U, 236,238Pu, and 242Cm. Only upper limits could be detected in the following cases: 12C decay of 114Ba, 15N decay of 223Ac, 18O decay of 226Th, 24,26Ne decays of 232Th and of 236U, 28Mg decays of 232,233,235U, 30Mg decay of 237Np, and 34Si decay of 240Pu and of 241Am.
+Some of the cluster emitters are members of the three natural radioactive families. Others should be produced by nuclear reactions. Up to now no odd-odd emitter has been observed.
+From many decay modes with half-lives and branching ratios relative to alpha decay predicted with the analytical superasymmetric fission (ASAF) model, the following 11 have been experimentally confirmed: 14C, 20O, 23F, 22,24-26Ne, 28,30Mg, and 32,34Si. The experimental data are in good agreement with predicted values. A strong shell effect can be seen: as a rule the shortest value of the half-life is obtained when the daughter nucleus has a magic number of neutrons (Nd = 126) and/or protons (Zd = 82).
+The known cluster emissions as of 2010 are as follows:
+
+
+== Fine structure ==
+The fine structure in 14C radioactivity of 223Ra was discussed for the first time by M. Greiner and W. Scheid in 1986. The superconducting spectrometer SOLENO of IPN Orsay has been used since 1984 to identify 14C clusters emitted from 222-224,226Ra nuclei. Moreover it was used to discover the fine structure observing transitions to excited states of the daughter. A transition with an excited state of 14C predicted in Ref. [24] was not yet observed.
+Surprisingly, the experimentalists had seen a transition to the first excited state of the daughter stronger than that to the ground state. The transition is favoured if the uncoupled nucleon is left in the same state in both parent and daughter nuclei. Otherwise the difference in nuclear structure leads to a large hindrance.
+The interpretation was confirmed: the main spherical component of the deformed parent wave function has an i11/2 character, i.e. the main component is spherical.
+
+
+== References ==
+
+
+== External links ==
+National Nuclear Data Center

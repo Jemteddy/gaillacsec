@@ -1,0 +1,43 @@
+Solid-phase extraction (SPE) is a sample preparation process by which compounds that are dissolved or suspended in a liquid mixture are separated from other compounds in the mixture according to their physical and chemical properties. Analytical laboratories use solid phase extraction to concentrate and purify samples for analysis. Solid phase extraction can be used to isolate analytes of interest from a wide variety of matrices, including urine, blood, water, beverages, soil, and animal tissue.
+SPE uses the affinity of solutes dissolved or suspended in a liquid (known as the mobile phase) for a solid through which the sample is passed (known as the stationary phase) to separate a mixture into desired and undesired components. The result is that either the desired analytes of interest or undesired impurities in the sample are retained on the stationary phase. The portion that passes through the stationary phase is collected or discarded, depending on whether it contains the desired analytes or undesired impurities. If the portion retained on the stationary phase includes the desired analytes, they can then be removed from the stationary phase for collection in an additional step, in which the stationary phase is rinsed with an appropriate eluent.
+
+
+== Normal phase SPE procedure ==
+
+A typical solid phase extraction involves five basic steps. First, the cartridge is equilibrated with a non-polar or slightly polar solvent, which wets the surface and penetrates the bonded phase. Then water, or buffer of the same composition as the sample, is typically washed through the column to wet the silica surface. The sample is then added to the cartridge. As the sample passes through the stationary phase, the polar analytes in the sample will interact and retain on the polar sorbent while the solvent, and other non-polar impurities pass through the cartridge. After the sample is loaded, the cartridge is washed with a non-polar solvent to remove further impurities. Then, the analyte is eluted with a polar solvent or a buffer of the appropriate pH.
+A stationary phase of polar functionally bonded silicas with short carbons chains frequently makes up the solid phase. This stationary phase will adsorb polar molecules which can be collected with a more polar solvent.
+
+
+== Reversed phase SPE ==
+Reversed phase SPE separates analytes based on their polarity. The stationary phase of a reversed phase SPE cartridge is derivatized with hydrocarbon chains, which retain compounds of mid to low polarity due to the hydrophobic effect. The analyte can be eluted by washing the cartridge with a non-polar solvent, which disrupts the interaction of the analyte and the stationary phase.
+A stationary phase of silicon with carbon chains is commonly used. Relying on mainly non-polar, hydrophobic interactions, only non-polar or very weakly polar compounds will adsorb to the surface.
+
+
+== Ion exchange SPE ==
+Ion exchange sorbents separate analytes based on electrostatic interactions between the analyte of interest and the positively or negatively charged groups on the stationary phase. For ion exchange to occur, both the stationary phase and sample must be at a pH where both are charged.
+
+
+=== Anion exchange ===
+Anion exchange sorbents are derivatized with positively charged functional groups that interact and retain negatively charged anions, such as acids. Strong anion exchange sorbents contain quaternary ammonium groups that have a permanent positive charge in aqueous solutions, and weak anion exchange sorbents use amine groups which are charged when the pH is below about 9. Strong anion exchange sorbents are useful because any strongly acidic impurities in the sample will bind to the sorbent and usually will not be eluted with the analyte of interest; to recover a strong acid a weak anion exchange cartridge should be used. To elute the analyte from either the strong or weak sorbent, the stationary phase is washed with a solvent that neutralizes the charge of either the analyte, the stationary phase, or both. Once the charge is neutralized, the electrostatic interaction between the analyte and the stationary phase no longer exists and the analyte will elute from the cartridge.
+
+
+=== Cation exchange ===
+Cation exchange sorbents are derivatized with functional groups that interact and retain positively charged cations, such as bases. Strong cation exchange sorbents contain aliphatic sulfonic acid groups that are always negatively charged in aqueous solution, and weak cation exchange sorbents contain aliphatic carboxylic acids, which are charged when the pH is above about 5. Strong cation exchange sorbents are useful because any strongly basic impurities in the sample will bind to the sorbent and usually will not be eluted with the analyte of interest; to recover a strong base a weak cation exchange cartridge should be used. To elute the analyte from either the strong or weak sorbent, the stationary phase is washed with a solvent that neutralizes ionic interaction between the analyte and the stationary phase.
+
+
+== Cartridges ==
+The stationary phase comes in the form of a packed syringe-shaped cartridge, a 96 well plate, a 47- or 90-mm flat disk, or a MEPS device, each of which can be mounted on its specific type of extraction manifold. The manifold allows multiple samples to be processed by holding several SPE media in place and allowing for an equal number of samples to pass through them simultaneously. A typical cartridge SPE manifold can accommodate up to 24 cartridges, while a typical disk SPE manifold can accommodate 6 disks. Most SPE manifolds are equipped with a vacuum port. Application of vacuum speeds up the extraction process by pulling the liquid sample through the stationary phase. The analytes are collected in sample tubes inside or below the manifold after they pass through the stationary phase.
+Solid phase extraction cartridges and disks are available with a variety of stationary phases, each of which can separate analytes according to different chemical properties. Most stationary phases are based on silica that has been bonded to a specific functional group. Some of these functional groups include hydrocarbon chains of variable length (for reversed phase SPE), quaternary ammonium or amino groups (for anion exchange), and sulfonic acid or carboxyl groups (for cation exchange).
+
+
+== Solid-phase microextraction ==
+Solid-phase microextraction (SPME), is a solid phase extraction technique that involves the use of a fiber coated with an extracting phase, that can be a liquid (polymer) or a solid (sorbent), which extracts different kinds of analytes (including both volatile and non-volatile) from different kinds of media, that can be in liquid or gas phase. The quantity of analyte extracted by the fibre is proportional to its concentration in the sample as long as equilibrium is reached or, in case of short time pre-equilibrium, with help of convection or agitation.
+
+
+== References ==
+
+
+== Further reading ==
+E. M. Thurman, M. S. Mills, Solid-Phase Extraction: Principles and Practice, Wiley-Interscience, 1998, ISBN 978-0-471-61422-7
+Nigel J.K. Simpson, Solid-Phase Extraction: Principles, Techniques, and Applications, CRC, 2000, ISBN 978-0-8247-0021-8
+James S. Fritz, Analytical Solid-Phase Extraction, Wiley-VCH, 1999, ISBN 978-0-471-24667-1

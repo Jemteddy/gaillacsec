@@ -1,0 +1,129 @@
+Microwave transmission is the transmission of information or energy by electromagnetic waves whose wavelengths are measured in small numbers of centimetre; these are called microwaves. This part of the radio spectrum ranges across frequencies of roughly 1.0 gigahertz (GHz) to 300 GHz. These correspond to wavelengths from 30 centimeters down to 1.0 cm.
+
+
+== Uses ==
+Microwaves are widely used for point-to-point communications because their small wavelength allows conveniently-sized antennas to direct them in narrow beams, which can be pointed directly at the receiving antenna. This allows nearby microwave equipment to use the same frequencies without interfering with each other, as lower frequency radio waves do. Another advantage is that the high frequency of microwaves gives the microwave band a very large information-carrying capacity; the microwave band has a bandwidth 30 times that of all the rest of the radio spectrum below it. A disadvantage is that microwaves are limited to line of sight propagation; they cannot pass around hills or mountains as lower frequency radio waves can.
+Microwave radio transmission is commonly used in point-to-point communication systems on the surface of the Earth, in satellite communications, and in deep space radio communications. Other parts of the microwave radio band are used for radars, radio navigation systems, sensor systems, and radio astronomy.
+The next higher part of the radio electromagnetic spectrum, where the frequencies are above 30 GHz and below 100 GHz, are called "millimeter waves" because their wavelengths are conveniently measured in millimeters, and their wavelengths range from 10 mm down to 3.0 mm. Radio waves in this band are usually strongly attenuated by the Earthly atmosphere and particles contained in it, especially during wet weather. Also, in wide band of frequencies around 60 GHz, the radio waves are strongly attenuated by molecular oxygen in the atmosphere. The electronic technologies needed in the millimeter wave band are also much more difficult to utilize than those of the microwave band
+Wireless transmission of information
+One-way (e.g. television broadcasting) and two-way telecommunication using communications satellite
+Terrestrial microwave relay links in telecommunications networks including backbone or backhaul carriers in cellular networks linking BTS-BSC and BSC-MSC.
+
+Wireless transmission of power
+Proposed systems e.g. for connecting solar power collecting satellites to terrestrial power grids
+
+
+== Microwave radio relay ==
+
+Microwave radio relay is a technology for transmitting digital and analog signals, such as long-distance telephone calls, television programs, and computer data, between two locations on a line of sight radio path. In microwave radio relay, microwaves are transmitted between the two locations with directional antennas, forming a fixed radio connection between the two points. The requirement of a line of sight limits the distance between stations to 30 or 40 miles.
+Beginning in the 1940s, networks of microwave relay links, such as the AT&T Long Lines system in the U.S., carried long distance telephone calls and television programs between cities. The first system, dubbed TD-2 and built by AT&T, connected New York and Boston in 1947 with a series of eight radio relay stations. These included long daisy-chained series of such links that traversed mountain ranges and spanned continents. Much of the transcontinental traffic is now carried by cheaper optical fibers and communication satellites, but microwave relay remains important for shorter distances.
+
+
+=== How microwave radio relay links are formed ===
+
+Because the radio waves travel in narrow beams confined to a line-of-sight path from one antenna to the other, they don't interfere with other microwave equipment, and nearby microwave links can use the same frequencies. Antennas used must be highly directional (High gain); these antennas are installed in elevated locations such as large radio towers in order to be able to transmit across long distances. Typical types of antenna used in radio relay link installations are parabolic antennas, dielectric lens, and horn-reflector antennas, which have a diameter of up to 4 meters. Highly directive antennas permit an economical use of the available frequency spectrum, despite long transmission distances.
+
+
+=== Planning considerations ===
+Because of the high frequencies used, a quasi-optical line of sight between the stations is generally required. Additionally, in order to form the line of sight connection between the two stations, the first Fresnel zone must be free from obstacles so the radio waves can propagate across a nearly uninterrupted path. Obstacles in the signal field cause unwanted attenuation, and are as a result only acceptable in exceptional cases. High mountain peak or ridge positions are often ideal: Europe's highest radio relay station, the Richtfunkstation Jungfraujoch, is situated atop the Jungfraujoch ridge at an altitude of 3,705 meters (12,156 ft) above sea level.
+
+Obstacles, the curvature of the Earth, the geography of the area and reception issues arising from the use of nearby land (such as in manufacturing and forestry) are important issues to consider when planning radio links. In the planning process, it is essential that "path profiles" are produced, which provide information about the terrain and Fresnel zones affecting the transmission path. The presence of a water surface, such as a lake or river, in the mid-path region also must be taken into consideration as it can result in a near-perfect reflection (even modulated by wave or tide motions), creating multipath distortion as the two received signals ("wanted" and "unwanted") swing in and out of phase. Multipath fades are usually deep only in a small spot and a narrow frequency band, so space and/or frequency diversity schemes would be applied to mitigate these effects.
+The effects of atmospheric stratification cause the radio path to bend downward in a typical situation so a major distance is possible as the earth equivalent curvature increases from 6370 km to about 8500 km (a 4/3 equivalent radius effect). Rare events of temperature, humidity and pressure profile versus height, may produce large deviations and distortion of the propagation and affect transmission quality. High intensity rain and snow must also be considered as an impairment factor, especially at frequencies above 10 GHz. All previous factors, collectively known as path loss, make it necessary to compute suitable power margins, in order to maintain the link operative for a high percentage of time, like the standard 99.99% or 99.999% used in 'carrier class' services of most telecommunication operators.
+The longest microwave radio relay known up to date crosses the Red Sea with 360 km hop between Jebel Erba (2170m a.s.l., 20°44'46.17"N 36°50'24.65"E, Sudan) and Jebel Dakka (2572m a.s.l., 21° 5'36.89"N 40°17'29.80"E, Saudi Arabia). The link built in 1979 by Telettra allowed to proper transmit 300 telephone channels and 1 TV signal, in the 2 GHz frequency band. (Hop distance is the distance between two microwave stations) 
+
+
+=== History ===
+
+In 1931 an Anglo-French consortium headed by Andre C. Clavier demonstrated an experimental microwave relay link across the English Channel using 10 foot (3 m) dishes. Telephony, telegraph and facsimile data was transmitted over the bidirectional 1.7 GHz beams 64 km (40 miles) between Dover, UK and Calais, France. The radiated power, produced by a miniature Barkhausen-Kurz tube located at the dish's focus, was one-half watt. A 1933 military microwave link between airports at St. Inglevert, UK and Lympne, France, a distance of 56 km (35 miles) was followed in 1935 by a 300 MHz telecommunication link, the first commercial microwave relay system.
+The development of radar during World War II provided much of the microwave technology which made practical microwave communication links possible, particularly the klystron oscillator and techniques of designing parabolic antennas.
+During the 1950s the AT&T Long Lines system of microwave relay links grew to carry the majority of US long distance telephone traffic, as well as intercontinental television network signals. The prototype was called TDX and was tested with a connection between New York City and Murray Hill, the location of Bell Laboratories in 1946. The TDX system was set up between New York and Boston in 1947. The TDX was improved to the TD2, which still used klystron tubes in the transmitters, and then later to the TD3 that used solid state electronics. The main motivation in 1946 to use microwave radio instead of cable was that a large capacity could be installed quickly and at less cost. It was expected at that time that the annual operating costs for microwave radio would be greater than for cable. There were two main reasons that a large capacity had to be introduced suddenly: Pent up demand for long distance telephone service, because of the hiatus during the war years, and the new medium of television, which needed more bandwidth than radio.
+Though not commonly known, the US military used both portable and fixed-station microwave communications in the European Theater during WWII. Starting in the late 1940s, this continued to some degree into the 1960s, when many of these links were supplanted with tropospheric scatter or satellite systems. When the NATO military arm was formed, much of this existing equipment was transferred to communications groups. The typical communications systems used by NATO during that time period consisted of the technologies which had been developed for use by the telephone carrier entities in host countries. One example from the USA is the RCA CW-20A 1–2 GHz microwave relay system which utilized flexible UHF cable rather than the rigid waveguide required by higher frequency systems, making it ideal for tactical applications. The typical microwave relay installation or portable van had two radio systems (plus backup) connecting two LOS sites. These radios would often provide communication for 24 telephone channels of frequency division multiplexed signal (i.e. Lenkurt 33C FDM), though any channel could be designated to carry up to 18 teletype communications instead. Similar systems from Germany and other member nations were also in use.
+Similar systems were soon built in many countries, until the 1980s when the technology lost its share of fixed operation to newer technologies such as fiber-optic cable and communication satellites, which offer lower cost per bit.terrestrial microwave system
+
+During the Cold War, the US intelligence agencies, such as the National Security Agency (NSA), were reportedly able to intercept Soviet microwave traffic using satellites such as Rhyolite. Much of the beam of a microwave link passes the receiving antenna and radiates toward the horizon, into space. By positioning a geosynchronous satellite in the path of the beam, the microwave beam can be received.
+At the turn of the century, microwave radio relay systems are being used increasingly in portable radio applications. The technology is particularly suited to this application because of lower operating costs, a more efficient infrastructure, and provision of direct hardware access to the portable radio operator.
+
+
+=== Microwave link ===
+A microwave link is a communications system that uses a beam of radio waves in the microwave frequency range to transmit video, audio, or data between two locations, which can be from just a few feet or meters to several miles or kilometers apart. Microwave links are commonly used by television broadcasters to transmit programmes across a country, for instance, or from an outside broadcast back to a studio.
+Mobile units can be camera mounted, allowing cameras the freedom to move around without trailing cables. These are often seen on the touchlines of sports fields on Steadicam systems.
+
+
+==== Properties of microwave links ====
+Involve line of sight (LOS) communication technology
+Affected greatly by environmental constraints, including rain fade
+Have very limited penetration capabilities through obstacles such as hills, buildings and trees
+Sensitive to high pollen count
+Signals can be degradedduring Solar proton events
+
+
+==== Uses of microwave links ====
+In communications between satellites and base stations
+As backbone carriers for cellular systems
+In short range indoor communications
+Telecommunications, in linking remote and regional telephone exchanges to larger (main) exchanges without the need for copper/optical fibre lines.
+
+
+== Troposcatter ==
+Terrestrial microwave relay links described above are limited in distance to the visual horizon, about 40 miles. Tropospheric scatter ("troposcatter" or "scatter") was a technology developed in the 1950s allow microwave communication links beyond the horizon, to a range of several hundred kilometers. The transmitter radiates a beam of microwaves into the sky, at a shallow angle above the horizon toward the receiver. As the beam passes through the troposphere a small fraction of the microwave energy is scattered back toward the ground by water vapor and dust in the air. A sensitive receiver beyond the horizon picks up this reflected signal. Signal clarity obtained by this method depends on the weather and other factors, and as a result a high level of technical difficulty is involved in the creation of a reliable over horizon radio relay link. Troposcatter links are therefore only used in special circumstances where satellites and other long distance communication channels cannot be relied on, such as in military communications.
+
+
+== Microwave power transmission ==
+Microwave power transmission (MPT) is the use of microwaves to transmit power through outer space or the atmosphere without the need for wires. It is a sub-type of the more general wireless energy transfer methods.
+
+
+=== History ===
+Following World War II, which saw the development of high-power microwave emitters known as cavity magnetrons, the idea of using microwaves to transmit power was researched. In 1964, William C. Brown demonstrated a miniature helicopter equipped with a combination antenna and rectifier device called a rectenna. The rectenna converted microwave power into electricity, allowing the helicopter to fly. In principle, the rectenna is capable of very high conversion efficiencies - over 90% in optimal circumstances.
+Most proposed MPT systems now usually include a phased array microwave transmitter. While these have lower efficiency levels they have the advantage of being electrically steered using no moving parts, and are easier to scale to the necessary levels that a practical MPT system requires.
+Using microwave power transmission to deliver electricity to communities without having to build cable-based infrastructure is being studied at Grand Bassin on Reunion Island in the Indian Ocean.
+
+
+=== Common safety concerns ===
+The common reaction to microwave transmission is one of concern, as microwaves are generally perceived by the public as dangerous forms of radiation - stemming from the fact that they are used in microwave ovens. While high power microwaves can be painful and dangerous as in the United States Military's Active Denial System, MPT systems are generally proposed to have only low intensity at the rectenna.
+Though this would be extremely safe as the power levels would be about equal to the leakage from a microwave oven, and only slightly more than a cell phone, the relatively diffuse microwave beam necessitates a large receiving antenna area for a significant amount of energy to be transmitted.
+Research has involved exposing multiple generations of animals to microwave radiation of this or higher intensity, and no health issues have been found.
+
+
+=== Proposed uses ===
+
+MPT is the most commonly proposed method for transferring energy to the surface of the Earth from solar power satellites or other in-orbit power sources. MPT is occasionally proposed for the power supply in beam-powered propulsion for orbital lift space ships. Even though lasers are more commonly proposed, their low efficiency in light generation and reception has led some designers to opt for microwave based systems.
+
+
+=== Current status ===
+Wireless Power Transmission (using microwaves) is well proven. Experiments in the tens of kilowatts have been performed at Goldstone in California in 1975 and more recently (1997) at Grand Bassin on Reunion Island. In 2008 a long range transmission experiment successfully transmitted 20 watts 92 miles (148 km) from a mountain on Maui to the main island of Hawaii.
+
+
+== See also ==
+
+Wireless energy transfer
+Fresnel zone
+Passive repeater
+Radio repeater
+Transmitter station
+Path loss
+British Telecom microwave network
+Trans-Canada Microwave
+Antenna array (electromagnetic)
+
+
+== References ==
+
+Microwave Radio Transmission Design Guide, Trevor Manning, Artech House, 1999
+
+
+== External links ==
+RF / Microwave Design at Oxford University
+http://www.kurasc.kyoto-u.ac.jp/plasma-group/sps/history2-e.html
+William C. Brown's Distinguished Career
+AT&T's Microwave Radio-Relay Skyway introduced in 1951
+Bell System 1951 magazine ad for Microwave Radio-Relay systems.
+RCA vintage magazine ad for Microwave-Radio Relay equipment used for Western Union Telegraph Co.
+Digital Microwave Radio
+AT&T Long Lines Microwave Towers Remembered
+AT&T Long Lines
+Western Union Microwave Network History
+Trevor Manning's course 'Microwave Radio for Next Generation Networks' at Oxford University
+An article about how a microwave link is planned and how it works
+IEEE Global History Network Microwave Link Networks
+UK Microwave Radio Case Study
+Microwave Transmission Technology Articles

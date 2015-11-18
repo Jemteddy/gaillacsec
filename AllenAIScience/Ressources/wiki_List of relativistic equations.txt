@@ -1,0 +1,80 @@
+Following is a list of the frequently occurring equations in the theory of special relativity.
+
+
+== Postulates of special relativityEdit ==
+To derive the equations of special relativity, one must start with two postulates:
+The laws of physics are invariant under transformations between inertial frames. In other words, the laws of physics will be the same whether you are testing them in a frame 'at rest', or a frame moving with a constant velocity relative to the 'rest' frame.
+The speed of light in a vacuum is measured to be the same by all observers in inertial frames.
+From these two postulates, all of special relativity follows.
+In the following, the relative velocity v between two inertial frames is restricted fully to the x-direction, of a Cartesian coordinate system.
+
+
+== KinematicsEdit ==
+
+
+=== Lorentz transformationEdit ===
+The following notations are used very often in special relativity:
+Lorentz factor
+
+where β = v/c and v is the relative velocity between two inertial frames.
+For two frames at rest, γ = 1, and increases with relative velocity between the two inertial frames. As the relative velocity approaches the speed of light, γ → ∞.
+Time dilation (different times t and t' at the same position x in same inertial frame)
+
+In this example the time measured in the frame on the vehicle, t, is known as the proper time. The proper time between two events - such as the event of light being emitted on the vehicle and the event of light being received on the vehicle - is the time between the two events in a frame where the events occur at the same location. So, above, the emission and reception of the light both took place in the vehicle's frame, making the time that an observer in the vehicle's frame would measure the proper time.
+Length contraction (different positions x and x' at the same instant t in the same inertial frame)
+
+This is the formula for length contraction. As there existed a proper time for time dilation, there exists a proper length for length contraction, which in this case is ℓ. The proper length of an object is the length of the object in the frame in which the object is at rest. Also, this contraction only affects the dimensions of the object which are parallel to the relative velocity between the object and observer. Thus, lengths perpendicular to the direction of motion are unaffected by length contraction.
+Lorentz transformation
+
+Velocity addition
+
+
+== The metric and four-vectorsEdit ==
+
+In what follows, bold sans serif is used for 4-vectors while normal bold roman is used for ordinary 3-vectors.
+Inner product (i.e. notion of length)
+
+where  is known as the metric tensor. In special relativity, the metric tensor is the Minkowski metric:
+
+Space-time interval
+
+In the above, ds2 is known as the spacetime interval. This inner product is invariant under the Lorentz transformation, that is,
+
+The sign of the metric and the placement of the ct, ct', cdt, and cdt′ time-based terms can vary depending on the author's choice. For instance, many times the time-based terms are placed first in the four-vectors, with the spatial terms following. Also, sometimes η is replaced with −η, making the spatial terms produce negative contributions to the dot product or spacetime interval, while the time term makes a positive contribution. These differences can be used in any combination, so long as the choice of standards is followed completely throughout the computations performed.
+
+
+=== Lorentz transformsEdit ===
+It is possible to express the above coordinate transformation via a matrix. To simplify things, it can be best to replace t, t′, dt, and dt′ with ct, ct', cdt, and cdt′, which has the dimensions of distance. So:
+
+then in matrix form:
+
+The vectors in the above transformation equation are known as four-vectors, in this case they are specifically the position four-vectors. In general, in special relativity, four-vectors can be transformed from one reference frame to another as follows:
+
+In the above,  and  are the four-vector and the transformed four-vector, respectively, and Λ is the transformation matrix, which, for a given transformation is the same for all four-vectors one might want to transform. So  can be a four-vector representing position, velocity, or momentum, and the same Λ can be used when transforming between the same two frames. The most general Lorentz transformation includes boosts and rotations; the components are complicated and the transformation requires spinors.
+
+
+=== 4-vectors and frame-invariant resultsEdit ===
+Invariance and unification of physical quantities both arise from four-vectors. The inner product of a 4-vector with itself is equal to a scalar (by definition of the inner product), and since the 4-vectors are physical quantities their magnitudes correspond to physical quantities also.
+
+
+== Doppler shiftEdit ==
+
+General doppler shift:
+
+Doppler shift for emitter and observer moving right towards each other (or directly away):
+
+Doppler shift for emitter and observer moving in a direction perpendicular to the line connecting them:
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== SourcesEdit ==
+Encyclopaedia of Physics (2nd Edition), R.G. Lerner, G.L. Trigg, VHC publishers, 1991, (Verlagsgesellschaft) 3-527-26954-1, (VHC Inc.) 0-89573-752-3
+Dynamics and Relativity, J.R. Forshaw, A.G. Smith, Wiley, 2009, ISBN 978-0-470-01460-8
+Relativity DeMystified, D. McMahon, Mc Graw Hill (USA), 2006, ISBN 0-07-145545-0
+The Cambridge Handbook of Physics Formulas, G. Woan, Cambridge University Press, 2010, ISBN 978-0-521-57507-2.
+An Introduction to Mechanics, D. Kleppner, R.J. Kolenkow, Cambridge University Press, 2010, ISBN 978-0-521-19821-9

@@ -1,0 +1,76 @@
+In astronomy, axial tilt, also known as obliquity, is the angle between an object's rotational axis and its orbital axis, or, equivalently, the angle between its equatorial plane and orbital plane. It differs from orbital inclination.
+At an obliquity of zero, these lines point in the same direction i.e. the rotational axis is perpendicular to the orbital plane. Axial tilt differs from inclination. Because the planet Venus has an axial tilt of 177° its rotation can be considered retrograde, opposite that of most of the other planets. The north pole of Venus is "upside down" relative to its orbit. The planet Uranus has a tilt of 97°, hence it rotates "on its side", its poles being almost in the plane of its orbit.
+Over the course of an orbit, the obliquity does not change, and the orientation of the axis remains the same relative to the background stars. This causes one pole to be directed toward the Sun on one side of the orbit, and the other pole on the other side — the cause of the seasons on the Earth. Earth's obliquity oscillates between 22.1 and 24.5 degrees on a 41,000-year cycle. It is currently 23.44 degrees and decreasing.
+
+
+== StandardsEdit ==
+There are two standard methods of specifying tilt. The International Astronomical Union (IAU) defines the north pole of a planet as that which lies on Earth's north side of the invariable plane of the Solar System; under this system, Venus' tilt is 3°, and the right hand rule does not apply. NASA defines the north pole with the right hand rule, which has Venus tilted 177° ("upside down"). The results are equivalent and neither system is more correct.
+
+
+== EarthEdit ==
+
+Earth's orbital plane is known as the ecliptic plane, and Earth's tilt is known to astronomers as the obliquity of the ecliptic, being the angle between the ecliptic and the celestial equator on the celestial sphere. It is denoted by the Greek letter ε.
+Earth currently has an axial tilt of about 23.4°. This value remains approximately the same relative to a stationary orbital plane throughout the cycles of axial precession. However, because the ecliptic (i.e., Earth's orbit) moves due to planetary perturbations, the obliquity of the ecliptic is not a fixed quantity. At present, it is decreasing at a rate of about 47" per century (see details in Short term below).
+
+
+=== HistoryEdit ===
+Earth's obliquity may have been reasonably accurately measured as early as 1100 BC in India and China. The ancient Greeks had good measurements of the obliquity since about 350 BC, when Pytheas of Marseilles measured the shadow of a gnomon at the summer solstice. About 830 AD, the Caliph Al-Mamun of Baghdad directed his astronomers to measure the obliquity, and the result was used in the Arab world for many years.
+It was widely believed, during the Middle Ages, that both precession and Earth's obliquity oscillated around a mean value, with a period of 672 years, an idea known as trepidation of the equinoxes. Perhaps the first to realize this was incorrect and that the obliquity is decreasing at a relatively constant rate (during historic time) was Fracastoro in 1538. The first accurate, modern, western observations of the obliquity were probably those of Tycho Brahe, about 1584, although observations by several others, including Purbach, Regiomontanus, and Walther, could have provided similar information.
+
+
+=== SeasonsEdit ===
+
+Earth's axis remains tilted in the same direction with reference to the background stars throughout a year (regardless of where it is in its orbit). This means that one pole (and the associated hemisphere of Earth) will be directed away from the Sun at one side of the orbit, and half an orbit later (half a year later) this pole will be directed towards the Sun. This is the cause of Earth's seasons. Summer occurs in the Northern hemisphere when the north pole is directed toward the Sun. Variations in Earth's axial tilt can influence the seasons and is likely a factor in long-term climate change (also see Milankovitch cycles).
+
+
+=== OscillationEdit ===
+
+
+==== Short termEdit ====
+
+The exact angular value of the obliquity is found by observation of the motions of Earth and planets over many years. Astronomers produce new fundamental ephemerides as the accuracy of observation improves and as the understanding of the dynamics increases, and from these ephemerides various astronomical values, including the obliquity, are derived.
+Annual almanacs are published listing the derived values and methods of use. Until 1983, the Astronomical Almanac's angular value of the obliquity for any date was calculated based on the work of Newcomb, who analyzed positions of the planets until about 1895:
+ε = 23° 27′ 08.26″ − 46.845″ T − 0.0059″ T2 + 0.00181″ T3
+where ε is the obliquity and T is tropical centuries from B1900.0 to the date in question.
+From 1984, the Jet Propulsion Laboratory's DE series of computer-generated ephemerides took over as the fundamental ephemeris of the Astronomical Almanac. Obliquity based on DE200, which analyzed observations from 1911 to 1979, was calculated:
+ε = 23° 26′ 21.45″ − 46.815″ T − 0.0006″ T2 + 0.00181″ T3
+where hereafter T is Julian centuries from J2000.0.
+JPL's fundamental ephemerides have been continually updated. For instance, the Astronomical Almanac for 2010 specifies:
+ε = 23° 26′ 21.406″ − 46.836769″ T − 0.0001831″ T2 + 0.00200340″ T3 − 0.576″×10−6 T4 − 4.34″×10−8 T5
+These expressions for the obliquity are intended for high precision over a relatively short time span, perhaps ± several centuries. J. Laskar computed an expression to order T10 good to 0″.02 over 1000 years and several arcseconds over 10,000 years.
+ε = 23° 26′ 21.448″ − 4680.93″ t − 1.55″ t2 + 1999.25″ t3 − 51.38″ t4 − 249.67″ t5 − 39.05″ t6 + 7.12″ t7 + 27.87″ t8 + 5.79″ t9 + 2.45″ t10
+where here t is multiples of 10,000 Julian years from J2000.0.
+These expressions are for the so-called mean obliquity, that is, the obliquity free from short-term variations. Periodic motions of the Moon and of Earth in its orbit cause much smaller (9.2 arcseconds) short-period (about 18.6 years) oscillations of the rotation axis of Earth, known as nutation, which add a periodic component to Earth's obliquity. The true or instantaneous obliquity includes this nutation.
+
+
+==== Long termEdit ====
+
+Using numerical methods to simulate Solar System behavior, long-term changes in Earth's orbit, and hence its obliquity, have been investigated over a period of several million years. For the past 5 million years, Earth's obliquity has varied between 22° 02' 33" and 24° 30' 16", with a mean period of 41,040 years. This cycle is a combination of precession and the largest term in the motion of the ecliptic. For the next 1 million years, the cycle will carry the obliquity between 22° 13' 44" and 24° 20' 50".
+The Moon has a stabilizing effect on Earth's obliquity. Frequency map analysis suggests that, in the absence of the Moon, the obliquity can change rapidly due to orbital resonances and chaotic behavior of the Solar System, reaching as high as 90° in as little as a few million years (also see Orbit of the Moon). However, more recent numerical simulations suggest that even in the absence of the Moon, Earth's obliquity could be considerably more stable; varying only by about 20-25°. The Moon's stabilizing effect will continue for less than 2 billion years. If the Moon continues to recede from Earth due to tidal acceleration, resonances may occur which will cause large oscillations of the obliquity.
+
+
+== Solar System bodiesEdit ==
+All four of the innermost, rocky planets of the Solar System may have had large variations of their obliquity in the past. Like Earth, all of the rocky planets have a small precessional rotation of their spin axis. This rate varies due to, among other things, tidal dissipation and core-mantle interaction. When each planet reaches certain values of precession, orbital resonances may cause very large, chaotic changes in obliquity. Mercury and Venus have most likely been stabilized by the tidal dissipation of the Sun. Earth was stabilized by the Moon, as above, but before its capture, Earth, too, could have passed through times of instability. Mars's obliquity is currently in a chaotic state; it varies as much as 0° to 60° over some millions of years, depending on perturbations of the planets. The obliquities of the outer planets are considered relatively stable. Some authors dispute that Mars's obliquity is chaotic, and show that tidal dissipation and viscous core-mantle coupling are adequate for it to have reached a fully damped state, similar to Mercury and Venus.
+
+
+== Extrasolar planetsEdit ==
+
+The stellar obliquity ψs, i.e. the axial tilt of a star with respect to the orbital plane of one of its planets, has been determined for only a few systems. But for 49 stars as of today, the sky-projected spin-orbit misalignment λ has been observed, which serves as a lower limit to ψs. Most of these measurements rely on the Rossiter–McLaughlin effect. So far, it has not been possible to constrain the obliquity of an extrasolar planet. But the rotational flattening of the planet and the entourage of moons and/or rings, which are traceable with high-precision photometry, e.g. by the space-based Kepler spacecraft, could provide access to ψp in the near future.
+Astrophysicists have applied tidal theories to predict the obliquity of extrasolar planets. It has been shown that the obliquities of exoplanets in the habitable zone around low-mass stars tend to be eroded in less than 1 Gyr, which means that they would not have seasons as Earth has.
+
+
+== See alsoEdit ==
+
+Climate change
+Milankovitch cycles
+Polar motion
+True polar wander
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+National Space Science Data Center
+Seidelmann, P. Kenneth; Archinal, Brent A.; A'Hearn, Michael F.; et al. (2007). "Report of the IAU/IAG Working Group on cartographic coordinates and rotational elements: 2006". Celestial Mechanics and Dynamical Astronomy 98 (3): 155–180. Bibcode:2007CeMDA..98..155S. doi:10.1007/s10569-007-9072-y. 
+Obliquity of the Ecliptic Calculator

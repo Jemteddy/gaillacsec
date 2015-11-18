@@ -1,0 +1,44 @@
+The Luria–Delbrück experiment (1943) (also called the Fluctuation Test) demonstrates that in bacteria, genetic mutations arise in the absence of selection, rather than being a response to selection. Therefore, Darwin's theory of natural selection acting on random mutations applies to bacteria as well as to more complex organisms. Max Delbrück and Salvador Luria won the 1969 Nobel Prize in Physiology or Medicine in part for this work.
+
+
+== History ==
+By the 1940s the ideas of inheritance and mutation were generally accepted, though the role of DNA as the hereditary material had not yet been established. It was thought that bacteria were somehow different and could develop heritable genetic mutations depending on the circumstances they found themselves: in short, was the mutation in bacteria pre-adaptive (pre-existent) or post-adaptive (directed adaption)? Luria (James Watson's PhD advisor) in particular was obsessed with this idea and was determined to test it. He conceived the experiment at a faculty dance at Indiana University while watching a slot machine.
+In their experiment, Luria and Delbrück inoculated a small number of bacteria (Escherichia coli) into separate culture tubes. After a period of growth, they plated equal volumes of these separate cultures onto agar containing the T1 phage (virus). If resistance to the virus in bacteria were caused by an induced activation in bacteria i.e. if resistance were not due to heritable genetic components, then each plate should contain roughly the same number of resistant colonies. Assuming a constant rate of mutation, Luria hypothesized that if mutations occurred after and in response to exposure to the selective agent, the number of survivors would be distributed according to a Poisson distribution with the mean equal to the variance. This was not what Delbrück and Luria found: Instead the number of resistant colonies on each plate varied drastically: the variance was considerably greater than the mean.
+Luria and Delbrück proposed that these results could be explained by the occurrence of a constant rate of random mutations in each generation of bacteria growing in the initial culture tubes. Based on these assumptions Delbrück derived a probability distribution (now called the Luria–Delbrück distribution) that gives a relationship between moments consistent with the experimentally obtained values. The distribution that follows from the directed adaptation hypothesis (the Poisson distribution) predicted moments inconsistent with the data. Therefore, the conclusion was that mutations in bacteria, as in other organisms, are random rather than directed.
+The results of Luria and Delbrück were confirmed in more graphical, but less quantitative, way by Newcombe. Newcombe incubated bacteria in a Petri dish for a few hours, then replica plated it onto two new Petri dishes treated with phage. The first plate was left unspread, and the second plate was then respread, that is, bacterial cells were moved around allowing single cells in some colony to form their own new colonies. If colonies contained resistant bacterial cells before entering into contact with the phage virus, one would expect that some of these cells would form new resistant colonies on the respread dish and so to find a higher number of surviving bacteria there. When both plates were incubated for growth, there were actually as much as 50 times greater number of bacterial colonies on the respread dish. This showed that bacterial mutations to virus resistance had randomly occurred during the first incubation. Once again, the mutations occurred before selection was applied.
+More recently, the results of Luria and Delbrück were questioned by Cairns and others, who studied mutations in sugar metabolism as a form of environmental stress. Some scientists suggest that this result may have been caused by selection for gene amplification and/or a higher mutation rate in cells unable to divide. Others have defended the research and propose mechanisms which account for the observed phenomena consistent with adaptive mutagenesis.
+This distribution appears to have been first determined by Haldane. An unpublished manuscript was discovered in 1991 in at University College London describing this distribution. The derivation is different but the results are difficult to compute without the use of a computer.
+
+
+== Description of the test ==
+A small number of cells are used to inoculate parallel cultures in a non-selective medium. The cultures are grown to saturation to obtain equal cell densities. The cells are plated onto selective media to obtain the number of mutants (r). Dilutions are plated onto rich medium to calculate the total number of viable cells ( Nt ). The number of mutants that appear in the saturated culture is a measure of both the mutation rate and when the mutants arise during the growth of the culture: mutants appearing early in the growth of the culture will propagate many more mutants than those that arise later during growth. These factors cause the frequency ( r / Nt ) to vary greatly, even if the number of mutational events ( m ) is the same. Frequency is not a sufficiently accurate measure of mutation and the mutation rate (m / Nt) should always be calculated.
+The estimation of the mutation rate (m) is complex. Luria and Delbruck estimated this parameter from the mean of the distribution but this estimator was subsequently shown to be biased. The method of the median was introduced in 1949. This method is based on the equation
+
+This method has since been improved on but these more accurate methods are complex. The Ma-Sandri-Sarkar maximum likelihood estimator is currently the best known estimator. A number of additional methods and estimates from experimental data have been described.
+Two web-applications for the calculation of the mutation rate are freely available: Falcor  and bz-rates. Bz-rates implements a generalized version of the Ma-Sandri-Sarkar maximum likelihood estimator that can take into account the relative differential growth rate between mutant and wild-type cells as well as a generating function estimator that can estimate both the mutation rate and the differential growth rate. A worked example is shown in this paper by Jones et al.
+
+
+== Distribution ==
+In all these models the mutation rate (m) and growth rates (β) was assumed to be constant. The model can be easily generalized to relax these and other constraints. These rates are likely to differ in non experimental settings. The models also require that Nt m >> 0 where Nt is the total number of organisms. This assumption is likely to hold in most realistic or experimental settings.
+Luria and Delbrück estimated the mutation rate from the equation
+
+where β is the cellular growth rate, t is the time and
+
+where Ns is the number of cultures without resistant bacteria and N is the total number of cultures.
+Lea and Coulson's model differed from the original in that they considered a collection of independent Yule processes (a filtered Poisson process). Numerical comparisons of these two models with realistic values of the parameters has shown that they differ only slightly. The generating function for this model was found by Bartlett in 1978 and is
+
+where μ is the mutation rate (assumed to be constant), φ = 1 - e-βt with β as the cellular growth rate (also assumed to be constant) and t as the time.
+The determination of μ from this equation has proved difficult but a solution was discovered in 2005. Differentiation of the generating function with respect to μ allows the application of the Newton-Raphson method which together with the use of a score function allows one to obtain confidence intervals for μ.
+
+
+== Molecular biology ==
+The mechanism of resistance to the phage T1 appears to have been due to mutations in the fhuA gene - a membrane protein that acts as the T1 receptor. The tonB gene product is also required for infection by T1. The FhuA protein is actively involved in the transport of ferrichrome, albomycin and rifamycin. It also confers sensitivity to microcin J25 and colicin M and acts as a receptor for the phages T5 and phi80 as well as T1.
+The FhuA protein has a beta-barrel domain (residues 161 to 714) that is closed by a globular cork domain (residues 1 to 160). Within the cork domain is the TonB binding region (residues 7 to 11). The large membrane spanning monomeric β-barrel domains have 22 β-strands of variable length, several of which extend significantly beyond the membrane hydrophobic core into the extracellular space. There are 11 extracellular loops numbered L1 to L11. The L4 loop is where the T1 phage binds.
+
+
+== References ==
+
+
+== External links ==
+On Mutation lab
+Profiles in Science: The Salvador E. Luria Papers Information on Salvador Luria from the National Library of Medicine

@@ -1,0 +1,74 @@
+In the mathematical field of graph theory, a Hamiltonian path (or traceable path) is a path in an undirected or directed graph that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a Hamiltonian path that is a cycle. Determining whether such paths and cycles exist in graphs is the Hamiltonian path problem, which is NP-complete.
+Hamiltonian paths and cycles and cycle paths are named after William Rowan Hamilton who invented the icosian game, now also known as Hamilton's puzzle, which involves finding a Hamiltonian cycle in the edge graph of the dodecahedron. Hamilton solved this problem using the icosian calculus, an algebraic structure based on roots of unity with many similarities to the quaternions (also invented by Hamilton). This solution does not generalize to arbitrary graphs. However, despite being named after Hamilton, Hamiltonian cycles in polyhedra had also been studied a year earlier by Thomas Kirkman. 
+
+
+== DefinitionsEdit ==
+A Hamiltonian path or traceable path is a path that visits each vertex exactly once. A graph that contains a Hamiltonian path is called a traceable graph. A graph is Hamiltonian-connected if for every pair of vertices there is a Hamiltonian path between the two vertices.
+A Hamiltonian cycle, Hamiltonian circuit, vertex tour or graph cycle is a cycle that visits each vertex exactly once (except for the vertex that is both the start and end, which is visited twice). A graph that contains a Hamiltonian cycle is called a Hamiltonian graph.
+Similar notions may be defined for directed graphs, where each edge (arc) of a path or cycle can only be traced in a single direction (i.e., the vertices are connected with arrows and the edges traced "tail-to-head").
+A Hamiltonian decomposition is an edge decomposition of a graph into Hamiltonian circuits.
+
+
+== ExamplesEdit ==
+a complete graph with more than two vertices is Hamiltonian
+every cycle graph is Hamiltonian
+every tournament has an odd number of Hamiltonian paths (Rédei 1934)
+every platonic solid, considered as a graph, is Hamiltonian
+the Cayley graph of a finite Coxeter group is Hamiltonian (For more information on Hamiltonian paths in Cayley graphs, see the Lovász conjecture)
+
+
+== PropertiesEdit ==
+Any Hamiltonian cycle can be converted to a Hamiltonian path by removing one of its edges, but a Hamiltonian path can be extended to Hamiltonian cycle only if its endpoints are adjacent.
+All Hamiltonian graphs are biconnected, but a biconnected graph need not be Hamiltonian (see, for example, the Petersen graph).
+An Eulerian graph G (a connected graph in which every vertex has even degree) necessarily has an Euler tour, a closed walk passing through each edge of G exactly once. This tour corresponds to a Hamiltonian cycle in the line graph L(G), so the line graph of every Eulerian graph is Hamiltonian. Line graphs may have other Hamiltonian cycles that do not correspond to Euler tours, and in particular the line graph L(G) of every Hamiltonian graph G is itself Hamiltonian, regardless of whether the graph G is Eulerian.
+A tournament (with more than two vertices) is Hamiltonian if and only if it is strongly connected.
+The number of different Hamiltonian cycles in a complete undirected graph on n vertices is (n − 1)! / 2 and in a complete directed graph on n vertices is (n − 1)!. These counts assume that cycles that are the same apart from their starting point are not counted separately.
+
+
+== Bondy–Chvátal theoremEdit ==
+The best vertex degree characterization of Hamiltonian graphs was provided in 1972 by the Bondy–Chvátal theorem, which generalizes earlier results by G. A. Dirac (1952) and Øystein Ore. In fact, both Dirac's and Ore's theorems are less powerful than what can be derived from Pósa's theorem (1962). Dirac and Ore's theorems basically state that a graph is Hamiltonian if it has enough edges. First we have to define the closure of a graph.
+Given a graph G with n vertices, the closure cl(G) is uniquely constructed from G by repeatedly adding a new edge uv connecting a nonadjacent pair of vertices u and v with degree(v) + degree(u) ≥ n until no more pairs with this property can be found.
+Bondy–Chvátal theorem
+A graph is Hamiltonian if and only if its closure is Hamiltonian.
+As complete graphs are Hamiltonian, all graphs whose closure is complete are Hamiltonian, which is the content of the following earlier theorems by Dirac and Ore.
+Dirac (1952)
+A simple graph with n vertices (n ≥ 3) is Hamiltonian if every vertex has degree n / 2 or greater.
+Ore (1960)
+A graph with n vertices (n ≥ 3) is Hamiltonian if, for every pair of non-adjacent vertices, the sum of their degrees is n or greater (see Ore's theorem).
+The following theorems can be regarded as directed versions:
+Ghouila-Houiri (1960)
+A strongly connected simple directed graph with n vertices is Hamiltonian if every vertex has a full degree greater than or equal to n.
+Meyniel (1973)
+A strongly connected simple directed graph with n vertices is Hamiltonian if the sum of full degrees of every pair of distinct non-adjacent vertices is greater than or equal to 2n − 1.
+The number of vertices must be doubled because each undirected edge corresponds to two directed arcs and thus the degree of a vertex in the directed graph is twice the degree in the undirected graph.
+
+
+== Theorems on existence of Hamiltonian cycles in planar graphsEdit ==
+Whitney (1931)
+A 4-connected planar triangulation has a Hamiltonian cycle.
+Tutte (1956)
+A 4-connected planar graph has a Hamiltonian cycle.
+
+
+== See alsoEdit ==
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+Berge, Claude; Ghouila-Houiri, A. (1962), Programming, games and transportation networks, New York: Sons, Inc. 
+DeLeon, Melissa (2000), "A study of sufficient conditions for Hamiltonian cycles" (PDF), Rose-Hulman Undergraduate Math Journal 1 (1) .
+Dirac, G. A. (1952), "Some theorems on abstract graphs", Proceedings of the London Mathematical Society, 3rd Ser. 2: 69–81, doi:10.1112/plms/s3-2.1.69, MR 0047308 .
+Hamilton, William Rowan (1856), "Memorandum respecting a new system of roots of unity", Philosophical Magazine 12: 446 .
+Hamilton, William Rowan (1858), "Account of the Icosian Calculus", Proceedings of the Royal Irish Academy 6: 415–416 .
+Meyniel, M. (1973), "Une condition suffisante d'existence d'un circuit hamiltonien dans un graphe orienté", Journal of Combinatorial Theory, Series B 14 (2): 137–147, doi:10.1016/0095-8956(73)90057-9, MR 0317997 .
+Ore, Øystein (1960), "Note on Hamilton circuits", The American Mathematical Monthly 67: 55, doi:10.2307/2308928, JSTOR 2308928, MR 0118683 .
+Pósa, L. (1962), "A theorem concerning Hamilton lines", Magyar Tud. Akad. Mat. Kutató Int. Közl. 7: 225–226, MR 0184876 .
+Whitney, Hassler (1931), "A theorem on graphs", Annals of Mathematics, Second Series 32 (2): 378–390, doi:10.2307/1968197, MR 1503003 .
+Tutte, W. T. (1956), "A theorem on planar graphs", Trans. American Math. Soc. 82: 99–116, doi:10.1090/s0002-9947-1956-0081471-8 .
+
+
+== External linksEdit ==
+Weisstein, Eric W., "Hamiltonian Cycle", MathWorld.
+Euler tour and Hamilton cycles

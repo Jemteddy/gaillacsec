@@ -1,0 +1,42 @@
+Unicode has subscripted and superscripted versions of a number of characters including a full set of arabic numerals. These characters allow any polynomial, chemical and certain other equations to be represented in plain text without using any form of markup like HTML or TeX.
+The World Wide Web Consortium and the Unicode Consortium have made recommendations on the choice between using markup and using superscript and subscript characters: "When used in mathematical context (MathML) it is recommended to consistently use style markup for superscripts and subscripts...However, when super and sub-scripts are to reflect semantic distinctions, it is easier to work with these meanings encoded in text rather than markup, for example, in phonetic or phonemic transcription."
+
+
+== Uses ==
+Most fonts that include these characters design them for mathematical numerator and denominator glyphs, which are smaller than normal characters but are aligned with the cap line and the baseline, respectively. When used with the solidus, these glyphs are useful for making arbitrary diagonal fractions (similar to the ½ glyph).
+This was not the intended use of these characters when Unicode was designed. The intended use was to allow chemical and algebra formulas to be written without markup. Proper appearance of these requires true superscript and subscript. H2O with subscript markup may look better than with a Unicode subscript (H₂O) in a font that has repurposed the Unicode subscripts for fractions.
+Another Unicode character, the fraction slash U+2044, is visually similar to the solidus, but when used with the ordinary digits (not the superscripts and subscripts) was intended to tell a layout system that a fraction, such as ¹¹⁄₁₂, is intended. Not all font layout systems accommodate this, although it may offer an improvement in appearance, such as additional slanting.
+
+
+== Superscripts and subscripts block ==
+
+The most common superscript digits (1, 2, and 3) were in ISO-8859-1 and were therefore carried over into those positions in the Latin-1 range of Unicode. The rest were placed in a dedicated section of Unicode at U+2070 to U+209F. The two tables below show these characters. Each superscript or subscript character is preceded by a normal x to show the subscripting/superscripting. The table on the left contains the actual Unicode characters; the one on the right contains the equivalents using HTML markup for the subscript or superscript. Gray cells are reserved for future use, white cells are other characters from Latin-1.
+
+
+== Other superscript and subscript characters ==
+Unicode also includes subscript and superscript characters that are intended for semantic usage, in the following blocks:
+The Latin-1 Supplement block contains the feminine and masculine ordinal indicators ª and º.
+The Combining Diacritical Marks block contains medieval superscript letter diacritics. These letters are written directly above other letters appearing in medieval Germanic manuscripts, and so these glyphs do not include spacing, for example uͤ. They are shown here over the placeholder ⟨◌⟩: ◌ͣ◌ͤ◌ͥ◌ͦ◌ͧ◌ͨ◌ͩ◌ͪ◌ͫ◌ͬ◌ͭ◌ͮ◌ͯ.
+The Combining Diacritical Marks Supplement block contains additional medieval superscript letter diacritics, enough to complete the basic lowercase Latin alphabet except for q and y, a few small capitals and ligatures (ae, ao, av), and additional letters: ◌ᷓ◌ᷔ◌ᷕ◌ᷖ◌ᷗ◌ᷘ◌ᷙ◌ᷚ◌ᷛ◌ᷜ◌ᷝ◌ᷞ◌ᷟ◌ᷠ◌ᷡ◌ᷢ◌ᷣ◌ᷤ◌ᷥ◌ᷦ◌ᷧ◌ᷨ◌ᷩ◌ᷪ◌ᷫ◌ᷬ◌ᷭ◌ᷮ◌ᷯ◌ᷰ◌ᷱ◌ᷲ◌ᷳ◌ᷴ. There is also a combining subscript: ◌᷊.
+The Spacing Modifier Letters block has superscripted letters and symbols used for phonetic transcription: ʰ ʱ ʲ ʳ ʴ ʵ ʶ ʷ ʸ ˀ ˁ ˠ ˡ ˢ ˣ ˤ.
+The Phonetic Extensions block has several sub- and super-scripted letters and symbols: Latin/IPA ᴬ ᴭ ᴮ ᴯ ᴰ ᴱ ᴲ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴻ ᴼ ᴽ ᴾ ᴿ ᵀ ᵁ ᵂ ᵃ ᵄ ᵅ ᵆ ᵇ ᵈ ᵉ ᵊ ᵋ ᵌ ᵍ ᵏ ᵐ ᵑ ᵒ ᵓ ᵖ ᵗ ᵘ ᵚ ᵛ ᵢ ᵣ ᵤ ᵥ, Greek ᵝ ᵞ ᵟ ᵠ ᵡ ᵦ ᵧ ᵨ ᵩ ᵪ, Cyrillic ᵸ, other ᵎ ᵔ ᵕ ᵙ ᵜ.
+The Phonetic Extensions Supplement block has several more: ᶛ ᶜ ᶝ ᶞ ᶟ ᶠ ᶡ ᶢ ᶣ ᶤ ᶥ ᶦ ᶧ ᶨ ᶩ ᶪ ᶫ ᶬ ᶭ ᶮ ᶯ ᶰ ᶱ ᶲ ᶳ ᶴ ᶵ ᶶ ᶷ ᶸ ᶹ ᶺ ᶻ ᶼ ᶽ ᶾ ᶿ.
+Consolidated, the Unicode standard defines complete sub- and super-scripts for numbers and common mathematical symbols ( ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ), a full superscript Latin lowercase alphabet except q ( ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ ), a limited uppercase Latin alphabet ( ᴬ ᴮ ᴰ ᴱ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ ), a few subscripted lowercase letters ( ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ ), and some Greek letters ( ᵝ ᵞ ᵟ ᵋ ᶿ ᶥ ᶹ ᶲ ᵠ ᵡ ᵦ ᵧ ᵨ ᵩ ᵪ ). Note that since these characters come from different ranges, they may not be of the same size and position, depending on the typeface.
+Not shown are overscript capital L, M, N, R.
+For superscript IPA letters, see secondary articulation.
+
+
+== Composite characters ==
+Primarily for compatibility with earlier character sets, Unicode contains a number of characters that composite super and subscripts along with other symbols. In most fonts these render much better than attempting to construct these symbols from the hereinbefore characters or by using markup.
+The Latin-1 Supplement block contains the precomposed fractions ½, ¼, and ¾. The copyright © and registered trademark signs ® are also in this block.
+The General Punctuation block contains the permille sign ‰ and the per-ten-thousand sign ‱.
+The Number Forms block contains several precomposed fractions: ⅐ ⅑ ⅒ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ ⅟ ↉.
+The Letterlike Symbols block contains a few symbols composed of subscript and superscript characters: ℀ ℁ ℅ ℆ № ℠ ™ ⅍.
+The Enclosed Alphanumeric Supplement block contains two superscript abbreviations: 🅪 🅫 (MC for marque de commerce and MD for marque déposée, both used in Canada)
+The Miscellaneous Technical block has one additional subscript, a subscript 10 (⏨), for the purpose of scientific notation.
+
+
+== References ==
+"Superscripts and Subscripts" (PDF file)
+^ Martin Dürst, Asmus Freytag (16 May 2007). "Unicode in XML and other Markup Languages". W3C. Retrieved 13 September 2010. 
+^ Martin Dürst, Asmus Freytag (16 May 2007). "Fraction Slash". W3C. Retrieved 13 September 2010.

@@ -1,0 +1,211 @@
+Energetic neutral atom (ENA) imaging, often described as "seeing with atoms", is a technology used to create global images of otherwise invisible phenomena in the magnetospheres of planets and throughout the heliosphere, even to its outer boundary. This constitutes the far-flung edge of the solar system.
+The solar wind consists of ripped-apart atoms (called plasma) flying out of the Sun. This is mostly hydrogen, that is, bare electrons and protons, with a little bit of other kinds of nuclei, mostly helium. The space between solar systems is similar, but they come from other stars in our galaxy. These charged particles can be redirected by magnetic fields; for instance, Earth's magnetic field shields us from these particles. But, every so often, a few of them steal electrons from neutral atoms they run into. At that point, they become neutral, although they're still moving very fast, and they travel in an exact straight line. These are called Energetic Neutral Atoms. ENA images are constructed from the detection of these energetic neutral atoms.
+Earth's magnetosphere preserves Earth's atmosphere and protects us from cell-damaging radiation. This region of "space weather" is the site of geomagnetic storms that disrupt communications systems and pose radiation hazards to humans traveling at high polar altitudes or in orbiting spacecraft. A deeper understanding of this region is vitally important. Geomagnetic weather systems have been late to benefit from the satellite imagery taken for granted in weather forecasting, and space physics because their origins in magnetospheric plasmas present the added problem of invisibility.
+The heliosphere protects the entire Solar System from the majority of cosmic rays but is so remote that only an imaging technique such as ENA imaging will reveal its properties. The heliosphere's structure is due to the invisible interaction between the solar wind and cold gas from the local interstellar medium.
+The creation of ENAs by space plasmas was predicted but their discovery was both deliberate and serendipitous. While some early efforts were made at detection, their signatures also explained inconsistent findings by ion detectors in regions of expected low ion populations. Ion detectors were co-opted for further ENA detection experiments in other low-ion regions. However, the development of dedicated ENA detectors entailed overcoming significant obstacles in both skepticism and technology.
+Although ENAs were observed in space from the 1960s through 1980s, the first dedicated ENA camera was not flown until 1995 on the Swedish Astrid-1 satellite, to study Earth's magnetosphere.
+Today, dedicated ENA instruments have provided detailed magnetospheric images from Venus, Mars, Jupiter, and Saturn. Cassini's ENA images of Saturn revealed a unique magnetosphere with complex interactions that have yet to be fully explained. The IMAGE mission's three dedicated ENA cameras observed Earth's magnetosphere from 2000–2005 while the TWINS Mission, launched in 2008, provides stereo ENA imaging of Earth's magnetosphere using simultaneous imaging from two satellites.
+The first ever images of the heliospheric boundary, published in October 2009, were made by the ENA instruments aboard the IBEX and Cassini spacecraft. These images are very exciting because they challenge existing theories about the region.
+
+
+== Creation of ENAs ==
+The most abundant ion in space plasmas is the hydrogen ion—a bare proton with no excitable electrons to emit visible photons. The occasional visibility of other plasma ions is not sufficient for imaging purposes. ENAs are created in charge-exchange collisions between hot solar plasma ions and a cold neutral background gas. These charge-exchange processes occur with high frequency in planetary magnetospheres and at the edge of the heliosphere.
+
+
+=== Charge exchange ===
+
+In a charge-exchange collision between a high energy plasma ion and a cold neutral atom, the ion 'steals' electrons from the neutral atom, producing a cold ion and an energetic neutral atom(ENA).
+I1+ + A2 → A1 + I2+
+where
+I1+ plasma ion
+A2 background neutral atom (lower energy)
+A1 energetic neutral atom (ENA)
+I2+ lower energy ion
+Species 1 and 2 may be the same or different and an exchange of two electrons is possible, e.g.
+
+H+ + H → H + H+
+Proton–hydrogen charge-exchange
+orHe2+ + He → He + He2+
+alpha-helium charge-exchange.
+Due to its charge neutrality, the resulting ENA is subject to gravitational forces only. Because gravitation influences can normally be ignored, it is safe to assume that the ENA preserves the vector momentum of the original pre-interaction plasma ion.
+Some ENAs are lost in further charge-exchange, electron collisions and photoionization, but a great many travel very long distances in space completely undisturbed.
+Although plasma recombination and neutral atom acceleration by the solar gravitation may also contribute to an ENA population under certain conditions, the main exception to this creation scenario is the flux of interstellar gas, where neutral particles from the local interstellar medium penetrate the heliosphere with considerable velocity, which classifies them as ENAs as well.
+
+
+=== Species of ENAs ===
+Proton–hydrogen charge-exchange collisions are often the most important process in space plasma because Hydrogen is the most abundant constituent of both plasmas and background gases and hydrogen charge-exchange occurs at very high velocities involving little exchange of momentum.
+In general, only a few species are important for ENA formation, namely hydrogen, helium, oxygen and sulfur:
+Atomic hydrogen dominates Earth's neutral particle environment from altitudes of 600 km to 1000 km (solar minimum - maximum.)
+The interstellar and solar winds are mainly protons with the solar wind also containing ~5% alpha particles (He2+ )
+Helium and oxygen are also important Earth species.
+Planetary magnetospheric plasma consists mostly of protons with some helium and oxygen.
+Jupiter's magnetosphere contains sulfur ions as well, due to volcanic activity its moon Io.
+
+
+=== Background gases ===
+The corresponding neutral gases are:
+the geocorona for the Earth's magnetosphere
+a planetary exosphere for a planetary magnetosphere
+the local interstellar medium in the boundary region of the heliosphere at the termination shock and the heliopause.
+
+
+=== Energies ===
+
+ENAs are found everywhere in space and are directly observable at energies from 10eV to more than 1 MeV. Their energies are described more with reference to the instruments used for their detection than to their origins.
+No single particle analyzer can cover the entire energy interval from 10 eV to beyond 1 MeV. ENA instruments are roughly divided into low, medium and high overlapping groups that can be arbitrary and vary from author to author. The low, medium and high energy range from one author is shown in the graph along with the energy ranges for the three instruments aboard the IMAGE satellite:
+a high energy instrument, HENA measuring 10-500 keV energy to study Earth's ring current;
+a medium ENA instrument, MENA measuring 1-30 keV to study the plasma sheet; and
+a low ENA instrument measuring between 10 eV and 500 eV to study the ionospheric source of ions flowing from the polar cap.
+Atoms are usually considered ENAs if they have kinetic energies clearly higher than can be reached by typical thermodynamic planetary atmospheres which is usually in excess of 1 eV. This classification is somewhat arbitrary, being driven by the lower limits of ENA measurement instrumentation. The high end limitations are imposed by both measurement techniques and for scientific reasons.
+
+
+== Magnetospheric ENA imaging ==
+Magnetospheres are formed by the solar wind plasma flow around planets with an intrinsic magnetic field (Mercury, Earth, Jupiter, Saturn, Uranus, and Neptune), although planets and moons lacking magnetic fields may sometimes form magnetosphere-like plasma structures. The ionospheres of weakly magnetized planets such as Venus and Mars set up currents that partially deflect the solar wind flow around the planet.
+Although magnetospheric plasmas have very low densities; e.g. near Jupiter's moon Europa, plasma pressures are about 10−13 bar, compared to 1 bar at Earth's surface, and are responsible for magnetospheric dynamics and emissions. For example, geomagnetic storms create serious disturbances in Earth's cable communications systems, navigational systems and power distribution systems.
+The strength and orientation of the magnetic field with respect to solar wind flow determines the shape of the magnetosphere. It is usually compressed on the day side and elongated at the night side.
+
+
+=== Earth's magnetosphere ===
+Earth's magnetic field dominates the terrestrial magnetosphere and prevents the solar wind from hitting us head on. Lacking a large protective magnetosphere, Mars is thought to have lost much of its former oceans and atmosphere to space in part due to the direct impact of the solar wind. Venus with its thick atmosphere is thought to have lost most of its water to space in large part owing to solar wind ablation.
+
+Understanding the magnetosphere increased in importance with the realization of the detrimental impact of geomagnetic storms, caused by solar coronal mass ejections, particularly in years of high solar activity. In addition to long known effects on Earth's cable communication systems, communications, broadcasting, navigation and security applications are increasingly dependent on satellites. Most of these satellites are well within the protective magnetosphere but are vulnerable to space weather systems that affect them adversely. There are also radiation hazards for humans traveling at high polar altitudes or in orbiting spacecraft Many countries, including the U.S., provide a Space Weather Service reporting existing or predicted Geomagnetic Storms, Solar Radiation Storms and Radio Blackouts.
+
+
+==== ENA detection in Earth's magnetosphere ====
+The first dedicated ENA instrument was launched on a Nike–Tomahawk sounding rocket from Fort Churchill, Manitoba, Canada. This experiment was followed by the launch of a similar instrument on a Javelin sounding rocket in 1970 to an altitude of 840 km at Wallops Island off the coast of Virginia. In 1972 and 1973, the presence of ENA signatures explained inconsistencies in measurements by the IMP-7 and 8 satellites.
+ENA data from the NASA/ESA ISEE 1 satellite enabled the construction of the first global image of the storm time ring current in 1982. This was a breakthrough that paved the way for the use of ENAs as a powerful imaging technique. ENAs were also detected during the 1982 magnetic storm by SEEP instrument on the NASA S81-1 spacecraft. In 1989, the exospheric hydrogen atom population around Earth was extensively studied by the NASA Dynamic Explorer (DE-1) satellite.
+
+An instrument with a dedicated high-energy ENA detection channel was flown on the 1991 NASA CRRES satellite. A more sophisticated high energy particle Instrument was launched on the 1992 NASA/ISAS GEOTAIL spacecraft dedicated to observing Earth's magnetosphere. Precipitating ENAs can be studied from a low-earth orbit and were measured "looking out" by CRRES and the 1995 Swedish ASTRID satellites.
+The new millennium saw ENA Imaging coming into its own. Extensive and detailed observations of the Earth's magnetosphere were made with three ENA instruments aboard the NASA IMAGE Mission from 2000 - 2005. In July 2000, a set of ENA images of the Earth's ring current were made during a geomagnetic storm. (See image at the top of the page.) The storm was triggered by a fast coronal mass ejection that erupted from the Sun on July 14, 2000 and arrived at Earth the next day.
+Launched in 2008, the NASA TWINS Mission (two wide-angle Imaging Neutral-atom Spectrometers) provides the capability for stereoscopically imaging the magnetosphere. By imaging ENAs over a broad energy range (~1-100 keV) using identical instruments on two widely spaced high-altitude, high-inclination spacecraft, TWINS enables 3-dimensional visualization and the resolution of large scale structures and dynamics within the magnetosphere.
+
+
+=== Planetary and other magnetospheres ===
+Magnetospheres of other planets have been studied by flyby spacecraft, by orbiters, landers and by Earth-based observations.
+
+
+==== Earth's Moon ====
+In February 2009, the ESA SARA LENA instrument aboard India's Chandrayaan-1 detected hydrogen ENAs sputtered from the lunar surface by solar wind protons. Predictions had been that all impacting protons would be absorbed by the lunar regolith but for an as yet unknown reason, 20% of them are bounced back as low energy hydrogen ENAs. It is hypothesized that the absorbed protons may produce water and hydroxyls in interactions with the regolith. The Moon has no magnetosphere.
+
+
+==== Mercury ====
+The proposed 2014 ESA BepiColombo mission includes ENA instruments to further its objective to study the origin, structure and dynamics of Mercury's magnetic field. The LENA instrument will resemble the SARA instrument sent to Earth's Moon. In addition to magnetospheric ENAs, sputtering from Mercury's surface is also expected.
+
+
+==== Venus ====
+Launched in 2005, the ESA VEX (Venus Express) mission's ASPERA (Energetic Neutral Atoms Analyser) consists of two dedicated ENA detectors. In 2006 ENA images were obtained of the interaction between the solar wind and the Venusian upper atmosphere, showing massive escape of planetary oxygen ions.
+
+
+==== Mars ====
+Launched in 2003, the ESA MEX (Mars Express) mission's ASPERA instrument has obtained images of the solar wind interacting with the upper Martian atmosphere. The 2004 observations show solar wind plasma and accelerated ions very deep in the ionosphere, down to 270 km. above the dayside planetary surface—evidence for solar wind atmospheric erosion.
+
+
+==== Jupiter ====
+The GAS instrument on the ESA/NASA Ulysses, launched in 1990, produced unique data on interstellar helium characteristics and ENAs emitted from Jupiter's Io torus. On its Jupiter flyby in 2000, the NASA/ESA/ASI Cassini's INCA instrument confirmed a neutral gas torus associated with Europa. Cassini's ENA images also showed Jupiter's magnetosphere to be dominated by hydrogen atoms ranging from a few to 100 keV. The atoms are emitted from the planet's atmosphere and from neutral gas tori near the inner Galilean moons. A population of heavier ions was also detected, indicating a significant emission of oxygen and/or sulfur from Jupiter's magnetosphere.
+
+
+==== Saturn ====
+The first dedicated ENA camera was flown on the NASA/ESA/ASI Cassini mission, launched in 1997 to study Saturn's magnetosphere.
+Saturn's main radiation belt was measured beginning at an altitude 70,000 km from its surface and reaching out to 783,000 km. Cassini also detected a previously unknown inner belt nearer its surface that is about 6,000 km thick.
+The dynamics of Saturn's magnetosphere are very different from Earth's. Plasma co-rotates with Saturn in its magnetosphere. Saturn's strong magnetic field and rapid rotation create a strong co-rotational electric field that accelerates plasma in its magnetosphere until it reaches rotation speeds near that of the planet. Because Saturn's moons are essentially 'sitting still' in this very high speed flow, a complex interaction between this plasma and the atmosphere of the moon Titan was observed.
+
+
+==== Titan ====
+Cassini's MIMI-INCA ENA instrument has observed Titan on many occasions revealing the structure of the magnetospheric interaction with Titan's dense atmosphere.
+
+Several studies have been performed on Titan's ENA emissions.
+
+
+==== Uranus and Neptune ====
+NASA's Voyager 2 took advantage of its orbit to explore Uranus and Neptune, the only spacecraft to ever have done so. In 1986 spacecraft found a Uranian magnetic field that is both large and unusual. More detailed investigations have yet to be carried out.
+
+
+== Heliospheric ENA imaging ==
+The heliosphere is a cavity built up by the solar wind as it presses outward against the pressure of the local interstellar medium (LISM). As the solar wind is a plasma, it is charged and so carries with it the Sun's magnetic field. So the heliosphere can be conceptualized as the Solar System's magnetosphere. The edge of the heliosphere is found far beyond the orbit of Pluto where diminishing solar wind pressure is stopped by the pressure from the LISM.
+
+The background neutral gas for ENA production at the heliospheric boundary comes predominantly from interstellar gas penetrating the heliosphere. A tiny amount comes from solar wind neutralization of interplanetary dust near the sun. The heliospheric boundaries are invisible and fluctuating. Although the densities are low, the enormous thickness of the heliosheath make it a dominant source of ENAs, aside from planetary magnetospheres. Because of the strong dependence of ENA characteristics on heliospheric properties, remote ENA imaging techniques will provide a global view of the structure and dynamics of the heliosphere unattainable by any other means.
+The first glimpse of this view was announced in October, 2009, when the NASA IBEX Mission, returned its first image of the unexpected ENA ribbon at the edge of the heliosphere. Results revealed a previously unpredicted "very narrow ribbon that is two to three times brighter than anything else in the sky" at the edge of the heliosphere that was not detected by Voyager 1 and Voyager 2 in the region. These results are truly exciting as they do not match any existing theoretical models of this region.
+Cassini also ENA-imaged the heliosphere and its results complement and extend the IBEX findings, making it possible for scientists to construct the first comprehensive sky map of the heliosphere. Preliminary Cassini data suggest the heliosphere may not have the comet-like shape predicted by existing models but that its shape may be more like a large, round bubble.
+Estimates for size of the heliosphere vary between 150 – 200 AU. It is believed that Voyager 1 passed the heliosphere's termination shock in 2002 at approx. 85 – 87 AU while Voyager 2 passed the termination shock in 2007 at about 85 AU. Others place the termination shock at a mean distance of ≈100 AU. Because the solar wind varies by a factor of 2 during the 11 year solar cycle, there will be variations in the size and shape of the heliosphere, known as heliosphere "breathing."
+The huge distances involved mean we will never accumulate a large number of in situ measurements of the various layers of the heliosphere. Voyager 1 and 2 took 27 yrs. and 30 yrs. respectively to arrive at the termination shock. It is worth noting that for large distances to the object, high energy (velocity) and slower ENAs emitted simultaneously would be detected at different times. This time difference varies from 1 - 15 minutes for observing Earth's magnetosphere from a high altitude spacecraft to more than a year for imaging the heliospheric boundary from an Earth orbit.
+
+
+== Flares/CMEs ==
+In a surprising development, a wholly different kind of ENA source appeared in 2006. The STEREO spacecraft detected neutral hydrogen atoms with energies in the 2-5 MeV range from the flare/CME SOL2006-12-05. These particles were not detected with an instrument designed to see ENAs, but there was sufficient ancillary data to make the observation quite unambiguous. Accelerating ENAs without ionizing them would be difficult, so the reasonable interpretation here is that SEP protons from the flare/CME were able to find singly-charged He and He-like atoms in the solar wind, and thence to convert and continue without magnetic effects. The particles thus arrived prior to the SEP protons themselves, constrained to follow the Parker spiral. Although no other event has been detected this way, probably many could, and in principle could provide substantial information about the processes involved in SEP acceleration and propagation.
+
+
+== ENA instruments ==
+Although the study of ENAs promised improvements in the understanding of global magnetospheric and heliospheric processes, its progress was hindered due to initially enormous experimental difficulties.
+In the late 1960s, the first direct ENA measurement attempts revealed the difficulties involved. ENA fluxes are very weak, sometimes less than 1 particle per cm2 per second and are typically detected by secondary electron emission upon contact with a solid surface. They exist in regions containing ultraviolet (UV) and extreme ultraviolet (EUV) radiation at fluxes 100 times greater than produce similar emissions.
+
+An ENA instrument ideally would also specifically:
+prevent the entrance of charged particles
+suppress background light (photons), particularly UV and EUV radiation
+measure mass and energy of incoming ENAs
+determine trajectories of incoming ENAs
+measure ENA fluxes from 10−3 to 105 per cm2 per steradian per second
+measure ENAs ranging in energy from a few eV up to >100 keV
+The challenge to remote sensing via ENAs lies in combining mass spectrometry with the imaging of weak particle fluxes within the stringent limitations imposed by an application on a spacecraft.
+
+
+=== Medium and high energy ENA cameras ===
+It became clear very early that to succeed, instruments would have to specialize in specific ENA energies. The following describes, in very simplified terms, a typical instrument function for high (HENA) or medium (MENA) energy instrument, with differences noted. The accompanying illustration is of the HENA camera flown on the NASA IMAGE mission and the description that follows most closely resembles IMAGE mission instruments.
+
+
+==== Collimator ====
+A set of electrostatic plates deflect charged particles away from the instrument and collimates the beam of incoming neutral atoms to a few degrees.
+
+
+==== Photon rejection & time of flight (TOF) ====
+HENA: TOF is determined by a coincidence detection requirement that turns out to be efficient at eliminating photon background noise as well. An ENA passes through a thin film to a particle energy detector with its energy nearly completely preserved. At the same time, electrons forward scattered from the film are electrostatically deflected to a detector to create a start pulse. The ENA arriving at its solid state detector (SSD) creates the end pulse and its impact position yields its trajectory and therefore path length. The start and stop signals enable TOF to be determined.
+If the electrons are scattered by incoming photons, no ENA will be detected to create the stop pulse. If no stop pulse is sensed within an established time appropriate to the energy of the expected particles, the start pulse is discarded.
+MENA: Medium energy ENAs would lose too much energy penetrating the film used in the HENA instrument. The thinner film required would be vulnerable to damage by incident UV and EUV. Therefore, photons are prevented from entering the instrument by using a gold diffraction grating. An ultra thin carbon film is mounted on the back of the grating. ENAs pass through the grating and the film to impact a solid state detector (SSD), scattering electrons and allowing path length and TOF determinations as for the HENA above.
+Knowing path length and TOF enables velocity to be determined.
+
+
+==== Energy ====
+The solid state detector (SSD) impacted by the ENA after it passes through the foil registers its energy. The small energy loss due to passing through the foil is handled by instrument calibration.
+
+
+==== Mass ====
+Knowing the energy and velocity, the mass of the particle can be calculated from energy = mv2/2. Alternatively, the number of scattered electrons detected can also serve to measure the mass of the ENA.
+Mass resolution requirements are normally modest, requiring at most distinguishing among hydrogen (1 amu), helium (4 amu), and oxygen (16 amu) atoms with sulfur (32 amu) also expected in Jupiter's magnetosphere.
+
+
+==== 2D and 3D imaging ====
+Usually, obtaining images from a spinning spacecraft provides the second dimension of direction identification. By combining synchronized observations from two different satellites, stereo imaging becomes possible. Results from the TWINS Mission are eagerly awaited, as two viewing points will provide substantially more information about the 3-D nature of Earth's magnetosphere.
+
+
+=== Low energy ENA cameras ===
+While the collimator is similar, low-energy instruments such as the NASA GSFC LENA use a foil-stripping technique. Incident ENAs interact with a surface such as tungsten to generate ions that are then analyzed by an ion spectrometer.
+Because of the need to detect atoms sputtered from the lunar surface as well lighter ENAs, the ESA LENA on the Chandrayaan-1 incorporated a mass spectrometer designed to resolve heavier masses including sodium, potassium, and iron.
+
+
+=== Future ===
+As of 2005, a total of only six dedicated ENA detectors had been flown. The launch of instruments aboard in the TWINS and IBEX missions brings the total to nine in 2009 - a 50% increase in only 4 years. Space plasma observation using ENA imaging is an emerging technology that is finally coming into its own.
+Several improvements are still needed to perfect the technique. Although the angular resolution has now decreased to a few degrees and different species can be separated, one challenge is to expand the energy range upwards to about 500 keV. This high energy range covers most of the plasma pressure of Earth's inner magnetosphere as well as some of the higher-energy radiation belts so is desirable for terrestrial ENA imaging.
+For lower energy ENAs, below 1 keV, the imaging techniques are completely different and rely on the spectroscopic analysis of ions stripped from a surface by the impinging ENA. Improvements in sub-keV measurements will be needed to image Mercury's magnetosphere due to the consequences of its smaller magnetic field and it smaller geometry.
+
+
+== Importance for Earth ==
+In addition to the obvious intellectual benefits brought by increased understanding of our space environment, there are many practical motivations for enhancing our knowledge of space plasmas.
+The heliosphere is a protective cocoon for the Solar System, just as the Earth's magnetosphere is a protective cocoon for the Earth. The insight provided by ENAs into the behaviour of space plasmas improves our understanding of these protective mechanisms.
+Without the magnetosphere, Earth would be subject to direct bombardment by the solar wind and may be unable to retain an atmosphere. This, plus increased exposure to solar radiation means that life on Earth as we know it would not be possible without the magnetosphere. Similarly, the heliosphere protects the Solar System from the majority of otherwise damaging cosmic rays, with the remainder being deflected by the Earth's magnetosphere.
+Although most orbiting satellites are protected by the magnetosphere, geomagnetic storms induce currents in conductors that disrupt communications both in space and in cables on the ground. Better understanding of the magnetosphere and the ring current and its interaction with the solar wind during high solar activity will allow us to better protect these assets.
+Astronauts on deep space missions will not have Earth's protections so understanding the factors that may affect their exposure to cosmic rays and the solar wind is critical to manned space exploration.
+
+
+== Notes ==
+^ Astronomers measure distances within the Solar System in astronomical units (AU). One AU equals the average distance between the centers of Earth and the Sun, or 149,598,000 km. Pluto is about 38 AU from the Sun and Jupiter is about 5.2 AU from the Sun. One light-year is 63,240 AU.
+
+
+== See also ==
+List of plasma (physics) articles
+
+
+== References ==
+
+
+== External links ==
+List of Neutral Atom References
+List of LENA Team Publications

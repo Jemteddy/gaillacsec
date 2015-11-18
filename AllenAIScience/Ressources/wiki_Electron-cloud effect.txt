@@ -1,0 +1,43 @@
+The electron-cloud effect is a phenomenon that occurs in particle accelerators and reduces the quality of the particle beam.
+
+
+== Explanation ==
+Electron clouds are created when accelerated charged particles disturb stray electrons already floating in the tube, and bounce or slingshot the electrons into the wall. These stray electrons can be photo-electrons from synchrotron radiation or electrons from ionized gas molecules. When an electron hits the wall, the wall emits more electrons due to secondary emission. These electrons in turn hit another wall, releasing more and more electrons into the accelerator chamber.
+
+
+== Exacerbating factors ==
+This effect is especially a problem in positron accelerations, where electrons are attracted and slingshot into the walls at variable incident angles. Negatively charged electrons liberated from the accelerator walls are attracted to the positively charged beam, and form a "cloud" around it.
+The effect is most pronounced for electrons with around 300eV of kinetic energy - with a steep drop-off of the effect at less than that energy, and a gradual drop-off at higher energies, which occurs because electrons "bury" themselves deep inside the walls of the accelerator tube, making it difficult for secondary electrons to escape into the tube.
+The effect is also more pronounced for higher incidence angles (angles farther from the normal).
+Electron cloud growth can be a grave limitation in bunch currents and total beam currents if multipacting occurs. Multipacting can occur when the electron cloud dynamics can achieve a resonance with the bunch spacing of the accelerator beam. This can cause instabilities along a bunch train and even instabilities within a single bunch, which are known as head-tail instabilities.
+
+
+== Proposed remedies ==
+A few remedies have been proposed to deal with this, such as putting ridges in the accelerator tube, adding antechambers to the tube, coating the tube to reduce the yield of electrons from the surface, or creating an electric field to pull in stray electrons. At the PEP-II accelerator at SLAC National Accelerator Laboratory, the vacuum pipe which contains the positron ring has a wire coiled around its entire length. Running a current through this wire creates a solenoidal magnetic field which tends to contain the electrons liberated from the beam pipe walls.
+The Large Hadron Collider is very prone to multipacting due to the tight spacing (25 ns) of its proton bunches. During Run 1(2010–2013) science operation mainly used beams with 50 ns spacing, while 25 ns beams were only employed for short tests in 2011 and 2012. In addition to using a ribbed beam screen designed to minimize secondary electron emission, the effect can also be reduced by in-situ electron bombardment. This is done in the LHC by circulating a special non-science "scrubbing" beam that is specifically designed to generate as many electrons as possible within the constraints of heat dissipation and beam stability. This technique was tested during Run 1, and will be used to allow operation at 25 ns bunch spacing during Run 2 (2015–2018).
+
+
+== Measurement techniques ==
+There are many different ways of measuring the electron cloud in a vacuum chamber. Each one gives insight into a different aspect of the electron cloud.
+Retarding field analyzers are local grids in the chamber wall that allow some of the cloud to escape. These electrons can be filtered by an electric field and the resultant energy spectrum can be measured. Retarding field analyzers can be installed in drift regions, dipoles, quadrupoles, and wiggler magnets. A limitation is that retarding field analyzers measure only local cloud, and because they measure current, there is inherently some time averaging involved. The RFA can also interact with the measurement it is taking through secondary electrons from the retarding grid being expelled from the RA and being kicked back into the device by the beam.
+Witness bunch studies measure the tune shift along successive bunches in a train and in a witness bunch that is places at varying locations behind the train. Since tune shift is related to the ring-averaged central cloud density if the tune shift is known the central cloud density can be calculated. An advantage of witness bunch studies is the tune shifts can be measured bunch by bunch and so the time evolution of the cloud can be measured.
+The vacuum chamber in an accelerator can be used as a waveguide for radio-frequency transmission. Transverse-electric waves can be propagated in the chamber. The electron cloud acts as a plasma and causes a density dependent phase shift in the RF. The phase shift can be measured as frequency sidebands which can then be converted back into a plasma density.
+
+
+== See also ==
+List of plasma (physics) articles
+
+
+== Further reading ==
+J. Crisp, N. Eddy, I. Kourbanis, K. Seiya, B. Zwaska (2009). "Measurement of Electron Cloud Density With Microwaves in the Fermilab Main Injector" (PDF). Proc. DIPAC09, Basel, Switzerland. 
+J. Wei, M. Bai, M. Blaskiewicz, P. Cameron, R. Connolly, A. Della Penna, W. Fischer, H.-C. Hseuh, H. Huang (2006). "Electron cloud and single-bunch instabilities in the Relativistic Heavy Ion Collider" (PDF). Proc. HB2006, Tsukuba, Japan. 
+
+
+== References ==
+
+
+== External links ==
+"Electron Cloud Buildup in the ISIS Proton Synchrotron and Related Machines", by G Bellodi
+"Battling the Clouds" article in symmetry magazine
+Cornell CESRTA wiki
+"Cloudscapes - Diagnosing electron clouds in positive-particle accelerators", by Paul Preuss

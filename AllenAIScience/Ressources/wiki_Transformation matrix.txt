@@ -1,0 +1,124 @@
+In linear algebra, linear transformations can be represented by matrices. If T is a linear transformation mapping Rn to Rm and  is a column vector with n entries, then
+
+for some m×n matrix A, called the transformation matrix of T. There are alternative expressions of transformation matrices involving row vectors that are preferred by some authors.
+
+
+== UsesEdit ==
+Matrices allow arbitrary linear transformations to be represented in a consistent format, suitable for computation. This also allows transformations to be concatenated easily (by multiplying their matrices).
+Linear transformations are not the only ones that can be represented by matrices. Some transformations that are non-linear on a n-dimensional Euclidean space Rn, can be represented as linear transformations on the n+1-dimensional space Rn+1. These include both affine transformations (such as translation) and projective transformations. For this reason, 4×4 transformation matrices are widely used in 3D computer graphics. These n+1-dimensional transformation matrices are called, depending on their application, affine transformation matrices, projective transformation matrices, or more generally non-linear transformation matrices. With respect to an n-dimensional matrix, an n+1-dimensional matrix can be described as an augmented matrix.
+In the physical sciences, an active transformation is one which actually changes the physical position of a system, and makes sense even in the absence of a coordinate system whereas a passive transformation is a change in the coordinate description of the physical system (change of basis). The distinction between active and passive transformations is important. By default, by transformation, mathematicians usually mean active transformations, while physicists could mean either.
+Put differently, a passive transformation refers to description of the same object as viewed from two different coordinate frames.
+
+
+== Finding the matrix of a transformationEdit ==
+If one has a linear transformation  in functional form, it is easy to determine the transformation matrix A by transforming each of the vectors of the standard basis by T, then inserting the result into the columns of a matrix. In other words,
+
+For example, the function  is a linear transformation. Applying the above process (suppose that n = 2 in this case) reveals that
+
+It must be noted that the matrix representation of vectors and operators depends on the chosen basis; a similar matrix will result from an alternate basis. Nevertheless, the method to find the components remains the same.
+To elaborate, vector v can be represented in basis vectors,  with coordinates  :
+
+Now, express the result of the transformation matrix A upon , in the given basis:
+
+The  elements of matrix A are determined for a given basis E by applying A to every , and observing the response vector . This equation defines the wanted elements, , of j-th column of the matrix A.
+
+
+=== Eigenbasis and diagonal matrixEdit ===
+
+Yet, there is a special basis for an operator in which the components form a diagonal matrix and, thus, multiplication complexity reduces to n. Being diagonal means that all coefficients  but  are zeros leaving only one term in the sum  above. The surviving diagonal elements, , are known as eigenvalues and designated with  in the defining equation, which reduces to . The resulting equation is known as eigenvalue equation. The eigenvectors and eigenvalues are derived from it via the characteristic polynomial.
+With diagonalization, it is often possible to translate to and from eigenbases.
+
+
+== Examples in 2D computer graphicsEdit ==
+Most common geometric transformations that keep the origin fixed are linear, including rotation, scaling, shearing, reflection, and orthogonal projection; if an affine transformation is not a pure translation it keeps some point fixed, and that point can be chosen as origin to make the transformation linear. In two dimensions, linear transformations can be represented using a 2×2 transformation matrix.
+
+
+=== RotationEdit ===
+For rotation by an angle θ clockwise about the origin the functional form is  and . Written in matrix form, this becomes:
+
+Similarly, for a rotation counter-clockwise about the origin, the functional form is  and  and the matrix form is:
+
+These formulae assume that the x axis points right and the y axis points up. In formats such as SVG where the y axis points down, these matrices must be swapped.
+
+
+=== ShearingEdit ===
+For shear mapping (visually similar to slanting), there are two possibilities.
+A shear parallel to the x axis has  and . Written in matrix form, this becomes:
+
+A shear parallel to the y axis has  and , which has matrix form:
+
+
+=== ReflectionEdit ===
+
+To reflect a vector about a line that goes through the origin, let  be a vector in the direction of the line:
+
+
+=== Orthogonal projectionEdit ===
+To project a vector orthogonally onto a line that goes through the origin, let  be a vector in the direction of the line. Then use the transformation matrix:
+
+As with reflections, the orthogonal projection onto a line that does not pass through the origin is an affine, not linear, transformation.
+Parallel projections are also linear transformations and can be represented simply by a matrix. However, perspective projections are not, and to represent these with a matrix, homogeneous coordinates must be used.
+
+
+== Examples in 3D computer graphicsEdit ==
+
+
+=== RotationEdit ===
+The matrix to rotate an angle θ about the axis defined by unit vector (l,m,n) is
+
+
+=== ReflectionEdit ===
+
+To reflect a point through a plane  (which goes through the origin), one can use , where  is the 3x3 identity matrix and  is the three-dimensional unit vector for the vector normal of the plane. If the L2 norm of  and  is unity, the transformation matrix can be expressed as:
+
+Note that these are particular cases of a Householder reflection in two and three dimensions. A reflection about a line or plane that does not go through the origin is not a linear transformation; it is an affine transformation.
+
+
+== Composing and inverting transformationsEdit ==
+One of the main motivations for using matrices to represent linear transformations is that transformations can then be easily composed (combined) and inverted.
+Composition is accomplished by matrix multiplication. If A and B are the matrices of two linear transformations, then the effect of applying first A and then B to a vector x is given by:
+
+(This is called the associative property.) In other words, the matrix of the combined transformation A followed by B is simply the product of the individual matrices. Note that the multiplication is done in the opposite order from the English sentence: the matrix of "A followed by B" is BA, not AB.
+A consequence of the ability to compose transformations by multiplying their matrices is that transformations can also be inverted by simply inverting their matrices. So, A−1 represents the transformation that "undoes" A.
+
+
+== Other kinds of transformationsEdit ==
+
+
+=== Affine transformationsEdit ===
+
+To represent affine transformations with matrices, we can use homogeneous coordinates. This means representing a 2-vector (x, y) as a 3-vector (x, y, 1), and similarly for higher dimensions. Using this system, translation can be expressed with matrix multiplication. The functional form  becomes:
+
+All ordinary linear transformations are included in the set of affine transformations, and can be described as a simplified form of affine transformations. Therefore, any linear transformation can also be represented by a general transformation matrix. The latter is obtained by expanding the corresponding linear transformation matrix by one row and column, filling the extra space with zeros except for the lower-right corner, which must be set to 1. For example, the clockwise rotation matrix from above becomes:
+
+Using transformation matrices containing homogeneous coordinates, translations can be seamlessly intermixed with all other types of transformations. The reason is that the real plane is mapped to the w = 1 plane in real projective space, and so translation in real Euclidean space can be represented as a shear in real projective space. Although a translation is a non-linear transformation in a 2-D or 3-D Euclidean space described by Cartesian coordinates, it becomes, in a 3-D or 4-D projective space described by homogeneous coordinates, a simple linear transformation (a shear).
+More affine transformations can be obtained by composition of two or more affine transformations. For example, given a translation T' with vector , a rotation R by an angle θ counter-clockwise, a scaling S with factors  and a translation T of vector , the result M of T'RST is:
+
+When using affine transformations, the homogeneous component of a coordinate vector (normally called w) will never be altered. One can therefore safely assume that it is always 1 and ignore it. However, this is not true when using perspective projections.
+
+
+=== Perspective projectionEdit ===
+
+Another type of transformation, of importance in 3D computer graphics, is the perspective projection. Whereas parallel projections are used to project points onto the image plane along parallel lines, the perspective projection projects points onto the image plane along lines that emanate from a single point, called the center of projection. This means that an object has a smaller projection when it is far away from the center of projection and a larger projection when it is closer.
+The simplest perspective projection uses the origin as the center of projection, and z = 1 as the image plane. The functional form of this transformation is then ; . We can express this in homogeneous coordinates as:
+
+After carrying out the matrix multiplication, the homogeneous component wc will, in general, not be equal to 1. Therefore, to map back into the real plane we must perform the homogeneous divide or perspective divide by dividing each component by wc:
+
+More complicated perspective projections can be composed by combining this one with rotations, scales, translations, and shears to move the image plane and center of projection wherever they are desired.
+
+
+== See alsoEdit ==
+3D projection
+Transformation (function)
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+The Matrix Page Practical examples in POV-Ray
+Reference page - Rotation of axes
+Linear Transformation Calculator
+Transformation Applet - Generate matrices from 2D transformations and vice versa.
+Coordinate transformation under rotation in 2D
+Excel Fun - Build 3D graphics from a spreadsheet - Interactive transformation matrices in a live spreadsheet

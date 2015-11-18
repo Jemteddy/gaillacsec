@@ -1,0 +1,160 @@
+Catalysis (/kəˈtælɨsɨs/) is the increase in the rate of a chemical reaction due to the participation of an additional substance called a catalyst (/ˈkætəlɨst/). With a catalyst, reactions occur faster and require less activation energy. Because catalysts are not consumed in the catalyzed reaction, they can continue to catalyze the reaction of further quantities of reactant. Often only tiny amounts are required.
+
+
+== Technical perspective ==
+In the presence of a catalyst, less free energy is required to reach the transition state, but the total free energy from reactants to products does not change. A catalyst may participate in multiple chemical transformations. The effect of a catalyst may vary due to the presence of other substances known as inhibitors or poisons (which reduce the catalytic activity) or promoters (which increase the activity). The opposite of a catalyst, a substance that reduces the rate of a reaction, is an inhibitor.
+Catalyzed reactions have a lower activation energy (rate-limiting free energy of activation) than the corresponding uncatalyzed reaction, resulting in a higher reaction rate at the same temperature and for the same reactant concentrations. However, the detailed mechanics of catalysis is complex. Catalysts may affect the reaction environment favorably, or bind to the reagents to polarize bonds, e.g. acid catalysts for reactions of carbonyl compounds, or form specific intermediates that are not produced naturally, such as osmate esters in osmium tetroxide-catalyzed dihydroxylation of alkenes, or cause dissociation of reagents to reactive forms, such as chemisorbed hydrogen in catalytic hydrogenation.
+Kinetically, catalytic reactions are typical chemical reactions; i.e. the reaction rate depends on the frequency of contact of the reactants in the rate-determining step. Usually, the catalyst participates in this slowest step, and rates are limited by amount of catalyst and its "activity". In heterogeneous catalysis, the diffusion of reagents to the surface and diffusion of products from the surface can be rate determining. A nanomaterial-based catalyst is an example of a heterogeneous catalyst. Analogous events associated with substrate binding and product dissociation apply to homogeneous catalysts.
+Although catalysts are not consumed by the reaction itself, they may be inhibited, deactivated, or destroyed by secondary processes. In heterogeneous catalysis, typical secondary processes include coking where the catalyst becomes covered by polymeric side products. Additionally, heterogeneous catalysts can dissolve into the solution in a solid–liquid system or sublimate in a solid–gas system.
+
+
+== Background ==
+The production of most industrially important chemicals involves catalysis. Similarly, most biochemically significant processes are catalysed. Research into catalysis is a major field in applied science and involves many areas of chemistry, notably organometallic chemistry and materials science. Catalysis is relevant to many aspects of environmental science, e.g. the catalytic converter in automobiles and the dynamics of the ozone hole. Catalytic reactions are preferred in environmentally friendly green chemistry due to the reduced amount of waste generated, as opposed to stoichiometric reactions in which all reactants are consumed and more side products are formed. Many transition metals and transition metal complexes are used in catalysis as well. Catalysts called enzymes are important in biology.
+A catalyst works by providing an alternative reaction pathway to the reaction product. The rate of the reaction is increased as this alternative route has a lower activation energy than the reaction route not mediated by the catalyst. The disproportionation of hydrogen peroxide creates water and oxygen, as shown below.
+2 H2O2 → 2 H2O + O2
+This reaction is preferable in the sense that the reaction products are more stable than the starting material, though the uncatalysed reaction is slow. In fact, the decomposition of hydrogen peroxide is so slow that hydrogen peroxide solutions are commercially available. This reaction is strongly affected by catalysts such as manganese dioxide, or the enzyme peroxidase in organisms. Upon the addition of a small amount of manganese dioxide, the hydrogen peroxide reacts rapidly. This effect is readily seen by the effervescence of oxygen. The manganese dioxide is not consumed in the reaction, and thus may be recovered unchanged, and re-used indefinitely. Accordingly, manganese dioxide catalyses this reaction.
+
+
+== General principles ==
+
+
+=== Units ===
+Catalytic activity is usually denoted by the symbol z  and measured in mol/s, a unit which was called katal and defined the SI unit for catalytic activity since 1999. Catalytic activity is not a kind of reaction rate, but a property of the catalyst under certain conditions, in relation to a specific chemical reaction. Catalytic activity of one katal (Symbol 1 kat = 1 mol/s) of a catalyst means an amount of that catalyst (substance, in Mol) that leads to a net reaction of one Mol per second of the reactants to the resulting reagents or other outcome which was intended for this chemical reaction. A catalyst may and usually will have different catalytic activity for distinct reactions. See katal for an example.
+There are further derived SI units related to catalytic activity, see the above reference for details.
+
+
+=== Typical mechanism ===
+
+Catalysts generally react with one or more reactants to form intermediates that subsequently give the final reaction product, in the process regenerating the catalyst. The following is a typical reaction scheme, where C represents the catalyst, X and Y are reactants, and Z is the product of the reaction of X and Y:
+X + C → XC (1)
+Y + XC → XYC (2)
+XYC → CZ (3)
+CZ → C + Z (4)
+Although the catalyst is consumed by reaction 1, it is subsequently produced by reaction 4, so it does not occur in the overall reaction equation:
+X + Y → Z
+As a catalyst is regenerated in a reaction, often only small amounts are needed to increase the rate of the reaction. In practice, however, catalysts are sometimes consumed in secondary processes.
+The catalyst does usually appear in the rate equation. For example, if the rate-determining step in the above reaction scheme is the first step
+X + C → XC, the catalyzed reaction will be second order with rate equation v = kcat[X][C], which is proportional to the catalyst concentration [C]. However [C] remains constant during the reaction so that the catalyzed reaction is pseudo-first order: v = kobs[X], where kobs = kcat[C].
+As an example of a detailed mechanism at the microscopic level, in 2008 Danish researchers first revealed the sequence of events when oxygen and hydrogen combine on the surface of titanium dioxide (TiO2, or titania) to produce water. With a time-lapse series of scanning tunneling microscopy images, they determined the molecules undergo adsorption, dissociation and diffusion before reacting. The intermediate reaction states were: HO2, H2O2, then H3O2 and the final reaction product (water molecule dimers), after which the water molecule desorbs from the catalyst surface.
+
+
+=== Reaction energetics ===
+
+Catalysts work by providing an (alternative) mechanism involving a different transition state and lower activation energy. Consequently, more molecular collisions have the energy needed to reach the transition state. Hence, catalysts can enable reactions that would otherwise be blocked or slowed by a kinetic barrier. The catalyst may increase reaction rate or selectivity, or enable the reaction at lower temperatures. This effect can be illustrated with an energy profile diagram.
+In the catalyzed elementary reaction, catalysts do not change the extent of a reaction: they have no effect on the chemical equilibrium of a reaction because the rate of both the forward and the reverse reaction are both affected (see also thermodynamics). The second law of thermodynamics describes why a catalyst does not change the chemical equilibrium of a reaction. Suppose there was such a catalyst that shifted an equilibrium. Introducing the catalyst to the system would result in a reaction to move to the new equilibrium, producing energy. Production of energy is a necessary result since reactions are spontaneous if and only if Gibbs free energy is produced, and if there is no energy barrier, there is no need for a catalyst. Then, removing the catalyst would also result in reaction, producing energy; i.e. the addition and its reverse process, removal, would both produce energy. Thus, a catalyst that could change the equilibrium would be a perpetual motion machine, a contradiction to the laws of thermodynamics.
+If a catalyst does change the equilibrium, then it must be consumed as the reaction proceeds, and thus it is also a reactant. Illustrative is the base-catalysed hydrolysis of esters, where the produced carboxylic acid immediately reacts with the base catalyst and thus the reaction equilibrium is shifted towards hydrolysis.
+The SI derived unit for measuring the catalytic activity of a catalyst is the katal, which is moles per second. The productivity of a catalyst can be described by the turn over number (or TON) and the catalytic activity by the turn over frequency (TOF), which is the TON per time unit. The biochemical equivalent is the enzyme unit. For more information on the efficiency of enzymatic catalysis, see the article on Enzymes.
+The catalyst stabilizes the transition state more than it stabilizes the starting material. It decreases the kinetic barrier by decreasing the difference in energy between starting material and transition state. It does not change the energy difference between starting materials and products (thermodynamic barrier), or the available energy (this is provided by the environment as heat or light).
+
+
+=== Materials ===
+The chemical nature of catalysts is as diverse as catalysis itself, although some generalizations can be made. Proton acids are probably the most widely used catalysts, especially for the many reactions involving water, including hydrolysis and its reverse. Multifunctional solids often are catalytically active, e.g. zeolites, alumina, higher-order oxides, graphitic carbon, nanoparticles, nanodots, and facets of bulk materials. Transition metals are often used to catalyze redox reactions (oxidation, hydrogenation). Examples are nickel, such as Raney nickel for hydrogenation, and vanadium(V) oxide for oxidation of sulfur dioxide into sulfur trioxide by the so-called contact process. Many catalytic processes, especially those used in organic synthesis, require "late transition metals", such as palladium, platinum, gold, ruthenium, rhodium, or iridium.
+Some so-called catalysts are really precatalysts. Precatalysts convert to catalysts in the reaction. For example, Wilkinson's catalyst RhCl(PPh3)3 loses one triphenylphosphine ligand before entering the true catalytic cycle. Precatalysts are easier to store but are easily activated in situ. Because of this preactivation step, many catalytic reactions involve an induction period.
+Chemical species that improve catalytic activity are called co-catalysts (cocatalysts) or promotors in cooperative catalysis.
+
+
+== Types ==
+Catalysts can be heterogeneous or homogeneous, depending on whether a catalyst exists in the same phase as the substrate. Biocatalysts (enzymes) are often seen as a separate group.
+
+
+=== Heterogeneous catalysts ===
+
+Heterogeneous catalysts act in a different phase than the reactants. Most heterogeneous catalysts are solids that act on substrates in a liquid or gaseous reaction mixture. Diverse mechanisms for reactions on surfaces are known, depending on how the adsorption takes place (Langmuir-Hinshelwood, Eley-Rideal, and Mars-van Krevelen). The total surface area of solid has an important effect on the reaction rate. The smaller the catalyst particle size, the larger the surface area for a given mass of particles.
+A heterogeneous catalyst has active sites, which are the atoms or crystal faces where the reaction actually occurs. Depending on the mechanism, the active site may be either a planar exposed metal surface, a crystal edge with imperfect metal valence or a complicated combination of the two. Thus, not only most of the volume, but also most of the surface of a heterogeneous catalyst may be catalytically inactive. Finding out the nature of the active site requires technically challenging research. Thus, empirical research for finding out new metal combinations for catalysis continues.
+For example, in the Haber process, finely divided iron serves as a catalyst for the synthesis of ammonia from nitrogen and hydrogen. The reacting gases adsorb onto active sites on the iron particles. Once physically adsorbed, the reagents undergo chemisorption that results in dissociation into adsorbed atomic species, and new bonds between the resulting fragments form in part due to their close proximity. In this way the particularly strong triple bond in nitrogen is broken, which would be extremely uncommon in the gas phase due to its high activation energy. Thus, the activation energy of the overall reaction is lowered, and the rate of reaction increases. Another place where a heterogeneous catalyst is applied is in the oxidation of sulfur dioxide on vanadium(V) oxide for the production of sulfuric acid.
+Heterogeneous catalysts are typically "supported," which means that the catalyst is dispersed on a second material that enhances the effectiveness or minimizes their cost. Supports prevent or reduce agglomeration and sintering of the small catalyst particles, exposing more surface area, thus catalysts have a higher specific activity (per gram) on a support. Sometimes the support is merely a surface on which the catalyst is spread to increase the surface area. More often, the support and the catalyst interact, affecting the catalytic reaction. Supports are porous materials with a high surface area, most commonly alumina, zeolites or various kinds of activated carbon. Specialized supports include silicon dioxide, titanium dioxide, calcium carbonate, and barium sulfate.
+
+
+==== Electrocatalysts ====
+
+In the context of electrochemistry, specifically in fuel cell engineering, various metal-containing catalysts are used to enhance the rates of the half reactions that comprise the fuel cell. One common type of fuel cell electrocatalyst is based upon nanoparticles of platinum that are supported on slightly larger carbon particles. When in contact with one of the electrodes in a fuel cell, this platinum increases the rate of oxygen reduction either to water, or to hydroxide or hydrogen peroxide.
+
+
+=== Homogeneous catalysts ===
+
+Homogeneous catalysts function in the same phase as the reactants, but the mechanistic principles invoked in heterogeneous catalysis are generally applicable. Typically homogeneous catalysts are dissolved in a solvent with the substrates. One example of homogeneous catalysis involves the influence of H+ on the esterification of carboxylic acids, such as the formation of methyl acetate from acetic acid and methanol. For inorganic chemists, homogeneous catalysis is often synonymous with organometallic catalysts.
+
+
+==== Organocatalysis ====
+
+Whereas transition metals sometimes attract most of the attention in the study of catalysis, small organic molecules without metals can also exhibit catalytic properties, as is apparent from the fact that many enzymes lack transition metals. Typically, organic catalysts require a higher loading (amount of catalyst per unit amount of reactant, expressed in mol% amount of substance) than transition metal(-ion)-based catalysts, but these catalysts are usually commercially available in bulk, helping to reduce costs. In the early 2000s, these organocatalysts were considered "new generation" and are competitive to traditional metal(-ion)-containing catalysts. Organocatalysts are supposed to operate akin to metal-free enzymes utilizing, e.g., non-covalent interactions such as hydrogen bonding. The discipline organocatalysis is divided in the application of covalent (e.g., proline, DMAP) and non-covalent (e.g., thiourea organocatalysis) organocatalysts referring to the preferred catalyst-substrate binding and interaction, respectively.
+
+
+=== Enzymes and biocatalysts ===
+In biology, enzymes are protein-based catalysts in metabolism and catabolism. Most biocatalysts are enzymes, but other non-protein-based classes of biomolecules also exhibit catalytic properties including ribozymes, and synthetic deoxyribozymes.
+Biocatalysts can be thought of as intermediate between homogeneous and heterogeneous catalysts, although strictly speaking soluble enzymes are homogeneous catalysts and membrane-bound enzymes are heterogeneous. Several factors affect the activity of enzymes (and other catalysts) including temperature, pH, concentration of enzyme, substrate, and products. A particularly important reagent in enzymatic reactions is water, which is the product of many bond-forming reactions and a reactant in many bond-breaking processes.
+In biocatalysis, enzymes are employed to prepare many commodity chemicals including high-fructose corn syrup and acrylamide.
+Some monoclonal antibodies whose binding target is a stable molecule which resembles the transition state of a chemical reaction can function as weak catalysts for that chemical reaction by lowering its activation energy. Such catalytic antibodies are sometimes called "abzymes".
+
+
+=== Other ===
+In tandem catalysis two or more different catalysts are coupled in a one-pot reaction.
+
+
+== Significance ==
+
+Estimates are that 90% of all commercially produced chemical products involve catalysts at some stage in the process of their manufacture. In 2005, catalytic processes generated about $900 billion in products worldwide. Catalysis is so pervasive that subareas are not readily classified. Some areas of particular concentration are surveyed below.
+
+
+=== Energy processing ===
+Petroleum refining makes intensive use of catalysis for alkylation, catalytic cracking (breaking long-chain hydrocarbons into smaller pieces), naphtha reforming and steam reforming (conversion of hydrocarbons into synthesis gas). Even the exhaust from the burning of fossil fuels is treated via catalysis: Catalytic converters, typically composed of platinum and rhodium, break down some of the more harmful byproducts of automobile exhaust.
+2 CO + 2 NO → 2 CO2 + N2
+With regard to synthetic fuels, an old but still important process is the Fischer-Tropsch synthesis of hydrocarbons from synthesis gas, which itself is processed via water-gas shift reactions, catalysed by iron. Biodiesel and related biofuels require processing via both inorganic and biocatalysts.
+Fuel cells rely on catalysts for both the anodic and cathodic reactions.
+Catalytic heaters generate flameless heat from a supply of combustible fuel.
+
+
+=== Bulk chemicals ===
+Some of the largest-scale chemicals are produced via catalytic oxidation, often using oxygen. Examples include nitric acid (from ammonia), sulfuric acid (from sulfur dioxide to sulfur trioxide by the chamber process), terephthalic acid from p-xylene, and acrylonitrile from propane and ammonia.
+Many other chemical products are generated by large-scale reduction, often via hydrogenation. The largest-scale example is ammonia, which is prepared via the Haber process from nitrogen. Methanol is prepared from carbon monoxide.
+Bulk polymers derived from ethylene and propylene are often prepared via Ziegler-Natta catalysis. Polyesters, polyamides, and isocyanates are derived via acid-base catalysis.
+Most carbonylation processes require metal catalysts, examples include the Monsanto acetic acid process and hydroformylation.
+
+
+=== Fine chemicals ===
+Many fine chemicals are prepared via catalysis; methods include those of heavy industry as well as more specialized processes that would be prohibitively expensive on a large scale. Examples include olefin metathesis using Grubbs' catalyst, the Heck reaction, and Friedel-Crafts reactions.
+Because most bioactive compounds are chiral, many pharmaceuticals are produced by enantioselective catalysis (catalytic asymmetric synthesis).
+
+
+=== Food processing ===
+One of the most obvious applications of catalysis is the hydrogenation (reaction with hydrogen gas) of fats using nickel catalyst to produce margarine. Many other foodstuffs are prepared via biocatalysis (see below).
+
+
+=== Environment ===
+Catalysis impacts the environment by increasing the efficiency of industrial processes, but catalysis also plays a direct role in the environment. A notable example is the catalytic role of chlorine free radicals in the breakdown of ozone. These radicals are formed by the action of ultraviolet radiation on chlorofluorocarbons (CFCs).
+Cl· + O3 → ClO· + O2
+ClO· + O· → Cl· + O2
+
+
+== History ==
+In a general sense, anything that increases the rate of a process is a "catalyst", a term derived from Greek καταλύειν, meaning "to annul," or "to untie," or "to pick up." The concept of catalysis was invented by chemist Elizabeth Fulhame and described in a 1794 book, based on her novel work in oxidation-reduction experiments. The term catalysis was later used by Jöns Jakob Berzelius in 1835 to describe reactions that are accelerated by substances that remain unchanged after the reaction. Fulhame, who predated Berzelius, did work with water as opposed to metals in her reduction experiments. Other 18th century chemists who worked in catalysis were Eilhard Mitscherlich who referred to it as contact processes, and Johann Wolfgang Döbereiner who spoke of contact action. He developed Döbereiner's lamp, a lighter based on hydrogen and a platinum sponge, which became a commercial success in the 1820s that lives on today. Humphry Davy discovered the use of platinum in catalysis. In the 1880s, Wilhelm Ostwald at Leipzig University started a systematic investigation into reactions that were catalyzed by the presence of acids and bases, and found that chemical reactions occur at finite rates and that these rates can be used to determine the strengths of acids and bases. For this work, Ostwald was awarded the 1909 Nobel Prize in Chemistry.
+
+
+== Inhibitors, poisons and promoters ==
+Substances that reduce the action of catalysts are called catalyst inhibitors if reversible, and catalyst poisons if irreversible. Promoters are substances that increase the catalytic activity, even though they are not catalysts by themselves.
+Inhibitors are sometimes referred to as "negative catalysts" since they decrease the reaction rate. However the term inhibitor is preferred since they do not work by introducing a reaction path with higher activation energy; this would not reduce the rate since the reaction would continue to occur by the non-catalyzed path. Instead they act either by deactivating catalysts, or by removing reaction intermediates such as free radicals.
+The inhibitor may modify selectivity in addition to rate. For instance, in the reduction of acetylene to ethylene, a palladium (Pd) catalyst partly "poisoned" with lead(II) acetate (Pb(CH3COO)2) can be used. Without the deactivation of the catalyst, the ethene produced will be further reduced to ethane.
+The inhibitor can produce this effect by, e.g., selectively poisoning only certain types of active sites. Another mechanism is the modification of surface geometry. For instance, in hydrogenation operations, large planes of metal surface function as sites of hydrogenolysis catalysis while sites catalyzing hydrogenation of unsaturates are smaller. Thus, a poison that covers surface randomly will tend to reduce the number of uncontaminated large planes but leave proportionally more smaller sites free, thus changing the hydrogenation vs. hydrogenolysis selectivity. Many other mechanisms are also possible.
+Promoters can cover up surface to prevent production of a mat of coke, or even actively remove such material (e.g., rhenium on platinum in platforming). They can aid the dispersion of the catalytic material or bind to reagents.
+
+
+== Current market ==
+The global demand on catalysts in 2010 was estimated at approximately 29.5 billions USD. With the rapid recovery in automotive and chemical industry overall, the global catalyst market is expected to experience fast growth in the next years.
+
+
+== See also ==
+
+
+== References ==
+IUPAC, Compendium of Chemical Terminology, 2nd ed. (the "Gold Book") (1997). Online corrected version:  (2006–) "catalyst".
+
+
+== External links ==
+Science Aid: Catalysts Page for high school level science
+W.A. Herrmann Technische Universität presentation
+Alumite Catalyst, Kameyama-Sakurai Laboratory, Japan
+Inorganic Chemistry and Catalysis Group, Utrecht University, The Netherlands
+Centre for Surface Chemistry and Catalysis
+Carbons & Catalysts Group, University of Concepcion, Chile
+Center for Enabling New Technologies Through Catalysis, An NSF Center for Chemical Innovation, USA
+"Bubbles turn on chemical catalysts", Science News magazine online, April 6, 2009.

@@ -1,0 +1,20 @@
+In physics, the perpendicular axis theorem (or plane figure theorem) can be used to determine the moment of inertia of a rigid object that lies entirely within a plane, about an axis perpendicular to the plane, given the moments of inertia of the object about two perpendicular axes lying within the plane. The axes must all pass through a single point in the plane.
+Define perpendicular axes , , and  (which meet at origin ) so that the body lies in the  plane, and the  axis is perpendicular to the plane of the body. Let Ix, Iy and Iz be moments of inertia about axis x, y, z respectively, the perpendicular axis theorem states that
+
+This rule can be applied with the parallel axis theorem and the stretch rule to find moments of inertia for a variety of shapes.
+If a planar object (or prism, by the stretch rule) has rotational symmetry such that  and  are equal, then the perpendicular axes theorem provides the useful relationship:
+
+
+== Derivation ==
+Working in Cartesian co-ordinates, the moment of inertia of the planar body about the  axis is given by:
+
+On the plane, , so these two terms are the moments of inertia about the  and  axes respectively, giving the perpendicular axis theorem. The converse of this theorem is also derived similarly.
+Note that  because in , r measures the distance from the axis of rotation, so for a y-axis rotation, deviation distance from the axis of rotation of a point is equal to its x co-ordinate.
+
+
+== References ==
+
+
+== See also ==
+Parallel axis theorem
+Stretch rule

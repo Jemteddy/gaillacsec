@@ -1,0 +1,85 @@
+The Boltzmann constant (kB or k), named after Ludwig Boltzmann, is a physical constant relating energy at the individual particle level with temperature. It is the gas constant R divided by the Avogadro constant NA:
+
+The Boltzmann constant has the dimension energy divided by temperature, the same as entropy. The accepted value in SI units is 6977138064879999999♠1.3806488(13)×10−23 J/K.
+
+
+== Bridge from macroscopic to microscopic physicsEdit ==
+Boltzmann's constant, k, is a bridge between macroscopic and microscopic physics. Macroscopically, the ideal gas law states that, for an ideal gas, the product of pressure p and volume V is proportional to the product of amount of substance n (in moles) and absolute temperature T:
+
+where R is the gas constant (7000831446210000000♠8.3144621(75) J⋅K−1⋅mol−1). Introducing the Boltzmann constant transforms the ideal gas law into an alternative form:
+
+where N is the number of molecules of gas. For n = 1 mol, N is equal to the number of particles in one mole (Avogadro's number).
+
+
+== Role in the equipartition of energyEdit ==
+
+Given a thermodynamic system at an absolute temperature T, the average thermal energy carried by each microscopic degree of freedom in the system is on the order of magnitude of kT/2 (i.e., about 6979206999999999999♠2.07×10−21 J, or 6979208282943310000♠0.013 eV, at room temperature).
+
+
+=== Application to simple gas thermodynamicsEdit ===
+In classical statistical mechanics, this average is predicted to hold exactly for homogeneous ideal gases. Monatomic ideal gases possess three degrees of freedom per atom, corresponding to the three spatial directions, which means a thermal energy of 1.5kT per atom. This corresponds very well with experimental data. The thermal energy can be used to calculate the root-mean-square speed of the atoms, which turns out to be inversely proportional to the square root of the atomic mass. The root mean square speeds found at room temperature accurately reflect this, ranging from 7003137000000000000♠1370 m/s for helium, down to 7002240000000000000♠240 m/s for xenon.
+Kinetic theory gives the average pressure p for an ideal gas as
+
+Combination with the ideal gas law
+
+shows that the average translational kinetic energy is
+
+Considering that the translational motion velocity vector v has three degrees of freedom (one for each dimension) gives the average energy per degree of freedom equal to one third of that, i.e. kT/2.
+The ideal gas equation is also obeyed closely by molecular gases; but the form for the heat capacity is more complicated, because the molecules possess additional internal degrees of freedom, as well as the three degrees of freedom for movement of the molecule as a whole. Diatomic gases, for example, possess a total of six degrees of simple freedom per molecule that are related to atomic motion (three translational, two rotational, and one vibrational). At lower temperatures, not all these degrees of freedom may fully participate in the gas heat capacity, due to quantum mechanical limits on the availability of excited states at the relevant thermal energy per molecule.
+
+
+== Role in Boltzmann factorsEdit ==
+More generally, systems in equilibrium at temperature T have probability Pi of occupying a state i with energy E weighted by the corresponding Boltzmann factor:
+
+where Z is the partition function. Again, it is the energy-like quantity kT that takes central importance.
+Consequences of this include (in addition to the results for ideal gases above) the Arrhenius equation in chemical kinetics.
+
+
+== Role in the statistical definition of entropyEdit ==
+
+In statistical mechanics, the entropy S of an isolated system at thermodynamic equilibrium is defined as the natural logarithm of W, the number of distinct microscopic states available to the system given the macroscopic constraints (such as a fixed total energy E):
+
+This equation, which relates the microscopic details, or microstates, of the system (via W) to its macroscopic state (via the entropy S), is the central idea of statistical mechanics. Such is its importance that it is inscribed on Boltzmann's tombstone.
+The constant of proportionality k serves to make the statistical mechanical entropy equal to the classical thermodynamic entropy of Clausius:
+
+One could choose instead a rescaled dimensionless entropy in microscopic terms such that
+
+This is a more natural form and this rescaled entropy exactly corresponds to Shannon's subsequent information entropy.
+The characteristic energy kT is thus the energy required to increase the rescaled entropy by one nat.
+
+
+== Role in semiconductor physics: the thermal voltageEdit ==
+In semiconductors, the relationship between the flow of electric current and the electrostatic potential across a p–n junction depends on a characteristic voltage called the thermal voltage, denoted VT. The thermal voltage depends on absolute temperature T as
+
+where q is the magnitude of the electrical charge on the electron with a value 6981160217656499999♠1.602176565(35)×10−19 C and k is the Boltzmann's constant, 6977138064879999999♠1.3806488(13)×10−23 J/K. In electronvolts, the Boltzmann constant is 6977138064873519432♠8.6173324(78)×10−5 eV/K, making it easy to calculate that at room temperature (≈ 7002300000000000000♠300 K), the value of the thermal voltage is approximately 25.85 millivolts ≈ 6998260000000000000♠26 mV. The thermal voltage is also important in plasmas and electrolyte solutions; in both cases it provides a measure of how much the spatial distribution of electrons or ions is affected by a boundary held at a fixed voltage.
+
+
+== HistoryEdit ==
+Although Boltzmann first linked entropy and probability in 1877, it seems the relation was never expressed with a specific constant until Max Planck first introduced k, and gave a precise value for it (6977134600000000000♠1.346×10−23 J/K, about 2.5% lower than today's figure), in his derivation of the law of black body radiation in 1900–1901. Before 1900, equations involving Boltzmann factors were not written using the energies per molecule and the Boltzmann constant, but rather using a form of the gas constant R, and macroscopic energies for macroscopic quantities of the substance. The iconic terse form of the equation S = k ln W on Boltzmann's tombstone is in fact due to Planck, not Boltzmann. Planck actually introduced it in the same work as his eponymous h.
+In 1920, Planck wrote in his Nobel Prize lecture:
+
+This "peculiar state of affairs" is illustrated by reference to one of the great scientific debates of the time. There was considerable disagreement in the second half of the nineteenth century as to whether atoms and molecules were real or whether they were simply a heuristic tool for solving problems. There was no agreement whether chemical molecules, as measured by atomic weights, were the same as physical molecules, as measured by kinetic theory. Planck's 1920 lecture continued:
+
+In 2013 the UK National Physical Laboratory used microwave and acoustic resonance measurements to determine the speed of sound of a monatomic gas in a triaxial ellipsoid chamber to determine a more accurate value for the constant as a part of the revision of the International System of Units. The new value was calculated as 6977138065156000000♠1.38065156(98)×10−23 J⋅K−1 and is expected to be accepted by the International System of Units following a review.
+
+
+== Value in different unitsEdit ==
+
+Since k is a physical constant of proportionality between temperature and energy, its numerical value depends on the choice of units for energy and temperature. The small numerical value of the Boltzmann constant in SI units means a change in temperature by 1 K only changes a particle's energy by a small amount. A change of 7002274149999999999♠1 °C is defined to be the same as a change of 7000100000000000000♠1 K. The characteristic energy k is a term encountered in many physical relationships.
+
+
+=== Planck unitsEdit ===
+The Boltzmann constant provides a mapping from this characteristic microscopic energy E to the macroscopic temperature scale T = E/k. In physics research another definition is often encountered in setting k to unity, resulting in the Planck units or natural units for temperature and energy. In this context temperature is measured effectively in units of energy and the Boltzmann constant is not explicitly needed.
+
+This simplifies many physical relationships and in this form the definition of thermodynamic entropy coincides with the form of information entropy:
+
+where Pi is the probability of each microstate.
+The value chosen for a unit of the Planck temperature is that corresponding to the energy of the Planck mass or 7032141683300000000♠1.416833(85)×1032 K.
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Draft Chapter 2 for SI Brochure, following redefinitions of the base units (prepared by the Consultative Committee for Units)
+Big Step Towards Redefining the Kelvin: Scientists Find New Way to Determine Boltzmann Constant

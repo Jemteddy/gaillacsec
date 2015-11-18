@@ -1,0 +1,88 @@
+In numerical linear algebra, the method of successive over-relaxation (SOR) is a variant of the Gauss–Seidel method for solving a linear system of equations, resulting in faster convergence. A similar method can be used for any slowly converging iterative process.
+It was devised simultaneously by David M. Young, Jr. and by H. Frankel in 1950 for the purpose of automatically solving linear systems on digital computers. Over-relaxation methods had been used before the work of Young and Frankel. An example is the method of Lewis Fry Richardson, and the methods developed by R. V. Southwell. However, these methods were designed for computation by human calculators, and they required some expertise to ensure convergence to the solution which made them inapplicable for programming on digital computers. These aspects are discussed in the thesis of David M. Young, Jr.
+
+
+== Formulation ==
+Given a square system of n linear equations with unknown x:
+
+where:
+
+Then A can be decomposed into a diagonal component D, and strictly lower and upper triangular components L and U:
+
+where
+
+The system of linear equations may be rewritten as:
+
+for a constant ω > 1, called the relaxation factor.
+The method of successive over-relaxation is an iterative technique that solves the left hand side of this expression for x, using previous value for x on the right hand side. Analytically, this may be written as:
+
+where  is the kth approximation or iteration of  and  is the next or k + 1 iteration of . However, by taking advantage of the triangular form of (D+ωL), the elements of x(k+1) can be computed sequentially using forward substitution:
+
+The choice of relaxation factor ω is not necessarily easy, and depends upon the properties of the coefficient matrix. In 1947, Ostrowski proved that if  is symmetric and positive-definite then  for . Thus convergence of the iteration process follows, but we are generally interested in faster convergence rather than just convergence.
+
+
+== Algorithm ==
+Since elements can be overwritten as they are computed in this algorithm, only one storage vector is needed, and vector indexing is omitted. The algorithm goes as follows:
+Inputs: A, b, ω
+Output: 
+Choose an initial guess  to the solutionrepeat until convergence
+for i from 1 until n do
+
+for j from 1 until n do
+if j ≠ i then
+
+end if
+
+end (j-loop)
+
+end (i-loop)
+check if convergence is reached
+end (repeat)
+Note: can also be written , thus saving one multiplication in each iteration of the outer for-loop.
+
+
+== Symmetric successive over-relaxation ==
+The version for symmetric matrices A, in which
+
+is referred to as Symmetric Successive Over-Relaxation, or (SSOR), in which
+
+and the iterative method is
+
+The SOR and SSOR methods are credited to David M. Young, Jr..
+
+
+== Other applications of the method ==
+
+A similar technique can be used for any iterative method. If the original iteration had the form
+
+then the modified version would use
+
+Note however that the formulation presented above, used for solving systems of linear equations, is not a special case of this formulation if x is considered to be the complete vector. If this formulation is used instead, the equation for calculating the next vector will look like
+
+Values of  are used to speed up convergence of a slow-converging process, while values of  are often used to help establish convergence of a diverging iterative process or speed up the convergence of an overshooting process.
+There are various methods that adaptively set the relaxation parameter  based on the observed behavior of the converging process. Usually they help to reach a super-linear convergence for some problems but fail for the others.
+
+
+== See also ==
+Jacobi method
+Gaussian Belief Propagation
+Matrix splitting
+
+
+== Notes ==
+
+
+== References ==
+This article incorporates text from the article Successive_over-relaxation_method_-_SOR on CFD-Wiki that is under the GFDL license.
+
+Abraham Berman, Robert J. Plemmons, Nonnegative Matrices in the Mathematical Sciences, 1994, SIAM. ISBN 0-89871-321-8.
+Black, Noel and Moore, Shirley, "Successive Overrelaxation Method", MathWorld.
+Yousef Saad, Iterative Methods for Sparse Linear Systems, 1st edition, PWS, 1996.
+Netlib's copy of "Templates for the Solution of Linear Systems", by Barrett et al.
+Richard S. Varga 2002 Matrix Iterative Analysis, Second ed. (of 1962 Prentice Hall edition), Springer-Verlag.
+David M. Young, Jr. Iterative Solution of Large Linear Systems, Academic Press, 1971. (reprinted by Dover, 2003)
+
+
+== External links ==
+Module for the SOR Method
+Tridiagonal linear system solver based on SOR, in C++

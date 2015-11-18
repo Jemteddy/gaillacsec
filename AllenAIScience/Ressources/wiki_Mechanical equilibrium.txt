@@ -1,0 +1,43 @@
+In classical mechanics, a particle is in mechanical equilibrium if the net force on that particle is zero. By extension, a physical system made up of many parts is in mechanical equilibrium if the net force on each of its individual parts is zero.
+In addition to defining mechanical equilibrium in terms of force, there are many alternative definitions for mechanical equilibrium which are all mathematically equivalent. In terms of momentum, a system is in equilibrium if the momentum of its parts is all constant. In terms of velocity, the system is in equilibrium if velocity is constant. In a rotational mechanical equilibrium the angular momentum of the object is conserved and the net torque is zero. More generally in conservative systems, equilibrium is established at a point in configuration space where the gradient with respect to the generalized coordinates of the potential energy is zero.
+If a particle in equilibrium has zero velocity, that particle is in static equilibrium. Since all particles in equilibrium have constant velocity, it is always possible to find an inertial reference frame in which the particle is stationary with respect to the frame.
+
+
+== StabilityEdit ==
+An important property of systems at mechanical equilibrium is their stability.
+
+
+=== Potential energy stability testEdit ===
+If we have a function which describes the system's potential energy, we can determine the system's equilibria using calculus. A system is in mechanical equilibrium at the critical points of the function describing the system's potential energy. We can locate these points using the fact that the derivative of the function is zero at these points. To determine whether or not the system is stable or unstable, we apply the second derivative test:
+
+Second derivative < 0: The potential energy is at a local maximum, which means that the system is in an unstable equilibrium state. If the system is displaced an arbitrarily small distance from the equilibrium state, the forces of the system cause it to move even farther away.
+
+Second derivative > 0: The potential energy is at a local minimum. This is a stable equilibrium. The response to a small perturbation is forces that tend to restore the equilibrium. If more than one stable equilibrium state is possible for a system, any equilibria whose potential energy is higher than the absolute minimum represent metastable states.
+
+Second derivative = 0 or does not exist: The state is neutral to the lowest order and nearly remains in equilibrium if displaced a small amount. To investigate the precise stability of the system, higher order derivatives must be examined. The state is unstable if the lowest nonzero derivative is of odd order or has a negative value, stable if the lowest nonzero derivative is both of even order and has a positive value, and neutral if all higher order derivatives are zero. In a truly neutral state the energy does not vary and the state of equilibrium has a finite width. This is sometimes referred to as state that is marginally stable or in a state of indifference.
+When considering more than one dimension, it is possible to get different results in different directions, for example stability with respect to displacements in the x-direction but instability in the y-direction, a case known as a saddle point. Generally an equilibrium is only referred to as stable if it is stable in all directions.
+
+
+=== Statically indeterminate systemEdit ===
+
+Sometimes there is not enough information about the forces acting on a body to determine if it is in equilibrium or not. This makes it a statically indeterminate system.
+
+
+== ExamplesEdit ==
+The special case of mechanical equilibrium of a stationary object is static equilibrium. A paperweight on a desk would be in static equilibrium. The minimal number of static equilibria of homogeneous, convex bodies (when resting under gravity on a horizontal surface) is of special interest. In the planar case, the minimal number is 4, while in three dimensions one can build an object with just one stable and one unstable balance point, this is called gomboc. A child sliding down a slide at constant speed would be in mechanical equilibrium, but not in static equilibrium (in the reference frame of the slide).
+An example of mechanical equilibrium is a person trying to press a spring. He or she can push it up to a point after which it reaches a state where the force trying to compress it and the resistive force from the spring are equal, so the person cannot further press it. At this state the system will be in mechanical equilibrium. When the pressing force is removed the spring attains its original state.
+
+
+== See alsoEdit ==
+Dynamic equilibrium
+Engineering mechanics
+Metastability
+Statically indeterminate
+Statics
+
+
+== Notes and referencesEdit ==
+
+
+== Further readingEdit ==
+Marion JB and Thornton ST. (1995) Classical Dynamics of Particles and Systems. Fourth Edition, Harcourt Brace & Company.

@@ -1,0 +1,69 @@
+The standard enthalpy of formation or standard heat of formation of a compound is the change of enthalpy during the formation of 1 mole of the compound from its constituent elements, with all substances in their standard states at 1 atmosphere (1 atm or 101.3 kPa). Its symbol is ΔHfO or ΔfHO. The superscript theta (zero) on this symbol indicates that the process has occurred under standard conditions at the specified temperature (usually 25 degrees Celsius or 298.15 K). Standard states are as follows:
+For a gas: the standard state is a pressure of exactly 1 atm
+For a solute present in an ideal solution: a concentration of exactly one mole/liter (M) at a pressure of 1 atm
+For a pure substance or a solvent in a condensed state (a liquid or a solid): the standard state is the pure liquid or solid under a pressure of 1 atm
+For an element: the form in which the element is most stable under 1 atm of pressure. One exception is phosphorus, for which the most stable form at 1 atm is black phosphorus, but white phosphorus is chosen as the standard reference state for zero enthalpy of formation.
+For example, the standard enthalpy of formation of carbon dioxide would be the enthalpy of the following reaction under the conditions above:
+C(s,graphite) + O2(g) → CO2(g)
+All elements are written in their standard states, and one mole of product is formed. This is true for all enthalpies of formation.
+The standard enthalpy of formation is measured in units of energy per amount of substance, usually stated in kilojoule per mole (kJ mol−1), but also in calorie per mole, joule per mole or kilocalorie per gram (any combination of these units conforming to the energy per mass or amount guideline). In physics the energy per particle is often expressed in electronvolts which corresponds to about 100 kJ mol−1.
+All elements in their standard states (oxygen gas, solid carbon in the form of graphite, etc.) have a standard enthalpy of formation of zero, as there is no change involved in their formation.
+The formation reaction is a constant pressure and constant temperature process. Since the pressure of the standard formation reaction is fixed at 1 atm, the standard formation enthalpy or reaction heat is a function of temperature. For tabulation purposes, standard formation enthalpies are all given at a single temperature: 298 K, represented by the symbol ΔHf298O .
+
+
+== Calculation ==
+The standard enthalpy of formation is equivalent to the sum of many separate processes included in the Born-Haber cycle of synthesis reactions. For example, to calculate the standard enthalpy of formation of sodium chloride, we use the following reaction:
+Na(s) + (1/2)Cl2(g) → NaCl(s)
+This process is made of many separate sub-processes, each with its own enthalpy. Therefore, we must take into account:
+
+The standard enthalpy of atomization of solid sodium
+The first ionization energy of gaseous sodium
+The standard enthalpy of atomization of chlorine gas
+The electron affinity of chlorine atoms
+The lattice enthalpy of sodium chloride
+The sum of all these values will give the standard enthalpy of formation of sodium chloride.
+Additionally, applying Hess's Law shows that the sum of the individual reactions corresponding to the enthalpy change of formation for each substance in the reaction is equal to the enthalpy change of the overall reaction, regardless of the number of steps or intermediate reactions involved. This is because enthalpy is a state function. In the example above the standard enthalpy change of formation for sodium chloride is equal to the sum of the standard enthalpy change of formation for each of the steps involved in the process. This is especially useful for very long reactions with many intermediate steps and compounds.
+Chemists may use standard enthalpies of formation for a reaction that is hypothetical. For instance carbon and hydrogen will not directly react to form methane, yet the standard enthalpy of formation for methane is determined to be −74.8 kJ mol−1 from using other known standard enthalpies of reaction with Hess's law. That it is negative shows that the reaction, if it were to proceed, would be exothermic; that is, it is enthalpically more stable than hydrogen gas and carbon.
+It is possible to predict heat of formations for simple unstrained organic compounds with the Heat of formation group additivity method.
+
+
+== Standard enthalpy of reaction ==
+Standard enthalpies of formation are used in thermochemistry to find the standard enthalpy change of any reaction. This is done by subtracting the sum of the standard enthalpies of formation of the reactants (each being multiplied by its respective stoichiometric coefficient, ν) from the sum of the standard enthalpies of formation of the products (each also multiplied by its respective stoichiometric coefficient), as shown in the equation below:
+ΔH° = Σ(ν × ΔHf°) (products) - Σ(ν × ΔHf°) (reactants)
+This calculation has a tacit assumption of ideal solution between reactants and products where the enthalpy of mixing is zero.
+For example, for the reaction CH4 + 2 O2 → CO2 + 2 H2O:
+ΔHr° = [(1 × ΔHf°(CO2)) + (2 × ΔHf°(H2O))] (products) - [(1 × ΔHf°(CH4)) + (2 × ΔHf°(O2))] (reactants)
+If the standard enthalpy of the products is less than the standard enthalpy of the reactants, the standard enthalpy of reaction will be negative. This implies that the reaction is exothermic. The converse is also true; the standard enthalpy of reaction will be positive for an endothermic reaction.
+
+
+== Key concepts for doing enthalpy calculations ==
+When a reaction is reversed, the magnitude of ΔH stays the same, but the sign changes.
+When the balanced equation for a reaction is multiplied by an integer, the corresponding value of ΔH must be multiplied by that integer as well.
+The change in enthalpy for a reaction can be calculated from the enthalpies of formation of the reactants and the products
+Elements in their standard states make no contribution to the enthalpy calculations for the reaction since the enthalpy of an element in its standard state is zero. Allotropes of an element other than the standard state generally have non-zero standard enthalpies of formation.
+
+
+== Subcategories ==
+Standard enthalpy of neutralization is the change in enthalpy that occurs when an acid and base undergo a neutralization reaction to form one mole of water under standard conditions, as previously defined.
+Standard enthalpy of sublimation, or heat of sublimation, is defined as the enthalpy required to sublime one mole of the substance under standard conditions, as previously defined.
+Standard enthalpy of solution (or enthalpy change of dissolution or heat of solution) is the enthalpy change associated with the dissolution of a substance in a solvent at constant pressure under standard conditions, as previously defined.
+Standard enthalpy of hydrogenation is defined as the enthalpy change observed when one mole of an unsaturated compound reacts with an excess of hydrogen to become fully saturated under standard conditions, as previously defined.
+
+
+== Examples: Standard Enthalpies of Formation (at 25°C, 298 K) ==
+(State: g = gaseous; l = liquid; s = solid; aq = aqueous)
+
+
+== See also ==
+Thermochemistry
+Enthalpy
+Heat of combustion
+Calorimetry
+Standard enthalpy change of formation (data table)
+
+
+== External links ==
+NIST Chemistry WebBook
+
+
+== References ==

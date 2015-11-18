@@ -1,0 +1,29 @@
+Time evolution is the change of state brought about by the passage of time, applicable to systems with internal state (also called stateful systems). In this formulation, time is not required to be a continuous parameter, but may be discrete or even finite. In classical physics, time evolution of a collection of rigid bodies is governed by the principles of classical mechanics. In their most rudimentary form, these principles express the relationship between forces acting on the bodies and their acceleration given by Newton's laws of motion. These principles can also be equivalently expressed more abstractly by Hamiltonian mechanics or Lagrangian mechanics.
+The concept of time evolution may be applicable to other stateful systems as well. For instance, the operation of a Turing machine can be regarded as the time evolution of the machine's control state together with the state of the tape (or possibly multiple tapes) including the position of the machine's read-write head (or heads). In this case, time is discrete.
+Stateful systems often have dual descriptions in terms of states or in terms of observable values. In such systems, time evolution can also refer to the change in observable values. This is particularly relevant in quantum mechanics where the Schrödinger picture and Heisenberg picture are (mostly) equivalent descriptions of time evolution.
+
+
+== Time evolution operatorsEdit ==
+Consider a system with state space X for which evolution is deterministic and reversible. For concreteness let us also suppose time is a parameter that ranges over the set of real numbers R. Then time evolution is given by a family of bijective state transformations
+
+Ft, s(x) is the state of the system at time t, whose state at time s is x. The following identity holds
+
+To see why this is true, suppose x ∈ X is the state at time s. Then by the definition of F, Ft, s(x) is the state of the system at time t and consequently applying the definition once more, Fu, t(Ft, s(x)) is the state at time u. But this is also Fu, s(x).
+In some contexts in mathematical physics, the mappings Ft, s are called propagation operators or simply propagators. In classical mechanics, the propagators are functions that operate on the phase space of a physical system. In quantum mechanics, the propagators are usually unitary operators on a Hilbert space. The propagators can be expressed as time-ordered exponentials of the integrated Hamiltonian. The asymptotic properties of time evolution are given by the scattering matrix.
+A state space with a distinguished propagator is also called a dynamical system.
+To say time evolution is homogeneous means that
+
+In the case of a homogeneous system, the mappings Gt = Ft,0 form a one-parameter group of transformations of X, that is
+
+Non-reversibility. For non-reversible systems, the propagation operators Ft, s are defined whenever t ≥ s and satisfy the propagation identity
+
+In the homogeneous case the propagators are exponentials of the Hamiltonian.
+
+
+== See alsoEdit ==
+Arrow of time
+
+
+== ReferencesEdit ==
+Amann, H.; Arendt, W.; Neubrander, F.; Nicaise, S.; von Below, J. (2008), Functional Analysis and Evolution Equations: The Günter Lumer Volume, Basel: Birkhäuser, doi:10.1007/978-3-7643-7794-6, MR 2402015 .
+Lumer, Günter (1994), "Evolution equations. Solutions for irregular evolution problems via generalized solutions and generalized initial values. Applications to periodic shocks models", Annales Universitatis Saraviensis, Series Mathematicae 5 (1), MR 1286099 .

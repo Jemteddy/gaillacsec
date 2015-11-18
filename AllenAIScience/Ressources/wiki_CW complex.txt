@@ -1,0 +1,84 @@
+In topology, a CW complex is a type of topological space introduced by J. H. C. Whitehead to meet the needs of homotopy theory. This class of spaces is broader and has some better categorical properties than simplicial complexes, but still retains a combinatorial nature that allows for computation (often with a much smaller complex).
+
+
+== Formulation ==
+Roughly speaking, a CW complex is made of basic building blocks called cells. The precise definition prescribes how the cells may be topologically glued together. The C stands for "closure-finite", and the W for "weak topology".
+An n-dimensional closed cell is the image of an n-dimensional closed ball under an attaching map. For example, a simplex is a closed cell, and more generally, a convex polytope is a closed cell. An n-dimensional open cell is a topological space that is homeomorphic to the n-dimensional open ball. A 0-dimensional open (and closed) cell is a singleton space. Closure-finite means that each closed cell is covered by a finite union of open cells.
+A CW complex is a Hausdorff space X together with a partition of X into open cells (of perhaps varying dimension) that satisfies two additional properties:
+For each n-dimensional open cell C in the partition of X, there exists a continuous map f from the n-dimensional closed ball to X such that
+the restriction of f to the interior of the closed ball is a homeomorphism onto the cell C, and
+the image of the boundary of the closed ball is contained in the union of a finite number of elements of the partition, each having cell dimension less than n.
+
+A subset of X is closed if and only if it meets the closure of each cell in a closed set.
+
+
+== Inductive definition of CW complexes ==
+If the largest dimension of any of the cells is n, then the CW complex is said to have dimension n. If there is no bound to the cell dimensions then it is said to be infinite-dimensional. The n-skeleton of a CW complex is the union of the cells whose dimension is at most n. If the union of a set of cells is closed, then this union is itself a CW complex, called a subcomplex. Thus the n-skeleton is the largest subcomplex of dimension n or less.
+A CW complex is often constructed by defining its skeleta inductively. Begin by taking the 0-skeleton to be a discrete space. Next, attach 1-cells to the 0-skeleton. Here, each 1-cell begins as a closed 1-ball and is attached to the 0-skeleton via some (continuous) map from the boundary of the 1-ball, that is, from the 0-sphere . Each point of  can be identified with its image in the 0-skeleton under the aforementioned map; this is an equivalence relation. The 1-skeleton is then defined to be the identification space obtained from the union of the 0-skeleton and 1-cells under this equivalence relation.
+In general, given the (n − 1)-skeleton, the n-skeleton is formed by attaching n-cells to it. Each n-cell begins as a closed n-ball and is attached to the (n − 1)-skeleton via some continuous map from the boundary of the n-ball, that is, from the (n − 1)-sphere . Each point of  can be identified with its image in the (n − 1)-skeleton under the aforementioned map; this is again an equivalence relation. The n-skeleton is then defined to be the identification space obtained from the union of the (n − 1)-skeleton and n-cells under this equivalence relation.
+Up to isomorphism every n-dimensional complex can be obtained from its (n − 1)-skeleton in this sense, and thus every finite-dimensional CW complex can be built up by the process above. This is true even for infinite-dimensional complexes, with the understanding that the result of the infinite process is the direct limit of the skeleta: a set is closed in X if and only if it meets each skeleton in a closed set.
+
+
+== Examples ==
+The standard CW structure on the real numbers has 0-skeleton the integers  and as 1-cells the intervals . Similarly, the standard CW structure on  has cubical cells that are products of the 0 and 1-cells from . This is the standard cubic lattice cell structure on .
+A polyhedron is naturally a CW complex.
+A graph is a 1-dimensional CW complex. Trivalent graphs can be considered as generic 1-dimensional CW complexes. Specifically, if X is a 1-dimensional CW complex, the attaching map for a 1-cell is a map from a two-point space to X, . This map can be perturbed to be disjoint from the 0-skeleton of X if and only if  and  are not 0-valence vertices of X.
+An infinite-dimensional Hilbert space is not a CW complex: it is a Baire space and therefore cannot be written as a countable union of n-skeletons, each of which being a closed set with empty interior. This argument extends to many other infinite-dimensional spaces.
+The terminology for a generic 2-dimensional CW complex is a shadow.
+The n-dimensional sphere admits a CW structure with two cells, one 0-cell and one n-cell. Here the n-cell is attached by the constant mapping from  to 0-cell. There is a popular alternative cell decomposition, since the equatorial inclusion  has complement two balls: the upper and lower hemi-spheres. Inductively, this gives  a CW decomposition with two cells in every dimension k such that .
+The n-dimensional real projective space admits a CW structure with one cell in each dimension.
+Grassmannian manifolds admit a CW structure called Schubert cells.
+Differentiable manifolds, algebraic and projective varieties have the homotopy-type of CW complexes.
+The one-point compactification of a cusped hyperbolic manifold has a canonical CW decomposition with only one 0-cell (the compactification point) called the Epstein-Penner Decomposition. Such cell decompositions are frequently called ideal polyhedral decompositions and are used in popular computer software, such as SnapPea.
+The space  has the homotopy-type of a CW complex (it is contractible) but it does not admit a CW decomposition, since it is not locally contractible.
+The Hawaiian earring is an example of a topological space that does not have the homotopy-type of a CW complex.
+
+
+== Homology and cohomology of CW complexes ==
+Singular homology and cohomology of CW complexes is readily computable via cellular homology. Moreover, in the category of CW complexes and cellular maps, cellular homology can be interpreted as a homology theory. To compute an extraordinary (co)homology theory for a CW complex, the Atiyah-Hirzebruch spectral sequence is the analogue of cellular homology.
+Some examples:
+
+For the sphere , take the cell decomposition with two cells: a single 0-cell and a single n-cell. The cellular homology chain complex  and homology are given by:
+
+  since all the differentials are zero.
+Alternatively, if we use the equatorial decomposition with two cells in every dimension  and the differentials are matrices of the form . This gives the same homology computation above, as the chain complex is exact at all terms except  and .
+
+For  we get similarly
+
+Both of the above examples are particularly simple because the homology is determined by the number of cells—i.e.: the cellular attaching maps have no role in these computations. This is a very special phenomenon and is not indicative of the general case.
+
+
+== Modification of CW structures ==
+There is a technique, developed by Whitehead, for replacing a CW complex with a homotopy-equivalent CW complex which has a simpler CW decomposition.
+Consider, for example, an arbitrary CW complex. Its 1-skeleton can be fairly complicated, being an arbitrary graph. Now consider a maximal forest F in this graph. Since it is a collection of trees, and trees are contractible, consider the space  where the equivalence relation is generated by  if they are contained in a common tree in the maximal forest F. The quotient map  is a homotopy equivalence. Moreover,  naturally inherits a CW structure, with cells corresponding to the cells of  which are not contained in F. In particular, the 1-skeleton of  is a disjoint union of wedges of circles.
+Another way of stating the above is that a connected CW complex can be replaced by a homotopy-equivalent CW complex whose 0-skeleton consists of a single point.
+Consider climbing up the connectivity ladder—assume X is a simply-connected CW complex whose 0-skeleton consists of a point. Can we, through suitable modifications, replace X by a homotopy-equivalent CW complex where  consists of a single point? The answer is yes. The first step is to observe that  and the attaching maps to construct  from  form a group presentation. The Tietze theorem for group presentations states that there is a sequence of moves we can perform to reduce this group presentation to the trivial presentation of the trivial group. There are two Tietze moves:
+1) Adding/removing a generator. Adding a generator, from the perspective of the CW decomposition consists of adding a 1-cell and a 2-cell whose attaching map consists of the new 1-cell and the remainder of the attaching map is in . If we let  be the corresponding CW complex  then there is a homotopy-equivalence  given by sliding the new 2-cell into X.
+2) Adding/removing a relation. The act of adding a relation is similar, only one is replacing X by  where the new 3-cell has an attaching map that consists of the new 2-cell and remainder mapping into . A similar slide gives a homotopy-equivalence .
+If a CW complex X is n-connected one can find a homotopy-equivalent CW complex  whose n-skeleton  consists of a single point. The argument for  is similar to the  case, only one replaces Tietze moves for the fundamental group presentation by elementary matrix operations for the presentation matrices for  (using the presentation matrices coming from cellular homology. i.e.: one can similarly realize elementary matrix operations by a sequence of addition/removal of cells or suitable homotopies of the attaching maps.
+
+
+== 'The' homotopy category ==
+The homotopy category of CW complexes is, in the opinion of some experts, the best if not the only candidate for the homotopy category (for technical reasons the version for pointed spaces is actually used). Auxiliary constructions that yield spaces that are not CW complexes must be used on occasion. One basic result is that the representable functors on the homotopy category have a simple characterisation (the Brown representability theorem).
+
+
+== Properties ==
+CW complexes are locally contractible.
+CW complexes satisfy the Whitehead theorem: a map between CW complexes is a homotopy-equivalence if and only if it induces an isomorphism on all homotopy groups.
+The product of two CW complexes can be made into a CW complex. Specifically, if X and Y are CW complexes, then one can form a CW complex X×Y in which each cell is a product of a cell in X and a cell in Y, endowed with the weak topology. The underlying set of X×Y is then the Cartesian product of X and Y, as expected. In addition, the weak topology on this set often agrees with the more familiar product topology on X×Y, for example if either X or Y is finite. However, the weak topology can be finer than the product topology if neither X nor Y is locally compact. In this unfavorable case, the product X×Y in the product topology is not a CW complex. On the other hand, the product of X and Y in the category of compactly generated spaces agrees with the weak topology and therefore defines a CW complex.
+Let X and Y be CW complexes. Then the function spaces Hom(X,Y) (with the compact-open topology) are not CW complexes in general. If X is finite then Hom(X,Y) is homotopy equivalent to a CW complex by a theorem of John Milnor (1959). Note that X and Y are compactly generated Hausdorff spaces, so Hom(X,Y) is often taken with the compactly generated variant of the compact-open topology; the above statements remain true.
+A covering space of a CW complex is also a CW complex.
+CW complexes are paracompact. Finite CW complexes are compact. A compact subspace of a CW complex is always contained in a finite subcomplex. 
+
+
+== See also ==
+The notion of CW complex has an adaptation to smooth manifolds called a handle decomposition which is closely related to surgery theory.
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== General references ===

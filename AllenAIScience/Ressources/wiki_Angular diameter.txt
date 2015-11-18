@@ -1,0 +1,67 @@
+The angular diameter or apparent size is an angular measurement describing how large a sphere or circle appears from a given point of view. In the vision sciences it is called the visual angle. The angular diameter can alternately be thought of as the angle through which an eye or camera must rotate to look from one side of an apparent circle to the opposite side.
+
+
+== Formula ==
+
+The angular diameter of a circle whose plane is perpendicular to the displacement vector between the point of view and the centre of said circle can be calculated using the formula
+
+in which  is the angular diameter, and  and  are the actual diameter of and the distance to the object. When , we have , and the result obtained is in radians.
+For a spherical object whose actual diameter equals  and where  is the distance to the centre of the sphere, the angular diameter can be found by the formula
+
+The reason for the difference is that when looking at a sphere, the edges are the tangent points, which are closer to the observer than the centre of the sphere. For practical use, the distinction is only significant for spherical objects that are relatively close, since the small-angle approximation holds for :
+ .
+
+
+== Estimating angular diameter using outstretched hand ==
+
+Estimates of angular diameter may be obtained by holding the hand at right angles to a fully extended arm, as shown in the figure.
+
+
+== Use in astronomy ==
+
+In astronomy the sizes of objects in the sky are often given in terms of their angular diameter as seen from Earth, rather than their actual sizes. Since these angular diameters are typically small, it is common to present them in arcseconds. An arcsecond is 1/3600th of one degree, and a radian is 180/ degrees, so one radian equals 3600*180/ arcseconds, which is about 206265 arcseconds. Therefore, the angular diameter of an object with physical diameter d at a distance D, expressed in arcseconds, is given by:
+ = (206265) d / D arcseconds.
+The angular diameter of Earth's orbit around the Sun, from a distance of one parsec, is 1″ (one arcsecond).
+The angular diameter of the Sun, from a distance of one light-year, is 0.03″, and that of the Earth 0.0003″. The angular diameter 0.03″ of the Sun given above is approximately the same as that of a person at a distance of the diameter of the Earth.[1]
+This table shows the angular sizes of noteworthy celestial bodies as seen from the Earth:
+
+The table shows that the angular diameter of Sun, when seen from Earth is approximately 32 arcminutes (1920 arcseconds or 0.53 degrees), as illustrated above.
+Thus the angular diameter of the Sun is about 250,000 times that of Sirius (Sirius has twice the diameter and its distance is 500,000 times as much; the Sun is 10^10 times as bright, corresponding to an angular diameter ratio of 10^5, so Sirius is roughly 6 times as bright per unit solid angle).
+The angular diameter of the Sun is also about 250,000 times that of Alpha Centauri A (it has about the same diameter and the distance is 250,000 times as much; the Sun is 4×10^10 times as bright, corresponding to an angular diameter ratio of 200,000, so Alpha Centauri A is a little brighter per unit solid angle).
+The angular diameter of the Sun is about the same as that of the Moon (the Sun's diameter is 400 times as large and its distance also; the Sun is 200,000 to 500,000 times as bright as the full Moon (figures vary), corresponding to an angular diameter ratio of 450 to 700, so a celestial body with a diameter of 2.5–4″ and the same brightness per unit solid angle would have the same brightness as the full Moon).
+Even though Pluto is physically larger than Ceres, when viewed from Earth (e.g., through the Hubble Space Telescope) Ceres has a much larger apparent size.
+While angular sizes measured in degrees are useful for larger patches of sky (in the constellation of Orion, for example, the three stars of the belt cover about 4.5 degrees of angular size), we need much finer units when talking about the angular size of galaxies, nebulae or other objects of the night sky.
+Degrees, therefore, are subdivided as follows:
+360 degrees (°) in a full circle
+60 arc-minutes (′) in one degree
+60 arc-seconds (″) in one arc-minute
+To put this in perspective, the full moon viewed from Earth is about 1⁄2 degree, or 30 arc minutes (or 1800 arc-seconds). The Moon's motion across the sky can be measured in angular size: approximately 15 degrees every hour, or 15 arc-seconds per second. A one-mile-long line painted on the face of the Moon would appear to us to be about one arc-second in length.
+In astronomy, it is typically difficult to directly measure the distance to an object. But the object may have a known physical size (perhaps it is similar to a closer object with known distance) and a measurable angular diameter. In that case, the angular diameter formula can be inverted to yield the Angular diameter distance to distant objects as
+.
+In non-Euclidean space, such as our expanding universe, the angular diameter distance is only one of several definitions of distance, so that there can be different "distances" to the same object. See Distance measures (cosmology).
+
+
+== Non-circular objects ==
+Many deep sky objects such as galaxies and nebulas appear as non-circular, and are thus typically given two measures of diameter: Major Diameter and Minor Diameter. For example, the Small Magellanic Cloud has a visual apparent diameter of 5° 20′ × 3° 5′.
+
+
+== Defect of illumination ==
+Defect of illumination is the maximum angular width of the unilluminated part of a celestial body seen by a given observer. For example, if an object is 40 seconds of arc across and is 75 percent illuminated, the defect of illumination is 10 seconds of arc.
+
+
+== See also ==
+Angular diameter distance
+Angular resolution
+Solid angle
+Visual acuity
+Visual angle
+Visual Angle Illusion
+List of stars with resolved images
+
+
+== References ==
+
+
+== External links ==
+Small-Angle Formula
+Visual Aid to the Apparent Size of the Planets

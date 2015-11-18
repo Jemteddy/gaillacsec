@@ -1,0 +1,150 @@
+The gravity of Earth, which is denoted by g, refers to the acceleration that the Earth imparts to objects on or near its surface due to gravity. In SI units this acceleration is measured in metres per second squared (in symbols, m/s2 or m·s−2) or equivalently in newtons per kilogram (N/kg or N·kg−1). It has an approximate value of 9.81 m/s2, which means that, ignoring the effects of air resistance, the speed of an object falling freely near the Earth's surface will increase by about 9.81 metres (32.2 ft) per second every second. This quantity is sometimes referred to informally as little g (in contrast, the gravitational constant G is referred to as big G).
+There is a direct relationship between gravitational acceleration and the downwards force (weight) experienced by objects on Earth, given by the equation F = ma (force = mass × acceleration). However, other factors such as the rotation of the Earth also contribute to the net acceleration.
+The precise strength of Earth's gravity varies depending on location. The nominal "average" value at the Earth's surface, known as standard gravity is, by definition, 9.80665 m/s2 (about 32.1740 ft/s2). This quantity is denoted variously as gn, ge (though this sometimes means the normal equatorial value on Earth, 9.78033 m/s2), g0, gee, or simply g (which is also used for the variable local value).
+
+
+== Variation in gravity and apparent gravityEdit ==
+A perfect sphere of uniform density, or whose density varies solely with distance from the centre (spherical symmetry), would produce a gravitational field of uniform magnitude at all points on its surface, always pointing directly towards the sphere's centre. The Earth is not a perfect sphere, but is slightly flatter at the poles while bulging at the Equator: an oblate spheroid. There are consequently slight deviations in both the magnitude and direction of gravity across its surface. The net force (or corresponding net acceleration) as measured by a scale and plumb bob is called "effective gravity" or "apparent gravity". Effective gravity includes other factors that affect the net force. These factors vary and include things such as centrifugal force at the surface from the Earth's rotation and the gravitational pull of the Moon and Sun.
+Effective gravity on the Earth's surface varies by around 0.7%, from 9.7639 m/s2 on the Nevado Huascarán mountain in Peru to 9.8337 m/s2 at the surface of the Arctic Ocean. In large cities, it ranges from 9.766 in Kuala Lumpur, Mexico City, and Singapore to 9.825 in Oslo and Helsinki.
+
+
+=== LatitudeEdit ===
+
+The surface of the Earth is rotating, so it is not an inertial frame of reference. At latitudes nearer the Equator, the outward centrifugal force produced by Earth's rotation is larger than at polar latitudes. This counteracts the Earth's gravity to a small degree – up to a maximum of 0.3% at the Equator – and reduces the apparent downward acceleration of falling objects.
+The second major reason for the difference in gravity at different latitudes is that the Earth's equatorial bulge (itself also caused by centrifugal force from rotation) causes objects at the Equator to be farther from the planet's centre than objects at the poles. Because the force due to gravitational attraction between two bodies (the Earth and the object being weighed) varies inversely with the square of the distance between them, an object at the Equator experiences a weaker gravitational pull than an object at the poles.
+In combination, the equatorial bulge and the effects of the surface centrifugal force due to rotation mean that sea-level effective gravity increases from about 9.780 m/s2 at the Equator to about 9.832 m/s2 at the poles, so an object will weigh about 0.5% more at the poles than at the Equator.
+The same two factors influence the direction of the effective gravity (as determined by a plumb line or as the perpendicular to the surface of water in a container). Anywhere on Earth away from the Equator or poles, effective gravity points not exactly toward the centre of the Earth, but rather perpendicular to the surface of the geoid, which, due to the flattened shape of the Earth, is somewhat toward the opposite pole. About half of the deflection is due to centrifugal force, and half because the extra mass around the Equator causes a change in the direction of the true gravitational force relative to what it would be on a spherical Earth.
+
+
+=== AltitudeEdit ===
+
+Gravity decreases with altitude as one rises above the Earth's surface because greater altitude means greater distance from the Earth's centre. All other things being equal, an increase in altitude from sea level to 9,000 metres (30,000 ft) causes a weight decrease of about 0.29%. (An additional factor affecting apparent weight is the decrease in air density at altitude, which lessens an object's buoyancy. This would increase a person's apparent weight at an altitude of 9,000 metres by about 0.08%)
+It is a common misconception that astronauts in orbit are weightless because they have flown high enough to escape the Earth's gravity. In fact, at an altitude of 400 kilometres (250 mi), equivalent to a typical orbit of the Space Shuttle, gravity is still nearly 90% as strong as at the Earth's surface. Weightlessness actually occurs because orbiting objects are in free-fall.
+The effect of ground elevation depends on the density of the ground (see Slab correction section). A person flying at 30 000 ft above sea level over mountains will feel more gravity than someone at the same elevation but over the sea. However, a person standing on the earth's surface feels less gravity when the elevation is higher.
+The following formula approximates the Earth's gravity variation with altitude:
+
+Where
+gh is the gravitational acceleration at height h above sea level.
+re is the Earth's mean radius.
+g0 is the standard gravitational acceleration.
+The formula treats the Earth as a perfect sphere with a radially symmetric distribution of mass; a more accurate mathematical treatment is discussed below.
+
+
+=== DepthEdit ===
+
+An approximate value for gravity at a distance r from the centre of the Earth can be obtained by assuming that the Earth's density is spherically symmetric. The gravity depends only on the mass inside the sphere of radius r. All the contributions from outside cancel out as a consequence of the inverse-square law of gravitation. Another consequence is that the gravity is the same as if all the mass were concentrated at the centre. Thus, the gravitational acceleration at this radius is
+
+where G is the gravitational constant and M(r) is the total mass enclosed within radius r. If the Earth had a constant density ρ, the mass would be M(r) = (4/3)πρr3 and the dependence of gravity on depth would be
+
+g at depth d is given by g'=g(1-d/R) where g is acceleration due to gravity on surface of the earth, d is depth and R is radius of Earth. If the density decreased linearly with increasing radius from a density ρ0 at the centre to ρ1 at the surface, then ρ(r) = ρ0 − (ρ0 − ρ1) r / re, and the dependence would be
+
+The actual depth dependence of density and gravity, inferred from seismic travel times (see Adams–Williamson equation), is shown in the graphs below.
+
+
+=== Local topography and geologyEdit ===
+
+Local variations in topography (such as the presence of mountains) and geology (such as the density of rocks in the vicinity) cause fluctuations in the Earth's gravitational field, known as gravitational anomalies. Some of these anomalies can be very extensive, resulting in bulges in sea level, and throwing pendulum clocks out of synchronisation.
+The study of these anomalies forms the basis of gravitational geophysics. The fluctuations are measured with highly sensitive gravimeters, the effect of topography and other known factors is subtracted, and from the resulting data conclusions are drawn. Such techniques are now used by prospectors to find oil and mineral deposits. Denser rocks (often containing mineral ores) cause higher than normal local gravitational fields on the Earth's surface. Less dense sedimentary rocks cause the opposite.
+
+
+=== Other factorsEdit ===
+In air, objects experience a supporting buoyancy force which reduces the apparent strength of gravity (as measured by an object's weight). The magnitude of the effect depends on air density (and hence air pressure); see Apparent weight for details.
+The gravitational effects of the Moon and the Sun (also the cause of the tides) have a very small effect on the apparent strength of Earth's gravity, depending on their relative positions; typical variations are 2 µm/s2 (0.2 mGal) over the course of a day.
+
+
+=== Comparative gravities in various cities around the worldEdit ===
+The table below shows the gravitational acceleration in various cities around the world. The effect of latitude can be clearly seen with gravity in high-latitude cities (Anchorage, Helsinki, Oslo) being about 0.5% greater than that in cities near the equator (Kandy, Kuala Lumpur, Singapore). The effect of altitude can be seen in Mexico City (altitude 2,240 meters (7,350 ft)), and by comparing Denver (5,280 feet (1,610 m)) with Washington, D.C. (25 feet (7.6 m))(both near 39° N).
+
+
+=== Mathematical modelsEdit ===
+
+
+==== Latitude modelEdit ====
+
+If the terrain is at sea level, we can estimate , the acceleration at latitude :
+
+This is the International Gravity Formula 1967, the 1967 Geodetic Reference System Formula, Helmert's equation or Clairaut's formula.
+An alternate formula for g as a function of latitude is the WGS (World Geodetic System) 84 Ellipsoidal Gravity Formula:
+
+where,
+ are the equatorial and polar semi-axes, respectively;
+ is the spheroid's eccentricity, squared;
+ is the defined gravity at the equator and poles, respectively;
+ (formula constant);
+then, where  = 9.8321849378 ms−2,
+
+The difference between the WGS-84 formula and Helmert's equation is less than 0.68 μm·s−2.
+
+
+==== Free air correctionEdit ====
+
+The first correction to be applied to the model is the free air correction (FAC) that accounts for heights above sea level. Near the surface of the Earth (sea level), gravity decreases with height such that linear extrapolation would give zero gravity at a height of one half of the earth's radius - (9.8 m·s−2 per 3,200 km.)
+Using the mass and radius of the Earth:
+
+The FAC correction factor (Δg) can be derived from the definition of the acceleration due to gravity in terms of G, the Gravitational Constant (see Estimating g from the law of universal gravitation, below):
+
+where:
+
+At a height h above the nominal surface of the earth gh is given by:
+
+So the FAC for a height h above the nominal earth radius can be expressed:
+
+This expression can be readily used for programming or inclusion in a spreadsheet. Collecting terms, simplifying and neglecting small terms (h<<rEarth), however yields the good approximation:
+
+Using the numerical values above and for a height h in metres:
+
+Grouping the latitude and FAC altitude factors the expression most commonly found in the literature is:
+
+where  = acceleration in m·s−2 at latitude  and altitude h in metres. Alternatively (with the same units for h) the expression can be grouped as follows:
+
+
+==== Slab correctionEdit ====
+
+Note: The section uses the galileo (symbol: "Gal"), which is a cgs unit for acceleration of 1 centimetre/second2.
+
+For flat terrain above sea level a second term is added for the gravity due to the extra mass; for this purpose the extra mass can be approximated by an infinite horizontal slab, and we get 2πG times the mass per unit area, i.e. 4.2×10−10 m3·s−2·kg−1 (0.042 μGal·kg−1·m2) (the Bouguer correction). For a mean rock density of 2.67 g·cm−3 this gives 1.1×10−6 s−2 (0.11 mGal·m−1). Combined with the free-air correction this means a reduction of gravity at the surface of ca. 2 µm·s−2 (0.20 mGal) for every metre of elevation of the terrain. (The two effects would cancel at a surface rock density of 4/3 times the average density of the whole earth. The density of the whole earth is 5.515 g·cm−3, so standing on a slab of something like iron whose density is over 7.35 g·cm−3 would increase one's weight.)
+For the gravity below the surface we have to apply the free-air correction as well as a double Bouguer correction. With the infinite slab model this is because moving the point of observation below the slab changes the gravity due to it to its opposite. Alternatively, we can consider a spherically symmetrical Earth and subtract from the mass of the Earth that of the shell outside the point of observation, because that does not cause gravity inside. This gives the same result.
+
+
+== Estimating g from the law of universal gravitationEdit ==
+From the law of universal gravitation, the force on a body acted upon by Earth's gravity is given by
+
+where r is the distance between the centre of the Earth and the body (see below), and here we take m1 to be the mass of the Earth and m2 to be the mass of the body.
+Additionally, Newton's second law, F = ma, where m is mass and a is acceleration, here tells us that
+
+Comparing the two formulas it is seen that:
+
+So, to find the acceleration due to gravity at sea level, substitute the values of the gravitational constant, G, the Earth's mass (in kilograms), m1, and the Earth's radius (in metres), r, to obtain the value of g:
+
+Note that this formula only works because of the mathematical fact that the gravity of a uniform spherical body, as measured on or above its surface, is the same as if all its mass were concentrated at a point at its centre. This is what allows us to use the Earth's radius for r.
+The value obtained agrees approximately with the measured value of g. The difference may be attributed to several factors, mentioned above under "Variations":
+The Earth is not homogeneous
+The Earth is not a perfect sphere, and an average value must be used for its radius
+This calculated value of g only includes true gravity. It does not include the reduction of constraint force that we perceive as a reduction of gravity due to the rotation of Earth, and some of gravity being counteracted by centrifugal force.
+There are significant uncertainties in the values of r and m1 as used in this calculation, and the value of G is also rather difficult to measure precisely.
+If G, g and r are known then a reverse calculation will give an estimate of the mass of the Earth. This method was used by Henry Cavendish.
+
+
+== Comparative gravities of the Earth, Sun, Moon, and planetsEdit ==
+The table below shows comparative gravitational accelerations at the surface of the Sun, the Earth's moon, each of the planets in the Solar System and their major moons, Ceres, Pluto, and Eris. For gaseous bodies, the "surface" is taken to mean visible surface: the cloud tops of the gas giants (Jupiter, Saturn, Uranus and Neptune), and the Sun's photosphere. The values in the table have not been de-rated for the centrifugal force effect of planet rotation (and cloud-top wind speeds for the gas giants) and therefore, generally speaking, are similar to the actual gravity that would be experienced near the poles. For reference the time it would take an object to fall 100 metres, the height of a skyscraper, is shown, along with the maximum speed reached. Air resistance is neglected.
+
+
+== See alsoEdit ==
+
+Earth's magnetic field
+Gravity (Gravitation)
+Gravity anomaly, Bouguer anomaly
+Gravitation of the Moon
+Gravitational acceleration
+Gravity Field and Steady-State Ocean Circulation Explorer
+Gravity Recovery and Climate Experiment
+Newton's law of universal gravitation
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Altitude gravity calculator
+GRACE – Gravity Recovery and Climate Experiment
+GGMplus high resolution data (2013)

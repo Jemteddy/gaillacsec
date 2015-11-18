@@ -1,0 +1,127 @@
+The first time a catalyst was used in the industry was in 1746 by J. Roebuck in the manufacture of lead chamber sulfuric acid. Since then catalysts have been in use in a large portion of the chemical industry. In the start only pure components were used as catalysts, but after the year 1900 multicomponent catalysts were studied and are now commonly used in the industry today.
+In the chemical industry and industrial research, catalysis play an important role. Different catalysts are in constant development to fulfill economic, political and environmental demands. When using a catalyst it is possible to replace a polluting chemical reaction with a more environmentally friendly alternative. Today, and in the future, this can be vital for the chemical industry. In addition it’s important for a company/researcher to pay attention to market development. If a company’s catalyst is not continually improved, another company can make progress in research on that particular catalyst and gain market share. For a company, a new and improved catalyst can be a huge advantage for a competitive manufacturing cost. It’s extremely expensive for a company to shut down the plant because of an error in the catalyst, so the correct selection of a catalyst or a new improvement can be key to industrial success.
+To achieve the best understanding and development of a catalyst it is important that different special fields work together. These fields can be: organic chemistry, analytic chemistry, inorganic chemistry, chemical engineers and surface chemistry. The economics must also be taken into account. One of the issues that must be considered is if the company should use money on doing the catalyst research themselves or buy the technology from someone else. As the analytical tools are becoming more advanced, the catalysts used in the industry are improving. One example of an improvement can be to develop a catalyst with a longer lifetime than the previous version. Some of the advantages an improved catalyst gives, that affects people’s lives, are: cheaper and more effective fuel, new drugs and medications and new polymers.
+Some of the large chemical processes that use catalysis today are the production of methanol and ammonia. Both methanol and ammonia synthesis take advantage of the water-gas shift reaction and heterogeneous catalysis, while other chemical industries use homogenous catalysis. If the catalyst exists in the same phase as the reactants it is said to be homogenous; otherwise it is heterogeneous.
+
+
+== Water gas shift reaction ==
+The water gas shift reaction was first used industrially at the beginning of the 20th century. Today the WGS reaction is used primarily to produce hydrogen that can be used for further production of methanol and ammonia.
+WGS reaction:
+(1) CO + H2O ↔ H2 + CO2
+The reaction refers to carbon monoxide (CO) that reacts with water (H2O) to form carbon dioxide (CO2) and hydrogen (H2). The reaction is exothermic with ΔH= -41.1 kJ/mol and have an adiabatic temperature rise of 8–10 °C per percent CO converted to CO2 and H2.
+The most common catalysts used in the water-gas shift reaction are the high temperature shift (HTS) catalyst and the low temperature shift (LTS) catalyst. The HTS catalyst consists of iron oxide stabilized by chromium oxide, while the LTS catalyst is based on copper. The main purpose of the LTS catalyst is to reduce CO content in the reformate which is especially important in the ammonia production for high yield of H2. Both catalysts are necessary for thermal stability, since using the LTS reactor alone increases exit-stream temperatures to unacceptable levels.
+The equilibrium constant for the reaction is given as:
+(2) Kp=(pH2 x pCO2)/ (pCO x pH2O)
+(3) Kp=e((4577.8K/T-4.22))
+Low temperatures will therefore shift the reaction to the right, and more products will be produced. The equilibrium constant is extremely dependent on the reaction temperature, for example is the Kp equal to 228 at 200 °C, but only 11.8 at 400 °C. The WGS reaction can be performed both homogenously and heterogeneously, but only the heterogeneously way is used commercially.
+
+
+=== High temperature shift (HTS) catalyst ===
+The first step in the WGS reaction is the high temperature shift which is carried out at temperatures between 320 °C and 450 °C. As mentioned before, the catalyst is a composition of iron-oxide, Fe2O3(90-95%), and chromium oxides Cr2O3 (5-10%) which have an ideal activity and selectivity at these temperatures. When preparing this catalyst, one of the most important step is washing to remove sulfate that can turn into hydrogen sulfide and poison the LTS catalyst later in the process. Chromium is added to the catalyst to stabilize the catalyst activity over time and to delay sintering of iron oxide. Sintering will decrease the active catalyst area, so by decreasing the sintering rate the lifetime of the catalyst will be extended. The catalyst is usually used in pellets form, and the size play an important role. Large pellets will be strong, but the reaction rate will be limited.
+In the end, the dominate phase in the catalyst consist of Cr3+ in α-Fe2O3 but the catalyst is still not active. To be active α-Fe2O3 must be reduced to Fe and CrO3 must be reduced to Cr in presence of H2. This usually happens in the reactor start-up phase and because the reduction reactions are exothermic the reduction should happen under controlled circumstances. The lifetime of the iron-chrome catalyst is approximately 3–5 years, depending on how the catalyst is handled.
+Even though the mechanism for the HTS catalyst has been done a lot of research on, there is no final agreement on the kinetics/mechanism. Research has narrowed it down to two possible mechanisms: a regenerative redox mechanism and an adsorptive(associative) mechanism.
+The redox mechanism is given below:
+First a CO molecule reduces an O molecule, yielding CO2 and a vacant surface center:
+(4) CO+(O) →CO2 + (*)
+The vacant side is then reoxidized by water, and the oxide center is regenerated:
+(5) H2O+(*)→H2+ (O)
+The adsorptive mechanism assumes that format species is produced when an adsorbed CO molecule reacts with a surface hydroxyl group:
+(6) H2O →OH(ads)+ H(ads)
+(7) CO(ads)+ OH(ads)→COOH (ads)
+The format decomposes then in the presence of steam:
+(8) COOH(ads)→CO2+H(ads)
+(9) 2H(ads)→H2
+
+
+=== Low temperature shift (LTS) catalyst ===
+The low temperature process is the second stage in the process, and is designed to take advantage of higher hydrogen equilibrium at low temperatures. The reaction is carried out between 200 °C and 250 °C, and the most commonly used catalyst is based on copper. While the HTS reactor used an iron-chrome based catalyst, the copper-catalyst is more active at lower temperatures thereby yielding a lower equilibrium concentration of CO and a higher equilibrium concentration of H2. The disadvantage with a copper catalysts is that it is very sensitive when it comes to sulfide poisoning, a future use of for example a cobalt- molybdenum catalyst could solve this problem. The catalyst mainly used in the industry today is a copper-zinc-alumina (Cu/ZnO/Al2O3) based catalyst.
+Also the LTS catalyst has to be activated by reduction before it can be used. The reduction reaction CuO + H2 →Cu + H2O is highly exothermic and should be conducted in dry gas for an optimal result.
+As for the HTS catalyst mechanism, two similar reaction mechanisms are suggested. The first mechanism that was proposed for the LTS reaction was a redox mechanism, but later evidence showed that the reaction can proceed via associated intermediates. The different intermediates that is suggested are: HOCO, HCO and HCOO. In 2009 there are in total three mechanisms that are proposed for the water-gas shift reaction over Cu(111), given below.
+Intermediate mechanism (usually called associative mechanism): An intermediate is first formed and then decomposes into the final products:
+(10) CO + (species derived from H2O) →Intermediate→CO2
+Associative mechanism: CO2 produced from the reaction of CO with OH without the formation of an intermediate:
+(11) CO + OH →H + CO2
+Redox mechanism: Water dissociation that yields surface oxygen atoms which react with CO to produce CO2:
+(12) H2O→O (surface)
+(13) O (surface) + CO → CO2
+It is not said that just one of these mechanisms is controlling the reaction, it is possible that several of them are active. Q.-L. Tang et al. has suggested that the most favorable mechanism is the intermediate mechanism (with HOCO as intermediate) followed by the redox mechanism with the rate determining step being the water dissociation.
+For both HTS catalyst and LTS catalyst the redox mechanism is the oldest theory and most published articles support this theory, but as technology has developed the adsorptive mechanism has become more of interest. One of the reasons to the fact that the literature is not agreeing on one mechanism can be because of experiments are carried out under different assumptions.
+
+
+=== Carbon Monoxide ===
+CO must be produced for the WGS reaction to take place. This can be done in different ways from a variety of carbon sources such as:
+-passing steam over coal:
+(14) C + H2O = CO +H2
+-steam reforming methane, over a nickel catalyst:
+(15) CH4 + H2O = CO +3H2
+-or by using biomass. Both the reactions shown above are highly endothermic and can be coupled to an exothermic partial oxidation. The products of CO and H2 are known as syngas.
+When dealing with a catalyst and CO, it is common to assume that the intermediate CO-Metal is formated before the intermediate reacts further into the products. When designing a catalyst this is important to remember. The strength of interaction between the CO molecule and the metal should be strong enough to provide a sufficient concentration of the intermediate, but not so strong that the reaction will not continue.
+CO is a common molecule to use in a catalytic reaction, and when it interacts with a metal surface it is actually the molecular orbitals of CO that interacts with the d-band of the metal surface. When considering a molecular orbital(MO)-diagram CO can act as an σ-donor via the lone pair of the electrons on C, and a π-acceptor ligand in transition metal complexes. When a CO molecule is adsorbed on a metal surface, the d-band of the metal will interact with the molecular orbitals of CO. It is possible to look at a simplified picture, and only consider the LUMO (2π*) and HOMO (5σ) to CO. The overall effect of the σ-donation and the π- back donation is that a strong bond between C and the metal is being formed and in addition the bond between C and O will be weakened. The latter effect is due to charge depletion of the CO 5σ bonding and charge increase of the CO 2π* antibonding orbital.
+When looking at chemical surfaces, many researchers seems to agree on that the surface of the Cu/Al2O3/ZnO is most similar to the Cu(111) surface. Since copper is the main catalyst and the active phase in the LTS catalyst, many experiments has been done with copper. In the figure given here experiments has been done on Cu(110) and Cu(111). The figure shows Arrhenius plot derived from reaction rates. It can be seen from the figure that Cu(110) shows a faster reaction rate and a lower activation energy. This can be due to the fact that Cu(111) is more closely packed than Cu(110).
+
+
+== Methanol production ==
+
+Production of methanol is an important industry today and methanol is one of the largest volume carbonylation products. The process uses syngas as feedstock and for that reason the water gas shift reaction is important for this synthesis. The most important reaction based on methanol is the decomposition of methanol to yield carbon monoxide and hydrogen. Methanol is therefore an important raw material for production of CO and H2 that can be used in generation of fuel.
+BASF was the first company (in 1923) to produce methanol on large-scale, then using a sulfur-resistant ZnO/Cr2O3 catalyst. The feed gas was produced by gasification over coal. Today the synthesis gas is usually manufactured via steam reforming of natural gas. The most effective catalysts for methanol synthesis are Cu, Ni, Pd and Pt, while the most common metals used for support are Al and Si. In 1966 ICI (Imperial Chemical Industries) developed a process that is still in use today. The process is a low-pressure process that uses a Cu/ZnO/Al2O3 catalyst where copper is the active material. This catalyst is actually the same that the low-temperature shift catalyst in the WGS reaction is using. The reaction described below is carried out at 250 °C and 5-10 MPa:
+(16) CO+2H2→CH3OH (l)
+(17) CO2+3H2→CH3OH (l) +H2O (l)
+Both of these reactions are exothermic and proceeds with volume contraction. Maximum yield of methanol is therefore obtained at low temperatures and high pressure and with use of a catalyst that has a high activity at these conditions. A catalyst with sufficiently high activity at the low temperature does still not exist, and this is one of the main reasons that companies keep doing research and catalyst development.
+A reaction mechanism for methanol synthesis has been suggested by Chinchen et al.:
+(18) CO2→CO2*
+(19) H2→2H*
+(20) CO2*+ H*→HCOO*
+(21) HCOO*+3H*→CH3OH+ O*
+(22) CO+ O*→CO2
+(23) H2 + O*→H2O
+Today there are four different ways to catalytically obtain hydrogen production from methanol, and all reactions can be carried out by using a transition metal catalyst (Cu, Pd):
+
+
+=== Steam reforming ===
+The reaction is given as:
+(24) CH3OH(l)+ H2O (l) →CO2+ 3H2 ΔH= +131 KJ/mol
+Steam reforming is a good source for production of hydrogen, but the reaction is endothermic. The reaction can be carried out over a copper-based catalyst, but the reaction mechanism is dependent on the catalyst. For a copper-based catalyst two different reaction mechanisms have been proposed, a decomposition-water-gas shift sequence and a mechanism that proceeds via methanol dehydrogenation to methyl formate. The first mechanism aims at methanol decomposition followed by the WGS reaction and has been roposed for the Cu/ZnO/Al2O3:
+(25) CH3OH+ H2O →CO2+ 3H2
+(26) CH3OH→CO+ 2H2
+(27) CO+ H2O →CO2+H2
+The mechanism for the methyl format reaction can be dependent of the composition of the catalyst. The following mechanism has been proposed over Cu/ZnO/Al2O3:
+(28) 2CH3OH→CH3OCHO+ 2H2
+(29) CH3OCHO+H2O→HCOOH+CH3OH
+(30) HCOOC→CO2+H2
+When methanol is almost completely converted CO is being produced as a secondary product via the reverse water-gas shift reaction.
+
+
+=== Methanol decomposition ===
+The second way to produce hydrogen from methanol is by methanol decomposition:
+(31) CH3OH(l)→ CO + 2H2 ΔH= +128 KJ/mol
+As the enthalpy shows, the reaction is endothermic and this can be taken further advantage of in the industry. This reaction is the opposite of the methanol synthesis from syngas, and the most effective catalysts seems to be Cu, Ni, Pd and Pt as mentioned before. Often, a Cu/ZnO-based catalyst is used at temperatures between 200 and 300 °C but a production of by-product as dimethyl ether, methyl format, methane and water is common. The reaction mechanism is not fully understood and there are two possible mechanism proposed (2002) : one producing CO2 and H2 by decomposition of formate intermediates and the other producing CO and H2 via a methyl formate intermediate.
+
+
+=== Partial oxidation ===
+Partial oxidation is a third way for producing hydrogen from methanol. The reaction is given below, and is often carried out with air or oxygen as oxidant :
+(32) CH3OH(l) + 1/2 O2 → CO2 + 2H2 ΔH=-155 KJ/mol
+The reaction is exothermic and has, under favorable conditions, a higher reaction rate than steam reforming. The catalyst used is often Cu (Cu/ZnO) or Pd and they differ in qualities such as by-product formation, product distribution and the effect of oxygen partial pressure.
+
+
+=== Combined reforming ===
+Combined reforming is a combination of partial oxidation and steam reforming and is the last reaction that is used for hydrogen production. The general equation is given below:
+(33) (s+p)CH3OH(l) +sH2O(l) + 1/2pO2→ (s+p)CO2 +(3s+2p)H2
+s and p are the stoichiometric coefficients for steam reforming and partial oxidation, respectively. The reaction can be both endothermic and exothermic determined by the conditions, and combine both the advantages of steam reforming and partial oxidation.
+
+
+== Ammonia synthesis ==
+Ammonia synthesis was discovered by Fritz Haber, by using iron catalysts. The ammonia synthesis advanced between 1909 and 1913, and two important concepts were developed; the benefits of a promoter and the poisoning effect (see catalysis for more details).
+Ammonia production was one of the first commercial processes that required the production of hydrogen, and the cheapest and best way to obtain hydrogen was via the water-gas shift reaction. The Haber–Bosch process is the most common process used in the ammonia industry.
+A lot of research has been done on the catalyst used in the ammonia process, but the main catalyst that is used today is not that dissimilar to the one that was first developed. The catalyst the industry use is a promoted iron catalyst, where the promoters can be K2O (potassium oxide), Al2O3 (aluminium oxide) and CaO (calcium oxide) and the basic catalytic material is Fe. The most common is to use fixed bed reactors for the synthesis catalyst.
+The main ammonia reaction is given below:
+(34) N2+ 3H2↔ 2NH3
+The produced ammonia can be used further in production of nitric acid via the Ostwald process.
+
+
+== See also ==
+Ammonia
+Chemical plant
+Chemical industry
+
+
+== References ==

@@ -1,0 +1,74 @@
+Noise, vibration, and harshness (NVH), also known as noise and vibration (N&V), is the study and modification of the noise and vibration characteristics of vehicles, particularly cars and trucks. While noise and vibration can be readily measured, harshness is a subjective quality, and is measured either via "jury" evaluations, or with analytical tools that can provide results reflecting human subjective impressions. These latter tools belong to the field known as "psychoacoustics."
+Interior NVH deals with noise and vibration experienced by the occupants of the cabin, while exterior NVH is largely concerned with the noise radiated by the vehicle, and includes drive-by noise testing.
+NVH is mostly engineering, but often objective measurements fail to predict or correlate well with the subjective impression on human observers. For example, although the ear's response at moderate noise levels is approximated by A-weighting, two different noises with the same A-weighted level are not necessarily equally disturbing. The field of psychoacoustics is partly concerned with this correlation.
+In some cases the NVH engineer is asked to change the sound quality, by adding or subtracting particular harmonics, rather than making the vehicle quieter.
+
+
+== Sources of NVHEdit ==
+The sources of noise in a vehicle are many, including the engine, driveline, tire contact patch and road surface, brakes, and wind. Noise from cooling fans, or the HVAC, alternator, and other engine accessories is also fairly common. Many problems are generated as either vibration or noise, transmitted via a variety of paths, and then radiated acoustically into the cabin. These are classified as "structure-borne" noise. Others are generated acoustically and propagated by airborne paths. Structure-borne noise is attenuated by isolation, while airborne noise is reduced by absorption or through the use of barrier materials. Vibrations are sensed at the steering wheel, the seat, armrests, or the floor and pedals. Some problems are sensed visually - such as the vibration of the rear-view mirror or header rail on open-topped cars
+
+
+== Tonal versus broadbandEdit ==
+NVH can be tonal such as engine noise, or broadband, such as road noise or wind noise, normally. Some resonant systems respond at characteristic frequencies, but in response to random excitation. Therefore, although they look like tonal problems on any one spectrum, their amplitude varies considerably. Other problems are self resonant, such as whistles from antennas.
+Tonal noises often have harmonics. Here is the noise spectrum of Michael Schumacher's Ferrari at 16680 rpm, showing the various harmonics. The x axis is given in terms of multiples of engine speed. The y axis is logarithmic, and uncalibrated.
+
+
+== InstrumentationEdit ==
+Typical instrumentation used to measure NVH include microphones, accelerometers and force gauges, or load cells. Many NVH facilities will have semi-anechoic chambers, and rolling road dynamometers. Typically signals are recorded direct to hard disk via an analog-to-digital converter. In the past magnetic or DAT tape recorders were used. The integrity of the signal chain is very important, typically each of the instruments used are fully calibrated in a lab once per year, and any given setup is calibrated as a whole once per day.
+Laser scanning vibrometry is an essential tool for effective NVH optimization. The vibrational characteristics of a sample is acquired full field under operational or excited conditions. The results represent the actual vibrations. No added mass is influencing the measurement, as the sensor is light itself.
+
+
+== Investigative techniquesEdit ==
+Techniques used to help identify NVH include part substitution, modal analysis, rig squeak and rattle tests (complete vehicle or component/system tests), lead cladding, acoustic intensity, transfer path analysis, and partial coherence. Most NVH work is done in the frequency domain, using fast Fourier transforms to convert the time domain signals into the frequency domain. Wavelet analysis, order analysis, statistical energy analysis, and subjective evaluation of signals modified in real time are also used.
+
+
+== Computer-based modelingEdit ==
+NVH needs good representative prototypes of the production vehicle, for testing. These are needed early in the design process as the solutions often need substantial modification to the design, forcing in engineering changes which are much cheaper when made early. These early prototypes are very expensive, so there has been great interest in computer aided predictive techniques for NVH. Sometimes these work. Back-of-envelope calculations are very useful.
+One example is the modelling works for structure borne noise and vibration analysis. When the phenomenon being considered occurs below, say, 25-30 Hz, for example the idle shaking of the powertrain, a multi-body model can be used. In contrast, when the phenomenon being considered occurs at relatively high frequency, for example above 1 kHz, a Statistical Energy Analysis (SEA) model may be a better approach.
+
+
+== Typical solutionsEdit ==
+There are three principal means of improving NVH:
+reducing the source strength, as in making a noise source quieter with a muffler, or improving the balance of a rotating mechanism;
+interrupting the noise or vibration path, with barriers (for noise) or isolators (for vibration); or
+absorption of the noise or vibration energy, as for example with foam noise absorbers, or tuned vibration dampers.
+Deciding which of these (or what combination) to use in solving a particular problem is one of the challenges facing the NVH engineer.
+Specific methods for improving NVH include the use of tuned mass dampers, subframes, balancing, modifying the stiffness or mass of structures, retuning exhausts and intakes, modifying the characteristics of elastomeric isolators, adding sound deadening or absorbing materials, or using active noise control. In some circumstances, substantial changes in vehicle architecture may be the only way to cure some problems cost effectively.
+
+
+== See alsoEdit ==
+Acoustic quieting
+Acoustical measurements and instrumentation
+Acoustics
+Engine balance
+Noise control
+Noise health effects
+Noise mitigation
+Resonance
+Sound masking
+Sound pressure level
+Soundproofing
+Vibration
+Vibration isolation
+Whole body vibration
+
+
+== ReferencesEdit ==
+Baxa (1982). Noise Control in Internal Combustion Engines.
+Beranek. Acoustics.
+Griffin. Handbook of Human Vibration.
+Harris. Shock and Vibration Handbook.
+Thomson. Theory of Vibration with Applications.
+White and Walker. Noise and Vibration. ISBN 0-470-27553-7 has many good introductory papers
+
+
+== External linksEdit ==
+Laser Doppler Vibrometers
+Structural Dynamics Testing/Modal Analysis
+Animating Vibration Test Results
+Some NVH application examples from HEAD acoustics
+Bruel and Kjaer's introductory notes for noise and vibration analysis
+Agilent's Fundamentals of Signal Analysis
+The Dirac Delta Science & Engineering Encyclopedia NVH Section
+Noise and Vibration Introduction
+An introduction to Transfer Path Analysis

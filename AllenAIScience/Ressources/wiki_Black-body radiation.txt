@@ -1,0 +1,190 @@
+Black-body radiation is the type of electromagnetic radiation within or surrounding a body in thermodynamic equilibrium with its environment, or emitted by a black body (an opaque and non-reflective body) held at constant, uniform temperature. The radiation has a specific spectrum and intensity that depends only on the temperature of the body.
+The thermal radiation spontaneously emitted by many ordinary objects can be approximated as blackbody radiation. A perfectly insulated enclosure that is in thermal equilibrium internally contains black-body radiation and will emit it through a hole made in its wall, provided the hole is small enough to have negligible effect upon the equilibrium.
+A black-body at room temperature appears black, as most of the energy it radiates is infra-red and cannot be perceived by the human eye. Because the human eye cannot perceive color at very low light intensities, a black body, viewed in the dark at the lowest just faintly visible temperature, subjectively appears grey (but only because the human eye is sensitive only to black and white at very low intensities - in reality, the frequency of the light in the visible range would still be red, although the intensity would be too low to discern as red), even though its objective physical spectrum peaks in the infrared range. When it becomes a little hotter, it appears dull red. As its temperature increases further it eventually becomes blindingly brilliant blue-white.
+Although planets and stars are neither in thermal equilibrium with their surroundings nor perfect black bodies, black-body radiation is used as a first approximation for the energy they emit. Black holes are near-perfect black bodies, in the sense that they absorb all the radiation that falls on them. It has been proposed that they emit black-body radiation (called Hawking radiation), with a temperature that depends on the mass of the black hole.
+The term black body was introduced by Gustav Kirchhoff in 1860. When used as a compound adjective, the term is typically written as hyphenated, for example, black-body radiation, but sometimes also as one word, as in blackbody radiation. Black-body radiation is also called complete radiation or temperature radiation or thermal radiation.
+
+
+== Spectrum ==
+Black-body radiation has a characteristic, continuous frequency spectrum that depends only on the body's temperature, called the Planck spectrum or Planck's law. The spectrum is peaked at a characteristic frequency that shifts to higher frequencies with increasing temperature, and at room temperature most of the emission is in the infrared region of the electromagnetic spectrum. As the temperature increases past about 500 degrees Celsius, black bodies start to emit significant amounts of visible light. Viewed in the dark, the first faint glow appears as a "ghostly" grey. With rising temperature, the glow becomes visible even when there is some background surrounding light: first as a dull red, then yellow, and eventually a "dazzling bluish-white" as the temperature rises. When the body appears white, it is emitting a substantial fraction of its energy as ultraviolet radiation. The Sun, with an effective temperature of approximately 5800 K, is an approximately black body with an emission spectrum peaked in the central, yellow-green part of the visible spectrum, but with significant power in the ultraviolet as well.
+Black-body radiation provides insight into the thermodynamic equilibrium state of cavity radiation. If each Fourier mode of the equilibrium radiation in an otherwise empty cavity with perfectly reflective walls is considered as a degree of freedom capable of exchanging energy, then, according to the equipartition theorem of classical physics, there would be an equal amount of energy in each mode. Since there are an infinite number of modes this implies infinite heat capacity (infinite energy at any non-zero temperature), as well as an unphysical spectrum of emitted radiation that grows without bound with increasing frequency, a problem known as the ultraviolet catastrophe. Instead, in quantum theory the occupation numbers of the modes are quantized, cutting off the spectrum at high frequency in agreement with experimental observation and resolving the catastrophe. The study of the laws of black bodies and the failure of classical physics to describe them helped establish the foundations of quantum mechanics.
+
+
+== Explanation ==
+
+All normal (baryonic) matter emits electromagnetic radiation when it has a temperature above absolute zero. The radiation represents a conversion of a body's thermal energy into electromagnetic energy, and is therefore called thermal radiation. It is a spontaneous process of radiative distribution of entropy.
+Conversely all normal matter absorbs electromagnetic radiation to some degree. An object that absorbs all radiation falling on it, at all wavelengths, is called a black body. When a black body is at a uniform temperature, its emission has a characteristic frequency distribution that depends on the temperature. Its emission is called black-body radiation.
+The concept of the black body is an idealization, as perfect black bodies do not exist in nature. Graphite and lamp black, with emissivities greater than 0.95, however, are good approximations to a black material. Experimentally, black-body radiation may be established best as the ultimately stable steady state equilibrium radiation in a cavity in a rigid body, at a uniform temperature, that is entirely opaque and is only partly reflective. A closed box of graphite walls at a constant temperature with a small hole on one side produces a good approximation to ideal black-body radiation emanating from the opening.
+Black-body radiation has the unique absolutely stable distribution of radiative intensity that can persist in thermodynamic equilibrium in a cavity. In equilibrium, for each frequency the total intensity of radiation that is emitted and reflected from a body (that is, the net amount of radiation leaving its surface, called the spectral radiance) is determined solely by the equilibrium temperature, and does not depend upon the shape, material or structure of the body. For a black body (a perfect absorber) there is no reflected radiation, and so the spectral radiance is due entirely to emission. In addition, a black body is a diffuse emitter (its emission is independent of direction). Consequently, black-body radiation may be viewed as the radiation from a black body at thermal equilibrium.
+Black-body radiation becomes a visible glow of light if the temperature of the object is high enough. The Draper point is the temperature at which all solids glow a dim red, about 798 K. At 1000 K, a small opening in the wall of a large uniformly heated opaque-walled cavity (let us call it an oven), viewed from outside, looks red; at 6000 K, it looks white. No matter how the oven is constructed, or of what material, as long as it is built so that almost all light entering is absorbed by its walls, it will contain a good approximation to black-body radiation. The spectrum, and therefore color, of the light that comes out will be a function of the cavity temperature alone. A graph of the amount of energy inside the oven per unit volume and per unit frequency interval plotted versus frequency, is called the black-body curve. Different curves are obtained by varying the temperature.
+
+Two bodies that are at the same temperature stay in mutual thermal equilibrium, so a body at temperature T surrounded by a cloud of light at temperature T on average will emit as much light into the cloud as it absorbs, following Prevost's exchange principle, which refers to radiative equilibrium. The principle of detailed balance says that in thermodynamic equilibrium every elementary process works equally in its forward and backward sense. Prevost also showed that the emission from a body is logically determined solely by its own internal state. The causal effect of thermodynamic absorption on thermodynamic (spontaneous) emission is not direct, but is only indirect as it affects the internal state of the body. This means that at thermodynamic equilibrium the amount of every wavelength in every direction of thermal radiation emitted by a body at temperature T, black or not, is equal to the corresponding amount that the body absorbs because it is surrounded by light at temperature T.
+When the body is black, the absorption is obvious: the amount of light absorbed is all the light that hits the surface. For a black body much bigger than the wavelength, the light energy absorbed at any wavelength λ per unit time is strictly proportional to the black-body curve. This means that the black-body curve is the amount of light energy emitted by a black body, which justifies the name. This is the condition for the applicability of Kirchhoff's law of thermal radiation: the black-body curve is characteristic of thermal light, which depends only on the temperature of the walls of the cavity, provided that the walls of the cavity are completely opaque and are not very reflective, and that the cavity is in thermodynamic equilibrium. When the black body is small, so that its size is comparable to the wavelength of light, the absorption is modified, because a small object is not an efficient absorber of light of long wavelength, but the principle of strict equality of emission and absorption is always upheld in a condition of thermodynamic equilibrium.
+In the laboratory, black-body radiation is approximated by the radiation from a small hole in a large cavity, a hohlraum, in an entirely opaque body that is only partly reflective, that is maintained at a constant temperature. (This technique leads to the alternative term cavity radiation.) Any light entering the hole would have to reflect off the walls of the cavity multiple times before it escaped, in which process it is nearly certain to be absorbed. Absorption occurs regardless of the wavelength of the radiation entering (as long as it is small compared to the hole). The hole, then, is a close approximation of a theoretical black body and, if the cavity is heated, the spectrum of the hole's radiation (i.e., the amount of light emitted from the hole at each wavelength) will be continuous, and will depend only on the temperature and the fact that the walls are opaque and at least partly absorptive, but not on the particular material of which they are built nor on the material in the cavity (compare with emission spectrum).
+Calculating the black-body curve was a major challenge in theoretical physics during the late nineteenth century. The problem was solved in 1901 by Max Planck in the formalism now known as Planck's law of black-body radiation. By making changes to Wien's radiation law (not to be confused with Wien's displacement law) consistent with thermodynamics and electromagnetism, he found a mathematical expression fitting the experimental data satisfactorily. Planck had to assume that the energy of the oscillators in the cavity was quantized, i.e., it existed in integer multiples of some quantity. Einstein built on this idea and proposed the quantization of electromagnetic radiation itself in 1905 to explain the photoelectric effect. These theoretical advances eventually resulted in the superseding of classical electromagnetism by quantum electrodynamics. These quanta were called photons and the black-body cavity was thought of as containing a gas of photons. In addition, it led to the development of quantum probability distributions, called Fermi–Dirac statistics and Bose–Einstein statistics, each applicable to a different class of particles, fermions and bosons.
+The wavelength at which the radiation is strongest is given by Wien's displacement law, and the overall power emitted per unit area is given by the Stefan–Boltzmann law. So, as temperature increases, the glow color changes from red to yellow to white to blue. Even as the peak wavelength moves into the ultra-violet, enough radiation continues to be emitted in the blue wavelengths that the body will continue to appear blue. It will never become invisible—indeed, the radiation of visible light increases monotonically with temperature.
+The radiance or observed intensity is not a function of direction. Therefore a black body is a perfect Lambertian radiator.
+Real objects never behave as full-ideal black bodies, and instead the emitted radiation at a given frequency is a fraction of what the ideal emission would be. The emissivity of a material specifies how well a real body radiates energy as compared with a black body. This emissivity depends on factors such as temperature, emission angle, and wavelength. However, it is typical in engineering to assume that a surface's spectral emissivity and absorptivity do not depend on wavelength, so that the emissivity is a constant. This is known as the gray body assumption.
+
+With non-black surfaces, the deviations from ideal black-body behavior are determined by both the surface structure, such as roughness or granularity, and the chemical composition. On a "per wavelength" basis, real objects in states of local thermodynamic equilibrium still follow Kirchhoff's Law: emissivity equals absorptivity, so that an object that does not absorb all incident light will also emit less radiation than an ideal black body; the incomplete absorption can be due to some of the incident light being transmitted through the body or to some of it being reflected at the surface of the body.
+In astronomy, objects such as stars are frequently regarded as black bodies, though this is often a poor approximation. An almost perfect black-body spectrum is exhibited by the cosmic microwave background radiation. Hawking radiation is the hypothetical black-body radiation emitted by black holes, at a temperature that depends on the mass, charge, and spin of the hole. If this prediction is correct, black holes will very gradually shrink and evaporate over time as they lose mass by the emission of photons and other particles.
+A black body radiates energy at all frequencies, but its intensity rapidly tends to zero at high frequencies (short wavelengths). For example, a black body at room temperature (300 K) with one square meter of surface area will emit a photon in the visible range (390–750 nm) at an average rate of one photon every 41 seconds, meaning that for most practical purposes, such a black body does not emit in the visible range.
+
+
+== Equations ==
+
+
+=== Planck's law of black-body radiation ===
+
+Planck's law states that
+
+where
+I(ν,T) is the energy per unit time (or the power) radiated per unit area of emitting surface in the normal direction per unit solid angle per unit frequency by a black body at temperature T, also known as spectral radiance;
+h is the Planck constant;
+c is the speed of light in a vacuum;
+k is the Boltzmann constant;
+ν is the frequency of the electromagnetic radiation; and
+T is the absolute temperature of the body.
+
+
+=== Wien's displacement law ===
+Wien's displacement law shows how the spectrum of black-body radiation at any temperature is related to the spectrum at any other temperature. If we know the shape of the spectrum at one temperature, we can calculate the shape at any other temperature. Spectral intensity can be expressed as a function of wavelength or of frequency.
+A consequence of Wien's displacement law is that the wavelength at which the intensity per unit wavelength of the radiation produced by a black body is at a maximum, , is a function only of the temperature
+
+where the constant, b, known as Wien's displacement constant, is equal to 6997289777210000000♠2.8977721(26)×10−3 K m.
+Planck's Law was also stated above as a function of frequency. The intensity maximum for this is given by
+.
+
+
+=== Stefan–Boltzmann law ===
+The Stefan–Boltzmann law states that the power emitted per unit area of the surface of a black body is directly proportional to the fourth power of its absolute temperature:
+
+where j*is the total power radiated per unit area, T is the absolute temperature and σ = 6992567000000000000♠5.67×10−8 W m−2 K−4 is the Stefan–Boltzmann constant. This follows from integrating  over frequency and solid angle:
+
+The  factor appears since we are considering the radiation in the direction normal to the surface. The solid angle integral extends over the full  in azimuth , and over half the domain of polar angle :
+
+ is independent of angles and passes through the solid angle integral. Inserting the formula for  gives
+
+ is unitless. The integral over  has the value , which gives
+
+
+== Human body emission ==
+As all matter, the human body radiates some of a person's energy away as infrared light.
+The net power radiated is the difference between the power emitted and the power absorbed:
+
+Applying the Stefan–Boltzmann law,
+
+The total surface area of an adult is about 2 m2, and the mid- and far-infrared emissivity of skin and most clothing is near unity, as it is for most nonmetallic surfaces. Skin temperature is about 33 °C, but clothing reduces the surface temperature to about 28 °C when the ambient temperature is 20 °C. Hence, the net radiative heat loss is about
+
+The total energy radiated in one day is about 9 MJ (megajoules), or 2000 kcal (food calories). Basal metabolic rate for a 40-year-old male is about 35 kcal/(m2·h), which is equivalent to 1700 kcal per day assuming the same 2 m2 area. However, the mean metabolic rate of sedentary adults is about 50% to 70% greater than their basal rate.
+There are other important thermal loss mechanisms, including convection and evaporation. Conduction is negligible – the Nusselt number is much greater than unity. Evaporation via perspiration is only required if radiation and convection are insufficient to maintain a steady state temperature (but evaporation from the lungs occurs regardless). Free convection rates are comparable, albeit somewhat lower, than radiative rates. Thus, radiation accounts for about two-thirds of thermal energy loss in cool, still air. Given the approximate nature of many of the assumptions, this can only be taken as a crude estimate. Ambient air motion, causing forced convection, or evaporation reduces the relative importance of radiation as a thermal loss mechanism.
+Application of Wien's Law to human body emission results in a peak wavelength of
+
+For this reason, thermal imaging devices for human subjects are most sensitive in the 7–14 micron range.
+
+
+== Temperature relation between a planet and its star ==
+The black-body law may be used to estimate the temperature of a planet orbiting the Sun.
+
+The temperature of a planet depends on several factors:
+Incident radiation from its star
+Emitted radiation of the planet, e.g., Earth's infrared glow
+The albedo effect causing a fraction of light to be reflected by the planet
+The greenhouse effect for planets with an atmosphere
+Energy generated internally by a planet itself due to radioactive decay, tidal heating, and adiabatic contraction due by cooling.
+The analysis only considers the Sun's heat for a planet in a Solar System.
+The Stefan–Boltzmann law gives the total power (energy/second) the Sun is emitting:
+
+where
+ is the Stefan–Boltzmann constant,
+ is the effective temperature of the Sun, and
+ is the radius of the Sun.
+The Sun emits that power equally in all directions. Because of this, the planet is hit with only a tiny fraction of it. The power from the Sun that strikes the planet (at the top of the atmosphere) is:
+
+where
+ is the radius of the planet and
+ is the distance between the Sun and the planet.
+Because of its high temperature, the Sun emits to a large extent in the ultraviolet and visible (UV-Vis) frequency range. In this frequency range, the planet reflects a fraction  of this energy where  is the albedo or reflectance of the planet in the UV-Vis range. In other words, the planet absorbs a fraction  of the Sun's light, and reflects the rest. The power absorbed by the planet and its atmosphere is then:
+
+Even though the planet only absorbs as a circular area , it emits equally in all directions as a sphere. If the planet were a perfect black body, it would emit according to the Stefan–Boltzmann law
+
+where  is the temperature of the planet. This temperature, calculated for the case of the planet acting as a black body by setting , is known as the effective temperature. The actual temperature of the planet will likely be different, depending on its surface and atmospheric properties. Ignoring the atmosphere and greenhouse effect, the planet, since it is at a much lower temperature than the Sun, emits mostly in the infrared (IR) portion of the spectrum. In this frequency range, it emits  of the radiation that a black body would emit where  is the average emissivity in the IR range. The power emitted by the planet is then:
+
+For a body in radiative exchange equilibrium with its surroundings, the rate at which it emits radiant energy is equal to the rate at which it absorbs it:
+
+Substituting the expressions for solar and planet power in equations 1–6 and simplifying yields the estimated temperature of the planet, ignoring greenhouse effect, TP:
+
+In other words, given the assumptions made, the temperature of a planet depends only on the surface temperature of the Sun, the radius of the Sun, the distance between the planet and the Sun, the albedo and the IR emissivity of the planet.
+Notice that a gray ( flat spectrum ) ball where  comes to the same temperature as a black body no matter how dark or light gray .
+
+
+=== Temperature of Earth ===
+Substituting the measured values for the Sun and Earth yields:
+
+With the average emissivity  set to unity, the effective temperature of the Earth is:
+
+or −18.8 °C.
+This is the temperature of the Earth if it radiated as a perfect black body in the infrared, ignoring greenhouse effects (which can raise the surface temperature of a body above what it would be if it were a perfect black body in all spectrums), and assuming an unchanging albedo. The Earth in fact radiates not quite as a perfect black body in the infrared which will raise the estimated temperature a few degrees above the effective temperature. If we wish to estimate what the temperature of the Earth would be if it had no atmosphere, then we could take the albedo and emissivity of the Moon as a good estimate. The albedo and emissivity of the Moon are about 0.1054 and 0.95 respectively, yielding an estimated temperature of about 1.36 °C.
+Estimates of the Earth's average albedo vary in the range 0.3–0.4, resulting in different estimated effective temperatures. Estimates are often based on the solar constant (total insolation power density) rather than the temperature, size, and distance of the Sun. For example, using 0.4 for albedo, and an insolation of 1400 W m−2, one obtains an effective temperature of about 245 K. Similarly using albedo 0.3 and solar constant of 1372 W m−2, one obtains an effective temperature of 255 K.
+
+
+== Cosmology ==
+The cosmic microwave background radiation observed today is the most perfect black-body radiation ever observed in nature, with a temperature of about 2.7K. It is a "snapshot" of the radiation at the time of decoupling between matter and radiation in the early universe. Prior to this time, most matter in the universe was in the form of an ionized plasma in thermal, though not full thermodynamic, equilibrium with radiation.
+According to Kondepudi and Prigogine, at very high temperatures (above 1010K; such temperatures existed in the very early universe), where the thermal motion separates protons and neutrons in spite of the strong nuclear forces, electron-positron pairs appear and disappear spontanteously and are in thermal equilibrium with electromagnetic radiation. These particles form a part of the black body spectrum, in addition to the electromagnetic radiation.
+
+
+== Doppler effect for a moving black body ==
+The relativistic Doppler effect causes a shift in the frequency f of light originating from a source that is moving in relation to the observer, so that the wave is observed to have frequency f':
+
+where v is the velocity of the source in the observer's rest frame, θ is the angle between the velocity vector and the observer-source direction measured in the reference frame of the source, and c is the speed of light. This can be simplified for the special cases of objects moving directly towards (θ = π) or away (θ = 0) from the observer, and for speeds much less than c.
+Through Planck's law the temperature spectrum of a black body is proportionally related to the frequency of light and one may substitute the temperature (T) for the frequency in this equation.
+For the case of a source moving directly towards or away from the observer, this reduces to
+
+Here v > 0 indicates a receding source, and v < 0 indicates an approaching source.
+This is an important effect in astronomy, where the velocities of stars and galaxies can reach significant fractions of c. An example is found in the cosmic microwave background radiation, which exhibits a dipole anisotropy from the Earth's motion relative to this black-body radiation field.
+
+
+== History ==
+
+
+=== Balfour Stewart ===
+In 1858, Balfour Stewart described his experiments on the thermal radiative emissive and absorptive powers of polished plates of various substances, compared with the powers of lamp-black surfaces, at the same temperature. Stewart chose lamp-black surfaces as his reference because of various previous experimental findings, especially those of Pierre Prevost and of John Leslie. He wrote "Lamp-black, which absorbs all the rays that fall upon it, and therefore possesses the greatest possible absorbing power, will possess also the greatest possible radiating power." More an experimenter than a logician, Stewart failed to point out that his statement presupposed an abstract general principle, that there exist either ideally in theory or really in nature bodies or surfaces that respectively have one and the same unique universal greatest possible absorbing power, likewise for radiating power, for every wavelength and equilibrium temperature.
+Stewart measured radiated power with a thermo-pile and sensitive galvanometer read with a microscope. He was concerned with selective thermal radiation, which he investigated with plates of substances that radiated and absorbed selectively for different qualities of radiation rather than maximally for all qualities of radiation. He discussed the experiments in terms of rays which could be reflected and refracted, and which obeyed the Stokes-Helmholtz reciprocity principle (though he did not use an eponym for it). He did not in this paper mention that the qualities of the rays might be described by their wavelengths, nor did he use spectrally resolving apparatus such as prisms or diffraction gratings. His work was quantitative within these constraints. He made his measurements in a room temperature environment, and quickly so as to catch his bodies in a condition near the thermal equilibrium in which they had been prepared by heating to equilibrium with boiling water. His measurements confirmed that substances that emit and absorb selectively respect the principle of selective equality of emission and absorption at thermal equilibrium.
+Stewart offered a theoretical proof that this should be the case separately for every selected quality of thermal radiation, but his mathematics was not rigorously valid. He made no mention of thermodynamics in this paper, though he did refer to conservation of vis viva. He proposed that his measurements implied that radiation was both absorbed and emitted by particles of matter throughout depths of the media in which it propagated. He applied the Helmholtz reciprocity principle to account for the material interface processes as distinct from the processes in the interior material. He did not postulate unrealizable perfectly black surfaces. He concluded that his experiments showed that in a cavity in thermal equilibrium, the heat radiated from any part of the interior bounding surface, no matter of what material it might be composed, was the same as would have been emitted from a surface of the same shape and position that would have been composed of lamp-black. He did not state explicitly that the lamp-black-coated bodies that he used as reference must have had a unique common spectral emittance function that depended on temperature in a unique way.
+
+
+=== Gustav Kirchhoff ===
+In 1859, not knowing of Stewart's work, Gustav Robert Kirchhoff reported the coincidence of the wavelengths of spectrally resolved lines of absorption and of emission of visible light. Importantly for thermal physics, he also observed that bright lines or dark lines were apparent depending on the temperature difference between emitter and absorber.
+Kirchhoff then went on to consider bodies that emit and absorb heat radiation, in an opaque enclosure or cavity, in equilibrium at temperature T.
+Here is used a notation different from Kirchhoff's. Here, the emitting power E(T, i) denotes a dimensioned quantity, the total radiation emitted by a body labeled by index i at temperature T. The total absorption ratio a(T, i) of that body is dimensionless, the ratio of absorbed to incident radiation in the cavity at temperature T . (In contrast with Balfour Stewart's, Kirchhoff's definition of his absorption ratio did not refer in particular to a lamp-black surface as the source of the incident radiation.) Thus the ratio E(T, i) / a(T, i) of emitting power to absorption ratio is a dimensioned quantity, with the dimensions of emitting power, because a(T, i) is dimensionless. Also here the wavelength-specific emitting power of the body at temperature T is denoted by E(λ, T, i) and the wavelength-specific absorption ratio by a(λ, T, i) . Again, the ratio E(λ, T, i) / a(λ, T, i) of emitting power to absorption ratio is a dimensioned quantity, with the dimensions of emitting power.
+In a second report made in 1859, Kirchhoff announced a new general principle or law for which he offered a theoretical and mathematical proof, though he did not offer quantitative measurements of radiation powers. His theoretical proof was and still is considered by some writers to be invalid. His principle, however, has endured: it was that for heat rays of the same wavelength, in equilibrium at a given temperature, the wavelength-specific ratio of emitting power to absorption ratio has one and the same common value for all bodies that emit and absorb at that wavelength. In symbols, the law stated that the wavelength-specific ratio E(λ, T, i) / a(λ, T, i) has one and the same value for all bodies, that is for all values of index i . In this report there was no mention of black bodies.
+In 1860, still not knowing of Stewart's measurements for selected qualities of radiation, Kirchhoff pointed out that it was long established experimentally that for total heat radiation, of unselected quality, emitted and absorbed by a body in equilibrium, the dimensioned total radiation ratio E(T, i) / a(T, i), has one and the same value common to all bodies, that is, for every value of the material index i. Again without measurements of radiative powers or other new experimental data, Kirchhoff then offered a fresh theoretical proof of his new principle of the universality of the value of the wavelength-specific ratio E(λ, T, i) / a(λ, T, i) at thermal equilibrium. His fresh theoretical proof was and still is considered by some writers to be invalid.
+But more importantly, it relied on a new theoretical postulate of "perfectly black bodies," which is the reason why one speaks of Kirchhoff's law. Such black bodies showed complete absorption in their infinitely thin most superficial surface. They correspond to Balfour Stewart's reference bodies, with internal radiation, coated with lamp-black. They were not the more realistic perfectly black bodies later considered by Planck. Planck's black bodies radiated and absorbed only by the material in their interiors; their interfaces with contiguous media were only mathematical surfaces, capable neither of absorption nor emission, but only of reflecting and transmitting with refraction.
+Kirchhoff's proof considered an arbitrary non-ideal body labeled i as well as various perfect black bodies labeled BB . It required that the bodies be kept in a cavity in thermal equilibrium at temperature T . His proof intended to show that the ratio E(λ, T, i) / a(λ, T, i) was independent of the nature i of the non-ideal body, however partly transparent or partly reflective it was.
+His proof first argued that for wavelength λ and at temperature T, at thermal equilibrium, all perfectly black bodies of the same size and shape have the one and the same common value of emissive power E(λ, T, BB), with the dimensions of power. His proof noted that the dimensionless wavelength-specific absorption ratio a(λ, T, BB) of a perfectly black body is by definition exactly 1. Then for a perfectly black body, the wavelength-specific ratio of emissive power to absorption ratio E(λ, T, BB) / a(λ, T, BB) is again just E(λ, T, BB), with the dimensions of power. Kirchhoff considered, successively, thermal equilibrium with the arbitrary non-ideal body, and with a perfectly black body of the same size and shape, in place in his cavity in equilibrium at temperature T . He argued that the flows of heat radiation must be the same in each case. Thus he argued that at thermal equilibrium the ratio E(λ, T, i) / a(λ, T, i) was equal to E(λ, T, BB), which may now be denoted Bλ (λ, T), a continuous function, dependent only on λ at fixed temperature T, and an increasing function of T at fixed wavelength λ, at low temperatures vanishing for visible but not for longer wavelengths, with positive values for visible wavelengths at higher temperatures, which does not depend on the nature i of the arbitrary non-ideal body. (Geometrical factors, taken into detailed account by Kirchhoff, have been ignored in the foregoing.)
+Thus Kirchhoff's law of thermal radiation can be stated: For any material at all, radiating and absorbing in thermodynamic equilibrium at any given temperature T, for every wavelength λ, the ratio of emissive power to absorptive ratio has one universal value, which is characteristic of a perfect black body, and is an emissive power which we here represent by Bλ (λ, T) . (For our notation Bλ (λ, T), Kirchhoff's original notation was simply e.)
+Kirchhoff announced that the determination of the function Bλ (λ, T) was a problem of the highest importance, though he recognized that there would be experimental difficulties to be overcome. He supposed that like other functions that do not depend on the properties of individual bodies, it would be a simple function. Occasionally by historians that function Bλ (λ, T) has been called "Kirchhoff's (emission, universal) function," though its precise mathematical form would not be known for another forty years, till it was discovered by Planck in 1900. The theoretical proof for Kirchhoff's universality principle was worked on and debated by various physicists over the same time, and later. Kirchhoff stated later in 1860 that his theoretical proof was better than Balfour Stewart's, and in some respects it was so. Kirchhoff's 1860 paper did not mention the second law of thermodynamics, and of course did not mention the concept of entropy which had not at that time been established. In a more considered account in a book in 1862, Kirchhoff mentioned the connection of his law with Carnot's principle, which is a form of the second law.
+According to Helge Kragh, "Quantum theory owes its origin to the study of thermal radiation, in particular to the "black-body" radiation that Robert Kirchhoff had first defined in 1859–1860."
+
+
+== See also ==
+
+
+== References ==
+
+
+=== Bibliography ===
+
+
+== Further reading ==
+Kroemer, Herbert; Kittel, Charles (1980). Thermal Physics (2nd ed.). W. H. Freeman Company. ISBN 0-7167-1088-9. 
+Tipler, Paul; Llewellyn, Ralph (2002). Modern Physics (4th ed.). W. H. Freeman. ISBN 0-7167-4345-0. 
+
+
+== External links ==
+Calculating Black-body Radiation Interactive calculator with Doppler Effect. Includes most systems of units.
+Color-to-Temperature demonstration at Academo.org
+Cooling Mechanisms for Human Body – From Hyperphysics
+Descriptions of radiation emitted by many different objects
+Black-Body Emission Applet
+"Blackbody Spectrum" by Jeff Bryant, Wolfram Demonstrations Project, 2007.

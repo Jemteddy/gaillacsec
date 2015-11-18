@@ -1,0 +1,63 @@
+In cell biology, eukaryotes possess a regulatory system that ensures that DNA replication occurs only once per cell cycle.
+A key feature of the DNA replication mechanism in eukaryotes is that it is designed to replicate relatively large genomes rapidly and with high fidelity. Replication is initiated at multiple origins of replication on multiple chromosomes simultaneously so that the duration of S phase is not limited by the total amount of DNA. This flexibility in genome size comes at a cost: there has to be a high-fidelity control system that coordinates multiple replication origins so that they are activated only once during each S phase. If this were not the case, daughter cells might inherit an excessive amount of any DNA sequence, which could lead to many harmful effects.
+
+
+== The replication origin ==
+Replication in eukaryotes begins at replication origins, where complexes of initiator proteins bind and unwind the helix. In eukaryotes, it is still unclear what exact combinations of DNA sequence, chromatin structure, and other factors define these sites. The relative contribution of these factors varies between organisms. Yeast origins are defined primarily by DNA sequence motifs, while origin locations in other organisms seem to be defined by local chromatin structure.
+
+
+=== Yeast ===
+Origins in budding yeast are defined by the autonomously replicating sequence (ARS), a short stretch of DNA (100-200 bp) that can initiate replication when transferred to any sequence of DNA. The ARS contains several specific sequence elements. One of these is the A element (ACS), an 11 bp consensus sequence rich in adenines and thymines that is essential for initiation. Single base-pair mutations in the ACS can abolish initiation activity. The ORC, a component of the initiation complex, binds the ACS in vivo throughout the cell cycle, and in vitro in an ATP dependent manner. When a few of these sequences are deleted, DNA is still copied from other intact origins, but when many are deleted, chromosome replication slows down dramatically. Still, presence of an ACS sequence is not sufficient to identify an origin of replication. Only about 30% of ACS sequences present in the genome are the sites of initiation activity. Origins in fission yeast contain long stretches of DNA rich in thymines and adenines that are important for origin function, but do not exhibit strong sequence similarity.
+
+
+=== Animals ===
+In animals, no highly conserved sequence elements have been found to direct origin activity, and it has proved difficult to identify common features of replication origins. At some loci, initiation occurs within small, relatively definable stretches of DNA, while at others, larger initiation zones of 10–50 kb seem to direct origin activity. At the sequence level, AT rich elements and CpG islands have been found at origins, but their importance or role is not yet clear. At the level of DNA structure, bent DNA and loop formation have been identified as origin features. Features identified at the chromatin level include nucleosome free regions, histone acetylation and DNAse sensitive sites.
+
+
+== The pre-replication complex ==
+
+Before DNA replication can start, the pre-replicative complex assembles at origins to load helicase onto DNA. The complex assembles in late mitosis and early G1. Assembly of these pre-replicative complexes (pre-RCs) is regulated in a manner that coordinates DNA replication with the cell cycle.
+
+
+=== Components of the pre-RC ===
+
+
+==== The ORC ====
+The ORC is a six subunit complex that binds DNA and provides a site on the chromosome where additional replication factors can assemble. It was identified in S. cerevisiae by its ability to bind the conserved A and B1 elements of yeast origins. It is a conserved feature of the replication system in Eukaryotes. Studies in Drosophila showed that recessive lethal mutations in multiple drosophila ORC subunits reduces the amount of BrdU (a marker of active replication), incorporated. Studies in Xenopus extracts show that immuno-depletion of ORC subunits inhibits DNA replication of Xenopus sperm nuclei. In some organisms, the ORC appears to associate with chromatin throughout the cell cycle, but in others it dissociates at specific stages of the cell cycle.
+
+
+==== Cdc6 and Cdt1 ====
+Cdc6 and Cdt1 assemble on the ORC and recruit the Mcm proteins. Homologs for these two S. cerevisiae proteins have been found in all eukaryotes. Studies have shown that these proteins are necessary for DNA replication. Mutations in S. pombe cdt1 blocked DNA replication.
+
+
+==== The Mcm Complex ====
+Mcm 2-7 form a six-subunit complex and is thought to have helicase activity. Deletion of any single subunit of the complex has a lethal phenotype in yeast. Studies in Xenopus revealed the Mcm2-7 complex is a critical component of DNA replication machinery. Inactivation of temperature sensitive mutants of any of the Mcm proteins in "S. cerevisiae" caused DNA replication to halt if inactivation occurred during S phase, and prevented initiation of replication if inactivation occurred earlier. Although biochemical data support the hypothesis that the Mcm complex is a helicase, helicase activity was not detected in all species, and some studies suggest that some of the mcm subunits act together as the helicase, while other subunits act as inhibitors of this activity. If this is true, activation of the Mcm complex probably involves rearrangement of the subunits.
+
+
+== Regulation of pre-RC complex assembly ==
+
+A two-step mechanism ensures that DNA is replicated only once per cycle. Assembly of the pre-RC complex (licensing) is limited to late mitosis and early G1 because it can occur only when CDK activity is low, and APC activity is high. Origin firing occurs only in S phase, when the APC is inactivated, and CDKs are activated.
+
+
+=== Yeast ===
+In budding yeast, CDK is the key regulator of pre-RC assembly. Evidence for this is that inactivation of CDKs in cells arrested in G2/M or in S phase drives reassembly of pre-RCs. CDK acts by inhibiting the individual components of the pre-RC. CDK phosphorylates Cdc6 to mark it for degradation by the SCF in late G1 and early S phase. CDK also induces export of Mcm complexes and Cdt1 from the nucleus. Evidence that CDKs regulate the localization of Mcm2-7 this is that inactivation of CDKs in nocodozole arrested cells induced accumulation of Mcm2-7 in the nucleus. Cdt1 is also exported because it binds to the Mcm complex. In Mcm depleted cells, cdt1 did not accumulate in the nucleus. Conversely, when an NLS (nuclear localization signal) was attached to Mcm7, Mcm2-7 and Cdt1 were always found in the nucleus. Export of Mcm from the nucleus prevents loading of new Mcm complexes but does not affect the complexes that have already been loaded onto the DNA. CDK also phosphorylates ORC proteins. It has been suggested that phosphorylation affects the ability of the ORC to bind other components of the pre-RC. To get substantial re-replication of DNA, regulation of all three components, Cdc6, Mcm2-7 and the ORC has to be prevented. Having multiple mechanisms to prevent re-replication is beneficial because it the regulatory network continues to function even if one of the components fails.
+
+
+=== Animals ===
+Geminin is an important inhibitor of pre-Rc assembly is metazoan cells. Geminin was identified in a screen for APC/C substrates in Xenopus. Studies have shown that Geminin prevents pre_RC assembly by binding to cdt1 and preventing its association with the pre-RC. Since geminin is degraded by the APC/C, pre-Rc assembly can proceed only when APC/C activity is high, which occurs in G1. The importance of CDKs in preventing re-licensing in metazoan cells is still unclear. Some studies have showed that under some conditions, CDKs can also promote licensing. In G0 mammalian cells, APC mediated degradation of Cdc6 prevents licencing. However, when the cells transition into a proliferative state, CDK phosphorylates Cdc6 to stabilizes it and allow it to accumulate and bind to origins before licensing inhibitors such as geminin accumulate.
+
+
+== Activation of replication origins ==
+
+While pre-RC complexes mark potential sites for origin activation, further proteins and complexes must assemble at these sites to activate replication (origin firing). The following events must occur in order to activate the origin: the DNA helix has to open, the helicase must be activated, and DNA polymerases and the rest of the replicative machinery have to load onto the DNA. These events depend on the assembly of a several proteins to form the pre-initiation complex at the replication origins loaded with pre-replicative complexes. Assembly of the pre-initiation complex depends on the activities of S-Cdks and the protein kinase Cdc7. The pre-initiation complex activates the Mcm helicase and recruits DNA polymerase. When the cell commits to a new cell cycle, after passing through the Start checkpoint, G1 and G1/S cyclin CDK complexes are activated. These activate the expression of the replicative machinery and of S-Cdk cylin complexes. S-Cdks and G1/S Cdks act to activate replication origins. At the same time, S-Cdks suppress formation of new pre-RCs during S phase, G2 and early M, when S cyclin leves remains high. Cdc7 is activated in late G1 and is required throughout S phase for origin firing. Mutations in this protein in budding yeast, and in its homolog in fission yeast block initiation of replication. Cdc7 is highly conserved – related proteins have been identified in frogs and humans. DNA replication is inhibited when Cdc7 homologs are inhibited with antibodies in frog or human cells. It is not known whether CDKs and Cdc7 just regulate protein assembly at origins, or whether they directly activate components of the pre-initiation complex.
+
+
+=== Role of CdK ===
+In S. cerevisiae, the S cyclins Clb5 and Clb6 play and important role in inititating replication. In frog embryos, cyclin E-Cdk2 is primarily responsible for activating origins. Removal of cyclin E with antibodies blocks replication. Cyclin E-CDk2 is also important in Drosophila. Levels of cyclin E rise during S phase and activate Cdk2.
+
+
+=== Role of Cdc7 ===
+Cdc7 levels remain relatively constant throughout the cell cycle, but its activity varies. Its activity is low in G1, increases in late G1, and remains high till late mitosis. Dbf4 is the key regulator of Cdc7 activity – association Cdc7 with Dbf4 activates its kinase activity. In a similar manner to cyclin levels, dbf4 levels fluctuate throughout the cell cycle. In vitro biochemical studies have shown that Cdc7-Dbf4 phosphorylates individual components of the Mcm complex. It also seems to be involved in the recruitment of Cdc45 to chromatin at the time of initiation. In Xenopus eggs, Cdc45 has been shown to interact with DNA polymerase α, and in yeast, mutations in Cdc45 prevent assembly of DNA pol α at origins, suggesting that Cdc45 recruits DNA pol α to chromatin in a Cdc7/Dbf4 dependant manner.
+
+
+== References ==

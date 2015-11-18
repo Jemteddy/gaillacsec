@@ -1,0 +1,68 @@
+cgroups (abbreviated from control groups) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, etc.) of a collection of processes.
+Engineers at Google (primarily Paul Menage and Rohit Seth) started the work on this feature in 2006, under the name "process containers". In late 2007 the nomenclature changed to "control groups" due to the confusion caused by multiple meanings of the term "container" in the Linux kernel context, and control-group functionality merged into kernel version 2.6.24. Since then, developers have added many new features and controllers, such as support for kernfs, firewalling, and unified hierarchy.
+
+
+== FeaturesEdit ==
+One of the design goals of cgroups is to provide a unified interface to many different use cases, from controlling single processes (by using nice, for example) to whole operating system-level virtualization (as provided by OpenVZ, Linux-VServer or LXC, for example). Cgroups provides:
+Resource limitation: groups can be set to not exceed a configured memory limit, which also includes the file system cache
+Prioritization: some groups may get a larger share of CPU utilization or disk I/O throughput
+Accounting: measures how much resources certain systems use, which may be used, for example, for billing purposes
+Control: freezing the groups of processes, their checkpointing and restarting
+
+
+== UseEdit ==
+
+A control group (abbreviated as cgroup) is a collection of processes that are bound by the same criteria and associated with a set of parameters or limits. These groups can be hierarchical, meaning that each group inherits limits from its parent group. The kernel provides access to multiple controllers (also called subsystems) through the cgroup interface; for example, the "memory" controller limits memory use, "cpuacct" accounts CPU usage, etc.
+Control groups can be used in multiple ways:
+By accessing the cgroup virtual file system manually.
+By creating and managing groups on the fly using tools like cgcreate, cgexec, and cgclassify (from libcgroup).
+Through the "rules engine daemon" that can automatically move processes of certain users, groups, or commands to cgroups as specified in its configuration.
+Indirectly through other software that uses cgroups, such as Docker, Linux Containers (LXC) virtualization, libvirt, systemd, Open Grid Scheduler/Grid Engine, and Google's lmctfy.
+The Linux kernel documentation contains full technical details of the setup and use of control groups.
+
+
+== RedesignEdit ==
+Redesign of cgroups started in 2013, with additional changes brought by versions 3.15 and 3.16 of the Linux kernel.
+
+
+=== Namespace isolationEdit ===
+While not technically part of the cgroups work, a related feature of the Linux kernel is namespace isolation, where groups of processes are separated such that they cannot "see" resources in other groups. For example, a PID namespace provides a separate enumeration of process identifiers within each namespace. Also available are mount, UTS, network and SysV IPC namespaces.
+The PID namespace provides isolation for the allocation of process identifiers (PIDs), lists of processes and their details. While the new namespace is isolated from other siblings, processes in its "parent" namespace still see all processes in child namespaces—albeit with different PID numbers.
+Network namespace isolates the network interface controllers (physical or virtual), iptables firewall rules, routing tables etc. Network namespaces can be connected with each other using the "veth" virtual Ethernet device.
+"UTS" namespace allows changing the hostname.
+Mount namespace allows creating a different file system layout, or making certain mount points read-only.
+IPC namespace isolates the System V inter-process communication between namespaces.
+User namespace isolates the user IDs between namespaces.
+Namespaces are created with the "unshare" command or syscall, or as new flags in a "clone" syscall.
+The "ns" subsystem was added early in cgroups development to integrate namespaces and control groups. If the "ns" cgroup was mounted, each namespace would also create a new group in the cgroup hierarchy. This was an experiment that was later judged to be a poor fit for the cgroups API, and removed from the kernel.
+Linux namespaces were inspired by the more general namespace functionality used heavily throughout Plan 9 from Bell Labs.
+
+
+=== Unified hierarchyEdit ===
+Whenever designing software, a software engineer seeks solutions which overall best address exigencies regarding stability, security, performance, as well as maintainability, programmability (API) and usability (ABI). By their nature, these exigencies balance each other, e.g., a mighty API to user space, that doesn't offer too much functionality, but carelessly exposes some key inner working, might seriously compromise stability and security. That is especially true if that software is part of the Linux kernel.
+Tejun Heo decided to alter cgroups to prevent these scenarios, designing and implementing a unified hierarchy with only one user space entity that has exclusive access to the facilities offered by cgroups.
+Kernfs was introduced into the Linux kernel with version 3.14, the main author being Tejun Heo. One of the main motivators for a separate kernfs is the cgroups file system. Kernfs is basically created by splitting off some of the sysfs logic into an independent entity so that other kernel subsystems can more easily implement their own virtual file system with handling for device connect and disconnect, dynamic creation and removal as needed or unneeded, and other attributes. Redesign continued into version 3.15 of the Linux kernel.
+
+
+=== Kernel memory control groups (kmemcg)Edit ===
+Kernel memory control groups (kmemcg) were merged into version 3.8 of the Linux kernel mainline. The kmemcg controller can limit the amount of memory that the kernel can utilize to manage its own internal processes.
+
+
+== AdoptionEdit ==
+Various projects use cgroups as their basis, including CoreOS, Docker, Hadoop, Kubernetes, lmctfy (Let Me Contain That For You), LXC (LinuX Containers), Mesos and Mesosphere.
+
+
+== See alsoEdit ==
+
+Operating system–level virtualization implementations
+Process group
+Tc (Linux) –  a traffic control utility that has slight functional overlap with network-oriented cgroup settings
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Linux kernel documentation on cgroups
+Linux kernel Namespaces and cgroups by Rami Rosen
+Large-scale cluster management at Google with Borg, April 2015, by Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer, Eric Tune and John Wilkes

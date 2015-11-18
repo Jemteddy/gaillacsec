@@ -1,0 +1,84 @@
+Sound power or acoustic power is the rate at which sound energy is emitted, reflected, transmitted or received, per unit time. The SI unit of sound power is the watt (W). It is the power of the sound force on a surface of the medium of propagation of the sound wave. For a sound source, unlike sound pressure, sound power is neither room-dependent nor distance-dependent. Sound pressure is a measurement at a point in space near the source, while the sound power of a source is the total power emitted by that source in all directions. Sound power passing through an area is sometimes called sound flux or acoustic flux through that area.
+
+
+== Mathematical definition ==
+Sound power, denoted P, is defined by
+
+where
+f is the sound force of unit vector u;
+v is the particle velocity of projection v along u;
+A is the area;
+p is the sound pressure.
+In a medium, the sound power is given by
+
+where
+A is the area of the surface;
+ρ is the mass density;
+c is the sound velocity;
+θ is the angle between the direction of propagation of the sound and the normal to the surface.
+For example a sound at SPL = 85 dB or p = 0.356 Pa in air (ρ = 1.2 kg·m−3 and c = 343 m·s−1) through a surface of area A = 1 m2 normal to the direction of propagation (θ = 0 °) has a sound energy flux P = 0.3 mW.
+This is the parameter one would be interested in when converting noise back into usable energy, along with any losses in the capturing device.
+
+
+== Table of selected sound sources ==
+
+
+== Relationships with other quantities ==
+Sound power is related to sound intensity:
+
+where
+A is the area;
+I is the sound intensity.
+Sound power is related sound energy density:
+
+where
+c is the speed of sound;
+w is the sound energy density.
+
+
+== Sound power level ==
+
+Sound power level (SWL) or acoustic power level is a logarithmic measure of the power of a sound relative to a reference value.
+Sound power level, denoted LW and measured in dB, is defined by
+
+where
+P is the sound power;
+P0 is the reference sound power;
+1 Np = 1 is the neper;
+1 B = (1/2) ln(10) is the bel;
+1 dB = (1/20) ln(10) is the decibel.
+The commonly used reference sound power in air is
+
+The proper notations for sound power level using this reference are LW/(1 pW) or LW (re 1 pW), but the suffix notations dB SWL, dB(SWL), dBSWL, or dBSWL are very common, even if they are not accepted by the SI.
+The reference sound power P0 is defined as the sound power with the reference sound intensity I0 = 1 pW/m2 passing through a surface of area A0 = 1 m2:
+
+hence the reference value P0 = 1 pW.
+
+
+=== Relationship with sound pressure level ===
+In the case of a free field sound source in air at ambient temperature, the sound power level at distance r from the sound source is approximately related to sound pressure level (SPL) by
+
+where
+Lp is the sound pressure level;
+A0 = 1 m2.
+Derivation of this equation:
+
+For a progressive spherical wave,
+
+where z0 is the characteristic specific acoustic impedance.
+Consequently,
+
+and since by definition I0 = p02/z0, where p0 = 20 μPa is the reference sound pressure,
+
+The sound power estimated practically does not depend on distance, though theoretically it may diminish with distance due to viscous effects in the propagation of sound.
+
+
+== References ==
+
+
+== External links ==
+Sound power and Sound pressure. Cause and Effect
+Ohm's Law as Acoustic Equivalent. Calculations
+Relationships of Acoustic Quantities Associated with a Plane Progressive Acoustic Sound Wave
+NIOSH Powertools Database
+Sound Power Testing

@@ -1,0 +1,71 @@
+A test method is a method for a test in science or engineering, such as a physical test, chemical test, or statistical test. It is a definitive procedure that produces a test result.
+A test can be considered a technical operation or procedure that consists of determination of one or more characteristics of a given product, process or service according to a specified procedure. Often a test is part of an experiment.
+The test result can be qualitative (yes/no), categorical, or quantitative (a measured value). It can be a personal observation or the output of a precision measuring instrument.
+Usually the test result is the dependent variable, the measured response based on the particular conditions of the test or the level of the independent variable. Some tests, however, may involve changing the independent variable to determine the level at which a certain response occurs: in this case, the test result is the independent variable.
+
+
+== Importance of test methods ==
+In software development, engineering, science, manufacturing, and business, it is vital for all interested people to understand and agree upon methods of obtaining data and making measurements. It is common for a physical property to be strongly affected by the precise method of testing or measuring that property. It is vital to fully document experiments and measurements and to provide needed definitions to specifications and contracts.
+Using a standard test method, perhaps published by a respected standards organization, is a good place to start. Sometimes it is more useful to modify an existing test method or to develop a new one. Again, documentation and full disclosure are very necessary.
+A well-written test method is important. However, even more important is choosing a method of measuring the correct property or characteristic. Not all tests and measurements are equally useful: usually a test result is used to predict or imply suitability for a certain purpose. For example, if a manufactured item has several components, test methods may have several levels of connections:
+test results of a raw material should connect with tests of a component made from that material
+test results of a component should connect with performance testing of a complete item
+results of laboratory performance testing should connect with field performance
+These connections or correlations may be based on published literature, engineering studies, or formal programs such as quality function deployment. Validation of the suitability of the test method is often required.
+
+
+== Content of a test method ==
+Quality management systems usually require full documentation of the procedures used in a test. The document for a test method might include:
+Descriptive title
+Scope over which class(es) of materials or articles may be evaluated
+Date of last effective revision and revision designation
+Reference to most recent test method validation
+Person, office, or agency responsible for questions on the test method, updates, and deviations.
+The significance or importance of the test method and its intended use.
+Terminology and definitions to clarify the meanings of the test method
+A listing of the types of apparatus and measuring instrument (sometimes the specific device) required to conduct the test
+Safety precautions
+Required calibrations and metrology systems
+Environmental concerns and considerations
+Sampling procedures: How samples are to be obtained, and Number of samples (sample size).
+Conditioning or required environmental chamber: temperature, humidity, etc., including tolerances
+Preparation of samples for the test and test fixtures
+Detailed procedure for conducting the test
+Calculations and analysis of data
+Interpretation of data and test method output
+Report: format, content, data, etc.
+
+
+== Test Method Validation ==
+Test methods are often scrutinized for their validity, applicability, and accuracy. It is very important that the scope of the test method be clearly defined, and any aspect included in the scope is shown to be accurate and repeatable through validation.
+Test method validations often encompass the following considerations:
+Accuracy and precision: Demonstration of accuracy may require the creation of a reference value if none is yet available.
+Repeatability and Reproducibility, sometimes in the form of a Gauge R&R.
+Range, or a continuum scale over which the test method would be considered accurate. Example: 10 N to 100 N force test.
+Measurement resolution, be it spatial, temporal, or otherwise.
+Curve fitting, typically for linearity, which justifies interpolation between calibrated reference points.
+Robustness, or the insensitivity to potentially subtle variables in the test environment or setup which may be difficult to control.
+Usefulness to predict end-use characteristics and performance
+Measurement uncertainty
+Interlaboratory or round robin tests
+other types of measurement systems analysis
+
+
+== See also ==
+
+
+== References ==
+
+
+=== General references, Books ===
+Pyzdek, T, "Quality Engineering Handbook", 2003, ISBN 0-8247-4614-7
+Godfrey, A. B., "Juran's Quality Handbook", 1999, ISBN 007034003X
+Kimothi, S. K., "The Uncertainty of Measurements: Physical and Chemical Metrology: Impact and Analysis", 2002, ISBN 0-87389-535-5
+
+
+=== Standards ===
+ASTM D4356 Standard Practice for Establishing Consistent Test Method Tolerances
+ASTM E691 Standard Practice for Conducting an Interlaboratory Study to Determine the Precision of a Test Method
+ASTM E1169 Standard Guide for Conducting Ruggedness Tests
+ASTM E1488 Standard Guide for Statistical Procedures to Use in Developing and Applying Test Methods
+ASTM E2655 - Standard Guide for Reporting Uncertainty of Test Results and Use of the Term Measurement Uncertainty in ASTM Test Methods

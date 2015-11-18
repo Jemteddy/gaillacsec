@@ -1,0 +1,90 @@
+In astronomy, new moon is the first phase of the Moon, when it orbits as seen from the Earth, the moment when the Moon and the Sun have the same ecliptical longitude.  The Moon is not visible at this time except when it is seen in silhouette during a solar eclipse when it is illuminated by earthshine. See the article on phases of the Moon for further details.
+A lunation or synodic month is the mean (average) time from one new moon to the next. In the J2000.0 epoch, the average length of a lunation is 29.530588 days (or 29 days, 12 hours, 44 minutes, and 3 seconds). However, the length of any one synodic month can vary from 29.26 to 29.80 days due to the perturbing effects of the Sun's gravity on the Moon's eccentric orbit. In a lunar calendar, each month corresponds to a lunation. Each lunar cycle can be assigned a unique Lunation Number to identify it.
+
+
+== Determining new moons: an approximate formula ==
+The length of a lunation is about 29.53 days. Its precise duration is linked to many phenomena in nature, such as the variation between spring and neap tides (the extreme highest and lowest tides, respectively). An approximate formula to compute the mean moments of new moon (conjunction between Sun and Moon) for successive months is:
+
+where N is an integer, starting with 0 for the first new moon in the year 2000, and that is incremented by 1 for each successive synodic month; and the result d is the number of days (and fractions) since 2000-01-01 00:00:00 reckoned in the time scale known as Terrestrial Time (TT) used in ephemerides.
+To obtain this moment expressed in Universal Time (UT, world clock time), add the result of following approximate correction to the result d obtained above:
+ days
+Periodic perturbations change the time of true conjunction from these mean values. For all new moons between 1601 and 2401, the maximum difference is 0.592 days = 14h13m in either direction. The duration of a lunation (i.e. the time from new moon to the next new moon) varies in this period between 29.272 and 29.833 days, i.e. −0.259d = 6h12m shorter, or +0.302d = 7h15m longer than average. This range is smaller than the difference between mean and true conjunction, because during one lunation the periodic terms cannot all change to their maximum opposite value.
+See the article on the full moon cycle for a fairly simple method to compute the moment of new moon more accurately.
+The long-term error of the formula is approximately: 1 cy2 seconds in TT, and 11 cy2 seconds in UT (cy is centuries since 2000; see section Explanation of the formulae for details.)
+
+
+=== Explanation of the formula ===
+The moment of mean conjunction can easily be computed from an expression for the mean ecliptical longitude of the Moon minus the mean ecliptical longitude of the Sun (Delauney parameter D). Jean Meeus gave formulae to compute this in his popular Astronomical Formulae for Calculators based on the ephemerides of Brown and Newcomb (ca. 1900); and in his 1st edition of Astronomical Algorithms based on the ELP2000-85 (the 2nd edition uses ELP2000-82 with improved expressions from Chapront et al. in 1998). These are now outdated: Chapront et al. (2002) published improved parameters. Also Meeus's formula uses a fractional variable to allow computation of the four main phases, and uses a second variable for the secular terms. For the convenience of the reader, the formula given above is based on Chapront's latest parameters and expressed with a single integer variable, and the following additional terms have been added:
+constant term:
+Like Meeus, apply the constant terms of the aberration of light for the Sun's motion and light-time correction for the Moon to obtain the apparent difference in ecliptical longitudes:
+Sun: +20.496"
+Moon: −0.704"
+Correction in conjunction: −0.000451 days
+For UT: at 1 January 2000, ΔT (= TT − UT ) was +63.83 s; hence the correction for the clock time UT = TT − ΔT of the conjunction is:
+−0.000739 days.
+quadratic term:
+In ELP2000–85 (see Chapront et alii 1988), D has a quadratic term of −5.8681"T2; expressed in lunations N, this yields a correction of +87.403×10–12N2  days to the time of conjunction. The term includes a tidal contribution of 0.5×(−23.8946 "/cy2). The most current estimate from Lunar Laser Ranging for the acceleration is (see Chapront et alii 2002): (−25.858 ±0.003)"/cy2. Therefore, the new quadratic term of D is = -6.8498"T2. Indeed, the polynomial provided by Chapront et alii (2002) provides the same value (their Table 4). This translates to a correction of +14.622×10−12N2 days to the time of conjunction; the quadratic term now is:
++102.026×10−12N2 days.
+For UT: analysis of historical observations shows that ΔT has a long-term increase of +31 s/cy2. Converted to days and lunations, the correction from ET to UT becomes:
+−235×10−12N2 days.
+The theoretical tidal contribution to ΔT is about +42 s/cy2  the smaller observed value is thought to be mostly due to changes in the shape of the Earth. Because the discrepancy is not fully explained, uncertainty of our prediction of UT (rotation angle of the Earth) may be as large as the difference between these values: 11 s/cy2. The error in the position of the Moon itself is only maybe 0.5"/cy2, or (because the apparent mean angular velocity of the Moon is about 0.5"/s), 1 s/cy2 in the time of conjunction with the Sun.
+
+
+== Lunation Number ==
+The Lunation Number or Lunation Cycle is a number given to each lunation beginning from a certain one in history. Several conventions are in use.
+The most commonly used is the Brown Lunation Number (BLN), which defines lunation 1 as beginning at the first new moon of 1923, the year when Ernest William Brown's lunar theory was introduced in the major national astronomical almanacs. Lunation 1 occurred at approximately 02:41 UTC, January 17, 1923. New moons occur on Julian Dates , with the given uncertainty due to varying torques from the sun.
+Another increasingly popular lunation number (simply called the Lunation Number), introduced by Jean Meeus, defines lunation 0 as beginning on the first new moon of 2000 (this occurred at approximately 18:14 UTC, January 6, 2000). The formula relating this Lunation Number with the Brown Lunation Number is: BLN = LN + 953.
+The Goldstine Lunation Number refers to the lunation numbering used by Herman Goldstine in his 1973 book New and Full Moons: 1001 B.C. to A.D. 1651, with lunation 0 beginning on January 11, 1001 BC, and can be calculated using GLN = LN + 37105.
+The Hebrew Lunation Number is the count of lunations in the Hebrew calendar with lunation 1 beginning on October 7, 3761 BC. It can be calculated using HLN = LN + 71234. The Islamic Lunation Number is the count of lunations in the Islamic calendar with lunation 1 as beginning on July 16, 622. It can be calculated using ILN = LN + 17038. The Thai Lunation Number is called "มาสเกณฑ์" (Maasa-Kendha), defines lunation 0 as beginning of the SouthEast-Asian Calendar on Sunday March 22, 638 (Julian Calendar). It can be calculated using TLN = LN + 16843.
+
+
+== Lunar calendars ==
+
+In non-astronomical contexts, new moon refers to the first visible crescent of the Moon, after conjunction with the Sun. This takes place over the western horizon in a brief period between sunset and moonset, and therefore the precise time and even the date of the appearance of the new moon by this definition will be influenced by the geographical location of the observer. The astronomical new moon, sometimes known as the dark moon to avoid confusion, occurs by definition at the moment of conjunction in ecliptical longitude with the Sun, when the Moon is invisible from the Earth. This moment is unique and does not depend on location, and in certain circumstances it coincides with a solar eclipse.
+In the above meaning, the first crescent marks the beginning of the month in lunar calendars such as the Muslim calendar, and in lunisolar calendars such as the Hebrew calendar, Hindu calendars, and Buddhist calendar. In the Chinese calendar, the beginning of the month is marked by the dark moon. The new moon is also important in astrology, as is the full moon.
+
+
+=== Hindu calendar ===
+The new moon is significant in the Hindu calendar. People generally wait for the new moon to begin projects, as the waxing period of the moon is considered to be favorable for new work. There are fifteen moon dates for each of the waxing and waning periods. These fifteen dates divided evenly into five categories: Nanda, Bhadra, Jaya, Rikta, and Purna, which are cycled through in that order. Nanda dates are considered to be favorable for auspicious works; Bhadra dates for works related with community, social, family, friends; and Jaya dates for dealing with conflict. Rikta dates are considered beneficial only for works related to cruelty. Purna dates are considered to be favorable for all work. The first day of the Lunar Hindu calendar starts the day after the new moon (Amavasya), which is considered a powerful force for good or evil. The Hindu epic Mahabharatha states that the Kurukshetra War started this day, which was also a Tuesday (Mangalvaar, day of the week named after Mars).
+
+
+=== Islamic calendar ===
+The Islamic calendar has retained an observational definition of the new moon, marking the new month when the first crescent moon is actually seen, and making it impossible to be certain in advance of when a specific month will begin (in particular, the exact date on which Ramadan will begin is not known in advance). In Saudi Arabia, the new King Abdullah Centre for Crescent Observations and Astronomy in Makkah has a clock for addressing this as an international scientific project. In Pakistan, there is a "Central Ruet-e-Hilal Committee" whose head is Mufti Muneeb-ur-Rehman, assisted by 150 observatories of the Pakistan Meteorological Department, which announces the sighting of the new moon. Since its creation in 1974, the status of the Central Ruet-e-Hilal Committee has been controversial as it refused the "Witnesses" (Shahadats) from other sects. In Iran a special committee receives observations of every new moon to determine the beginning of each month. This committee uses one hundred groups of observers.
+An attempt to unify Muslims on a scientifically calculated worldwide calendar was adopted by both the Fiqh Council of North America and the European Council for Fatwa and Research in 2007. The new calculation requires that conjunction occur before sunset in Mecca, Saudi Arabia and that moonset on the following day must take place after sunset. These can be precisely calculated and therefore a unified calendar is imminent if it becomes adopted worldwide.
+
+
+=== Chinese calendar ===
+The new moon is the beginning of the month in the Chinese calendar. Some Buddhist Chinese keep a vegetarian diet on the new moon and full moon each month. A new moon is when the sun comes out.
+
+
+=== Jewish calendar ===
+The new moon signifies the start of every Jewish month, and is considered an important date and minor holiday in the Hebrew calendar. The modern form of the calendar is a rule-based lunisolar calendar, akin to the Chinese calendar, measuring months defined in lunar cycles as well as years measured in solar cycles, and distinct from the purely lunar Islamic calendar and the almost entirely solar Gregorian calendar. According to Jewish tradition, the Jewish calendar is calculated based on mathematical rules handed down from God to Moses at the moment the command was given to make sure that Passover always falls in the springtime. More likely, this fixed lunisolar calendar was introduced by Hillel II. This calculation makes use of a mean lunation length used by Ptolemy and handed down from Babylonians (see Lunar theory#Babylon), which is still very accurate: ca. 29.530594 days vs. a present value (see below) of 29.530589 days. This difference of only 0.0000005, or five millionths of a day, adds up to about only 4 hours since Babylonian times.
+The messianic Pentecostal group, the New Israelites of Peru, keeps the new moon as a Sabbath of rest. As an evangelical church, it follows the Bible's teachings that God sanctified the seventh-day Sabbath, and the new moons in addition to it. See Ezekiel 46:1, 3. No work may be done from dusk until dusk, and the services run for 11 hours, although a large number spend 24 hours within the gates of the temples, sleeping and singing praises throughout the night.
+
+
+=== Bahá'í calendar ===
+In the Bahá'í Faith, effective from 2015 onwards, the "Twin Holy Birthdays", referring to two successive holy days in the Bahá'í calendar (the birth of the Báb and the birth of Bahá'u'lláh), will be observed on the first and the second day following the occurrence of the eighth new moon after Naw-Rúz (Bahá'í New Year), as determined in advance by astronomical tables using Tehran as the point of reference. This will result in the observance of the Twin Birthdays moving, year to year, from mid-October to mid-November according to the Gregorian calendar.
+
+
+== See also ==
+
+Black moon
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Moon Watch site of the Nautical Almanac Office
+Sacred Astronomy from Zaytuna institute
+CrescentWatch.org from Zaytuna Institute
+Moon sighting Committee World-wide of Khalid Shaukat
+The Islamic Calendar for Makkah based on predicted visibility of new moon
+Moon Sighting from Committee For Crescent Observation, Intl.
+Islamic Crescent Observation Project
+The Length of the Lunar Cycle (numerical integration analysis)
+Predicting the First Visibility of the Lunar Crescent (with a detailed bibliography and lunar crescent visiility maps to 2019)
+hilalsighting.org website

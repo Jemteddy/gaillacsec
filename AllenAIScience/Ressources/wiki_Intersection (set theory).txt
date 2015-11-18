@@ -1,0 +1,74 @@
+In mathematics, the intersection A ∩ B of two sets A and B is the set that contains all elements of A that also belong to B (or equivalently, all elements of B that also belong to A), but no other elements.
+For explanation of the symbols used in this article, refer to the table of mathematical symbols.
+
+
+== Basic definitionEdit ==
+
+The intersection of A and B is written "A ∩ B". Formally:
+
+that is
+x ∈ A ∩ B if and only if
+x ∈ A and
+x ∈ B.
+
+For example:
+
+The intersection of the sets {1, 2, 3} and {2, 3, 4} is {2, 3}.
+The number 9 is not in the intersection of the set of prime numbers {2, 3, 5, 7, 11, ...} and the set of odd numbers {1, 3, 5, 7, 9, 11, ...}.
+
+More generally, one can take the intersection of several sets at once. The intersection of A, B, C, and D, for example, is A ∩ B ∩ C ∩ D = A ∩ (B ∩ (C ∩ D)). Intersection is an associative operation; thus,A ∩ (B ∩ C) = (A ∩ B) ∩ C.
+Inside a universe U one may define the complement Ac of A to be the set of all elements of U not in A. Now the intersection of A and B may be written as the complement of the union of their complements, derived easily from De Morgan's laws:A ∩ B = (Ac ∪ Bc)c
+
+
+=== Intersecting and disjoint setsEdit ===
+We say that A intersects (meets) B at an element x if x belongs to A and B. We say that A intersects (meets) B if A intersects B at some element. A intersects B if their intersection is inhabited.
+We say that A and B are disjoint if A does not intersect B. In plain language, they have no elements in common. A and B are disjoint if their intersection is empty, denoted .
+For example, the sets {1, 2} and {3, 4} are disjoint, the set of even numbers intersects the set of multiples of 3 at 0, 6, 12, 18 and other numbers.
+
+
+== Arbitrary intersectionsEdit ==
+The most general notion is the intersection of an arbitrary nonempty collection of sets. If M is a nonempty set whose elements are themselves sets, then x is an element of the intersection of M if and only if for every element A of M, x is an element of A. In symbols:
+
+The notation for this last concept can vary considerably. Set theorists will sometimes write "⋂M", while others will instead write "⋂A∈M A". The latter notation can be generalized to "⋂i∈I Ai", which refers to the intersection of the collection {Ai : i ∈ I}. Here I is a nonempty set, and Ai is a set for every i in I.
+In the case that the index set I is the set of natural numbers, notation analogous to that of an infinite series may be seen:
+
+When formatting is difficult, this can also be written "A1 ∩ A2 ∩ A3 ∩ ...", even though strictly speaking, A1 ∩ (A2 ∩ (A3 ∩ ... makes no sense. (This last example, an intersection of countably many sets, is actually very common; for an example see the article on σ-algebras.)
+Finally, let us note that whenever the symbol "∩" is placed before other symbols instead of between them, it should be of a larger size (⋂).
+
+
+== Nullary intersectionEdit ==
+
+Note that in the previous section we excluded the case where M was the empty set (∅). The reason is as follows: The intersection of the collection M is defined as the set (see set-builder notation)
+
+If M is empty there are no sets A in M, so the question becomes "which x's satisfy the stated condition?" The answer seems to be every possible x. When M is empty the condition given above is an example of a vacuous truth. So the intersection of the empty family should be the universal set (the identity element for the operation of intersection) 
+Unfortunately, according to standard (ZFC) set theory, the universal set does not exist. A partial fix for this problem can be found if we agree to restrict our attention to subsets of a fixed set U called the universe. In this case the intersection of a family of subsets of U can be defined as
+
+Now if M is empty there is no problem. The intersection is just the entire universe U, which is a well-defined set by assumption and becomes the identity element for this operation.
+
+
+== See alsoEdit ==
+Complement
+Intersection graph
+Logical conjunction
+Naive set theory
+Symmetric difference
+Union
+Cardinality
+Iterated binary operation
+MinHash
+
+
+== ReferencesEdit ==
+^ "Stats: Probability Rules". People.richland.edu. Retrieved 2012-05-08. 
+^ How to find the intersection of sets
+^ Megginson, Robert E. (1998), "Chapter 1", An introduction to Banach space theory, Graduate Texts in Mathematics 183, New York: Springer-Verlag, pp. xx+596, ISBN 0-387-98431-3 
+
+
+== Further readingEdit ==
+Devlin, K. J. (1993). The Joy of Sets: Fundamentals of Contemporary Set Theory (Second ed.). New York, NY: Springer-Verlag. ISBN 3-540-94094-4. 
+Munkres, James R. (2000). "Set Theory and Logic". Topology (Second ed.). Upper Saddle River: Prentice Hall. ISBN 0-13-181629-2. 
+Rosen, Kenneth (2007). "Basic Structures: Sets, Functions, Sequences, and Sums". Discrete Mathematics and Its Applications (Sixth ed.). Boston: McGraw-Hill. ISBN 978-0-07-322972-0. 
+
+
+== External linksEdit ==
+Weisstein, Eric W., "Intersection", MathWorld.

@@ -1,0 +1,47 @@
+In electrical engineering, an armature generally refers to one of the two principal electrical components of an electromechanical machine — generally in a motor or generator — but it may also mean the pole piece of a permanent magnet or electromagnet, or the moving iron part of a solenoid or relay.
+The other component is the field winding or field magnet. The role of the "field" component is simply to create a magnetic field (magnetic flux) for the armature to interact with, thus the field component can comprise either permanent magnets, or electromagnets formed by a conducting coil.
+The armature, in contrast, must carry current so it is always a conductor or a conductive coil, oriented normal to both the field and to the direction of motion, torque (rotating machine), or force (linear machine). The armature's role is twofold. The first is to carry current crossing the field, thus creating shaft torque in a rotating machine or force in a linear machine. The second role is to generate an electromotive force (EMF).
+In the armature, an electromotive force is created by the relative motion of the armature and the field. When the machine acts in the motor mode, this EMF opposes the armature current, and the armature converts electrical power to mechanical power in the form of torque (unless the machine is stalled), and transfers it to the load via the shaft. When the machine acts in the generator mode, the armature EMF drives the armature current, and shaft mechanical power is converted to electrical power and transferred to the load. In an induction generator, these distinctions are blurred, since the generated power is drawn from the stator, which would normally be considered the field.
+A growler is used to check the armature for shorts, opens and grounds.
+
+
+== TerminologyEdit ==
+The word armature was first used in its electrical sense, i.e. keeper of a magnet, in mid 19th century.
+The parts of an alternator or related equipment can be expressed in either mechanical terms or electrical terms. Although distinctly separate these two sets of terminology are frequently used interchangeably or in combinations that include one mechanical term and one electrical term. This may cause confusion when working with compound machines like brushless alternators, or in conversation among people who are accustomed to work with differently configured machinery.
+In alternating current machines, the armature is usually stationary, and is named the stator winding. In DC rotating machines other than brushless DC machines, it is usually rotating, and is known as the rotor. The pole piece of a permanent magnet or electromagnet and the moving, iron part of a solenoid, especially if the latter acts as a switch or relay, may also be referred to as armatures.
+MechanicalRotor: The rotating part of an alternator, generator, dynamo or motor.Stator: The stationary part of an alternator, generator, dynamo or motor
+ElectricalArmature: The power-producing component of an alternator, generator, dynamo or motor. The armature can be on either the rotor or the stator.Field: The magnetic field component of an alternator, generator, dynamo or motor. The field can be on either the rotor or the stator and can be either an electromagnet or a permanent magnet.
+
+
+== Armature reaction in a DC machineEdit ==
+In a DC machine, the main field is produced by field coils. In both the generating and motoring modes, the armature carries current and a magnetic field is established, which is called the armature flux. The effect of armature flux on the main field is called the armature reaction.
+
+The armature reaction:
+demagnetizes the main field, and
+cross magnetizes the main field.
+The demagnetizing effect can be overcome by adding extra ampere-turns on the main field winding. The cross magnetizing effect can be reduced by having common poles.
+Armature reaction is essential in Amplidyne rotating amplifiers.
+Armature reaction drop is the effect of a magnetic field on the distribution of the flux under main poles of a generator.
+Since an armature is wound with coils of wire, a magnetic field is set up in the armature whenever a current flows in the coils. This field is at right angles to the generator field, and is called cross magnetization of the armature. The effect of the armature field is to distort the generator field and shift the neutral plane. The neutral plane is the position where the armature windings are moving parallel to the magnetic flux lines, that is why an axis lying in this plane is called as magnetic neutral axis (MNA). This effect is known as armature reaction and is proportional to the current flowing in the armature coils.
+The brushes of a generator must be set in the neutral plane; that is, they must contact segments of the commutator that are connected to armature coils having no induced emf. If the brushes were contacting commutator segments outside the neutral plane, they would short-circuit "live" coils and cause arcing and loss of power.
+Without armature reaction, the magnetic neutral axis (MNA) would coincide with geometrical neutral axis (GNA). Armature reaction causes the neutral plane to shift in the direction of rotation, and if the brushes are in the neutral plane at no load, that is, when no armature current is flowing, they will not be in the neutral plane when armature current is flowing. For this reason it is desirable to incorporate a corrective system into the generator design.
+These are two principal methods by which the effect of armature reaction is overcome. The first method is to shift the position of the brushes so that they are in the neutral plane when the generator is producing its normal load current. in the other method, special field poles, called interpoles, are installed in the generator to counteract the effect of armature reaction.
+The brush-setting method is satisfactory in installations in which the generator operates under a fairly constant load. If the load varies to a marked degree, the neutral plane will shift proportionately, and the brushes will not be the correct position at all times. The brush-setting method is the most common means of correcting for armature reaction in small generators (those producing approximately 1000 W or less). Larger generators require the use of interpoles.
+
+
+== Winding materialsEdit ==
+The electrical energy efficiency of a motor can be improved by reducing the electrical losses in the coil (e.g., by using materials with higher electrical conductivities). Armature wiring is made from copper or aluminum. Copper armature wiring enhances electrical efficiencies due to its higher electrical conductivity (See: Copper in energy efficient motors). Aluminum armature wiring is lighter and less expensive than copper.
+
+
+== See alsoEdit ==
+Balancing machine
+Commutator
+Electric generator
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Example Diagram of an Armature Coil and data used to specify armature coil parameters
+How to Check a Motor Armature for Damaged Windings

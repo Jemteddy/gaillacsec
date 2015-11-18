@@ -1,0 +1,122 @@
+mTORC1, also known as mammalian target of rapamycin complex 1 or mechanistic target of rapamycin complex 1, is a protein complex that functions as a nutrient/energy/redox sensor and controls protein synthesis.
+mTOR Complex 1 (mTORC1) is composed of mTOR itself, regulatory-associated protein of mTOR (Raptor), mammalian lethal with SEC13 protein 8 (MLST8) and the recently identified PRAS40 and DEPTOR. This complex embodies the classic functions of mTOR, namely as a nutrient/energy/redox sensor and controller of protein synthesis. The activity of this complex is controlled by insulin, growth factors, amino acids (particularly leucine), and oxidative stress.
+The role of mTORC1 is to activate translation of proteins. In order for cells to grow and proliferate by manufacturing more proteins, the cells must ensure that they have the resources available for protein production. Thus, for protein production, and therefore mTORC1 activation, cells must have adequate energy resources, nutrient availability, oxygen abundance, and proper growth factors in order for mRNA translation to begin.
+
+
+== Activation at the lysosome ==
+
+
+=== The TSC complex ===
+Almost all of the variables required for protein synthesis affect mTORC1 activation by interacting with the TSC1/TSC2 protein complex. TSC2 is a GTPase activating protein (GAP). Its GAP activity interacts with a G protein called Rheb by hydrolyzing the GTP of the active Rheb-GTP complex, converting it to the inactive Rheb-GDP complex. The active Rheb-GTP activates mTORC1 through unelucidated pathways. Thus, many of the pathways that influence mTORC1 activation do so through the activation or inactivation of the TSC1/TSC2 heterodimer. This control is usually performed through phosphorylation of the complex. This phosphorylation can cause the dimer to dissociate and lose its GAP activity, or the phosphorylation can cause the heterodimer to have increased GAP activity, depending on which amino acid residue becomes phosphorylated. Thus, the signals that influence mTORC1 activity do so through activation or inactivation of the TSC1/TSC2 complex, upstream of mTORC1.
+
+
+=== The Rag complex ===
+mTORC1 signaling is sensitive to amino acid levels in the cell. Even if a cell has the proper energy for protein synthesis, if it does not have the amino acid building blocks for proteins, no protein synthesis will occur. Studies have shown that depriving amino acid levels inhibits mTORC1 signaling to the point where both energy abundance and amino acids are necessary for mTORC1 to function. When amino acids are introduced to a deprived cell, the presence of amino acids causes Rag GTPase heterodimers to switch to their active conformation. Active Rag heterodimers interact with Raptor, localizing mTORC1 to the surface of late endosomes and lysosomes where the Rheb-GTP is located. This allows mTORC1 to physically interact with Rheb. Thus the amino acid pathway as well as the growth factor/energy pathway converge on endosomes and lysosomes. Thus the Rag complex recruits mTORC1 to lysosomes to interact with Rheb.
+
+
+==== Regulation of the Rag complex ====
+Rag activity is regulated by at least two highly conserved complexes: the "GATOR1" complex containing DEPDC5, Nprl2 and Nprl3 and the ""GATOR2" complex containing Mios, WDR24, WDR59, Seh1L, Sec13. GATOR1 inhibits Rags (it is a GTPase-activating protein for Rag subunits A/B) and GATOR2 activates Rags by inhibiting DEPDC5.
+
+
+== Upstream signaling ==
+
+
+=== Receptor tyrosine kinases ===
+
+
+==== Akt/PKB pathway ====
+Insulin-like growth factors can activate mTORC1 through the receptor tyrosine kinase (RTK)-Akt/PKB signaling pathway. Ultimately, Akt phosphorylates TSC2 on serine residue 939, serine residue 981, and threonine residue 1462. These phosphorylated sites will recruit the cytosolic anchoring protein 14-3-3 to TSC2, disrupting the TSC1/TSC2 dimer. When TSC2 is not associated with TSC1, TSC2 loses its GAP activity and can no longer hydrolyze Rheb-GTP. This results in continued activation of mTORC1, allowing for protein synthesis via insulin signaling.
+Akt will also phosphorylate PRAS40, causing it to fall off of the Raptor protein located on mTORC1. Since PRAS40 prevents Raptor from recruiting mTORC1's substrates 4E-BP1 and S6K1, its removal will allow the two substrates to be recruited to mTORC1 and thereby activated in this way.
+Furthermore, since insulin is a factor that is secreted by pancreatic beta cells upon glucose elevation in the blood, its signaling ensures that there is energy for protein synthesis to take place. In a negative feedback loop on mTORC1 signaling, S6K1 is able to phosphorylate the insulin receptor and inhibit its sensitivity to insulin. This has great significance in diabetes mellitus, which is due to insulin resistance.
+
+
+==== MAPK/ERK pathway ====
+Mitogens, like insulin like growth factor 1 (IGF1), can activate the MAPK/ERK pathway, which can inhibit the TSC1/TSC2 complex, activating mTORC1. In this pathway, the G protein Ras is tethered to the plasma membrane via a farnesyl group and is in its inactive GDP state. Upon growth factor binding to the adjacent receptor tyrosine kinase, the adaptor protein GRB2 binds with its SH2 domains. This recruits the GEF called Sos, which activates the Ras G protein. Ras activates Raf (MAPKKK), which activates Mek (MAPKK), which activates Erk (MAPK). Erk can go on to activate RSK. Erk will phosphorylate the serine residue 644 on TSC2, while RSK will phosphorylate serine residue 1798 on TSC2. These phosphorylations will cause the heterodimer to fall apart, and prevent it from deactivating Rheb, which keeps mTORC1 active.
+RSK has also been shown to phosphorylate raptor, which helps it overcome the inhibitory effects of PRAS40.
+
+
+=== Wnt pathway ===
+The Wnt pathway is responsible for cellular growth and proliferation during organismal development; thus, it could be reasoned that activation of this pathway also activates mTORC1. Activation of the Wnt pathway inhibits glycogen synthase kinase 3 beta (GSK3B). When the Wnt pathway is not active, GSK3 beta is able to phosphorylate TSC2 on two serine residues of 1341 and 1337 in conjunction with AMPK phosphorylating serine residue 1345. It has been found that the AMPK is required to first phosphorylate residue 1345 before GSK3 beta can phosphorylate its target serine residues. This phosphorylation of TSC2 would inactivate this complex, if GSK3 beta were active. Since the Wnt pathway inhibits GSK3 signaling, the active Wnt pathway is also involved in the mTORC1 pathway. Thus, mTORC1 can activate protein synthesis for the developing organism.
+
+
+=== Cytokines ===
+Cytokines like tumor necrosis factor alpha (TNF-alpha) can induce mTOR activity through IKK beta, also known as IKK2. IKK beta can phosphorylate TSC1 at serine residue 487 and TSC1 at serine residue 511. This causes the heterodimer TSC complex to fall apart, keeping Rheb in its active GTP-bound state.
+
+
+=== Energy and oxygen ===
+
+
+==== Energy status ====
+In order for translation to take place, abundant sources of energy, particularly in the form of ATP, need to be present. If these levels of ATP are not present, due to its hydrolysis into other forms like AMP, and the ratio of AMP to ATP molecules gets too high, AMPK will become activated. AMPK will go on to inhibit energy consuming pathways such as protein synthesis.
+AMPK can phosphorylate TSC2 on serine residue 1387, which activates the GAP activity of this complex, causing Rheb-GTP to be hydrolyzed into Rheb-GDP. This inactivates mTORC1 and blocks protein synthesis through this pathway.
+AMPK can also phosphorylate Raptor on two serine residues. This phosphorylated Raptor recruits 14-3-3 to bind to it and prevents Raptor from being part of the mTORC1 complex. Since mTORC1 cannot recruit its substrates without Raptor, no protein synthesis via mTORC1 occurs.
+LKB1, also known as STK11, is a known tumor suppressor that can activate AMPK. More studies on this aspect of mTORC1 may help shed light on its strong link to cancer.
+
+
+==== Hypoxic stress ====
+When oxygen levels in the cell are low, it will limit its energy expenditure through the inhibition of protein synthesis. Under hypoxic conditions, hypoxia inducible factor one alpha (HIF1A) will stabilize and activate transcription of REDD1, also known as DDIT4. After translation, this REDD1 protein will bind to TSC2, which prevents 14-3-3 from inhibiting the TSC complex. Thus, TSC retains its GAP activity towards Rheb, causing Rheb to remain bound to GDP and mTORC1 to be inactive.
+Due to the lack of synthesis of ATP in the mitochondria under hypoxic stress or hypoxia, AMPK will also become active and thus inhibit mTORC1 through its processes.
+
+
+== Downstream signaling ==
+
+mTORC1 activates transcription and translation through its interactions with p70-S6 Kinase 1 (S6K1) and 4E-BP1, the eukaryotic initiation factor 4E (eIF4E) binding protein 1. Their signaling will converge at the translation initiation complex on the 5' end of mRNA, and thus activate translation.
+
+
+=== 4E-BP1 ===
+Activated mTORC1 will phosphorylate translation inhibitor 4E-BP1, releasing it from eukaryotic translation initiation factor 4E (eIF4E). eIF4E is now free to join the eukaryotic translation initiation factor 4G (eIF4G) and the eukaryotic translation initiation factor 4A (eIF4A). This complex then binds to the 5' cap of mRNA and will recruit the helicase eukaryotic translation initiation factor A (eIF4A) and its cofactor eukaryotic translation initiation factor 4B (eIF4B). The helicase is required to remove hairpin loops that arise in the 5' untranslated regions of mRNA, which prevent premature translation of proteins. Once the initiation complex is assembled at the 5' cap of mRNA, it will recruit the 40S small ribosomal subunit that is now capable of scanning for the AUG start codon start site, because the hairpin loop has been eradicated by the eIF4A helicase. Once the ribosome reaches the AUG codon, translation can begin.
+
+
+=== S6K ===
+Hypophosphorylated S6K is located on the eIF3 scaffold complex. Active mTORC1 gets recruited to the scaffold, and once there, will phosphorylate S6K to make it active.
+mTORC1 phosphorylates S6K1 on at least two residues, with the most critical modification occurring on a threonine residue (T389). This event stimulates the subsequent phosphorylation of S6K1 by PDK1. Active S6K1 can in turn stimulate the initiation of protein synthesis through activation of S6 Ribosomal protein (a component of the ribosome) and eIF4B, causing them to be recruited to the pre-initiation complex.
+Active S6K can bind to the SKAR scaffold protein that can get recruited to exon junction complexes (EJC). Exon junction complexes span the mRNA region where two exons come together after an intron has been spliced out. Once S6K binds to this complex, increased translation on these mRNA regions occurs.
+S6K1 can also participate in a positive feedback loop with mTORC1 by phosphorylating mTOR's negative regulatory domain at two sites; phosphorylation at these sites appears to stimulate mTOR activity.
+S6K also can phosphorylate programmed cell death 4 (PDCD4), which marks it for degradation by ubiquitin ligase Beta-TrCP (BTRC). PDCD4 is a tumor suppressor that binds to eIF4A and prevents it from being incorporated into the initiation complex.
+
+
+== Role in disease and aging ==
+mTOR was found to be related to aging in 2001 when the ortholog of S6K, SCH9, was deleted in S. cerevisiae, doubling its lifespan. This greatly increased the interest in upstream signaling and mTORC1. Studies in inhibiting mTORC1 were thus performed on the model organisms of C. elegans, fruitflies, and mice. Inhibition of mTORC1 showed significantly increased lifespans in all model species.
+Based on upstream signaling of mTORC1, a clear relationship between food consumption and mTORC1 activity has been observed. Most specifically, carbohydrate consumption activates mTORC1 through the insulin growth factor pathway. In addition, amino acid consumption will stimulate mTORC1 through the branched chain amino acid/Rag pathway. Thus dietary restriction inhibits mTORC1 signaling through both upstream pathways of mTORC that converge on the lysosome.
+Dietary restriction has been shown to significantly increase lifespan in the human model of Rhesus monkeys as well as protect against their age related decline. More specifically, Rhesus monkeys on a calorie restricted diet had significantly less chance of developing cardiovascular disease, diabetes, cancer, and age related cognitive decline than those monkeys who were not placed on the calorie restricted diet.
+
+
+=== Autophagy ===
+Autophagy is the major degradation pathway in eukaryotic cells and is essential for the removal of damaged organelles via macroautophagy or proteins and smaller cellular debris via microautophagy from the cytoplasm. Thus, autophagy is a way for the cell to recycle old and damaged materials by breaking them down into their smaller components, allowing for the resynthesis of newer and healthier cellular structures. Autophagy can thus remove protein aggregates and damaged organelles, that can lead to cellular dysfunction.
+Upon activation, mTORC1 will phosphorylate autophagy-related protein 13 (Atg 13), preventing it from entering the ULK1 kinase complex, which consists of Atg1, Atg17, and Atg101. This prevents the structure from being recruited to the preautophagosomal structure at the plasma membrane, inhibiting autophagy.
+mTORC1's ability to inhibit autophagy while at the same time stimulate protein synthesis and cell growth can result in accumulations of damaged proteins and organelles, contributing to damage at the cellular level. Because autophagy appears to decline with age, activation of autophagy may help promote longevity in humans. Problems in proper autophagy processes have been linked to diabetes, cardiovascular disease, neurodegenerative diseases, and cancer.
+
+
+=== Reactive oxygen species ===
+Reactive oxygen species can damage the DNA and proteins in cells. A majority of them arise in the mitochondria.
+Deletion of the TOR1 gene in yeast increases cellular respiration in the mitochondria by enhancing the translation of mitochondrial DNA that encodes for the complexes involved in the electron transport chain. When this electron transport chain is not as efficient, the unreduced oxygen molecules in the mitochondrial cortex may accumulate and begin to produce reactive oxygen species. It is important to note that both cancer cells as well as those cells with greater levels of mTORC1 both rely more on glycolysis in the cytosol for ATP production rather than through oxidative phosphorylation in the inner membrane of the mitochondria.
+Inhibition of mTORC1 has also been shown to increase transcription of the NFE2L2 (NRF2) gene, which is a transcription factor that is able to regulate the expression of electrophilic response elements as well as antioxidants in response to increased levels of reactive oxygen species.
+
+
+=== Stem cells ===
+Conservation of stem cells in the body has been shown to help prevent against premature aging. mTORC1 activity plays a critical role in the growth and proliferation of stem cells. Knocking out mTORC1 results in embryonic lethality due to lack of trophoblast development. Treating stem cells with rapamycin will also slow their proliferation, conserving the stem cells in their undifferentiated condition.
+mTORC1 plays a role in the differentiation and proliferation of hematopoietic stem cells. Its upregulation has been shown to cause premature aging in hematopoietic stem cells. Conversely, inhibiting mTOR restores and regenerates the hematopoietic stem cell line. The mechanisms of mTORC1's inhibition on proliferation and differentiation of hematopoietic stem cells has yet to be fully elucidated.
+Rapamycin is used clinically as an immunosuppressant and prevents the proliferation of T cells and B cells. Paradoxically, even though rapamycin is a federally approved immunosuppressant, its inhibition of mTORC1 results in better quantity and quality of functional memory T cells. mTORC1 inhibition with rapamycin improves the ability of naïve T cells to become precursor memory T cells during the expansion phase of T cell development . This inhibition also allows for an increase in quality of these memory T cells that become mature T cells during the contraction phase of their development. mTORC1 inhibition with rapamycin has also been linked to a dramatic increase of B cells in old mice, enhancing their immune systems. This paradox of rapamycin inhibiting the immune system response has been linked to several reasons, including its interaction with regulatory T cells.
+
+
+== As a drug target ==
+There have been several dietary compounds that have been suggested to inhibit mTORC1 signaling including EGCG, resveratrol, curcumin, caffeine, and alcohol.
+
+
+=== First generation inhibitors ===
+Rapamycin was the first known inhibitor of mTORC1, considering that mTORC1 was discovered as being the target of rapamycin. Rapamycin will bind to cytosolic FKBP12 and act as a scaffold molecule, allowing this protein to dock on the FBP regulatory region on mTORC1. The binding of the FKBP12-rapamycin complex to the FBP regulatory region inhibits mTORC1 through processes not yet known. mTORC2 is also inhibited by rapamycin in some cell culture lines and tissues, particularly those that express high levels of FKBP12 and low levels of FKBP51.
+Rapamycin itself is not very water soluble and is not very stable, so scientists developed rapamycin analogs, called rapalogs, to overcome these two problems with rapamycin. These drugs are considered the first generation inhibitors of mTOR. These other inhibitors include everolimus and temsirolimus.
+Sirolimus, which is the drug name for rapamycin, was approved by the U.S. Food and Drug Administration (FDA) in 1999 to prevent against transplant rejection in patients undergoing kidney transplantation. In 2003, it was approved as a stent covering for people who want to widen their arteries to prevent against future heart attacks. In 2007, mTORC1 inhibitors began being approved for treatments against cancers such as renal cell carcinoma. In 2008 they were approved for treatment of mantle cell lymphoma. mTORC1 inhibitors have recently been approved for treatment of pancreatic cancer. In 2010 they were approved for treatment of tuberous sclerosis.
+
+
+=== Second generation inhibitors ===
+The second generation of inhibitors were created to overcome problems with upstream signaling upon the introduction of first generation inhibitors to the treated cells. One problem with the first generation inhibitors of mTORC1 is that there is a negative feedback loop from phosphorylated S6K, that can inhibit the insulin RTK via phosphorylation. When this negative feedback loop is no longer there, the upstream regulators of mTORC1 become more active than they would otherwise would have been under normal mTORC1 activity. Another problem is that since mTORC2 is resistant to rapamycin, and it too acts upstream of mTORC1 by activating Akt. Thus signaling upstream of mTORC1 still remains very active upon its inhibition via rapamycin and the rapalogs.
+Second generation inhibitors are able to bind to the ATP-binding motif on the kinase domain of the mTOR core protein itself and abolish activity of both mTOR complexes. In addition, since the mTOR and the PI3K proteins are both in the same phosphatidylinositol 3-kinase-related kinase (PIKK) family of kinases, some second generation inhibitors have dual inhibition towards the mTOR complexes as well as PI3K, which acts upstream of mTORC1. As of 2011, these second generation inhibitors were in phase II of clinical trials.
+There are currently more than 1,300 clinical trials underway for the mTOR complex inhibitors.
+
+
+== References ==
+
+
+== External links ==
+mTORC1 complex, human at the US National Library of Medicine Medical Subject Headings (MeSH)

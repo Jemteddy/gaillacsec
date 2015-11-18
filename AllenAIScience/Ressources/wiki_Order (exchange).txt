@@ -1,0 +1,115 @@
+An order is an instruction to buy or sell on a trading venue such as a stock market, bond market, commodity market, or financial derivative market. These instructions can be simple or complicated, and can be sent to either a broker or directly to a trading venue via direct market access. There are some standard instructions for such orders.
+
+
+== Market order ==
+A market order is a buy or sell order to be executed immediately at current market prices. As long as there are willing sellers and buyers, market orders are filled. Market orders are therefore used when certainty of execution is a priority over price of execution.
+A market order is the simplest of the order types. This order type does not allow any control over the price received. The order is filled at the best price available at the relevant time. In fast-moving markets, the price paid or received may be quite different from the last price quoted before the order was entered.
+A market order may be split across multiple participants on the other side of the transaction, resulting in different prices for some of the shares.
+
+
+== Limit order ==
+A limit order is an order to buy a security at no more than a specific price, or to sell a security at no less than a specific price (called "or better" for either direction). This gives the trader (customer) control over the price at which the trade is executed; however, the order may never be executed ("filled"). Limit orders are used when the trader wishes to control price rather than certainty of execution.
+A buy limit order can only be executed at the limit price or lower. For example, if an investor wants to buy a stock, but doesn't want to pay more than $20 for it, the investor can place a limit order to buy the stock at $20. By entering a limit order rather than a market order, the investor will not buy the stock at a higher price, but, may get fewer shares than he wants or not get the stock at all.
+A sell limit order is analogous; it can only be executed at the limit price or higher.
+A limit order that can be satisfied by orders in the limit book when it is received as marketable. For example, if a stock is asked $86.41 (large size), a buy order with a limit of $90 can be filled right away. Similarly, if a stock is bid $86.40, a sell order with a limit of $80 will be filled right away. A limit order may be partially filled from the book and the rest added to the book.
+Both buy and sell orders can be additionally constrained. Two of the most common additional constraints are fill or kill (FOK) and all or none (AON). FOK orders are either filled completely on the first attempt or canceled outright, while AON orders stipulate that the order must be filled with the entire number of shares specified, or not filled at all. If it is not filled, it is still held on the order book for later execution.
+
+
+== Time in force ==
+A day order or good for day order (GFD) (the most common) is a market or limit order that is in force from the time the order is submitted to the end of the day's trading session. For stock markets, the closing time is defined by the exchange. For the foreign exchange market, this is until 5 p.m. EST/EDT for all currencies except the New Zealand Dollar.
+Good-til-cancelled (GTC) orders require a specific cancelling order, which can persist indefinitely (although brokers may set some limits, for example, 90 days).
+An immediate or cancel (IOC) orders are immediately executed or cancelled by the exchange. Unlike FOK orders, IOC orders allow for partial fills.
+Fill or kill (FOK) orders are usually limit orders that must be executed or cancelled immediately. Unlike IOC orders, FOK orders require the full quantity to be executed.
+Most markets have single-price auctions at the beginning ("open") and the end ("close") of regular trading. Some markets may also have before-lunch and after-lunch orders. An order may be specified on the close or on the open, then it is entered in an auction but has no effect otherwise. There is often some deadline, for example, orders must be in 20 minutes before the auction. They are single-price because all orders, if they transact at all, transact at the same price, the open price and the close price respectively.
+Combined with price instructions, this gives market on close (MOC), market on open (MOO), limit on close (LOC), and limit on open (LOO). For example, a market-on-open order is guaranteed to get the open price, whatever that may be. A buy limit-on-open order is filled if the open price is lower, not filled if the open price is higher, and may or may not be filled if the open price is the same.
+Regulation NMS (Reg NMS), which applies to U.S. stock exchanges, supports two types of IOC orders, one of which is Reg NMS compliant and will not be routed during an exchange sweep, and one that can be routed to other exchanges. Optimal order routing is a difficult problem that cannot be addressed with the usual perfect market paradigm. Liquidity needs to be modeled in a realistic way if we are to understand such issues as optimal order routing and placement. The Order Protection (or Trade Through) Rule (Rule 611) was designed to improve intermarket price priority for quotations that are immediately and automatically accessible, but its role in predatory trading behavior has faced mounting controversy in the recent years.
+
+
+== Conditional orders ==
+A conditional order is any order other than a limit order which is executed only when a specific condition is satisfied.
+
+
+=== Stop orders ===
+A stop order, also referred to as a stop-loss order, is an order to buy or sell a stock once the price of the stock reaches a specified price, known as the stop price. When the stop price is reached, a stop order becomes a market order. A buy–stop order is entered at a stop price above the current market price. Investors generally use a buy stop order to limit a loss or to protect a profit on a stock that they have sold short. A sell–stop order is entered at a stop price below the current market price. Investors generally use a sell–stop order to limit a loss or to protect a profit on a stock that they own.
+When the stop price is reached, and the stop order becomes a market order, this means the trade will definitely be executed, but not necessarily at or near the stop price, particularly when the order is placed into a fast-moving market, or if there is insufficient liquidity available relative to the size of the order.
+The use of stop orders is much more frequent for stocks and futures that trade on an exchange than those that trade in the over-the-counter (OTC) market. The exact mechanism of a stop order may vary between brokers and software platforms. For instance, Charles Schwab defines a stop order as follows: Stop orders and stop-limit orders are very similar, the primary difference being what happens once the stop price is triggered. A standard sell-stop order is triggered when the bid price is equal to or less than the stop price specified or when an execution occurs at the stop price.
+A sell–stop order is an instruction to sell at the best available price after the price goes below the stop price. A sell–stop price is always below the current market price. For example, if an investor holds a stock currently valued at $50 and is worried that the value may drop, he/she can place a sell–stop order at $40. If the share price drops to $40, the broker sells the stock at the next available price. This can limit the investor's losses or lock in some of the investor's profits (if the stop price is at or above the purchase price).
+A buy–stop order is typically used to limit a loss (or to protect an existing profit) on a short sale. A buy-stop price is always above the current market price. For example, if an investor sells a stock short—hoping for the stock price to go down so they can return the borrowed shares at a lower price (i.e., covering)—the investor may use a buy stop order to protect against losses if the price goes too high. It can also be used to advantage in a declining market when you want to enter a long position close to the bottom after turnaround.
+A stop–limit order combines the features of a stop order and a limit order. Once the stop price is reached, the stop–limit order becomes a limit order to buy (or to sell) at no more (or less) than another, pre-specified limit price. As with all limit orders, a stop–limit order doesn't get filled if the security's price never reaches the specified limit price.
+A trailing–stop order is entered with a stop parameter that creates a moving or trailing activation price, hence the name. This parameter is entered as a percentage change or actual specific amount of rise (or fall) in the security price. Trailing–stop sell orders are used to maximize and protect profit as a stock's price rises and limit losses when its price falls.
+For example, a trader has bought stock ABC at $10.00 and immediately places a trailing stop sell order to sell ABC with a $1.00 trailing stop. This sets the stop price to $9.00. After placing the order, ABC does not exceed $10.00 and falls to a low of $9.01. The trailing stop order is not executed because ABC has not fallen $1.00 from $10.00. Later, the stock rises to a high of $15.00 which resets the stop price to $14.00. It then falls to $14.00 ($1.00 from its high of $15.00) and the trailing stop sell order is entered as a market order.
+A trailing–stop limit order is similar to a trailing–stop order. Instead of selling at market price when triggered, the order becomes a limit order.
+
+
+=== Peg orders ===
+To behave like a market maker, it is possible to use what are called peg orders.
+
+
+==== Peg best ====
+Like a real market maker, the stepper:
+Uses the other side of the spread
+Always jumps over the competitors order to be the best one, the first in the line
+The conditions are:
+Price limitation, no more jumping over, unless the price moves back to its area
+Step value
+
+
+==== Mid-price peg ====
+A mid-price order is an order whose limit price is continually set at the average of the "best bid" and "best offer" prices in the market. The values of the bid and offer prices used in this calculation may be either a local or national best bid and offer. They are also called Peg-to-Midpoint.
+Mid-price peg order types are commonly supported on alternative trading systems and dark pools of liquidity, where they enable market participants to trade whereby each pays half of the bid–offer spread, often without revealing their trading intentions to others beforehand.
+
+
+=== Market-if-touched order ===
+
+A buy market-if-touched order is an order to buy at the best available price, if the market price goes down to the "if touched" level. As soon as this trigger price is touched the order becomes a market buy order.
+A sell market-if-touched order is an order to sell at the best available price, if the market price goes up to the "if touched" level. As soon as this trigger price is touched the order becomes a market sell order.
+
+
+=== One cancels other orders ===
+One cancels other (OCO) orders are used when the trader wishes to capitalize on only one of two or more possible trading possibilities. For instance, the trader may wish to trade stock ABC at $10.00 or XYZ at $20.00. In this case, they would execute an OCO order composed of two parts: A limit order for ABC at $10.00, and a limit order for XYZ at $20.00. If ABC reaches $10.00, ABC's limit order would be executed, and the XYZ limit order would be canceled.
+
+
+=== One sends other orders ===
+One sends other (OSO) orders are used when the trader wishes to send a new order only when another one has been executed. For instance, the trader may wish to buy stock ABC at $10.00 then immediately try to sell it at $10.05 to gain the spread. In this case, they would execute an OSO order composed of two parts: A limit buy order for ABC at $10.00, and a limit sell order for the same stock at $10.05. If ABC reaches $10.00, ABC's limit order would be executed, and the sell limit order would be sent.
+
+
+=== Tick-sensitive orders ===
+An uptick is when the last (non-zero) price change is positive, and a downtick is when the last (non-zero) price change is negative. Any tick-sensitive instruction can be entered at the trader's option, for example buy on downtick, although these orders are rare. In markets where short sales may only be executed on an uptick, a short–sell order is inherently tick-sensitive.
+
+
+=== At the opening ===
+At the opening is an order type set to be executed at the very opening of the stock market trading day. If it wouldn't be possible to execute it as part of the first trade for the day, it would instead be cancelled.
+
+
+== Discretionary order ==
+A discretionary order is an order that allows the broker to delay the execution at its discretion to try to get a better price; these are sometimes called not-held orders.
+
+
+== Bracket ==
+Puts to the market a pair of two orders: For the same title, for the same direction, i.e., both to sell:
+One sell order is to realize the profit
+The second to lock the loss, not to get even deeper
+
+
+== Quantity and display instructions ==
+A broker may be instructed not to display the order to the market. For example:
+An "All-or-none" buy limit order is an order to buy at the specified price if another trader is offering to sell the full amount of the order, but otherwise not display the order.
+A hidden (or "iceberg") order requires the broker to display only a small part of the order, leaving a large undisplayed quantity "below the surface".
+
+
+== Electronic markets ==
+All of the above order types are usually available in modern electronic markets, but order priority rules encourage simple market and limit orders. Market orders receive highest priority, followed by limit orders. If a limit order has priority, it is the next trade executed at the limit price. Simple limit orders generally get high priority, based on a first-come-first-served rule. Conditional orders generally get priority based on the time the condition is met. Iceberg orders and dark pool orders (which are not displayed) are given lower priority.
+
+
+== See also ==
+Central limit order book
+
+
+== References ==
+eRollover | Different Stock Sale Types
+
+
+== Further reading ==
+Larry Harris, Trading & Exchanges, Oxford Press, Oxford, 2003. Chapter 4 "Orders and Order Properties." ISBN 0-19-514470-8
+U.S. Securities and Exchange Commission Orders accessed 4/21/2007.
+U. S. Securities and Exchange Commission Trade Execution accessed 4/21/2007.

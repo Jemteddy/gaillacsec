@@ -1,0 +1,79 @@
+The supercritical water reactor (SCWR) is a Generation IV reactor concept that uses supercritical water (referring to the critical point of water, not the critical mass of the nuclear fuel) as the working fluid. SCWRs resemble light water reactors (LWRs) but operate at higher pressure and temperature, with a direct once-through cycle like a boiling water reactor (BWR), and the water always in a single, fluid state like the pressurized water reactor (PWR). The BWR, PWR and supercritical steam generator are all proven technologies. The SCWR is a promising advanced nuclear system because of its high thermal efficiency (~45% vs. ~33% for current LWRs) and simpler design, and is being investigated by 32 organizations in 13 countries.
+
+
+== HistoryEdit ==
+SCWRs were experimented with in both Soviet Union and in the United States as early as the 1950s and 1960s. The idea however went on a 30-year hiatus, only to recently come into focus again. The first two units (now closed) at the Beloyarsk Nuclear Power Station were of SCWR type.
+A 2013 document saw the completion of a prototypical fueled loop test in 2015. A Fuel Qualification Test was completed in 2014.
+
+
+== DesignEdit ==
+
+
+=== Moderator-coolantEdit ===
+The SCWR uses supercritical water as a neutron moderator and coolant. Above the critical point, steam and liquid become the same density and are indistinguishable, eliminating the need for pressurizers and steam generators (PWR), or jet/recirculation pumps, steam separators and dryers (BWR). Also by avoiding boiling, SCWR does not generate chaotic voids (bubbles) with less density and moderating effect. In a LWR this can affect heat transfer and water flow, and the feedback can make the reactor power harder to predict and control. SCWR's simplification should reduce construction costs and improve reliability and safety. The neutron spectrum will be only partly moderated, perhaps to the point of being a fast neutron reactor. This is because the supercritical water has a lower density and moderating effect than liquid water, but is better at heat transfer, so less is needed. In some designs with a faster neutron spectrum the water is a reflector outside the core, or else only part of the core is moderated. A fast neutron spectrum has three main advantages:
+A higher power density, generating more power for the same size of reactor
+A conversion ratio of greater than 1, which makes breeder reactors possible. This allows for the efficient use of Uranium-238 (which makes up over 99% of natural uranium).
+The fast neutrons split actinides, while long-lived fission products can be transmuted with excess neutrons
+
+
+=== FuelEdit ===
+The fuel will resemble traditional LWR fuel, likely with channelized fuel assemblies like the BWR to reduce the risk of hotspots caused by local pressure/temperature variations. The enrichment of the fuel will have to be higher to compensate for the neutron absorption by the cladding, which can't be made from the zirconium customary in LWRs, as zirconium would corrode rapidly. Stainless steel or nickel alloys may be used. The fuel rods must withstand the corrosive supercritical environment, as well as a power surge in case of an accident. There are four failure modes considered during an accident: brittle failure, buckling collapse, overpressure damage and creep failure. To reduce corrosion, hydrogen can be added to the water.
+At least one concept uses high temperature gas cooled reactor fuel particles, BISO.
+This uses corrosion resistant silicon carbide coatings on uranium fuel particles, solving the challenge of the cladding using an innovative yet proven fuel.
+
+
+=== ControlEdit ===
+SCWRs would likely have control rods inserted through the top, as is done in PWRs.
+
+
+=== MaterialEdit ===
+The conditions inside an SCWR are harsher than those in LWRs, LMFBRs and supercritical fossil fuel plants (with which much experience has been gained, though this does not include the combination of harsh environment and intense neutron radiation). SCWRs need a higher standard of core materials (especially fuel cladding) than either of these. In addition, some elements become very radioactive from absorbing neutrons, e.g. cobalt-59 captures neutrons to become cobalt-60, a strong gamma emitter, so cobalt-containing alloys are unsuitable for reactors. R&D focuses on:
+The chemistry of supercritical water under radiation (preventing stress corrosion cracking, and maintaining corrosion resistance under neutron radiation and high temperatures)
+Dimensional and microstructural stability (preventing embrittlement, retaining strength and creep resistance also under radiation and high temperatures)
+Materials that both resist the harsh conditions and do not absorb too many neutrons, which affects fuel economy
+
+
+== AdvantagesEdit ==
+Supercritical water has excellent heat transfer properties allowing a high power density, a small core, and a small containment structure.
+The use of a supercritical Rankine cycle with its typically higher temperatures improves efficiency (would be ~45% versus ~33% of current PWR/BWRs).
+This higher efficiency would lead to better fuel economy and a lighter fuel load, lessening residual (decay) heat.
+SCWR is typically designed as a direct-cycle, whereby steam or hot supercritical water from the core is used directly in a steam turbine. This makes the design simple. As a BWR is simpler than a PWR, a SCWR is a lot simpler and more compact than a less-efficient BWR having the same electrical output. There are no steam separators, steam dryers, internal recirculation pumps, or recirculation flow inside the pressure vessel. The design is a once-through, direct-cycle, the simplest type of cycle possible. The stored thermal and radiologic energy in the smaller core and its (primary) cooling circuit would also be less than that of either a BWR's or a PWR's.
+Water is liquid at room temperature, cheap, non-toxic and transparent, simplifying inspection and repair (compared to liquid metal cooled reactors).
+A fast SCWR could be a breeder reactor, like the proposed Clean And Environmentally Safe Advanced Reactor, and could burn the long-lived actinide isotopes.
+A heavy-water SCWR could breed fuel from thorium (4x more abundant than uranium), with increased proliferation resistance over plutonium breeders.
+
+
+== ChallengesEdit ==
+Lower water inventory (due to compact primary loop) means less heat capacity to buffer transients and accidents (e.g. loss of feedwater flow or large break loss-of-coolant accident) resulting in accident and transient temperatures that are too high for conventional metallic cladding.
+Higher pressure combined with higher temperature and also a higher temperature rise across the core (compared to PWR/BWRs) result in increased mechanical and thermal stresses on vessel materials that are difficult to solve. A pressure-tube design, where the core is divided up into smaller tubes for each fuel channel, has potentially fewer issues here, as smaller diameter tubing can be much thinner than massive single pressure vessels, and the tube can be insulated on the inside with inert ceramic insulation so it can operate at low (calandria water) temperature.
+The coolant greatly reduces its density at the end of the core, resulting in a need to place extra moderator there. Most designs use an internal calandria where part of the feedwater flow is guided through top tubes through the core, that provide the added moderation (feedwater) in that region. This has the added advantage of being able to cool the entire vessel wall with feedwater, but results in a complex and materially demanding (high temperature, high temperature differences, high radiation) internal calandria and plena arrangement. Again a pressure-tube design has potentially fewer issues, as most of the moderator is in the calandria at low temperature and pressure, reducing the coolant density effect on moderation, and the actual pressure tube can be kept cool by the calandria water.
+Extensive material development and research on supercritical water chemistry under radiation is needed
+Special start-up procedures needed to avoid instability before the water reaches supercritical conditions
+A fast SCWR needs a relatively complex reactor core to have a negative void coefficient
+
+
+== See alsoEdit ==
+
+Generation IV reactor
+Breeder reactor
+Reduced moderation water reactor, a concept that is in some ways similar and in others overlapping to the SCWR concept, and is under development apart from the Generation IV program.
+Generation III reactor
+Advanced Boiling Water Reactor (ABWR)
+Economic Simplified Boiling Water Reactor (ESBWR) (generation III+)
+
+
+== ReferencesEdit ==
+
+INL SCWR page
+INL presentation
+INL Progress Report for the FY-03 Generation-IV R&D Activities for the Development of the SCWR in the U.S.
+Generation IV International Forum SCWR website.
+INL SCWR workshop summary
+
+
+== External linksEdit ==
+Idaho National Laboratory Supercritical-Water-Cooled Reactor (SCWR) Fact Sheet
+UW presentation: SCWR Fuel Rod Design Requirements (Powerpoint presentation).
+ANL SCWR Stability Analysis (Powerpoint presentation).
+INL ADVANCED REACTOR, FUEL CYCLE,AND ENERGY PRODUCTS WORKSHOP FOR UNIVERSITIES (Portable Document Format|PDF).
+Natural circulation in water cooled nuclear power plants (IAEA-TECDOC-1474)

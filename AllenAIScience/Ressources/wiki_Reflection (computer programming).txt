@@ -1,0 +1,96 @@
+In computer science, reflection is the ability of a computer program to examine (see type introspection) and modify its own structure and behavior (specifically the values, meta-data, properties and functions) at runtime.
+
+
+== Historical backgroundEdit ==
+The earliest computers were programmed in their native assembly language, which were inherently reflective as these original architectures could be programmed by defining instructions as data and using self-modifying code. As programming moved to higher-level languages such as C, this reflective ability disappeared (outside of malware) until programming languages with reflection built into their type systems appeared.
+Brian Cantwell Smith's 1982 doctoral dissertation introduced the notion of computational reflection in programming languages, and the notion of the meta-circular interpreter as a component of 3-Lisp.
+
+
+== UsesEdit ==
+Reflection can be used for observing and modifying program execution at runtime. A reflection-oriented program component can monitor the execution of an enclosure of code and can modify itself according to a desired goal related to that enclosure. This is typically accomplished by dynamically assigning program code at runtime.
+In object oriented programming languages such as Java, reflection allows inspection of classes, interfaces, fields and methods at runtime without knowing the names of the interfaces, fields, methods at compile time. It also allows instantiation of new objects and invocation of methods.
+Reflection can also be used to adapt a given program to different situations dynamically. For example, consider an application that uses two different classes X and Y interchangeably to perform similar operations. Without reflection-oriented programming, the application might be hard-coded to call method names of class X and class Y. However, using the reflection-oriented programming paradigm, the application could be designed and written to utilize reflection in order to invoke methods in classes X and Y without hard-coding method names. Reflection-oriented programming almost always requires additional knowledge, framework, relational mapping, and object relevance in order to take advantage of more generic code execution.
+Reflection is often used as part of software testing, such as for the runtime creation/instantiation of mock objects.
+Reflection is also a key strategy for metaprogramming.
+In some object-oriented programming languages, such as C# and Java, reflection can be used to override member accessibility rules. For example, reflection makes it possible to change the value of a field marked "private" in a third-party library's class.
+
+
+== ImplementationEdit ==
+A language supporting reflection provides a number of features available at runtime that would otherwise be difficult to accomplish in a lower-level language. Some of these features are the abilities to:
+Discover and modify source code constructions (such as code blocks, classes, methods, protocols, etc.) as a first-class object at runtime.
+Convert a string matching the symbolic name of a class or function into a reference to or invocation of that class or function.
+Evaluate a string as if it were a source code statement at runtime.
+Create a new interpreter for the language's bytecode to give a new meaning or purpose for a programming construct.
+These features can be implemented in different ways. In MOO, reflection forms a natural part of everyday programming idiom. When verbs (methods) are called, various variables such as verb (the name of the verb being called) and this (the object on which the verb is called) are populated to give the context of the call. Security is typically managed by accessing the caller stack programmatically: Since callers() is a list of the methods by which the current verb was eventually called, performing tests on callers()[1] (the command invoked by the original user) allows the verb to protect itself against unauthorised use.
+Compiled languages rely on their runtime system to provide information about the source code. A compiled Objective-C executable, for example, records the names of all methods in a block of the executable, providing a table to correspond these with the underlying methods (or selectors for these methods) compiled into the program. In a compiled language that supports runtime creation of functions, such as Common Lisp, the runtime environment must include a compiler or an interpreter.
+Reflection can be implemented for languages not having built-in reflection facilities by using a program transformation system to define automated source code changes.
+
+
+== ExamplesEdit ==
+The following code snippets create an instance foo of class Foo, and invoke its method hello. For each programming language, normal and reflection-based call sequences are shown.
+
+
+=== ECMAScriptEdit ===
+The following is an example in ECMAScript, and therefore also applies to JavaScript and ActionScript:
+
+
+=== JavaEdit ===
+The following is an example in Java:
+
+
+=== Objective-CEdit ===
+The following is an example in Objective-C—implying either the OpenStep or Foundation Kit framework is used:
+
+
+=== DelphiEdit ===
+This Delphi example assumes a TFoo class has been declared in a unit called Unit1:
+
+This is a notable example since Delphi is an unmanaged, fully natively compiled language, unlike most other languages that support reflection. Its language architecture inherits from strongly-typed Pascal, but with significant influence from SmallTalk. Compare with the other examples here, many of which are dynamic or script languages like Perl, Python or PHP, or languages with a runtime like Java or C#.
+
+
+=== PerlEdit ===
+The following is an example in Perl:
+
+
+=== PHPEdit ===
+The following is an example in PHP:
+
+
+=== PythonEdit ===
+The following is an example in Python:
+
+
+=== REdit ===
+The following is an example in R:
+
+
+=== RubyEdit ===
+The following is an example in Ruby:
+
+
+== See alsoEdit ==
+Type introspection
+Self-modifying code
+Self-hosting
+Programming paradigms
+List of reflective programming languages and platforms
+Mirror (programming)
+
+
+== ReferencesEdit ==
+Notes
+
+Documents
+Jonathan M. Sobel and Daniel P. Friedman. An Introduction to Reflection-Oriented Programming (1996), Indiana University.
+
+
+== Further readingEdit ==
+Ira R. Forman and Nate Forman, Java Reflection in Action (2005), ISBN 1-932394-18-4
+Ira R. Forman and Scott Danforth, Putting Metaclasses to Work (1999), ISBN 0-201-43305-2
+
+
+== External linksEdit ==
+Reflection in logic, functional and object-oriented programming: a short comparative study
+An Introduction to Reflection-Oriented Programming
+Brian Foote's pages on Reflection in Smalltalk
+Java Reflection API Tutorial from Oracle

@@ -1,0 +1,70 @@
+In cosmology, recombination refers to the epoch at which charged electrons and protons first became bound to form electrically neutral hydrogen atoms. Recombination occurred about 378,000 years after the Big Bang (at a redshift of z = 7003110000000000000♠1100).
+Immediately after the Big Bang, the universe was a hot, dense plasma of photons, electrons, and protons. This plasma was effectively opaque to electromagnetic radiation due to Thomson scattering by free electrons, as the mean free path each photon could travel before encountering an electron was very short. As the universe expanded, it also cooled. Eventually, the universe cooled to the point that the formation of neutral hydrogen was energetically favored, and the fraction of free electrons and protons as compared to neutral hydrogen decreased to a few parts in 10,000.
+Shortly after, photons decoupled from matter in the universe, which leads to recombination sometimes being called photon decoupling, although recombination and photon decoupling are distinct events. Once photons decoupled from matter, they traveled freely through the universe without interacting with matter, and constitute what we observe today as cosmic microwave background radiation.
+
+
+== The recombination history of hydrogenEdit ==
+The cosmic ionization history is generally described in terms of the free electron fraction xe as a function of redshift. It is the ratio of the abundance of free electrons to the total abundance of hydrogen (both neutral and ionized). Denoting by ne the number density of free electrons, nH that of atomic hydrogen and np that of ionized hydrogen (i.e. protons), xe is defined as
+
+Since hydrogen only recombines once helium is fully neutral, charge neutrality implies ne = np, i.e. xe is also the fraction of ionized hydrogen.
+
+
+=== Rough estimate from equilibrium theoryEdit ===
+It is possible to find a rough estimate of the redshift of the recombination epoch assuming the recombination reaction  is fast enough that it proceeds near thermal equilibrium. The relative abundance of free electrons, protons and neutral hydrogen is then given by the Saha equation:
+
+where me is the mass of the electron, kB is Boltzmann's constant, T is the temperature, ħ is the reduced Planck's constant, and EI = 13.6 eV is the ionization energy of hydrogen. Charge neutrality requires ne = np, and the Saha equation can be rewritten in terms of the free electron fraction xe:
+
+All quantities in the right-hand side are known functions of redshift: the temperature is given by T = 2.728 (1 + z) K., and the total density of hydrogen (neutral and ionized) is given by np + nH = 1.6 (1+z)3 m−3.
+Solving this equation for a 50 percent ionization fraction yields a recombination temperature of roughly 7003400000000000000♠4000 K, corresponding to redshift z = 7003150000000000000♠1500.
+
+
+=== The effective three-level atomEdit ===
+In 1968, physicists Jim Peebles in the US and Yakov Borisovich Zel'dovich and collaborators in the USSR independently computed the non-equilibrium recombination history of hydrogen. The basic elements of the model are the following.
+Direct recombinations to the ground state of hydrogen are very inefficient: each such event leads to a photon with energy greater than 13.6 eV, which almost immediately re-ionizes a neighboring hydrogen atom.
+Electrons therefore only efficiently recombine to the excited states of hydrogen, from which they cascade very quickly down to the first excited state, with principal quantum number n = 2.
+From the first excited state, electrons can reach the ground state n =1 through two pathways:
+Decay from the 2p state by emitting a Lyman-α photon. This photon will almost always be reabsorbed by another hydrogen atom in its ground state. However, cosmological redshifting systematically decreases the photon frequency, and there is a small chance that it escapes reabsorption if it gets redshifted far enough from the Lyman-α line resonant frequency before encountering another hydrogen atom.
+Decay from the 2s state by emitting two photons. This two-photon decay process is very slow, with a rate of 8.22 s−1. It is however competitive with the slow rate of Lyman-α escape in producing ground-state hydrogen.
+
+Atoms in the first excited state may also be re-ionized by the ambient CMB photons before they reach the ground state. When this is the case, it is as if the recombination to the excited state did not happen in the first place. To account for this possibility, Peebles defines the factor C as the probability that an atom in the first excited state reaches the ground state through either of the two pathways described above before being photoionized.
+This model is usually described as an "effective three-level atom" as it requires keeping track of hydrogen under three forms: in its ground state, in its first excited state (assuming all the higher excited states are in Boltzmann equilibrium with it), and ionized.
+Accounting for these processes, the recombination history is then described by the differential equation
+
+where αB is the "case B" recombination coefficient to the excited states of hydrogen, βB is the corresponding photoionization rate and E21 = 10.2 eV is the energy of the first excited state. Note that the second term in the right-hand side of the above equation can be obtained by a detailed balance argument. The equilibrium result given in the previous section would be recovered by setting the left-hand side to zero, i.e. assuming that the net rates of recombination and photoionization are large in comparison to the Hubble expansion rate, which sets the overall evolution timescale for the temperature and density. However, C αB np is comparable to the Hubble expansion rate, and even gets significantly lower at low redshifts, leading to an evolution of the free electron fraction much slower than what one would obtain from the Saha equilibrium calculation. With modern values of cosmological parameters, one finds that the universe is 90% neutral at z ≈ 1070.
+
+
+=== Modern developmentsEdit ===
+The simple effective three-level atom model described above accounts for the most important physical processes. However it does rely on approximations which lead to errors on the predicted recombination history at the level of 10% or so. Due to the importance of recombination for the precise prediction of cosmic microwave background anisotropies, several research groups have revisited the details of this picture over the last two decades.
+The refinements to the theory can be divided into two categories:
+Accounting for the non-equilibrium populations of the highly excited states of hydrogen. This effectively amounts to modifying the recombination coefficient αB.
+Accurately computing the rate of Lyman-α escape and the effect of these photons on the 2s-1s transition. This requires solving a time-dependent radiative transfer equation. In addition, one needs to account for higher-order Lyman transitions. These refinements effectively amount to a modification of Peebles' C factor.
+Modern recombination theory is believed to be accurate at the level of 0.1%, and is implemented in publicly available fast recombination codes.
+
+
+== Primordial helium recombinationEdit ==
+Helium nuclei are produced during Big Bang nucleosynthesis, and make up about 24% of the total mass of baryonic matter. The ionization energy of helium is larger than that of hydrogen and it therefore recombines earlier. Because neutral helium carries two electrons, its recombination proceeds in two steps. The first recombination,  proceeds near Saha equilibrium and takes place around redshift z≈ 6000. The second recombination, , is slower than what would be predicted from Saha equilibrium and takes place around redshift z≈ 2000. The details of helium recombination are less critical that those of hydrogen recombination for the prediction of cosmic microwave background anisotropies, since the universe is still very optically thick after helium has recombined and before hydrogen has started its recombination.
+
+
+== Primordial light barrierEdit ==
+Prior to recombination, photons were not able to freely travel through the universe, as they constantly scattered off the free electrons and protons. This scattering causes a loss of information, and "there is therefore a photon barrier at a redshift" near that of recombination that prevents us from using photons directly to learn about the universe at larger redshifts. Once recombination had occurred, however, the mean free path of photons greatly increased due to the lower number of free electrons. Shortly after recombination, the photon mean free path became larger than the Hubble length, and photons traveled freely without interacting with matter. For this reason, recombination is closely associated with the last scattering surface, which is the name for the last time at which the photons in the cosmic microwave background interacted with matter. However, these two events are distinct, and in a universe with different values for the baryon-to-photon ratio and matter density, recombination and photon decoupling need not have occurred at the same epoch.
+
+
+== See alsoEdit ==
+
+Timeline of the Big Bang or Chronology of the universe
+Age of the universe
+Big Bang
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+
+
+== BibliographyEdit ==
+Peebles, P. J. E. (1968). "Recombination of the Primeval Plasma". Astrophysical Journal 153: 1. Bibcode:1968ApJ...153....1P. doi:10.1086/149628. 
+Zeldovich, Y. B.; Kurt, V. G.; Syunyaev, R. A. (1968). "Recombination of Hydrogen in the Hot Model of the Universe". Zhurnal Eksperimental'noi i Teoreticheskoi Fiziki 55: 278. Bibcode:1968ZhETF..55..278Z. 
+Longair, Malcolm (2006). Galaxy Formation. Springer. ISBN 978-3-540-73477-2. 
+Padmanabhan, Thanu (1993). Structure formation in the universe. Cambridge University Press. ISBN 0-521-42486-0. 
+Ryden, Barbara (2003). Introduction to Cosmology. Addison-Wesley. ISBN 0-8053-8912-1.

@@ -1,0 +1,120 @@
+In astronomy, luminosity is the total amount of energy emitted by a star, galaxy, or other astronomical object per unit time. It is related to the brightness, which is the luminosity of an object in a given spectral region.
+In SI units luminosity is measured in joules per second or watts. Values for luminosity are often given in the terms of the luminosity of the Sun, which has a total power output of 7026384600000000000♠3.846×1026 W. The symbol for solar luminosity is L⊙. Luminosity can also be given in terms of magnitude. The absolute bolometric magnitude (Mbol) of an object is a logarithmic measure of its total energy emission.
+
+
+== Measuring luminosityEdit ==
+
+In astronomy, luminosity is the amount of electromagnetic energy a body radiates per unit of time. It is most frequently measured in two forms: visual (visible light only) and bolometric (total radiant energy), although luminosities at other wavelengths are increasingly being used as instruments become available to measure them. A bolometer is the instrument used to measure radiant energy over a wide band by absorption and measurement of heating. When not qualified, the term "luminosity" means bolometric luminosity, which is measured either in the SI units, watts, or in terms of solar luminosities. A star also radiates neutrinos, which carry off some energy (about 2% in the case of our Sun), contributing to the star's total luminosity. While bolometers do exist, they cannot be used to measure even the apparent brightness of a star because they are insufficiently sensitive across the electromagnetic spectrum and because most wavelengths do not reach the surface of the Earth. In practice bolometric magnitudes are measured by taking measurements at certain wavelengths and constructing a model of the total spectrum that is most likely to match those measurements. In some cases, the process of estimation is extreme, with luminosities being calculated when less than 1% of the energy output is observed, for example with a hot Wolf-Rayet star observed only in the infra-red.
+
+
+== Stellar luminosityEdit ==
+A star's luminosity can be determined from two stellar characteristics: size and effective temperature. The former is typically represented in terms of solar radii, R⊙, while the latter is represented in kelvins, but in most cases neither can be measured directly. To determine a star's radius, two other metrics are needed: the star's angular diameter and its distance from Earth, often calculated using parallax. Both can be measured with great accuracy in certain cases, with cool supergiants often having large angular diameters, and some cool evolved stars having masers in their atmospheres that can be used to measure the parallax using VLBI. However for most stars the angular diameter or parallax, or both, are far below our ability to measure with any certainty. Since the effective temperature is merely a number that represents the temperature of a black body that would reproduce the luminosity, it obviously cannot be measured directly, but it can be estimated from the spectrum.
+An alternate way to measure stellar luminosity is to measure the star's apparent brightness and distance. A third component needed to derive the luminosity is the degree of interstellar extinction that is present, a condition that usually arises because of gas and dust present in the interstellar medium (ISM), the Earth's atmosphere, and circumstellar matter. Consequently, one of astronomy's central challenges in determining a star's luminosity is to derive accurate measurements for each of these components, without which an accurate luminosity figure remains elusive. Extinction can only be measured directly if the actual and observed luminosities are both known, but it can be estimated from the observed colour of a star, using models of the expected level of reddening from the interstellar medium.
+In the current system of stellar classification, stars are grouped according to temperature, with the massive, very young and energetic Class O stars boasting temperatures in excess of 30,000 K while the less massive, typically older Class M stars exhibit temperatures less than 3,500 K. Because luminosity is proportional to temperature to the fourth power, the large variation in stellar temperatures produces an even vaster variation in stellar luminosity. Because the luminosity depends on a high power of the stellar mass, high mass luminous stars have much shorter lifetimes. The most luminous stars are always young stars, no more than a few million years for the most extreme. In the Hertzsprung–Russell diagram, the x-axis represents temperature or spectral type while the y-axis represents luminosity or magnitude. The vast majority of stars are found along the main sequence with blue Class 0 stars found at the top left of the chart while red Class M stars fall to the bottom right. Certain stars like Deneb and Betelgeuse are found above and to the right of the main sequence, more luminous or cooler than their equivalents on the main sequence. Increased luminosity at the same temperature, or alternatively cooler temperature at the same luminosity, indicates that these stars are larger than those on the main sequence and they are called giants or supergiants.
+Blue and white supergiants are high luminosity stars somewhat cooler than the most luminous main sequence stars. A star like Deneb, for example, has a luminosity around 200,000 L⊙, a spectral type of A2, and an effective temperature around 8,500 K, meaning it has a radius around 203 R⊙. For comparison, the red supergiant Betelgeuse has a luminosity around 100,000 L⊙, a spectral type of M2, and a temperature around 3,500 K, meaning its radius is about 1,000 R⊙. Red supergiants are the largest type of star, but the most luminous are much smaller and hotter, with temperatures up to 50,000 K and more and luminosities of several million L⊙, meaning their radii are just a few tens of R⊙. An example is R136a1, over 50,000 K and shining at over 8,000,000 L⊙ (mostly in the UV), it is only 35 R⊙.
+
+
+== Radio luminosityEdit ==
+The luminosity of a radio source is measured in W Hz−1, to avoid having to specify a bandwidth over which it is measured. The observed strength, or flux density, of a radio source is measured in Jansky where 1 Jy = 10−26 W m−2 Hz−1.
+For example, consider a 10W transmitter at a distance of 1 million metres, radiating over a bandwidth of 1 MHz. By the time that power has reached the observer, the power is spread over the surface of a sphere with area 4πr2 or about 1.26×1013 m2, so its flux density is 10 / 106 / 1.26×1013 W m−2 Hz−1 = 108 Jy.
+More generally, for sources at cosmological distances, a k-correction must be made for the spectral index α of the source, and a relativistic correction must be made for the fact that the frequency scale in the emitted rest frame is different from that in the observers rest frame. So the full expression for radio luminosity, assuming isotropic emission, is
+
+where Lν is the luminosity in W Hz−1, Sobs is the observed flux density in W m−2 Hz−1, DL is the luminosity distance in metres, z is the redshift, α is the spectral index (in the sense , and is typically -0.7).
+For example, consider a 1 Jy signal from a radio source at a redshift of 1, at a frequency of 1.4 GHz. Ned Wright's cosmology calculator calculates a luminosity distance for a redshift of 1 to be 6701 Mpc = 2×1026 m giving a radio luminosity of 10−26 × 4π(2×1026)2 / (1+1)(1-0.7) = 4×1027 W Hz−1.
+To calculate the total radio power, this luminosity must be integrated over the bandwidth of the emission. A common assumption is to set the bandwidth to the observing frequency, which effectively assumes the power radiated has uniform intensity from zero frequency up to the observing frequency. In the case above, the total power is 4×1027 × 1.4×109 = 5.7×1036 W. This is sometimes expressed in terms of the total (i.e. integrated over all wavelengths) luminosity of the Sun which is 3.86×1026 W, giving a radio power of 1.5×1010 L⊙.
+A useful radio luminosity calculator has been provided by the University of Southampton.
+
+
+== MagnitudeEdit ==
+
+Luminosity is an intrinsic measurable property of a star independent of distance. The concept of magnitude, on the other hand, incorporates distance. First conceived by the Greek astronomer Hipparchus in the second century BC, the original concept of magnitude grouped stars into six discrete categories depending on how bright they appeared. The brightest first magnitude stars were twice as bright as the next brightest stars, which were second magnitude; second was twice as bright as third, third twice as bright as fourth and so on down to the faintest stars, which Hipparchus categorized as sixth magnitude. The system was but a simple delineation of stellar brightness into six distinct groups and made no allowance for the variations in brightness within a group. With the invention of the telescope at the beginning of the seventeenth century, researchers soon realized that there were subtle variations among stars and millions fainter than the sixth magnitude—hence the need for a more sophisticated system to describe a continuous range of values beyond what the naked eye could see.
+In 1856 Norman Pogson, noticing that photometric measurements had established first magnitude stars as being about 100 times brighter than sixth magnitude stars, formalized the Hipparchus system by creating a logarithmic scale, with every interval of one magnitude equating to a variation in brightness of 1001/5 or roughly 2.512 times. Consequently, a first magnitude star is about 2.5 times brighter than a second magnitude star, 2.52 brighter than a third magnitude star, 2.53 brighter than a fourth magnitude star, et cetera. Based on this continuous scale, any star with a magnitude between 5.5 and 6.5 is now considered to be sixth magnitude, a star with a magnitude between 4.5 and 5.5 is fifth magnitude and so on. With this new mathematical rigor, a first magnitude star should then have a magnitude in the range 0.5 to 1.5, thus excluding the nine brightest stars with magnitudes lower than 0.5, as well as the four brightest with negative values. It is customary therefore to extend the definition of a first magnitude star to any star with a magnitude less than 0.5, as can be seen in accompanying table.
+
+The Pogson logarithmic scale is used to measure both apparent and absolute magnitudes, the latter corresponding to the brightness of a star or other celestial body as seen if it would be located at an interstellar distance of 10 parsecs. The apparent magnitude is a measure of the diminishing flux of light as a result of distance according to the inverse-square law. In addition to this brightness decrease from increased distance, there is an extra decrease of brightness due to extinction from intervening interstellar dust.
+By measuring the width of certain absorption lines in the stellar spectrum, it is often possible to assign a certain luminosity class to a star without knowing its distance. Thus a fair measure of its absolute magnitude can be determined without knowing its distance nor the interstellar extinction, allowing astronomers to estimate a star's distance and extinction without parallax calculations. Since the stellar parallax is usually too small to be measured for many distant stars, this is a common method of determining such distances.
+To conceptualize the range of magnitudes in our own galaxy, the smallest star to be identified has about 8% of the Sun’s mass and glows feebly at absolute magnitude +19. Compared to the Sun, which has an absolute of +4.8, this faint star is 14 magnitudes or 400,000 times dimmer than our Sun. Our galaxy's most massive stars begin their lives with masses of roughly 100 times solar, radiating at upwards of absolute magnitude –8, over 160,000 times the solar luminosity. The total range of stellar luminosities, then, occupies a range of 27 magnitudes, or a factor of 60 billion.
+In measuring star brightnesses, absolute magnitude, apparent magnitude, and distance are interrelated parameters—if two are known, the third can be determined. Since the Sun's luminosity is the standard, comparing these parameters with the Sun's apparent magnitude and distance is the easiest way to remember how to convert between them.
+
+
+== Luminosity formulaEdit ==
+
+The Stefan–Boltzmann equation applied to a black body gives the value for luminosity for a black body, an idealized object which is perfectly opaque and non-reflecting:
+ ,
+where A is the area, T is the temperature (in Kelvins) and σ is the Stefan–Boltzmann constant, with a value of 6992567036700000000♠5.670367(13)×10−8 W m−2 K−4.
+Imagine a point source of light of luminosity  that radiates equally in all directions. A hollow sphere centered on the point would have its entire interior surface illuminated. As the radius increases, the surface area will also increase, and the constant luminosity has more surface area to illuminate, leading to a decrease in observed brightness.
+ ,
+where
+ is the area of the illuminated surface.
+ is the flux density of the illuminated surface.
+The surface area of a sphere with radius r is , so for stars and other point sources of light:
+ ,
+where  is the distance from the observer to the light source.
+It has been shown that the luminosity of a star  (assuming the star is a black body, which is a good approximation) is also related to temperature  and radius  of the star by the equation:
+ ,
+where
+σ is the Stefan–Boltzmann constant 5.67×10−8 W·m−2·K−4.
+Dividing by the luminosity of the Sun  and cancelling constants, we obtain the relationship:
+ ,
+where  and  are the radius and temperature of the Sun, respectively.
+For stars on the main sequence, luminosity is also related to mass:
+ .
+
+
+== Magnitude formulaeEdit ==
+
+
+=== ApparentEdit ===
+The magnitude of a star is a logarithmic scale of observed visible brightness. The apparent magnitude is the observed visible brightness from Earth, and the absolute magnitude is the apparent magnitude at a distance of 10 parsecs. Given a visible luminosity (not total luminosity), one can calculate the apparent magnitude of a star from a given distance (ignoring extinction):
+
+where
+ is the apparent magnitude of the star (a pure number)
+ is the apparent magnitude of the Sun (also a pure number)
+ is the visible luminosity of the star
+ is the solar visible luminosity
+ is the distance to the star
+ is the distance to the Sun
+Or simplified, given , :
+, where  is measured in .
+
+
+=== BolometricEdit ===
+The difference in bolometric magnitude is related to the luminosity ratio according to:
+
+which makes by inversion:
+
+where
+ is the Sun's (sol) luminosity (bolometric luminosity)
+ is the star's luminosity (bolometric luminosity)
+ is the bolometric magnitude of the Sun
+ is the bolometric magnitude of the star.
+
+
+== Computational challengesEdit ==
+Calculating a star's luminosity and magnitude is sometimes a tremendous astrophysical challenge. Although the formulae are well understood, obtaining accurate data to plug into those formulae is not always easy. This is particularly the case for enigmatic stars like Betelgeuse whose thick circumstellar nebula makes it difficult to identify the size and shape of the star's photosphere, leading to significant error factors in determining its luminosity.
+As already discussed, the calculation of stellar brightness requires three variables: angular diameter, distance and temperature. A wide variance in any of these components will lead to significant error factors in the star's luminosity. In the last century, there has been a noticeable variance in all 3 components, leading to much debate on the star's actual brightness. In 1920 when the photosphere was first measured, the published angular diameter was 0.047 arcseconds, a measurement which resulted in a diameter of 3.84 × 108 km (2.58 AU) based on the then-current parallax value of 0.018". Recently, reported angular diameters have ranged from 42.05 to 56.60 milliarcseconds, distances from 152 ± 20 pc to 197 ± 45 pc (520 ± 73 ly to 643 ± 146 ly), and temperatures from 3,100 to 3,660 kelvin, variables that have produced wide discrepancies.
+An example of two distinct debated scenarios are:
+To determine the star's luminosity, there are 3 computational steps:
+1) convert the star's angular diameter in arcseconds into its radius in astronomical units (AU);
+2) convert the star's radius in AU into its solar radius ; and finally
+3) convert its solar radius  and temperature (kelvin) into solar luminosity.
+
+
+=== Arcseconds to AUEdit ===
+The calculations begin with the formula for a star's angular diameter, as follows:
+
+where  represents Betelgeuse's angular diameter in arcseconds,  the Distance from Earth in parsecs Betelgeuse's diameter in AU, and  Betelgeuse's Radius in AU. Therefore:
+ (rounded)
+ (rounded)
+
+
+=== AU to R☉Edit ===
+To convert the above into solar units, the math is straightforward. Since 1 AU = 149,597,871 km and the mean diameter of the Sun = 1,392,000 km (hence a mean radius of 696,000 km), the calculation is as follows:
+
+
+=== R☉ to L☉Edit ===
+Incorporating the R☉ results into the luminosity formula outlined earlier where B = Betelgeuse, L = Luminosity, R = Radius and T = Temperature, we can calculate Betelgeuse's luminosity per each scenario, as follows:
+
+These luminosity calculations do not take into consideration error factors relating to angular diameter or distance measurements nor any diminution caused by extinction, which in the case of Betelgeuse has been estimated at around 3.1%. Also, while the calculations are correct and useful, in practice they are often performed in reverse because the distance to most stars, and hence their size, cannot be determined directly while quantities such as the luminosity and temperature can be estimated from other observable quantities.
+
+
+== ReferencesEdit ==

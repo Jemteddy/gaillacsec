@@ -1,0 +1,83 @@
+Tube bending is the umbrella term for metal forming processes used to permanently form pipes or tubing. One has to differentiate between form-bound and freeform-bending procedures, as well as between heat supported and cold forming procedures.
+Form bound bending procedures like “press bending” or “rotary draw bending” are used to form the work piece into the shape of a die. Straight tube stock can be formed using a bending machine to create a variety of single or multiple bends and to shape the piece into the desired form. These processes can be used to form complex shapes out of different types of ductile metal tubing. Freeform-bending processes, like three-roll-pushbending, shape the workpiece kinematically, thus the bending contour is not dependent on the tool geometry.
+Generally, round stock is what is used in tube bending. However, square and rectangular tubes and pipes may also be bent to meet job specifications. Other factors involved in the tube bending process is the wall thickness, tooling and lubricants needed by the pipe and tube bender to best shape the material and it is also used in different ways e.g.( tube,pipe wires).
+
+
+== GeometryEdit ==
+A tube can be bent in multiple directions and angles. Common simple bends consist of forming elbows, which are bends that range from 2 to 90°, and U-bends, which are 180° bends. More complex geometries include multiple two-dimensional (2D) bends and three-dimensional (3D) bends. A 2D tube has the openings on the same plane; a 3D has openings on different planes.
+A two plane bend or compound bend is defined as a compound bend that has a bend in the plan view and a bend in the elevation. When calculating a 2 plane bend you must know the bend angle and rotation (dihedral angle).
+One side effect of bending the workpiece is the wall thickness changes; the wall along the inner radius of the tube becomes thicker and the outer wall becomes thinner. To reduce this the tube may be supported internally and or externally to preserve the cross section. Depending on the bend angle, wall thickness, and bending process the inside of the wall may wrinkle.
+
+
+== ProcessesEdit ==
+Tube bending as a process starts with loading a tube into a pipe bender and clamping it into place between two dies, the clamping block and the forming die. The tube is also loosely held by two other dies, the wiper die and the pressure die.
+The process of tube bending involves using mechanical force to push stock material pipe or tubing against a die, forcing the pipe or tube to conform to the shape of the die. Often, stock tubing is held firmly in place while the end is rotated and rolled around the die. Other forms of processing including pushing stock through rollers that bend it into a simple curve. For some tube bending processing, a mandrel is placed inside the tube to prevent collapsing. The tube is also held in tension by a wiper die to prevent any creasing during stress. A wiper die is usually made of a softer alloy i.e. aluminum, brass to avoid scratching or damaging the material being bent.
+Much of the tooling is made of hardened steel or tool steel to maintain and prolong the tools life. However wherever there is a concern of scratching or gouging the work piece, a softer material such as aluminum or bronze is utilized. For example, the clamping block, rotating form block and pressure die are often formed from the hardened steel because the tubing is not moving past these parts of the machine. On the other hand, the pressure die and the wiping die are formed from aluminum or bronze to maintain the shape and surface of the work piece as it slides by.
+Pipe bending machines are typically human powered, pneumatic powered, hydraulic assisted, hydraulic driven, or electric servomotor.
+
+
+=== Press bendingEdit ===
+Probably will be the first bending process used on cold pipes and tubing. In this process a die in the shape of the bend is pressed against the pipe forcing the pipe to fit the shape of the bend. Because the pipe is not supported internally there is some deformation of the shape of the pipe giving an oval cross section. This process is used where a consistent cross section of the pipe is not required. Although a single die can produce various shapes, it only works for one size tube and radius.
+
+
+=== Rotary draw bendingEdit ===
+
+Rotary draw bending (RDB) is a precise technology, since it bends using tooling or "die sets" which have a constant center line radius (CLR), alternatively indicated as Mean Bending Radius (Rm). Rotary draw benders can be programmable to store multiple bend jobs with varying degrees of bending. Often a positioning index table (IDX) is attached to the bender allowing the operator to reproduce complex bends which can have multiple bends and differing planes.
+Rotary draw benders are the most popular machines for use in bending tube, pipe and solids for applications like: handrails, frames, motor vehicle roll cages, handles, lines and much more. Rotary draw benders create aesthetically pleasing bends when the right tooling is matched to the application. CNC rotary draw bending machines can be very complex and use sophisticated tooling to produce severe bends with high quality requirements. The complete tooling is required only for high-precision bending of difficult-to-bend tubes with relatively large OD/t (diameter/thickness) ratio and relatively small ratio between the mean bending radius Rm and OD. The use of axial boosting either on the tube free end or on the pressure die is useful to prevent excessive thinning and collapse of the extrados of the tube. The mandrel, with or without ball with spherical links, is mostly used to prevent wrinkles and ovalization. For relatively easy bending processes (that is, as the difficulty factor BF decreases), the tooling can be progressively simplified, eliminating the need for the axial assist, the mandrel, and the wiper die (which mostly prevents wrinkling). Furthermore, in some particular cases, the standard tooling must be modified in order to meet specific requirements of the products.
+
+
+=== Roll bendingEdit ===
+
+During the roll bending process the pipe, extrusion, or solid is passed through a series of rollers (typically 3) that apply pressure to the pipe gradually changing the bend radius in the pipe. The pyramid style roll benders have one moving roll, usually the top roll. Double pinch type roll benders have two adjustable rolls, usually the bottom rolls, and a fixed top roll. This method of bending causes very little deformation in the cross section of the pipe. This process is suited to producing coils of pipe as well as long gentle bends like those used in truss systems.
+
+
+==== Three-Roll Push BendingEdit ====
+
+The Three-Roll Push Bending (TRPB) is the most commonly used freeform-bending process to manufacture bending geometries consisting of several plane bending curves. Nevertheless, a 3D-shaping is possible. The profile is guided between bending-roll and supporting-roll(s), while being pushed through the tools. The position of the forming-roll defines the bending radius. The bending point is the tangent-point between tube and bending-roll. To change the bending plane, the pusher rotates the tube around its longitudinal axis. Generally, a TRPB tool kit can be applied on a conventional rotary draw bending machine. The process is very flexible since with a unique tool set, several bending radii values Rm can be obtained, although the geometrical precision of the process is not comparable to rotary draw bending.
+Bending contours defined as spline- or polynomial-functions can be manufactured.
+
+
+==== Simple Three-Roll BendingEdit ====
+Three roll bending of tubes and open profiles can also be performed with simpler machines, often semi-automatic and non CNC controlled, able to feed the tube into the bending zone by friction. These machines have often a vertical layout, i.e. the three rolls lie on a vertical plane.
+
+
+=== Heat-inductionEdit ===
+An induction coil is placed around a small section of the pipe at the bend point. It is then heated to between 800 and 2,200 degrees Fahrenheit (430 and 1,200 °C). While the pipe is hot, pressure is placed on the pipe to bend it. The pipe is then quenched with either air or water spray. Heat-Induction bending is used on large pipes such as freeway signs, power plants, and petroleum pipe lines.
+
+
+=== Sand-packing/hot-slab formingEdit ===
+In the sand packing process the pipe is filled with fine sand and the ends are capped. The filled pipe is heated in a furnace to 1,600 °F (870 °C) or higher. Then it is placed on a slab with pins set in it, and bent around the pins using a winch, crane, or some other mechanical force. The sand in the pipe minimizes distortion in the pipe cross section.
+
+
+== MandrelsEdit ==
+A mandrel is a steel rod or linked ball inserted into the tube while it is being bent to give the tube extra support to reduce wrinkling and breaking the tube during this process. The different types of mandrels are as follows.
+Plug mandrel, a solid rod used on normal bends.
+Form mandrel, a solid rod with curved end used on bend when more support is need.
+Ball mandrel without cable, unlinked steel ball bearings inserted into tube, used on critical and precise bends.
+Ball mandrel with cable, linked ball bearings inserted into tube, used on critical bend and precise bends.
+Sand, sand packed into tube.
+In production of a product where the bend is not critical a plug mandrel can be used. A form type tapers the end of the mandrel to provide more support in the bend of the tube. When precise bending is needed a ball mandrel (or ball mandrel with steel cable) should be used. The conjoined ball-like disks are inserted into the tubing to allow for bending while maintaining the same diameter throughout. Other styles include using sand, cerrobend, or frozen water. These allow for a somewhat constant diameter while providing an inexpensive alternative to the aforementioned styles.
+Performance automotive or motorcycle exhaust pipe is a common application for a mandrel.
+
+
+=== Bending springsEdit ===
+These are strong but flexible springs inserted into a pipe to support the pipe walls during manual bending. They have diameters only slightly less than the internal diameter of the pipe to be bent. They are only suitable for bending 15-and-22 mm (0.6-and-0.9 in) soft copper pipe (typically used in household plumbing) or PVC pipe.
+The spring is pushed into the pipe until its center is roughly where the bend is to be. A length of flexible wire can be attached to the end of the spring to facilitate its removal. The pipe is generally held against the flexed knee, and the ends of the pipe are pulled up to create the bend. To make it easier to retrieve the spring from the pipe, it is a good idea to bend the pipe slightly more than required, and then slacken it off a little. They are less cumbersome than rotary benders, but are not suitable for bending short lengths of piping when it is difficult to get the required leverage on the pipe ends.
+Bending springs for smaller diameter pipes (10 mm copper pipe) slide over the pipe instead of inside.
+
+
+== See alsoEdit ==
+Brake (sheet metal bending)
+Bending Machine (flat metal bending)
+Bending
+Bending (mechanics)
+Brake (sheet metal bending)
+Spring Back Compensation
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Tube forming processes By Gregory Miller
+American Society of Tool and Manufacturing Engineers.; American Society of Tool and Manufacturing Engineers (1966), Cold bending and forming tube and other sections (Cold bending and forming tube and other sections. ed.), Dearborn, Mich, OCLC 812112

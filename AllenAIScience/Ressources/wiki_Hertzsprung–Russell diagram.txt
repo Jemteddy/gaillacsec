@@ -1,0 +1,58 @@
+The Hertzsprung–Russell diagram, abbreviated H–R diagram or HRD, is a scatter graph of stars showing the relationship between the stars' absolute magnitudes or luminosities versus their spectral classifications or effective temperatures. More simply, it plots each star on a graph measuring the star's brightness against its temperature (color). It does not map any locations of stars.
+The diagram was created circa 1910 by Ejnar Hertzsprung and Henry Norris Russell and represents a major step towards an understanding of stellar evolution or "the way in which stars undergo sequences of dynamic and radical changes over time".
+
+
+== Historical background ==
+In the late 19th century large-scale photographic spectroscopic surveys of stars were performed at Harvard College Observatory, producing spectral classifications for tens of thousands of stars, culminating ultimately in the Henry Draper Catalogue. In one segment of this work Antonia Maury included divisions of the stars by the width of their spectral lines. Hertzsprung noted that stars described with narrow lines tended to have smaller proper motions than the others of the same spectral classification. He took this as an indication of greater luminosity for the narrow-line stars, and computed secular parallaxes for several groups of these, allowing him to estimate their absolute magnitude.
+In 1910 Hans Rosenberg published a diagram plotting the apparent magnitude of stars in the Pleiades cluster against the strengths of the Calcium K line and two Hydrogen Balmer lines. These spectral lines serve as a proxy for the temperature of the star, an early form of spectral classification. The apparent magnitude of stars in the same cluster is equivalent to their absolute magnitude and so this early diagram was effectively a plot of luminosity against temperature. The same type of diagram is still used today as a means of showing the stars in clusters without having to initially know their distance and luminosity. Hertzsprung had already been working with this type of diagram, but his first publications showing it were not until 1911. This was also the form of the diagram using apparent magnitudes of a cluster of stars all at the same distance.
+Russell's early (1913) versions of the diagram included Maury's giant stars identified by Hertzsprung, those nearby stars with parallaxes measured at the time, stars from the Hyades (a nearby open cluster), and several moving groups, for which the moving cluster method could be used to derive distances and thereby obtain absolute magnitudes for those stars.
+
+
+== Forms of diagram ==
+There are several forms of the Hertzsprung–Russell diagram, and the nomenclature is not very well defined. All forms share the same general layout: stars of greater luminosity are toward the top of the diagram, and stars with higher surface temperature are toward the left side of the diagram.
+The original diagram displayed the spectral type of stars on the horizontal axis and the absolute visual magnitude on the vertical axis. The spectral type is not a numerical quantity, but the sequence of spectral types is a monotonic series that reflects the stellar surface temperature. Modern observational versions of the chart replace spectral type by a color index (in diagrams made in the middle of the 20th Century, most often the B-V color) of the stars. This type of diagram is what is often called an observational Hertzsprung–Russell diagram, or specifically a color-magnitude diagram (CMD), and it is often used by observers. In cases where the stars are known to be at identical distances such as within a star cluster, a color-magnitude diagram is often used to describe the stars of the cluster with a plot in which the vertical axis is the apparent magnitude of the stars. For cluster members, by assumption there is a single additive constant difference between their apparent and absolute magnitudes, called the distance modulus, for all of that cluster of stars. Early studies of nearby open clusters (like the Hyades and Pleiades) by Hertzsprung and Rosenberg produced the first CMDs, antedating by a few years Russell's influential synthesis of the diagram collecting data for all stars for which absolute magnitudes could be determined.
+Another form of the diagram plots the effective surface temperature of the star on one axis and the luminosity of the star on the other, almost invariably in a log-log plot. Theoretical calculations of stellar structure and the evolution of stars produce plots that match those from observations. This type of diagram could be called temperature-luminosity diagram, but this term is hardly ever used; when the distinction is made, this form is called the theoretical Hertzsprung–Russell diagram instead. A peculiar characteristic of this form of the H–R diagram is that the temperatures are plotted from high temperature to low temperature, which aids in comparing this form of the H–R diagram with the observational form.
+Although the two types of diagrams are similar, astronomers make a sharp distinction between the two. The reason for this distinction is that the exact transformation from one to the other is not trivial. To go between effective temperature and color requires a color-temperature relation, and constructing that is difficult; it is known to be a function of stellar composition and can be affected by other factors like stellar rotation. When converting luminosity or absolute bolometric magnitude to apparent or absolute visual magnitude, one requires a bolometric correction, which may or may not come from the same source as the color-temperature relation. One also needs to know the distance to the observed objects (i.e., the distance modulus) and the effects of interstellar obscuration, both in the color (reddening) and in the apparent magnitude (extinction). For some stars, circumstellar dust also affects colors and apparent brightness. The ideal of direct comparison of theoretical predictions of stellar evolution to observations thus has additional uncertainties incurred in the conversions between theoretical quantities and observations.
+
+
+== Interpretation ==
+Most of the stars occupy the region in the diagram along the line called the main sequence. During that stage stars are fusing hydrogen in their cores. The next concentration of stars is on the horizontal branch (helium fusion in the core and hydrogen burning in a shell surrounding the core). Another prominent feature is the Hertzsprung gap located in the region between A5 and G0 spectral type and between +1 and −3 absolute magnitudes (i.e. between the top of the main sequence and the giants in the horizontal branch). RR Lyrae variable stars can be found in the left of this gap. Cepheid variables reside in the upper section of the instability strip.
+
+The H-R diagram can also be used by scientists to roughly measure how far away a star cluster is from Earth. This can be done by comparing the apparent magnitudes of the stars in the cluster to the absolute magnitudes of stars with known distances (or of model stars). The observed group is then shifted in the vertical direction, until the two main sequences overlap. The difference in magnitude that was bridged in order to match the two groups is called the distance modulus and is a direct measure for the distance (ignoring extinction). This technique is known as main sequence fitting and is a type of spectroscopic parallax.
+
+
+== Diagram's role in the development of stellar physics ==
+Contemplation of the diagram led astronomers to speculate that it might demonstrate stellar evolution, the main suggestion being that stars collapsed from red giants to dwarf stars, then moving down along the line of the main sequence in the course of their lifetimes. Stars were thought therefore to radiate energy by converting gravitational energy into radiation through the Kelvin–Helmholtz mechanism. This mechanism resulted in an age for the Sun of only tens of millions of years, creating a conflict over the age of the Solar System between astronomers, and biologists and geologists who had evidence that the Earth was far older than that. This conflict was only resolved in the 1930s when nuclear fusion was identified as the source of stellar energy.
+However, following Russell's presentation of the diagram to a meeting of the Royal Astronomical Society in 1912, Arthur Eddington was inspired to use it as a basis for developing ideas on stellar physics. In 1926, in his book The Internal Constitution of the Stars he explained the physics of how stars fit on the diagram. This was a particularly remarkable development since at that time the major problem of stellar theory, the source of a star's energy, was still unsolved. Thermonuclear energy, and even that stars are largely composed of hydrogen (see metallicity), had yet to be discovered. Eddington managed to sidestep this problem by concentrating on the thermodynamics of radiative transport of energy in stellar interiors. So, Eddington predicted that dwarf stars remain in an essentially static position on the main sequence for most of their lives. In the 1930s and 1940s, with an understanding of hydrogen fusion, came a physically based theory of evolution to red giants, and white dwarfs. By this time, study of the Hertzsprung–Russell diagram did not drive such developments but merely allowed stellar evolution to be presented graphically.
+
+
+== See also ==
+
+Asymptotic giant branch
+Galaxy color–magnitude diagram
+Hayashi track
+Henyey track
+Hess diagram
+Red clump
+Stellar birthline
+Stellar classification
+Tip of the red-giant branch
+Color–color diagram
+
+
+== References ==
+
+
+=== Bibliography ===
+Casagrande, L.; Portinari, L.; Flynn, C. (November 2006). "Accurate fundamental parameters for lower main-sequence stars". MNRAS 373 (1): 13–44. arXiv:astro-ph/0608504. Bibcode:2006astro.ph..8504C. doi:10.1111/j.1365-2966.2006.10999.x. 
+Porter, Roy (2003). The Cambridge History of Science. Cambridge, UK: Cambridge University Press. p. 518. ISBN 978-0-521-57243-9. 
+Sekiguchi, Maki; Fukugita, Masataka (August 2000). "A Study of the B-V Color-Temperature Relation". The Astronomical Journal 120 (2): 1072–1084. arXiv:astro-ph/9904299. Bibcode:2000AJ....120.1072S. doi:10.1086/301490. Retrieved 2008-09-14. 
+Smith, Robert (1995). Observational Astrophysics. Cambridge, UK: Cambridge University Press. p. 236. ISBN 978-0-521-27834-8. 
+
+
+== External links ==
+Omega Cen H-R animation of a Hertzsprung–Russell diagram created from real Hubble data
+JavaHRD an interactive Hertzsprung–Russell diagram as a Java applet
+BaSTI a Bag of Stellar Tracks and Isochrones, simulations with FRANEC code by Teramo Astronomical Observatory
+Leos Ondra: The first Hertzsprung-Russell diagram
+Who first published a Hertzsprung-Russell diagram? Hertzsprung or Russell? Answer: neither!

@@ -1,0 +1,15 @@
+Variable-Rate Multimode Wideband (VMR-WB) is a source-controlled variable-rate multimode codec designed for robust encoding/decoding of wideband/narrowband speech. The operation of VMR-WB is controlled by speech signal characteristics (i.e., source-controlled) and by traffic condition of the network (i.e., network-controlled mode switching). Depending on the traffic conditions and the desired quality of service (QoS), one of the 4 operational modes is used. All operating modes of the existing VMR-WB standard are fully compliant with cdma2000 rate-set II. VMR-WB modes 0, 1, and 2 are cdma2000 native modes with mode 0 providing the highest quality and mode 2 the lowest ADR. VMR-WB mode 3 is the AMR-WB interoperable mode operating at an ADR slightly higher than mode 0 and providing a quality equal or better than that of AMR-WB at 12.65 kbit/s when in an interoperable interconnection with AMR-WB at 12.65 kbit/s.
+Now also a cdma2000 rate-set I compliant mode is implemented to the coder as mode 4. The average bitrate of the mode is 6.1 kbit/s (maximum is 8.55 kbit/s). Source coding bitrates are: Rate-Set I - 8.55, 4.0, 2.0, 0.8 kbit/s, Rate-Set II - 13.3, 6.2, 2.7, 1.0 kbit/s. VMR-WB uses 16 kHz sampling frequency. Algorithmic delay is 33.75ms.
+VMR-WB can be also used in 3GPP2 container file format - 3G2.
+VMR-WB was designed by Nokia and VoiceAge. It is based on AMR-WB.
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+3GPP2 specification
+RFC 4424 - Real-Time Transport Protocol (RTP) Payload Format for the Variable-Rate Multimode Wideband (VMR-WB) Extension Audio Codec
+RFC 4348 - Real-Time Transport Protocol (RTP) Payload Format for the Variable-Rate Multimode Wideband (VMR-WB) Audio Codec
+VoiceAge website: VMR-WB — Source-controlled Variable Bit Rate Wideband Compression (archived)
+VoiceAge website

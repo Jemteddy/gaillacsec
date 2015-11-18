@@ -1,0 +1,38 @@
+The lytic cycle is one of the two cycles of viral reproduction, the other being the lysogenic cycle. The lytic cycle results in the destruction of the infected cell and its membrane. A key difference between the lytic and lysogenic phage cycles is that in the lytic phage, the viral DNA exists as a separate molecule within the bacterial cell, and replicates separately from the host bacterial DNA. The location of viral DNA in the lysogenic phage cycle is within the host DNA, therefore in both cases the virus/phage replicates using the host DNA machinery, but in the lytic phage cycle, the phage is a free floating separate molecule to the host DNA. 
+
+
+== DescriptionEdit ==
+Viruses that only use lytic cycle are called virulent viruses (in contrast to temperate viruses). The lytic cycle is a six-stage cycle. In the first stage, called "penetration," the virus injects its own nucleic acid into a host cell. In some viruses this genetic material is circular and mimics a bacterial plasmid. The virus hijacks the cell's replication and translation mechanisms, using them to make more viruses. Once enough virions have accumulated, specialized viral proteins are allowed to dissolve the bacterial cell wall. The cell bursts due to high internal osmotic pressure (water pressure) that can no longer be constrained by the cell wall. This releases progeny virions into the surrounding environment, where they can go on to infect other cells.
+
+
+=== PenetrationEdit ===
+To infect a cell, a virus must first enter the cell through the plasma membrane and (if present) the cell wall. Viruses do so by either attaching to a receptor on the cell's surface or by simple mechanical force. The virus then releases its genetic material (either single- or double-stranded RNA or DNA) into the cell. In doing this, the cell becomes infected and can also be targeted by the immune system.
+
+
+=== BiosynthesisEdit ===
+The virus' nucleic acid uses the host cell’s metabolic machinery to make large amounts of viral components. In the case of DNA viruses, the DNA transcribes itself into messenger RNA (mRNA) molecules that are then used to direct the cell's ribosomes. One of the first polypeptides to be translated destroys the host's DNA. In retroviruses (which inject an RNA strand), a unique enzyme called reverse transcriptase transcribes the viral RNA into DNA, which is then transcribed again into RNA. Once the viral DNA has taken control it induces the host cell's machinery to synthesize viral DNA, protein and starts multiplying. About 25 minutes after initial infection, approximately 200 new bacteriophages are formed and the bacterial cell bursts i.e. it has undergone lysis. Newly formed phages are released to infect other bacteria and another lytic cycle begins. The phage which causes lysis of the host is called a lytic or virulent phage. The biosynthesis is (e.g. T4) regulated in three phases of mRNA production followed by a phase of protein production.
+Early phase
+Enzymes modify the host's DNA replication by RNA polymerase. Amongst other modifications, virus T4 changes the sigma factor of the host by producing an anti-sigma factor so that the host promotors are not recognized any more but now recognize T4 middle proteins. For protein synthesis Shine-Dalgarno subsequence GAGG dominates an early genes translation.
+Middle phase
+Virus nucleic acid (DNA or RNA depending on virus type).
+Late phase
+Structural proteins including those for the head and the tail.
+
+
+=== Gene regulation biochemistryEdit ===
+There are three classes of genes in the phage genome that regulate whether the lytic or lysogenic cycles will emerge. The first are the immediate early genes, the second is the delayed early genes and the third is the late genes.
+Immediate early genes: These genes code for two transcription factors: N and cro. N is an anti-termination factor that is needed for the transcription of the delayed early genes. cro has two functions. The first function is to repress the activity of the repressor that is needed to go into lysogeny. Note that a repressor coded by the CI gene is needed to repress the lytic cycle from taking place. The second function of cro is to initiate the transcription of the late genes needed for the lytic cycle to go to completion.
+Delayed early genes: The immediate early gene N is required to express the delayed early genes. In lytic cells, the delayed early gene which is most important is Q. These genes are also used to express late genes.
+The repressor: The repressor is needed to repress the lytic cycle for lysogeny to proceed. It has 2 N domains that bind the DNA via a helix turn helix motif and 2 C domains that dimerize to stabilize the protein.
+Lysis inhibition: T4-like phages contain a gene called rI which can delay completed phage progeny from exiting an impregnated cell by suppressing the expression of holin gene products usually up to four hours in exponential phase growing cultures in rich media. Deletion of rI cancels the inhibition effect. This is only observed when higher concentrations of extracellular T4 phage particles are present.
+
+
+=== Maturation and lysisEdit ===
+After many copies of viral components are made, they are assembled into complete viruses. The phage then directs production of lysin, an enzyme that breaks down the bacterial cell wall, which allows extracellular fluid to enter the cell. The cell eventually becomes filled with viruses (typically 100-200) and liquid, and bursts, or lyses; thus giving the lytic cycle its name. The new viruses are then free to infect other cells.
+
+
+==== Lytic cycle without lysisEdit ====
+Some viruses escape the host cell without bursting the cell membrane, but rather bud/extrude off from it by taking a portion of the membrane with them. Because it otherwise is characteristic of the lytic cycle in other steps, it still belongs to this category, although it is sometimes named the Productive Cycle. HIV, influenza and other viruses that infect eukaryotic organisms generally use this method. These group includes all viruses that have a lipid membrane.
+
+
+== ReferencesEdit ==

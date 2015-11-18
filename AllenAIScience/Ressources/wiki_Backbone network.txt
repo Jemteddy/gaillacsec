@@ -1,0 +1,41 @@
+A backbone network or network backbone is a part of computer network infrastructure that interconnects various pieces of network, providing a path for the exchange of information between different LANs or subnetworks. A backbone can tie together diverse networks in the same building, in different buildings in a campus environment, or over wide areas. Normally, the backbone's capacity is greater than the networks connected to it.
+
+A large corporation that has many locations may have a backbone network that ties all of the locations together, for example, if a server cluster needs to be accessed by different departments of a company that are located at different geographical locations. The pieces of the network connections (for example: ethernet, wireless) that bring these departments together is often mentioned as network backbone. Network congestion is often taken into consideration while designing backbones.
+One example of a backbone network is the Internet backbone.
+
+
+== Distributed backbone ==
+A distributed backbone is a backbone network that consists of a number of connectivity devices connected to a series of central connectivity devices, such as hubs, switches, or routers, in a hierarchy. This kind of topology allows for simple expansion and limited capital outlay for growth, because more layers of devices can be added to existing layers. In a distributed backbone network, all of the devices that access the backbone share the transmission media, as every device connected to this network is sent all transmissions placed on that network.
+Distributed backbones, in all practicality, are in use by all large-scale networks. Applications in enterprise-wide scenarios confined to a single building are also practical, as certain connectivity devices can be assigned to certain floors or departments. Each floor or department possesses a LAN and a wiring closet with that workgroup's main hub or router connected to a bus-style network using backbone cabling . Another advantage of using a distributed backbone is the ability for network administrator to segregate workgroups for ease of management.
+There is the possibility of single points of failure, referring to connectivity devices high in the series hierarchy. The distributed backbone must be designed to separate network traffic circulating on each individual LAN from the backbone network traffic by using access devices such as routers and bridges.
+
+
+== Collapsed backbone ==
+A collapsed backbone (inverted backbone, backbone-in-a-box) is a type of backbone network architecture. The traditional backbone network goes over the globe to provide interconnectivity to the remote hubs. In most cases, the backbones are the links while the switching or routing functions are done by the equipment at each hub. It is a distributed architecture.
+In the case of a collapsed or inverted backbone, each hub provides a link back to a central location to be connected to a backbone-in-a-box. That box can be a switch or a router. The topology and architecture of a collapsed backbone is a star or a rooted tree.
+The main advantages of the collapsed backbone approach are
+ease of management since the backbone is in a single location and in a single box, and
+since the backbone is essentially the back plane or internal switching matrix of the box, proprietary, high performance technology can be used.
+However, the draw back of the collapsed backbone is that if the box housing the backbone is down or there are reachability problem to the central location, the entire network will crash. These problems can be minimized by having redundant backbone boxes as well as having secondary/backup backbone locations.
+
+
+== Parallel backbone ==
+There are a few different types of backbones that are used for an enterprise-wide network. When organizations are looking for a very strong and trustworthy backbone they should choose a parallel backbone. This backbone is a variation of a collapsed backbone in that it uses a central node (connection point). Although, with a parallel backbone, it allows for duplicate connections when there is more than one router or switch. Each switch and router are connected by two cables. By having more than one cable connecting each device, it ensures network connectivity to any area of the enterprise-wide network.
+Parallel backbones are more expensive than other backbone networks because they require more cabling than the other network topologies. Although this can be a major factor when deciding which enterprise-wide topology to use, the expense of it makes up for the efficiency it creates by adding increased performance and fault tolerance. Most organizations use parallel backbones when there are critical devices on the network. For example, if there is important data, such as payroll, that should be accessed at all times by multiple departments, then your organization should choose to implement a Parallel Backbone to make sure that the connectivity is never lost.
+
+
+== Serial backbone ==
+A serial backbone is the simplest kind of backbone network. Serial backbones consist of two or more internet working devices connected to each other by a single cable in a daisy-chain fashion. A daisy chain is a group of connectivity devices linked together in a serial fashion. Hubs are often connected in this way to extend a network. However, hubs are not the only device that can be connected in a serial backbone. Gateways, routers, switches and bridges more commonly form part of the backbone. The serial backbone topology could be used for enterprise-wide networks, though it is rarely implemented for that purpose.
+
+
+== See also ==
+Backhaul
+Core network
+Internet backbone
+
+
+== References ==
+
+
+== External links ==
+IPv6 Backbone Network Topology

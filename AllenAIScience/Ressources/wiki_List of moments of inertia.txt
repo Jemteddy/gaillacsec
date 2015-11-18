@@ -1,0 +1,36 @@
+In physics and applied mathematics, the mass moment of inertia, usually denoted by I, measures the extent to which an object resists rotational acceleration about a particular axis, and is the rotational analogue to mass. Mass moments of inertia have units of dimension ML2([mass] × [length]2). It should not be confused with the second moment of area, which is used in bending calculations. The mass moment of inertia is often also known as the rotational inertia, and sometimes as the angular mass.
+For simple objects with geometric symmetry, one can often determine the moment of inertia in an exact closed-form expression. Typically this occurs when the mass density is constant, but in some cases the density can vary throughout the object as well. In general, it may not be straightforward to symbolically express the moment of inertia of shapes with more complicated mass distributions and lacking symmetry. When calculating moments of inertia, it is useful to remember that it is an additive function and exploit the parallel axis and perpendicular axis theorems.
+This article mainly considers symmetric mass distributions, with constant density throughout the object, and the axis of rotation is taken to be through the center of mass unless otherwise specified.
+
+
+== Moments of inertiaEdit ==
+Following are scalar moments of inertia. In general, the moment of inertia is a tensor, see below.
+
+
+== List of 3D inertia tensorsEdit ==
+This list of moment of inertia tensors is given for principal axes of each object.
+To obtain the scalar moments of inertia I above, the tensor moment of inertia I is projected along some axis defined by a unit vector n according to the formula:
+
+where the dots indicate tensor contraction and we have used the Einstein summation convention. In the above table, n would be the unit Cartesian basis ex, ey, ez to obtain Ix, Iy, Iz respectively.
+
+
+== See alsoEdit ==
+Parallel axis theorem
+Perpendicular axis theorem
+List of area moments of inertia
+The inertia tensor of a triangle in three-dimensional space
+
+
+== ReferencesEdit ==
+^ a b c d e f g h i Raymond A. Serway (1986). Physics for Scientists and Engineers, second ed. Saunders College Publishing. p. 202. ISBN 0-03-004534-7. 
+^ Classical Mechanics - Moment of inertia of a uniform hollow cylinder. LivePhysics.com. Retrieved on 2008-01-31.
+^ a b c Satterly, John (1958). "The Moments of Inertia of Some Polyhedra". The Mathematical Gazette (Mathematical Association) 42 (339): 11–13. doi:10.2307/3608345. Retrieved 25 October 2015. 
+^ a b Ferdinand P. Beer and E. Russell Johnston, Jr (1984). Vector Mechanics for Engineers, fourth ed. McGraw-Hill. p. 911. ISBN 0-07-004389-2. 
+^ a b Eric W. Weisstein. "Moment of Inertia — Ring". Wolfram Research. Retrieved 2010-03-25. 
+^ Karel Rektorys (1994). Survey of Applicable Mathematics, second ed., Vol. II. Kluwer Academic Publisher. p. 942. ISBN 0-7923-0681-3. 
+^ http://www.pas.rochester.edu/~ygao/phy141/Lecture15/sld010.htm
+
+
+== External linksEdit ==
+The inertia tensor of a tetrahedron
+Tutorial on deriving moment of inertia for common shapes

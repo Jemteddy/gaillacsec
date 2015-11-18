@@ -1,0 +1,72 @@
+Thrust-to-weight ratio is a dimensionless ratio of thrust to weight of a rocket, jet engine, propeller engine, or a vehicle propelled by such an engine that indicates the performance of the engine or vehicle.
+The instantaneous thrust-to-weight ratio of a vehicle varies continually during operation due to progressive consumption of fuel or propellant and in some cases a gravity gradient. The thrust-to-weight ratio based on initial thrust and weight is often published and used as a figure of merit for quantitative comparison of the initial performance of vehicles.
+
+
+== CalculationEdit ==
+The thrust-to-weight ratio can be calculated by dividing the thrust (in SI units – in newtons) by the weight (in newtons) of the engine or vehicle. It is a dimensionless quantity. Note that the thrust can also be measured in pound-force (lbf) provided the weight is measured in pounds (lb); the division of these two values still gives the numerically correct thrust-to-weight ratio. For valid comparison of the initial thrust-to-weight ratio of two or more engines or vehicles, thrust must be measured under controlled conditions.
+
+
+== AircraftEdit ==
+The thrust-to-weight ratio and wing loading are the two most important parameters in determining the performance of an aircraft. For example, the thrust-to-weight ratio of a combat aircraft is a good indicator of the maneuverability of the aircraft.
+The thrust-to-weight ratio varies continually during a flight. Thrust varies with throttle setting, airspeed, altitude and air temperature. Weight varies with fuel burn and changes of payload. For aircraft, the quoted thrust-to-weight ratio is often the maximum static thrust at sea-level divided by the maximum takeoff weight.
+In cruising flight, the thrust-to-weight ratio of an aircraft is the inverse of the lift-to-drag ratio because thrust is equal to drag, and weight is equal to lift.
+
+
+=== Propeller-driven aircraftEdit ===
+For propeller-driven aircraft, the thrust-to-weight ratio can be calculated as follows:
+
+where  is propulsive efficiency at true airspeed 
+ is engine power
+
+
+== RocketsEdit ==
+
+The thrust-to-weight ratio of a rocket, or rocket-propelled vehicle, is an indicator of its acceleration expressed in multiples of gravitational acceleration g.
+Rockets and rocket-propelled vehicles operate in a wide range of gravitational environments, including the weightless environment. The thrust-to-weight ratio is usually calculated from initial gross weight at sea-level on earth and is sometimes called Thrust-to-Earth-weight ratio. The thrust-to-Earth-weight ratio of a rocket or rocket-propelled vehicle is an indicator of its acceleration expressed in multiples of earth’s gravitational acceleration, g0.
+The thrust-to-weight ratio for a rocket varies as the propellant is burned. If the thrust is constant, then the maximum ratio (maximum acceleration of the vehicle) is achieved just before the propellant is fully consumed. Each rocket has a characteristic thrust-to-weight curve or acceleration curve, not just a scalar quantity.
+The thrust-to-weight ratio of an engine exceeds that of the whole launch vehicle but is nonetheless useful because it determines the maximum acceleration that any vehicle using that engine could theoretically achieve with minimum propellant and structure attached.
+For a takeoff from the surface of the earth using thrust and no aerodynamic lift, the thrust-to-weight ratio for the whole vehicle must be more than one. In general, the thrust-to-weight ratio is numerically equal to the g-force that the vehicle can generate. Take-off can occur when the vehicle's g-force exceeds local gravity (expressed as a multiple of g0).
+The thrust to weight ratio of rockets typically greatly exceeds that of airbreathing jet engines because the comparatively far greater density of rocket fuel eliminates the need for much engineering materials to pressurize it.
+Many factors affect a thrust-to-weight ratio. The instantaneous value typically varies over the flight with the variations of thrust due to speed and altitude along with the weight due to the remaining propellant and payload mass. The main factors include freestream air temperature, pressure, density, and composition. Depending on the engine or vehicle under consideration, the actual performance will often be affected by buoyancy and local gravitational field strength.
+
+
+== ExamplesEdit ==
+The Russian-made RD-180 rocket engine (which powers Lockheed Martin’s Atlas V) produces 3,820 kN of sea-level thrust and has a dry mass of 5,307 kg. Using the Earth surface gravitational field strength of 9.807 m/s², the sea-level thrust-to-weight ratio is computed as follows: (1 kN = 1000 N = 1000 kg⋅m/s²)
+
+
+=== AircraftEdit ===
+
+
+=== Jet and rocket enginesEdit ===
+Rocket thrusts are vacuum thrusts unless otherwise noted
+
+
+=== Fighter aircraftEdit ===
+Fuel density used in calculations: 0.803 kg/l
+The number inside brackets is the number of engines.
+For the metric table, the T/W ratio is calculated by dividing the thrust by the product of the full fuel aircraft weight and the acceleration of gravity.
+Engines powering F-15K are the Pratt & Whitney engines.
+MiG-29K's empty weight is an estimate.
+JF-17's engine rating is of RD-93.
+JF-17 if mated with its engine WS-13, and if that engine gets its promised 18,969 lb then the T/W ratio becomes 1.10
+J-10's empty weight and fuelled weight are estimates.
+J-10's engine rating is of AL-31FN.
+J-10 if mated with its engine WS-10A, and if that engine gets its promised 132 kN (29,674 lbf) then the T/W ratio becomes 1.08
+
+
+== See alsoEdit ==
+Power-to-weight ratio
+Factor of safety
+
+
+== ReferencesEdit ==
+John P. Fielding. Introduction to Aircraft Design, Cambridge University Press, ISBN 978-0-521-65722-8
+Daniel P. Raymer (1989). Aircraft Design: A Conceptual Approach, American Institute of Aeronautics and Astronautics, Inc., Washington, DC. ISBN 0-930403-51-7
+George P. Sutton & Oscar Biblarz. Rocket Propulsion Elements, Wiley, ISBN 978-0-471-32642-7
+
+
+=== NotesEdit ===
+
+
+== External linksEdit ==
+NASA webpage with overview and explanatory diagram of aircraft thrust to weight ratio

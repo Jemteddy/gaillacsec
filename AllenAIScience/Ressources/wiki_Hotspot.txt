@@ -1,0 +1,58 @@
+HotSpot, released as the "Java HotSpot Performance Engine" is a Java virtual machine for desktops and servers, maintained and distributed by Oracle Corporation. It features techniques such as just-in-time compilation and adaptive optimization designed to improve performance.
+
+
+== HistoryEdit ==
+The Java HotSpot Performance Engine, first released April 27, 1999, built on technologies from the Strongtalk implementation of the Smalltalk programming language originally developed by Longview Technologies, which traded as "Animorphic". Animorphic's virtual-machine technology had earlier been successfully used in a Sun research project, the Self programming language. In 1997 Sun Microsystems purchased Animorphic.
+Shortly after acquiring Animorphic, Sun intended to write a new just-in-time (JIT) compiler for the newly developed virtual machine. This new compiler would give rise to the name "HotSpot", which derives from the fact that, as the software runs Java bytecode, it continually analyzes the program's performance for "hot spots" which are frequently or repeatedly executed. These are then targeted for optimization, leading to high-performance execution with a minimum of overhead for less performance-critical code. In one report, the JVM beat some C++ or C code in some benchmarks.
+Initially available as an add-on for Java 1.2, HotSpot became the default Sun JVM in Java 1.3.
+
+
+== FeaturesEdit ==
+Sun's JRE features two virtual machines, one called Client and the other Server. The Client version is tuned for quick loading. It makes use of interpretation. The Server version loads more slowly, putting more effort into producing highly optimized JIT compilations, that yield higher performance. Both VMs compile only often-run methods, using a configurable invocation-count threshold to decide which methods to compile.
+The HotSpot Java virtual machine is written in C++. As stated on the HotSpot web page, the source contains approximately 250,000 lines of code. Hotspot provides:
+A class loader
+A bytecode interpreter
+Client and Server virtual machines, optimized for their respective uses
+Several garbage collectors
+A set of supporting runtime libraries
+
+
+=== JVM flagsEdit ===
+HotSpot supports many command-line arguments for options of the virtual machine execution. Some are standard and must be found in any conforming Java virtual machine, others are specific to HotSpot and may not be found in other JVMs (options that begin with -X or -XX are non-standard).
+
+
+== LicenseEdit ==
+On 13 November 2006, the HotSpot JVM and the JDK were licensed under the GPL version 2. This is the code that became part of Java 7 (codename Dolphin).
+
+
+== Supported platformsEdit ==
+
+
+=== Maintained by OracleEdit ===
+As for the whole JDK, HotSpot is supported by Oracle Corporation on Microsoft Windows, Linux, Solaris, and Mac OS X. Supported ISAs are IA-32, x86-64, ARMv6, ARMv7, and SPARC (exclusive to Solaris).
+
+
+=== Ports by third partiesEdit ===
+Ports are also available by third parties for various other Unix operating systems. Several different hardware architectures are supported, including x86, PowerPC, and SPARC (Solaris only).
+Porting HotSpot is difficult because the code, while primarily written in C++, contains a lot of assembly language. To remedy this, the IcedTea project has developed a generic port of the HotSpot interpreter called zero-assembler Hotspot (or zero), with almost no assembly code. This port is intended for easy adaptation of the interpreter component of HotSpot to any Linux processor architecture. The code of zero-assembler Hotspot is used for all the non-x86 ports of HotSpot (PPC, IA-64, S390 and ARM) since version 1.6.
+
+
+== See alsoEdit ==
+
+List of Java virtual machines
+Comparison of Java virtual machines
+Java performance
+OpenJDK
+Da Vinci Machine, a starting Sun project aiming to prototype the extension of the JVM to add support for dynamic languages
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Sun's OpenJDK Hotspot page
+A list of HotSpot VMOptions
+The Java Virtual Machine Specification
+The history of the original Strongtalk/HotSpot team
+Sun announces availability of the Java Hotspot Performance Engine at the Wayback Machine (archived December 18, 2006)
+HotSpot Mercurial source code development repository (version control system) for JDK8

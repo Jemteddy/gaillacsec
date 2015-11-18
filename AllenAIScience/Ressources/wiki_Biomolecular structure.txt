@@ -1,0 +1,61 @@
+Biomolecular structure is the intricate folded, three-dimensional shape that is formed by a protein, DNA, or RNA molecule, and that is important to its function. The structure of these molecules is frequently decomposed into primary structure, secondary structure, tertiary structure, and quaternary structure. The scaffold for this structure is provided by secondary structural elements that are hydrogen bonds within the molecule. This leads to several recognizable "domains" of protein structure and nucleic acid structure, including secondary structure like hairpin loops, bulges and internal loops for nucleic acids, and alpha helices and beta sheets for proteins.
+The terms primary, secondary, tertiary, and quaternary structure were first coined by Kaj Ulrik Linderstrøm-Lang in his 1951 Lane Medical Lectures at Stanford University.
+
+
+== Primary structure ==
+
+In biochemistry, the primary structure of a biological molecule is the exact specification of its atomic composition and the chemical bonds connecting those atoms (including stereochemistry). For a typical unbranched, un-crosslinked biopolymer (such as a molecule of DNA, RNA, or typical intracellular protein), the primary structure is equivalent to specifying the sequence of its monomeric subunits, e.g., the nucleotide or peptide sequence.
+Primary structure is sometimes mistakenly termed primary sequence, but there is no such term, as well as no parallel concept of secondary or tertiary sequence. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal (C) end, while the primary structure of DNA or RNA molecule is reported from the 5' end to the 3' end.
+The primary structure of a nucleic acid molecule refers to the exact sequence of nucleotides that comprise the whole molecule. Frequently, the primary structure encodes motifs that are of functional importance. Some examples of sequence motifs are: the C/D and H/ACA boxes of snoRNAs, Sm binding site found in spliceosomal RNAs such as U1, U2, U4, U5, U6, U12 and U3, the Shine-Dalgarno sequence, the Kozak consensus sequence and the RNA polymerase III terminator.
+
+
+== Secondary structure ==
+
+In biochemistry and structural biology, secondary structure is the general three-dimensional form of local segments of biopolymers such as proteins and nucleic acids (DNA/RNA). It does not, however, describe specific atomic positions in three-dimensional space, which are considered to be tertiary structure. Secondary structure is formally defined by the hydrogen bonds of the biopolymer, as observed in an atomic-resolution structure. In proteins, the secondary structure is defined by patterns of hydrogen bonds between backbone amide and carboxyl groups (sidechain-mainchain and sidechain-sidechain hydrogen bonds are irrelevant), where the DSSP definition of a hydrogen bond is used. In nucleic acids, the secondary structure is defined by the hydrogen bonding between the nitrogenous bases.
+For proteins, however, the hydrogen bonding is correlated with other structural features, which has given rise to less formal definitions of secondary structure. For example, in general residues in protein helices adopt backbone dihedral angles in a particular region of the Ramachandran plot; thus, a segment of residues with such dihedral angles is often called a "helix", regardless of whether it has the correct hydrogen bonds. Many other less formal definitions have been proposed, often applying concepts from the differential geometry of curves, such as curvature and torsion. Structural biologists solving a new atomic-resolution structure will sometimes assign its secondary structure "by eye" and record their assignments in the corresponding PDB file.
+The secondary structure of a nucleic acid molecule refers to the basepairing interactions within a single molecule or set of interacting molecules. The secondary structure of biological RNA's can often be uniquely decomposed into stems and loops. Frequently, these elements, or combinations of them, can be further classified, for example, tetraloops, pseudoknots and stem-loops. There are many secondary structure elements of functional importance to biological RNA's; some famous examples are the Rho-independent terminator stem-loops and the tRNA cloverleaf. There is a minor industry of researchers attempting to determine the secondary structure of RNA molecules. Approaches include both experimental and computational methods (see also the List of RNA structure prediction software).
+
+
+== Tertiary structure ==
+
+In biochemistry and molecular biology, the tertiary structure of a protein or any other macromolecule is its three-dimensional structure, as defined by the atomic coordinates. Proteins and nucleic acids are capable of diverse functions ranging from molecular recognition to catalysis. Such functions require a precise three-dimensional tertiary structure. While such structures are diverse and seemingly complex, they are composed of recurring, easily recognizable tertiary structure motifs that serve as molecular building blocks. Tertiary structure is considered to be largely determined by the biomolecule's primary structure, or the sequence of amino acids or nucleotides of which it is composed. Efforts to predict tertiary structure from the primary structure are in general known as structure prediction.
+
+
+== Quaternary structure ==
+
+In biochemistry, quaternary structure is the arrangement of multiple folded protein or coiling protein molecules in a multi-subunit complex. For nucleic acids, the term is less common, but can refer to the higher-level organization of DNA in chromatin, including its interactions with histones, or to the interactions between separate RNA units in the ribosome or spliceosome.
+
+
+== Structure determination ==
+
+Structure probing is the process by which biochemical techniques are used to determine biomolecular structure. This analysis can be used to define the patterns that can be used to infer the molecular structure, experimental analysis of molecular structure and function, and further understanding on development of smaller molecules for further biological research. Structure probing analysis can be done through many different methods, which include chemical probing, hydroxyl radical probing, nucleotide analog interference mapping (NAIM), and in-line probing.
+DNA structures can be determined using either nuclear magnetic resonance spectroscopy or X-ray crystallography. The first published reports of A-DNA X-ray diffraction patterns-- and also B-DNA—employed analyses based on Patterson transforms that provided only a limited amount of structural information for oriented fibers of DNA isolated from calf thymus. An alternate analysis was then proposed by Wilkins et al. in 1953 for B-DNA X-ray diffraction/scattering patterns of hydrated, bacterial-oriented DNA fibers and trout sperm heads in terms of squares of Bessel functions. Although the `B-DNA form' is most common under the conditions found in cells, it is not a well-defined conformation but a family or fuzzy set of DNA-conformations that occur at the high hydration levels present in a wide variety of living cells. Their corresponding X-ray diffraction & scattering patterns are characteristic of molecular paracrystals with a significant degree of disorder (>20%), and the structure is not tractable using only the standard analysis.
+On the other hand, the standard analysis, involving only Fourier transforms of Bessel functions and DNA molecular models, is still routinely employed for the analysis of A-DNA and Z-DNA X-ray diffraction patterns.
+
+
+== Structure prediction ==
+
+Biomolecular structure prediction is the prediction of the three-dimensional structure of a protein from its amino acid sequence, or of a nucleic acid from its base sequence. In other words, it is the prediction of secondary and tertiary structure from its primary structure. Structure prediction is the inverse of biomolecular design.
+Protein structure prediction is one of the most important goals pursued by bioinformatics and theoretical chemistry. Protein structure prediction is of high importance in medicine (for example, in drug design) and biotechnology (for example, in the design of novel enzymes). Every two years, the performance of current methods is assessed in the CASP experiment.
+There has also been a significant amount of bioinformatics research directed at the RNA structure prediction problem. A common problem for researchers working with RNA is to determine the three-dimensional structure of the molecule given just the nucleic acid sequence. However, in the case of RNA, much of the final structure is determined by the secondary structure or intra-molecular base-pairing interactions of the molecule. This is shown by the high conservation of base-pairings across diverse species.
+Secondary structure of small nucleic acid molecules is determined largely by strong, local interactions such as hydrogen bonds and base stacking. Summing the free energy for such interactions, usually using a nearest-neighbor model, provides an approximation for the stability of given structure. The most straightforward way to find the lowest free energy structure would be to generate all possible structures and calculate the free energy for it, but the number of possible structures for a sequence increases exponentially with the length of the nucleic acid. For longer molecules, the number of possible secondary structures is enormous.
+Sequence covariation methods rely on the existence of a data set composed of multiple homologous RNA sequences with related but dissimilar sequences. These methods analyze the covariation of individual base sites in evolution; maintenance at two widely separated sites of a pair of base-pairing nucleotides indicates the presence of a structurally required hydrogen bond between those positions. The general problem of pseudoknot prediction has been shown to be NP-complete.
+
+
+== Design ==
+
+Biomolecular design can be considered the inverse of structure prediction. In structure prediction, the structure is determined from a known sequence, whereas, in nucleic acid design, a sequence that will form a desired structure is generated.
+
+
+== Other biomolecules ==
+Other biomolecules, such as polysaccharides, polyphenols and lipids, can also have higher-order structure of biological consequence.
+
+
+== See also ==
+
+Non-coding RNA
+List of RNA structure prediction software
+List of nucleic acid simulation software
+
+
+== References ==

@@ -1,0 +1,51 @@
+Photogrammetry is the science of making measurements from photographs, especially for recovering the exact positions of surface points. Moreover, it may be used to recover the motion pathways of designated reference points located on any moving object, on its components and in the immediately adjacent environment. Photogrammetry may employ high-speed imaging and remote sensing in order to detect, measure and record complex 2-D and 3-D motion fields (see also sonar, radar, lidar, etc.). Photogrammetry feeds the measurements from remote sensing and the results of imagery analysis into computational models in an attempt to successively estimate, with increasing accuracy, the actual, 3-D relative motions within the researched field.
+
+Its applications include satellite tracking of the relative positioning alterations in all Earth environments (e.g. tectonic motions etc.), the research on the swimming of fish, of bird or insect flight, other relative motion processes (International Society for Photogrammetry and Remote Sensing). The quantitative results of photogrammetry are then used to guide and match the results of computational models of the natural systems, thus helping to invalidate or confirm new theories, to design novel vehicles or new methods for predicting or/and controlling the consequences of earthquakes, tsunamis, any other weather types, or used to understand the flow of fluids next to solid structures and many other processes.
+Photogrammetry is as old as modern photography, can be dated to the mid-nineteenth century, and its detection component has been emerging from radiolocation, multilateration and radiometry while its 3-D positioning estimative component (based on modeling) employs methods related to triangulation, trilateration and multidimensional scaling.
+In the simplest example, the distance between two points that lie on a plane parallel to the photographic image plane can be determined by measuring their distance on the image, if the scale (s) of the image is known. This is done by multiplying the measured distance by 1/s.
+Algorithms for photogrammetry typically attempt to minimize the sum of the squares of errors over the coordinates and relative displacements of the reference points. This minimization is known as bundle adjustment and is often performed using the Levenberg–Marquardt algorithm.
+
+
+== Photogrammetric methodsEdit ==
+
+Photogrammetry uses methods from many disciplines, including optics and projective geometry. The data model on the right shows what type of information can go into and come out of photogrammetric methods.
+The 3-D co-ordinates define the locations of object points in the 3-D space. The image co-ordinates define the locations of the object points' images on the film or an electronic imaging device. The exterior orientation of a camera defines its location in space and its view direction. The inner orientation defines the geometric parameters of the imaging process. This is primarily the focal length of the lens, but can also include the description of lens distortions. Further additional observations play an important role: With scale bars, basically a known distance of two points in space, or known fix points, the connection to the basic measuring units is created.
+Each of the four main variables can be an input or an output of a photogrammetric method.
+Photogrammetry has been defined by the American Society for Photogrammetry and Remote Sensing (ASPRS) as the art, science, and technology of obtaining reliable information about physical objects and the environment through processes of recording, measuring and interpreting photographic images and patterns of recorded radiant electromagnetic energy and other phenomena.
+
+
+=== StereophotogrammetryEdit ===
+
+A special case, called stereophotogrammetry, involves estimating the three-dimensional coordinates of points on an object employing measurements made in two or more photographic images taken from different positions (see stereoscopy). Common points are identified on each image. A line of sight (or ray) can be constructed from the camera location to the point on the object. It is the intersection of these rays (triangulation) that determines the three-dimensional location of the point. More sophisticated algorithms can exploit other information about the scene that is known a priori, for example symmetries, in some cases allowing reconstructions of 3-D coordinates from only one camera position. Stereophotogrammetry is emerging as a robust non-contacting measurement technique to determine dynamic characteristics and mode shapes of non-rotating  and rotating structures.
+
+
+== IntegrationEdit ==
+Photogrammetric data with a dense range data in which scanners complement each other. Photogrammetry is more accurate in the x and y direction while range data are generally more accurate in the z direction. This range data can be supplied by techniques like LiDAR, laser scanners (using time of flight, triangulation or interferometry), white-light digitizers and any other technique that scans an area and returns x, y, z coordinates for multiple discrete points (commonly called "point clouds"). Photos can clearly define the edges of buildings when the point cloud footprint can not. It is beneficial to incorporate the advantages of both systems and integrate them to create a better product.
+A 3-D visualization can be created by georeferencing the aerial photos and LiDAR data in the same reference frame, orthorectifying the aerial photos, and then draping the orthorectified images on top of the LiDAR grid. It is also possible to create digital terrain models and thus 3-D visualisations using pairs (or multiples) of aerial photographs or satellite (e.g. SPOT satellite imagery). Techniques such as adaptive least squares stereo matching are then used to produce a dense array of correspondences which are transformed through a camera model to produce a dense array of x, y, z data which can be used to produce digital terrain model and orthoimage products. Systems which use these techniques, e.g. the ITG system, were developed in the 1980s and 1990s but have since been supplanted by LiDAR and radar-based approaches, although these techniques may still be useful in deriving elevation models from old aerial photographs or satellite images.
+
+
+== ApplicationsEdit ==
+
+Photogrammetry is used in different fields, such as topographic mapping, architecture, engineering, manufacturing, quality control, police investigation, and geology, as well as by archaeologists to quickly produce plans of large or complex sites and by meteorologists as a way to determine the actual wind speed of a tornado where objective weather data cannot be obtained.
+It is also used to combine live action with computer-generated imagery in movies post-production; The Matrix is a good example of the use of photogrammetry in film (details are given in the DVD extras). Photogrammetry was used extensively to create photorealistic environmental assets for the PC game The Vanishing of Ethan Carter (see External Links).
+A somewhat similar application is the scanning of objects to automatically make 3D models of them. Some programs like Acute3D's Smart3DCapture, now part of Bentley Systems and renamed ContextCapture, Pix4Dmapper, Photoscan, 123D Catch, Bundler toolkit, PIXDIM, and Photosketch have been made to allow people to quickly make 3D models using this photogrammetry method. It should be noted though that the produced model often still contains gaps, so additional cleanup with software like MeshLab, netfabb or MeshMixer is often still necessary.
+Photogrammetry is also commonly employed in collision engineering, especially with automobiles. When litigation for accidents occurs and engineers need to determine the exact deformation present in the vehicle, it is common for several years to have passed and the only evidence that remains is accident scene photographs taken by the police. Photogrammetry is used to determine how much the car in question was deformed, which relates to the amount of energy required to produce that deformation. The energy can then be used to determine important information about the crash (such as the velocity at time of impact).
+
+
+== SoftwareEdit ==
+There exist many software packages for photogrammetry, see comparison of photogrammetry software.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+RSPSoc - Remote Sensing and Photogrammetry Society of UK
+History of Photogrammetry
+Photogrammetry overview on the Cultural Heritage Imaging web site
+World Photogrammetry, the spanish website of photogrammetry for everyone
+Visual Revolution of the Vanishing of Ethan Carter
+Examples of photogrammetry

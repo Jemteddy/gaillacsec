@@ -1,0 +1,145 @@
+An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present. Generally, the vehicle will have a set of sensors to observe the environment, and will either autonomously make decisions about its behavior or pass the information to a human operator at a different location who will control the vehicle through teleoperation.
+The UGV is the land-based counterpart to unmanned aerial vehicles and remotely operated underwater vehicles. Unmanned robotics are being actively developed for both civilian and military use to perform a variety of dull, dirty, and dangerous activities.
+
+
+== History ==
+In their 1930s, the USSR developed Teletanks, a machine gun-armed tank remotely controlled by radio from another tank. These were used in the Winter War (1939-1940 ) against Finland and at the start of the Eastern Front after Germany invaded the USSR in 1941. During World War II, the British developed a radio control version of their Matilda II infantry tank in 1941. Known as "Black Prince", it would have been used for drawing the fire of concealed anti-tank guns, or for demolition missions. Due to the costs of converting the transmission system of the tank to Wilson type gearboxes, an order for 60 tanks was cancelled.
+From 1942, the Germans used the Goliath tracked mine for remote demolition work. The Goliath was a small tracked vehicle carrying 60 kg of explosive charge directed through a control cable. Their inspiration was a miniature French tracked vehicle found after France was defeated in 1940. The combination of cost, low speed, reliance on a cable for control, and poor protection against weapons meant it was not considered a success.
+The first major mobile robot development effort named Shakey was created during the 1960s as a research study for the Defense Advanced Research Projects Agency for Artificial Intelligence (DARPA-AI) to test its obedience with commands, which is different from advanced robots that are autonomous or semi-autonomous. Shakey was a wheeled platform that had a TV camera, sensors, and a computer to help guide its navigational tasks of picking up wooden blocks and placing them in certain areas based on commands.
+
+
+== Design ==
+
+
+=== Rider ===
+There are two classes: usable by riders or only for cargo.
+
+
+=== Guidance ===
+There are two classes of unmanned ground vehicles: Remote-Operated and Autonomous.
+
+
+==== Remote-Operated ====
+
+A remote-operated UGV is a vehicle that is controlled by a human operator via interface. All actions are determined by the operator based upon either direct visual observation or remote use of sensors such as digital video cameras. A basic example of the principles of remote-operation would be a remote controlled toy car.
+Uses
+There are a wide variety of remote-operated UGVs in use today. Predominantly these vehicle are used to replace humans in hazardous situations. Examples are explosives and bomb disabling vehicles. According to Carafano & Gudgel, robots have disarmed over 1000 roadside bombs in Iraq at the end of 2005. The importance of this is apparent since the amount of UGVs in use has shot up from 150 in 2004, to 5000 in 2005 (Carafano & Gudgel, 2007). Currently, UGVs are also being used in Japan repairing nuclear reactors that are still emitting too much radiation to warrant a human presence.
+UGVs are also being developed for peacekeeping operations, ground surveillance, gatekeeper/checkpoint operations, urban street presence, and to enhance police and military raids in urban settings. UGVs can "draw first fire" from insurgents - reducing military and police casualties. Furthermore, UGVs are now being used in rescue and recovery missions. These robots were paramount following 9/11, when searching for survivors at Ground Zero.
+
+Specific UGV Systems Information
+Some examples of remote-operated UGV technology are:
+Unmanned Snatch Land Rover.
+Frontline Robotics Teleoperated UGV (TUGV)
+Gladiator Tactical Unmanned Ground Vehicle (used by the United States Marine Corps)
+iRobot PackBot
+Foster-Miller TALON
+Remotec ANDROS F6A
+Autonomous Solutions 
+Mesa Associates Tactical Integrated Light-Force Deployment Assembly (MATILDA)
+Vecna Robotics Battlefield Extraction-Assist Robot (BEAR)
+G-NIUS Autonomous Unmanned Ground Vehicles (Israel Aerospace Industries/Elbit Systems joint venture) Guardium
+Robowatch ASENDRO
+Ripsaw MS1
+DRDO Daksh
+VIPeR
+DOK-ING mine clearing, firefighting, and underground mining UGV's
+MacroUSA Armadillo V2 Micro UGV (MUGV) and Scorpion SUGV
+Nova 5
+Krymsk APC
+
+
+==== Autonomous ====
+
+An autonomous UGV is essentially an autonomous robot that operates without the need for a human controller. The vehicle uses its sensors to develop some limited understanding of the environment, which is then used by control algorithms to determine the next action to take in the context of a human provided mission goal. This fully eliminates the need for any human to watch over the menial tasks that the UGV is completing.
+A fully autonomous robot may have the ability to:
+Collect information about the environment, such as building maps of building interiors.
+Detect objects of interest such as people and vehicles.
+Travel between waypoints without human navigation assistance.
+Work for extended durations without human intervention.
+Avoid situations that are harmful to people, property or itself, unless those are part of its design specifications
+Disarm, or remove explosives.
+Repair itself without outside assistance.
+A robot may also be able to learn autonomously. Autonomous learning includes the ability to:
+Learn or gain new capabilities without outside assistance.
+Adjust strategies based on the surroundings.
+Adapt to surroundings without outside assistance.
+Develop a sense of ethics regarding mission goals.
+Autonomous robots still require regular maintenance, as with all machines.
+One of the most crucial aspects to consider when developing armed autonomous machines, is the distinction between combatants and civilians. If done incorrectly, the robots deployment can be detrimental. This is particularly true in the modern era, when combatants often intentionally disguise themselves as civilians to avoid detection. Even if a robot maintained 99% accuracy, the number of civilian lives lost can still be catastrophic. Due to this, it is unlikely that any fully autonomous machines will be sent into battle armed, at least until a satisfactory solution can be developed.
+Some examples of autonomous UGV technology are:
+Vehicles developed for the DARPA Grand Challenge
+Google driverless car
+Multifunctional Utility/Logistics and Equipment vehicle
+Crusher developed by CMU for DARPA
+
+
+== Vehicle types ==
+
+
+=== Autonomous bike ===
+coModule electric bicycle is fully controllable via smartphone, with users able to accelerate, turn and brake the bike by tilting their device. The bike is also able to be driven completely autonomously in a closed environment.
+
+
+== Military Examples ==
+
+
+=== SARGE ===
+SARGE is based on a 4-wheel drive all terrain vehicle; the frame of the Yamaha Breeze. Currently, the objective is to provide each infantry battalion with up to eight SARGE units (Singer, 2009b). The SARGE robot is primarily used for remote surveillance; sent ahead of the infantry to investigate potential ambushes.
+
+
+=== The Warrior ===
+A new model of the PackBot was also produced, known as the Warrior. It is over five times the size of a PackBot, can travel at speeds of up to 15 mph, and is the first variation of a PackBot capable of carrying a weapon (Singer, 2009a). Like the Packbot, they are instrumental in checking for explosives. They are capable of carrying 68 kilograms, and travelling at 8 MPH. The Warrior is priced at nearly 400,000 and more than 5000 units have already been delivered worldwide.
+
+
+=== The Talon ===
+The Talon is primarily used for bomb disposal, and was incorporated with the ability to be waterproof at 100 ft so that it can search the seas for explosives as well. The Talon was first used in 2000, and over 3,000 units have been distributed world-wide. By 2004, The Talon had been used in over 20,000 separate missions. These missions largely consisted of situations deemed to be too dangerous for humans (Carafano & Gudgel, 2007). These can include entering booby-trapped caves, searching for IEDs, or simply scouting a red combat zone. The Talon is one of the fastest Unmanned Ground Vehicles on the market, easily keeping pace with a running soldier. It can operate for 7 days off of one charge, and is even capable of climbing stairs. This robot was used at Ground Zero during the recovery mission. Like its peers, the Talon was designed to be incredibly durable. According to reports, one unit fell off of a bridge into a river and the soldiers simply turned on the control unit and drove it out of the river.
+
+
+=== Swords Robot ===
+
+Shortly after the release of the Warrior, the SWORDS robot was designed and deployed. It is a Talon robot with an attached weapon system. SWORDS is capable of mounting any weapon weighing less than 300 pounds. In a matter of seconds, the user can fit weapons such as a grenade launcher, rocket launcher, or 0.50 inch (12.7 mm) machine gun. Moreover, the SWORDS can use their weapons with extreme precision, hitting the bull’s-eye of a target 70/70 times. These robots are capable of withstanding a lot of damage, including multiple 0.50 inch bullets, or a fall from a helicopter onto concrete. In addition, the SWORDS robot is even capable of making its way through virtually any terrain, including underwater. In 2004, only four SWORDS units were in existence although 18 were requested for service overseas. It was named as one of the worlds most amazing inventions by Time Magazine in 2004. The US Army deployed three to Iraq in 2007 but then cancelled support of the project.
+
+
+=== Small Unit Mobility Enhancement Technology (SUMET) ===
+The SUMET system is a platform and hardware independent, low-cost electro-optical perception, localization, and autonomy package developed to convert a traditional vehicle into a UGV. It performs various autonomous logistics maneuvers in austere/harsh off-road environments, without dependence on a human operator or on GPS. The SUMET system has been deployed on several different tactical and commercial platforms and is open, modular, scalable and extensible.
+
+
+=== Autonomous Small Scale Construction Machine (ASSCM) ===
+The ASSCM is a civilian unmanned ground vehicle developed in Yuzuncu Yil University by scientific project granted by TUBITAK (Project code 110M396). The vehicle is a low cost small scale construction machine which can grade soft soil. The machine is capable of autonomously grading the earth within a polygon once the border of the polygon is defined. The machine determines its position by CP-DGPS and direction by consecutive position measurements. Currently the machine can autonomously grade simple polygons. The autonomous grading algorithm and control system of the machine is developed.
+
+
+=== Taifun-M ===
+In April 2014, the Russian Army unveiled the Taifun-M UGV as a remote sentry to guard RS-24 Yars and SS-27 Topol-M missile sites. The Taifun-M features laser targeting and a cannon to carry out reconnaissance and patrol missions, detect and destroy stationary or moving targets, and provide fire support for security personnel at guarded facilities. They are currently remotely operated but future plans are to include an autonomous artificial intelligence system.
+
+
+== See also ==
+
+4D-RCS Reference Model Architecture
+Autonomous logistics
+Black Knight (vehicle)
+Crusher
+Driverless car
+Driverless tractor
+Goliath tracked mine
+JAUS, a popular message set for controlling UGVs
+MillenWorks
+Multifunctional Utility/Logistics and Equipment
+Remotely operated underwater vehicle
+Unmanned aerial vehicle
+VisLab, preparing their unique VIAC challenge (driving from Italy to China with autonomous vehicles)
+DARPA LAGR Program
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Unmanned Ground Vehicles, Intelligent Vehicle Systems, Southwest Research Institute.
+Unmanned Ground Vehicle/ RGIT Workshop 2011
+"How Military Robots Work"
+"Unmanned and Downrange" Technology Today, Summer 2012.
+Small Unit Mobility Enhancement Technology (SUMET)
+Sathiyanarayanan; et al. "Unmanned Ground Vehicle".

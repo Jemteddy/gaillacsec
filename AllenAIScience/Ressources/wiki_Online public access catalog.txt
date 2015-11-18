@@ -1,0 +1,48 @@
+An online public access catalog (often abbreviated as OPAC or simply library catalog) is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate books and other material available at a library.
+
+
+== History ==
+
+
+=== Early online catalogs ===
+
+Although a handful of experimental systems existed as early as the 1960s, the first large-scale online catalogs were developed at Ohio State University in 1975 and the Dallas Public Library in 1978.
+These and other early online catalog systems tended to closely reflect the card catalogs that they were intended to replace. Using a dedicated terminal or telnet client, users could search a handful of pre-coordinate indexes and browse the resulting display in much the same way they had previously navigated the card catalog.
+Throughout the 1980s, the number and sophistication of online catalogs grew. The first commercial systems appeared, and would by the end of the decade largely replace systems built by libraries themselves. Library catalogs began providing improved search mechanisms, including Boolean and keyword searching, as well as ancillary functions, such as the ability to place holds on items that had been checked-out.
+At the same time, libraries began to develop applications to automate the purchase, cataloging, and circulation of books and other library materials. These applications, collectively known as an integrated library system (ILS) or library management system, included an online catalog as the public interface to the system's inventory. Most library catalogs are closely tied to their underlying ILS system.
+
+
+=== Stagnation and dissatisfaction ===
+The 1990s saw a relative stagnation in the development of online catalogs. Although the earlier character-based interfaces were replaced with ones for the Web, both the design and the underlying search technology of most systems did not advance much beyond that developed in the late 1980s.
+At the same time, organizations outside of libraries began developing more sophisticated information retrieval systems. Web search engines like Google and popular e-commerce websites such as Amazon.com provided simpler to use (yet more powerful) systems that could provide relevancy ranked search results using probabilistic and vector-based queries.
+Prior to the widespread use of the Internet, the online catalog was often the first information retrieval system library users ever encountered. Now accustomed to web search engines, newer generations of library users have grown increasingly dissatisfied with the complex (and often arcane) search mechanisms of older online catalog systems.
+This has, in turn, led to vocal criticisms of these systems within the library community itself, and in recent years to the development of newer (often termed 'next-generation') catalogs.
+
+
+=== Next-generation catalogs ===
+The newest generation of library catalog systems are distinguished from earlier OPACs by their use of more sophisticated search technologies, including relevancy ranking and faceted search, as well as features aimed at greater user interaction and participation with the system, including tagging and reviews. These new features rely heavily on existing metadata which is often poor or inconsistent, particularly for older records.
+These newer systems are almost always independent of the library's integrated library system (ILS), instead providing drivers that allow for the synchronization of data between the two systems. While older online catalog systems were almost exclusively built by ILS vendors, libraries are increasingly turning to next generation catalog systems built by enterprise search companies and open source projects, often led by libraries themselves. The costs associated with these new systems, however, have slowed their adoption, particularly at smaller institutions.
+An example of a next generation OPAC system is included in the Libramatic software package.
+
+
+== Union catalogs ==
+Although library catalogs typically reflect the holdings of a single library, they can also contain the holdings of a group or consortium of libraries. These systems, known as union catalogs, are usually designed to aid the borrowing of books and other materials among the member institutions via interlibrary loan. Examples of this type of catalogue include COPAC, SUNCAT, NLA Trove, and WorldCat, reflecting the collections of libraries worldwide.
+
+
+== Related systems ==
+There are a number of systems that share much in common with library catalogs, but have traditionally been distinguished from them. Libraries utilize these systems to search for items not traditionally covered by a library catalog.
+These include bibliographic databases—such as Medline, ERIC, PsycINFO, and many others—which index journal articles and other research data. There are also a number of applications aimed at managing documents, photographs, and other digitized or born-digital items such as Digital Commons and DSpace. Particularly in academic libraries, these systems (often known as digital library systems or institutional repository systems) assist with efforts to preserve documents created by faculty and students.
+
+
+== See also ==
+List of next-generation library catalogs
+Library computer system
+
+
+== References ==
+^ Borgman C (1996). "Why are Online Catalogs Still Hard to Use?". Journal of the American Society for Information Science 47 (7): 499. doi:10.1002/(sici)1097-4571(199607)47:7<493::aid-asi3>3.3.co;2-y. 
+^ Husain R & Alam Ansari M (2006). "From Card Catalog to Web OPACs". DESIDOC Bulletin of Information Technology 26 (2): 41–7. 
+^ Borgman C (1996), 493-503.
+^ Antelman K, Lynema E, Pace AK (2006). "Toward a Twenty-First Century Library Catalog". Information Technology & Libraries 25 (3): 128–139. 
+^ Breeding M (2008). "Open Source Library Automation". Library Technology Reports 44 (8): 5–10. 
+^ "WorldCat facts and statistics". Online Computer Library Center. 2009. Retrieved November 4, 2009.

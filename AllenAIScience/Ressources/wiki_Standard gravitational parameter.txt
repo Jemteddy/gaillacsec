@@ -1,0 +1,41 @@
+In celestial mechanics, the standard gravitational parameter μ of a celestial body is the product of the gravitational constant G and the mass M of the body.
+
+For several objects in the Solar System, the value of μ is known to greater accuracy than either G or M. The SI units of the standard gravitational parameter are m3 s−2.
+
+
+== Small body orbiting a central bodyEdit ==
+
+The central body in an orbital system can be defined as the one whose mass (M) is much larger than the mass of the orbiting body (m), or M ≫ m. This approximation is standard for planets orbiting the Sun or most moons and greatly simplifies equations.
+For a circular orbit around a central body:
+
+where r is the orbit radius, v is the orbital speed, ω is the angular speed, and T is the orbital period.
+This can be generalized for elliptic orbits:
+
+where a is the semi-major axis, which is Kepler's third law.
+For parabolic trajectories rv2 is constant and equal to 2μ. For elliptic and hyperbolic orbits μ = 2a|ε|, where ε is the specific orbital energy.
+
+
+== Two bodies orbiting each otherEdit ==
+In the more general case where the bodies need not be a large one and a small one (the two-body problem), we define:
+the vector r is the position of one body relative to the other
+r, v, and in the case of an elliptic orbit, the semi-major axis a, are defined accordingly (hence r is the distance)
+μ = Gm1 + Gm2 = μ1 + μ2, where m1 and m2 are the masses of the two bodies.
+Then:
+for circular orbits, rv2 = r3ω2 = 4π2r3/T2 = μ
+for elliptic orbits, 4π2a3/T2 = μ (with a expressed in AU; T in seconds and M the total mass relative to that of the Sun, we get a3/T2 = M)
+for parabolic trajectories, rv2 is constant and equal to 2μ
+for elliptic and hyperbolic orbits, μ is twice the semi-major axis times the absolute value of the specific orbital energy, where the latter is defined as the total energy of the system divided by the reduced mass.
+
+
+== Terminology and accuracyEdit ==
+Note that the reduced mass is also denoted by μ.
+The value for the Earth is called the geocentric gravitational constant and equals 7005398600441800000♠398600.4418±0.0008 km3 s−2. Thus the uncertainty is 1 to 7008500000000000000♠500000000, much smaller than the uncertainties in G and M separately (1 to 7003700000000000000♠7000 each).
+The value for the Sun is called the heliocentric gravitational constant or geopotential of the Sun and equals 7020132712440018000♠1.32712440018×1020 m3 s−2.
+
+
+== See alsoEdit ==
+Astronomical system of units
+Planetary mass
+
+
+== ReferencesEdit ==

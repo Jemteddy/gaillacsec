@@ -1,0 +1,81 @@
+Reflection is the change in direction of a wavefront at an interface between two different media so that the wavefront returns into the medium from which it originated. Common examples include the reflection of light, sound and water waves. The law of reflection says that for specular reflection the angle at which the wave is incident on the surface equals the angle at which it is reflected. Mirrors exhibit specular reflection.
+In acoustics, reflection causes echoes and is used in sonar. In geology, it is important in the study of seismic waves. Reflection is observed with surface waves in bodies of water. Reflection is observed with many types of electromagnetic wave, besides visible light. Reflection of VHF and higher frequencies is important for radio transmission and for radar. Even hard X-rays and gamma rays can be reflected at shallow angles with special "grazing" mirrors.
+
+
+== Reflection of light ==
+
+Reflection of light is either specular (mirror-like) or diffuse (retaining the energy, but losing the image) depending on the nature of the interface. In specular reflection the phase of the reflected waves depends on the choice of the origin of coordinates, but the relative phase between s and p (TE and TM) polarizations is fixed by the properties of the media and of the interface between them.
+A mirror provides the most common model for specular light reflection, and typically consists of a glass sheet with a metallic coating where the reflection actually occurs. Reflection is enhanced in metals by suppression of wave propagation beyond their skin depths. Reflection also occurs at the surface of transparent media, such as water or glass.
+
+In the diagram at left, a light ray PO strikes a vertical mirror at point O, and the reflected ray is OQ. By projecting an imaginary line through point O perpendicular to the mirror, known as the normal, we can measure the angle of incidence, θi and the angle of reflection, θr. The law of reflection states that θi = θr, or in other words, the angle of incidence equals the angle of reflection.
+In fact, reflection of light may occur whenever light travels from a medium of a given refractive index into a medium with a different refractive index. In the most general case, a certain fraction of the light is reflected from the interface, and the remainder is refracted. Solving Maxwell's equations for a light ray striking a boundary allows the derivation of the Fresnel equations, which can be used to predict how much of the light is reflected, and how much is refracted in a given situation. This is analogous to the way impedance mismatch in an electric circuit causes reflection of signals. Total internal reflection of light from a denser medium occurs if the angle of incidence is above the critical angle.
+Total internal reflection is used as a means of focusing waves that cannot effectively be reflected by common means. X-ray telescopes are constructed by creating a converging "tunnel" for the waves. As the waves interact at low angle with the surface of this tunnel they are reflected toward the focus point (or toward another interaction with the tunnel surface, eventually being directed to the detector at the focus). A conventional reflector would be useless as the X-rays would simply pass through the intended reflector.
+When light reflects off a material denser (with higher refractive index) than the external medium, it undergoes a polarity inversion. In contrast, a less dense, lower refractive index material will reflect light in phase. This is an important principle in the field of thin-film optics.
+Specular reflection forms images. Reflection from a flat surface forms a mirror image, which appears to be reversed from left to right because we compare the image we see to what we would see if we were rotated into the position of the image. Specular reflection at a curved surface forms an image which may be magnified or demagnified; curved mirrors have optical power. Such mirrors may have surfaces that are spherical or parabolic.
+
+
+=== Laws of reflection ===
+
+If the reflecting surface is very smooth, the reflection of light that occurs is called specular or regular reflection. The laws of reflection are as follows:
+The incident ray, the reflected ray and the normal to the reflection surface at the point of the incidence lie in the same plane.
+The angle which the incident ray makes with the normal is equal to the angle which the reflected ray makes to the same normal.
+The reflected ray and the incident ray are on the opposite sides of the normal.
+These three laws can all be derived from the Fresnel equations.
+
+
+==== Mechanism ====
+In classical electrodynamics, light is considered as an electromagnetic wave, which is described by Maxwell's equations. Light waves incident on a material induce small oscillations of polarisation in the individual atoms (or oscillation of electrons, in metals), causing each particle to radiate a small secondary wave in all directions, like a dipole antenna. All these waves add up to give specular reflection and refraction, according to the Huygens–Fresnel principle.
+In the case of dielectrics such as glass, the electric field of the light acts on the electrons in the material, and the moving electrons generate fields and become new radiators. The refracted light in the glass is the combination of the forward radiation of the electrons and the incident light. The reflected light is the combination of the backward radiation of all of the electrons.
+In metals, electrons with no binding energy are called free electrons. When these electrons oscillate with the incident light, the phase difference between their radiation field and the incident field is π (180°), so the forward radiation cancels the incident light, and backward radiation is just the reflected light.
+Light–matter interaction in terms of photons is a topic of quantum electrodynamics, and is described in detail by Richard Feynman in his popular book QED: The Strange Theory of Light and Matter.
+
+
+=== Diffuse reflection ===
+
+When light strikes the surface of a (non-metallic) material it bounces off in all directions due to multiple reflections by the microscopic irregularities inside the material (e.g. the grain boundaries of a polycrystalline material, or the cell or fiber boundaries of an organic material) and by its surface, if it is rough. Thus, an 'image' is not formed. This is called diffuse reflection. The exact form of the reflection depends on the structure of the material. One common model for diffuse reflection is Lambertian reflectance, in which the light is reflected with equal luminance (in photometry) or radiance (in radiometry) in all directions, as defined by Lambert's cosine law.
+The light sent to our eyes by most of the objects we see is due to diffuse reflection from their surface, so that this is our primary mechanism of physical observation.
+
+
+=== Retroreflection ===
+
+Some surfaces exhibit retroreflection. The structure of these surfaces is such that light is returned in the direction from which it came.
+When flying over clouds illuminated by sunlight the region seen around the aircraft's shadow will appear brighter, and a similar effect may be seen from dew on grass. This partial retro-reflection is created by the refractive properties of the curved droplet's surface and reflective properties at the backside of the droplet.
+Some animals' retinas act as retroreflectors, as this effectively improves the animals' night vision. Since the lenses of their eyes modify reciprocally the paths of the incoming and outgoing light the effect is that the eyes act as a strong retroreflector, sometimes seen at night when walking in wildlands with a flashlight.
+A simple retroreflector can be made by placing three ordinary mirrors mutually perpendicular to one another (a corner reflector). The image produced is the inverse of one produced by a single mirror. A surface can be made partially retroreflective by depositing a layer of tiny refractive spheres on it or by creating small pyramid like structures. In both cases internal reflection causes the light to be reflected back to where it originated. This is used to make traffic signs and automobile license plates reflect light mostly back in the direction from which it came. In this application perfect retroreflection is not desired, since the light would then be directed back into the headlights of an oncoming car rather than to the driver's eyes.
+
+
+=== Multiple reflections ===
+When light reflects off a mirror, one image appears. Two mirrors placed exactly face to face give the appearance of an infinite number of images along a straight line. The multiple images seen between two mirrors that sit at an angle to each other lie over a circle. The center of that circle is located at the imaginary intersection of the mirrors. A square of four mirrors placed face to face give the appearance of an infinite number of images arranged in a plane. The multiple images seen between four mirrors assembling a pyramid, in which each pair of mirrors sits an angle to each other, lie over a sphere. If the base of the pyramid is rectangle shaped, the images spread over a section of a torus.
+
+
+=== Complex conjugate reflection ===
+In this process (which is also known as phase conjugation), light bounces exactly back in the direction from which it came due to a nonlinear optical process. Not only the direction of the light is reversed, but the actual wavefronts are reversed as well. A conjugate reflector can be used to remove aberrations from a beam by reflecting it and then passing the reflection through the aberrating optics a second time.
+
+
+== Other types of reflection ==
+
+
+=== Neutron reflection ===
+Materials that reflect neutrons, for example beryllium, are used in nuclear reactors and nuclear weapons. In the physical and biological sciences, the reflection of neutrons off of atoms within a material is commonly used to determine the material's internal structure.
+
+
+=== Sound reflection ===
+
+When a longitudinal sound wave strikes a flat surface, sound is reflected in a coherent manner provided that the dimension of the reflective surface is large compared to the wavelength of the sound. Note that audible sound has a very wide frequency range (from 20 to about 17000 Hz), and thus a very wide range of wavelengths (from about 20 mm to 17 m). As a result, the overall nature of the reflection varies according to the texture and structure of the surface. For example, porous materials will absorb some energy, and rough materials (where rough is relative to the wavelength) tend to reflect in many directions—to scatter the energy, rather than to reflect it coherently. This leads into the field of architectural acoustics, because the nature of these reflections is critical to the auditory feel of a space. In the theory of exterior noise mitigation, reflective surface size mildly detracts from the concept of a noise barrier by reflecting some of the sound into the opposite direction.
+
+
+=== Seismic reflection ===
+
+Seismic waves produced by earthquakes or other sources (such as explosions) may be reflected by layers within the Earth. Study of the deep reflections of waves generated by earthquakes has allowed seismologists to determine the layered structure of the Earth. Shallower reflections are used in reflection seismology to study the Earth's crust generally, and in particular to prospect for petroleum and natural gas deposits.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Acoustic reflection
+Animations demonstrating optical reflection by QED
+Simulation on Laws of Reflection of Sound By Amrita University

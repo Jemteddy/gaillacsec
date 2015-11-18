@@ -1,0 +1,18 @@
+SUPERFAMILY is a database of structural and functional annotation for all proteins and genomes. SUPERFAMILY classifies amino acid sequences into known structural domains, especially into SCOP superfamilies.  The superfamilies are groups of proteins which have structural evidence to support a common evolutionary ancestor but may not have detectable sequence homology.
+
+
+== Annotations in SUPERFAMILY ==
+The SUPERFAMILY annotation is based on a collection of hidden Markov models, which represent structural protein domains at the SCOP superfamily level. A superfamily groups together domains which have an evolutionary relationship. The annotation is produced by scanning protein sequences from completely sequenced genomes against the hidden Markov models.
+For each protein you can:
+Submit sequences for SCOP classification
+View domain organisation, sequence alignments and protein sequence details
+For each genome you can:
+Examine superfamily assignments, phylogenetic trees, domain organisation lists and networks
+Check for over- and under-represented superfamilies within a genome
+For each superfamily you can:
+Inspect SCOP classification, functional annotation, Gene Ontology annotation, InterPro abstract and genome assignments
+Explore taxonomic distribution of a superfamily across the tree of life
+All annotation, models and the database dump are freely available for download to everyone.
+
+
+== References ==

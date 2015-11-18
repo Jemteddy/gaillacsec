@@ -1,0 +1,41 @@
+Wire bonding is the method of making interconnections between an integrated circuit (IC) or other semiconductor device and its packaging during semiconductor device fabrication. Although less common, wire bonding can be used to connect an IC to other electronics or to connect from one PCB to another. Wire bonding is generally considered the most cost-effective and flexible interconnect technology, and is used to assemble the vast majority of semiconductor packages. If properly designed, wire bonding can be used at frequencies above 100 GHz.
+
+
+== Materials ==
+Bondwires usually consist of one of the following materials:
+Aluminum
+Copper
+Silver
+Gold
+Wire diameters start at 15 µm and can be up to several hundred micrometres for high-powered applications.
+The wire bonding industry is transitioning from gold to copper. This change has been instigated by the rising cost of gold and the comparatively stable, and much lower, cost of copper. While possessing higher thermal and electrical conductivity than gold, copper had previously been seen as less reliable due to its hardness and susceptibility to corrosion. By 2015, it is expected that more than a third of all wire bonding machines in use will be set up for copper.
+Copper wire has become one of the preferred materials for wire bonding interconnects in many semiconductor and microelectronic applications. Copper is used for fine wire ball bonding in sizes up to 0.003 inch (75 micrometres). Copper wire has the ability of being used at smaller diameters providing the same performance as gold without the high material cost.
+Copper wire up to 0.010 inch (250 micrometres) can be successfully wedge bonded with the proper set-up parameters. Large diameter copper wire can and does replace aluminum wire where high current carrying capacity is needed or where there are problems with complex geometry. Annealing and process steps used by manufacturers enhance the ability to use large diameter copper wire to wedge bond to silicon without damage occurring to the die.
+Copper wire does pose some challenges in that it is harder than both gold and aluminum, so bonding parameters must be kept under tight control. The formation of oxides is inherent with this material, so storage and shelf life are issues that must be considered. Special packaging is required in order to protect copper wire and achieve a longer shelf life. Palladium coated copper wire is a common alternative which has shown significant resistance to corrosion, albeit at a higher hardness than pure copper and a greater price, though still less than gold. During the fabrication of wire bonds, copper wire, as well as its plated varieties, must be worked in the presence of forming gas [95% nitrogen and 5% hydrogen] or a similar anoxic gas in order to prevent corrosion. A method for coping with copper's relative hardness is the use of high purity [5N+] varieties.
+
+Pure gold wire doped with controlled amounts of beryllium and other elements is normally used for ball bonding. This process brings together the two materials that are to be bonded using heat, pressure and ultrasonic energy referred to as thermosonic bonding. The most common approach in thermosonic bonding is to ball-bond to the chip, then stitch-bond to the substrate. Very tight controls during processing enhance looping characteristics and eliminate sagging.
+Junction size, bond strength and conductivity requirements typically determine the most suitable wire size for a specific wire bonding application. Typical manufacturers make gold wire in diameters from 0.0005 inch (12.5 micrometres) and larger. Production tolerance on gold wire diameter is +/-3%.
+Alloyed aluminum wires are generally preferred to pure aluminum wire except in high-current devices because of greater drawing ease to fine sizes and higher pull-test strengths in finished devices. Pure aluminum and 0.5% magnesium-aluminum are most commonly used in sizes larger than 0.004 inch.
+All-aluminum systems in semiconductor fabrication eliminate the "purple plague" (brittle gold-aluminum intermetallic compound) sometimes associated with pure gold bonding wire. Aluminum is particularly suitable for thermosonic bonding.
+In order to assure that high quality bonds can be obtained at high production speeds, special controls are used in the manufacture of 1% silicon-aluminum wire. One of the most important characteristics of high grade bonding wire of this type is homogeneity of the alloy system. Homogeneity is given special attention during the manufacturing process. Microscopic checks of the alloy structure of finished lots of 1% silicon-aluminum wire are performed routinely. Processing also is carried out under conditions which yield the ultimate in surface cleanliness and smooth finish and permits entirely snag-free de-reeling.
+
+
+== Attachment techniques ==
+
+The main classes of wire bonding:
+Ball bonding
+Wedge bonding
+Compliant bonding
+Ball bonding usually is restricted to gold and copper wire and usually requires heat. Wedge bonding can use either gold or aluminum wire, with only the gold wire requiring heat.
+In either type of wire bonding, the wire is attached at both ends using some combination of heat, pressure, and ultrasonic energy to make a weld.
+Compliant bonding transmits heat and pressure through a compliant or indentable aluminum tape and therefore is applicable in bonding gold wires and the Beam leads that have been electroformed to the silicon integrated circuit (known as the Beam leaded integrated circuit).
+
+
+== See also ==
+Purple plague (intermetallic)
+
+
+== References ==
+
+Copper (Cu) Wire Bonding
+Challenging the limits of bonding wire

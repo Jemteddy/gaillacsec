@@ -1,0 +1,40 @@
+The Edwards equation in organic chemistry is a two-parameter equation for correlating nucleophilic reactivity, as defined by relative rate constants, with the basicity of the nucleophile (relative to protons) and its polarizability. This equation was first developed by John O. Edwards in 1954 and later revised based on additional work in 1956.  The general idea is that most nucleophiles are also good bases because the concentration of negatively charged electron density that defines a nucleophile will strongly attract positively charged protons, which is the definition of a base according to Brønsted-Lowry acid-base theory. Additionally, highly polarizable nucleophiles will have greater nucleophilic character than suggested by their basicity because their electron density can be shifted with relative ease to concentrate in one area.
+
+
+== History ==
+Prior to Edwards developing his equation, other scientists were also working to define nucleophilicity quantitatively. Brønsted and Pederson first discovered the relationship between basicity, with respect to protons, and nucleophilicity in 1924:
+where 
+where kb is the rate constant for nitramide decomposition by a base (B) and βN is a parameter of the equation.
+Swain and Scott later tried to define a more specific and quantitative relationship by correlating nucleophilic data with a single-parameter equation derived in 1953:
+
+This equation relates the rate constant k, of a reaction, normalized to that of a standard reaction with water as the nucleophile (k0), to a nucleophilic constant n for a given nucleophile and a substrate constant s that depends on the sensitivity of a substrate to nucleophilic attack (defined as 1 for methyl bromide). This equation was modeled after the Hammett equation.
+However, both the Swain-Scott equation and the Brønsted relationship make the rather inaccurate assumption that all nucleophiles have the same reactivity with respect to a specific reaction site. There are several different categories of nucleophiles with different attacking atoms (e.g. oxygen, carbon, nitrogen) and each of these atoms has different nucleophilic characteristics. The Edwards equation attempts to account for this additional parameter by introducing a polarizability term.
+
+
+== Edwards equations ==
+The first generation of the Edwards equation was
+
+where k and k0 are the rate constants for a nucleophile and a standard (H2O). H is a measure of the basicity of the nucleophile relative to protons, as defined by the equation:
+
+where the pKa is that of the conjugate acid of the nucleophile and the constant 1.74 is the correction for the pKa of H3O+.
+En is the term Edwards introduced to account for the polarizability of the nucleophile. It is related to the oxidation potential (E0) of the reaction  (oxidative dimerization of the nucleophile) by the equation:
+
+where 2.60 is the correction for the oxidative dimerization of water, obtained from a least-squares correlation of data in Edwards’ first paper on the subject. α and β are then parameters unique to specific nucleophiles that relate the sensitivity of the substrate to the basicity and polarizability factors.  However, because some β’s appeared to be negative as defined by the first generation of the Edwards equation, which theoretically should not occur, Edwards adjusted his equation. The term En was determined to have some dependence on the basicity relative to protons (H) due to some factors that affect basicity also influencing the electrochemical properties of the nucleophile. To account for this, En was redefined in terms of basicity and polarizability (given as molar refractivity, RN):
+ where 
+The values of a and b, obtained by the method of least squares, are 3.60 and 0.0624 respectively. With this new definition of En, the Edwards equation can be rearranged:
+
+where A= αa and B = β + αb. However, because the second generation of the equation was also the final one, the equation is sometimes written as , especially since it was republished in that form in a later paper of Edwards’, leading to confusion over which parameters are being defined.
+
+
+== Significance ==
+A later paper by Edwards and Pearson, following research done by Jencks and Carriuolo in 1960 led to the discovery of an additional factor in nucleophilic reactivity, which Edwards and Pearson called the alpha effect,  where nucleophiles with a lone pair of electrons on an atom adjacent to the nucleophilic center have enhanced reactivity. The alpha effect, basicity, and polarizability are still accepted as the main factors in determining nucleophilic reactivity. As such, the Edwards equation is applied in a qualitative sense much more frequently than in a quantitative one.  In studying nucleophilic reactions, Edwards and Pearson noticed that for certain classes of nucleophiles most of the contribution of nucleophilic character originated from their basicity, resulting in large β values. For other nucleophiles, most of the nucleophilic character came from their high polarizability, with little contribution from basicity, resulting in large α values. This observation led Pearson to develop his hard-soft acid-base theory, which is arguably the most important contribution that the Edwards equation has made to current understanding of organic and inorganic chemistry.  Nucleophiles, or bases, that were polarizable, with large α values, were categorized as “soft”, and nucleophiles that were non-polarizable, with large β and small α values, were categorized as “hard”.
+The Edwards equation parameters have since been used to help categorize acids and bases as hard or soft, due to the approach’s simplicity.
+
+
+== See also ==
+Free-energy relationship
+Brønsted catalysis equation
+Bell–Evans–Polanyi principle
+
+
+== References ==

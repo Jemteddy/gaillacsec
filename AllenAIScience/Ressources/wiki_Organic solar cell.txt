@@ -1,0 +1,131 @@
+An organic solar cell or plastic solar cell is a type of photovoltaic that uses organic electronics, a branch of electronics that deals with conductive organic polymers or small organic molecules, for light absorption and charge transport to produce electricity from sunlight by the photovoltaic effect. An example of an organic photovoltaic is the polymer solar cell.
+The molecules used in organic solar cells are solution-processable at high throughput and are cheap, resulting in low production costs to fabricate a large volume. Combined with the flexibility of organic molecules, organic solar cells are potentially cost-effective for photovoltaic applications. Molecular engineering (e.g. changing the length and functional group of polymers) can change the band gap, allowing for electronic tunability. The optical absorption coefficient of organic molecules is high, so a large amount of light can be absorbed with a small amount of materials, usually on the order of hundreds of nanometers. The main disadvantages associated with organic photovoltaic cells are low efficiency, low stability and low strength compared to inorganic photovoltaic cells such as silicon solar cells.
+
+
+== PhysicsEdit ==
+
+A photovoltaic cell is a specialized semiconductor diode that converts light into direct current (DC) electricity. Depending on the band gap of the light-absorbing material, photovoltaic cells can also convert low-energy, infrared (IR) or high-energy, ultraviolet (UV) photons into DC electricity . A common characteristic of both the small molecules and polymers (Fig 1) used as the light-absorbing material in photovoltaics is that they all have large conjugated systems. A conjugated system is formed where carbon atoms covalently bond with alternating single and double bonds. These hydrocarbons' electrons pz orbitals delocalize and form a delocalized bonding π orbital with a π* antibonding orbital. The delocalized π orbital is the highest occupied molecular orbital (HOMO), and the π* orbital is the lowest unoccupied molecular orbital (LUMO). In organic semiconductor physics, the HOMO takes the role of the valence band while the LUMO serves as the conduction band. The energy separation between the HOMO and LUMO energy levels is considered the band gap of organic electronic materials and is typically in the range of 1–4 eV.
+All light with energy greater than the band gap of the material can be absorbed, though there is a trade-off to reducing the band gap as photons absorbed with energies higher than the band gap will thermally give off its excess energy, resulting in lower voltages and power conversion efficiencies. When these materials absorb a photon, an excited state is created and confined to a molecule or a region of a polymer chain. The excited state can be regarded as an exciton, or an electron-hole pair bound together by electrostatic interactions. In photovoltaic cells, excitons are broken up into free electron-hole pairs by effective fields. The effective fields are set up by creating a heterojunction between two dissimilar materials. In organic photovoltaics, effective fields break up excitons by causing the electron to fall from the conduction band of the absorber to the conduction band of the acceptor molecule. It is necessary that the acceptor material has a conduction band edge that is lower than that of the absorber material.
+
+
+== Junction typesEdit ==
+
+
+=== Single layerEdit ===
+
+Single layer organic photovoltaic cells are the simplest form. These cells are made by sandwiching a layer of organic electronic materials between two metallic conductors, typically a layer of indium tin oxide (ITO) with high work function and a layer of low work function metal such as Aluminum, Magnesium or Calcium. The basic structure of such a cell is illustrated in Fig 2.
+The difference of work function between the two conductors sets up an electric field in the organic layer. When the organic layer absorbs light, electrons will be excited to the LUMO and leave holes in the HOMO, thereby forming excitons. The potential created by the different work functions helps to split the exciton pairs, pulling electrons to the positive electrode (an electrical conductor used to make contact with a non-metallic part of a circuit) and holes to the negative electrode.
+
+
+==== ExamplesEdit ====
+In 1958 the photovoltaic effect or the creation of voltage of a cell based on magnesium phthalocyanine (MgPc)—a macrocyclic compound having an alternating nitrogen atom-carbon atom ring structure—was discovered to have a photovoltage of 200 mV. An Al/MgPc/Ag cell obtained photovoltaic efficiency of 0.01% under illumination at 690 nm.
+Conjugated polymers were also used in this type of photovoltaic cell. One device used polyacetylene (Fig 1) as the organic layer, with Al and graphite, producing an open circuit voltage of 0.3 V and a charge collection efficiency of 0.3%. An Al/poly(3-nethyl-thiophene)/Pt cell had an external quantum yield of 0.17%, an open circuit voltage of 0.4 V and a fill factor of 0.3. An ITO/PPV/Al cell showed an open circuit voltage of 1 V and a power conversion efficiency of 0.1% under white-light illumination.
+
+
+==== IssuesEdit ====
+Single layer organic solar cells do not work well. They have low quantum efficiencies (<1%) and low power conversion efficiencies (<0.1%). A major problem with them is that the electric field resulting from the difference between the two conductive electrodes is seldom sufficient to split the excitons. Often the electrons recombine with the holes without reaching the electrode.
+
+
+=== BilayerEdit ===
+
+Bilayer cells contain two layers in between the conductive electrodes (Fig 3). The two layers have different electron affinity and ionization energies, therefore electrostatic forces are generated at the interface between the two layers. The materials are chosen to make the differences large enough that these local electric fields are strong, which splits excitons much more efficiently than single layer photovoltaic cells. The layer with higher electron affinity and ionization potential is the electron acceptor, and the other layer is the electron donor. This structure is also called a planar donor-acceptor heterojunction.
+
+
+==== ExamplesEdit ====
+C60 has high electron affinity, making it a good acceptor. A C60/MEH-PPV double layer cell had a relatively high fill factor of 0.48 and a power conversion efficiency of 0.04% under monochromatic illumination. PPV/C60 cells displayed a monochromatic external quantum efficiency of 9%, a power conversion efficiency of 1% and a fill factor of 0.48.
+Perylene derivatives display high electron affinity and chemical stability. A layer of copper phthalocyanine (CuPc) as electron donor and perylene tetracarboxylic derivative as electron acceptor, fabricating a cell with a fill factor as high as 0.65 and a power conversion efficiency of 1% under simulated AM2 illumination. Halls et al. fabricated a cell with a layer of bis(phenethylimido) perylene over a layer of PPV as the electron donor. This cell had peak external quantum efficiency of 6% and power conversion efficiency of 1% under monochromatic illumination, and a fill factor of up to 0.6.
+
+
+==== IssuesEdit ====
+The diffusion length of excitons in organic electronic materials is typically on the order of 10 nm. In order for most excitons to diffuse to the interface of layers and split into carriers, the layer thickness should be in the same range as the diffusion length. However, a polymer layer typically needs a thickness of at least 100 nm to absorb enough light. At such a large thickness, only a small fraction of the excitons can reach the heterojunction interface.
+
+
+=== Discrete heterojunctionEdit ===
+A three-layer (two acceptor and one donor) fullerene-free stack achieved a conversion efficiency of 8.4%. The implementation produced high open-circuit voltages and absorption in the visible spectra and high short-circuit currents. Quantum efficiency was above 75% between 400 nm and 720 nm wavelengths, with an open-circuit voltage around 1 V.
+
+
+=== Bulk heterojunctionEdit ===
+
+Bulk heterojunctions have an absorption layer consisting of a nanoscale blend of donor and acceptor materials. The domain sizes of this blend are on the order of nanometers, allowing for excitons with short lifetimes to reach an interface and dissociate due to the large donor-acceptor interfacial area. However, efficient bulk heterojunctions need to maintain large enough domain sizes to form a percolating network that allows the donor materials to reach the hole transporting electrode (Electrode 1 in Figure 4) and the acceptor materials to reach the electron transporting electrode (Electrode 2). Without this percolating network, charges might be trapped in a donor or acceptor rich domain and undergo recombination. Bulk heterojunctions have an advantage over layered photoactive structures because they can be made thick enough for effective photon absorption without the difficult processing involved in orienting a layered structure while retaining similar level of performances.
+Bulk heterojunctions are most commonly created by forming a solution containing the two components, casting (e.g. drop casting and spin coating) and then allowing the two phases to separate, usually with the assistance of an annealing step. The two components will self-assemble into an interpenetrating network connecting the two electrodes. They are normally composed of a conjugated molecule based donor and fullerene based acceptor. The nanostructural morphology of bulk heterojunctions tends to be difficult to control, but is critical to photovoltaic performance.
+After the capture of a photon, electrons move to the acceptor domains, then are carried through the device and collected by one electrode, and holes move in the opposite direction and collected at the other side. If the dispersion of the two materials is too fine, it will result in poor charge transfer through the layer.
+Most bulk heterojunction cells use two components, although three-component cells have been explored. The third component, a secondary p-type donor polymer, acts to absorb light in a different region of the solar spectrum. This in theory increases the amount of absorbed light. These ternary cells operate through one of three distinct mechanisms: charge transfer, energy transfer or parallel-linkage.
+In charge transfer, both donors contribute directly to the generation of free charge carriers. Holes pass through only one donor domain before collection at the anode. In energy transfer, only one donor contributes to the production of holes. The second donor acts solely to absorb light, transferring extra energy to the first donor material. In parallel linkage, both donors produce excitons independently, which then migrate to their respective donor/acceptor interfaces and dissociate.
+
+
+==== ExamplesEdit ====
+Fullerenes such as C60 and its derivatives are used as electron acceptor materials in bulk heterojunction photovoltaic cells. A cell with the blend of MEH-PPV and a methano-functionalized C60 derivative as the heterojunction, ITO and Ca as the electrodes showed a quantum efficiency of 29% and a power conversion efficiency of 2.9% under monochromatic illumination. Replacing MEH-PPV with P3HT produced a quantum yield of 45% under a 10 V reverse bias. Further advances in modifying the electron acceptor has resulted in a device with a power conversion efficiency of 10.61% with a blend of PC71BM as the electron acceptor and PTB7-Th as the electron donor.
+Polymer/polymer blends are also used in dispersed heterojunction photovoltaic cells. A blend of CN-PPV and MEH-PPV with Al and ITO as the electrodes, yielded peak monochromatic power conversion efficiency of 1% and fill factor of 0.38.
+Dye sensitized photovoltaic cells can also be considered important examples of this type.
+Issues
+Fullerenes such as PC71BM are often the electron acceptor materials found in high performing bulk heterojunction solar cells. However, these electron acceptor materials very weakly absorb visible light, decreasing the volume fraction occupied by the strongly absorbing electron donor material. Furthermore, fullerenes have poor electronic tunability, resulting in restrictions placed on the development of conjugated systems with more appealing electronic structures for higher voltages. Recent research has been done on trying to replace these fullerenes with organic molecules that can be electronically tuned and contribute to light absorption.
+
+
+=== Graded heterojunctionEdit ===
+The electron donor and acceptor are mixed in such a way that the gradient is gradual. This architecture combines the short electron travel distance in the dispersed heterojunction with the advantage of the charge gradient of the bilayer technology.
+
+
+==== ExamplesEdit ====
+A cell with a blend of CuPc and C60 showed a quantum efficiency of 50% and a power conversion efficiency of 2.1% using 100 mW/cm2 simulated AM1.5G solar illumination for a graded heterojunction.
+
+
+=== Continuous junctionEdit ===
+Similar to the graded heterojunction the continuous junction concept aims at realizing a gradual transition from an electron donor to an electron acceptor. However, the acceptor material is prepared directly from the donor polymer in a post-polymerization modification step.
+
+
+== Current challenges and recent progressEdit ==
+Difficulties associated with organic photovoltaic cells include their low external quantum efficiency (up to 70%) compared to inorganic photovoltaic devices, despite having good internal quantum efficiency; this is due to insufficient absorption with active layers on the order of 100 nanometers. Instabilities against oxidation and reduction, recrystallization and temperature variations can also lead to device degradation and decreased performance over time. This occurs to different extents for devices with different compositions, and is an area into which active research is taking place.
+Other important factors include the exciton diffusion length, charge separation and charge collection which are affected by the presence of impurities.
+
+
+=== Charge carrier mobility and transportEdit ===
+Especially for bulk heterojunction solar cells, understanding charge carrier transport is vital in improving the efficiencies of organic photovoltaics. Currently, bulk heterojunction devices have imbalanced charge-carrier mobility, with the hole mobility being at least an order of magnitude lower than that of the electron mobility; this results in space charge build-up and a decrease in the fill factor and power conversation efficiency of a device. Due to having low mobility, efficient bulk heterojunction photovoltaics have to be designed with thin active layers to avoid recombination of the charge carriers, which is detrimental to absorption and scability in processing. Simulations have demonstrated that in order to have an bulk heterojunction solar cell with a fill factor above 0.8 and external quantum efficiency above 90%, there needs to be balanced charge carrier mobility to reduce a space charge effect, as well as an increase in charge carrier mobility and/or a decrease in the bimolecular recombination rate constant.
+
+
+=== Effect of film morphologyEdit ===
+
+As described above, dispersed heterojunctions of donor-acceptor organic materials have high quantum efficiencies compared to the planar hetero-junction, because in dispersed heterojunctions it is more likely for an exciton to find an interface within its diffusion length. Film morphology can also have a drastic effect on the quantum efficiency of the device. Rough surfaces and the presence of voids can increase the series resistance and also the chance of short-circuiting. Film morphology and, as a result, quantum efficiency can be improved by annealing of a device after covering it by a ~1000 Å thick metal cathode. Metal film on top of the organic film applies stresses on the organic film, which helps to prevent the morphological relaxation in the organic film. This gives more densely packed films and at the same time allows the formation of phase-separated interpenetrating donor-acceptor interface inside the bulk of organic thin film.
+
+
+=== Controlled growth heterojunctionEdit ===
+Charge separation occurs at the donor-acceptor interface. Whilst traveling to the electrode, a charge can become trapped and/or recombine in a disordered interpenetrating organic material, resulting in decreased device efficiency. Controlled growth of the heterojunction provides better control over positions of the donor-acceptor materials, resulting in much greater power efficiency (ratio of output power to input power) than that of planar and highly disoriented hetero-junctions (as shown in Fig 5). Thus, the choice of suitable processing parameters in order to better control the structure and film morphology is highly desirable.
+
+
+=== Progress in growth techniquesEdit ===
+Mostly organic films for photovoltaic applications are deposited by spin coating and vapor-phase deposition. However each method has certain draw backs, spin coating technique can coat larger surface areas with high speed but the use of solvent for one layer can degrade the already existing polymer layer. Another problem is related with the patterning of the substrate for device as spin-coating results in coating the entire substrate with a single material.
+
+
+=== Vacuum thermal evaporationEdit ===
+
+Another deposition technique is vacuum thermal evaporation (VTE) which involves the heating of an organic material in vacuum. The substrate is placed several centimeters away from the source so that evaporated material may be directly deposited onto the substrate, as shown in Fig 6(a). This method is useful for depositing many layers of different materials without chemical interaction between different layers. However, there are sometimes problems with film-thickness uniformity and uniform doping over large-area substrates. In addition, the materials that deposit on the wall of the chamber can contaminate later depositions. This "line of sight" technique also can create holes in the film due to shadowing, which causes an increase in the device series-resistance and short circuit.
+
+
+=== Organic vapor phase depositionEdit ===
+Organic vapor phase deposition (OVPD, Fig 6(b)) allows better control of the structure and morphology of the film than vacuum thermal evaporation. The process involves evaporation of the organic material over a substrate in the presence of an inert carrier gas. The resulting film morphology can be tuned by changing the gas flow rate and the source temperature. Uniform films can be grown by reducing the carrier gas pressure, which will increase the velocity and mean free path of the gas, and as a result boundary layer thickness decreases. Cells produced by OVPD do not have issues related with contaminations from the flakes coming out of the walls of the chamber, as the walls are warm and do not allow molecules to stick to and produce a film upon them.
+Another advantage over VTE is the uniformity in evaporation rate. This occurs because the carrier gas becomes saturated with the vapors of the organic material coming out of the source and then moves towards the cooled substrate, Fig. 6(b). Depending on the growth parameters (temperature of the source, base pressure and flux of the carrier gas) the deposited film can be crystalline or amorphous in nature. Devices fabricated using OVPD show a higher short-circuit current density than that of devices made using VTE. An extra layer of donor-acceptor hetero-junction at the top of the cell may block excitons, whilst allowing conduction of electron; resulting in improved cell efficiency.
+
+
+=== Organic solar inkEdit ===
+Organic solar ink is able to deliver higher performance in fluorescent lighting conditions in comparison to amorphous silicon solar cells, and said to have a 30% to 40% increase in indoor power density in comparison to the standard organic solar technology.
+
+
+=== Use in tandem photovoltaicsEdit ===
+Recent research and study has been done in utilizing an organic solar cell as the top cell in a hybrid tandem solar cell stack. Because organic solar cells have a higher band gap than traditional inorganic photovoltaics like silicon or CIGS, they can absorb higher energy photons without losing much of the energy due to thermalization, and thus operate at a higher voltage. The lower energy photons and higher energy photons that are unabsorbed pass through the top organic solar cell and are then absorbed by the bottom inorganic cell. Organic solar cells are also solution processible at low temperatures with a low cost of 10 dollars per square meter, resulting in a printable top cell that improves the overall efficiencies of existing, inorganic solar cell technologies. Much research has been done to enable the formation of such a hybrid tandem solar cell stack, including research in the deposition of semi-transparent electrodes that maintain low contact resistance while having high transparency.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Electronic Processes in Organic Crystals and Polymers, 2 ed. by Martin Pope and Charles E. Swenberg, Oxford University Press (1999), ISBN 0-19-512963-6
+Organic Photovoltaics by Christoph Brabec, Vladimir Dyakonov, Jürgen Parisi and Niyazi Serdar Sariciftci (eds.), Springer Verlag (Berlin, 2003), ISBN 3-540-00405-X
+Organic Photovoltaics: Mechanisms, Materials, and Devices (Optical Engineering) by Sam-Shajing Sun and Niyazi Serdar Sariciftci (eds.), CRC Press (2005), ISBN 0-8247-5963-X
+Handbook of Organic Electronics and Photonics (3-Volume Set) by Hari Singh Nalwa, American Scientific Publishers. (2008), ISBN 1-58883-095-0
+Progress in Photovoltaics: Research and Applications, Volume 18, Issue 5, Solar Cell Efficiency Tables (version 36), Wiley 2010
+
+
+== External linksEdit ==
+"Electron ‘spin’ key to solar cell breakthrough" (University of Cambridge)

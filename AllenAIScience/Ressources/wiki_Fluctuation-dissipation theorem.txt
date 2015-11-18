@@ -1,0 +1,109 @@
+The fluctuation-dissipation theorem (FDT) is a powerful tool in statistical physics for predicting the behavior of systems that obey detailed balance. Given that a system obeys detailed balance, the theorem is a general proof that thermal fluctuations in a physical variable predict the response quantified by the admittance or impedance of the same physical variable, and vice versa. The fluctuation-dissipation theorem applies both to classical and quantum mechanical systems.
+The fluctuation-dissipation theorem relies on the assumption that the response of a system in thermodynamic equilibrium to a small applied force is the same as its response to a spontaneous fluctuation. Therefore, the theorem connects the linear response relaxation of a system from a prepared non-equilibrium state to its statistical fluctuation properties in equilibrium. Often the linear response takes the form of one or more exponential decays.
+The fluctuation-dissipation theorem was originally formulated by Harry Nyquist in 1928, and later proven by Herbert Callen and Theodore A. Welton in 1951.
+
+
+== Qualitative overview and examples ==
+The fluctuation-dissipation theorem says that when there is a process that dissipates energy, turning it into heat (e.g., friction), there is a reverse process related to thermal fluctuations. This is best understood by considering some examples:
+Drag and Brownian motion
+
+If an object is moving through a fluid, it experiences drag (air resistance or fluid resistance). Drag dissipates kinetic energy, turning it into heat. The corresponding fluctuation is Brownian motion. An object in a fluid does not sit still, but rather moves around with a small and rapidly-changing velocity, as molecules in the fluid bump into it. Brownian motion converts heat energy into kinetic energy—the reverse of drag.
+
+Resistance and Johnson noise
+
+If electric current is running through a wire loop with a resistor in it, the current will rapidly go to zero because of the resistance. Resistance dissipates electrical energy, turning it into heat (Joule heating). The corresponding fluctuation is Johnson noise. A wire loop with a resistor in it does not actually have zero current, it has a small and rapidly-fluctuating current caused by the thermal fluctuations of the electrons and atoms in the resistor. Johnson noise converts heat energy into electrical energy—the reverse of resistance.
+
+Light absorption and thermal radiation
+
+When light hits an object, some fraction of the light is absorbed, making the object hotter. In this way, light absorption turns light energy into heat. The corresponding fluctuation is thermal radiation (e.g., the glow of a "red hot" object). Thermal radiation turns heat energy into light energy—the reverse of light absorption. Indeed, Kirchhoff's law of thermal radiation confirms that the more effectively an object absorbs light, the more thermal radiation it emits.
+
+
+== Examples in detail ==
+The fluctuation-dissipation theorem is a general result of statistical thermodynamics that quantifies the relation between the fluctuations in a system at thermal equilibrium and the response of the system to applied perturbations.
+The model thus allows, for example, the use of molecular models to predict material properties in the context of linear response theory. The theorem assumes that applied perturbations, e.g., mechanical forces or electric fields, are weak enough that rates of relaxation remain unchanged.
+
+
+=== Brownian motion ===
+For example, Albert Einstein noted in his 1905 paper on Brownian motion that the same random forces that cause the erratic motion of a particle in Brownian motion would also cause drag if the particle were pulled through the fluid. In other words, the fluctuation of the particle at rest has the same origin as the dissipative frictional force one must do work against, if one tries to perturb the system in a particular direction.
+From this observation Einstein was able to use statistical mechanics to derive a previously unexpected connection, the Einstein-Smoluchowski relation:
+
+linking D, the diffusion constant, and μ, the mobility of the particles. (μ is the ratio of the particle's terminal drift velocity to an applied force, μ = vd / F). kB ≈ 1.38065 × 10−23 m2 kg s−2 K−1 is the Boltzmann constant, and T is the absolute temperature.
+
+
+=== Thermal noise in a resistor ===
+In 1928, John B. Johnson discovered and Harry Nyquist explained Johnson–Nyquist noise. With no applied current, the mean-square voltage depends on the resistance R, , and the bandwidth  over which the voltage is measured:
+
+
+== General formulation ==
+The fluctuation-dissipation theorem can be formulated in many ways; one particularly useful form is the following:
+Let  be an observable of a dynamical system with Hamiltonian  subject to thermal fluctuations. The observable  will fluctuate around its mean value  with fluctuations characterized by a power spectrum . Suppose that we can switch on a time-varying, spatially constant field  which alters the Hamiltonian to . The response of the observable  to a time-dependent field  is characterized to first order by the susceptibility or linear response function  of the system
+
+where the perturbation is adiabatically switched on at .
+The fluctuation-dissipation theorem relates the two-sided power spectrum of  to the imaginary part of the Fourier transform  of the susceptibility :
+
+The left-hand side describes fluctuations in , the right-hand side is closely related to the energy dissipated by the system when pumped by an oscillatory field .
+This is the classical form of the theorem; quantum fluctuations are taken into account by replacing  with  (whose limit for  is ). A proof can be found by means of the LSZ reduction, an identity from quantum field theory.
+The fluctuation-dissipation theorem can be generalized in a straightforward way to the case of space-dependent fields, to the case of several variables or to a quantum-mechanics setting.
+
+
+== Derivation ==
+We derive the fluctuation-dissipation theorem in the form given above, using the same notation. Consider the following test case: The field f has been on for infinite time and is switched off at t=0
+
+We can express the expectation value of x by the probability distribution W(x,0) and the transition probability 
+
+The probability distribution function W(x,0) is an equilibrium distribution and hence given by the Boltzmann distribution for the Hamiltonian 
+
+where . For a weak field , we can expand the right-hand side
+
+here  is the equilibrium distribution in the absence of a field. Plugging this approximation in the formula for  yields
+
+where A(t) is the auto-correlation function of x in the absence of a field:
+
+Note that in the absence of a field the system is invariant under time-shifts. We can rewrite  using the susceptibility of the system and hence find with the above equation (*)
+
+Consequently,
+
+To make a statement about frequency dependence, it is necessary to take the Fourier transform of equation (**). By integrating by parts, it is possible to show that
+
+Since  is real and symmetric, it follows that
+
+Finally, for stationary processes, the Wiener-Khinchin theorem states that the two-sided spectral density is equal to the Fourier transform of the auto-correlation function:
+
+Therefore, it follows that
+
+
+== Violations in glassy systems ==
+While the fluctuation-dissipation theorem provides a general relation between the response of equilibrium systems to small external perturbations and their spontaneous fluctuations, no general relation is known for systems out of equilibrium. Glassy systems at low temperatures, as well as real glasses, are characterized by slow approaches to equilibrium states. Thus these systems require large time-scales to be studied while they remain in disequilibrium.
+In the mid 1990s, in the study of non-equilibrium dynamics of spin glass models, a generalization of the fluctuation-dissipation theorem was discovered that holds for asymptotic non-stationary states, where the temperature appearing in the equilibrium relation is substituted by an effective temperature with a non-trivial dependence on the time scales. This relation is proposed to hold in glassy systems beyond the models for which it was initially found.
+
+
+== See also ==
+Non-equilibrium thermodynamics
+Green-Kubo relations
+Onsager reciprocal relations
+Equipartition theorem
+Boltzmann factor
+Dissipative system
+
+
+== Notes ==
+
+
+== References ==
+H. B. Callen, T. A. Welton (1951). "Irreversibility and Generalized Noise". Physical Review 83: 34. Bibcode:1951PhRv...83...34C. doi:10.1103/PhysRev.83.34. 
+L. D. Landau, E. M. Lifshitz. Physique Statistique. Cours de physique théorique 5. Mir. 
+Umberto Marini Bettolo Marconi; Andrea Puglisi; Lamberto Rondoni; Angelo Vulpiani (2008). "Fluctuation-Dissipation: Response Theory in Statistical Physics". Physics Reports 461 (4–6): 111–195. arXiv:0803.0719. Bibcode:2008PhR...461..111M. doi:10.1016/j.physrep.2008.02.002. 
+
+
+== Further reading ==
+Audio recording of a lecture by Prof. E. W. Carlson of Purdue University
+Kubo's famous text: Fluctuation-dissipation theorem
+Weber J (1956). "Fluctuation Dissipation Theorem". Physical Review 101 (6): 1620–1626. Bibcode:1956PhRv..101.1620W. doi:10.1103/PhysRev.101.1620. 
+Felderhof BU (1978). "On the derivation of the fluctuation-dissipation theorem". Journal of Mathematical Physics A 11 (5): 921–927. Bibcode:1978JPhA...11..921F. doi:10.1088/0305-4470/11/5/021. 
+Cristani A, Ritort F (2003). "Violation of the fluctuation-dissipation theorem in glassy systems: basic notions and the numerical evidence". Journal of Physics A: Mathematical and General 36 (21): R181–R290. Bibcode:2003JPhA...36..R181. doi:10.1088/0305-4470/36/21/201. 
+Chandler D (1987). Introduction to Modern Statistical Mechanics. Oxford University Press. pp. 231–265. ISBN 978-0-19-504277-1. 
+Reichl LE (1980). A Modern Course in Statistical Physics. Austin TX: University of Texas Press. pp. 545–595. ISBN 0-292-75080-3. 
+Plischke M, Bergersen B (1989). Equilibrium Statistical Physics. Englewood Cliffs, NJ: Prentice Hall. pp. 251–296. ISBN 0-13-283276-3. 
+Pathria RK (1972). Statistical Mechanics. Oxford: Pergamon Press. pp. 443, 474–477. ISBN 0-08-018994-6. 
+Huang K (1987). Statistical Mechanics. New York: John Wiley and Sons. pp. 153, 394–396. ISBN 0-471-81518-7. 
+Callen HB (1985). Thermodynamics and an Introduction to Thermostatistics. New York: John Wiley and Sons. pp. 307–325. ISBN 0-471-86256-8.

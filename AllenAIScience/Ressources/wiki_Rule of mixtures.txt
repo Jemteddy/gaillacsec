@@ -1,0 +1,50 @@
+In materials science, a general rule of mixtures is a weighted mean used to predict various properties of a composite material made up of continuous and unidirectional fibers. It provides a theoretical upper- and lower-bound on properties such as the elastic modulus, mass density, ultimate tensile strength, thermal conductivity, and electrical conductivity. In general there are two models, one for axial loading (Voigt model), and one for transverse loading (Reuss model).
+In general, for some material property  (often the elastic modulus), the rule of mixtures states that the overall property in the direction parallel to the fibers may be as high as
+
+where
+ is the volume fraction of the fibers
+ is the material property of the fibers
+ is the material property of the matrix
+In the case of the elastic modulus, this is known as the upper-bound modulus, and corresponds to loading parallel to the fibers. The inverse rule of mixtures states that in the direction perpendicular to the fibers, the elastic modulus of a composite can be as low as
+
+If the property under study is the elastic modulus, this quantity is called the lower-bound modulus, and corresponds to a transverse loading.
+
+
+== Derivation for elastic modulus ==
+
+
+=== Upper-bound modulus ===
+Consider a composite material under uniaxial tension . If the material is to stay intact, the strain of the fibers,  must equal the strain of the matrix, . Hooke's law for uniaxial tension hence gives
+
+where , , ,  are the stress and elastic modulus of the fibers and the matrix, respectively. Noting stress to be a force per unit area, a force balance gives that
+
+where  is the volume fraction of the fibers in the composite (and  is the volume fraction of the matrix).
+If it is assumed that the composite material behaves as a linear-elastic material, i.e., abiding Hooke's law  for some elastic modulus of the composite  and some strain of the composite , then equations 1 and 2 can be combined to give
+
+Finally, since , the overall elastic modulus of the composite can be expressed as
+
+
+=== Lower-bound modulus ===
+Now let the composite material be loaded perpendicular to the fibers, assuming that . The overall strain in the composite is distributed between the materials such that
+
+The overall modulus in the material is then given by
+
+since , .
+
+
+== Other properties ==
+Similar derivations give the rules of mixtures for
+mass density
+
+ultimate tensile strength
+
+thermal conductivity
+
+electrical conductivity
+
+
+== References ==
+
+
+== External links ==
+Rule of mixtures calculator

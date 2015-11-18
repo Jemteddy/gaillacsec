@@ -1,0 +1,68 @@
+Diminishing manufacturing sources and material shortages (DMSMS) or Diminishing manufacturing sources (DMS) is defined as: "The loss or impending loss of manufacturers of items or suppliers of items or raw materials." DMSMS and obsolescence are terms that are often used interchangeably. However, obsolescence refers to a lack of availability due to statutory or process changes and new designs, whereas DMSMS is a lack of sources or materials.
+
+
+== Impact ==
+Although it is not strictly limited to electronic systems much of the effort regarding DMSMS deals with electronic components that have a relatively short lifetime.
+
+
+== Causes ==
+
+
+=== Primary components ===
+DMSMS is a multifaceted problem because there are at least three main components that need to be considered. First, a primary concern is the ongoing improvement in technology. As new products are designed, the technology that was used in their predecessors becomes outdated, making it more difficult to repair the equipment. Second, the mechanical parts may be harder to acquire because fewer are produced as the demand for these parts decreases. Third, the materials required to manufacture a piece of equipment may no longer be readily available.
+
+
+=== Product life cycle ===
+
+It is widely accepted that all electronic devices are subject to the product life cycle. As products evolve into updated versions, they require parts and technology distinct from their predecessors. However, the earlier versions of the product often still need to be maintained throughout their life cycle. As the new product becomes predominant, there are fewer parts available to fix the earlier versions and the technology becomes outdated.
+According to EIA-724 there are 6 distinct phases of a product's life cycle: Introduction, Growth, Maturity, Saturation, Decline, and Phase-Out.  To the uninitiated these terms often seem abstract and odd. These terms are often used in databases covering parts life cycle so it is important to have an understanding of what they mean. Although the terms "Introduction", "Growth", and "Decline" are generally accepted without much explanation, the terms "Maturity", "Saturation", and "Phase-Out" are less obvious.
+"Maturity" in this case refers to state in the product's life cycle where sales of the product first reach its sales peak and begins to level off. Having survived the Introduction and Growth phases, products in this phase have a low probability of being discontinued.
+"Saturation" refers to a state in the product's life cycle where sales have leveled off and, towards the end of this phase, first begin to decline. The term "Saturation" is confusing to many and can be explained in reference to its equivalent in chemistry where a substance can no longer be dissolved in a liquid. A product can be said to have "saturated" its market. The decline at the end of the Saturation phase gives the first indications of the products end of life.
+"Phase-Out" refers to the final stages of a product's decline ending in the product being altogether discontinued by the supplier.
+
+
+== Mitigation ==
+DMSMS is managed through various risk mitigation efforts, both during the manufacturing of a product as well as later in the products life cycle. DMSMS is a hot topic in military supply where the usable lifetime of an electronic system may far exceed the availability of the components used to produce that system.
+Devices in phases 5 and 6 of a product's life cycle require caution on the part of designers and product support engineers to assure that system components are indeed available at the time of production.
+Some examples of the signs and symptoms of a DMSMS issue are:
+Notification of a part that will be discontinued in the future.
+A system that uses a unique part that can only be produced by a single manufacturer.
+Dwindling of parts for a system, but no replacements over time.
+Planning in a new system design that does not consider future obsolescence problems.
+A parts list that contains an end-of-life cycle part before a system has gone into production.
+The core methodology for DMSMS analysis has been to make direct contact with the supplier of an item. Direct contact takes the form of phone, e-mail or other communication with a competent supplier representative. This is essential in the management of commercial off-the-shelf products and assemblies. The main items of concern in a DMSMS analysis are:
+Is the item an active product?
+Is the item a good seller (generates good revenue for the company)?
+Is the item slated for obsolescence for any reason (e.g. replaced by a newer version)?
+
+
+=== Monitoring ===
+Other methodologies involve subscription to data services which monitor parts lists, known as a Bill of Materials (BOM), for activity on any one part in the user's list. Often both the classic methodology and the data subscription methodology will be used in conjunction to provide a more complete assessment of a part's availability and lifetime.
+
+
+=== Lifetime buy ===
+One strategy used to combat DMS is to buy additional inventory during the production run of a system or part, in quantities sufficient to cover the expected number of failures. This strategy is known as a lifetime buy. An example of this is the many 30- and 40-year-old railway locomotives being run by small operators in the United Kingdom. These operators will often buy more locomotives than they actually require, and keep a number of them stored as a source of spare parts.
+
+
+== Take action ==
+It is important and responsible to use a DMSMS risk management plan to ensure parts are available when you need them. Long range planning must occur for every key piece of equipment, establishing "when" and "what" parts will be replaced or redesigned. Try to foresee potential equipment problems. Consider replacing obsolete parts and equipment. New methods of design engineering allow for the open exchange of parts as technology changes. There are also companies out there giving assistance and consult in seminars and workshops, audits and implementation of effective DMSMS processes.
+
+
+== See also ==
+Cannibalization (parts)
+Military surplus
+Obsolescence
+Product life cycle management
+Stockout
+Supply chain management
+
+
+== Further reading ==
+Bjoern Bartels, Ulrich Ermel, Peter Sandborn and Michael G. Pecht: Strategies to the Prediction, Mitigation and Management of Product Obsolescence, 1st. Ed., John Wiley & Sons, Inc., Hoboken, New Jersey, 2012, ISBN 1-11-814064-8, online available at google books.
+
+
+== External links ==
+DMSMS Knowledge Sharing Portal
+
+
+== References ==

@@ -1,0 +1,225 @@
+A variety of types of electrical transformer are made for different purposes. Despite their design differences, the various types employ the same basic principle as discovered in 1831 by Michael Faraday, and share several key functional parts.
+
+
+== Power transformers ==
+
+
+=== Laminated core ===
+
+This is the most common type of transformer, widely used in electric power transmission and appliances to convert mains voltage to low voltage to power electronic devices. They are available in power ratings ranging from mW to MW. The insulated laminations minimizes eddy current losses in the iron core.
+Small appliance and electronic transformers may use a split bobbin, giving a high level of insulation between the windings. The rectangular cores are made up of stampings, often in E-I shape pairs, but other shapes are sometimes used. Shields between primary and secondary may be fitted to reduce EMI (electromagnetic interference), or a screen winding is occasionally used.
+Small appliance and electronics transformers may have a thermal cut out built into the winding.
+
+
+=== Toroidal ===
+
+Doughnut shaped toroidal transformers are used to save space compared to EI cores, and sometimes to reduce external magnetic field. These use a ring shaped core, copper windings wrapped round this ring (and thus threaded through the ring during winding), and tape for insulation.
+Toroidal transformers have a lower external magnetic field compared to rectangular transformers, and can be smaller for a given power rating. However, they cost more to make, as winding requires more complex and slower equipment.
+They can be mounted by a bolt through the center, using washers and rubber pads or by potting in resin.
+
+
+=== Autotransformer ===
+
+An autotransformer has one winding which is tapped at some point along the winding. Voltage is applied across a portion of the winding, and a higher (or lower) voltage is produced across another portion of the same winding. The equivalent power rating of the autotransfomer is lower than the actual load power rating. It is calculated by: load VA × (|Vin – Vout|)/Vin. For example, an auto transformer used to adapt a 1000 VA load rated at 120 Volts to a 240 Volt supply has an equivalent rating of at least: 1,000VA × (240V – 120V) / 240V = 500VA. However, the actual rating (which is what is shown on the tally plate) would have to be at least 1000 VA.
+For voltage ratios not exceeding about 3:1, an autotransformer is cheaper, lighter, smaller, and more efficient than an isolating (two-winding) transformer of the same rating. Large three-phase autotransformers are used in electric power distribution systems, for example, to interconnect 33 kV and 66 kV sub-transmission networks.
+
+
+=== Variable autotransformer ===
+
+By exposing part of the winding coils of an autotransformer, and making the secondary connection through a sliding carbon brush, an autotransformer with a near-continuously variable turns ratio can be obtained, allowing for wide voltage adjustment in very small increments.
+
+
+=== Induction regulator ===
+
+The induction regulator is similar in design to a wound-rotor induction motor but it is essentially a transformer whose output voltage is varied by rotating its secondary relative to the primary i.e. rotating the angular position of the rotor. It can be seen as a power transformer exploiting rotating magnetic fields. The major advantage of the induction regulator is that unlike variacs, they are practical for transformers over 5 kVA. Hence, such regulators find widespread use in high-voltage laboratories. 
+
+
+=== Polyphase transformer ===
+
+For polyphase systems, multiple single-phase transformers can be used, or all phases can be connected to a single polyphase transformer. For a three phase transformer, the three primary windings are connected together and the three secondary windings are connected together. Examples of connections are wye-delta, delta-wye, delta-delta and wye-wye. A vector group indicates the configuration of the windings and the phase angle difference between them. If a winding is connected to earth (grounded), the earth connection point is usually the center point of a wye winding. If the secondary is a delta winding, the ground may be connected to a center tap on one winding (high leg delta) or one phase may be grounded (corner grounded delta). A special purpose polyphase transformer is the zigzag transformer. There are many possible configurations that may involve more or fewer than six windings and various tap connections.
+
+
+=== Grounding transformer ===
+
+Grounding transformers are used to allow three wire (delta) polyphase system supplies to accommodate phase to neutral loads by providing a return path for current to a neutral. Grounding transformers most commonly incorporate a single winding transformer with a zigzag winding configuration but may also be created with a wye-delta isolated winding transformer connection.
+
+
+=== Leakage (or stray field) transformers ===
+
+A leakage transformer, also called a stray-field transformer, has a significantly higher leakage inductance than other transformers, sometimes increased by a magnetic bypass or shunt in its core between primary and secondary, which is sometimes adjustable with a set screw. This provides a transformer with an inherent current limitation due to the loose coupling between its primary and the secondary windings. The output and input currents are low enough to prevent thermal overload under all load conditions—even if the secondary is shorted.
+
+
+==== Uses ====
+Leakage transformers are used for arc welding and high voltage discharge lamps (neon lights and cold cathode fluorescent lamps, which are series connected up to 7.5 kV AC). It acts then both as a voltage transformer and as a magnetic ballast.
+Other applications are short-circuit-proof extra-low voltage transformers for toys or doorbell installations.
+
+
+=== Resonant transformer ===
+A resonant transformer is a transformer in which one or both windings has a capacitor across it and functions as a tuned circuit. Used at radio frequencies, resonant transformers can function as high Q_factor bandpass filters. The transformer windings have either air or ferrite cores and the bandwidth can be adjusted by varying the coupling (mutual inductance). One common form is the IF (intermediate frequency) transformer, used in superheterodyne radio receivers. They are also used in radio transmitters.
+Resonant transformers are also used in electronic ballasts for fluorescent lamps, and high voltage power supplies. They are also used in some types of switching power supplies. Here often only one winding has a capacitor and acts as a tank circuit. The transformer is driven by a pulse or square wave for efficiency, generated by an electronic oscillator circuit. Each pulse serves to drive resonant sinusoidal oscillations in the tuned winding, and due to resonance a high voltage can be developed across the secondary.
+Applications:
+Intermediate frequency (IF) transformer in superheterodyne radio receiver
+Tank transformers in radio transmitters
+Tesla coil
+Oudin coil (or Oudin resonator; named after its inventor Paul Oudin)
+D'Arsonval apparatus
+Ignition coil or induction coil used in the ignition system of a petrol engine
+Electrical breakdown and insulation testing of high voltage equipment and cables. In the latter case, the transformer's secondary is resonated with the cable's capacitance.
+
+
+==== Constant voltage transformer ====
+
+By arranging particular magnetic properties of a transformer core, and installing a ferro-resonant tank circuit (a capacitor and an additional winding), a transformer can be arranged to automatically keep the secondary winding voltage relatively constant for varying primary supply without additional circuitry or manual adjustment. Ferro-resonant transformers run hotter than standard power transformers, because regulating action depends on core saturation, which reduces efficiency. The output waveform is heavily distorted unless careful measures are taken to prevent this. Saturating transformers provide a simple rugged method to stabilize an AC power supply.
+
+
+=== Ferrite core ===
+Ferrite core power transformers are widely used in switched-mode power supplies (SMPSs). The powder core enables high-frequency operation, and hence much smaller size-to-power ratio than laminated-iron transformers.
+Ferrite transformers are not used as power transformers at mains frequency since laminated iron cores cost less than an equivalent ferrite core.
+
+
+==== Planar transformer ====
+
+Manufacturers etch spiral patterns on a printed circuit board to form the "windings" of a planar transformer, replacing the turns of wire used to make other types. Some planar transformers are commercially sold as discrete components. Other planar transformers are one of many components on a printed circuit board. A planar transformer can be thinner than other transformers, which is useful for low-profile applications or when several printed circuit boards are stacked. Almost all planar transformers use a ferrite planar core.
+
+
+=== Oil cooled transformer ===
+For large transformers used in power distribution or electrical substations, the core and coils of the transformer are immersed in oil which cools and insulates. Oil circulates through ducts in the coil and around the coil and core assembly, moved by convection. The oil is cooled by the outside of the tank in small ratings, and in larger ratings an air-cooled radiator is used. Where a higher rating is required, or where the transformer is used in a building or underground, oil pumps are used to circulate the oil and an oil-to-water heat exchanger may also be used. Some transformers may contain PCBs where or when its use was permitted. For example, until 1979 in South Africa. substitute fire-resistant liquids such as silicone oils are now used instead.
+
+
+=== Cast resin transformer ===
+Cast-resin power transformers encase the windings in epoxy resin. These transformers simplify installation since they are dry, without cooling oil, and so require no fire-proof vault for indoor installations. The epoxy protects the windings from dust and corrosive atmospheres. However, because the molds for casting the coils are only available in fixed sizes, the design of the transformers is less flexible, which may make them more costly if customized features (voltage, turns ratio, taps) are required.
+
+
+=== Isolating transformer ===
+An isolation transformer links two circuits magnetically, but provides no metallic conductive path between the circuits. An example application would be in the power supply for medical equipment, when it is necessary to prevent any leakage from the AC power system into devices connected to a patient. Special purpose isolation transformers may include shielding to prevent coupling of electromagnetic noise between circuits, or may have reinforced insulation to withstand thousands of volts of potential difference between primary and secondary circuits.
+
+
+== Instrument transformer ==
+
+Instrument transformers are typically used to operate instruments from high voltage lines or high current circuits, safely isolating measurement and control circuitry from the high voltages or currents. The primary winding of the transformer is connected to the high voltage or high current circuit, and the meter or relay is connected to the secondary circuit. Instrument transformers may also be used as an isolation transformer so that secondary quantities may be used without affecting the primary circuitry.
+Terminal identifications (either alphanumeric such as H1, X1, Y1, etc. or a colored spot or dot impressed in the case ) indicate one end of each winding, indicating the same instantaneous polarity and phase between windings. This applies to both types of instrument transformers. Correct identification of terminals and wiring is essential for proper operation of metering and protective relay instrumentation.
+
+
+=== Current transformer ===
+
+A current transformer (CT) is a series connected measurement device designed to provide a current in its secondary coil proportional to the current flowing in its primary. Current transformers are commonly used in metering and protective relays in the electrical power industry.
+Current transformers are often constructed by passing a single primary turn (either an insulated cable or an uninsulated bus bar) through a well-insulated toroidal core wrapped with many turns of wire. The CT is typically described by its current ratio from primary to secondary. For example, a 1000:1 CT would provide an output current of 1 amperes when 1000 amperes were passing through the primary winding. Standard secondary current ratings are 5 amperes or 1 ampere, compatible with standard measuring instruments. The secondary winding can be single ratio or have several tap points to provide a range of ratios. Care must be taken that the secondary winding is not disconnected from its low-impedance load while current flows in the primary, as this may produce a dangerously high voltage across the open secondary and may permanently affect the accuracy of the transformer.
+Specially constructed wideband CTs are also used, usually with an oscilloscope, to measure high frequency waveforms or pulsed currents within pulsed power systems. One type provides a voltage output that is proportional to the measured current. Another, called a Rogowski coil, requires an external integrator in order to provide a proportional output.
+A current clamp uses a current transformer with a split core that can be easily wrapped around a conductor in a circuit. This is a common method used in portable current measuring instruments but permanent installations use more economical types of current transformer.
+
+
+=== Potential transformer (Voltage transformer) ===
+Voltage transformers (VT) (also called potential transformers (PT)) are a parallel connected type of instrument transformer, used for metering and protection in high-voltage circuits or phasor phase shift isolation. They are designed to present negligible load to the supply being measured and to have an accurate voltage ratio to enable accurate metering. A potential transformer may have several secondary windings on the same core as a primary winding, for use in different metering or protection circuits. The primary may be connected phase to ground or phase to phase. The secondary is usually grounded on one terminal.
+There are three primary types of voltage transformers(VT): electromagnetic, capacitor, and optical. The electromagnetic voltage transformer is a wire-wound transformer. The capacitor voltage transformer uses a capacitance potential divider and is used at higher voltages due to a lower cost than an electromagnetic VT. An optical voltage transformer exploits the electrical properties of optical materials. measurement of high voltages is possible by the potential transformers. ⟨⟩
+
+
+=== Combined instrument transformer ===
+
+A combined instrument transformer encloses a current transformer and a voltage transformer in the same transformer. There are two main combined current and voltage transformer designs: oil-paper insulated and SF6 insulated. One advantage of applying this solution is reduced substation footprint, due to reduced number of transformers in a bay, supporting structures and connections as well as lower costs for civil works, transportation and installation.
+
+
+== Pulse transformer ==
+A pulse transformer is a transformer that is optimised for transmitting rectangular electrical pulses (that is, pulses with fast rise and fall times and a relatively constant amplitude). Small versions called signal types are used in digital logic and telecommunications circuits, often for matching logic drivers to transmission lines. Medium-sized power versions are used in power-control circuits such as camera flash controllers. Larger power versions are used in the electrical power distribution industry to interface low-voltage control circuitry to the high-voltage gates of power semiconductors. Special high voltage pulse transformers are also used to generate high power pulses for radar, particle accelerators, or other high energy pulsed power applications.
+To minimize distortion of the pulse shape, a pulse transformer needs to have low values of leakage inductance and distributed capacitance, and a high open-circuit inductance. In power-type pulse transformers, a low coupling capacitance (between the primary and secondary) is important to protect the circuitry on the primary side from high-powered transients created by the load. For the same reason, high insulation resistance and high breakdown voltage are required. A good transient response is necessary to maintain the rectangular pulse shape at the secondary, because a pulse with slow edges would create switching losses in the power semiconductors.
+The product of the peak pulse voltage and the duration of the pulse (or more accurately, the voltage-time integral) is often used to characterise pulse transformers. Generally speaking, the larger this product, the larger and more expensive the transformer.
+Pulse transformers by definition have a duty cycle of less than 0.5; whatever energy stored in the coil during the pulse must be "dumped" out before the pulse is fired again.
+
+
+== RF transformer ==
+There are several types of transformer used in radio frequency (RF) work. Steel laminations are not suitable for RF.
+
+
+=== Air-core transformer ===
+These are used for high frequency work. The lack of a core means very low inductance. Such transformers may be nothing more than a few turns of wire soldered onto a printed circuit board.
+
+
+=== Ferrite-core transformer ===
+Ferrite-core transformers are widely used in (intermediate frequency) (IF) stages in superheterodyne radio receivers. They are mostly tuned transformers, containing a threaded ferrite slug that is screwed in or out to adjust IF tuning. The transformers are usually canned (shielded) for stability and to reduce interference.
+
+
+=== Transmission-line transformer ===
+For radio frequency use, transformers are sometimes made from configurations of transmission line, sometimes bifilar or coaxial cable, wound around ferrite or other types of core. This style of transformer gives an extremely wide bandwidth but only a limited number of ratios (such as 1:9, 1:4 or 1:2) can be achieved with this technique.
+The core material increases the inductance dramatically, thereby raising its Q factor. The cores of such transformers help improve performance at the lower frequency end of the band. RF transformers sometimes used a third coil (called a tickler winding) to inject feedback into an earlier (detector) stage in antique regenerative radio receivers.
+In RF and microwave systems, a quarter-wave impedance transformer provides a way of matching impedances between circuits over a limited range of frequencies, using only a length of transmission line. The line may be coaxial cable, waveguide, stripline or microstripline.
+
+
+=== Balun ===
+
+Baluns are transformers designed specifically to connect between balanced and unbalanced circuits. These are sometimes made from configurations of transmission line and sometimes bifilar or coaxial cable and are similar to transmission line transformers in construction and operation.
+
+
+== Audio transformer ==
+
+Audio transformers are those specifically designed for use in audio circuits to carry audio signal. They can be used to block radio frequency interference or the DC component of an audio signal, to split or combine audio signals, or to provide impedance matching between high and low impedance circuits, such as between a high impedance tube (valve) amplifier output and a low impedance loudspeaker, or between a high impedance instrument output and the low impedance input of a mixing console. Audio transformers that operate with loudspeaker voltages and current are larger than those which operate at microphone or line level, carrying much less power.
+Being magnetic devices, audio transformers are susceptible to external magnetic fields such as those generated by AC current-carrying conductors. "Hum" is a term commonly used to describe unwanted signals originating from the "mains" power supply (typically 50 or 60 Hz). Audio transformers used for low-level signals, such as those from microphones, often include magnetic shielding to protect against extraneous magnetically coupled signals.
+
+Audio transformers were originally designed to connect different telephone systems to one another while keeping their respective power supplies isolated, and are still commonly used to interconnect professional audio systems or system components, to eliminate buzz and hum. Such transformers typically have a 1:1 ratio between the primary and the secondary. These can also be used for splitting signals, balancing unbalanced signals, or feeding a balanced signal to unbalanced equipment. Transformers are also used in DI boxes to convert high-impedance instrument signals (e.g. bass guitar) to low impedance signals to enable them to be connected to a microphone input on the mixing console.
+A particularly critical component is the output transformer of a valve amplifier. Valve circuits for quality reproduction have long been produced with no other (inter-stage) audio transformers, but an output transformer is needed to couple the relatively high impedance (up to a few hundred ohms depending upon configuration) of the output valve(s) to the low impedance of a loudspeaker. (The valves can deliver a low current at a high voltage; the speakers require high current at low voltage.) Most solid-state power amplifiers need no output transformer at all.
+Audio transformers affect the sound quality because they are non-linear. Harmonic distortion is added to the original signal, especially odd-order harmonics with an emphasis on third-order harmonics. When the incoming signal amplitude is very low there is not enough level to energize the magnetic core (see coercivity and magnetic hysteresis). When the incoming signal amplitude is very high the transformer saturates and adds ringing harmonics. Another non-linearity comes from limited frequency response. For good low-frequency response a relatively large magnetic core is required; high power handling increases the required core size. Good high-frequency response requires carefully designed and implemented windings without excessive leakage inductance or stray capacitance. All this makes for an expensive component.
+Early transistor audio power amplifiers often had output transformers, but they were eliminated as advances in semiconductors allowed the design of amplifiers with sufficiently low output impedance to drive a loudspeaker directly.
+
+
+=== Loudspeaker transformer ===
+
+In the same way that transformers are used to create high voltage power transmission circuits that minimize transmission losses, loudspeaker transformers can be used to allow many individual loudspeakers to be powered from a single audio circuit operated at higher-than normal loudspeaker voltages. This application is common in public address applications. Such circuits are commonly referred to as constant voltage speaker systems. Such systems are also known by the nominal voltage of the loudspeaker line, such as 25-, 70- and 100-volt speaker systems ( the voltage corresponding to the power rating of a speaker or amplifier). A transformer steps up the output of the system's amplifer to the distribution voltage. At the distant loudspeaker locations, a step-down transformer matches the speaker to the rated voltage of the line, so the speaker produces rated nominal output when the line is at nominal voltage. The loudspeaker transformers commonly have multiple primary taps, allowing the volume at each speaker to be adjusted in steps.
+
+
+=== Output transformer ===
+Valve (tube) amplifiers almost always use an output transformer to match the high load impedance requirement of the valves (several kilohms) to a low impedance speaker
+
+
+=== Small signal transformer ===
+Moving coil phonograph cartridges produce a very small voltage. In order for this to be amplified with a reasonable signal-noise ratio, a transformer is usually used to convert the voltage to the range of the more common moving-magnet cartridges.
+Microphones may also be matched to their load with a small transformer, which is mumetal shielded to minimise noise pickup. These transformers are less widely used today, as transistorized buffers are now cheaper.
+
+
+=== Interstage and coupling transformers ===
+In a push-pull amplifier, an inverted signal is required and can be obtained from a transformer with a center-tapped winding, used to drive two active devices in opposite phase. These phase splitting transformers are not much used today.
+
+
+== Other types ==
+
+
+=== Hedgehog ===
+Hedgehog transformers are occasionally encountered in homemade 1920s radios. They are homemade audio interstage coupling transformers.
+Enamelled copper wire is wound round the central half of the length of a bundle of insulated iron wire (e.g. florists' wire), to make the windings. The ends of the iron wires are then bent around the electrical winding to complete the magnetic circuit, and the whole is wrapped with tape or string to hold it together.
+
+
+=== Variometer and variocoupler ===
+
+A variometer is a type of continuously variable air-core RF inductor with two windings. One common form consisted of a coil wound on a short hollow cylindrical form, with a second smaller coil inside, mounted on a shaft so its magnetic axis can be rotated with respect to the outer coil. The two coils are connected in series. When the two coils are collinear, with their magnetic fields pointed in the same direction, the two magnetic fields add, and the inductance is maximum. If the inner coil is rotated so its axis is at an angle to the outer coil, the magnetic fields do not add and the inductance is less. If the inner coil is rotated so it is collinear with the outer coil but their magnetic fields point in opposite directions, the fields will cancel each other out and the inductance will be very small or zero. The advantage of the variometer is that the inductance can be adjusted continuously, over a wide range. Variometers were widely used in 1920s radio receivers. One of their main uses today is as antenna matching coils to match longwave radio transmitters to their antennas.
+The vario-coupler was a device with similar construction, but the two coils were not connected but attached to separate circuits. So it functioned as an air-core RF transformer with variable coupling. The inner coil could be rotated from 0° to 90° angle with the outer, reducing the mutual inductance from maximum to near zero.
+The pancake coil variometer was another common construction used in both 1920s receivers and transmitters. It consists of two flat spiral coils suspended vertically facing each other, hinged at one side so one could swing away from the other to an angle of 90° to reduce the coupling. The flat spiral design served to reduce parasitic capacitance and losses at radio frequencies.
+Pancake or "honeycomb" coil vario-couplers were used in the 1920s in the common Armstrong or "tickler" regenerative radio receivers. One coil was connected to the detector tube's grid circuit. The other coil, the "tickler" coil was connected to the tube's plate (output) circuit. It fed back some of the signal from the plate circuit into the input again, and this positive feedback increased the tube's gain and selectivity.
+
+
+=== Rotary transformer ===
+
+A rotary (rotatory) transformer is a specialized transformer used to couple electrical signals between two parts that rotate in relation to each other, as an alternative to slip rings which are prone to contact noise.
+
+
+== See also ==
+Three-phase
+Three-phase electric power
+Buck–boost transformer
+Tap changer
+Transformer
+Motor-generator
+
+
+== References ==
+^ "The basics of autotransformers". ECMwebs. 
+^ Donald G. Fink & H. Wayne Beatty. (1978). Standard Handbook for Electrical Engineers, 11th Edition. McGraw Hill, ISBN 0-07-020974-X pp. 10–44 and 10–45.
+^ T. J. Gallagher and A. J. Pearmain (1983): "High Voltage - Measurement, Testing and Design", ISBN 0-471-90096-6
+^ Philips PM3311 Oscilloscope service manual Section 6.2.16 [describing the switch mode power supply],"The unregulated d.c. voltage is applied in the form of pulses to a resonant transformer T1602..."
+^ "Planar Transformer on a PCB"
+^ ANSI IEEE Standard C57.12.00 General Requirements for Liquid-Immersed Distribution, Power and Regulating Transformers, 2000
+^ page 9
+^ UNEP Chemicals (1999). Guidelines for the Identification of PCBs and Materials Containing PCBs (PDF) (1). United Nations Environment Programme. p. 2. Retrieved 2007-11-07. 
+^ [1]
+^ [2]
+^ "Measurement Canada Standard Dwg. No.3400 D3 Delta Connected CTs" (PDF). MEASUREMENT CANADA. Retrieved 12 December 2012. 
+^ Network Protection & Automation, AREVA 2002
+^ "The combined transformer - an optimal solution för HV substations, p. 1" (PDF). Retrieved 9 July 2013. 
+^ "Combined instrument transformer, PVA 123, p. 2" (PDF). Retrieved 9 July 2013. 
+^ Robjohns, Hugh (February 2010). "Analogue Warmth – The Sound Of Tubes, Tape & Transformers". Sound On Sound.

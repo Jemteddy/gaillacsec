@@ -1,0 +1,36 @@
+The Punnett square is a diagram that is used to predict an outcome of a particular cross or breeding experiment. It is named after Reginald C. Punnett, who devised the approach. The diagram is used by biologists to determine the probability of an offspring having a particular genotype. The Punnett square is a tabular summary of possible combinations of maternal allele's with paternal allele.  These tables can be used to examine the genotypic outcome probabilities of the offspring of a single trait (allele), or when crossing multiple traits from the parents. The Punnett Square is a visual representation of Mendelian inheritance. It is important to understand the terms "heterozygous", "homozygous", "double heterozygote" (or homozygote), "dominant allele" and "recessive allele" when using the Punnet square method. For multiple traits, using the "forked-line method" is typically much easier than the Punnett square. Phenotypes may be assessed using a Punnet square, but the phenotype that may appear from a given genotype can be influenced by many other factors.
+
+
+== Monohybrid cross ==
+
+"Mono" means "one"; this cross indicates that we are examining a single trait being crossed. This could mean (for example) that we are looking at eye color. Each genetic locus is always represented by two letters. So in the case of eye color, say "B = Brown eyes" and "b = green eyes". In this example, both parents have the genotype Bb. For the example of eye color we stated above, this would mean they both have brown eyes. They can produce gametes that contain either the B or the b allele. (It is conventional in genetics to use capital letters to indicate dominant alleles and lower-case letters to indicate recessive alleles.) The probability of an individual offspring's having the genotype BB is 25%, Bb is 50%, and bb is 25%. The ratio of the phenotypes is 3:1, typical for a monohybrid cross. When assessing phenotype from this, "3" of the offspring will exhibit the "Brown" eyes and only one offspring will exhibit the "green" eyes. (3 are "B_" and 1 is "bb")
+(M = Maternal, P = Paternal)
+The way in which the B and b alleles interact with each other to affect the appearance of the offspring depends on how the gene products (proteins) interact (see Mendelian inheritance). This can be things like lethal effects and epistasis (where one allele masks another, regardless of dominant or recessive status).
+
+
+== Dihybrid cross ==
+
+More complicated crosses can be made by looking at two or more genes. The Punnett square works, however, only if the genes are independent of each other, which means that having a particular allele of gene "A" does not alter the probability of possessing an allele of gene "B". This is equivalent to stating that the genes are not linked, so that the two genes do not tend to sort together during meiosis.
+The following example illustrates a dihybrid cross between two double-heterozygote pea plants. R represents the dominant allele for shape (round), while r represents the recessive allele (wrinkled). A represents the dominant allele for color (yellow), while a represents the recessive allele (green). If each plant has the genotype RrAa, and since the alleles for shape and color genes are independent, then they can produce four types of gametes with all possible combinations: RA, Ra, rA, and ra.
+Since dominant traits mask recessive traits (assuming no epistasis), there are nine combinations that have the phenotype round yellow, three that are round green, three that are wrinkled yellow, and one that is wrinkled green. The ratio 9:3:3:1 is the expected outcome when crossing two double-heterozygous parents with unlinked genes. Any other ratio indicates that something else has occurred (such as lethal alleles, epistasis, linked genes...etc;).
+
+
+=== Forked-line Method ===
+The forked-line method (also known as the tree method and the branching system) can also solve dihybrid and multihybrid crosses. A problem is converted to a series of monohybrid crosses, and the results are combined in a tree. However, a tree produces the same result as a Punnett square in less time and with more clarity. The example below assesses another double-heterozygote cross using RrYy x RrYy. As state above, the phenotypic ratio is expected to be 9:3:3:1 if crossing unlinked genes from two double-heterozygotes. The genotypic ratio was obtained in the diagram below, this diagram will have more branches than if only analyzing for phenotypic ratio.
+
+
+== See also ==
+Mendelian inheritance
+
+
+== References ==
+
+
+== Further reading ==
+Campbell, Neil. Biology (7th ed.). Benjamin-Cummings Publishing Company. ISBN 978-0-8053-7146-8. OCLC 71890442. 
+
+
+== External links ==
+Online Punnett Square Calculator
+Online Punnett Square Calculator, monohybrid and dihybrid, autosomal and sex-linked
+Salman Khan's "lecture"

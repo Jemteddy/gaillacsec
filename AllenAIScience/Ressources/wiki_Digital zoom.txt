@@ -1,0 +1,23 @@
+Digital zoom is a method of decreasing the apparent angle of view of a digital photographic or video image. Digital zoom is usually accomplished by scaling portion of the image data (usually center) to have same aspect ratio as well as pixel dimensions compared to the original image. Scaling is usually done by using interpolation algorithms and they vary in different camera models. Since new image is accomplished electronically, with no adjustment of the camera's optics, no optical resolution is gained in the process. Exception is when image sensor offers more image data than needed in target image. This makes possible to have undeteriorated digital zoom (see below) or in same cases to use image oversampling. For an example PureView technology uses oversampling to produce 5 megapixel image from 41 megapixel image sensor. Resulting image has better noise characteristics compared to image taken in sensor having native resolution of 5 megapixels.
+When comparing the image quality achieved by digital zoom with image quality achieved by resizing the image in post-processing, there's a difference between cameras that perform potentially lossy image compression like JPEG and those that save images in an always lossless Raw image format. In the former case, digital zoom tends to be superior to enlargement in post-processing, because the camera may apply its interpolation before detail is lost to compression. In the latter case, resizing in post-production yields results equal or superior to digital zoom.
+Modest camera phones use only digital zoom and have no optical zoom at all. Usually compact digital cameras have an optical zoom lens, but apply digital zoom automatically once its longest optical focal length has been reached. Professional digital cameras like DSLR generally do not feature digital zoom.
+Typically Camcorders have high zoom factor. Modern camcorders have different zoom modes with different zoom factors. For an example optical zoom could have zoom factor of 20X, iZoom 50X and digital zoom 1500X.
+
+
+== Undeteriorated (optical+digital) zoom limit ==
+The optical zoom cameras can be set first before its maximum and then followed by its digital zoom in video mode only, but most of the cameras use the digital zoom after the optical zoom reach the maximum for photo and video. Digital zoom use the center area of the optical image to enlarge the image. By reducing the MP image size, using digital zoom can be done without image deterioration and some cameras has Undeteriorated image mode or at least has Image deterioration indicator.
+The table below give Undeteriorated (optical+digital) zoom limit for some MP image size of a certain camera with Optical zoom 24x and Digital zoom 4x for its maximum capability:
+Note: These lines are interpolation.
+When using digital zoom for photo, the Undeteriorated digital zoom limit is 1.3x, 1.8x and 2.25x respectively for 10MP, 5MP and 3MP, but when using VGA, the image quality is always good under Undeteriorated digital zoom limit, because the digital zoom is only maximum 4x, while the limit is 7.2x, but some cameras with 16MP have digital zoom up to 7.2x or using the capability to the edge for VGA. The table above has also shown that from 3MP jumps directly too much too VGA and this camera has no option of 2MP (1920x1080) and 1.3MP, but other cameras have it.
+When using digital zoom for video, the camera can take up to 382.6x magnification in VGA with Deteriorated image quality, and up to 172.8x with Undeteriorated image quality. But because video take multiframes per second, so between Deteriorated image quality and Undeteriorated image quality will be not much different.
+
+Nowadays cameras usually have iZoom (intelligent zoom) with usually additional magnification 2x of its optical zoom, but some cameras have 2 options: 1.4x and 2.0x. The iZoom use only center of the lens and not make any interpolation to original full resolution, so it save its good images quality (optical zoom) in reduced resolution. The terms among camera manufacturers are “Smart Zoom” (Sony), “Safe Zoom” (Canon) and “Intelligent Zoom” (Panasonic and others). There is also camera with digital zoom 7.2x and smartzoom with approximately 30x total zoom (optical zoom 20x and digital zoom 1.5x) for 7MP from 16MP total resolution and also 144x total zoom (optical zoom 20x and digital zoom 7.2x) for VGA 640x480.
+
+
+== See also ==
+Image scaling
+Teleside converter - a secondary lens made for fixed lenses that increases the focal length, uses as a filter
+Zoom lens
+
+
+== References ==

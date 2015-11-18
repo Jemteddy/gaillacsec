@@ -1,0 +1,47 @@
+In Big Bang cosmology, neutrino decoupling refers to the epoch at which neutrinos ceased interacting with baryonic matter, and thereby ceased influencing the dynamics of the universe at early times. Prior to decoupling, neutrinos were in thermal equilibrium with protons, neutrons, and electrons, which was maintained through the weak interaction. Decoupling occurred approximately at the time when the rate of those weak interactions was slower than the rate of expansion of the universe. Alternatively, it was the time when the time scale for weak interactions became greater than the age of the universe at that time. Neutrino decoupling took place approximately one second after the Big Bang, when the temperature of the universe was approximately 10 billion kelvins, or 1 MeV.
+
+
+== Derivation of decoupling time ==
+Neutrinos are scattered (interfering with free streaming) by their interactions with electrons and positrons, such as the reaction
+.
+The approximate rate of these interactions is set by the number density of electrons and positrons, the averaged product of the cross section for interaction and the velocity of the particles. The number density  of the relativistic electrons and positrons depends on the cube of the temperature , so that . The product of the cross section and velocity for weak interactions for temperatures (energies) below W/Z boson masses (~100 GeV) is given approximately by , where  is Fermi's constant (as is standard in particle physics calculations, factors of the speed of light  are set equal to 1). Putting it all together, the rate of weak interactions  is
+.
+This can be compared to the expansion rate which is given by the Hubble parameter , with
+,
+where  is the gravitational constant and  is the energy density of the universe. At this point in cosmic history, the energy density is dominated by radiation, so that . As the rate of weak interaction depends more strongly on temperature, it will fall more quickly as the universe cools. Thus when the two rates are approximately equal (dropping terms of order unity, including an effective degeneracy term which counts the number of states of particles which are interacting) gives the approximate temperature at which neutrinos decouple:
+.
+Solving for temperature gives
+.
+While this is a very rough derivation, it illustrates the important physical phenomena which determined when neutrinos decoupled.
+
+
+== Observational evidence ==
+While neutrino decoupling can not be observed directly, it is expected to have left behind a cosmic neutrino background, analogous to the cosmic microwave background radiation of visible light which was emitted at a much later epoch. "The detection of the neutrino background is far beyond the capabilities of the present generation of neutrino detectors." There is data, however, which indirectly indicates the presence of a neutrino background. One piece of evidence is damping of the angular power spectrum of the CMB, which results from anisotropies in the neutrino background.
+Another indirect measurement of neutrino decoupling is allowed by the role that neutrino decoupling plays in setting the ratio of neutrons to protons. Before decoupling, the number of neutrons and protons are maintained in their equilibrium abundances by weak interactions, specifically beta decay and electron capture (or inverse beta decay) according to
+
+and
+.
+Once the rate of weak interactions is slower than the characteristic rate of the expansion of the universe, this equilibrium cannot be maintained, and the abundance of neutrons to protons "freezes in," at a value
+.
+This value is simply found by evaluating the Boltzmann factor for neutrons and protons at decoupling time, according to
+,
+where  is the mass difference between neutrons and protons and  is the temperature at decoupling. This ratio is critical to the synthesis of atoms during Big Bang nucleosynthesis, the process which formed the majority of helium atoms in the universe, as it "is the dominant factor in determining the amount of helium produced." As helium atoms are stable, the neutrons are locked in, and beta decay of neutrons into protons, electrons, and neutrinos can no longer occur. Thus the abundance of neutrons remained essentially fixed to the present day. This abundance can be measured by astronomers, and, as it was determined by the ratio of neutrons to protons at neutrino decoupling, the helium abundance indirectly measures the temperature at which neutrino decoupling took place, and is in agreement with the figure derived above.
+
+
+== See also ==
+Timeline of the Big Bang
+
+
+== References ==
+
+
+== Bibliography ==
+Bernstein, J.; Brown, L.S. & Feinberg, G. (1989). "Cosmological helium production simplified". Reviews of Modern Physics 61 (1): 25–39. Bibcode:1989RvMP...61...25B. doi:10.1103/RevModPhys.61.25. 
+Grupen, C.; Cowan, G.; Eidelman, S. & Stroh, T. (2005). Astroparticle Physics. Springer. ISBN 978-3-540-25312-9. 
+Longair, Malcolm (2006). Galaxy Formation. Berlin: Springer. ISBN 978-3-540-73477-2. 
+Trotta, R.; Melchiorri, A. (2005). "Indication for Primordial Anisotropies in the Neutrino Background from the Wilkinson Microwave Anisotropy Probe and the Sloan Digital Sky Survey". Physical Review Letters 95 (1): 011305. arXiv:astro-ph/0412066. Bibcode:2005PhRvL..95a1305T. doi:10.1103/PhysRevLett.95.011305. PMID 16090604. 
+
+
+== External links ==
+Student notes from a UC Berkeley cosmology course (see page 16)
+Professor notes from a University of Oregon astrophysics course

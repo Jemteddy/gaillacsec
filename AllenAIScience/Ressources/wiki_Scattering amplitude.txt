@@ -1,0 +1,35 @@
+In quantum physics, the scattering amplitude is the amplitude of the outgoing spherical wave relative to the incoming plane wave in a stationary-state scattering process. The latter is described by the wavefunction
+
+where  is the position vector; ;  is the incoming plane wave with the wavenumber  along the  axis;  is the outgoing spherical wave;  is the scattering angle; and  is the scattering amplitude. The dimension of the scattering amplitude is length.
+The scattering amplitude is a probability amplitude and the differential cross-section as a function of scattering angle is given as its modulus squared
+
+In the low-energy regime the scattering amplitude is determined by the scattering length.
+
+
+== Partial wave expansion ==
+
+In the partial wave expansion the scattering amplitude is represented as a sum over the partial waves,
+,
+where fℓ is the partial scattering amplitude and Pℓ are the Legendre polynomials.
+The partial amplitude can be expressed via the partial wave S-matrix element Sℓ () and the scattering phase shift δℓ as
+
+Then the differential cross section is given by
+,
+and the total elastic cross section becomes
+,
+where Im f(0) is the imaginary part of f(0).
+
+
+== X-rays ==
+The scattering length for X-rays is the Thomson scattering length or classical electron radius, .
+
+
+== Neutrons ==
+The nuclear neutron scattering process involves the coherent neutron scattering length, often described by .
+
+
+== Quantum mechanical formalism ==
+A quantum mechanical approach is given by the S matrix formalism.
+
+
+== References ==

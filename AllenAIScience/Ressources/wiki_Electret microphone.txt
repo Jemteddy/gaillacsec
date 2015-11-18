@@ -1,0 +1,34 @@
+An electret microphone is a type of electrostatic capacitor-based microphone, which eliminates the need for a polarizing power supply by using a permanently charged material.
+An electret is a stable dielectric material with a permanently embedded static electric charge (which, due to the high resistance and chemical stability of the material, will not decay for hundreds of years). The name comes from electrostatic and magnet; drawing analogy to the formation of a magnet by alignment of magnetic domains in a piece of iron. Electrets are commonly made by first melting a suitable dielectric material such as a plastic or wax that contains polar molecules, and then allowing it to re-solidify in a powerful electrostatic field. The polar molecules of the dielectric align themselves to the direction of the electrostatic field, producing a permanent electrostatic "bias". Modern electret microphones use PTFE plastic, either in film or solute form, to form the electret.
+
+
+== History ==
+Electret materials have been known since the 1920s and were proposed as condenser microphone elements several times, but they were considered impractical until the foil electret type was invented at Bell Laboratories in 1962 by Gerhard Sessler and James West, using a thin metallized Teflon foil. This became the most common type, used in many applications from high-quality recording and lavalier use to built-in microphones in small sound recording devices and telephones.
+
+
+== Types ==
+There are three major types of electret microphone, differing in the way the electret material is used:
+Foil-type or diaphragm-type 
+A film of electret material is used as the diaphragm itself. This is the most common type, but also the lowest quality, since the electret material does not make a particularly good diaphragm.
+Back electret 
+An electret film is applied to the back plate of the microphone capsule and the diaphragm is made of an uncharged material, which may be mechanically more suitable for the transducer design being realized.
+Front electret 
+In this newer type, the back plate is eliminated from the design, and the capacitor is formed by the diaphragm and the inside surface of the capsule. The electret film is adhered to the inside front cover and the metalized diaphragm is connected to the input of the FET. It is equivalent to the back electret in that any conductive film may be used for the diaphragm.
+Unlike other condenser microphones, electret types require no polarizing voltage, but they normally contain an integrated preamplifier, which does require a small amount of power (often incorrectly called polarizing power or bias). This preamp is frequently phantom powered in sound reinforcement and studio applications. Other types simply include a 1.5 V battery in the microphone housing, which is often left permanently connected as the current drain is usually very small.
+
+
+== Notes ==
+
+
+== References ==
+Sessler, G.M.; West, J.E. (1962). "Self-biased condenser microphone with high capacitance". Journal of the Acoustical Society of America 34 (11): 1787–1788. doi:10.1121/1.1909130. 
+
+
+== External links ==
+Powering microphones
+Explanation of construction
+Rane schematic
+Integrated Circuits for High Performance Electret Microphones — Audio Engineering Society Convention Paper
+Modern electret microphones and their applications
+Apply Electret Micropohones to Voice Input Designs App Note
+Electret Microphone Amplifier Circuit with Arduino code and tutorial

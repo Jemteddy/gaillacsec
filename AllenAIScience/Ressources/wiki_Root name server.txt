@@ -1,0 +1,59 @@
+A root name server is a name server for the root zone of the Domain Name System of the Internet. It directly answers requests for records in the root zone and answers other requests by returning a list of the authoritative name servers for the appropriate top-level domain (TLD). The root name servers are a critical part of the Internet infrastructure because they are the first step in translating (resolving) human readable host names into IP addresses that are used in communication between Internet hosts.
+A combination of limits in the DNS and certain protocols, namely the practical size of unfragmented User Datagram Protocol (UDP) packets, resulted in a decision to limit the number of root servers to thirteen server addresses. The use of anycast addressing permits the actual number of root server instances to be much larger, and is 504 as of 10 October 2014.
+
+
+== Root domainEdit ==
+The Domain Name System is a hierarchical naming system for computers, services, or any resource participating in the Internet. The top of that hierarchy is the root domain. The root domain does not have a formal name and its label in the DNS hierarchy is an empty string. All fully qualified domain names (FQDNs) on the Internet can be regarded as ending with this empty string for the root domain, and therefore ending in a full stop character (the label delimiter), e.g., www.example.com.. This is generally implied rather than explicit, as modern DNS software does not actually require that the terminating dot be included when attempting to translate a domain name to an IP address.
+The root domain contains all top-level domains of the Internet. As of July 2015, it contains 1058 TLDs, including 730 generic top-level domains (gTLDs) and 301 country code top-level domains (ccTLDs) in the root domain. In addition, the ARPA domain is used for technical name spaces in the management of Internet addressing and other resources. A TEST domain is used for testing internationalized domain names.
+
+
+== Resolver operationEdit ==
+When a computer on the Internet needs to resolve a domain name, it uses resolver software to perform the lookup. A resolver breaks the name up into its labels from right to left. The first component (TLD) is queried using a root server to obtain the responsible authoritative server. Queries for each label return more specific name servers until a name server returns the answer of the original query.
+In practice, most of this information does not change very often over a period of hours and therefore it is cached by intermediate name servers or by a name cache built into the user's application. DNS lookups to the root name servers may therefore be relatively infrequent. A survey in 2003  reports that only 2% of all queries to the root servers were legitimate. Incorrect or non-existent caching was responsible for 75% of the queries, 12.5% were for unknown TLDs, 7% were for lookups using IP addresses as if they were domain names, etc. Some misconfigured desktop computers even tried to update the root server records for the TLDs. A similar list of observed problems and recommended fixes has been published in RFC 4697.
+Although any local implementation of DNS can implement its own private root name servers, the term "root name server" is generally used to describe the thirteen well-known root name servers that implement the root name space domain for the Internet's official global implementation of the Domain Name System.
+
+
+== Root server addressesEdit ==
+As of July 2015, there are 13 root name servers specified, with names in the form letter.root-servers.net, where letter ranges from A to M. This does not mean there are 13 physical servers; each operator uses redundant computer equipment to provide reliable service even if failure of hardware or software occurs. Additionally, nine of the servers operate in multiple geographical locations using a routing technique called anycast addressing, providing increased performance and even more fault tolerance.
+Ten servers were originally in the United States; some are now operated using anycast addressing. Three servers were originally located in Stockholm (I), Amsterdam (K), and Tokyo (M).
+Older servers had their own name before the policy of using similar names was established.
+The choice of thirteen name servers was made because of limitations in the original DNS specification, which specifies a maximum packet size of 512 bytes when using the User Datagram Protocol (UDP). Technically however, fourteen name servers fit into an IPv4 packet. The addition of IPv6 addresses for the root name servers requires more than 512 bytes, which is facilitated by the EDNS0 extension to the DNS standard. While only thirteen names are used for the root name servers, there are many more physical servers; A, C, E, F, G, I, J, K, L and M servers now exist in multiple locations on different continents, using anycast address announcements to provide decentralized service. As a result, most of the physical root servers are now outside the United States, allowing for high performance worldwide.
+
+There are also several alternative namespace systems with an alternative DNS root using their own set of root name servers that exist in parallel to the mainstream name servers. The first, AlterNIC, generated a substantial amount of press.
+The function of a root name server may also be implemented locally, or on a provider network. Such servers are synchronized with the official root zone file as published by ICANN, and do not constitute an alternate root.
+As the root name servers are an important part of the Internet, they have come under attack several times, although none of the attacks have ever been serious enough to severely affect the performance of the Internet.
+
+
+== Root server supervisionEdit ==
+The DNS Root Server System Advisory Committee is an ICANN committee. However, the root zone is controlled by the United States Department of Commerce who must approve all changes to the root zone file requested by ICANN. ICANN's bylaws assign authority over the operation of the root name servers of the Domain Name System to the DNS Root Server System Advisory Committee.
+
+
+== Root zone fileEdit ==
+The root zone file is a small (about 1 MB) data set whose publication is the primary purpose of root name servers.
+The root zone file is at the apex of a hierarchical distributed database called the Domain Name System (DNS). This database is used by almost all Internet applications to translate worldwide unique names like www.wikipedia.org into other identifiers such as IP addresses.
+The contents of the root zone file is a list of names and numeric IP addresses of the authoritative DNS servers for all top-level domains (TLDs) such as com, org, edu, or the country code top-level domains. As of July 2015, there were 1058 TLDs. On 12 December 2004, 773 different authoritative servers for those TLDs listed. Other name servers forward queries for which they do not have any information about authoritative servers to a root name server. The root name server, using its root zone file, answers with a referral to the authoritative servers for the appropriate TLD or with an indication that no such TLD exists.
+
+
+== See alsoEdit ==
+Distributed denial of service attacks on root nameservers
+EDNS0 (Extended DNS, version 0)
+Internet backbone
+Open Root Server Network
+Blackhole server
+
+
+== NotesEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+
+
+== External linksEdit ==
+Root Server Technical Operations Association
+ftp://ftp.internic.net/domain/
+orsn.org Open Root Server Network
+http://private.dnsstuff.com/info/roottimes.htm Root Server response times
+DNS root nameservers explained for non-experts

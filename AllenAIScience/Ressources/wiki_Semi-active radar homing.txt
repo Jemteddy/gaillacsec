@@ -1,0 +1,56 @@
+Semi-active radar homing (SARH) is a common type of missile guidance system, perhaps the most common type for longer-range air-to-air and surface-to-air missile systems. The name refers to the fact that the missile itself is only a passive detector of a radar signal – provided by an external (“offboard”) source — as it reflects off the target(in contrast to active radar homing, which uses an active radar: transceiver). Semi-active missile systems use bistatic continuous-wave radar.
+The NATO brevity code for a semi-active radar homing missile launch is Fox One.
+
+
+== ConceptEdit ==
+
+The basic concept of SARH is that since almost all detection and tracking systems consist of a radar system, duplicating this hardware on the missile itself is redundant. The weight of a transmitter reduces the range of any flying object, so passive systems have greater reach. In addition, the resolution of a radar is strongly related to the physical size of the antenna, and in the small nose cone of a missile there isn't enough room to provide the sort of accuracy needed for guidance. Instead the larger radar dish on the ground or launch aircraft will provide the needed signal and tracking logic, and the missile simply has to listen to the signal reflected from the target and point itself in the right direction. Additionally, the missile will listen rearward to the launch platform's transmitted signal as a reference, enabling it to avoid some kinds of radar jamming distractions offered by the target.
+The SARH system determines the closing velocity using the flight path geometry shown in Figure 1. The closing velocity is used to set the frequency location for the CW receive signal shown at the bottom of the diagram (spectrum). Antenna offset angle of the missile antenna is set after the target is acquired by the missile seeker using the spectrum location set using closing speed. The missile seeker antenna is a monopulse radar receiver that produces angle error measurements using that fixed position. Flight path is controlled by producing navigation input to the steering system (tail fins or gimbaled rocket) using angle errors produced by the antenna. This steers the body of the missile to hold the target near the centerline of the antenna while the antenna is held in a fixed position. The offset angle geometry is determined by flight dynamics using missile speed, target speed, and separation distance.
+Techniques are nearly identical using jamming signals, optical guidance video, and infra-red radiation for homing.
+Maximum range is increased in SARH systems using navigation data in the homing vehicle to increase the travel distance before antenna tracking is needed for terminal guidance. Navigation relies on acceleration data, gyroscopic data, and global positioning data. This maximizes distance by minimizing corrective maneuvers that waste flight energy.
+Contrast this with beam riding systems, like the RIM-8 Talos, in which the radar is pointed at the target and the missile keeps itself centered in the beam by listening to the signal at the rear of the missile body. In the SARH system the missile listens for the reflected signal at the nose, and is still responsible for providing some sort of “lead” guidance. The disadvantages of beam riding are twofold: One is that a radar signal is “fan shaped”, growing larger, and therefore less accurate, with distance. This means that the beam riding system is not accurate at long ranges, while SARH is largely independent of range and grows more accurate as it approaches the target, or the source of the reflected signal it listens for. Reduced accuracy means the missile must use a very large warhead to be effective (i.e.: nuclear). Another requirement is that a beam riding system must accurately track the target at high speeds, typically requiring one radar for tracking and another “tighter” beam for guidance.
+The SARH system needs only one radar set to a wider pattern.
+
+
+== Continuous-wave radarEdit ==
+
+Modern SARH systems use continuous-wave radar (CW radar) for guidance. Even though most modern fighter radars are pulse Doppler sets, most have a CW function to guide radar missiles. A few Soviet aircraft, such as some versions of the MiG-23 and MiG-27, used an auxiliary guidance pod or aerial to provide a CW signal. The Vympel R-33 AA missile for MiG-31 interceptor uses SARH as the main type of guidance (with supplement of inertial guidance on initial stage).
+SARH missiles require tracking radar to acquire the target, and a more narrowly focused illuminator radar to "light up" the target in order for the missile to lock on to the radar return reflected off target. The target must remain illuminated for the entire duration of the missile's flight. This could leave the launch aircraft vulnerable to counterattack, as well as giving the target's electronic warning systems time to detect the attack and engage countermeasures. Because most SARH missiles require guidance during their entire flight, older radars are limited to one target per radar emitter at a time.
+The maximum range of a SARH system is determined by energy density of the transmitter. Increasing transmit power can increase energy density. Reducing the noise bandwidth of the transmitter can also increase energy density. Spectral density matched to the receive radar detection bandwidth is the limiting factor for maximum range.
+
+
+== Electronic counter-countermeasure (ECCM)Edit ==
+
+Recent-generation SARH weapons have superior electronic counter-countermeasure (ECCM) capability, but the system still has fundamental limitations. Some newer missiles, such as the SM-2, incorporate terminal semi-active radar homing (TSARH). TSARH missiles use inertial guidance for most of their flight, only activating their SARH system for the final attack. This can keep the target from realising it is under attack until shortly before the missile strikes. Since the missile only requires guidance during the terminal phase, each radar emitter can be used to engage more targets. Some of these weapons, like the SM-2, allow the firing platform to update the missile with mid-course updates via datalink.
+One of the more effective methods used to defeat semi-active homing radar are flying techniques. This depends upon the pilot knowing that a missile has been launched. The global positioning system allows a missile to reach the predicted intercept with no datalink, greatly increasing lethality by postponing illumination for most of the missile flight. The pilot is unaware that a launch has occurred, so flying techniques become almost irrelevant. One difficulty is testing, because this feature creates public safety risks if a fault prevents datalink self-destruct signals when a missile is heading in the wrong direction. Most coastlines are heavily populated, so this risk exists at test centers for sea based systems that are near the coastlines.
+Pacific Missile Range Facility
+Naval Air Warfare Center, Weapon Division, Point Mugu, China Lake
+Atlantic Test Ranges
+
+
+== Combat recordEdit ==
+The combat record of U.S. SARH missiles was unimpressive during the Vietnam War. USAF and US Navy fighters armed with AIM-7 Sparrow attained a success rate of barely 10%, which tended to amplify the effect of deleting the gun on most F-4 Phantoms, which carried 4 Sparrows. Some of the failures were attributable to mechanical failure of 1960s-era electronics, which could be disturbed by pulling a cart over uneven pavement, or pilot error; the intrinsic accuracy of these weapons was low relative to Sidewinder and guns.
+Since Desert Storm, most F-15 Eagle combat victories have been scored with the Sparrow at beyond visual range. Similar performance has been achieved with the sea-launched Standard Missile.
+Soviet systems using SARH have achieved a number of notable successes, notably in the Yom Kippur War, where 2K12/SA-6 tactical SAM systems were able to effectively deny airspace to the IAF. Kub also shot down an F-16 in the Bosnian War.
+SARH is a commonly used modern missile guidance methodology, used in multiple missile systems, such as:
+RIM-8 Talos
+RIM-66 Standard
+RIM-174 Standard ERAM
+AIM-7 Sparrow
+RIM-7 Sea Sparrow
+RIM-162 ESSM
+Buk missile system
+SA-6 Gainful
+S-200
+S-300
+S-400
+R-23
+R-33
+R-27R
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Active and semi-active radar missile guidance

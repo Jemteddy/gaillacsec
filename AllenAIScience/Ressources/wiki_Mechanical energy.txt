@@ -1,0 +1,65 @@
+In the physical sciences, mechanical energy is the sum of potential energy and kinetic energy. It is the energy associated with the motion and position of an object. The principle of conservation of mechanical energy states that in an isolated system that is only subject to conservative forces the mechanical energy is constant. If an object is moved in the opposite direction of a conservative net force, the potential energy will increase and if the speed (not the velocity) of the object is changed, the kinetic energy of the object is changed as well. In all real systems, however, non-conservative forces, like frictional forces, will be present, but often they are of negligible values and the mechanical energy's being constant can therefore be a useful approximation. In elastic collisions, the mechanical energy is conserved but in inelastic collisions, some mechanical energy is converted into heat. The equivalence between lost mechanical energy (dissipation) and an increase in temperature was discovered by James Prescott Joule.
+Many modern devices, such as the electric motor or the steam engine, are used today to convert mechanical energy into other forms of energy, e.g. electrical energy, or to convert other forms of energy, like heat, into mechanical energy.
+
+
+== General ==
+Energy is a scalar quantity and the mechanical energy of a system is the sum of the potential energy which is measured by the position of the parts of the system, and the kinetic energy which is also called the energy of motion:
+
+The potential energy, U, depends on the position of an object subjected to a conservative force. It is defined as the object's ability to do work and is increased as the object is moved in the opposite direction of the direction of the force. If F represents the conservative force and x the position, the potential energy of the force between the two positions x1 and x2 is defined as the negative integral of F from x1 to x2:
+
+The kinetic energy, K, depends on the speed of an object and is the ability of a moving object to do work on other objects when it collides with them. It is defined as one half the product of the object's mass with the square of its speed, and the total kinetic energy of a system of objects is the sum of the kinetic energies of the respective objects:
+
+The principle of conservation of mechanical energy states that if a body or system is subjected only to conservative forces, the mechanical energy of that body or system remains constant. The difference between a conservative and a non-conservative force is that when a conservative force moves an object from one point to another, the work done by the conservative force is independent of the path. On the contrary, when a non-conservative force acts upon an object, the work done by the non-conservative force is dependent of the path.
+
+
+== Conservation of mechanical energy ==
+
+According to the principle of conservation of mechanical energy, the mechanical energy of an isolated system remains constant in time, as long as the system is free of friction and other non-conservative forces. In any real situation, frictional forces and other non-conservative forces are present, but in many cases their effects on the system are so small that the principle of conservation of mechanical energy can be used as a fair approximation. Though energy cannot be created or destroyed in an isolated system, it can be converted to another form of energy.
+
+
+=== Swinging pendulum ===
+
+Thus, in a mechanical system like a swinging pendulum subjected to the conservative gravitational force where frictional forces like air drag and friction at the pivot are negligible, energy passes back and forth between kinetic and potential energy but never leaves the system. The pendulum reaches greatest kinetic energy and least potential energy when in the vertical position, because it will have the greatest speed and be nearest the Earth at this point. On the other hand, it will have its least kinetic energy and greatest potential energy at the extreme positions of its swing, because it has zero speed and is farthest from Earth at these points. However, when taking the frictional forces into account, the system loses mechanical energy with each swing because of the work done by the pendulum to oppose these non-conservative forces.
+
+
+=== Irreversibilities ===
+
+That the loss of mechanical energy in a system always resulted in an increase of the system's temperature has been known for a long time, but it was the amateur physicist James Prescott Joule who first experimentally demonstrated how a certain amount of work done against friction resulted in a definite quantity of heat which should be conceived as the random motions of the particles that comprise matter. This equivalence between mechanical energy and heat is especially important when considering colliding objects. In an elastic collision, mechanical energy is conserved — the sum of the mechanical energies of the colliding objects is the same before and after the collision. After an inelastic collision, however, the mechanical energy of the system will have changed. Usually, the mechanical energy before the collision is greater than the mechanical energy after the collision. In inelastic collisions, some of the mechanical energy of the colliding objects is transformed into kinetic energy of the constituent particles. This increase in kinetic energy of the constituent particles is perceived as an increase in temperature. The collision can be described by saying some of the mechanical energy of the colliding objects has been converted into an equal amount of heat. Thus, the total energy of the system remains unchanged though the mechanical energy of the system has reduced.
+
+
+=== Satellite ===
+
+A satellite of mass  at a distance  from the centre of Earth possesses both kinetic energy, , (by virtue of its motion) and gravitational potential energy, , (by virtue of its position within the Earth’s gravitational field; Earth's mass is ). Hence, mechanical energy  of a satellite is given by
+
+If the satellite is in circular orbit, the energy conservation equation can be further simplified into
+
+since in circular motion, Newton's 2nd Law of motion can be taken to be
+
+
+== Conversion ==
+Today, many technological devices convert mechanical energy into other forms of energy or vice versa. These devices can be placed in these categories:
+An electric motor converts electrical energy into mechanical energy.
+A generator converts mechanical energy into electrical energy.
+A hydroelectric powerplant converts the mechanical energy of water in a storage dam into electrical energy.
+An internal combustion engine is a heat engine that obtains mechanical energy from chemical energy by burning fuel. From this mechanical energy, the internal combustion engine often generates electricity.
+A steam engine converts the heat energy of steam into mechanical energy.
+A turbine converts the kinetic energy of a stream of gas or liquid into mechanical energy.
+
+
+== Distinction from other types ==
+The classification of energy into different types often follows the boundaries of the fields of study in the natural sciences.
+Chemical energy is the kind of potential energy "stored" in chemical bonds and is studied in chemistry.
+Nuclear energy is energy stored in interactions between the particles in the atomic nucleus and is studied in nuclear physics.
+Electromagnetic energy is in the form of electric charges, magnetic fields, and photons. It is studied in electromagnetism.
+Various forms of energy in quantum mechanics; e.g., the energy levels of electrons in an atom.
+
+
+== References ==
+Notes
+
+Citations
+
+Bibliography
+Brodie, David; Brown, Wendy; Heslop, Nigel; Ireson, Gren; Williams, Peter (1998). Terry Parkin, eds. Physics. Addison Wesley Longman Limited. ISBN 978-0-582-28736-5.  
+Jain, Mahesh C. (2009). Textbook of Engineering Physics, Part I. New Delhi: PHI Learning Pvt. Ltd. ISBN 978-81-203-3862-3. Retrieved 2011-08-25. 
+Newton, Isaac (1999). I. Bernard Cohen, Anne Miller Whitman, eds. The Principia: mathematical principles of natural philosophy. United States of America: University of California Press. ISBN 978-0-520-08816-0.

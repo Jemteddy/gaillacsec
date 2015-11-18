@@ -1,0 +1,49 @@
+RNA polymerase 7 (also known as Pol I) is, in higher eukaryotes, the polymerase that only transcribes ribosomal RNA (but not 5S rRNA, which is synthesized by RNA polymerase III), a type of RNA that accounts for over 50% of the total RNA synthesized in a cell.
+
+
+== Structure and function ==
+Pol I is a 590 kDa enzyme that consists of 14 protein subunits (polypeptides), and its crystal structure in the yeast Saccharomyces cerevisiae was solved at 2.8Å resolution in 2013. Twelve of its subunits have identical or related counterparts in RNA polymerase II (Pol II) and RNA polymerase III (Pol III). The other two subunits are related to Pol II initiation factors and have structural homologues in Pol III.
+Ribosomal DNA transcription is confined to the nucleolus, where about 400 copies of the 32-kb rDNA gene are present, arranged as tandem repeats in nucleolus organizer regions. Each copy contains a ~13.3 kb sequence encoding the 18S, the 5.8S, and the 28S RNA molecules, interlaced with two internal transcribed spacers, ITS1 and ITS2, and flanked upstream by a 5' external transcribed spacer and a downstream 3' external transcribed spacer. The transcripts are then post-transcriptionally cleaved by C/D box and H/ACA box snoRNAs, removing the two spacers and resulting in the three rRNAs by a complex series of steps. The 5S ribosomal RNA is transcribed by Pol III. Because of the simplicity of Pol I transcription, it is the fastest-acting polymerase and contributes up to 60% of cellular transcription levels in exponentially growing cells.
+In Saccharomyces cerevisiae, the 5S rDNA has the unusual feature of lying inside the rDNA repeat. It is flanked by non-transcribed spacers NTS1 and NTS2, and is transcribed backwards by Pol III, separately from the rest of the rDNA.
+
+
+== Regulation of rRNA transcription ==
+The rate of cell growth is directly dependent on the rate of protein synthesis, which is itself intricately linked to ribosome synthesis and rRNA transcription. Thus, intracellular signals must coordinate the synthesis of rRNA with that of other components of protein translation. Myc is known to bind to human ribosomal DNA in order to stimulate rRNA transcription by RNA polymerase I. Two specific mechanisms have been identified, ensuring proper control of rRNA synthesis and Pol I-mediated transcription.
+Given the large numbers of rDNA genes (several hundreds) available for transcription, the first mechanism involves adjustments in the number of genes being transcribed at a specific time. In mammalian cells, the number of active rDNA genes varies between cell types and level of differentiation. In general, as a cell becomes more differentiated, it requires less growth and, therefore, will have a decrease in rRNA synthesis and a decrease in rDNA genes being transcribed. When rRNA synthesis is stimulated, SL1 (selectivity factor 1) will bind to the promoters of rDNA genes that were previously silent, and recruit a pre-initiation complex to which Pol I will bind and start transcription of rRNA.
+Changes in rRNA transcription can also occur via changes in the rate of transcription. While the exact mechanism through which Pol I increases its rate of transcription is as yet unknown, evidence has shown that rRNA synthesis can increase or decrease without changes in the number of actively transcribed rDNA.
+
+
+== RNA polymerase I transcription cycle ==
+In the process of transcription (by any polymerase), there are three main stages:
+Initiation: the construction of the RNA polymerase complex on the gene's promoter with the help of transcription factors
+Elongation: the actual transcription of the majority of the gene into a corresponding RNA sequence
+Termination: the cessation of RNA transcription and the disassembly of the RNA polymerase complex.
+
+
+=== Initiation ===
+Pol I requires no TATA box in the promoter, instead relying on an upstream control element (UCE) located between -200 and -107, and a core element located between -45 and +20.
+The dimeric eukaryotic upstream binding factor (UBF) binds the UCE and the core element.
+UBF recruits and binds a protein complex called SL1 in humans (or TIF-IB in mouse), composed of the TATA-binding protein (TBP) and three TBP-associated factors (TAFs).
+The UBF dimer contains several high-mobility-group boxes (HMG-boxes) that introduce loops into the upstream region, allowing the UCE and the core elements to come into contact.
+RRN3/TIF-IA is phosphorylated and binds Pol I.
+Pol I binds to the UBF/SL1 complex via RRN3/TIF-IA, and transcription starts.
+Note that this process is variable in different organisms.
+
+
+=== Elongation ===
+As Pol I escapes and clears the promoter, UBF and SL1 remain-promoter bound, ready to recruit another Pol I. Indeed, each active rDNA gene can be transcribed multiple times simultaneously, as opposed to Pol II-transcribed genes, which associate with only one complex at a time. While elongation proceeds unimpeded in vitro, it is unclear at this point whether this process happens in a cell, given the presence of nucleosomes. Pol I does seem to transcribe through nucleosomes, either bypassing or disrupting them, perhaps assisted by chromatin-remodeling activities. In addition, UBF might also act as positive feedback, enhancing Pol I elongation through an anti-repressor function. An additional factor, TIF-IC, can also stimulate the overall rate of transcription and suppress pausing of Pol I. As Pol I proceeds along the rDNA, supercoils form both ahead of and behind the complex. These are unwound by topoisomerase I or II at regular intervals, similar to what is seen in Pol II-mediated transcription.
+Elongation is likely to be interrupted at sites of DNA damage. Transcription-coupled repair occurs similarly to Pol II-transcribed genes and requires the presence of several DNA repair proteins, such as TFIIH, CSB, and XPG.
+
+
+=== Termination ===
+In higher eukaryotes, TTF-I binds and bends the termination site at the 3' end of the transcribed region. This will force Pol I to pause. TTF-I, with the help of transcript-release factor PTRF and a T-rich region, will induce Pol I into terminating transcription and dissociating from the DNA and the new transcript. Evidence suggests that termination might be rate-limiting in cases of high rRNA production. TTF-I and PTRF will then indirectly stimulate the reinitiation of transcription by Pol I at the same rDNA gene. In organisms such as budding yeast the process seems to be much more complicated and is still not completely elucidated.
+
+
+== See also ==
+RNA polymerase
+RNA polymerase II
+RNA polymerase III
+Selective factor 1
+
+
+== References ==

@@ -1,0 +1,90 @@
+Serial presence detect (SPD) is a standardized way to automatically access information about a computer memory module. Earlier 72-pin SIMMs included five pins that provided 5 bits of parallel presence detect (PPD) data, but the 168-pin DIMM standard changed to a serial presence detect to encode much more information.
+When an ordinary modern computer is turned on, it starts by doing a power-on self-test (POST). Since about the mid-1990s, this process includes automatically configuring the hardware currently present. SPD is a memory hardware feature that makes it possible for the computer to know what memory is present, and what timings to use to access the memory.
+Some computers adapt to hardware changes completely automatically. In most cases, there is a special optional procedure for accessing BIOS parameters, to view and potentially make changes in settings. It may be possible to control how the computer uses the memory SPD data—to choose settings, selectively modify memory timings, or possibly to completely over-ride the SPD data (see overclocking).
+
+
+== Stored information ==
+For a memory module to support SPD, the JEDEC standards require that certain parameters be in the lower 128 bytes of an EEPROM located on the memory module. These bytes contain timing parameters, manufacturer, serial number and other useful information about the module. This data allows a device utilizing the memory to automatically determine key parameters of the module. For example, the SPD data on an SDRAM module might provide information about the CAS latency so the system can set this correctly without user intervention.
+The SPD EEPROM is accessed using SMBus, a variant of the I²C protocol. This reduces the number of communication pins on the module to just two: a clock signal and a data signal. The EEPROM shares ground pins with the RAM, has its own power pin, and has three additional pins (SA0–2) to identify the slot, which are used to assign the EEPROM a unique address in the range 0x50–0x57. Not only can the communication lines be shared among 8 memory modules, the same SMBus is commonly used on motherboards for system health monitoring tasks such as reading power supply voltages, CPU temperatures, and fan speeds.
+(SPD EEPROMs also respond to I²C addresses 0x30–0x37 if they have not been write protected, and an extension uses addresses 0x18–0x1F to access an optional on-chip temperature sensor.)
+
+
+=== SDR SDRAM ===
+
+The first SPD specification was issued by JEDEC and tightened up by Intel as part of its PC100 memory specification. Most values specified are in binary coded decimal form. The most significant nibble can contain values from 10 to 15, and in some cases extends higher. In such cases, the encodings for 1, 2 and 3 are instead used to encode 16, 17 and 18. A most significant nibble of 0 is reserved to represent "undefined".
+The SPD ROM defines up to three DRAM timings, for three CAS latencies specified by set bits in byte 18. First comes the highest CAS latency (fastest clock), then two lower CAS latencies with progressively lower clock speeds.
+
+
+=== DDR SDRAM ===
+The DDR DIMM SPD format is an extension of the SDR SDRAM one. Mostly, parameter ranges are rescaled to accommodate higher speeds.
+
+
+=== DDR2 SDRAM ===
+The DDR2 SPD standard makes a number of changes, but is roughly similar to the above. One notable deletion is the confusing and little-used support for DIMMs with two ranks of different sizes.
+For cycle time fields (bytes 9, 23, 25 and 49), which are encoded in BCD, some additional encodings are defined for the tenths digit to represent some common timings exactly:
+
+
+=== DDR3 SDRAM ===
+The DDR3 SDRAM standard significantly overhauls and simplifies the SPD contents layout. Instead of a number of BCD-encoded nanosecond fields, some "timebase" units are specified to high precision, and various timing parameters are encoded as multiples of that base unit. Further, the practice of specifying different time values depending on the CAS latency has been dropped; now there are just a single set of timing parameters.
+Revision 1.1 lets some parameters be expressed as a "medium time base" value plus a (signed, −128 +127) "fine time base" correction. Generally, the medium time base is 1/8 ns (125 ps), and the fine time base is 1, 2.5 or 5 ps. For compatibility with earlier versions that lack the correction, the medium time base number is usually rounded up and the correction is negative. Values that work this way are:
+The memory capacity of a module can be computed from bytes 4, 7 and 8. The module width (byte 8) divided by the number of bits per chip (byte 7) gives the number of chips per rank. That can then be multiplied by the per-chip capacity (byte 4) and the number of ranks of chips on the module (usually 1 or 2, from byte 7).
+
+
+== Extensions ==
+The JEDEC standard only specifies some of the SPD bytes. The truly critical data fits into the first 64 bytes, while some of the remainder is earmarked for manufacturer identification. However, a 256-byte EEPROM is generally provided. A number of uses have been made of the remaining space.
+
+
+=== Enhanced Performance Profiles (EPP) ===
+Memory generally comes with conservative timing recommendations in the SPD ROM, to ensure basic functionality on all systems. Enthusiasts often spend considerable time manually adjusting the memory timings for higher speed.
+Enhanced Performance Profiles is an extension of SPD, developed by Nvidia and Corsair, which includes additional information for higher-performance operation of DDR2 SDRAM, including supply voltages and command timing information not included in the JEDEC SPD spec. The EPP information is stored in the same EEPROM, but in bytes 99-127, which are unused by standard DDR2 SPD.
+The parameters are particularly designed to fit the memory controller on the nForce 5, nForce 6 and nForce 7 chipsets. Nvidia encourages support for EPP in the BIOS for its high-end motherboard chipsets. This is intended to provide "one-click overclocking" to get better performance with minimal effort.
+Nvidia's name for EPP memory that has been qualified for performance and stability is "SLI-ready memory". The term "SLI-ready-memory" has caused some confusion, as it has nothing to do with SLI video. One can use EPP/SLI memory with a single video card (even a non-Nvidia card), and one can run a multi-card SLI video setup without EPP/SLI memory.
+An extended version, EPP 2.0, supports DDR3 memory as well.
+
+
+=== Extreme Memory Profile (XMP) ===
+A similar, Intel-developed JEDEC SPD extension for DDR3 SDRAM DIMMs. This uses bytes 176–255, which are unallocated by JEDEC, to encode higher-performance memory timings.
+The header contains the following data. Most importantly, it contains a "medium timebase" value MTB, as a rational number of nanoseconds (common values are 1/8, 1/12 and 1/16 ns). Many other later timing values are expressed as an integer number of MTB units.
+Also included in the header is the number of DIMMS per memory channel that the profile is designed to support; including more DIMMS may not work well.
+
+
+=== Vendor-specific memory ===
+A common misuse is to write information to certain memory regions to bind vendor-specific memory modules to a specific system. Fujitsu Technology Solutions is known to do this. Adding different memory module to the system usually results in a refusal or other counter-measures (like pressing F1 on every boot).
+
+02 0E 00 01-00 00 00 EF-02 03 19 4D-BC 47 C3 46 ...........M.G.F
+53 43 00 04-EF 4F 8D 1F-00 01 70 00-01 03 C1 CF SC...O....p.....
+
+This is the output of a 512 MB memory module from Micron Technologies, branded for Fujitsu-Siemens Computers, note the "FSC" string. The system BIOS rejects memory modules that don't have this information starting at offset 128h.
+
+
+== Reading and writing SPD information ==
+Memory module manufacturers write the SPD information to the EEPROM on the module. Motherboard BIOSes read the SPD information to configure the memory controller. There exist several programs that are able to read and modify SPD information on most, but not all motherboard chipsets.
+dmidecode program that can decode information about memory (and other things) and runs on Linux, FreeBSD, NetBSD, OpenBSD, BeOS, Cygwin and Solaris. dmidecode does not access SPD information directly; it reports the BIOS data about the memory. This information may be limited or incorrect.
+On Linux systems, the user space program decode-dimms provided with i2c-tools  decodes and prints information on any memory with SPD information in the computer. It requires SMBus controller support in the kernel, the EEPROM kernel driver, and also that the SPD EEPROMs are connected to the SMBus. On older Linux distributions, decode-dimms.pl was available as part of lm_sensors.
+OpenBSD has included a driver (spdmem(4)) since version 4.3 to provide information about memory modules. The driver was ported from NetBSD, where it is available since release 5.0.
+Coreboot reads and uses SPD information to initialize all memory controllers in a computer with timing, size and other properties.
+Windows systems use programs like HWiNFO32, CPU-Z and Speccy, which can read and display DRAM module information from SPD.
+Chipset-independent reading and writing of SPD information is done by accessing the memory's EEPROM directly with eeprom programmer hardware and software.
+A not so common use for old laptops is as generic SMBus readers, as the internal EEPROM on the module can be disabled once the BIOS has read it so the bus is essentially available for use. The method used is to pull low the A0,A1 lines so the internal memory shuts down, allowing the external device to access the SMBus. Once this is done, a custom Linux build or DOS application can then access the external device. A common use is recovering data from LCD panel memory chips to retrofit a generic panel into a proprietary laptop and also as a generic 24C0x/34C0x reader. This approach has been confirmed to work by A de Guerin using the Acer Extensa 5220/5630 series as these can both write and read DDR2 SPD chips using spdtool in Windows 7 x32 or x64 editions. As an interesting aside shorting A0 and A1 on an otherwise unresponsive laptop with two near identical memory modules during initial power-up sometimes allows it to boot so the data can be rewritten.
+
+
+== On older equipment ==
+Some older equipment require the use of SIMMs with parallel presence detect (more commonly called simply presence detect or PD). Some of this equipment uses non-standard PD coding, IBM computers and Hewlett-Packard LaserJet and other printers in particular. While old computers are rarely found, many old Laserjet printers are in use. Discontinued HP memory modules are officially recommended, but any 72-pin SIMM module within the capacity range supported by the printer and with the correct PD code should work. All printers work with FPM (Fast Page Mode) memory. Some, but not all, work with EDO memory. It is fairly easy to solder wires to the PD pins to make non-HP modules work. HP printers of this type require RAM with an access time of 70 ns or slower. This is likely due to a limitation of the encoding in the PD data. Faster RAM can be used, but the PD encoded data should indicate a speed of 70 ns.
+
+
+== See also ==
+Transducer electronic data sheet
+
+
+== References ==
+
+
+== External links ==
+Serial Presence Detect Standard, General Standard
+SPD Rev1.0 for DDR SDRAM
+SPD Rev1.2 for DDR2 SDRAM
+SPD Rev1.3 for DDR2 SDRAM
+SPECIALITY DDR2-1066 SDRAM
+Linux package i2c-tools
+Instructions on how to use lm-sensors or i2c-tools to read the data
+Memory Performance: 16GB DDR3-1333 to DDR3-2400 on Ivy Bridge IGP with G.Skill –  explanation of various timing values

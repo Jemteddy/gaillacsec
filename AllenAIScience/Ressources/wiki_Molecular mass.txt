@@ -1,0 +1,37 @@
+Molecular mass or molecular weight is the mass of a molecule. It is calculated as the sum of the mass of each constituent atom multiplied by the number of atoms of that element in the molecular formula. The molecular mass of small to medium size molecules, measured by mass spectrometry, determines stoichiometry. For large molecules such as proteins, methods based on viscosity and light-scattering can be used to determine molecular mass when crystallographic data are not available.
+
+
+== Definitions ==
+Both atomic and molecular masses are usually obtained relative to the mass of the isotope 12C (carbon 12), which by definition is equal to 12. For example, the molecular weight of methane, whose molecular formula is CH4, is calculated as follows.
+A more proper term would be "relative molecular mass". However the adjective 'relative' is omitted as it is universally assumed that atomic and molecular masses are relative to the mass of 12C. Relative atomic and molecular mass values are dimensionless but are given the "unit" Dalton (formerly atomic mass unit) to indicate that the number is equal to the mass of one molecule divided by 1⁄12 of the mass of one atom of 12C. The mass of 1 mol of substance is designated as molar mass. By definition, it has the unit gram.
+In the example above the atomic weight of carbon is given as 12.011, not 12. This is because naturally occurring carbon is a mixture of the isotopes 12C, 13C and 14C which have relative atomic masses of 12, 13 and 14 respectively. Moreover, the proportion of the isotopes varies between samples, so 12.011 is an average value. By contrast, there is less variation in naturally occurring hydrogen so the average atomic weight is known more precisely. The precision of the molecular mass is determined by precision of the least precise atomic mass value, in this case that of carbon. In high-resolution mass spectrometry the isotopomers 12C1H4 and 13C1H4 are observed as distinct molecules, with molecular weights of 16 and 17, respectively. The intensity of the mass-spectrometry peaks is proportional to the isotopic abundances in the molecular species. 12C 2H 1H3 can also be observed with molecular weight of 17.
+
+
+== Determination of molecular mass ==
+
+
+=== Mass spectrometry ===
+
+In mass spectrometry, the molecular mass of a small molecule is usually reported as the monoisotopic mass, that is, the mass of the molecule containing only the most common isotope of each element. Note that this also differs subtly from the molecular mass in that the choice of isotopes is defined and thus is a single specific molecular mass of the many possible. The masses used to compute the monoisotopic molecular mass are found on a table of isotopic masses and are not found on a typical periodic table. The average molecular mass is often used for larger molecules since molecules with many atoms are unlikely to be composed exclusively of the most abundant isotope of each element. A theoretical average molecular mass can be calculated using the relative atomic masses found on a typical periodic table, since there is likely to be a statistical distribution of atoms representing the isotopes throughout the molecule. This however may differ from the true average molecular mass of the sample due to natural (or artificial) variations in the isotopic distributions.
+
+
+=== Hydrodynamic methods ===
+To a first approximation, the basis for determination of molecular weight according to Mark–Houwink relations is the fact that the intrinsic viscosity of solutions (or suspensions) of macromolecules depends on volumetric proportion of the dispersed particles in a particular solvent. Specifically, the hydrodynamic size as related to molecular weight depends on a conversion factor, describing the shape of a particular molecule. This allows the apparent molecular weight to be described from a range of techniques sensitive to hydrodynamic effects, including DLS, SEC (also known as GPC) and viscometry. The apparent hydrodynamic size can then be used to approximate molecular weight using a series of macromolecule-specific standards. As this requires calibration, it's frequently described as a "relative" molecular weight determination method.
+
+
+=== Static light scattering ===
+It is also possible to determine absolute molecular weight directly from light scattering, traditionally using the Zimm method. This can be accomplished either via classical static light scattering or via multiangle light scattering detectors. Molecular weights determined by this method do not require calibration, hence the term "absolute". The only external measurement required is refractive index increment, which describes the change in refractive index with concentration.
+
+
+== See also ==
+Absolute molar mass
+Molar mass distribution
+Dumas method of molecular weight determination
+
+
+== References ==
+
+
+== External links ==
+A Free Android application for molecular and reciprocal weight calculation of any chemical formula
+Stoichiometry Add-In for Microsoft Excel for calculation of molecular weights, reaction coefficients and stoichiometry.

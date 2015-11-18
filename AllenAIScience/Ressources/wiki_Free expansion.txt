@@ -1,0 +1,10 @@
+Free expansion is an irreversible process in which a gas expands into an insulated evacuated chamber. It is also called Joule expansion.
+Real gases experience a temperature change during free expansion. For an ideal gas, the temperature doesn't change, and the conditions before and after adiabatic free expansion satisfy
+, where p is the pressure, V is the volume, and i and f refer to the initial and final states. Since the gas expands, Vf > Vi , which implies that the pressure does drop (Pf < Pi).
+During free expansion, no work is done by the gas. The gas goes through states that are not in thermodynamic equilibrium before reaching its final state, which implies that one cannot define thermodynamic parameters as values of the gas as a whole. For example, the pressure changes locally from point to point, and the volume occupied by the gas (which is formed of particles) is not a well defined quantity.
+A free expansion is typically achieved by opening a stopcock that allows the gas to expand into a vacuum. Although it would be difficult to achieve in reality, it is instructive to imagine a free expansion caused by moving a piston faster than virtually any atom. No work is done because there is no pressure on the piston. No heat energy leaves or enters the piston. Nevertheless, there is an entropy change. But the well-known formula for entropy change,
+
+does not apply because the process is not a thermodynamically reversible process. For an ideal gas, the change in entropy is the same as for the Joule-Thomson effect:
+
+
+== References ==

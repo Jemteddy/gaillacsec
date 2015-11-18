@@ -1,0 +1,51 @@
+A web feed (or news feed) is a data format used for providing users with frequently updated content. Content distributors syndicate a web feed, thereby allowing users to subscribe to it. Making a collection of web feeds accessible in one spot is known as aggregation, which is performed by a news aggregator. A web feed is also sometimes referred to as a syndicated feed.
+A typical scenario of web feed use is: a content provider publishes a feed link on their site which end users can register with an aggregator program (also called a feed reader or a news reader) running on their own machines; doing this is usually as simple as dragging the link from the web browser to the aggregator. When instructed, the aggregator asks all the servers in its feed list if they have new content; if so, the aggregator either makes a note of the new content or downloads it. Aggregators can be scheduled to check for new content periodically. Web feeds are an example of pull technology, although they may appear to push content to the user.
+The kinds of content delivered by a web feed are typically HTML (webpage content) or links to webpages and other kinds of digital media. Often when websites provide web feeds to notify users of content updates, they only include summaries in the web feed rather than the full content itself.
+Web feeds are operated by many news websites, weblogs, schools, and podcasters.
+
+
+== Benefits ==
+Web feeds have some advantages compared to receiving frequently published content via an email:
+Users do not disclose their email address when subscribing to a feed and so are not increasing their exposure to threats associated with email: spam, viruses, phishing, and identity theft.
+Users do not have to send an unsubscribe request to stop receiving news. They simply remove the feed from their aggregator.
+The feed items are automatically sorted in that each feed URL has its own sets of entries (unlike an email box where messages must be sorted by user-defined rules and pattern matching).
+In its explanation "What is a web feed?", the publishing group of Nature describes two benefits of web feeds:
+
+
+== Scraping ==
+Usually a web feed is made available by the same entity that created the content. Typically the feed comes from the same place as the website. Not all websites, however, provide a feed. Sometimes third parties will read the website and create a feed for it by scraping it. Scraping is controversial since it distributes the content in a manner that was not chosen by the authors.
+
+
+== Technical definition ==
+A web feed is a document (often XML-based) whose discrete content items include web links to the source of the content. News websites and blogs are common sources for web feeds, but feeds are also used to deliver structured information ranging from weather data to top-ten lists of hit tunes to search results. The two main web feed formats are RSS and Atom.
+"Publishing a feed" and "syndication" are two of the more common terms used to describe making a feed available for an information source such as a blog. Web feed content, like syndicated print newspaper features or broadcast programs, may be shared and republished by other websites. (For that reason one popular definition of RSS is Really Simple Syndication.)
+Feeds are more often subscribed to directly by users with aggregators or feed readers which combine the contents of multiple web feeds for display on a single screen or series of screens. Some modern web browsers incorporate aggregator features. Users typically subscribe to a feed by manually entering the URL of a feed or clicking a link in a web browser.
+Web feeds are designed to be machine-readable rather than human-readable, which tends to be a source of confusion when people first encounter web feeds. This means that web feeds can also be used to automatically transfer information from one website to another without any human intervention.
+
+
+=== Confusion between web feed and RSS ===
+The term RSS is often used to refer to web feeds or web syndication in general, although not all feed formats are RSS. The Blogspace description of using web feeds in an aggregator, for example, is headlined "RSS info" and "RSS readers" even though its first sentence makes clear the inclusion of the Atom format: "RSS and Atom files provide news updates from a website in a simple form for your computer."
+
+
+== See also ==
+Atom
+Feed icon
+RSS
+Web syndication
+Web service
+Web API
+feed: URI scheme
+Wikipedia:Syndication
+Usenet
+
+
+== References ==
+^ Home: Nature Webfeeds
+^ Blogspace "RSS readers (RSS info)"
+
+
+== External links ==
+Deepak Pujari (31 March 2015). "Read RSS Feed with PHP". 
+Mark Pilgrim (18 December 2002). "What is RSS?". 
+Dave Shea (19 May 2004). "What is RSS/XML/Atom/Syndication?". 
+Oleg Ilin (30 March 2011). "Why Web Feed?".

@@ -1,0 +1,59 @@
+A product distribution is a probability distribution constructed as the distribution of the product of random variables having two other known distributions. Given two statistically independent random variables X and Y, the distribution of the random variable Z that is formed as the product
+
+is a product distribution.
+
+
+== Algebra of random variables ==
+
+The product is one type of algebra for random variables: Related to the product distribution are the ratio distribution, sum distribution (see List of convolutions of probability distributions) and difference distribution. More generally, one may talk of combinations of sums, differences, products and ratios.
+Many of these distributions are described in Melvin D. Springer's book from 1979 The Algebra of Random Variables.
+
+
+== Derivation for independent random variables ==
+If  and  are two independent, continuous random variables, described by probability density functions  and  then the joint distribution of  is
+
+
+=== Proof ===
+First note that
+
+Then define the variable transformation  which has the inverse . The Jacobian is given by
+
+Equipped with this we obtain finally for the above probability, the following double integral
+
+and thus after changing the order of integration finally
+
+and the inner integral is just the desired probability density function.
+
+
+== Expectation of product of random variables ==
+
+When two random variables are statistically independent, the expectation of their product is the product of their expectations. This can be proved from the Law of total expectation:
+
+In the inner expression, Y is a constant. Hence:
+
+This is true even if X and Y are statistically dependent. However, in general  is a function of Y. In the special case in which X and Y are statistically independent, it is a constant independent of Y. Hence:
+
+
+== Special cases ==
+The distribution of the product of two random variables which have lognormal distributions is again lognormal. This is itself a special case of a more general set of results where the logarithm of the product can be written as the sum of the logarithms. Thus, in cases where a simple result can be found in the list of convolutions of probability distributions, where the distributions to be convolved are those of the logarithms of the components of the product, the result might be transformed to provide the distribution of the product. However this approach is only useful where the logarithms of the components of the product are in some standard families of distributions.
+The distribution of the product of a random variable having a uniform distribution on (0,1) with a random variable having a gamma distribution with shape parameter equal to 2, is an exponential distribution. A more general case of this concerns the distribution of the product of a random variable having a beta distribution with a random variable having a gamma distribution: for some cases where the parameters of the two component distributions are related in a certain way, the result is again a gamma distribution but with a changed shape parameter.
+The K-distribution is an example of a non-standard distribution that can be defined as a product distribution (where both components have a gamma distribution).
+
+
+== In theoretical computer science ==
+In computational learning theory, a product distribution  over  is specified by the parameters . Each parameter  gives the marginal probability that the ith bit of  sampled as  is 1; i.e. . In this setting, the uniform distribution is simply a product distribution with every .
+Product distributions are a key tool used for proving learnability results when the examples cannot be assumed to be uniformly sampled. They give rise to an inner product  on the space of real-valued functions on  as follows:
+
+This inner product gives rise to a corresponding norm as follows:
+
+
+== See also ==
+Algebra of random variables
+
+
+== Notes ==
+
+
+== References ==
+Springer, Melvin Dale; Thompson, W. E. (1970). "The distribution of products of beta, gamma and Gaussian random variables". SIAM Journal on Applied Mathematics 18 (4): 721–737. doi:10.1137/0118065. JSTOR 2099424. 
+Springer, Melvin Dale; Thompson, W. E. (1966). "The distribution of products of independent random variables". SIAM Journal on Applied Mathematics 14 (3): 511–526. doi:10.1137/0114046. JSTOR 2946226.

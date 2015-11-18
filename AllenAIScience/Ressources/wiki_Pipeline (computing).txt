@@ -1,0 +1,88 @@
+In computing, a pipeline is a set of data processing elements connected in series, where the output of one element is the input of the next one. The elements of a pipeline are often executed in parallel or in time-sliced fashion; in that case, some amount of buffer storage is often inserted between elements.
+Computer-related pipelines include:
+Instruction pipelines, such as the classic RISC pipeline, which are used in central processing units (CPUs) to allow overlapping execution of multiple instructions with the same circuitry. The circuitry is usually divided up into stages, including instruction decoding, arithmetic, and register fetching stages, wherein each stage processes one instruction at a time.
+Graphics pipelines, found in most graphics processing units (GPUs), which consist of multiple arithmetic units, or complete CPUs, that implement the various stages of common rendering operations (perspective projection, window clipping, color and light calculation, rendering, etc.).
+Software pipelines, where commands can be written where the output of one operation is automatically fed to the next, following operation. The Unix system call pipe is a classic example of this concept, although other operating systems do support pipes as well.
+
+
+== Classification of PipeliningEdit ==
+◾ Arithematic Pipelining
+◾ Instruction Pipelining
+◾ Vector Pipelining
+◾ Unifunction & Multifunction Pipelining
+◾ Scalar & Vector Pipelining.
+
+
+== Concept and motivationEdit ==
+Pipelining is a natural concept in everyday life, e.g. on an assembly line. Consider the assembly of a car: assume that certain steps in the assembly line are to install the engine, install the hood, and install the wheels (in that order, with arbitrary interstitial steps). A car on the assembly line can have only one of the three steps done at once. After the car has its engine installed, it moves on to having its hood installed, leaving the engine installation facilities available for the next car. The first car then moves on to wheel installation, the second car to hood installation, and a third car begins to have its engine installed. If engine installation takes 20 minutes, hood installation takes 5 minutes, and wheel installation takes 10 minutes, then finishing all three cars when only one car can be assembled at once would take 105 minutes. On the other hand, using the assembly line, the total time to complete all three is 75 minutes. At this point, additional cars will come off the assembly line at 20 minute increments.
+
+
+== Pipeline categoriesEdit ==
+
+
+=== Linear and non-linear pipelinesEdit ===
+A linear pipeline processor is a series of processing stages which are arranged linearly to perform a specific function over a data stream. The basic usages of linear pipeline is instruction execution, arithmetic computation and memory access.
+A non linear pipelining (also called dynamic pipeline) can be configured to perform various functions at different times. In a dynamic pipeline there is also feed forward or feedback connection. Non-linear pipeline also allows very long instruction word.
+
+
+== Costs and drawbacksEdit ==
+As the assembly-line example shows, pipelining doesn't decrease the time for processing a single datum; it only increases the throughput of the system when processing a stream of data.
+"High" pipelining leads to increase of latency - the time required for a signal to propagate through a full pipe.
+A pipelined system typically requires more resources (circuit elements, processing units, computer memory, etc.) than one that executes one batch at a time, because its stages cannot reuse the resources of a previous stage. Moreover, pipelining may increase the time it takes for an instruction to finish.
+
+
+== Design considerationsEdit ==
+One key aspect of pipeline design is balancing pipeline stages. Using the assembly line example, we could have greater time savings if both the engine and wheels took only 15 minutes. Although the system latency would still be 35 minutes, we would be able to output a new car every 15 minutes. In other words, a pipelined process outputs finished items at a rate determined by its slowest part. (Note that if the time taken to add the engine could not be reduced below 20 minutes, it would not make any difference to the stable output rate if all other components increased their production time to 20 minutes.)
+Another design consideration is the provision of adequate buffering between the pipeline stages — especially when the processing times are irregular, or when data items may be created or destroyed along the pipeline.
+
+
+=== Graphical toolsEdit ===
+To observe the scheduling of a pipeline (be it static or dynamic), reservation tables are used.
+
+
+==== Reservation tableEdit ====
+A reservation table for a linear or a static pipeline can be generated easily because data flow follows a linear stream as static pipeline performs a specific operation. But in case of dynamic pipeline or non-linear pipeline a non-linear pattern is followed so multiple reservation tables can be generated for different functions.
+The reservation table mainly displays the time space flow of data through the pipeline for a function. Different functions in a reservation table follow different paths.
+The number of columns in a reservation table specifies the evaluation time of a given function.
+
+
+== ImplementationsEdit ==
+
+
+=== Buffered, synchronous pipelinesEdit ===
+Conventional microprocessors are synchronous circuits that use buffered, synchronous pipelines. In these pipelines, "pipeline registers" are inserted in-between pipeline stages, and are clocked synchronously. The time between each clock signal is set to be greater than the longest delay between pipeline stages, so that when the registers are clocked, the data that is written to them is the final result of the previous stage.
+
+
+=== Buffered, asynchronous pipelinesEdit ===
+Asynchronous pipelines are used in asynchronous circuits, and have their pipeline registers clocked asynchronously. Generally speaking, they use a request/acknowledge system, wherein each stage can detect when it's "finished". When a stage is finished and the next stage has sent it a "request" signal, the stage sends an "acknowledge" signal to the next stage, and a "request" signal to the previous stage. When a stage receives an "acknowledge" signal, it clocks its input registers, thus reading in the data from the previous stage.
+The AMULET microprocessor is an example of a microprocessor that uses buffered, asynchronous pipelines.
+
+
+== Unbuffered pipelinesEdit ==
+Unbuffered pipelines, called "wave pipelines", do not have registers in-between pipeline stages. Instead, the delays in the pipeline are "balanced" so that, for each stage, the difference between the first stabilized output data and the last is minimized. Thus, data flows in "waves" through the pipeline, and each wave is kept as short (synchronous) as possible.
+The maximum rate that data can be fed into a wave pipeline is determined by the maximum difference in delay between the first piece of data coming out of the pipe and the last piece of data, for any given wave. If data is fed in faster than this, it is possible for waves of data to interfere with each other.
+
+
+== See alsoEdit ==
+Dataflow
+Throughput
+Parallelism
+Instruction pipeline
+Classic RISC pipeline
+
+Graphics pipeline
+Pipeline (software)
+Pipeline (Unix)
+Hartmann pipeline for VM
+BatchPipes for MVS
+
+Geometry pipelines
+XML pipeline
+
+
+== ReferencesEdit ==
+For a standard discussion on pipelining in parallel computing see Quinn, Michael J. (2004). Parallel Programming in C with MPI and openMP. Dubuque, Iowa: McGraw-Hill Professional. ISBN 0072822562. 
+
+
+== External linksEdit ==
+A real hardware implementation of a Pipeline protocol – analysis and discussion

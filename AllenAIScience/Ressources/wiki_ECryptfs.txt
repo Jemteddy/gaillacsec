@@ -1,0 +1,24 @@
+eCryptfs (Enterprise Cryptographic Filesystem) is a package of disk encryption software for Linux. It is implemented as a POSIX-compliant filesystem-level encryption layer, aiming to offer functionality similar to that of GnuPG at the operating system level, and has been part of the Linux kernel since version 2.6.19. The eCryptfs package has been included in Ubuntu since version 9.04 and is used to implement Ubuntu's encrypted home directory feature.
+eCryptfs is derived from Erez Zadok's Cryptfs. It uses a variant of the OpenPGP file format for encrypted data, extended to allow random access, storing cryptographic metadata (including a per-file randomly generated session key) with each individual file.
+It also encrypts file and directory names which makes them internally longer (average one third). The reason is it needs to uuencode the encrypted names to eliminate unwanted characters in the resulting name. This lowers the maximum usable byte name length of the original file system entry depending on the used file system (this can lead to four times less characters for example for asian utf-8 file names).
+
+
+== See also ==
+Disk encryption
+Full disk encryption
+Disk encryption software
+Comparison of disk encryption software
+EncFS
+dm-crypt
+FileVault
+Encrypting File System
+
+
+== References ==
+
+
+== External links ==
+archlinux wiki: System Encryption with eCryptfs
+Tutorial Ecryptfs
+eCryptfs FAQ (somewhat dated)
+Cryptfs: A Stackable Vnode Level Encryption File System

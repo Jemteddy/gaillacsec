@@ -1,0 +1,8 @@
+The reaction–diffusion–advection equation is a partial differential equation that models the concentration of a chemical species in a classical reaction–diffusion–advection process. In that process, a chemical species undergoes a reaction, can diffuse in the solvent, and is transported by the bulk movement of the solvent (advection). The equation modeling the concentration  (units: M),  of the chemical species u is:
+
+where D is the diffusion coefficient (units: length2 /time),  is the bulk velocity (units: length/time), and  (units: M/s) is the reaction term that models the generation or decay of the species u. In general, each  and  may depend on space, time, or the concentration of u itself. The equation above is a conservation of mass in a continuum model, where accumulation at a point is the next flux (rate in minus rate out) of a point plus the generation at that point (see continuity equation).
+
+
+== See also ==
+Reaction–diffusion equation
+Advection–diffusion equation

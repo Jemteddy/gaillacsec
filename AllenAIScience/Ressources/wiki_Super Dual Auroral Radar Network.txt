@@ -1,0 +1,68 @@
+The Super Dual Auroral Radar Network (SuperDARN) is an international scientific radar network consisting of 35 high frequency (HF) radars located in both the Northern and Southern Hemispheres. SuperDARN radars are primarily used to map high-latitude plasma convection in the F region of the ionosphere, but the radars are also used to study a wider range of geospace phenomena including field aligned currents, magnetic reconnection, geomagnetic storms and substorms, magnetospheric MHD waves, mesospheric winds via meteor ionization trails, and interhemispheric plasma convection asymmetries. The SuperDARN collaboration is composed of radars operated by JHU/APL, Virginia Tech, Dartmouth College, the Geophysical Institute at the University of Alaska Fairbanks, the Institute of Space and Atmospheric Studies at the University of Saskatchewan, the University of Leicester, La Trobe University, and the Solar-Terrestrial Environment Laboratory at Nagoya University.
+
+
+== History ==
+In the 1970s and 1980s, the Scandinavian Twin Auroral Radar Experiment (STARE) very high frequency (VHF) coherent scatter radars were used to study field aligned E region ionospheric irregularities. Using two radars with overlapping fields of view, it was possible to determine the 2D velocity vector of E region ionospheric plasma flow. However, irregularities were only observed when the radar wavevector was perpendicular to the magnetic field in the scattering region. This meant that there was a problem with operating at VHF since VHF frequencies don't allow for very much refraction of the transmitted radar wave vector; thus, the perpendicularity requirement could not be easily met at high latitudes. At HF frequencies, however, refraction of the radar wavevector is greater, and this allows for the perpendicularity requirement to be met at high latitudes. Refraction of radio waves in the ionosphere is a complicated non-linear phenomenon governed by the Appleton–Hartree equation.
+In 1983, a steerable-beam HF radar with 16 log-periodic antennas began operations at Goose Bay, Labrador, Canada. Comparing measurements of F region ionopheric plasma velocity from the Goose Bay radar with the Sondestrom Incoherent Scatter Radar revealed that the Goose Bay radar was capable of measuring the F region plasma convection velocity. A magnetically conjugate radar was constructed in Antarctica at Halley Research Station in 1988 as part of the Polar Anglo–American Conjugate Experiment (PACE). PACE provided simultaneous conjugate studies of ionospheric and magnetospheric phenomena.
+From PACE, which was only able to determine a single component of the 2D ionospheric velocity, it became apparent that determining the 2D ionospheric velocity would be advantageous. Combining velocity measurements from Goose Bay with a second coherent-scatter radar in Schefferville in 1989 allowed for a 2D determination of the F region ionospheric velocity.
+This work led to SuperDARN, a network of HF radars with pairs of radars having overlapping fields of view. This arrangement allowed for the determination of the full 2D ionospheric plasma convection velocity. Due to the advancement of data assimilation models, radars recently added to the network do not necessarily have overlapping fields of view. Using data from all SuperDARN radars in the northern or southern hemisphere, an ionospheric plasma convection pattern—a map of high-latitude plasma velocity at F region altitudes (300 km)—can be determined.
+
+
+=== Primary Goals ===
+The primary goals of SuperDARN are to determine or study:
+Structure of global convection—to provide a global-scale view of the configuration of plasma convection in the high-latitude ionosphere;
+Dynamics of global convection—to provide a global-scale view of the dynamics of plasma convection in the high-latitude ionosphere. (Previous studies of high-latitude convection had largely been statistical and time-averaged);
+Substorms—to test various theories of polar cap expansion and contraction under changing IMF conditions and observe the large-scale response of the nightside; convection pattern to substorms:
+Gravity waves,
+High-latitude plasma structures, and
+Ionospheric irregularities
+
+
+== Operations ==
+SuperDARN radars operate in the HF band between 8.0 MHz (37m) and 22.0 MHz (14m). In the standard operating mode each radar scans through 16 beams of azimuthal separation of ~3.24°, with a scan taking 1 min to complete (~3 seconds integration per beam). Each beam is divided into 75 (or 100) range gates each 45 km in distance, and so in each full scan the radars each cover 52° in azimuth and over 3000 km in range; an area encompassing the order of 1 millon square km.
+The radars measure the Doppler velocity (and other related characteristics) of plasma density irregularities in the ionosphere.
+Since Linux became popular, it has become the default operating system for the SuperDARN network. The operating system (superdarn-ros.3.6) is currently licensed under the LGPL). [1]
+
+
+== SuperDARN sites ==
+The following is a list of SuperDARN sites, based on a list maintained by Virginia Tech College of Engineering. As of 2009, an expansion project was underway for expanding the network into the middle latitudes, including the addition of sites in Hays, Kansas (near Fort Hays State University), Oregon, and the Azores, in order to support mapping outside of the auroral regions during large magnetic storms.
+
+*: Part of the Southern Hemisphere Auroral Radar Experiment
+
+
+== Coverage ==
+Northern Hemisphere
+Because the SuperDARN network evolved in the west during the late Cold War, coverage of Russia's arctic regions is poor.
+Although there is no shortage of possible sites to cover Russia's arctic regions from Northern Europe and Alaska, the coverage would probably not be of high quality.
+So far there has been no movement within those managing the SuperDARN network to do joint ventures with Russian universities to build the Russian part of the network.
+Southern Hemisphere
+Although Antarctica is covered reasonably well, the Sub-Antarctic regions do not have uniform coverage.
+Java VM real time display software interoperability (where both poles could be observed at the same time) is still a work in progress.
+
+
+== References ==
+
+
+== Research papers ==
+Research papers related to SuperDARN and related technologies
+Double Pulse Operations with SuperDARN
+The TIGER Radar, An Extension of SuperDARN
+Real time display of SuperDarn radar
+Realtime Java applet display (North American Arctic)
+
+
+== External links ==
+Each participating university should be listed here. As these are ongoing research sites, these links are subject to change.
+Northern Hemisphere Stations
+Canada : SuperDARN at University of Saskatchewan
+Canada : Canadian Space Agency SuperDARN portal
+US : VT SuperDARN at Virginia Tech
+US :SuperDARN at the University of Alaska Geophysical Institute
+US : SuperDARN at Virginia Tech
+US :SuperDARN at Dartmouth College in New Hampshire
+UK : SuperDARN UK
+Southern Hemisphere Stations
+Australia : SuperDARN Tiger at Latrobe University
+...
+
+ Media related to Unwin Radar at Wikimedia Commons

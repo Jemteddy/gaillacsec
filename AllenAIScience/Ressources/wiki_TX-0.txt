@@ -1,0 +1,33 @@
+The TX-0, for Transistorized Experimental computer zero, but affectionately referred to as tixo (pronounced "tix oh"), was an early fully transistorized computer and contained a then-huge 64K of 18-bit words of magnetic core memory. The TX-0 was built in 1955 and went online in 1956 and was used continually through the 1960s at MIT. The transistorized TX-0 computer used 3600 transistors in its computer's circuitry and had also used the Philco high-frequency surface-barrier transistors in its design. In 1953, Philco had developed the world's first high frequency surface-barrier transistor, which was also the first transistor that was suitable for high speed computers. The TX-0 and its direct descendant, the original PDP-1, were platforms for pioneering computer research and the development of what would later be called computer "hacker" culture.
+
+
+== Background ==
+Designed at the MIT Lincoln Laboratory largely as an experiment in transistorized design and the construction of very large core memory systems, the TX-0 was essentially a transistorized version of the equally famous Whirlwind, also built at Lincoln Lab. While the Whirlwind filled an entire floor of a large building, TX-0 fit in a single reasonably sized room and yet was somewhat faster. Like the Whirlwind, the TX-0 was equipped with a display system, in this case a 12" oscilloscope hooked to output pins of the processor allowing it to display 512×512 points in a 7" by 7" array.
+The TX-0 was a fully 16-bit computer with a 16-bit address range and 16-bit operations. Its word size was 18 bits; this allowed for 16 bits of data and two bits of instructions. These two bits could create four possible instructions, which included store, add, and conditional branch instructions as a basic set. The fourth instruction, "operate", took additional operands and allowed access to a number of "micro-orders" which could be used separately or together to provide many other useful instructions. An "add" instruction took 10 microseconds.
+Wesley A. Clark designed the logic and Ken Olsen oversaw the engineering development.
+
+
+== Development ==
+With the successful completion of the TX-0, work turned immediately to the much larger and far more complex TX-1. However this project soon ran into difficulties due to its complexity, and was redesigned into a smaller form that would eventually be delivered as the TX-2 in 1958. Since core memory was very expensive at the time, several parts of the TX-0 memory were cannibalized for the TX-2 project. After a time, the TX-0 was no longer considered worth keeping at Lincoln Lab, and was "loaned" (semi-permanently) to the MIT Research Laboratory of Electronics (RLE) in July 1958, where it became a centerpiece of research that would eventually evolve into the MIT Artificial Intelligence Lab and the original computer "hacker" culture.
+Delivered from Lincoln Laboratory with only 4K of core, the machine no longer needed 16 bits to represent a storage address. After about a year and a half, the number of instruction bits was doubled to four, allowing a total of 16 instructions, and an index register was added. This dramatically improved programmability of the machine, but still left room for a later memory expansion to 8K (the four instruction bits and one-bit indexing flag left 13 bits for addressing). This newly modified TX-0 was used to develop a huge number of advances in computing, including speech and handwriting recognition, as well as the tools needed to work on such projects, including text editors and debuggers.
+Meanwhile the TX-2 project was running into difficulties of its own, and several team members decided to leave the project at Lincoln Lab and start their own company. After a short time selling "lab modules" in the form of simple logic elements from the TX-2 design, the newly formed Digital Equipment Corporation (DEC) decided to produce a "cleaned up" TX-0 design, and delivered it in 1961 as the PDP-1. A year later, DEC donated the engineering prototype PDP-1 machine to MIT. It was installed in the room next to TX-0, and the two machines would run side-by-side for almost a decade.
+Significant pieces of the TX-0 are currently on display in the Library at Lincoln Laboratory. The library is only accessible to Lincoln Lab employees.
+
+
+== See also ==
+Expensive Desk Calculator
+Expensive Tape Recorder
+First video game#Mouse in the Maze, Tic-Tac-Toe (1959) — early video games invented on the TX-0
+
+
+== References ==
+
+
+== External links ==
+RLE Technical Report 627 TX-0 Computer History (Oct 1974)
+Oral history interview with Jack B. Dennis, Charles Babbage Institute, University of Minnesota. — Dennis describes his educational background and work in time-sharing computer systems at the Massachusetts Institute of Technology (MIT), including the TX-0 computer, the work of John McCarthy on time-sharing, and the development of MULTICS at General Electric.
+The TX-0: Its Past and Present
+TX-0 documentation
+TX-0 programs
+Steven Levy, Hackers: Heroes of the Computer Revolution
+"Welcome". Tixo.org. Retrieved 2011-07-02.  — Website dedicated to information about the TX-0 computer. [Website partially working when checked]

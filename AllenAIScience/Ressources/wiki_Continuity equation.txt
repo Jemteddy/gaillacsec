@@ -1,0 +1,163 @@
+A continuity equation in physics is an equation that describes the transport of some quantity. It is particularly simple and particularly powerful when applied to a conserved quantity, but it can be generalized to apply to any extensive quantity. Since mass, energy, momentum, electric charge and other natural quantities are conserved under their respective appropriate conditions, a variety of physical phenomena may be described using continuity equations.
+Continuity equations are a stronger, local form of conservation laws. For example, a weak version of the law of conservation of energy states that energy can neither be created nor destroyed—i.e., the total amount of energy is fixed. This statement does not immediately rule out the possibility that energy could disappear from a field in Canada while simultaneously appearing in a room in Indonesia. A stronger statement is that energy is locally conserved: Energy can neither be created nor destroyed, nor can it "teleport" from one place to another—it can only move by a continuous flow. A continuity equation is the mathematical way to express this kind of statement.
+Continuity equations more generally can include "source" and "sink" terms, which allow them to describe quantities that are often but not always conserved, such as the density of a molecular species which can be created or destroyed by chemical reactions. In an everyday example, there is a continuity equation for the number of people alive; it has a "source term" to account for people being born, and a "sink term" to account for people dying.
+Any continuity equation can be expressed in an "integral form" (in terms of a flux integral), which applies to any finite region, or in a "differential form" (in terms of the divergence operator) which applies at a point.
+Continuity equations underlie more specific transport equations such as the convection–diffusion equation, Boltzmann transport equation, and Navier–Stokes equations.
+
+
+== General equation ==
+
+
+=== Definition of flux ===
+
+Before we can write down the continuity equation (below), we must first define flux, a quantity specifying flow or motion.
+The continuity equation is applicable when there is some quantity q which can flow or move, such as mass, energy, electric charge, momentum, number of molecules, etc. Let ρ be the volume density of this property, i.e., the amount of q per unit volume.
+The way that this quantity q is flowing is described by its flux. The flux of q is a vector field, which we denote as j. Here are some examples and properties of flux:
+The dimension of flux is "amount of q per unit time, per unit area". For example, in the mass continuity equation for flowing water, if 1 gram per second of water is flowing through a pipe with cross-sectional area 1 cm2, then the average mass flux j inside the pipe is (1 gram / second) / cm2, pointing along the pipe in the direction that the water is flowing. Outside the pipe, where there is no water, the flux is zero.
+If there is a velocity field u which describes the relevant flow—in other words, if all of the quantity q at a point x is moving with velocity u(x)—then the flux is by definition equal to the density times the velocity field:
+
+For example, in the mass continuity equation for flowing water, u would be the water's velocity at each point, ρ would be the water's density at each point, and then j would be the mass flux.
+In a well-known example, the flux of electric charge is the electric current density.
+
+If there is an imaginary surface S, then the surface integral of flux over S is equal to the amount of q that is passing through the surface S per unit time:
+
+in which  is a surface integral.
+
+
+=== Integral form ===
+The integral form of the continuity equation states that:
+The amount of q in a region increases when additional q flows inward through the surface of the region, and decreases when it flows outward;
+The amount of q in a region increases when new q is created inside the region, and decreases when q is destroyed;
+Apart from these two processes, there is no other way for the amount of q in a region to change.
+Mathematically, the integral form of the continuity equation is:
+
+where
+
+S is any imaginary closed surface, that encloses a volume V,
+ denotes a surface integral over that closed surface,
+ is the total amount of the quantity in the volume V,
+j is the flux of q,
+t is time,
+ is the net rate that q is being generated inside the volume V. (When q is being generated, it is called a "source" of q, and it makes Σ more positive. When q is being destroyed, it is called a "sink" of q, and it makes Σ more negative.)
+In a simple example, V could be a building, and q could be the number of people in the building. The surface S would consist of the walls, doors, roof, and foundation of the building. Then the continuity equation states that the number of people in the building increases when people enter the building (an inward flux through the surface), decreases when people exit the building (an outward flux through the surface), increases when someone in the building gives birth (a "source", Σ > 0), and decreases when someone in the building dies (a "sink", Σ < 0).
+
+
+=== Differential form ===
+
+By the divergence theorem, a general continuity equation can also be written in a "differential form":
+
+where
+∇⋅ is divergence,
+ρ is the amount of the quantity q per unit volume,
+j is the flux of q,
+t is time,
+σ is the generation of q per unit volume per unit time. Terms that generate (σ > 0) or remove (σ < 0) q are referred to as a "sources" and "sinks" respectively.
+This general equation may be used to derive any continuity equation, ranging from as simple as the volume continuity equation to as complicated as the Navier–Stokes equations. This equation also generalizes the advection equation. Other equations in physics, such as Gauss's law of the electric field and Gauss's law for gravity, have a similar mathematical form to the continuity equation, but are not usually called by the term "continuity equation", because j in those cases does not represent the flow of a real physical quantity.
+In the case that q is a conserved quantity that cannot be created or destroyed (such as energy), σ = 0 and the equations becomes:
+
+
+== Electromagnetism ==
+
+In electromagnetic theory, the continuity equation is an empirical law expressing (local) charge conservation. Mathematically it is an automatic consequence of Maxwell's equations, although charge conservation is more fundamental than Maxwell's equations. It states that the divergence of the current density J (in amperes per square meter) is equal to the negative rate of change of the charge density ρ (in coulombs per cubic metre),
+
+Current is the movement of charge. The continuity equation says that if charge is moving out of a differential volume (i.e. divergence of current density is positive) then the amount of charge within that volume is going to decrease, so the rate of change of charge density is negative. Therefore the continuity equation amounts to a conservation of charge.
+If magnetic monopoles exist, there would be a continuity equation for monopole currents as well, see the monopole article for background and the duality between electric and magnetic currents.
+
+
+== Fluid dynamics ==
+
+In fluid dynamics, the continuity equation states that, in any steady state process, the rate at which mass enters a system is equal to the rate at which mass leaves the system.
+The differential form of the continuity equation is:
+
+where
+ρ is fluid density,
+t is time,
+u is the flow velocity vector field.
+In this context, this equation is also one of the Euler equations (fluid dynamics). The Navier–Stokes equations form a vector continuity equation describing the conservation of linear momentum.
+If ρ is a constant, as in the case of incompressible flow, the mass continuity equation simplifies to a volume continuity equation:
+
+which means that the divergence of velocity field is zero everywhere. Physically, this is equivalent to saying that the local volume dilation rate is zero.
+
+
+== Energy and heat ==
+Conservation of energy says that energy cannot be created or destroyed. (See below for the nuances associated general relativity.) Therefore there is a continuity equation for energy flow:
+
+where
+u = local energy density (energy per unit volume),
+q = energy flux (transfer of energy per unit cross-sectional area per unit time) as a vector,
+An important practical example is the flow of heat. When heat flows inside a solid, the continuity equation can be combined with Fourier's law (heat flux is proportional to temperature gradient) to arrive at the heat equation. The equation of heat flow may also have source terms: Although energy cannot be created or destroyed, heat can be created from other types of energy, for example via friction or joule heating.
+
+
+== Probability distributions ==
+If there is a quantity that moves continuously according to a stochastic (random) process, like the location of a single dissolved molecule with Brownian motion, then there is a continuity equation for its probability distribution. The flux in this case is the probability per unit area per unit time that the particle passes through a surface. According to the continuity equation, the negative divergence of this flux equals the rate of change of the probability density. The continuity equation reflects the fact that the molecule is always somewhere—the integral of its probability distribution is always equal to 1—and that it moves by a continuous motion (no teleporting).
+
+
+== Quantum mechanics ==
+Quantum mechanics is another domain where there is a continuity equation related to conservation of probability. The terms in the equation require the following definitions, and are slightly less obvious than the other examples above, so they are outlined here:
+The wavefunction  for a single particle in position space (rather than momentum space), that is, a function of position r and time t, .
+The probability density function is:
+
+The probability of finding the particle within V at t is denoted and defined by:
+
+The probability current (aka probability flux):
+
+With these definitions the continuity equation reads:
+
+Either form may be quoted. Intuitively; the above quantities indicate this represents the flow of probability. The chance of finding the particle at some position r and time t flows like a fluid; hence the term probability current, a vector field. The particle itself does not flow deterministically in this vector field.
+
+
+== Relativistic version ==
+
+
+=== Special relativity ===
+
+The notation and tools of special relativity, especially 4-vectors and 4-gradients, offer a convenient way to write any continuity equation.
+The density of a quantity ρ and its current j can be combined into a 4-vector called a 4-current:
+
+where c is the speed of light. The 4-divergence of this current is:
+
+where ∂μ is the 4-gradient and μ is an index labelling the spacetime dimension. Then the continuity equation is:
+
+in the usual case where there are no sources or sinks, i.e. for perfectly conserved quantities like energy or charge. This continuity equation is manifestly ("obviously") Lorentz invariant.
+Examples of continuity equations often written in this form include electric charge conservation  where J is the electric 4-current; and energy-momentum conservation  where T is the stress-energy tensor.
+
+
+=== General relativity ===
+In general relativity, where spacetime is curved, the continuity equation (in differential form) for energy, charge, or other conserved quantities involves the covariant divergence instead of the ordinary divergence.
+For example, the stress–energy tensor is a second-order tensor field containing energy–momentum densities, energy–momentum fluxes, and shear stresses, of a mass-energy distribution. The differential form of energy-momentum conservation in general relativity states that the covariant divergence of the stress-energy tensor is zero:
+
+This is an important constraint on the form the Einstein field equations take in general relativity.
+However, the ordinary divergence of the stress-energy tensor does not necessarily vanish:
+
+The right-hand side strictly vanishes for a flat geometry only.
+As a consequence, the integral form of the continuity equation is difficult to define and not necessarily valid for a region within which spacetime is significantly curved (e.g. around a black hole, or across the whole universe).
+
+
+== Particle physics ==
+Quarks and gluons have color charge, which is always conserved like electric charge, and there is a continuity equation for such color charge currents (explicit expressions for currents are given at gluon field strength tensor).
+There are many other quantities in particle physics which are often or always conserved: baryon number (proportional to the number of quarks minus the number of anti-quarks), electron number, mu number, tau number, isospin, and others. Each of these has a corresponding continuity equation, possibly including source / sink terms.
+
+
+== Noether's theorem ==
+
+One reason that conservation equations frequently occur in physics is Noether's theorem. This states that whenever the laws of physics have a continuous symmetry, there is a continuity equation for some conserved physical quantity. The three most famous examples are:
+The laws of physics are invariant with respect to time-translation—for example, the laws of physics today are the same as they were yesterday. This symmetry leads to the continuity equation for conservation of energy.
+The laws of physics are invariant with respect to space-translation—for example, the laws of physics in Brazil are the same as the laws of physics in Argentina. This symmetry leads to the continuity equation for conservation of momentum.
+The laws of physics are invariant with respect to orientation—for example, floating in outer space, there is no measurement you can do to say "which way is up"; the laws of physics are the same regardless of how you are oriented. This symmetry leads to the continuity equation for conservation of angular momentum.
+See Noether's theorem for proofs and details.
+
+
+== See also ==
+Conservation law
+Conservation form
+Dissipative system
+
+
+== References ==
+
+
+== Further reading ==
+Hydrodynamics, H. Lamb, Cambridge University Press, (2006 digitalization of 1932 6th edition) ISBN 978-0-521-45868-9
+Introduction to Electrodynamics (3rd Edition), D.J. Griffiths, Pearson Education Inc, 1999, ISBN 81-7758-293-3
+Electromagnetism (2nd edition), I.S. Grant, W.R. Phillips, Manchester Physics Series, 2008 ISBN 0-471-92712-0
+Gravitation, J.A. Wheeler, C. Misner, K.S. Thorne, W.H. Freeman & Co, 1973, ISBN 0-7167-0344-0

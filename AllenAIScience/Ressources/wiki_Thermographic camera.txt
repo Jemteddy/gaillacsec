@@ -1,0 +1,161 @@
+A thermographic camera (also called an infrared camera or thermal imaging camera) is a device that forms an image using infrared radiation, similar to a common camera that forms an image using visible light. Instead of the 400–700 nanometer range of the visible light camera, infrared cameras operate in wavelengths as long as 14,000 nm (14 µm). Their use is called thermography.
+
+
+== HistoryEdit ==
+
+
+=== PrecursorsEdit ===
+Infrared was discovered in 1800 by Sir William Herschel as a form of radiation beyond red light. These "infrared rays" (infra is the Latin prefix for "below") were used mainly for thermal measurement. There are four basic laws of IR radiation: Kirchhoff's law of thermal radiation, Stefan-Boltzmann law, Planck’s law, and Wien’s displacement law. The development of detectors was mainly focused on the use of thermometer and bolometers until World War I. Leopoldo Nobili fabricated the first thermocouple in 1829, which paved the way for Macedonio Melloni to show that a person 10 meters away could be detected with his multielement thermopile. The bolometer was invented in 1878 by Langley. It had the capability to detect radiation from a cow from 400 meters away, and was sensitive to differences in temperature of one hundred thousandth of a degree Celsius.
+The first advanced application of IR technology in the civil section may have been a device to detect the presence of icebergs and steamships using a mirror and thermopile, patented in 1913. This was soon outdone by the first true IR iceberg detector, which did not use thermopiles, patented in 1914 by R.D. Parker. This was followed up by G.A. Barker’s proposal to use the IR system to detect forest fires in 1934. The technique was not truly industrialized until it was used in the analysis of heating uniformity in hot steel strips in 1935.
+
+
+=== First thermographic cameraEdit ===
+In 1929, Hungarian physicist Kálmán Tihanyi invented the infrared-sensitive (night vision) electronic television camera for anti-aircraft defense in Britain. The first thermographic cameras began with the development of the first infrared line scanner. This was created by the US military and Texas Instruments in 1947 and took one hour to produce a single image. While several approaches were investigated to improve the speed and accuracy of the technology, one of the most crucial factors dealt with scanning an image, which the AGA company was able to commercialize using a cooled photoconductor.
+The first infrared linescan systen was the British Yellow Duckling of the mid 1950s. This used a continuously rotating mirror and detector, with Y axis scanning by the motion of the carrier aircraft. Although unsuccessful in its intended application of submarine tracking by wake detection, it was applied to land-based surveillance and became the foundation of military IR linescan.
+This work was further developed at the Royal Signals and Radar Establishment in the UK when they discovered mercury cadmium telluride could be used as a conductor that required much less cooling. Honeywell in the United States also developed arrays of detectors which could cool at a lower temperature, but they scanned mechanically. This method had several disadvantages which could be overcome using an electronically scanning system. In 1969 Michael Francis Tompsett at English Electric Valve Company in the UK patented a camera which scanned pyro-electronically and which reached a high level of performance after several other breakthroughs throughout the 1970s. Tompsett also proposed an idea for solid-state thermal-imaging arrays, which eventually led to modern hydridized single-crystal-slice imaging devices.
+
+
+=== Smart sensorsEdit ===
+One of the most important areas of development for security systems was for the ability to intelligently evaluate a signal, as well as warning for a threat's presence. Under the encouragement of the United States Strategic Defense Initiative, "smart sensors" began to appear. These are sensors that could integrate sensing, signal extraction, processing, and comprehension. There are two main types of Smart Sensors. One, similar to what are called "vision chips" when used in the visible range, allow for preprocessing using Smart Sensing techniques due to the increase in growth of integrated microcircuitry. The other technology is more oriented to a specific use and fulfills its preprocessing goal through its design and structure.
+Towards the end of the 1990s the use of infrared was moving towards civil use. There was a dramatic lowering of costs for uncooled arrays, which along with the large increase in developments lead to a dual way use market between civil and military. These uses include environmental control, building/art analysis, medical functional diagnostics, and car guidance and collision avoidance systems.
+
+
+== Theory of operationEdit ==
+
+Infrared energy is just one part of the electromagnetic spectrum, which encompasses radiation from gamma rays, x-rays, ultra violet, a thin region of visible light, infrared, terahertz waves, microwaves, and radio waves. These are all related and differentiated in the length of their wave (wavelength). All objects emit a certain amount of black body radiation as a function of their temperatures.
+Generally speaking, the higher an object's temperature, the more infrared radiation is emitted as black-body radiation. A special camera can detect this radiation in a way similar to the way an ordinary camera detects visible light. It works even in total darkness because ambient light level does not matter. This makes it useful for rescue operations in smoke-filled buildings and underground.
+
+
+== In useEdit ==
+
+Images from infrared cameras tend to have a single color channel because the cameras generally use an image sensor that does not distinguish different wavelengths of infrared radiation. Color image sensors require a complex construction to differentiate wavelengths, and color has less meaning outside of the normal visible spectrum because the differing wavelengths do not map uniformly into the system of color vision used by humans.
+Sometimes these monochromatic images are displayed in pseudo-color, where changes in color are used rather than changes in intensity to display changes in the signal. This is useful because although humans have much greater dynamic range in intensity detection than color overall, the ability to see fine intensity differences in bright areas is fairly limited. This technique is called density slicing.
+For use in temperature measurement the brightest (warmest) parts of the image are customarily colored white, intermediate temperatures reds and yellows, and the dimmest (coolest) parts black. A scale should be shown next to a false color image to relate colors to temperatures. Their resolution is considerably lower than that of optical cameras, mostly only 160 x 120 or 320 x 240 pixels, although more expensive cameras can achieve a resolution of 1280 x 1024 pixels. Thermographic cameras are much more expensive than their visible-spectrum counterparts, though low-performance add-on thermal cameras for smartphones became available for hundreds of dollars in 2014. Higher-end models are often deemed as dual-use and export-restricted, particularly if the resolution is 640 x 480 or greater, unless the refresh rate is 9 Hz or less.The export of thermal cameras is regulated by International Traffic in Arms Regulations, or ITAR.
+In uncooled detectors the temperature differences at the sensor pixels are minute; a 1 °C difference at the scene induces just a 0.03 °C difference at the sensor. The pixel response time is also fairly slow, at the range of tens of milliseconds.
+Thermography finds many other uses. For example, firefighters use it to see through smoke, find people, and localize hotspots of fires. With thermal imaging, power line maintenance technicians locate overheating joints and parts, a telltale sign of their failure, to eliminate potential hazards. Where thermal insulation becomes faulty, building construction technicians can see heat leaks to improve the efficiencies of cooling or heating air-conditioning.
+
+Thermal imaging cameras are also installed in some luxury cars to aid the driver (Automotive night vision), the first being the 2000 Cadillac DeVille.
+Some physiological activities, particularly responses such as fever, in human beings and other warm-blooded animals can also be monitored with thermographic imaging. Cooled infrared cameras can be found at major astronomy research telescopes, even those that are not infrared telescopes.
+
+
+== TypesEdit ==
+
+Thermographic cameras can be broadly divided into two types: those with cooled infrared image detectors and those with uncooled detectors.
+
+
+=== Cooled infrared detectorsEdit ===
+
+Cooled detectors are typically contained in a vacuum-sealed case or Dewar and cryogenically cooled. The cooling is necessary for the operation of the semiconductor materials used. Typical operating temperatures range from 4 K to just below room temperature, depending on the detector technology. Most modern cooled detectors operate in the 60 K to 100 K range, depending on type and performance level.
+Without cooling, these sensors (which detect and convert light in much the same way as common digital cameras, but are made of different materials) would be 'blinded' or flooded by their own radiation. The drawbacks of cooled infrared cameras are that they are expensive both to produce and to run. Cooling is both energy-intensive and time-consuming.
+The camera may need several minutes to cool down before it can begin working. The most commonly used cooling systems are rotary Stirling engine cryocoolers. Although the cooling apparatus is comparatively bulky and expensive, cooled infrared cameras provide superior image quality compared to uncooled ones.
+Additionally, the greater sensitivity of cooled cameras also allow the use of higher F-number lenses, making high performance long focal length lenses both smaller and cheaper for cooled detectors. An alternative to Stirling engine coolers is to use gases bottled at high pressure, nitrogen being a common choice. The pressurised gas is expanded via a micro-sized orifice and passed over a miniature heat exchanger resulting in regenerative cooling via the Joule–Thomson effect. For such systems the supply of pressurized gas is a logistical concern for field use.
+Materials used for cooled infrared detection include photodetectors based on a wide range of narrow gap semiconductors including:
+indium antimonide (3-5 μm)
+indium arsenide
+mercury cadmium telluride (MCT) (1-2 μm, 3-5 μm, 8-12 μm)
+lead sulfide
+lead selenide
+Infrared photodetectors can be created with structures of high band gap semiconductors such as in Quantum well infrared photodetectors.
+A number of superconducting and non-superconducting cooled bolometer technologies exist.
+In principle, superconducting tunneling junction devices could be used as infrared sensors because of their very narrow gap. Small arrays have been demonstrated. Their wide range use is difficult because their high sensitivity requires careful shielding from the background radiation.
+Superconducting detectors offer extreme sensitivity, with some able to register individual photons. For example, ESA's Superconducting camera (SCAM). However, they are not in regular use outside of scientific research.
+
+
+=== Uncooled infrared detectorsEdit ===
+Uncooled thermal cameras use a sensor operating at ambient temperature, or a sensor stabilized at a temperature close to ambient using small temperature control elements. Modern uncooled detectors all use sensors that work by the change of resistance, voltage or current when heated by infrared radiation. These changes are then measured and compared to the values at the operating temperature of the sensor.
+Uncooled infrared sensors can be stabilized to an operating temperature to reduce image noise, but they are not cooled to low temperatures and do not require bulky, expensive cryogenic coolers. This makes infrared cameras smaller and less costly. However, their resolution and image quality tend to be lower than cooled detectors. This is due to difference in their fabrication processes, limited by currently available technology.
+Uncooled detectors are mostly based on pyroelectric and ferroelectric materials or microbolometer technology. The material are used to form pixels with highly temperature-dependent properties, which are thermally insulated from the environment and read electronically.
+
+Ferroelectric detectors operate close to phase transition temperature of the sensor material; the pixel temperature is read as the highly temperature-dependent polarization charge. The achieved NETD of ferroelectric detectors with f/1 optics and 320x240 sensors is 70-80 mK. A possible sensor assembly consists of barium strontium titanate bump-bonded by polyimide thermally insulated connection.
+Silicon microbolometers can reach NETD down to 20 mK. They consist of a layer of amorphous silicon, or a thin film vanadium(V) oxide sensing element suspended on silicon nitride bridge above the silicon-based scanning electronics. The electric resistance of the sensing element is measured once per frame.
+Current improvements of uncooled focal plane arrays (UFPA) are focused primarily on higher sensitivity and pixel density. In 2013 DARPA announced a five-micron LWIR camera that uses a 1280 x 720 focal plane array (FPA). Some of the materials used for the sensor arrays are:
+amorphous silicon (a-Si)
+vanadium(V) oxide (VOx)
+lanthanum barium manganite (LBMO)
+lead zirconate titanate (PZT)
+lanthanum doped lead zirconate titanate (PLZT)
+lead scandium tantalate (PST)
+lead lanthanum titanate (PLT)
+lead titanate (PT)
+lead zinc niobate (PZN)
+lead strontium titanate (PSrT)
+barium strontium titanate (BST)
+barium titanate (BT)
+antimony sulfoiodide (SbSI)
+polyvinylidene difluoride (PVDF)
+
+
+== ApplicationsEdit ==
+
+Originally developed for military use during the Korean War, thermographic cameras have slowly migrated into other fields as varied as medicine and archeology. More recently, the lowering of prices have helped fuel the adoption of infrared viewing technology. Advanced optics and sophisticated software interfaces continue to enhance the versatility of IR cameras.
+Night vision
+Building inspection
+Fault diagnosis and troubleshooting
+Energy auditing of building insulation and detection of refrigerant leaks
+Roof inspection
+Home performance
+Moisture detection in walls & roofs (and thus in turn often part of mold remediation)
+Masonry wall structural analysis
+
+Law enforcement and anti-terrorismQuarantine monitoring of visitors to a country
+Military and police target detection & acquisition: Forward looking infrared, Infra-red search and track
+Condition monitoring & surveillance
+Technical surveillance counter-measures
+Thermal weapon sight
+Search and rescue operations
+Firefighting operations
+
+Thermography (medical) - Medical testing for diagnosis
+Veterinary thermal imaging
+
+Program process monitoring
+Quality control in production environments
+Predictive maintenance (early failure warning) on mechanical & electrical equipment
+
+Astronomy, in devices such as the Spitzer Space Telescope
+Automotive night vision
+Auditing of acoustic insulation for sound reduction
+Chemical imaging
+Nondestructive testing
+Research & development of new products
+Pollution effluent detection
+Locating unmarked graves
+Locating pest infestations
+Aerial archaeology
+Paranormal investigation
+Flame detector
+Meteorology (thermal images from weather satellites are used to determine cloud temperature/height and water vapor concentrations, depending on the wavelength)
+Cricket Umpire Decision Review System. To detect faint contact of the ball with the bat (and hence a heat patch signature on the bat after contact)
+
+
+== SpecificationsEdit ==
+Some specification parameters of an infrared camera system are:
+Number of pixels
+Frame rate
+Responsivity
+Noise-equivalent power
+Noise-equivalent temperature difference (NETD)
+Spectral band
+Distance-to-Spot Ratio (D:S)
+Minimum Focus Distance
+Sensor lifetime
+Minimum resolvable temperature difference (MRTD)
+Field of view
+Dynamic range
+Input power
+Mass and volume
+
+
+== See alsoEdit ==
+Digital infrared thermal imaging in health care
+Hyperspectral imaging
+Infrared non-destructive testing of materials
+Infrared photography
+Ora, a 2011 3D film shot in HD thermography
+Passive infrared sensor
+Thermal imaging camera (firefighting)
+Thermal weapon sight
+Thermography
+
+
+== ReferencesEdit ==

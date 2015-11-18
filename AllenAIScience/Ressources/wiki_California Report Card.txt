@@ -1,0 +1,30 @@
+The California Report Card (CRC) is a mobile-optimized web application designed to promote public involvement in the California government. Developed by Prof. Ken Goldberg and the CITRIS Data and Democracy Initiative at UC Berkeley with California Lt. Governor Gavin Newsom, version 1.0 was released in January 2014. On the CRC site, participants are encouraged to grade California on a scale from A+ to F on six timely topics and to propose their own suggestions of issues that merit attention at the state level. The CRC is a form of E-democracy, structuring and streamlining communication from the California residents to their elected officials.
+
+
+== History ==
+The CRC builds on aspects of two earlier programs: Opinion Space and the World Bank's Citizen Report Card.
+Opinion Space, developed at UC Berkeley between 2009 and 2011, is a social media technology developed to assist communities in exchanging ideas and opinions concerning current issues and policies. From 2010-2014, the US State Department used a version of Opinion Space to solicit suggestions on foreign policy from participants around the world. The CRC augments the Opinion Space platform, and applies its techniques of deliberative polling, collaborative filtering and multidimensional visualization. The CRC moves Opinion Space to a mobile-optimized platform and builds on the original system by adding a citizen report card.
+The World Bank first developed “citizen report cards” in Bangalore, India in 1993. These report cards work to stimulate public feedback on government actions and prompt individuals to express their opinions and ideas. The report cards allow for participants to assess the ideas of others and bring popular suggestions to the attention of elected leaders. The goals of the CRC are quite similar to those of the Citizen Report Cards.
+Gavin Newsom’s first book, Citizenville: How to Take the Town Square Digital and Reinvent Government, published in 2013, argues for the value of projects like the CRC. Citizenville contrasts the powerful and innovative role of technology in the lives of everyday citizens and the comparatively traditional policies of the government. Newsom emphasizes the potential for technological growth and expansion in the California government. Today's technology offers a plethora of ways to connect the public directly to the government. Citizenville stresses that modern technology should be utilized to foster and enhance political participation. Newsom played an active role in development of the CRC and worked closely with the team at UC Berkeley. Newsom commented: “The California Report Card is a new way for me to keep an ear to the ground. This new app/website makes it easy for Californians to assign grades suggest pressing issues that merit our attention. In the first months, participants conveyed that they approve of our rollout of Obamacare but are very concerned about the future of California schools and universities. There was also statewide support for increased attention to Disaster Preparedness, so this has become one of my top priorities."
+The CRC is an application of the greater “CAFE” platform, an acronym for the Collective Assessment and Feedback Engine, and began development in earnest with the support of Newsom. Professor of engineering and Faculty Director of the Data and Democracy Initiative Ken Goldberg leads the CAFE team at UC Berkeley. Separate applications of the same platform in areas such as disaster preparedness, measurement of online learning, and humanitarian interventions are in development.
+
+
+== Features ==
+Participants are first directed to grade the six current topics. The median grade is revealed as users enter their grades. Participants then submit their zip codes and enter an online “café”. The page design draws on the metaphor of the café in which users can discuss their suggestions and opinions over a cup of coffee. Participants click on the mugs and read the ideas of other users, grading the importance and relevance of each suggestion. After evaluating two other suggestions, participants are prompted to enter their own textual submissions.
+Each mug represents a participant. The mugs are placed on the table using principal component analysis (PCA). The sampling algorithm used to place mugs favors suggestions that have fewer votes, ensuring that each idea is sufficiently graded. The CRC system tracks the standard error of the grades for each mug, and places each suggestion strategically in an effort to equalize the standard error overall.
+
+
+== Version 1.0 ==
+The CRC’s first version was released on January 28, 2014. Version 1.0 included six issues for participants to grade within the following categories: Healthcare, Education, Marriage Equality, Immigrant Rights, and Marijuana Decriminalization. As of June 2014, over 8,000 people from every county in California have assigned approximately 25,000 grades. The data collected from version 1.0 of the CRC has been organized and posted on the official website. The next version will be released fall of 2014 and the CRC team plans to implement a Spanish version of the platform as well.
+
+
+== Version 2.0 ==
+Officially released on 23 September, National Voter Registration Day, Version 2.0 of the California Report Card is designed to engage the 30% of Californians who speak Spanish at home. All content is now available in English and Spanish, with rapid translation of new input and a streamlined new graphic design.
+
+
+== References ==
+
+
+== External links ==
+The California Report Card
+"Let's Amplify California's Collective Intelligence"

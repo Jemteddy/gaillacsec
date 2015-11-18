@@ -1,0 +1,181 @@
+Thermal expansion is the tendency of matter to change in shape, area, and volume in response to a change in temperature, through heat transfer.
+Temperature is a monotonic function of the average molecular kinetic energy of a substance. When a substance is heated, the kinetic energy of its molecules increases. Thus, the molecules begin moving more and usually maintain a greater average separation. Materials which contract with increasing temperature are unusual; this effect is limited in size, and only occurs within limited temperature ranges (see examples below). The degree of expansion divided by the change in temperature is called the material's coefficient of thermal expansion and generally varies with temperature.
+
+
+== Overview ==
+
+
+=== Predicting expansion ===
+If an equation of state is available, it can be used to predict the values of the thermal expansion at all the required temperatures and pressures, along with many other state functions.
+
+
+=== Contraction effects (negative thermal expansion) ===
+A number of materials contract on heating within certain temperature ranges; this is usually called negative thermal expansion, rather than "thermal contraction". For example, the coefficient of thermal expansion of water drops to zero as it is cooled to 3.983 °C and then becomes negative below this temperature; this means that water has a maximum density at this temperature, and this leads to bodies of water maintaining this temperature at their lower depths during extended periods of sub-zero weather. Also, fairly pure silicon has a negative coefficient of thermal expansion for temperatures between about 18 and 120 Kelvin.
+
+
+=== Factors affecting thermal expansion ===
+Unlike gases or liquids, solid materials tend to keep their shape when undergoing thermal expansion.
+Thermal expansion generally decreases with increasing bond energy, which also has an effect on the melting point of solids, so, high melting point materials are more likely to have lower thermal expansion. In general, liquids expand slightly more than solids. The thermal expansion of glasses is higher compared to that of crystals. At the glass transition temperature, rearrangements that occur in an amorphous material lead to characteristic discontinuities of coefficient of thermal expansion or specific heat. These discontinuities allow detection of the glass transition temperature where a supercooled liquid transforms to a glass.
+Absorption or desorption of water (or other solvents) can change the size of many common materials; many organic materials change size much more due to this effect than they do to thermal expansion. Common plastics exposed to water can, in the long term, expand by many percent.
+
+
+== Coefficient of thermal expansion ==
+The coefficient of thermal expansion describes how the size of an object changes with a change in temperature. Specifically, it measures the fractional change in size per degree change in temperature at a constant pressure. Several types of coefficients have been developed: volumetric, area, and linear. Which is used depends on the particular application and which dimensions are considered important. For solids, one might only be concerned with the change along a length, or over some area.
+The volumetric thermal expansion coefficient is the most basic thermal expansion coefficient, and the most relevant for fluids. In general, substances expand or contract when their temperature changes, with expansion or contraction occurring in all directions. Substances that expand at the same rate in every direction are called isotropic. For isotropic materials, the area and volumetric thermal expansion coefficient are, respectively, approximately twice and three times larger than the linear thermal expansion coefficient.
+Mathematical definitions of these coefficients are defined below for solids, liquids, and gases.
+
+
+=== General volumetric thermal expansion coefficient ===
+In the general case of a gas, liquid, or solid, the volumetric coefficient of thermal expansion is given by
+
+The subscript p indicates that the pressure is held constant during the expansion, and the subscript V stresses that it is the volumetric (not linear) expansion that enters this general definition. In the case of a gas, the fact that the pressure is held constant is important, because the volume of a gas will vary appreciably with pressure as well as temperature. For a gas of low density this can be seen from the ideal gas law.
+
+
+== Expansion in solids ==
+When calculating thermal expansion it is necessary to consider whether the body is free to expand or is constrained. If the body is free to expand the expansion or strain resulting from an increase in temperature can be simply calculated by using the applicable coefficient of thermal expansion.
+If the body is constrained so that it cannot expand, then internal stress will be caused or increased by an increase in temperature. This stress can be calculated by considering the strain that would occur if the body were free to expand and the stress required to reduce that strain to zero, through the stress/strain relationship chracterised by the elastic or Young's modulus. In the special case of solid materials, external ambient pressure does not usually appreciably affect the size of an object and so it is not usually necessary to consider the effect of pressure changes.
+Common engineering solids usually have coefficients of thermal expansion that do not vary significantly over the range of temperatures where they are designed to be used, so where extremely high accuracy is not required, practical calculations can be based on a constant, average, value of the coefficient of expansion.
+
+
+=== Linear expansion ===
+
+Linear expansion means change in one dimension (length) as opposed to change in volume (volumetric expansion). To a first approximation, the change in length measurements of an object due to thermal expansion is related to temperature change by a "linear expansion coefficient". It is the fractional change in length per degree of temperature change. Assuming negligible effect of pressure, we may write:
+
+where  is a particular length measurement and  is the rate of change of that linear dimension per unit change in temperature.
+The change in the linear dimension can be estimated to be:
+
+This equation works well as long as the linear-expansion coefficient does not change much over the change in temperature , and the fractional change in length is small . If either of these conditions does not hold, the equation must be integrated.
+
+
+==== Effects on strain ====
+For solid materials with a significant length, like rods or cables, an estimate of the amount of thermal expansion can be described by the material strain, given by  and defined as:
+
+where  is the length before the change of temperature and  is the length after the change of temperature.
+For most solids, thermal expansion is proportional to the change in temperature:
+
+Thus, the change in either the strain or temperature can be estimated by:
+
+where
+
+is the difference of the temperature between the two recorded strains, measured in degrees Celsius or Kelvin, and  is the linear coefficient of thermal expansion in "per degree Celsius" or "per Kelvin", denoted by °C−1 or K−1, respectively. In the field of continuum mechanics, the thermal expansion and its effects are treated as eigenstrain and eigenstress.
+
+
+=== Area expansion ===
+The area thermal expansion coefficient relates the change in a material's area dimensions to a change in temperature. It is the fractional change in area per degree of temperature change. Ignoring pressure, we may write:
+
+where  is some area of interest on the object, and  is the rate of change of that area per unit change in temperature.
+The change in the area can be estimated as:
+
+This equation works well as long as the area expansion coefficient does not change much over the change in temperature , and the fractional change in area is small . If either of these conditions does not hold, the equation must be integrated.
+
+
+=== Volume expansion ===
+For a solid, we can ignore the effects of pressure on the material, and the volumetric thermal expansion coefficient can be written:
+
+where  is the volume of the material, and  is the rate of change of that volume with temperature.
+This means that the volume of a material changes by some fixed fractional amount. For example, a steel block with a volume of 1 cubic meter might expand to 1.002 cubic meters when the temperature is raised by 50 K. This is an expansion of 0.2%. If we had a block of steel with a volume of 2 cubic meters, then under the same conditions, it would expand to 2.004 cubic meters, again an expansion of 0.2%. The volumetric expansion coefficient would be 0.2% for 50 K, or 0.004% K−1.
+If we already know the expansion coefficient, then we can calculate the change in volume
+
+where  is the fractional change in volume (e.g., 0.002) and  is the change in temperature (50 °C).
+The above example assumes that the expansion coefficient did not change as the temperature changed and the increase in volume is small compared to the original volume. This is not always true, but for small changes in temperature, it is a good approximation. If the volumetric expansion coefficient does change appreciably with temperature, or the increase in volume is significant, then the above equation will have to be integrated:
+
+where  is the volumetric expansion coefficient as a function of temperature T, and , are the initial and final temperatures respectively.
+
+
+==== Isotropic materials ====
+For isotropic materials the volumetric thermal expansion coefficient is three times the linear coefficient:
+
+This ratio arises because volume is composed of three mutually orthogonal directions. Thus, in an isotropic material, for small differential changes, one-third of the volumetric expansion is in a single axis. As an example, take a cube of steel that has sides of length L. The original volume will be  and the new volume, after a temperature increase, will be
+
+We can make the substitutions  and, for isotropic materials, . We now have:
+
+Since the volumetric and linear coefficients are defined only for extremely small temperature and dimensional changes (that is, when  and  are small), the last two terms can be ignored and we get the above relationship between the two coefficients. If we are trying to go back and forth between volumetric and linear coefficients using larger values of  then we will need to take into account the third term, and sometimes even the fourth term.
+Similarly, the area thermal expansion coefficient is two times the linear coefficient:
+
+This ratio can be found in a way similar to that in the linear example above, noting that the area of a face on the cube is just . Also, the same considerations must be made when dealing with large values of .
+
+
+=== Anisotropic materials ===
+Materials with anisotropic structures, such as crystals (with less than cubic symmetry) and many composites, will generally have different linear expansion coefficients  in different directions. As a result, the total volumetric expansion is distributed unequally among the three axes. If the crystal symmetry is monoclinic or triclinic, even the angles between these axes are subject to thermal changes. In such cases it is necessary to treat the coefficient of thermal expansion as a tensor with up to six independent elements. A good way to determine the elements of the tensor is to study the expansion by powder diffraction.
+
+
+== Isobaric expansion in gases ==
+For an ideal gas, the volumetric thermal expansion (i.e., relative change in volume due to temperature change) depends on the type of process in which temperature is changed. Two simple cases are isobaric change, where pressure is held constant, and adiabatic change, where no heat is exchanged with the environment.
+The ideal gas law can be written as:
+
+where p is the pressure, v is the specific volume, and t is temperature measured in energy units. By taking the logarithm of this equation:
+
+Then by definition of isobaric thermal expansion coefficient, with the above equation of state:
+
+The index  denotes an isobaric process.
+
+
+== Expansion in liquids ==
+Theoretically, the coefficient of linear expansion can be found from the coefficient of volumetric expansion (αV ≈ 3α). However, for liquids, α is calculated through the experimental determination of αV.
+
+
+== Expansion in mixtures and alloys ==
+The expansivity of the components of the mixture can cancel each other like in invar.
+The thermal expansivity of a mixture from the expansivities of the pure components and their excess expansivities follow from:
+
+
+== Apparent and absolute expansion ==
+When measuring the expansion of a liquid, the measurement must account for the expansion of the container as well. For example, a flask that has been constructed with a long narrow stem filled with enough liquid that the stem itself is partially filled, when placed in a heat bath will initially show the column of liquid in the stem to drop followed by the immediate increase of that column until the flask-liquid-heat bath system has thermalized. The initial observation of the column of liquid dropping is not due to an initial contraction of the liquid but rather the expansion of the flask as it contacts the heat bath first. Soon after, the liquid in the flask is heated by the flask itself and begins to expand. Since liquids typically have a greater expansion over solids, the liquid in the flask eventually exceeds that of the flask, causing the column of liquid in the flask to rise. A direct measurement of the height of the liquid column is a measurement of the apparent expansion of the liquid. The absolute expansion of the liquid is the apparent expansion corrected for the expansion of the containing vessel.
+
+
+== Examples and applications ==
+
+The expansion and contraction of materials must be considered when designing large structures, when using tape or chain to measure distances for land surveys, when designing molds for casting hot material, and in other engineering applications when large changes in dimension due to temperature are expected.
+Thermal expansion is also used in mechanical applications to fit parts over one another, e.g. a bushing can be fitted over a shaft by making its inner diameter slightly smaller than the diameter of the shaft, then heating it until it fits over the shaft, and allowing it to cool after it has been pushed over the shaft, thus achieving a 'shrink fit'. Induction shrink fitting is a common industrial method to pre-heat metal components between 150 °C and 300 °C thereby causing them to expand and allow for the insertion or removal of another component.
+There exist some alloys with a very small linear expansion coefficient, used in applications that demand very small changes in physical dimension over a range of temperatures. One of these is Invar 36, with α approximately equal to 0.6×10−6 K−1. These alloys are useful in aerospace applications where wide temperature swings may occur.
+Pullinger's apparatus is used to determine the linear expansion of a metallic rod in the laboratory. The apparatus consists of a metal cylinder closed at both ends (called a steam jacket). It is provided with an inlet and outlet for the steam. The steam for heating the rod is supplied by a boiler which is connected by a rubber tube to the inlet. The center of the cylinder contains a hole to insert a thermometer. The rod under investigation is enclosed in a steam jacket. One of its ends is free, but the other end is pressed against a fixed screw. The position of the rod is determined by a micrometer screw gauge or spherometer.
+
+The control of thermal expansion in brittle materials is a key concern for a wide range of reasons. For example, both glass and ceramics are brittle and uneven temperature causes uneven expansion which again causes thermal stress and this might lead to fracture. Ceramics need to be joined or work in consort with a wide range of materials and therefore their expansion must be matched to the application. Because glazes need to be firmly attached to the underlying porcelain (or other body type) their thermal expansion must be tuned to 'fit' the body so that crazing or shivering do not occur. Good example of products whose thermal expansion is the key to their success are CorningWare and the spark plug. The thermal expansion of ceramic bodies can be controlled by firing to create crystalline species that will influence the overall expansion of the material in the desired direction. In addition or instead the formulation of the body can employ materials delivering particles of the desired expansion to the matrix. The thermal expansion of glazes is controlled by their chemical composition and the firing schedule to which they were subjected. In most cases there are complex issues involved in controlling body and glaze expansion, adjusting for thermal expansion must be done with an eye to other properties that will be affected, generally trade-offs are required.
+Thermal expansion can have a noticeable effect in gasoline stored in above ground storage tanks which can cause gasoline pumps to dispense gasoline which may be more compressed than gasoline held in underground storage tanks in the winter time or less compressed than gasoline held in underground storage tanks in the summer time.
+Heat-induced expansion has to be taken into account in most areas of engineering. A few examples are:
+Metal framed windows need rubber spacers
+Rubber tires
+Metal hot water heating pipes should not be used in long straight lengths
+Large structures such as railways and bridges need expansion joints in the structures to avoid sun kink
+One of the reasons for the poor performance of cold car engines is that parts have inefficiently large spacings until the normal operating temperature is achieved.
+A gridiron pendulum uses an arrangement of different metals to maintain a more temperature stable pendulum length.
+A power line on a hot day is droopy, but on a cold day it is tight. This is because the metals expand under heat.
+Expansion joints that absorb the thermal expansion in a piping system.
+Precision engineering nearly always requires the engineer to pay attention to the thermal expansion of the product. For example when using a scanning electron microscope even small changes in temperature such as 1 degree can cause a sample to change its position relative to the focus point.
+Thermometers are another application of thermal expansion – most contain a liquid (usually mercury or alcohol) which is constrained to flow in only one direction (along the tube) due to changes in volume brought about by changes in temperature. A bi-metal mechanical thermometer uses a bimetallic strip and bends due to the differing thermal expansion of the two metals.
+Metal pipes made of different materials are heated by passing steam through them. While each pipe is being tested, one end is securely fixed and the other rests on a rotating shaft, the motion of which is indicated with a pointer. The linear expansion of the different metals is compared qualitatively and the coefficient of linear thermal expansion is calculated.
+
+
+== Thermal expansion coefficients for various materials ==
+
+This section summarizes the coefficients for some common materials.
+For isotropic materials the coefficients linear thermal expansion α and volumetric thermal expansion αV are related by αV = 3α. For liquids usually the coefficient of volumetric expansion is listed and linear expansion is calculated here for comparison.
+For common materials like many metals and compounds, the thermal expansion coefficient is inversely proportional to the melting point. In particular for metals the relation is:
+
+for halides and oxides
+
+In the table below, the range for α is from 10−7 K−1 for hard solids to 10−3 K−1 for organic liquids. The coefficient α varies with the temperature and some materials have a very high variation ; see for example the variation vs. temperature of the volumetric coefficient for a semicrystalline polypropylene (PP) at different pressure, and the variation of the linear coefficient vs. temperature for some steel grades (from bottom to top: ferritic stainless steel, martensitic stainless steel, carbon steel, duplex stainless steel, austenitic steel).
+(The formula αV ≈ 3α is usually used for solids.)
+
+
+== See also ==
+Negative thermal expansion
+Mie-Gruneisen equation of state
+Autovent
+Grüneisen parameter
+Apparent molar property
+
+
+== References ==
+
+
+== External links ==
+Glass Thermal Expansion Thermal expansion measurement, definitions, thermal expansion calculation from the glass composition
+Water thermal expansion calculator
+DoITPoMS Teaching and Learning Package on Thermal Expansion and the Bi-material Strip
+Engineering Toolbox – List of coefficients of Linear Expansion for some common materials
+Article on how αV is determined
+MatWeb: Free database of engineering properties for over 79,000 materials
+USA NIST Website – Temperature and Dimensional Measurement workshop
+Hyperphysics: Thermal expansion
+Understanding Thermal Expansion in Ceramic Glazes

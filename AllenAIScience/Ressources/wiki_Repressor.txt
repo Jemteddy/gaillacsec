@@ -1,0 +1,39 @@
+In molecular genetics, a repressor is a DNA- or RNA-binding protein that inhibits the expression of one or more genes by binding to the operator or associated silencers. A DNA-binding repressor blocks the attachment of RNA polymerase to the promoter, thus preventing transcription of the genes into messenger RNA. An RNA-binding repressor binds to the mRNA and prevents translation of the mRNA into protein. This blocking of expression is called repression.
+
+
+== FunctionEdit ==
+If an inducer, a molecule that initiates the gene expression, is present, then it can interact with the repressor protein and detach it from the operator. RNA polymerase then can transcribe the message (expressing the gene). A corepressor is a molecule that can bind to repressor and make it bind to the operator tightly, which decreases transcription. A repressor that binds with a corepressor is termed an aporepressor or inactive repressor. One type of aporepressor is the trp repressor, an important metabolic protein in bacteria.
+The above mechanism of repression is a type of a feedback mechanism because it only allows transcription to occur if a certain condition is present: the presence of specific inducer(s). Within the Eukaryotic genome are regions of DNA known as silencers. These DNA sequences bind to repressors to partially or fully repress the expression of a gene. Silencers can be located several bases upstream or downstream from the actual promoter of the gene. Repressors can also have two binding sites: one for the silencer region and one for the promoter. This causes chromosome looping allowing the promoter region and the silencer region to come to close proximity.
+
+
+== ExamplesEdit ==
+
+
+=== lac operonEdit ===
+
+lacZYA transcribes the proteins needed for lactose breakdown. lacI synthesizes the repressor of the lacZYA gene. The gene lacI is situated immediately upstream of lacZYA but is transcribed from a different promoter. The lacI gene synthesizes LacI repressor protein. The LacI repressor protein represses lacZYA by binding to the operator sequence lacO.
+The lacZYA repressor is constitutively expressed. It is always bound to the operator region of the promoter which interferes with the ability of RNA polymerase (RNAP) begin transcription of the lacZYA operon. In the presence of the inducer allolactose, the repressor changes conformation and falls off the operator. RNAP is then able to bind to the promoter and begin transcription of the lacZYA gene.
+
+
+=== met operonEdit ===
+An example of a repressor protein is the methionine repressor MetJ. MetJ interacts with DNA bases via a pair of α-helices. MetJ is a homodimer consisting of two monomers, which each provides a beta ribbon and an alpha helix. Together, the beta ribbons of each monomer come together to form an antiparallel beta-sheet which binds to the DNA operator ("Met box") in its major groove. Once bound, the MetJ dimer interacts with another MetJ dimer bound to the complementary strand of the operator via its alpha helices. AdoMet binds to a pocket in MetJ that does not overlap the site of DNA binding.
+The Met box has the sequence AGACGTCT which is a palindrome (it shows dyad symmetry) allowing the same sequence to be recognised on either strand of the DNA. The junction between C and G in the middle of the Met box contains a pyrimidine-purine step that becomes positively supercoiled forming a kink in the phosphodiester backbone. This is how the protein checks for the recognition site as it allows the DNA duplex to follow the shape of the protein. In other words, recognition happens through indirect readout of the structural parameters of the DNA, rather than via specific base sequence recognition.
+Each MetJ dimer contains two binding sites for the cofactor S-Adenosyl methionine (SAM) which is a product in the biosynthesis of methionine. When SAM is present it binds to the MetJ protein increasing its affinity for its cognate operator site which halts transcription of genes involved in methionine synthesis. When SAM concentration becomes low the repressor dissociates from the operator site allowing more methionine to be produced.
+
+
+== See alsoEdit ==
+Promoter (biology)
+Activator (genetics)
+Operon
+Regulation of gene expression
+Transcription factor
+lac repressor
+P300/CBP
+Glossary of gene expression terms
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Repressor Proteins at the US National Library of Medicine Medical Subject Headings (MeSH)

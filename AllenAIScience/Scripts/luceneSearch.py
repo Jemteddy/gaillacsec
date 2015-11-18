@@ -66,7 +66,7 @@ class SearchEngine(object):
     def predict_answer(self,maxs=[1], source='training',result_file='answers.csv'):
        # source must be 'training' or 'validation'
         res = np.zeros([len(maxs)+1, 3]).astype('int')
-        data_set = aux.processData('../Data/'+source+'_set.tsv')
+        data_set = aux.preprocessData('../Data/'+source+'_set.tsv')
         replies = ['A', 'B', 'C', 'D']
         goodAnswersCount = 0
         res_ind=0
@@ -110,3 +110,38 @@ class SearchEngine(object):
                            res[res_ind,row['type']]+=1
         return [goodAnswersCount,res]
          
+         
+    def predict_prob(self,m= 1, source='training',result_file='answers.csv'):
+       # source must be 'training' or 'validation'
+        data_set = aux.preprocessData('../Data/'+source+'_set.tsv')
+        replies = ['A', 'B', 'C', 'D']
+        probs=[]
+
+        for index, row in data_set.iterrows():
+            r = -1
+            row['question'] = row['question'].replace('_', ' ')
+    
+            prob=[]
+            for reply in replies:
+                r_current = 0
+                ans = row['answer' + reply]
+    
+                if row['type'] != 1:
+                    text = row['question']+' '+ans
+                else:
+                    ind = row['question'].find('   ')
+                    text=row['question'][0:ind]+' ' + ans+ ' '+ row['question'][ind:]            
+                try:
+                    hits = self.search(text, m)
+                    r_current = np.mean([hits.scoreDocs[i].score for i in range(len(hits.scoreDocs))])
+                except:
+                    print text
+                    r_current=0
+                
+                prob.append(r_current)
+                if r_current > r:
+                    r = r_current
+            ptot = sum(prob)
+            prob= [ p/ptot for p in prob]
+            probs.append(prob)
+        return probs

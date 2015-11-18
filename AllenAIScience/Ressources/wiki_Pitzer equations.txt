@@ -1,0 +1,55 @@
+Pitzer equations are important for the understanding of the behaviour of ions dissolved in natural waters such as rivers, lakes and sea-water. They were first described by physical chemist Kenneth Pitzer. The parameters of the Pitzer equations are linear combinations of parameters, of a virial expansion of the excess Gibbs free energy, which characterise interactions amongst ions and solvent. The derivation is thermodynamically rigorous at a given level of expansion. The parameters may be derived from various experimental data such as the osmotic coefficient, mixed ion activity coefficients, and salt solubility. They can be used to calculate mixed ion activity coefficients and water activities in solutions of high ionic strength for which the Debye–Hückel theory is no longer adequate. They are more rigorous than the equations of specific ion interaction theory (SIT theory), but Pitzer parameters are more difficult to determine experimentally than SIT parameters.
+
+
+== Historical development ==
+A starting point for the development can be taken as the virial equation of state for a gas.
+PV = RT + BP +CP2 + DP3 ...
+where P is the pressure, V is the volume, T is the temperature and B, C, D ... are known as virial coefficients. The first term on the right-hand side is for an ideal gas. The remaining terms quantify the departure from the ideal gas law with changing pressure, P. It can be shown by statistical mechanics that the second virial coefficient arises from the intermolecular forces between pairs of molecules, the third virial coefficient involves interactions between three molecules, etc. This theory was developed by McMillan and Mayer.
+Solutions of uncharged molecules can be treated by a modification of the McMillan-Mayer theory. However when a solution contains electrolytes electrostatic interactions must also be taken into account. The Debye-Hückel theory  was based on the assumption that each ion was surrounded by a spherical "cloud" made up of ions of the opposite charge. Expressions were derived for the variation of single-ion activity coefficients as a function of ionic strength. This theory was very successful for dilute solutions of 1:1 electrolytes and, as discussed below, the Debye-Hückel expressions are still valid at sufficiently low concentrations. The values calculated with Debye-Hückel theory diverge more and more from observed values as the concentrations and/or ionic charges increases. Moreover, Debye-Hückel theory takes no account of the specific properties of ions such as size or shape.
+Brønsted had independently proposed an empirical equation,
+ln γ = −αm1/2 − 2βm
+1 − φ = (α/3)m1/2 + βm
+in which the activity coefficient depended not only on ionic strength, but also on the concentration, m, of the specific ion through the parameter β. This is the basis of SIT theory. It was further developed by Guggenheim. Scatchard extended the theory to allow the interaction coefficients to vary with ionic strength. Note that the second form of Brønsted's equation is an expression for the osmotic coefficient. Measurement of osmotic coefficients provides one means for determining mean activity coefficients.
+
+
+== The Pitzer parameters ==
+The exposition begins with a virial expansion of the excess Gibbs free energy
+
+Ww is the mass of the water in kilograms, bi, bj ... are the molalities of the ions and I is the ionic strength. The first term, f(I) represents the Debye-Hückel limiting law. The quantities λij(I) represent the short-range interactions in the presence of solvent between solute particles i and j. This binary interaction parameter or second virial coefficient depends on ionic strength, on the particular species i and j and the temperature and pressure. The quantities μijk represent the interactions between three particles. Higher terms may also be included in the virial expansion.
+Next, the free energy is expressed as the sum of chemical potentials, or partial molal free energy,
+
+and an expression for the activity coefficient is obtained by differentiating the virial expansion with respect to a molality b.
+
+For a simple electrolyte MpXq, at a concentration m, made up of ions Mz+ and Xz−, the parameters ,  and  are defined as
+
+The term fφ is essentially the Debye-Hückel term. Terms involving  and  are not included as interactions between three ions of the same charge are unlikely to occur except in very concentrated solutions.
+The B parameter was found empirically to show an ionic strength dependence (in the absence of ion-pairing) which could be expressed as
+
+With these definitions, the expression for the osmotic coefficient becomes
+
+A similar expression is obtained for the mean activity coefficient.
+
+These equations were applied to an extensive range of experimental data at 25 °C with excellent agreement to about 6 mol kg−1 for various types of electrolyte. The treatment can be extended to mixed electrolytes and to include association equilibria. Values for the parameters β(0), β(1) and C for inorganic and organic acids, bases and salts have been tabulated. Temperature and pressure variation is also discussed.
+One area of application of Pitzer parameters is to describe the ionic strength variation of equilibrium constants measured as concentration quotients. Both SIT and Pitzer parameters have been used in this context, For example, both sets of parameters were calculated for some uranium complexes and were found to account equally well for the ionic strength dependence of the stability constants.
+Pitzer parameters and SIT theory have been extensively compared. There are more parameters in the Pitzer equations than in the SIT equations. Because of this the Pitzer equations provide for more precise modelling of mean activity coefficient data and equilibrium constants. However, the determination of the greater number of Pitzer parameters means that they are more difficult to determine.
+
+
+== Compilation of Pitzer parameters ==
+Besides the set of parameters obtained by Pitzer et al. in the 1970s mentioned in the previous section. Kim and Frederick published the Pitzer parameters for 304 single salts in aqueous solutions at 298.15 K, extended the model to the concentration range up to the saturation point. Those parameters are widely used, however, many complex electrolytes including ones with organic anions or cations, which are very significant in some related fields, were not summarized in their paper.
+For some complex electrolytes, Ge et al. obtained the new set of Pitzer parameters using up-to-date measured or critically reviewed osmotic coefficient or activity coefficient data.
+
+
+== A comparable TCPC model ==
+Besides the well-known Pitzer-like equations, there is a simple and easy-to-use semi-empirical model, which is called the three-characteristic-parameter correlation(TCPC)model, which is first proposed by Lin et al. It is a combination of the Pitzer long-range interaction and short-range solvation effect.
+ln γ = ln γPDH + ln γSV
+Ge et al. modified this model, and obtained the TCPC parameters for a larger number of single salts aqueous solutions. This model was also extended for a number of electrolytes dissolved in methanol,ethanol, 2-propanol, and so on. Temperature dependent parameters for a number of common single salts were also compiled, available at.
+The performance of the TCPC model in correlation with the measured activity coefficient or osmotic coefficients is found to be comparable with Pitzer-like models.
+
+
+== References ==
+Pitzer, K.S. (editor) (1991). Activity coefficients in electrolyte solutions (2nd ed.). C.R,C. Press. ISBN 0-8493-5415-3.  Chapter 3. *Pitzer, K.S. Ion interaction approach: theory and data correlation, pp. 75–153.
+
+
+== See also ==
+Bromley equation
+Davies equation

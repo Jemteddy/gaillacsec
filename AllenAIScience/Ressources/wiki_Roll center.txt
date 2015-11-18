@@ -1,0 +1,20 @@
+The roll center of a vehicle is the notional point at which the cornering forces in the suspension are reacted to the vehicle body.
+There are two definitions of roll center. The most commonly used is the geometric (or kinematic) roll center; the Society of Automotive Engineers uses a force-based definition.
+The location of the geometric roll center is solely dictated by the suspension geometry, and can be found using principles of the instant center of rotation. The SAE's definition of the force based roll center is, "The point in the transverse vertical plane through any pair of wheel centers at which lateral forces may be applied to the sprung mass without producing suspension roll".
+The lateral location of the roll center is typically at the center-line of the vehicle when the suspension on the left and right sides of the car are mirror images of each other.
+The significance of the roll center can only be appreciated when the vehicle's center of mass is also considered. If there is a difference between the position of the center of mass and the roll center a moment arm is created. When the vehicle experiences angular acceleration due to cornering, the size of the moment arm, combined with the stiffness of the springs and anti-roll bars (anti-sway bars in some parts of the world), dictates how much the vehicle will roll. This has other effects too, such as dynamic load transfer.
+
+
+== ApplicationEdit ==
+Load transfer is of critical importance for vehicle stability in vehicles such as SUVs. Ideally in high performance applications load transfer tends to be minimized as a tire's performance is directly affected by the amount of load that it has to transmit. In a steady state turn the final load transfer, summed across all the axles, is only related to the position of the center of mass above the ground, the track width and the lateral acceleration. SUVs must shift their center of mass lower or decrease their lateral acceleration to avoid tipping. To keep them from tipping many auto manufacturers use tires with lower grip to reduce the vehicles cornering capacity, or the roll stiffness balance front to rear can be altered to encourage understeer or oversteer as necessary to limit the maximum lateral acceleration of the vehicle.
+The geometric roll center of the vehicle can be found by following basic geometrical procedures when the vehicle is static. However, when the vehicle rolls the roll centers migrate. It is this movement of roll centers that vehicle dynamics seek to control and in most cases limit. The rapid movement of roll centers when the system experiences small displacements can lead to stability problems with the vehicle. The roll center height has been shown to affect behavior at the initiation of turns such as nimbleness and initial roll control.
+
+
+== Testing methodsEdit ==
+Current methods of analyzing individual wheel instant centers have yielded more intuitive results of the effects of non-rolling weight transfer effects. This type of analysis is better known as the lateral-anti method. This is where one takes the individual instant center locations of each corner of the car and then calculates the resultant vertical reaction vector due to lateral force. This value then is taken into account in the calculation of a jacking force and lateral weight transfer. This method works particularly well in circumstances where there are asymmetries in left to right suspension geometry.
+The practical equivalent of the above is to push laterally at the tire contact patch and measure the ratio of the change in vertical load to the horizontal force.
+
+
+== See alsoEdit ==
+Weight distribution
+Vehicle metrics

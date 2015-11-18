@@ -1,0 +1,126 @@
+Electron beam welding (EBW) is a fusion welding process in which a beam of high-velocity electrons is applied to two materials to be joined. The workpieces melt and flow together as the kinetic energy of the electrons is transformed into heat upon impact. EBW is often performed under vacuum conditions to prevent dissipation of the electron beam.
+
+
+== HistoryEdit ==
+Electron beam welding was developed by the German physicist Karl-Heinz Steigerwald, who was at the time working on various electron beam applications. Steigerwald conceived and developed the first practical electron beam welding machine, which began operation in 1958. American inventor James T. Russell has also been credited with designing and building the first electron-beam welder.
+
+
+== Physics of electron beam heatingEdit ==
+Electrons are elementary particles possessing a mass m = 9.1 · 10−31 kg and a negative electrical charge e = 1.6 · 10−19 C. They exist either bound to an atomic nucleus, as conduction electrons in the atomic lattice of metals, or as free electrons in vacuum.
+Free electrons in vacuum can be accelerated, with their orbits controlled by electric and magnetic fields. In this way narrow beams of electrons carrying high kinetic energy can be formed, which upon collision with atoms in solids transform their kinetic energy into heat. Electron beam welding provides excellent welding conditions because it involves:
+Strong electric fields, which can accelerate electrons to a very high speed. Thus, the electron beam can carry high power, equal to the product of beam current and accelerating voltage. By increasing the beam current and the accelerating voltage, the beam power can be increased to practically any desired value.
+Using magnetic lenses, by which the beam can be shaped into a narrow cone and focused to a very small diameter. This allows for a very high surface power density on the surface to be welded. Values of power density in the crossover (focus) of the beam can be as high as 104 – 106 W/mm2.
+Shallow penetration depths in the order of hundredths of a millimeter. This allows for a very high volumetric power density, which can reach values of the order 105 – 107 W/mm3. Consequently, the temperature in this volume increases extremely rapidly, 108 – 1010 K/s.
+The effectiveness of the electron beam depends on many factors. The most important are the physical properties of the materials to be welded, especially the ease with which they can be melted or vaporize under low-pressure conditions. Electron beam welding can be so intense that loss of material due to evaporation or boiling during the process must be taken into account when welding. At lower values of surface power density (in the range of about 103 W/mm2) the loss of material by evaporation is negligible for most metals, which is favorable for welding. At higher power density, the material affected by the beam can totally evaporate in a very short time; this is no longer electron beam welding; it is electron beam machining.
+
+
+=== Beam formationEdit ===
+Cathode - the source of free electrons
+
+Conduction electrons (those not bound to the nucleus of atoms) move in a crystal lattice of metals with velocities distributed according to Gauss's law and depending on temperature. They cannot leave the metal unless their kinetic energy (in eV) is higher than the potential barrier at the metal surface. The number of electrons fulfilling this condition increases exponentially with increasing temperature of the metal, following Richardson's rule.
+As a source of electrons for electron beam welders, the material must fulfill certain requirements:
+to achieve high power density in the beam, the emission current density [A/mm2], hence the working temperature, should be as high as possible,
+to keep evaporation in vacuum low, the material must have a low enough vapour pressure at the working temperature.
+The emitter must be mechanically stable, not chemically sensitive to gases present in the vacuum atmosphere (like oxygen and water vapour), easily available, etc.
+These and other conditions limit the choice of material for the emitter to metals with high melting points, practically to only two: tantalum and tungsten. With tungsten cathodes, emission current densities about 100 mA/mm2 can be achieved, but only a small portion of the emitted electrons takes part in beam formation, depending on the electric field produced by the anode and control electrode voltages. The type of cathode most frequently used in electron beam welders is made of a tungsten strip, about 0.05 mm thick, shaped as shown in Fig. 1a. The appropriate width of the strip depends on the highest required value of emission current. For the lower range of beam power, up to about 2 kW, the width w=0.5 mm is appropriate.
+Acceleration of electrons, current control
+
+Electrons emitted from the cathode possess very low energy, only a few eV. To give them the required high speed, they are accelerated by a strong electric field applied between the emitter and another, positively charged, electrode, namely the anode. The accelerating field must also navigate the electrons to form a narrow converging “bundle” around the axis. This can be achieved by an electric field in the proximity of the emitting cathode surface which has, a radial addition as well as an axial component, forcing the electrons in the direction of the axis. Due to this effect, the electron beam converges to some minimum diameter in a plane close to the anode.
+For practical applications the power of the electron beam must, of course, be controllable. This can be accomplished by another electric field produced by another cathode negatively charged with respect to the first.
+At least this part of electron gun must be evacuated to "high" vacuum, to prevent "burning" the cathode and the emergence of electrical discharges.
+Focusing
+After leaving the anode, the divergent electron beam does not have a power density sufficient for welding metals and has to be focused. This can be accomplished by a magnetic field produced by electric current in a cylindrical coil.
+
+The focusing effect of a rotationally symmetrical magnetic field on the trajectory of electrons is the result of the complicated influence of a magnetic field on a moving electron. This effect is a force proportional to the induction B of the field and electron velocity v. The vector product of the radial component of induction Br and axial component of velocity va is a force perpendicular to those vectors, causing the electron to move around the axis. Additional effect of this motion in the same magnetic field is another force F oriented radially to the axis, which is responsible for the focusing effect of the magnetic lens. The resulting trajectory of electrons in the magnetic lens is a curve similar to a helix. In this context it should be mentioned that variations of focal length (exciting current) cause a slight rotation of the beam cross-section.
+Beam deflection system
+
+As mentioned above, the beam spot should be very precisely positioned with respect to the joint to be welded. This is commonly accomplished mechanically by moving the workpiece with respect to the electron gun, but sometimes it is preferable to deflect the beam instead. Most often a system of four coils positioned symmetrically around the gun axis behind the focusing lens, producing a magnetic field perpendicular to the gun axis, is used for this purpose.
+There are more practical reasons why the most appropriate deflection system is used in TV CRT or PC monitors. This applies to both the deflecting coils as well as to the necessary electronics. Such a system enables not only “static” deflection of the beam for the positioning purposes mentioned above, but also precise and fast dynamic control of the beam spot position by a computer. This makes it possible, e.g.:
+to weld joints of complicated geometry,
+to create image-enlarged pictures of objects in the working chamber on TV or PC monitors.
+Both possibilities find many useful applications in electron beam welding practice.
+
+
+=== Penetration of electron beam during weldingEdit ===
+To explain the capability of the electron beam to produce deep and narrow welds, the process of "penetration" must be explained. First of all, the process for a "single" electron can be considered.
+Penetration of electrons
+When electrons from the beam impact the surface of a solid, some of them may be reflected (as "backscattered" electrons), while others penetrate the surface, where they collide with the particles of the solid. In non-elastic collisions they lose their kinetic energy. It has been proved, both theoretically and experimentally, that they can "travel" only a very small distance below the surface before they transfer all their kinetic energy into heat. This distance is proportional to their initial energy and inversely proportional to the density of the solid. Under conditions usual in welding practice the "travel distance" is on the order of hundredths of a millimeter. Just this fact enables, under certain conditions, fast beam penetration.
+Penetration of the electron beam
+The heat contribution of single electrons is very small, but the electrons can be accelerated by very high voltages, and by increasing their number (the beam current) the power of the beam can be increased to any desired value. By focusing the beam onto a small diameter on the surface of a solid object, values of planar power density as high as 104 up to 107 W/mm2 can be reached. Because electrons transfer their energy into heat in a very thin layer of the solid, as explained above, the power density in this volume can be extremely high. The volume density of power in the small volume in which the kinetic energy of the electrons is transformed into heat can reach values of the order 105 – 107 W/mm3. Consecutively, the temperature in this volume increases extremely rapidly, by 108 – 109 K/s.
+The effect of the electron beams under such circumstances depends on several conditions, first of all on the physical properties of the material. Any material can be melted, or even evaporated, in a very short time. Depending on conditions, the intensity of evaporation may vary, from negligible to essential. At lower values of surface power density (in the range of about 103 W/mm2) the loss of material by evaporation is negligible for most metals, which is favorable for welding. At higher power density, the material affected by the beam can totally evaporate in a very short time; this no longer electron beam welding; it is electron beam machining.
+
+
+=== Results of the electron beam applicationEdit ===
+
+The results of the beam application depend on several factors: Many experiments and innumerable practical applications of electron beam in welding technology prove that the effect of the beam, i.e. the size and shape of the zone influenced by the beam depends on:
+(1) Beam power – The power of the beam [W] is the product of the accelerating voltage [kV] and beam current [mA], parameters easily measurable and precisely controllable. The power is controlled by the beam current at constant accelerating voltage, usually the highest accessible.
+(2) Power density (focusing of the beam) – The power density at the spot of incidence of the beam with the workpiece depends on factors like the size of the electron source on the cathode, the optical quality of the accelerating electric lens and the focusing magnetic lens, alignment of the beam, the value of the accelerating voltage, and the focal length. All these factors (except the focal length) depend on the design of the machine.
+(3) Welding speed – The construction of the welding equipment should enable adjustment of the relative speed of motion of the workpiece with respect to the beam in wide enough limits, e.g., between 2 and 50 mm/s.
+(4) Material properties, and in some cases also on
+(5) Geometry (shape and dimensions) of the joint.
+The final effect of the beam depends on the particular combination of these parameters.
+Action of the beam at low power density or over a very short time results in melting only a thin surface layer.
+A defocused beam does not penetrate, and the material at low welding speeds is heated only by conduction of the heat from the surface, producing a hemispherical melted zone.
+At high power density and low speed, a deeper and slightly conical melted zone is produced.
+In the case of very high power density, the beam (well focused) penetrates deeper, in proportional to its total power.
+
+
+== The welding processEdit ==
+
+
+=== WeldabilityEdit ===
+For welding thin-walled parts, appropriate welding aids are generally needed. Their construction must provide perfect contact of the parts and prevent their movement during welding. Usually they have to be designed individually for a given workpiece.
+Not all materials can be welded by an electron beam in a vacuum. This technology cannot be applied to materials with high vapour pressure at the melting temperature, like zinc, cadmium, magnesium and practically all non-metals.
+Another limitation to weldability may be the change of material properties induced by the welding process, such as a high speed of cooling. As detailed discussion of this matter exceeds the scope of this article, the reader is recommended to seek more information in the appropriate literature.
+
+
+=== Joining dissimilar materialsEdit ===
+It is often not possible to join two metal components by welding, i.e. to melt part of both in the vicinity of the joint, if the two materials have very different properties from their alloy, due to the creation of brittle, inter-metallic compounds. This situation cannot be changed, even by electron beam heating in vacuum, but this nevertheless makes it possible to realize joints meeting high demands for mechanical compactness and that are perfectly vacuum-tight. The principal approach is not to melt both parts, but only the one with the lower melting point, while the other remains solid. The advantage of electron beam welding is its ability to localize heating to a precise point and to control exactly the energy needed for the process. A high-vacuum atmosphere substantially contributes to a positive result. A general rule for construction of joints to be made this way is that the part with the lower melting point should be directly accessible for the beam.
+
+
+=== Possible problems and limitationsEdit ===
+
+The material melted by the beam shrinks during cooling after solidification, which may have unwanted consequences like cracking, deformation and changes of shape, depending on conditions.
+The butt weld of two plates results in bending of the weldment because more material has been melted at the head than at the root of the weld. This effect is of course not as substantial as in arc welding.
+Another potential danger is the emergence of cracks in the weld. If both parts are rigid, the shrinkage of the weld produces high stress in the weld which may lead to cracks if the material is brittle (even if only after remelting by welding). The consequences of weld contraction should always be considered when constructing the parts to be welded.
+
+
+== Electron beam welding equipmentEdit ==
+
+Since the publication of the first practical electron beam welding equipment by Steigerwald in 1958, electron beam welding has spread rapidly in all branches of engineering where welding can be applied. To cover the various requirements, countless welder types have been designed, differing in construction, working space volume, workpiece manipulators and beam power. Electron beam generators (electron guns) designed for welding applications can supply beams with power ranging from a few watts up to about one hundred kilowatts. "Micro-welds" of tiny components can be realized, as well as deep welds up to 300 mm (or even more if needed). Vacuum working chambers of various design may have a volume of only a few liters, but vacuum chambers with the volume of several hundreds cubic meters have also been built.
+Specifically, the equipment comprises:
+1 Electron gun, generating the electron beam,
+2 Working chamber, mostly evacuated to "low" or "high" vacuum,
+3 Workpiece manipulator (positioning mechanism),
+4 Power supply and control and monitoring electronics.
+Electron gun
+In the electron gun, the free electrons are gained by thermo-emission from a hot metal strap (or wire). They are then accelerated and formed into a narrow convergent beam by an electric field produced by three electrodes: the electron emitting strap, the cathode connected to the negative pole of the high (accelerating) voltage power supply (30 - 200 kV) and the positive high voltage electrode, the anode. There is a third electrode charged negatively with respect to the cathode, called the Wehnelt or control electrode. Its negative potential controls the portion of emitted electrons entering into the accelerating field, i.e., the electron beam current.
+After passing the anode opening, the electrons move with constant speed in a slightly divergent cone. For technological applications the divergent beam has to be focused, which is realized by the magnetic field of a coil, the magnetic focusing lens.
+For proper functioning of the electron gun, it is necessary that the beam be perfectly adjusted with respect to the optical axes of the accelerating electrical lens and the magnetic focusing lens. This can be done by applying a magnetic field of some specific radial direction and strength perpendicular to the optical axis before the focusing lens. This is usually realized by a simple correction system consisting of two pairs of coils. By adjusting the currents in these coils any required correcting field can be produced.
+After passing the focusing lens, the beam can be applied for welding, either directly or after being deflected by a deflection system. This consists of two pairs of coils, one for each X and Y direction. These can be used for "static" or "dynamic" deflection. Static deflection is useful for exact positioning of the beam by welding. Dynamic deflection is realized by supplying the deflection coils with currents which can be controlled by the computer. This opens new possibilities for electron beam applications, like surface hardening or annealing, exact beam positioning, etc.
+The fast deflection system can also be applied (if provided with appropriate electronics) for imaging and engraving. In this case the equipment is operated like a scanning electron microscope, with a resolution of about 0,1 mm (limited by the beam diameter). In a similar mode the fine computer controlled beam can "write" or "draw" a picture on the metal surface by melting a thin surface layer.
+Working chamber
+Since the appearance of the first electron beam welding machines at the end of the 1950s, the application of electron beam welding spread rapidly into industry and research in all highly developed countries. Up to now, uncountable numbers of various types of electron beam equipment have been designed and realized. In most of them the welding takes place in a working vacuum chamber in a high or low vacuum environment.
+The vacuum working chamber may have any desired volume, from a few liters up to hundreds of cubic meters. They can be provided with electron guns supplying an electron beam with any required power up to 100 kW, or even more if needed. In micro-electron beam devices, components with dimensions in tenths of a millimeter can be precisely welded. In welders with electron beams of high enough power, welds up to 300 mm deep can be realized.
+There are also welding machines in which the electron beam is brought out of vacuum into the atmosphere. With such equipment very large objects can be welded without huge working chambers.
+Workpiece manipulators
+Electron beam welding can never be "hand-manipulated", even if not realized in vacuum, as there is always strong X-radiation. The relative motion of the beam and the workpiece is most often achieved by rotation or linear travel of the workpiece. In some cases the welding is realized by moving the beam with the help of a computer controlled deflection system. Workpiece manipulators are mostly designed individually to meet the specific requirements of the welding equipment.
+Power supply and control and monitoring electronics
+Electron beam equipment must be provided with an appropriate power supply for the beam generator. The accelerating voltage may be chosen between 30 and 200 kV. Usually it is about 60 or 150 kV, depending on various conditions. With rising voltage the technical problems and the price of the equipment rapidly increase, hence, whenever it is possible a lower voltage of about 60 kV is to be chosen. The maximum power of the high voltage supply depends on the maximum depth of weld required.
+The high-voltage equipment must also supply the low voltage, above 5 V, for the cathode heating, and negative voltage up to about 1000 V for the control electrode.
+The electron gun also needs low-voltage supplies for the correction system, the focusing lens, and the deflection system. The last mentioned may be very complex if it is to provide computer controlled imaging, engraving, or similar beam applications.
+Complex electronics may also be needed to control the workpiece manipulator.
+
+
+== See alsoEdit ==
+Electron beam technology
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Elmer, John (2008-03-03). "Standardizing the Art of Electron-Beam Welding". Lawrence Livermore National Laboratory. Retrieved 2008-10-16. 
+What is Electron Beam Welding?
+Electron beam welding of thin-walled parts
+Weldability of various materials

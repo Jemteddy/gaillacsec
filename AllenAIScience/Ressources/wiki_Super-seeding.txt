@@ -1,0 +1,31 @@
+In file sharing, super-seeding is an algorithm developed by John Hoffman for the BitTorrent communications protocol that helps downloaders to be able to become uploaders more quickly, but it introduces the danger of total seeding failure if there is only one downloader.
+The algorithm applies to a scenario in which there is only one seed in the swarm. By permitting each downloader to download only specific parts of the files listed in a torrent, it equips peers to begin seeding sooner.
+In 2003, BitTornado became the first BitTorrent client to implement the algorithm.
+
+
+== Effects ==
+Testing by one group found that super seeding can help save an upload ratio of around 20%. It works best when the upload speed of the seed is greater than that of individual peers.
+Super seeding transfers stall when there is only one downloading client. The seeders will not send more data until a second client receives the data. To avoid this, rTorrent continues to offer more pieces to the peers without waiting for confirmation, until it is uploading at its configured capacity. This improves the upload speed until enough peers have joined the swarm, at the cost of not being able to detect cheating peers [need a definition for "cheating peers"].
+
+
+== Supporting clients ==
+ABC (Yet Another BitTorrent Client)
+BitComet (Feature added in v.1.16. Renamed to Initial-Seeding in v.1.17.)
+BitSpirit
+BitTornado
+BitTorrent version 6.0
+Halite
+KTorrent 4.1
+qBittorrent
+rTorrent version 0.8.2
+Tixati since version 1.34
+µTorrent (Named "Initial Seeding".)
+Vuze (formerly Azureus)
+
+
+== References ==
+
+
+== External links ==
+Description of original super-seed algorithm in BitTornado
+Report by Robb Toploski (Issue #4 & 5 are regarding Super Seeding)

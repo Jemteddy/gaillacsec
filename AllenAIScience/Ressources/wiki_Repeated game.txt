@@ -1,0 +1,42 @@
+In game theory, a repeated game (supergame or iterated game) is an extensive form game which consists in some number of repetitions of some base game (called a stage game). The stage game is usually one of the well-studied 2-person games. It captures the idea that a player will have to take into account the impact of his current action on the future actions of other players; this is sometimes called his reputation. The presence of different equilibrium properties is present because the threat of retaliation is real, since one will play the game again with the same person. It can be proved that every strategy that has a payoff greater than the minmax payoff can be a Nash Equilibrium, which is a very large set of strategies. Single stage game or single shot game are names for non-repeated games.
+
+
+== Finitely vs infinitely repeated games ==
+Repeated games may be broadly divided into two classes, depending on whether the horizon is finite or infinite. The results in these two cases are very different. Even finitely repeated games are not necessarily finite horizon, the player may just perceive a probability of another cycle and act accordingly. For example, the fact that everyone has a fixed lifetime doesn't mean that all games should be finite horizon. Also, players might act differently when the horizon is far away as opposed to when it is close by, which can probably be thought of as a time modifier function applied to the payoff. The difference in strategies for finite versus infinite horizon games is a hotly debated topic, and many game theorists have differing views regarding it.
+
+
+== Infinitely repeated games ==
+The most widely studied repeated games are games that are repeated a possibly infinite number of times. On many occasions, it is found that the optimal method of playing a repeated game is not to repeatedly play a Nash strategy of the constituent game (look at the Repeated prisoner's dilemma example), but to cooperate and play a socially optimum strategy. This can be interpreted as a "social norm" and one essential part of infinitely repeated games is punishing players who deviate from this cooperative strategy. The punishment may be something like playing a strategy which leads to reduced payoff to both players for the rest of the game (called a trigger strategy). There are many results in theorems which deal with how to achieve and maintain a socially optimal equilibrium in repeated games. These results are collectively called "Folk Theorems". An important feature of a repeated game is the way in which a player's preferences may be modeled. There are many different ways in which a preference relation may be modeled in an infinitely repeated game, the main ones are :
+Discounting - valuation of the game diminishes with time depending on a discount parameter : 
+Limit of means - can be thought of as an average over T periods as T approaches infinity: 
+Overtaking - Sequence  is superior to sequence 
+
+
+== Finitely repeated games ==
+As explained earlier, finite games can be divided into two broad classes. In the first class of finitely repeated games where the time period is fixed and known, it is optimal to play the Nash strategy in the last period. When the Nash Equilibrium payoff is equal to the minmax payoff, then the player has no reason to stick to a socially optimum strategy and is free to play a selfish strategy throughout, since the punishment cannot affect him (being equal to the minmax payoff). This deviation to a selfish Nash Equilibrium strategy is explained by the Chainstore paradox. The second class of finitely repeated games are usually thought of as infinitely repeated games.
+
+
+== Repeated prisoner's dilemma ==
+Although the Prisoner's dilemma has only one Nash equilibrium (everyone defect), cooperation can be sustained in the repeated Prisoner's dilemma if the discount factor is not too high; that is, if the players are interested enough in future outcomes of the game. Strategies known as trigger strategies comprise Nash equilibria of the repeated Prisoner's dilemma. However, Prisoner's dilemma is one where the minmax value is equal to the Nash Equilibrium payoff. This means that a player who knows the exact horizon may just decide to switch to Defect without fear of punishment.
+An example of repeated prisoner's dilemma is the WWI trench warfare. Here, though initially it was best to cause as much damage to the other party as possible, as time passed and the opposing parties got to 'know' each other, they realised that causing as much damage as possible to the other by, e.g. artillery will only prompt a similar response: e.g. blowing up the foodstock of the other (through bombardment) will only leave both battalions hungry. After some time, the opposing battalions learned that it is sufficient to show what they are capable of, instead of actually carrying out the act.
+
+
+== Solving repeated games ==
+Complex repeated games can be solved using various techniques most of which rely heavily on linear algebra and the concepts expressed in fictitious play.
+
+
+== Incomplete information ==
+Repeated games can include incomplete information. Repeated games with incomplete information, were pioneered by Aumann and Maschler. While it is easier to treat situation where one player is informed the other not, and when information received by each player is independent, it is possible to deal with zero-sum games with incomplete information on both sides and signals are not independent.
+
+
+== References ==
+
+Fudenberg, Drew; Tirole, Jean (1991). Game Theory. Cambridge: MIT Press. ISBN 0-262-06141-4. 
+Mailath, G. & Samuelson, L. (2006). Repeated games and reputations: long-run relationships. New York: Oxford University Press. ISBN 0-19-530079-3. 
+Osborne, Martin J.; Rubinstein, Ariel (1994). A Course in Game Theory. Cambridge: MIT Press. ISBN 0-262-15041-7. 
+Sorin, Sylvain (2002). A First Course on Zero-Sum Repeated Games. Berlin: Springer. ISBN 3-540-43028-8. 
+
+
+== External links ==
+Game-Theoretic Solution to Poker Using Fictitious Play
+Game Theory notes on Repeated games
