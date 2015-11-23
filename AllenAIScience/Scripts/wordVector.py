@@ -6,19 +6,6 @@ import nltk.tokenize as nt
 import auxFunctions as aux
 import wikipedia as wk
 
-## iterator for files in ressources
-class MySentences(object):
-
-    def __init__(self, dirname):
-        self.dirname = dirname
-
-    def __iter__(self):
-        for fname in os.listdir(self.dirname):
-            if (os.path.isfile(os.path.join(self.dirname, fname)) and fname!='.DS_Store'):
-                for line in open(os.path.join(self.dirname, fname)):
-                    if (line[-1]=='.'):
-                        line=line[:-1]+' . '
-                    yield nt.word_tokenize(line.replace('-', ' - ').replace('. ', ' . ').lower())
 
 
 class WordVectorModel(object):
@@ -34,7 +21,7 @@ class WordVectorModel(object):
 
 
     def train(self,path='../Ressources/',modelName='word2Vec',min_count=5,workers=5,end_train=True):
-        sentences = MySentences(path)
+        sentences = aux.MySentences(path)
         self.model = gs.models.Word2Vec(sentences,min_count=min_count,workers=workers)
         if end_train:
             self.model.init_sims(replace=True)
